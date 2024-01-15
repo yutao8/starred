@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>my stared</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.css">
+    <style>
+        #toc {
+            position: fixed;
+            top: 0px;
+            left: 0;
+            width: 150px;
+            height: 100%;
+            background-color: #f8f8f8;
+            overflow-y: auto;
+            font-size: 14px;
+        }
+
+        #toc li {
+            height: 25px;
+        }
+
+        #toc li a {
+            padding: 0px 10px;
+        }
+
+        #markdown-content {
+            margin-left: 150px;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="markdown-content" class="markdown-body"></div>
+    <div id="toc"></div>
+    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+    <script>
+        function loadDoc(url, callback) {
+            var xmlhttp;
+            if (window.XMLHttpRequest) {
+                xmlhttp = new XMLHttpRequest();
+            } else {
+                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+            }
+            xmlhttp.onreadystatechange = function() {
+                callback(xmlhttp);
+            }
+            xmlhttp.open("GET", url, true);
+            xmlhttp.send();
+        }
+    </script>
+    <script>
+        window.onload = function() {
+            loadDoc("readme.md", function(xmlhttp) {
+                markdownText = xmlhttp.responseText;
+                var md = window.markdownit();
+                var html = md.render(markdownText);
+                document.getElementById('markdown-content').innerHTML = html;
+                var tocHtml = '<ul class="nav nav-pills nav-stacked">';
+                var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
+                headings.forEach(function(heading) {
+                    var level = parseInt(heading.tagName.charAt(1));
+                    var text = heading.textContent;
+                    var id = heading.id || text.toLowerCase().replace(/[^\w]+/g, '-');
+                    heading.id = id;
+                    tocHtml += '<li role="presentation"> <a href="#' + id + '" class="toc_li toc-level-' + level + '">' + text + '</a></li>';
+                });
+                tocHtml += "</ul>";
+                document.getElementById('toc').innerHTML = tocHtml;
+            });
+        }
+    </script>
+</body>
+
+</html>
