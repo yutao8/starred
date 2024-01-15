@@ -53,7 +53,7 @@
     </script>
     <script>
         window.onload = function() {
-            loadDoc("readme.md", function(xmlhttp) {
+            loadDoc("README.md", function(xmlhttp) {
                 markdownText = xmlhttp.responseText;
                 var md = window.markdownit();
                 var html = md.render(markdownText);
