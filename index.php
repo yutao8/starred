@@ -5,7 +5,7 @@ is_dir(CACHE_PATH) or mkdir(CACHE_PATH, 0777, true);
 define('GH_TOKEN', $_ENV['GH_TOKEN'] ?? null); //github token  github_pat_xxxxx  https://github.com/settings/tokens?type=beta
 define('GPT_URL', $_ENV['GPT_URL'] ?? null); //chatgpt api url
 define('GPT_KEY', $_ENV['GPT_KEY'] ?? null); //chatgpt key
-$listAll = getAllStarList('yutao8',true);
+$listAll = getAllStarList('yutao8');
 makeMarkdown($listAll);
 echo file_get_contents('index.html');
 
@@ -48,14 +48,16 @@ function makeMarkdown($listAll)
         $text .= "\r\n\r\n### {$lang}\r\n---\r\n";
         $answer_list = defined('GPT_KEY') ? getLinkDescMulti(array_column($list, 'html_url')) : [];
         foreach ($list as $i => $item) {
-            $topic = $item['topics'] ? ("\t`" . implode("` `", $item['topics']) . "`\r\n") : "\r\n";
-            $description = $answer_list[$i] ?: $item['description'];
+            $topic = $item['topics'] ? ("\t`" . implode("` `", $item['topics']) . "`") : "";
+            $description = trim($answer_list[$i] ?: $item['description']);
             $item['updated_at'] = date('Y-m-d H:i:s', strtotime($item['updated_at']));
-            $text .= "\r\n" . <<<EOF
-{$i}. [{$item['full_name']}]({$item['html_url']}) ⭐: {$item['stargazers_count']} ⌨️: {$item['language']}  {$topic}
-    {$description}
-EOF;
-            $text .= "\r\n";
+            $text .= "\r\n{$i}. [{$item['full_name']}]({$item['html_url']}) ⭐: {$item['stargazers_count']} ⌨️: {$item['language']}{$topic}";
+            if($i>99){
+                $text .="\r\n\r\n     {$description}\r\n";
+            }else{
+                $text .="\r\n\r\n\t{$description}\r\n";
+            }
+            
         }
     }
     file_put_contents('readme.md', $text);
