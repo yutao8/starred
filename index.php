@@ -1,11 +1,11 @@
 <?php
 set_time_limit(0);
-define('CACHE_PATH', dirname(__DIR__) . '/.cache/'); //缓存目录
+define('CACHE_PATH', __DIR__ . '/.cache/'); //缓存目录
 is_dir(CACHE_PATH) or mkdir(CACHE_PATH, 0777, true);
 define('GH_TOKEN', $_ENV['GH_TOKEN'] ?? null); //github token  github_pat_xxxxx  https://github.com/settings/tokens?type=beta
 define('GPT_URL', $_ENV['GPT_URL'] ?? null); //chatgpt api url
 define('GPT_KEY', $_ENV['GPT_KEY'] ?? null); //chatgpt key
-$listAll = getAllStarList('yutao8');
+$listAll = getAllStarList('yutao8',true);
 makeMarkdown($listAll);
 echo file_get_contents('index.html');
 
