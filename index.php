@@ -60,7 +60,7 @@ function makeMarkdown($listAll)
             
         }
     }
-    file_put_contents('readme.md', $text);
+    file_put_contents('README.md', $text);
     return $text;
 }
 
