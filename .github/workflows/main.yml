@@ -1,0 +1,25 @@
+name: PHP Workflow
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # 每天 UTC 时间 00:00 运行
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.2'
+
+      - name: Run PHP script
+        env:
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # github token
+          GPT_URL: ${{ secrets.GPT_URL }}  # chatgpt url
+          GPT_KEY: ${{ secrets.GPT_KEY }}  # chatgpt key
+        run: php index.php
