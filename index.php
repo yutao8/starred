@@ -6,7 +6,7 @@ define('GH_TOKEN', $_ENV['GH_TOKEN'] ?? null); //github token  github_pat_xxxxx 
 define('GPT_URL', $_ENV['GPT_URL'] ?? null); //chatgpt api url
 define('GPT_KEY', $_ENV['GPT_KEY'] ?? null); //chatgpt key
 $username = isset($_ENV['GITHUB_ACTOR']) ? $_ENV['GITHUB_ACTOR'] : 'yutao8';
-var_dump($_ENV);die;
+var_dump($_SERVER);die;
 GH_TOKEN or die('GH_TOKEN is null!');
 
 $listAll = getAllStarList($username);
