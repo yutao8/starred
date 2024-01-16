@@ -5,9 +5,13 @@ is_dir(CACHE_PATH) or mkdir(CACHE_PATH, 0777, true);
 define('GH_TOKEN', $_ENV['GH_TOKEN'] ?? null); //github token  github_pat_xxxxx  https://github.com/settings/tokens?type=beta
 define('GPT_URL', $_ENV['GPT_URL'] ?? null); //chatgpt api url
 define('GPT_KEY', $_ENV['GPT_KEY'] ?? null); //chatgpt key
-$listAll = getAllStarList('yutao8',true);
+
+GH_TOKEN or die('GH_TOKEN is null!');
+
+$listAll = getAllStarList('yutao8');
 makeMarkdown($listAll);
 echo file_get_contents('index.html');
+
 
 //获取关注列表
 function getAllStarList($username, $update = false)
@@ -29,7 +33,7 @@ function getAllStarList($username, $update = false)
         ];
         $list = json_decode(http_request($url, [], $header), true);
         foreach ($list as  $item) {
-            $item['language'] or $item['language'] = 'NaN';
+            isset($item['language']) or $item['language'] = 'NaN';
             $listAll[$item['language']][] = $item;
         }
     } while ($list);
@@ -52,15 +56,14 @@ function makeMarkdown($listAll)
             $description = trim($answer_list[$i] ?: $item['description']);
             $item['updated_at'] = date('Y-m-d H:i:s', strtotime($item['updated_at']));
             $text .= "\r\n{$i}. [{$item['full_name']}]({$item['html_url']}) ⭐: {$item['stargazers_count']} ⌨️: {$item['language']}{$topic}";
-            if($i>99){
-                $text .="\r\n\r\n     {$description}\r\n";
-            }else{
-                $text .="\r\n\r\n\t{$description}\r\n";
+            if ($i > 99) {
+                $text .= "\r\n\r\n     {$description}\r\n";
+            } else {
+                $text .= "\r\n\r\n\t{$description}\r\n";
             }
-            
         }
     }
-    file_put_contents('README.md', $text);
+    file_put_contents('readme.md', $text);
     return $text;
 }
 
