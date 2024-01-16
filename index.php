@@ -5,7 +5,7 @@ is_dir(CACHE_PATH) or mkdir(CACHE_PATH, 0777, true);
 define('GH_TOKEN', $_SERVER['GH_TOKEN'] ?? null); //github token  github_pat_xxxxx  https://github.com/settings/tokens?type=beta
 define('GPT_URL', $_SERVER['GPT_URL'] ?? null); //chatgpt api url
 define('GPT_KEY', $_SERVER['GPT_KEY'] ?? null); //chatgpt key
-$username = isset($_ENV['GITHUB_ACTOR']) ? $_ENV['GITHUB_ACTOR'] : 'yutao8';
+$username = isset($_SERVER['GITHUB_ACTOR']) ? $_SERVER['GITHUB_ACTOR'] : 'yutao8';
 
 GH_TOKEN or die('GH_TOKEN is null!');
 
