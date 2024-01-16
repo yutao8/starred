@@ -1,8 +1,19 @@
 name: PHP Workflow
 
+# on:
+#   schedule:
+#     - cron: '0 0 * * *' # 每天 UTC 时间 00:00 运行
 on:
-  schedule:
-    - cron: '0 0 * * *' # 每天 UTC 时间 00:00 运行
+  # 手动触发事件
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags'
+
 
 jobs:
   build:
