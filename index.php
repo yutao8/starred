@@ -31,11 +31,15 @@ function getAllStarList($username, $update = false) {
 	$page = 0;
 	do {
 		$page++;
+		print_r('get stared list page:'.$page."\r\n");
 		$url = 'https://api.github.com/users/' . $username . '/starred?per_page=100&page=' . $page;
 		$ua = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36';
 		$header = ['Accept: application/vnd.github+json', 'Authorization: Bearer ' . GH_TOKEN, 'User-Agent: ' . $ua,];
 		$list = json_decode(http_request($url, [], $header), true);
 		foreach ($list as $item) {
+			if(empty($item['html_url'])){
+				var_dump($item);die;
+			}
 			isset($item['language']) or $item['language'] = 'NaN';
 			$listAll[$item['language']][] = $item;
 		}
@@ -52,10 +56,11 @@ function makeMarkdown($listAll): string {
 	$text = '# github starred update at '.date('Y-m-d H:i:s');
 	foreach ($listAll as $lang => $list) {
 		$text .= "\r\n\r\n### $lang\r\n---\r\n";
-		$answer_list = defined('GPT_KEY') ? getLinkDescMulti(array_column($list, 'html_url')) : [];
+//		$answer_list = defined('GPT_KEY') ? getLinkDescMulti(array_column($list, 'html_url')) : [];
 		foreach ($list as $i => $item) {
 			$topic = $item['topics'] ? ("\t`" . implode("` `", $item['topics']) . "`") : "";
-			$description = trim($answer_list[$i] ?: $item['description']);
+//			$description = trim($answer_list[$i] ?: $item['description']);
+			$description= getLinkDesc($item['html_url']);
 			$item['updated_at'] = date('Y-m-d H:i:s', strtotime($item['updated_at']));
 			$text .= "\r\n$i. [{$item['full_name']}]({$item['html_url']}) ⭐: {$item['stargazers_count']} ⌨️: {$item['language']}$topic";
 			if ($i > 99) {
@@ -76,8 +81,10 @@ function getLinkDesc($url, $update = false) {
 	if ($cacheData && !$update) {
 		return $cacheData['answer'];
 	}
+	
 	$answer = ask_gpt("用中文简单介绍一下这个项目，尽量控制在100个字以内。" . $url, "", "gpt-3.5-turbo-1106");
 	$answer && file_put_contents($cacheFile, json_encode(['url' => $url, 'answer' => $answer], JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+	print_r($url."\t".$answer."\r\n");
 	return $answer;
 }
 
