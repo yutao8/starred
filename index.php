@@ -99,7 +99,8 @@ function getLinkDescMulti($starList, $update = false): array {
 
 //生成markdown文件
 function makeMarkdown($listAll): string {
-	$text = "# github starred \r\n update at ".date('Y-m-d H:i:s');
+	$countAll=array_sum(array_map(function($list){return count($list); },$listAll));
+	$text = "# GitHub starred \r\n total : ".$countAll."  update at ".date('Y-m-d H:i:s');
 	foreach ($listAll as $lang => $list) {
 		$text .= "\r\n\r\n### $lang\r\n---\r\n";
 		foreach ($list as $i => $item) {
