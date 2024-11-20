@@ -36,7 +36,6 @@ foreach ($listAll as $lang=> &$list) {
 }
 file_put_contents('starList.json',jsonEncode($listAll));
 makeMarkdown($listAll);
-echo file_get_contents('index.html');
 
 
 //获取关注列表
