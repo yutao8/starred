@@ -115,7 +115,7 @@ function makeMarkdown($listAll): string {
 			}
 		}
 	}
-	file_put_contents('readme.md', $text);
+	file_put_contents('README.md', $text);
 	return $text;
 }
 
