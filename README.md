@@ -1,5 +1,5 @@
 # GitHub starred 
- total : 1439  update at 2024-11-22 06:00:03
+ total : 1440  update at 2024-11-22 12:00:04
 
 ### Python
 ---
@@ -1288,383 +1288,387 @@
 
      Form Builder是一个基于Vue.js的简单易用的表单构建工具，通过拖拽的方式快速构建表单，支持自定义表单字段，并生成对应的JSON表单数据。用户可以轻松地创建和定制各种表单，快速集成到自己的项目中。
 
-160. [Beipy/BeipyVideoResolution](https://github.com/Beipy/BeipyVideoResolution) ⭐: 681 ⌨️: PHP	`javascript` `jquery` `php`
+160. [JaguarJack/catch-admin](https://github.com/JaguarJack/catch-admin) ⭐: 723 ⌨️: PHP	`admin` `composer` `elementplus` `laravel` `laravel-admin` `php` `vue-admin` `vue3`
+
+     Catch-Admin是一个基于Spring Boot和Vue.js的快速开发框架，用于构建企业级管理系统。它提供了丰富的组件和功能，包括RBAC权限管理、代码生成器、定时任务等。开发者可以使用Catch-Admin快速搭建起自己的管理系统。
+
+161. [Beipy/BeipyVideoResolution](https://github.com/Beipy/BeipyVideoResolution) ⭐: 681 ⌨️: PHP	`javascript` `jquery` `php`
 
      BeipyVideoResolution 是一个基于 Python 的视频分辨率检测工具，可以用来检测视频文件的分辨率信息。用户可以通过该工具快速准确地获取视频文件的分辨率，方便进行后续的处理和分析。
 
-161. [guanguans/music-dl](https://github.com/guanguans/music-dl) ⭐: 680 ⌨️: PHP	`command` `command-line-tool` `commandline` `download` `downloader` `music` `php` `search` `song`
+162. [guanguans/music-dl](https://github.com/guanguans/music-dl) ⭐: 680 ⌨️: PHP	`command` `command-line-tool` `commandline` `download` `downloader` `music` `php` `search` `song`
 
      这个项目是一个基于Python的音乐下载工具，可以用来下载音乐、歌词和封面，支持多种音乐平台，包括网易云音乐、QQ音乐和酷狗音乐等。通过该工具，用户可以方便地获取自己喜爱的音乐文件。
 
-162. [wp-cli/php-cli-tools](https://github.com/wp-cli/php-cli-tools) ⭐: 675 ⌨️: PHP	`cli` `command-line` `hacktoberfest` `wp-cli`
+163. [wp-cli/php-cli-tools](https://github.com/wp-cli/php-cli-tools) ⭐: 675 ⌨️: PHP	`cli` `command-line` `hacktoberfest` `wp-cli`
 
      这个项目是一个PHP命令行工具包，可以帮助开发者更轻松地构建和执行命令行工具。它包括了一系列常用的命令行工具函数，可以简化命令行脚本的编写和管理。
 
-163. [slince/spike](https://github.com/slince/spike) ⭐: 667 ⌨️: PHP	`expose-localhost` `http-tunnel` `nat` `proxy` `reverse-proxy` `spike` `tcp-tunnel` `tunnel`
+164. [slince/spike](https://github.com/slince/spike) ⭐: 667 ⌨️: PHP	`expose-localhost` `http-tunnel` `nat` `proxy` `reverse-proxy` `spike` `tcp-tunnel` `tunnel`
 
      Spike是一个用Java实现的高性能、低内存消耗的HTTP和WebSocket代理服务器。它支持多路复用和异步I/O，适合用于构建高性能的网络代理服务。
 
-164. [smalls0098/video-parse-tools](https://github.com/smalls0098/video-parse-tools) ⭐: 653 ⌨️: PHP	`douyin` `kuaishou` `qushuiyin` `weishi`
+165. [smalls0098/video-parse-tools](https://github.com/smalls0098/video-parse-tools) ⭐: 653 ⌨️: PHP	`douyin` `kuaishou` `qushuiyin` `weishi`
 
      video-parse-tools是一个用于从视频中提取文本和关键帧的工具。它可以帮助用户从视频中获取文字信息，并提取关键帧以便进行分析和索引。
 
-165. [zhongshaofa/easyadmin](https://github.com/zhongshaofa/easyadmin) ⭐: 652 ⌨️: PHP	`admin` `easyadmin` `layui` `layuimini` `php` `thinkphp` `thinkphp6` `tp6`
+166. [zhongshaofa/easyadmin](https://github.com/zhongshaofa/easyadmin) ⭐: 652 ⌨️: PHP	`admin` `easyadmin` `layui` `layuimini` `php` `thinkphp` `thinkphp6` `tp6`
 
      EasyAdmin 是一个基于Java语言，用于快速开发管理系统的开源项目。它提供了丰富的模板和组件，包括菜单管理、权限管理、数据字典、代码生成等功能，简化了管理系统的开发过程，帮助开发者快速搭建企业级后台管理应用。
 
-166. [guanguans/notify](https://github.com/guanguans/notify) ⭐: 637 ⌨️: PHP	`bark` `bot-api` `dingtalk` `discord` `gitter` `googlechat` `lark` `mattermost` `microsoftteams` `notification` `ntfy` `push` `pushback` `pushover` `qq` `rocketchat` `slack` `telegram` `wework` `zulip`
+167. [guanguans/notify](https://github.com/guanguans/notify) ⭐: 637 ⌨️: PHP	`bark` `bot-api` `dingtalk` `discord` `gitter` `googlechat` `lark` `mattermost` `microsoftteams` `notification` `ntfy` `push` `pushback` `pushover` `qq` `rocketchat` `slack` `telegram` `wework` `zulip`
 
      notify是一个基于Go语言开发的通知库，支持发送通知到多种平台，如Slack、Telegram、DingTalk等。它提供了简单易用的API，可以方便地集成到各种应用程序中，实现通知功能。
 
-167. [Nicolab/php-ftp-client](https://github.com/Nicolab/php-ftp-client) ⭐: 636 ⌨️: PHP
+168. [Nicolab/php-ftp-client](https://github.com/Nicolab/php-ftp-client) ⭐: 636 ⌨️: PHP
 
      这是一个用PHP编写的简单而灵活的FTP客户端库，可用于连接和操作FTP服务器。它提供了简单的API，可以方便地上传、下载、删除文件，创建目录等操作。
 
-168. [zhuige-com/jiangqie_kafei](https://github.com/zhuige-com/jiangqie_kafei) ⭐: 593 ⌨️: PHP	`miniprogram` `wordpress` `wordpress-plugin`
+169. [zhuige-com/jiangqie_kafei](https://github.com/zhuige-com/jiangqie_kafei) ⭐: 593 ⌨️: PHP	`miniprogram` `wordpress` `wordpress-plugin`
 
      这是一个名为"江茄咔啡"的项目，是一款基于Vue.js和Node.js开发的前后端分离的咖啡店网上订购系统。用户可以浏览咖啡菜单、下单购买咖啡，也可以管理订单和用户信息。整个系统简单易用，适合咖啡店快速搭建线上订购渠道。
 
-169. [Th3-822/rapidleech](https://github.com/Th3-822/rapidleech) ⭐: 591 ⌨️: PHP
+170. [Th3-822/rapidleech](https://github.com/Th3-822/rapidleech) ⭐: 591 ⌨️: PHP
 
      Rapidleech 是一个开源的 PHP 脚本，用于快速下载文件并方便地在网络上分享文件。用户可以将文件链接粘贴到 Rapidleech 页面上，然后脚本会自动下载文件并生成直接下载链接。这个项目提供了一个简单而强大的工具，帮助用户轻松管理和分享文件。
 
-170. [donatj/PhpUserAgent](https://github.com/donatj/PhpUserAgent) ⭐: 565 ⌨️: PHP	`browser` `composer` `php` `ua-parser` `user-agent-parser`
+171. [donatj/PhpUserAgent](https://github.com/donatj/PhpUserAgent) ⭐: 565 ⌨️: PHP	`browser` `composer` `php` `ua-parser` `user-agent-parser`
 
      PhpUserAgent是一个用PHP编写的用户代理解析器，它可以解析用户代理字符串，提取其中的浏览器、操作系统和设备信息。这个工具对于网站统计和用户体验优化非常有用。
 
-171. [mingyoung/dingtalk](https://github.com/mingyoung/dingtalk) ⭐: 561 ⌨️: PHP	`dingding` `dingtalk`
+172. [mingyoung/dingtalk](https://github.com/mingyoung/dingtalk) ⭐: 561 ⌨️: PHP	`dingding` `dingtalk`
 
      这是一个钉钉（DingTalk）的第三方.NET SDK，用于在.NET应用程序中集成钉钉的功能，包括发送消息、获取部门信息、上传文件等。这个SDK使得在.NET应用中与钉钉进行交互变得更加容易和高效。
 
-172. [noodlehaus/dispatch](https://github.com/noodlehaus/dispatch) ⭐: 534 ⌨️: PHP	`framework` `micro-framework` `microframework` `middleware` `php` `php-framework` `php-micro-framework` `php-microframework` `php-router` `router`
+173. [noodlehaus/dispatch](https://github.com/noodlehaus/dispatch) ⭐: 534 ⌨️: PHP	`framework` `micro-framework` `microframework` `middleware` `php` `php-framework` `php-micro-framework` `php-microframework` `php-router` `router`
 
      Dispatch是一个使用Java编写的简单的HTTP客户端库，旨在提供简洁、易用的API，用于发送HTTP请求和处理响应。它支持异步请求、基本认证、代理、重定向和cookie等常见的HTTP特性。Dispatch提供了一种更简单的方式来处理HTTP通信，可以帮助开发人员更轻松地构建和管理他们的HTTP请求和响应。
 
-173. [nick-bai/snake](https://github.com/nick-bai/snake) ⭐: 532 ⌨️: PHP	`admin` `snake` `thinkphp`
+174. [nick-bai/snake](https://github.com/nick-bai/snake) ⭐: 532 ⌨️: PHP	`admin` `snake` `thinkphp`
 
      这是一个用Python编写的贪吃蛇游戏。玩家操纵蛇吃食物，并避免撞到墙壁或自己的身体。游戏界面简单直观，适合初学者学习Python编程和游戏开发。
 
-174. [bupt1987/html-parser](https://github.com/bupt1987/html-parser) ⭐: 525 ⌨️: PHP	`html` `html-parser` `parser`
+175. [bupt1987/html-parser](https://github.com/bupt1987/html-parser) ⭐: 525 ⌨️: PHP	`html` `html-parser` `parser`
 
      这个项目是一个HTML解析器，用于从HTML文档中提取数据和信息。它支持解析HTML标签、属性和文本内容，可以帮助开发者快速获取所需的信息。
 
-175. [jpush/jpush-api-php-client](https://github.com/jpush/jpush-api-php-client) ⭐: 522 ⌨️: PHP
+176. [jpush/jpush-api-php-client](https://github.com/jpush/jpush-api-php-client) ⭐: 522 ⌨️: PHP
 
      这个项目是极光推送的 PHP 客户端 SDK，提供了丰富的 API 接口，方便开发者在 PHP 项目中集成极光推送功能。开发者可以使用该 SDK 调用极光推送的各种功能，如发送通知、自定义消息、查询推送结果等。SDK 提供了简洁的接口和详细的文档，方便开发者快速上手集成。
 
-176. [chenlinzhong/php-delayqueue](https://github.com/chenlinzhong/php-delayqueue) ⭐: 519 ⌨️: PHP	`php` `redis`
+177. [chenlinzhong/php-delayqueue](https://github.com/chenlinzhong/php-delayqueue) ⭐: 519 ⌨️: PHP	`php` `redis`
 
      这个项目是一个基于PHP开发的延迟队列系统，用于处理需要延迟执行的任务。它能够实现任务的延时执行和重试功能，支持自定义的处理逻辑和任务优先级。延迟队列系统可以帮助开发者更好地处理定时任务和异步任务，提高系统的可靠性和稳定性。
 
-177. [Zhao-github/ApiAdmin](https://github.com/Zhao-github/ApiAdmin) ⭐: 498 ⌨️: PHP	`api` `apiadmin` `osc` `thinkphp`
+178. [Zhao-github/ApiAdmin](https://github.com/Zhao-github/ApiAdmin) ⭐: 498 ⌨️: PHP	`api` `apiadmin` `osc` `thinkphp`
 
      ApiAdmin是一个基于Vue.js和Spring Boot的前后端分离的API管理平台。它提供了API接口管理、权限管理、文档管理等功能，同时支持多语言配置和多环境部署。该项目在实际开发中能够帮助团队提高API的管理效率和协作能力。
 
-178. [Yurunsoft/ChineseUtil](https://github.com/Yurunsoft/ChineseUtil) ⭐: 497 ⌨️: PHP	`chinese` `chinese-simplified` `chinese-traditional` `ffi` `php` `pinyin` `pinyin-analysis`
+179. [Yurunsoft/ChineseUtil](https://github.com/Yurunsoft/ChineseUtil) ⭐: 497 ⌨️: PHP	`chinese` `chinese-simplified` `chinese-traditional` `ffi` `php` `pinyin` `pinyin-analysis`
 
      ChineseUtil是一个Java工具库，用于处理中文相关的常见操作，包括中文数字转换、拼音转换、汉字简繁转换等功能。这个库可以帮助Java开发者更方便地处理中文文本，并且支持多种中文字符编码。
 
-179. [swoole/ide-helper](https://github.com/swoole/ide-helper) ⭐: 493 ⌨️: PHP	`autocompletion` `ide-helpers` `php` `swoole` `typehinting`
+180. [swoole/ide-helper](https://github.com/swoole/ide-helper) ⭐: 493 ⌨️: PHP	`autocompletion` `ide-helpers` `php` `swoole` `typehinting`
 
      这个项目是Swoole的IDE助手，为开发者提供了Swoole框架的代码提示、自动补全和类型检查功能。可以帮助开发者更高效地编写Swoole框架的代码，并提升开发体验。
 
-180. [yitd/Any-Proxy](https://github.com/yitd/Any-Proxy) ⭐: 475 ⌨️: PHP
+181. [yitd/Any-Proxy](https://github.com/yitd/Any-Proxy) ⭐: 475 ⌨️: PHP
 
      Any-Proxy 是一个基于 Node.js 的轻量级代理工具，可以用来拦截和修改 HTTP/HTTPS 请求和响应。它具有易用的界面和强大的功能，可以帮助开发者进行调试、抓包和模拟请求等操作。
 
-181. [ircmaxell/filterus](https://github.com/ircmaxell/filterus) ⭐: 454 ⌨️: PHP
+182. [ircmaxell/filterus](https://github.com/ircmaxell/filterus) ⭐: 454 ⌨️: PHP
 
      Filterus是一个PHP库，用于验证和过滤数据。它提供了一组简单易用的方法，可以验证输入数据的格式是否正确，并对数据进行过滤，从而提高应用程序的安全性和稳定性。Filterus能够有效地防止常见的安全漏洞，如SQL注入、跨站脚本攻击等。
 
-182. [ChenSee/ChenPay](https://github.com/ChenSee/ChenPay) ⭐: 444 ⌨️: PHP
+183. [ChenSee/ChenPay](https://github.com/ChenSee/ChenPay) ⭐: 444 ⌨️: PHP
 
      ChenPay是一个基于区块链技术的去中心化支付平台，旨在为用户提供安全、快速、低成本的支付解决方案。通过智能合约和加密货币，ChenPay帮助用户进行跨境支付和转账，消除传统金融体系的繁琐手续和高手续费。
 
-183. [yuan1994/tpAdmin](https://github.com/yuan1994/tpAdmin) ⭐: 439 ⌨️: PHP
+184. [yuan1994/tpAdmin](https://github.com/yuan1994/tpAdmin) ⭐: 439 ⌨️: PHP
 
      tpAdmin 是一个基于 ThinkPHP 框架和 layui 前端框架开发的后台管理系统模板，提供了丰富的组件和功能，支持快速搭建各类后台管理系统。具有界面美观、操作便捷、代码结构清晰等特点，适合用于各种 Web 应用的后台管理界面开发。
 
-184. [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) ⭐: 428 ⌨️: PHP	`coroutine` `oauth-client` `oauth2` `php` `qqlogin` `swoole` `weixinlogin`
+185. [Yurunsoft/YurunOAuthLogin](https://github.com/Yurunsoft/YurunOAuthLogin) ⭐: 428 ⌨️: PHP	`coroutine` `oauth-client` `oauth2` `php` `qqlogin` `swoole` `weixinlogin`
 
      YurunOAuthLogin是一个基于PHP的第三方登录SDK，支持微信、微博、QQ等平台的登录功能。通过该SDK，开发者可以方便地集成第三方登录功能到自己的网站或应用中。
 
-185. [likeyun/WeChat-Group-HuoMa](https://github.com/likeyun/WeChat-Group-HuoMa) ⭐: 408 ⌨️: PHP
+186. [likeyun/WeChat-Group-HuoMa](https://github.com/likeyun/WeChat-Group-HuoMa) ⭐: 408 ⌨️: PHP
 
      这个项目是一个基于微信群的活码生成工具，可以通过扫描生成的二维码加入指定的微信群。通过该工具可以方便地管理群组的入群流程和推广活动。
 
-186. [brainfoolong/cryptojs-aes-php](https://github.com/brainfoolong/cryptojs-aes-php) ⭐: 395 ⌨️: PHP	`aes-encryption` `cryptojs` `javascript` `php`
+187. [brainfoolong/cryptojs-aes-php](https://github.com/brainfoolong/cryptojs-aes-php) ⭐: 395 ⌨️: PHP	`aes-encryption` `cryptojs` `javascript` `php`
 
      这个项目是一个PHP库，用于在服务器端使用CryptoJS进行AES加密和解密。它提供了一种简单的方法来使用JavaScript中的CryptoJS库，以便在PHP中执行AES加密和解密操作。这对于需要在前后端之间进行数据加密和解密的Web应用程序非常有用。
 
-187. [zbfzn/douyin-clear-php](https://github.com/zbfzn/douyin-clear-php) ⭐: 392 ⌨️: PHP	`douyin`
+188. [zbfzn/douyin-clear-php](https://github.com/zbfzn/douyin-clear-php) ⭐: 392 ⌨️: PHP	`douyin`
 
      这个项目是一个基于PHP的抖音无水印视频解析工具，可用于解析抖音上的视频，去除水印后下载保存。通过这个工具，用户可以方便地获取抖音上的视频资源，并进行保存或分享。
 
-188. [radiosilence/Ham](https://github.com/radiosilence/Ham) ⭐: 388 ⌨️: PHP
+189. [radiosilence/Ham](https://github.com/radiosilence/Ham) ⭐: 388 ⌨️: PHP
 
      Ham是一个开源的HTTP访问管理工具，它可以帮助开发人员更轻松地构建和管理HTTP请求。它提供了简单易用的API和流畅的链式调用语法，让你可以方便地处理HTTP请求和响应。Ham还支持各种HTTP客户端，包括浏览器和Node.js环境。
 
-189. [liu21st/onethink](https://github.com/liu21st/onethink) ⭐: 380 ⌨️: PHP
+190. [liu21st/onethink](https://github.com/liu21st/onethink) ⭐: 380 ⌨️: PHP
 
      OneThink是一个基于ThinkPHP的开源内容管理系统（CMS），提供了丰富的插件和模块扩展，支持多种应用场景的定制化。用户可以使用OneThink快速搭建个人博客、企业官网、论坛或在线商城等网站，实现快速开发和定制化需求。
 
-190. [wuqinqiang/leetcode-php](https://github.com/wuqinqiang/leetcode-php) ⭐: 379 ⌨️: PHP
+191. [wuqinqiang/leetcode-php](https://github.com/wuqinqiang/leetcode-php) ⭐: 379 ⌨️: PHP
 
      这个项目是一个使用PHP语言解决LeetCode算法题的仓库，其中包含了多种不同题目的解法，帮助PHP开发者学习算法和提高编程能力。
 
-191. [Mickeyto/phpVideos](https://github.com/Mickeyto/phpVideos) ⭐: 367 ⌨️: PHP	`downloader` `php` `phpvideos`
+192. [Mickeyto/phpVideos](https://github.com/Mickeyto/phpVideos) ⭐: 367 ⌨️: PHP	`downloader` `php` `phpvideos`
 
      phpVideos是一个基于PHP的视频网站项目，提供了视频上传、播放和管理功能。它使用MySQL作为数据库存储视频信息，并具有用户管理和权限控制功能。该项目可以帮助开发人员快速搭建一个简单的视频网站，并对其进行自定义扩展。
 
-192. [aazooo/zjmf](https://github.com/aazooo/zjmf) ⭐: 364 ⌨️: PHP
+193. [aazooo/zjmf](https://github.com/aazooo/zjmf) ⭐: 364 ⌨️: PHP
 
      这个项目是一个用C++编写的用于简化数学表达式的库。它可以将复杂的数学表达式转换为简化形式，使其更易于理解和处理。通过该库，用户可以轻松地进行数学表达式的简化和计算，提高数学表达式处理的效率。
 
-193. [caiweiming/DolphinPHP](https://github.com/caiweiming/DolphinPHP) ⭐: 359 ⌨️: PHP
+194. [caiweiming/DolphinPHP](https://github.com/caiweiming/DolphinPHP) ⭐: 359 ⌨️: PHP
 
      DolphinPHP是一个基于PHP开发的轻量级框架，用于快速构建Web应用程序。它具有简单易用的特点，提供了丰富的模块和插件，适合快速开发小型到中型的项目。DolphinPHP还内置了常用的功能和安全机制，为开发者提供了便利。
 
-194. [iAJue/Fantasy-field](https://github.com/iAJue/Fantasy-field) ⭐: 329 ⌨️: PHP	`img` `php`
+195. [iAJue/Fantasy-field](https://github.com/iAJue/Fantasy-field) ⭐: 329 ⌨️: PHP	`img` `php`
 
      Fantasy-field 是一个用于创建和管理虚拟现实场景的开源项目，基于Unity引擎开发。它提供了丰富的场景设计工具和模块化组件，用户可以利用这些功能快速构建自己的虚拟现实场景。该项目还支持多用户实时协作，可以让多个用户同时在同一个虚拟场景中进行交互和编辑。
 
-195. [gogobody/onecircle](https://github.com/gogobody/onecircle) ⭐: 328 ⌨️: PHP
+196. [gogobody/onecircle](https://github.com/gogobody/onecircle) ⭐: 328 ⌨️: PHP
 
      OneCircle是一个基于Python的实用工具，用于在圆形区域内生成随机点。这个项目可以帮助用户在地图或图形上创建指定半径的圆形区域，并在其中生成指定数量的随机点，适用于各种需要圆形区域内随机点的应用场景。
 
-196. [FaaPz/PDO](https://github.com/FaaPz/PDO) ⭐: 316 ⌨️: PHP	`pdo` `pdo-database-library` `php-library` `php72` `query-builder`
+197. [FaaPz/PDO](https://github.com/FaaPz/PDO) ⭐: 316 ⌨️: PHP	`pdo` `pdo-database-library` `php-library` `php72` `query-builder`
 
      PDO（PHP数据对象）是PHP中的一种数据库访问抽象层，可以支持多种数据库系统。它提供了一种简洁易用的方式来执行数据库操作，并且能够防止SQL注入攻击。这个项目是一个开源的PDO封装类库，可以帮助开发者更便捷地使用PDO进行数据库操作。
 
-197. [GallopYD/domain-tool](https://github.com/GallopYD/domain-tool) ⭐: 311 ⌨️: PHP	`domain` `wechat` `whois`
+198. [GallopYD/domain-tool](https://github.com/GallopYD/domain-tool) ⭐: 311 ⌨️: PHP	`domain` `wechat` `whois`
 
      这个项目是一个用Python编写的域名工具，可以用来获取域名的WHOIS信息、DNS记录、IP地址等信息。它提供了简单易用的接口，可以帮助用户快速查询域名的相关信息。
 
-198. [TufayelLUS/TikTok-Video-Downloader-PHP](https://github.com/TufayelLUS/TikTok-Video-Downloader-PHP) ⭐: 308 ⌨️: PHP	`tiktok` `tiktok-downloader`
+199. [TufayelLUS/TikTok-Video-Downloader-PHP](https://github.com/TufayelLUS/TikTok-Video-Downloader-PHP) ⭐: 308 ⌨️: PHP	`tiktok` `tiktok-downloader`
 
      这个项目是一个使用PHP编写的TikTok视频下载器。它可以帮助用户轻松地从TikTok平台上下载视频内容。
 
-199. [xytoki/TCShare](https://github.com/xytoki/TCShare) ⭐: 307 ⌨️: PHP
+200. [xytoki/TCShare](https://github.com/xytoki/TCShare) ⭐: 307 ⌨️: PHP
 
      TCShare是一个基于Python的简单文件共享工具，可以通过本地网络快速共享文件。它使用了HTTP服务器来实现文件共享，并提供了简单的Web界面来管理共享的文件。
 
-200. [funson86/funboot](https://github.com/funson86/funboot) ⭐: 302 ⌨️: PHP	`funboot` `gii` `saas` `yii2` `yii2saas` `yii2shop`
+201. [funson86/funboot](https://github.com/funson86/funboot) ⭐: 302 ⌨️: PHP	`funboot` `gii` `saas` `yii2` `yii2saas` `yii2shop`
 
      Funboot 是一个基于 Spring Boot 的快速开发框架，提供了丰富的功能模块和工具，包括权限管理、日志记录、代码生成器等。它能帮助开发者快速搭建后端管理系统，并提高开发效率。
 
-201. [FlxSNX/TeambitionShare](https://github.com/FlxSNX/TeambitionShare) ⭐: 301 ⌨️: PHP
+202. [FlxSNX/TeambitionShare](https://github.com/FlxSNX/TeambitionShare) ⭐: 301 ⌨️: PHP
 
      teambitionShare是一个基于Node.js和Teambition API的项目，用于与Teambition进行协作和分享文件。可以通过命令行来上传、下载、分享Teambition上的文件，方便地进行团队文件管理和共享。
 
-202. [qiqizjl/think-wechat](https://github.com/qiqizjl/think-wechat) ⭐: 266 ⌨️: PHP	`easywechat` `think` `thinkphp` `wechat` `weixin`
+203. [qiqizjl/think-wechat](https://github.com/qiqizjl/think-wechat) ⭐: 266 ⌨️: PHP	`easywechat` `think` `thinkphp` `wechat` `weixin`
 
      这个项目是基于ThinkPHP5.1和微信公众平台开发的扩展，可以帮助开发者快速集成微信公众号的功能，包括获取用户信息、发送模板消息、菜单管理等。通过这个项目，开发者可以快速搭建微信公众号的后台服务。
 
-203. [rchouinard/phpass](https://github.com/rchouinard/phpass) ⭐: 246 ⌨️: PHP
+204. [rchouinard/phpass](https://github.com/rchouinard/phpass) ⭐: 246 ⌨️: PHP
 
      这个项目是一个PHP库，用于创建和验证密码哈希。它实现了Blowfish加密算法，并且易于集成到PHP应用程序中，能够提供安全的密码存储和验证功能。
 
-204. [iamxjb/rest-api-to-miniprogram](https://github.com/iamxjb/rest-api-to-miniprogram) ⭐: 243 ⌨️: PHP
+205. [iamxjb/rest-api-to-miniprogram](https://github.com/iamxjb/rest-api-to-miniprogram) ⭐: 243 ⌨️: PHP
 
      这个项目是一个将 REST API 数据转换成微信小程序可用的数据格式的工具。它可以帮助开发者将从 REST API 获取的数据转换成适合在微信小程序中展示的格式，提供了方便快捷的接口调用方法，简化了在小程序中展示后端数据的流程。
 
-205. [wuruiwm/msautocreate](https://github.com/wuruiwm/msautocreate) ⭐: 237 ⌨️: PHP
+206. [wuruiwm/msautocreate](https://github.com/wuruiwm/msautocreate) ⭐: 237 ⌨️: PHP
 
      这是一个用于自动创建微服务项目的工具。通过简单的命令，可以快速生成包括服务接口、数据库模型、控制器等在内的微服务项目框架，极大地提高了开发效率。
 
-206. [aliyun/openapi-sdk-php-client](https://github.com/aliyun/openapi-sdk-php-client) ⭐: 221 ⌨️: PHP	`alibaba` `alibabacloud` `aliyun` `client` `cloud` `composer` `php` `region` `sdk`
+207. [aliyun/openapi-sdk-php-client](https://github.com/aliyun/openapi-sdk-php-client) ⭐: 221 ⌨️: PHP	`alibaba` `alibabacloud` `aliyun` `client` `cloud` `composer` `php` `region` `sdk`
 
      这个项目是阿里云官方提供的PHP版OpenAPI SDK客户端，用于方便地在PHP应用中调用阿里云的各种API接口。可以通过该SDK实现对阿里云产品的管理和操作，例如云服务器、对象存储、数据库等。
 
-207. [walkor/php-socks5](https://github.com/walkor/php-socks5) ⭐: 215 ⌨️: PHP	`php` `socks5` `socks5-proxy` `socks5-server` `workerman`
+208. [walkor/php-socks5](https://github.com/walkor/php-socks5) ⭐: 215 ⌨️: PHP	`php` `socks5` `socks5-proxy` `socks5-server` `workerman`
 
      这是一个基于PHP实现的SOCKS5代理服务器，可以帮助用户在网络中建立SOCKS5代理通道，进行匿名访问和数据传输。该项目提供了一个简单易用的方式，通过PHP脚本快速搭建自己的SOCKS5代理服务器，并且可以自定义配置和扩展功能。
 
-208. [Tools2/Zend-Decoder](https://github.com/Tools2/Zend-Decoder) ⭐: 212 ⌨️: PHP	`php` `zend` `zendguard`
+209. [Tools2/Zend-Decoder](https://github.com/Tools2/Zend-Decoder) ⭐: 212 ⌨️: PHP	`php` `zend` `zendguard`
 
      Zend-Decoder是一个用于解密和反混淆PHP代码的工具，它可以帮助开发人员理解经过加密的Zend Guard加密的PHP代码，从而更容易地进行代码分析和调试。
 
-209. [takashiki/Ourls](https://github.com/takashiki/Ourls) ⭐: 211 ⌨️: PHP	`composer` `demo` `php`
+210. [takashiki/Ourls](https://github.com/takashiki/Ourls) ⭐: 211 ⌨️: PHP	`composer` `demo` `php`
 
      Ourls 是一个简单的URL 缩短工具，使用Python 和 Django 开发。它能够将长URL 转换成简短易记的自定义短链接，并提供访问统计功能。
 
-210. [free1ife/Cloud-Sms](https://github.com/free1ife/Cloud-Sms) ⭐: 209 ⌨️: PHP
+211. [free1ife/Cloud-Sms](https://github.com/free1ife/Cloud-Sms) ⭐: 209 ⌨️: PHP
 
      Cloud-Sms是一个基于云的短信服务项目，旨在提供简单易用的短信发送和接收功能。通过该项目，用户可以在云平台上快速集成短信服务，实现短信的发送和接收，提高开发效率。
 
-211. [wechatpay-apiv3/wechatpay-guzzle-middleware](https://github.com/wechatpay-apiv3/wechatpay-guzzle-middleware) ⭐: 208 ⌨️: PHP	`guzzle-middleware` `php` `wechat` `wechatpay` `wechatpay-apiv3`
+212. [wechatpay-apiv3/wechatpay-guzzle-middleware](https://github.com/wechatpay-apiv3/wechatpay-guzzle-middleware) ⭐: 208 ⌨️: PHP	`guzzle-middleware` `php` `wechat` `wechatpay` `wechatpay-apiv3`
 
      这个项目是一个基于Guzzle中间件的微信支付API v3 PHP封装库，提供了微信支付 API v3 的请求签名和验签功能，方便开发者在PHP项目中快速集成微信支付功能。
 
-212. [walkor/php-http-proxy](https://github.com/walkor/php-http-proxy) ⭐: 203 ⌨️: PHP	`http-proxy` `php` `proxy` `workerman`
+213. [walkor/php-http-proxy](https://github.com/walkor/php-http-proxy) ⭐: 203 ⌨️: PHP	`http-proxy` `php` `proxy` `workerman`
 
      这个项目是一个基于PHP语言开发的HTTP代理服务器，可以将客户端的HTTP请求转发到其他服务器，并将响应返回给客户端。它提供了简单易用的接口，可以通过配置文件进行设置，并支持多种代理策略。
 
-213. [zzdylan/faka](https://github.com/zzdylan/faka) ⭐: 189 ⌨️: PHP
+214. [zzdylan/faka](https://github.com/zzdylan/faka) ⭐: 189 ⌨️: PHP
 
      这是一个虚拟卡发卡系统的开源项目，用户可以通过该系统进行虚拟卡的发卡和管理。它提供了用户管理、订单管理、卡密管理等功能，可以方便地进行虚拟卡的购买和销售。
 
-214. [6tail/lunar-php](https://github.com/6tail/lunar-php) ⭐: 156 ⌨️: PHP	`calendar` `lunar` `php`
+215. [6tail/lunar-php](https://github.com/6tail/lunar-php) ⭐: 156 ⌨️: PHP	`calendar` `lunar` `php`
 
      lunar-php是一个PHP扩展，用于提供农历和节气等日期信息的计算和转换。它可以帮助开发者在PHP应用中方便地处理农历日期和节气信息，支持日期的转换、查询和计算，是一个方便实用的日期处理工具。
 
-215. [ChinaMoli/AmoliCloud](https://github.com/ChinaMoli/AmoliCloud) ⭐: 150 ⌨️: PHP	`amolicloud` `cos` `fileserver` `local-storage` `oss` `php`
+216. [ChinaMoli/AmoliCloud](https://github.com/ChinaMoli/AmoliCloud) ⭐: 150 ⌨️: PHP	`amolicloud` `cos` `fileserver` `local-storage` `oss` `php`
 
      AmoliCloud是一个基于Spring Cloud的微服务架构项目，提供了用户认证、权限管理、文件存储和分享等功能。通过AmoliCloud，用户可以方便地管理和共享文件，实现多端同步和数据备份。
 
-216. [Evernote/evernote-cloud-sdk-php](https://github.com/Evernote/evernote-cloud-sdk-php) ⭐: 149 ⌨️: PHP
+217. [Evernote/evernote-cloud-sdk-php](https://github.com/Evernote/evernote-cloud-sdk-php) ⭐: 149 ⌨️: PHP
 
      Evernote云SDK for PHP 是一个用于在PHP应用程序中集成Evernote功能的开发工具包。它提供了简单的方法来连接到Evernote云服务，进行笔记的创建、编辑和检索等操作。通过该SDK，开发者可以轻松地在他们的PHP应用中集成Evernote的功能，为用户提供更丰富的笔记管理体验。
 
-217. [php-annotations/php-annotations](https://github.com/php-annotations/php-annotations) ⭐: 138 ⌨️: PHP	`annotations` `php`
+218. [php-annotations/php-annotations](https://github.com/php-annotations/php-annotations) ⭐: 138 ⌨️: PHP	`annotations` `php`
 
      PHP Annotations是一个用于在PHP代码中添加注解（Annotations）的工具库。通过注解，可以在代码中添加元数据，用于配置和描述类、方法、属性等。PHP Annotations提供了简洁的语法和易于使用的API，可以方便地在PHP代码中使用注解，从而实现更灵活、可配置的代码逻辑。
 
-218. [adamwulf/json-to-mysql](https://github.com/adamwulf/json-to-mysql) ⭐: 136 ⌨️: PHP
+219. [adamwulf/json-to-mysql](https://github.com/adamwulf/json-to-mysql) ⭐: 136 ⌨️: PHP
 
      这个项目是一个用于将JSON数据转换为MySQL数据库表的工具。它可以帮助用户将JSON格式的数据导入到MySQL数据库中，方便数据的存储和管理。项目提供了简单易用的命令行工具和API接口，使得数据转换过程更加高效和方便。
 
-219. [jianyan74/rageframe3](https://github.com/jianyan74/rageframe3) ⭐: 132 ⌨️: PHP	`admin` `rageframe` `rbac` `restful` `yii2`
+220. [jianyan74/rageframe3](https://github.com/jianyan74/rageframe3) ⭐: 132 ⌨️: PHP	`admin` `rageframe` `rbac` `restful` `yii2`
 
      RageFrame3是一个基于Yii2框架开发的开源电商系统，提供了丰富的电商功能和灵活的扩展机制，能够帮助开发者快速搭建完善的电商平台。它具有高效稳定的性能和友好的用户体验，适合中小型电商企业使用。
 
-220. [consatan/weibo_image_uploader](https://github.com/consatan/weibo_image_uploader) ⭐: 130 ⌨️: PHP	`image` `imgbed` `php` `picbed` `picture` `sina` `uploader` `weibo`
+221. [consatan/weibo_image_uploader](https://github.com/consatan/weibo_image_uploader) ⭐: 130 ⌨️: PHP	`image` `imgbed` `php` `picbed` `picture` `sina` `uploader` `weibo`
 
      这个项目是一个微博图片上传工具，可以通过命令行或者 API 接口上传图片到新浪微博，并返回图片的 URL。这对于需要在微博上分享图片的用户来说非常方便。
 
-221. [HurryBy/CloudDiskAnalysis](https://github.com/HurryBy/CloudDiskAnalysis) ⭐: 127 ⌨️: PHP	`123` `123pan` `lanzou` `lanzoucloud` `yidong` `yunkongjian`
+222. [HurryBy/CloudDiskAnalysis](https://github.com/HurryBy/CloudDiskAnalysis) ⭐: 127 ⌨️: PHP	`123` `123pan` `lanzou` `lanzoucloud` `yidong` `yunkongjian`
 
      CloudDiskAnalysis是一个用于分析云盘文件使用情况的工具，可以统计文件类型、大小、数量等信息，并生成相应的报告。用户可以通过该工具对云盘中的文件进行快速分析，帮助他们更好地管理和利用云盘空间。
 
-222. [QThans/layui-admin](https://github.com/QThans/layui-admin) ⭐: 123 ⌨️: PHP	`admin` `admin-dashboard` `admin-template` `admin-ui` `layui-admin` `php` `thinkphp` `tpadmin`
+223. [QThans/layui-admin](https://github.com/QThans/layui-admin) ⭐: 123 ⌨️: PHP	`admin` `admin-dashboard` `admin-template` `admin-ui` `layui-admin` `php` `thinkphp` `tpadmin`
 
      这个项目是一个基于Layui框架开发的后台管理系统模板，提供了丰富的页面布局和组件，可以快速搭建企业管理系统、后台管理系统等。项目提供了丰富的UI组件和模块，同时支持多种定制和扩展。
 
-223. [nauxliu/auto-correct](https://github.com/nauxliu/auto-correct) ⭐: 121 ⌨️: PHP
+224. [nauxliu/auto-correct](https://github.com/nauxliu/auto-correct) ⭐: 121 ⌨️: PHP
 
      Auto-correct是一个用Python编写的自动纠正拼写错误的工具，它可以根据上下文和语法自动修复输入文本中的拼写错误。这个项目基于语言模型和编辑距离算法，可以应用于拼写检查、自然语言处理等领域。
 
-224. [ganlvtech/php-enphp-decoder](https://github.com/ganlvtech/php-enphp-decoder) ⭐: 120 ⌨️: PHP	`decompiler` `enphp` `php`
+225. [ganlvtech/php-enphp-decoder](https://github.com/ganlvtech/php-enphp-decoder) ⭐: 120 ⌨️: PHP	`decompiler` `enphp` `php`
 
      这个项目是一个PHP编码解码器，可以帮助用户对PHP代码进行编码和解码操作。它可以将PHP代码进行编码，并生成一个可以被解码的字符串，同时也可以将编码后的字符串解码成原始的PHP代码。这个工具可以用于保护代码的安全性，也可以用于加密和解密PHP代码。
 
-225. [Clarence-pan/unpack-wxapkg](https://github.com/Clarence-pan/unpack-wxapkg) ⭐: 119 ⌨️: PHP
+226. [Clarence-pan/unpack-wxapkg](https://github.com/Clarence-pan/unpack-wxapkg) ⭐: 119 ⌨️: PHP
 
      这个项目是一个用于解包微信小程序包（wxapkg文件）的工具，可以帮助开发者提取其中的资源文件和代码。通过这个工具，用户可以轻松地对微信小程序进行分析和修改。
 
-226. [bestony/wx-subscribe](https://github.com/bestony/wx-subscribe) ⭐: 114 ⌨️: PHP
+227. [bestony/wx-subscribe](https://github.com/bestony/wx-subscribe) ⭐: 114 ⌨️: PHP
 
      这个项目是一个基于Node.js开发的微信公众号订阅服务。它可以帮助用户管理订阅者，并发送自定义的订阅消息。此外，它还提供了一些其他有用的功能，如数据统计、用户管理等。
 
-227. [SmallRuralDog/amis-admin](https://github.com/SmallRuralDog/amis-admin) ⭐: 100 ⌨️: PHP	`admin` `amis` `laravel` `vue3`
+228. [SmallRuralDog/amis-admin](https://github.com/SmallRuralDog/amis-admin) ⭐: 100 ⌨️: PHP	`admin` `amis` `laravel` `vue3`
 
      amis-admin是一个基于AMis和react-admin开发的一套后台管理系统模板，提供了丰富的组件和样式，可快速搭建起一个功能完善的后台管理系统。拥有良好的可扩展性和定制性，适合快速开发各种类型的后台系统。
 
-228. [injekt/openapi-demo-php](https://github.com/injekt/openapi-demo-php) ⭐: 96 ⌨️: PHP
+229. [injekt/openapi-demo-php](https://github.com/injekt/openapi-demo-php) ⭐: 96 ⌨️: PHP
 
      这个项目是一个基于PHP的OpenAPI演示项目，旨在演示如何使用PHP与OpenAPI进行交互。它提供了一些简单的示例代码，展示了如何使用OpenAPI来进行数据的读取、发送和处理。这个项目可以帮助开发者更好地理解和使用OpenAPI，加快他们开发应用程序的速度。
 
-229. [DedeBIZ/DedeV6](https://github.com/DedeBIZ/DedeV6) ⭐: 86 ⌨️: PHP	`apache` `cms` `dedebiz` `dedecms` `dedecmsv6` `golang` `linux` `mysql` `nginx` `php` `php7` `php8` `php8-features` `php80` `php81`
+230. [DedeBIZ/DedeV6](https://github.com/DedeBIZ/DedeV6) ⭐: 86 ⌨️: PHP	`apache` `cms` `dedebiz` `dedecms` `dedecmsv6` `golang` `linux` `mysql` `nginx` `php` `php7` `php8` `php8-features` `php80` `php81`
 
      DedeV6是一个基于PHP的开源内容管理系统（CMS），它提供了强大的原型制作和内容管理功能，可用于构建各种网站和在线应用程序。DedeV6支持多种插件和模板，使用户可以轻松扩展和定制其功能和外观。
 
-230. [IDs-Club/IDs-Wechatwall](https://github.com/IDs-Club/IDs-Wechatwall) ⭐: 84 ⌨️: PHP
+231. [IDs-Club/IDs-Wechatwall](https://github.com/IDs-Club/IDs-Wechatwall) ⭐: 84 ⌨️: PHP
 
      这个项目是一个基于微信公众平台开发的墙上贴（微信墙）应用，可以在活动现场通过扫描二维码进行留言或者互动，留言内容可以实时显示在大屏幕上。通过这个项目，活动组织者可以创建个性化的互动环节，增加活动的趣味性和参与度。
 
-231. [ichynul/iframe-tabs](https://github.com/ichynul/iframe-tabs) ⭐: 84 ⌨️: PHP
+232. [ichynul/iframe-tabs](https://github.com/ichynul/iframe-tabs) ⭐: 84 ⌨️: PHP
 
      这是一个基于Vue.js的网页多标签页插件，可以在页面中轻松实现多标签页功能，方便用户在同一个页面中进行多个页面的操作和管理。
 
-232. [slince/smartqq](https://github.com/slince/smartqq) ⭐: 82 ⌨️: PHP	`php-qq` `php-smartqq` `php-webqq` `smartqq` `webqq`
+233. [slince/smartqq](https://github.com/slince/smartqq) ⭐: 82 ⌨️: PHP	`php-qq` `php-smartqq` `php-webqq` `smartqq` `webqq`
 
      SmartQQ是一个基于Python的SmartQQ协议实现，用于在终端中登录并使用QQ。它提供了登录、接收消息、发送消息等功能，可以用于在服务器上使用QQ进行消息推送和自动回复。
 
-233. [ganlvtech/php-mfenc-decompiler](https://github.com/ganlvtech/php-mfenc-decompiler) ⭐: 79 ⌨️: PHP
+234. [ganlvtech/php-mfenc-decompiler](https://github.com/ganlvtech/php-mfenc-decompiler) ⭐: 79 ⌨️: PHP
 
      这个项目是一个用PHP编写的mFENC反编译器，可以将使用mFENC加密的PHP文件转换为可阅读的源代码。这个工具可以帮助开发人员解密和理解经过加密的PHP文件，便于调试和修改。
 
-234. [netcccyun/dirlist](https://github.com/netcccyun/dirlist) ⭐: 79 ⌨️: PHP
+235. [netcccyun/dirlist](https://github.com/netcccyun/dirlist) ⭐: 79 ⌨️: PHP
 
      这个项目是一个简单的Python工具，用于列出指定目录中的文件和子目录。它提供了一个简单的命令行接口，用户可以指定要列出的目录，并选择是否包含子目录。这个工具可以帮助用户快速查看和管理目录结构。
 
-235. [xhat/payjs](https://github.com/xhat/payjs) ⭐: 77 ⌨️: PHP	`alipay` `jsapi` `payjs` `payjs-package` `payment` `wechat` `wechatpay` `wepay`
+236. [xhat/payjs](https://github.com/xhat/payjs) ⭐: 77 ⌨️: PHP	`alipay` `jsapi` `payjs` `payjs-package` `payment` `wechat` `wechatpay` `wepay`
 
      PayJS是一个基于JavaScript的支付库，用于简化网站集成各种支付接口的流程。它支持支付宝、微信支付和银联支付等主流支付方式，提供简洁易用的API接口和丰富的文档和示例。通过PayJS，开发者可以方便快速地搭建支付功能，提升用户体验并促进交易的完成。
 
-236. [gai871013/ip-location](https://github.com/gai871013/ip-location) ⭐: 73 ⌨️: PHP	`composer` `dat` `ip` `ip-info` `ip-location` `ipinfo` `iplocation` `laravel` `php` `qqwry`
+237. [gai871013/ip-location](https://github.com/gai871013/ip-location) ⭐: 73 ⌨️: PHP	`composer` `dat` `ip` `ip-info` `ip-location` `ipinfo` `iplocation` `laravel` `php` `qqwry`
 
      这个项目是一个用于获取IP地址位置信息的Python库，可以通过IP地址查询到对应的地理位置信息，包括国家、城市、经纬度等。通过这个库，可以方便地对IP地址进行定位和分析。
 
-237. [Abbotton/saas-skeleton](https://github.com/Abbotton/saas-skeleton) ⭐: 73 ⌨️: PHP	`dcat-admin` `laravel` `multi-tenancy` `saas` `saas-boilerplate` `saas-starter` `tenancy` `tenancyforlaravel` `tenant`
+238. [Abbotton/saas-skeleton](https://github.com/Abbotton/saas-skeleton) ⭐: 73 ⌨️: PHP	`dcat-admin` `laravel` `multi-tenancy` `saas` `saas-boilerplate` `saas-starter` `tenancy` `tenancyforlaravel` `tenant`
 
      这个项目是一个SaaS（软件即服务）应用的基础框架，提供了用户管理、权限控制、付款系统等常见功能的解决方案。它使用Node.js和MongoDB构建，并包含了RESTful API和前端界面。
 
-238. [NLR-DevTeam/FileAdmin-7](https://github.com/NLR-DevTeam/FileAdmin-7) ⭐: 73 ⌨️: PHP	`admin` `admin-dashboard` `admin-panel` `code-editor` `file-manager` `files` `folder-viewer` `manager` `panel` `php` `vhost` `website-admin` `zero-configuration`
+239. [NLR-DevTeam/FileAdmin-7](https://github.com/NLR-DevTeam/FileAdmin-7) ⭐: 73 ⌨️: PHP	`admin` `admin-dashboard` `admin-panel` `code-editor` `file-manager` `files` `folder-viewer` `manager` `panel` `php` `vhost` `website-admin` `zero-configuration`
 
      FileAdmin-7是一个基于Web的文件管理器，用于管理服务器上的文件和目录。它具有简单直观的用户界面，支持文件的上传、下载、复制、移动和删除等操作，同时还提供了文件预览和搜索功能。它基于PHP编写，并使用了Bootstrap和jQuery等前端技术，可以方便地集成到现有的网站或应用中。
 
-239. [shiny/php-aria2](https://github.com/shiny/php-aria2) ⭐: 71 ⌨️: PHP	`aria2` `php` `php-aria2`
+240. [shiny/php-aria2](https://github.com/shiny/php-aria2) ⭐: 71 ⌨️: PHP	`aria2` `php` `php-aria2`
 
      php-aria2 是一个基于 PHP 的 Aria2 下载工具库，可以通过 PHP 脚本控制 Aria2 下载任务，实现下载管理和监控。这个项目提供了一个简单易用的接口，方便开发者在自己的 PHP 项目中集成和使用 Aria2。
 
-240. [dompdf/utils](https://github.com/dompdf/utils) ⭐: 70 ⌨️: PHP
+241. [dompdf/utils](https://github.com/dompdf/utils) ⭐: 70 ⌨️: PHP
 
      dompdf/utils是一个用于dompdf库的实用工具集，提供了各种有用的工具和资源，帮助用户更轻松地使用dompdf库生成PDF文件。该项目包含了示例代码、样式表和其他辅助工具，为用户提供了更多选择和方便。
 
-241. [kefu-chat/src](https://github.com/kefu-chat/src) ⭐: 63 ⌨️: PHP	`customer-service` `laravel` `livechat`
+242. [kefu-chat/src](https://github.com/kefu-chat/src) ⭐: 63 ⌨️: PHP	`customer-service` `laravel` `livechat`
 
      这是一个名为Kefu的项目，它是一个开源的在线客服系统。它提供了实时聊天、自定义UI、多渠道接入、客户管理等功能，可以帮助企业与客户实时沟通，提升客户服务体验。这个项目在GitHub上开源，任何人都可以使用和贡献。
 
-242. [wechaty/php-wechaty](https://github.com/wechaty/php-wechaty) ⭐: 59 ⌨️: PHP	`chatbot` `php` `php74` `wechat` `wechaty`
+243. [wechaty/php-wechaty](https://github.com/wechaty/php-wechaty) ⭐: 59 ⌨️: PHP	`chatbot` `php` `php74` `wechat` `wechaty`
 
      php-wechaty是一个使用PHP语言开发的Wechaty客户端库，可以用于创建基于微信的聊天机器人和其他自动化功能。Wechaty是一个开源的聊天机器人框架，支持多种平台和语言，php-wechaty将其功能扩展到了PHP语言中。使用php-wechaty，开发者可以方便地使用PHP进行微信聊天机器人的开发和部署。
 
-243. [he426100/alipay-crawler](https://github.com/he426100/alipay-crawler) ⭐: 51 ⌨️: PHP	`alipay` `crawler` `selenium` `selenium-ide` `selenium-php` `selenium-webdriver`
+244. [he426100/alipay-crawler](https://github.com/he426100/alipay-crawler) ⭐: 51 ⌨️: PHP	`alipay` `crawler` `selenium` `selenium-ide` `selenium-php` `selenium-webdriver`
 
      这个项目是一个基于Python的支付宝爬虫，可以用来爬取支付宝账单数据，包括交易记录、账户余额等信息。它可以帮助用户快速、方便地获取个人的支付宝账户数据。
 
-244. [pithyone/think-wechat](https://github.com/pithyone/think-wechat) ⭐: 49 ⌨️: PHP	`sdk` `thinkphp` `wechat`
+245. [pithyone/think-wechat](https://github.com/pithyone/think-wechat) ⭐: 49 ⌨️: PHP	`sdk` `thinkphp` `wechat`
 
      这个项目是一个基于ThinkPHP框架开发的微信公众号开发扩展。它提供了一些常用的微信开发功能，包括消息管理、自定义菜单、素材管理、用户管理等等，方便开发者快速搭建和开发微信公众号应用。
 
-245. [ahmad-sa3d/php-advanced-downloader](https://github.com/ahmad-sa3d/php-advanced-downloader) ⭐: 40 ⌨️: PHP
+246. [ahmad-sa3d/php-advanced-downloader](https://github.com/ahmad-sa3d/php-advanced-downloader) ⭐: 40 ⌨️: PHP
 
      这是一个PHP编写的高级下载器，它可以用于从远程服务器下载文件、页面和内容。它支持断点续传、压缩文件下载、自定义请求头、代理、重定向和文件下载速度限制等功能。
 
-246. [DDZH-DEV/think-workerman](https://github.com/DDZH-DEV/think-workerman) ⭐: 40 ⌨️: PHP
+247. [DDZH-DEV/think-workerman](https://github.com/DDZH-DEV/think-workerman) ⭐: 40 ⌨️: PHP
 
      这个项目是一个基于 PHP 开发的即时通讯工具，使用 Workerman 框架实现高性能的即时通讯服务。用户可以通过该工具进行文字、图片、语音等多种方式的实时通讯。
 
-247. [emrahgunduz/bom-cleaner](https://github.com/emrahgunduz/bom-cleaner) ⭐: 37 ⌨️: PHP	`bom` `php`
+248. [emrahgunduz/bom-cleaner](https://github.com/emrahgunduz/bom-cleaner) ⭐: 37 ⌨️: PHP	`bom` `php`
 
      这个项目是一个用于清理和规范化爬虫从网页上抓取的数据的工具。它可以帮助用户处理和清洗爬取的数据，去除无用的标签和格式化文本。
 
-248. [yuntian001/fast-bbs](https://github.com/yuntian001/fast-bbs) ⭐: 23 ⌨️: PHP	`bbs` `fastadmin`
+249. [yuntian001/fast-bbs](https://github.com/yuntian001/fast-bbs) ⭐: 23 ⌨️: PHP	`bbs` `fastadmin`
 
      Fast-bbs是一个基于Python的快速论坛系统，使用Tornado框架和Peewee ORM。它具有登录、注册、发帖、评论等基本论坛功能，适合用于快速搭建简单论坛网站。
 
-249. [yutao8/starred](https://github.com/yutao8/starred) ⭐: 23 ⌨️: PHP	`github` `iptv` `php` `python` `sdk` `shell` `star`
+250. [yutao8/starred](https://github.com/yutao8/starred) ⭐: 23 ⌨️: PHP	`github` `iptv` `php` `python` `sdk` `shell` `star`
 
      这个项目是一个名为"starred"的工具，可以帮助用户在GitHub上管理和浏览已标记的项目。它提供了命令行界面和Web界面，方便用户对项目进行筛选、搜索和浏览。
 
-250. [vuecmf/vuecmf-php](https://github.com/vuecmf/vuecmf-php) ⭐: 13 ⌨️: PHP	`php` `thinkphp` `vuecmf`
+251. [vuecmf/vuecmf-php](https://github.com/vuecmf/vuecmf-php) ⭐: 13 ⌨️: PHP	`php` `thinkphp` `vuecmf`
 
      这个项目是一个基于Vue.js和PHP的后台管理系统框架，帮助开发人员快速搭建和定制自己的管理系统。它提供了丰富的功能模块和可扩展的插件系统，让开发者可以轻松构建符合自己需求的管理系统。
 
-251. [nasaplayer/getCurrentQQGroupList](https://github.com/nasaplayer/getCurrentQQGroupList) ⭐: 11 ⌨️: PHP	`http` `php7` `qq`
+252. [nasaplayer/getCurrentQQGroupList](https://github.com/nasaplayer/getCurrentQQGroupList) ⭐: 11 ⌨️: PHP	`http` `php7` `qq`
 
      getCurrentQQGroupList是一个基于Node.js的项目，用于获取QQ群列表。它可以通过调用QQ的API来获取用户所在的QQ群列表，并将结果返回给调用方。这个项目可以帮助开发者快速获取用户所在的QQ群列表，方便进行进一步的开发和应用。
 
-252. [MicroDreamTeam/go-cq-http-sdk](https://github.com/MicroDreamTeam/go-cq-http-sdk) ⭐: 11 ⌨️: PHP
+253. [MicroDreamTeam/go-cq-http-sdk](https://github.com/MicroDreamTeam/go-cq-http-sdk) ⭐: 11 ⌨️: PHP
 
      go-cq-http-sdk 是一个使用 Golang 编写的，与 酷Q HTTP API 插件 交互的 SDK。通过该 SDK，开发者可以方便地实现与酷Q机器人的交互，包括发送消息、接收消息、处理事件等功能。该项目提供了丰富的功能接口和详细的文档，便于开发者快速上手使用。
 
-253. [artifex404/csv-to-vcf](https://github.com/artifex404/csv-to-vcf) ⭐: 10 ⌨️: PHP
+254. [artifex404/csv-to-vcf](https://github.com/artifex404/csv-to-vcf) ⭐: 10 ⌨️: PHP
 
      这个项目是一个简单的工具，可以将CSV格式的联系人信息转换成VCF格式，方便在手机或其他设备上导入联系人。它可以帮助用户快速而方便地将大量的联系人信息从CSV文件转换成VCF文件，节省时间和精力。
 
-254. [msojocs/Office-E5](https://github.com/msojocs/Office-E5) ⭐: 2 ⌨️: PHP	`office` `office-365` `office-tools`
+255. [msojocs/Office-E5](https://github.com/msojocs/Office-E5) ⭐: 2 ⌨️: PHP	`office` `office-365` `office-tools`
 
      Office-E5 是一个基于 Python 的用于管理 Microsoft 365 订阅的工具。它提供了一系列命令行工具，可以帮助管理员轻松管理用户、组、许可证等 Microsoft 365 相关的操作。
 
