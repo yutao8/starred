@@ -43,7 +43,7 @@ function getStarList($username, $page = 1, $limit=100,$update = false) {
 	print_r('page:' . $page . "\r\n");
 	$dir=CACHE_PATH .'starList/';
 	is_dir($dir) or mkdir($dir);
-	$cacheFile = $dir.date('Ymd'). '_' . $page . '.json';
+	$cacheFile = $dir.date('YmdH'). '_' . $page . '.json';
 	$cacheData = file_exists($cacheFile) ? json_decode(file_get_contents($cacheFile), true) : [];
 	if ($cacheData && !$update) {
 		return $cacheData;
