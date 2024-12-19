@@ -1,34 +1,34 @@
 # GitHub starred 
- total : 1499  update at 2024-12-19 12:01:30
+ total : 1499  update at 2024-12-19 18:01:34
 
 ### Python
 ---
 
-0. [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐: 320213 ⌨️: Python	`api` `apis` `dataset` `development` `free` `list` `lists` `open-source` `public` `public-api` `public-apis` `resources` `software`
+0. [public-apis/public-apis](https://github.com/public-apis/public-apis) ⭐: 320237 ⌨️: Python	`api` `apis` `dataset` `development` `free` `list` `lists` `open-source` `public` `public-api` `public-apis` `resources` `software`
 
 	这个项目是一个公开的API列表，收集了各种各样的免费开放API供开发者使用，包括了各种领域的API，如动物、医学、天气、社交、游戏等。这个项目方便开发人员快速找到他们需要的API，加快开发进度。
 
-1. [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ⭐: 133059 ⌨️: Python
+1. [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ⭐: 133066 ⌨️: Python
 
 	youtube-dl是一个用于从YouTube和其他视频网站下载视频的命令行工具。它支持多种站点，具有丰富的功能，如下载整个播放列表、选择视频质量和格式、提取字幕等。用户可以通过命令行或者Python API来使用它，并且它是开源项目，可以自由使用和修改。
 
-2. [nvbn/thefuck](https://github.com/nvbn/thefuck) ⭐: 85924 ⌨️: Python	`python` `shell`
+2. [nvbn/thefuck](https://github.com/nvbn/thefuck) ⭐: 85928 ⌨️: Python	`python` `shell`
 
 	The Fuck 是一个命令行工具，可以自动纠正你输入的命令中的错误。当你输入错误命令时，它会给出建议，并且可以自动修复错误的命令。这个项目可以帮助用户在命令行使用时更加高效和准确。
 
-3. [home-assistant/core](https://github.com/home-assistant/core) ⭐: 74620 ⌨️: Python	`asyncio` `hacktoberfest` `home-automation` `internet-of-things` `iot` `mqtt` `python` `raspberry-pi`
+3. [home-assistant/core](https://github.com/home-assistant/core) ⭐: 74634 ⌨️: Python	`asyncio` `hacktoberfest` `home-automation` `internet-of-things` `iot` `mqtt` `python` `raspberry-pi`
 
 	Home Assistant是一个开源的智能家居平台，可以让用户控制和自动化家中的各种设备和系统。它提供了丰富的插件和集成，支持各种智能设备，并且可以通过自定义脚本和规则实现个性化的自动化场景。Home Assistant的核心代码托管在GitHub上，用户可以通过贡献代码和反馈意见来参与项目的开发和改进。
 
-4. [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐: 69924 ⌨️: Python
+4. [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ⭐: 69935 ⌨️: Python
 
 	funNLP是一个基于Python的自然语言处理工具集，提供了文本处理、文本分析、词性标注、命名实体识别等功能。该项目包含了许多常用的NLP算法和工具，方便开发者进行文本处理和分析。
 
-5. [xtekky/gpt4free](https://github.com/xtekky/gpt4free) ⭐: 62749 ⌨️: Python	`chatbot` `chatbots` `chatgpt` `chatgpt-4` `chatgpt-api` `chatgpt-free` `chatgpt4` `free-gpt` `gpt` `gpt-3` `gpt-4` `gpt3` `gpt4` `gpt4-api` `language-model` `openai` `openai-api` `openai-chatgpt` `python` `reverse-engineering`
+5. [xtekky/gpt4free](https://github.com/xtekky/gpt4free) ⭐: 62753 ⌨️: Python	`chatbot` `chatbots` `chatgpt` `chatgpt-4` `chatgpt-api` `chatgpt-free` `chatgpt4` `free-gpt` `gpt` `gpt-3` `gpt-4` `gpt3` `gpt4` `gpt4-api` `language-model` `openai` `openai-api` `openai-chatgpt` `python` `reverse-engineering`
 
 	这个项目是一个基于 GPT-3 模型的克隆版本，名为 GPT-4 Free。它使用了 OpenAI GPT-3 的训练数据来创建一个免费的开源版本。这个项目可能旨在让更多的人可以自由使用和探索类似 GPT-3 的语言模型技术。
 
-6. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ⭐: 61119 ⌨️: Python	`cli` `cti` `cybersecurity` `forensics` `hacktoberfest` `information-gathering` `infosec` `linux` `osint` `pentesting` `python` `python3` `reconnaissance` `redteam` `sherlock` `tools`
+6. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ⭐: 61124 ⌨️: Python	`cli` `cti` `cybersecurity` `forensics` `hacktoberfest` `information-gathering` `infosec` `linux` `osint` `pentesting` `python` `python3` `reconnaissance` `redteam` `sherlock` `tools`
 
 	Sherlock是一个用Python编写的开源工具，用于搜索特定用户名在各种社交平台和网站的存在。用户只需提供要搜索的用户名，Sherlock就会自动查询多个网站，帮助用户快速找到与该用户名相关的信息。
 
@@ -36,15 +36,15 @@
 
 	You-Get 是一个用 Python 编写的命令行工具，用于从网站上下载媒体内容如视频和音频。它支持许多流行的网站和平台，包括 YouTube，Twitter，Instagram 等。通过简单的命令行操作，用户可以轻松地下载自己喜欢的媒体内容到本地。
 
-8. [scrapy/scrapy](https://github.com/scrapy/scrapy) ⭐: 53505 ⌨️: Python	`crawler` `crawling` `framework` `hacktoberfest` `python` `scraping` `web-scraping` `web-scraping-python`
+8. [scrapy/scrapy](https://github.com/scrapy/scrapy) ⭐: 53509 ⌨️: Python	`crawler` `crawling` `framework` `hacktoberfest` `python` `scraping` `web-scraping` `web-scraping-python`
 
 	Scrapy是一个用Python编写的开源网络爬虫框架，用于抓取网站并提取结构化数据。它提供了强大的抓取能力和灵活的数据提取功能，可以用于各种网页抓取和数据挖掘任务。Scrapy还支持并发抓取、分布式爬取和多种存储格式，是一个功能丰富的网络爬虫工具。
 
-9. [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ⭐: 51024 ⌨️: Python	`allinonehackingtool` `besthackingtool` `ctf-tools` `ddos-attack-tool` `hacker` `hacking` `linux` `password-attack` `steganography` `web-attack` `wireless-attack` `xss-attacks` `xss-detection`
+9. [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ⭐: 51028 ⌨️: Python	`allinonehackingtool` `besthackingtool` `ctf-tools` `ddos-attack-tool` `hacker` `hacking` `linux` `password-attack` `steganography` `web-attack` `wireless-attack` `xss-attacks` `xss-detection`
 
 	这个项目是一个针对黑客和渗透测试人员的工具集合，包括多种渗透测试工具、恶意软件生成器和信息收集工具等。项目提供了方便的脚本和工具，用于进行渗透测试和安全审计。
 
-10. [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ⭐: 35355 ⌨️: Python	`chatgpt` `llms` `pyqt` `wechat`
+10. [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ⭐: 35363 ⌨️: Python	`chatgpt` `llms` `pyqt` `wechat`
 
 	WeChatMsg 是一个基于 Python 的微信个人号消息接收和发送库，可以用来接收和发送微信个人号消息。
 
@@ -52,27 +52,27 @@
 
 	这个项目是一个基于Python的12306火车票查询工具，可以帮助用户快速查询和预订火车票。它提供了简单易用的命令行界面，用户只需输入出发地、目的地和日期，即可获取相关火车信息并进行查询预订。
 
-12. [XX-net/XX-Net](https://github.com/XX-net/XX-Net) ⭐: 33111 ⌨️: Python	`gfw` `goagent` `proxy` `uncensored` `vpn`
+12. [XX-net/XX-Net](https://github.com/XX-net/XX-Net) ⭐: 33112 ⌨️: Python	`gfw` `goagent` `proxy` `uncensored` `vpn`
 
 	XX-Net 是一个用于翻墙的代理软件，通过多种技术混合使用，可以在尽可能减少网络连接速度的情况下实现对被封锁网站的访问。该项目旨在帮助用户突破网络封锁，获取更多信息。
 
-13. [2noise/ChatTTS](https://github.com/2noise/ChatTTS) ⭐: 33037 ⌨️: Python	`agent` `chat` `chatgpt` `chattts` `chinese` `chinese-language` `english` `english-language` `gpt` `llm` `llm-agent` `natural-language-inference` `python` `text-to-speech` `torch` `torchaudio` `tts`
+13. [2noise/ChatTTS](https://github.com/2noise/ChatTTS) ⭐: 33043 ⌨️: Python	`agent` `chat` `chatgpt` `chattts` `chinese` `chinese-language` `english` `english-language` `gpt` `llm` `llm-agent` `natural-language-inference` `python` `text-to-speech` `torch` `torchaudio` `tts`
 
 	ChatTTS是一个基于Python的项目，用于将聊天文本转换为语音。它可以轻松地将聊天记录、电子书等文本转换为音频文件，支持多种语音引擎和语音合成器。这个项目可以帮助用户快速地将文本内容转换为语音，方便听者在不方便阅读的情况下获取信息。
 
-14. [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) ⭐: 31965 ⌨️: Python	`ai` `chatglm-4` `chatgpt` `claude3` `dingtalk` `feishu-bot` `gemini` `glm` `gpt-4` `kimi` `linkai` `llm` `openai` `python3` `qwen` `rag` `wechat` `wechat-bot` `wenxinyiyan` `xunfei-spark`
+14. [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) ⭐: 31979 ⌨️: Python	`ai` `chatglm-4` `chatgpt` `claude3` `dingtalk` `feishu-bot` `gemini` `glm` `gpt-4` `kimi` `linkai` `llm` `openai` `python3` `qwen` `rag` `wechat` `wechat-bot` `wenxinyiyan` `xunfei-spark`
 
 	这个项目是一个基于微信的ChatGPT聊天机器人的实现。它使用了微信网页版和OpenAI的ChatGPT模型，可以在微信上实现与ChatGPT的对话交互。这个项目提供了一个简单的方法，让用户可以在微信上体验ChatGPT的强大对话能力。
 
-15. [certbot/certbot](https://github.com/certbot/certbot) ⭐: 31740 ⌨️: Python	`acme` `acme-client` `certbot` `certificate` `letsencrypt` `python`
+15. [certbot/certbot](https://github.com/certbot/certbot) ⭐: 31741 ⌨️: Python	`acme` `acme-client` `certbot` `certificate` `letsencrypt` `python`
 
 	Certbot 是一个由 EFF（ Electronic Frontier Foundation）开发的免费、开源的工具，可以帮助网站快速、方便地部署 HTTPS，保护网站的安全性。它支持大多数的 Web 服务器，可以自动获取、管理和更新 SSL/TLS 证书，让网站的加密设置变得更加简单。
 
-16. [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) ⭐: 28032 ⌨️: Python	`ocr` `ocr-python` `paddleocr` `qml` `qt` `screenshot` `umi-ocr`
+16. [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) ⭐: 28042 ⌨️: Python	`ocr` `ocr-python` `paddleocr` `qml` `qt` `screenshot` `umi-ocr`
 
 	Umi-OCR是一个基于Umi.js和Tesseract.js的开源项目，用于实现网页端的文字识别功能。通过Umi-OCR，用户可以直接在网页上上传图片并进行文字识别，方便快捷地获取图片中的文字信息。这个项目的主要优势在于简单易用，能够快速集成到现有的网页应用中。
 
-17. [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) ⭐: 26559 ⌨️: Python	`bot` `chatbot` `framework` `python` `telegram`
+17. [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) ⭐: 26561 ⌨️: Python	`bot` `chatbot` `framework` `python` `telegram`
 
 	python-telegram-bot是一个基于Python的Telegram Bot开发库，它提供了简单而强大的工具，帮助开发者快速创建和管理Telegram Bot。开发者可以利用这个库轻松地与Telegram API进行交互，实现发送消息、接收消息、管理群组等功能。这个项目提供了丰富的文档和示例，让初学者也能轻松上手。
 
@@ -80,19 +80,19 @@
 
 	该项目是一个用Python编写的微信个人号API，可以用于接收/发送消息，查看好友列表和群列表，创建群聊等操作。通过该项目，用户可以用Python对微信消息进行自动化处理和分析，实现微信机器人等功能。
 
-19. [jhao104/proxy_pool](https://github.com/jhao104/proxy_pool) ⭐: 21758 ⌨️: Python	`crawler` `http` `proxy` `redis` `spider`
+19. [jhao104/proxy_pool](https://github.com/jhao104/proxy_pool) ⭐: 21760 ⌨️: Python	`crawler` `http` `proxy` `redis` `spider`
 
 	这是一个开源的代理池项目，可以自动定时抓取代理网站的代理IP，并进行验证，提供给用户可用的代理IP列表。用户可以通过接口获取代理IP，用于爬虫、数据采集等需要使用代理的场景。
 
-20. [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) ⭐: 20613 ⌨️: Python	`back-in-stock` `change-alert` `change-detection` `change-monitoring` `changedetection` `monitoring` `notifications` `restock-monitor` `self-hosted` `url-monitor` `web-scraping` `website-change-detection` `website-change-detector` `website-change-monitor` `website-change-notification` `website-change-tracker` `website-defacement-monitoring` `website-monitor` `website-monitoring` `website-watcher`
+20. [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) ⭐: 20618 ⌨️: Python	`back-in-stock` `change-alert` `change-detection` `change-monitoring` `changedetection` `monitoring` `notifications` `restock-monitor` `self-hosted` `url-monitor` `web-scraping` `website-change-detection` `website-change-detector` `website-change-monitor` `website-change-notification` `website-change-tracker` `website-defacement-monitoring` `website-monitor` `website-monitoring` `website-watcher`
 
 	changedetection.io 是一个开源的网页内容变化监测工具，可以帮助用户监控网页的变化并及时获取通知。用户可以输入要监测的网页地址，系统会定期检查网页内容并比对差异，一旦发现变化就会发送通知。这个工具可以用来监控价格变化、新闻更新等各种网页内容的变化。
 
-21. [LiLittleCat/awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt) ⭐: 18888 ⌨️: Python	`awesome` `awesome-list` `chat` `chatgpt` `free` `freechatgpt`
+21. [LiLittleCat/awesome-free-chatgpt](https://github.com/LiLittleCat/awesome-free-chatgpt) ⭐: 18895 ⌨️: Python	`awesome` `awesome-list` `chat` `chatgpt` `free` `freechatgpt`
 
 	这个项目是一个聚合了免费的Chatbot和GPT模型资源的仓库。它包括了各种免费的聊天机器人和GPT模型的链接，可以帮助开发者快速找到并使用这些资源。这个仓库还提供了一些示例和教程，方便开发者了解如何使用这些模型。
 
-22. [Ciphey/Ciphey](https://github.com/Ciphey/Ciphey) ⭐: 18391 ⌨️: Python	`artificial-intelligence` `cipher` `cpp` `cryptography` `ctf` `ctf-tools` `cyberchef-magic` `decryption` `deep-neural-network` `encodings` `encryptions` `hacking` `hacktoberfest` `hashes` `natural-language-processing` `pentesting` `python`
+22. [Ciphey/Ciphey](https://github.com/Ciphey/Ciphey) ⭐: 18392 ⌨️: Python	`artificial-intelligence` `cipher` `cpp` `cryptography` `ctf` `ctf-tools` `cyberchef-magic` `decryption` `deep-neural-network` `encodings` `encryptions` `hacking` `hacktoberfest` `hashes` `natural-language-processing` `pentesting` `python`
 
 	Ciphey是一个自动解密工具，可用于破解密码、解密文本和破解加密信息。它使用诸如模式匹配、信息熵计算和字符频率分析等方法来快速识别和解密密码和加密信息。Ciphey支持多种常见的加密算法和编码格式，可以帮助用户快速解密或破解各种加密信息。
 
@@ -104,15 +104,15 @@
 
 	InstaPy 是一个基于 Python 的 Instagram 自动化工具，它可以帮助用户自动化地进行Instagram账号的管理和交互，包括自动关注、点赞、评论、取消关注等操作，同时还提供了一些高级功能，如定时发布、分析关注者和受众等。InstaPy让用户可以更简单、高效地管理和拓展其Instagram账号。
 
-25. [binux/pyspider](https://github.com/binux/pyspider) ⭐: 16514 ⌨️: Python	`crawler` `python`
+25. [binux/pyspider](https://github.com/binux/pyspider) ⭐: 16515 ⌨️: Python	`crawler` `python`
 
 	pyspider是一个强大的网络爬虫框架，使用Python编写，具有分布式支持、动态内容抓取等特性。用户可以通过简单的脚本编写方式来定义爬取规则，并提供了Web界面进行可视化操作和监控。
 
-26. [Kr1s77/awesome-python-login-model](https://github.com/Kr1s77/awesome-python-login-model) ⭐: 15957 ⌨️: Python	`163mail-login` `bilibili-login` `douban-spider` `facebook-login` `github-login` `guoke-spider` `jingdong` `lagou-spider` `python` `selenium` `sina-spider` `spiders` `taobao-spider` `tuchong` `twitter-bot` `weixinbot` `zhihu-spider`
+26. [Kr1s77/awesome-python-login-model](https://github.com/Kr1s77/awesome-python-login-model) ⭐: 15958 ⌨️: Python	`163mail-login` `bilibili-login` `douban-spider` `facebook-login` `github-login` `guoke-spider` `jingdong` `lagou-spider` `python` `selenium` `sina-spider` `spiders` `taobao-spider` `tuchong` `twitter-bot` `weixinbot` `zhihu-spider`
 
 	这个项目是一个收集了许多Python登录模块的开源资源库，包括但不限于使用用户名密码、验证码等方式进行登录的模块。这些模块可以帮助开发者快速实现用户登录功能，提供了丰富的选择。
 
-27. [OpenEthan/SMSBoom](https://github.com/OpenEthan/SMSBoom) ⭐: 15357 ⌨️: Python	`deprecated`
+27. [OpenEthan/SMSBoom](https://github.com/OpenEthan/SMSBoom) ⭐: 15356 ⌨️: Python	`deprecated`
 
 	这个项目是一个基于Python的短信轰炸器，可以向指定手机号发送大量短信，是一种恶作剧工具。用户可以设置发送的短信内容和发送次数。这个项目可能被滥用，需要谨慎使用。
 
@@ -120,7 +120,7 @@
 
 	这个项目是由微软团队开发的，旨在利用深度学习技术将老照片修复为高清晰度照片。用户可以通过该项目对老照片进行修复和增强，让旧照片焕发新生。
 
-29. [fastapi/sqlmodel](https://github.com/fastapi/sqlmodel) ⭐: 14829 ⌨️: Python	`fastapi` `json` `json-schema` `pydantic` `python` `sql` `sqlalchemy`
+29. [fastapi/sqlmodel](https://github.com/fastapi/sqlmodel) ⭐: 14831 ⌨️: Python	`fastapi` `json` `json-schema` `pydantic` `python` `sql` `sqlalchemy`
 
 	这个项目是一个基于FastAPI和SQLModel的快速API开发工具，可以帮助开发者快速构建RESTful API。SQLModel是一个SQLAlchemy的轻量级封装，可以简化数据库模型的定义和操作，而FastAPI则提供了快速构建API的能力。通过结合这两个工具，开发者可以快速、高效地构建出具有强大性能和可维护性的API。
 
@@ -128,11 +128,11 @@
 
 	py12306 是一个基于 Python 的 12306 火车票查询和抢票工具，可以帮助用户方便地查询火车票信息和进行抢票操作。通过该工具，用户可以更加方便地规划和购买火车票。
 
-31. [youfou/wxpy](https://github.com/youfou/wxpy) ⭐: 14060 ⌨️: Python	`api` `wechat` `weixin`
+31. [youfou/wxpy](https://github.com/youfou/wxpy) ⭐: 14062 ⌨️: Python	`api` `wechat` `weixin`
 
 	wxpy是一个用于微信个人账号操作的Python库，可以实现对微信的自动化操作，比如自动回复消息、定时发送消息、群聊管理等功能。它提供了简单易用的API，可以方便地与微信进行交互。
 
-32. [Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) ⭐: 13588 ⌨️: Python	`cnn` `demo` `docker` `face-recognition` `fastapi` `gradio` `idphoto` `machine-learning` `matting` `mtcnn` `tools` `unet`
+32. [Zeyi-Lin/HivisionIDPhotos](https://github.com/Zeyi-Lin/HivisionIDPhotos) ⭐: 13602 ⌨️: Python	`cnn` `demo` `docker` `face-recognition` `fastapi` `gradio` `idphoto` `machine-learning` `matting` `mtcnn` `tools` `unet`
 
 	这个项目是一个基于Python的人像图像处理工具，可以用于检测和裁剪身份证照片中的人脸。通过利用人脸检测和图像处理算法，该工具能够自动识别和裁剪身份证照片中的人脸，提高身份证照片的质量和准确性。
 
@@ -144,43 +144,43 @@
 
 	这是一个包含英语单词列表的开源项目，收集了大量常见的英语单词，并提供了相关的数据和信息。可以用于构建各种英语相关的应用程序和工具，如拼写检查、自然语言处理等。
 
-35. [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ⭐: 10624 ⌨️: Python	`captcha` `ddddocr` `ocr`
+35. [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ⭐: 10630 ⌨️: Python	`captcha` `ddddocr` `ocr`
 
 	该项目是一个基于PyTorch和Tesseract的中文文本检测和识别工具。它可以识别图像中的中文文本，并提供文本检测和识别的功能，适合用于文本识别相关的应用和项目。
 
-36. [darknessomi/musicbox](https://github.com/darknessomi/musicbox) ⭐: 9832 ⌨️: Python	`linux` `music` `netease-musicbox` `python`
+36. [XiaoMi/ha_xiaomi_home](https://github.com/XiaoMi/ha_xiaomi_home) ⭐: 10555 ⌨️: Python	`home-assistant` `home-assistant-integration` `miot` `miot-devices` `smart-home` `xiaomi` `xiaomi-smart-home`
+
+	这个项目是一个Home Assistant的插件，用于集成小米智能家居设备到Home Assistant平台中。通过这个插件，用户可以方便地控制和监控他们的小米智能设备，实现智能家居的管理和自动化。
+
+37. [darknessomi/musicbox](https://github.com/darknessomi/musicbox) ⭐: 9832 ⌨️: Python	`linux` `music` `netease-musicbox` `python`
 
 	这个项目是一个基于Python的网易云音乐命令行播放器，可以在终端上搜索并播放网易云音乐的歌曲。通过输入关键词或歌曲名，即可获取相关歌曲信息并进行播放。
 
-37. [THUDM/CogVideo](https://github.com/THUDM/CogVideo) ⭐: 9799 ⌨️: Python	`cogvideox` `image-to-video` `llm` `sora` `text-to-video` `video-generation`
+38. [THUDM/CogVideo](https://github.com/THUDM/CogVideo) ⭐: 9804 ⌨️: Python	`cogvideox` `image-to-video` `llm` `sora` `text-to-video` `video-generation`
 
 	CogVideo是清华大学智能与数据科学实验室开发的一个视频理解工具包，具有快速、灵活的特点。它提供了丰富的视频理解功能，包括视频处理、特征提取、视频分类、目标检测和视频生成等功能，为视频理解相关的研究和应用提供了强大的支持。
 
-38. [injetlee/Python](https://github.com/injetlee/Python) ⭐: 9795 ⌨️: Python	`crawler` `excel` `python` `wechat`
+39. [injetlee/Python](https://github.com/injetlee/Python) ⭐: 9795 ⌨️: Python	`crawler` `excel` `python` `wechat`
 
 	这个项目是一个用Python编写的工具集，提供了各种常用的功能和工具，包括数据处理、网络请求、文件操作等。这个工具集可以帮助Python开发者更高效地进行开发和编码工作。
-
-39. [XiaoMi/ha_xiaomi_home](https://github.com/XiaoMi/ha_xiaomi_home) ⭐: 9542 ⌨️: Python	`home-assistant` `home-assistant-integration` `miot` `miot-devices` `smart-home` `xiaomi` `xiaomi-smart-home`
-
-	这个项目是一个Home Assistant的插件，用于集成小米智能家居设备到Home Assistant平台中。通过这个插件，用户可以方便地控制和监控他们的小米智能设备，实现智能家居的管理和自动化。
 
 40. [wangshub/Douyin-Bot](https://github.com/wangshub/Douyin-Bot) ⭐: 9361 ⌨️: Python
 
 	Douyin-Bot是一个基于Python的抖音机器人项目，可以自动化执行抖音App中的各种操作，包括点赞、评论、关注等。通过模拟用户行为，达到自动增加粉丝和互动的效果。
 
-41. [Guovin/iptv-api](https://github.com/Guovin/iptv-api) ⭐: 9316 ⌨️: Python	`amd64` `api` `arm64` `armv7` `auto` `diy` `docker` `iptv` `ipv4` `ipv6` `m3u` `m3u8` `tv` `tvbox` `workflow`
+41. [Guovin/iptv-api](https://github.com/Guovin/iptv-api) ⭐: 9354 ⌨️: Python	`amd64` `api` `arm64` `armv7` `auto` `diy` `docker` `iptv` `ipv4` `ipv6` `m3u` `m3u8` `tv` `tvbox` `workflow`
 
 	这是一个基于Python的IPTV播放器，可以从网络上获取IPTV频道的播放链接，并在本地播放。项目提供了简单的用户界面，用户可以通过输入频道名称或者直接输入播放链接来观看IPTV。
 
-42. [hoochanlon/hamulete](https://github.com/hoochanlon/hamulete) ⭐: 8963 ⌨️: Python	`chatgpt` `cnki` `it` `mirrors` `social` `university`
+42. [hoochanlon/hamulete](https://github.com/hoochanlon/hamulete) ⭐: 8964 ⌨️: Python	`chatgpt` `cnki` `it` `mirrors` `social` `university`
 
 	Hamulete是一个用Rust编写的密码管理器，它使用AES-256加密算法来保护用户的密码和敏感信息。用户可以创建、存储和管理他们的密码，同时支持生成强密码。此外，Hamulete还提供了一个命令行界面和一个简单的用户界面来方便用户进行操作。
 
-43. [hardikvasa/google-images-download](https://github.com/hardikvasa/google-images-download) ⭐: 8591 ⌨️: Python	`color-filter` `command-line` `command-line-tool` `download-images` `google-images` `image-database` `image-dataset` `image-download` `image-gallery` `image-processing` `image-scraper` `image-search` `python` `python-script` `terminal`
+43. [hardikvasa/google-images-download](https://github.com/hardikvasa/google-images-download) ⭐: 8592 ⌨️: Python	`color-filter` `command-line` `command-line-tool` `download-images` `google-images` `image-database` `image-dataset` `image-download` `image-gallery` `image-processing` `image-scraper` `image-search` `python` `python-script` `terminal`
 
 	这是一个Python项目，可以用来从Google Images下载图像。它可以根据关键词、颜色、尺寸等条件搜索图像，并自动下载到本地。这个项目可以帮助用户快速获取大量的图像数据，适用于做数据分析、机器学习训练等应用场景。
 
-44. [houtianze/bypy](https://github.com/houtianze/bypy) ⭐: 7995 ⌨️: Python
+44. [houtianze/bypy](https://github.com/houtianze/bypy) ⭐: 7996 ⌨️: Python
 
 	bypy是一个基于Python的百度云API的命令行工具，可以用来管理和操作百度云存储中的文件和目录。它提供了丰富的功能，包括上传、下载、删除文件，创建、删除、移动目录等，可以方便地在命令行中进行百度云存储的操作。
 
@@ -188,11 +188,11 @@
 
 	InfoSpider是一个基于Python的信息爬取工具，用于从互联网上爬取和整合特定网站的信息。它支持多种网站的数据爬取，并提供了多种功能和模块化的设计，可以帮助用户快速、高效地获取所需信息。
 
-46. [wbt5/real-url](https://github.com/wbt5/real-url) ⭐: 7452 ⌨️: Python	`bilibili` `danmu` `douyin` `douyu` `huya` `kuaishou` `python` `streaming`
+46. [wbt5/real-url](https://github.com/wbt5/real-url) ⭐: 7451 ⌨️: Python	`bilibili` `danmu` `douyin` `douyu` `huya` `kuaishou` `python` `streaming`
 
 	real-url项目是一个可以从网页中提取真实播放地址的工具。它通过分析网页中的嵌入式视频和音频元素，找到其真实的播放地址，并提供给用户使用。这个工具对于需要获取网页中嵌入视频和音频的开发者和研究者来说非常有用。
 
-47. [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) ⭐: 7318 ⌨️: Python
+47. [hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy) ⭐: 7321 ⌨️: Python
 
 	gh-proxy 是一个基于 Node.js 的 GitHub 代理工具，用于解决 GitHub 在国内访问速度慢的问题。它能够代理 GitHub 的资源并进行加速，帮助用户更快地访问 GitHub 代码仓库、下载资源等。
 
@@ -208,7 +208,7 @@
 
 	Dango Translator是一个使用Python编写的文本翻译工具，可以通过API接口将文本翻译成多种语言。这个工具可以帮助用户快速方便地进行跨语言翻译。
 
-51. [EstrellaXD/Auto_Bangumi](https://github.com/EstrellaXD/Auto_Bangumi) ⭐: 7069 ⌨️: Python	`anime` `auto-downloader` `docker` `python` `qbittorrent` `rss-parser`
+51. [EstrellaXD/Auto_Bangumi](https://github.com/EstrellaXD/Auto_Bangumi) ⭐: 7071 ⌨️: Python	`anime` `auto-downloader` `docker` `python` `qbittorrent` `rss-parser`
 
 	Auto_Bangumi是一个使用Python编写的自动化工具，可以帮助用户自动在B站上观看番剧。它可以自动登录B站账号，观看指定的番剧，并支持自定义观看时长和观看进度。这个工具可以让用户更便捷地观看自己喜欢的番剧。
 
@@ -216,7 +216,7 @@
 
 	这个项目是一个基于V2Ray的多用户管理系统，能够帮助用户快速搭建私人代理服务器，并实现多用户管理。它简化了V2Ray的配置流程，让用户能够更轻松地搭建和管理代理服务器。
 
-53. [mli/autocut](https://github.com/mli/autocut) ⭐: 6805 ⌨️: Python
+53. [mli/autocut](https://github.com/mli/autocut) ⭐: 6803 ⌨️: Python
 
 	autocut是一个用于自动裁剪音频的Python工具，它可以根据音频中的声音活动自动裁剪音频文件。这个工具可以帮助用户快速地裁剪录音文件或音乐文件，去除无声部分，从而节省时间和精力。
 
@@ -224,19 +224,19 @@
 
 	这是一个针对 Surge / Clash / Quantumult 的代理规则集合，可以帮助用户更好地管理和配置代理规则，以实现更稳定和安全的网络代理。
 
-55. [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule) ⭐: 6273 ⌨️: Python	`sstap` `sstap-rule`
+55. [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule) ⭐: 6274 ⌨️: Python	`sstap` `sstap-rule`
 
 	这是一个名为SSTap-Rule的项目，它是与SSTap软件配合使用的规则列表。SSTap是一款用于代理软件的工具，SSTap-Rule则提供了一系列规则，用于帮助用户更好地管理和配置代理规则。
 
-56. [nonebot/nonebot2](https://github.com/nonebot/nonebot2) ⭐: 6210 ⌨️: Python	`bot` `chatbot` `cqhttp` `dingtalk-robot` `fastapi` `lark-bot` `mirai-bot` `nonebot` `nonebot2` `onebot` `python` `qq` `qq-guild` `telegram-bot`
+56. [nonebot/nonebot2](https://github.com/nonebot/nonebot2) ⭐: 6212 ⌨️: Python	`bot` `chatbot` `cqhttp` `dingtalk-robot` `fastapi` `lark-bot` `mirai-bot` `nonebot` `nonebot2` `onebot` `python` `qq` `qq-guild` `telegram-bot`
 
 	NoneBot 2 是一个基于 Python 的异步机器人开发框架，采用插件化设计，支持多种消息类型和平台。它具有高度可扩展性和灵活性，可用于开发聊天机器人、群聊管理等应用。
 
-57. [shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan) ⭐: 6110 ⌨️: Python	`aiyueshuxiang` `ipa` `iptv` `reader` `shuyuan` `trollstore` `tts` `xiangsegige` `yuanyuedu` `yuedu`
+57. [shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan) ⭐: 6115 ⌨️: Python	`aiyueshuxiang` `ipa` `iptv` `reader` `shuyuan` `trollstore` `tts` `xiangsegige` `yuanyuedu` `yuedu`
 
 	该项目是一个基于Python的图书管理系统，提供了图书的添加、借阅、归还等功能，可以方便地管理图书信息。同时，该系统还实现了读者管理、借阅记录、图书搜索等功能，是一个简单实用的图书管理工具。
 
-58. [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) ⭐: 6056 ⌨️: Python	`blind-watermark` `image-processing` `watermark` `watermark-image`
+58. [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) ⭐: 6058 ⌨️: Python	`blind-watermark` `image-processing` `watermark` `watermark-image`
 
 	这个项目是关于盲水印技术的研究和实现，可以将水印嵌入到图片中并实现反水印的功能。通过使用数字水印技术，可以对图像进行身份认证和版权保护，是一个很有用的工具。
 
@@ -248,7 +248,7 @@
 
 	这个项目是一个基于Python的自动登录框架，旨在提供一种简便的方式来处理网站的登录功能。通过模拟用户的登录过程来实现自动登录，避免手动输入用户名和密码。
 
-61. [Python3WebSpider/ProxyPool](https://github.com/Python3WebSpider/ProxyPool) ⭐: 5819 ⌨️: Python	`flask` `http` `proxy` `proxypool` `redis` `webspider`
+61. [Python3WebSpider/ProxyPool](https://github.com/Python3WebSpider/ProxyPool) ⭐: 5820 ⌨️: Python	`flask` `http` `proxy` `proxypool` `redis` `webspider`
 
 	这个项目是一个用Python3编写的代理池工具，可用于自动获取和验证代理IP，提供高质量的代理IP列表。代理池可以帮助用户在爬虫、网络加速等场景中更稳定、高效地获取数据。
 
@@ -264,7 +264,7 @@
 
 	这个项目是一个爆破字典生成器，它可以帮助用户生成用于密码爆破的字典文件。用户可以指定密码长度、包含的字符种类等参数，生成定制化的字典文件，用于提高密码爆破的效率。
 
-65. [davidteather/TikTok-Api](https://github.com/davidteather/TikTok-Api) ⭐: 4964 ⌨️: Python	`api` `download-tiktoks` `hacktoberfest` `python` `tik` `tiktok` `tiktok-api` `tiktok-automation` `tiktok-compilations` `tiktok-downloader` `tiktok-python` `tiktok-scraper` `tiktok-signature` `tiktok-trending-page` `tiktokapi` `tok` `trending`
+65. [davidteather/TikTok-Api](https://github.com/davidteather/TikTok-Api) ⭐: 4965 ⌨️: Python	`api` `download-tiktoks` `hacktoberfest` `python` `tik` `tiktok` `tiktok-api` `tiktok-automation` `tiktok-compilations` `tiktok-downloader` `tiktok-python` `tiktok-scraper` `tiktok-signature` `tiktok-trending-page` `tiktokapi` `tok` `trending`
 
 	这个项目是一个非官方的TikTok API，可以用来访问TikTok的公开数据。它提供了一些方法来获取用户信息、视频信息和趋势数据等。这个API可以帮助开发者创建自己的TikTok相关应用或分析工具。
 
@@ -272,11 +272,11 @@
 
 	uncaptcha2是一个用于破解Google的reCAPTCHA验证码系统的工具，它使用机器学习和计算机视觉技术来自动识别验证码中的文字。通过该工具，用户可以在一定程度上绕过reCAPTCHA验证，从而进行自动化的网络请求和操作。
 
-67. [huashengdun/webssh](https://github.com/huashengdun/webssh) ⭐: 4603 ⌨️: Python	`asynchronous` `paramiko` `python` `tornado` `websockets` `xtermjs`
+67. [huashengdun/webssh](https://github.com/huashengdun/webssh) ⭐: 4605 ⌨️: Python	`asynchronous` `paramiko` `python` `tornado` `websockets` `xtermjs`
 
 	webssh是一个基于Web的SSH客户端，可以通过浏览器直接连接到远程服务器进行SSH操作，支持终端显示、文件上传下载等功能。这个项目提供了一个方便快捷的方式来管理远程服务器，是一个非常实用的工具。
 
-68. [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) ⭐: 4404 ⌨️: Python	`anonymous` `fastapi` `filecodebox` `python` `tool`
+68. [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) ⭐: 4405 ⌨️: Python	`anonymous` `fastapi` `filecodebox` `python` `tool`
 
 	FileCodeBox是一个开源的文件管理和代码片段管理工具，用于组织和管理各种文件和代码片段。它提供了一个简单的界面来创建、编辑和搜索文件，还可以使用标签和分类来组织代码片段。通过简单的操作，用户可以更轻松地管理自己的文件和代码库。
 
@@ -288,7 +288,7 @@
 
 	宝塔面板是一个简单易用的服务器管理面板，支持 Linux 服务器上的Web服务、数据库、FTP、DNS等功能的快速部署和管理。具有界面友好、功能丰富、支持多语言等特点。
 
-71. [qiyeboy/IPProxyPool](https://github.com/qiyeboy/IPProxyPool) ⭐: 4187 ⌨️: Python
+71. [qiyeboy/IPProxyPool](https://github.com/qiyeboy/IPProxyPool) ⭐: 4188 ⌨️: Python
 
 	IPProxyPool是一个基于Python的IP代理池项目，可用于爬虫系统和其他需要大量代理IP的应用。该项目定时从免费代理网站获取最新的代理IP，并对其进行验证和存储，用户可以通过API接口获取可用的代理IP。
 
@@ -336,11 +336,11 @@
 
 	DecryptLogin是一个Python库，可以用于解密常见网站的登录信息，包括手机号、邮箱、密码等。通过模拟网站登录流程，获取加密信息并进行解密，可以实现在不使用API的情况下获取用户登录信息的功能。
 
-83. [nickliqian/cnn_captcha](https://github.com/nickliqian/cnn_captcha) ⭐: 2791 ⌨️: Python	`cnn` `python` `tensorflow`
+83. [nickliqian/cnn_captcha](https://github.com/nickliqian/cnn_captcha) ⭐: 2793 ⌨️: Python	`cnn` `python` `tensorflow`
 
 	这个项目是一个基于卷积神经网络的验证码识别系统，可以用于识别网站和应用程序中的验证码。通过训练神经网络来识别不同类型的验证码，并提供识别准确率和性能评估。
 
-84. [ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot) ⭐: 2507 ⌨️: Python	`bot` `crawler` `security` `wei-xin` `weixin` `wxbot`
+84. [ngc660sec/NGCBot](https://github.com/ngc660sec/NGCBot) ⭐: 2510 ⌨️: Python	`bot` `crawler` `security` `wei-xin` `weixin` `wxbot`
 
 	NGCBot是一个基于Python编写的机器人框架，用于构建和训练聊天机器人。它支持根据自定义语料库来生成对话，并且可以集成到各种平台上进行实时交互。NGCBot提供了丰富的插件和扩展接口，让开发者可以快速定制自己的机器人应用。
 
@@ -380,7 +380,7 @@
 
 	迅雷离线下载是一个基于Python的迅雷离线下载接口库，可以方便地通过Python脚本实现迅雷离线下载功能。这个项目提供了一个接口，可以直接调用迅雷离线下载的接口，实现文件下载和管理功能。
 
-94. [TideSec/TideFinger](https://github.com/TideSec/TideFinger) ⭐: 1947 ⌨️: Python
+94. [TideSec/TideFinger](https://github.com/TideSec/TideFinger) ⭐: 1948 ⌨️: Python
 
 	TideFinger是一个用于指纹识别和设备识别的开源工具，可以快速、准确地识别目标设备的操作系统、开放端口、服务和应用程序等信息，帮助用户进行目标设备的信息收集和安全评估。
 
@@ -388,7 +388,7 @@
 
 	bcloud是一个基于Python的百度网盘命令行工具，可以通过命令行对百度网盘进行文件操作，支持文件上传、下载、删除等功能，同时支持断点续传和多线程下载，方便用户在终端中管理百度网盘文件。
 
-96. [Baiyuetribe/kamiFaka](https://github.com/Baiyuetribe/kamiFaka) ⭐: 1905 ⌨️: Python	`faka` `flask` `heroku` `jwt-authentication` `mysql` `pwd` `smtp` `stisla` `ui-stisla` `vue3` `vuejs`
+96. [Baiyuetribe/kamiFaka](https://github.com/Baiyuetribe/kamiFaka) ⭐: 1906 ⌨️: Python	`faka` `flask` `heroku` `jwt-authentication` `mysql` `pwd` `smtp` `stisla` `ui-stisla` `vue3` `vuejs`
 
 	kamiFaka是一个基于PHP开发的虚拟卡密系统，支持多种支付平台和商品类型，可以方便地对接到自己的网站上进行使用。具有简单易用、灵活扩展的特点，可以帮助网站快速接入虚拟商品交易功能。
 
@@ -400,7 +400,7 @@
 
 	WebCrack是一个基于Python3的Web应用程序密码爆破工具，可用于测试网站的安全性。它支持多种常见的Web应用程序，包括FTP、MySQL、PostgreSQL等。用户可以利用WebCrack来测试自己的网站，或者用于安全研究和教育目的。
 
-99. [vbskycn/iptv](https://github.com/vbskycn/iptv) ⭐: 1763 ⌨️: Python
+99. [vbskycn/iptv](https://github.com/vbskycn/iptv) ⭐: 1766 ⌨️: Python
 
 	这个项目是一个基于Python的IPTV播放器，可以在命令行界面上观看来自不同国家和地区的电视频道。用户可以通过该项目方便地浏览和观看全球各地的电视频道。
 
@@ -408,11 +408,11 @@
 
      这个项目是网易云音乐的第三方客户端，提供了丰富的音乐播放和搜索功能，界面简洁、操作便捷。
 
-101. [MikeWang000000/Natter](https://github.com/MikeWang000000/Natter) ⭐: 1679 ⌨️: Python
+101. [MikeWang000000/Natter](https://github.com/MikeWang000000/Natter) ⭐: 1680 ⌨️: Python
 
      Natter是一个基于Go语言的高性能消息队列系统，用于实现分布式消息传递和处理。它支持多种消息协议和持久化存储，并提供了易用的API和管理界面。Natter具有较低的延迟和高吞吐量，适合于构建大规模的实时消息系统。
 
-102. [hxz393/BaiduPanFilesTransfers](https://github.com/hxz393/BaiduPanFilesTransfers) ⭐: 1531 ⌨️: Python	`baidu` `gui` `windows`
+102. [hxz393/BaiduPanFilesTransfers](https://github.com/hxz393/BaiduPanFilesTransfers) ⭐: 1533 ⌨️: Python	`baidu` `gui` `windows`
 
      这个项目是一个基于Python的百度网盘文件传输工具，可以通过命令行或GUI界面上传、下载、删除百度网盘中的文件。它提供了简单易用的操作方式，让用户可以方便地管理自己的百度网盘文件。
 
@@ -424,19 +424,19 @@
 
      该项目是一个用于下载在线视频的Python程序，支持从多个网站下载视频，并提供了简单易用的命令行界面。用户可以通过输入视频链接和选择下载格式来下载他们喜欢的视频。
 
-105. [Entromorgan/Autoticket](https://github.com/Entromorgan/Autoticket) ⭐: 1341 ⌨️: Python
-
-     这个项目是一个基于Python的自动订票脚本，可用于自动订购火车或飞机票。通过输入相关信息和偏好，脚本可以帮助用户自动搜索和订购票务，节省用户的时间和精力。
-
-106. [yuanzl77/IPTV](https://github.com/yuanzl77/IPTV) ⭐: 1340 ⌨️: Python	`iptv` `iptv-m3u` `ipv4` `m3u8` `playlist` `tv`
+105. [yuanzl77/IPTV](https://github.com/yuanzl77/IPTV) ⭐: 1345 ⌨️: Python	`iptv` `iptv-m3u` `ipv4` `m3u8` `playlist` `tv`
 
      这是一个基于Java的简单IPTV播放器项目，支持通过URL播放IPTV流。通过该项目，用户可以方便地观看IPTV频道。
+
+106. [Entromorgan/Autoticket](https://github.com/Entromorgan/Autoticket) ⭐: 1341 ⌨️: Python
+
+     这个项目是一个基于Python的自动订票脚本，可用于自动订购火车或飞机票。通过输入相关信息和偏好，脚本可以帮助用户自动搜索和订购票务，节省用户的时间和精力。
 
 107. [rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui) ⭐: 1333 ⌨️: Python	`baiducloud` `baiduyun` `lanzou` `lanzoucloud` `pyqt5` `pyqt5-gui`
 
      蓝奏云GUI是一个使用Python编写的简单的蓝奏云客户端，它提供了一个图形用户界面，使用户可以通过它轻松地上传、下载和管理文件。该项目简化了蓝奏云服务的操作流程，方便用户快速地进行文件传输和管理。
 
-108. [out0fmemory/qqwry.dat](https://github.com/out0fmemory/qqwry.dat) ⭐: 1214 ⌨️: Python	`ip` `location`
+108. [out0fmemory/qqwry.dat](https://github.com/out0fmemory/qqwry.dat) ⭐: 1215 ⌨️: Python	`ip` `location`
 
      这个项目是一个基于IP地址的地理位置查询工具，使用了qqwry.dat IP库文件。用户可以通过输入IP地址，快速地查询到该IP地址所对应的地理位置信息，如国家、城市等。
 
@@ -448,7 +448,7 @@
 
      这个项目是一个使用GitHub Actions自动化调用有道翻译API的工作流。当有人提交翻译请求时，GitHub Actions会自动调用有道翻译API进行翻译，并将翻译结果返回给用户。
 
-111. [Yinzo/SmartQQBot](https://github.com/Yinzo/SmartQQBot) ⭐: 995 ⌨️: Python	`python`
+111. [Yinzo/SmartQQBot](https://github.com/Yinzo/SmartQQBot) ⭐: 994 ⌨️: Python	`python`
 
      SmartQQBot是一个基于SmartQQ协议的Python QQ机器人框架，可以通过编写简单的Python脚本实现QQ聊天机器人的功能，包括发送消息、接收消息、自动回复等。
 
@@ -464,7 +464,7 @@
 
      iproute2mac是一个基于Python的命令行工具，用于在MacOS系统上方便地管理网络接口和路由。它提供了一种简单的方式来查看、添加、修改和删除网络接口和路由。该工具使网络配置变得更加便捷和灵活，并可以帮助用户更好地管理他们的网络连接。
 
-115. [CaoZ/JD-Coin](https://github.com/CaoZ/JD-Coin) ⭐: 919 ⌨️: Python
+115. [CaoZ/JD-Coin](https://github.com/CaoZ/JD-Coin) ⭐: 918 ⌨️: Python
 
      这个项目是京东商城的京豆自动化脚本，通过Python脚本模拟用户登录京东商城，自动完成签到、浏览商品等任务，获取京豆。
 
@@ -472,7 +472,7 @@
 
      WebAliveScan是一个用Python编写的简单、快速的Web存活扫描工具。它可以帮助用户快速地检测扫描大批量域名或者IP地址的存活情况，并生成存活主机的报告。这个工具可以用于网络安全测试、资产管理等场景。
 
-117. [kimwang1978/collect-tv-txt](https://github.com/kimwang1978/collect-tv-txt) ⭐: 902 ⌨️: Python	`aptv` `auto` `daily` `epg` `fongmi` `iptv` `ipv4` `ipv6` `live` `m3u` `m3u8` `mytv` `television` `tv` `tvbox` `tvlist` `tvlive` `txt`
+117. [kimwang1978/collect-tv-txt](https://github.com/kimwang1978/collect-tv-txt) ⭐: 904 ⌨️: Python	`aptv` `auto` `daily` `epg` `fongmi` `iptv` `ipv4` `ipv6` `live` `m3u` `m3u8` `mytv` `television` `tv` `tvbox` `tvlist` `tvlive` `txt`
 
      这个项目是一个用于收集电视节目剧本文本的工具，可以通过爬取网站上的剧本文本，并保存到本地文件中。通过这个工具，用户可以方便地获取各种电视节目的剧本文本，用于分析或研究。
 
@@ -480,7 +480,7 @@
 
      googleplay-api是一个用Python编写的库，用于与Google Play商店进行通信和交互。用户可以使用该库来搜索应用程序、获取应用程序详细信息、下载APK文件等。该库提供了丰富的API，使开发者可以方便地与Google Play商店进行集成。
 
-119. [LogicJake/WebMonitor](https://github.com/LogicJake/WebMonitor) ⭐: 838 ⌨️: Python	`monitor` `rss` `web-monitor`
+119. [LogicJake/WebMonitor](https://github.com/LogicJake/WebMonitor) ⭐: 843 ⌨️: Python	`monitor` `rss` `web-monitor`
 
      WebMonitor是一个用Python编写的简单网络监控工具，可用于监控网站的可用性和响应时间。它可以定期请求指定的网址，并记录响应时间和状态码，帮助用户及时发现网站故障并采取措施。
 
@@ -492,7 +492,7 @@
 
      这个项目是蓝奏云的非官方API，可以用来通过代码实现对蓝奏云网盘的文件上传、下载、删除等操作。这个API提供了一系列的方法，方便开发者在自己的项目中对蓝奏云进行文件管理。
 
-122. [vcheckzen/FODI](https://github.com/vcheckzen/FODI) ⭐: 682 ⌨️: Python
+122. [vcheckzen/FODI](https://github.com/vcheckzen/FODI) ⭐: 681 ⌨️: Python
 
      FODI (Feature-wise outlier detection interpretation) 是一个用于特征级别异常检测解释的 Python 库。它提供了可解释的方法来识别数据中的异常特征，帮助用户理解异常原因。
 
@@ -532,7 +532,7 @@
 
      这个项目是蓝奏云的命令行工具，可以通过命令行对蓝奏云的文件和文件夹进行管理和操作。通过这个工具，用户可以在不打开网页的情况下，通过命令行快速地上传、下载、删除文件，管理文件夹等操作。
 
-132. [y9nhjy/Proxifier-Keygen](https://github.com/y9nhjy/Proxifier-Keygen) ⭐: 504 ⌨️: Python
+132. [y9nhjy/Proxifier-Keygen](https://github.com/y9nhjy/Proxifier-Keygen) ⭐: 506 ⌨️: Python
 
      Proxifier-Keygen是一个用于生成Proxifier软件注册码的开源项目。Proxifier是一款网络工具，可帮助用户通过代理服务器访问互联网。使用该项目，用户可以自行生成Proxifier的注册码，无需购买正版许可。
 
@@ -580,7 +580,7 @@
 
      这个项目是一个使用卷积神经网络（CNN）来识别验证码的代码库。它提供了一个训练模型的框架，可以用来识别数字和字母的验证码。这个项目适用于需要识别验证码的应用程序和网站开发。
 
-144. [expzhizhuo/WechatBot](https://github.com/expzhizhuo/WechatBot) ⭐: 230 ⌨️: Python
+144. [expzhizhuo/WechatBot](https://github.com/expzhizhuo/WechatBot) ⭐: 231 ⌨️: Python
 
      这个项目是一个基于itchat库的微信机器人，可以用来自动回复消息、定时发送消息、群发消息等。它可以帮助用户自动化处理微信消息，提高效率。
 
@@ -684,11 +684,11 @@
 ### PHP
 ---
 
-0. [blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) ⭐: 30947 ⌨️: PHP
+0. [blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) ⭐: 30948 ⌨️: PHP
 
 	jQuery文件上传是一个基于jQuery和JavaScript的文件上传插件，支持多文件上传、拖放文件上传、实时进度显示等功能。
 
-1. [nextcloud/server](https://github.com/nextcloud/server) ⭐: 27725 ⌨️: PHP	`cloud` `collaboration` `decentralized` `design` `distributed` `enterprise` `federation` `file-sharing` `free-software` `hacktoberfest` `javascript` `nextcloud` `open-source` `opensource` `owncloud` `php` `self-hosting` `sharing` `usability` `ux`
+1. [nextcloud/server](https://github.com/nextcloud/server) ⭐: 27724 ⌨️: PHP	`cloud` `collaboration` `decentralized` `design` `distributed` `enterprise` `federation` `file-sharing` `free-software` `hacktoberfest` `javascript` `nextcloud` `open-source` `opensource` `owncloud` `php` `self-hosting` `sharing` `usability` `ux`
 
 	Nextcloud 是一个开源的协作平台，提供文件存储、日历、联系人和更多功能。它可以通过 Web 界面或移动应用访问，还支持端到端加密和严格的数据隐私保护。
 
@@ -704,7 +704,7 @@
 
 	这个项目是一个PHP设计模式的示例库，包括了各种常见的设计模式实现和示例代码。通过这个项目，你可以学习到如何在PHP中使用各种设计模式来解决常见的编程问题，提高代码的可维护性和可扩展性。
 
-5. [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) ⭐: 21151 ⌨️: PHP	`attachment` `email` `hacktoberfest` `php` `php-library` `phpmailer` `smtp` `tls-support` `xoauth2`
+5. [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) ⭐: 21153 ⌨️: PHP	`attachment` `email` `hacktoberfest` `php` `php-library` `phpmailer` `smtp` `tls-support` `xoauth2`
 
 	PHPMailer是一个用于发送电子邮件的PHP库，支持SMTP认证、HTML邮件、附件、加密等功能。它提供了简单易用的接口，可以很方便地集成到PHP应用程序中，支持多种邮件发送方式，并且能够保证邮件发送的安全性和稳定性。
 
@@ -712,7 +712,7 @@
 
 	Monolog是一个强大的PHP日志记录库，提供了灵活的日志记录功能和多样的处理器和格式器，可以满足各种日志记录需求。它支持多种日志级别，并能够将日志记录到文件、数据库、电子邮件等不同的目标中。Monolog还提供了方便的方法来对日志进行过滤、格式化和处理，使得日志记录变得更加简单和可定制。
 
-7. [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) ⭐: 18263 ⌨️: PHP	`php` `php-framework` `php7` `php8`
+7. [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) ⭐: 18264 ⌨️: PHP	`php` `php-framework` `php7` `php8`
 
 	CodeIgniter是一个简洁、轻量级的PHP框架，旨在帮助开发者快速构建Web应用程序。它遵循MVC模式，提供了丰富的库和工具，同时具有良好的扩展性和灵活性。CodeIgniter的设计简单直观，让开发者能够快速上手，并且它还拥有完善的文档和活跃的社区支持。
 
@@ -720,7 +720,7 @@
 
 	PHP-Parser 是一个用于解析 PHP 代码的工具库，它可以将 PHP 代码解析为抽象语法树（AST），并且可以方便地对 AST 进行操作和分析。这个项目可以帮助开发人员编写自定义的代码分析工具、代码生成器和其他与 PHP 代码相关的工具。
 
-9. [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) ⭐: 17012 ⌨️: PHP
+9. [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) ⭐: 17013 ⌨️: PHP
 
 	这个项目是一个介绍如何赚更多钱的指南，包括提供了各种赚钱的方法和技巧。项目中包括了实用的建议和经验分享，帮助用户找到适合自己的赚钱方式，并提高财务收益。
 
@@ -728,11 +728,11 @@
 
 	Carbon 是一个用于在 PHP 中处理日期和时间的库，它可以轻松地处理日期、时间和时间戳的创建、格式化、解析和操作。它提供了一种简洁、灵活和强大的方式来处理日期和时间，让开发者可以更轻松地进行日期和时间的操作。
 
-11. [koel/koel](https://github.com/koel/koel) ⭐: 16119 ⌨️: PHP	`audio` `hacktoberfest` `laravel` `mp3player` `streaming` `vue`
+11. [koel/koel](https://github.com/koel/koel) ⭐: 16120 ⌨️: PHP	`audio` `hacktoberfest` `laravel` `mp3player` `streaming` `vue`
 
 	Koel是一个现代化的音乐播放器，用于个人或团队在线音乐库的管理。具有响应式界面和各种功能，包括音频格式支持、播放列表管理和图表分析等。
 
-12. [flarum/flarum](https://github.com/flarum/flarum) ⭐: 15456 ⌨️: PHP	`flarum` `forum` `laravel` `php`
+12. [flarum/flarum](https://github.com/flarum/flarum) ⭐: 15457 ⌨️: PHP	`flarum` `forum` `laravel` `php`
 
 	Flarum是一个简洁、现代的论坛软件，旨在提供用户友好的界面和高度可定制性。它基于PHP和JavaScript构建，具有响应式设计和轻量级结构，适用于各种社区类型。Flarum支持插件和主题定制，可以满足不同论坛运营者的需求。
 
@@ -744,15 +744,15 @@
 
 	Grav 是一个用 PHP 构建的现代化开源内容管理系统，它通过简单易用的方式帮助用户快速构建和管理静态网站。Grav 不需要数据库，采用平面文件存储，支持Markdown格式。Grav的灵活性和可扩展性使得用户可以轻松定制他们的网站，而且它还有丰富的插件和主题供用户选择。Grav 还采用了一些流行的前端工具，比如 Twig 模板引擎、YAML 配置文件和 Markdown 内容等，使得用户能够迅速上手，并且创造出美观的网站。
 
-15. [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) ⭐: 14294 ⌨️: PHP	`autocompletion` `hacktoberfest` `laravel`
+15. [barryvdh/laravel-ide-helper](https://github.com/barryvdh/laravel-ide-helper) ⭐: 14295 ⌨️: PHP	`autocompletion` `hacktoberfest` `laravel`
 
 	laravel-ide-helper是一个为Laravel应用程序生成IDE帮助文件的工具。它可以帮助IDE更好地理解Laravel框架，并提供更好的代码提示和自动完成功能。这个工具可以提高开发效率，减少错误，并提升代码质量。
 
-16. [Intervention/image](https://github.com/Intervention/image) ⭐: 13986 ⌨️: PHP	`gd` `image` `imagick` `intervention` `php`
+16. [Intervention/image](https://github.com/Intervention/image) ⭐: 13987 ⌨️: PHP	`gd` `image` `imagick` `intervention` `php`
 
 	Intervention Image 是一个简单而强大的 PHP 图像处理库，可以用来处理和操作图片。它提供了方便的方法来对图片进行裁剪、调整大小、添加滤镜等操作，使得图像处理变得更加简单和高效。
 
-17. [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) ⭐: 13414 ⌨️: PHP	`excel` `gnumeric` `hacktoberfest` `libreoffice` `msexcel` `ods` `office` `php` `phpexcel` `spreadsheet` `sylk` `xls` `xlsx`
+17. [PHPOffice/PhpSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) ⭐: 13415 ⌨️: PHP	`excel` `gnumeric` `hacktoberfest` `libreoffice` `msexcel` `ods` `office` `php` `phpexcel` `spreadsheet` `sylk` `xls` `xlsx`
 
 	PhpSpreadsheet是一个用于读取、创建和编辑电子表格文档的PHP库。它支持多种电子表格格式，包括Excel和OpenDocument。用户可以利用PhpSpreadsheet处理电子表格文件，实现数据导入、导出和编辑等操作。
 
@@ -772,11 +772,11 @@
 
 	这是一个PHP库，用于生成和操作UUID（通用唯一标识符）。UUID是一个标准的128位数字标识符，通常用于唯一地标识实体。这个项目提供了一种方便的方式来生成不同版本的UUID，并支持将UUID转换成不同的字符串格式。
 
-22. [librespeed/speedtest](https://github.com/librespeed/speedtest) ⭐: 12390 ⌨️: PHP	`hacktoberfest` `html5-speedtest` `internet-speed` `internet-speed-checker` `librespeed` `php` `speedtest` `web-worker` `xhr`
+22. [librespeed/speedtest](https://github.com/librespeed/speedtest) ⭐: 12392 ⌨️: PHP	`hacktoberfest` `html5-speedtest` `internet-speed` `internet-speed-checker` `librespeed` `php` `speedtest` `web-worker` `xhr`
 
 	这是一个开源的网络速度测试工具，使用 HTML5 技术实现，可以在浏览器中运行，无需安装任何插件。用户可以通过该工具测试他们的网络连接的下载速度、上传速度，以及网络延迟等信息。这个项目让用户可以方便快捷地测试自己的网络连接质量。
 
-23. [typecho/typecho](https://github.com/typecho/typecho) ⭐: 11529 ⌨️: PHP	`blog` `markdown` `php` `typecho`
+23. [typecho/typecho](https://github.com/typecho/typecho) ⭐: 11532 ⌨️: PHP	`blog` `markdown` `php` `typecho`
 
 	Typecho 是一个简洁、轻量级的开源博客程序，使用 PHP 编写，支持 Markdown 格式，易于安装和使用。具有丰富的插件和主题资源，适合个人博客和小型网站使用。
 
@@ -808,15 +808,15 @@
 
 	Mobile-Detect是一个PHP类库，用于检测访问网站的设备类型，如手机、平板电脑、台式机等。它能够识别设备的操作系统、浏览器、分辨率等信息，帮助开发者根据用户设备的特性优化网站或应用的显示和功能。
 
-31. [w7corp/easywechat](https://github.com/w7corp/easywechat) ⭐: 10299 ⌨️: PHP	`easywechat` `php` `sdk` `wechat`
+31. [w7corp/easywechat](https://github.com/w7corp/easywechat) ⭐: 10300 ⌨️: PHP	`easywechat` `php` `sdk` `wechat`
 
 	EasyWeChat是一个PHP微信开发工具包，提供了简洁易用的接口，方便开发者快速集成微信公众号、小程序、企业号等功能。适用于各种PHP框架，如Laravel、Yii等。
 
-32. [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) ⭐: 10204 ⌨️: PHP	`feed` `freshrss` `news-aggregator` `php` `rss` `rss-aggregator` `rss-reader` `self-hosted` `websub`
+32. [FreshRSS/FreshRSS](https://github.com/FreshRSS/FreshRSS) ⭐: 10205 ⌨️: PHP	`feed` `freshrss` `news-aggregator` `php` `rss` `rss-aggregator` `rss-reader` `self-hosted` `websub`
 
 	FreshRSS 是一个简单、轻量级的 RSS 阅读器，使用 PHP 编写，可在自己的服务器上部署。它提供了一个干净、直观的界面，让用户可以轻松订阅和阅读自己喜爱的网站内容。FreshRSS 还支持标签、筛选器、主题等功能，让用户定制化阅读体验。
 
-33. [assimon/dujiaoka](https://github.com/assimon/dujiaoka) ⭐: 9780 ⌨️: PHP	`dujiaofaka` `dujiaoka` `faka`
+33. [assimon/dujiaoka](https://github.com/assimon/dujiaoka) ⭐: 9782 ⌨️: PHP	`dujiaofaka` `dujiaoka` `faka`
 
 	独角数卡是一个基于PHP开发的自动化电子卡密交易系统，支持支付宝、微信等多种支付方式。用户可以在系统中购买各种类型的卡密，包括游戏充值卡、会员卡等，同时也可以将自己的卡密上架交易。
 
@@ -828,7 +828,7 @@
 
 	Doctrine DBAL是一个PHP数据库抽象层，构建在PDO之上，提供了数据库连接、查询构建、schema管理等功能，可与各种关系型数据库配合使用。
 
-36. [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) ⭐: 9480 ⌨️: PHP
+36. [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) ⭐: 9482 ⌨️: PHP
 
 	SSPanel-UIM是一个基于Shadowsocks和V2Ray的多用户管理面板，提供了用户管理、流量统计、节点管理等功能，方便快速搭建私人代理服务器。
 
@@ -868,7 +868,7 @@
 
 	Doctrine Annotations 是一个用于 PHP 的注解处理库，它允许开发者在类、属性和方法上添加注解，并且能够轻松地从注解中提取元数据信息。这个项目为 PHP 提供了一个强大的注解处理工具，可以用于创建自定义注解，实现更加灵活的代码设计和元数据管理。
 
-46. [vrana/adminer](https://github.com/vrana/adminer) ⭐: 6283 ⌨️: PHP	`database` `mysql` `php` `postgresql` `sqlite`
+46. [vrana/adminer](https://github.com/vrana/adminer) ⭐: 6282 ⌨️: PHP	`database` `mysql` `php` `postgresql` `sqlite`
 
 	Adminer是一个简单而强大的数据库管理工具，使用PHP编写，可用于管理MySQL，PostgreSQL，SQLite，MS SQL等数据库。它具有直观的界面，小巧的体积，易于安装和使用，是许多开发人员和数据库管理员喜爱的工具之一。
 
@@ -884,7 +884,7 @@
 
 	Entrust是一个基于Laravel的角色权限管理扩展，它提供了简单而强大的方式来管理用户角色和权限。通过Entrust，用户可以轻松地定义角色和分配权限，从而实现灵活的权限控制。这个项目提供了清晰的文档和示例，能够帮助开发者快速集成角色权限管理功能到他们的Laravel应用中。
 
-50. [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) ⭐: 5972 ⌨️: PHP
+50. [roundcube/roundcubemail](https://github.com/roundcube/roundcubemail) ⭐: 5973 ⌨️: PHP
 
 	Roundcube是一个基于web的开源邮件客户端，用于管理和发送电子邮件。它提供了一个现代化的用户界面，支持多语言和插件，可以方便地集成到各种邮件服务器中。Roundcube使用PHP编写，支持IMAP和SMTP协议，可以轻松地访问和处理邮件。
 
@@ -928,7 +928,7 @@
 
 	这个项目是一个非官方的Instagram API，它提供了一种与Instagram平台交互的方式，可以通过代码实现一些自动化的操作，如发布帖子、点赞、评论等。通过这个API，开发者可以更灵活地使用和管理Instagram账号。
 
-61. [yansongda/pay](https://github.com/yansongda/pay) ⭐: 5071 ⌨️: PHP	`alipay` `douyin` `laravel-pay` `pay` `payment` `php` `unipay` `wechat` `weixin` `yansongda`
+61. [yansongda/pay](https://github.com/yansongda/pay) ⭐: 5072 ⌨️: PHP	`alipay` `douyin` `laravel-pay` `pay` `payment` `php` `unipay` `wechat` `weixin` `yansongda`
 
 	这个项目是一个使用 PHP 构建的支付网关集成库，可以轻松地集成多种支付平台，包括微信、支付宝等。它提供了简单、一致的接口，使开发者能够快速实现支付功能，避免了繁琐的支付接口开发工作。
 
@@ -936,7 +936,7 @@
 
 	Polr是一个开源的短链接管理平台，可以让用户创建、共享和管理自定义短链接。它支持自定义域名和可定制的短链接后缀，还提供了一些高级功能，如密码保护和统计分析。Polr基于PHP和MySQL开发，易于部署和定制。
 
-63. [spatie/browsershot](https://github.com/spatie/browsershot) ⭐: 4904 ⌨️: PHP	`hacktoberfest` `phantomjs` `php` `screenshot`
+63. [spatie/browsershot](https://github.com/spatie/browsershot) ⭐: 4905 ⌨️: PHP	`hacktoberfest` `phantomjs` `php` `screenshot`
 
 	这个项目是一个基于Node.js的库，可以用来生成网页的屏幕截图或者PDF文件。它使用Puppeteer来控制无头浏览器，并且提供了方便的API来实现这些功能。
 
@@ -964,7 +964,7 @@
 
 	Agent 是一个用 PHP 编写的用户代理解析器，能够解析用户代理字符串，并提取设备类型、操作系统、浏览器及其版本等信息。这个项目可以帮助开发者更准确地识别访问者的设备信息，从而针对不同的设备提供更好的用户体验。
 
-70. [endroid/qr-code](https://github.com/endroid/qr-code) ⭐: 4484 ⌨️: PHP	`data-uri` `factory` `php` `qrcode` `reader` `twig-extension`
+70. [endroid/qr-code](https://github.com/endroid/qr-code) ⭐: 4486 ⌨️: PHP	`data-uri` `factory` `php` `qrcode` `reader` `twig-extension`
 
 	这个项目是一个PHP库，用于生成和处理二维码。它可以通过简单的PHP代码生成包含文本、URL、电话号码等内容的二维码，并且支持自定义颜色和尺寸。这个库可以帮助开发者快速轻松地在他们的应用程序中生成和处理二维码。
 
@@ -988,11 +988,11 @@
 
 	这是一个用于将汉字转换为拼音的 PHP 库。它可以将汉字转换为带声调的拼音，并提供了多种不同的输出格式，包括带声调、不带声调、首字母等。这个项目可以帮助开发者在处理汉字时进行拼音转换，适用于各种中文文本处理场景。
 
-76. [wikimedia/mediawiki](https://github.com/wikimedia/mediawiki) ⭐: 4318 ⌨️: PHP	`mediawiki` `php` `wiki` `wikipedia`
+76. [wikimedia/mediawiki](https://github.com/wikimedia/mediawiki) ⭐: 4317 ⌨️: PHP	`mediawiki` `php` `wiki` `wikipedia`
 
 	MediaWiki是维基媒体基金会使用的开源wiki软件，也是维基百科的基础。它提供了强大的多用户编辑和管理功能，支持丰富的扩展和定制。MediaWiki的功能包括页面编辑、版本控制、讨论页面、用户权限管理等，是一个功能丰富、灵活可扩展的wiki平台。
 
-77. [tecnickcom/TCPDF](https://github.com/tecnickcom/TCPDF) ⭐: 4250 ⌨️: PHP
+77. [tecnickcom/TCPDF](https://github.com/tecnickcom/TCPDF) ⭐: 4251 ⌨️: PHP
 
 	TCPDF 是一个用于 PHP 的开源 PDF 库，可以用来生成 PDF 文件。它支持 Unicode、图像、表格、条形码和图形等常见 PDF 元素，并提供丰富的文档和示例。
 
@@ -1004,11 +1004,11 @@
 
 	RainLoop是一个基于Web的轻量级邮件客户端，可以让用户通过浏览器来管理和发送邮件。它具有简洁的界面和易用的功能，同时支持多种语言和邮件服务商。RainLoop的设计使得用户可以方便地访问和管理他们的电子邮箱，而无需安装任何邮件客户端软件。
 
-80. [Hanson/vbot](https://github.com/Hanson/vbot) ⭐: 4083 ⌨️: PHP	`php` `robot` `wechat` `weixin`
+80. [Hanson/vbot](https://github.com/Hanson/vbot) ⭐: 4085 ⌨️: PHP	`php` `robot` `wechat` `weixin`
 
 	VBot 是一个基于PHP的微信机器人框架，可以帮助开发者快速实现微信公众号的自动化操作，包括消息发送、接收、事件处理等功能。通过 VBot，开发者可以轻松构建自己的微信机器人，实现自定义的功能和交互。
 
-81. [symfony/dom-crawler](https://github.com/symfony/dom-crawler) ⭐: 3974 ⌨️: PHP	`component` `php` `symfony` `symfony-component`
+81. [symfony/dom-crawler](https://github.com/symfony/dom-crawler) ⭐: 3975 ⌨️: PHP	`component` `php` `symfony` `symfony-component`
 
 	该项目是Symfony框架中的一个组件，用于模拟一个浏览器来解析HTML文档，提取其中的数据或执行一些操作。它提供了一组API来浏览和操作DOM树，使得在Web页面上进行数据抓取或操作变得更加容易。
 
@@ -1016,7 +1016,7 @@
 
 	Dcat Admin是一个基于Laravel框架的后台管理系统，具有强大的功能和灵活的扩展性。它提供了丰富的后台管理功能，包括数据表管理、权限管理、日志记录等，同时支持自定义扩展和定制化，让开发者能够快速构建出功能完善的后台管理系统。
 
-83. [thephpleague/oauth2-client](https://github.com/thephpleague/oauth2-client) ⭐: 3662 ⌨️: PHP	`authentication` `authorization` `oauth` `oauth2` `php` `sso`
+83. [thephpleague/oauth2-client](https://github.com/thephpleague/oauth2-client) ⭐: 3663 ⌨️: PHP	`authentication` `authorization` `oauth` `oauth2` `php` `sso`
 
 	这是一个PHP的OAuth2客户端库，用于在Web应用程序中实现OAuth2授权。它可以与各种OAuth2提供程序集成，包括Facebook、GitHub、Google等。
 
@@ -1024,7 +1024,7 @@
 
 	SS-Panel是一个使用PHP编写的开源项目，旨在通过Web界面管理Shadowsocks服务器和用户。它提供了用户管理、流量统计、节点管理等功能，便于简单地搭建和管理Shadowsocks服务。
 
-85. [mevdschee/php-crud-api](https://github.com/mevdschee/php-crud-api) ⭐: 3626 ⌨️: PHP	`api-server` `automatic-api` `crud` `database` `geojson` `geospatial` `multi-database` `mysql` `openapi` `php` `php-api` `postgis` `postgresql` `rest-api` `restful` `sql-database` `sqlite` `sqlserver` `swagger`
+85. [mevdschee/php-crud-api](https://github.com/mevdschee/php-crud-api) ⭐: 3627 ⌨️: PHP	`api-server` `automatic-api` `crud` `database` `geojson` `geospatial` `multi-database` `mysql` `openapi` `php` `php-api` `postgis` `postgresql` `rest-api` `restful` `sql-database` `sqlite` `sqlserver` `swagger`
 
 	php-crud-api 是一个用 PHP 编写的轻量级 API 框架，可用于快速创建和部署 RESTful API。它支持自动生成 API 终端点，包括增删改查操作，并提供了简单的配置和定制选项。```
 
@@ -1068,15 +1068,15 @@
 
 	AllTube是一个基于Python的YouTube视频下载工具，可以用来轻松地下载YouTube视频和音频。它提供了简单的命令行界面和直观的图形用户界面，方便用户快速下载他们喜欢的视频和音频内容。
 
-96. [thiagoalessio/tesseract-ocr-for-php](https://github.com/thiagoalessio/tesseract-ocr-for-php) ⭐: 2899 ⌨️: PHP	`image-to-text` `ocr` `php` `tesseract` `text-recognition`
-
-	这个项目是一个用PHP编写的Tesseract OCR（光学字符识别）的封装库，可以用于将图片中的文本内容转换为可编辑的文本格式。它利用Tesseract引擎来实现OCR功能，可以轻松地集成到PHP项目中。
-
-97. [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) ⭐: 2899 ⌨️: PHP	`api` `class-upload-php` `easyimage` `image-store` `images` `markdown` `php` `picture` `upload-images` `upload-pictures` `zui`
+96. [icret/EasyImages2.0](https://github.com/icret/EasyImages2.0) ⭐: 2900 ⌨️: PHP	`api` `class-upload-php` `easyimage` `image-store` `images` `markdown` `php` `picture` `upload-images` `upload-pictures` `zui`
 
 	EasyImages2.0是一个简单易用的图片处理工具，支持对图片进行裁剪、缩放、旋转、添加水印等操作。它提供了直观的界面和丰富的功能，方便用户对图片进行快速编辑和处理。
 
-98. [Tai7sy/card-system](https://github.com/Tai7sy/card-system) ⭐: 2836 ⌨️: PHP
+97. [thiagoalessio/tesseract-ocr-for-php](https://github.com/thiagoalessio/tesseract-ocr-for-php) ⭐: 2899 ⌨️: PHP	`image-to-text` `ocr` `php` `tesseract` `text-recognition`
+
+	这个项目是一个用PHP编写的Tesseract OCR（光学字符识别）的封装库，可以用于将图片中的文本内容转换为可编辑的文本格式。它利用Tesseract引擎来实现OCR功能，可以轻松地集成到PHP项目中。
+
+98. [Tai7sy/card-system](https://github.com/Tai7sy/card-system) ⭐: 2835 ⌨️: PHP
 
 	这是一个名为"card-system"的项目，用于创建和管理卡片。它提供了一个用户界面，可以对卡片进行增删改查等操作。这个项目可以帮助用户轻松管理和组织自己的卡片信息。
 
@@ -1092,7 +1092,7 @@
 
      Klein.php是一个用PHP编写的轻量级路由库，用于构建Web应用程序和RESTful API。它简单易用，具有灵活的路由定义和强大的URL参数处理功能。Klein.php还支持中间件和路由分组，可以帮助开发者快速构建健壮的Web应用程序。
 
-102. [5ime/video_spider](https://github.com/5ime/video_spider) ⭐: 2603 ⌨️: PHP	`php` `spider` `video`
+102. [5ime/video_spider](https://github.com/5ime/video_spider) ⭐: 2604 ⌨️: PHP	`php` `spider` `video`
 
      这是一个视频爬虫项目，能够从指定的网站上爬取视频资源，并提供下载链接。可以用于批量下载视频，供个人学习或娱乐使用。
 
@@ -1104,7 +1104,7 @@
 
      laravel-shop是一个基于Laravel框架开发的电子商务系统，提供了商品管理、订单管理、用户管理等功能。它使用了Laravel框架的一些特性，比如ORM、路由、中间件等，而且还集成了一些常用的扩展包，可以快速搭建起一个完整的电商平台。
 
-105. [Bubka/2FAuth](https://github.com/Bubka/2FAuth) ⭐: 2361 ⌨️: PHP	`2fa` `2factor` `hotp` `otp` `qrcode` `self-hosted` `totp` `two-factor` `two-factor-authentication` `webapp`
+105. [Bubka/2FAuth](https://github.com/Bubka/2FAuth) ⭐: 2362 ⌨️: PHP	`2fa` `2factor` `hotp` `otp` `qrcode` `self-hosted` `totp` `two-factor` `two-factor-authentication` `webapp`
 
      2FAuth是一个基于Python的双因素认证库，可用于为应用程序添加额外的安全性。它支持基于时间的一次性密码（TOTP）和基于计数器的一次性密码（HOTP），可以与任何实现了HMAC（哈希消息认证码）的标准算法的令牌配合使用。
 
@@ -1116,7 +1116,7 @@
 
      kodbox是一个基于Web的文件管理器，支持在线浏览、编辑和管理文件。它提供了类似操作系统文件管理器的界面和功能，用户可以通过浏览器来访问和操作文件。这个项目提供了丰富的功能和插件，可以方便地集成到现有的Web应用中，是一个强大的在线文件管理工具。
 
-108. [chrome-php/chrome](https://github.com/chrome-php/chrome) ⭐: 2310 ⌨️: PHP	`hacktoberfest`
+108. [chrome-php/chrome](https://github.com/chrome-php/chrome) ⭐: 2311 ⌨️: PHP	`hacktoberfest`
 
      chrome是一个由PHP实现的浏览器自动化工具，它可以模拟用户操作浏览器，并提供对浏览器的控制、自动化测试和数据抓取等功能。Chrome使用Chrome DevTools Protocol与浏览器进行通信，支持多种浏览器和操作系统。
 
@@ -1124,7 +1124,7 @@
 
      Mochat 是一个基于微服务架构的云原生消息中间件系统，用于实现高可用、高性能的消息队列和消息推送功能。该系统允许用户快速构建分布式系统，提供了可靠的消息传递和实时通知服务，广泛应用于互联网应用和企业级系统中。 Mochat的设计理念是简单易用，轻量高效，同时具备可扩展性和可靠性。
 
-110. [magicblack/maccms10](https://github.com/magicblack/maccms10) ⭐: 2294 ⌨️: PHP	`maccms` `maccms10`
+110. [magicblack/maccms10](https://github.com/magicblack/maccms10) ⭐: 2293 ⌨️: PHP	`maccms` `maccms10`
 
      这是一个名为Maccms10的开源项目，它是一个基于PHP的视频内容管理系统。该系统可以帮助用户快速搭建和管理自己的视频网站，具有丰富的功能和灵活的定制性。其功能包括视频管理、会员管理、分类管理等，适合用于搭建在线视频网站和视频分享平台。
 
@@ -1148,7 +1148,7 @@
 
      这个项目是一个用于与GitHub API交互的PHP库，它提供了访问GitHub的各种功能和资源的方法，如获取仓库信息、提交代码、创建问题等。通过这个库，开发人员可以方便地在他们的PHP应用中集成GitHub的功能。
 
-116. [maicong/music](https://github.com/maicong/music) ⭐: 2074 ⌨️: PHP	`music` `music-bot` `music-search`
+116. [maicong/music](https://github.com/maicong/music) ⭐: 2073 ⌨️: PHP	`music` `music-bot` `music-search`
 
      这个项目是一个基于Vue.js和Node.js的音乐播放器应用。它可以在线播放音乐、查看歌词、创建歌单等功能，还可以通过接口获取音乐信息。
 
@@ -1184,7 +1184,7 @@
 
      Btcloud是一个基于Go语言的BitTorrent客户端库，提供了创建和管理种子文件以及下载和分享文件的功能。它支持多种操作系统和平台，可以用于开发自己的BT客户端应用程序。
 
-125. [BadApple9/speedtest-x](https://github.com/BadApple9/speedtest-x) ⭐: 1777 ⌨️: PHP
+125. [BadApple9/speedtest-x](https://github.com/BadApple9/speedtest-x) ⭐: 1778 ⌨️: PHP
 
      speedtest-x是一个基于Python编写的命令行网络速度测试工具，它可以测试网络的下载速度、上传速度和延迟。用户可以通过简单的命令，快速方便地测试当前网络的速度表现，有助于排查网络问题和优化网络连接。
 
@@ -1192,7 +1192,7 @@
 
      这个项目是一个基于Django框架的图像分享网站，用户可以上传自己的图片并进行分享。同时也支持用户注册、登录、评论等功能。项目使用Python编写，提供了一个简单而实用的图像分享平台。
 
-127. [metowolf/Meting](https://github.com/metowolf/Meting) ⭐: 1732 ⌨️: PHP	`api` `music` `php`
+127. [metowolf/Meting](https://github.com/metowolf/Meting) ⭐: 1733 ⌨️: PHP	`api` `music` `php`
 
      这个项目是一个基于 PHP 的音乐 API 聚合工具，可以方便地获取各大音乐平台的音乐信息和数据。通过这个工具，用户可以便捷地获取音乐平台的歌曲、专辑、歌手等信息。
 
@@ -1348,7 +1348,7 @@
 
      grafika是一个用于Android平台的图形库，提供了一系列用于图像处理和计算机图形学的工具和功能。它能够处理图像、绘制图形、进行滤镜处理和特效等操作，为开发人员提供了丰富的图形处理工具，帮助他们轻松实现各种图形处理需求。
 
-166. [openspout/openspout](https://github.com/openspout/openspout) ⭐: 852 ⌨️: PHP	`csv` `ods` `php` `spreadsheet` `xlsx`
+166. [openspout/openspout](https://github.com/openspout/openspout) ⭐: 853 ⌨️: PHP	`csv` `ods` `php` `spreadsheet` `xlsx`
 
      OpenSpout是一个用于快速开发和部署机器学习模型的开源工具，它提供了一个简单易用的界面来创建、训练和评估模型，并且支持多种常见的机器学习算法和深度学习框架。用户可以通过OpenSpout快速搭建并部署自己的模型，从而加速机器学习项目的开发过程。
 
@@ -1360,7 +1360,7 @@
 
      DoraBox是一个基于Docker的多合一CTF工具箱，旨在帮助安全研究人员和CTF参赛者快速搭建和部署所需的工具环境。该项目提供了一键式安装脚本，集成了众多常用的安全工具和框架，方便用户进行渗透测试、漏洞分析等工作。
 
-169. [mineadmin/MineAdmin](https://github.com/mineadmin/MineAdmin) ⭐: 788 ⌨️: PHP	`admin` `element-plus` `hyperf` `php` `swoole` `swow` `vue`
+169. [mineadmin/MineAdmin](https://github.com/mineadmin/MineAdmin) ⭐: 791 ⌨️: PHP	`admin` `element-plus` `hyperf` `php` `swoole` `swow` `vue`
 
      MineAdmin是一个用于管理Minecraft服务器的开源项目，提供了用户管理、权限管理、服务器监控等功能。它基于Spring Boot开发，使用Thymeleaf作为模板引擎，可以方便地部署和定制。
 
@@ -1372,7 +1372,7 @@
 
      Form Builder是一个基于Vue.js的简单易用的表单构建工具，通过拖拽的方式快速构建表单，支持自定义表单字段，并生成对应的JSON表单数据。用户可以轻松地创建和定制各种表单，快速集成到自己的项目中。
 
-172. [JaguarJack/catch-admin](https://github.com/JaguarJack/catch-admin) ⭐: 733 ⌨️: PHP	`admin` `composer` `elementplus` `laravel` `laravel-admin` `php` `vue-admin` `vue3`
+172. [JaguarJack/catch-admin](https://github.com/JaguarJack/catch-admin) ⭐: 734 ⌨️: PHP	`admin` `composer` `elementplus` `laravel` `laravel-admin` `php` `vue-admin` `vue3`
 
      Catch-Admin是一个基于Spring Boot和Vue.js的快速开发框架，用于构建企业级管理系统。它提供了丰富的组件和功能，包括RBAC权限管理、代码生成器、定时任务等。开发者可以使用Catch-Admin快速搭建起自己的管理系统。
 
@@ -1592,7 +1592,7 @@
 
      这是一个虚拟卡发卡系统的开源项目，用户可以通过该系统进行虚拟卡的发卡和管理。它提供了用户管理、订单管理、卡密管理等功能，可以方便地进行虚拟卡的购买和销售。
 
-227. [6tail/lunar-php](https://github.com/6tail/lunar-php) ⭐: 159 ⌨️: PHP	`calendar` `lunar` `php`
+227. [6tail/lunar-php](https://github.com/6tail/lunar-php) ⭐: 160 ⌨️: PHP	`calendar` `lunar` `php`
 
      lunar-php是一个PHP扩展，用于提供农历和节气等日期信息的计算和转换。它可以帮助开发者在PHP应用中方便地处理农历日期和节气信息，支持日期的转换、查询和计算，是一个方便实用的日期处理工具。
 
@@ -1764,11 +1764,11 @@
 ### HTML
 ---
 
-0. [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ⭐: 341778 ⌨️: HTML	`books` `education` `hacktoberfest` `list` `resource`
+0. [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ⭐: 341848 ⌨️: HTML	`books` `education` `hacktoberfest` `list` `resource`
 
 	这个项目是一个收集了大量免费的编程书籍的资源库，包括各种编程语言、算法、数据结构、安全性等方面的书籍。这些书籍都是以数字形式免费提供，非常适合编程初学者和高级开发人员学习和参考。
 
-1. [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐: 91340 ⌨️: HTML	`awesome-list` `free-for-developers`
+1. [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ⭐: 91348 ⌨️: HTML	`awesome-list` `free-for-developers`
 
 	这个项目是一个收集了各种针对开发者免费使用的资源的列表，包括域名、托管、数据库、监控和其他工具等。无论是个人项目还是商业项目，开发者都可以在这个列表中找到各种免费的资源来支持他们的开发工作。
 
@@ -1776,15 +1776,15 @@
 
 	UIKit是一个轻量级、模块化的前端框架，用于构建现代的、可扩展的Web界面。它提供了丰富的UI组件、响应式布局和强大的JavaScript插件，可以帮助开发者快速地构建各种各样的Web界面。UIKit还支持定制主题和扩展，非常适合用于构建各种规模的Web项目。
 
-3. [liu673cn/bug](https://github.com/liu673cn/bug) ⭐: 10700 ⌨️: HTML
+3. [liu673cn/bug](https://github.com/liu673cn/bug) ⭐: 10699 ⌨️: HTML
 
 	这个项目是一个名为bug的机器学习库，用Python语言编写。它包含了各种常见的机器学习算法和工具，可以帮助开发者更轻松地构建和部署机器学习模型。
 
-4. [joemccann/dillinger](https://github.com/joemccann/dillinger) ⭐: 7989 ⌨️: HTML	`blog` `blogging` `editor` `ide` `javascript` `markdown` `md` `node` `nodejs` `writing`
+4. [joemccann/dillinger](https://github.com/joemccann/dillinger) ⭐: 7990 ⌨️: HTML	`blog` `blogging` `editor` `ide` `javascript` `markdown` `md` `node` `nodejs` `writing`
 
 	Dillinger是一个基于Web的Markdown编辑器，具有实时预览和导出功能。用户可以在编辑器中快速编写Markdown格式的文档，并即时查看渲染效果。同时，Dillinger还支持将Markdown文档导出为HTML、PDF等格式，方便用户进行分享和发布。
 
-5. [yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php) ⭐: 6507 ⌨️: HTML	`baidunetdisk` `baiduyun` `php`
+5. [yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php) ⭐: 6504 ⌨️: HTML	`baidunetdisk` `baiduyun` `php`
 
 	这是一个基于PHP的百度网盘不限速下载工具，可以帮助用户绕过百度网盘下载速度限制，快速下载文件。
 
@@ -1812,11 +1812,11 @@
 
 	Airplay-SDK 是一个基于Airplay协议的移动端投屏开发工具箱，支持 iOS 和 Android 平台。它提供简单易用的接口，帮助开发者快速实现移动端投屏功能。
 
-12. [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) ⭐: 3484 ⌨️: HTML	`cloudflare` `cloudflare-pages` `flickr` `image` `image-host` `image-hosting` `image-sharing` `imgur` `serverless` `telegraph` `upload-images`
+12. [cf-pages/Telegraph-Image](https://github.com/cf-pages/Telegraph-Image) ⭐: 3485 ⌨️: HTML	`cloudflare` `cloudflare-pages` `flickr` `image` `image-host` `image-hosting` `image-sharing` `imgur` `serverless` `telegraph` `upload-images`
 
 	这个项目是一个利用Telegraph API上传图片并获取图片链接的Python库。通过使用这个库，用户可以方便地将图片上传到Telegraph，并获取到图片的链接，方便在其他地方使用。
 
-13. [TIM168/technical_books](https://github.com/TIM168/technical_books) ⭐: 3025 ⌨️: HTML	`books` `go` `html` `http` `it` `java` `linux` `php` `python` `technical` `technical-books`
+13. [TIM168/technical_books](https://github.com/TIM168/technical_books) ⭐: 3026 ⌨️: HTML	`books` `go` `html` `http` `it` `java` `linux` `php` `python` `technical` `technical-books`
 
 	这个项目是一个技术书籍的合集，包括各种编程语言、开发工具、网络安全、人工智能等方面的书籍资源。这些书籍覆盖了各种技术领域，对于学习和提升技术能力都非常有帮助。
 
@@ -1828,11 +1828,11 @@
 
 	这个项目是一个用于生成 IPTV 的 m3u 文件的工具。用户可以输入频道信息和流媒体链接，然后生成一个包含这些信息的m3u文件，方便用户在支持m3u格式的播放器中观看 IPTV。
 
-16. [paquettg/php-html-parser](https://github.com/paquettg/php-html-parser) ⭐: 2374 ⌨️: HTML
+16. [paquettg/php-html-parser](https://github.com/paquettg/php-html-parser) ⭐: 2375 ⌨️: HTML
 
 	这个项目是一个用PHP编写的轻量级HTML解析器，可以用来解析和操作HTML文档。它提供了简单的API接口，方便开发者进行HTML文档的解析和提取信息。通过这个工具，开发者可以更轻松地处理HTML文档，实现数据的抽取和操作。
 
-17. [sindresorhus/devtools-detect](https://github.com/sindresorhus/devtools-detect) ⭐: 2079 ⌨️: HTML
+17. [sindresorhus/devtools-detect](https://github.com/sindresorhus/devtools-detect) ⭐: 2080 ⌨️: HTML
 
 	这个项目是一个用于检测用户是否正在使用开发者工具的 JavaScript 库。它可以帮助开发者在网站上检测用户是否正在使用开发者工具，从而采取相应措施，比如禁止非授权用户访问某些内容。
 
@@ -1856,7 +1856,7 @@
 
 	OneList是一个基于Web的文件管理器，支持直接在浏览器中浏览、上传、下载和管理远程文件。它可以连接到各种云存储服务，如OneDrive、Google Drive和AWS S3等，让用户能够方便地管理多个云存储空间中的文件。同时，OneList还支持分享文件链接和在线预览功能，让用户更便捷地与他人共享和查看文件。
 
-23. [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) ⭐: 1016 ⌨️: HTML
+23. [zgjx6/SocialEngineeringDictionaryGenerator](https://github.com/zgjx6/SocialEngineeringDictionaryGenerator) ⭐: 1018 ⌨️: HTML
 
 	这个项目是一个社会工程字典生成器，使用Python编写。它可以根据指定的信息和关键词自动生成可能被利用的社会工程攻击所需的字典，帮助安全从业人员测试组织的安全性。
 
@@ -1864,7 +1864,7 @@
 
 	这个项目是一个开源的代理列表，包含了各种类型的代理服务器地址，可以用于网络请求时进行代理，提高网络访问速度和安全性。
 
-25. [songquanpeng/go-file](https://github.com/songquanpeng/go-file) ⭐: 967 ⌨️: HTML	`file-share` `go-file` `golang` `lan-share`
+25. [songquanpeng/go-file](https://github.com/songquanpeng/go-file) ⭐: 973 ⌨️: HTML	`file-share` `go-file` `golang` `lan-share`
 
 	go-file是一个用Go语言开发的文件处理工具，提供了文件的复制、删除、移动、重命名等功能，支持对文件的基本操作。该工具简单易用，可以帮助开发者快速进行文件操作，提高工作效率。
 
@@ -1948,31 +1948,31 @@
 ### Shell
 ---
 
-0. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐: 174705 ⌨️: Shell	`cli` `cli-app` `hacktoberfest` `oh-my-zsh` `oh-my-zsh-plugin` `oh-my-zsh-theme` `ohmyzsh` `plugin-framework` `plugins` `productivity` `shell` `terminal` `theme` `themes` `zsh` `zsh-configuration`
+0. [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ⭐: 174711 ⌨️: Shell	`cli` `cli-app` `hacktoberfest` `oh-my-zsh` `oh-my-zsh-plugin` `oh-my-zsh-theme` `ohmyzsh` `plugin-framework` `plugins` `productivity` `shell` `terminal` `theme` `themes` `zsh` `zsh-configuration`
 
 	Oh My Zsh是一个社区驱动的自定义Zsh配置框架，提供了丰富的插件和主题，帮助用户轻松管理和优化Zsh终端环境。通过简单的安装和配置，用户可以快速提升命令行操作效率和体验。
 
-1. [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ⭐: 49055 ⌨️: Shell	`container` `docker` `docker-osx` `kvm` `macos` `os` `osx` `osx-kvm` `x` `x11`
+1. [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ⭐: 49062 ⌨️: Shell	`container` `docker` `docker-osx` `kvm` `macos` `os` `osx` `osx-kvm` `x` `x11`
 
 	这个项目是一个开源工具，它可以让你在MacOS上运行Docker容器，而无需使用虚拟机。它通过使用QEMU来实现在MacOS上运行Docker容器，这样就可以更轻松地在开发环境中使用Docker。
 
-2. [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ⭐: 40276 ⌨️: Shell	`acme` `acme-client` `acme-protocol` `ash` `bash` `buypass` `certbot` `letsencrypt` `posix` `posix-sh` `shell` `zerossl`
+2. [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ⭐: 40289 ⌨️: Shell	`acme` `acme-client` `acme-protocol` `ash` `bash` `buypass` `certbot` `letsencrypt` `posix` `posix-sh` `shell` `zerossl`
 
 	acme.sh是一个开源的ACME协议客户端，用于自动化证书的申请、更新和部署。它支持多种DNS接口和SSL证书颁发机构，并且可以与多种Web服务器和应用程序集成，让证书管理变得更加简单和高效。
 
-3. [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ⭐: 31725 ⌨️: Shell	`autocomplete` `autosuggest` `fish` `shell` `zsh` `zsh-autosuggestions`
+3. [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ⭐: 31727 ⌨️: Shell	`autocomplete` `autosuggest` `fish` `shell` `zsh` `zsh-autosuggestions`
 
 	zsh-autosuggestions是一款用于zsh shell的插件，它可以根据你的命令历史和正在输入的内容提供自动补全建议，提高命令输入的效率。
 
-4. [dockur/windows](https://github.com/dockur/windows) ⭐: 30962 ⌨️: Shell	`docker` `docker-container` `virtualization` `windows` `windows-virtual-desktop` `windows-virtual-machine` `windows-virtual-machines` `windows-vm`
+4. [dockur/windows](https://github.com/dockur/windows) ⭐: 30970 ⌨️: Shell	`docker` `docker-container` `virtualization` `windows` `windows-virtual-desktop` `windows-virtual-machine` `windows-virtual-machines` `windows-vm`
 
 	Dockur是一个用于在Windows上运行Docker容器的工具，它允许用户在Windows操作系统上进行容器化应用程序开发和部署。Dockur利用Windows的虚拟化技术，提供了与Docker在Linux上类似的容器化环境。通过Dockur，用户可以轻松地在Windows上构建、运行和管理Docker容器，实现跨平台的应用程序部署和运行。
 
-5. [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) ⭐: 25506 ⌨️: Shell	`cisco-ipsec` `docker` `encryption` `ikev2` `ipsec` `l2tp` `libreswan` `linux` `network` `raspberry-pi` `security` `vpn` `vpn-client` `vpn-server`
+5. [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) ⭐: 25508 ⌨️: Shell	`cisco-ipsec` `docker` `encryption` `ikev2` `ipsec` `l2tp` `libreswan` `linux` `network` `raspberry-pi` `security` `vpn` `vpn-client` `vpn-server`
 
 	这个项目是一个自动化脚本，用于在Ubuntu或Debian服务器上快速设置IPsec/L2TP VPN。用户可以使用此脚本快速搭建一个安全的VPN服务，以实现远程访问和安全通信。
 
-6. [233boy/v2ray](https://github.com/233boy/v2ray) ⭐: 25027 ⌨️: Shell	`shell-script` `v2ray` `vmess`
+6. [233boy/v2ray](https://github.com/233boy/v2ray) ⭐: 25030 ⌨️: Shell	`shell-script` `v2ray` `vmess`
 
 	该项目是一个基于Go语言开发的代理工具，可以帮助用户科学上网，突破网络限制，保护隐私信息。通过V2Ray，用户可以自由选择代理服务器，并且支持多种传输协议和加密方式，保障网络通信的安全性和稳定性。
 
@@ -1984,7 +1984,7 @@
 
 	Spaceship是一款基于Zsh的终端提示工具，提供了丰富的显示信息和定制选项，让终端提示更加美观和实用。Spaceship支持显示当前目录、Git状态、Node.js版本、Python版本等信息，并提供了丰富的主题和配置选项，可以根据个人喜好进行定制。
 
-9. [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) ⭐: 19353 ⌨️: Shell	`almalinux` `bash` `centos` `debian` `fedora` `openvpn` `rockylinux` `shell` `ubuntu` `vpn`
+9. [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) ⭐: 19354 ⌨️: Shell	`almalinux` `bash` `centos` `debian` `fedora` `openvpn` `rockylinux` `shell` `ubuntu` `vpn`
 
 	这个项目是一个简单的OpenVPN服务器安装脚本，可以在Linux系统上快速部署OpenVPN服务器。用户只需在命令行输入几个信息，脚本就会自动安装和配置OpenVPN，并生成客户端配置文件。这样用户就可以轻松地建立一个安全的VPN连接，保护其网络通信。
 
@@ -1992,7 +1992,7 @@
 
 	这个项目是一个收集了许多优秀的zsh插件的列表，这些插件可以拓展zsh的功能，提高用户在终端环境下的效率和舒适度。如果你是zsh用户，可以从这个列表中发现很多有用的插件来定制你的zsh环境。
 
-11. [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ⭐: 14507 ⌨️: Shell	`cloudflare` `grpc-cloudflare` `httpupgrade` `hysteria2` `nginx` `reality` `reality-grpc` `shell` `sing-box` `trojan` `trojan-grpc` `tuic-v5` `v2ray` `vless` `vmess` `websockettlscdn-cloudflare-ip` `xray` `xray-core` `xray-install` `xtls-rprx-vision`
+11. [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ⭐: 14511 ⌨️: Shell	`cloudflare` `grpc-cloudflare` `httpupgrade` `hysteria2` `nginx` `reality` `reality-grpc` `shell` `sing-box` `trojan` `trojan-grpc` `tuic-v5` `v2ray` `vless` `vmess` `websockettlscdn-cloudflare-ip` `xray` `xray-core` `xray-install` `xtls-rprx-vision`
 
 	v2ray-agent是一个基于V2Ray的代理工具，通过简单配置即可实现代理功能，并提供了丰富的定制选项。该项目提供了简单易用的界面，让用户能够轻松地管理代理设置。
 
@@ -2000,11 +2000,11 @@
 
 	macOS VirtualBox是一个开源项目，它允许用户在VirtualBox虚拟机中安装和运行macOS操作系统。这个项目为用户提供了一个在非苹果硬件上体验macOS的方式，同时也为开发和测试macOS应用程序提供了便利。
 
-13. [hq450/fancyss](https://github.com/hq450/fancyss) ⭐: 12535 ⌨️: Shell	`arm` `koolgame` `merlin` `naiveproxy` `shadowsocks` `shadowsocks-rust` `ss` `ssr` `trojan` `v2ray` `x64` `xray`
+13. [hq450/fancyss](https://github.com/hq450/fancyss) ⭐: 12536 ⌨️: Shell	`arm` `koolgame` `merlin` `naiveproxy` `shadowsocks` `shadowsocks-rust` `ss` `ssr` `trojan` `v2ray` `x64` `xray`
 
 	fancyss是一个基于OpenWRT的科学上网工具，支持SS、SSR、V2ray等协议，能够帮助用户在受限网络环境下访问被封锁的网站和服务。它提供了简单易用的界面和配置方式，适合非技术人员使用。
 
-14. [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) ⭐: 10526 ⌨️: Shell	`fish` `fishshell` `fishshell-framework` `hacktoberfest` `oh-my-fish` `oh-my-zsh` `omf` `prompt` `shell` `terminal`
+14. [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) ⭐: 10527 ⌨️: Shell	`fish` `fishshell` `fishshell-framework` `hacktoberfest` `oh-my-fish` `oh-my-zsh` `omf` `prompt` `shell` `terminal`
 
 	Oh My Fish 是一个为 Fish shell 提供插件和主题管理的框架，让用户能够轻松地扩展和美化他们的 Fish shell 环境。通过 Oh My Fish，用户可以方便地安装、更新和管理 Fish shell 的插件和主题，从而定制自己的命令行界面。
 
@@ -2028,15 +2028,15 @@
 
 	Antigen 是一个用于 Zsh 的插件管理工具，可以帮助用户轻松管理和加载 Zsh 插件。它可以通过简单的命令来管理插件的安装、更新和卸载，同时支持加载不同来源的插件。Antigen 还提供了一个简单的配置语法，让用户可以轻松定义他们想要加载的插件。
 
-20. [paperwork/paperwork](https://github.com/paperwork/paperwork) ⭐: 7841 ⌨️: Shell	`docker` `documents` `evernote` `google-keep` `microsoft-onenote` `notebook` `notes` `opensource` `paperwork` `privacy`
+20. [paperwork/paperwork](https://github.com/paperwork/paperwork) ⭐: 7840 ⌨️: Shell	`docker` `documents` `evernote` `google-keep` `microsoft-onenote` `notebook` `notes` `opensource` `paperwork` `privacy`
 
 	Paperwork是一个简单而强大的开源笔记应用，帮助用户轻松地创建、组织和查找笔记。它提供了丰富的功能，包括Markdown支持、标签分类、模糊搜索等，让用户可以高效地管理他们的笔记内容。
 
-21. [YanG-1989/m3u](https://github.com/YanG-1989/m3u) ⭐: 7631 ⌨️: Shell
+21. [YanG-1989/m3u](https://github.com/YanG-1989/m3u) ⭐: 7635 ⌨️: Shell
 
 	这个项目是一个简单的Python脚本，用于从M3U文件中提取URL链接并将其打印出来。M3U文件通常用于存储多媒体播放列表，这个脚本可以帮助用户快速提取其中的链接。
 
-22. [DaoCloud/public-image-mirror](https://github.com/DaoCloud/public-image-mirror) ⭐: 7370 ⌨️: Shell	`mirror` `speedup`
+22. [DaoCloud/public-image-mirror](https://github.com/DaoCloud/public-image-mirror) ⭐: 7380 ⌨️: Shell	`mirror` `speedup`
 
 	这个项目是针对DaoCloud平台上的Docker镜像仓库的公共镜像源代码库。用户可以通过该项目自行构建Docker镜像镜像，也可以使用DaoCloud平台提供的公共镜像。
 
@@ -2056,7 +2056,7 @@
 
 	这个项目是一个用Shell脚本编写的一键管理工具，用于快速部署和管理一些常见的网络服务，比如SS/SSR、V2Ray、Kcptun等。它提供了简单易用的命令行界面，用户可以通过简单的命令就能够完成服务的安装、配置和管理。
 
-27. [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) ⭐: 4363 ⌨️: Shell	`almalinux` `arch` `astralinux` `bench-script` `benchmark` `cdn` `centos` `checker` `debian` `fedora` `freebsd` `ipv6` `lemonbench` `openai` `oracle-linux` `rockylinux` `speedtest` `sysbench` `ubuntu` `vps`
+27. [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) ⭐: 4367 ⌨️: Shell	`almalinux` `arch` `astralinux` `bench-script` `benchmark` `cdn` `centos` `checker` `debian` `fedora` `freebsd` `ipv6` `lemonbench` `openai` `oracle-linux` `rockylinux` `speedtest` `sysbench` `ubuntu` `vps`
 
 	这是一个基于Entity-Component-System架构的实体组件系统框架，用于构建游戏和模拟引擎。它提供了一种高性能，灵活和可扩展的方式来管理游戏对象的行为和属性。
 
@@ -2072,7 +2072,7 @@
 
 	Nginx Ultimate Bad Bot Blocker是一个用于Nginx服务器的黑名单工具，用于阻止恶意机器人、爬虫和其他恶意行为。它包含大量的恶意机器人和IP地址的规则，可帮助保护网站免受恶意攻击。
 
-31. [bin456789/reinstall](https://github.com/bin456789/reinstall) ⭐: 3292 ⌨️: Shell	`alpine` `alpine-linux` `boot` `distro` `grub` `installer` `iso` `linux` `linux-distribution` `liveos` `netboot` `netinst` `netinstall` `operating-systems` `os` `reinstall` `shell-script` `vps` `windows`
+31. [bin456789/reinstall](https://github.com/bin456789/reinstall) ⭐: 3295 ⌨️: Shell	`alpine` `alpine-linux` `boot` `distro` `grub` `installer` `iso` `linux` `linux-distribution` `liveos` `netboot` `netinst` `netinstall` `operating-systems` `os` `reinstall` `shell-script` `vps` `windows`
 
 	reinstall是一个简单的Shell脚本，用于帮助Linux用户重新安装系统时自动化安装软件包和配置环境。用户可以根据自己的需求进行定制，大大简化了系统重装后的环境配置工作。
 
@@ -2096,7 +2096,7 @@
 
 	这个项目是一个自动化脚本，用于在 Linux 系统上快速搭建 LAMP 环境（Linux + Apache + MySQL + PHP）。它可以一键安装、配置和优化这些组件，省去了繁琐的手动操作，节省时间和精力。
 
-37. [gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip) ⭐: 2876 ⌨️: Shell	`asn` `bgp` `china` `daily` `ip` `ipv6` `operator`
+37. [gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip) ⭐: 2878 ⌨️: Shell	`asn` `bgp` `china` `daily` `ip` `ipv6` `operator`
 
 	这个项目是中国运营商 IP 地址库，提供了中国主要运营商的 IP 地址段信息，帮助用户识别和过滤来自不同运营商的流量。
 
@@ -2108,11 +2108,11 @@
 
 	这个项目是一个基于Docker的代理服务器，可以帮助用户在容器或主机上快速搭建代理服务。这个代理服务器可以实现HTTP、HTTPS、SOCKS等多种类型的代理，提供了简单易用的配置方式，并且支持自动申请Let's Encrypt的SSL证书。
 
-40. [webinstall/webi-installers](https://github.com/webinstall/webi-installers) ⭐: 2026 ⌨️: Shell	`brew` `hacktoberfest` `linux` `macos` `windows-10` `wsl` `wsl-ubuntu` `wsl2`
+40. [webinstall/webi-installers](https://github.com/webinstall/webi-installers) ⭐: 2027 ⌨️: Shell	`brew` `hacktoberfest` `linux` `macos` `windows-10` `wsl` `wsl-ubuntu` `wsl2`
 
 	Webi-installers是一个用于安装软件的工具集，可以通过简单的命令行来安装各种软件。它提供了大量的安装脚本，可以快速便捷地部署常用的开发工具和应用程序。
 
-41. [tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions) ⭐: 1779 ⌨️: Shell
+41. [tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions) ⭐: 1780 ⌨️: Shell
 
 	这个项目是一个在Windows桌面上使用微信的第三方客户端，可以让用户在没有手机的情况下使用微信进行聊天、接收通知等操作。项目提供了简洁的界面和快捷的操作方式，方便用户在PC上使用微信进行沟通。
 
@@ -2120,7 +2120,7 @@
 
 	neohosts是一个基于hosts文件的广告屏蔽项目，通过更新hosts文件屏蔽广告、恶意软件和恶意网站。它提供了一种简单而有效的方法来保护用户免受广告侵扰和恶意行为的影响。
 
-43. [eooce/Sing-box](https://github.com/eooce/Sing-box) ⭐: 1739 ⌨️: Shell	`oneclick` `serv00` `sing-box`
+43. [eooce/Sing-box](https://github.com/eooce/Sing-box) ⭐: 1746 ⌨️: Shell	`oneclick` `serv00` `sing-box`
 
 	Sing-box是一个基于Java的简单音乐盒项目，使用Java Swing框架构建图形用户界面，可以播放音乐、查看歌词，并具有基本的音乐控制功能。
 
@@ -2212,19 +2212,19 @@
 ### NaN
 ---
 
-0. [996icu/996.ICU](https://github.com/996icu/996.ICU) ⭐: 270032 ⌨️: NaN
+0. [996icu/996.ICU](https://github.com/996icu/996.ICU) ⭐: 270033 ⌨️: NaN
 
 	996.ICU 是一个倡导工作时间合理安排的开源项目，旨在抵制中国互联网公司存在的“996工作制”（工作日每天早9点到晚9点，一周工作6天）现象。该项目呼吁改善工作条件，保障员工福利，并得到了广泛关注和支持。
 
-1. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐: 207925 ⌨️: NaN	`awesome` `awesome-list` `cloud` `free-software` `hosting` `privacy` `self-hosted` `selfhosted`
+1. [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ⭐: 207969 ⌨️: NaN	`awesome` `awesome-list` `cloud` `free-software` `hosting` `privacy` `self-hosted` `selfhosted`
 
 	这个项目是一个收集了各种自助托管的开源软件和服务的列表，涵盖了从博客、文件存储、社交网络、密码管理等多个领域的工具。这个列表可以帮助用户找到适合自己需求的自助托管的解决方案，从而更好地掌控自己的数据和隐私。
 
-2. [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ⭐: 112123 ⌨️: NaN	`android` `angular` `books` `free` `ios` `javascript` `kotlin` `pdf` `programming` `python` `react` `react-native` `swift` `vue`
+2. [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ⭐: 112144 ⌨️: NaN	`android` `angular` `books` `free` `ios` `javascript` `kotlin` `pdf` `programming` `python` `react` `react-native` `swift` `vue`
 
 	该项目是一个收集了大量免费的中文编程书籍的列表，涵盖了各种编程语言、开发工具和计算机科学相关主题，为学习编程的人提供了免费的学习资源。
 
-3. [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp) ⭐: 46322 ⌨️: NaN	`demo` `minapp` `miniprogram` `weapp-demo` `wechat` `wechat-weapp` `wepy` `wxapp` `wxml`
+3. [justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp) ⭐: 46326 ⌨️: NaN	`demo` `minapp` `miniprogram` `weapp-demo` `wechat` `wechat-weapp` `wepy` `wxapp` `wxml`
 
 	这是一个收集了许多优秀的微信小程序项目和资源的仓库，包括UI组件、工具库、开发教程等。如果你是微信小程序开发者，可以在这个仓库中找到各种有用的东西。
 
@@ -2232,43 +2232,43 @@
 
 	这个项目是一个学习正则表达式的教程，包括了基础知识、常用符号和实例。适合初学者学习和掌握正则表达式的基本内容。
 
-5. [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) ⭐: 35265 ⌨️: NaN	`angular` `bun` `csv` `data` `database` `deno` `excel` `grid` `html` `html5` `ios` `javascript` `json` `nodejs` `react` `spreadsheet` `table` `vue` `xlsx` `xml`
+5. [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) ⭐: 35266 ⌨️: NaN	`angular` `bun` `csv` `data` `database` `deno` `excel` `grid` `html` `html5` `ios` `javascript` `json` `nodejs` `react` `spreadsheet` `table` `vue` `xlsx` `xml`
 
 	SheetJS是一个用JavaScript编写的电子表格库，用于解析、处理和生成Excel等电子表格文件。它可以在浏览器或Node.js环境下运行，用户可以方便地读取和写入电子表格文件数据，进行各种数据处理操作。SheetJS支持多种电子表格格式，包括XLSX、XLS、ODS等，是处理电子表格数据的强大工具库。
 
-6. [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) ⭐: 31087 ⌨️: NaN	`awesome` `awesome-lists` `php` `php-applications` `php-framework` `php-installation` `php-library`
+6. [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) ⭐: 31089 ⌨️: NaN	`awesome` `awesome-lists` `php` `php-applications` `php-framework` `php-installation` `php-library`
 
 	这个项目是一个收集了大量优秀的PHP资源和工具的列表，包括框架、库、模板等，涵盖了Web开发、数据处理、安全等多个领域。如果你是PHP开发者，可以通过这个项目快速找到你所需要的工具和资源。
 
-7. [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) ⭐: 30298 ⌨️: NaN	`api` `apis` `cloudmusic` `javascript` `neteasecloud` `nodejs`
+7. [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) ⭐: 30296 ⌨️: NaN	`api` `apis` `cloudmusic` `javascript` `neteasecloud` `nodejs`
 
 	这个项目是一个基于 Node.js 的网易云音乐 API 接口，可以让开发者通过接口获取网易云音乐的歌单、歌曲、评论等数据，方便开发者在自己的应用中集成网易云音乐的内容。
 
-8. [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) ⭐: 27322 ⌨️: NaN
+8. [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) ⭐: 27323 ⌨️: NaN
 
 	这个项目是一个简历样本的仓库，里面收集了各种不同类型的简历模板，包括技术、设计、市场等各种职业领域的简历样本，方便求职者参考和使用。
 
-9. [qianguyihao/Web](https://github.com/qianguyihao/Web) ⭐: 26775 ⌨️: NaN	`css` `front-end` `html` `javascript`
+9. [qianguyihao/Web](https://github.com/qianguyihao/Web) ⭐: 26777 ⌨️: NaN	`css` `front-end` `html` `javascript`
 
 	这是一个名为Web的项目，它是一个用于学习Web前端技术的综合教程。项目提供了HTML、CSS、JavaScript等前端技术的学习资源和示例代码，适合初学者和有一定基础的开发者学习和参考。
 
-10. [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) ⭐: 26679 ⌨️: NaN	`awesome` `iptv` `iptv-channels` `iptv-free` `iptv-m3u8` `iptv-playlist` `kodi` `kodi-addons` `kodi-plugin` `m3u` `m3u8`
+10. [imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8) ⭐: 26682 ⌨️: NaN	`awesome` `iptv` `iptv-channels` `iptv-free` `iptv-m3u8` `iptv-playlist` `kodi` `kodi-addons` `kodi-plugin` `m3u` `m3u8`
 
 	这是一个收集了各种电视直播节目的m3u和m3u8播放列表的项目。这些播放列表包含了各种国家和地区的电视频道，用户可以通过这些列表在各种设备上观看电视直播节目。
 
-11. [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) ⭐: 26415 ⌨️: NaN	`aria2` `aria2-format-tracker` `bittorrent` `bittorrent-trackers` `qbittorrent` `torrent` `torrent-tracker` `tracker` `trackers` `trackerslist` `utorrent`
+11. [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) ⭐: 26419 ⌨️: NaN	`aria2` `aria2-format-tracker` `bittorrent` `bittorrent-trackers` `qbittorrent` `torrent` `torrent-tracker` `tracker` `trackers` `trackerslist` `utorrent`
 
 	这个项目是一个收集了各种BitTorrent客户端的Tracker服务器列表的合集。通过使用这些Tracker服务器列表，用户可以提高下载和分享文件的速度。
 
-12. [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) ⭐: 23527 ⌨️: NaN	`anticensorship` `censorship` `censorship-circumvention` `china` `gfw`
+12. [gfwlist/gfwlist](https://github.com/gfwlist/gfwlist) ⭐: 23528 ⌨️: NaN	`anticensorship` `censorship` `censorship-circumvention` `china` `gfw`
 
 	这个项目是一个维护着GFWList的项目，GFWList是一个被广泛使用的规则列表，用于帮助用户绕过网络审查。这个项目不断更新和维护GFWList，以确保用户能够及时获得最新的规则列表来访问被封锁的网站。
 
-13. [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) ⭐: 21900 ⌨️: NaN	`android-studio` `clion` `datagrip` `gogland` `intellij` `intellij-idea` `java` `jetbrains` `phpstorm` `pycharm` `rubymine` `tutorial` `webstorm`
+13. [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) ⭐: 21903 ⌨️: NaN	`android-studio` `clion` `datagrip` `gogland` `intellij` `intellij-idea` `java` `jetbrains` `phpstorm` `pycharm` `rubymine` `tutorial` `webstorm`
 
 	这个项目是关于IntelliJ IDEA集成开发环墬的教程，包括如何使用IntelliJ IDEA进行代码编写、调试、版本控制等方面的指导。项目中提供了详细的教程和示例代码，帮助开发者更好地利用IntelliJ IDEA进行软件开发。
 
-14. [yanue/V2rayU](https://github.com/yanue/V2rayU) ⭐: 19025 ⌨️: NaN	`mac-v2ray` `v2ray` `v2ray-core` `v2ray-gui` `v2ray-mac` `v2ray-shadowsocks` `v2rayu` `vmess`
+14. [yanue/V2rayU](https://github.com/yanue/V2rayU) ⭐: 19028 ⌨️: NaN	`mac-v2ray` `v2ray` `v2ray-core` `v2ray-gui` `v2ray-mac` `v2ray-shadowsocks` `v2rayu` `vmess`
 
 	V2rayU 是一个基于 V2Ray 的客户端软件，支持多种协议和多平台使用。它提供了简洁的界面和丰富的功能，同时支持自由配置和个性化定制。V2rayU 是一个方便易用的工具，帮助用户实现安全、高效的网络代理和加密传输。
 
@@ -2280,11 +2280,11 @@
 
 	这个项目是一个收集了各种优秀应用程序的列表，涵盖了不同领域的应用，包括开发工具、设计工具、视频编辑、文档处理等。每个应用都附有简要介绍和链接，方便用户快速了解和下载。
 
-17. [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) ⭐: 15635 ⌨️: NaN	`cheatsheet` `git` `github`
+17. [521xueweihan/git-tips](https://github.com/521xueweihan/git-tips) ⭐: 15636 ⌨️: NaN	`cheatsheet` `git` `github`
 
 	这个项目是一个收集了Git使用技巧的仓库，包括Git命令、Git配置、Git操作等方面的技巧和经验。旨在帮助Git初学者更好地理解和使用Git工具。
 
-18. [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) ⭐: 15457 ⌨️: NaN	`telegram` `telegram-api` `telegram-bot` `telegram-bot-api` `telegram-bots` `telegram-channel` `telegramgroups`
+18. [AZeC4/TelegramGroup](https://github.com/AZeC4/TelegramGroup) ⭐: 15461 ⌨️: NaN	`telegram` `telegram-api` `telegram-bot` `telegram-bot-api` `telegram-bots` `telegram-channel` `telegramgroups`
 
 	这个项目是一个基于Python的Telegram群组管理机器人。它可以帮助管理员管理群组成员、禁言违规用户、发送消息提醒等功能，帮助提升群组的管理效率。
 
@@ -2292,19 +2292,19 @@
 
 	这个项目是关于中文文案排版规范的指南，旨在帮助写作人员更好地理解中文排版规范，提高文案的质量和可读性。指南中包含了对标点符号、数字、单位、简体和繁体字等方面的详细规范和建议。如果你想提升中文文案的阅读体验，这个项目会对你有所帮助。
 
-20. [taowen/awesome-lowcode](https://github.com/taowen/awesome-lowcode) ⭐: 14004 ⌨️: NaN	`awesome` `awsome` `low-code` `lowcode` `nocode`
+20. [taowen/awesome-lowcode](https://github.com/taowen/awesome-lowcode) ⭐: 14005 ⌨️: NaN	`awesome` `awsome` `low-code` `lowcode` `nocode`
 
 	这个项目是一个收集了丰富的低代码开发平台和工具的资源列表，为开发人员提供了快速搭建应用程序的解决方案。收录了各种低代码平台、组件库、框架和工具，帮助开发人员快速构建应用程序，提高开发效率。
 
-21. [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) ⭐: 13425 ⌨️: NaN	`adblock` `gfw` `proxy` `shadowrocket` `v2ray`
+21. [Johnshall/Shadowrocket-ADBlock-Rules-Forever](https://github.com/Johnshall/Shadowrocket-ADBlock-Rules-Forever) ⭐: 13429 ⌨️: NaN	`adblock` `gfw` `proxy` `shadowrocket` `v2ray`
 
 	这个项目是Shadowrocket的广告拦截规则，可以帮助用户屏蔽iOS设备上的广告和恶意网站，提升上网体验。
 
-22. [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) ⭐: 13198 ⌨️: NaN
+22. [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) ⭐: 13200 ⌨️: NaN
 
 	这个项目是关于人类系统优化的，旨在通过优化算法来改善人类行为和决策的效率。它提供了各种优化算法的实现，并提供了一些示例来演示如何应用这些算法来优化人类系统。
 
-23. [xiaye13579/BBLL](https://github.com/xiaye13579/BBLL) ⭐: 12908 ⌨️: NaN	`android` `apk` `bilibili` `bilibili-client` `bilibili-tv` `tv`
+23. [xiaye13579/BBLL](https://github.com/xiaye13579/BBLL) ⭐: 12913 ⌨️: NaN	`android` `apk` `bilibili` `bilibili-client` `bilibili-tv` `tv`
 
 	BBLL是一个用于处理二进制数据的Python库，其目标是提供一种简单而灵活的方式来处理二进制数据。它包括了一些常用的功能，比如解析二进制数据、构建二进制数据、处理位操作等，可以帮助开发者在处理二进制数据时更加高效和方便。
 
@@ -2324,11 +2324,11 @@
 
 	这个项目是fancyss的历史软件包存档，包含了fancyss在不同时间点发布的软件包。fancyss是一个为路由器开发的科学上网工具，这个项目可以让用户获取并下载到不同版本的fancyss软件包。
 
-28. [joevess/IPTV](https://github.com/joevess/IPTV) ⭐: 9754 ⌨️: NaN
+28. [joevess/IPTV](https://github.com/joevess/IPTV) ⭐: 9756 ⌨️: NaN
 
 	这个项目是一个基于Python的IPTV播放列表解析器，可以从各种来源的IPTV播放列表文件中提取出可播放的视频链接。通过该项目，用户可以方便地获取各种IPTV频道的直播链接，实现在线观看电视节目的功能。
 
-29. [AUK9527/Are-u-ok](https://github.com/AUK9527/Are-u-ok) ⭐: 9624 ⌨️: NaN
+29. [AUK9527/Are-u-ok](https://github.com/AUK9527/Are-u-ok) ⭐: 9627 ⌨️: NaN
 
 	这个项目是一个基于Python的个人安全监测应用，能够帮助用户在紧急事件发生时发送求助消息并共享位置信息。通过录入关键词，当检测到用户使用这些关键词后，将会触发求助信息的发送。
 
@@ -2336,15 +2336,15 @@
 
 	Bob是一个基于Python的轻量级框架，用于构建和训练深度学习模型。它提供了简单而灵活的API，方便用户快速搭建模型并进行训练。Bob的设计理念是简洁、易用和高效，适合于初学者和有经验的开发者使用。Bob支持常见的深度学习模型，如CNN、RNN等，并提供了丰富的工具和组件，帮助用户更好地理解和应用深度学习技术。
 
-31. [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) ⭐: 8672 ⌨️: NaN	`adblock` `adguardhome` `dnsmasq` `easylist` `neohosts` `php` `pi-hole` `surge`
+31. [privacy-protection-tools/anti-AD](https://github.com/privacy-protection-tools/anti-AD) ⭐: 8676 ⌨️: NaN	`adblock` `adguardhome` `dnsmasq` `easylist` `neohosts` `php` `pi-hole` `surge`
 
 	这个项目是一个基于hosts文件的广告拦截工具，可以帮助用户屏蔽一些常见的广告网站和跟踪器，让用户在浏览网页时更少受到干扰。通过更新hosts文件，可以有效提高浏览网页的速度和安全性。
 
-32. [shadowsocksrr/shadowsocksr-android](https://github.com/shadowsocksrr/shadowsocksr-android) ⭐: 7709 ⌨️: NaN
+32. [shadowsocksrr/shadowsocksr-android](https://github.com/shadowsocksrr/shadowsocksr-android) ⭐: 7708 ⌨️: NaN
 
 	ShadowsocksR-Android是一个基于ShadowsocksR协议的安卓客户端，用于科学上网和保护个人隐私。它能够加密网络流量并绕过网络审查，让用户可以自由访问被封锁的网站和服务。
 
-33. [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) ⭐: 7028 ⌨️: NaN
+33. [wuxingsanren/wildcat-vip-account](https://github.com/wuxingsanren/wildcat-vip-account) ⭐: 7029 ⌨️: NaN
 
 	Wildcat VIP Account是一个让用户快速申请vip账号的项目。用户可以通过该项目快速申请vip账号来获取更多的特权。
 
@@ -2352,7 +2352,7 @@
 
 	这个项目是一个基于Electron开发的应用程序，用于备份和恢复ShadowsocksR客户端的配置文件。通过这个应用，用户可以轻松地备份和恢复ShadowsocksR客户端的配置，方便管理和迁移使用。
 
-35. [yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn) ⭐: 4961 ⌨️: NaN	`awesome` `awesome-list` `cn-doc` `go` `golang` `golang-library`
+35. [yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn) ⭐: 4962 ⌨️: NaN	`awesome` `awesome-list` `cn-doc` `go` `golang` `golang-library`
 
 	这个项目是一个关于Go语言优秀资源的汇总，包括框架、库、工具、书籍等，帮助Go语言开发者快速找到适合自己需求的资源。
 
@@ -2372,15 +2372,15 @@
 
 	这是一个京东商城的自动签到工具，使用Node.js编写。用户可以利用此工具自动完成京东商城的签到任务，无需人工操作。
 
-40. [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) ⭐: 4016 ⌨️: NaN	`clash` `fanqiang` `free` `geopolitics` `gfw` `great-firewall` `shadowsocks` `shadowsocksr` `ss` `trojan` `v2ray` `vless` `vmess` `vpn-server` `xray`
+40. [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) ⭐: 4017 ⌨️: NaN	`clash` `fanqiang` `free` `geopolitics` `gfw` `great-firewall` `shadowsocks` `shadowsocksr` `ss` `trojan` `v2ray` `vless` `vmess` `vpn-server` `xray`
 
 	这个项目是一个汇集各种优秀的VPN服务和工具的资源库，包括开源和商业的VPN解决方案，为用户提供了多种选择。该项目旨在帮助用户找到最适合自己需求的VPN产品，并提供了丰富的文档和指南帮助用户进行选择和配置。
 
-41. [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) ⭐: 3916 ⌨️: NaN	`acl` `acl4ssr` `clash` `gfwlist`
+41. [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) ⭐: 3920 ⌨️: NaN	`acl` `acl4ssr` `clash` `gfwlist`
 
 	ACL4SSR是一个基于ShadowsocksR的订阅链接转换工具，可以将ShadowsocksR的订阅链接转换成Clash、Quantumult、Surge等多种格式，方便在不同平台上使用。
 
-42. [reqable/reqable-app](https://github.com/reqable/reqable-app) ⭐: 3885 ⌨️: NaN	`android-app` `capture` `debugging-tool` `desktop-app` `flutter` `http` `http2` `http3` `https` `ios-app` `quic` `rest-api`
+42. [reqable/reqable-app](https://github.com/reqable/reqable-app) ⭐: 3886 ⌨️: NaN	`android-app` `capture` `debugging-tool` `desktop-app` `flutter` `http` `http2` `http3` `https` `ios-app` `quic` `rest-api`
 
 	Reqable是一个可定制的请求构建工具，允许用户轻松地创建并发送定制的HTTP请求。用户可以使用Reqable构建GET、POST、PUT和DELETE请求，并在发送请求前进行参数配置。这个工具提供了一个直观的图形用户界面，使用户能够快速构建复杂的HTTP请求。
 
@@ -2412,7 +2412,7 @@
 
 	这是一个基于Bootstrap的模板集合，提供了各种各样的网页模板，包括首页、博客、商店、个人资料等多种类型的页面。每个模板都使用了Bootstrap的响应式设计，可以在不同设备上良好地显示和交互。这些模板可以帮助开发者快速构建美观、功能丰富的网页，并且可以根据自己的需要进行定制和扩展。
 
-50. [AttemptD/AfuseKt-release](https://github.com/AttemptD/AfuseKt-release) ⭐: 2996 ⌨️: NaN
+50. [AttemptD/AfuseKt-release](https://github.com/AttemptD/AfuseKt-release) ⭐: 2997 ⌨️: NaN
 
 	AfuseKt-release是一个基于Kotlin编写的轻量级文件系统接口，它提供了对文件系统的简单封装和操作，使得文件系统的访问更加方便和灵活。通过AfuseKt-release，用户可以轻松地创建和管理自定义的文件系统，并对文件进行读写操作。AfuseKt-release支持多种不同的文件系统类型，包括本地文件系统和远程文件系统，为开发者提供了更多选择和灵活性。
 
@@ -2428,11 +2428,11 @@
 
 	mtSecKill是一个基于Java的秒杀系统，实现了商品秒杀的功能，包括用户登录、商品列表展示、秒杀接口、订单生成等流程，使用了Spring Boot框架和Redis缓存技术来实现高并发场景下的秒杀操作。
 
-54. [cdoco/learn-regex-zh](https://github.com/cdoco/learn-regex-zh) ⭐: 2598 ⌨️: NaN	`chinese-translation` `learn-regex` `learn-regex-zh` `regex` `regexp`
+54. [cdoco/learn-regex-zh](https://github.com/cdoco/learn-regex-zh) ⭐: 2599 ⌨️: NaN	`chinese-translation` `learn-regex` `learn-regex-zh` `regex` `regexp`
 
 	这个项目是一个学习正则表达式的中文教程，旨在帮助初学者快速掌握正则表达式的基本知识和用法。通过简洁明了的文字和示例，帮助用户轻松理解正则表达式的概念和应用。
 
-55. [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) ⭐: 2473 ⌨️: NaN
+55. [SPX372928/MyIPTV](https://github.com/SPX372928/MyIPTV) ⭐: 2474 ⌨️: NaN
 
 	这个项目是一个基于Python的简单IPTV播放器，可以播放全球各地的电视频道。用户只需在配置文件中添加自己喜欢的频道链接，就可以通过命令行或图形界面来选择并播放频道。
 
@@ -2440,7 +2440,7 @@
 
 	BilibiliAPIDocs是一个Bilibili API文档的项目，提供了B站的各种API的文档，让开发者能够更好地了解和使用B站的API接口。
 
-57. [YueChan/Live](https://github.com/YueChan/Live) ⭐: 2385 ⌨️: NaN
+57. [YueChan/Live](https://github.com/YueChan/Live) ⭐: 2387 ⌨️: NaN
 
 	Live是一个基于Node.js和WebSocket实现的简单实时聊天应用程序。用户可以通过浏览器进行实时的文本聊天，并且支持多人同时在线。该项目提供了一个简洁的界面，易于部署和使用。
 
@@ -2452,7 +2452,7 @@
 
 	Knowledge Garden是一个用于构建个人知识管理系统的开源项目，它提供了一个基于Markdown的静态网站生成器，可以帮助用户轻松地创建和组织自己的知识库。用户可以使用Knowledge Garden将自己的笔记、博客等内容转化为美观的静态网站，并方便地进行编辑和更新。
 
-60. [Kimentanm/aptv](https://github.com/Kimentanm/aptv) ⭐: 1943 ⌨️: NaN
+60. [Kimentanm/aptv](https://github.com/Kimentanm/aptv) ⭐: 1944 ⌨️: NaN
 
 	这个项目是一个名为aptv的Python库，用于从Google Play上下载TV应用程序的元数据。它可以帮助用户获取TV应用程序的详细信息，包括名称、图标、描述等。aptv库提供了一种简单的方法来获取和管理TV应用程序的信息。
 
@@ -2480,7 +2480,7 @@
 
 	PHP-FIG（PHP Framework Interoperability Group）是一个旨在提升PHP项目互操作性和标准化的组织。他们制定了一系列的PHP标准，如PSR-1，PSR-2等，帮助开发者编写更加一致和可维护的PHP代码。该项目的GitHub仓库包含了PHP-FIG的官方文件和标准的源代码。
 
-67. [kimcrowing/IPTV](https://github.com/kimcrowing/IPTV) ⭐: 1405 ⌨️: NaN
+67. [kimcrowing/IPTV](https://github.com/kimcrowing/IPTV) ⭐: 1406 ⌨️: NaN
 
 	这个项目是一个名为IPTV的开源项目，它提供了一个基于Web的电视直播流媒体服务。用户可以通过该项目观看各种直播电视频道，包括电影、体育、新闻等内容。项目提供了简单易用的界面和功能，方便用户浏览和观看各种直播节目。
 
@@ -2496,7 +2496,7 @@
 
 	7kbscan-WebPathBrute是一款基于Python开发的Web路径爆破工具，可以用于发现Web应用中隐藏的路径和文件。它提供了多种字典和扫描选项，可以快速有效地进行路径探测。
 
-71. [suxuang/myIPTV](https://github.com/suxuang/myIPTV) ⭐: 1307 ⌨️: NaN
+71. [suxuang/myIPTV](https://github.com/suxuang/myIPTV) ⭐: 1308 ⌨️: NaN
 
 	myIPTV 是一个基于 Python 和 Flask 的简单 IPTV 播放器。它能够解析 M3U8 格式的 IPTV 列表，并提供简洁的用户界面进行播放。
 
@@ -2528,7 +2528,7 @@
 
 	该项目是一个中国网络电视直播源列表，包含了各种电视频道的直播源链接，用户可以通过这些链接观看来自中国的各种电视频道节目。
 
-79. [ihmily/ip-info-api](https://github.com/ihmily/ip-info-api) ⭐: 909 ⌨️: NaN	`ip` `ip-geolocation` `ipaddress-tracker` `ipapi` `ipinfo`
+79. [ihmily/ip-info-api](https://github.com/ihmily/ip-info-api) ⭐: 911 ⌨️: NaN	`ip` `ip-geolocation` `ipaddress-tracker` `ipapi` `ipinfo`
 
 	这个项目是一个简单的IP信息查询API，可以通过发送HTTP请求获取特定IP地址的地理位置、ASN和ISP等信息。这个API可以帮助开发者快速获取IP地址相关的信息，用于网络安全、数据分析等应用中。
 
@@ -2544,13 +2544,13 @@
 
 	这个项目是一个基于RESTful架构的Nintendo Switch游戏数据API，可以用来获取关于Switch游戏、玩家和战绩等信息的数据。通过这个API，开发者可以轻松地访问和利用Switch游戏数据，从而开发出更多有趣和实用的应用程序。
 
-83. [LoseNine/Restore-JS](https://github.com/LoseNine/Restore-JS) ⭐: 636 ⌨️: NaN	`book` `crack` `js`
-
-	Restore-JS是一个用于JavaScript对象和数组恢复之前状态的库。它可以记录对象和数组的初始状态，以便在需要时进行恢复。这对于需要实现撤销、重做功能的应用程序非常有用。
-
-84. [jk2024988/TV2024](https://github.com/jk2024988/TV2024) ⭐: 634 ⌨️: NaN
+83. [jk2024988/TV2024](https://github.com/jk2024988/TV2024) ⭐: 637 ⌨️: NaN
 
 	TV2024是一个基于Python的视频播放器，可以在终端中播放本地和在线视频，支持全屏、倍速播放等功能。
+
+84. [LoseNine/Restore-JS](https://github.com/LoseNine/Restore-JS) ⭐: 636 ⌨️: NaN	`book` `crack` `js`
+
+	Restore-JS是一个用于JavaScript对象和数组恢复之前状态的库。它可以记录对象和数组的初始状态，以便在需要时进行恢复。这对于需要实现撤销、重做功能的应用程序非常有用。
 
 85. [tsingsee/EasyPlayer](https://github.com/tsingsee/EasyPlayer) ⭐: 612 ⌨️: NaN	`android-player` `easydarwin` `easyplayer` `hls-player` `ios-player` `media-player` `rtmp-player` `rtsp-player`
 
@@ -2572,7 +2572,7 @@
 
 	这个项目是一个基于Python的简易IPTV播放器，可以用来在终端上观看IPTV直播节目。它使用VLC播放器来进行流媒体的播放，用户可以根据自己的需求编辑播放列表，方便快捷地观看各种直播节目。
 
-90. [bboysoulcn/registry-mirror](https://github.com/bboysoulcn/registry-mirror) ⭐: 548 ⌨️: NaN
+90. [bboysoulcn/registry-mirror](https://github.com/bboysoulcn/registry-mirror) ⭐: 549 ⌨️: NaN
 
 	这个项目是一个 Docker 镜像注册表的镜像加速器，通过在国内部署镜像加速器，可以加快 Docker 客户端拉取镜像的速度，提高镜像拉取效率。
 
@@ -2592,7 +2592,7 @@
 
 	这个项目是一个用于解锁TikTok应用程序限制的工具，可以让用户在任何地方观看TikTok视频，即使是在被禁止的地区或国家。
 
-95. [SnoW-Wei/Dash-dcsets-CN](https://github.com/SnoW-Wei/Dash-dcsets-CN) ⭐: 357 ⌨️: NaN
+95. [SnoW-Wei/Dash-dcsets-CN](https://github.com/SnoW-Wei/Dash-dcsets-CN) ⭐: 358 ⌨️: NaN
 
 	Dash-dcsets-CN 是一个基于 Dash 框架的中文文档集合，旨在为使用 Dash 框架的开发者提供中文文档支持。这个项目为中文用户提供了更好的阅读体验和学习资源。
 
@@ -2608,7 +2608,7 @@
 
 	FolderMagic 是一个可以帮助你在 Windows 上快速管理文件和文件夹的工具。它提供了一系列的快捷方式和功能，可以让你在资源管理器中快速复制、移动、重命名和删除文件。这个项目提供了开源的代码，你可以根据自己的需求定制和修改。
 
-99. [nauxliu/Dash-docsets-CN](https://github.com/nauxliu/Dash-docsets-CN) ⭐: 294 ⌨️: NaN	`dash` `docset` `docset-cn`
+99. [nauxliu/Dash-docsets-CN](https://github.com/nauxliu/Dash-docsets-CN) ⭐: 295 ⌨️: NaN	`dash` `docset` `docset-cn`
 
 	这个项目是针对Dash（一个文档阅读应用程序）的中文文档集合。它为一些流行的库、框架和工具创建了中文文档，方便中文用户查询和阅读相关文档。
 
@@ -2632,7 +2632,7 @@
 
      这个项目是一个基于Apple TV的视频播放器应用。它使用Swift语言开发，可以让用户在Apple TV上观看视频，并支持从各种不同来源获取视频内容。这个应用为用户在家庭娱乐中心观看高清视频提供了一种便捷的途径。
 
-105. [ZWolken/PingFang](https://github.com/ZWolken/PingFang) ⭐: 242 ⌨️: NaN	`apple` `chinese` `font` `fonts` `pingfang` `windows`
+105. [ZWolken/PingFang](https://github.com/ZWolken/PingFang) ⭐: 243 ⌨️: NaN	`apple` `chinese` `font` `fonts` `pingfang` `windows`
 
      PingFang是一个基于Python的用于执行ping命令的工具，可以用来测试网络设备的连通性，检查网络延迟等。它具有简单易用的界面和丰富的功能，可以帮助用户快速而准确地进行网络测试。
 
@@ -2681,7 +2681,7 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
      PushLite是一个基于Java开发的轻量级推送框架，主要用于实现Android设备和服务器端之间的消息推送。它提供了简单易用的接口和高效的推送机制，可以帮助开发者快速实现消息推送功能。
 
-117. [lyxlucky/NavicatCracker](https://github.com/lyxlucky/NavicatCracker) ⭐: 91 ⌨️: NaN
+117. [lyxlucky/NavicatCracker](https://github.com/lyxlucky/NavicatCracker) ⭐: 92 ⌨️: NaN
 
      这个项目是一个用于破解Navicat数据库管理工具的开源项目。它提供了一种方法来绕过Navicat的注册验证，使用户能够免费使用Navicat的全部功能。
 
@@ -2709,7 +2709,7 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
      这个项目是一个基于Python的IPTV播放器，可以在线观看全球各地的电视频道和直播节目。通过该项目，用户可以方便地享受到来自世界各地的电视频道和直播节目，同时还可以自定义播放列表和频道。
 
-124. [250992941/iptv](https://github.com/250992941/iptv) ⭐: 30 ⌨️: NaN
+124. [250992941/iptv](https://github.com/250992941/iptv) ⭐: 31 ⌨️: NaN
 
      这个项目是一个基于Java开发的简单IPTV播放器应用，可以播放来自不同网络来源的视频流。GitHub页面上提供了项目代码和使用方法。
 
@@ -2765,27 +2765,27 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 ### C++
 ---
 
-0. [electron/electron](https://github.com/electron/electron) ⭐: 114794 ⌨️: C++	`c-plus-plus` `chrome` `css` `electron` `html` `javascript` `nodejs` `v8` `works-with-codespaces`
+0. [electron/electron](https://github.com/electron/electron) ⭐: 114806 ⌨️: C++	`c-plus-plus` `chrome` `css` `electron` `html` `javascript` `nodejs` `v8` `works-with-codespaces`
 
 	Electron 是一个使用 JavaScript, HTML 和 CSS 构建跨平台桌面应用程序的开源框架。它基于 Node.js 和 Chrome 浏览器，提供了丰富的 API 和工具，使开发者能够快速创建出色的桌面应用程序。Electron 被许多知名公司和开发者广泛使用，用于构建各种类型的应用，包括聊天工具、编辑器、游戏等。
 
-1. [microsoft/terminal](https://github.com/microsoft/terminal) ⭐: 96119 ⌨️: C++	`cmd` `command-line` `console` `contributions-welcome` `good-first-issue` `hacktoberfest` `terminal` `windows` `windows-console` `windows-terminal` `wsl`
+1. [microsoft/terminal](https://github.com/microsoft/terminal) ⭐: 96121 ⌨️: C++	`cmd` `command-line` `console` `contributions-welcome` `good-first-issue` `hacktoberfest` `terminal` `windows` `windows-console` `windows-terminal` `wsl`
 
 	这是一个由微软开发的开源项目，名为“Windows 终端”，它为 Windows 提供了一个现代化的终端应用程序，支持多个标签页和分屏布局，用户可以在同一个窗口中同时进行多个终端会话。Windows 终端还支持自定义主题、快捷键和配置文件，使用户能够根据个人偏好进行个性化设置。
 
-2. [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) ⭐: 63201 ⌨️: C++	`hacktoberfest` `lstm` `machine-learning` `ocr` `ocr-engine` `tesseract` `tesseract-ocr`
+2. [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) ⭐: 63209 ⌨️: C++	`hacktoberfest` `lstm` `machine-learning` `ocr` `ocr-engine` `tesseract` `tesseract-ocr`
 
 	Tesseract是一个OCR（Optical Character Recognition，光学字符识别）引擎，能够将图片中的文本识别为可编辑的文本。Tesseract支持多种语言，并且在文字识别准确性方面表现优秀。
 
-3. [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) ⭐: 49529 ⌨️: C++
+3. [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) ⭐: 49534 ⌨️: C++
 
 	Magisk 是一个 Android 设备上的通用系统修改和 root 解决方案，它可以在不破坏系统完整性的情况下实现系统修改和 root 访问，同时支持隐藏 root 权限避免检测。Magisk 还可以通过模块的方式轻松扩展功能，是 Android 设备定制的利器。
 
-4. [aria2/aria2](https://github.com/aria2/aria2) ⭐: 36202 ⌨️: C++	`bittorrent` `cpp11` `download` `ftp` `http` `metalink` `rpc` `sftp`
+4. [aria2/aria2](https://github.com/aria2/aria2) ⭐: 36205 ⌨️: C++	`bittorrent` `cpp11` `download` `ftp` `http` `metalink` `rpc` `sftp`
 
 	Aria2是一个轻量级、支持多协议的命令行下载工具，可同时下载HTTP、FTP、BitTorrent等多种类型的文件，支持断点续传和多连接下载，具有高度灵活性和可定制性。
 
-5. [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ⭐: 28882 ⌨️: C++	`bittorrent` `bittorrent-client` `c-plus-plus` `crossplatform` `torrent` `torrent-client`
+5. [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ⭐: 28888 ⌨️: C++	`bittorrent` `bittorrent-client` `c-plus-plus` `crossplatform` `torrent` `torrent-client`
 
 	qBittorrent 是一个开源的 BitTorrent 客户端，用于下载和分享文件。它简单易用，功能强大，支持多平台，包括 Windows、Mac 和 Linux。该项目提供了许多高级功能，如种子管理、IP过滤、媒体播放器等，同时也具备轻量级和低资源消耗的特性。
 
@@ -2793,27 +2793,27 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	Cmder是一个Windows下优秀的开源命令行工具，它为用户提供了更好的命令行体验。它基于ConEmu和Clink开发，支持快速启动，多标签页，自定义配色和快捷键等功能，受到许多开发者和系统管理员的喜爱。
 
-7. [RedisInsight/RedisDesktopManager](https://github.com/RedisInsight/RedisDesktopManager) ⭐: 22970 ⌨️: C++
+7. [RedisInsight/RedisDesktopManager](https://github.com/RedisInsight/RedisDesktopManager) ⭐: 22972 ⌨️: C++
 
 	这个项目是一个叫做RedisDesktopManager的开源工具，它提供了一个图形化界面来管理和监控Redis数据库。用户可以通过这个工具轻松地连接到Redis实例，浏览和编辑键值对，执行命令，查看实时性能数据等。它支持 Windows、Mac 和 Linux 操作系统。
 
-8. [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) ⭐: 20176 ⌨️: C++	`bittorrent` `bittorrent-client`
+8. [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) ⭐: 20178 ⌨️: C++	`bittorrent` `bittorrent-client`
 
 	这个项目是qBittorrent的增强版，它通过添加一些额外的功能和改进来提升原版的性能。这些改进包括增强的用户界面、更多的配置选项、更好的性能和更多的功能。这个增强版可以让用户更方便地管理和使用种子下载工具。
 
-9. [swoole/swoole-src](https://github.com/swoole/swoole-src) ⭐: 18495 ⌨️: C++	`concurrency` `coroutines` `event` `php` `swoole` `websocket`
+9. [swoole/swoole-src](https://github.com/swoole/swoole-src) ⭐: 18496 ⌨️: C++	`concurrency` `coroutines` `event` `php` `swoole` `websocket`
 
 	Swoole是一个为PHP开发者提供的高性能异步、并行网络通信引擎，支持TCP/UDP、WebSocket等协议，可以替代传统的PHP-FPM模式，提升性能。Swoole通过多线程和异步IO技术，实现了更高效的并发处理能力，适用于构建高性能的网络应用和微服务。
 
-10. [Tencent/mars](https://github.com/Tencent/mars) ⭐: 17351 ⌨️: C++	`cross-platform` `log` `network` `wechat`
+10. [Tencent/mars](https://github.com/Tencent/mars) ⭐: 17353 ⌨️: C++	`cross-platform` `log` `network` `wechat`
 
 	Mars是腾讯开发的一款跨平台的基于UDP的网络库，用于实现高性能、低延迟的网络通信。它支持在移动设备和PC上进行网络通信，可以应用在即时通讯、在线游戏、音视频通话等领域。Mars通过优化底层网络传输机制，提升网络通信的性能和稳定性，为开发者提供了更加便捷的网络通信解决方案。
 
-11. [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) ⭐: 16763 ⌨️: C++	`aur` `cmake` `cpp` `cpp17` `debian` `plugin` `qt5` `qv2ray` `qv2ray-plugins` `ssr` `trojan` `trojan-go` `v2fly` `v2ray`
+11. [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) ⭐: 16764 ⌨️: C++	`aur` `cmake` `cpp` `cpp17` `debian` `plugin` `qt5` `qv2ray` `qv2ray-plugins` `ssr` `trojan` `trojan-go` `v2fly` `v2ray`
 
 	Qv2ray是一个基于V2Ray的跨平台图形化客户端，旨在为用户提供简单易用的使用体验。它支持Windows、macOS和Linux操作系统，具有丰富的功能和友好的界面设计，让用户可以轻松地管理和使用V2Ray服务。
 
-12. [zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne) ⭐: 14729 ⌨️: C++	`decentralization` `networking` `peer-to-peer` `sd-wan` `sdn` `virtual-network` `vpn`
+12. [zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne) ⭐: 14731 ⌨️: C++	`decentralization` `networking` `peer-to-peer` `sd-wan` `sdn` `virtual-network` `vpn`
 
 	ZeroTierOne是一个开源的软件定义的广域网（SD-WAN）平台，它提供安全、简单、快速的虚拟专有网络服务。用户可以轻松地创建虚拟网络，连接设备和应用程序，并实现安全的数据传输。ZeroTierOne支持多种操作系统平台，并具有自动化配置和管理功能，是一个灵活的、易于部署和使用的网络解决方案。
 
@@ -2821,19 +2821,19 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	wkhtmltopdf 是一个开源的命令行工具，用于将网页转换为PDF文档或图片。它支持多种操作系统，包括Windows、Linux和macOS。该工具使用WebKit渲染引擎，能够保留网页的布局和格式，并支持自定义页面布局和转换选项。
 
-14. [tindy2013/subconverter](https://github.com/tindy2013/subconverter) ⭐: 13521 ⌨️: C++	`clash` `clashr` `emoji` `gist` `quantumult` `quantumultx` `regular-expression` `rename` `ss` `ssr` `subconverter` `surfboard` `surge` `v2ray`
+14. [tindy2013/subconverter](https://github.com/tindy2013/subconverter) ⭐: 13524 ⌨️: C++	`clash` `clashr` `emoji` `gist` `quantumult` `quantumultx` `regular-expression` `rename` `ss` `ssr` `subconverter` `surfboard` `surge` `v2ray`
 
 	Subconverter 是一个用于转换订阅链接格式的工具，可以将各种订阅链接格式互相转换，方便用户在不同平台间进行订阅链接的转换和使用。
 
-15. [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) ⭐: 13337 ⌨️: C++	`anime` `anime4k` `esrgan` `frame-interpolation` `image-enlarger` `ncnn` `noise-reduction` `rtx-video-super-resolution` `rtx-vsr` `super-resolution` `upscaling` `video` `video-enlarger` `video-frame-interpolation` `video-interpolation` `video-processing` `video-super-resolution` `vulkan` `waifu2x` `waifu2x-ncnn-vulkan`
+15. [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) ⭐: 13340 ⌨️: C++	`anime` `anime4k` `esrgan` `frame-interpolation` `image-enlarger` `ncnn` `noise-reduction` `rtx-video-super-resolution` `rtx-vsr` `super-resolution` `upscaling` `video` `video-enlarger` `video-frame-interpolation` `video-interpolation` `video-processing` `video-super-resolution` `vulkan` `waifu2x` `waifu2x-ncnn-vulkan`
 
 	这个项目是一个基于Waifu2x算法的图像放大软件，提供了用户友好的图形界面。用户可以使用这个软件来放大图像的分辨率并改善图像的质量。这个项目的GitHub链接为：https://github.com/AaronFeng753/Waifu2x-Extension-GUI
 
-16. [moonlight-stream/moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) ⭐: 11232 ⌨️: C++	`gamestream` `linux-app` `macos-app` `moonlight` `nvidia` `qt` `sdl2` `steam-link` `windows-app`
+16. [moonlight-stream/moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) ⭐: 11234 ⌨️: C++	`gamestream` `linux-app` `macos-app` `moonlight` `nvidia` `qt` `sdl2` `steam-link` `windows-app`
 
 	Moonlight-Qt是一个开源项目，它提供了一个用于在Linux上访问NVIDIA GameStream服务的用户界面。用户可以使用Moonlight-Qt来流式传输他们的PC游戏到其他设备上，如树莓派、安卓手机等。这个项目使得游戏玩家可以在不同设备上无缝地享受PC游戏的乐趣。
 
-17. [BlackINT3/OpenArk](https://github.com/BlackINT3/OpenArk) ⭐: 9719 ⌨️: C++	`anti-malware` `ark` `windows-hacking`
+17. [BlackINT3/OpenArk](https://github.com/BlackINT3/OpenArk) ⭐: 9721 ⌨️: C++	`anti-malware` `ark` `windows-hacking`
 
 	OpenArk是一个用于自动识别恶意软件和网络攻击的开源项目。它提供了一个用于分析恶意软件和网络恶意行为的平台，包括样本收集、静态和动态分析，以及恶意行为的可视化分析。该项目旨在帮助安全研究人员和网络管理员更好地理解和对抗恶意软件和网络攻击。
 
@@ -2845,7 +2845,7 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	Xposed是一个Android框架，允许用户在不修改应用程序的情况下定制和修改Android系统的行为。它通过在运行时注入代码来实现这一点，从而实现对系统和应用程序的修改。Xposed可以让用户轻松地定制和优化他们的Android设备，而无需对系统进行深度定制或刷机。
 
-20. [wangyu-/udp2raw](https://github.com/wangyu-/udp2raw) ⭐: 7400 ⌨️: C++	`bypass-firewall` `fake-header` `faketcp` `icmp` `icmp-tunnel` `icmptunnel` `raw-socket` `raw-tunnel` `tcp` `tunnel` `udp` `udp-tunnel`
+20. [wangyu-/udp2raw](https://github.com/wangyu-/udp2raw) ⭐: 7401 ⌨️: C++	`bypass-firewall` `fake-header` `faketcp` `icmp` `icmp-tunnel` `icmptunnel` `raw-socket` `raw-tunnel` `tcp` `tunnel` `udp` `udp-tunnel`
 
 	udp2raw是一个用于绕过UDP防火墙和QoS的工具，可以将UDP流量伪装成TCP流量，以便在传输过程中隐藏真实的UDP流量。其原理是将UDP数据包封装在TCP数据包中进行传输，以避开对UDP流量的限制和干扰。udp2raw可以用于加密、加速和稳定UDP流量的传输，适用于网络游戏、视频流媒体和其他需要对UDP流量进行优化和保护的应用场景。
 
@@ -2861,11 +2861,11 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	该项目是一个用于禁用Windows系统中Meiryo字体的工具，使用户可以选择其他字体来代替Meiryo字体在系统中的显示。这个项目的目的是帮助用户更换系统中的默认字体，以满足个人对字体风格的偏好。
 
-24. [zhongyang219/MusicPlayer2](https://github.com/zhongyang219/MusicPlayer2) ⭐: 4854 ⌨️: C++
+24. [zhongyang219/MusicPlayer2](https://github.com/zhongyang219/MusicPlayer2) ⭐: 4853 ⌨️: C++
 
 	这是一个基于Android平台的音乐播放器应用，具有简洁的界面和丰富的功能。用户可以通过该应用管理和播放本地音乐文件，包括创建播放列表、调整音乐播放器的样式等。该应用支持播放各种音频格式的音乐文件，并提供了多种播放模式和音效调节功能，让用户能够享受更好的音乐体验。
 
-25. [rime/weasel](https://github.com/rime/weasel) ⭐: 4783 ⌨️: C++
+25. [rime/weasel](https://github.com/rime/weasel) ⭐: 4784 ⌨️: C++
 
 	Weasel是一个Rime输入法的配置项目，提供了一套现代化的输入方案。它包含了标点修饰、符号输入、数学公式、emoji表情等功能，并支持自定义短语和快捷键。
 
@@ -2881,11 +2881,11 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	HoRNDIS是一个Mac OS X USB Tethering的驱动程序，允许用户通过Android手机共享其数据连接。这个项目允许Mac用户使用Android手机进行USB共享网络连接，非常方便。
 
-29. [wangyu-/tinyfecVPN](https://github.com/wangyu-/tinyfecVPN) ⭐: 2355 ⌨️: C++	`fec` `proxy` `reed-solomon` `vpn`
+29. [wangyu-/tinyfecVPN](https://github.com/wangyu-/tinyfecVPN) ⭐: 2356 ⌨️: C++	`fec` `proxy` `reed-solomon` `vpn`
 
 	TinyfecVPN是一个轻量级的VPN软件，基于UDP协议，专注于在高丢包网络环境下提供稳定和高效的网络连接。它可以帮助用户在不稳定的网络环境中进行安全的网络访问，适用于需要经常使用不稳定网络的用户。
 
-30. [webyog/sqlyog-community](https://github.com/webyog/sqlyog-community) ⭐: 2217 ⌨️: C++
+30. [webyog/sqlyog-community](https://github.com/webyog/sqlyog-community) ⭐: 2218 ⌨️: C++
 
 	SQLyog是一个流行的MySQL管理和开发工具，它提供了可视化的用户界面，使用户可以方便地管理数据库、执行查询和进行开发工作。该工具支持多种操作系统，包括Windows、Linux和macOS，并提供了丰富的功能，如数据同步、导入导出工具、备份与恢复等。SQLyog社区版是其免费版本，拥有较多基本功能，适合个人开发者和小型团队使用。
 
@@ -2965,27 +2965,27 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 ### Go
 ---
 
-0. [fatedier/frp](https://github.com/fatedier/frp) ⭐: 88077 ⌨️: Go	`expose` `firewall` `frp` `go` `http-proxy` `nat` `p2p` `proxy` `reverse-proxy` `tunnel`
+0. [fatedier/frp](https://github.com/fatedier/frp) ⭐: 88099 ⌨️: Go	`expose` `firewall` `frp` `go` `http-proxy` `nat` `p2p` `proxy` `reverse-proxy` `tunnel`
 
 	frp是一个快速反向代理，可以帮助您轻松地将内部服务器映射到公共网络上，从而实现内网穿透和端口转发。通过frp，您可以访问内部网络中的Web服务、SSH、FTP等应用，同时也支持TCP、UDP流量转发。frp是一个开源项目，使用Go语言编写，非常灵活且易于部署。
 
-1. [junegunn/fzf](https://github.com/junegunn/fzf) ⭐: 66361 ⌨️: Go	`bash` `cli` `fish` `fzf` `go` `neovim` `tmux` `unix` `vim` `zsh`
+1. [junegunn/fzf](https://github.com/junegunn/fzf) ⭐: 66364 ⌨️: Go	`bash` `cli` `fish` `fzf` `go` `neovim` `tmux` `unix` `vim` `zsh`
 
 	fzf是一个命令行模糊搜索工具，可以帮助用户快速在大量数据中进行筛选和选择。它支持各种输入源，包括文件、git历史记录和命令输出，并提供快速的交互式界面，使用户能够快速找到他们想要的内容。fzf还支持自定义键绑定和模式，可以根据用户的需求进行定制。
 
-2. [syncthing/syncthing](https://github.com/syncthing/syncthing) ⭐: 66264 ⌨️: Go	`go` `p2p` `peer-to-peer` `synchronization`
+2. [syncthing/syncthing](https://github.com/syncthing/syncthing) ⭐: 66273 ⌨️: Go	`go` `p2p` `peer-to-peer` `synchronization`
 
 	Syncthing 是一个开源的文件同步工具，可以跨平台运行，让你可以在不同设备之间安全地同步和共享文件。它通过点对点的方式同步文件，提供了安全、隐私保护的文件同步解决方案。
 
-3. [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) ⭐: 51286 ⌨️: Go	`certificates` `chrome` `firefox` `https` `ios` `linux` `local-development` `localhost` `macos` `root-ca` `tls` `windows`
+3. [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) ⭐: 51292 ⌨️: Go	`certificates` `chrome` `firefox` `https` `ios` `linux` `local-development` `localhost` `macos` `root-ca` `tls` `windows`
 
 	Mkcert是一个用于简化本地开发环境SSL/TLS证书生成和管理的工具，它可以快速生成可信任的自签名证书。它的主要目标是让本地开发环境拥有和生产环境一样的安全性，排除了开发过程中因为证书问题带来的麻烦。
 
-4. [rclone/rclone](https://github.com/rclone/rclone) ⭐: 47723 ⌨️: Go	`azure-blob` `azure-blob-storage` `azure-files` `backblaze-b2` `cloud-storage` `dropbox` `encryption` `ftp` `fuse-filesystem` `go` `golang` `google-cloud-storage` `google-drive` `onedrive` `openstack-swift` `rclone` `s3` `sftp` `sync` `webdav`
+4. [rclone/rclone](https://github.com/rclone/rclone) ⭐: 47724 ⌨️: Go	`azure-blob` `azure-blob-storage` `azure-files` `backblaze-b2` `cloud-storage` `dropbox` `encryption` `ftp` `fuse-filesystem` `go` `golang` `google-cloud-storage` `google-drive` `onedrive` `openstack-swift` `rclone` `s3` `sftp` `sync` `webdav`
 
 	rclone是一个命令行工具，用于在不同存储系统之间同步文件和目录，支持超过40种存储后端，包括Google Drive、Dropbox、Amazon S3等。用户可以轻松地管理和转移各种数据，实现备份、同步和云存储操作。
 
-5. [go-gitea/gitea](https://github.com/go-gitea/gitea) ⭐: 45988 ⌨️: Go	`bitbucket` `cicd` `devops` `docker-registry-v2` `git` `git-gui` `git-server` `gitea` `github` `github-actions` `gitlab` `go` `golang` `hacktoberfest` `maven-server` `npm-registry` `vue`
+5. [go-gitea/gitea](https://github.com/go-gitea/gitea) ⭐: 46004 ⌨️: Go	`bitbucket` `cicd` `devops` `docker-registry-v2` `git` `git-gui` `git-server` `gitea` `github` `github-actions` `gitlab` `go` `golang` `hacktoberfest` `maven-server` `npm-registry` `vue`
 
 	Gitea是一个基于Go语言开发的轻量级自助Git服务，类似于GitHub或GitLab。它提供了代码托管、问题跟踪、Wiki等功能，并且具有易于安装、快速、安全的特点。Gitea可以帮助开发团队轻松地搭建和管理自己的Git仓库，是一个理想的自托管解决方案。
 
@@ -2997,15 +2997,15 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	Gogs是一款基于Go语言开发的自助式Git服务平台，类似于GitHub和GitLab。它具有轻量级、易于安装和快速的特点，能够提供代码托管、问题跟踪、团队协作等功能。Gogs支持多种操作系统，包括Windows、Linux和MacOS，可以方便地部署于个人服务器或云平台上。
 
-8. [AlistGo/alist](https://github.com/AlistGo/alist) ⭐: 44820 ⌨️: Go	`file-server` `gin` `golang` `onedrive` `solidjs` `webdav`
+8. [AlistGo/alist](https://github.com/AlistGo/alist) ⭐: 44832 ⌨️: Go	`file-server` `gin` `golang` `onedrive` `solidjs` `webdav`
 
 	Alist 是一个基于 Go 语言的轻量级 RESTful API 框架，它提供了快速构建 API 服务的能力，并提供基本的认证、日志、错误处理等功能，可以帮助开发者快速搭建和部署 API 服务。
 
-9. [usememos/memos](https://github.com/usememos/memos) ⭐: 35203 ⌨️: Go	`docker` `go` `markdown` `memo` `microblog` `note-taking` `react` `self-hosted` `social-network` `sqlite`
+9. [usememos/memos](https://github.com/usememos/memos) ⭐: 35212 ⌨️: Go	`docker` `go` `markdown` `memo` `microblog` `note-taking` `react` `self-hosted` `social-network` `sqlite`
 
 	这个项目是一款基于命令行的备忘录工具，可以通过简单的命令来管理和查看备忘录。用户可以使用该工具快速记录重要信息，随时查看已保存的备忘录内容，帮助提高工作和生活效率。
 
-10. [ehang-io/nps](https://github.com/ehang-io/nps) ⭐: 31010 ⌨️: Go	`dns` `firewall` `go` `gzip` `http` `https` `nat` `nps` `snnapy` `socks` `socks5` `ssh` `tcp` `tunnel` `udp`
+10. [ehang-io/nps](https://github.com/ehang-io/nps) ⭐: 31013 ⌨️: Go	`dns` `firewall` `go` `gzip` `http` `https` `nat` `nps` `snnapy` `socks` `socks5` `ssh` `tcp` `tunnel` `udp`
 
 	NPS是一个高性能的内网穿透工具，可以方便地实现内网穿透，将内网服务暴露到公网。它支持多种连接方式和多平台，可以轻松搭建安全稳定的内网穿透服务。
 
@@ -3013,11 +3013,11 @@ GAGA是一个基于Go语言开发的轻量级即时通讯系统，具有高性�
 
 	这是一个名为croc的开源项目，它是一个用于在两台计算机之间安全、快速地传输文件和文件夹的命令行工具。它使用端对端加密来保护数据，并且支持跨平台使用。
 
-12. [iawia002/lux](https://github.com/iawia002/lux) ⭐: 27967 ⌨️: Go	`bilibili` `crawler` `download` `downloader` `go` `golang` `iqiyi` `qq` `scraper` `tumblr` `video` `youku` `youtube`
+12. [iawia002/lux](https://github.com/iawia002/lux) ⭐: 27968 ⌨️: Go	`bilibili` `crawler` `download` `downloader` `go` `golang` `iqiyi` `qq` `scraper` `tumblr` `video` `youku` `youtube`
 
 	Lux 是一个轻量级、快速的 HTTP 客户端，提供了简洁易用的 API 来进行 HTTP 请求。它支持 Promise、数据流和拦截器等功能，适用于浏览器和 Node.js。Lux 还提供了丰富的插件系统，使得在使用过程中可以轻松扩展其功能。
 
-13. [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) ⭐: 27195 ⌨️: Go	`administrator` `extension` `filemanager` `gui` `interface` `plugin` `vuejs` `web`
+13. [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) ⭐: 27202 ⌨️: Go	`administrator` `extension` `filemanager` `gui` `interface` `plugin` `vuejs` `web`
 
 	File Browser是一个基于Web的文件管理器，用于在本地或远程系统上管理文件和文件夹。它提供了一个简洁的用户界面，让用户可以直接在浏览器中浏览、上传、下载、重命名和删除文件。该项目还支持用户认证、访问控制和主题定制，非常适用于个人用户或小型团队管理文件。
 
@@ -3030,23 +3030,23 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Ngrok是一个反向代理工具，可以通过在公共互联网上创建安全的隧道，将本地服务暴露给外部网络访问。它可以帮助开发人员在内网环境中测试和分享本地服务，也可以用于绕过防火墙访问内部网络。Ngrok基于Golang语言开发，适用于多个操作系统平台，提供了简单易用的命令行工具和Web界面，是一个强大的工具，方便快捷地进行内网穿透和调试。
 
-16. [juanfont/headscale](https://github.com/juanfont/headscale) ⭐: 24138 ⌨️: Go	`tailscale` `tailscale-control-server` `tailscale-server` `wireguard`
+16. [juanfont/headscale](https://github.com/juanfont/headscale) ⭐: 24150 ⌨️: Go	`tailscale` `tailscale-control-server` `tailscale-server` `wireguard`
 
 	Headscale是一个基于Tailscale的开源项目，它提供了一个自托管的解决方案，用于部署和管理Tailscale服务器。通过Headscale，用户可以构建一个私有的Tailscale服务器，实现更多的自定义和控制。这个项目提供了强大的网络连接和管理功能，同时保护用户的隐私和安全。
 
-17. [cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve) ⭐: 22118 ⌨️: Go	`cloud` `cloud-storage` `cloudreve` `file` `file-manager` `file-sharing` `golang`
+17. [cloudreve/Cloudreve](https://github.com/cloudreve/Cloudreve) ⭐: 22119 ⌨️: Go	`cloud` `cloud-storage` `cloudreve` `file` `file-manager` `file-sharing` `golang`
 
 	Cloudreve 是一个开源的云存储/网盘系统，采用 Go 语言开发，支持个人和团队文件管理，具有文件上传、下载、分享、在线预览等功能。它支持多种存储后端，用户可以选择将文件存储在本地或远程服务器上，并提供简洁美观的界面和丰富的功能。
 
-18. [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ⭐: 20344 ⌨️: Go	`cdn` `cloudflare` `go` `golang` `speedtest`
+18. [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ⭐: 20348 ⌨️: Go	`cdn` `cloudflare` `go` `golang` `speedtest`
 
 	CloudflareSpeedTest是一个基于Python的命令行工具，用于测试用户与Cloudflare节点的连接速度。用户可以选择测试HTTP、HTTPS、Ping和DNS的速度，并可以指定测试节点的位置。该工具能够帮助用户评估其与Cloudflare节点的连接质量，从而改善网络性能。
 
-19. [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) ⭐: 18823 ⌨️: Go	`curl` `notifications` `ntfy` `ntfysh` `pubsub` `push-notifications` `rest-api`
+19. [binwiederhier/ntfy](https://github.com/binwiederhier/ntfy) ⭐: 18827 ⌨️: Go	`curl` `notifications` `ntfy` `ntfysh` `pubsub` `push-notifications` `rest-api`
 
 	ntfy是一个命令行通知工具，可以在命令完成时发送通知。它支持多种通知平台，如Slack、Telegram等，并且可以在命令完成后发送自定义消息。ntfy易于安装和配置，对于需要及时了解命令执行状态的开发者和系统管理员非常有用。
 
-20. [snail007/goproxy](https://github.com/snail007/goproxy) ⭐: 15938 ⌨️: Go	`dns-proxy` `encryption-proxy` `http` `http-proxy` `https-proxy` `kcptun` `reverse-proxy` `socket` `socks5` `socks5-proxy` `ss-proxy` `tcp` `tcp-proxy` `tls` `tls-proxy` `transparent-proxy` `udp` `udp-proxy` `upstream-proxies` `websocket-proxy`
+20. [snail007/goproxy](https://github.com/snail007/goproxy) ⭐: 15942 ⌨️: Go	`dns-proxy` `encryption-proxy` `http` `http-proxy` `https-proxy` `kcptun` `reverse-proxy` `socket` `socks5` `socks5-proxy` `ss-proxy` `tcp` `tcp-proxy` `tls` `tls-proxy` `transparent-proxy` `udp` `udp-proxy` `upstream-proxies` `websocket-proxy`
 
 	goproxy是一个基于Go语言开发的高性能HTTP和HTTPS代理服务。它支持反向代理、负载均衡、高并发等特性，可以用于构建高可用的代理服务。
 
@@ -3054,11 +3054,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Hydra是一个开源的身份和访问管理系统，用于帮助开发者构建安全的、可扩展的认证和授权解决方案。它通过提供统一的API和工具，简化了用户身份验证和授权管理的复杂性，适用于微服务架构和云原生环境。Hydra支持OAuth2、OpenID Connect等标准协议，并提供了灵活的插件系统和扩展性，可用于各种应用和场景。
 
-22. [chaitin/SafeLine](https://github.com/chaitin/SafeLine) ⭐: 14224 ⌨️: Go	`api-gateway` `application-security` `appsec` `blueteam` `bruteforce` `captcha` `cve` `cybersecurity` `firewall` `hackers` `http-flood` `security` `self-hosted` `sql-injection` `vulnerability` `waf` `web-application-firewall` `web-security` `websecurity` `xss`
+22. [chaitin/SafeLine](https://github.com/chaitin/SafeLine) ⭐: 14231 ⌨️: Go	`api-gateway` `application-security` `appsec` `blueteam` `bruteforce` `captcha` `cve` `cybersecurity` `firewall` `hackers` `http-flood` `security` `self-hosted` `sql-injection` `vulnerability` `waf` `web-application-firewall` `web-security` `websecurity` `xss`
 
 	SafeLine是一个由chaitin开发的开源项目，用于帮助开发者在代码中快速定位和修复安全漏洞。该工具可以自动分析代码，识别潜在的安全问题，并提供修复建议。通过SafeLine，开发者可以更加简单地提高代码的安全性，减少潜在的安全风险。
 
-23. [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) ⭐: 12553 ⌨️: Go	`alidns` `baiduyun` `cloudflare` `ddns` `ddns-go` `dnspod` `godaddy-ddns` `google-domains` `porkbun`
+23. [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) ⭐: 12558 ⌨️: Go	`alidns` `baiduyun` `cloudflare` `ddns` `ddns-go` `dnspod` `godaddy-ddns` `google-domains` `porkbun`
 
 	这是一个基于Go语言开发的DDNS（动态域名解析）工具，可以帮助用户轻松地将动态IP地址与域名进行绑定，并实现远程访问内部网络设备。通过该工具，用户可以定期检测自己的公网IP地址变化，并自动更新与之绑定的域名解析记录，确保始终能够通过域名访问到自己的网络设备。
 
@@ -3074,15 +3074,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个轻量级的文件管理器，使用Python编写。它提供了基本的文件管理功能，如浏览、复制、粘贴和删除文件等。它的界面简单直观，非常适合用来快速管理和浏览文件。
 
-27. [gotify/server](https://github.com/gotify/server) ⭐: 11636 ⌨️: Go	`api` `cloud` `free-software` `golang` `gotify` `hosting` `javascript` `notifications` `privacy` `react` `self-hosted` `self-hosting` `selfhosted`
+27. [gotify/server](https://github.com/gotify/server) ⭐: 11637 ⌨️: Go	`api` `cloud` `free-software` `golang` `gotify` `hosting` `javascript` `notifications` `privacy` `react` `self-hosted` `self-hosting` `selfhosted`
 
 	Gotify是一个开源的消息推送服务器，可以让开发者轻松地构建自己的消息推送服务。它具有简单的API，丰富的插件和可扩展性，支持多种客户端，如Web，Android和iOS。
 
-28. [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) ⭐: 11034 ⌨️: Go	`golang` `grpc` `protobuf`
+28. [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) ⭐: 11036 ⌨️: Go	`golang` `grpc` `protobuf`
 
 	grpcurl是一个命令行工具，用于与gRPC服务进行交互和调试。它支持与gRPC服务建立连接，并向其发送请求，也可以从gRPC服务接收响应并查看其内容。grpcurl还提供了一种简单的方式来探索gRPC服务的接口定义，并执行对该服务的调用。
 
-29. [casdoor/casdoor](https://github.com/casdoor/casdoor) ⭐: 10604 ⌨️: Go	`auth` `authentication` `authn` `casbin` `casdoor` `faceid` `iam` `kerberos` `ldap` `mfa` `oauth` `oidc` `payment-gateway` `radius` `saml` `scim` `single-sign-on` `sso` `totp` `webauthn`
+29. [casdoor/casdoor](https://github.com/casdoor/casdoor) ⭐: 10608 ⌨️: Go	`auth` `authentication` `authn` `casbin` `casdoor` `faceid` `iam` `kerberos` `ldap` `mfa` `oauth` `oidc` `payment-gateway` `radius` `saml` `scim` `single-sign-on` `sso` `totp` `webauthn`
 
 	Casdoor是一个基于角色的访问控制（RBAC）系统，旨在为应用程序提供身份认证和授权服务。它结合了OAuth 2.0、SAML和LDAP等多种认证方式，支持多租户环境并提供易于配置和管理的界面，简化了身份管理和权限控制的操作。Casdoor还提供API和Web界面，方便开发人员快速集成和使用。
 
@@ -3090,7 +3090,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个用于在Go语言中开发跨平台应用程序的框架，它利用Qt框架和Go语言的特性来实现跨平台UI应用程序的开发。借助这个项目，开发人员可以使用Go语言开发跨平台的图形化应用程序，而无需学习其他语言或工具。
 
-31. [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) ⭐: 10427 ⌨️: Go	`bot` `coolq` `coolq-http-api` `qqbot` `qqrobot`
+31. [Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp) ⭐: 10428 ⌨️: Go	`bot` `coolq` `coolq-http-api` `qqbot` `qqrobot`
 
 	go-cqhttp是一个轻量级的跨平台QQ机器人框林，基于CoolQ HTTP API开发。它使用Go语言编写，性能优越，支持插件扩展，提供丰富的功能，如消息处理、事件监听、HTTP API等，方便开发者快速搭建自定义的QQ机器人。
 
@@ -3098,7 +3098,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	qrcp是一个用于通过扫描二维码快速共享文件的命令行工具。它使用局域网连接直接在设备之间传输文件，无需任何中间服务器。这意味着可以在没有互联网连接的情况下快速、安全地共享文件。 qrcp支持Windows、macOS和Linux，并可以在手机、平板电脑和计算机之间快速传输文件。
 
-33. [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) ⭐: 9484 ⌨️: Go	`argo-tunnel` `cloudflare` `cloudflare-tunnel` `reverse-proxy` `zero-trust-network-access`
+33. [cloudflare/cloudflared](https://github.com/cloudflare/cloudflared) ⭐: 9485 ⌨️: Go	`argo-tunnel` `cloudflare` `cloudflare-tunnel` `reverse-proxy` `zero-trust-network-access`
 
 	Cloudflared是Cloudflare推出的一款开源工具，用于创建安全的、加密的连接到Cloudflare的服务。它可以将您的本地服务器流量通过Cloudflare的全局网络传输，保护您的网络环境免受恶意攻击和窥探。 Cloudflared还可用于创建反向代理，转发流量到本地服务器，同时利用Cloudflare的安全功能和性能优势。
 
@@ -3118,11 +3118,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Walk是一个用于创建Windows桌面应用程序的Go库。它提供了丰富的GUI控件和布局控制，并且支持双向数据绑定和事件处理。通过Walk，开发者可以使用Go语言轻松地构建出漂亮且功能强大的Windows桌面应用程序。
 
-38. [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) ⭐: 6671 ⌨️: Go	`clash` `geoip` `geoip2` `proxy` `quantumultx` `shadowrocket` `shadowsocks` `surge`
+38. [Hackl0us/GeoIP2-CN](https://github.com/Hackl0us/GeoIP2-CN) ⭐: 6672 ⌨️: Go	`clash` `geoip` `geoip2` `proxy` `quantumultx` `shadowrocket` `shadowsocks` `surge`
 
 	GeoIP2-CN是一个用于根据IP地址获取中国地理位置信息的Python库。它使用MaxMind的GeoIP2数据库，可以精准地查询IP地址对应的省份、城市和运营商等信息，便于实现IP定位和地理位置相关的功能。
 
-39. [nxtrace/NTrace-core](https://github.com/nxtrace/NTrace-core) ⭐: 6024 ⌨️: Go	`api` `as-path` `asn-lookup` `geoip` `geolocation` `ip-lookup` `network-analysis` `next-trace` `nexttrace` `traceroute` `utility`
+39. [nxtrace/NTrace-core](https://github.com/nxtrace/NTrace-core) ⭐: 6026 ⌨️: Go	`api` `as-path` `asn-lookup` `geoip` `geolocation` `ip-lookup` `network-analysis` `next-trace` `nexttrace` `traceroute` `utility`
 
 	NTrace-core是一个基于.NET平台的跟踪器，用于分析应用程序的性能和行为。它提供了监视和跟踪.NET应用程序执行过程中所发生的事件，以及对性能进行统计分析。NTrace-core可以帮助开发人员定位和解决应用程序中的性能问题和行为异常。
 
@@ -3134,7 +3134,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	GoCron是一个用Go语言编写的简单易用的定时任务管理工具，可以帮助用户按照设定的时间规则自动执行任务，支持任务的定时、重试、并发等功能。用户可以通过简单的API接口和Web界面管理任务。
 
-42. [openark/orchestrator](https://github.com/openark/orchestrator) ⭐: 5645 ⌨️: Go	`high-availability` `management-system` `mysql` `replication`
+42. [openark/orchestrator](https://github.com/openark/orchestrator) ⭐: 5646 ⌨️: Go	`high-availability` `management-system` `mysql` `replication`
 
 	orchestrator 是一个 MySQL 高可用性和复制拓扑管理工具，可以帮助管理 MySQL 复制集群、自动故障转移和自动切换。它提供了简单易用的界面和丰富的功能，帮助用户轻松地管理 MySQL 复制环境。
 
@@ -3142,11 +3142,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	该项目是一个用于在Windows系统上编辑视频字幕的工具，用户可以使用这个工具轻松地为视频添加、编辑和调整字幕，支持多种字幕格式。
 
-44. [iyear/tdl](https://github.com/iyear/tdl) ⭐: 4604 ⌨️: Go	`bash` `download` `downloader` `telegram` `telegram-api` `telegram-bot` `telegram-userbot`
+44. [iyear/tdl](https://github.com/iyear/tdl) ⭐: 4609 ⌨️: Go	`bash` `download` `downloader` `telegram` `telegram-api` `telegram-bot` `telegram-userbot`
 
 	TDL是一个基于Vue.js和Python的简单待办事项列表应用程序。它允许用户添加、编辑和删除待办事项，并提供了简洁的用户界面和操作便捷的功能。
 
-45. [gdy666/lucky](https://github.com/gdy666/lucky) ⭐: 4491 ⌨️: Go	`acme` `aliyunpan` `cron` `ddns` `dynadot` `filebrowser` `ftp` `ipv6` `socat` `stun` `vercel` `volcengine` `webdav` `wol`
+45. [gdy666/lucky](https://github.com/gdy666/lucky) ⭐: 4494 ⌨️: Go	`acme` `aliyunpan` `cron` `ddns` `dynadot` `filebrowser` `ftp` `ipv6` `socat` `stun` `vercel` `volcengine` `webdav` `wol`
 
 	lucky是一个基于Vue.js和Element UI的抽奖小工具，用户可以在页面上设置奖品，抽奖人数，并进行抽奖操作。界面简洁，操作便捷，适用于各种抽奖活动。
 
@@ -3158,7 +3158,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是阿里云盘的命令行工具，可以通过命令行上传、下载、管理阿里云盘中的文件和文件夹。它提供了丰富的功能，方便用户在命令行下管理阿里云盘中的数据。
 
-48. [Ackites/KillWxapkg](https://github.com/Ackites/KillWxapkg) ⭐: 4020 ⌨️: Go
+48. [Ackites/KillWxapkg](https://github.com/Ackites/KillWxapkg) ⭐: 4021 ⌨️: Go
 
 	KillWxapkg项目是一个用于解密和提取微信小程序（.wxapkg文件）内容的工具，可以帮助用户分析和研究微信小程序的内部结构和代码。
 
@@ -3170,11 +3170,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个基于Go语言开发的快速分布式文件存储系统。它使用了go-fasthttp作为底层网络库，具有高性能和低内存占用的特点。用户可以通过HTTP协议来上传、下载和管理文件，支持分布式部署和横向扩展。
 
-51. [hacdias/webdav](https://github.com/hacdias/webdav) ⭐: 3669 ⌨️: Go	`filesystem` `go` `http` `server` `webdav`
+51. [hacdias/webdav](https://github.com/hacdias/webdav) ⭐: 3670 ⌨️: Go	`filesystem` `go` `http` `server` `webdav`
 
 	WebDAV 是一个基于 HTTP 协议的文件管理工具，支持远程对文件进行管理。这个项目提供了一个轻量级的 Go 语言实现的 WebDAV 服务器，可以方便地将其集成到自己的应用中，用于对文件进行远程管理操作。
 
-52. [TruthHun/BookStack](https://github.com/TruthHun/BookStack) ⭐: 3431 ⌨️: Go	`beego` `bookstack` `gitbook` `golang` `markdown` `mindoc`
+52. [TruthHun/BookStack](https://github.com/TruthHun/BookStack) ⭐: 3432 ⌨️: Go	`beego` `bookstack` `gitbook` `golang` `markdown` `mindoc`
 
 	BookStack是一个开源的文档管理系统，提供了用户友好的界面和丰富的功能，用于组织和管理文档、知识和信息。用户可以轻松创建、编辑和共享文档，支持多种格式和标记语言。它还具有细粒度的权限控制和团队协作特性，是一个适用于团队和个人使用的优秀文档管理工具。
 
@@ -3206,7 +3206,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个基于Spring Boot和Vue.js开发的Netflix会员账号验证系统。它可以帮助Netflix用户快速验证账号的可用性，包括账号是否过期、是否可用等信息。通过简单的操作，用户可以轻松地验证Netflix账号的状态，提升使用体验。
 
-60. [yisier/nps](https://github.com/yisier/nps) ⭐: 2406 ⌨️: Go	`go` `http` `https` `nps` `tcp` `udp`
+60. [yisier/nps](https://github.com/yisier/nps) ⭐: 2407 ⌨️: Go	`go` `http` `https` `nps` `tcp` `udp`
 
 	nps 是一款轻量级的内网穿透工具，能够帮助用户在内网服务器和外部网络之间建立安全的映射通道。它支持多种协议和多种操作系统，使用简单方便，适用于各种场景下的内网穿透需求。 nps 的代码开源，并且有活跃的社区支持和更新。
 
@@ -3214,11 +3214,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	b0pass是一个用C++编写的密码管理器，它使用加密算法来存储和管理用户的密码和隐私信息。用户可以使用主密码来解锁和访问保存在b0pass中的各种帐号和密码。b0pass还提供了密码生成器和自动填充功能，帮助用户更安全地管理他们的密码。
 
-62. [saltbo/zpan](https://github.com/saltbo/zpan) ⭐: 1853 ⌨️: Go	`cloud` `cloud-disk` `cloud-storage` `disk` `oss` `qiniuyun` `s3` `upyun`
+62. [saltbo/zpan](https://github.com/saltbo/zpan) ⭐: 1854 ⌨️: Go	`cloud` `cloud-disk` `cloud-storage` `disk` `oss` `qiniuyun` `s3` `upyun`
 
 	zpan是一个基于Go语言开发的轻量级云存储系统，使用Web界面管理文件和目录，支持多用户管理和权限控制。具有上传、下载、删除、分享链接、文件预览等功能，可轻松部署在个人或企业服务器上，提供方便的文件存储和管理服务。
 
-63. [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) ⭐: 1816 ⌨️: Go	`openssh` `openssh-client` `rz` `ssh` `ssh-client` `sz` `tmux` `trz` `trzsz` `tsz` `zmodem`
+63. [trzsz/trzsz-ssh](https://github.com/trzsz/trzsz-ssh) ⭐: 1818 ⌨️: Go	`openssh` `openssh-client` `rz` `ssh` `ssh-client` `sz` `tmux` `trz` `trzsz` `tsz` `zmodem`
 
 	trzsz-ssh 是一个用于在 Linux 系统上简化 SSH 连接和管理的工具，它可以通过简单的配置文件快速连接到多台服务器，并提供了一些方便的命令来管理服务器。
 
@@ -3230,7 +3230,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	zdir是一个用PHP编写的简单目录列表程序，可用于展示服务器上的文件和目录。它具有响应式设计和简洁的界面，支持文件预览和下载。用户可以使用简单的配置文件自定义主题和设置访问权限。 zdir是一个轻量级且易于部署的文件管理工具。
 
-66. [kingwrcy/moments](https://github.com/kingwrcy/moments) ⭐: 1462 ⌨️: Go
+66. [kingwrcy/moments](https://github.com/kingwrcy/moments) ⭐: 1464 ⌨️: Go
 
 	Moments是一个基于Vue.js的轻量级时间轴组件，可用于展示时间线上的事件和内容。它提供了简洁的界面和易于定制的样式，使用户能够方便地创建自己的时间线展示页面。Moments还支持响应式布局和无限滚动加载，适用于各种类型的项目和网站。
 
@@ -3246,15 +3246,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	PanIndex是一个基于Python的文件索引工具，可以快速生成文件的索引和元数据信息，并支持搜索功能。它可以帮助用户轻松管理和查找大量的文件，提高工作效率。PanIndex的设计简单易用，适用于个人和小型团队使用。
 
-70. [koho/frpmgr](https://github.com/koho/frpmgr) ⭐: 1226 ⌨️: Go	`frp` `frpc` `go` `gui` `proxy` `reverse-proxy` `windows`
+70. [koho/frpmgr](https://github.com/koho/frpmgr) ⭐: 1229 ⌨️: Go	`frp` `frpc` `go` `gui` `proxy` `reverse-proxy` `windows`
 
 	frpmgr 是一个基于 Go 语言开发的灵活的 frp 客户端管理工具，可以帮助用户管理和配置 frp 客户端，简化配置流程，提高管理效率。
 
-71. [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) ⭐: 1091 ⌨️: Go	`axios` `elementplus` `film` `gin` `go-redis` `gocolly` `golang` `gorm` `movies` `robfig-cron` `vite` `vue3`
+71. [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) ⭐: 1090 ⌨️: Go	`axios` `elementplus` `film` `gin` `go-redis` `gocolly` `golang` `gorm` `movies` `robfig-cron` `vite` `vue3`
 
 	GoFilm是一个使用Go语言开发的电影信息查询工具，可以通过命令行界面查询电影的详细信息，包括电影名称、上映时间、演员表等。用户可以通过输入关键词快速搜索电影信息，帮助他们更方便地了解电影资讯。
 
-72. [Simple-Tracker/qBittorrent-ClientBlocker](https://github.com/Simple-Tracker/qBittorrent-ClientBlocker) ⭐: 1077 ⌨️: Go	`bitcomet` `qbittorrent` `transmission`
+72. [Simple-Tracker/qBittorrent-ClientBlocker](https://github.com/Simple-Tracker/qBittorrent-ClientBlocker) ⭐: 1078 ⌨️: Go	`bitcomet` `qbittorrent` `transmission`
 
 	这个项目是一个针对qBittorrent的插件，用于屏蔽特定的BitTorrent客户端。通过使用这个插件，用户可以选择性地屏蔽一些特定的客户端，以改善他们的下载和上传速度。
 
@@ -3262,7 +3262,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	backtrace是一个用于C/C++程序的轻量级崩溃转储和堆栈跟踪库。它提供了简单的API来捕获程序崩溃时的堆栈信息，并将其保存到文件中以便后续分析。该库可以帮助开发者快速定位程序崩溃的原因，并进行调试和故障排除。
 
-74. [boypt/simple-torrent](https://github.com/boypt/simple-torrent) ⭐: 1002 ⌨️: Go
+74. [boypt/simple-torrent](https://github.com/boypt/simple-torrent) ⭐: 1003 ⌨️: Go
 
 	Simple-torrent是一个基于Node.js的轻量级种子客户端，可以用来搜索和下载种子文件。这个项目的目标是创建一个简单易用的种子客户端，让用户可以方便地搜索和下载种子文件。Simple-torrent具有简洁的界面和易于使用的功能，适合那些希望快速方便地进行种子下载的用户。
 
@@ -3282,7 +3282,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Scaleway CLI 是一个用于访问和管理 Scaleway 云平台资源的命令行工具。用户可以使用该工具来创建、配置和管理云服务器、存储、数据库等各种资源，实现对云平台资源的灵活控制和管理。Scaleway CLI 支持丰富的命令和选项，使用户可以通过命令行轻松地完成各种操作，提高了云平台资源管理的效率和便利性。
 
-79. [lemoex/oci-help](https://github.com/lemoex/oci-help) ⭐: 808 ⌨️: Go
+79. [lemoex/oci-help](https://github.com/lemoex/oci-help) ⭐: 809 ⌨️: Go
 
 	OCI Help 是一个针对 Oracle Cloud Infrastructure (OCI) 的命令行工具，提供了快捷的命令行方式来列出、搜索和获取 OCI 相关的资源信息。它简化了开发人员和运维人员在使用 OCI 时的操作流程，提高了工作效率。
 
@@ -3302,7 +3302,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	SakuraFrp是一个基于Golang开发的快速、轻量级、高效的内网穿透工具，可帮助用户轻松实现内网穿透，实现内网设备对外网的访问，支持TCP、UDP等多种协议。
 
-84. [kingparks/jetbra-activate](https://github.com/kingparks/jetbra-activate) ⭐: 463 ⌨️: Go	`idea` `idea-active`
+84. [kingparks/jetbra-activate](https://github.com/kingparks/jetbra-activate) ⭐: 468 ⌨️: Go	`idea` `idea-active`
 
 	这个项目是一个用于激活 JetBrains 软件的工具，可以帮助用户快速、简单地激活各种 JetBrains 软件。通过提供有效的激活码，用户可以免费使用各种 JetBrains 编程工具。
 
@@ -3314,7 +3314,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	cngrok 是一个基于 Go 语言开发的用于将内网服务器暴露于公网的工具，它可以通过穿透内网的方式让外网用户访问内网服务器。通过 cngrok，用户可以使用ngrok服务实现内网穿透，让内网服务能够通过外网访问。
 
-87. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) ⭐: 347 ⌨️: Go
+87. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) ⭐: 348 ⌨️: Go
 
 	SamWaf是一个简单的Web应用防火墙，使用Python编写，用于保护Web应用程序免受恶意攻击。它可以识别和阻止常见的Web攻击，如SQL注入、跨站脚本攻击等。通过对用户请求进行检查和过滤，SamWaf可以提高Web应用程序的安全性。
 
@@ -3342,59 +3342,59 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### JavaScript
 ---
 
-0. [twbs/bootstrap](https://github.com/twbs/bootstrap) ⭐: 171085 ⌨️: JavaScript	`bootstrap` `css` `css-framework` `html` `javascript` `sass` `scss`
+0. [twbs/bootstrap](https://github.com/twbs/bootstrap) ⭐: 171087 ⌨️: JavaScript	`bootstrap` `css` `css-framework` `html` `javascript` `sass` `scss`
 
 	Bootstrap是一个流行的开源前端框架，用于构建响应式和移动设备优化的网站和Web应用程序。它包含了HTML、CSS和JavaScript组件，可以帮助开发人员快速搭建现代化的界面和布局。Bootstrap提供了丰富的样式和功能，同时也支持定制化和扩展，被广泛应用于各种Web开发项目中。
 
-1. [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐: 87979 ⌨️: JavaScript	`iptv` `m3u` `playlist` `streams` `tv`
+1. [iptv-org/iptv](https://github.com/iptv-org/iptv) ⭐: 87992 ⌨️: JavaScript	`iptv` `m3u` `playlist` `streams` `tv`
 
 	这个项目是一个收集了全球各地的网络电视直播流的开源项目，用户可以通过该项目找到并观看来自世界各地的电视频道。
 
-2. [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ⭐: 61448 ⌨️: JavaScript	`docker` `monitor` `monitoring` `responsive` `self-hosted` `selfhosted` `single-page-app` `socket-io` `uptime` `uptime-monitoring` `webapp` `websocket`
+2. [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ⭐: 61455 ⌨️: JavaScript	`docker` `monitor` `monitoring` `responsive` `self-hosted` `selfhosted` `single-page-app` `socket-io` `uptime` `uptime-monitoring` `webapp` `websocket`
 
 	Uptime Kuma 是一个开源的网站监控工具，可以帮助用户监控网站的运行状况和性能表现。它提供直观的界面和实时的监控数据，帮助用户及时发现并解决网站运行问题，提升用户体验。
 
-3. [mozilla/pdf.js](https://github.com/mozilla/pdf.js) ⭐: 49032 ⌨️: JavaScript
+3. [mozilla/pdf.js](https://github.com/mozilla/pdf.js) ⭐: 49039 ⌨️: JavaScript
 
 	PDF.js是一个由Mozilla开发的用于在浏览器中渲染PDF文件的开源项目。它使用现代的Web标准技术，无需插件即可实现高性能的PDF渲染和交互功能。PDF.js可以让用户在不安装额外软件的情况下，在浏览器中直接查看和操作PDF文件。
 
-4. [marktext/marktext](https://github.com/marktext/marktext) ⭐: 47969 ⌨️: JavaScript	`dark-mode` `editor` `electron` `element-ui` `emoji` `focus-mode` `latex` `linux` `mac` `macos` `markdown` `marktext` `next-generation` `source-code` `typewriter-mode` `vue` `windows`
+4. [marktext/marktext](https://github.com/marktext/marktext) ⭐: 47974 ⌨️: JavaScript	`dark-mode` `editor` `electron` `element-ui` `emoji` `focus-mode` `latex` `linux` `mac` `macos` `markdown` `marktext` `next-generation` `source-code` `typewriter-mode` `vue` `windows`
 
 	Mark Text是一个简洁、强大的开源Markdown编辑器，支持实时预览、语法高亮、自定义主题等功能。它跨平台兼容Windows、macOS和Linux系统，为用户提供了愉悦的写作和编辑体验。
 
-5. [agalwood/Motrix](https://github.com/agalwood/Motrix) ⭐: 46098 ⌨️: JavaScript	`aria2` `bittorrent` `bt` `download` `download-manager` `electron` `linux` `mac` `macos` `magnet` `motrix` `torrent` `windows`
+5. [agalwood/Motrix](https://github.com/agalwood/Motrix) ⭐: 46101 ⌨️: JavaScript	`aria2` `bittorrent` `bt` `download` `download-manager` `electron` `linux` `mac` `macos` `magnet` `motrix` `torrent` `windows`
 
 	Motrix是一个开源的跨平台下载工具，支持多个传输协议和多线程下载，拥有简洁的界面和丰富的功能，如下载速度限制、队列、自动恢复下载、快速链接等。它基于Electron和Vue开发，可以在Windows、macOS和Linux上运行。
 
-6. [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) ⭐: 40646 ⌨️: JavaScript	`backend` `bash` `cheatsheet` `cheatsheets` `database` `django` `docker` `feathersjs` `frontend` `javascript` `kubernetes` `language` `nodejs` `php` `programming-language` `redis` `sailsjs` `vim` `vuejs` `xcode`
+6. [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) ⭐: 40654 ⌨️: JavaScript	`backend` `bash` `cheatsheet` `cheatsheets` `database` `django` `docker` `feathersjs` `frontend` `javascript` `kubernetes` `language` `nodejs` `php` `programming-language` `redis` `sailsjs` `vim` `vuejs` `xcode`
 
 	这个项目是一个收集各种编程语言、工具和框架的速查表的仓库。速查表包括常用命令、语法、常见问题解决方案等，帮助开发者快速查找和理解相关知识点。如果你想快速掌握各种技术的要点，这个项目将会对你有所帮助。
 
-7. [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) ⭐: 36551 ⌨️: JavaScript	`batch-processing` `batch-script` `code-free` `crawler` `data-collection` `frontend` `gui` `html` `input-parameters` `layman` `parameters` `robotics` `rpa` `scraper` `spider` `visual` `visualization` `visualprogramming` `web` `www`
+7. [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) ⭐: 36558 ⌨️: JavaScript	`batch-processing` `batch-script` `code-free` `crawler` `data-collection` `frontend` `gui` `html` `input-parameters` `layman` `parameters` `robotics` `rpa` `scraper` `spider` `visual` `visualization` `visualprogramming` `web` `www`
 
 	EasySpider 是一个简单易用的 Python 爬虫框架，可以帮助用户快速、方便地开发和运行爬虫程序，支持自定义配置和高度可定制化。
 
-8. [markedjs/marked](https://github.com/markedjs/marked) ⭐: 33427 ⌨️: JavaScript	`commonmark` `compiler` `gfm` `hacktoberfest` `markdown` `parser`
+8. [markedjs/marked](https://github.com/markedjs/marked) ⭐: 33430 ⌨️: JavaScript	`commonmark` `compiler` `gfm` `hacktoberfest` `markdown` `parser`
 
 	这个项目是一个名为marked的Markdown解析器和编译器。它能够将Markdown文本转换为HTML，并支持快速和简单的定制化。marked提供了许多强大的功能，包括语法高亮显示、自定义渲染和插件支持。这使得它成为一个非常流行和实用的Markdown工具。
 
-9. [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) ⭐: 31083 ⌨️: JavaScript	`redis` `redis-client` `redis-cluster` `redis-desktop-manager` `redis-gui`
+9. [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) ⭐: 31093 ⌨️: JavaScript	`redis` `redis-client` `redis-cluster` `redis-desktop-manager` `redis-gui`
 
 	AnotherRedisDesktopManager是一个开源的跨平台Redis图形化管理工具，可以连接和管理多个Redis实例，提供了丰富的功能，包括数据浏览、键值管理、查询执行等。它基于Electron和Vue.js开发，界面简洁友好，易于上手和使用。
 
-10. [layui/layui](https://github.com/layui/layui) ⭐: 29779 ⌨️: JavaScript	`component-library` `css` `html` `javascript` `layui` `ui-kit` `ui-library`
+10. [layui/layui](https://github.com/layui/layui) ⭐: 29782 ⌨️: JavaScript	`component-library` `css` `html` `javascript` `layui` `ui-kit` `ui-library`
 
 	Layui 是一款简单易用的前端 UI 框架，提供丰富的组件和界面模板，支持响应式布局和模块化开发。它具有清晰的文档和丰富的示例，适用于快速构建现代化的 Web 应用程序。
 
-11. [webtorrent/webtorrent](https://github.com/webtorrent/webtorrent) ⭐: 29747 ⌨️: JavaScript	`bittorrent` `browser` `hacktoberfest` `javascript` `nodejs` `p2p` `streaming` `torrent` `webrtc` `webtorrent`
+11. [webtorrent/webtorrent](https://github.com/webtorrent/webtorrent) ⭐: 29750 ⌨️: JavaScript	`bittorrent` `browser` `hacktoberfest` `javascript` `nodejs` `p2p` `streaming` `torrent` `webrtc` `webtorrent`
 
 	WebTorrent是一个基于WebRTC协议的流媒体传输工具，可以在浏览器和Node.js中使用。它能够支持点对点的快速传输，可以用于在线视频播放、P2P文件共享等应用场景。
 
-12. [parallax/jsPDF](https://github.com/parallax/jsPDF) ⭐: 29492 ⌨️: JavaScript	`hacktoberfest`
+12. [parallax/jsPDF](https://github.com/parallax/jsPDF) ⭐: 29493 ⌨️: JavaScript	`hacktoberfest`
 
 	jsPDF是一个用于在浏览器中生成PDF文件的JavaScript库。它提供了丰富的API，可以用来创建包括文本、图像和表格在内的各种内容，并可以自定义页面大小和布局。jsPDF可以在客户端生成PDF，无需服务器端的支持，非常适合用于网页上的动态生成PDF文件的需求。
 
-13. [docsifyjs/docsify](https://github.com/docsifyjs/docsify) ⭐: 28080 ⌨️: JavaScript	`doc` `docs` `docsify` `documentation` `documentation-tool` `github-pages` `markdown` `vue`
+13. [docsifyjs/docsify](https://github.com/docsifyjs/docsify) ⭐: 28086 ⌨️: JavaScript	`doc` `docs` `docsify` `documentation` `documentation-tool` `github-pages` `markdown` `vue`
 
 	Docsify是一个基于Markdown文件的文档网站生成工具，可以快速构建漂亮的文档网站。它具有简单易用的特点，无需复杂的配置和安装，只需一个HTML文件就可以运行。Docsify支持自动侧边栏、全文搜索、主题定制等功能，适用于个人博客、项目文档等不同场景。
 
@@ -3402,7 +3402,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	YApi 是一个可视化、可扩展的接口管理平台，基于 Node.js 编写，支持接口创建、管理、导入、导出、Mock 数据生成等功能，适用于团队协作开发。
 
-15. [select2/select2](https://github.com/select2/select2) ⭐: 25908 ⌨️: JavaScript	`hacktoberfest` `javascript` `jquery` `select2`
+15. [select2/select2](https://github.com/select2/select2) ⭐: 25907 ⌨️: JavaScript	`hacktoberfest` `javascript` `jquery` `select2`
 
 	Select2 是一个基于 jQuery 的下拉选择框增强插件，可以帮助用户更方便地进行搜索、多选和自定义样式的操作。它支持远程加载数据和自动完成功能，并且具有丰富的事件和方法，可以灵活定制和扩展功能。
 
@@ -3410,15 +3410,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	localForage是一个快速、简单且强大的JavaScript库，用于在浏览器中使用异步存储。它提供了简单的API，可以让开发者在不同的浏览器中使用IndexedDB、WebSQL或localStorage存储数据，而无需担心浏览器兼容性问题。localForage还支持存储和检索各种类型的数据，包括字符串、数值、对象和数组，使得数据的管理和持久化变得更加容易。
 
-17. [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) ⭐: 23696 ⌨️: JavaScript	`nginx` `nginx-proxy`
+17. [NginxProxyManager/nginx-proxy-manager](https://github.com/NginxProxyManager/nginx-proxy-manager) ⭐: 23698 ⌨️: JavaScript	`nginx` `nginx-proxy`
 
 	Nginx Proxy Manager是一个基于Web的Nginx代理管理工具，提供了图形化界面来管理多个Nginx代理服务器和域名。用户可以通过简单的操作在Nginx Proxy Manager中配置代理规则、SSL证书和访问控制，便于管理和监控代理服务器。
 
-18. [fanmingming/live](https://github.com/fanmingming/live) ⭐: 23460 ⌨️: JavaScript	`china` `converter` `epg` `iptv` `ipv6` `live` `m3u` `m3u8` `mp4` `radio` `television` `tv` `txt` `workers`
+18. [fanmingming/live](https://github.com/fanmingming/live) ⭐: 23463 ⌨️: JavaScript	`china` `converter` `epg` `iptv` `ipv6` `live` `m3u` `m3u8` `mp4` `radio` `television` `tv` `txt` `workers`
 
 	live 是一个基于 Go 语言开发的云原生实时流数据处理框架，支持高并发的实时数据处理和低延迟的流数据传输。它提供了快速的数据处理能力，可以用于实时监控、实时分析和实时推荐等场景。 live 具有灵活的流处理能力和易用的 API，让开发者可以快速构建实时数据处理应用。
 
-19. [ovity/octotree](https://github.com/ovity/octotree) ⭐: 22883 ⌨️: JavaScript	`browser-extension` `chrome` `code-files` `code-review` `edge` `firefox` `github` `opera` `pull-request-review` `safari`
+19. [ovity/octotree](https://github.com/ovity/octotree) ⭐: 22886 ⌨️: JavaScript	`browser-extension` `chrome` `code-files` `code-review` `edge` `firefox` `github` `opera` `pull-request-review` `safari`
 
 	Octotree 是一个浏览器插件，可以在 GitHub 上以侧边树状结构的方式浏览仓库文件。用户可以快速查看和导航代码，便于阅读和理解项目结构。Octotree 支持 GitHub、GitLab 和 Bitbucket 等主流代码托管平台。
 
@@ -3426,15 +3426,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	VuePress是一个基于Vue.js的静态网站生成器，旨在简化技术文档的编写与发布。它使用Markdown编写内容，支持自定义主题和插件，能够快速构建具有 responsiv 设计的静态网站。VuePress的简洁易用使其成为技术人员和开发者们撰写和分享文档的理想选择。
 
-21. [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) ⭐: 22093 ⌨️: JavaScript
+21. [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) ⭐: 22096 ⌨️: JavaScript
 
 	ChromeAppHeroes是一个收集了许多功能强大的Chrome扩展应用的项目。通过这个项目，用户可以发现各种有趣、实用的Chrome扩展，提高工作和生活效率。
 
-22. [Z-Siqi/Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) ⭐: 22032 ⌨️: JavaScript	`chinese` `clash` `clash-chinese` `shadowsocks` `windows` `zh-cn`
+22. [Z-Siqi/Clash-for-Windows_Chinese](https://github.com/Z-Siqi/Clash-for-Windows_Chinese) ⭐: 22036 ⌨️: JavaScript	`chinese` `clash` `clash-chinese` `shadowsocks` `windows` `zh-cn`
 
 	Clash for Windows_Chinese 是一个基于 Clash 核心开发的 Windows 平台的 Clash 客户端，支持订阅、规则自定义等功能，为用户提供了更加便捷的科学上网体验。
 
-23. [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) ⭐: 21779 ⌨️: JavaScript
+23. [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) ⭐: 21780 ⌨️: JavaScript
 
 	这个项目是一个开源的图标集合，其中包含了一系列精美的SVG图标，可用于网页和应用程序的设计和开发中。这些图标设计简洁，易于使用，可根据需要进行自定义。
 
@@ -3442,47 +3442,47 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	FileSaver.js是一个开源的JavaScript库，用于在浏览器中保存文件。它使开发者能够通过JavaScript在客户端创建文件并将其保存到本地。这个库提供了简单易用的API，使得在网页上生成并保存文件变得非常容易。
 
-25. [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) ⭐: 20217 ⌨️: JavaScript	`component` `drag-and-drop` `vue`
+25. [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) ⭐: 20218 ⌨️: JavaScript	`component` `drag-and-drop` `vue`
 
 	Vue.Draggable是一个基于Vue.js的可拖拽组件，用于实现列表和网格等可拖拽的交互操作。它提供了丰富的功能和选项，可以轻松定制各种拖拽交互效果。
 
-26. [handsontable/handsontable](https://github.com/handsontable/handsontable) ⭐: 20211 ⌨️: JavaScript	`angular-datagrid` `angular-table` `crud-operations` `data-editing` `data-grid` `data-management` `data-tables` `datagrid` `datatable` `excel` `excel-javascript` `grid` `grid-component` `javascript-tools` `react-datatable` `react-grid` `spreadsheet` `table` `vue-table`
+26. [handsontable/handsontable](https://github.com/handsontable/handsontable) ⭐: 20210 ⌨️: JavaScript	`angular-datagrid` `angular-table` `crud-operations` `data-editing` `data-grid` `data-management` `data-tables` `datagrid` `datatable` `excel` `excel-javascript` `grid` `grid-component` `javascript-tools` `react-datatable` `react-grid` `spreadsheet` `table` `vue-table`
 
 	Handsontable是一个用JavaScript编写的电子表格库，具有丰富的功能和高性能。它可以在网页上创建和编辑类似Excel的电子表格，包括排序、筛选、复制粘贴、合并单元格等功能。Handsontable是一个强大的工具，用于在Web应用程序中实现复杂的数据表格需求。
 
-27. [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ⭐: 20157 ⌨️: JavaScript	`api` `api-gateway` `azure-openai-api` `chatgpt` `claude` `ernie-bot` `gemini` `gpt` `openai` `openai-api` `proxy`
+27. [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ⭐: 20169 ⌨️: JavaScript	`api` `api-gateway` `azure-openai-api` `chatgpt` `claude` `ernie-bot` `gemini` `gpt` `openai` `openai-api` `proxy`
 
 	这个项目是一个提供多种接口的API服务，包括每日诗词、每日壁纸、每日图片、动物识别等接口。用户可以通过调用这些接口获得不同类型的信息和资源，为自己的应用程序或网站添加更丰富的内容。
 
-28. [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) ⭐: 19089 ⌨️: JavaScript
+28. [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) ⭐: 19093 ⌨️: JavaScript
 
 	这个项目是一个iOS设备上的规则脚本集合，可以用于各种iOS应用程序的自动化操作。这些脚本可以帮助用户实现自动签到、自动抢购、自动刷票等操作，提高用户在使用iOS设备时的效率。
 
-29. [liriliri/eruda](https://github.com/liriliri/eruda) ⭐: 18993 ⌨️: JavaScript	`console` `debugger` `developer-tools` `eruda` `mobile`
+29. [liriliri/eruda](https://github.com/liriliri/eruda) ⭐: 18994 ⌨️: JavaScript	`console` `debugger` `developer-tools` `eruda` `mobile`
 
 	eruda 是一个在移动端浏览器中调试和性能优化工具，提供类似于 Chrome DevTools 的功能，可以在移动端实时查看和调试页面的信息和性能数据。
 
-30. [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) ⭐: 18777 ⌨️: JavaScript	`address` `administrative-divisions` `area` `china` `city` `csv` `json` `nodejs` `province` `street`
+30. [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) ⭐: 18780 ⌨️: JavaScript	`address` `administrative-divisions` `area` `china` `city` `csv` `json` `nodejs` `province` `street`
 
 	这个项目是关于中国行政区划数据的GitHub仓库，提供了中国各级行政单位的数据，包括省、市、县等等。数据以JSON格式呈现，便于开发者在自己的项目中使用。此外，该项目也提供了一些Python脚本，用于数据的处理和转换。
 
-31. [SnapDrop/snapdrop](https://github.com/SnapDrop/snapdrop) ⭐: 18533 ⌨️: JavaScript	`pwa` `snapdrop` `webrtc`
+31. [SnapDrop/snapdrop](https://github.com/SnapDrop/snapdrop) ⭐: 18535 ⌨️: JavaScript	`pwa` `snapdrop` `webrtc`
 
 	Snapdrop是一个基于WebRTC技术的P2P文件分享工具，类似于AirDrop。它允许用户在同一网络下直接通过浏览器传输文件，无需安装任何应用。Snapdrop具有跨平台、快速、安全等特点，是一个方便实用的文件传输工具。
 
-32. [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) ⭐: 18411 ⌨️: JavaScript	`anonymity` `anticensorship` `bitcoin` `bittorrent` `decentralized` `internet-freedom` `p2p` `python` `realtime` `tor` `torrent` `web`
+32. [HelloZeroNet/ZeroNet](https://github.com/HelloZeroNet/ZeroNet) ⭐: 18413 ⌨️: JavaScript	`anonymity` `anticensorship` `bitcoin` `bittorrent` `decentralized` `internet-freedom` `p2p` `python` `realtime` `tor` `torrent` `web`
 
 	ZeroNet 是一个去中心化、开源的网络，利用比特币加密技术和 BitTorrent 网络构建，实现完全匿名和无服务器的网站托管。用户可以创建、访问和分享各种网站，而不需要依赖传统的服务器和网络基础设施。
 
-33. [vernesong/OpenClash](https://github.com/vernesong/OpenClash) ⭐: 18021 ⌨️: JavaScript	`clash` `luci` `openclash` `openwrt` `shadowsocks` `snell` `v2ray` `vmess`
+33. [vernesong/OpenClash](https://github.com/vernesong/OpenClash) ⭐: 18022 ⌨️: JavaScript	`clash` `luci` `openclash` `openwrt` `shadowsocks` `snell` `v2ray` `vmess`
 
 	OpenClash 是一个基于 Clash 的可视化控制面板，它提供了一个简单方便的图形界面来管理 Clash 的配置文件和规则集，使用户可以轻松地定制和管理代理规则。通过 OpenClash，用户可以更加直观地进行代理配置，方便地切换不同的代理节点，实现网络匿名访问和访问国外网站。
 
-34. [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) ⭐: 17450 ⌨️: JavaScript	`netease-cloud-music` `proxy-server` `unblocker`
+34. [nondanee/UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) ⭐: 17449 ⌨️: JavaScript	`netease-cloud-music` `proxy-server` `unblocker`
 
 	UnblockNeteaseMusic 是一个开源项目，旨在解锁网易云音乐客户端的地域限制。它能够帮助用户访问被屏蔽的音乐内容，让用户尽情畅享全球音乐。
 
-35. [sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) ⭐: 17435 ⌨️: JavaScript	`accessible` `alert` `angular` `confirm` `confirmation-dialog` `dialog` `modal` `notifications` `popup` `prompt` `react` `sweetalert` `sweetalert2` `toast` `vue` `wai-aria`
+35. [sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2) ⭐: 17436 ⌨️: JavaScript	`accessible` `alert` `angular` `confirm` `confirmation-dialog` `dialog` `modal` `notifications` `popup` `prompt` `react` `sweetalert` `sweetalert2` `toast` `vue` `wai-aria`
 
 	SweetAlert2 是一个强大的、高度可定制的弹窗插件，用于代替原生的 JavaScript 弹窗。它支持丰富的配置选项，可以定制弹窗的样式、动画效果和按钮行为。SweetAlert2 还支持Promise API，方便在异步操作完成后弹出对应的弹窗。
 
@@ -3490,7 +3490,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个百度网盘下载工具，使用 Python 编写。它提供了命令行和GUI两种方式，可以帮助用户方便地下载百度网盘中的文件。该工具支持多线程下载和断点续传，可以提高下载速度并确保下载的稳定性。
 
-37. [pouchdb/pouchdb](https://github.com/pouchdb/pouchdb) ⭐: 16976 ⌨️: JavaScript	`couchdb` `database` `hacktoberfest` `javascript` `pouchdb`
+37. [pouchdb/pouchdb](https://github.com/pouchdb/pouchdb) ⭐: 16977 ⌨️: JavaScript	`couchdb` `database` `hacktoberfest` `javascript` `pouchdb`
 
 	PouchDB是一个开源的JavaScript数据库，可以在浏览器和Node.js环境中使用。它提供了持久化存储、复制和查询能力，可以让用户轻松地在不同设备之间同步数据。PouchDB基于CouchDB协议，可以方便地与CouchDB进行数据同步。
 
@@ -3506,11 +3506,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Crypto-JS 是一个纯 JavaScript 实现的加密算法库，提供了常见的加密算法（如 MD5、SHA-1、SHA-256、AES 等）的实现。它可以用于在浏览器和 Node.js 环境中对数据进行加密和解密操作。这个库在安全领域中有着广泛的应用，可以帮助开发人员保护用户数据的安全。
 
-41. [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) ⭐: 15873 ⌨️: JavaScript	`dev-sidecar` `dns-ip` `electron` `fastgit` `fastgithub` `gfw` `internet` `lerna` `mitmproxy` `proxy`
+41. [docmirror/dev-sidecar](https://github.com/docmirror/dev-sidecar) ⭐: 15874 ⌨️: JavaScript	`dev-sidecar` `dns-ip` `electron` `fastgit` `fastgithub` `gfw` `internet` `lerna` `mitmproxy` `proxy`
 
 	Dev-sidecar是一个为开发人员设计的辅助工具，提供了一些常用的功能，如URL编解码、JSON/XML格式化、Base64编解码等。它可以作为一个浏览器的插件，方便地集成到开发工具中，帮助开发人员提高工作效率。
 
-42. [GoogleChrome/chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples) ⭐: 15708 ⌨️: JavaScript	`chrome`
+42. [GoogleChrome/chrome-extensions-samples](https://github.com/GoogleChrome/chrome-extensions-samples) ⭐: 15711 ⌨️: JavaScript	`chrome`
 
 	这个项目是谷歌Chrome浏览器扩展示例的官方存储库，其中包含了许多示例代码，帮助开发者快速入门Chrome扩展的开发。示例涵盖了各种功能和API的使用，包括通知、数据存储、权限管理等，为开发者提供了丰富的参考和学习资料。
 
@@ -3518,7 +3518,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个基于Web的电子表格组件，可以在网页中实现类似Excel的功能。它具有丰富的交互特性，支持单元格编辑、数据格式化、公式计算等功能。使用该组件可以轻松地在网页中创建和管理电子表格，提供了丰富的API和插件机制，方便扩展和定制。
 
-44. [unbug/codelf](https://github.com/unbug/codelf) ⭐: 14128 ⌨️: JavaScript	`atom-plugin` `chrome-extension` `codelf` `naming` `vscode-extension`
+44. [unbug/codelf](https://github.com/unbug/codelf) ⭐: 14129 ⌨️: JavaScript	`atom-plugin` `chrome-extension` `codelf` `naming` `vscode-extension`
 
 	Codelf是一个强大的用于搜索和发现代码片段的工具，可以帮助开发人员快速定位和复用代码。它支持多种编程语言和代码库，并提供了丰富的搜索和过滤功能，使得寻找和整理代码变得更加高效和便捷。
 
@@ -3526,7 +3526,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个基于Electron框架开发的微信客户端，支持多个微信账号登录、消息管理和个性化设置。用户可以通过电脑端使用微信，方便快捷地进行消息发送和接收。
 
-46. [pandao/editor.md](https://github.com/pandao/editor.md) ⭐: 13910 ⌨️: JavaScript	`codemirror` `commonmark` `documentation` `editor` `flowchart` `gfm` `javascript` `jquery` `katex` `markdown` `markdown-editor` `markdown-writer` `marked` `sequence-diagram` `toc`
+46. [pandao/editor.md](https://github.com/pandao/editor.md) ⭐: 13912 ⌨️: JavaScript	`codemirror` `commonmark` `documentation` `editor` `flowchart` `gfm` `javascript` `jquery` `katex` `markdown` `markdown-editor` `markdown-writer` `marked` `sequence-diagram` `toc`
 
 	这是一个名为Editor.md的开源项目，提供了一个基于JavaScript和Markdown语法的在线编辑器，用户可以使用Markdown语法快速编写和编辑文章。编辑器支持实时预览和导出HTML、PDF等格式，功能丰富，易于集成到网站或应用中。
 
@@ -3538,15 +3538,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	smartcrop.js是一个基于图像内容自动裁剪的JavaScript库，它可以智能地识别图像中的重要内容，然后根据指定的尺寸进行裁剪，以确保裁剪后的图像仍然包含主要内容。这个项目提供了一个简单易用的方式来对图像进行智能裁剪，适用于网页开发和图像处理。
 
-49. [lokesh/color-thief](https://github.com/lokesh/color-thief) ⭐: 12699 ⌨️: JavaScript
+49. [lokesh/color-thief](https://github.com/lokesh/color-thief) ⭐: 12700 ⌨️: JavaScript
 
 	Color Thief 是一个用于从图像中提取颜色信息的 JavaScript 库。它可以帮助开发者快速获取图像中的主要颜色，并用于网页设计、数据可视化等领域。Color Thief 使用了基于 Canvas 的算法来实现快速且准确的颜色提取，是一个方便实用的工具。
 
-50. [star7th/showdoc](https://github.com/star7th/showdoc) ⭐: 12300 ⌨️: JavaScript	`api` `document` `documentation-tool` `showdoc`
+50. [star7th/showdoc](https://github.com/star7th/showdoc) ⭐: 12302 ⌨️: JavaScript	`api` `document` `documentation-tool` `showdoc`
 
 	ShowDoc是一个在线API文档、技术文档工具，可以帮助团队快速编写和管理文档。它支持Markdown编辑，同时也提供了丰富的文档版本控制和权限管理功能，适用于团队协作开发和文档管理。
 
-51. [mayswind/AriaNg](https://github.com/mayswind/AriaNg) ⭐: 11929 ⌨️: JavaScript	`aria2` `ariang` `download` `gui` `html` `javascript` `ui` `web` `web-frontend` `webui`
+51. [mayswind/AriaNg](https://github.com/mayswind/AriaNg) ⭐: 11932 ⌨️: JavaScript	`aria2` `ariang` `download` `gui` `html` `javascript` `ui` `web` `web-frontend` `webui`
 
 	AriaNg是一个基于Web的轻量级Aria2下载工具，具有简洁的界面和强大的下载管理功能，支持多种操作系统。
 
@@ -3562,11 +3562,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Leanote是一个开源的笔记软件，类似于Evernote。它提供了丰富的笔记管理功能，包括笔记编辑、标签分类、图片附件、团队协作等。用户可以通过Web端、桌面端和移动端进行访问和编辑，跨平台支持让用户在不同设备间自由切换。Leanote还提供了Markdown编辑、数据导出等高级功能，适合个人和团队的知识管理需求。
 
-55. [listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension) ⭐: 11526 ⌨️: JavaScript	`chrome-extension` `music-player`
+55. [listen1/listen1_chrome_extension](https://github.com/listen1/listen1_chrome_extension) ⭐: 11527 ⌨️: JavaScript	`chrome-extension` `music-player`
 
 	这是一个名为Listen1的Chrome浏览器扩展项目，它可以让用户在不同的音乐平台上搜索和播放音乐。用户可以通过这个扩展在网易云音乐、QQ音乐、酷我音乐、虾米音乐等平台上搜索和收听他们喜爱的音乐曲目。这个扩展还支持创建播放列表，以及一键收藏喜爱的歌曲。
 
-56. [electerm/electerm](https://github.com/electerm/electerm) ⭐: 11456 ⌨️: JavaScript	`electerm` `electron` `file-manager` `linux-app` `macos-app` `open-source` `serialport` `sftp` `ssh` `telnet` `terminal` `windows-app`
+56. [electerm/electerm](https://github.com/electerm/electerm) ⭐: 11459 ⌨️: JavaScript	`electerm` `electron` `file-manager` `linux-app` `macos-app` `open-source` `serialport` `sftp` `ssh` `telnet` `terminal` `windows-app`
 
 	electerm是一个用Electron构建的跨平台SSH管理器，它提供了一个现代和直观的界面，可以方便地管理和连接到多个SSH服务器。用户可以轻松地通过图形界面进行远程连接和管理，而无需记住复杂的命令和参数。
 
@@ -3574,15 +3574,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	TikTok Unlock是一个用于解锁TikTok应用限制的工具，可以帮助用户在不同地区浏览和使用TikTok，让用户能够访问全球各地的内容和功能。
 
-58. [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) ⭐: 10818 ⌨️: JavaScript	`linux` `macos` `ocr` `pot` `pot-app` `recognize` `tauri` `translate` `translation` `tts` `windows`
+58. [pot-app/pot-desktop](https://github.com/pot-app/pot-desktop) ⭐: 10824 ⌨️: JavaScript	`linux` `macos` `ocr` `pot` `pot-app` `recognize` `tauri` `translate` `translation` `tts` `windows`
 
 	Pot Desktop是一个基于Electron构建的开源桌面应用程序，用于管理和存储密码、私钥和其他敏感信息。它提供了一种安全的方式来保存和访问这些信息，同时支持多种加密算法和备份选项。Pot Desktop的目标是帮助用户更好地保护其敏感数据，并提供便捷的管理工具。
 
-59. [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) ⭐: 10712 ⌨️: JavaScript	`ftp` `ftps` `git` `ldap` `nfs` `s3` `sftp` `smb` `webdav`
+59. [mickael-kerjean/filestash](https://github.com/mickael-kerjean/filestash) ⭐: 10713 ⌨️: JavaScript	`ftp` `ftps` `git` `ldap` `nfs` `s3` `sftp` `smb` `webdav`
 
 	Filestash是一个基于Web的文件管理器，允许用户通过简单的界面管理文件和文件夹。它具有直观的用户界面和丰富的功能，可以用于个人或团队的文件管理和共享。Filestash支持多种云存储服务和传输协议，使用户可以方便地在不同平台间进行文件管理。
 
-60. [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) ⭐: 10272 ⌨️: JavaScript	`chrome` `chrome-extension` `firefox` `firefox-addon` `javascript` `jquery`
+60. [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) ⭐: 10280 ⌨️: JavaScript	`chrome` `chrome-extension` `firefox` `firefox-addon` `javascript` `jquery`
 
 	这个项目是一个用Java编写的简单的抓猫游戏。游戏目标是移动猫和食物，使猫捕捉食物。玩家通过控制猫和食物的位置来完成游戏。
 
@@ -3590,7 +3590,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	webui-aria2是一个基于web的Aria2下载管理界面，可以通过浏览器远程管理Aria2下载任务。界面简洁直观，支持添加、暂停、恢复、删除下载任务，以及查看下载进度和速度等功能。通过webui-aria2，用户可以方便地管理Aria2的下载任务，提高下载效率。
 
-62. [gskinner/regexr](https://github.com/gskinner/regexr) ⭐: 9953 ⌨️: JavaScript
+62. [gskinner/regexr](https://github.com/gskinner/regexr) ⭐: 9954 ⌨️: JavaScript
 
 	Regexr是一个基于Web的正则表达式测试工具，用户可以在网页上输入正则表达式和测试用例，实时查看匹配结果。它提供了可视化界面和即时反馈，帮助用户更轻松地理解和调试正则表达式。Regexr是开源项目，使用JavaScript编写，可以在任何现代浏览器中运行。
 
@@ -3618,15 +3618,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Laverna是一个开源的笔记应用，为用户提供了一个安全、隐私保护的笔记管理平台。用户可以在Laverna中创建、编辑和组织笔记，同时支持实时同步和加密功能，确保用户的笔记数据安全可靠。Laverna采用了现代化的Web技术，能够在各种设备上无缝运行。
 
-69. [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) ⭐: 9110 ⌨️: JavaScript	`javascript-plugin` `live2d`
+69. [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) ⭐: 9112 ⌨️: JavaScript	`javascript-plugin` `live2d`
 
 	这个项目是一个Live2D模型挂件，可以添加到网页上，让Live2D模型在网页上实时交互。用户可以通过自定义模型和交互方式，为自己的网页增添更生动的体验。
 
-70. [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) ⭐: 8846 ⌨️: JavaScript	`ai` `characters` `chat` `llm` `openai`
+70. [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) ⭐: 8849 ⌨️: JavaScript	`ai` `characters` `chat` `llm` `openai`
 
 	SillyTavern是一个基于Python的多人文字冒险游戏，玩家可以在游戏中探索世界、与NPC互动，完成任务和战斗怪物。游戏中包含了丰富的故事情节和角色，玩家可以通过输入指令与游戏世界进行互动。
 
-71. [tuupola/lazyload](https://github.com/tuupola/lazyload) ⭐: 8764 ⌨️: JavaScript
+71. [tuupola/lazyload](https://github.com/tuupola/lazyload) ⭐: 8765 ⌨️: JavaScript
 
 	这个项目是一个JavaScript库，可帮助网站加载图片时进行延迟加载。它可以通过延迟加载来提高网页的加载速度，从而改善用户体验。LazyLoad支持响应式图片，不会影响页面结构，并且易于集成到现有网站中。
 
@@ -3638,11 +3638,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个Chrome插件示例，展示了如何创建和使用Chrome浏览器插件。它包括了一些基本的插件功能，如弹出框、右键菜单、通知等。该示例可以帮助开发者快速了解Chrome插件的开发流程和基本功能。
 
-74. [cerebroapp/cerebro](https://github.com/cerebroapp/cerebro) ⭐: 8362 ⌨️: JavaScript	`cerebro` `electron` `launcher` `search`
+74. [cerebroapp/cerebro](https://github.com/cerebroapp/cerebro) ⭐: 8363 ⌨️: JavaScript	`cerebro` `electron` `launcher` `search`
 
 	Cerebro是一个跨平台的桌面应用程序，提供快速的搜索和访问功能，可用于查找本地和在线内容，包括文件、应用程序、网页和资源。其插件系统还允许用户自定义功能和集成其他服务。
 
-75. [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) ⭐: 8138 ⌨️: JavaScript	`blog` `nextjs` `notion` `react` `tailwindcss` `vercel` `zeabur`
+75. [tangly1024/NotionNext](https://github.com/tangly1024/NotionNext) ⭐: 8139 ⌨️: JavaScript	`blog` `nextjs` `notion` `react` `tailwindcss` `vercel` `zeabur`
 
 	NotionNext 是一个基于 Next.js 的开源项目，用于将 Notion 上的页面转换为静态网站。它提供了一个简单的界面来管理页面的配置，并且可以自定义页面的样式和布局，方便快速构建个人博客或静态网站。
 
@@ -3658,13 +3658,13 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Cropper是一个简单易用的图片裁剪工具，支持用户在网页中对图片进行裁剪和旋转操作。它使用简洁的API和流畅的交互效果，适用于各种网页开发项目。Cropper支持响应式布局和触摸屏操作，是一个功能强大且高度定制的图片裁剪工具。
 
-79. [wuchangming/spy-debugger](https://github.com/wuchangming/spy-debugger) ⭐: 7547 ⌨️: JavaScript	`debug` `spy-debugger` `wechat` `weinre`
-
-	这个项目是一个基于 Chrome DevTools 协议的远程调试工具，可以用于调试基于 Chrome 内核的浏览器中的页面。它提供了网络请求抓取、页面性能分析、DOM 和样式修改等功能，方便开发人员进行页面调试和优化工作。
-
-80. [hotoo/pinyin](https://github.com/hotoo/pinyin) ⭐: 7545 ⌨️: JavaScript	`chinese` `hanzi` `pinyin` `zhongwen`
+79. [hotoo/pinyin](https://github.com/hotoo/pinyin) ⭐: 7547 ⌨️: JavaScript	`chinese` `hanzi` `pinyin` `zhongwen`
 
 	这是一个用于将汉字转换为拼音的 JavaScript 库。用户可以使用它将中文字符串转换为拼音，并且可以选择不同的拼音风格和音调风格。
+
+80. [wuchangming/spy-debugger](https://github.com/wuchangming/spy-debugger) ⭐: 7547 ⌨️: JavaScript	`debug` `spy-debugger` `wechat` `weinre`
+
+	这个项目是一个基于 Chrome DevTools 协议的远程调试工具，可以用于调试基于 Chrome 内核的浏览器中的页面。它提供了网络请求抓取、页面性能分析、DOM 和样式修改等功能，方便开发人员进行页面调试和优化工作。
 
 81. [Reamd7/notion-zh_CN](https://github.com/Reamd7/notion-zh_CN) ⭐: 7385 ⌨️: JavaScript
 
@@ -3678,11 +3678,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	WiFi Card是一个可以生成WiFi凭证的工具，可以将WiFi登录信息转换成二维码，方便访客扫描连接网络。它基于HTML和CSS，无需安装任何应用即可使用，非常便捷。
 
-84. [cmliu/CF-Workers-docker.io](https://github.com/cmliu/CF-Workers-docker.io) ⭐: 6347 ⌨️: JavaScript	`cloudflare-pages` `cloudflare-workers` `docker` `dockerhub`
+84. [cmliu/CF-Workers-docker.io](https://github.com/cmliu/CF-Workers-docker.io) ⭐: 6353 ⌨️: JavaScript	`cloudflare-pages` `cloudflare-workers` `docker` `dockerhub`
 
 	这个项目是一个基于Cloudflare Workers的Docker镜像加速器。它可以帮助加速从Docker Hub下载镜像的速度，提高开发者的工作效率。
 
-85. [lanyulei/ferry](https://github.com/lanyulei/ferry) ⭐: 6281 ⌨️: JavaScript
+85. [lanyulei/ferry](https://github.com/lanyulei/ferry) ⭐: 6282 ⌨️: JavaScript
 
 	Ferry 是一个基于 Flask 框架的微型 Web 框架，旨在提供简单易用的 API 开发工具。它使用类似 Django Rest Framework 的方式来定义 API，使得开发者可以快速构建和管理 API 接口。
 
@@ -3690,7 +3690,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	astexplorer是一个在线的AST（抽象语法树）浏览器，可以帮助开发人员分析JavaScript、TypeScript、JSON等代码的语法结构。用户可以输入代码并立即获得AST的可视化表示，也可以对AST进行编辑、分析和转换。它还提供了丰富的插件和配置选项，支持用户自定义AST解析器和语言。
 
-87. [LiteLoaderQQNT/LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) ⭐: 6218 ⌨️: JavaScript	`furry` `liteloaderqqnt` `qqnt`
+87. [LiteLoaderQQNT/LiteLoaderQQNT](https://github.com/LiteLoaderQQNT/LiteLoaderQQNT) ⭐: 6219 ⌨️: JavaScript	`furry` `liteloaderqqnt` `qqnt`
 
 	这个项目是 LiteLoader 的 QQ 后台插件，可以让用户通过 QQ 进行 LiteLoader 的管理和监控。LiteLoader 是一款轻量级的插件系统，用于 Minecraft 游戏。
 
@@ -3698,7 +3698,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Form-create 是一个基于 Vue.js 的表单生成器，可以通过简单的配置快速生成各种类型的表单，支持表单验证和数据绑定。它提供了丰富的配置选项和自定义模板，使得开发者可以快速构建复杂的表单页面。 Form-create 的目标是简化表单开发流程，提高开发效率，同时保持灵活性和可定制性。
 
-89. [cambecc/earth](https://github.com/cambecc/earth) ⭐: 6188 ⌨️: JavaScript
+89. [cambecc/earth](https://github.com/cambecc/earth) ⭐: 6189 ⌨️: JavaScript
 
 	这个项目是一个开源的JavaScript库，用于创建在网页上显示全球天气数据的动态地球仪。它可以根据实时的天气数据在地球上显示云图、温度、风向等信息，并支持用户与地球进行交互操作。这个库提供了丰富的可定制功能，可以轻松集成到网页中，用于展示全球天气信息。
 
@@ -3706,11 +3706,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	m3u8-downloader是一个用于下载m3u8视频的命令行工具，支持自定义线程数和片段数，下载速度快，易于使用。
 
-91. [gaotianliuyun/gao](https://github.com/gaotianliuyun/gao) ⭐: 5983 ⌨️: JavaScript
+91. [gaotianliuyun/gao](https://github.com/gaotianliuyun/gao) ⭐: 5988 ⌨️: JavaScript
 
 	这是一个名为"gao"的项目，是一个用Python编写的工具，用于在高铁和飞机上自动预订座位。这个工具可以帮助用户快速预订高铁和飞机座位，节省时间和精力。
 
-92. [floccusaddon/floccus](https://github.com/floccusaddon/floccus) ⭐: 5945 ⌨️: JavaScript	`bookmark` `bookmarks` `browser-bookmarks` `chrome` `chrome-extension` `edge-extension` `firefox` `firefox-addon` `firefox-extension` `nextcloud` `nextcloud-bookmarks` `owncloud` `sync` `sync-solution` `syncing-bookmarks` `webdav` `webextension`
+92. [floccusaddon/floccus](https://github.com/floccusaddon/floccus) ⭐: 5948 ⌨️: JavaScript	`bookmark` `bookmarks` `browser-bookmarks` `chrome` `chrome-extension` `edge-extension` `firefox` `firefox-addon` `firefox-extension` `nextcloud` `nextcloud-bookmarks` `owncloud` `sync` `sync-solution` `syncing-bookmarks` `webdav` `webextension`
 
 	Floccus 是一个用于同步书签的浏览器插件，支持将书签同步到 Nextcloud 或 WebDAV 服务器上。用户可以使用这个插件轻松地在不同的浏览器和设备之间同步他们的书签，非常方便实用。
 
@@ -3718,7 +3718,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	LessPass是一个开源的密码管理工具，它通过结合用户提供的网站和用户主要密码来生成唯一的密码。用户无需存储密码，只需记住主密码和相应的网站名称即可。同时，LessPass还提供了浏览器插件和移动应用，使用户可以轻松地在不同设备上访问其密码。
 
-94. [xiangyuecn/AreaCity-JsSpider-StatsGov](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov) ⭐: 5740 ⌨️: JavaScript
+94. [xiangyuecn/AreaCity-JsSpider-StatsGov](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov) ⭐: 5743 ⌨️: JavaScript
 
 	这个项目是一个用于爬取中国统计局网站上省市区数据的工具。通过这个工具，可以方便地获取中国各地的行政区划数据，并将其用于数据分析、可视化和其他相关应用。
 
@@ -3734,19 +3734,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	h5ai是一个现代化的文件索引器，用于在Web浏览器中浏览文件系统。它提供了漂亮的界面和丰富的功能，包括文件预览、图片缩略图、搜索功能和自定义主题等。通过h5ai，用户可以轻松地在Web浏览器中管理和浏览文件。
 
-98. [metowolf/vCards](https://github.com/metowolf/vCards) ⭐: 5480 ⌨️: JavaScript	`china` `ios` `macos` `vcards`
+98. [metowolf/vCards](https://github.com/metowolf/vCards) ⭐: 5485 ⌨️: JavaScript	`china` `ios` `macos` `vcards`
 
 	vCards是一个Python库，用于生成和解析vCard文件，vCard是一种电子名片格式。这个项目提供了一种方便的方式来创建、编辑和解析vCard文件，可以用于联系人管理、电子邮件和日历等应用程序中。
 
-99. [mycolorway/simditor](https://github.com/mycolorway/simditor) ⭐: 5022 ⌨️: JavaScript	`coffeescript` `javascript` `rich-text-editor` `wysiwyg` `wysiwyg-editor`
+99. [2hacc/TVBox](https://github.com/2hacc/TVBox) ⭐: 5023 ⌨️: JavaScript	`tvbox`
 
-	Simditor是一个简洁易用的富文本编辑器，基于HTML5和jQuery开发，支持插入图片、链接、表情等功能，同时提供了丰富的插件和主题可供选择。
+	TVBox是一个基于Python的命令行工具，可以将文本文件转换为图形化的电视节目表。它使用了Flask和Vue.js等技术，用户可以通过简单的命令生成并查看自定义的电视节目表。
 
-100. [2hacc/TVBox](https://github.com/2hacc/TVBox) ⭐: 5022 ⌨️: JavaScript	`tvbox`
+100. [mycolorway/simditor](https://github.com/mycolorway/simditor) ⭐: 5022 ⌨️: JavaScript	`coffeescript` `javascript` `rich-text-editor` `wysiwyg` `wysiwyg-editor`
 
-     TVBox是一个基于Python的命令行工具，可以将文本文件转换为图形化的电视节目表。它使用了Flask和Vue.js等技术，用户可以通过简单的命令生成并查看自定义的电视节目表。
+     Simditor是一个简洁易用的富文本编辑器，基于HTML5和jQuery开发，支持插入图片、链接、表情等功能，同时提供了丰富的插件和主题可供选择。
 
-101. [qd-today/qd](https://github.com/qd-today/qd) ⭐: 4496 ⌨️: JavaScript	`checkin` `docker` `har` `qd` `qiandao`
+101. [qd-today/qd](https://github.com/qd-today/qd) ⭐: 4501 ⌨️: JavaScript	`checkin` `docker` `har` `qd` `qiandao`
 
      QD是一个使用PyTorch和Torchvision库实现的图像识别项目，其中使用了单一的通用ConvNet进行分类。模型在ImageNet上进行了训练，并且提供了训练脚本和用来图像分类的预训练模型。
 
@@ -3762,7 +3762,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      Evercookie是一个用于创建持久性cookie的项目。它利用了多种存储机制，包括HTML5本地存储、Flash、Silverlight和其他技术，以确保即使用户删除了普通cookie，它仍然能被重新创建并读取。这使得Evercookie成为一种持久性跟踪工具，对于隐私保护来说具有挑战性。
 
-105. [zhongshaofa/layuimini](https://github.com/zhongshaofa/layuimini) ⭐: 4177 ⌨️: JavaScript	`admin` `layui` `layui-admin` `layuimini`
+105. [zhongshaofa/layuimini](https://github.com/zhongshaofa/layuimini) ⭐: 4178 ⌨️: JavaScript	`admin` `layui` `layui-admin` `layuimini`
 
      这是一个基于Layui框架开发的快速开发模板，提供了丰富的页面模板和组件，可以帮助开发者快速搭建后台管理系统。它具有响应式设计和多种布局样式，同时还集成了常用的插件和功能组件，大大简化了后台系统的开发流程。
 
@@ -3770,11 +3770,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个用于制作和修改MMD（MikuMikuDance）模型的工具集合。它包括了一系列能够帮助用户编辑、调整MMD模型的功能，例如自动骨骼优化、材质调整和纹理编辑等。这些工具能够帮助用户更轻松地制作和修改MMD模型，提升了MMD模型编辑的效率和便利性。
 
-107. [nklayman/vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) ⭐: 4118 ⌨️: JavaScript	`cli` `electron` `electron-builder` `hacktoberfest` `vue` `vue-cli` `vue-cli-plugin` `webpack`
+107. [nklayman/vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) ⭐: 4119 ⌨️: JavaScript	`cli` `electron` `electron-builder` `hacktoberfest` `vue` `vue-cli` `vue-cli-plugin` `webpack`
 
      这是一个基于Vue CLI的Electron Builder插件项目，可以帮助开发者在Vue.js应用中快速集成Electron打包和构建功能，让其能够作为桌面应用程序运行。Electron Builder是一个用于打包Electron应用程序的工具，通过该插件，开发者可以方便地将他们的Vue.js应用打包成适用于Windows、Mac和Linux系统的桌面应用。
 
-108. [jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) ⭐: 4075 ⌨️: JavaScript	`filesaver` `html5` `ram` `service-worker` `stream`
+108. [jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) ⭐: 4076 ⌨️: JavaScript	`filesaver` `html5` `ram` `service-worker` `stream`
 
      StreamSaver.js是一个用于在前端将数据流保存到本地的JavaScript库。它可以在浏览器中通过WritableStream API和service worker将数据流保存为文件，从而方便地处理和保存大型文件。这个项目的主要目的是提供一个简单而高效的方式来处理文件下载，同时可以在前端进行更多的控制和处理。
 
@@ -3786,11 +3786,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      adminMongo是一个基于Web的MongoDB管理工具，它允许用户通过用户界面来管理MongoDB数据库、集合、文档等。adminMongo支持对数据库的增删改查操作，同时提供了直观的用户界面和丰富的功能，使得管理MongoDB变得更加简单和便捷。
 
-111. [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) ⭐: 3824 ⌨️: JavaScript	`antsword`
+111. [AntSwordProject/antSword](https://github.com/AntSwordProject/antSword) ⭐: 3827 ⌨️: JavaScript	`antsword`
 
      AntSword是一个开源的跨平台Webshell管理工具，支持包括常见的PHP、ASP、JSP等各种类型的Webshell。通过AntSword，用户可以方便地管理和操作Webshell，进行文件管理、命令执行、信息收集等操作，极大地简化了Webshell的使用和管理过程。AntSword提供了友好的图形界面和丰富的功能，使得Webshell的使用变得更加方便和高效。
 
-112. [limbopro/Adblock4limbo](https://github.com/limbopro/Adblock4limbo) ⭐: 3646 ⌨️: JavaScript	`adblock` `adblocker` `adguard` `ios` `limbopro` `loon` `nobyda` `pornhub` `quantumult` `quantumultx` `shadowrocket` `stash` `surge` `surge4` `tampermonkey` `userscripts`
+112. [limbopro/Adblock4limbo](https://github.com/limbopro/Adblock4limbo) ⭐: 3647 ⌨️: JavaScript	`adblock` `adblocker` `adguard` `ios` `limbopro` `loon` `nobyda` `pornhub` `quantumult` `quantumultx` `shadowrocket` `stash` `surge` `surge4` `tampermonkey` `userscripts`
 
      Adblock4limbo是一款用于Limbopro系统的广告屏蔽工具，能够有效屏蔽网页中的广告内容，提升浏览体验。
 
@@ -3806,7 +3806,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      ReplaceGoogleCDN是一个用于替换Google CDN链接的工具，可以帮助开发者在中国大陆访问Google的资源时提高加载速度和稳定性。这个项目提供了一个简单的方法来替换网站中的Google CDN链接，从而加速加载速度。
 
-116. [missuo/FreeGPT35](https://github.com/missuo/FreeGPT35) ⭐: 3336 ⌨️: JavaScript
+116. [missuo/FreeGPT35](https://github.com/missuo/FreeGPT35) ⭐: 3335 ⌨️: JavaScript
 
      FreeGPT35 是一个基于 GPT-3.5 训练的开源模型，支持中文对话生成。它可以使用 TensorFlow 进行加载和调用，并且提供了预训练模型和代码示例。您可以使用这个项目来构建自己的对话生成应用，或者进行自然语言处理研究。
 
@@ -3838,7 +3838,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个名为lipstick的Node.js模块，它可以通过命令行将JavaScript、CSS、HTML文件和代码嵌入到文字中。这个工具可以帮助开发者直接在代码注释中嵌入示例代码，并生成支持交互的网页，方便展示和分享代码。
 
-124. [iamxjb/winxin-app-watch-life.net](https://github.com/iamxjb/winxin-app-watch-life.net) ⭐: 2803 ⌨️: JavaScript
+124. [iamxjb/winxin-app-watch-life.net](https://github.com/iamxjb/winxin-app-watch-life.net) ⭐: 2805 ⌨️: JavaScript
 
      这个项目是一个基于微信小程序的生活记录应用，用户可以在小程序中记录生活中的点点滴滴，包括文字、图片等内容，并且可以进行分类管理和搜索查找。同时还提供了数据可视化分析功能，帮助用户更好地了解自己的生活记录。
 
@@ -3846,31 +3846,31 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      CatVodOpen是一个基于Kotlin和Jetpack Compose的开源视频点播项目，旨在提供一个简单易用的视频点播应用框架。它支持视频的播放、暂停、调整进度、全屏播放等基本功能，并提供了丰富的UI组件和动画效果。CatVodOpen可以帮助开发者快速构建美观、可定制的视频点播应用。
 
-126. [calebjacob/tooltipster](https://github.com/calebjacob/tooltipster) ⭐: 2759 ⌨️: JavaScript
-
-     Tooltipster是一个轻量级的jQuery工具提示插件，可以用来在网页上创建定制的工具提示。它支持丰富的定制选项，包括不同的动画效果、主题样式和触发事件。用户可以通过简单的API调用来创建和控制工具提示的行为，使得在网页中实现各种各样的工具提示变得非常简单。
-
-127. [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) ⭐: 2759 ⌨️: JavaScript	`bark` `dingtalk` `discord` `email` `feishu` `lark` `message-pusher` `telegram` `websocket` `wechat`
+126. [songquanpeng/message-pusher](https://github.com/songquanpeng/message-pusher) ⭐: 2759 ⌨️: JavaScript	`bark` `dingtalk` `discord` `email` `feishu` `lark` `message-pusher` `telegram` `websocket` `wechat`
 
      Message-pusher是一个用于发送消息通知的开源项目，支持SMS、邮件、微信等多种通知方式。可用于系统监控、报警通知等场景，提供了灵活的配置和扩展性。
+
+127. [calebjacob/tooltipster](https://github.com/calebjacob/tooltipster) ⭐: 2758 ⌨️: JavaScript
+
+     Tooltipster是一个轻量级的jQuery工具提示插件，可以用来在网页上创建定制的工具提示。它支持丰富的定制选项，包括不同的动画效果、主题样式和触发事件。用户可以通过简单的API调用来创建和控制工具提示的行为，使得在网页中实现各种各样的工具提示变得非常简单。
 
 128. [truedread/netflix-1080p](https://github.com/truedread/netflix-1080p) ⭐: 2755 ⌨️: JavaScript
 
      这个项目是一个Chrome浏览器扩展程序，允许用户在Netflix上观看1080p的高清视频。通过安装这个扩展程序，用户可以享受更高质量的流媒体体验。
 
-129. [crossutility/Quantumult-X](https://github.com/crossutility/Quantumult-X) ⭐: 2751 ⌨️: JavaScript
+129. [crossutility/Quantumult-X](https://github.com/crossutility/Quantumult-X) ⭐: 2752 ⌨️: JavaScript
 
      Quantumult X 是一款基于 iOS 平台的网络工具应用，支持代理、广告屏蔽、流量统计等功能。用户可以通过配置规则实现自定义的网络访问控制，保障网络安全和隐私。Quantumult X 提供了丰富的功能和灵活的配置选项，是一款强大的网络工具应用。
 
-130. [KOP-XIAO/QuantumultX](https://github.com/KOP-XIAO/QuantumultX) ⭐: 2744 ⌨️: JavaScript
+130. [KOP-XIAO/QuantumultX](https://github.com/KOP-XIAO/QuantumultX) ⭐: 2745 ⌨️: JavaScript
 
      QuantumultX 是一款强大的网络工具软件，可以帮助用户实现网络代理、广告拦截、流量统计等功能。它支持自定义规则、策略组管理，能够提供更加个性化的网络管理体验。QuantumultX 支持基于 Surge 规则的订阅更新，同时提供了丰富的用户界面和操作功能，适用于 iOS 环境。
 
-131. [cskefu/cskefu](https://github.com/cskefu/cskefu) ⭐: 2735 ⌨️: JavaScript	`chatbot` `contact-center` `customer-support` `java` `multi-channel` `omni-channel` `osgi` `springboot`
+131. [cskefu/cskefu](https://github.com/cskefu/cskefu) ⭐: 2736 ⌨️: JavaScript	`chatbot` `contact-center` `customer-support` `java` `multi-channel` `omni-channel` `osgi` `springboot`
 
      这个项目是一个名为cskefu的开源项目，它是一个基于Java的客服系统。它提供了客户和服务人员之间的即时通讯、在线帮助和客户支持等功能。该项目可以帮助企业实现更好的客户服务和沟通。
 
-132. [gongfuxiang/shopxo](https://github.com/gongfuxiang/shopxo) ⭐: 2725 ⌨️: JavaScript	`b2c` `shop` `shopxo` `shopxo-b2c` `thinkphp`
+132. [gongfuxiang/shopxo](https://github.com/gongfuxiang/shopxo) ⭐: 2726 ⌨️: JavaScript	`b2c` `shop` `shopxo` `shopxo-b2c` `thinkphp`
 
      ShopXO是一个基于PHP语言开发的开源电商系统，具有灵活的插件机制和多样的主题模板，可以满足不同规模和需求的电商网站搭建。通过ShopXO，用户可以快速搭建自己的电商网站，并通过丰富的功能和工具来管理和运营网站。该项目提供了完整的开发文档和技术支持，方便开发者定制和扩展功能。
 
@@ -3882,7 +3882,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      ajax-hook是一个可以劫持浏览器中的Ajax请求并进行修改的工具。它可以用来监控和改变网页中的Ajax请求和响应，帮助开发者调试和测试网页应用。ajax-hook能够在不修改网页源码的情况下，对页面中的Ajax请求进行实时劫持和修改。
 
-135. [hmjz100/Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant) ⭐: 2563 ⌨️: JavaScript
+135. [hmjz100/Online-disk-direct-link-download-assistant](https://github.com/hmjz100/Online-disk-direct-link-download-assistant) ⭐: 2565 ⌨️: JavaScript
 
      这个项目是一个在线网盘直链下载助手，可以帮助用户获取在线网盘文件的直接下载链接，方便快捷地下载文件。通过简单的操作，用户可以获得可直接使用的下载链接，省去了传统在线网盘下载的繁琐步骤。
 
@@ -3890,11 +3890,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      Tag-it是一个基于jQuery的用户友好的标签输入组件，可以让用户轻松地输入和管理标签。它还支持自定义标签样式和功能。
 
-137. [cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot) ⭐: 2477 ⌨️: JavaScript	`bot` `hook` `pc` `reverse` `wechat` `wei-xin` `weixin`
+137. [cixingguangming55555/wechat-bot](https://github.com/cixingguangming55555/wechat-bot) ⭐: 2478 ⌨️: JavaScript	`bot` `hook` `pc` `reverse` `wechat` `wei-xin` `weixin`
 
      这个项目是一个基于Python的微信聊天机器人，可以自动回复消息、发送图像、识别文字等功能。它利用itchat库与微信接口进行交互，提供了丰富的聊天功能，并可以根据用户需求进行自定义扩展。
 
-138. [helloxz/onenav](https://github.com/helloxz/onenav) ⭐: 2473 ⌨️: JavaScript	`bookmark` `navigation` `php`
+138. [helloxz/onenav](https://github.com/helloxz/onenav) ⭐: 2476 ⌨️: JavaScript	`bookmark` `navigation` `php`
 
      OneNav 是一个开源的浏览器书签和导航管理工具，它可以帮助用户轻松地保存、组织和管理自己的网页书签，并提供了快速的搜索和导航功能。用户可以通过简单的命令或快捷键快速访问自己的书签，极大地提高了网页浏览的效率。同时，OneNav 也支持多设备同步，并提供了美观的界面和可定制的主题，非常适合对书签管理有要求的用户。
 
@@ -3906,7 +3906,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个用于从Google Play商店抓取应用程序数据的Python库。它可以获取应用程序的名称、评分、下载量、评论等信息，并且支持筛选条件进行搜索。这个库提供了一个方便的方式来分析和比较Google Play商店中的应用程序数据。
 
-141. [mayswind/AriaNg-Native](https://github.com/mayswind/AriaNg-Native) ⭐: 2359 ⌨️: JavaScript	`aria2` `ariang` `desktop` `download` `electron` `gui` `html` `javascript` `ui` `web`
+141. [mayswind/AriaNg-Native](https://github.com/mayswind/AriaNg-Native) ⭐: 2361 ⌨️: JavaScript	`aria2` `ariang` `desktop` `download` `electron` `gui` `html` `javascript` `ui` `web`
 
      AriaNg-Native是一个基于Electron的Aria2 GUI前端，用于管理Aria2下载任务。用户可以通过图形界面轻松地添加、暂停、恢复和删除下载任务，同时查看下载进度和统计信息。
 
@@ -3930,7 +3930,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这是一个名为"Slider"的开源项目，提供了一个轻量级、易于使用的JavaScript图片轮播库。它支持移动设备和现代浏览器，并具有丰富的功能，如自定义动画、过渡效果和触摸支持。可以轻松地集成到网站或应用程序中，帮助用户创建漂亮的图片轮播展示。
 
-147. [easychen/CookieCloud](https://github.com/easychen/CookieCloud) ⭐: 2018 ⌨️: JavaScript
+147. [easychen/CookieCloud](https://github.com/easychen/CookieCloud) ⭐: 2020 ⌨️: JavaScript
 
      CookieCloud是一个基于Java开发的云存储系统，使用Spring Boot框架和MySQL数据库。用户可以通过Web界面上传、下载和管理文件，并且支持文件的分享和权限控制。CookieCloud还提供了文件的版本管理和回收站功能，可以轻松地管理和保护用户的文件。
 
@@ -3938,11 +3938,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      v_jstools是一个基于Vue.js的前端工具库，包含了一些常用的前端工具和组件，例如日期时间格式化、字符串处理、表单验证、图片预览等。这个项目提供了一些常见的前端工具函数和组件，帮助开发者快速构建前端项目。
 
-149. [KOHGYLW/kiftd](https://github.com/KOHGYLW/kiftd) ⭐: 2003 ⌨️: JavaScript	`cloud-driver` `java` `open-source` `sky-driver`
+149. [KOHGYLW/kiftd](https://github.com/KOHGYLW/kiftd) ⭐: 2004 ⌨️: JavaScript	`cloud-driver` `java` `open-source` `sky-driver`
 
      Kiftd 是一个基于Java开发的轻量级文件传输工具，它可以帮助用户快速地在本地网络中传输文件。它的特点是简单易用，支持大文件传输，以及一些基本的文件管理功能。Kiftd 使用Web界面进行操作，用户可以通过浏览器轻松上传、下载和管理文件。
 
-150. [willfarrell/alfred-workflows](https://github.com/willfarrell/alfred-workflows) ⭐: 1957 ⌨️: JavaScript	`alfred` `alfred-workflow`
+150. [willfarrell/alfred-workflows](https://github.com/willfarrell/alfred-workflows) ⭐: 1956 ⌨️: JavaScript	`alfred` `alfred-workflow`
 
      这是一个针对Alfred应用程序的开源项目，提供了各种workflow，可以帮助用户更高效地使用Alfred。这些workflow涵盖了不同的功能，包括快速搜索、文件操作、系统管理等，可以提升用户的工作效率和体验。
 
@@ -3962,7 +3962,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个使用Qt开发的七牛云存储客户端，可以用来上传、下载、管理七牛云存储中的文件。它提供了直观的界面和简单的操作，让用户可以更方便地管理他们的云端文件。
 
-155. [Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui) ⭐: 1767 ⌨️: JavaScript	`aria2` `aria2-app` `aria2-gui`
+155. [Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui) ⭐: 1768 ⌨️: JavaScript	`aria2` `aria2-app` `aria2-gui`
 
      这个项目是一个基于 Web 的 AriaNG 用户界面，用于管理 Aria2 下载工具。它提供了一个简单直观的界面，让用户可以方便地添加、暂停、恢复和删除下载任务，以及监控下载进度和速度。
 
@@ -4006,11 +4006,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个包含多个Chrome浏览器扩展示例的仓库，每个示例都演示了不同的功能和用法。通过这些示例，开发人员可以学习如何创建自己的Chrome扩展，并探索各种功能的实现方式。
 
-166. [mumuy/browser](https://github.com/mumuy/browser) ⭐: 1565 ⌨️: JavaScript	`browser` `detection` `useragent`
+166. [mumuy/browser](https://github.com/mumuy/browser) ⭐: 1567 ⌨️: JavaScript	`browser` `detection` `useragent`
 
      这个项目是一个基于 Electron 和 React 开发的桌面浏览器应用程序。它提供了一个类似于 Chrome 的界面，能够通过插件丰富功能。
 
-167. [kkHAIKE/fake115](https://github.com/kkHAIKE/fake115) ⭐: 1548 ⌨️: JavaScript	`115`
+167. [kkHAIKE/fake115](https://github.com/kkHAIKE/fake115) ⭐: 1549 ⌨️: JavaScript	`115`
 
      这个项目是一个基于Python的115网盘的第三方客户端，可以通过115网盘账号进行文件的上传、下载和管理。
 
@@ -4034,7 +4034,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      WeChatExporter是一个用于导出微信聊天记录的工具，可以将微信聊天记录导出为文本文件或HTML格式，便于管理和备份。
 
-173. [traceless/alist-encrypt](https://github.com/traceless/alist-encrypt) ⭐: 1368 ⌨️: JavaScript
+173. [traceless/alist-encrypt](https://github.com/traceless/alist-encrypt) ⭐: 1367 ⌨️: JavaScript
 
      Alist-encrypt是一个基于Python的加密工具，可以对文件进行加密和解密操作，使用AES加密算法保护文件的安全性。
 
@@ -4078,7 +4078,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个用于解包微信小程序文件的工具。它可以帮助用户将微信小程序的文件进行解包，方便用户对小程序进行分析和修改。此工具可以帮助开发者更方便地进行微信小程序的开发和调试工作。
 
-184. [CcSimple/vue-plugin-hiprint](https://github.com/CcSimple/vue-plugin-hiprint) ⭐: 1084 ⌨️: JavaScript	`design` `print` `report` `vue`
+184. [CcSimple/vue-plugin-hiprint](https://github.com/CcSimple/vue-plugin-hiprint) ⭐: 1087 ⌨️: JavaScript	`design` `print` `report` `vue`
 
      这是一个基于Vue的插件，用于快速打印页面内容。它提供了简单易用的API，可以帮助开发者实现将页面内容快速打印成PDF文件或直接打印到打印机。这个插件可以很好地与Vue项目集成，帮助开发者快速实现页面内容的打印功能。
 
@@ -4090,7 +4090,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      这个项目是一个基于百度无限制接口的Python库，可以用来实现对语音识别和语音合成的功能。用户可以通过该库实现对音频文件的语音识别和将文本转化为音频文件的功能。
 
-187. [dxcweb/watermark](https://github.com/dxcweb/watermark) ⭐: 843 ⌨️: JavaScript	`canvas` `react` `watermark`
+187. [dxcweb/watermark](https://github.com/dxcweb/watermark) ⭐: 844 ⌨️: JavaScript	`canvas` `react` `watermark`
 
      这个项目是一个用于给图片添加水印的工具，使用Python语言编写。它可以帮助用户在图片上添加文字或者图片格式的水印，保护图片的版权和来源。
 
@@ -4130,7 +4130,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
      wxpage 是一个基于微信小程序的页面路由工具，提供了简单易用的页面跳转、参数传递和路由管理功能，帮助开发者更方便地管理小程序页面之间的跳转关系。
 
-197. [kuizuo/js-deobfuscator](https://github.com/kuizuo/js-deobfuscator) ⭐: 556 ⌨️: JavaScript	`ast` `babel` `deobfuscator` `javascript` `obfuscator`
+197. [kuizuo/js-deobfuscator](https://github.com/kuizuo/js-deobfuscator) ⭐: 557 ⌨️: JavaScript	`ast` `babel` `deobfuscator` `javascript` `obfuscator`
 
      这个项目是一个JavaScript反混淆工具，它可以帮助开发人员解析和理解经过混淆的JavaScript代码。通过这个工具，用户可以快速还原被混淆的代码，从而更容易地分析和修改它。
 
@@ -4338,7 +4338,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Objective-C
 ---
 
-0. [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) ⭐: 22400 ⌨️: Objective-C	`alfred` `macos` `wechat` `wechat-macos` `wechat-plugin` `weixin-plugin`
+0. [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) ⭐: 22401 ⌨️: Objective-C	`alfred` `macos` `wechat` `wechat-macos` `wechat-plugin` `weixin-plugin`
 
 	这个项目是一个为 Mac 上的微信增加功能和优化体验的插件。它提供了很多实用的功能，如自动抢红包、防撤回消息、自定义表情包等。通过安装这个插件，可以让微信拥有更多有趣和方便的功能。
 
@@ -4350,7 +4350,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个用于在MacOS上使用微信的插件，可以实现一些额外的功能和增强用户体验。例如自动回复、消息防撤回、多开等功能。
 
-3. [sunnyyoung/WeChatTweak-macOS](https://github.com/sunnyyoung/WeChatTweak-macOS) ⭐: 11472 ⌨️: Objective-C	`alfred` `alfred-workflow` `macos` `no-revoke` `norevoke` `raycast-extension` `revoke` `tweak` `wechat` `wechat-macos` `wechat-plugin` `wechat-plugin-macos` `wechat-raycast` `wechat-tweak` `wechathook` `wechattweak` `wechattweak-macos` `weixin` `weixin-plugin` `weixin-tweak`
+3. [sunnyyoung/WeChatTweak-macOS](https://github.com/sunnyyoung/WeChatTweak-macOS) ⭐: 11474 ⌨️: Objective-C	`alfred` `alfred-workflow` `macos` `no-revoke` `norevoke` `raycast-extension` `revoke` `tweak` `wechat` `wechat-macos` `wechat-plugin` `wechat-plugin-macos` `wechat-raycast` `wechat-tweak` `wechathook` `wechattweak` `wechattweak-macos` `weixin` `weixin-plugin` `weixin-tweak`
 
 	这个项目是一个用于在MacOS上修改微信客户端的工具，可以实现一些自定义的功能和界面调整，比如添加一些隐藏功能、修改界面样式等。
 
@@ -4366,7 +4366,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是Shadowsocks在iOS平台的客户端实现，Shadowsocks是一个基于Socks5代理协议的开源网络加密传输工具，可以帮助用户突破网络审查和访问受限网站。这个iOS客户端实现了Shadowsocks协议，可以在iOS设备上使用Shadowsocks进行安全、私密的网络连接。
 
-7. [Cenmrev/V2RayX](https://github.com/Cenmrev/V2RayX) ⭐: 7670 ⌨️: Objective-C
+7. [Cenmrev/V2RayX](https://github.com/Cenmrev/V2RayX) ⭐: 7671 ⌨️: Objective-C
 
 	V2RayX是一个基于V2Ray的MacOS图形用户界面客户端，用于帮助用户方便地配置和使用V2Ray代理服务。V2RayX提供了简单易用的界面和丰富的功能，让用户可以轻松地使用V2Ray来保护网络传输安全。
 
@@ -4414,19 +4414,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Java
 ---
 
-0. [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ⭐: 47473 ⌨️: Java	`docker` `java` `pdf` `pdf-converter` `pdf-editor` `pdf-manipulation` `pdf-merger` `pdf-ocr` `pdf-tools` `pdf-web-apps` `pdfmerger`
+0. [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ⭐: 47481 ⌨️: Java	`docker` `java` `pdf` `pdf-converter` `pdf-editor` `pdf-manipulation` `pdf-merger` `pdf-ocr` `pdf-tools` `pdf-web-apps` `pdfmerger`
 
 	Stirling-PDF是一个基于Python的工具库，可以用于处理和操作PDF文件。它提供了一系列的功能，包括合并、拆分、旋转、提取和添加水印等，使得对PDF文件的操作变得更加方便和灵活。
 
-1. [halo-dev/halo](https://github.com/halo-dev/halo) ⭐: 34332 ⌨️: Java	`blog` `blog-engine` `cms` `content-management-system` `halo` `halocms`
+1. [halo-dev/halo](https://github.com/halo-dev/halo) ⭐: 34339 ⌨️: Java	`blog` `blog-engine` `cms` `content-management-system` `halo` `halocms`
 
 	Halo是一个基于Java开发的现代化博客平台，提供丰富的功能和简洁的界面。它支持Markdown编辑、多种主题、插件扩展等特性，帮助用户快速搭建个性化的博客网站。
 
-2. [zxing/zxing](https://github.com/zxing/zxing) ⭐: 32933 ⌨️: Java	`android` `barcode` `barcode-scanner` `datamatrix` `java` `qr-code` `upc` `zxing`
+2. [zxing/zxing](https://github.com/zxing/zxing) ⭐: 32934 ⌨️: Java	`android` `barcode` `barcode-scanner` `datamatrix` `java` `qr-code` `upc` `zxing`
 
 	这是一个名为ZXing的开源项目，它是用Java编写的条形码和二维码处理库。它支持多种编码格式和图像格式，包括QR码、Data Matrix、UPC条形码等。ZXing提供了各种平台上的库和工具，可以用于扫描、生成和解码条形码和二维码，是一个功能丰富且易于集成的条形码处理工具。
 
-3. [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ⭐: 25513 ⌨️: Java	`telegram`
+3. [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ⭐: 25519 ⌨️: Java	`telegram`
 
 	Telegram是一个跨平台的即时通讯应用程序，支持多种设备上的文字消息、语音通话和视频通话。它还支持群组聊天、频道和机器人等功能。Telegram使用了加密技术来保护用户的通讯数据安全。
 
@@ -4434,7 +4434,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	proxyee-down是一个基于Java开发的高性能HTTP下载器，支持多线程断点续传、代理下载，同时还内置了常见网站的规则，可以轻松下载加密链接和视频流。
 
-5. [CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer) ⭐: 20372 ⌨️: Java	`16k` `android` `exoplayer` `ffmpeg` `gsy` `ijkplayer` `player` `ssl` `video` `videocache`
+5. [CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer) ⭐: 20373 ⌨️: Java	`16k` `android` `exoplayer` `ffmpeg` `gsy` `ijkplayer` `player` `ssl` `video` `videocache`
 
 	GSYVideoPlayer 是一款基于 Android 的视频播放器库，支持自定义 UI 和 GSYVideoType 等特性，还有多种视频加载模式和视频效果库等特性。
 
@@ -4442,19 +4442,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	APIJSON是腾讯开发的一种基于JSON的RESTful API框架，它允许开发者通过简单的JSON配置来定义API接口并且自动化测试。该框架同时也提供了权限控制、多表联查等功能，适用于快速开发高效的API接口。
 
-7. [justauth/JustAuth](https://github.com/justauth/JustAuth) ⭐: 16631 ⌨️: Java	`googlelogin` `justauth` `oauth2` `qqlogin` `weixinlogin`
+7. [justauth/JustAuth](https://github.com/justauth/JustAuth) ⭐: 16632 ⌨️: Java	`googlelogin` `justauth` `oauth2` `qqlogin` `weixinlogin`
 
 	JustAuth 是一个集成了多种第三方登录的开源库，支持微信、QQ、微博、GitHub 等多个平台。它提供了简洁易用的 API 接口，方便快速集成第三方登录功能到自己的应用中。相比于直接调用第三方平台的 API，JustAuth 提供了统一的接口，简化了开发流程。
 
-8. [android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed) ⭐: 15504 ⌨️: Java	`android` `aop` `hook` `non-root` `xposed`
+8. [android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed) ⭐: 15505 ⌨️: Java	`android` `aop` `hook` `non-root` `xposed`
 
 	VirtualXposed是一个用于在非Root设备上运行Xposed模块的项目。它通过在应用内部创建虚拟环境来实现Xposed框架的功能，从而让用户在未root的设备上享受到Xposed模块带来的便利。
 
-9. [theonedev/onedev](https://github.com/theonedev/onedev) ⭐: 13497 ⌨️: Java	`ci-cd` `devops` `git` `kanban` `packages` `self-hosted`
+9. [theonedev/onedev](https://github.com/theonedev/onedev) ⭐: 13498 ⌨️: Java	`ci-cd` `devops` `git` `kanban` `packages` `self-hosted`
 
 	OneDev是一款集成了代码仓库管理、问题跟踪、持续集成和部署的开源平台。它支持Git、SVN和Maven等多种项目管理工具，并提供灵活的权限控制和丰富的插件扩展功能。通过该平台，团队可以高效地协作开发、管理项目并进行持续交付。
 
-10. [pxb1988/dex2jar](https://github.com/pxb1988/dex2jar) ⭐: 12415 ⌨️: Java
+10. [pxb1988/dex2jar](https://github.com/pxb1988/dex2jar) ⭐: 12416 ⌨️: Java
 
 	Dex2jar是一个将Android APK文件中的dex文件转换为Java .class文件的工具，方便开发者进行反编译和分析。
 
@@ -4462,7 +4462,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个由daniulive开发的开源项目，旨在提供更智能的流媒体解决方案。它提供了基于Android和iOS的移动端流媒体开发工具包，包括直播推流、拉流、播放等功能，并支持H.264、H.265等流行的视频编码格式。同时，它也提供了基于C/C++的流媒体服务器，可以用于搭建自己的流媒体服务。
 
-12. [zfile-dev/zfile](https://github.com/zfile-dev/zfile) ⭐: 9760 ⌨️: Java	`clouddisk` `h2` `h5ai` `mysql` `spring-boot` `vue`
+12. [zfile-dev/zfile](https://github.com/zfile-dev/zfile) ⭐: 9758 ⌨️: Java	`clouddisk` `h2` `h5ai` `mysql` `spring-boot` `vue`
 
 	Zfile是一个基于Spring Boot和Vue.js开发的文件管理系统，它提供了用户友好的界面和丰富的功能，可以方便地管理和分享文件。Zfile支持多种存储后端，包括本地存储、FTP、SFTP、WebDAV和云存储（如七牛、阿里云、腾讯云）。它还提供了权限管理、文件预览、在线编辑和文件搜索等功能，是一个功能完善的文件管理解决方案。
 
@@ -4490,11 +4490,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	JimuReport是一款基于Vue.js和ECharts的可视化报表工具，支持用户自定义报表，图表可视化展现，多维度数据分析等功能。可以帮助开发者快速构建各种报表，适用于企业数据分析和可视化展示需求。
 
-19. [ffay/lanproxy](https://github.com/ffay/lanproxy) ⭐: 5672 ⌨️: Java	`firewall` `frp` `java` `lanproxy` `nat` `ngrok` `proxy` `reverse-proxy` `tunnel`
+19. [ffay/lanproxy](https://github.com/ffay/lanproxy) ⭐: 5674 ⌨️: Java	`firewall` `frp` `java` `lanproxy` `nat` `ngrok` `proxy` `reverse-proxy` `tunnel`
 
 	lanproxy是一个基于Java开发的代理工具，可以帮助用户实现内网穿透，使用户能够轻松访问内网服务。它支持TCP和UDP协议，并且具有简单易用的配置和管理界面。lanproxy可以帮助开发人员在内网环境中进行调试和测试，并且可以应用于各种需要内网穿透的场景中。
 
-20. [648540858/wvp-GB28181-pro](https://github.com/648540858/wvp-GB28181-pro) ⭐: 5435 ⌨️: Java	`28181` `28181web` `gb28181` `gb28181server` `wvp`
+20. [648540858/wvp-GB28181-pro](https://github.com/648540858/wvp-GB28181-pro) ⭐: 5436 ⌨️: Java	`28181` `28181web` `gb28181` `gb28181server` `wvp`
 
 	wvp-GB28181-pro是一个基于GB28181协议的视频监控系统，支持实时视频流、云台控制、录像回放等功能。可以用于搭建企业或个人的视频监控系统，提供安全监控功能。
 
@@ -4506,11 +4506,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	该项目是一个用Python编写的小说爬虫工具，可以从指定的小说网站上爬取小说内容并保存为文本文件，方便用户离线阅读。
 
-23. [FongMi/TV](https://github.com/FongMi/TV) ⭐: 4988 ⌨️: Java	`catvod` `danmaku` `ijkplayer` `leanback` `media3` `p2p` `thunder` `tvbus`
+23. [FongMi/TV](https://github.com/FongMi/TV) ⭐: 4990 ⌨️: Java	`catvod` `danmaku` `ijkplayer` `leanback` `media3` `p2p` `thunder` `tvbus`
 
 	TV是一个基于Vue.js和Vuex的轻量级状态管理库，用于简化Vue.js应用程序的状态管理。它提供了简单且直观的API，帮助开发者更轻松地组织和管理应用程序的状态。TV还支持插件的扩展，可以根据需求进行定制和扩展。
 
-24. [Fuzion24/JustTrustMe](https://github.com/Fuzion24/JustTrustMe) ⭐: 4892 ⌨️: Java
+24. [Fuzion24/JustTrustMe](https://github.com/Fuzion24/JustTrustMe) ⭐: 4891 ⌨️: Java
 
 	JustTrustMe是一个基于Xposed框架的Android应用程序，用于快速绕过SSL证书的固定检查，以便进行安全测试和应用程序逆向工程。它可用于在测试环境中拦截和修改应用程序的网络流量，以便分析和学习应用程序的行为。
 
@@ -4534,7 +4534,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Syncthing-Android是一个基于Syncthing协议的文件同步和共享应用程序。它可以让用户在移动设备上同步和共享文件，支持安全的端对端加密和自动同步。Syncthing-Android可以帮助用户方便地在多台设备之间共享文件并保持数据同步。
 
-30. [javahuang/SurveyKing](https://github.com/javahuang/SurveyKing) ⭐: 3388 ⌨️: Java	`java` `react-survey` `springboot` `survey` `surveyjs` `surveymonkey`
+30. [javahuang/SurveyKing](https://github.com/javahuang/SurveyKing) ⭐: 3387 ⌨️: Java	`java` `react-survey` `springboot` `survey` `surveyjs` `surveymonkey`
 
 	SurveyKing是一个基于Spring Boot开发的在线调查问卷系统，具有创建问卷、发布问卷、收集调查结果等功能。用户可以通过简单的操作创建自己的调查问卷，并且收集和分析调查结果。
 
@@ -4546,7 +4546,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个基于Python的网易云音乐第三方库，可以通过它方便地实现音乐搜索、歌曲、歌手、专辑信息的获取，以及音乐的下载等功能。
 
-33. [EhsanTang/ApiManager](https://github.com/EhsanTang/ApiManager) ⭐: 2397 ⌨️: Java	`angularjs` `api` `apimanager` `crapapi`
+33. [EhsanTang/ApiManager](https://github.com/EhsanTang/ApiManager) ⭐: 2398 ⌨️: Java	`angularjs` `api` `apimanager` `crapapi`
 
 	这个项目是一个用于管理和测试API的工具，可以帮助开发人员轻松地创建、编辑和测试API。它提供了用户界面来管理和调用API，同时也支持对API进行测试和监控。项目地址：https://github.com/EhsanTang/ApiManager
 
@@ -4554,7 +4554,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Yalp Store 是一个基于 Yalp Store API 的开源应用商店客户端，它允许用户在没有 Google Play 商店的设备上浏览、下载和安装安卓应用。用户可以通过 Yalp Store 轻松访问 Play 商店中的应用，而无需登录 Google 账号。 Yalp Store 能够帮助用户绕过地域限制和设备不兼容的问题，因此备受欢迎。
 
-35. [niumoo/bing-wallpaper](https://github.com/niumoo/bing-wallpaper) ⭐: 2087 ⌨️: Java	`bing` `bing-image` `bing-wallpaper` `wallpaper`
+35. [niumoo/bing-wallpaper](https://github.com/niumoo/bing-wallpaper) ⭐: 2094 ⌨️: Java	`bing` `bing-image` `bing-wallpaper` `wallpaper`
 
 	这是一个从必应壁纸网站上下载壁纸并设置为桌面壁纸的Python脚本。用户可以通过运行该脚本，自动下载最新的必应壁纸并设置为桌面壁纸。
 
@@ -4578,7 +4578,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个基于Python的微博爬虫，可以用来获取微博上的用户信息、微博内容和评论等数据。它提供了简单易用的接口，可以帮助用户快速获取所需的微博数据。
 
-41. [qaiu/netdisk-fast-download](https://github.com/qaiu/netdisk-fast-download) ⭐: 1533 ⌨️: Java	`api` `download` `drive` `java` `netdisk` `pandownload` `parser` `vertx` `webserver`
+41. [qaiu/netdisk-fast-download](https://github.com/qaiu/netdisk-fast-download) ⭐: 1535 ⌨️: Java	`api` `download` `drive` `java` `netdisk` `pandownload` `parser` `vertx` `webserver`
 
 	这个项目是一个用于快速下载网盘文件的工具，支持各种常见的网盘服务商（如百度网盘、蓝奏云等），可以通过命令行或图形界面操作，方便快捷地下载文件。通过该工具，用户可以轻松地管理和下载各种网盘文件，提高下载速度和效率。
 
@@ -4662,11 +4662,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### C
 ---
 
-0. [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ⭐: 114548 ⌨️: C	`android` `c` `ffmpeg` `libav` `mirroring` `recording` `screen` `sdl2`
+0. [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ⭐: 114568 ⌨️: C	`android` `c` `ffmpeg` `libav` `mirroring` `recording` `screen` `sdl2`
 
 	scrcpy 是一个使用 Android 实时显示和控制工具，它可以在电脑上显示来自安卓设备的屏幕并对设备进行控制，支持 USB 和无线连接，无需 root 权限。
 
-1. [ventoy/Ventoy](https://github.com/ventoy/Ventoy) ⭐: 63541 ⌨️: C	`auto-install` `bootable-usb` `bsd` `chromeos` `iso-files` `legacy` `linux` `multiboot` `persistence` `secure-boot` `uefi` `unattended` `unix` `usb` `windows`
+1. [ventoy/Ventoy](https://github.com/ventoy/Ventoy) ⭐: 63545 ⌨️: C	`auto-install` `bootable-usb` `bsd` `chromeos` `iso-files` `legacy` `linux` `multiboot` `persistence` `secure-boot` `uefi` `unattended` `unix` `usb` `windows`
 
 	Ventoy是一个开源的Linux启动盘创建工具，能够将多个ISO文件直接复制到U盘中并且以菜单形式启动。用户无需反复格式化U盘，只需将ISO文件复制到U盘中，非常方便。Ventoy支持UEFI和Legacy启动模式，适用于多种操作系统和工具。
 
@@ -4674,35 +4674,35 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个由B站开发和维护的开源播放器项目，支持Android和iOS平台。它基于FFmpeg和OpenSL ES，提供了强大的音视频播放功能，支持多种格式和协议，如RTMP、HLS、HTTP等。该项目具有良好的兼容性和稳定性，得到了广大开发者和用户的认可。
 
-3. [jqlang/jq](https://github.com/jqlang/jq) ⭐: 30771 ⌨️: C	`jq`
+3. [jqlang/jq](https://github.com/jqlang/jq) ⭐: 30774 ⌨️: C	`jq`
 
 	这个项目是 JQ，它是一个类似于 AWK 编程语言的命令行 JSON 处理工具。它可以帮助用户查询、过滤和转换 JSON 数据，具有灵活的语法和强大的功能。
 
-4. [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) ⭐: 30025 ⌨️: C	`lede` `lua` `openwrt-feed` `openwrt-package` `openwrt-zh-cn`
+4. [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) ⭐: 30028 ⌨️: C	`lede` `lua` `openwrt-feed` `openwrt-package` `openwrt-zh-cn`
 
 	这个项目是一个基于OpenWrt的软件，它提供了一个用于路由器的Linux操作系统。它旨在为路由器提供更好的性能、稳定性和安全性，同时也提供了丰富的功能和定制选项，通过其开源的方式，用户可以自定义适合自己需求的路由器系统。
 
-5. [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) ⭐: 26243 ⌨️: C	`ag` `c` `command-line-tool` `pcre` `search-in-text` `silver-searcher`
+5. [ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher) ⭐: 26245 ⌨️: C	`ag` `c` `command-line-tool` `pcre` `search-in-text` `silver-searcher`
 
 	这个项目是一个快速的代码搜索工具，类似于grep和ack，但更快更简单。它使用C语言编写，支持多种操作系统，并且可以轻松地集成到开发环境中。
 
-6. [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) ⭐: 25245 ⌨️: C
+6. [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) ⭐: 25252 ⌨️: C
 
 	ExplorerPatcher 是一个用于定制 Windows 资源管理器的开源工具。它允许用户修改 Windows 资源管理器的外观和功能，比如更改文件夹图标、修改右键菜单、以及定制文件夹的背景图片等。这个工具提供了一种简单的方式来个性化 Windows 资源管理器，让用户可以根据自己的喜好来定制文件管理器的界面和功能。
 
-7. [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) ⭐: 24160 ⌨️: C	`bash` `client` `cmd` `console` `linux` `mac` `powershell` `serial` `sftp` `shell` `ssh` `telnet` `terminal` `windows` `wsl` `x11` `xmodem` `xterm` `ymodem` `zmodem`
+7. [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) ⭐: 24166 ⌨️: C	`bash` `client` `cmd` `console` `linux` `mac` `powershell` `serial` `sftp` `shell` `ssh` `telnet` `terminal` `windows` `wsl` `x11` `xmodem` `xterm` `ymodem` `zmodem`
 
 	WindTerm是一个用C++编写的跨平台的终端仿真器，可以在Windows和Linux系统上运行。它提供了丰富的功能，包括分屏、自定义配色、图形字符等。 WindTerm还支持多种终端协议，如SSH、Telnet等。
 
-8. [gojue/ecapture](https://github.com/gojue/ecapture) ⭐: 13721 ⌨️: C	`android` `android-https-capture` `ebpf` `ebpf-go` `ebpf-tc` `ebpf-uprobe` `golang` `https` `linux` `network-capture` `security-audit` `ssl` `ssldump` `tcpdump` `tls`
+8. [gojue/ecapture](https://github.com/gojue/ecapture) ⭐: 13728 ⌨️: C	`android` `android-https-capture` `ebpf` `ebpf-go` `ebpf-tc` `ebpf-uprobe` `golang` `https` `linux` `network-capture` `security-audit` `ssl` `ssldump` `tcpdump` `tls`
 
 	ecapture是一个用于在Linux系统上通过命令行快速截取屏幕的工具，支持全屏、窗口、自定义区域截图，并可以选择保存格式和质量。它还可以方便地进行延时截图，并提供了丰富的参数选项，非常适合需要在命令行下进行截图操作的用户。
 
-9. [SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN) ⭐: 11756 ⌨️: C	`etherip` `ike` `ipsec` `l2tp` `l2tpv3` `openvpn` `softether-vpn` `softethervpn` `ssl-vpn` `sstp` `tls` `vpn` `vpn-protocols` `vpn-server` `vpn-tunnel` `wfh` `wireguard` `work-from-home`
+9. [SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN) ⭐: 11758 ⌨️: C	`etherip` `ike` `ipsec` `l2tp` `l2tpv3` `openvpn` `softether-vpn` `softethervpn` `ssl-vpn` `sstp` `tls` `vpn` `vpn-protocols` `vpn-server` `vpn-tunnel` `wfh` `wireguard` `work-from-home`
 
 	SoftEtherVPN是一款开源的跨平台虚拟私人网络（VPN）软件，支持多种VPN协议和功能。它提供了高度安全的加密通信，能够在不同的操作系统上运行，并支持远程访问、LAN至LAN连接、WiFi安全性等多种功能。SoftEtherVPN具有高性能、稳定性和易用性，是一个强大且灵活的VPN解决方案。
 
-10. [coturn/coturn](https://github.com/coturn/coturn) ⭐: 11566 ⌨️: C	`networking` `server` `turn`
+10. [coturn/coturn](https://github.com/coturn/coturn) ⭐: 11567 ⌨️: C	`networking` `server` `turn`
 
 	Coturn是一个开源的STUN和TURN服务器实现，用于实现网络中继和NAT穿透功能，以便在各种网络环境下实现实时通信和视频会议。它支持多种操作系统和语言，并且可以作为一个独立的服务器或者嵌入到其他应用中。
 
@@ -4714,7 +4714,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	THC-Hydra 是一个强大的密码破解工具，可以对多种协议进行暴力破解，包括SSH、FTP、HTTP、POP3等。它支持并行攻击，可以利用字典文件或自动生成的密码进行破解。
 
-13. [xmrig/xmrig](https://github.com/xmrig/xmrig) ⭐: 8892 ⌨️: C	`argon2` `cpuminer` `cryptocurrency` `cryptonight` `miner` `monero` `randomx` `xmr` `xmrig`
+13. [xmrig/xmrig](https://github.com/xmrig/xmrig) ⭐: 8893 ⌨️: C	`argon2` `cpuminer` `cryptocurrency` `cryptonight` `miner` `monero` `randomx` `xmr` `xmrig`
 
 	这个项目是一个开源的加密货币挖矿软件，主要用于挖掘门罗币（Monero）和其他类似的加密货币。它提供了高效的算法和可定制的挖矿策略，适合于个人和企业用户使用。
 
@@ -4730,7 +4730,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	BGAQRCode-Android是一个基于ZXing和ZBar库的Android二维码扫描库，可以快速集成二维码扫描功能到Android应用中。它提供了丰富的定制化选项和简单易用的API，方便开发者在应用中添加二维码扫描功能。
 
-17. [esnet/iperf](https://github.com/esnet/iperf) ⭐: 7053 ⌨️: C
+17. [esnet/iperf](https://github.com/esnet/iperf) ⭐: 7054 ⌨️: C
 
 	iPerf是一个开源的网络带宽测试工具，可用于测试网络的吞吐量和延迟。它能够测量TCP和UDP性能，并提供详细的报告。iPerf支持在不同操作系统间进行性能测试，并可用于评估网络设备的性能。
 
@@ -4738,7 +4738,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Beanstalkd是一个简单、快速、轻量级的消息队列系统，用于处理异步任务，具有低延迟和高性能。该项目的目标是提供一个易于部署和使用的工具，用于处理大量的异步任务，并提供强大的数据持久性和可靠性。Beanstalkd使用协议简单，易于集成，并且支持多种客户端和语言。
 
-19. [ntop/n2n](https://github.com/ntop/n2n) ⭐: 6345 ⌨️: C	`peer-to-peer` `vpn`
+19. [ntop/n2n](https://github.com/ntop/n2n) ⭐: 6344 ⌨️: C	`peer-to-peer` `vpn`
 
 	n2n是一个轻量级、快速建立VPN连接的工具，能够通过Peer-to-Peer技术快速安全地连接多台设备，同时支持内网穿透和加密通信。
 
@@ -4746,7 +4746,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Siege是一个开源的压力测试和负载测试工具，用于评估Web服务器的性能和稳定性。它可以模拟多个并发用户向服务器发出请求，以便测试服务器的性能表现。Siege支持多种不同的HTTP请求，包括GET、POST、PUT等，并且可以设置请求的并发数、时间间隔等参数，非常适合用于测试网站、web应用程序和API。
 
-21. [google/ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) ⭐: 5968 ⌨️: C
+21. [google/ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) ⭐: 5969 ⌨️: C
 
 	这个项目是 Google 开发的 iOS WebKit 调试代理工具，可以帮助开发人员通过桌面浏览器调试在 iOS 设备上运行的 Web 页面和应用程序。通过使用该工具，开发人员可以实时查看页面的布局、调试 JavaScript 和执行网络分析，从而更方便地进行 iOS Web 开发调试工作。
 
@@ -4758,7 +4758,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	SQLiteStudio是一个用于SQLite数据库管理的跨平台工具。它提供了一个直观的界面，能够让用户轻松地浏览、编辑、管理和导出SQLite数据库。SQLiteStudio支持SQL查询、数据导入导出、图形化的数据库设计等功能，是一个功能强大且易于使用的SQLite数据库管理工具。
 
-24. [kornelski/pngquant](https://github.com/kornelski/pngquant) ⭐: 5265 ⌨️: C	`c` `conversion` `image-optimization` `palette` `png` `png-compression` `pngquant` `quality` `quantization` `smaller` `stdin`
+24. [kornelski/pngquant](https://github.com/kornelski/pngquant) ⭐: 5266 ⌨️: C	`c` `conversion` `image-optimization` `palette` `png` `png-compression` `pngquant` `quality` `quantization` `smaller` `stdin`
 
 	PNGQuant 是一个用于压缩 PNG 图像的开源工具，能够在不影响图像质量的前提下显著减小文件大小。这个工具可以作为命令行工具使用，也可以通过库集成到其他应用中。通过减小 PNG 图像的文件大小，可以加快网页加载速度，减少带宽占用，提高用户体验。
 
@@ -4778,7 +4778,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	MTProxy 是由 Telegram Messenger 开发的一个高性能代理工具，旨在加速用户连接 Telegram 服务的速度和稳定性。它通过伪装流量来避免被识别，并提供了多种安全功能以保护用户隐私和数据安全。MTProxy 是一个开源项目，用户可以自行部署和定制，同时也受到 Telegram 官方的支持和维护。
 
-29. [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ⭐: 4931 ⌨️: C
+29. [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ⭐: 4934 ⌨️: C
 
 	Tinyproxy是一个轻量级的HTTP代理。它旨在提供快速、简单的方式来为用户提供互联网访问。Tinyproxy设计简洁，易于使用，并且占用资源较少，适合用于嵌入式系统和资源受限的环境中。
 
@@ -4790,7 +4790,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Yaf是一个快速、灵活的PHP框架，具有高性能和低内存消耗。其简洁的结构和丰富的功能使得开发人员可以快速构建高效的Web应用程序。 Yaf支持MVC架构模式，并且提供了各种扩展和插件，使得开发和维护项目变得更加简单。 Yaf还具有自动加载、安全过滤、异常处理、模板引擎等功能，是一个完善的开发工具。
 
-32. [sabrogden/Ditto](https://github.com/sabrogden/Ditto) ⭐: 4014 ⌨️: C	`clipboard` `clipboard-manager`
+32. [sabrogden/Ditto](https://github.com/sabrogden/Ditto) ⭐: 4015 ⌨️: C	`clipboard` `clipboard-manager`
 
 	Ditto是一个用Swift编写的iOS应用，可以帮助用户管理和组织其剪贴板历史记录。用户可以轻松查看、搜索和管理复制的文本、图片和链接，并粘贴到需要的地方。Ditto还提供了快速复制和粘贴的功能，方便用户在不同应用之间快速切换和操作。
 
@@ -4806,7 +4806,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	ngx_http_google_filter_module是一个用于Nginx的过滤模块，可以帮助用户在代理Google搜索结果时自动翻墙。它可以通过修改网页内容中的Google搜索结果链接，使用户在点击链接时直接通过代理访问目标网页，而无需手动切换代理。
 
-36. [RsyncProject/rsync](https://github.com/RsyncProject/rsync) ⭐: 3006 ⌨️: C
+36. [RsyncProject/rsync](https://github.com/RsyncProject/rsync) ⭐: 3009 ⌨️: C
 
 	Rsync项目是一个远程文件同步工具，可以快速、可靠地在本地和远程服务器之间同步文件和目录。它支持增量传输，可以节省带宽和时间，并且具有强大的错误恢复机制。Rsync同时也是一个开源项目，用户可以自由获取和修改源代码。
 
@@ -4858,11 +4858,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	APCu 是一个用于 PHP 应用程序的轻量级内存缓存系统，用于存储常用数据和提高应用程序的性能。它提供简单的 API，允许 PHP 应用程序快速地存储和检索数据。APCu 提供了一种快速、可靠和简单的方式来缓存数据，从而加速应用程序的响应时间。
 
-49. [meyerd/n2n](https://github.com/meyerd/n2n) ⭐: 885 ⌨️: C
+49. [meyerd/n2n](https://github.com/meyerd/n2n) ⭐: 884 ⌨️: C
 
 	n2n是一个用于构建overlay网络的轻量级工具，可以在不同的网络之间安全地进行通信。它使用TUN/TAP设备来创建虚拟网络，并且支持加密和身份验证，可以在不同的设备之间建立安全的点对点连接。
 
-50. [TurboVNC/turbovnc](https://github.com/TurboVNC/turbovnc) ⭐: 820 ⌨️: C
+50. [TurboVNC/turbovnc](https://github.com/TurboVNC/turbovnc) ⭐: 822 ⌨️: C
 
 	TurboVNC是一个开源的远程桌面软件，支持高性能的远程访问和虚拟桌面。它使用了TurboJPEG库提供JPEG压缩和解压缩，以实现高效的图形传输。TurboVNC提供了快速、流畅的远程体验，适用于需要远程访问的用户。
 
@@ -4898,7 +4898,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个关于杭州房地产市场的知识库，包括房价趋势、购房流程、政策解读等信息。帮助购房者更好地了解杭州的房地产市场，做出更明智的购房决策。
 
-1. [chokcoco/iCSS](https://github.com/chokcoco/iCSS) ⭐: 19772 ⌨️: CSS	`css` `css3`
+1. [chokcoco/iCSS](https://github.com/chokcoco/iCSS) ⭐: 19773 ⌨️: CSS	`css` `css3`
 
 	iCSS是一个提供了很多CSS技巧和效果的开源项目。它包括了很多实用的CSS代码片段，帮助前端开发者更好地理解和利用CSS。这个项目中的技巧和效果可以帮助开发者轻松实现一些炫酷的CSS效果，提高网页的用户体验。
 
@@ -4910,7 +4910,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个基于Bootstrap和Vue.js构建的现代化网页模板集合，包括多个专业设计风格和实用组件。开发者可以使用这些模板快速搭建自己的网站，并轻松定制调整各种元素。
 
-4. [thedevdojo/wave](https://github.com/thedevdojo/wave) ⭐: 5554 ⌨️: CSS	`devdojo` `hacktoberfest` `laravel` `php` `saas` `saas-boilerplate` `subscription` `tailwindcss` `voyager` `wave`
+4. [thedevdojo/wave](https://github.com/thedevdojo/wave) ⭐: 5555 ⌨️: CSS	`devdojo` `hacktoberfest` `laravel` `php` `saas` `saas-boilerplate` `subscription` `tailwindcss` `voyager` `wave`
 
 	Wave是一个简单的PHP包，用于在Web应用程序中生成和验证验证码。它提供了生成随机验证码、将验证码保存到会话、在页面上显示验证码图像以及验证用户输入的验证码等功能。 Wave 的使用非常简单，可以轻松地集成到任何 PHP 项目中。
 
@@ -4922,7 +4922,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	SnappySnippet是一个小巧的工具，用于快速创建可重复使用的代码片段。它支持多种语言和编辑器，并可以轻松地将代码片段导出和导入到不同的环境中。SnappySnippet使得代码复用和分享变得更加便捷高效。
 
-7. [Tokinx/Wing](https://github.com/Tokinx/Wing) ⭐: 582 ⌨️: CSS	`wordpress` `wordpress-theme`
+7. [Tokinx/Wing](https://github.com/Tokinx/Wing) ⭐: 583 ⌨️: CSS	`wordpress` `wordpress-theme`
 
 	Wing是基于Flutter的UI工具包，用于快速构建美观的应用界面。它提供了丰富的UI组件和样式，帮助开发者快速搭建用户界面，提升用户体验。Wing的设计灵感来源于Material Design和iOS的设计风格，可以轻松实现跨平台应用的一致性。
 
@@ -4966,63 +4966,63 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### C#
 ---
 
-0. [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ⭐: 112426 ⌨️: C#	`color-picker` `desktop` `fancyzones` `keyboard-manager` `microsoft-powertoys` `powerrename` `powertoys` `windows`
+0. [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ⭐: 112445 ⌨️: C#	`color-picker` `desktop` `fancyzones` `keyboard-manager` `microsoft-powertoys` `powerrename` `powertoys` `windows`
 
 	PowerToys 是一个由微软开发的开源实用工具集，旨在提高 Windows 用户的生产力。它提供了一系列实用工具，例如窗口管理器、快捷键指令、文件快速预览等，使用户能够更高效地进行多任务处理和窗口管理。PowerToys 是一个社区驱动的项目，拥有广泛的用户基础，可以根据个人需求进行定制和扩展。
 
-1. [2dust/v2rayN](https://github.com/2dust/v2rayN) ⭐: 71827 ⌨️: C#	`proxy` `shadowsocks` `socks5` `trojan` `v2fly` `v2ray` `vless` `vmess` `windows` `xray` `xtls`
+1. [2dust/v2rayN](https://github.com/2dust/v2rayN) ⭐: 71853 ⌨️: C#	`proxy` `shadowsocks` `socks5` `trojan` `v2fly` `v2ray` `vless` `vmess` `windows` `xray` `xtls`
 
 	v2rayN 是一个基于 V2Ray 的图形化客户端程序，它能够帮助用户快速方便地配置和管理 V2Ray 服务。用户可以通过 v2rayN 轻松地连接到 V2Ray 服务器，并进行安全、高效的网络通信。
 
-2. [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) ⭐: 58534 ⌨️: C#	`c-sharp` `proxy` `shadowsocks`
+2. [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) ⭐: 58537 ⌨️: C#	`c-sharp` `proxy` `shadowsocks`
 
 	Shadowsocks-Windows是一个基于Socks5协议的代理工具，在Windows平台上实现了简单的翻墙功能。通过加密的方式保护网络通信安全，并且可以有效突破网络封锁，访问被封锁的网站。
 
-3. [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) ⭐: 30420 ⌨️: C#	`hex-editor` `patch` `pc` `qq` `revoke` `revokemsg` `tim` `tool` `wechat` `windows`
+3. [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) ⭐: 30426 ⌨️: C#	`hex-editor` `patch` `pc` `qq` `revoke` `revokemsg` `tim` `tool` `wechat` `windows`
 
 	RevokeMsgPatcher是一个针对微信的补丁程序，用于阻止好友撤回发送的消息。用户可以通过安装这个补丁程序，有效地防止好友撤回消息，提升聊天体验。
 
-4. [leiurayer/downkyi](https://github.com/leiurayer/downkyi) ⭐: 21519 ⌨️: C#
+4. [leiurayer/downkyi](https://github.com/leiurayer/downkyi) ⭐: 21522 ⌨️: C#
 
 	Downkyi 是一个基于 Python 和 PyQt5 的简单下载器，它提供了简洁的用户界面和基本的下载功能，可以帮助用户轻松地管理和下载网络文件。
 
-5. [netchx/netch](https://github.com/netchx/netch) ⭐: 16520 ⌨️: C#	`fullcone` `netch` `netfiltersdk` `shadowsocks` `shadowsocksr` `socks` `tun2socks` `vless` `vmess`
+5. [netchx/netch](https://github.com/netchx/netch) ⭐: 16522 ⌨️: C#	`fullcone` `netch` `netfiltersdk` `shadowsocks` `shadowsocksr` `socks` `tun2socks` `vless` `vmess`
 
 	Netch是一个基于.NET平台的开源网络代理工具，支持多种协议和加密方式，可用于科学上网和网络加密通信。Netch提供了简单易用的用户界面，可以轻松配置和管理代理设置，适用于Windows系统。
 
-6. [bitwarden/server](https://github.com/bitwarden/server) ⭐: 15889 ⌨️: C#	`api` `aspnet` `aspnetcore` `bitwarden` `csharp` `docker` `dotnet` `dotnet-core` `signalr` `sql` `sql-server`
+6. [bitwarden/server](https://github.com/bitwarden/server) ⭐: 15890 ⌨️: C#	`api` `aspnet` `aspnetcore` `bitwarden` `csharp` `docker` `dotnet` `dotnet-core` `signalr` `sql` `sql-server`
 
 	Bitwarden是一个开源的密码管理器，包括服务器和客户端应用。Bitwarden Server是Bitwarden的后端实现，使用C#语言和ASP.NET Core框架开发。它可以独立部署在私有环境中，用于存储和管理用户的加密密码。用户可以通过Web界面或API与Bitwarden Server进行交互，实现安全的密码管理和存储。
 
-7. [shadowsocksrr/shadowsocksr-csharp](https://github.com/shadowsocksrr/shadowsocksr-csharp) ⭐: 15303 ⌨️: C#
+7. [shadowsocksrr/shadowsocksr-csharp](https://github.com/shadowsocksrr/shadowsocksr-csharp) ⭐: 15302 ⌨️: C#
 
 	ShadowsocksR-C# 是一个基于 ShadowsocksR 协议的客户端程序，用于实现科学上网。它支持多种加密和混淆方式，可以帮助用户突破网络限制，保护隐私安全。
 
-8. [nilaoda/N_m3u8DL-CLI](https://github.com/nilaoda/N_m3u8DL-CLI) ⭐: 14521 ⌨️: C#	`command-line` `downloader` `m3u8` `m3u8-downloader` `m3u8-parser` `m3u8dl-cli` `windows`
+8. [nilaoda/N_m3u8DL-CLI](https://github.com/nilaoda/N_m3u8DL-CLI) ⭐: 14525 ⌨️: C#	`command-line` `downloader` `m3u8` `m3u8-downloader` `m3u8-parser` `m3u8dl-cli` `windows`
 
 	N_m3u8DL-CLI是一个基于Python的命令行工具，用于下载和管理m3u8格式的视频流。它支持多线程下载和自定义选项，提供了简单易用的界面，方便用户进行视频下载和管理。
 
-9. [winsw/winsw](https://github.com/winsw/winsw) ⭐: 12387 ⌨️: C#	`csharp` `dotnet` `nuget` `windows-service` `windows-service-wrapper`
+9. [winsw/winsw](https://github.com/winsw/winsw) ⭐: 12389 ⌨️: C#	`csharp` `dotnet` `nuget` `windows-service` `windows-service-wrapper`
 
 	WinSW是一款用于将任何可执行文件（如Java应用程序、Python脚本等）包装成Windows服务的工具。它提供了一种简单的方式来安装、启动和管理这些服务，而无需编写自定义的服务代码。WinSW还支持在Windows服务管理器中监控和控制服务的运行状态。
 
-10. [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) ⭐: 10867 ⌨️: C#	`c-sharp` `json`
+10. [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) ⭐: 10866 ⌨️: C#	`c-sharp` `json`
 
 	Newtonsoft.Json是一个流行的JSON框架，用于.NET平台上的序列化和反序列化操作。它提供了简单易用的API，并且具有良好的性能和稳定性，广泛应用于.NET开发中。
 
-11. [cefsharp/CefSharp](https://github.com/cefsharp/CefSharp) ⭐: 9908 ⌨️: C#	`browser` `c-plus-plus` `c-sharp` `cefsharp` `framework` `winforms` `wpf`
+11. [cefsharp/CefSharp](https://github.com/cefsharp/CefSharp) ⭐: 9909 ⌨️: C#	`browser` `c-plus-plus` `c-sharp` `cefsharp` `framework` `winforms` `wpf`
 
 	CefSharp是一个基于谷歌Chromium框架的.NET项目，允许开发者在Windows应用程序中集成高性能的浏览器功能。它提供了对现代Web技术的支持，包括HTML5、CSS3和JavaScript，同时允许开发者使用C#或其他.NET语言来控制和定制浏览器行为。CefSharp的目标是为.NET开发者提供一个简单而强大的工具，可以轻松地在他们的应用程序中实现Web浏览功能。
 
-12. [OdysseusYuan/LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools) ⭐: 8902 ⌨️: C#	`access` `email` `excel` `kms` `lync` `microsoft` `msoffice` `office` `office-free` `office365` `onedrive` `onenote` `outlook` `ppt` `project` `publisher` `skype` `teams` `visio` `word`
+12. [OdysseusYuan/LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools) ⭐: 8904 ⌨️: C#	`access` `email` `excel` `kms` `lync` `microsoft` `msoffice` `office` `office-free` `office365` `onedrive` `onenote` `outlook` `ppt` `project` `publisher` `skype` `teams` `visio` `word`
 
 	这个项目是一个名为LKY_OfficeTools的基于Python的办公工具集合，包含办公软件自动化脚本和常见办公文件的处理工具。这些工具可以帮助用户提高办公效率和自动化办公任务。
 
-13. [quasar/Quasar](https://github.com/quasar/Quasar) ⭐: 8851 ⌨️: C#	`administration` `c-sharp` `dotnet` `mono` `net` `protobuf` `rat` `red-team` `remote` `remote-control` `remote-desktop` `security` `windows`
+13. [quasar/Quasar](https://github.com/quasar/Quasar) ⭐: 8853 ⌨️: C#	`administration` `c-sharp` `dotnet` `mono` `net` `protobuf` `rat` `red-team` `remote` `remote-control` `remote-desktop` `security` `windows`
 
 	Quasar是一个开源的 Vue.js 框架，提供了丰富的组件和工具，用于构建现代化的响应式Web应用。它还集成了一些流行的工具和库，包括Webpack、ESLint、Sass等，让开发者可以快速构建高质量的应用程序。Quasar还提供了丰富的文档和活跃的社区支持，为开发者提供了便利和帮助。
 
-14. [studyzy/imewlconverter](https://github.com/studyzy/imewlconverter) ⭐: 8059 ⌨️: C#	`c-sharp` `chinese-characters` `converter` `dotnet` `dotnet-core` `ime`
+14. [studyzy/imewlconverter](https://github.com/studyzy/imewlconverter) ⭐: 8061 ⌨️: C#	`c-sharp` `chinese-characters` `converter` `dotnet` `dotnet-core` `ime`
 
 	imewlconverter是一个开源的中文输入法词库转换工具，可以将不同格式的词库文件相互转换，方便用户在不同平台之间共享和使用自定义词库。它支持将搜狗输入法、百度输入法、QQ拼音等输入法的词库进行转换，使得用户可以在不同的输入法之间灵活地使用自己的词库。
 
@@ -5030,19 +5030,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	ImageGlass是一个开源的图片查看器，提供了简单、快速、轻量级的图片浏览体验，支持常见的图片格式，包括JPEG、PNG、GIF等。其界面简洁直观，支持缩放、旋转、全屏等功能，并且可以通过插件扩展其功能。
 
-16. [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) ⭐: 7034 ⌨️: C#	`aad` `authentication` `azure-devops` `azure-repos` `bitbucket` `credential` `cross-platform` `git` `github` `gitlab`
+16. [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) ⭐: 7035 ⌨️: C#	`aad` `authentication` `azure-devops` `azure-repos` `bitbucket` `credential` `cross-platform` `git` `github` `gitlab`
 
 	这个项目是Git凭据管理器，它为Git提供了一种方便的方式来存储和检索凭据，例如用户名和密码。它支持多种凭据存储方式，并可与各种Git提供商一起使用。Git凭据管理器可以帮助用户更轻松地管理他们的Git凭据信息。
 
-17. [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) ⭐: 4660 ⌨️: C#	`cross-platform` `dhcp-server` `dns` `dns-client` `dns-over-https` `dns-over-quic` `dns-over-tls` `dns-over-tor` `dns-server` `dotnet` `privacy` `technitium-dns-server`
+17. [TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer) ⭐: 4662 ⌨️: C#	`cross-platform` `dhcp-server` `dns` `dns-client` `dns-over-https` `dns-over-quic` `dns-over-tls` `dns-over-tor` `dns-server` `dotnet` `privacy` `technitium-dns-server`
 
 	Technitium DNS Server是一个开源的DNS服务器软件，用于在Windows平台上创建和管理本地DNS服务器。它支持DNS over HTTPS和DNS over TLS，可以帮助用户在本地网络中更安全地管理DNS请求和响应。Technitium DNS Server还支持自定义DNS记录和过滤功能，可以满足用户对DNS服务器的各种需求。
 
-18. [kerryjiang/SuperSocket](https://github.com/kerryjiang/SuperSocket) ⭐: 3963 ⌨️: C#	`csharp` `realtime-communication` `socket` `socketserver` `tcp` `udp`
+18. [kerryjiang/SuperSocket](https://github.com/kerryjiang/SuperSocket) ⭐: 3964 ⌨️: C#	`csharp` `realtime-communication` `socket` `socketserver` `tcp` `udp`
 
 	SuperSocket是一个轻量级的、可扩展的.NET Socket服务器框架，它提供了高性能的Socket服务器实现和方便的API，可以用来快速构建各种类型的网络应用程序。该项目提供了基于TCP、UDP、WebSocket等不同协议的服务器端实现，支持异步处理和多线程处理，适合于开发高性能、可靠的网络服务器应用。
 
-19. [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) ⭐: 3887 ⌨️: C#	`bilibili` `bilibili-live` `dotnet-core` `flv` `stream` `wpf`
+19. [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) ⭐: 3889 ⌨️: C#	`bilibili` `bilibili-live` `dotnet-core` `flv` `stream` `wpf`
 
 	BililiveRecorder是一个基于Python的B站直播录制工具，可以用来录制B站直播视频。用户可以通过设置参数来指定录制的直播间号和保存路径，实现自动录制。
 
@@ -5050,7 +5050,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	该项目是一个用于测试网络连接类型（如NAT类型）的工具。它可以帮助用户识别其网络环境，并提供相应的建议和配置。项目使用Python开发，提供了简单易用的命令行界面，用户可以通过输入命令进行测试和获取结果。
 
-21. [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) ⭐: 3359 ⌨️: C#	`dotnet` `msix` `ocr` `window-10` `windows` `windows-11` `wpf`
+21. [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) ⭐: 3360 ⌨️: C#	`dotnet` `msix` `ocr` `window-10` `windows` `windows-11` `wpf`
 
 	Text-Grab是一个用Python编写的工具，可以从网页、文件或剪贴板中提取文本，并对提取到的文本进行处理和分析。这个项目可以帮助用户更方便地获取和处理文本数据，是一个实用的文本处理工具。
 
@@ -5078,7 +5078,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	SNETCracker是一个用于对SNET服务进行爆破和暴力破解的工具。通过使用字典或暴力破解的方式，可以尝试破解SNET服务的密码和凭据。
 
-28. [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ⭐: 1861 ⌨️: C#
+28. [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ⭐: 1862 ⌨️: C#
 
 	SyncClipboard 是一个使用 Python 编写的工具，用于在多台电脑之间同步剪贴板内容。它可以让用户在不同设备上复制和粘贴文本内容，非常方便实用。
 
@@ -5154,7 +5154,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	DevToysMac是一个为开发者设计的实用工具集合，旨在提高开发效率并简化常见的开发任务。它集成了多种工具，包括JSON格式化、正则表达式测试、Base64编码等，使开发者可以在一个应用中方便地访问这些工具，提升工作效率。
 
-2. [Finb/Bark](https://github.com/Finb/Bark) ⭐: 5688 ⌨️: Swift	`ios` `ios-app` `ios-swift` `mvvm` `mvvm-architecture` `push-notifications` `rxcocoa` `rxdatasources` `rxswift`
+2. [Finb/Bark](https://github.com/Finb/Bark) ⭐: 5689 ⌨️: Swift	`ios` `ios-app` `ios-swift` `mvvm` `mvvm-architecture` `push-notifications` `rxcocoa` `rxdatasources` `rxswift`
 
 	Bark是一个基于Python的轻量级信息传递工具，可以将消息发送到iOS设备上的Bark应用中。用户可以使用Bark来发送通知、提醒、备忘录等信息到手机上。Bark的设计简单易用，可以快速集成到自己的项目中。
 
@@ -5174,15 +5174,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Lua
 ---
 
-0. [Kong/kong](https://github.com/Kong/kong) ⭐: 39578 ⌨️: Lua	`ai` `ai-gateway` `api-gateway` `api-management` `apis` `artificial-intelligence` `cloud-native` `consul` `devops` `docker` `kong` `kubernetes` `kubernetes-ingress` `kubernetes-ingress-controller` `luajit` `microservice` `microservices` `nginx` `reverse-proxy` `serverless`
+0. [Kong/kong](https://github.com/Kong/kong) ⭐: 39580 ⌨️: Lua	`ai` `ai-gateway` `api-gateway` `api-management` `apis` `artificial-intelligence` `cloud-native` `consul` `devops` `docker` `kong` `kubernetes` `kubernetes-ingress` `kubernetes-ingress-controller` `luajit` `microservice` `microservices` `nginx` `reverse-proxy` `serverless`
 
 	Kong 是一个开源的、可扩展的 API 网关和微服务管理平台，它可以帮助开发人员和运维团队轻松管理他们的微服务架构。Kong 提供了包括负载均衡、认证、日志记录等在内的丰富功能，支持灵活的插件扩展。Kong 还提供了易于使用的 RESTful API，方便开发人员进行集成和定制。
 
-1. [nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) ⭐: 27638 ⌨️: Lua	`super-resolution` `torch` `waifu2x`
+1. [nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) ⭐: 27639 ⌨️: Lua	`super-resolution` `torch` `waifu2x`
 
 	waifu2x是一个基于深度学习的图像放大和降噪工具，可以将图像放大，并且减少噪点。它使用卷积神经网络对图像进行处理，能够在保持细节的同时提高图像的清晰度。
 
-2. [iDvel/rime-ice](https://github.com/iDvel/rime-ice) ⭐: 10208 ⌨️: Lua	`rime` `rime-config` `rime-custom` `rime-schema` `rime-squirrel` `rime-weasel`
+2. [iDvel/rime-ice](https://github.com/iDvel/rime-ice) ⭐: 10213 ⌨️: Lua	`rime` `rime-config` `rime-custom` `rime-schema` `rime-squirrel` `rime-weasel`
 
 	这个项目是一个用于 Rime 输入法的配置方案，名为 "冰凌"，旨在为用户提供更好的中文输入体验。它提供了定制的词库、亮顿音形码、外置词库和自定义短语等功能，让用户可以根据个人偏好来定制输入法的使用体验。
 
@@ -5210,43 +5210,43 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### TypeScript
 ---
 
-0. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ⭐: 83987 ⌨️: TypeScript	`css` `css-framework` `functional-css` `postcss` `responsive` `tailwindcss` `utility-classes`
+0. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ⭐: 83996 ⌨️: TypeScript	`css` `css-framework` `functional-css` `postcss` `responsive` `tailwindcss` `utility-classes`
 
 	Tailwind CSS是一个高度可定制的CSS框架，它提供了一组实用的类，可以快速构建现代、响应式的网页界面。通过组合这些类，开发者可以快速构建出各种不同风格的UI界面，同时保持代码的清晰和可维护性。Tailwind CSS的设计理念是“无样式”，它鼓励开发者专注于构建界面的结构和布局，而不是单纯的样式设计，从而提高开发效率。
 
-1. [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) ⭐: 77733 ⌨️: TypeScript	`calclaude` `chatgpt` `claude` `cross-platform` `desktop` `fe` `gemini` `gemini-pro` `gemini-server` `gemini-ultra` `gpt-4o` `groq` `nextjs` `ollama` `react` `tauri` `tauri-app` `vercel` `webui`
+1. [ChatGPTNextWeb/ChatGPT-Next-Web](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) ⭐: 77761 ⌨️: TypeScript	`calclaude` `chatgpt` `claude` `cross-platform` `desktop` `fe` `gemini` `gemini-pro` `gemini-server` `gemini-ultra` `gpt-4o` `groq` `nextjs` `ollama` `react` `tauri` `tauri-app` `vercel` `webui`
 
 	ChatGPT-Next-Web是一个基于OpenAI的GPT-3模型的交互式Web应用程序，用户可以与AI进行自然语言交互，提出问题、寻求建议或进行对话。这个项目提供了一个简单易用的界面，让用户可以轻松地体验GPT-3的强大功能。
 
-2. [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) ⭐: 66120 ⌨️: TypeScript	`api` `api-client` `api-rest` `api-testing` `developer-tools` `graphql` `hacktoberfest` `http` `http-client` `pwa` `rest` `rest-api` `spa` `testing` `testing-tools` `tools` `vue` `vuejs` `websocket`
+2. [hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch) ⭐: 66124 ⌨️: TypeScript	`api` `api-client` `api-rest` `api-testing` `developer-tools` `graphql` `hacktoberfest` `http` `http-client` `pwa` `rest` `rest-api` `spa` `testing` `testing-tools` `tools` `vue` `vuejs` `websocket`
 
 	Hoppscotch是一个开源的API请求和调试工具，可用于快速实现和调试API。它具有用户友好的界面和强大的功能，包括支持多种HTTP方法、自动补全和参数提示、请求历史记录等。Hoppscotch可以帮助开发人员轻松地测试和调试API，提高工作效率。
 
-3. [immich-app/immich](https://github.com/immich-app/immich) ⭐: 54405 ⌨️: TypeScript	`backup-tool` `flutter` `google-photos` `google-photos-alternative` `hacktoberfest` `javascript` `mobile-app` `nestjs` `nodejs` `photo-gallery` `photos` `photos-management` `self-hosted` `svelte` `sveltekit` `typescript` `videos`
+3. [immich-app/immich](https://github.com/immich-app/immich) ⭐: 54425 ⌨️: TypeScript	`backup-tool` `flutter` `google-photos` `google-photos-alternative` `hacktoberfest` `javascript` `mobile-app` `nestjs` `nodejs` `photo-gallery` `photos` `photos-management` `self-hosted` `svelte` `sveltekit` `typescript` `videos`
 
 	这个项目是一个名为"immich"的应用程序，它旨在帮助移民移居者在新的国家中融入社会。该应用提供了有关新国家的语言、文化、生活方式和社交习惯的信息，为用户提供定制化的移民指南。用户可以在移民过程中获取实用的建议和支持，以便更快地适应新的生活环境。
 
-4. [nocodb/nocodb](https://github.com/nocodb/nocodb) ⭐: 50320 ⌨️: TypeScript	`admin-dashboard` `admin-ui` `airtable` `airtable-alternative` `automatic-api` `hacktoberfest` `low-code` `mariadb` `mysql` `no-code` `no-code-database` `no-code-platform` `postgresql` `rest-api` `restful-api` `spreadsheet` `sqlite` `sqlserver` `swagger`
+4. [nocodb/nocodb](https://github.com/nocodb/nocodb) ⭐: 50323 ⌨️: TypeScript	`admin-dashboard` `admin-ui` `airtable` `airtable-alternative` `automatic-api` `hacktoberfest` `low-code` `mariadb` `mysql` `no-code` `no-code-database` `no-code-platform` `postgresql` `rest-api` `restful-api` `spreadsheet` `sqlite` `sqlserver` `swagger`
 
 	NocoDB是一个开源的无代码应用程序生成器和数据库管理工具，用于快速创建和管理数据库应用程序，无需编写代码。它提供了一个用户友好的界面，可视化地创建和管理数据库表格、视图、过滤器和权限设置。NocoDB支持多种主流数据库，包括MySQL、PostgreSQL、SQLite等，可以帮助用户快速构建定制化的数据库应用程序。
 
-5. [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐: 49161 ⌨️: TypeScript	`ai` `artifacts` `azure-openai-api` `chat` `chatglm` `chatgpt` `claude` `dalle-3` `function-calling` `gemini` `gpt` `gpt-4` `gpt-4-vision` `knowledge-base` `nextjs` `ollama` `openai` `qwen2` `rag` `tts`
+5. [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐: 49181 ⌨️: TypeScript	`ai` `artifacts` `azure-openai-api` `chat` `chatglm` `chatgpt` `claude` `dalle-3` `function-calling` `gemini` `gpt` `gpt-4` `gpt-4-vision` `knowledge-base` `nextjs` `ollama` `openai` `qwen2` `rag` `tts`
 
 	Lobe Chat是一个使用Lobe开发的聊天机器人项目，它可以与用户进行基于自然语言的对话交流。这个项目使用了Lobe的机器学习模型来理解用户输入并生成相应的回复，让用户可以与机器人进行简单的对话互动。
 
-6. [slab/quill](https://github.com/slab/quill) ⭐: 44108 ⌨️: TypeScript	`editor` `quill` `rich-text-editor` `wysiwyg`
+6. [slab/quill](https://github.com/slab/quill) ⭐: 44114 ⌨️: TypeScript	`editor` `quill` `rich-text-editor` `wysiwyg`
 
 	Quill 是一个现代的富文本编辑器，用于在 Web 应用程序中创建丰富的文本内容。它提供了丰富的文本编辑功能，包括格式化文本、插入图片、创建链接等。Quill 使用了模块化的架构，可以轻松地集成到现有的 Web 应用程序中，并且具有可扩展性和定制性。
 
-7. [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ⭐: 42394 ⌨️: TypeScript	`clash` `clash-meta` `clash-verge` `linux` `mac` `mihomo` `tauri-app` `windows`
+7. [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ⭐: 42420 ⌨️: TypeScript	`clash` `clash-meta` `clash-verge` `linux` `mac` `mihomo` `tauri-app` `windows`
 
 	这是一个名为clash-verge-rev的项目，它是基于Clash开发的一个翻转版本。Clash-verge-rev提供了一个简单而强大的工具，用于帮助用户处理和管理网络流量。它支持多种规则和过滤器，可以帮助用户更好地管理他们的网络连接。
 
-8. [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) ⭐: 41375 ⌨️: TypeScript	`chat` `collaboration` `foss` `free` `hacktoberfest` `javascript` `meteor` `mit` `real-time` `slack` `webrtc`
+8. [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) ⭐: 41403 ⌨️: TypeScript	`chat` `collaboration` `foss` `free` `hacktoberfest` `javascript` `meteor` `mit` `real-time` `slack` `webrtc`
 
 	Rocket.Chat是一个开源的团队协作工具，类似Slack，提供实时聊天、文件共享、视频会议等功能，支持自托管和云端部署。Rocket.Chat可以定制化，并且支持丰富的集成和插件，适用于各种规模的团队和组织。
 
-9. [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ⭐: 41218 ⌨️: TypeScript	`electron` `javascript` `music-player` `vue`
+9. [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ⭐: 41225 ⌨️: TypeScript	`electron` `javascript` `music-player` `vue`
 
 	这是一个名为lx-music-desktop的音乐播放器项目，它基于Electron开发，支持多种音乐源的搜索和播放，拥有简洁的界面和丰富的功能。用户可以通过该播放器在线或离线播放音乐，还可以进行歌词显示、定时关闭、音量控制等操作。
 
@@ -5254,19 +5254,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Nativefier是一个命令行工具，可以将任何网站转换成桌面应用程序。它使用Electron来创建和打包应用程序，并且可以为Windows、Mac和Linux生成相应的应用程序。这个工具使得将任何网站快速、轻松地转换成桌面应用变得非常简单，无需编码知识。
 
-11. [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) ⭐: 34362 ⌨️: TypeScript	`bilibili` `douban` `dribbble` `instagram` `lofter` `pixiv` `rss` `rsshub` `spotify` `telegram` `tiktok` `twitter` `v2ex` `wechat` `weibo` `ximalaya` `youtube` `zhihu`
+11. [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) ⭐: 34371 ⌨️: TypeScript	`bilibili` `douban` `dribbble` `instagram` `lofter` `pixiv` `rss` `rsshub` `spotify` `telegram` `tiktok` `twitter` `v2ex` `wechat` `weibo` `ximalaya` `youtube` `zhihu`
 
 	RSSHub 是一个开源的、简单易用的 RSS 生成器，它能够从各种网站和内容来源中提取信息，并生成对应的 RSS 订阅源。用户可以通过配置自定义的规则来获取自己感兴趣的内容，并订阅到自己喜欢的 RSS 阅读器中。
 
-12. [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) ⭐: 30757 ⌨️: TypeScript	`dom` `javascript` `screenshot`
+12. [niklasvh/html2canvas](https://github.com/niklasvh/html2canvas) ⭐: 30758 ⌨️: TypeScript	`dom` `javascript` `screenshot`
 
 	html2canvas是一个流行的开源JavaScript库，用于将网页上的HTML元素转换为canvas图像。它可以捕捉整个网页或特定元素的渲染结果，包括CSS样式，然后将其保存为可下载或使用的图像文件。该项目在网页截图、数据可视化和网页设计等方面具有广泛的应用。
 
-13. [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) ⭐: 24364 ⌨️: TypeScript	`aliyun-oss` `electron` `electron-app` `electron-vue` `github` `imgur` `imgur-uploader` `qiniu` `smms` `tencent-cos` `upyun` `vue` `weibo`
+13. [Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo) ⭐: 24367 ⌨️: TypeScript	`aliyun-oss` `electron` `electron-app` `electron-vue` `github` `imgur` `imgur-uploader` `qiniu` `smms` `tencent-cos` `upyun` `vue` `weibo`
 
 	PicGo是一款开源的图片上传工具，可以快速上传图片到各种图片托管平台，支持自定义上传规则和快捷键操作。用户可以通过简单的配置，将图片上传到自己喜欢的平台，方便快捷地分享和使用图片链接。
 
-14. [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ⭐: 24237 ⌨️: TypeScript	`electron` `hosts` `hostseditor` `hostsfile` `switch-hosts` `switchhosts`
+14. [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ⭐: 24239 ⌨️: TypeScript	`electron` `hosts` `hostseditor` `hostsfile` `switch-hosts` `switchhosts`
 
 	SwitchHosts 是一个方便管理和切换多个 hosts 文件的工具，可以快速切换不同的 hosts 配置，方便开发人员和网络管理员进行不同环境的切换。
 
@@ -5274,7 +5274,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Fingerprintjs是一个用于在浏览器中生成唯一指纹的JavaScript库，可以用于识别用户设备并进行跟踪。该项目提供了一种有效的方法，通过收集浏览器的配置信息，生成一个特定的标识符，用于验证用户的身份和识别恶意行为。
 
-16. [umami-software/umami](https://github.com/umami-software/umami) ⭐: 23360 ⌨️: TypeScript	`analytics` `charts` `google-analytics` `statistics` `web-analytics`
+16. [umami-software/umami](https://github.com/umami-software/umami) ⭐: 23364 ⌨️: TypeScript	`analytics` `charts` `google-analytics` `statistics` `web-analytics`
 
 	Umami是一个简单、快速的开源网站分析工具，它提供了易于理解的实时数据和详细的统计信息，帮助网站所有者了解他们的访问者和网站表现。Umami的界面简洁清晰且易于使用，并且可以轻松自行搭建和部署。
 
@@ -5282,35 +5282,35 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	SweetAlert 是一个漂亮、定制性强的 JavaScript 弹窗插件，可以用于替代浏览器默认的弹窗样式。它可以创建各种形式的弹窗，包括警告、成功、错误等，而且可以定制按钮、标题和内容。SweetAlert 使用简单，界面美观，适用于各种 Web 项目。
 
-18. [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) ⭐: 22176 ⌨️: TypeScript
+18. [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) ⭐: 22178 ⌨️: TypeScript
 
 	Squoosh是一个由Google Chrome团队开发的开源项目，旨在帮助用户快速、高质量地调整和压缩图像。用户可以在浏览器中使用这个工具，轻松地优化他们的图像文件，以便在网页上更快地加载和显示。Squoosh支持多种常用的图像格式，并提供了直观友好的界面，方便用户进行图像优化。
 
-19. [RSSNext/Follow](https://github.com/RSSNext/Follow) ⭐: 20620 ⌨️: TypeScript	`ai` `blockchain` `reader` `rss` `rss-reader`
+19. [RSSNext/Follow](https://github.com/RSSNext/Follow) ⭐: 20659 ⌨️: TypeScript	`ai` `blockchain` `reader` `rss` `rss-reader`
 
 	这个项目名为Follow，是一个RSS阅读器应用，能够让用户订阅自己喜欢的网站和博客，并在一个界面中以统一的格式查看更新。Follow支持订阅多个网站、分类管理订阅内容，并可以在手机和电脑上同步阅读进度。
 
-20. [wechaty/wechaty](https://github.com/wechaty/wechaty) ⭐: 20610 ⌨️: TypeScript	`bot` `chatbot` `conversational-ai` `framework` `qq` `robotics` `wechat` `wechaty` `whatsapp`
+20. [wechaty/wechaty](https://github.com/wechaty/wechaty) ⭐: 20611 ⌨️: TypeScript	`bot` `chatbot` `conversational-ai` `framework` `qq` `robotics` `wechat` `wechaty` `whatsapp`
 
 	Wechaty是一个开源的微信机器人框架，可以帮助开发者使用Node.js快速构建微信聊天机器人。它提供了丰富的API和插件，支持自动回复、消息发送、群管理等功能，同时还可以集成到其他平台。Wechaty的目标是让开发者可以轻松地创建各种定制化的微信机器人应用。
 
-21. [mendableai/firecrawl](https://github.com/mendableai/firecrawl) ⭐: 20122 ⌨️: TypeScript	`ai` `ai-scraping` `crawler` `data` `html-to-markdown` `llm` `markdown` `rag` `scraper` `scraping` `web-crawler` `webscraping`
+21. [mendableai/firecrawl](https://github.com/mendableai/firecrawl) ⭐: 20147 ⌨️: TypeScript	`ai` `ai-scraping` `crawler` `data` `html-to-markdown` `llm` `markdown` `rag` `scraper` `scraping` `web-crawler` `webscraping`
 
 	Firecrawl是一个用Python编写的开源网络爬虫框架，可以帮助用户快速构建和部署定制化的网络爬虫。它基于异步IO，支持分布式爬取和动态代理，可以高效地处理大规模的网络数据抓取任务。Firecrawl还提供了丰富的配置选项和灵活的扩展接口，非常适合用于大规模数据采集和网络爬取应用。
 
-22. [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) ⭐: 19860 ⌨️: TypeScript	`ai` `camera` `google-coral` `home-assistant` `home-automation` `homeautomation` `mqtt` `nvr` `object-detection` `realtime` `rtsp` `tensorflow`
+22. [blakeblackshear/frigate](https://github.com/blakeblackshear/frigate) ⭐: 19865 ⌨️: TypeScript	`ai` `camera` `google-coral` `home-assistant` `home-automation` `homeautomation` `mqtt` `nvr` `object-detection` `realtime` `rtsp` `tensorflow`
 
 	这个项目是一个针对家庭安全监控的开源软件，名为Frigate。它使用智能摄像头进行运动检测，在检测到活动时发送通知，同时能够通过Web界面进行监控和回放录像。Frigate还支持多个摄像头，并具有对象检测和识别功能。
 
-23. [wulkano/Kap](https://github.com/wulkano/Kap) ⭐: 18185 ⌨️: TypeScript	`aperture` `app` `capture` `communication` `electron` `javascript` `kap` `mac` `macos` `nextjs` `open-source` `oss` `productivity` `record` `screen-capture` `screen-recorder`
+23. [wulkano/Kap](https://github.com/wulkano/Kap) ⭐: 18186 ⌨️: TypeScript	`aperture` `app` `capture` `communication` `electron` `javascript` `kap` `mac` `macos` `nextjs` `open-source` `oss` `productivity` `record` `screen-capture` `screen-recorder`
 
 	Kap 是一个开源的屏幕录制程序，它可以帮助用户快速、轻松地录制屏幕动画和GIF图像。它具有简洁的界面和丰富的功能，可以满足用户录制屏幕的各种需求。Kap 支持通过插件扩展功能，可以根据个人需求定制功能。
 
-24. [wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor) ⭐: 17652 ⌨️: TypeScript	`rich-text` `rich-text-html-editor` `typescript` `wangeditor` `wysiwyg` `wysiwyg-editor`
+24. [wangeditor-team/wangEditor](https://github.com/wangeditor-team/wangEditor) ⭐: 17653 ⌨️: TypeScript	`rich-text` `rich-text-html-editor` `typescript` `wangeditor` `wysiwyg` `wysiwyg-editor`
 
 	这是一个名为"wangEditor"的开源项目，是一款基于JavaScript的富文本编辑器，适用于网页端。它提供了丰富的编辑功能，包括文字格式设置、插入图片和视频、表格等功能。用户可以轻松地将编辑器集成到自己的网站或应用中，实现富文本编辑的功能。
 
-25. [baidu/amis](https://github.com/baidu/amis) ⭐: 17560 ⌨️: TypeScript	`admin` `frontend` `frontend-framework` `json` `low-code` `low-code-development-platform` `lowcode` `no-code`
+25. [baidu/amis](https://github.com/baidu/amis) ⭐: 17563 ⌨️: TypeScript	`admin` `frontend` `frontend-framework` `json` `low-code` `low-code-development-platform` `lowcode` `no-code`
 
 	Amis是一个基于 JSON 配置的低代码前端框架，可以快速构建管理后台和数据展示界面。它提供了丰富的组件和布局选项，支持响应式设计和动态数据绑定。通过简单的配置，开发人员可以快速搭建出功能完善、美观易用的前端界面。Amis的目标是让开发者专注于业务逻辑的实现，而不是繁琐的界面布局和组件细节。
 
@@ -5318,59 +5318,59 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	vConsole是腾讯开源的一款专为移动端网页开发者提供的调试工具，能够在手机上直接查看console日志、网络请求、页面元素等信息，便于开发者进行移动端网页调试和优化。
 
-27. [whyour/qinglong](https://github.com/whyour/qinglong) ⭐: 16492 ⌨️: TypeScript	`crontab` `docker` `javascript` `python` `shell` `task-manager` `typescript`
+27. [whyour/qinglong](https://github.com/whyour/qinglong) ⭐: 16496 ⌨️: TypeScript	`crontab` `docker` `javascript` `python` `shell` `task-manager` `typescript`
 
 	这个项目是一个名为"青龙"的多用户定时任务管理系统，用于管理和执行定时任务。它可以帮助用户轻松地设置和管理多种类型的定时任务，如签到、自动化脚本执行等。这个项目提供了丰富的功能和用户友好的界面，使得定时任务的管理变得更加方便和高效。
 
-28. [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) ⭐: 13758 ⌨️: TypeScript	`appx` `auto-update` `builder` `contributions-welcome` `deb` `distribution-electron` `dmg` `electron` `electron-builder` `electron-updater` `help-wanted` `linux` `macos` `msi` `muon` `nsis` `pkg` `rpm` `snap` `squirrel`
+28. [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) ⭐: 13759 ⌨️: TypeScript	`appx` `auto-update` `builder` `contributions-welcome` `deb` `distribution-electron` `dmg` `electron` `electron-builder` `electron-updater` `help-wanted` `linux` `macos` `msi` `muon` `nsis` `pkg` `rpm` `snap` `squirrel`
 
 	Electron Builder 是一个用于 Electron 应用程序的打包，发布和自动更新的工具。它支持多平台打包、自动更新、代码签名等功能，可以帮助开发者更轻松地将他们的 Electron 应用程序打包成可执行文件，并进行发布和更新。
 
-29. [apitable/apitable](https://github.com/apitable/apitable) ⭐: 13460 ⌨️: TypeScript	`admin-dashboard` `airtable` `airtable-alternative` `api` `automatic-api` `embed` `hacktoberfest` `internal-tool` `javascript` `low-code` `nestjs` `nextjs` `no-code` `nocodb` `notion` `react` `spreadsheet` `spring` `typescript`
+29. [apitable/apitable](https://github.com/apitable/apitable) ⭐: 13464 ⌨️: TypeScript	`admin-dashboard` `airtable` `airtable-alternative` `api` `automatic-api` `embed` `hacktoberfest` `internal-tool` `javascript` `low-code` `nestjs` `nextjs` `no-code` `nocodb` `notion` `react` `spreadsheet` `spring` `typescript`
 
 	Apitable 是一个用于快速搭建和部署 API 的工具，它提供了一个简单易用的界面，可以帮助开发人员快速创建和管理 API，并且可以直接部署到云端。通过 Apitable，用户可以轻松地构建和管理他们的 API，并且无需编写太多的代码。
 
-30. [vercel/vercel](https://github.com/vercel/vercel) ⭐: 13016 ⌨️: TypeScript	`cli` `cloud` `command` `hosting` `jamstack` `ship` `vercel`
+30. [vercel/vercel](https://github.com/vercel/vercel) ⭐: 13017 ⌨️: TypeScript	`cli` `cloud` `command` `hosting` `jamstack` `ship` `vercel`
 
 	Vercel是一个现代化的云平台，用于构建、部署和托管Web应用程序。它提供了简单易用的工具和服务，帮助开发者快速地将他们的应用部署到全球各地的服务器，并享受自动化的扩展和管理。Vercel支持多种编程语言和框架，包括JavaScript、Python、Ruby、Go等，同时还提供了丰富的开发和部署工具，是开发者构建现代Web应用的理想选择。
 
-31. [taye/interact.js](https://github.com/taye/interact.js) ⭐: 12424 ⌨️: TypeScript	`drag-and-drop` `drop` `inertia` `javascript` `javascript-drag` `mobile` `modern-browsers` `multi-touch` `snap` `touch` `typescript` `vanilla`
+31. [taye/interact.js](https://github.com/taye/interact.js) ⭐: 12426 ⌨️: TypeScript	`drag-and-drop` `drop` `inertia` `javascript` `javascript-drag` `mobile` `modern-browsers` `multi-touch` `snap` `touch` `typescript` `vanilla`
 
 	Interact.js 是一个轻量级的 JavaScript 交互库，用于拖拽、缩放和旋转元素。它可以帮助开发者实现可交互的用户界面，提供了丰富的 API 和事件处理功能，方便在 web 应用中实现复杂的交互效果。Interact.js 支持触摸设备和桌面端，是一个非常实用的工具库。
 
-32. [getgridea/gridea](https://github.com/getgridea/gridea) ⭐: 10044 ⌨️: TypeScript	`blog` `blog-engine` `blog-platform` `cms` `electron` `electronjs` `gridea` `jamstack` `macos` `static-blog` `static-site` `static-site-cms` `static-site-generator` `typescript` `vue` `vue2` `windows`
+32. [getgridea/gridea](https://github.com/getgridea/gridea) ⭐: 10047 ⌨️: TypeScript	`blog` `blog-engine` `blog-platform` `cms` `electron` `electronjs` `gridea` `jamstack` `macos` `static-blog` `static-site` `static-site-cms` `static-site-generator` `typescript` `vue` `vue2` `windows`
 
 	Gridea是一个简单而强大的开源博客写作客户端，为用户提供了一个轻量级、快速、易用的方式来创建和管理博客。它支持Markdown编辑、本地保存、多端同步、主题自定义等功能，适用于个人博客、技术文章等写作需求。Gridea致力于提供优秀的写作体验，让用户专注内容创作，而无需关注复杂的技术细节。
 
-33. [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) ⭐: 9830 ⌨️: TypeScript	`free` `music-player` `plugin` `react` `react-native` `typescript`
+33. [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) ⭐: 9835 ⌨️: TypeScript	`free` `music-player` `plugin` `react` `react-native` `typescript`
 
 	这个项目是一个名为MusicFree的开源项目，它提供了一个免费的音乐下载网站，用户可以在这个网站上搜索并下载各种类型的音乐。这个项目为用户提供了非常便利的音乐资源获取途径。
 
-34. [any86/any-rule](https://github.com/any86/any-rule) ⭐: 8563 ⌨️: TypeScript	`awsome` `express` `regex` `regexp` `zheng-ze`
+34. [any86/any-rule](https://github.com/any86/any-rule) ⭐: 8562 ⌨️: TypeScript	`awsome` `express` `regex` `regexp` `zheng-ze`
 
 	any-rule 是一个汇总了各种常用正则表达式规则的项目，涵盖了手机号、邮箱、身份证、车牌、URL 等多种数据类型的校验规则，方便开发人员在实际项目中直接复用。
 
-35. [idootop/mi-gpt](https://github.com/idootop/mi-gpt) ⭐: 8198 ⌨️: TypeScript
+35. [idootop/mi-gpt](https://github.com/idootop/mi-gpt) ⭐: 8203 ⌨️: TypeScript
 
 	mi-gpt是一个基于GPT-2的中文自然语言处理模型，具有强大的生成和理解能力。使用PyTorch实现，模型经过大规模训练，能够生成具有连贯性和逻辑性的中文文本。模型可用于文本生成、对话系统、摘要生成等多种自然语言处理任务。
 
-36. [x-extends/vxe-table](https://github.com/x-extends/vxe-table) ⭐: 7743 ⌨️: TypeScript	`cell` `checkbox` `editable` `form` `grid` `input` `modal` `pager` `radio` `select` `switch` `table` `toolbar` `vue` `vue-table` `vxe-grid` `vxe-table` `vxe-ui`
+36. [x-extends/vxe-table](https://github.com/x-extends/vxe-table) ⭐: 7744 ⌨️: TypeScript	`cell` `checkbox` `editable` `form` `grid` `input` `modal` `pager` `radio` `select` `switch` `table` `toolbar` `vue` `vue-table` `vxe-grid` `vxe-table` `vxe-ui`
 
 	vxe-table 是一个基于 Vue.js 的开源表格组件，提供丰富的功能和灵活的配置，适用于各种复杂的表格场景。它支持分页、排序、筛选、编辑、自定义模板等功能，同时提供了丰富的 API 和文档，方便开发者快速定制和集成。
 
-37. [thx/rap2-delos](https://github.com/thx/rap2-delos) ⭐: 7655 ⌨️: TypeScript
-
-	Rap2 Delos是一个开源的接口管理工具，用于创建、管理和共享API接口文档。它提供了用户友好的界面和多种功能，包括接口管理、Mock数据生成、权限管理等，可帮助团队更好地管理接口文档和进行接口测试。
-
-38. [dream-num/univer](https://github.com/dream-num/univer) ⭐: 7651 ⌨️: TypeScript	`appscript` `collaboration` `data-table` `doc` `document` `excel` `grid` `live-share` `office` `powerpoint` `ppt` `productivity` `sdk` `sheet` `slide` `spreadsheet` `word` `xlsx`
+37. [dream-num/univer](https://github.com/dream-num/univer) ⭐: 7657 ⌨️: TypeScript	`appscript` `collaboration` `data-table` `doc` `document` `excel` `grid` `live-share` `office` `powerpoint` `ppt` `productivity` `sdk` `sheet` `slide` `spreadsheet` `word` `xlsx`
 
 	Univer 是一个基于 Vue.js 和 Element UI 的大学管理系统。它提供了学生、教师、课程、成绩等管理功能，方便大学管理人员进行信息管理和数据分析。
 
-39. [jackyzha0/quartz](https://github.com/jackyzha0/quartz) ⭐: 7543 ⌨️: TypeScript	`digital-garden` `networked-thought` `obsidian` `obsidian-md` `quartz-ssg` `static-site-generator`
+38. [thx/rap2-delos](https://github.com/thx/rap2-delos) ⭐: 7655 ⌨️: TypeScript
+
+	Rap2 Delos是一个开源的接口管理工具，用于创建、管理和共享API接口文档。它提供了用户友好的界面和多种功能，包括接口管理、Mock数据生成、权限管理等，可帮助团队更好地管理接口文档和进行接口测试。
+
+39. [jackyzha0/quartz](https://github.com/jackyzha0/quartz) ⭐: 7544 ⌨️: TypeScript	`digital-garden` `networked-thought` `obsidian` `obsidian-md` `quartz-ssg` `static-site-generator`
 
 	Quartz 是一个在 Java 应用程序中实现作业调度和任务管理的开源框架。它提供了灵活的调度器和丰富的API，允许开发人员轻松地管理复杂的作业调度需求。Quartz 支持基于 cron 表达式的作业调度、集群环境下的分布式调度、作业持久化等功能，被广泛应用于各种企业级应用中。
 
-40. [alibaba/x-render](https://github.com/alibaba/x-render) ⭐: 7126 ⌨️: TypeScript	`ant` `ant-design` `chart` `form` `formrender` `javascript` `json-schema` `list` `react` `table` `typescript` `webpack` `widget`
+40. [alibaba/x-render](https://github.com/alibaba/x-render) ⭐: 7128 ⌨️: TypeScript	`ant` `ant-design` `chart` `form` `formrender` `javascript` `json-schema` `list` `react` `table` `typescript` `webpack` `widget`
 
 	X-Render项目是阿里巴巴开发的一个用于构建高性能、高可扩展性的前端页面渲染引擎。它提供了丰富的组件和模板功能，可以快速构建复杂的前端页面，并且支持服务端渲染和客户端渲染。通过 X-Render，开发者可以更加高效地开发和维护大规模的前端页面。
 
@@ -5378,23 +5378,23 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	gridstack.js是一个基于网格布局的JavaScript库，可帮助开发者轻松地创建可拖拽、可调整大小的响应式网格布局。它支持自定义网格大小、各种组件和小部件的自由拖放，以及多种布局配置选项。gridstack.js还提供了丰富的API和事件处理器，使得网格布局的创建和管理变得更加灵活和高效。
 
-42. [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources) ⭐: 6911 ⌨️: TypeScript	`diyp` `docker` `iptv` `iptv-channels` `iptv-m3u` `kodi` `m3u` `tvbox`
+42. [HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources) ⭐: 6914 ⌨️: TypeScript	`diyp` `docker` `iptv` `iptv-channels` `iptv-m3u` `kodi` `m3u` `tvbox`
 
 	这个项目是一个汇总了各种各样的IPTV（Internet Protocol Television）频道源的资源库。它包括了来自全球各地的电视直播频道源，并提供了相应的URL链接，用户可以通过这些链接观看各种电视频道的直播节目。
 
-43. [yinxin630/fiora](https://github.com/yinxin630/fiora) ⭐: 6746 ⌨️: TypeScript	`chat` `chatroom` `fiora` `mongodb` `react` `socket`
+43. [yinxin630/fiora](https://github.com/yinxin630/fiora) ⭐: 6745 ⌨️: TypeScript	`chat` `chatroom` `fiora` `mongodb` `react` `socket`
 
 	fiora 是一个基于 WebSocket 和 WebRTC 的即时通讯应用，具有实时聊天、图片、视频传输、在线状态等功能。它使用 Node.js、MongoDB 和 React 技术栈构建，提供了一套完善的前后端解决方案，方便开发者搭建自己的即时通讯应用。
 
-44. [jakearchibald/idb](https://github.com/jakearchibald/idb) ⭐: 6487 ⌨️: TypeScript
+44. [jakearchibald/idb](https://github.com/jakearchibald/idb) ⭐: 6488 ⌨️: TypeScript
 
 	idb是一个简单易用的JavaScript IndexedDB库，它提供了更加直观和简化的API，让开发者能够更容易地使用IndexedDB来存储客户端数据。它还提供了更好的错误处理和更易于使用的事务管理功能。
 
-45. [gaozhangmin/aliyunpan](https://github.com/gaozhangmin/aliyunpan) ⭐: 5965 ⌨️: TypeScript	`electron-app` `linux` `macos` `typescript` `vue3` `windows`
+45. [gaozhangmin/aliyunpan](https://github.com/gaozhangmin/aliyunpan) ⭐: 5966 ⌨️: TypeScript	`electron-app` `linux` `macos` `typescript` `vue3` `windows`
 
 	这个项目是阿里云盘的命令行工具，可以通过命令行来管理和操作阿里云盘中的文件和文件夹，包括上传、下载、删除、重命名等功能。这个工具能够帮助用户更方便地管理他们在阿里云盘中的文件。
 
-46. [isaacs/rimraf](https://github.com/isaacs/rimraf) ⭐: 5684 ⌨️: TypeScript
+46. [isaacs/rimraf](https://github.com/isaacs/rimraf) ⭐: 5685 ⌨️: TypeScript
 
 	rimraf 是一个用于在 Node.js 环境中递归删除文件和文件夹的工具，可以安全、可靠地删除指定路径下的所有内容。该工具能够解决跨平台删除文件时可能出现的一些问题，是开发中常用的清理工具之一。
 
@@ -5406,15 +5406,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个基于区块链技术的数字证书管理系统，用于管理和验证各种类型的数字证书。它提供了一个安全的、去中心化的平台，可以存储和验证证书的真实性，确保证书的安全和可靠性。通过区块链技术，可以有效防止证书的篡改和伪造，提高了证书的可信度和可追溯性。
 
-49. [ineo6/hosts](https://github.com/ineo6/hosts) ⭐: 4978 ⌨️: TypeScript	`github` `hosts` `hosts-file`
+49. [ineo6/hosts](https://github.com/ineo6/hosts) ⭐: 4979 ⌨️: TypeScript	`github` `hosts` `hosts-file`
 
 	该项目是一个包含广告屏蔽和恶意网站屏蔽的Hosts文件集合。通过在Hosts文件中添加指定的域名和IP映射关系，可以屏蔽一些广告和恶意网站的访问。这个项目的目的是提供一个可选的、简单的方法来阻止不必要的广告和恶意网站，改善用户的网页浏览体验。 Hosts文件是一个计算机文件，用于在IP地址和域名之间建立关联，以便快速解析域名。
 
-50. [XPoet/picx](https://github.com/XPoet/picx) ⭐: 4657 ⌨️: TypeScript	`cdn` `cloudflare` `github-api` `image-hosting` `image-toolbox` `jsdelivr` `picx` `staticaly`
+50. [XPoet/picx](https://github.com/XPoet/picx) ⭐: 4658 ⌨️: TypeScript	`cdn` `cloudflare` `github-api` `image-hosting` `image-toolbox` `jsdelivr` `picx` `staticaly`
 
 	PicX 是一个基于 Rust 编写的开源图片存储和处理服务，集成了七牛、腾讯云、阿里云等云存储服务，支持在不同云存储服务间切换，提供图像处理、CDN 加速等功能。PicX 提供了简单易用的 API 和 Web 界面，方便用户上传、处理和管理图片。
 
-51. [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) ⭐: 4519 ⌨️: TypeScript
+51. [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) ⭐: 4521 ⌨️: TypeScript
 
 	Remotely Save 是一个基于JavaScript的远程数据存储库，可以在Web应用程序中轻松地将数据存储到远程服务器上。它提供了简单易用的API，支持对数据的存储和检索操作，可以帮助开发人员轻松实现数据的远程存储和管理。
 
@@ -5422,31 +5422,31 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个用于从TikTok爬取数据的工具，可以获取用户信息、视频信息和评论等数据。用户可以使用该工具轻松地获取TikTok上的各种信息，为数据分析和研究提供便利。
 
-53. [zh-lx/pinyin-pro](https://github.com/zh-lx/pinyin-pro) ⭐: 3978 ⌨️: TypeScript	`hanzi` `hanzi-pinyin` `hanzi2pinyin` `js-pinyin` `pinyin` `pinyin-match` `pinyin-pro`
+53. [zh-lx/pinyin-pro](https://github.com/zh-lx/pinyin-pro) ⭐: 3979 ⌨️: TypeScript	`hanzi` `hanzi-pinyin` `hanzi2pinyin` `js-pinyin` `pinyin` `pinyin-match` `pinyin-pro`
 
 	这个项目是一个基于 Python 的汉字转拼音库，可以将汉字转换成对应的拼音。它支持多种不同的拼音风格和声调标注方式，并且可以方便地集成到其他的 Python 项目中使用。
 
-54. [meowtec/Imagine](https://github.com/meowtec/Imagine) ⭐: 3739 ⌨️: TypeScript	`cross-platform` `desktop` `image-compression` `jpeg` `jpegmini` `linux-app` `macos` `pngquant` `save-for-web` `tinypng` `webp`
+54. [meowtec/Imagine](https://github.com/meowtec/Imagine) ⭐: 3740 ⌨️: TypeScript	`cross-platform` `desktop` `image-compression` `jpeg` `jpegmini` `linux-app` `macos` `pngquant` `save-for-web` `tinypng` `webp`
 
 	Imagine是一个基于Go语言开发的图像处理工具库，提供了丰富的图像处理功能，包括缩放、裁剪、旋转、滤镜等。它使用简单，并且具有高效的性能，适用于处理大规模图像数据。
 
-55. [codebdy/rxdrag](https://github.com/codebdy/rxdrag) ⭐: 3727 ⌨️: TypeScript
+55. [codebdy/rxdrag](https://github.com/codebdy/rxdrag) ⭐: 3728 ⌨️: TypeScript
 
 	这个项目是一个基于RxJava和Drag功能的Android库，可以帮助开发者实现拖拽操作。它提供了简单易用的API，可以轻松地将拖拽功能集成到Android应用中。
 
-56. [Qsnh/meedu](https://github.com/Qsnh/meedu) ⭐: 3603 ⌨️: TypeScript
+56. [Qsnh/meedu](https://github.com/Qsnh/meedu) ⭐: 3602 ⌨️: TypeScript
 
 	MeEdu是一个开源的在线教育平台，使用Laravel框架开发，主要用于构建个人在线教育网站。它提供了课程管理、视频播放、在线考试、支付接口等功能，方便用户自行搭建并运营自己的在线教育平台。 MeEdu的目标是让个人或机构能够快速搭建属于自己的在线教育网站。
 
-57. [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) ⭐: 3439 ⌨️: TypeScript	`antd` `application` `clipboard` `clipboard-manager` `cross-platform` `desktop-app` `desktop-application` `linux` `macos` `rust` `tauri` `windows`
+57. [EcoPasteHub/EcoPaste](https://github.com/EcoPasteHub/EcoPaste) ⭐: 3444 ⌨️: TypeScript	`antd` `application` `clipboard` `clipboard-manager` `cross-platform` `desktop-app` `desktop-application` `linux` `macos` `rust` `tauri` `windows`
 
 	EcoPaste是一个开源的，旨在构建一个环保和可持续的粘贴网站的项目。它使用环保技术来提高粘贴文本的可持续性，并鼓励用户使用可再生和环保的材料。EcoPaste旨在促进环保意识，并推动环保行为。
 
-58. [surmon-china/vue-codemirror](https://github.com/surmon-china/vue-codemirror) ⭐: 3315 ⌨️: TypeScript	`code-editor` `code-editor-component` `codemirror` `codemirror-component` `codemirror-editor` `codemirror-themes` `vue` `vue-code-editor` `vue-codemirror` `vue-component` `vue-plugin` `vue3` `vuejs` `web-editor`
+58. [surmon-china/vue-codemirror](https://github.com/surmon-china/vue-codemirror) ⭐: 3316 ⌨️: TypeScript	`code-editor` `code-editor-component` `codemirror` `codemirror-component` `codemirror-editor` `codemirror-themes` `vue` `vue-code-editor` `vue-codemirror` `vue-component` `vue-plugin` `vue3` `vuejs` `web-editor`
 
 	这个项目是一个基于Vue.js的代码编辑器组件，使用了CodeMirror库，提供了代码高亮、自动补全、折叠等功能，可以轻松集成到Vue.js项目中，方便用户编辑各种类型的代码。
 
-59. [BilibiliVideoDownload/BilibiliVideoDownload](https://github.com/BilibiliVideoDownload/BilibiliVideoDownload) ⭐: 3144 ⌨️: TypeScript	`ant-design-vue` `bilibili-download` `electron` `electron-builder` `ffmpeg-installer` `node-js` `typescript` `vuejs`
+59. [BilibiliVideoDownload/BilibiliVideoDownload](https://github.com/BilibiliVideoDownload/BilibiliVideoDownload) ⭐: 3146 ⌨️: TypeScript	`ant-design-vue` `bilibili-download` `electron` `electron-builder` `ffmpeg-installer` `node-js` `typescript` `vuejs`
 
 	这个项目是一个用Python编写的工具，可以帮助用户下载Bilibili上的视频。用户可以通过该工具输入B站视频的链接，然后下载视频到本地进行观看。
 
@@ -5454,11 +5454,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Piping Server是一个基于Piping技术的服务器，可以轻松将数据从一台计算机流式传输到另一台计算机。它使用WebSockets进行实时数据传输，无需存储数据。 Piping Server可以让用户快速方便地在不同设备之间共享数据。 
 
-61. [takayama-lily/oicq](https://github.com/takayama-lily/oicq) ⭐: 2677 ⌨️: TypeScript	`coolq` `im` `nodejs` `onebot` `qqbot` `tcp-client`
+61. [takayama-lily/oicq](https://github.com/takayama-lily/oicq) ⭐: 2676 ⌨️: TypeScript	`coolq` `im` `nodejs` `onebot` `qqbot` `tcp-client`
 
 	这个项目是一个用Java语言编写的OICQ协议（QQ协议）的实现，可以帮助开发者实现与QQ通讯的功能。它提供了一个简单的接口，可以轻松地与QQ进行通讯。
 
-62. [LLOneBot/LLOneBot](https://github.com/LLOneBot/LLOneBot) ⭐: 2206 ⌨️: TypeScript	`llob` `llonebot` `onebot` `onebot11` `qqbot` `satori`
+62. [LLOneBot/LLOneBot](https://github.com/LLOneBot/LLOneBot) ⭐: 2209 ⌨️: TypeScript	`llob` `llonebot` `onebot` `onebot11` `qqbot` `satori`
 
 	LLOneBot是一个基于Python的多功能QQ机器人框架，它提供了丰富的插件和功能，可以用于编写自定义的QQ机器人应用。用户可以使用LLOneBot来开发和部署各种自动化任务、聊天机器人、群管理工具等应用。LLOneBot具有高度的可扩展性和灵活性，是一个强大的QQ机器人开发工具。
 
@@ -5482,19 +5482,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个基于Vue.js和Node.js的实时聊天应用程序。用户可以注册账户，在线聊天，发送消息和图片，创建群组，以及查看在线用户列表。该项目使用了Socket.io实现实时通讯，同时还包括了用户认证，数据库存储等功能。
 
-68. [ourongxing/newsnow](https://github.com/ourongxing/newsnow) ⭐: 1925 ⌨️: TypeScript	`elegant` `news`
+68. [ourongxing/newsnow](https://github.com/ourongxing/newsnow) ⭐: 1928 ⌨️: TypeScript	`elegant` `news`
 
 	这个项目是一个名为NewsNow的新闻聚合网站，它从多个新闻源收集、整合和展示新闻文章。使用者可以通过这个网站快速浏览最新的新闻，而无需访问多个不同的新闻网站。
 
-69. [VisActor/VTable](https://github.com/VisActor/VTable) ⭐: 1860 ⌨️: TypeScript	`canvas-table` `data-analysis` `data-visualization` `database` `datagrid` `grid` `javascript-table` `javescript` `list-table` `list-tree` `online-excel` `pivot-chart` `pivot-grid` `pivot-tables` `react-table` `sparklines` `spreadsheet` `tree-table` `visualization` `vue-table`
+69. [VisActor/VTable](https://github.com/VisActor/VTable) ⭐: 1861 ⌨️: TypeScript	`canvas-table` `data-analysis` `data-visualization` `database` `datagrid` `grid` `javascript-table` `javescript` `list-table` `list-tree` `online-excel` `pivot-chart` `pivot-grid` `pivot-tables` `react-table` `sparklines` `spreadsheet` `tree-table` `visualization` `vue-table`
 
 	VTable是一个基于C++的轻量级反射库，用于在运行时获取类的成员信息和调用成员函数。它可以帮助开发者在编译期间和运行时进行反射操作，提供更灵活的代码设计和更高效的开发体验。
 
-70. [michaeljohnn/excalidraw-cn](https://github.com/michaeljohnn/excalidraw-cn) ⭐: 1845 ⌨️: TypeScript	`canvas` `chinese-fonts` `draw` `excalidraw` `hand` `handraw` `whiteboard`
+70. [michaeljohnn/excalidraw-cn](https://github.com/michaeljohnn/excalidraw-cn) ⭐: 1847 ⌨️: TypeScript	`canvas` `chinese-fonts` `draw` `excalidraw` `hand` `handraw` `whiteboard`
 
 	Excalidraw-cn 是一个基于 Excalidraw 的中文版，提供了中文 UI 支持，并且整合了更多适合中国用户的功能和资源，为用户提供了更加方便的绘图体验。
 
-71. [ipfs/public-gateway-checker](https://github.com/ipfs/public-gateway-checker) ⭐: 1830 ⌨️: TypeScript	`ipfs` `ipfs-gui`
+71. [ipfs/public-gateway-checker](https://github.com/ipfs/public-gateway-checker) ⭐: 1831 ⌨️: TypeScript	`ipfs` `ipfs-gui`
 
 	IPFS公共网关检查器是一个开源项目，用于检查不同IPFS公共网关的可用性和性能。它可以帮助用户选择最适合其需求的IPFS公共网关，并提高文件访问速度和稳定性。
 
@@ -5510,15 +5510,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	rgbaster.js 是一个可以从图片中提取主要颜色的 JavaScript 库。它通过分析图片中的像素来确定主要的颜色，并且可以用于创建配色方案、生成色彩亮度等应用。
 
-75. [coder-hxl/x-crawl](https://github.com/coder-hxl/x-crawl) ⭐: 1589 ⌨️: TypeScript	`ai` `ai-crawl` `chromium` `crawl` `crawler` `fingerprint` `flexible` `javascript` `multifunction` `nodejs` `puppeteer` `spider` `typescript`
-
-	这个项目是一个基于 Python 的网络爬虫工具，可以用来从网页上抓取数据并进行数据分析。它具有灵活的配置选项和多种功能，可以应用于各种网络爬取任务。
-
-76. [baiy/Ctool](https://github.com/baiy/Ctool) ⭐: 1587 ⌨️: TypeScript	`chrome-extension` `crx` `developer-tools` `development` `electron-app` `firefox-extension` `qrcode`
+75. [baiy/Ctool](https://github.com/baiy/Ctool) ⭐: 1589 ⌨️: TypeScript	`chrome-extension` `crx` `developer-tools` `development` `electron-app` `firefox-extension` `qrcode`
 
 	Ctool是一个用C语言编写的轻量级工具库，包含了一些常用的数据结构和算法实现，可以帮助C语言开发者更方便地进行编程。
 
-77. [pages-cms/pages-cms](https://github.com/pages-cms/pages-cms) ⭐: 1569 ⌨️: TypeScript	`11ty` `astro` `cms` `docusaurus` `eleventy` `gatsby` `hugo` `jekyll` `nextjs` `ssg` `static-site` `static-site-generator` `vitepress` `vue` `vuejs` `vuejs3` `vuepress`
+76. [coder-hxl/x-crawl](https://github.com/coder-hxl/x-crawl) ⭐: 1589 ⌨️: TypeScript	`ai` `ai-crawl` `chromium` `crawl` `crawler` `fingerprint` `flexible` `javascript` `multifunction` `nodejs` `puppeteer` `spider` `typescript`
+
+	这个项目是一个基于 Python 的网络爬虫工具，可以用来从网页上抓取数据并进行数据分析。它具有灵活的配置选项和多种功能，可以应用于各种网络爬取任务。
+
+77. [pages-cms/pages-cms](https://github.com/pages-cms/pages-cms) ⭐: 1570 ⌨️: TypeScript	`11ty` `astro` `cms` `docusaurus` `eleventy` `gatsby` `hugo` `jekyll` `nextjs` `ssg` `static-site` `static-site-generator` `vitepress` `vue` `vuejs` `vuejs3` `vuepress`
 
 	Pages CMS是一个基于GitHub Pages的内容管理系统，它使用Markdown来创建和管理网站内容。用户可以通过简单的命令来添加、编辑和发布内容，而无需编写HTML或CSS。Pages CMS可以帮助开发者快速搭建静态网站，管理和更新网站内容。
 
@@ -5526,11 +5526,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Pageplug是一个基于Vue3的页面插件库，支持快速构建页面元素和组件。它提供了丰富的组件和模板，可以帮助开发者快速构建页面，提高开发效率。同时，Pageplug还支持自定义主题和组件样式，让页面设计更加灵活。
 
-79. [oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden) ⭐: 1453 ⌨️: TypeScript
+79. [oleeskild/obsidian-digital-garden](https://github.com/oleeskild/obsidian-digital-garden) ⭐: 1454 ⌨️: TypeScript
 
 	这个项目是一个基于Obsidian笔记应用的数字化花园模板。数字化花园是一个个人知识管理系统，帮助用户组织和连接他们的思想和信息。这个模板提供了一个结构化的方式来创建和管理数字化花园，包括定义关键概念、创建连接和跟踪想法的演变。
 
-80. [Super-Badmen-Viper/NSMusicS](https://github.com/Super-Badmen-Viper/NSMusicS) ⭐: 1397 ⌨️: TypeScript	`audio-player` `deep-learning` `emby` `jellyfin` `librosa` `media-server` `music` `music-player` `music-server` `naiveui` `navidrome` `nsmusics` `player` `server` `vue3`
+80. [Super-Badmen-Viper/NSMusicS](https://github.com/Super-Badmen-Viper/NSMusicS) ⭐: 1399 ⌨️: TypeScript	`audio-player` `deep-learning` `emby` `jellyfin` `librosa` `media-server` `music` `music-player` `music-server` `naiveui` `navidrome` `nsmusics` `player` `server` `vue3`
 
 	NSMusicS是一个使用Swift编写的音乐播放器应用程序，具有播放、暂停、快进、快退和播放列表等基本功能。它提供了一个简单而直观的用户界面，使用户可以轻松地管理和播放他们的音乐。
 
@@ -5542,11 +5542,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个针对TikTok平台的非官方API库，可以用来通过Python访问和操作TikTok的数据和功能。它提供了一系列接口，可以获取用户信息、视频信息，以及进行搜索和交互。这个项目可以帮助开发者在他们的应用中集成TikTok的数据和功能。
 
-83. [ipid/unlock-music](https://github.com/ipid/unlock-music) ⭐: 1079 ⌨️: TypeScript
+83. [ipid/unlock-music](https://github.com/ipid/unlock-music) ⭐: 1080 ⌨️: TypeScript
 
 	这个项目是一个基于Python的解锁音乐工具，可以帮助用户解锁各种音乐平台上的加密音乐文件，让用户能够自由地转存和播放音乐。
 
-84. [all-in-aigc/sorafm](https://github.com/all-in-aigc/sorafm) ⭐: 971 ⌨️: TypeScript	`ai-video-generator` `ai-video-showcase` `sora`
+84. [all-in-aigc/sorafm](https://github.com/all-in-aigc/sorafm) ⭐: 972 ⌨️: TypeScript	`ai-video-generator` `ai-video-showcase` `sora`
 
 	Sorafm是一个基于Python的音频处理工具，它提供了几种常见的音频处理功能，包括音频格式转换、音频剪辑和音频合并等。通过Sorafm，用户可以方便地对音频文件进行处理和编辑。
 
@@ -5558,7 +5558,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Flowershow是一个基于JavaScript的数据可视化工具，用于创建漂亮的、可定制的图表和可视化数据。它提供了丰富的图表类型和样式，并支持动态数据更新和交互式操作。通过使用Flowershow，用户可以快速轻松地展示和分享数据。
 
-87. [fancyapps/ui](https://github.com/fancyapps/ui) ⭐: 838 ⌨️: TypeScript	`carousel` `fancybox` `gallery` `javascript` `lightbox` `panzoom`
+87. [fancyapps/ui](https://github.com/fancyapps/ui) ⭐: 839 ⌨️: TypeScript	`carousel` `fancybox` `gallery` `javascript` `lightbox` `panzoom`
 
 	这是一个名为 FancyBox 的 JavaScript 工具，用于创建漂亮的弹出窗口和响应式的图片画廊。它易于集成到网站中，并支持相册、视频和内联内容的弹出窗口效果。
 
@@ -5570,7 +5570,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这个项目是一个用Python编写的库，用于从任天堂Switch的eshop中获取游戏信息和价格。它可以帮助开发者创建任天堂Switch游戏相关的应用或工具。
 
-90. [mubaidr/vite-vue3-browser-extension-v3](https://github.com/mubaidr/vite-vue3-browser-extension-v3) ⭐: 513 ⌨️: TypeScript	`chrome` `extension` `hacktoberfest` `vite` `vue3` `webextension`
+90. [mubaidr/vite-vue3-browser-extension-v3](https://github.com/mubaidr/vite-vue3-browser-extension-v3) ⭐: 514 ⌨️: TypeScript	`chrome` `extension` `hacktoberfest` `vite` `vue3` `webextension`
 
 	这个项目是一个基于Vite和Vue3开发的浏览器扩展框架。它提供了一个快速搭建浏览器扩展的脚手架，使用Vue3来开发扩展的前端界面，同时利用Vite进行高效的构建和打包。这个项目让开发者能够更轻松地创建现代化的浏览器扩展。
 
@@ -5590,7 +5590,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个名为 wallpaper-box 的项目，它是一个用 Python 编写的命令行工具，用于从 Unsplash 网站上下载高分辨率的壁纸。用户可以根据关键词来搜索并下载自己喜欢的壁纸，是一个方便快捷获取壁纸的实用工具。
 
-95. [Kchengz/epic-designer](https://github.com/Kchengz/epic-designer) ⭐: 330 ⌨️: TypeScript
+95. [Kchengz/epic-designer](https://github.com/Kchengz/epic-designer) ⭐: 331 ⌨️: TypeScript
 
 	这个项目是一个名为"epic-designer"的开源项目，它是一个基于React的前端设计系统。它提供了丰富的UI组件和样式，方便开发者快速构建漂亮的用户界面。通过这个项目，开发者可以轻松地定制和设计自己的页面，提升用户体验。
 
@@ -5646,7 +5646,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Roff
 ---
 
-0. [pyenv/pyenv](https://github.com/pyenv/pyenv) ⭐: 39918 ⌨️: Roff	`python` `shell`
+0. [pyenv/pyenv](https://github.com/pyenv/pyenv) ⭐: 39923 ⌨️: Roff	`python` `shell`
 
 	Pyenv 是一个简单的 Python 版本管理工具，可以帮助用户在同一台机器上管理多个 Python 版本。它允许用户在不同的项目中使用不同的 Python 版本，同时还可以安装和管理不同版本的 Python 解释器。
 
@@ -5658,11 +5658,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Ruby
 ---
 
-0. [discourse/discourse](https://github.com/discourse/discourse) ⭐: 42642 ⌨️: Ruby	`discourse` `ember` `forum` `javascript` `postgresql` `rails` `ruby`
+0. [discourse/discourse](https://github.com/discourse/discourse) ⭐: 42645 ⌨️: Ruby	`discourse` `ember` `forum` `javascript` `postgresql` `rails` `ruby`
 
 	Discourse 是一个开源的现代化论坛和社区软件平台，采用 Ruby on Rails 构建。它具有可扩展性、灵活性和友好的用户界面，支持丰富的社交功能和自定义主题。Discourse 也注重安全性和性能优化，并且有活跃的开发社区和持续的更新支持。
 
-1. [Mark24Code/rime-auto-deploy](https://github.com/Mark24Code/rime-auto-deploy) ⭐: 1308 ⌨️: Ruby	`cli` `cli-app` `comand-line` `command-line-tool` `repl` `rime` `rime-config` `ruby` `terminal` `toolkit`
+1. [Mark24Code/rime-auto-deploy](https://github.com/Mark24Code/rime-auto-deploy) ⭐: 1310 ⌨️: Ruby	`cli` `cli-app` `comand-line` `command-line-tool` `repl` `rime` `rime-config` `ruby` `terminal` `toolkit`
 
 	rime-auto-deploy是一个基于Github Actions的自动部署工具，用于在代码提交后自动部署到服务器上。用户只需配置简单的yaml文件，即可实现CI/CD自动化部署流程，大大简化了部署的流程，提高了开发效率。
 
@@ -5710,39 +5710,39 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Rust
 ---
 
-0. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐: 77770 ⌨️: Rust	`anydesk` `dart` `flutter` `flutter-apps` `flutter-desktop` `flutter-examples` `flutter-mobile` `flutter-ui` `flutter-web` `hacktoberfest` `linux` `p2p` `rdp` `remote-control` `remote-desktop` `rust` `rust-lang` `teamviewer` `vnc` `wayland`
+0. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐: 77786 ⌨️: Rust	`anydesk` `dart` `flutter` `flutter-apps` `flutter-desktop` `flutter-examples` `flutter-mobile` `flutter-ui` `flutter-web` `hacktoberfest` `linux` `p2p` `rdp` `remote-control` `remote-desktop` `rust` `rust-lang` `teamviewer` `vnc` `wayland`
 
 	RustDesk是一个基于Rust编写的远程桌面软件，允许用户通过安全的连接远程访问和控制其他计算机。它支持跨平台，并提供简单易用的用户界面和安全的加密通信。RustDesk旨在提供稳定可靠的远程桌面解决方案，适用于个人用户和企业环境。
 
-1. [lencx/ChatGPT](https://github.com/lencx/ChatGPT) ⭐: 53256 ⌨️: Rust	`ai` `app` `application` `chatgpt` `desktop-app` `gpt` `gpt-3` `linux` `macos` `notes-app` `openai` `rust` `tauri` `webview` `windows`
+1. [lencx/ChatGPT](https://github.com/lencx/ChatGPT) ⭐: 53259 ⌨️: Rust	`ai` `app` `application` `chatgpt` `desktop-app` `gpt` `gpt-3` `linux` `macos` `notes-app` `openai` `rust` `tauri` `webview` `windows`
 
 	ChatGPT是一个基于GPT模型的聊天机器人项目，可以通过命令行或API与用户进行对话交流。它使用Python编写，支持多种模型和数据集，并且提供了简单易用的接口，便于用户进行定制和扩展。
 
-2. [zed-industries/zed](https://github.com/zed-industries/zed) ⭐: 51604 ⌨️: Rust	`gpui` `rust-lang` `text-editor` `zed`
+2. [zed-industries/zed](https://github.com/zed-industries/zed) ⭐: 51608 ⌨️: Rust	`gpui` `rust-lang` `text-editor` `zed`
 
 	ZED是一个用于深度学习的开源框架，旨在帮助开发人员构建和训练自己的神经网络模型。它提供了丰富的工具和功能，包括数据处理、模型构建、训练和评估等。ZED旨在简化神经网络的开发流程，让开发人员能够更轻松地创建高质量的深度学习模型。
 
-3. [starship/starship](https://github.com/starship/starship) ⭐: 45916 ⌨️: Rust	`bash` `fish` `fish-prompt` `fish-theme` `oh-my-zsh` `powershell` `rust` `shell-prompt` `starship` `zsh` `zsh-prompt` `zsh-theme`
+3. [starship/starship](https://github.com/starship/starship) ⭐: 45922 ⌨️: Rust	`bash` `fish` `fish-prompt` `fish-theme` `oh-my-zsh` `powershell` `rust` `shell-prompt` `starship` `zsh` `zsh-prompt` `zsh-theme`
 
 	Starship 是一个轻量级、快速、跨平台的命令行提示符工具，用于美化命令行界面并提供有用的系统信息，如当前目录、Git 分支、Node.js 版本等。其简单易用的配置和丰富的插件支持，使其成为命令行界面美化的首选工具。
 
-4. [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ⭐: 40009 ⌨️: Rust	`bitwarden` `bitwarden-rs` `docker` `hacktoberfest` `rocket` `rust` `vaultwarden`
+4. [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ⭐: 40013 ⌨️: Rust	`bitwarden` `bitwarden-rs` `docker` `hacktoberfest` `rocket` `rust` `vaultwarden`
 
 	Vaultwarden是一个基于开源项目Bitwarden RS的密码管理器，可以让用户安全地存储和分享密码和敏感信息。它利用加密技术保护数据安全，并提供方便的用户界面和功能。Vaultwarden支持多平台部署和自定义设置，是一个强大而灵活的密码管理解决方案。
 
-5. [tw93/Pake](https://github.com/tw93/Pake) ⭐: 33606 ⌨️: Rust	`chatgpt` `gpt-4` `high-performance` `linux-desktop` `mac` `mac-desktop` `music` `no-electron` `open` `openai` `poe` `productivity` `programming` `rust` `tauri` `twitter` `webview` `windows-desktop` `youtube`
+5. [tw93/Pake](https://github.com/tw93/Pake) ⭐: 33609 ⌨️: Rust	`chatgpt` `gpt-4` `high-performance` `linux-desktop` `mac` `mac-desktop` `music` `no-electron` `open` `openai` `poe` `productivity` `programming` `rust` `tauri` `twitter` `webview` `windows-desktop` `youtube`
 
 	Pake是一个用于构建命令行工具和项目脚手架的工具库，它提供了一些常见的工具函数和模板，可以帮助开发者快速搭建和定制自己的命令行工具和项目脚手架。Pake使用简单，功能丰富，适用于各种类型的项目和需求。
 
-6. [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) ⭐: 26508 ⌨️: Rust	`fish` `shell` `terminal`
+6. [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) ⭐: 26513 ⌨️: Rust	`fish` `shell` `terminal`
 
 	fish-shell是一个用户友好的命令行 shell，具有强大的自动补全和语法高亮功能。它易于配置和使用，适合日常命令行操作和脚本编写。fish-shell的特点包括简洁的语法和友好的错误提示，是许多用户喜爱的替代性shell。
 
-7. [lsd-rs/lsd](https://github.com/lsd-rs/lsd) ⭐: 13717 ⌨️: Rust	`color` `icons` `ls` `nerd-fonts` `rust`
+7. [lsd-rs/lsd](https://github.com/lsd-rs/lsd) ⭐: 13720 ⌨️: Rust	`color` `icons` `ls` `nerd-fonts` `rust`
 
 	LSD是一个使用Rust编程语言开发的线性扫描算法库，用于在点云数据中检测局部几何结构。它可以用于计算机视觉和机器学习任务，如物体识别、环境建模和SLAM（同时定位与地图构建）。
 
-8. [rapiz1/rathole](https://github.com/rapiz1/rathole) ⭐: 9937 ⌨️: Rust	`firewall` `frp` `http` `nat` `network` `ngrok` `noise` `noise-protocol` `proxy` `rust` `tunnel`
+8. [rapiz1/rathole](https://github.com/rapiz1/rathole) ⭐: 9939 ⌨️: Rust	`firewall` `frp` `http` `nat` `network` `ngrok` `noise` `noise-protocol` `proxy` `rust` `tunnel`
 
 	rathole是一个用于在Linux系统上隐藏进程的工具。通过使用rathole，用户可以隐藏指定进程，使其不在系统监控工具中可见。这对于一些特定的使用场景可能是有用的，但请注意使用此工具可能会导致安全风险。
 
@@ -5750,7 +5750,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	该项目是一个基于WebDAV协议的阿里云盘客户端，使用Node.js编写。它允许用户将阿里云盘挂载为本地文件系统，方便用户通过常规文件管理工具管理阿里云盘中的文件。
 
-10. [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) ⭐: 6946 ⌨️: Rust	`remote-access` `remote-control` `remote-desktop` `tauri`
+10. [rustdesk/rustdesk-server](https://github.com/rustdesk/rustdesk-server) ⭐: 6948 ⌨️: Rust	`remote-access` `remote-control` `remote-desktop` `tauri`
 
 	RustDesk是一个开源的远程桌面软件，使用Rust编程语言开发。这个项目是它的服务端部分，用于管理和提供远程桌面连接。
 
@@ -5758,7 +5758,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Ninja是一个基于Python的快速、可扩展的构建系统，用于自动化项目的构建和打包。它支持跨平台运行，并且易于配置和使用。Ninja的主要目标是提供高效的构建过程，从而加快开发流程并提高项目的整体效率。
 
-12. [PoloDB/PoloDB](https://github.com/PoloDB/PoloDB) ⭐: 947 ⌨️: Rust	`cross-platform` `database` `document-database` `embedded-database` `localfirst` `nosql` `rust`
+12. [PoloDB/PoloDB](https://github.com/PoloDB/PoloDB) ⭐: 948 ⌨️: Rust	`cross-platform` `database` `document-database` `embedded-database` `localfirst` `nosql` `rust`
 
 	PoloDB是一个用于 Node.js 的轻量级嵌入式数据库，具有快速、可靠和易于使用的特点。它支持多种数据类型和查询操作，适用于小型应用和嵌入式设备。
 
@@ -5770,11 +5770,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Pascal
 ---
 
-0. [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) ⭐: 15228 ⌨️: Pascal
+0. [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) ⭐: 15229 ⌨️: Pascal
 
 	Cheat Engine 是一个开源的内存扫描工具，可以用于修改单机游戏中的变量值，实现作弊、修改游戏难度等功能。它提供了强大的内存调试和修改功能，并支持脚本编写和高级调试功能。
 
-1. [stascorp/rdpwrap](https://github.com/stascorp/rdpwrap) ⭐: 14861 ⌨️: Pascal
+1. [stascorp/rdpwrap](https://github.com/stascorp/rdpwrap) ⭐: 14864 ⌨️: Pascal
 
 	rdpwrap是一个用于在不同版本的Windows操作系统上启用远程桌面协议（RDP）的项目。它可以帮助用户绕过Windows家庭版和旗舰版等版本的限制，使其支持多用户远程登录。RDPwrap提供了一种简单的方法来解锁这些限制，让用户能够更方便地进行远程连接和管理计算机。
 
@@ -5790,19 +5790,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Vue
 ---
 
-0. [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) ⭐: 88292 ⌨️: Vue	`admin` `admin-dashboard` `admin-template` `axios` `dashboard` `desktop` `element` `element-ui` `i18n` `management-system` `mock` `tinymce` `vue` `vue-admin` `vue-cli` `vuex` `webpack` `webpack4` `xlsx`
+0. [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) ⭐: 88294 ⌨️: Vue	`admin` `admin-dashboard` `admin-template` `axios` `dashboard` `desktop` `element` `element-ui` `i18n` `management-system` `mock` `tinymce` `vue` `vue-admin` `vue-cli` `vuex` `webpack` `webpack4` `xlsx`
 
 	这是一个基于Vue.js和Element UI的后台管理系统模板，提供了丰富的组件和功能，包括权限管理、表格展示、数据可视化等。适合用于快速搭建各种后台管理系统。
 
-1. [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) ⭐: 25887 ⌨️: Vue	`admin-template` `ant-design` `element-plus` `monorepo` `naive-ui` `shadcn-ui` `tsx` `typescript` `vben` `vite` `vite-template` `vue-router` `vue3` `vuex`
+1. [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) ⭐: 25901 ⌨️: Vue	`admin-template` `ant-design` `element-plus` `monorepo` `naive-ui` `shadcn-ui` `tsx` `typescript` `vben` `vite` `vite-template` `vue-router` `vue3` `vuex`
 
 	这是一个基于Vue.js的后台管理系统模板，提供了丰富的功能和组件，包括权限管理、路由配置、国际化支持等，让开发者可以快速搭建现代化的后台管理界面。该项目使用了最新的前端技术栈，同时提供了详细的文档和示例，方便开发者快速上手和定制。
 
-2. [requarks/wiki](https://github.com/requarks/wiki) ⭐: 25037 ⌨️: Vue	`cross-platform` `documentation` `git` `markdown` `nodejs` `open-source` `wiki`
+2. [requarks/wiki](https://github.com/requarks/wiki) ⭐: 25038 ⌨️: Vue	`cross-platform` `documentation` `git` `markdown` `nodejs` `open-source` `wiki`
 
 	这是一个名为Wiki.js的开源项目，是一个现代化的企业级内部知识管理系统。它提供了一个强大的、可定制的平台，用于创建和共享内部文档、知识库和团队协作内容。这个项目的主要特点包括易于使用的编辑器、多语言支持、用户管理和权限控制等功能。
 
-3. [Lissy93/dashy](https://github.com/Lissy93/dashy) ⭐: 18578 ⌨️: Vue	`awesome` `dashboard` `docker` `hacktoberfest` `homelab` `homepage` `mit` `nodejs` `organization` `productivity` `pwa` `self-hosted` `startpage` `vue`
+3. [Lissy93/dashy](https://github.com/Lissy93/dashy) ⭐: 18599 ⌨️: Vue	`awesome` `dashboard` `docker` `hacktoberfest` `homelab` `homepage` `mit` `nodejs` `organization` `productivity` `pwa` `self-hosted` `startpage` `vue`
 
 	Dashy是一个基于Vue.js和D3.js的仪表盘组件库，用于构建漂亮的数据可视化仪表盘。它提供了丰富的图表和组件，可以方便地集成到现有的Vue.js项目中，帮助用户快速构建个性化、交互性强的数据展示界面。Dashy支持响应式设计和自定义主题，非常适合用于监控、报告和数据分析等场景。
 
@@ -5810,11 +5810,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	ColorUICSS是一个轻量级的CSS库，用于快速实现各种颜色主题的UI设计。它包含了丰富的颜色变量和样式类，方便开发者快速搭建符合品牌色彩的界面。ColorUICSS支持响应式设计和主题切换，提供了灵活的定制选项，适用于Web开发和移动端应用。
 
-5. [chaitin/xray](https://github.com/chaitin/xray) ⭐: 10510 ⌨️: Vue	`passive-vulnerability-scanner` `poc` `security` `sqlinjection` `vulnerability` `vulnerability-scanner` `xss`
+5. [chaitin/xray](https://github.com/chaitin/xray) ⭐: 10509 ⌨️: Vue	`passive-vulnerability-scanner` `poc` `security` `sqlinjection` `vulnerability` `vulnerability-scanner` `xss`
 
 	XRay是一款基于Golang开发的安全扫描工具，旨在帮助用户快速检测和发现网络中的安全漏洞。它支持多种协议和格式的扫描，包括Web应用的漏洞扫描、SQL注入检测、XSS扫描等。XRay还提供了灵活的定制选项，使用户可以根据自己的需求对扫描器进行配置。
 
-6. [zyronon/douyin](https://github.com/zyronon/douyin) ⭐: 10119 ⌨️: Vue	`douyin` `js` `tiktok` `vue` `vue3`
+6. [zyronon/douyin](https://github.com/zyronon/douyin) ⭐: 10121 ⌨️: Vue	`douyin` `js` `tiktok` `vue` `vue3`
 
 	这个项目是一个基于Python的抖音视频下载器，可以帮助用户下载抖音平台上的视频内容。这个工具可以帮助用户保存自己喜欢的视频到本地，方便观看和分享。
 
@@ -5826,11 +5826,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	MyIP 是一个简单的命令行工具，用于获取当前机器的公网 IP 地址。它可以帮助用户快速方便地获取自己的公网 IP 地址，适用于各种网络环境下的使用。
 
-9. [doocs/md](https://github.com/doocs/md) ⭐: 6004 ⌨️: Vue	`articles` `doocs` `editor` `gitee-pages` `github-pages` `javascript` `markdown` `markdown-editor` `vue` `wechat` `weixin`
+9. [doocs/md](https://github.com/doocs/md) ⭐: 6006 ⌨️: Vue	`articles` `doocs` `editor` `gitee-pages` `github-pages` `javascript` `markdown` `markdown-editor` `vue` `wechat` `weixin`
 
 	这个项目是一个非常有用的Markdown文档，提供了关于Markdown语法和常见问题的详细说明和示例，让用户更易于理解和使用Markdown。
 
-10. [CareyWang/sub-web](https://github.com/CareyWang/sub-web) ⭐: 5258 ⌨️: Vue
+10. [CareyWang/sub-web](https://github.com/CareyWang/sub-web) ⭐: 5260 ⌨️: Vue
 
 	sub-web是一个基于Substrate和Rust编写的区块链项目，用于构建去中心化的Web应用程序。它提供了一个灵活的框架和工具，使开发人员能够轻松地构建和部署分布式的Web应用程序，实现去中心化的数据存储和交互。sub-web的目标是推动区块链技术与Web应用程序的结合，为用户提供更安全、去中心化的Web体验。
 
@@ -5838,19 +5838,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	这是一个基于VuePress的个人博客主题，名为Vdoing。主题采用简洁明快的设计风格，支持响应式布局，提供了丰富的自定义配置和插件功能。除了博客文章和项目展示，还有知识管理和个人简历等模块，非常适合用于个人博客和知识管理网站。
 
-12. [umicro/uView](https://github.com/umicro/uView) ⭐: 4097 ⌨️: Vue	`uniapp` `vue` `weixin`
+12. [umicro/uView](https://github.com/umicro/uView) ⭐: 4096 ⌨️: Vue	`uniapp` `vue` `weixin`
 
 	uView是一个基于uni-app框架的跨平台UI组件库，提供了丰富的组件和工具，能够方便开发者快速构建跨平台的应用程序。uView具有丰富的UI组件和工具，同时支持自定义主题和国际化，非常适合uni-app开发者使用。
 
-13. [palxiao/poster-design](https://github.com/palxiao/poster-design) ⭐: 3841 ⌨️: Vue	`canvas` `design` `image` `moveable` `nodejs` `poster` `puppeteer` `vue3`
+13. [palxiao/poster-design](https://github.com/palxiao/poster-design) ⭐: 3844 ⌨️: Vue	`canvas` `design` `image` `moveable` `nodejs` `poster` `puppeteer` `vue3`
 
 	这是一个基于Python的海报设计项目，它能够利用模板和用户提供的文本、图片等内容自动生成漂亮的海报设计。项目使用PIL库进行图像处理，用户可以自定义各种参数来生成自己想要的海报设计。
 
-14. [hslr-s/sun-panel](https://github.com/hslr-s/sun-panel) ⭐: 3126 ⌨️: Vue	`docker` `gin` `golang` `homelab` `homepage` `nas` `navigationpage` `raspberry-pi` `self-hosted` `startpage` `synology` `vue3`
+14. [hslr-s/sun-panel](https://github.com/hslr-s/sun-panel) ⭐: 3129 ⌨️: Vue	`docker` `gin` `golang` `homelab` `homepage` `nas` `navigationpage` `raspberry-pi` `self-hosted` `startpage` `synology` `vue3`
 
 	这个项目是一个太阳能板的仿真模拟器，使用Python编写。它可以用来模拟太阳能板的电压、电流和功率输出，帮助用户设计和优化太阳能系统。
 
-15. [jooooock/wechat-article-exporter](https://github.com/jooooock/wechat-article-exporter) ⭐: 2935 ⌨️: Vue	`download` `wechat` `wechat-article`
+15. [jooooock/wechat-article-exporter](https://github.com/jooooock/wechat-article-exporter) ⭐: 2964 ⌨️: Vue	`download` `wechat` `wechat-article`
 
 	这个项目是一个微信公众号文章导出工具，可以帮助用户将收藏的微信文章导出为 Markdown 格式，方便在其他平台上阅读和分享。
 
@@ -5910,7 +5910,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	该项目是一个基于PHP编写的后台管理系统，旨在简化电商网站的管理流程。它提供了订单管理、商品管理、会员管理等功能，并采用了响应式设计，适配各种设备。
 
-30. [iiop123/dingding](https://github.com/iiop123/dingding) ⭐: 191 ⌨️: Vue	`cloudflare-workers` `serverless`
+30. [iiop123/dingding](https://github.com/iiop123/dingding) ⭐: 193 ⌨️: Vue	`cloudflare-workers` `serverless`
 
 	这个项目是一个钉钉机器人的 Python 封装库，可以方便地使用 Python 发送消息到钉钉群聊或者个人。通过这个库，用户可以快速集成钉钉机器人，并实现自定义的消息推送功能。
 
@@ -5950,7 +5950,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### SCSS
 ---
 
-0. [mpdf/mpdf.github.io](https://github.com/mpdf/mpdf.github.io) ⭐: 510 ⌨️: SCSS
+0. [mpdf/mpdf.github.io](https://github.com/mpdf/mpdf.github.io) ⭐: 511 ⌨️: SCSS
 
 	这是一个名为mPDF的PHP库，用于在Web应用程序中生成PDF文件。它支持HTML和CSS，可以帮助开发人员轻松地将网页内容转换为可打印的PDF格式。mPDF还提供了许多功能和选项，使用户可以自定义生成的PDF文件的外观和布局。GitHub链接: https://github.com/mpdf/mpdf.github.io
 
@@ -5962,39 +5962,39 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Kotlin
 ---
 
-0. [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) ⭐: 38821 ⌨️: Kotlin	`brook` `daze` `fanqiang` `goflyway` `lightsocks` `proxy` `psiphon` `shadowsocks` `ssr` `trojan` `v2ray`
+0. [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) ⭐: 38829 ⌨️: Kotlin	`brook` `daze` `fanqiang` `goflyway` `lightsocks` `proxy` `psiphon` `shadowsocks` `ssr` `trojan` `v2ray`
 
 	这个项目是关于如何使用技术手段翻墙访问被屏蔽的网站的指南，包括了各种翻墨方法和工具的介绍和使用说明。
 
-1. [2dust/v2rayNG](https://github.com/2dust/v2rayNG) ⭐: 37010 ⌨️: Kotlin	`android` `proxy` `shadowsocks` `socks5` `trojan` `v2fly` `v2ray` `vless` `vmess` `vpn` `xray` `xtls`
+1. [2dust/v2rayNG](https://github.com/2dust/v2rayNG) ⭐: 37015 ⌨️: Kotlin	`android` `proxy` `shadowsocks` `socks5` `trojan` `v2fly` `v2ray` `vless` `vmess` `vpn` `xray` `xtls`
 
 	v2rayNG 是一款基于 V2Ray 的安卓客户端软件，可帮助用户在安卓设备上快速便捷地连接至 V2Ray 服务器，实现网络加密和代理功能。
 
-2. [gkd-kit/gkd](https://github.com/gkd-kit/gkd) ⭐: 23169 ⌨️: Kotlin	`accessibility` `android` `compose` `jetpack-compose` `kotlin` `kotlin-js` `kotlin-multiplatform` `webassembly`
+2. [gkd-kit/gkd](https://github.com/gkd-kit/gkd) ⭐: 23180 ⌨️: Kotlin	`accessibility` `android` `compose` `jetpack-compose` `kotlin` `kotlin-js` `kotlin-multiplatform` `webassembly`
 
 	GKD是一个用于构建和分析知识图谱的工具包，提供了一系列功能来简化知识图谱的创建和管理，包括数据加载、查询、可视化和推理等功能。该工具包支持多种数据格式和图数据库，并提供了丰富的API和文档。
 
-3. [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ⭐: 18952 ⌨️: Kotlin	`android` `api` `app` `bark` `call` `chatgpt` `dingding` `forward` `mqtt` `pushdear` `pushplus` `serverchan` `sms` `smtp` `telegram` `webhook` `wechatapp`
+3. [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ⭐: 18958 ⌨️: Kotlin	`android` `api` `app` `bark` `call` `chatgpt` `dingding` `forward` `mqtt` `pushdear` `pushplus` `serverchan` `sms` `smtp` `telegram` `webhook` `wechatapp`
 
 	SmsForwarder是一个Android应用程序，用于将接收到的短信自动转发到指定的号码。用户可以设置筛选规则和转发目标，实现自定义的短信转发功能。
 
-4. [mamoe/mirai](https://github.com/mamoe/mirai) ⭐: 14536 ⌨️: Kotlin	`chatbot` `java` `kotlin` `mirai`
+4. [mamoe/mirai](https://github.com/mamoe/mirai) ⭐: 14539 ⌨️: Kotlin	`chatbot` `java` `kotlin` `mirai`
 
 	Mirai 是一个用 Kotlin 编写的即时通讯软件框架，支持 QQ 和微信协议。它提供了一系列的接口和工具，让开发者能够使用自己的程序连接到 QQ 和微信，实现一些自定义的功能。Mirai 是一个强大的工具，为开发者提供了丰富的可能性。
 
-5. [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) ⭐: 11708 ⌨️: Kotlin
+5. [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) ⭐: 11714 ⌨️: Kotlin
 
 	Shizuku是一个Android平台上的辅助工具，它提供了一种方式，使普通应用程序能够以更高的权限运行，以便执行一些需要特殊权限的操作。Shizuku通过与Magisk一起使用，可以为普通应用程序提供Root权限的功能。 Shizuku项目的目标是提供一个更加安全和便捷的方式来管理Android设备的权限。
 
-6. [tiann/KernelSU](https://github.com/tiann/KernelSU) ⭐: 10799 ⌨️: Kotlin	`android` `kernel` `kernelsu` `root` `su`
+6. [tiann/KernelSU](https://github.com/tiann/KernelSU) ⭐: 10802 ⌨️: Kotlin	`android` `kernel` `kernelsu` `root` `su`
 
 	KernelSU是一个基于Linux内核的轻量级用户态root权限管理工具，采用基于SELinux的安全策略来控制应用程序的root权限访问，提供更加安全可控的权限管理机制。
 
-7. [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles) ⭐: 6207 ⌨️: Kotlin	`android` `android-application` `file-manager` `kotlin` `kotlin-android` `material-design`
+7. [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles) ⭐: 6209 ⌨️: Kotlin	`android` `android-application` `file-manager` `kotlin` `kotlin-android` `material-design`
 
 	MaterialFiles 是一个基于 Material Design 的文件管理器应用，它提供了现代化的用户界面和丰富的功能，包括文件操作、存储分析、云存储支持等。该项目是一个开源项目，使用 Kotlin 和 Java 语言开发，可以帮助开发者快速构建类似的文件管理器应用。
 
-8. [Ashinch/ReadYou](https://github.com/Ashinch/ReadYou) ⭐: 5247 ⌨️: Kotlin	`android` `compose` `f-droid` `fdroid` `kotlin` `material-design` `material-design-3` `material-ui` `material-you` `rss-reader`
+8. [Ashinch/ReadYou](https://github.com/Ashinch/ReadYou) ⭐: 5250 ⌨️: Kotlin	`android` `compose` `f-droid` `fdroid` `kotlin` `material-design` `material-design-3` `material-ui` `material-you` `rss-reader`
 
 	ReadYou是一个使用Python编写的命令行工具，可帮助用户从网页、PDF和文本文件中提取和朗读文字内容。它可以用来提取网页文章、电子书或其他文本内容，并将其转换成语音进行朗读，帮助用户更方便地获取信息。
 
@@ -6002,11 +6002,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 
 	Trime是一个面向中文输入法的开源项目，支持多种操作系统，如Android、iOS和Windows。它提供了丰富的输入方式和功能，包括拼音输入、手写输入和语音输入等。用户可以根据自己的需求进行定制，使输入体验更加个性化和高效化。
 
-10. [running-libo/Tiktok](https://github.com/running-libo/Tiktok) ⭐: 2783 ⌨️: Kotlin
+10. [running-libo/Tiktok](https://github.com/running-libo/Tiktok) ⭐: 2784 ⌨️: Kotlin
 
 	这个项目是一个基于Python的TikTok爬虫工具，可以帮助用户从TikTok平台上爬取用户数据、视频信息等内容。通过该工具，用户可以方便地获取TikTok上感兴趣的内容和信息。
 
-11. [open-ani/animeko](https://github.com/open-ani/animeko) ⭐: 2186 ⌨️: Kotlin	`android` `anime` `bangumi` `bittorrent` `compose` `compose-multiplatform` `danmaku` `jetpack-compose` `kotlin` `macos` `video` `windows`
+11. [open-ani/animeko](https://github.com/open-ani/animeko) ⭐: 2190 ⌨️: Kotlin	`android` `anime` `bangumi` `bittorrent` `compose` `compose-multiplatform` `danmaku` `jetpack-compose` `kotlin` `macos` `video` `windows`
 
 	Animeko是一个基于Python的动漫资源聚合和搜索工具，可以方便地从多个动漫网站中搜索和获取相关资源信息，如番剧、音乐、漫画等。用户可以通过命令行或图形界面进行操作，快速找到所需的动漫资源。
 
@@ -6034,11 +6034,11 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### PowerShell
 ---
 
-0. [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) ⭐: 21453 ⌨️: PowerShell	`installer` `powershell` `scoop` `windows`
+0. [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) ⭐: 21454 ⌨️: PowerShell	`installer` `powershell` `scoop` `windows`
 
 	Scoop是一个Windows环境下的命令行软件包管理器，能够帮助用户更轻松地安装、管理和更新各种软件。通过命令行快速安装软件、更新软件版本，并且可以轻松管理各种软件的依赖关系。Scoop的使用简单方便，让Windows用户也能够享受到类似于Linux环境下的软件包管理便利。
 
-1. [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) ⭐: 14455 ⌨️: PowerShell	`ame-wizard` `atlas` `atlasos` `debloat` `fps` `gaming` `latency` `open-source` `opensource` `performance` `privacy` `security` `tweaks` `windows`
+1. [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) ⭐: 14456 ⌨️: PowerShell	`ame-wizard` `atlas` `atlasos` `debloat` `fps` `gaming` `latency` `open-source` `opensource` `performance` `privacy` `security` `tweaks` `windows`
 
 	Atlas是一个开源的操作系统，基于MIT的xv6实现。该项目旨在为学习操作系统提供一个简单的基础，并提供了一些额外的功能和改进。其代码简单易懂，适合操作系统初学者学习和研究。
 
@@ -6054,15 +6054,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Dart
 ---
 
-0. [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) ⭐: 58807 ⌨️: Dart	`content-management` `content-services` `editor` `flutter` `flutter-app` `hacktoberfest` `low-code` `no-code` `notion` `notion-alternative` `project-management` `rust` `rust-lang` `rust-language` `team-collaboration` `wiki`
+0. [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) ⭐: 58814 ⌨️: Dart	`content-management` `content-services` `editor` `flutter` `flutter-app` `hacktoberfest` `low-code` `no-code` `notion` `notion-alternative` `project-management` `rust` `rust-lang` `rust-language` `team-collaboration` `wiki`
 
 	AppFlowy是一个基于React和Node.js的开源项目，提供了一个简单易用的应用程序开发框架，帮助开发者快速构建现代化的Web应用。项目包含了用户认证、权限管理、数据库集成、API管理等功能，同时还提供了可定制的UI组件和样式，方便开发者快速搭建应用界面。
 
-1. [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) ⭐: 17333 ⌨️: Dart	`android` `bittorrent` `cross-platform` `debian` `downloader` `flutter` `golang` `http` `https` `ios` `macos` `magnet` `torrent` `ubuntu` `windows`
+1. [GopeedLab/gopeed](https://github.com/GopeedLab/gopeed) ⭐: 17336 ⌨️: Dart	`android` `bittorrent` `cross-platform` `debian` `downloader` `flutter` `golang` `http` `https` `ios` `macos` `magnet` `torrent` `ubuntu` `windows`
 
 	Gopeed是一个基于Go语言开发的助手工具，提供了丰富的功能和库，用于简化Go语言开发过程中的常见任务。它包括HTTP客户端、日志记录器以及其他实用工具，旨在提高开发效率和代码质量。
 
-2. [wanghongenpin/proxypin](https://github.com/wanghongenpin/proxypin) ⭐: 7463 ⌨️: Dart	`capture-traffic` `httpdebug` `proxy` `proxypin` `zhuabao`
+2. [wanghongenpin/proxypin](https://github.com/wanghongenpin/proxypin) ⭐: 7467 ⌨️: Dart	`capture-traffic` `httpdebug` `proxy` `proxypin` `zhuabao`
 
 	proxypin是一个 Python 编写的代理池项目，用于获取和管理代理IP。它可以定时从各个代理网站获取代理IP，并提供API接口进行调用。通过proxypin，用户可以方便地获取可用的代理IP，从而实现网络请求的匿名性和安全性。
 
@@ -6090,7 +6090,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Blade
 ---
 
-0. [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) ⭐: 4206 ⌨️: Blade	`cloud` `image-store` `images` `laravel` `lsky` `mdui` `photo-album` `php` `picture`
+0. [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) ⭐: 4207 ⌨️: Blade	`cloud` `image-store` `images` `laravel` `lsky` `mdui` `photo-album` `php` `picture`
 
 	lsky-pro 是一个基于 Vue.js 和 Element UI 的后台管理系统模板，提供了丰富的组件和功能，包括数据可视化、权限控制、表格操作等。用户可以通过该模板快速搭建自己的后台管理系统，节省开发时间。
 
@@ -6098,19 +6098,19 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Batchfile
 ---
 
-0. [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐: 108698 ⌨️: Batchfile	`activator` `hwid` `kms` `kms38` `massgrave` `massgravel` `microsoft` `microsoft365` `office` `office365` `ohook` `powershell` `windows` `windows-10` `windows-11`
+0. [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐: 108736 ⌨️: Batchfile	`activator` `hwid` `kms` `kms38` `massgrave` `massgravel` `microsoft` `microsoft365` `office` `office365` `ohook` `powershell` `windows` `windows-10` `windows-11`
 
 	这个项目是一个用于Windows和Office激活的脚本集合，支持多种版本和多种方式的激活，包括KMS、HWID、MAK等。它提供了一种方便快捷的方式来激活Windows和Office，是一个在GitHub上备受关注的开源项目。
 
-1. [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) ⭐: 18467 ⌨️: Batchfile	`cjk` `font` `typeface`
+1. [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) ⭐: 18470 ⌨️: Batchfile	`cjk` `font` `typeface`
 
 	这个项目是一个开源的中文字体，名为"文楷"，适用于个人和商业用途。该字体设计优美，易于阅读，具有商业使用授权，非常适合用于中文排版。
 
-2. [kkkgo/LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) ⭐: 3360 ⌨️: Batchfile
+2. [kkkgo/LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) ⭐: 3363 ⌨️: Batchfile
 
 	这个项目是一个适用于Windows系统的工具，可以帮助用户轻松地将Microsoft Store添加到LTSC版本的Windows 10系统中，使用户能够访问和下载Microsoft Store中的应用程序。
 
-3. [FongMi/Release](https://github.com/FongMi/Release) ⭐: 3136 ⌨️: Batchfile
+3. [FongMi/Release](https://github.com/FongMi/Release) ⭐: 3139 ⌨️: Batchfile
 
 	Release是一个用于自动化管理软件版本发布的工具，它可以帮助开发者快速、高效地进行版本发布和部署。同时，Release还支持自定义发布流程，包括构建、测试、打包和发布等操作，大大简化了软件发布的流程，提高了发布的效率。
 
@@ -6134,15 +6134,15 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Dockerfile
 ---
 
-0. [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ⭐: 68142 ⌨️: Dockerfile	`chinese` `cookbook` `cooking` `dishes` `recipes`
+0. [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ⭐: 68151 ⌨️: Dockerfile	`chinese` `cookbook` `cooking` `dishes` `recipes`
 
 	HowToCook是一个基于Python的命令行菜谱应用程序，用户可以通过该应用程序查找食谱、添加自己的食谱并进行编辑、以及生成购物清单。
 
-1. [crazy-max/docker-jetbrains-license-server](https://github.com/crazy-max/docker-jetbrains-license-server) ⭐: 1607 ⌨️: Dockerfile	`alpine-linux` `docker` `jetbrains` `license-server`
+1. [crazy-max/docker-jetbrains-license-server](https://github.com/crazy-max/docker-jetbrains-license-server) ⭐: 1606 ⌨️: Dockerfile	`alpine-linux` `docker` `jetbrains` `license-server`
 
 	这个项目是一个基于Docker的JetBrains许可证服务器，用于为JetBrains系列软件提供许可证服务。它能够在Docker容器中快速部署，方便管理和维护。
 
-2. [RICwang/docker-wechat](https://github.com/RICwang/docker-wechat) ⭐: 620 ⌨️: Dockerfile
+2. [RICwang/docker-wechat](https://github.com/RICwang/docker-wechat) ⭐: 621 ⌨️: Dockerfile
 
 	这个项目是一个基于Docker的微信PC端客户端，可以在不同的操作系统上运行。它提供了一个简单的方法来在Docker容器中运行微信，让用户可以方便地使用微信而不受操作系统限制。
 
@@ -6150,7 +6150,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### VBScript
 ---
 
-0. [abbodi1406/vcredist](https://github.com/abbodi1406/vcredist) ⭐: 5881 ⌨️: VBScript
+0. [abbodi1406/vcredist](https://github.com/abbodi1406/vcredist) ⭐: 5882 ⌨️: VBScript
 
 	这个项目是一个用于帮助安装和管理Microsoft Visual C++ Redistributable软件包的工具。它提供了一个简单的方式来检查和安装系统中缺失的VC++ Redistributable包，从而确保运行需要这些组件的应用程序时能够顺利进行。
 
@@ -6162,7 +6162,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### EJS
 ---
 
-0. [Fechin/reference](https://github.com/Fechin/reference) ⭐: 6630 ⌨️: EJS	`awk` `bash` `chatgpt` `cheatsheet` `cheatsheets` `css` `golang` `grep` `markdown` `python` `reference` `sed` `snippets` `vim`
+0. [Fechin/reference](https://github.com/Fechin/reference) ⭐: 6631 ⌨️: EJS	`awk` `bash` `chatgpt` `cheatsheet` `cheatsheets` `css` `golang` `grep` `markdown` `python` `reference` `sed` `snippets` `vim`
 
 	这个项目是一个参考指南，提供了各种编程语言、工具和框架的资料和链接，帮助开发人员快速查找所需信息。它汇集了大量的学习资源，包括书籍、教程、视频和在线课程等，适合想要系统地学习编程技术的人使用。
 
@@ -6170,7 +6170,7 @@ Wox是一个功能强大的Windows应用程序启动器，类似于Mac上的Spot
 ### Haskell
 ---
 
-0. [jgm/pandoc](https://github.com/jgm/pandoc) ⭐: 35100 ⌨️: Haskell	`commonmark` `converter` `document` `haskell` `markdown` `markup` `pandoc` `presentation` `publishing`
+0. [jgm/pandoc](https://github.com/jgm/pandoc) ⭐: 35109 ⌨️: Haskell	`commonmark` `converter` `document` `haskell` `markdown` `markup` `pandoc` `presentation` `publishing`
 
 	Pandoc是一个方便的文档转换工具，可以将一种标记语言转换为另一种，比如将Markdown转换为HTML，PDF或Word文档等。它也支持多种输入和输出格式，包括LaTeX、ReStructuredText、AsciiDoc等。Pandoc还可以作为一个库集成到其他程序中使用。
 
