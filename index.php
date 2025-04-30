@@ -10,7 +10,11 @@ define('GPT_URL', $_SERVER['GPT_URL'] ?? $config['GPT_URL']);           //chatgp
 define('GPT_KEY', $_SERVER['GPT_KEY'] ?? $config['GPT_KEY']);           //chatgpt key
 
 define('CACHE_PATH', $config['CACHE_PATH']); //缓存目录
+define('DIST_PATH', $config['DIST_PATH']); //输出目录
+define('GET_DETAIL', $config['GET_DETAIL']); //输出目录
+
 is_dir(CACHE_PATH) or mkdir(CACHE_PATH, 0777, true);
+is_dir(DIST_PATH) or mkdir(DIST_PATH, 0777, true);
 
 
 GH_TOKEN or die('GH_TOKEN is null!');
@@ -23,7 +27,7 @@ do {
 	if(empty($starList)){
 		break;
 	}
-	$starList=getLinkDescMulti($starList);
+	GET_DETAIL && $starList=getLinkDescMulti($starList);
 	foreach ($starList as $i=> $item){
 		$listAll[$item['language']][]=$item;
 	}
@@ -39,11 +43,10 @@ makeMarkdown($listAll);
 
 
 //获取关注列表
-function getStarList($username, $page = 1, $limit=100,$update = false) {
+function getStarList($username, $page = 1, $limit=100,$update = false,$dir='./') {
 	print_r('page:' . $page . "\r\n");
-	$dir=CACHE_PATH .'starList/';
-	is_dir($dir) or mkdir($dir);
-	$cacheFile = $dir.date('YmdH'). '_' . $page . '.json';
+    
+	$cacheFile = DIST_PATH.$page . '.json';
 	$cacheData = file_exists($cacheFile) ? json_decode(file_get_contents($cacheFile), true) : [];
 	if ($cacheData && !$update) {
 		return $cacheData;
