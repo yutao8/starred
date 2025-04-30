@@ -1,5 +1,5 @@
 # GitHub starred 
- total : 1570  update at 2025-04-30 16:57:40
+ total : 1570  update at 2025-04-30 17:02:47
 
 ### Python
 ---
@@ -64,7 +64,7 @@
 
 	A proxy tool to bypass GFW.
 
-15. [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) ⭐: 32779 ⌨️: Python	`ocr` `ocr-python` `paddleocr` `qml` `qt` `screenshot` `umi-ocr`
+15. [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) ⭐: 32780 ⌨️: Python	`ocr` `ocr-python` `paddleocr` `qml` `qt` `screenshot` `umi-ocr`
 
 	OCR software, free and offline. 开源、免费的离线OCR软件。支持截屏/批量导入图片，PDF文档识别，排除水印/页眉页脚，扫描/生成二维码。内置多国语言库。
 
@@ -88,7 +88,7 @@
 
 	The best and simplest free open source web page change detection, website watcher,  restock monitor and notification service. Restock Monitor, change detection. Designed for simplicity - Simply monitor which websites had a text change for free. Free Open source web page change detection, Website defacement monitoring, Price change notification
 
-21. [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐: 22718 ⌨️: Python	`automation` `cursor` `cursor-ai` `cursor-ide` `cursorai` `cursors` `free` `freetrial` `pro`
+21. [yeongpin/cursor-free-vip](https://github.com/yeongpin/cursor-free-vip) ⭐: 22720 ⌨️: Python	`automation` `cursor` `cursor-ai` `cursor-ide` `cursorai` `cursors` `free` `freetrial` `pro`
 
 	[Support 0.49.x]（Reset Cursor AI MachineID & Bypass Higher Token Limit） Cursor Ai ，自动重置机器ID ， 免费升级使用Pro功能: You've reached your trial request limit. / Too many free trial accounts used on this machine. Please upgrade to pro. We have this limit in place to prevent abuse. Please let us know if you believe this is a mistake.
 
@@ -924,7 +924,7 @@
 
 	Annotations Docblock Parser
 
-46. [vrana/adminer](https://github.com/vrana/adminer) ⭐: 6695 ⌨️: PHP	`database` `mssql` `mysql` `php` `postgresql` `sqlite`
+46. [vrana/adminer](https://github.com/vrana/adminer) ⭐: 6696 ⌨️: PHP	`database` `mssql` `mysql` `php` `postgresql` `sqlite`
 
 	Database management in a single PHP file
 
@@ -1028,7 +1028,7 @@
 
 	The most widely used PHP client for RabbitMQ
 
-72. [mpdf/mpdf](https://github.com/mpdf/mpdf) ⭐: 4497 ⌨️: PHP	`cjk` `css` `html` `pdf` `php` `utf-8`
+72. [mpdf/mpdf](https://github.com/mpdf/mpdf) ⭐: 4498 ⌨️: PHP	`cjk` `css` `html` `pdf` `php` `utf-8`
 
 	PHP library generating PDF files from UTF-8 encoded HTML
 
@@ -2128,7 +2128,7 @@
 
 	国内低代码平台从业者交流
 
-27. [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) ⭐: 14010 ⌨️: NaN
+27. [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) ⭐: 14012 ⌨️: NaN
 
 	健康学习到150岁 - 人体系统调优不完全指南
 
@@ -2608,7 +2608,7 @@
 
 	👩‍💻👨‍💻 Awesome cheatsheets for popular programming languages, frameworks and development tools. They include everything you should know in one single file.
 
-5. [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) ⭐: 38665 ⌨️: JavaScript	`batch-processing` `batch-script` `code-free` `crawler` `data-collection` `frontend` `gui` `html` `input-parameters` `layman` `parameters` `robotics` `rpa` `scraper` `spider` `visual` `visualization` `visualprogramming` `web` `www`
+5. [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) ⭐: 38666 ⌨️: JavaScript	`batch-processing` `batch-script` `code-free` `crawler` `data-collection` `frontend` `gui` `html` `input-parameters` `layman` `parameters` `robotics` `rpa` `scraper` `spider` `visual` `visualization` `visualprogramming` `web` `www`
 
 	A visual no-code/code-free web crawler/spider易采集：一个可视化浏览器自动化测试/数据采集/爬虫软件，可以无代码图形化的设计和执行爬虫任务。别名：ServiceWrapper面向Web应用的智能化服务封装系统。
 
@@ -2656,7 +2656,7 @@
 
 	💾 Offline storage, improved. Wraps IndexedDB, WebSQL, or localStorage using a simple but powerful API.
 
-17. [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ⭐: 24945 ⌨️: JavaScript	`api` `api-gateway` `azure-openai-api` `chatgpt` `claude` `ernie-bot` `gemini` `gpt` `openai` `openai-api` `proxy`
+17. [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ⭐: 24946 ⌨️: JavaScript	`api` `api-gateway` `azure-openai-api` `chatgpt` `claude` `ernie-bot` `gemini` `gpt` `openai` `openai-api` `proxy`
 
 	LLM API 管理 & 分发系统，支持 OpenAI、Azure、Anthropic Claude、Google Gemini、DeepSeek、字节豆包、ChatGLM、文心一言、讯飞星火、通义千问、360 智脑、腾讯混元等主流模型，统一 API 适配，可用于 key 管理与二次分发。单可执行文件，提供 Docker 镜像，一键部署，开箱即用。LLM API management & key redistribution system, unifying multiple providers under a single API. Single binary, Docker-ready, with an English UI.
 
@@ -2940,7 +2940,7 @@
 
 	FongMi影视和tvbox配置文件，如果喜欢，请Fork自用。使用前请仔细阅读仓库说明，一旦使用将被视为你已了解。
 
-88. [lanyulei/ferry](https://github.com/lanyulei/ferry) ⭐: 6411 ⌨️: JavaScript
+88. [lanyulei/ferry](https://github.com/lanyulei/ferry) ⭐: 6412 ⌨️: JavaScript
 
 	本系统是集工单统计、任务钩子、权限管理、灵活配置流程与模版等等于一身的开源工单系统，当然也可以称之为工作流引擎。 致力于减少跨部门之间的沟通，自动任务的执行，提升工作效率与工作质量，减少不必要的工作量与人为出错率。
 
@@ -3628,11 +3628,11 @@
 ### C++
 ---
 
-0. [electron/electron](https://github.com/electron/electron) ⭐: 116580 ⌨️: C++	`c-plus-plus` `chrome` `css` `electron` `html` `javascript` `nodejs` `v8` `works-with-codespaces`
+0. [electron/electron](https://github.com/electron/electron) ⭐: 116579 ⌨️: C++	`c-plus-plus` `chrome` `css` `electron` `html` `javascript` `nodejs` `v8` `works-with-codespaces`
 
 	:electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS
 
-1. [microsoft/terminal](https://github.com/microsoft/terminal) ⭐: 97931 ⌨️: C++	`cmd` `command-line` `console` `contributions-welcome` `good-first-issue` `hacktoberfest` `terminal` `windows` `windows-console` `windows-terminal` `wsl`
+1. [microsoft/terminal](https://github.com/microsoft/terminal) ⭐: 97932 ⌨️: C++	`cmd` `command-line` `console` `contributions-welcome` `good-first-issue` `hacktoberfest` `terminal` `windows` `windows-console` `windows-terminal` `wsl`
 
 	The new Windows Terminal and the original Windows console host, all in the same place!
 
@@ -3864,7 +3864,7 @@
 
 	"rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azure Files, Yandex Files
 
-5. [AlistGo/alist](https://github.com/AlistGo/alist) ⭐: 48847 ⌨️: Go	`file-server` `gin` `golang` `onedrive` `solidjs` `webdav`
+5. [AlistGo/alist](https://github.com/AlistGo/alist) ⭐: 48848 ⌨️: Go	`file-server` `gin` `golang` `onedrive` `solidjs` `webdav`
 
 	🗂️A file list/WebDAV program that supports multiple storages, powered by Gin and Solidjs. / 一个支持多存储的文件列表/WebDAV程序，使用 Gin 和 Solidjs。
 
@@ -3884,7 +3884,7 @@
 
 	An open-source, lightweight note-taking solution. The pain-less way to create your meaningful notes. Your Notes, Your Way.
 
-10. [ehang-io/nps](https://github.com/ehang-io/nps) ⭐: 32181 ⌨️: Go	`dns` `firewall` `go` `gzip` `http` `https` `nat` `nps` `snnapy` `socks` `socks5` `ssh` `tcp` `tunnel` `udp`
+10. [ehang-io/nps](https://github.com/ehang-io/nps) ⭐: 32182 ⌨️: Go	`dns` `firewall` `go` `gzip` `http` `https` `nat` `nps` `snnapy` `socks` `socks5` `ssh` `tcp` `tunnel` `udp`
 
 	一款轻量级、高性能、功能强大的内网穿透代理服务器。支持tcp、udp、socks5、http等几乎所有流量转发，可用来访问内网网站、本地支付接口调试、ssh访问、远程桌面，内网dns解析、内网socks5代理等等……，并带有功能强大的web管理端。a lightweight, high-performance, powerful intranet penetration proxy server, with a powerful web management terminal.
 
@@ -3924,7 +3924,7 @@
 
 	The easiest, most secure way to use WireGuard and 2FA.
 
-20. [containrrr/watchtower](https://github.com/containrrr/watchtower) ⭐: 21890 ⌨️: Go	`automation` `continuous-delivery` `devops` `docker` `hacktoberfest` `notifications` `receive-notifications` `registry` `update-checker` `watchtower`
+20. [containrrr/watchtower](https://github.com/containrrr/watchtower) ⭐: 21891 ⌨️: Go	`automation` `continuous-delivery` `devops` `docker` `hacktoberfest` `notifications` `receive-notifications` `registry` `update-checker` `watchtower`
 
 	A process for automating Docker container base image updates. 
 
@@ -3960,7 +3960,7 @@
 
 	Simple and easy to use DDNS. Support Aliyun, Tencent Cloud, Dnspod, Cloudflare, Callback, Huawei Cloud, Baidu Cloud, Porkbun, GoDaddy, Namecheap, NameSilo...
 
-29. [coredns/coredns](https://github.com/coredns/coredns) ⭐: 12908 ⌨️: Go	`cncf` `coredns` `dns-server` `go` `plugin` `service-discovery`
+29. [coredns/coredns](https://github.com/coredns/coredns) ⭐: 12909 ⌨️: Go	`cncf` `coredns` `dns-server` `go` `plugin` `service-discovery`
 
 	CoreDNS is a DNS server that chains plugins
 
@@ -4216,7 +4216,7 @@
 
 	Command Line Interface for Scaleway
 
-93. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) ⭐: 884 ⌨️: Go
+93. [samwafgo/SamWaf](https://github.com/samwafgo/SamWaf) ⭐: 885 ⌨️: Go
 
 	SamWaf开源轻量级网站防火墙，完全私有化部署 SamWaf is a lightweight, open-source web application firewall for small companies, studios, and personal websites. It supports fully private deployment, encrypts data stored locally, is easy to start, and supports Linux and Windows 64-bit.
 
@@ -4360,7 +4360,7 @@
 ### Java
 ---
 
-0. [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ⭐: 57232 ⌨️: Java	`docker` `java` `pdf` `pdf-converter` `pdf-editor` `pdf-manipulation` `pdf-merger` `pdf-ocr` `pdf-tools` `pdf-web-apps` `pdfmerger`
+0. [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ⭐: 57231 ⌨️: Java	`docker` `java` `pdf` `pdf-converter` `pdf-editor` `pdf-manipulation` `pdf-merger` `pdf-ocr` `pdf-tools` `pdf-web-apps` `pdfmerger`
 
 	#1 Locally hosted web application that allows you to perform various operations on PDF files
 
@@ -4648,7 +4648,7 @@
 
 	Capturing SSL/TLS plaintext without a CA certificate using eBPF. Supported on Linux/Android kernels for amd64/arm64.
 
-9. [coturn/coturn](https://github.com/coturn/coturn) ⭐: 12253 ⌨️: C	`networking` `server` `turn`
+9. [coturn/coturn](https://github.com/coturn/coturn) ⭐: 12254 ⌨️: C	`networking` `server` `turn`
 
 	coturn TURN server project
 
@@ -4856,7 +4856,7 @@
 
 	Run macOS VM in a Docker! Run near native OSX-KVM in Docker! X11 Forwarding! CI/CD for OS X Security Research! Docker mac Containers.
 
-2. [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ⭐: 42413 ⌨️: Shell	`acme` `acme-client` `acme-protocol` `ash` `bash` `buypass` `certbot` `letsencrypt` `posix` `posix-sh` `shell` `zerossl`
+2. [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ⭐: 42414 ⌨️: Shell	`acme` `acme-client` `acme-protocol` `ash` `bash` `buypass` `certbot` `letsencrypt` `posix` `posix-sh` `shell` `zerossl`
 
 	A pure Unix shell script implementing ACME client protocol
 
@@ -4868,7 +4868,7 @@
 
 	Fish-like autosuggestions for zsh
 
-5. [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) ⭐: 26117 ⌨️: Shell	`cisco-ipsec` `docker` `encryption` `ikev2` `ipsec` `l2tp` `libreswan` `linux` `network` `raspberry-pi` `security` `vpn` `vpn-client` `vpn-server`
+5. [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) ⭐: 26118 ⌨️: Shell	`cisco-ipsec` `docker` `encryption` `ikev2` `ipsec` `l2tp` `libreswan` `linux` `network` `raspberry-pi` `security` `vpn` `vpn-client` `vpn-server`
 
 	Scripts to build your own IPsec VPN server, with IPsec/L2TP, Cisco IPsec and IKEv2
 
@@ -5216,7 +5216,7 @@
 
 	:trollface: A hex editor for WeChat/QQ/TIM - PC版微信/QQ/TIM防撤回补丁（我已经看到了，撤回也没用了）
 
-4. [leiurayer/downkyi](https://github.com/leiurayer/downkyi) ⭐: 22743 ⌨️: C#
+4. [leiurayer/downkyi](https://github.com/leiurayer/downkyi) ⭐: 22744 ⌨️: C#
 
 	哔哩下载姬downkyi，哔哩哔哩网站视频下载工具，支持批量下载，支持8K、HDR、杜比视界，提供工具箱（音视频提取、去水印等）。
 
@@ -5264,7 +5264,7 @@
 
 	”深蓝词库转换“ 一款开源免费的输入法词库转换程序
 
-16. [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) ⭐: 7551 ⌨️: C#	`aad` `authentication` `azure-devops` `azure-repos` `bitbucket` `credential` `cross-platform` `git` `github` `gitlab`
+16. [git-ecosystem/git-credential-manager](https://github.com/git-ecosystem/git-credential-manager) ⭐: 7552 ⌨️: C#	`aad` `authentication` `azure-devops` `azure-repos` `bitbucket` `credential` `cross-platform` `git` `github` `gitlab`
 
 	Secure, cross-platform Git credential storage with authentication to GitHub, Azure Repos, and other popular Git hosting services.
 
@@ -5312,7 +5312,7 @@
 
 	超级弱口令检查工具是一款Windows平台的弱口令审计工具，支持批量多线程检查，可快速发现弱密码、弱口令账号，密码支持和用户名结合进行检查，大大提高成功率，支持自定义服务端口和字典。
 
-28. [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ⭐: 2380 ⌨️: C#
+28. [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ⭐: 2381 ⌨️: C#
 
 	跨平台剪贴板同步方案 / Cross-Platform Cipboard Syncing Solution
 
@@ -5452,7 +5452,7 @@
 
 	Collection of publicly available IPTV channels from all over the world
 
-1. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ⭐: 87496 ⌨️: TypeScript	`css` `css-framework` `functional-css` `postcss` `responsive` `tailwindcss` `utility-classes`
+1. [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ⭐: 87497 ⌨️: TypeScript	`css` `css-framework` `functional-css` `postcss` `responsive` `tailwindcss` `utility-classes`
 
 	A utility-first CSS framework for rapid UI development.
 
@@ -5464,11 +5464,11 @@
 
 	Open source API development ecosystem - https://hoppscotch.io (open-source alternative to Postman, Insomnia)
 
-4. [immich-app/immich](https://github.com/immich-app/immich) ⭐: 64822 ⌨️: TypeScript	`backup-tool` `flutter` `google-photos` `google-photos-alternative` `javascript` `mobile-app` `nestjs` `nodejs` `photo-gallery` `photos` `photos-management` `self-hosted` `svelte` `sveltekit` `typescript` `videos`
+4. [immich-app/immich](https://github.com/immich-app/immich) ⭐: 64823 ⌨️: TypeScript	`backup-tool` `flutter` `google-photos` `google-photos-alternative` `javascript` `mobile-app` `nestjs` `nodejs` `photo-gallery` `photos` `photos-management` `self-hosted` `svelte` `sveltekit` `typescript` `videos`
 
 	High performance self-hosted photo and video management solution.
 
-5. [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐: 59954 ⌨️: TypeScript	`agent` `ai` `artifacts` `chat` `chatgpt` `claude` `deepseek` `deepseek-r1` `function-calling` `gemini` `gpt` `knowledge-base` `nextjs` `ollama` `openai` `rag`
+5. [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ⭐: 59953 ⌨️: TypeScript	`agent` `ai` `artifacts` `chat` `chatgpt` `claude` `deepseek` `deepseek-r1` `function-calling` `gemini` `gpt` `knowledge-base` `nextjs` `ollama` `openai` `rag`
 
 	🤯 Lobe Chat - an open-source, modern-design AI chat framework. Supports Multi AI Providers( OpenAI / Claude 3 / Gemini / Ollama / DeepSeek / Qwen), Knowledge Base (file upload / knowledge management / RAG ), Multi-Modals (Plugins/Artifacts) and Thinking. One-click FREE deployment of your private ChatGPT/ Claude / DeepSeek application.
 
@@ -5620,7 +5620,7 @@
 
 	Vxe Table 支持 vue2, vue3 的表格解决方案
 
-43. [gridstack/gridstack.js](https://github.com/gridstack/gridstack.js) ⭐: 7906 ⌨️: TypeScript	`angular` `dashboard` `grid` `gridster` `javascript` `react` `typescript` `vue` `widget`
+43. [gridstack/gridstack.js](https://github.com/gridstack/gridstack.js) ⭐: 7907 ⌨️: TypeScript	`angular` `dashboard` `grid` `gridster` `javascript` `react` `typescript` `vue` `widget`
 
 	Build interactive dashboards in minutes.
 
@@ -5660,7 +5660,7 @@
 
 	A `rm -rf` util for nodejs
 
-53. [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription) ⭐: 5513 ⌨️: TypeScript	`gkd` `gkd-subscription` `typescript`
+53. [AIsouler/GKD_subscription](https://github.com/AIsouler/GKD_subscription) ⭐: 5514 ⌨️: TypeScript	`gkd` `gkd-subscription` `typescript`
 
 	GKD 第三方订阅规则
 
@@ -5804,7 +5804,7 @@
 
 	在浏览器中解锁加密的音乐文件。原仓库： 1. https://github.com/unlock-music/unlock-music ；2. https://git.unlock-music.dev/um/web
 
-89. [Hk-Gosuto/ChatGPT-Next-Web-LangChain](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain) ⭐: 1197 ⌨️: TypeScript	`ai` `chat-bo` `chat-gpt` `gpt` `langchain` `langchain-js` `nextjs` `openai`
+89. [Hk-Gosuto/ChatGPT-Next-Web-LangChain](https://github.com/Hk-Gosuto/ChatGPT-Next-Web-LangChain) ⭐: 1196 ⌨️: TypeScript	`ai` `chat-bo` `chat-gpt` `gpt` `langchain` `langchain-js` `nextjs` `openai`
 
 	一键拥有你自己的 ChatGPT 网页服务。 One-Click to deploy your own ChatGPT web UI.（基于 langchain 实现的插件版本 Plugin version implemented based on langchain）
 
@@ -5968,7 +5968,7 @@
 ### Rust
 ---
 
-0. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐: 87566 ⌨️: Rust	`anydesk` `dart` `flutter` `flutter-apps` `flutter-desktop` `flutter-examples` `flutter-mobile` `flutter-ui` `flutter-web` `hacktoberfest` `linux` `p2p` `rdp` `remote-control` `remote-desktop` `rust` `rust-lang` `teamviewer` `vnc` `wayland`
+0. [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ⭐: 87568 ⌨️: Rust	`anydesk` `dart` `flutter` `flutter-apps` `flutter-desktop` `flutter-examples` `flutter-mobile` `flutter-ui` `flutter-web` `hacktoberfest` `linux` `p2p` `rdp` `remote-control` `remote-desktop` `rust` `rust-lang` `teamviewer` `vnc` `wayland`
 
 	An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.
 
@@ -5980,7 +5980,7 @@
 
 	🔮 ChatGPT Desktop Application (Mac, Windows and Linux)
 
-3. [starship/starship](https://github.com/starship/starship) ⭐: 48416 ⌨️: Rust	`bash` `fish` `fish-prompt` `fish-theme` `oh-my-zsh` `powershell` `rust` `shell-prompt` `starship` `zsh` `zsh-prompt` `zsh-theme`
+3. [starship/starship](https://github.com/starship/starship) ⭐: 48417 ⌨️: Rust	`bash` `fish` `fish-prompt` `fish-theme` `oh-my-zsh` `powershell` `rust` `shell-prompt` `starship` `zsh` `zsh-prompt` `zsh-theme`
 
 	☄🌌️  The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
@@ -5996,7 +5996,7 @@
 
 	Self-hosted AI coding assistant
 
-7. [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) ⭐: 29661 ⌨️: Rust	`fish` `rust` `shell` `terminal`
+7. [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) ⭐: 29663 ⌨️: Rust	`fish` `rust` `shell` `terminal`
 
 	The user-friendly command line shell.
 
@@ -6252,7 +6252,7 @@
 
 	基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用 | An Android APP with custom screen tapping based on Accessibility, Advanced Selectors, and Subscription Rules
 
-3. [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ⭐: 20796 ⌨️: Kotlin	`android` `api` `app` `bark` `call` `chatgpt` `dingding` `forward` `mqtt` `pushdear` `pushplus` `serverchan` `sms` `smtp` `telegram` `webhook` `wechatapp`
+3. [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ⭐: 20797 ⌨️: Kotlin	`android` `api` `app` `bark` `call` `chatgpt` `dingding` `forward` `mqtt` `pushdear` `pushplus` `serverchan` `sms` `smtp` `telegram` `webhook` `wechatapp`
 
 	短信转发器——监控Android手机短信、来电、APP通知，并根据指定规则转发到其他手机：钉钉群自定义机器人、钉钉企业内机器人、企业微信群机器人、飞书机器人、企业微信应用消息、邮箱、bark、webhook、Telegram机器人、Server酱、PushPlus、手机短信等。包括主动控制服务端与客户端，让你轻松远程发短信、查短信、查通话、查话簿、查电量等。（V3.0 新增）PS.这个APK主要是学习与自用，如有BUG请提ISSUE，同时欢迎大家提PR指正
 
@@ -6264,7 +6264,7 @@
 
 	Using system APIs directly with adb/root privileges from normal apps through a Java process started with app_process.
 
-6. [tiann/KernelSU](https://github.com/tiann/KernelSU) ⭐: 12188 ⌨️: Kotlin	`android` `kernel` `kernelsu` `root` `su`
+6. [tiann/KernelSU](https://github.com/tiann/KernelSU) ⭐: 12189 ⌨️: Kotlin	`android` `kernel` `kernelsu` `root` `su`
 
 	A Kernel based root solution for Android
 
@@ -6316,7 +6316,7 @@
 ### Dart
 ---
 
-0. [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) ⭐: 62557 ⌨️: Dart	`blog` `confluence-alternative` `content-management` `content-services` `documentation` `flutter` `note-taking` `notion-alternative` `project-management` `task-management` `team-collaboration` `wiki`
+0. [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) ⭐: 62556 ⌨️: Dart	`blog` `confluence-alternative` `content-management` `content-services` `documentation` `flutter` `note-taking` `notion-alternative` `project-management` `task-management` `team-collaboration` `wiki`
 
 	Bring projects, wikis, and teams together with AI. AppFlowy is the AI collaborative workspace where you achieve more without losing control of your data. The leading open source Notion alternative.
 
@@ -6360,7 +6360,7 @@
 ### Batchfile
 ---
 
-0. [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐: 132860 ⌨️: Batchfile	`activator` `hwid` `kms` `kms38` `massgrave` `massgravel` `microsoft` `microsoft365` `office` `office365` `ohook` `powershell` `tsforge` `windows` `windows-10` `windows-11`
+0. [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ⭐: 132861 ⌨️: Batchfile	`activator` `hwid` `kms` `kms38` `massgrave` `massgravel` `microsoft` `microsoft365` `office` `office365` `ohook` `powershell` `tsforge` `windows` `windows-10` `windows-11`
 
 	Open-source Windows and Office activator featuring HWID, Ohook, TSforge, KMS38, and Online KMS activation methods, along with advanced troubleshooting.
 
@@ -6436,7 +6436,7 @@
 ### EJS
 ---
 
-0. [Fechin/reference](https://github.com/Fechin/reference) ⭐: 8094 ⌨️: EJS	`awk` `bash` `chatgpt` `cheatsheet` `cheatsheets` `css` `golang` `grep` `markdown` `python` `reference` `sed` `snippets` `vim`
+0. [Fechin/reference](https://github.com/Fechin/reference) ⭐: 8095 ⌨️: EJS	`awk` `bash` `chatgpt` `cheatsheet` `cheatsheets` `css` `golang` `grep` `markdown` `python` `reference` `sed` `snippets` `vim`
 
 	⭕ Share quick reference cheat sheet for developers.
 
@@ -6468,6 +6468,6 @@
 ### Svelte
 ---
 
-0. [imputnet/cobalt](https://github.com/imputnet/cobalt) ⭐: 31352 ⌨️: Svelte	`collaboration` `downloader` `instagram` `javascript` `music` `reddit` `social-media` `soundcloud` `svelte` `tiktok` `twitter` `typescript` `video` `vimeo` `vk` `webapp` `youtube` `youtube-downloader`
+0. [imputnet/cobalt](https://github.com/imputnet/cobalt) ⭐: 31353 ⌨️: Svelte	`collaboration` `downloader` `instagram` `javascript` `music` `reddit` `social-media` `soundcloud` `svelte` `tiktok` `twitter` `typescript` `video` `vimeo` `vk` `webapp` `youtube` `youtube-downloader`
 
 	best way to save what you love
