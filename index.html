@@ -1,77 +1,879 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="zh-CN">
 <head>
-    <title>my stared</title>
-    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5.5.0/github-markdown-dark.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starred Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <style>
-        #toc {
+        :root {
+            --vp-c-brand: #3eaf7c;
+            --vp-c-brand-light: #4abf8a;
+            --vp-c-brand-lighter: #5ccf99;
+            --vp-c-brand-dark: #36a06d;
+            --vp-c-brand-darker: #2d8a5c;
+            --vp-c-text-1: #2c3e50;
+            --vp-c-text-2: #476582;
+            --vp-c-text-3: #90a4b7;
+            --vp-c-bg: #ffffff;
+            --vp-c-bg-soft: #f9fafb;
+            --vp-c-bg-mute: #f1f4f8;
+            --vp-c-bg-alt: #f8fafc;
+            --vp-c-border: #e2e8f0;
+            --vp-c-divider: #e2e8f0;
+            --vp-custom-block-tip-border: var(--vp-c-brand);
+            --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+            --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
+            --vp-custom-block-warning-border: #e7c000;
+            --vp-custom-block-warning-text: #b29400;
+            --vp-custom-block-warning-bg: #fffae6;
+            --vp-custom-block-danger-border: #c00;
+            --vp-custom-block-danger-text: #990000;
+            --vp-custom-block-danger-bg: #fff0f0;
+            --vp-custom-block-details-border: #e2e8f0;
+            --vp-custom-block-details-text: #476582;
+            --vp-custom-block-details-bg: #f8fafc;
+            --vp-custom-block-info-border: #e2e8f0;
+            --vp-custom-block-info-text: #476582;
+            --vp-custom-block-info-bg: #f8fafc;
+            --vp-custom-block-tip-bg: rgba(62, 175, 124, 0.1);
+            --vp-custom-block-warning-bg: rgba(255, 197, 23, 0.1);
+            --vp-custom-block-danger-bg: rgba(255, 0, 0, 0.1);
+            --vp-custom-block-details-bg: rgba(0, 0, 0, 0.05);
+            --vp-custom-block-info-bg: rgba(0, 0, 0, 0.05);
+            --vp-custom-block-tip-border: var(--vp-c-brand);
+            --vp-custom-block-tip-text: var(--vp-c-brand-darker);
+            --vp-custom-block-warning-border: #e7c000;
+            --vp-custom-block-warning-text: #b29400;
+            --vp-custom-block-danger-border: #c00;
+            --vp-custom-block-danger-text: #990000;
+            --vp-custom-block-details-border: #e2e8f0;
+            --vp-custom-block-details-text: #476582;
+            --vp-custom-block-info-border: #e2e8f0;
+            --vp-custom-block-info-text: #476582;
+            --vp-custom-block-tip-bg: rgba(62, 175, 124, 0.1);
+            --vp-custom-block-warning-bg: rgba(255, 197, 23, 0.1);
+            --vp-custom-block-danger-bg: rgba(255, 0, 0, 0.1);
+            --vp-custom-block-details-bg: rgba(0, 0, 0, 0.05);
+            --vp-custom-block-info-bg: rgba(0, 0, 0, 0.05);
+        }
+
+        [data-theme="dark"] {
+            --vp-c-bg: #1a1a1a;
+            --vp-c-bg-soft: #242424;
+            --vp-c-bg-mute: #2d2d2d;
+            --vp-c-bg-alt: #1a1a1a;
+            --vp-c-text-1: rgba(255, 255, 255, 0.87);
+            --vp-c-text-2: rgba(255, 255, 255, 0.6);
+            --vp-c-text-3: rgba(255, 255, 255, 0.38);
+            --vp-c-border: #3e3e3e;
+            --vp-c-divider: #3e3e3e;
+        }
+
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: var(--vp-c-text-1);
+            background: var(--vp-c-bg);
+            transition: background-color 0.15s, color 0.15s;
+            will-change: background-color, color;
+        }
+
+        .navbar {
             position: fixed;
-            top: 0px;
+            top: 0;
             left: 0;
-            width: 150px;
-            height: 100%;
-            background-color: #f8f8f8;
+            right: 0;
+            height: 4.2rem;
+            background: var(--vp-c-bg);
+            border-bottom: 1px solid var(--vp-c-border);
+            z-index: 100;
+            padding: 0 1.5rem;
+        }
+
+        .navbar-brand {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--vp-c-text-1);
+            text-decoration: none;
+        }
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .nav-link {
+            color: var(--vp-c-text-2);
+            text-decoration: none;
+            font-size: 0.9rem;
+            transition: color 0.3s;
+        }
+
+        .nav-link:hover {
+            color: var(--vp-c-brand);
+        }
+
+        .main-container {
+            display: flex;
+            min-height: 100vh;
+            padding-top: 3.6rem;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 3.6rem;
+            left: 0;
+            bottom: 0;
+            width: 16rem;
+            background: var(--vp-c-bg);
+            border-right: 1px solid var(--vp-c-border);
             overflow-y: auto;
-            font-size: 14px;
+            z-index: 99;
+            padding-top: 1rem;
+            scrollbar-width: thin;
+            scrollbar-color: var(--vp-c-border) var(--vp-c-bg);
+            will-change: background-color, color;
         }
 
-        #toc li {
-            height: 25px;
+        .sidebar::-webkit-scrollbar {
+            width: 7px;
+            background: var(--vp-c-bg);
         }
 
-        #toc li a {
-            padding: 0px 10px;
+        .sidebar::-webkit-scrollbar-thumb {
+            background: var(--vp-c-border);
+            border-radius: 6px;
+            transition: background 0.2s;
         }
 
-        #markdown-content {
-            margin-left: 150px;
-            padding: 5px;
+        .sidebar::-webkit-scrollbar-thumb:hover {
+            background: var(--vp-c-brand);
+        }
+
+        [data-theme="dark"] .sidebar::-webkit-scrollbar {
+            background: #23272f;
+        }
+
+        [data-theme="dark"] .sidebar::-webkit-scrollbar-thumb {
+            background: #444;
+        }
+
+        [data-theme="dark"] .sidebar::-webkit-scrollbar-thumb:hover {
+            background: #3eaf7c;
+        }
+
+        .content {
+            flex: 1;
+            margin-left: 16rem;
+            padding: 2rem;
+            min-height: calc(100vh - 3.6rem);
+            background: var(--vp-c-bg);
+            scrollbar-width: thin;
+            scrollbar-color: var(--vp-c-border) var(--vp-c-bg);
+            will-change: background-color, color;
+        }
+
+        .content::-webkit-scrollbar {
+            width: 8px;
+            background: var(--vp-c-bg);
+        }
+
+        .content::-webkit-scrollbar-thumb {
+            background: var(--vp-c-border);
+            border-radius: 6px;
+            transition: background 0.2s;
+        }
+
+        .content::-webkit-scrollbar-thumb:hover {
+            background: var(--vp-c-brand);
+        }
+
+        [data-theme="dark"] .content::-webkit-scrollbar {
+            background: #23272f;
+        }
+
+        [data-theme="dark"] .content::-webkit-scrollbar-thumb {
+            background: #444;
+        }
+
+        [data-theme="dark"] .content::-webkit-scrollbar-thumb:hover {
+            background: #3eaf7c;
+        }
+
+        .language-group {
+            margin-bottom: 2rem;
+        }
+
+        .language-title {
+            padding-left: 1rem;
+            border-left: 5px solid;
+            margin-bottom: 0.7rem;
+            margin-top: 1.1rem;
+            font-size: 1.2rem;
+            scroll-margin-top: 4.2rem;
+        }
+
+        .project-list {
+            display: block;
+            width: 100%;
+        }
+
+        .lang-group {
+            margin-bottom: 2.5rem;
+        }
+
+        .lang-divider {
+            height: 3px;
+            border-radius: 2px;
+            margin-bottom: 1.1rem;
+            margin-top: -0.3rem;
+            width: 100%;
+            background: linear-gradient(90deg, #3eaf7c, #e0e0e0 80%);
+            opacity: 0.85;
+        }
+
+        .lang-projects {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 0.9rem;
+        }
+
+        @media (min-width: 1200px) {
+            .lang-projects {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+
+        .project-card {
+            background: var(--vp-c-bg-soft);
+            border: 1px solid var(--vp-c-border);
+            border-left-width: 4px;
+            border-radius: 8px;
+            padding: 0.9rem 1.1rem;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 0;
+            min-width: 0;
+        }
+
+        .project-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+        }
+
+        [data-theme="dark"] .project-card:hover {
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+        }
+
+        .project-card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.4rem;
+        }
+
+        .project-card-title a {
+            font-size: 1.15rem;
+            font-weight: 600;
+        }
+
+        .project-card-stats {
+            display: flex;
+            gap: 0.5rem;
+            white-space: nowrap;
+            font-size: 1.08em;
+        }
+
+        .project-card-stats .icon-link {
+            font-size: inherit;
+            line-height: 1.1;
+            margin-left: 0.25em;
+        }
+
+        .project-card-stats .icon-link:first-child {
+            margin-left: 0;
+        }
+
+        .project-card-body {
+            font-size: 0.95em;
+            color: var(--vp-c-text-2);
+            margin-bottom: 0.5rem;
+        }
+
+        .project-card-topics {
+            margin-bottom: 0.6rem;
+        }
+
+        .project-card-topics .badge {
+            background-color: var(--vp-c-bg-mute) !important;
+            color: var(--vp-c-text-2) !important;
+            font-weight: 500;
+        }
+
+        .project-card-footer {
+            border-top: 1px solid var(--vp-c-divider);
+            padding-top: 0.6rem;
+            margin-top: auto;
+        }
+
+        .theme-toggle {
+            background: none;
+            border: none;
+            color: var(--vp-c-text-2);
+            cursor: pointer;
+            padding: 0.5rem;
+            border-radius: 4px;
+            transition: all 0.3s;
+            height: 2.6em;
+            min-width: 2.6em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.35em;
+            line-height: 2.6em;
+        }
+
+        .theme-toggle:hover {
+            color: var(--vp-c-brand);
+            background: var(--vp-c-bg-soft);
+        }
+
+        .sidebar-item {
+            padding: 0.5em 1.5em;
+            cursor: pointer;
+            border-left: 3px solid transparent;
+            transition: all 0.2s ease-in-out;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .sidebar-item:hover {
+            background-color: var(--vp-c-bg-soft);
+        }
+
+        .sidebar-item.active {
+            border-left-color: var(--vp-c-brand) !important;
+            background-color: var(--vp-c-bg-soft);
+        }
+
+        .sidebar-item a {
+            flex-grow: 1;
+            color: var(--vp-c-text-2);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .sidebar-item.active a {
+            color: var(--vp-c-brand-dark);
+        }
+
+        [data-theme="dark"] .sidebar-item.active a {
+            color: var(--vp-c-brand-light);
+        }
+
+        .sidebar-color-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #ccc;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                transform: translateX(-100%);
+            }
+            
+            .sidebar.show {
+                transform: translateX(0);
+            }
+            
+            .content {
+                margin-left: 0;
+            }
+            
+            .navbar {
+                padding: 0 1rem;
+            }
+        }
+
+        /* --- 搜索栏样式 --- */
+        .search-bar {
+            position: relative;
+            width: 70vw;
+            max-width: 1100px;
+            min-width: 240px;
+            margin: 0 auto;
+            flex: 1 1 auto;
+            display: flex;
+            align-items: center;
+        }
+        .search-bar .form-control {
+            background-color: var(--vp-c-bg-soft);
+            border-color: var(--vp-c-border);
+            color: var(--vp-c-text-1);
+            padding-left: 2.5rem;
+            font-size: 1.18em;
+            height: 2.6em;
+        }
+        .search-bar .search-icon {
+            position: absolute;
+            top: 50%;
+            left: 1rem;
+            transform: translateY(-50%);
+            color: var(--vp-c-text-3);
+            pointer-events: none;
+            font-size: 1.2em;
+        }
+        @media (max-width: 900px) {
+            .search-bar {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+
+        .d-flex.align-items-center {
+            height: 2.6em;
+        }
+        .icon-link {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+            color: var(--vp-c-text-2);
+            background: none;
+            border: none;
+            outline: none;
+            font-size: 1.35em;
+            transition: color 0.2s;
+            text-decoration: none;
+            vertical-align: middle;
+            height: 2.6em;
+            min-width: 2.6em;
+            box-sizing: border-box;
+            line-height: 2.6em;
+        }
+        .icon-link i {
+            display: block;
+            margin: auto;
+            line-height: 2.6em;
+        }
+        .icon-link:hover {
+            color: var(--vp-c-brand);
+            background: none;
+        }
+
+        .lang-topic-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow-x: unset;
+            white-space: normal;
+            max-width: 100%;
+            min-width: 0;
+            font-size: 1.08em;
+        }
+        .lang-topic-row .badge {
+            white-space: nowrap;
+            flex-shrink: 0;
+            margin-right: 0.4em;
+        }
+        .lang-topic-row .badge:last-child {
+            margin-right: 0;
+        }
+
+        .badge.rounded-pill.bg-light.text-secondary.border {
+            background-color: var(--vp-c-bg-mute) !important;
+            color: var(--vp-c-text-2) !important;
+            font-weight: 500;
+            border: 1px solid var(--vp-c-border) !important;
+        }
+        [data-theme="dark"] .badge.rounded-pill.bg-light.text-secondary.border {
+            background-color: #23272f !important;
+            color: #bfc8d4 !important;
+            border: 1px solid #444 !important;
+        }
+
+        [data-theme="dark"] .project-card {
+            background: #23272f;
+            border-color: #333;
+        }
+        [data-theme="dark"] .project-card-footer {
+            border-top-color: #333;
+        }
+        [data-theme="dark"] .search-bar .form-control {
+            background-color: #23272f;
+            color: #e0e6ef;
+            border-color: #444;
+        }
+        [data-theme="dark"] .search-bar .form-control::placeholder {
+            color: #888;
+        }
+        [data-theme="dark"] .lang-divider {
+            background: linear-gradient(90deg, #3eaf7c, #444 80%);
+        }
+        [data-theme="dark"] .sidebar-item.active {
+            background-color: #23272f;
+        }
+        [data-theme="dark"] .sidebar-item:hover {
+            background-color: #23272f;
+        }
+        [data-theme="dark"] .icon-link {
+            color: #bfc8d4;
+        }
+        [data-theme="dark"] .icon-link:hover {
+            color: #3eaf7c;
+        }
+
+        .header-action-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 2.6em;
+            height: 2.6em;
+            padding: 0;
+            margin: 0 0.2em;
+            background: none;
+            border: none;
+            border-radius: 50%;
+            color: var(--vp-c-text-2);
+            font-size: 1.35em;
+            transition: background 0.2s, color 0.2s;
+            cursor: pointer;
+        }
+        .header-action-btn:hover {
+            background: var(--vp-c-bg-soft);
+            color: var(--vp-c-brand);
+        }
+        [data-theme="dark"] .header-action-btn:hover {
+            background: #23272f;
+            color: #3eaf7c;
+        }
+
+        .global-loading-mask {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(30, 34, 40, 0.45);
+            z-index: 9999;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: opacity 0.2s;
+        }
+        .global-loading-mask .spinner-border {
+            width: 3.5rem;
+            height: 3.5rem;
+            border-width: 0.35em;
         }
     </style>
 </head>
-
 <body>
-    <div id="markdown-content"  class="markdown-body"></div>
-    <div id="toc"></div>
-    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+    <div id="app">
+        <div v-if="globalLoading" class="global-loading-mask">
+            <div class="spinner-border text-primary" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+        <nav class="navbar">
+            <div class="container-fluid d-flex justify-content-between align-items-center">
+                <!-- 汉堡菜单按钮 (用于小屏幕) -->
+                <button class="d-md-none btn btn-light me-2" @click="toggleSidebar">
+                    <i class="bi bi-list"></i>
+                </button>
+                
+                <a href="#" class="navbar-brand">Starred Projects</a>
+
+                <!-- 搜索栏 -->
+                <div class="search-bar mx-auto">
+                    <i class="bi bi-search search-icon"></i>
+                    <input type="text" class="form-control" placeholder="搜索名称、描述、Topics..." v-model="searchQuery">
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <a href="https://github.com/yutao8/starred" target="_blank" class="header-action-btn" title="GitHub 仓库">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <button class="header-action-btn theme-toggle" @click="toggleTheme" title="切换主题">
+                        <i :class="isDark ? 'bi bi-sun-fill' : 'bi bi-moon-fill'"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="main-container">
+            <div class="sidebar" id="sidebar">
+                <div v-for="(projects, lang) in groupedProjects" :key="lang"
+                     class="sidebar-item" :class="{ 'active': activeLang === lang }"
+                     :style="{ 'border-left-color': activeLang === lang ? stringToHslColor(lang) : 'transparent' }">
+                    <span class="sidebar-color-dot" :style="{ backgroundColor: stringToHslColor(lang) }"></span>
+                    <a :href="'#lang-' + lang" @click="scrollToLang(lang)">
+                        {{ lang }} <span style="font-size: 0.9em; opacity: 0.7;">({{ projects.length }})</span>
+                    </a>
+                </div>
+            </div>
+            <div class="content">
+                <div v-if="error" class="error">
+                    {{ error }}
+                </div>
+                
+                <template v-else>
+                    <div class="project-list">
+                        <div v-for="(projects, lang) in groupedProjects" :key="lang + '-group'" class="lang-group">
+                            <h2 class="language-title" :id="'lang-' + lang" :style="{ 'border-left-color': stringToHslColor(lang) }">
+                                {{ lang }}
+                            </h2>
+                            <div class="lang-divider" :style="{ background: `linear-gradient(90deg, ${stringToHslColor(lang, 70, 55)}, #e0e0e0 80%)` }"></div>
+                            <div class="lang-projects">
+                                <div v-for="project in projects" :key="project.id || project.full_name" class="project-card" :style="{ 'border-left-color': stringToHslColor(lang, 60, 65) }">
+                                    <div>
+                                        <div class="project-card-header d-flex justify-content-between align-items-center mb-2">
+                                            <div class="d-flex align-items-center gap-2">
+                                                <img v-if="project.owner && project.owner.avatar_url" :src="project.owner.avatar_url" :alt="project.owner.login" class="rounded-circle me-2" style="width:28px;height:28px;object-fit:cover;" :title="project.owner.login">
+                                                <div class="project-card-title fw-semibold">
+                                                    <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
+                                                </div>
+                                            </div>
+                                            <div class="project-card-stats d-flex gap-2 align-items-center flex-wrap">
+                                                <span class="badge bg-light text-dark"><i class="bi bi-star-fill text-warning"></i> {{ project.stargazers_count }}</span>
+                                                <span class="badge bg-light text-dark"><i class="bi bi-git text-info"></i> {{ project.forks_count }}</span>
+                                                <span class="badge bg-light text-dark"><i class="bi bi-eye"></i> {{ project.watchers_count }}</span>
+                                                <span class="badge bg-light text-dark"><i class="bi bi-exclamation-circle"></i> {{ project.open_issues_count }}</span>
+                                                <span class="d-flex flex-wrap gap-1 ms-2">
+                                                    <a v-if="project.html_url" :href="project.html_url + '/issues'" target="_blank" class="icon-link" title="Issues"><i class="bi bi-exclamation-circle"></i></a>
+                                                    <a v-if="project.html_url" :href="project.html_url + '/pulls'" target="_blank" class="icon-link" title="Pull Requests"><i class="bi bi-git"></i></a>
+                                                    <a v-if="project.html_url" :href="project.html_url + '/actions'" target="_blank" class="icon-link" title="Actions"><i class="bi bi-lightning-charge"></i></a>
+                                                    <a v-if="project.html_url" :href="project.html_url + '/releases'" target="_blank" class="icon-link" title="Releases"><i class="bi bi-box-arrow-down"></i></a>
+                                                    <a v-if="project.homepage" :href="project.homepage" target="_blank" class="icon-link" title="Homepage"><i class="bi bi-house"></i></a>
+                                                    <a v-if="project.html_url && project.has_wiki" :href="project.html_url + '/wiki'" target="_blank" class="icon-link" title="Wiki"><i class="bi bi-journal-bookmark"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="lang-topic-row mb-1">
+                                            <span v-for="t in project.topics" :key="t" class="badge rounded-pill bg-light text-secondary border">{{ t }}</span>
+                                        </div>
+                                    </div>
+                                    <div class="project-card-body text-secondary mb-3">{{ project.desc || project.description || '暂无描述。' }}</div>
+                                    <div class="project-card-footer d-flex justify-content-between align-items-center text-muted small pt-2 flex-wrap" style="gap:0.8em;">
+                                        <div class="d-flex flex-wrap align-items-center" style="gap:0.8em;">
+                                            <span v-if="project.license" :title="project.license.name"><i class="bi bi-shield-check"></i> {{ project.license.spdx_id }}</span>
+                                            <span v-if="project.size"><i class="bi bi-hdd"></i> {{ (project.size / 1024).toFixed(1) }} MB</span>
+                                            <span v-if="project.default_branch"><i class="bi bi-git"></i> {{ project.default_branch }}</span>
+                                            <span v-if="project.language"><i class="bi bi-code-slash"></i> {{ project.language }}</span>
+                                            <span v-if="project.owner && project.owner.login"><i class="bi bi-person-circle"></i> {{ project.owner.login }}</span>
+                                            <span v-if="project.visibility === 'public'" title="公开"><i class="bi bi-globe"></i> 公开</span>
+                                            <span v-if="project.visibility === 'private'" title="私有"><i class="bi bi-lock"></i> 私有</span>
+                                            <span v-if="project.visibility === 'internal'" title="内部"><i class="bi bi-people"></i> 内部</span>
+                                            <span v-if="project.is_template" title="模板仓库"><i class="bi bi-file-earmark-plus"></i> 模板</span>
+                                            <span v-if="project.allow_forking" title="允许 Fork"><i class="bi bi-diagram-3"></i> 可Fork</span>
+                                            <span v-if="project.permissions && (project.permissions.admin || project.permissions.maintain || project.permissions.push || project.permissions.triage)">
+                                                <i class="bi bi-shield-lock"></i>
+                                                <template v-if="project.permissions.admin">管理员</template>
+                                                <template v-else-if="project.permissions.maintain">维护者</template>
+                                                <template v-else-if="project.permissions.push">推送</template>
+                                                <template v-else-if="project.permissions.triage">分拣</template>
+                                            </span>
+                                        </div>
+                                        <div class="d-flex flex-wrap align-items-center justify-content-end" style="gap:0.8em;min-width:120px;">
+                                            <span v-if="project.updated_at"><i class="bi bi-clock-history"></i> 活跃: {{ project.updated_at.slice(0, 10) }}</span>
+                                            <span v-if="project.pushed_at"><i class="bi bi-upload"></i> 提交: {{ project.pushed_at.slice(0, 10) }}</span>
+                                            <span v-if="project.created_at"><i class="bi bi-calendar-event"></i> 创建: {{ project.created_at.slice(0, 10) }}</span>
+                                            <span v-if="project.fork" title="Fork"><i class="bi bi-git"></i> Fork</span>
+                                            <span v-if="project.archived" title="已归档"><i class="bi bi-archive"></i> Archived</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </template>
+            </div>
+        </div>
+    </div>
+
     <script>
-        function loadDoc(url, callback) {
-            var xmlhttp;
-            if (window.XMLHttpRequest) {
-                xmlhttp = new XMLHttpRequest();
-            } else {
-                xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
-            }
-            xmlhttp.onreadystatechange = function() {
-                callback(xmlhttp);
-            }
-            xmlhttp.open("GET", url, true);
-            xmlhttp.send();
+        const { createApp, ref, computed, onMounted, watch } = Vue;
+
+        // 防抖函数
+        function debounce(fn, delay = 300) {
+            let timer = null;
+            return function(...args) {
+                clearTimeout(timer);
+                timer = setTimeout(() => fn.apply(this, args), delay);
+            };
         }
-    </script>
-    <script>
-        window.onload = function() {
-            loadDoc("README.md", function(xmlhttp) {
-                markdownText = xmlhttp.responseText;
-                var md = window.markdownit();
-                var html = md.render(markdownText);
-                document.getElementById('markdown-content').innerHTML = html;
-                var tocHtml = '<ul class="nav nav-pills nav-stacked">';
-                var headings = document.querySelectorAll('h1, h2, h3, h4, h5, h6');
-                headings.forEach(function(heading) {
-                    var level = parseInt(heading.tagName.charAt(1));
-                    var text = heading.textContent;
-                    var id = heading.id || text.toLowerCase().replace(/[^\w]+/g, '-');
-                    heading.id = id;
-                    tocHtml += '<li role="presentation"> <a href="#' + id + '" class="toc_li toc-level-' + level + '">' + text + '</a></li>';
+
+        createApp({
+            setup() {
+                const isDark = ref(false);
+                const loading = ref(true);
+                const globalLoading = ref(false);
+                const error = ref(null);
+                const searchQuery = ref('');
+                const sidebarOpen = ref(false);
+                const activeLang = ref('');
+                const projects = ref([]); // 当前展示的项目
+                let rawProjects = [];     // 原始所有项目（非响应式）
+
+                // 分组并排序
+                const groupedProjects = computed(() => {
+                    const groups = {};
+                    projects.value.forEach(project => {
+                        const lang = project.language || 'Other';
+                        if (!groups[lang]) groups[lang] = [];
+                        groups[lang].push(project);
+                    });
+                    const sortedLangs = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'zh-CN'));
+                    const result = {};
+                    sortedLangs.forEach(lang => {
+                        groups[lang].sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0));
+                        result[lang] = groups[lang];
+                    });
+                    return result;
                 });
-                tocHtml += "</ul>";
-                document.getElementById('toc').innerHTML = tocHtml;
-            });
-        }
+
+                // 主题切换
+                const toggleTheme = () => {
+                    globalLoading.value = true;
+                    isDark.value = !isDark.value;
+                    document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
+                    localStorage.setItem('theme', isDark.value ? 'dark' : 'light');
+                    setTimeout(() => {
+                        globalLoading.value = false;
+                    }, 400);
+                };
+
+                // 初始化主题
+                const initTheme = () => {
+                    const savedTheme = localStorage.getItem('theme');
+                    if (savedTheme) {
+                        isDark.value = savedTheme === 'dark';
+                    } else {
+                        isDark.value = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                    }
+                    document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
+                };
+
+                // 颜色生成
+                const stringToHslColor = (str, s = 70, l = 50) => {
+                    let hash = 0;
+                    for (let i = 0; i < str.length; i++) {
+                        hash = str.charCodeAt(i) + ((hash << 5) - hash);
+                    }
+                    const h = hash % 360;
+                    return `hsl(${h}, ${s}%, ${l}%)`;
+                };
+
+                // 平滑滚动到指定语言
+                const scrollToLang = (lang) => {
+                    // 关闭移动端侧边栏
+                    const sidebar = document.getElementById('sidebar');
+                    if (window.innerWidth <= 768 && sidebar && sidebar.classList.contains('show')) {
+                        sidebar.classList.remove('show');
+                    }
+                    // 滚动到分组标题
+                    const id = 'lang-' + lang;
+                    const element = document.getElementById(id);
+                    if (element) {
+                        // 优先用scrollIntoView，兼容性好
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        // 再用window.scrollTo补偿navbar高度
+                        const navbar = document.querySelector('.navbar');
+                        const navHeight = navbar ? navbar.offsetHeight : 67;
+                        // 延迟一点点再修正
+                        setTimeout(() => {
+                            const rect = element.getBoundingClientRect();
+                            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                            const top = rect.top + scrollTop - navHeight;
+                            window.scrollTo({ top, behavior: 'smooth' });
+                        }, 200);
+                    }
+                };
+
+                // 侧边栏
+                const toggleSidebar = () => {
+                    sidebarOpen.value = !sidebarOpen.value;
+                    document.getElementById('sidebar').classList.toggle('show');
+                };
+
+                // 搜索过滤逻辑（防抖）
+                const doFilter = debounce(() => {
+                    globalLoading.value = true;
+                    setTimeout(() => {
+                        if (!searchQuery.value.trim()) {
+                            projects.value = rawProjects.slice();
+                            globalLoading.value = false;
+                            return;
+                        }
+                        const keywords = searchQuery.value.toLowerCase().split(' ').filter(k => k);
+                        projects.value = rawProjects.filter(p => {
+                            const searchableText = [
+                                p.full_name,
+                                p.description,
+                                ...(p.topics || [])
+                            ].join(' ').toLowerCase();
+                            return keywords.every(kw => searchableText.includes(kw));
+                        });
+                        globalLoading.value = false;
+                    }, 200);
+                }, 300);
+
+                // 监听 searchQuery
+                watch(searchQuery, doFilter);
+
+                onMounted(async () => {
+                    globalLoading.value = true;
+                    initTheme();
+                    try {
+                        const res = await fetch('./starList.json');
+                        if (!res.ok) throw new Error('无法加载 starList.json');
+                        rawProjects = await res.json();
+                        projects.value = rawProjects.slice();
+                    } catch (e) {
+                        error.value = e.message;
+                    } finally {
+                        loading.value = false;
+                        globalLoading.value = false;
+                    }
+
+                    // 滚动监听高亮
+                    const observer = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                activeLang.value = entry.target.id.split('-')[1];
+                            }
+                        });
+                    }, { rootMargin: "-50% 0px -50% 0px" });
+                    setTimeout(() => {
+                        document.querySelectorAll('.language-title').forEach(el => observer.observe(el));
+                    }, 1000);
+                });
+
+                return {
+                    isDark,
+                    loading,
+                    globalLoading,
+                    error,
+                    searchQuery,
+                    sidebarOpen,
+                    activeLang,
+                    groupedProjects,
+                    toggleTheme,
+                    toggleSidebar,
+                    stringToHslColor,
+                    scrollToLang
+                };
+            }
+        }).mount('#app');
     </script>
 </body>
-
 </html>
+
