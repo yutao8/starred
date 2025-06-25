@@ -6,7 +6,7 @@
   这是一个用于构建和管理基于ZED相机（ZED-2、ZED-Mini等）的3D点云和深度图像处理工作流的Python库。它提供了一系列工具，用于快速采集、预处理和分析ZED相机数据，例如标定、深度图处理、点云生成、目标识别等。库基于Python和OpenCV，并利用ZED SDK进行相机交互。该库的目标是简化ZED相机数据的处理流程，并提供易于使用的API，方便开发者快速构建基于ZED相机的应用。
 - [lencx/ChatGPT](https://github.com/lencx/ChatGPT) ★53875 [`ai`] [`app`] [`application`] [`chatgpt`] [`desktop-app`] [`gpt`] [`gpt-3`] [`linux`] [`macos`] [`notes-app`] [`openai`] [`rust`] [`tauri`] [`webview`] [`windows`]  
   该项目是一个使用Python和OpenAI API构建的简易ChatGPT接口。它允许用户通过简单的API调用与ChatGPT模型进行交互，获取文本回复。项目使用Flask框架构建API服务器，并提供清晰的文档和示例代码，方便用户快速集成到其他应用中。核心功能包括发送提示词、接收回复、错误处理和API密钥管理。
-- [starship/starship](https://github.com/starship/starship) ★49591 [`bash`] [`fish`] [`fish-prompt`] [`fish-theme`] [`oh-my-zsh`] [`powershell`] [`rust`] [`shell-prompt`] [`starship`] [`zsh`] [`zsh-prompt`] [`zsh-theme`]  
+- [starship/starship](https://github.com/starship/starship) ★49593 [`bash`] [`fish`] [`fish-prompt`] [`fish-theme`] [`oh-my-zsh`] [`powershell`] [`rust`] [`shell-prompt`] [`starship`] [`zsh`] [`zsh-prompt`] [`zsh-theme`]  
   Starship 是一个跨平台的终端命令行工具，提供高度可定制化的提示信息，以增强终端用户体验。它使用纯 Rust 编写，并支持多种 shell，包括 Zsh、Bash 和 Fish。Starship 通过配置文件和插件机制实现自定义，用户可以根据需要添加主题、图标和信息展示。该项目强调易用性和高效性，为用户提供简洁明了的命令行环境。
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ★45735 [`bitwarden`] [`bitwarden-rs`] [`docker`] [`hacktoberfest`] [`rocket`] [`rust`] [`vaultwarden`]  
   Vaultwarden是一个开源的、轻量级的、功能强大的VPN服务器。它使用Rust编写，并提供易于使用的Web界面和命令行工具。用户可以通过Web界面管理连接、配置服务器，并监控连接状态。该项目支持多种VPN协议，例如WireGuard、OpenVPN、IKEv2和IPsec。Vaultwarden的核心功能包括用户管理、安全配置以及日志记录。它易于部署和维护，适合个人和小型团队使用。

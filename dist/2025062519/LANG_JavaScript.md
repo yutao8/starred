@@ -1,6 +1,6 @@
 # JavaScript 仓库
 
-- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★71174 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★71175 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
   Uptime Kuma是一个开源的、基于Go语言的监控工具，用于监视服务和应用程序的运行状况。它提供直观的仪表盘，显示服务状态、响应时间和错误率等关键指标。该工具使用Prometheus收集指标，并通过Grafana进行可视化。  它支持多种服务协议（如HTTP、TCP）的监控，并允许自定义监控规则。  通过简洁的界面和强大的功能，Uptime Kuma 帮助用户快速定位和解决服务故障。
 - [mozilla/pdf.js](https://github.com/mozilla/pdf.js) ★51115  
   pdf.js 是一个开源项目，用于在浏览器中显示 PDF 文件。它使用 JavaScript 实现，并利用 HTML5 canvas 和 WebGL 渲染 PDF 内容。  该项目提供了一个独立的 PDF 阅读器，支持多种 PDF 功能，例如页面缩放、旋转、搜索、书签等。  核心技术包括 PDF 文档解析、页面布局、图像渲染和交互逻辑，目标是为用户提供流畅且可靠的 PDF 阅读体验。
@@ -48,7 +48,7 @@
   这是一个用于构建用户界面的开源图标库，提供高质量的SVG图标。  该库使用Tailwind CSS进行样式化，方便在各种项目中快速集成。  开发者可直接使用预定义的类名来应用图标，无需额外配置。  项目采用SVG格式，保证图标在不同分辨率下清晰锐利。  通过简洁的API和丰富的图标选择，可以有效提升用户界面设计效率。
 - [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) ★22395  
   这是一个Chrome扩展程序，用于在Chrome浏览器中显示英雄联盟角色信息。用户可以通过搜索英雄名称快速获取英雄的技能、属性、皮肤等详细信息。该扩展程序使用JavaScript和HTML构建，并通过API获取英雄数据。它提供了一个简洁直观的界面，方便用户快速查找和浏览英雄信息。
-- [eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js) ★21881  
+- [eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js) ★21880  
   FileSaver.js 是一个用于在浏览器中轻松保存文件的JavaScript库。它允许用户将数据（例如文本、二进制数据）以各种文件格式保存到本地计算机。该库使用JavaScript编写，无需依赖任何外部库或框架。  核心功能是提供一个`saveAs`函数，该函数接收数据和文件名作为参数，并在用户浏览器中触发下载。  它支持各种文件类型，并能处理不同类型的二进制数据。
 - [blackmatrix7/ios_rule_script](https://github.com/blackmatrix7/ios_rule_script) ★21519  
   这是一个iOS设备规则脚本集合，用于屏蔽广告、追踪器等内容。该项目使用JavaScript编写规则，通过配置文件方式管理，支持多种过滤策略。  它基于iOS平台，通过修改系统代理配置实现内容过滤。  用户可自定义规则，并通过配置文件加载和更新。  该项目旨在为用户提供便捷的iOS内容过滤方案。
@@ -132,7 +132,7 @@
   WebTorrent-Desktop 是一个跨平台的 BitTorrent 客户端，基于 WebTorrent 库构建。它允许用户使用 Web 浏览器中常用的界面下载和上传 BitTorrent 文件。该客户端使用 JavaScript 编写，并利用 Electron 框架提供桌面应用程序的体验。核心功能包括：简单直观的界面、快速下载和上传、支持各种 BitTorrent 文件。
 - [snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select) ★9878 [`bootstrap`] [`dropdown`] [`javascript`] [`jquery`] [`select`] [`ui`] [`ux`]  
   这是一个基于Bootstrap的JavaScript下拉选择框插件，提供多种样式和交互方式，方便用户选择。它支持多选、搜索、分级等功能，并能与各种前端框架集成。插件使用纯JavaScript编写，并依赖于Bootstrap框架。核心功能包括自定义样式、数据源加载、事件处理等，旨在提升网页交互体验。
-- [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) ★9768 [`javascript-plugin`] [`live2d`]  
+- [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) ★9769 [`javascript-plugin`] [`live2d`]  
   这是一个用于在网页中嵌入Live2D模型的JavaScript库。它允许用户在网页上动态展示Live2D角色，并支持多种动画和交互。该库使用纯JavaScript编写，并基于Canvas进行渲染，具有较高的性能和灵活度。主要功能包括模型加载、动画控制、用户交互事件响应等。  该项目提供了易于使用的API，方便开发者快速集成到自己的项目中。
 - [MrXujiang/h5-Dooring](https://github.com/MrXujiang/h5-Dooring) ★9738 [`antd`] [`drag-and-drop`] [`h5`] [`h5-builder`] [`h5-dooring`] [`h5-editor`] [`javascript`] [`low-code`] [`low-code-framework`] [`low-code-platform`] [`lowcode`] [`miniprogram`] [`page-builder`] [`page-factory`] [`react`] [`react-dnd`] [`react-router`] [`site-generator`] [`typescript`] [`visual-design`]  
   这是一个基于HTML5的网页门禁系统。它允许用户通过网页端进行门禁控制，例如开门、关门、查看访客记录等。该系统使用JavaScript进行前端开发，后端采用Node.js和Express框架，并利用数据库（例如MySQL）存储访客信息和控制指令。系统提供API接口，方便与其他系统集成。

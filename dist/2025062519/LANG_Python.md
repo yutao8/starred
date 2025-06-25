@@ -1,18 +1,18 @@
 # Python 仓库
 
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★360686 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★360688 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
   这是一个收集免费编程书籍的网站。它使用 Python 和 Flask 框架构建，通过爬虫从各种网站抓取编程书籍链接，并将其整理成易于浏览的分类目录。用户可以方便地搜索和下载各种编程语言（如 Python、Java、JavaScript 等）的免费电子书。该项目旨在为学习编程的人提供免费学习资源。
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★353057 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★353062 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
   这是一个收集了大量公开API的资源库。它涵盖了各种类型的API，包括天气、股票、笑话、图片等等。  用户可以通过搜索和筛选功能快速找到所需的API。该项目使用简单的HTML和JavaScript构建，并提供了一个易于使用的网页界面。  该资源库主要用于开发者快速查找和测试公开API，节省了开发时间。
 - [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ★136204  
   这是一个命令行工具，用于下载YouTube和其他视频平台的视频和音频。它支持多种格式和质量选项，并能下载字幕和多个音轨。该工具使用Python编写，并基于`requests`库进行网络请求，`beautifulsoup4`库进行网页解析，`ffmpeg`进行视频格式转换。  项目包含丰富的命令行参数，允许用户灵活地控制下载过程。
-- [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) ★97832  
+- [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) ★97833  
   DeepSeek-V3 是一个基于深度学习的图像搜索引擎。它利用卷积神经网络 (CNN) 提取图像特征，并构建高效的图像相似度匹配算法。项目使用 Python 和 PyTorch 框架实现，核心模块包括特征提取网络、相似度计算模块和数据库索引。DeepSeek-V3 可用于快速查找与目标图像相似的图片，并支持大规模图像数据集的索引和搜索。
 - [nvbn/thefuck](https://github.com/nvbn/thefuck) ★92542 [`python`] [`shell`]  
   Thefuck是一个命令行工具，用于修复错误的shell命令。它分析用户输入的错误命令，并尝试预测用户想要执行的正确命令。该工具使用Python编写，利用自然语言处理技术识别用户意图，并根据历史命令和系统信息提供建议。核心功能是自动修正用户输入的错误命令，提高用户效率。
 - [home-assistant/core](https://github.com/home-assistant/core) ★79790 [`asyncio`] [`hacktoberfest`] [`home-automation`] [`internet-of-things`] [`iot`] [`mqtt`] [`python`] [`raspberry-pi`]  
   Home Assistant Core是一个开源的家庭自动化平台，允许用户通过多种设备控制和自动化家庭环境。它支持各种传感器、执行器和智能家居设备，并提供直观的界面进行配置和管理。该平台使用Python编写，基于Home Assistant YAML配置，并利用MQTT、REST API等协议进行通信。关键模块包括用户界面、设备集成和自动化规则引擎，使用户能够创建自定义的自动化场景和控制流程。
-- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★74323  
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★74324  
   这是一个基于Python的自然语言处理（NLP）项目，旨在提供一系列易于使用的函数，用于文本预处理、特征提取和情感分析。项目使用spaCy和Scikit-learn等库，实现文本清洗、词向量化和情感分类等功能。该项目的目标是简化NLP任务的流程，并提供可重用的代码模块，方便开发者快速构建NLP应用。
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ★66288 [`cli`] [`cti`] [`cybersecurity`] [`forensics`] [`hacktoberfest`] [`information-gathering`] [`infosec`] [`linux`] [`osint`] [`pentesting`] [`python`] [`python3`] [`reconnaissance`] [`redteam`] [`sherlock`] [`tools`]  
   这是一个用于在互联网上查找与目标相关的公开信息的工具。它利用多种搜索引擎和公共数据源来收集信息，包括社交媒体、开源数据库和网络论坛。该工具使用Python编写，并基于Scrapy爬虫框架构建，结合正则表达式和自然语言处理技术进行信息提取。核心功能包括目标识别、社交媒体分析和网络关系图谱构建，帮助用户快速获取目标个人或组织的背景信息。
@@ -22,7 +22,7 @@
   Scrapy是一个基于Python的快速、高层次屏幕抓取和Web爬虫框架。它提供了一个强大的架构，用于从各种网站中提取结构化数据。Scrapy支持不同的爬取策略，并提供强大的管道机制用于处理和存储提取的数据。主要使用Python语言开发，并包含了如Item、Spider、Pipeline等关键模块，可轻松应对各种复杂的网页结构和爬取需求。
 - [soimort/you-get](https://github.com/soimort/you-get) ★55781  
   `you-get` 是一个强大的命令行工具，用于下载各种类型的资源，包括视频、音频、图片、文档等。它支持从各种网站（如 YouTube、TikTok、Facebook、Twitter 等）下载内容。  该工具使用 Python 编写，基于 `requests` 库进行网络请求，并使用 `beautifulsoup4` 解析网页内容，提取下载链接。  `you-get` 支持多种下载选项，例如指定下载格式、分辨率和文件名等，并提供灵活的配置选项。
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★52823 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★52824 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
   这是一个包含多种网络安全工具的集合，方便渗透测试和安全评估。工具涵盖信息收集、漏洞扫描、漏洞利用等功能，使用Python编写，并集成了一些常用的安全库和模块，例如Scapy和requests。  该项目旨在提供一个易于使用的工具包，帮助安全研究人员和渗透测试人员快速有效地完成任务。  工具支持多种协议和平台，并具有可定制性。
 - [zhayujie/chatgpt-on-wechat](https://github.com/zhayujie/chatgpt-on-wechat) ★37869 [`ai`] [`ai-agent`] [`chatgpt`] [`claude-4`] [`deepseek`] [`dingtalk`] [`feishu-bot`] [`gemini`] [`gpt-4`] [`kimi`] [`linkai`] [`llm`] [`mcp`] [`multi-agent`] [`openai`] [`python3`] [`qwen`] [`rag`] [`wechat`] [`wechat-bot`]  
   该项目使用微信小程序实现了一个基于 ChatGPT 的聊天机器人。用户可以通过微信小程序与 ChatGPT 进行交互，获取信息、进行对话等。项目主要使用 JavaScript 和微信小程序框架开发，并调用 ChatGPT API 来实现对话功能。核心模块包括用户界面、API 调用和数据处理。
@@ -66,7 +66,7 @@
   InstaPy是一个用于Instagram自动化操作的Python库。它提供了一系列功能，例如自动点赞、关注、评论和私信，帮助用户提升Instagram账户的互动和影响力。该库使用Python编写，并基于Selenium进行网页驱动，从而模拟用户操作。关键模块包括登录、点赞/关注/评论、私信等功能的实现，以及错误处理和资源管理。  InstaPy旨在简化Instagram自动化流程，但用户需谨慎使用，遵守Instagram服务条款。
 - [binux/pyspider](https://github.com/binux/pyspider) ★16682 [`crawler`] [`python`]  
   PySpider是一个基于Python的爬虫框架，提供强大的Web页面抓取和数据提取能力。它支持多种页面解析库和HTTP请求库，并提供任务调度、数据存储等功能。框架使用Python语言开发，主要模块包括请求引擎、解析引擎和数据存储模块。PySpider的目标是简化爬虫开发，提高爬虫效率，方便用户快速构建各种爬虫应用。
-- [Guovin/iptv-api](https://github.com/Guovin/iptv-api) ★16247 [`amd64`] [`api`] [`arm64`] [`armv7`] [`auto`] [`diy`] [`docker`] [`epg`] [`ipdb`] [`iptv`] [`ipv4`] [`ipv6`] [`m3u`] [`m3u8`] [`rtmp`] [`tv`] [`tvbox`] [`workflow`]  
+- [Guovin/iptv-api](https://github.com/Guovin/iptv-api) ★16248 [`amd64`] [`api`] [`arm64`] [`armv7`] [`auto`] [`diy`] [`docker`] [`epg`] [`ipdb`] [`iptv`] [`ipv4`] [`ipv6`] [`m3u`] [`m3u8`] [`rtmp`] [`tv`] [`tvbox`] [`workflow`]  
   这是一个基于Python和Flask框架的IPTV API接口项目。它提供获取IPTV直播频道列表、播放地址等功能，方便开发者快速集成IPTV服务。项目使用JSON格式传输数据，并包含频道信息、播放地址等关键模块。  该项目旨在为IPTV应用提供一个简易的API接口，降低开发门槛，提高开发效率。
 - [fastapi/sqlmodel](https://github.com/fastapi/sqlmodel) ★16212 [`fastapi`] [`json`] [`json-schema`] [`pydantic`] [`python`] [`sql`] [`sqlalchemy`]  
   这是一个使用FastAPI和SQLModel构建的快速、类型安全的API。它利用SQLModel自动生成数据库模型和交互代码，简化了数据库操作。  项目使用Python编写，基于FastAPI框架，并整合了SQLAlchemy进行数据库交互。  主要功能包括用户注册、登录和数据查询，提供API接口方便前端调用。  该项目旨在展示如何高效地构建一个简单的后端API，并强调类型安全和代码生成带来的便利性。

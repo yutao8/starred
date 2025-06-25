@@ -4,11 +4,11 @@
   该项目是一个关于中国程序员工作强度和压力的匿名吐槽平台。用户可以通过匿名发表帖子，分享工作经历和感受。平台使用简单的文本格式，并支持搜索和过滤功能。该项目主要使用PHP语言开发，并使用数据库存储用户数据和帖子信息。
 - [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★233692 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
   这是一个收集各种可自托管软件的资源列表。涵盖了从博客和论坛到视频会议和VPN等各种应用。列表按类别组织，便于用户快速找到所需的自托管工具。该项目使用纯文本格式维护，便于轻松更新和浏览。
-- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ★114408 [`android`] [`angular`] [`books`] [`free`] [`ios`] [`javascript`] [`kotlin`] [`pdf`] [`programming`] [`python`] [`react`] [`react-native`] [`swift`] [`vue`]  
+- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ★114409 [`android`] [`angular`] [`books`] [`free`] [`ios`] [`javascript`] [`kotlin`] [`pdf`] [`programming`] [`python`] [`react`] [`react-native`] [`swift`] [`vue`]  
   这是一个中文编程书籍资源库，收集了大量免费的编程书籍。用户可以通过搜索、分类等方式快速找到需要的书籍。项目使用Python爬取书籍信息，并存储到数据库中，提供简洁的网页界面供用户浏览。  主要技术栈包括Python、Flask框架、数据库（例如SQLite），以及网页前端技术。
 - [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) ★90267  
   DeepSeek-R1 是一个基于深度学习的图像识别项目，旨在快速准确地检测和分类图像中的目标。它使用 PyTorch 框架，并包含一个卷积神经网络 (CNN) 模块，用于从图像中提取特征。该项目利用预训练模型进行特征提取，并通过自定义层进行分类，从而提高识别精度和效率。  最终目标是提供一个易于使用的图像识别工具，适用于各种应用场景，例如物体检测、图像分类等。
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★69419  
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★69420  
   这是一个每周发布的中文技术周刊，涵盖了前端、后端、移动端、数据库、运维等多个技术领域。周刊内容包括精选文章、开源项目、工具资源、会议活动等，旨在帮助开发者快速了解业界最新技术动态。该项目使用Python和Markdown进行构建，并利用RSS订阅和邮件推送功能，确保用户及时获取最新信息。
 - [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ★55504 [`chat-gpt`] [`chatgpt`] [`chatgpt3`] [`chatgpt4`] [`gpt`]  
   这是一个中文版的 ChatGPT 提示词合集，涵盖了各种应用场景，例如总结文章、撰写代码、创作故事等。  该项目使用 Markdown 格式组织，方便用户查找和使用不同类型的提示词。  用户可以根据自己的需求快速找到并复制合适的提示词，提高 ChatGPT 的使用效率。
@@ -24,7 +24,7 @@
   这是一个PHP资源列表，涵盖了各种主题，例如框架、库、工具、教程等。它以易于浏览的格式组织，方便开发者快速找到所需的资源。该列表使用纯文本和链接的形式呈现，主要语言为HTML，并通过简单的目录结构组织，便于查找。  该项目旨在为PHP开发者提供一个全面的资源库，帮助他们更好地学习和使用PHP。
 - [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) ★30323 [`api`] [`apis`] [`cloudmusic`] [`javascript`] [`neteasecloud`] [`nodejs`]  
   该项目提供一个Python库，用于访问网易云音乐API。它简化了与API的交互，允许开发者轻松获取音乐信息、用户数据等。该库使用Python语言开发，基于requests库进行HTTP请求，并提供了清晰的API调用方法。核心功能包括歌曲搜索、用户登录、歌单获取等，方便开发者进行音乐相关的应用开发。
-- [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) ★28535 [`aria2`] [`aria2-format-tracker`] [`bittorrent`] [`bittorrent-trackers`] [`qbittorrent`] [`torrent`] [`torrent-tracker`] [`tracker`] [`trackers`] [`trackerslist`] [`utorrent`]  
+- [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) ★28536 [`aria2`] [`aria2-format-tracker`] [`bittorrent`] [`bittorrent-trackers`] [`qbittorrent`] [`torrent`] [`torrent-tracker`] [`tracker`] [`trackers`] [`trackerslist`] [`utorrent`]  
   这是一个用于管理和跟踪多个追踪器（例如GitHub、GitLab等）的列表的Python项目。它允许用户添加、删除和更新追踪器信息，并提供查询功能。项目使用Python语言和字典结构存储追踪器数据，并通过命令行界面进行交互。  该项目旨在提供一个简易的工具，方便用户集中管理多个追踪器的信息，提高工作效率。
 - [geekcompany/ResumeSample](https://github.com/geekcompany/ResumeSample) ★27719  
   这是一个简历模板项目，提供多种风格的简历示例，方便用户快速创建吸引人的简历。项目使用 HTML、CSS 和 JavaScript 技术构建，包含响应式设计，可适应不同设备。模板可自定义，用户可以修改文本、颜色和布局以满足个人需求。该项目旨在帮助用户高效地设计出高质量的简历，提升求职竞争力。
@@ -106,7 +106,7 @@
   这是一个用于构建和部署AI模型的平台。它提供了一个易于使用的界面，允许用户上传数据、选择预训练模型或自定义模型，并进行训练、评估和部署。平台使用Python和Flask框架构建，核心模块包括数据预处理、模型训练、评估和API接口生成。最终用户可以通过API调用训练好的模型进行预测。
 - [starrtc/starrtc-android-demo](https://github.com/starrtc/starrtc-android-demo) ★3719 [`chatroom`] [`coturn`] [`free`] [`groupchat`] [`im`] [`janus`] [`jitsi`] [`kurento`] [`licode`] [`live`] [`raspberry-pi`] [`video`] [`video-chat`] [`voip`] [`webrtc`]  
   这是一个用于演示StarRTC Android SDK的示例项目。该项目展示了如何使用StarRTC SDK进行实时音视频通话，包括创建房间、加入房间、发送音视频数据等核心功能。项目使用Kotlin语言和Android Jetpack Compose框架构建，并包含清晰的代码注释和详细的示例。通过该项目，开发者可以快速上手StarRTC SDK，并了解其使用方法和功能。
-- [pingfangx/jetbrains-in-chinese](https://github.com/pingfangx/jetbrains-in-chinese) ★3704 [`androidstudio`] [`chinese`] [`chinese-translation`] [`clion`] [`goland`] [`intellijidea`] [`jetbrains`] [`phpstorm`] [`pycharm`] [`rubymine`] [`webstorm`]  
+- [pingfangx/jetbrains-in-chinese](https://github.com/pingfangx/jetbrains-in-chinese) ★3703 [`androidstudio`] [`chinese`] [`chinese-translation`] [`clion`] [`goland`] [`intellijidea`] [`jetbrains`] [`phpstorm`] [`pycharm`] [`rubymine`] [`webstorm`]  
   该项目提供JetBrains软件（如IDEA、PyCharm等）的中文翻译资源。  它基于本地化文件解析和翻译，并提供易于使用的脚本工具，用于更新和维护翻译内容。  项目使用Python和一些常用的文本处理库，例如正则表达式和字符串操作。  主要功能包括：批量翻译、文件合并、版本控制，方便JetBrains软件用户体验中文化。
 - [AttemptD/AfuseKt-release](https://github.com/AttemptD/AfuseKt-release) ★3640  
   这是一个基于Kotlin的Android应用，用于快速、便捷地融合（fuse）多个APK文件。它使用Kotlin进行开发，并利用Android Gradle Plugin进行构建，核心功能是通过脚本自动化处理APK合并，从而简化多APK应用的打包流程。  项目提供命令行工具和可配置的脚本，允许用户自定义合并策略，例如选择特定模块或资源。该项目旨在提高Android多模块应用的构建效率和灵活性。

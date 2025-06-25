@@ -6,13 +6,13 @@
   Syncthing是一个开源的、分布式的文件同步工具。它允许用户在多台设备之间同步文件和文件夹，无需中央服务器。Syncthing使用基于Merkle树的协议进行高效的文件传输和同步，并支持多种平台。该项目主要使用Go语言开发，并包含一个功能强大的命令行界面和图形用户界面。其核心功能是实现跨平台的可靠文件同步，并保证数据完整性。
 - [junegunn/fzf](https://github.com/junegunn/fzf) ★71250 [`bash`] [`cli`] [`fish`] [`fzf`] [`go`] [`neovim`] [`tmux`] [`unix`] [`vim`] [`zsh`]  
   fzf是一款快速、强大的命令行过滤工具。它利用模糊匹配算法，允许用户快速浏览和筛选长列表中的项目。用户可以通过输入关键词进行模糊搜索，并通过按键导航选择结果。fzf支持多种配置选项和插件，可以高度定制化。它主要使用C语言编写，并利用ncurses库进行终端交互。其核心功能是提供高效的命令行过滤机制，提升终端工具的可用性。
-- [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) ★54036 [`certificates`] [`chrome`] [`firefox`] [`https`] [`ios`] [`linux`] [`local-development`] [`localhost`] [`macos`] [`root-ca`] [`tls`] [`windows`]  
+- [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) ★54037 [`certificates`] [`chrome`] [`firefox`] [`https`] [`ios`] [`linux`] [`local-development`] [`localhost`] [`macos`] [`root-ca`] [`tls`] [`windows`]  
   mkcert是一个用于生成本地TLS证书的工具。它允许开发人员在无需访问证书颁发机构的情况下，快速创建有效的TLS证书。该工具使用Go语言开发，并利用了crypto/x509和crypto/rand等标准库。  mkcert生成的证书用于测试和开发环境，无需配置复杂的证书颁发流程，极大地简化了本地HTTPS服务器的搭建。
 - [rclone/rclone](https://github.com/rclone/rclone) ★51177 [`azure-blob`] [`azure-blob-storage`] [`azure-files`] [`backblaze-b2`] [`cloud-storage`] [`dropbox`] [`encryption`] [`ftp`] [`fuse-filesystem`] [`go`] [`golang`] [`google-cloud-storage`] [`google-drive`] [`onedrive`] [`openstack-swift`] [`rclone`] [`s3`] [`sftp`] [`sync`] [`webdav`]  
   rclone是一个命令行工具，用于在各种云存储服务（如Dropbox、Google Drive、Amazon S3）之间复制和同步文件。它支持多种协议，并提供强大的功能，例如跨平台支持、高级同步策略、自定义元数据等。该工具使用Go语言编写，并使用多线程和缓存技术来提高性能。rclone的核心功能是文件复制、同步和管理，为用户提供便捷的云存储管理方式。
 - [go-gitea/gitea](https://github.com/go-gitea/gitea) ★49219 [`bitbucket`] [`cicd`] [`devops`] [`docker-registry-v2`] [`git`] [`git-gui`] [`git-server`] [`gitea`] [`github`] [`github-actions`] [`gitlab`] [`go`] [`golang`] [`hacktoberfest`] [`maven-server`] [`npm-registry`] [`vue`]  
   Gitea是一个自托管的Git服务，类似于GitHub。它允许用户创建、管理仓库、进行代码协作，并提供Web界面进行交互。Gitea使用Go语言开发，基于beego框架，并包含一个用于数据库交互的模块。项目包含用户管理、仓库管理、代码托管、issue跟踪等功能。
-- [AlistGo/alist](https://github.com/AlistGo/alist) ★48846 [`file-server`] [`gin`] [`golang`] [`onedrive`] [`solidjs`] [`webdav`]  
+- [AlistGo/alist](https://github.com/AlistGo/alist) ★48847 [`file-server`] [`gin`] [`golang`] [`onedrive`] [`solidjs`] [`webdav`]  
   这是一个基于 Python 和 Flask 框架的个人文件管理工具，类似于 Dropbox 或 Google Drive。它允许用户上传、下载、同步和管理本地文件。项目使用 SQLite 数据库存储文件元数据，并提供 Web 界面进行操作。  用户可以通过 API 接口或 Web 界面访问和管理文件。  核心功能包括文件上传、下载、搜索、以及文件夹管理。  该项目旨在提供一个易于使用且功能强大的个人文件同步解决方案。
 - [gogs/gogs](https://github.com/gogs/gogs) ★46530 [`docker`] [`git`] [`go`] [`gogs`] [`mysql`] [`postgresql`] [`raspberry-pi`] [`scip-enabled`] [`self-hosted`] [`sqlite3`]  
   Gogs是一个自托管的Git服务，类似于GitHub和GitLab。它使用Go语言开发，基于Web框架Gin。用户可以通过Web界面管理仓库、提交代码、查看提交历史等。Gogs支持多种身份验证方式，并提供丰富的配置选项，以满足不同用户的需求。它易于安装和使用，并提供良好的性能。
@@ -58,7 +58,7 @@
   这是一个用于构建和运行微服务的开源平台。Hydra 使用 Go 语言开发，并基于 Kubernetes，提供服务发现、负载均衡、路由和健康检查等功能。开发者可以使用声明式配置来定义服务和依赖关系，简化微服务架构的部署和管理。  它支持多种协议，如 gRPC 和 HTTP，并允许用户轻松扩展和自定义。
 - [jeessy2/ddns-go](https://github.com/jeessy2/ddns-go) ★14588 [`alidns`] [`baiduyun`] [`cloudflare`] [`ddns`] [`ddns-go`] [`dnspod`] [`godaddy-ddns`] [`google-domains`] [`porkbun`]  
   这是一个使用Go语言编写的动态域名服务（DDNS）工具。它支持多种DDNS服务提供商，例如阿里云、腾讯云、华为云等。该工具通过轮询获取公网IP地址，并自动更新DDNS记录，以确保域名始终指向正确的IP地址。项目使用Go语言开发，并利用`net`和`http`等标准库，以及`github.com/miekg/dns`等第三方库进行DNS解析和更新操作。  该项目旨在提供一个简单易用的DDNS解决方案，方便用户维护动态IP地址的域名映射。
-- [coredns/coredns](https://github.com/coredns/coredns) ★13107 [`cncf`] [`coredns`] [`dns-server`] [`go`] [`plugin`] [`service-discovery`]  
+- [coredns/coredns](https://github.com/coredns/coredns) ★13105 [`cncf`] [`coredns`] [`dns-server`] [`go`] [`plugin`] [`service-discovery`]  
   CoreDNS是一个高性能、可扩展的DNS服务器。它使用Go语言编写，并支持多种DNS协议和功能，例如缓存、转发、负载均衡、健康检查等。CoreDNS通过插件机制灵活扩展，可根据不同需求定制DNS服务。  项目提供了丰富的插件库，方便用户快速构建符合自身需求的DNS解决方案。  它在Kubernetes等容器化平台中被广泛应用，以提供可靠的DNS服务。
 - [gotify/server](https://github.com/gotify/server) ★12886 [`api`] [`cloud`] [`free-software`] [`golang`] [`gotify`] [`hosting`] [`javascript`] [`notifications`] [`privacy`] [`react`] [`self-hosted`] [`self-hosting`] [`selfhosted`]  
   Gotify Server是一个开源的、基于Go语言的即时消息推送服务器。它允许用户接收来自各种应用程序和服务的通知，例如邮件、短信、聊天应用等。Gotify使用REST API提供消息推送功能，并支持多种客户端应用。该服务使用Go语言开发，并采用轻量级架构，保证高性能和可靠性。  主要功能包括用户管理、消息路由和推送，以及API接口。
@@ -80,7 +80,7 @@
   NetMaker是一个用于创建和管理网络连接的工具，支持多种网络协议和配置。它使用Python语言开发，基于`paramiko`库进行远程连接，并利用`fabric`框架简化部署流程。项目提供命令行接口，方便用户快速创建、配置和管理虚拟网络。主要功能包括创建虚拟网络接口（如VLAN）、配置IP地址和路由，以及执行网络命令。
 - [claudiodangelis/qrcp](https://github.com/claudiodangelis/qrcp) ★10214 [`cli`] [`command-line`] [`golang`] [`qrcode`] [`utility`]  
   这是一个用于快速创建Qt Quick应用程序的命令行工具。它使用Qt Quick和QML来生成用户界面，并支持多种布局和组件。该工具使用Python编写，并利用Qt的QML引擎进行渲染。  用户只需提供简单的JSON配置文件即可生成完整的Qt Quick应用程序，包括界面布局、组件和事件处理。  该项目旨在简化Qt Quick应用程序的开发流程，提高效率。
-- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) ★9154 [`alist`] [`aliyunpan`] [`baidupan`] [`openlist`]  
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) ★9156 [`alist`] [`aliyunpan`] [`baidupan`] [`openlist`]  
   OpenList是一个开源的、基于Python的待办事项列表应用。它使用Flask框架构建，提供用户友好的Web界面，允许用户创建、编辑和删除待办事项。用户可以对任务进行优先级排序和设置截止日期。项目使用SQLite数据库存储数据，并提供简单的API接口，方便集成到其他应用中。
 - [0xJacky/nginx-ui](https://github.com/0xJacky/nginx-ui) ★8866 [`chatgpt-app`] [`code-completion`] [`copilot`] [`cron`] [`deepseek-r1`] [`docker`] [`go`] [`letsencrypt`] [`linux`] [`macos`] [`mcp`] [`mcp-server`] [`nginx`] [`self-hosted`] [`vue`] [`webui`] [`windows`]  
   这是一个基于Nginx的Web管理工具，提供用户友好的界面管理Nginx配置。它使用Python编写，基于Flask框架构建，并集成了一些常用的Nginx配置管理功能，例如虚拟主机、服务器块、访问控制等。用户可以通过Web界面轻松地编辑和管理Nginx服务器，无需手动编辑配置文件。该项目旨在简化Nginx服务器的维护和配置。

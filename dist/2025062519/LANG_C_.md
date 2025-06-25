@@ -2,7 +2,7 @@
 
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★120229 [`color-picker`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`]  
   PowerToys 是一个由微软开发的免费工具包，提供各种增强 Windows 功能的小工具。它包含多个模块，例如快速启动、文件管理器增强、截图工具、键盘快捷键定制等。这些工具使用 Python、C# 等语言开发，并利用现有 Windows API 进行扩展。PowerToys 旨在提高用户在 Windows 上的工作效率和体验。
-- [2dust/v2rayN](https://github.com/2dust/v2rayN) ★81940 [`proxy`] [`shadowsocks`] [`socks5`] [`trojan`] [`v2fly`] [`v2ray`] [`vless`] [`vmess`] [`windows`] [`xray`] [`xtls`]  
+- [2dust/v2rayN](https://github.com/2dust/v2rayN) ★81942 [`proxy`] [`shadowsocks`] [`socks5`] [`trojan`] [`v2fly`] [`v2ray`] [`vless`] [`vmess`] [`windows`] [`xray`] [`xtls`]  
   v2rayN 是一个基于 v2ray 的轻量级客户端，支持各种协议和配置。它使用 Go 语言开发，并具有简洁的用户界面。  项目提供多种自定义配置选项，方便用户根据需求调整连接设置。  该客户端主要面向希望快速便捷地使用 v2ray 的用户，并通过简洁的界面和灵活的配置，提升用户体验。
 - [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) ★58864 [`c-sharp`] [`proxy`] [`shadowsocks`]  
   Shadowsocks-Windows 是一个用于 Windows 系统的 Shadowsocks 代理服务器客户端。它提供快速、安全的网络连接，绕过防火墙或审查制度。该项目使用 C# 编写，并利用 .NET 框架构建，提供易于使用的图形用户界面，支持多种配置选项，包括服务器地址、端口、加密算法和认证方式。用户可以轻松地设置和管理 Shadowsocks 连接，实现匿名上网。
@@ -50,7 +50,7 @@
   这是一个用于测试自然语言处理模型类型推断能力的工具。它使用Python和Hugging Face Transformers库，通过提供不同类型的输入文本，评估模型在推断文本类型（如新闻、小说、代码等）方面的准确性。  该项目提供了一套测试数据集和评估指标，方便用户快速验证模型的类型推断能力并进行比较。核心功能包括数据加载、模型预测和结果评估。
 - [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) ★3674 [`dotnet`] [`msix`] [`ocr`] [`window-10`] [`windows`] [`windows-11`] [`wpf`]  
   Text-Grab是一个用于从图像中提取文本的Python项目。它利用Tesseract OCR引擎和Pytesseract库，将图像中的文字转换为可编辑文本。项目提供简单的API接口，允许用户上传图像，并获取提取的文本内容。该项目主要使用Python语言开发，并依赖于Pytesseract和Pillow库，以确保图像预处理和OCR的准确性。
-- [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ★2950  
+- [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ★2951  
   SyncClipboard是一个跨平台的剪贴板同步工具，允许用户在不同设备（例如电脑和手机）之间同步剪贴板内容。它使用WebSockets实现实时同步，并支持多种平台的剪贴板格式。  该项目主要使用JavaScript和Electron开发，核心功能模块包括剪贴板监听、数据传输和跨平台兼容性处理。  用户无需安装额外软件，只需在不同设备上运行客户端即可同步剪贴板内容。
 - [Accelerider/BaiduPanDownloadWinform](https://github.com/Accelerider/BaiduPanDownloadWinform) ★2912  
   该项目是一个使用Winform开发的百度网盘下载工具。它允许用户通过GUI界面选择文件或文件夹进行下载，并支持断点续传，提高下载效率。项目使用C#语言和.NET Framework框架开发，核心功能模块包括文件选择、下载队列管理、进度显示、错误处理等。

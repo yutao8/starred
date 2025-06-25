@@ -1,6 +1,6 @@
 # TypeScript 仓库
 
-- [ant-design/ant-design](https://github.com/ant-design/ant-design) ★95180 [`ant-design`] [`antd`] [`design-systems`] [`react`] [`typescript`] [`ui-kit`] [`ui-library`]  
+- [ant-design/ant-design](https://github.com/ant-design/ant-design) ★95181 [`ant-design`] [`antd`] [`design-systems`] [`react`] [`typescript`] [`ui-kit`] [`ui-library`]  
   Ant Design 是一个高质量、易于使用、并遵循 Ant Design 设计语言的 React UI 组件库。它提供了一套丰富的组件，涵盖了按钮、输入框、表格、对话框等常用 UI 元素，帮助开发者快速构建用户界面。该库基于 React 框架开发，并使用 TypeScript 提升代码的可维护性。组件的样式由 CSS-in-JS 技术（例如 styled-components）处理，保证了样式的可定制性和一致性。Ant Design 组件库旨在提升开发效率和用户体验，并提供一致的视觉风格。
 - [iptv-org/iptv](https://github.com/iptv-org/iptv) ★94890 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
   这是一个开源的 IPTV 播放器项目。它提供一个易于使用的界面，用于访问和观看各种 IPTV 频道。该项目使用 Python 和 PyQt5 构建，并包含一个插件系统，允许用户添加和管理不同的 IPTV 提供商。该项目旨在提供一个稳定且功能丰富的 IPTV 播放器，支持各种流媒体协议，例如 HTTP 和 RTSP。
@@ -14,7 +14,7 @@
   Hoppscotch是一个开源的、易于使用的API开发工具。它提供了一个直观的界面，用于创建、测试和调试API。用户可以使用该工具发送各种类型的HTTP请求，查看响应，并与API交互。该工具主要使用React和Typescript构建，并包含一个强大的编辑器，用于定义和管理API请求。它支持多种协议，例如REST和GraphQL，并提供丰富的功能，例如模拟API、保存和共享请求以及创建API文档。
 - [immich-app/immich](https://github.com/immich-app/immich) ★69033 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
   这是一个用于图像搜索和识别的移动应用程序。它使用深度学习模型（例如，基于YOLOv8）识别图像中的对象，并提供相关的搜索结果和信息。应用程序使用Python和Flask后端进行图像处理和数据检索，前端使用React Native构建。关键模块包括图像预处理、对象检测和搜索引擎。该应用旨在为用户提供便捷的图像搜索体验。
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★62943 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★62944 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
   这是一个Clash Royale的辅助工具，用于快速查找并显示卡牌的属性、效果以及在不同对局中的胜率。它使用Python和Selenium进行开发，通过模拟浏览器操作来抓取游戏数据。用户可以通过直观的界面查看卡牌信息和胜率统计，辅助游戏策略制定。
 - [lobehub/lobe-chat](https://github.com/lobehub/lobe-chat) ★62776 [`agent`] [`ai`] [`artifacts`] [`chat`] [`chatgpt`] [`claude`] [`deepseek`] [`deepseek-r1`] [`function-calling`] [`gemini`] [`gpt`] [`knowledge-base`] [`mcp`] [`nextjs`] [`ollama`] [`openai`] [`rag`]  
   Lobe-chat是一个基于Lobe平台的开源聊天机器人项目。它利用Lobe提供的预训练模型和自定义训练功能，构建了一个能够进行对话的AI模型。项目使用Python和Hugging Face Transformers库，通过加载预训练的语言模型并进行微调，实现对话生成。该项目提供了一个简易的接口，允许用户快速构建和部署自己的聊天机器人，并可根据需要进行模型训练和优化。
@@ -28,7 +28,7 @@
   Rocket.Chat是一个开源的即时通讯平台，类似Slack或Discord。它允许用户创建团队、频道和直接消息，并提供丰富的功能，例如文件共享、视频会议和自定义机器人。该平台使用Node.js和Meteor框架构建，并拥有一个灵活的插件生态系统，可扩展其功能。  用户可以轻松部署和定制该平台以满足其特定需求。
 - [mendableai/firecrawl](https://github.com/mendableai/firecrawl) ★40554 [`ai`] [`ai-scraping`] [`crawler`] [`data`] [`html-to-markdown`] [`llm`] [`markdown`] [`rag`] [`scraper`] [`scraping`] [`web-crawler`] [`webscraping`]  
   FireCrawl是一个用于在大型代码库中识别和定位潜在安全漏洞的工具。它使用静态分析技术，结合深度学习模型，识别代码中可能存在的漏洞模式，例如SQL注入和跨站脚本攻击。该项目主要使用Python和TensorFlow构建，核心模块包括代码解析器、漏洞模式识别模型和漏洞报告生成器。FireCrawl旨在提高代码安全审查的效率和准确性，帮助开发人员快速发现并修复潜在的漏洞。
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) ★37468 [`bilibili`] [`douban`] [`dribbble`] [`instagram`] [`lofter`] [`pixiv`] [`rss`] [`rsshub`] [`spotify`] [`telegram`] [`tiktok`] [`twitter`] [`v2ex`] [`wechat`] [`weibo`] [`ximalaya`] [`youtube`] [`zhihu`]  
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) ★37469 [`bilibili`] [`douban`] [`dribbble`] [`instagram`] [`lofter`] [`pixiv`] [`rss`] [`rsshub`] [`spotify`] [`telegram`] [`tiktok`] [`twitter`] [`v2ex`] [`wechat`] [`weibo`] [`ximalaya`] [`youtube`] [`zhihu`]  
   RSSHub是一个开源的RSS聚合服务，允许用户订阅和聚合来自不同来源的RSS feed。它使用Python和Flask框架构建，并支持多种数据源和自定义配置。用户可以通过简单的配置，将各种网站的RSS feed整合到一个统一的平台，方便快捷地获取信息。项目提供API接口，支持多种客户端接入。
 - [nativefier/nativefier](https://github.com/nativefier/nativefier) ★35229 [`desktop-application`] [`electron`] [`linux`] [`macos`] [`nodejs`] [`windows`]  
   Nativefier是一个命令行工具，用于将任何网页转换为桌面应用程序。它将网页打包成独立的可执行文件，并提供自定义选项，如图标、窗口大小和参数。该工具使用Electron框架，利用Node.js和Chromium构建，允许用户轻松地在macOS、Windows和Linux上运行网页应用程序。它支持直接从URL或本地HTML文件创建应用程序。
@@ -48,7 +48,7 @@
   Frigate是一个实时视频分析工具，用于检测和跟踪视频中的特定对象。它使用Python和OpenCV构建，提供了一个直观的界面来配置和运行分析任务。  核心功能包括：对象检测、跟踪、事件触发和自定义规则。  用户可以设置触发器，例如特定对象进入或离开某个区域，然后触发警报或执行其他操作。  该项目旨在提供高效、易于使用的视频监控解决方案。
 - [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) ★23162  
   Squoosh是一个在线图像压缩工具，支持多种图像格式（如JPEG、WebP、AVIF）的压缩。它使用先进的算法，能够在不显著降低图像质量的前提下，大幅度减小图像文件大小。该工具基于Web技术，使用JavaScript编写，并利用浏览器原生API进行图像处理。Squoosh提供了一个直观的用户界面，方便用户上传和压缩图像，并支持批量处理。
-- [t4t5/sweetalert](https://github.com/t4t5/sweetalert) ★22381 [`alert`] [`dialog`] [`javascript`] [`modal`] [`popup`] [`sweetalert`] [`ui`]  
+- [t4t5/sweetalert](https://github.com/t4t5/sweetalert) ★22380 [`alert`] [`dialog`] [`javascript`] [`modal`] [`popup`] [`sweetalert`] [`ui`]  
   SweetAlert2 是一个现代化、响应式且易于使用的 JavaScript 模态对话框库。它提供丰富的自定义选项，包括主题、动画、按钮样式等，以增强用户体验。该库使用纯 JavaScript 开发，并提供各种 API 方法用于控制对话框显示、隐藏和交互。SweetAlert2 简洁易用，且兼容现代浏览器，可轻松集成到各种 Web 应用中，用于显示提示、警告、确认等信息。
 - [zzzgydi/clash-verge](https://github.com/zzzgydi/clash-verge) ★21919 [`clash`] [`cross-platform`] [`react`] [`rust`] [`tauri`]  
   这是一个用于Clash配置的图形化界面工具。它基于Electron框架，使用TypeScript开发，并提供直观的界面来管理Clash配置，包括节点选择、规则编辑和代理设置。用户可以通过拖拽和点击操作轻松配置Clash，无需复杂的命令行操作。该工具支持多种Clash配置格式，并提供导入导出功能。
@@ -74,7 +74,7 @@
   这是一个用于构建API的工具，提供可视化界面和代码生成功能。用户可以通过拖拽组件构建API，并自动生成对应的Python代码。该项目使用Python和Flask框架，核心模块包括API定义、数据验证和代码生成器。最终用户可以获得一个可运行的API服务，并方便地进行API管理和维护。
 - [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) ★14143 [`appx`] [`auto-update`] [`builder`] [`contributions-welcome`] [`deb`] [`distribution-electron`] [`dmg`] [`electron`] [`electron-builder`] [`electron-updater`] [`help-wanted`] [`linux`] [`macos`] [`msi`] [`muon`] [`nsis`] [`pkg`] [`rpm`] [`snap`] [`squirrel`]  
   Electron-builder是一个用于构建Electron应用程序的工具。它简化了打包、发布和分发Electron应用程序的过程，支持多种平台（macOS、Windows、Linux）和各种不同的发布选项。该工具主要使用Node.js和JavaScript编写，包含打包、签名、压缩和发布等关键模块，能自动生成不同平台的安装包，并提供灵活的配置选项来满足不同需求。
-- [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) ★14090 [`angular`] [`angular-grid`] [`angular-table`] [`charting`] [`datagrid`] [`datatable`] [`excel`] [`filtering`] [`grid`] [`grouping`] [`javascript-table`] [`pagination`] [`pivoting`] [`react`] [`react-grid`] [`react-table`] [`sorting`] [`table`] [`vue-table`] [`vuejs`]  
+- [ag-grid/ag-grid](https://github.com/ag-grid/ag-grid) ★14091 [`angular`] [`angular-grid`] [`angular-table`] [`charting`] [`datagrid`] [`datatable`] [`excel`] [`filtering`] [`grid`] [`grouping`] [`javascript-table`] [`pagination`] [`pivoting`] [`react`] [`react-grid`] [`react-table`] [`sorting`] [`table`] [`vue-table`] [`vuejs`]  
   这是一个用于构建交互式数据网格的JavaScript库。  它支持各种数据源（如数组、对象、服务端数据），并提供丰富的功能，包括排序、过滤、分组、分页、列可调整大小和可排序等。  该库使用TypeScript开发，基于React、Angular和Vue等框架进行整合。  核心模块包括数据网格渲染引擎和交互逻辑。  项目目标是提供一个灵活、高效且易于使用的网格组件，以满足各种数据展示和交互需求。
 - [vercel/vercel](https://github.com/vercel/vercel) ★13741 [`cli`] [`cloud`] [`command`] [`hosting`] [`jamstack`] [`ship`] [`vercel`]  
   Vercel是一个全栈云平台，帮助开发者构建、部署和管理Web应用。它提供自动化的构建、部署和缩放功能，支持多种框架和语言（如Next.js、React、Node.js）。Vercel的核心技术包括Serverless函数、边缘计算和CDN，允许开发者快速部署和扩展应用，并提升性能和可靠性。该平台还提供丰富的工具和集成，简化了开发流程。
@@ -154,7 +154,7 @@
   这是一个用于下载B站视频的Python项目。它使用`requests`库获取视频链接，并利用`ffmpeg`将视频转换为MP4格式。项目提供命令行接口，用户可指定视频ID或链接进行下载，并支持多种下载选项，如清晰度选择和输出目录自定义。该项目主要使用Python语言开发，并依赖于`ffmpeg`工具，实现高效便捷的B站视频下载功能。
 - [nwtgck/piping-server](https://github.com/nwtgck/piping-server) ★3067 [`data-transfer`] [`http`] [`nat-traversal`] [`stream`] [`transfer`] [`web`]  
   这是一个用于构建和管理管道服务的项目。它提供了一个基于Python的服务器，可以接收和处理来自不同来源的数据流，并将其路由到预定义的目的地。该服务器使用Flask框架构建，并支持多种数据格式。核心模块包括数据接收、路由管理和数据处理，允许用户自定义管道逻辑。项目旨在为数据传输和处理提供一个灵活且可扩展的解决方案。
-- [VisActor/VTable](https://github.com/VisActor/VTable) ★2816 [`canvas-table`] [`data-analysis`] [`data-visualization`] [`database`] [`datagrid`] [`grid`] [`javascript-table`] [`javescript`] [`list-table`] [`list-tree`] [`online-excel`] [`pivot-chart`] [`pivot-grid`] [`pivot-tables`] [`react-table`] [`sparklines`] [`spreadsheet`] [`tree-table`] [`visualization`] [`vue-table`]  
+- [VisActor/VTable](https://github.com/VisActor/VTable) ★2817 [`canvas-table`] [`data-analysis`] [`data-visualization`] [`database`] [`datagrid`] [`grid`] [`javascript-table`] [`javescript`] [`list-table`] [`list-tree`] [`online-excel`] [`pivot-chart`] [`pivot-grid`] [`pivot-tables`] [`react-table`] [`sparklines`] [`spreadsheet`] [`tree-table`] [`visualization`] [`vue-table`]  
   VisActor/VTable 是一个用于可视化和分析表格数据的 Python 项目。它使用 Pandas 和 Matplotlib 库，提供直观的图表和统计功能，方便用户快速探索和理解表格数据。  项目核心功能包括数据加载、清洗、可视化（柱状图、散点图等）和统计分析（描述性统计、相关性分析）。  用户可以通过简单的 API 调用实现数据可视化和分析，无需繁琐的代码编写。
 - [reruin/sharelist](https://github.com/reruin/sharelist) ★2705  
   这是一个用于创建和管理共享列表的工具，支持用户添加、删除、编辑列表项，并通过API接口与其他应用交互。它使用Python和Flask框架构建，核心模块包括用户认证、列表管理和API接口。  该项目旨在提供一个简单易用的共享列表平台，方便团队协作或个人任务管理。

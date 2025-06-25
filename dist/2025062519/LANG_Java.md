@@ -8,7 +8,7 @@
   Halo是一个用于构建和部署基于微服务的应用程序的开源平台。它采用Go语言开发，并利用Kubernetes进行容器化部署和管理。核心功能包括服务注册、发现、负载均衡、监控和配置管理。Halo旨在简化微服务架构的开发和运维，并提供可扩展性和可靠性。
 - [zxing/zxing](https://github.com/zxing/zxing) ★33396 [`android`] [`barcode`] [`barcode-scanner`] [`datamatrix`] [`java`] [`qr-code`] [`upc`] [`zxing`]  
   ZXing是一个开源的二维条码（QR码、条形码等）扫描和生成库。它支持多种条码格式，并提供多种语言的实现。该库使用Java语言开发，并基于Apache License 2.0开源协议。  ZXing的核心功能包括解码和编码各种二维条码，可以轻松集成到应用程序中。  它主要由解码器、编码器和图像处理模块组成，提供灵活的配置选项，以满足不同应用场景的需求。
-- [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ★26737 [`telegram`]  
+- [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ★26738 [`telegram`]  
   该项目是一个用于在Telegram上创建和管理聊天机器人的Python库。它提供简便的API接口，允许开发者快速创建具有各种功能的机器人，例如自动回复、信息转发、用户管理等。核心功能包括机器人命令处理、消息事件监听和API交互。项目使用Python语言开发，基于Telethon库，并提供清晰的文档和示例代码，方便用户上手和定制。
 - [proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down) ★24895  
   Proxyee-down是一个用于下载代理服务器背后资源的工具。它支持多种协议（例如HTTP、HTTPS、Socks5），能够绕过一些网站的访问限制。该工具使用Python编写，基于requests库进行网络请求，并使用tqdm库显示下载进度。核心功能包括代理设置、下载链接提取和文件保存。通过简单的命令行参数配置，用户可以轻松下载各种资源。
@@ -20,7 +20,7 @@
   JustAuth 是一个轻量级、易于使用的身份验证库，用于构建 Web 和移动应用程序。它提供用户注册、登录、密码重置等核心身份验证功能。该库使用 Go 语言开发，基于 Gin 框架，并整合 JWT（JSON Web Tokens）进行身份令牌管理。  项目设计简洁高效，易于集成到现有项目中，并支持自定义配置。
 - [android-hacker/VirtualXposed](https://github.com/android-hacker/VirtualXposed) ★15727 [`android`] [`aop`] [`hook`] [`non-root`] [`xposed`]  
   VirtualXposed 是一个 Android 平台上的虚拟化 Xposed 模块框架。它允许在不修改系统的情况下，通过虚拟化技术运行 Xposed 模块。用户可以安装和测试各种 Xposed 模块，而不会影响原生系统。该框架主要使用 Java 和 Android 原生 API 开发，并利用虚拟化技术来隔离模块运行环境。关键模块包括虚拟化引擎和模块加载器，以实现安全、高效的模块运行。
-- [theonedev/onedev](https://github.com/theonedev/onedev) ★14071 [`ci-cd`] [`devops`] [`git`] [`kanban`] [`packages`] [`self-hosted`]  
+- [theonedev/onedev](https://github.com/theonedev/onedev) ★14070 [`ci-cd`] [`devops`] [`git`] [`kanban`] [`packages`] [`self-hosted`]  
   OneDev是一个开源的Git平台，专注于提供高效的代码管理和协作功能。它使用Go语言开发，基于Web框架，提供代码仓库管理、分支管理、代码审查、工作流管理等功能。项目核心是提供一个易于使用的界面，帮助团队更高效地进行软件开发。
 - [pxb1988/dex2jar](https://github.com/pxb1988/dex2jar) ★12793  
   dex2jar是一个将Android应用程序的dex文件转换为jar文件的工具。它允许开发者查看和分析Android应用程序的代码，从而帮助理解其功能和逻辑

@@ -2,7 +2,7 @@
 
 - [blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) ★30905  
   这是一个基于jQuery的Web文件上传插件。它提供了一种简单易用的方式，让用户可以上传文件到服务器。插件支持多种文件类型、拖放上传、进度条显示、多文件同时上传以及错误提示等功能。它使用JavaScript编写，并利用HTML5特性，提高了上传效率和用户体验。插件的核心模块包括文件队列管理、上传进度跟踪和服务器端交互。
-- [nextcloud/server](https://github.com/nextcloud/server) ★29876 [`cloud`] [`collaboration`] [`decentralized`] [`design`] [`distributed`] [`enterprise`] [`federation`] [`file-sharing`] [`free-software`] [`hacktoberfest`] [`javascript`] [`nextcloud`] [`open-source`] [`opensource`] [`owncloud`] [`php`] [`self-hosting`] [`sharing`] [`usability`] [`ux`]  
+- [nextcloud/server](https://github.com/nextcloud/server) ★29877 [`cloud`] [`collaboration`] [`decentralized`] [`design`] [`distributed`] [`enterprise`] [`federation`] [`file-sharing`] [`free-software`] [`hacktoberfest`] [`javascript`] [`nextcloud`] [`open-source`] [`opensource`] [`owncloud`] [`php`] [`self-hosting`] [`sharing`] [`usability`] [`ux`]  
   Nextcloud Server是一个开源的云存储和协作平台。它允许用户在自己的服务器上创建私有的云空间，用于文件共享、协作编辑、日历同步等。该平台主要使用PHP语言开发，并基于Apache或Nginx等Web服务器，结合各种数据库技术（如MySQL），提供用户界面和API接口。核心功能包括文件管理、用户权限控制、团队协作、以及各种应用程序集成。
 - [fzaninotto/Faker](https://github.com/fzaninotto/Faker) ★26790  
   Faker是一个用于生成伪数据（例如姓名、地址、电话号码等）的Python库。它可以帮助测试、开发和演示。该库使用多种技术来生成不同的数据类型，并支持多种语言。  核心功能包括随机数据生成，并提供各种配置选项以满足不同的需求。  该库主要使用Python语言编写，并具有良好的可扩展性。
@@ -16,7 +16,7 @@
   Monolog是一个面向PHP的日志记录组件，提供灵活的日志记录和处理能力。它支持多种输出方式，例如文件、数据库、网络等，并允许自定义处理器和格式化器。Monolog采用面向对象的架构，易于集成到各种PHP项目中。它使用PHP作为主要语言，并提供清晰的API接口，方便开发者配置和使用。核心功能包括日志记录、过滤器、处理器和输出适配器，使得开发者能够根据需求定制日志流。
 - [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) ★18251 [`php`] [`php-framework`] [`php7`] [`php8`]  
   这是一个基于CodeIgniter框架的简单CI项目，用于演示基本的控制器、模型和视图结构。  项目包含用户注册、登录等功能，使用MySQL数据库进行数据存储。  主要使用PHP语言开发，并采用MVC架构，代码结构清晰，易于理解和扩展。  项目包含完整的数据库脚本和配置文件，方便快速部署和测试。
-- [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) ★17329  
+- [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) ★17328  
   这是一个教你如何通过多种途径增加收入的实用指南项目。它涵盖了投资理财、副业创业、提升技能等方面，内容以易于理解的步骤和案例为主。项目使用Markdown编写，并包含一些图表和表格辅助理解。通过学习该指南，用户可以系统性地了解不同增收途径，并制定适合自身情况的增收计划。
 - [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) ★17275 [`ast`] [`parser`] [`php`] [`static-analysis`]  
   PHP-Parser是一个用于解析PHP代码的库。它提供了一个灵活的API来访问PHP代码的抽象语法树（AST）。该库使用PHP编写，并基于递归下降解析器。  它支持PHP 5.3 到 7.4 版本的语法，并能有效地处理各种PHP代码结构，包括表达式、语句和声明。  开发者可以利用该库进行代码分析、转换、重构等操作。
@@ -68,7 +68,7 @@
   该项目是一个用于检测移动设备类型的库。它使用JavaScript编写，无需任何依赖。  通过解析用户代理字符串，该库可以识别各种移动设备操作系统和浏览器，并返回设备类型、操作系统和浏览器信息。  该库易于集成到Web应用中，可用于根据不同的移动设备定制用户体验，例如适配不同的屏幕尺寸或提供最佳的浏览器兼容性。
 - [w7corp/easywechat](https://github.com/w7corp/easywechat) ★10328 [`easywechat`] [`php`] [`sdk`] [`wechat`]  
   EasyWechat 是一个用于快速开发微信小程序、公众号、企业号应用的 PHP 库。它提供了一系列便捷的接口，简化了微信接口的调用，并支持多种微信应用场景，例如用户管理、消息推送、支付等。该库主要使用 PHP 语言开发，并基于 Laravel 框架构建，拥有清晰的代码结构和良好的可维护性。EasyWechat 提供了丰富的文档和示例代码，方便开发者快速上手。
-- [bobthecow/psysh](https://github.com/bobthecow/psysh) ★9788 [`cli`] [`php`] [`psysh`] [`repl`] [`shell`]  
+- [bobthecow/psysh](https://github.com/bobthecow/psysh) ★9787 [`cli`] [`php`] [`psysh`] [`repl`] [`shell`]  
   这是一个用于在Python中进行并发编程的库，名为Psysh。它提供了一个交互式shell，允许用户在运行的Python进程中执行任意代码，从而方便地进行调试和测试。Psysh使用Python的`socket`模块进行通信，并利用`threading`模块进行并发处理。该库的核心功能是提供一个远程控制Python进程的机制，允许用户在不停止主进程的情况下进行操作，适用于需要在复杂系统中进行调试和测试的场景。
 - [Anankke/SSPanel-UIM](https://github.com/Anankke/SSPanel-UIM) ★9686  
   SSPanel-UIM是一个用于构建用户界面的开源库，主要功能是提供可定制的、基于面板的UI组件。它使用TypeScript和React构建，并包含可灵活配置的布局和样式模块。该库旨在简化复杂UI的开发，提高代码复用性，并提供一致的用户体验。开发者可以通过配置面板参数来快速创建各种交互式界面元素。

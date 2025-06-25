@@ -16,7 +16,7 @@
   这是一个基于Go语言开发的V2Ray代理服务器。它提供快速、稳定的代理连接，支持多种协议和配置。项目包含了核心代理服务以及客户端配置文件生成工具，用户可以方便地配置和管理V2Ray连接。代码结构清晰，易于维护和扩展。
 - [StreisandEffect/streisand](https://github.com/StreisandEffect/streisand) ★23372 [`ansible`] [`anyconnect`] [`censorship`] [`openconnect`] [`openvpn`] [`shadowsocks`] [`ssh`] [`streisand`] [`stunnel`] [`tor`] [`vpn`] [`wireguard`]  
   这是一个用于生成各种格式的Streisand效应图表（包括SVG、PNG和PDF）的工具。它利用Python和matplotlib库，支持自定义颜色、字体、图例和轴标签等参数，方便用户根据需要生成个性化图表。  用户只需提供数据和配置信息，即可快速生成高质量的图表，用于展示不同指标的趋势和变化。
-- [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help) ★23111 [`cursor`] [`error`]  
+- [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help) ★23112 [`cursor`] [`error`]  
   该项目提供了一个Go语言库，用于简化数据库游标操作。它封装了常见的数据库游标操作，例如获取数据、遍历数据、处理错误等，并提供易于使用的API。该库使用Go语言编写，并基于标准库的database/sql包，支持多种数据库类型。核心功能包括：自动错误处理、分页查询、结果集缓存等，以提高代码可读性和效率。
 - [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) ★20031 [`oh-my-zsh`] [`prompt`] [`shell`] [`shell-prompt`] [`shell-theme`] [`spaceship`] [`terminal`] [`zsh`] [`zsh-theme`] [`zsh-users`]  
   这是一个用于生成高质量、多样化提示词的工具，尤其针对大型语言模型（LLM）的提示工程。它提供了一个基于模板的系统，允许用户轻松创建和修改提示词，并通过参数化来控制输出的风格和内容。该工具使用Python编写，利用了prompt模板引擎，并集成了各种预设的提示词模板，以方便用户快速上手。  核心功能是自动化提示词生成，并支持用户自定义模板和参数，从而提升提示词的效率和效果。

@@ -1,6 +1,6 @@
 # C++ 仓库
 
-- [electron/electron](https://github.com/electron/electron) ★117246 [`c-plus-plus`] [`chrome`] [`css`] [`electron`] [`html`] [`javascript`] [`nodejs`] [`v8`] [`works-with-codespaces`]  
+- [electron/electron](https://github.com/electron/electron) ★117247 [`c-plus-plus`] [`chrome`] [`css`] [`electron`] [`html`] [`javascript`] [`nodejs`] [`v8`] [`works-with-codespaces`]  
   Electron是一个跨平台桌面应用框架，使用Web技术(HTML, CSS, JavaScript)构建桌面应用程序。它允许开发者利用现有的Web技能和工具快速开发跨平台桌面应用，并集成原生系统功能。Electron项目的核心是将Chromium浏览器和Node.js运行时打包到一个可执行文件中，从而实现Web技术在桌面环境下的运行。开发者可以使用Node.js进行后端逻辑，并利用HTML/CSS/JavaScript构建用户界面。
 - [microsoft/terminal](https://github.com/microsoft/terminal) ★98708 [`cmd`] [`command-line`] [`console`] [`contributions-welcome`] [`good-first-issue`] [`hacktoberfest`] [`terminal`] [`windows`] [`windows-console`] [`windows-terminal`] [`wsl`]  
   Microsoft Terminal 是一个跨平台的终端模拟器，提供一致的命令行体验。它支持各种终端类型和配置文件，并集成多种功能，如标签页、快捷键和窗口管理。项目使用 Electron 框架，基于 Web 技术构建，并利用 Node.js 进行扩展。核心功能包括：丰富的终端配置选项、强大的插件系统和对各种字符集的支持。
@@ -10,7 +10,7 @@
   Aria2是一个轻量级、多线程的下载工具，支持各种协议（HTTP、HTTPS、FTP等），并提供强大的排队、分块下载、断点续传等功能。它使用C++编写，并基于libevent事件循环，具有高效的下载性能。Aria2支持用户自定义下载规则，可以灵活地控制下载过程。  该项目提供命令行工具和API接口，方便用户集成到其他应用程序中。
 - [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★31729 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent是一个开源的BT客户端，支持下载和上传torrent文件。它使用Qt框架开发，并提供用户友好的界面，方便用户管理下载任务。核心功能包括torrent搜索、下载速度控制、种子优先级设置、以及多线程下载等。该软件支持多种常用的下载协议，并具有良好的稳定性和可靠性。
-- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26754 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26755 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine是一个用于构建和部署可扩展后端服务的工具。它使用Go语言和Gin框架，提供API路由、数据库交互和缓存管理等功能，旨在简化后端开发流程。该项目包含一个易于使用的命令行界面，方便用户快速配置和部署服务。核心功能包括自动生成代码、数据库迁移和服务启动等，以加快开发周期并提高代码质量。
 - [cmderdev/cmder](https://github.com/cmderdev/cmder) ★26415 [`c-plus-plus`] [`cmder`] [`color-scheme`] [`command-line`] [`conemu`] [`mintty`] [`portable`] [`powershell`] [`shell`] [`ssh-agent`] [`windows`]  
   cmder 是一个强大的 Windows 命令行终端模拟器，提供丰富的功能和自定义选项。它基于 Windows Console API 和纯 C++ 开发，支持多种主题、快捷键和插件。用户可以通过插件扩展 cmder 的功能，例如代码高亮、文件浏览器和 Git 集成。  项目旨在为 Windows 用户提供一个功能强大的、可自定义的命令行环境，提升工作效率。
@@ -34,7 +34,7 @@
   该项目提供了一个将不同格式的字幕文件（如SRT、ASS、SSA等）转换为其他格式的工具。它使用Python编写，并利用`subtitles`库处理字幕文件格式转换。  项目包含命令行接口，用户可以通过简单的命令行参数指定输入和输出文件，以及目标格式。  该工具适用于需要批量转换字幕文件格式的用户，例如需要将SRT字幕转换为ASS格式以满足特定播放器需求的用户。
 - [wkhtmltopdf/wkhtmltopdf](https://github.com/wkhtmltopdf/wkhtmltopdf) ★14305  
   wkhtmltopdf 是一个开源工具，用于将 HTML、URL 或本地文件转换为 PDF 格式。它使用 WebKit 作为渲染引擎，支持各种 HTML 元素和 CSS 样式。  项目使用 C++ 编写，并提供跨平台支持。  核心功能包括网页内容的精确排版、图片处理和 PDF 输出。  通过命令行接口，用户可以轻松地将网页文档转换为 PDF 文件，无需依赖浏览器环境。
-- [moonlight-stream/moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) ★13570 [`gamestream`] [`linux-app`] [`macos-app`] [`moonlight`] [`nvidia`] [`qt`] [`sdl2`] [`steam-link`] [`windows-app`]  
+- [moonlight-stream/moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) ★13571 [`gamestream`] [`linux-app`] [`macos-app`] [`moonlight`] [`nvidia`] [`qt`] [`sdl2`] [`steam-link`] [`windows-app`]  
   这是一个使用Qt框架开发的轻量级流媒体播放器。它支持多种视频和音频格式，并提供用户友好的界面，方便快捷地播放本地和网络视频。项目使用Qt的媒体播放模块，并整合了网络模块进行流媒体访问。  用户可以通过直观的界面控制播放进度、音量和字幕。  该项目旨在提供一个简单易用的本地视频播放和网络流媒体播放解决方案。
 - [BlackINT3/OpenArk](https://github.com/BlackINT3/OpenArk) ★11365 [`anti-malware`] [`ark`] [`windows-hacking`]  
   OpenArk是一个基于Go语言开发的开源Ark框架，旨在简化区块链应用的开发。它提供了一套完整的工具和库，包括智能合约编译、部署、运行和监控功能。框架的核心模块包括智能合约引擎、状态管理和交易处理模块。开发者可以使用该框架快速构建和部署各种区块链应用，例如去中心化应用 (dApps) 和数字资产管理系统。
