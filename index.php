@@ -414,7 +414,7 @@ class GitHubStarred {
 			);
 		}
 		file_put_contents($this->distPath . '/ALL.md', $allMarkdown);
-
+		$markdown .= $this->config['INDEX_FOOTER'];  // 添加页脚
 		file_put_contents($this->distPath . '/README.md', $markdown);  // 保存到dist目录存档
 		copy($this->distPath . 'README.md', $this->rootPath . '/README.md'); // 复制到根目录
 		echo "Markdown 文档生成完成\n";

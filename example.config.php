@@ -22,4 +22,13 @@ return [
 	'PAGE_CHUNK'=> 10, // 每页并发数
 	'RECENT_LIMIT'=> 10, // 最近N条
 	'LANG_LIMIT'=> 10, // 每栏语言数量
+	'INDEX_FOOTER'=><<<EOL
+## 🛡️ Technical Sponsorship 感谢腾讯云[Tencent EdgeOne](https://edgeone.tencent.com/?from=github)提供CDN加速和安全保护
+
+CDN acceleration and security protection for this project are sponsored by [Tencent EdgeOne](https://edgeone.tencent.com/?from=github).
+
+[![Tencent EdgeOne Logo](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)](https://edgeone.tencent.com/?from=github)
+
+
+EOL,
 ];
