@@ -285,19 +285,55 @@
 
         .project-card-stats {
             display: flex;
+            align-items: center;
             gap: 0.5rem;
-            white-space: nowrap;
-            font-size: 1.08em;
+            flex-wrap: wrap;
+        }
+
+        .project-card-stats .d-flex.flex-wrap.gap-1.ms-2 {
+            display: flex !important;
+            align-items: center;
+            margin-left: 0.5rem !important;
+            gap: 0.25rem !important;
+            height: 2.2em;
+        }
+
+        .project-card-stats .badge,
+        .project-card-stats .icon-link {
+            height: 2.2em;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        .project-card-stats .badge.bg-light.text-dark {
+            padding: 0 0.75rem;
+            min-height: 2.2em;
+            box-sizing: border-box;
         }
 
         .project-card-stats .icon-link {
-            font-size: inherit;
-            line-height: 1.1;
-            margin-left: 0.25em;
+            font-size: 0.9rem;
+            line-height: 1;
+            margin-left: 0;
+            width: 2.2em;
+            min-width: 2.2em;
+            padding: 0;
         }
 
         .project-card-stats .icon-link:first-child {
             margin-left: 0;
+        }
+
+        .project-card-stats .icon-link i {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            line-height: 1;
+            font-size: 1.1em;
         }
 
         .project-card-body {
@@ -494,12 +530,49 @@
             font-weight: 500;
             border: 1px solid var(--vp-c-border) !important;
         }
+
+        /* 项目统计标签的明暗主题适配 */
+        .project-card-stats .badge.bg-light.text-dark {
+            background-color: var(--vp-c-bg-mute) !important;
+            color: var(--vp-c-text-1) !important;
+            border: 1px solid var(--vp-c-border);
+            font-weight: 500;
+            font-size: 0.9rem;
+            transition: background-color 0.15s, border-color 0.15s, color 0.15s;
+            height: 2.2em;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 0.75rem;
+            line-height: 1;
+            box-sizing: border-box;
+        }
+
+        .project-card-stats .badge.bg-light.text-dark:hover {
+            background-color: var(--vp-c-bg-soft) !important;
+            border-color: var(--vp-c-brand);
+        }
+
+        /* 暗色主题下的项目统计标签 */
+        [data-theme="dark"] .project-card-stats .badge.bg-light.text-dark {
+            background-color: #23272f !important;
+            color: #e0e6ef !important;
+            border-color: #444;
+        }
+
+        [data-theme="dark"] .project-card-stats .badge.bg-light.text-dark:hover {
+            background-color: #2d2d2d !important;
+            border-color: #3eaf7c;
+        }
+
+        /* Topics标签的暗色主题适配 */
         [data-theme="dark"] .badge.rounded-pill.bg-light.text-secondary.border {
             background-color: #23272f !important;
             color: #bfc8d4 !important;
-            border: 1px solid #444 !important;
+            border-color: #444 !important;
         }
 
+        /* 暗色主题适配 */
         [data-theme="dark"] .project-card {
             background: #23272f;
             border-color: #333;
@@ -573,6 +646,216 @@
             width: 3.5rem;
             height: 3.5rem;
             border-width: 0.35em;
+        }
+
+        .footer {
+            background: var(--vp-c-bg);
+            border-top: 1px solid var(--vp-c-border);
+            padding: 2rem 2rem;
+            margin-top: 3rem;
+            transition: background-color 0.15s, border-color 0.15s;
+            line-height: 1.6;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+        }
+
+        .footer-section {
+            display: flex;
+            align-items: center;
+            gap: 2.5rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-link {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            color: var(--vp-c-text-2);
+            text-decoration: none;
+            font-size: 0.95rem;
+            font-weight: 500;
+            padding: 0.6rem 0.9rem;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+            border: 1px solid transparent;
+            line-height: 1.5;
+        }
+
+        .footer-link:hover {
+            color: var(--vp-c-brand);
+            background: var(--vp-c-bg-soft);
+            border-color: var(--vp-c-border);
+            text-decoration: none;
+        }
+
+        .footer-link i {
+            font-size: 1.15rem;
+        }
+
+        .footer-sponsor {
+            display: flex;
+            align-items: center;
+            padding: 0.6rem 1.2rem;
+            border-radius: 8px;
+            background: transparent;
+        }
+
+        .sponsor-info {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            flex-wrap: wrap;
+            line-height: 1.6;
+        }
+
+        .sponsor-text {
+            font-size: 0.9rem;
+            color: var(--vp-c-text-2);
+            font-weight: 500;
+        }
+
+        .sponsor-logo {
+            width: 65px;
+            height: 65px;
+            object-fit: contain;
+            border-radius: 4px;
+            background: transparent;
+        }
+
+        .footer-copyright {
+            text-align: right;
+            color: var(--vp-c-text-3);
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .footer-copyright a {
+            color: var(--vp-c-text-2);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .footer-copyright a:hover {
+            color: var(--vp-c-brand);
+        }
+
+        /* 暗色主题适配 */
+        [data-theme="dark"] .footer {
+            background: var(--vp-c-bg);
+            border-top-color: var(--vp-c-border);
+        }
+
+        [data-theme="dark"] .footer-link {
+            color: var(--vp-c-text-2);
+        }
+
+        [data-theme="dark"] .footer-link:hover {
+            color: var(--vp-c-brand);
+            background: var(--vp-c-bg-soft);
+            border-color: var(--vp-c-border);
+        }
+
+        [data-theme="dark"] .footer-sponsor {
+            background: transparent;
+        }
+
+        [data-theme="dark"] .sponsor-text {
+            color: var(--vp-c-text-2);
+        }
+
+        [data-theme="dark"] .sponsor-logo {
+            background: transparent;
+        }
+
+        [data-theme="dark"] .footer-copyright {
+            color: var(--vp-c-text-3);
+        }
+
+        [data-theme="dark"] .footer-copyright a {
+            color: var(--vp-c-text-2);
+        }
+
+        [data-theme="dark"] .footer-copyright a:hover {
+            color: var(--vp-c-brand);
+        }
+
+        /* 响应式设计 */
+        @media (max-width: 768px) {
+            .footer {
+                padding: 1.5rem 1rem;
+            }
+            
+            .footer-content {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 2rem;
+            }
+            
+            .footer-section {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1.5rem;
+                width: 100%;
+            }
+            
+            .footer-links {
+                gap: 1.2rem;
+                width: 100%;
+            }
+            
+            .footer-link {
+                font-size: 0.9rem;
+                padding: 0.5rem 0.8rem;
+            }
+            
+            .footer-sponsor {
+                width: 100%;
+                justify-content: center;
+            }
+            
+            .sponsor-info {
+                justify-content: center;
+                text-align: center;
+            }
+            
+            .sponsor-logo {
+                width: 55px;
+                height: 55px;
+            }
+            
+            .footer-copyright {
+                text-align: center;
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .footer-links {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.8rem;
+            }
+            
+            .footer-link {
+                width: 100%;
+                justify-content: flex-start;
+            }
         }
     </style>
 </head>
@@ -695,6 +978,36 @@
                         </div>
                     </div>
                 </template>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-links">
+                        <a href="https://docs.github.com/zh/rest/activity/starring?apiVersion=2022-11-28#list-repositories-starred-by-the-authenticated-user" target="_blank" class="footer-link">
+                            <i class="bi bi-github"></i>
+                            GitHub REST API
+                        </a>
+                        <a href="https://edgeone.tencent.com/?from=github" target="_blank" class="footer-link">
+                            <i class="bi bi-shield-check"></i>
+                            Tencent EdgeOne
+                        </a>
+                        <a href="https://github.com/yutao8" target="_blank" class="footer-link">
+                            <i class="bi bi-person-circle"></i>
+                            yutao8
+                        </a>
+                    </div>
+                    <div class="footer-sponsor">
+                        <div class="sponsor-info">
+                            <span class="sponsor-text">CDN加速与安全防护由</span>
+                            <a href="https://edgeone.tencent.com/?from=github" target="_blank" class="sponsor-link">Tencent EdgeOne</a>
+                            <span class="sponsor-text">赞助</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-copyright">
+                    <p>Copyright © 2025 <a href="https://github.com/yutao8" target="_blank">yutao8</a></p>
+                </div>
             </div>
         </div>
     </div>
