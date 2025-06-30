@@ -104,7 +104,7 @@
   这是一个用于从图像中提取主导颜色的Python库。它使用K-means算法来快速地找到图像中最显著的颜色。该库使用Pillow库进行图像处理，并提供易于使用的API，方便开发者将颜色提取功能集成到应用程序中。  项目包含示例代码，展示如何使用库提取颜色并将其用于图像处理或设计。
 - [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) ★12901 [`image-processing`] [`javascript`] [`nodejs`] [`smartcrop`]  
   这是一个用于在JavaScript中裁剪图像的库。它提供了一种简单易用的API，允许用户通过多种方式裁剪图像，包括指定区域、比例和角度。该库使用纯JavaScript编写，无需依赖任何外部库或框架。核心功能包括：获取图像数据、裁剪图像区域、调整图像大小和旋转图像。  它可以直接在浏览器环境中使用，并支持各种图像格式。
-- [electerm/electerm](https://github.com/electerm/electerm) ★12607 [`electerm`] [`electron`] [`file-manager`] [`ftp`] [`linux-app`] [`macos-app`] [`open-source`] [`rdp`] [`serialport`] [`sftp`] [`ssh`] [`telnet`] [`terminal`] [`vnc`] [`windows-app`]  
+- [electerm/electerm](https://github.com/electerm/electerm) ★12608 [`electerm`] [`electron`] [`file-manager`] [`ftp`] [`linux-app`] [`macos-app`] [`open-source`] [`rdp`] [`serialport`] [`sftp`] [`ssh`] [`telnet`] [`terminal`] [`vnc`] [`windows-app`]  
   Electerm 是一个跨平台的终端模拟器，支持多种主题、插件和快捷键绑定。它使用 Electron 框架构建，并使用 Node.js 和 JavaScript 编写。Electerm 提供了强大的自定义选项，允许用户根据个人喜好配置终端外观和功能。该项目的目标是提供一个功能丰富、用户友好的终端体验，支持各种终端操作，并支持扩展。
 - [star7th/showdoc](https://github.com/star7th/showdoc) ★12543 [`api`] [`document`] [`documentation-tool`] [`showdoc`]  
   这是一个基于Vue.js的前端文档展示工具，用于展示以Markdown格式编写的文档。用户可以通过简洁直观的界面浏览和搜索文档内容。该项目使用Vue.js构建用户界面，并结合Markdown解析库，将Markdown文档渲染成HTML格式，方便用户阅读。  项目提供文档搜索和目录导航功能，提升文档访问效率。
@@ -234,7 +234,7 @@
   这是一个用于前端测试的框架，提供了一套完整的测试工具和流程。它基于 JavaScript 和 Jest，包含单元测试、集成测试和端到端测试的解决方案，并支持多种测试用例类型。该框架旨在提高前端代码的质量和测试效率，并简化测试用例的编写和维护。  核心功能包括测试用例编写、运行、报告生成以及与持续集成工具的集成。
 - [justjavac/ReplaceGoogleCDN](https://github.com/justjavac/ReplaceGoogleCDN) ★3562 [`cdn`] [`chrome`] [`chrome-extension`] [`google`] [`javascript`]  
   该项目提供了一种替代Google CDN的方案，用于在项目中替换Google Fonts、Google Analytics和Google Maps等服务。通过配置自定义的CDN地址，用户可以将依赖的资源从Google服务器转移到其他服务商，提升网站或应用的性能和安全性。项目使用JavaScript和Node.js构建，核心功能包括配置管理和资源替换，并提供可扩展的自定义功能。
-- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) ★3538 [`cosplatfrom`] [`cross-platform`] [`downloader`] [`flask`] [`media-downloader`] [`telegram-bot`]  
+- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) ★3539 [`cosplatfrom`] [`cross-platform`] [`downloader`] [`flask`] [`media-downloader`] [`telegram-bot`]  
   该项目是一个用于下载 Telegram 媒体文件的 Python 脚本。它使用 `python-telegram-bot` 库与 Telegram API 交互，并支持下载各种媒体类型（图片、视频、音频等）。脚本可以指定下载路径和文件名，并支持多线程下载，提升下载速度。主要使用 Python 语言开发，并依赖 `python-telegram-bot` 库。
 - [smalot/bootstrap-datetimepicker](https://github.com/smalot/bootstrap-datetimepicker) ★3477  
   这是一个基于Bootstrap的日期和时间选择器插件。它提供易于使用的用户界面，允许用户选择日期和时间。该插件使用JavaScript实现，并整合了Bootstrap的样式，可轻松集成到现有Web应用程序中。用户可以通过简单的API调用来配置日期和时间格式、范围等选项。

@@ -18,7 +18,7 @@
   Gogs是一个自托管的Git服务，类似于GitHub和GitLab。它使用Go语言开发，基于Web框架Gin。用户可以通过Web界面管理仓库、提交代码、查看提交历史等。Gogs支持多种身份验证方式，并提供丰富的配置选项，以满足不同用户的需求。它易于安装和使用，并提供良好的性能。
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) ★46146 [`golang`] [`http-proxy`] [`proxy`] [`shadowsocks`] [`socks`] [`socks5`] [`v2ray`] [`vmess`]  
   V2Ray-core 是一个开源的 V2Ray 服务器端程序，提供多种协议和配置选项，用于搭建安全的网络连接。它使用 C++ 编写，并支持多种平台，例如 Windows、macOS 和 Linux。该项目允许用户自定义配置以满足各种网络需求，包括 VPN 连接、代理服务器等。V2Ray-core 的核心功能是提供高速、安全的网络连接，并支持多种加密协议。
-- [usememos/memos](https://github.com/usememos/memos) ★42158 [`docker`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
+- [usememos/memos](https://github.com/usememos/memos) ★42159 [`docker`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
   这是一个用于创建和管理备忘录的应用程序。用户可以创建不同类型的备忘录（文本、待办事项、日程安排等），并设置提醒和标签进行组织。该应用使用React作为前端框架，并基于Node.js和Express.js搭建后端，利用MongoDB存储数据。  核心功能包括备忘录的创建、编辑、删除、搜索和分类。  用户可以通过Web界面访问和管理所有备忘录。
 - [ehang-io/nps](https://github.com/ehang-io/nps) ★32976 [`dns`] [`firewall`] [`go`] [`gzip`] [`http`] [`https`] [`nat`] [`nps`] [`snnapy`] [`socks`] [`socks5`] [`ssh`] [`tcp`] [`tunnel`] [`udp`]  
   这是一个用于收集和分析客户净推荐值 (NPS) 数据的工具。它使用 Python 和 Flask 框架构建，提供用户友好的界面来创建调查，收集响应，并生成易于理解的 NPS 指标报告。该工具支持自定义调查问题和分析维度，并能将结果导出为各种格式，方便后续数据分析和业务决策。

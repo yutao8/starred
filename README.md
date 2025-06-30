@@ -2,7 +2,7 @@
 
 - **编程语言种类：** 50
 - **仓库总数：** 1704
-- **最后更新时间：** 2025-06-30 09:02:03
+- **最后更新时间：** 2025-06-30 09:03:06
 
 [**→ 查看所有仓库**](dist/2025063009/ALL.md)
 
@@ -14,7 +14,7 @@
   这是一个用于生成语言模型的Python项目。它使用Transformers库和Hugging Face的预训练模型，提供快速、高效的文本生成能力。项目核心功能是根据输入提示生成不同长度和风格的文本，支持多种预训练模型，并可自定义模型参数和输出格式。代码结构清晰，易于扩展和维护。
 - [ChenZixinn/spider_reverse](https://github.com/ChenZixinn/spider_reverse) ★732 [`crawler`] [`python`] [`requests`] [`spider`]  
   这是一个用于爬取反向代理服务器的Python爬虫项目。它使用Scrapy框架，通过解析HTTP头部信息和URL路径，识别并提取反向代理服务器的IP地址和端口号。爬虫支持多线程抓取，并提供结果存储功能，方便用户分析和使用发现的代理服务器。项目核心模块包括URL处理、HTTP请求、数据解析和存储。
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★43183 [`gemini`] [`gemini-api`]  
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★43185 [`gemini`] [`gemini-api`]  
   该项目提供一个命令行工具，用于管理和执行Gemini模型的推理任务。用户可以通过该工具便捷地加载Gemini模型，并输入提示词进行推理，获取相应的输出结果。该工具主要使用Python语言开发，基于Google提供的Gemini API进行模型调用。项目包含了模型选择、参数配置和结果输出等功能模块，方便用户快速上手并进行Gemini模型的应用。
 - [microsoft/diskspd](https://github.com/microsoft/diskspd) ★1268  
   DiskSpd 是一个用于评估磁盘性能的工具，它通过模拟各种 I/O 模式 (如顺序读取、随机读取、顺序写入和随机写入) 来测试磁盘的性能指标，包括读取速度、写入速度、延迟和吞吐量。该工具使用 C++ 开发，并利用底层操作系统接口进行磁盘访问，提供精确的性能数据。DiskSpd 能够生成详细的测试报告，方便用户分析磁盘性能瓶颈。
@@ -173,7 +173,7 @@
   Aria2是一个轻量级、多线程的下载工具，支持各种协议（HTTP、HTTPS、FTP等），并提供强大的排队、分块下载、断点续传等功能。它使用C++编写，并基于libevent事件循环，具有高效的下载性能。Aria2支持用户自定义下载规则，可以灵活地控制下载过程。  该项目提供命令行工具和API接口，方便用户集成到其他应用程序中。
 - [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★31799 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent是一个开源的BT客户端，支持下载和上传torrent文件。它使用Qt框架开发，并提供用户友好的界面，方便用户管理下载任务。核心功能包括torrent搜索、下载速度控制、种子优先级设置、以及多线程下载等。该软件支持多种常用的下载协议，并具有良好的稳定性和可靠性。
-- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26889 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26890 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine是一个用于构建和部署可扩展后端服务的工具。它使用Go语言和Gin框架，提供API路由、数据库交互和缓存管理等功能，旨在简化后端开发流程。该项目包含一个易于使用的命令行界面，方便用户快速配置和部署服务。核心功能包括自动生成代码、数据库迁移和服务启动等，以加快开发周期并提高代码质量。
 - [cmderdev/cmder](https://github.com/cmderdev/cmder) ★26419 [`c-plus-plus`] [`cmder`] [`color-scheme`] [`command-line`] [`conemu`] [`mintty`] [`portable`] [`powershell`] [`shell`] [`ssh-agent`] [`windows`]  
   cmder 是一个强大的 Windows 命令行终端模拟器，提供丰富的功能和自定义选项。它基于 Windows Console API 和纯 C++ 开发，支持多种主题、快捷键和插件。用户可以通过插件扩展 cmder 的功能，例如代码高亮、文件浏览器和 Git 集成。  项目旨在为 Windows 用户提供一个功能强大的、可自定义的命令行环境，提升工作效率。
@@ -291,7 +291,7 @@
   Gogs是一个自托管的Git服务，类似于GitHub和GitLab。它使用Go语言开发，基于Web框架Gin。用户可以通过Web界面管理仓库、提交代码、查看提交历史等。Gogs支持多种身份验证方式，并提供丰富的配置选项，以满足不同用户的需求。它易于安装和使用，并提供良好的性能。
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) ★46146 [`golang`] [`http-proxy`] [`proxy`] [`shadowsocks`] [`socks`] [`socks5`] [`v2ray`] [`vmess`]  
   V2Ray-core 是一个开源的 V2Ray 服务器端程序，提供多种协议和配置选项，用于搭建安全的网络连接。它使用 C++ 编写，并支持多种平台，例如 Windows、macOS 和 Linux。该项目允许用户自定义配置以满足各种网络需求，包括 VPN 连接、代理服务器等。V2Ray-core 的核心功能是提供高速、安全的网络连接，并支持多种加密协议。
-- [usememos/memos](https://github.com/usememos/memos) ★42158 [`docker`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
+- [usememos/memos](https://github.com/usememos/memos) ★42159 [`docker`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
   这是一个用于创建和管理备忘录的应用程序。用户可以创建不同类型的备忘录（文本、待办事项、日程安排等），并设置提醒和标签进行组织。该应用使用React作为前端框架，并基于Node.js和Express.js搭建后端，利用MongoDB存储数据。  核心功能包括备忘录的创建、编辑、删除、搜索和分类。  用户可以通过Web界面访问和管理所有备忘录。
 
 [查看更多 Go 仓库 →](dist/2025063009/LANG_Go.md)
@@ -760,4 +760,10 @@
   这是一个基于Vue3和Element Plus的表单生成器。它允许用户通过可视化界面设计表单结构，并自动生成对应的表单代码。用户无需编写代码即可快速创建各种类型的表单，包括文本框、下拉框、日期选择器等。该项目使用Vue3作为前端框架，Element Plus提供UI组件，并采用TypeScript进行类型定义，确保代码的可维护性和可靠性。核心功能包括表单字段配置、数据校验和事件处理，以及表单提交和数据处理。
 
 [查看更多 Vue 仓库 →](dist/2025063009/LANG_Vue.md)
+
+## 🛡️ Technical Sponsorship 感谢腾讯云[Tencent EdgeOne](https://edgeone.tencent.com/?from=github)提供CDN加速和安全保护
+
+CDN acceleration and security protection for this project are sponsored by [Tencent EdgeOne](https://edgeone.tencent.com/?from=github).
+
+[![Tencent EdgeOne Logo](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)](https://edgeone.tencent.com/?from=github)
 

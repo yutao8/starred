@@ -10,7 +10,7 @@
   Aria2是一个轻量级、多线程的下载工具，支持各种协议（HTTP、HTTPS、FTP等），并提供强大的排队、分块下载、断点续传等功能。它使用C++编写，并基于libevent事件循环，具有高效的下载性能。Aria2支持用户自定义下载规则，可以灵活地控制下载过程。  该项目提供命令行工具和API接口，方便用户集成到其他应用程序中。
 - [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★31799 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent是一个开源的BT客户端，支持下载和上传torrent文件。它使用Qt框架开发，并提供用户友好的界面，方便用户管理下载任务。核心功能包括torrent搜索、下载速度控制、种子优先级设置、以及多线程下载等。该软件支持多种常用的下载协议，并具有良好的稳定性和可靠性。
-- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26889 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26890 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine是一个用于构建和部署可扩展后端服务的工具。它使用Go语言和Gin框架，提供API路由、数据库交互和缓存管理等功能，旨在简化后端开发流程。该项目包含一个易于使用的命令行界面，方便用户快速配置和部署服务。核心功能包括自动生成代码、数据库迁移和服务启动等，以加快开发周期并提高代码质量。
 - [cmderdev/cmder](https://github.com/cmderdev/cmder) ★26419 [`c-plus-plus`] [`cmder`] [`color-scheme`] [`command-line`] [`conemu`] [`mintty`] [`portable`] [`powershell`] [`shell`] [`ssh-agent`] [`windows`]  
   cmder 是一个强大的 Windows 命令行终端模拟器，提供丰富的功能和自定义选项。它基于 Windows Console API 和纯 C++ 开发，支持多种主题、快捷键和插件。用户可以通过插件扩展 cmder 的功能，例如代码高亮、文件浏览器和 Git 集成。  项目旨在为 Windows 用户提供一个功能强大的、可自定义的命令行环境，提升工作效率。
@@ -60,7 +60,7 @@
   这是一个基于Python的网络爬虫项目，用于从指定网站抓取数据并进行存储。它主要使用`requests`库进行网页请求，`BeautifulSoup`库进行网页解析，并利用`pandas`库处理和存储数据。项目支持自定义爬取规则，例如指定爬取的URL、页面元素选择器和数据提取逻辑，最终将爬取的数据保存到CSV或JSON文件中。该项目旨在提供一个简单易用的爬虫框架，方便用户快速从网络上获取所需信息。
 - [jwise/HoRNDIS](https://github.com/jwise/HoRNDIS) ★3084  
   该项目提供了一个HoRNDIS驱动程序，用于在Linux系统上支持多种以太网适配器。它使用C语言编写，基于Linux内核模块，并包含必要的配置和管理工具。  该驱动程序的目标是提高不同以太网卡的兼容性和稳定性，从而为网络应用提供可靠的接口。  关键模块包括设备驱动程序和用户空间接口，允许用户轻松管理和配置网络接口。
-- [kiwibrowser/src.next](https://github.com/kiwibrowser/src.next) ★2991  
+- [kiwibrowser/src.next](https://github.com/kiwibrowser/src.next) ★2992  
   这是一个基于Next.js框架的Kiwi浏览器项目。它提供了一个现代化的网页浏览器体验，包含常见的浏览器功能，例如标签页管理、历史记录和书签。项目使用TypeScript进行开发，并采用React组件构建用户界面。核心功能是通过API调用实现与浏览器的交互，从而呈现网页内容。  该项目旨在提供一个可扩展的浏览器框架，方便用户自定义和扩展浏览器功能。
 - [variar/klogg](https://github.com/variar/klogg) ★2826 [`cpp`] [`cross-platform`] [`hacktoberfest`] [`linux`] [`log-analyzer`] [`log-monitor`] [`log-viewer`] [`logs`] [`macos`] [`qt`] [`tail`] [`windows`]  
   Klogg是一个用于Kubernetes集群日志分析的工具。它利用Prometheus和Grafana构建了一个可视化平台，方便用户监控集群日志的各种指标，例如错误率、警告数量等。Klogg使用Go语言开发，并通过采集Kubernetes的日志数据，将其转化为可视化的图表和仪表盘，从而帮助用户快速定位和解决问题。该项目的主要功能包括日志聚合、指标计算和可视化展示，旨在提供一个简洁高效的日志监控解决方案。

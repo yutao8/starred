@@ -1,7 +1,7 @@
 # 所有收藏仓库
 
 - **仓库总数：** 1704
-- **最后更新时间：** 2025-06-30 09:02:03
+- **最后更新时间：** 2025-06-30 09:03:06
 
 - [daliansky/XiaoMi-Pro-Hackintosh](https://github.com/daliansky/XiaoMi-Pro-Hackintosh) ★2644 [`hackintosh`] [`macos`] [`xiaomi`]  
   该项目提供了一个在小米Pro笔记本上安装macOS的完整指南和教程。  通过详细的步骤和说明，用户可以了解安装过程中的关键配置和注意事项。  项目主要使用文本和图片形式呈现，涵盖了准备工作、安装过程、驱动程序安装以及后续设置等方面。  该指南旨在帮助用户在小米Pro笔记本上成功运行macOS系统。
@@ -259,7 +259,7 @@
   Aria2是一个轻量级、多线程的下载工具，支持各种协议（HTTP、HTTPS、FTP等），并提供强大的排队、分块下载、断点续传等功能。它使用C++编写，并基于libevent事件循环，具有高效的下载性能。Aria2支持用户自定义下载规则，可以灵活地控制下载过程。  该项目提供命令行工具和API接口，方便用户集成到其他应用程序中。
 - [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★31799 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent是一个开源的BT客户端，支持下载和上传torrent文件。它使用Qt框架开发，并提供用户友好的界面，方便用户管理下载任务。核心功能包括torrent搜索、下载速度控制、种子优先级设置、以及多线程下载等。该软件支持多种常用的下载协议，并具有良好的稳定性和可靠性。
-- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26889 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★26890 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`python`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine是一个用于构建和部署可扩展后端服务的工具。它使用Go语言和Gin框架，提供API路由、数据库交互和缓存管理等功能，旨在简化后端开发流程。该项目包含一个易于使用的命令行界面，方便用户快速配置和部署服务。核心功能包括自动生成代码、数据库迁移和服务启动等，以加快开发周期并提高代码质量。
 - [cmderdev/cmder](https://github.com/cmderdev/cmder) ★26419 [`c-plus-plus`] [`cmder`] [`color-scheme`] [`command-line`] [`conemu`] [`mintty`] [`portable`] [`powershell`] [`shell`] [`ssh-agent`] [`windows`]  
   cmder 是一个强大的 Windows 命令行终端模拟器，提供丰富的功能和自定义选项。它基于 Windows Console API 和纯 C++ 开发，支持多种主题、快捷键和插件。用户可以通过插件扩展 cmder 的功能，例如代码高亮、文件浏览器和 Git 集成。  项目旨在为 Windows 用户提供一个功能强大的、可自定义的命令行环境，提升工作效率。
@@ -309,7 +309,7 @@
   这是一个基于Python的网络爬虫项目，用于从指定网站抓取数据并进行存储。它主要使用`requests`库进行网页请求，`BeautifulSoup`库进行网页解析，并利用`pandas`库处理和存储数据。项目支持自定义爬取规则，例如指定爬取的URL、页面元素选择器和数据提取逻辑，最终将爬取的数据保存到CSV或JSON文件中。该项目旨在提供一个简单易用的爬虫框架，方便用户快速从网络上获取所需信息。
 - [jwise/HoRNDIS](https://github.com/jwise/HoRNDIS) ★3084  
   该项目提供了一个HoRNDIS驱动程序，用于在Linux系统上支持多种以太网适配器。它使用C语言编写，基于Linux内核模块，并包含必要的配置和管理工具。  该驱动程序的目标是提高不同以太网卡的兼容性和稳定性，从而为网络应用提供可靠的接口。  关键模块包括设备驱动程序和用户空间接口，允许用户轻松管理和配置网络接口。
-- [kiwibrowser/src.next](https://github.com/kiwibrowser/src.next) ★2991  
+- [kiwibrowser/src.next](https://github.com/kiwibrowser/src.next) ★2992  
   这是一个基于Next.js框架的Kiwi浏览器项目。它提供了一个现代化的网页浏览器体验，包含常见的浏览器功能，例如标签页管理、历史记录和书签。项目使用TypeScript进行开发，并采用React组件构建用户界面。核心功能是通过API调用实现与浏览器的交互，从而呈现网页内容。  该项目旨在提供一个可扩展的浏览器框架，方便用户自定义和扩展浏览器功能。
 - [variar/klogg](https://github.com/variar/klogg) ★2826 [`cpp`] [`cross-platform`] [`hacktoberfest`] [`linux`] [`log-analyzer`] [`log-monitor`] [`log-viewer`] [`logs`] [`macos`] [`qt`] [`tail`] [`windows`]  
   Klogg是一个用于Kubernetes集群日志分析的工具。它利用Prometheus和Grafana构建了一个可视化平台，方便用户监控集群日志的各种指标，例如错误率、警告数量等。Klogg使用Go语言开发，并通过采集Kubernetes的日志数据，将其转化为可视化的图表和仪表盘，从而帮助用户快速定位和解决问题。该项目的主要功能包括日志聚合、指标计算和可视化展示，旨在提供一个简洁高效的日志监控解决方案。
@@ -439,7 +439,7 @@
   Gogs是一个自托管的Git服务，类似于GitHub和GitLab。它使用Go语言开发，基于Web框架Gin。用户可以通过Web界面管理仓库、提交代码、查看提交历史等。Gogs支持多种身份验证方式，并提供丰富的配置选项，以满足不同用户的需求。它易于安装和使用，并提供良好的性能。
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) ★46146 [`golang`] [`http-proxy`] [`proxy`] [`shadowsocks`] [`socks`] [`socks5`] [`v2ray`] [`vmess`]  
   V2Ray-core 是一个开源的 V2Ray 服务器端程序，提供多种协议和配置选项，用于搭建安全的网络连接。它使用 C++ 编写，并支持多种平台，例如 Windows、macOS 和 Linux。该项目允许用户自定义配置以满足各种网络需求，包括 VPN 连接、代理服务器等。V2Ray-core 的核心功能是提供高速、安全的网络连接，并支持多种加密协议。
-- [usememos/memos](https://github.com/usememos/memos) ★42158 [`docker`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
+- [usememos/memos](https://github.com/usememos/memos) ★42159 [`docker`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
   这是一个用于创建和管理备忘录的应用程序。用户可以创建不同类型的备忘录（文本、待办事项、日程安排等），并设置提醒和标签进行组织。该应用使用React作为前端框架，并基于Node.js和Express.js搭建后端，利用MongoDB存储数据。  核心功能包括备忘录的创建、编辑、删除、搜索和分类。  用户可以通过Web界面访问和管理所有备忘录。
 - [ehang-io/nps](https://github.com/ehang-io/nps) ★32976 [`dns`] [`firewall`] [`go`] [`gzip`] [`http`] [`https`] [`nat`] [`nps`] [`snnapy`] [`socks`] [`socks5`] [`ssh`] [`tcp`] [`tunnel`] [`udp`]  
   这是一个用于收集和分析客户净推荐值 (NPS) 数据的工具。它使用 Python 和 Flask 框架构建，提供用户友好的界面来创建调查，收集响应，并生成易于理解的 NPS 指标报告。该工具支持自定义调查问题和分析维度，并能将结果导出为各种格式，方便后续数据分析和业务决策。
@@ -987,7 +987,7 @@
   这是一个用于从图像中提取主导颜色的Python库。它使用K-means算法来快速地找到图像中最显著的颜色。该库使用Pillow库进行图像处理，并提供易于使用的API，方便开发者将颜色提取功能集成到应用程序中。  项目包含示例代码，展示如何使用库提取颜色并将其用于图像处理或设计。
 - [jwagner/smartcrop.js](https://github.com/jwagner/smartcrop.js) ★12901 [`image-processing`] [`javascript`] [`nodejs`] [`smartcrop`]  
   这是一个用于在JavaScript中裁剪图像的库。它提供了一种简单易用的API，允许用户通过多种方式裁剪图像，包括指定区域、比例和角度。该库使用纯JavaScript编写，无需依赖任何外部库或框架。核心功能包括：获取图像数据、裁剪图像区域、调整图像大小和旋转图像。  它可以直接在浏览器环境中使用，并支持各种图像格式。
-- [electerm/electerm](https://github.com/electerm/electerm) ★12607 [`electerm`] [`electron`] [`file-manager`] [`ftp`] [`linux-app`] [`macos-app`] [`open-source`] [`rdp`] [`serialport`] [`sftp`] [`ssh`] [`telnet`] [`terminal`] [`vnc`] [`windows-app`]  
+- [electerm/electerm](https://github.com/electerm/electerm) ★12608 [`electerm`] [`electron`] [`file-manager`] [`ftp`] [`linux-app`] [`macos-app`] [`open-source`] [`rdp`] [`serialport`] [`sftp`] [`ssh`] [`telnet`] [`terminal`] [`vnc`] [`windows-app`]  
   Electerm 是一个跨平台的终端模拟器，支持多种主题、插件和快捷键绑定。它使用 Electron 框架构建，并使用 Node.js 和 JavaScript 编写。Electerm 提供了强大的自定义选项，允许用户根据个人喜好配置终端外观和功能。该项目的目标是提供一个功能丰富、用户友好的终端体验，支持各种终端操作，并支持扩展。
 - [star7th/showdoc](https://github.com/star7th/showdoc) ★12543 [`api`] [`document`] [`documentation-tool`] [`showdoc`]  
   这是一个基于Vue.js的前端文档展示工具，用于展示以Markdown格式编写的文档。用户可以通过简洁直观的界面浏览和搜索文档内容。该项目使用Vue.js构建用户界面，并结合Markdown解析库，将Markdown文档渲染成HTML格式，方便用户阅读。  项目提供文档搜索和目录导航功能，提升文档访问效率。
@@ -1117,7 +1117,7 @@
   这是一个用于前端测试的框架，提供了一套完整的测试工具和流程。它基于 JavaScript 和 Jest，包含单元测试、集成测试和端到端测试的解决方案，并支持多种测试用例类型。该框架旨在提高前端代码的质量和测试效率，并简化测试用例的编写和维护。  核心功能包括测试用例编写、运行、报告生成以及与持续集成工具的集成。
 - [justjavac/ReplaceGoogleCDN](https://github.com/justjavac/ReplaceGoogleCDN) ★3562 [`cdn`] [`chrome`] [`chrome-extension`] [`google`] [`javascript`]  
   该项目提供了一种替代Google CDN的方案，用于在项目中替换Google Fonts、Google Analytics和Google Maps等服务。通过配置自定义的CDN地址，用户可以将依赖的资源从Google服务器转移到其他服务商，提升网站或应用的性能和安全性。项目使用JavaScript和Node.js构建，核心功能包括配置管理和资源替换，并提供可扩展的自定义功能。
-- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) ★3538 [`cosplatfrom`] [`cross-platform`] [`downloader`] [`flask`] [`media-downloader`] [`telegram-bot`]  
+- [tangyoha/telegram_media_downloader](https://github.com/tangyoha/telegram_media_downloader) ★3539 [`cosplatfrom`] [`cross-platform`] [`downloader`] [`flask`] [`media-downloader`] [`telegram-bot`]  
   该项目是一个用于下载 Telegram 媒体文件的 Python 脚本。它使用 `python-telegram-bot` 库与 Telegram API 交互，并支持下载各种媒体类型（图片、视频、音频等）。脚本可以指定下载路径和文件名，并支持多线程下载，提升下载速度。主要使用 Python 语言开发，并依赖 `python-telegram-bot` 库。
 - [smalot/bootstrap-datetimepicker](https://github.com/smalot/bootstrap-datetimepicker) ★3477  
   这是一个基于Bootstrap的日期和时间选择器插件。它提供易于使用的用户界面，允许用户选择日期和时间。该插件使用JavaScript实现，并整合了Bootstrap的样式，可轻松集成到现有Web应用程序中。用户可以通过简单的API调用来配置日期和时间格式、范围等选项。
@@ -3081,7 +3081,7 @@
   这是一个基于Go语言和Gin框架的微服务，用于处理和分析日志数据。它使用Kafka作为消息队列，接收来自各种来源的日志数据，并通过自定义规则进行过滤和聚合。该服务支持多种日志格式，并提供API接口，允许用户查询和下载处理后的日志数据。  核心模块包括日志解析器、数据存储模块和查询引擎。  该项目旨在提供一个高效、灵活的日志处理平台，便于快速分析和监控系统运行情况。
 - [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ★44856 [`electron`] [`javascript`] [`music-player`] [`vue`]  
   这是一个基于Electron的桌面音乐播放器，提供本地音乐播放、歌词同步、专辑封面显示等功能。项目使用TypeScript进行开发，采用Vue.js作为前端框架，并结合Node.js后端处理音乐文件信息。  核心功能包括：音乐搜索、播放控制、歌词显示、专辑封面展示。  用户可以通过简单的操作管理和播放本地音乐。
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★43183 [`gemini`] [`gemini-api`]  
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★43185 [`gemini`] [`gemini-api`]  
   该项目提供一个命令行工具，用于管理和执行Gemini模型的推理任务。用户可以通过该工具便捷地加载Gemini模型，并输入提示词进行推理，获取相应的输出结果。该工具主要使用Python语言开发，基于Google提供的Gemini API进行模型调用。项目包含了模型选择、参数配置和结果输出等功能模块，方便用户快速上手并进行Gemini模型的应用。
 - [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) ★42883 [`chat`] [`collaboration`] [`foss`] [`free`] [`hacktoberfest`] [`javascript`] [`meteor`] [`mit`] [`real-time`] [`slack`] [`webrtc`]  
   Rocket.Chat是一个开源的即时通讯平台，类似Slack或Discord。它允许用户创建团队、频道和直接消息，并提供丰富的功能，例如文件共享、视频会议和自定义机器人。该平台使用Node.js和Meteor框架构建，并拥有一个灵活的插件生态系统，可扩展其功能。  用户可以轻松部署和定制该平台以满足其特定需求。
