@@ -4,6 +4,7 @@
 
 $config=require_once 'config.php';
 
+$api_url = $config['GPT_URL'];
 $api_key = $config['GPT_KEY'];
 
 $projectUrl='https://github.com/soimort/you-get';
@@ -32,7 +33,7 @@ foreach ($models as $model) {
         // 'max_tokens' => 1000,
     ]);
 
-    $ch = curl_init('https://www.gptapi.us/v1/chat/completions');
+    $ch = curl_init($api_url);
     curl_setopt_array($ch, [
         CURLOPT_RETURNTRANSFER => true,
         CURLOPT_POST => true,
@@ -51,7 +52,7 @@ foreach ($models as $model) {
         echo "❌ 请求失败：$error\n";
         continue;
     }
-    // echo $response;
+    echo $response;
     $data = json_decode($response, true);
     $content = $data['choices'][0]['message']['content'] ?? '';
 
