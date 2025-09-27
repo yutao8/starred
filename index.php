@@ -112,7 +112,10 @@ class GitHubStarred {
 		$listPage = [];
 		foreach ($handles as $pageNow => $ch) {
 			$response = curl_multi_getcontent($ch);
-			$list = json_decode($response, true) ?: [];
+			$list = json_decode($response, true) ?: null;
+			if (!array_is_list($list)) {
+				die('列表获取失败:'.$response);
+			}
 			if(empty($list)){
 				echo sprintf("\t\t第 %d 页没有数据\n", $pageNow);
 				continue;
