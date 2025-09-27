@@ -113,7 +113,7 @@ class GitHubStarred {
 		foreach ($handles as $pageNow => $ch) {
 			$response = curl_multi_getcontent($ch);
 			$list = json_decode($response, true) ?: null;
-			if (!array_is_list($list)) {
+			if (!is_array($list) || !array_is_list($list)) {
 				die('列表获取失败:'.$response);
 			}
 			if(empty($list)){
