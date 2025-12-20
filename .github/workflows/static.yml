@@ -23,9 +23,7 @@ jobs:
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: |
-            index.html
-            starList.json
+          path: "index.html starList.json"
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
