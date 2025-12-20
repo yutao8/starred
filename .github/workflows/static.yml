@@ -20,10 +20,15 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Prepare artifact folder
+        run: |
+          mkdir artifact
+          cp index.html starList.json artifact/
+
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "index.html starList.json"
+          path: artifact
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
