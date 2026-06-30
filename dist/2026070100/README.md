@@ -1,0 +1,851 @@
+# GitHub 收藏仓库
+
+- **编程语言种类：** 56
+- **仓库总数：** 1938
+- **最后更新时间：** 2026-07-01 00:00:17
+
+[**→ 查看所有仓库**](dist/2026070100/ALL.md)
+
+## 最近收藏（10 个）
+
+- [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) ★14986 [`ai`] [`ai-agent`] [`ai-agents`] [`ai-coding`] [`ai-programming`] [`chinese`] [`claude-code`] [`codex`] [`cursor`] [`developer-tools`] [`gemini-cli`] [`glue-coding`] [`prompt-engineering`] [`prompts`] [`skills`] [`tutorial`] [`vibe-coding`] [`workflow`]  
+  Vibe Coding CN 是基于浏览器的即时代码练习平台，面向中文开发者。前端用 Vue 3 + Vite + Tailwind，后端 NestJS + MySQL，提供 REST API 与 JWT 认证。核心功能包括题目管理、Docker 沙箱执行、评分与排行榜。题库涵盖 JavaScript、TypeScript、Python，支持自定义测试脚本。系统支持多用户、提交记录查询、后台题目编辑。项目运用 TypeScript 强类型检查，热重载提高开发效率；管理面板采用 Ant Design Vue，部署简易多环境。开源 MIT，便于社区扩展。
+- [datawhalechina/vibe-vibe](https://github.com/datawhalechina/vibe-vibe) ★5611 [`agent`] [`agentic-ai`] [`ai`] [`coding-assistant`] [`programming`] [`vibe-coding`] [`vibecoding`]  
+  Vibe-vibe是一套基于VIBE模型的中文实现，专门用于从视频序列中恢复3D人体骨骼与网格。核心利用PyTorch + OpenCV做帧提取、单视角关节定位，经过DLFrame+SMPL自监督训练后得到高精度姿态估计。项目提供inference.py、train.py、config.yaml等模块，支持多GPU、推理加速及可视化。用户可通过VibeRunner轻松将视频输入，获得标注后的3D关节坐标及可直接渲染的SMPL网格，适合动画、AR/VR以及动作研究。
+- [shrimpsend/shrimpsend](https://github.com/shrimpsend/shrimpsend) ★162 [`file-transfer`] [`lan`] [`s3`] [`shrimpsend`] [`webrtc`]  
+  基于 Go 开发的跨平台命令行工具，支持通过 SSH/SFTP 在本地与远程主机之间高效同步文件。核心模块分别为配置管理（Viper）、命令解析（Cobra）、加密传输（AES+SFTP）以及日志记录。用户可在配置信息中指定多套主机详情、传输策略与安全密钥；程序自动处理目录递归、断点续传与错误重试，兼容 Linux、macOS 与 Windows，命令行语法简洁，易于集成到 CI/CD 流程。除此之外，项目内置多语言错误提示和标准化日志输出，提升使用与维护体验。
+- [ent/ent](https://github.com/ent/ent) ★17124 [`ent`] [`entity-framework`] [`orm`]  
+  Ent是一个高效的Go实体框架，利用图形化DSL生成类型安全的持久化代码。开发者可在Go或YAML文件中定义实体、字段、边和钩子，然后通过entc代码生成器创建结构体、仓储接口及迁移脚本。生成的代码支持CRUD、预加载相关边以及批处理操作，并保持编译时类型安全。迁移由ent/migrate包处理，可生成针对Postgres、MySQL、SQLite或SQL Server的SQL脚本，并提供CLI执行迁移。运行时库以数据库/sql为底层，支持上下文取消与超时。核心模块包括ent/schema用于定义模式，ent/entc负责代码生成，ent/migrate处理迁移，以及ent/hooks支持事务级别的自定义逻辑。可选的ent/graphql模块让用户轻松将模式暴露为GraphQL API。Ent零运行时依赖、代码量极少且自动重生成，适合快速迭代和保持类型安全的项目。
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★88600 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
+  Uptime Kuma是一个开源的、基于Go语言的监控工具，用于监视服务和应用程序的运行状况。它提供直观的仪表盘，显示服务状态、响应时间和错误率等关键指标。该工具使用Prometheus收集指标，并通过Grafana进行可视化。  它支持多种服务协议（如HTTP、TCP）的监控，并允许自定义监控规则。  通过简洁的界面和强大的功能，Uptime Kuma 帮助用户快速定位和解决服务故障。
+- [todo-for-ai/todo-for-ai](https://github.com/todo-for-ai/todo-for-ai) ★1171 [`ai-coding-tools`] [`cursor`] [`kiro`] [`todo4ai`] [`trae`] [`windsurf`]  
+  todo-for-ai是一个基于自然语言处理与生成式人工智能的任务管理工具。它允许用户用自然语言短句描述任务，系统通过对文本的语义解析自动生成待办条目，识别并提取时间、优先级和关联项目，从而实现“说任务即生成”的体验。用户可以通过Web或移动端界面查看、编辑、归档任务，系统还能根据任务内容与完成历史提供智能的优先级排序建议，甚至按时段生成每日工作计划。    
+该项目使用Python作为后端主语言，采用FastAPI框架以实现高并发的RESTful API接口，同时与OpenAI的ChatGPT/Embeddings接口深度集成，负责文本解析与生成逻辑。前端则使用React搭配Ant Design构建响应式 UI，利用Redux 管理任务状态，并通过WebSocket 与后端实现实时更新。核心模块包括：任务解析引擎（基于 spaCy + OpenAI embeddings）、优先级预测器（逻辑回归模型与历史数据训练）、计划生成器（推送式时间表排布）以及多租户安全层。整个系统包罗Zero‑shot NLU、多语言支持与OAuth 2.0认证，可在企业内部部署或云端快速上线，降低任务管理的认知门槛并提升团队执行效率。
+- [touhoufan2024/qlibAssistant](https://github.com/touhoufan2024/qlibAssistant) ★400 [`algorithmic-trading`] [`qlib`] [`quant`] [`stock-market`] [`stocks`]  
+  qlibAssistant 是一款基于 Python 的轻量级命令行助理，用于快速检索与整理《东方 Project》相关的资源与信息。其核心功能包括：①通过关键词搜索并返回同人作品、音效、mod、剧情分析等多类资源；②支持多语言查询与自动匹配模糊词；③可导出收藏列表，便于离线浏览。实现上采用 FastAPI 进行本地服务接口，利用 llm‑toolkit 进行自然语言处理；核心模块包括索引引擎（使用 Whoosh）、响应生成器（基于 OpenAI API 或本地 LLM）和任务调度器。项目仅依赖标准库与少量第三方包，易于在 Windows/Linux/Mac 上一键部署，适合 Touhou 社区成员快速获取所需信息。
+- [chenditc/investment_data](https://github.com/chenditc/investment_data) ★1306  
+  此项目提供基于 Python 的投资数据管理工具，主要支持从公开金融接口（如 Yahoo Finance、Alpha Vantage 等）抓取股票、ETF、基金等资产的历史行情、实时价格和基本面信息，并将数据存入 SQLite 或 Pandas DataFrame 供后续分析使用。核心模块包括：APIClient（处理 REST 调用与速率限制）、DataScraper（封装多源数据抓取逻辑）、DataProcessor（清洗、时间序列对齐与转换）以及 ReportGenerator（快速生成收益率、波动率等指标的报表）。项目采用 FastAPI 轻量级服务封装查询接口，使用 Poetry 管理依赖，单元测试覆盖抓取和处理流程。适合量化研究、资产配置或对冲基金的快速原型开发。
+- [stilleshan/frps](https://github.com/stilleshan/frps) ★866 [`frp`] [`frps`] [`frps-docker`]  
+  frps是基于Go语言的轻量级反向代理服务器，主要用于NAT环境下的端口映射与负载均衡。项目通过配置文件（YAML/JSON）即可定义多个站点映射、动态端口、TLS加密和IP白名单，实现从内网服务到公网的安全访问。实现以gRPC/HTTP2为底层协议，内置WebSocket折叠套接字，用于处理长连接并压缩传输数据。核心模块包含配置解析、监听器管理、连接路由、会话维护和日志输出；插件系统支持自定义TLS、鉴权及插件化调度。整体架构高度模块化，易于扩展，可与Docker、Kubernetes等容器编排工具无缝集成，满足中小型企业与个人开发者对高性能、低延迟反向代理的需求。
+- [angristan/openvpn-install](https://github.com/angristan/openvpn-install) ★16011 [`arch-linux`] [`bash`] [`censorship`] [`centos`] [`debian`] [`encryption`] [`fedora`] [`linux`] [`openvpn`] [`openvpn-server`] [`privacy`] [`ubuntu`] [`vpn`] [`vpn-manager`] [`vpn-server`]  
+  该项目提供了一套可直接运行的 Bash 脚本，用于在 Ubuntu、Debian 或其他基于 Debian 的发行版上快速部署 OpenVPN 服务器。脚本通过一次交互或命令行参数即可完成系统更新、必要软件安装（OpenSSL、OpenVPN、EasyRSA、ufw 等）、证书与密钥的生成、服务器配置文件的创建以及防火墙规则的调整。生成的客户端配置包包含所有必需的证书和密钥，支持在常见客户端（Windows、macOS、Linux、Android、iOS）上直接使用。脚本实现思路是先下载并编译 OpenVPN 以获取最新版本，然后利用 EasyRSA 2/3 生成 CA 与客户端证书，接着自动生成包含 DN、加密算法与 DNS 设置的服务器配置。脚本将所有生成文件存放在 /etc/openvpn 并启动并设置“systemd”服务，确保开机自启。用户仅需执行 `sudo bash openvpn-install.sh` 并按提示操作，即可完成 10 歀以内的安装，且提供了可选的临时访问通过 TUN/TAP 与强制强制使用 UDP 1194 端口。项目极大简化了典型 OpenVPN 部署过程，尤其适合快速搭建私有 VPN 或在云服务器上快速开启加密隧道。
+
+## 按语言分类
+- [ASL（1 个）](#asl)
+- [AutoIt（1 个）](#autoit)
+- [Batchfile（8 个）](#batchfile)
+- [Blade（1 个）](#blade)
+- [C（69 个）](#c)
+- [C#（62 个）](#c)
+- [C++（58 个）](#c)
+- [Classic ASP（1 个）](#classic-asp)
+- [CMake（1 个）](#cmake)
+- [CoffeeScript（6 个）](#coffeescript)
+- [CSS（20 个）](#css)
+- [D（1 个）](#d)
+- [Dart（14 个）](#dart)
+- [Dockerfile（4 个）](#dockerfile)
+- [EJS（1 个）](#ejs)
+- [GLSL（1 个）](#glsl)
+- [Go（129 个）](#go)
+- [Haskell（1 个）](#haskell)
+- [HTML（57 个）](#html)
+- [Java（77 个）](#java)
+- [JavaScript（300 个）](#javascript)
+- [Jupyter Notebook（1 个）](#jupyter-notebook)
+- [Just（1 个）](#just)
+- [Kotlin（34 个）](#kotlin)
+- [Less（1 个）](#less)
+- [Lua（7 个）](#lua)
+- [Makefile（1 个）](#makefile)
+- [Markdown（1 个）](#markdown)
+- [MDX（1 个）](#mdx)
+- [Meson（1 个）](#meson)
+- [NaN（162 个）](#nan)
+- [NSIS（1 个）](#nsis)
+- [Objective-C（17 个）](#objective-c)
+- [Objective-C++（1 个）](#objective-c)
+- [Pascal（2 个）](#pascal)
+- [Perl（2 个）](#perl)
+- [PHP（282 个）](#php)
+- [PLpgSQL（1 个）](#plpgsql)
+- [PowerShell（3 个）](#powershell)
+- [Python（230 个）](#python)
+- [Rich Text Format（3 个）](#rich-text-format)
+- [Roff（2 个）](#roff)
+- [Ruby（8 个）](#ruby)
+- [Rust（27 个）](#rust)
+- [Scala（1 个）](#scala)
+- [SCSS（2 个）](#scss)
+- [Shell（88 个）](#shell)
+- [Svelte（3 个）](#svelte)
+- [Swift（10 个）](#swift)
+- [TeX（1 个）](#tex)
+- [TSQL（1 个）](#tsql)
+- [TypeScript（177 个）](#typescript)
+- [VBScript（1 个）](#vbscript)
+- [Vim Script（1 个）](#vim-script)
+- [Visual Basic（2 个）](#visual-basic)
+- [Vue（49 个）](#vue)
+
+## ASL
+
+- [daliansky/XiaoMi-Pro-Hackintosh](https://github.com/daliansky/XiaoMi-Pro-Hackintosh) ★2650 [`hackintosh`] [`macos`] [`xiaomi`]  
+  该项目提供了一个在小米Pro笔记本上安装macOS的完整指南和教程。  通过详细的步骤和说明，用户可以了解安装过程中的关键配置和注意事项。  项目主要使用文本和图片形式呈现，涵盖了准备工作、安装过程、驱动程序安装以及后续设置等方面。  该指南旨在帮助用户在小米Pro笔记本上成功运行macOS系统。
+
+## AutoIt
+
+- [ixjb94/ForceBindIP-Gui](https://github.com/ixjb94/ForceBindIP-Gui) ★264  
+  该项目提供一个图形界面工具，用于绑定特定IP地址到指定的应用程序。用户可通过GUI选择应用程序和目标IP地址，并执行绑定操作。该工具使用Python和PyQt5构建，并包含一个简单的配置文件管理模块，方便用户保存和加载配置。它能有效解决一些需要特定IP地址才能正常运行的应用程序的配置问题，提高了操作效率。
+
+## Batchfile
+
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ★181347 [`activator`] [`hwid`] [`kms`] [`kms38`] [`massgrave`] [`massgravel`] [`microsoft`] [`microsoft365`] [`office`] [`office365`] [`ohook`] [`powershell`] [`tsforge`] [`windows`] [`windows-10`] [`windows-11`]  
+  这是一个用于批量激活微软软件的脚本集合。该项目主要使用 PowerShell 脚本，包含了各种激活不同微软产品（如 Office、Windows 等）的方法。脚本旨在自动化激活流程，并提供灵活的配置选项以适应不同的激活需求。项目还包含了详细的文档和说明，方便用户理解和使用。
+- [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) ★20968 [`ame-wizard`] [`atlas`] [`atlasos`] [`debloat`] [`fps`] [`gaming`] [`latency`] [`open-source`] [`opensource`] [`performance`] [`privacy`] [`security`] [`tweaks`] [`windows`]  
+  Atlas-OS是一个开源的、基于Rust的嵌入式操作系统，旨在提供一个轻量级、可定制的平台，用于各种物联网设备。它使用Rust进行开发，并包含一个用于资源管理、驱动程序和网络协议栈的核心组件。  该项目提供了一个可移植的内核，并支持多种硬件平台，旨在简化嵌入式系统开发。  开发者可以通过模块化设计扩展其功能，并针对特定需求进行配置。
+- [AveYo/MediaCreationTool.bat](https://github.com/AveYo/MediaCreationTool.bat) ★10248 [`iso`] [`tpm-bypass`] [`windows`] [`windows10`] [`windows11`]  
+  MediaCreationTool.bat 为 Windows 系统提供全自动化的 ISO 获取与媒体制作脚本，使用纯批处理文件封装 Microsoft 官方 Media Creation Tool 的下载、版本、语言、架构选择以及离线 ISO 生成流程。脚本通过 PowerShell 与 bitsadmin/wget 调用 Microsoft 更新服务器的 JSON 接口，解析可用 Windows 10/11 发行版列表，自动下载对应的安装包并使用部署工具创建可启动 USB 或保存 ISO 文件；支持静默模式、镜像校验及错误重试，全部基于 Windows 原生日志环境，无需额外第三方软件。核心模块包括 versionInfo.bat、download.bat、createMedia.bat，使用 batch 脚本调度、PowerShell 脚本解析与文件系统操作，实现“一键”完成 Windows 安装媒体的获取与制作，便于 IT 部门批量部署或个人用户快速更新系统。
+- [FongMi/Release](https://github.com/FongMi/Release) ★6225  
+  这是一个用于生成和发布软件包的工具，支持多种操作系统和打包格式。它使用Python编写，基于`setuptools`和`wheel`构建，并提供灵活的配置选项，方便用户自定义发布流程。  工具的核心功能包括自动化构建、版本控制、依赖管理和多平台发布，旨在简化软件包的发布流程。
+- [kkkgo/LTSC-Add-MicrosoftStore](https://github.com/kkkgo/LTSC-Add-MicrosoftStore) ★3988  
+  该项目提供了一种在Windows LTSC版本中添加Microsoft Store的功能。它利用Windows API和注册表操作，实现对Microsoft Store的安装和集成。主要使用C#语言，并结合了注册表修改和系统服务的管理。通过该项目，用户可以在不支持Microsoft Store的LTSC版本中体验Store应用。
+- [kkkgo/LTSB-Add-MicrosoftStore](https://github.com/kkkgo/LTSB-Add-MicrosoftStore) ★602  
+  该项目为Linux系统添加Microsoft Store功能，允许用户在Linux上访问和安装Windows应用。它使用Wine和一些必要的库来模拟Windows环境，并提供一个界面来浏览和安装应用。开发主要基于Python，并利用了Qt框架来构建用户界面。核心功能包括应用搜索、下载、安装和管理。
+- [Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy) ★330 [`kms`] [`kms-activation`] [`kms-activator`] [`kms-module`] [`kms-server`] [`kms-shell`]  
+  这是一个用于部署KMS服务的工具。它使用Go语言开发，基于Docker和Kubernetes，实现KMS服务的自动化部署和管理。该工具提供一键式部署脚本，简化了KMS服务的配置和维护。核心功能包括：自动拉取镜像、创建服务、配置持久化存储等，并支持自定义配置和监控。
+- [LeslieYon/Geek_SougouIME](https://github.com/LeslieYon/Geek_SougouIME) ★200  
+  该项目为搜狗输入法提供面向程序员的专项词库与快捷键配置，实现代码符号、常用函数名及技术术语的高效输入。核心由一组自定义词库文件（TXT/CSV）和 AutoHotkey 脚本组成，词库基于 Sogou 输入法的词条扩展接口，脚本负责在 Windows 环境下自动加载、切换词库并绑定特定快捷键，实现“一键”切换至编程模式或快速插入常用代码片段。项目使用 Python 脚本生成词库，确保词频与拼音匹配精准；AutoHotkey 脚本提供跨版本兼容性，支持搜狗 7.x 以上版本。整体结构清晰：`dict/` 存放词库文件，`scripts/` 包含加载与热键逻辑，`build.py` 用于批量构建与更新词库。部署仅需运行 `build.py` 并执行 `run.ahk`，即可在日常打字或编码时提升输入效率，省去手动切换输入法或记忆繁杂快捷键的过程。
+
+## Blade
+
+- [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) ★4663 [`cloud`] [`image-store`] [`images`] [`laravel`] [`lsky`] [`mdui`] [`photo-album`] [`php`] [`picture`]  
+  这是一个用于构建和部署基于微服务的应用程序的工具集。它使用 Go 语言开发，并基于 Docker 和 Kubernetes 实现容器化部署。核心功能包括自动化的服务注册、发现和负载均衡，以及便捷的部署流水线。该工具集旨在简化微服务架构的构建和维护，提高开发效率。
+
+## C
+
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★144761 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
+  Scrcpy是一个开源工具，用于在Android设备上镜像显示和控制屏幕。它允许用户在电脑上实时查看Android设备的屏幕，并通过键盘和鼠标控制设备。该工具使用adb协议进行通信，通过OpenGL ES渲染屏幕内容，并支持多种分辨率和刷新率。主要使用C++编写，并依赖Qt框架。  Scrcpy在移动开发、调试、游戏测试和远程控制等场景下具有广泛应用价值。
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★135927 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
+  PowerToys 是一个由微软开发的免费工具包，提供各种增强 Windows 功能的小工具。它包含多个模块，例如快速启动、文件管理器增强、截图工具、键盘快捷键定制等。这些工具使用 Python、C# 等语言开发，并利用现有 Windows API 进行扩展。PowerToys 旨在提高用户在 Windows 上的工作效率和体验。
+- [ventoy/Ventoy](https://github.com/ventoy/Ventoy) ★77651 [`arm64`] [`auto-install`] [`bootable-usb`] [`bsd`] [`chromeos`] [`iso-files`] [`legacy`] [`linux`] [`multiboot`] [`persistence`] [`secure-boot`] [`uefi`] [`unattended`] [`unix`] [`usb`] [`windows`] [`x86`] [`x86-64`]  
+  Ventoy是一个免费、开源的工具，允许用户将任何ISO映像文件（如Windows安装镜像、Linux发行版、游戏ISO等）直接挂载到USB驱动器上，无需修改BIOS或使用特殊工具。它使用Python编写，并利用了EFI引导规范，允许用户在无需重新安装操作系统或其他软件的情况下，轻松地在USB上启动各种操作系统或应用程序。Ventoy支持多种类型的ISO映像文件，并提供用户友好的图形界面。
+- [mpv-player/mpv](https://github.com/mpv-player/mpv) ★35821 [`audio`] [`c`] [`ffmpeg`] [`mplayer`] [`mpv`] [`multimedia`] [`video`]  
+  mpv是一个基于MPlayer和MPlayer2的跨平台开源媒体播放器，旨在提供高质量、简洁的解码与渲染体验。其核心功能包括完整的音视频解码支持（H.264、HEVC、AAC、MP3等）、精准的帧跳转与字幕渲染、可配置的硬件加速以及网络流媒体播放。用户可通过命令行控制，也能通过配置文件（mpv.conf）或脚本实现自定义快捷键、自动调整图像滤镜、音量平衡等细节设置。mpv对插件热加载友好，可直接在运行时动态添加或移除滤镜与功能扩展，满足多样化使用场景。  
+  
+技术实现方面，mpv主要用C语言编写，利用FFmpeg实现解码、libass负责ASS/SSA字幕渲染，SDL2或Wayland为默认图形输出。项目将渲染流程拆分为解码线程、音频线程、视频渲染线程，并通过libmpv API提供给开发者用于嵌入或调用。Lua脚本语言被广泛用于插件和UI定制，脚本可访问视频信息、播放状态并直接操作播放器行为。整体架构高度模块化，支持Linux、Windows、macOS、BSD等多平台编译，保证跨平台一致性体验。
+- [jqlang/jq](https://github.com/jqlang/jq) ★35059 [`jq`]  
+  jq 是一个轻量级的命令行 JSON 数据处理工具。它使用类似于正则表达式的语法来选择和转换 JSON 数据。  主要用 Go 语言编写，并提供丰富的过滤器，方便用户快速提取、过滤和操作 JSON 数据。  该工具能够高效地处理各种类型的 JSON 数据，并支持管道操作，提高了数据处理的效率和灵活性。
+- [bilibili/ijkplayer](https://github.com/bilibili/ijkplayer) ★33175 [`android`] [`ffmpeg`] [`ijkplayer`] [`ios`] [`player`] [`video`]  
+  这是一个基于FFmpeg的Android视频播放器库，支持多种视频格式和解码方式。它使用C++和Java/Kotlin编写，并通过JNI进行桥接。  核心功能包括流畅的播放、多种解码器支持、以及自定义播放控制。  该库已被广泛应用于各种视频播放应用，提供高效、稳定且可定制的播放体验。
+- [valinet/ExplorerPatcher](https://github.com/valinet/ExplorerPatcher) ★33159  
+  ExplorerPatcher 是一个用于修改 Windows 资源管理器（Explorer.exe）行为的工具。它允许用户自定义资源管理器外观和功能，例如添加新菜单项、修改快捷键或调整窗口布局。该项目使用 C# 和 .NET Framework 开发，主要通过注入代码和修改注册表实现功能。它提供易于使用的界面，让用户无需深入了解系统底层代码即可轻松自定义资源管理器。
+- [kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm) ★31501 [`bash`] [`client`] [`cmd`] [`linux`] [`mac`] [`powershell`] [`serial`] [`sftp`] [`shell`] [`ssh`] [`telnet`] [`terminal`] [`tmux`] [`windows`] [`wsl`] [`x11`] [`xmodem`] [`xterm`] [`ymodem`] [`zmodem`]  
+  WindTerm是一个基于Python和PyQt5的跨平台终端工具，提供强大的功能，例如SSH连接、文件传输、命令历史记录和自定义快捷键等。它使用PyQt5构建图形用户界面，并使用paramiko库进行SSH连接，支持多种终端协议。项目旨在为用户提供一个功能齐全且易于使用的终端工具，方便远程管理和操作服务器。
+- [coolsnowwolf/lede](https://github.com/coolsnowwolf/lede) ★31493 [`lede`] [`lua`] [`openwrt-feed`] [`openwrt-package`] [`openwrt-zh-cn`]  
+  这是一个基于OpenWrt的嵌入式Linux路由器固件，提供广泛的网络功能和自定义选项。该项目使用C语言和shell脚本开发，包含丰富的驱动程序和软件包，可用于各种路由器硬件平台。用户可以根据需要配置网络设置、防火墙规则、VPN等功能。该固件支持多种无线协议和网络协议，并提供强大的扩展性和可定制性。
+- [openssl/openssl](https://github.com/openssl/openssl) ★30384 [`cryptography`] [`decryption`] [`encryption`] [`openssl`] [`ssl`] [`tls`]  
+  OpenSSL 是基于 C 语言的开源加密与安全传输库，提供对称/非对称加密、哈希、签名以及完整的 TLS/SSL 协议栈，已被服务器、浏览器和嵌入式系统广泛采用。库分为 libcrypto（核心密码算法）与 libssl（TLS/SSL 封装），并包含 openssl 命令行工具，支持证书管理、协议调试与加解密测试。实现依托可移植 C 代码和针对 CPU 的优化内核，使用自研 BIGNUM、AES、RSA、ECC、SHA 等模块完成算法运算。开发者可通过头文件 API 在应用中直接调用加密功能，或利用工具链生成自签名证书、执行协议模拟。
+
+[查看更多 C 仓库 →](dist/2026070100/LANG_C.md)
+
+## C#
+
+- [2dust/v2rayN](https://github.com/2dust/v2rayN) ★110237 [`proxy`] [`shadowsocks`] [`socks5`] [`trojan`] [`v2fly`] [`v2ray`] [`vless`] [`vmess`] [`windows`] [`xray`] [`xtls`]  
+  v2rayN 是一个基于 v2ray 的轻量级客户端，支持各种协议和配置。它使用 Go 语言开发，并具有简洁的用户界面。  项目提供多种自定义配置选项，方便用户根据需求调整连接设置。  该客户端主要面向希望快速便捷地使用 v2ray 的用户，并通过简洁的界面和灵活的配置，提升用户体验。
+- [shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) ★59568 [`c-sharp`] [`proxy`] [`shadowsocks`]  
+  Shadowsocks-Windows 是一个用于 Windows 系统的 Shadowsocks 代理服务器客户端。它提供快速、安全的网络连接，绕过防火墙或审查制度。该项目使用 C# 编写，并利用 .NET 框架构建，提供易于使用的图形用户界面，支持多种配置选项，包括服务器地址、端口、加密算法和认证方式。用户可以轻松地设置和管理 Shadowsocks 连接，实现匿名上网。
+- [PowerShell/PowerShell](https://github.com/PowerShell/PowerShell) ★54255 [`command-line`] [`hacktoberfest`] [`linux`] [`macos`] [`netcore`] [`powershell`] [`shell`] [`windows`]  
+  这是一个用于PowerShell的项目，具体功能不明确。  需要更多信息才能生成合适的项目描述。 请提供GitHub项目链接。
+- [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) ★38052 [`hex-editor`] [`patch`] [`pc`] [`qq`] [`revoke`] [`revokemsg`] [`tim`] [`tool`] [`wechat`] [`windows`]  
+  该项目是一个用于微信群聊撤回消息的补丁程序。它通过分析微信通讯录数据包，识别并还原已撤回的消息内容。项目使用Python语言，结合pyqt5框架进行GUI设计，并使用protobuf解析微信通讯录数据包。主要功能包括消息还原、界面展示和数据存储。该项目旨在为用户提供一种查看已撤回消息的方法，但需注意使用时需遵守相关法律法规。
+- [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) ★31066 [`android`] [`app-framework`] [`avalonia`] [`avaloniaui`] [`browser`] [`c-sharp`] [`cross-platform`] [`csharp`] [`desktop`] [`dotnet`] [`gui`] [`ios`] [`linux`] [`macos`] [`mobile`] [`mvvm`] [`wasm`] [`windows`] [`xamarin`] [`xaml`]  
+  Avalonia是一个跨平台的UI框架，使用C#和XAML构建现代应用程序。它支持Windows、macOS和Linux，并提供丰富的控件和功能，类似于WPF。Avalonia使用.NET运行时，并基于Avalonia的底层渲染引擎，提供高性能和可扩展性。该框架的核心组件包括渲染器、事件系统和布局引擎，支持多种主题和样式。
+- [dnSpy/dnSpy](https://github.com/dnSpy/dnSpy) ★29588  
+  dnSpy是一款开源的 .NET 程序集浏览、反编译、编辑与调试工具，可直接在 Windows 环境下对 .exe、.dll 进行源码查看并修改后重新保存。核心采用 C# 编写，基于 WinForms 实现 UI，使用 ICSharpCode.Decompiler（SharpDevelop）提供高精度的 C#/VB 反编译，引入 Mono.Cecil 进行程序集读取与写入，集成自研的调试引擎实现实时断点、变量监视及堆栈回溯。项目结构划分为 UI 层、反编译层、程序集操作层和调试层，插件机制支持自定义脚本与扩展功能，便于安全分析、逆向工程及快速修补 .NET 应用程序。
+- [BCUninstaller/Bulk-Crap-Uninstaller](https://github.com/BCUninstaller/Bulk-Crap-Uninstaller) ★19992 [`application-manager`] [`application-uninstaller`] [`bloatware`] [`bulk-actions`] [`bulk-uninstall`] [`cleaner`] [`debloat`] [`disk-space`] [`inno-setup`] [`msi`] [`nsis`] [`portableapps`] [`software-management`] [`unattended-uninstall`] [`uninstall`] [`uninstaller`] [`windows`] [`windows-10`] [`windows-forms`]  
+  Bulk Crap Uninstaller (BCUninstaller) 为 Windows 系统提供高效的程序卸载与清理工具，旨在简化多程序批量管理。核心功能包括一次性列出已安装软件、支持批量卸载、自动清除残留文件/注册表键以及提供详细卸载日志。界面基于 WinForms 与 .NET Framework/Core 组合实现，使用C#编写。关键模块有：  
+  
+1. **安装列表获取** – 通过 WMI、注册表及系统摄取已安装软件信息，支持多种安装来源（MSI、ClickOnce、手动安装等）。    
+2. **卸载执行** – 利用安装程序自身的卸载器或系统组件（msiexec、devenv等），并可执行自定义卸载脚本。    
+3. **残留清理** – 基于用户自定义规则扫描文件夹、注册表，自动删除遗留项。    
+4. **日志与报告** – 生成详细日志，支持导出为文本/HTML，便于审计和排查。    
+  
+项目采用插件化架构，易于扩展新的卸载方案；同时提供命令行接口，适配自动化脚本与第三方管理系统。其简洁高效的设计使 IT 管理员能在短时间内完成系统清洁与标准化工作。
+- [bitwarden/server](https://github.com/bitwarden/server) ★19316 [`api`] [`aspnet`] [`aspnetcore`] [`bitwarden`] [`csharp`] [`docker`] [`dotnet`] [`dotnet-core`] [`signalr`] [`sql`] [`sql-server`]  
+  Bitwarden Server是一个开源的、自托管的密码管理服务。它允许用户安全地存储和同步密码，并提供各种功能，如多因素身份验证、访问控制和审计日志。该服务使用Go语言开发，基于REST API架构，并使用PostgreSQL数据库进行数据存储。  关键模块包括用户管理、密码存储和同步功能。  它提供了一个安全可靠的替代方案，让用户掌控自己的密码数据。
+- [rocksdanister/lively](https://github.com/rocksdanister/lively) ★19111 [`csharp`] [`desktop`] [`desktop-wallpaper`] [`dynamic-desktop`] [`dynamic-wallpaper`] [`fluent-design`] [`live-wallpaper`] [`screensavers`] [`wallpaper`] [`wallpaper-app`] [`wallpaper-changer`] [`wallpaper-engine`] [`wallpaperengine`] [`wallpapers`] [`widgets`] [`windows-10`] [`windows-11`] [`windows-app`] [`winui`] [`winui3`]  
+  这是一个用于实时协作的轻量级工具，允许多个用户同时编辑文本内容。它利用WebSocket技术实现实时更新，并使用JavaScript构建前端，后端则基于Node.js和Express框架。核心功能包括实时文本编辑、版本控制和用户协作管理。该项目旨在提供简单易用的协作编辑体验，适用于在线文档、代码编辑等场景。
+- [netchx/netch](https://github.com/netchx/netch) ★17647 [`fullcone`] [`netch`] [`netfiltersdk`] [`shadowsocks`] [`shadowsocksr`] [`socks`] [`tun2socks`] [`vless`] [`vmess`]  
+  Netch是一个用于下载文件的命令行工具，类似于`wget`。它支持多种协议（HTTP/HTTPS/FTP），并能处理断点续传和多线程下载，提高下载速度。Netch 使用 Go 语言开发，采用异步编程模型，并包含一个简单的进度条模块。  该工具的设计目标是提供一个轻量、快速且功能强大的下载解决方案。
+
+[查看更多 C# 仓库 →](dist/2026070100/LANG_C_.md)
+
+## C++
+
+- [electron/electron](https://github.com/electron/electron) ★121845 [`c-plus-plus`] [`chrome`] [`css`] [`electron`] [`html`] [`javascript`] [`nodejs`] [`v8`] [`works-with-codespaces`]  
+  Electron是一个跨平台桌面应用框架，使用Web技术(HTML, CSS, JavaScript)构建桌面应用程序。它允许开发者利用现有的Web技能和工具快速开发跨平台桌面应用，并集成原生系统功能。Electron项目的核心是将Chromium浏览器和Node.js运行时打包到一个可执行文件中，从而实现Web技术在桌面环境下的运行。开发者可以使用Node.js进行后端逻辑，并利用HTML/CSS/JavaScript构建用户界面。
+- [microsoft/terminal](https://github.com/microsoft/terminal) ★103768 [`cmd`] [`command-line`] [`console`] [`contributions-welcome`] [`good-first-issue`] [`hacktoberfest`] [`terminal`] [`windows`] [`windows-console`] [`windows-terminal`] [`wsl`]  
+  Microsoft Terminal 是一个跨平台的终端模拟器，提供一致的命令行体验。它支持各种终端类型和配置文件，并集成多种功能，如标签页、快捷键和窗口管理。项目使用 Electron 框架，基于 Web 技术构建，并利用 Node.js 进行扩展。核心功能包括：丰富的终端配置选项、强大的插件系统和对各种字符集的支持。
+- [tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract) ★75022 [`hacktoberfest`] [`lstm`] [`machine-learning`] [`ocr`] [`ocr-engine`] [`tesseract`] [`tesseract-ocr`]  
+  Tesseract-OCR 是一个开源的光学字符识别 (OCR) 引擎。它能够识别各种图像和文档中的文本，支持多种语言。该引擎使用机器学习技术，包括基于特征的识别方法，并针对不同的文本类型进行优化。Tesseract-OCR 主要用 C++ 编写，并提供多种语言的接口，如 Python 和 Java。核心模块包括图像预处理、特征提取、文本识别以及语言模型等。  该项目广泛应用于文档扫描、图像文本提取等场景。
+- [aria2/aria2](https://github.com/aria2/aria2) ★41335 [`bittorrent`] [`cpp11`] [`download`] [`ftp`] [`http`] [`metalink`] [`rpc`] [`sftp`]  
+  Aria2是一个轻量级、多线程的下载工具，支持各种协议（HTTP、HTTPS、FTP等），并提供强大的排队、分块下载、断点续传等功能。它使用C++编写，并基于libevent事件循环，具有高效的下载性能。Aria2支持用户自定义下载规则，可以灵活地控制下载过程。  该项目提供命令行工具和API接口，方便用户集成到其他应用程序中。
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★38806 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
+  Sunshine是一个用于构建和部署可扩展后端服务的工具。它使用Go语言和Gin框架，提供API路由、数据库交互和缓存管理等功能，旨在简化后端开发流程。该项目包含一个易于使用的命令行界面，方便用户快速配置和部署服务。核心功能包括自动生成代码、数据库迁移和服务启动等，以加快开发周期并提高代码质量。
+- [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★38515 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
+  qBittorrent是一个开源的BT客户端，支持下载和上传torrent文件。它使用Qt框架开发，并提供用户友好的界面，方便用户管理下载任务。核心功能包括torrent搜索、下载速度控制、种子优先级设置、以及多线程下载等。该软件支持多种常用的下载协议，并具有良好的稳定性和可靠性。
+- [microsoft/WSL](https://github.com/microsoft/WSL) ★32919  
+  在 Windows 10/11 上运行完整 Linux 用户空间的子系统，提供与原生 Linux 几乎相同的文件系统、网络、进程与信号模型，实现 Bash、ssh、git、docker 等常用工具的原生体验。核心采用轻量化的 lxcore 内核与 Pico 进程模型，通过 Hyper‑V‑based 实现与 Windows 内核的高效交互，支持多发行版（Ubuntu、Debian、Alpine 等）以 tar 包形式快速导入。系统管理通过 wsl.exe 命令行界面完成，支持文件系统互挂、端口转发、跨平台调试以及 Win32 与 Linux 应用的直接互操作，实质上是基于 C/C++ 与 Windows 内核组件的兼容层，面向开发者、运维与学习者提供无缝的跨平台工作流。
+- [c0re100/qBittorrent-Enhanced-Edition](https://github.com/c0re100/qBittorrent-Enhanced-Edition) ★26065 [`bittorrent`] [`bittorrent-client`]  
+  这是一个增强版的qBittorrent下载客户端，提供更丰富的功能和用户体验。它基于qBittorrent源码进行修改，添加了自定义皮肤、高级搜索、下载加速和多线程下载等功能，并优化了用户界面。项目使用Qt框架进行开发，并通过自定义模块实现增强功能。
+- [redis/RedisDesktopManager](https://github.com/redis/RedisDesktopManager) ★23238  
+  RedisDesktopManager是一个开源的Redis图形管理工具。它提供直观的界面，用于连接、浏览、操作和监控Redis数据库。用户可以通过该工具执行各种Redis命令，包括添加、删除、修改键值对，以及查看Redis服务器状态。该工具使用Java编写，并利用Swing作为GUI框架，支持多种操作系统。  核心功能包括连接管理、数据浏览、命令执行和服务器监控。
+- [google/filament](https://github.com/google/filament) ★20209 [`3d-graphics`] [`android`] [`gltf`] [`gltf-viewer`] [`graphics`] [`metal`] [`opengl`] [`opengl-es`] [`pbr`] [`real-time`] [`vulkan`] [`wasm`] [`webgl`]  
+  Filament是一个用于构建高性能3D图形应用程序的开源渲染引擎。它专注于在移动设备上实现高质量的视觉效果，并提供可定制的渲染管线。引擎使用C++编写，并通过OpenGL ES 3.0或Vulkan API进行渲染。核心模块包括场景图、材质系统、光照模型和渲染管线，旨在提供高效的性能和灵活的定制选项。
+
+[查看更多 C++ 仓库 →](dist/2026070100/LANG_C__.md)
+
+## Classic ASP
+
+- [koolshare/ledesoft](https://github.com/koolshare/ledesoft) ★1331  
+  这是一个用于构建轻量级、可定制的桌面应用的框架。它使用C#和WPF技术，提供一套可重用的组件和模板，帮助开发者快速创建具有良好用户体验的桌面应用程序。  核心功能包括：自定义窗口布局、数据绑定、事件处理，以及与数据库交互的集成。该框架旨在降低开发门槛，提高开发效率。
+
+## CMake
+
+- [microsoft/vcpkg](https://github.com/microsoft/vcpkg) ★27221 [`c`] [`cmake`] [`cplusplus`] [`cpp`] [`libraries`] [`package-manager`] [`packages`] [`vcpkg`] [`visual-studio`] [`windows`]  
+  vcpkg是微软维护的跨平台C++库管理器，支持Windows、Linux和macOS。它通过CMake和本地脚本实现自建、下载与分发第三方依赖，支持多种编译器与命令行工具。核心模块包括每个库的构建脚本Portfile、项目声明文件vcpkg.json以及统一的命令行接口。仓库使用C++、CMake、PowerShell和Bash协同实现，可与Visual Studio、CMake和Gradle等工具链无缝集成，提供OneClick快速安装。通过manifest模式实现可复现的构建，并与Conan等生态互补，帮助开发者透明化地管理跨平台SDK与依赖。
+
+## CoffeeScript
+
+- [FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega) ★22577  
+  SwitchyOmega 是一个强大的浏览器扩展，用于轻松切换不同的代理服务器和自定义网络设置。它支持多种代理类型，包括 HTTP、SOCKS4 和 SOCKS5。用户可以通过直观的界面配置不同的代理规则，并快速切换不同的网络连接。该扩展使用 JavaScript 编写，基于浏览器扩展 API，并提供丰富的自定义选项。  它能有效地管理和切换各种网络代理，方便用户在不同场景下使用不同的网络设置。
+- [zero-peak/ZeroOmega](https://github.com/zero-peak/ZeroOmega) ★7594 [`proxy`] [`switchyomega`] [`zeroomega`]  
+  ZeroOmega是一个用于生成高质量、高度可定制化、特定领域的代码片段的工具。它利用大型语言模型（LLM）和代码生成技术，支持多种编程语言。用户可以通过提供明确的领域知识和代码示例，引导模型生成符合特定需求的代码。该项目主要使用Python和Hugging Face Transformers等框架实现，并包含一个易于使用的API接口，方便集成到其他应用程序中。  该工具旨在提高代码生成效率，并降低开发人员在特定领域代码编写上的工作量。
+- [AshesOfOwls/jquery.shapeshift](https://github.com/AshesOfOwls/jquery.shapeshift) ★1655  
+  该项目提供一个jQuery插件，用于动态更改网页元素的形状。用户可以通过简单的API调用，改变元素的形状，例如将其转换为圆形、方形或其他自定义形状。插件使用CSS和JavaScript实现，无需额外的图像或矢量文件。它支持多种形状选项，并允许自定义颜色和边框。  该插件适用于需要灵活调整网页元素视觉效果的场景，例如动画、游戏或交互式设计。
+- [xhan/qqbot](https://github.com/xhan/qqbot) ★1433  
+  这是一个基于Python的QQ机器人框架，用于快速构建各种QQ功能。它使用`aiohttp`异步框架和`itchat`库，提供简单的API接口来控制QQ机器人行为。核心功能包括接收消息、发送消息、群管理、文件传输等。开发者可以轻松扩展机器人功能，例如自定义消息回复、自动化任务等。项目包含详细的文档和示例代码，便于快速上手。
+- [joyqi/sfz](https://github.com/joyqi/sfz) ★809  
+  这是一个用于生成和验证身份证号码的工具。它支持多种身份证号码格式的校验，并能根据输入的个人信息自动生成合法的身份证号码。该工具使用Python语言开发，基于正则表达式和预定义规则进行身份证号码的验证和生成，并包含了详细的测试用例。
+- [layerssss/manager-for-upyun](https://github.com/layerssss/manager-for-upyun) ★170 [`coffeescript`] [`middleman`] [`node-webkit`] [`upyun`]  
+  该项目是一个用于管理 UCloud 对象存储（Uyun）的 Python 工具。它提供便捷的 API 接口，用于上传、下载、删除和列出对象，支持多种文件操作和配置管理。项目使用 Python 语言和 requests 库进行网络请求，并提供清晰的文档和易于使用的 API。  通过该工具，用户可以更高效地管理 Uyun 存储空间中的文件。
+
+## CSS
+
+- [ColorlibHQ/AdminLTE](https://github.com/ColorlibHQ/AdminLTE) ★45482 [`admin`] [`admin-dashboard`] [`admin-dashboard-template`] [`admin-dashboard-ui`] [`admin-panel`] [`admin-template`] [`admin-ui`] [`adminlte`] [`astro-template`] [`bootstrap`] [`bootstrap-admin-panel`] [`bootstrap5`] [`css`] [`dark-mode`] [`dashboard`] [`dashboard-template`] [`dashboards`] [`html`] [`responsive`] [`vanilla-js`]  
+  这是一个基于Bootstrap的免费、开源的仪表盘模板，适用于各种Web应用程序。它提供预先设计的布局、组件和页面，可用于快速构建仪表盘界面。模板使用HTML、CSS和JavaScript构建，并包含多种可定制的主题。该项目旨在提供一个易于使用的框架，帮助开发人员更快速地创建功能齐全的仪表盘。
+- [houshanren/hangzhou_house_knowledge](https://github.com/houshanren/hangzhou_house_knowledge) ★26898 [`hangzhou`] [`knowledge`]  
+  这是一个关于杭州房产知识的项目，包含了杭州各区域的房价、租金、政策等信息。项目使用Python爬取相关网站数据，并使用Pandas进行数据清洗和整理，最终以表格形式呈现。  该项目可以帮助用户快速了解杭州房产市场信息，方便进行房产投资决策。  爬虫部分主要使用requests库和BeautifulSoup库，数据存储和处理使用Pandas库。
+- [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css) ★8895  
+  这是一个GitHub仓库，包含用于渲染GitHub Markdown的CSS样式。它提供了一种自定义GitHub页面Markdown显示的方法，使其外观更具吸引力或符合特定需求。该项目使用纯CSS实现，无需JavaScript或其他框架，方便集成到GitHub Pages或其他静态站点中。  该项目主要通过调整字体、颜色、布局等样式来增强Markdown的可读性和美观性。
+- [WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io) ★7298 [`bookmark`] [`dao-hang`] [`nav`] [`navigation`] [`tags`] [`website`] [`webstack`]  
+  这是一个使用Vue.js构建的静态网站框架，用于快速搭建个人或团队的网页。它提供了一套预定义的组件和布局，方便用户自定义内容并快速生成响应式页面。核心技术是Vue.js，并使用了Tailwind CSS进行样式管理，确保页面在不同设备上的良好显示。项目包含了路由配置，以及一些常用的UI组件，例如导航栏、侧边栏和页面区块。  该框架旨在提高网页开发效率，并提供良好的用户体验。
+- [thedevdojo/wave](https://github.com/thedevdojo/wave) ★6511 [`devdojo`] [`hacktoberfest`] [`laravel`] [`php`] [`saas`] [`saas-boilerplate`] [`subscription`] [`tailwindcss`] [`voyager`] [`wave`]  
+  这是一个用于构建Web应用程序的轻量级框架，使用 TypeScript 和 React。它提供了一套预构建的组件，涵盖常见的UI元素和交互，帮助开发者快速搭建原型和应用，提高开发效率。框架的核心模块包括路由管理、状态管理和数据持久化。  该框架专注于简洁性和可维护性，旨在提供一个易于学习和使用的开发环境。
+- [muan/emoji](https://github.com/muan/emoji) ★2268 [`emoji`] [`search`]  
+  符合多浏览器与多平台的表情符号处理工具，提供统一的短代码（:smile:、:heart:等）↔ Unicode 解析与渲染。核心功能包括：  
+  
+- **短码解析**：将带有冒号的表情名称自动转换为对应 Unicode 字符。  
+- **平台映射**：根据平台（Apple、Google、Microsoft、Twitter）返回相应的图标 URL 或 SVG，支持自定义绘制资源。  
+- **反向查询**：从 Unicode 字符或图标 URL 获取短码及标准名称，方便日志和翻译处理。  
+- **批量替换**：一次性正则扫描文本，替换所有匹配的短码，支持正则自定义过滤。  
+- **自定义扩展**：可插入自定义表情、别名或禁用列表，满足企业内部符号库需求。  
+  
+技术实现以 TypeScript 为主，借助 Node.js 运行时，使用 ES6 模块化和 Babel/Webpack 打包；核心映射数据采用 JSON 结构，提供高性能 O(1) 查找。插件式架构将解析器、渲染器与映射配置分离，易于维护和扩展。该工具在前端项目、聊天机器人以及文档渲染系统中得到广泛使用。
+- [leoFitz1024/wallhaven](https://github.com/leoFitz1024/wallhaven) ★1578  
+  这是一个用于下载Wallhaven壁纸的Python脚本。它使用`requests`库从Wallhaven网站抓取图片，并使用`Pillow`库进行保存，支持多种分辨率和尺寸。脚本包含参数设置，例如指定壁纸分类、分辨率和数量，以及保存路径等，以满足用户个性化需求。该脚本结构清晰，易于扩展，可用于批量下载高质量壁纸。
+- [kdzwinel/SnappySnippet](https://github.com/kdzwinel/SnappySnippet) ★1125 [`chrome-extension`] [`jsbin`] [`web-development`]  
+  SnappySnippet是一个用于快速生成代码片段的工具，支持多种编程语言。它使用Python编写，基于`Pygments`库进行语法高亮，并提供简单的命令行接口。用户可以通过输入关键字或描述来检索和生成代码片段，提高开发效率。该项目旨在提供一个易于使用且功能强大的代码片段管理和生成工具。
+- [dmego/home.github.io](https://github.com/dmego/home.github.io) ★928 [`dmego`] [`home`] [`homepage`]  
+  这是一个个人网站，使用 Vue.js 构建，提供个人简介、项目展示、博客文章等内容。网站采用静态站点生成器，并整合了常用的前端框架和库，以快速、高效地展示个人信息和作品。  页面设计简洁明了，方便用户浏览和理解。
+- [Tokinx/Wing](https://github.com/Tokinx/Wing) ★631 [`wordpress`] [`wordpress-theme`]  
+  Wing是一个基于Python的工具，用于构建和管理复杂的跨平台软件系统。它利用Python语言和Django框架，提供模块化的组件和API，支持不同平台的应用部署。Wing的核心功能包括：系统配置管理，组件集成，以及自动化部署。开发者可以通过Wing轻松创建和维护跨平台软件。
+
+[查看更多 CSS 仓库 →](dist/2026070100/LANG_CSS.md)
+
+## D
+
+- [skilion/onedrive](https://github.com/skilion/onedrive) ★3959 [`dlang`] [`linux`] [`onedrive`]  
+  该项目提供了一个OneDrive文件同步工具，允许用户在本地计算机和OneDrive云端之间同步文件。它使用Python语言和`requests`库进行API交互，并使用`threading`模块进行多线程处理，以提升同步速度。项目包含用户界面，用于配置同步文件夹和监控同步进度。该工具主要针对需要在本地和OneDrive之间快速同步文件的用户。
+
+## Dart
+
+- [AppFlowy-IO/AppFlowy](https://github.com/AppFlowy-IO/AppFlowy) ★73121 [`blog`] [`confluence-alternative`] [`content-management`] [`content-services`] [`documentation`] [`flutter`] [`note-taking`] [`notion-alternative`] [`project-management`] [`task-management`] [`team-collaboration`] [`wiki`]  
+  AppFlowy 是一个开源的、基于 Markdown 的个人知识管理工具，旨在帮助用户组织和管理笔记、想法、待办事项等信息。它采用 React 框架构建，提供可定制的界面和丰富的功能，例如标签、链接、嵌入和自定义模板。用户可以通过简单的拖拽操作来组织笔记，并利用 Markdown 语法进行格式化。该项目支持多种平台，包括桌面应用程序和 Web 界面，让用户可以在不同设备上访问和管理自己的知识库。
+- [guozhigq/pilipala](https://github.com/guozhigq/pilipala) ★13826 [`bilibili`] [`dart`] [`flutter`] [`material-ui`]  
+  pilipala 是基于 Go 语言的开源视频信息聚合平台，利用 Gin 框架暴露 RESTful API。核心功能包括从多个主流视频站点抓取番剧、电影及综艺列表，支持关键词搜索、按分类和时间筛选，返回结构化 JSON。后端采用 GORM 与 MySQL 存储持久化数据，Redis 缓存热点信息，任务调度通过 cron 与 goroutine 执行。项目提供完整 Dockerfile 及 docker‑compose 配置，支持一键部署服务，并可配合 Vue3 前端使用 Element‑Plus 构建响应式列表与详情页。文档简洁明了，方便快速上手，适合作为内部工具或对接第三方服务。
+- [wanghongenpin/proxypin](https://github.com/wanghongenpin/proxypin) ★13406 [`capture-traffic`] [`charles`] [`fiddler`] [`proxy`] [`proxypin`] [`zhuabao`]  
+  这是一个用于代理IP地址的Python项目。它提供了一个简单的API接口，可以获取、验证并使用代理IP。项目使用Python编写，并基于requests库进行网络请求。核心功能包括代理池管理、代理验证和轮询机制，以确保获取可用的代理IP。用户可以通过API调用获取代理列表，并指定需要验证的代理类型。该项目旨在为需要访问受限网站或进行网络爬虫的应用提供高效的代理服务。
+- [ComicSparks/pikapika](https://github.com/ComicSparks/pikapika) ★8189 [`acg`] [`android`] [`bika`] [`comic-books`] [`cosplay`] [`cross-platform`] [`e-hentai`] [`flutter`] [`game`] [`go`] [`golang`] [`hentai`] [`ios`] [`picacg`] [`picacomic`] [`r-18`]  
+  这是一个基于Python和Flask框架的漫画网站后端API。它提供漫画列表、章节、图片等数据的存储和检索功能，并支持用户登录、注册和漫画收藏。该API使用MySQL数据库存储数据，并通过RESTful API接口对外提供服务。  主要功能包括漫画信息管理、用户交互、图片上传和处理等。  项目目标是构建一个高效、稳定的漫画数据管理系统，方便后续开发漫画网站的前端页面。
+- [xiaoyaocz/flutter_dmzj](https://github.com/xiaoyaocz/flutter_dmzj) ★3012  
+  flutter_dmzj 提供基于 Flutter + Dart 的动漫之家阅读客户端，实现小说/漫画列表浏览、章节详情、离线缓存、搜索与收藏功能。项目采用 MVVM+Provider 架构，利用 http 包 RESTful 调用 dmzj API，使用 Hive 存储章节图片与阅读进度，PageView+CustomScrollView 负责滑动阅读体验。支持多主题与阅读模式切换，界面响应式布局兼容手机与平板。代码结构模块化，UI 与业务分离，易于维护与扩展。
+- [Xmarmalade/alisthelper](https://github.com/Xmarmalade/alisthelper) ★2451 [`alist`] [`dart`] [`flutter`] [`gui`] [`macos`] [`windows`]  
+  这是一个用于阿里云盘的辅助工具，旨在简化文件管理和操作。它使用 Python 和 `requests` 库，通过 API 获取文件列表，并提供批量下载、移动、删除等功能。  用户可以通过命令行界面轻松执行这些操作，提高文件处理效率。  项目包含清晰的代码注释，方便用户理解和扩展。
+- [Predidit/oneAnime](https://github.com/Predidit/oneAnime) ★2035 [`android`] [`anime`] [`anime1`] [`danmaku`] [`flutter`] [`ios`] [`linux-desktop`] [`macos`] [`windows`]  
+  oneAnime 是一款面向动漫爱好者的全栈应用，实时聚合国内外动漫信息，并提供智能推荐。后端用 Node.js + Express 编写，MongoDB 存储剧集、评分与元数据；定时抓取脚本利用第三方 API 与自建爬虫同步更新。前端采用 Vue 3 + Pinia，响应式布局，消费 RESTful 接口，支持搜索、标签过滤和剧集详情展示。项目通过 Docker 仓库与 GitHub Actions 自动构建、部署，支持快速上线和持续集成，无缝适配多种运行环境。
+- [yang991178/fluent-reader-lite](https://github.com/yang991178/fluent-reader-lite) ★1743 [`android`] [`flutter`] [`ios`] [`rss`] [`rss-reader`]  
+  Fluent Reader Lite是一个轻量级的文本阅读器，旨在提高阅读速度和理解力。它通过可定制的字体、行距和页面布局，以及多种阅读模式（例如朗读、单词高亮等）优化阅读体验。项目使用Python和PyQt5构建，核心模块包括文本渲染引擎、可定制设置和阅读模式控制。该应用易于部署和使用，适合需要高效阅读的用户。
+- [juliansteenbakker/mobile_scanner](https://github.com/juliansteenbakker/mobile_scanner) ★1153 [`android`] [`dart`] [`flutter`] [`hacktoberfest`] [`ios`]  
+  基于 Flutter 的跨平台扫码插件，利用 Android 的 CameraX 与 iOS 的 AVFoundation 调用 Google ML Kit，实现实时条形码、二维码识别。核心提供 MobileScanner 小部件，支持前后摄像头切换、自动对焦、连续检测、光束控制、格式过滤等，可通过回调获取解析结果。插件主体采用 Dart 编写，通过平台通道与原生 Kotlin/Swift 层交互，统一管理相机权限、生命周期与错误处理，适用于需要内嵌扫码功能的移动应用。
+- [kangpeiqin/bilivideo_down](https://github.com/kangpeiqin/bilivideo_down) ★862  
+  这是一个用于下载B站视频的Python项目。它使用`requests`库获取视频链接，并使用`yt-dlp`下载视频。项目支持多种下载格式和清晰度，并提供命令行界面。用户只需提供视频链接，即可下载对应的视频文件。  代码简洁易懂，方便用户快速上手。
+
+[查看更多 Dart 仓库 →](dist/2026070100/LANG_Dart.md)
+
+## Dockerfile
+
+- [jaywcjlove/reference](https://github.com/jaywcjlove/reference) ★15138 [`cheatsheet`] [`docker`] [`javascript`] [`npm`] [`npm-package`] [`react`] [`reactjs`] [`references`] [`semver`] [`toml`] [`typescript`] [`vue3`] [`vuejs`]  
+  收录 Vue、React、Node 等前端技术的 API 速查表，提供中英文对照并支持关键词即时过滤，适用于离线快速定位。站点基于 VitePress 与 Vue 3 构建静态页面，文档采用 Markdown 编写，利用自定义插件自动生成目录与侧边栏。项目使用 TypeScript 编写核心脚本，保证类型安全与可维护性，并通过 GitHub Actions 自动化部署至 GitHub Pages，配合 CDN 实现全球高速访问。
+- [datawhalechina/vibe-vibe](https://github.com/datawhalechina/vibe-vibe) ★5611 [`agent`] [`agentic-ai`] [`ai`] [`coding-assistant`] [`programming`] [`vibe-coding`] [`vibecoding`]  
+  Vibe-vibe是一套基于VIBE模型的中文实现，专门用于从视频序列中恢复3D人体骨骼与网格。核心利用PyTorch + OpenCV做帧提取、单视角关节定位，经过DLFrame+SMPL自监督训练后得到高精度姿态估计。项目提供inference.py、train.py、config.yaml等模块，支持多GPU、推理加速及可视化。用户可通过VibeRunner轻松将视频输入，获得标注后的3D关节坐标及可直接渲染的SMPL网格，适合动画、AR/VR以及动作研究。
+- [crazy-max/docker-jetbrains-license-server](https://github.com/crazy-max/docker-jetbrains-license-server) ★1721 [`alpine-linux`] [`docker`] [`jetbrains`] [`license-server`]  
+  该项目提供一个Docker镜像，用于运行JetBrains许可服务器。它简化了在Docker环境中部署和管理许可服务器的过程，方便开发者在容器化环境中使用JetBrains IDE。镜像使用Node.js构建，并包含了必要的配置和启动脚本，确保快速部署和运行。该镜像支持JetBrains所有产品，并提供灵活的配置选项，例如自定义端口和数据目录。
+- [RICwang/docker-wechat](https://github.com/RICwang/docker-wechat) ★971  
+  这是一个基于Docker的微信公众号机器人项目。它使用Python编写，并利用微信官方API实现自动回复功能。项目包含了容器化部署脚本，方便用户快速搭建和运行机器人。主要功能包括文本、图片、链接等消息的自动回复，以及自定义的事件处理。该项目旨在提供一个简单易用的微信公众号机器人解决方案，并支持扩展自定义功能。
+
+## EJS
+
+- [Fechin/reference](https://github.com/Fechin/reference) ★10640 [`awk`] [`bash`] [`chatgpt`] [`cheatsheet`] [`cheatsheets`] [`css`] [`golang`] [`grep`] [`markdown`] [`python`] [`reference`] [`sed`] [`snippets`] [`vim`]  
+  这是一个用于快速生成参考文档的工具。它使用 Python 和 Markdown 解析器，可以从代码注释中提取信息，并自动生成 API 文档、函数说明等。用户只需在代码中添加规范的注释，即可轻松获得清晰易懂的参考文档，提高代码可维护性。  该项目包含一个命令行工具，方便用户集成到开发流程中。
+
+## GLSL
+
+- [Richasy/Bili.Copilot](https://github.com/Richasy/Bili.Copilot) ★5225 [`bilibili`] [`windows-app-sdk`] [`winui3`]  
+  这是一个基于Python和PyQt5的B站视频自动下载工具。它支持批量下载视频和音频，并提供多种下载模式（例如高清、标清）。该项目利用 `requests` 库进行网络请求， `ffmpeg` 库进行视频格式转换，并通过 `PyQt5` 提供友好的图形用户界面，方便用户操作。  核心功能是高效、便捷地下载B站视频，并可自定义下载选项。
+
+## Go
+
+- [fatedier/frp](https://github.com/fatedier/frp) ★107670 [`expose`] [`firewall`] [`frp`] [`go`] [`http-proxy`] [`nat`] [`p2p`] [`proxy`] [`reverse-proxy`] [`tunnel`]  
+  frp是一个高性能的反向代理应用，用于内网穿透。它支持多种协议，如HTTP、TCP、UDP等。用户可以通过简单的配置将内网服务暴露到公网。frp使用Go语言开发，并基于高性能的网络库，实现了低延迟和高吞吐量。项目包含了客户端和服务端，并提供了多种部署方式，方便用户快速搭建和使用。
+- [syncthing/syncthing](https://github.com/syncthing/syncthing) ★85936 [`go`] [`p2p`] [`peer-to-peer`] [`synchronization`]  
+  Syncthing是一个开源的、分布式的文件同步工具。它允许用户在多台设备之间同步文件和文件夹，无需中央服务器。Syncthing使用基于Merkle树的协议进行高效的文件传输和同步，并支持多种平台。该项目主要使用Go语言开发，并包含一个功能强大的命令行界面和图形用户界面。其核心功能是实现跨平台的可靠文件同步，并保证数据完整性。
+- [junegunn/fzf](https://github.com/junegunn/fzf) ★81328 [`bash`] [`cli`] [`fish`] [`fzf`] [`go`] [`neovim`] [`tmux`] [`unix`] [`vim`] [`zsh`]  
+  fzf是一款快速、强大的命令行过滤工具。它利用模糊匹配算法，允许用户快速浏览和筛选长列表中的项目。用户可以通过输入关键词进行模糊搜索，并通过按键导航选择结果。fzf支持多种配置选项和插件，可以高度定制化。它主要使用C语言编写，并利用ncurses库进行终端交互。其核心功能是提供高效的命令行过滤机制，提升终端工具的可用性。
+- [minio/minio](https://github.com/minio/minio) ★61237 [`amazon-s3`] [`cloud`] [`cloudnative`] [`cloudstorage`] [`go`] [`k8s`] [`kubernetes`] [`multi-cloud`] [`multi-cloud-kubernetes`] [`objectstorage`] [`s3`] [`storage`]  
+  MinIO是一个开源的、高性能、功能丰富的对象存储服务，兼容Amazon S3 API。它用Go语言编写，并使用多种技术来保证高可用性和可靠性。MinIO支持多种存储类型，包括本地、云端等，可以轻松地将数据存储到不同位置。该项目提供了一个易于使用的API，方便用户进行数据存储和检索操作，并支持多种客户端库和工具。
+- [usememos/memos](https://github.com/usememos/memos) ★61171 [`docker`] [`foss`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`own-your-data`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
+  这是一个用于创建和管理备忘录的应用程序。用户可以创建不同类型的备忘录（文本、待办事项、日程安排等），并设置提醒和标签进行组织。该应用使用React作为前端框架，并基于Node.js和Express.js搭建后端，利用MongoDB存储数据。  核心功能包括备忘录的创建、编辑、删除、搜索和分类。  用户可以通过Web界面访问和管理所有备忘录。
+- [FiloSottile/mkcert](https://github.com/FiloSottile/mkcert) ★59209 [`certificates`] [`chrome`] [`firefox`] [`https`] [`ios`] [`linux`] [`local-development`] [`localhost`] [`macos`] [`root-ca`] [`tls`] [`windows`]  
+  mkcert是一个用于生成本地TLS证书的工具。它允许开发人员在无需访问证书颁发机构的情况下，快速创建有效的TLS证书。该工具使用Go语言开发，并利用了crypto/x509和crypto/rand等标准库。  mkcert生成的证书用于测试和开发环境，无需配置复杂的证书颁发流程，极大地简化了本地HTTPS服务器的搭建。
+- [rclone/rclone](https://github.com/rclone/rclone) ★58089 [`azure-blob`] [`azure-blob-storage`] [`azure-files`] [`backblaze-b2`] [`cloud-storage`] [`dropbox`] [`encryption`] [`ftp`] [`fuse-filesystem`] [`go`] [`golang`] [`google-cloud-storage`] [`google-drive`] [`onedrive`] [`openstack-swift`] [`rclone`] [`s3`] [`sftp`] [`sync`] [`webdav`]  
+  rclone是一个命令行工具，用于在各种云存储服务（如Dropbox、Google Drive、Amazon S3）之间复制和同步文件。它支持多种协议，并提供强大的功能，例如跨平台支持、高级同步策略、自定义元数据等。该工具使用Go语言编写，并使用多线程和缓存技术来提高性能。rclone的核心功能是文件复制、同步和管理，为用户提供便捷的云存储管理方式。
+- [go-gitea/gitea](https://github.com/go-gitea/gitea) ★56611 [`bitbucket`] [`cicd`] [`devops`] [`docker-registry-v2`] [`git`] [`git-gui`] [`git-lfs`] [`git-server`] [`gitea`] [`github`] [`github-actions`] [`gitlab`] [`go`] [`golang`] [`hacktoberfest`] [`maven-server`] [`npm-registry`] [`self-hosted`] [`typescript`] [`vue`]  
+  Gitea是一个自托管的Git服务，类似于GitHub。它允许用户创建、管理仓库、进行代码协作，并提供Web界面进行交互。Gitea使用Go语言开发，基于beego框架，并包含一个用于数据库交互的模块。项目包含用户管理、仓库管理、代码托管、issue跟踪等功能。
+- [AlistGo/alist](https://github.com/AlistGo/alist) ★49765 [`file-server`] [`gin`] [`golang`] [`onedrive`] [`solidjs`] [`webdav`]  
+  这是一个基于 Python 和 Flask 框架的个人文件管理工具，类似于 Dropbox 或 Google Drive。它允许用户上传、下载、同步和管理本地文件。项目使用 SQLite 数据库存储文件元数据，并提供 Web 界面进行操作。  用户可以通过 API 接口或 Web 界面访问和管理文件。  核心功能包括文件上传、下载、搜索、以及文件夹管理。  该项目旨在提供一个易于使用且功能强大的个人文件同步解决方案。
+- [gogs/gogs](https://github.com/gogs/gogs) ★47637 [`docker`] [`git`] [`go`] [`gogs`] [`mysql`] [`postgresql`] [`raspberry-pi`] [`self-hosted`] [`source-code-management`] [`sqlite3`] [`version-control`]  
+  Gogs是一个自托管的Git服务，类似于GitHub和GitLab。它使用Go语言开发，基于Web框架Gin。用户可以通过Web界面管理仓库、提交代码、查看提交历史等。Gogs支持多种身份验证方式，并提供丰富的配置选项，以满足不同用户的需求。它易于安装和使用，并提供良好的性能。
+
+[查看更多 Go 仓库 →](dist/2026070100/LANG_Go.md)
+
+## Haskell
+
+- [jgm/pandoc](https://github.com/jgm/pandoc) ★45139 [`commonmark`] [`converter`] [`document`] [`haskell`] [`markdown`] [`markup`] [`pandoc`] [`presentation`] [`publishing`]  
+  这是一个使用Python编写的Pandoc命令行工具的包装器，方便用户在不同文档格式之间进行转换。它提供了一个更易于使用和定制的接口，支持多种文档格式，例如Markdown、LaTeX、HTML等。项目使用Python标准库以及一些第三方库进行构建，并提供清晰的文档说明和示例。  核心功能是简化Pandoc的调用，允许用户通过Python脚本或命令行快速完成文档格式转换。
+
+## HTML
+
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★127202 [`awesome-list`] [`free-for-developers`]  
+  这是一个免费的开发人员工具集合，涵盖了各种实用功能，例如代码格式化、代码分析、文档生成等。该工具包主要使用 Python 语言开发，并利用了多种开源库，例如 `black` 用于代码格式化，`flake8` 用于代码风格检查。 项目旨在为开发者提供一个便捷的工具集，帮助提升开发效率和代码质量。
+- [vernesong/OpenClash](https://github.com/vernesong/OpenClash) ★26473 [`clash`] [`luci`] [`mihomo`] [`openclash`] [`openwrt`] [`shadowsocks`] [`snell`] [`v2ray`] [`vmess`]  
+  OpenClash 是一个基于 Go 语言编写的 Clash 插件，提供对多种 Clash 规则的自动化管理和配置。它使用 YAML 格式的配置文件来定义规则，并支持多种规则引擎，方便用户快速配置和切换不同的规则策略。该项目旨在简化 Clash 的使用，并提高规则管理的效率。 通过灵活的配置，用户可以轻松管理代理规则，适应不同的网络环境和需求。
+- [uikit/uikit](https://github.com/uikit/uikit) ★18532  
+  这是一个用于构建用户界面的跨平台UI组件库。它提供了一系列可定制的组件，例如按钮、文本框、列表等，支持iOS和Android平台。该库使用原生代码实现，并基于React Native框架，确保了高性能和良好的跨平台兼容性。  项目包含详细的文档和示例代码，方便开发者快速上手并集成到自己的应用中。
+- [liu673cn/bug](https://github.com/liu673cn/bug) ★10376  
+  这是一个用于发现和报告软件缺陷的工具。它使用Python和Selenium框架，通过自动化测试来识别潜在的bug。该工具主要由测试用例管理模块、测试执行模块和缺陷报告模块构成。它可以帮助测试人员更有效地发现并记录软件缺陷，提高测试效率和质量。
+- [Lerist/FakeLocation](https://github.com/Lerist/FakeLocation) ★7152  
+  该项目提供一个简单的Android应用程序，用于模拟GPS位置。用户可以自定义经纬度坐标，并让应用报告这些坐标作为当前位置。它使用Android Location API来更新设备位置信息，并通过简单的UI来配置模拟位置。主要使用Kotlin语言开发，并基于Android Jetpack Compose构建用户界面。
+- [vbskycn/iptv](https://github.com/vbskycn/iptv) ★6909  
+  这是一个用于构建 IPTV 客户端的项目。它提供流畅的视频播放功能，并支持多种视频格式。该项目使用 Python 作为主要开发语言，并基于 `PyQt` 构建用户界面，利用 `ffmpeg` 库进行视频解码和播放。核心功能包括频道列表管理、视频播放控制和自定义设置。用户可以通过该软件轻松访问各种 IPTV 频道。
+- [CaiJimmy/hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) ★6424 [`bloggers`] [`hugo`] [`hugo-theme`] [`theme`]  
+  Hugo-theme-Stack是一个基于Hugo的主题，提供现代化、响应式且易于定制的网站模板。它专注于简洁的导航和可读性强的页面布局，适合个人博客、文档站点和项目展示。主题使用HTML、CSS和Go语言构建，并包含预设的布局和组件，方便快速搭建网站。用户可以通过配置轻松调整主题外观和功能。
+- [yuantuo666/baiduwp-php](https://github.com/yuantuo666/baiduwp-php) ★6383 [`baidunetdisk`] [`baiduyun`] [`php`]  
+  百度文库PHP爬虫，用于批量下载百度文库文档。该项目使用PHP语言开发，主要模块包括请求库、文档解析和下载功能。爬虫通过模拟浏览器请求获取文档链接，并解析文档内容，最终将文档保存到本地。项目支持多线程下载，提高下载效率。  代码结构清晰，易于维护和扩展。
+- [webmin/webmin](https://github.com/webmin/webmin) ★5936  
+  Webmin 是一款基于 Web 的系统管理工具，支持通过浏览器对 Unix/Linux 系统进行全方位配置。它提供图形化界面来管理用户、组、磁盘、网络、服务、权限、应用程序、定时作业等。核心采用 Perl 编写，利用 CGI 与 SysV/Bash 脚本交互；模块化设计允许通过插件添加新功能。灵活的权限控制和多语言支持，使其可用于服务器管理、虚拟主机、容器环境。Webmin 通过标准化 API 将命令行工具抽象为统一的 Web 表单，简化系统运维流程，无需 SSH 或命令行。
+- [aoaostar/legado](https://github.com/aoaostar/legado) ★5544 [`legado`] [`legado3`]  
+  该项目是一个基于Python和Flask框架的Web应用程序，用于管理和展示遗产数据。它允许用户上传、组织和检索不同类型的遗产信息，例如文物、历史建筑和文化遗产。该应用程序使用数据库（例如PostgreSQL）存储数据，并提供用户友好的界面，方便用户浏览和查询。  核心功能包括数据上传、分类、搜索和展示，以及用户权限管理。
+
+[查看更多 HTML 仓库 →](dist/2026070100/LANG_HTML.md)
+
+## Java
+
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128029 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
+  实现常见算法与数据结构的示例集合，涵盖排序（快速、归并、堆排）、查找（二分、哈希）、图算法（DFS、BFS、最短路）以及基本数据结构（链表、栈、队列、二叉树）等实践代码。项目采用 C++11 编写，使用 Google Test 进行单元测试，目录结构按功能模块划分，每个子目录包含源码、说明文档及对应的测试用例，配备 CMake 构建文件便于跨平台编译。通过统一的接口模板展示算法调用方式，适合作为学习参考或面试准备的代码库。
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★85361 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
+  这是一个用于创建和操作PDF文档的Python库。它提供了一套易于使用的API，允许开发者便捷地生成包含各种元素（文本、图像、表格等）的PDF文件。该库基于ReportLab，使用Python语言实现。核心功能包括页面布局控制、文本格式化、图像嵌入和表格生成。开发者可以通过简单的代码调用完成PDF文档的创建和编辑，无需繁琐的底层操作。
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) ★70299 [`disassembler`] [`reverse-engineering`] [`software-analysis`]  
+  Ghidra 是 NSA 开源的逆向分析平台，提供二进制导入、函数识别、交叉引用、数据流分析和高级反编译等完整工作流。核心采用 Java 实现跨平台 UI（基于 SWT），配合 C++ 编写的高性能 decompiler，支持 x86、ARM、MIPS 等百余种处理器架构。项目结构划分为分析引擎、插件框架和脚本环境，用户可使用 Python、Java 或 Jython 编写自定义插件，快速扩展功能。通过统一的项目数据库管理文件、符号和分析结果，实现协同审计和批量处理，适用于漏洞研究、恶意软件检测和软件兼容性验证等场景。
+- [termux/termux-app](https://github.com/termux/termux-app) ★57042 [`android`] [`hacktoberfest`] [`linux`] [`terminal`] [`termux`]  
+  Termux-app是一个Android平台下的终端模拟器，允许用户在Android设备上运行Linux命令行工具和应用程序。它使用纯Android开发，提供类似于Linux系统的命令行环境，支持各种shell命令、软件包管理和编程工具。  用户可以通过安装软件包来扩展功能，例如编译器、数据库管理工具等。  该项目主要由C++代码和一些Shell脚本构成，并利用Android系统的API进行交互。
+- [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) ★50787 [`ai`] [`database`] [`databricks`] [`db2`] [`dbeaver`] [`erd`] [`gui`] [`java`] [`jdbc`] [`mysql`] [`nosql`] [`oracle`] [`postgresql`] [`redshift`] [`snowflake`] [`sql`] [`sqlite`] [`sqlserver`]  
+  DBeaver是一个开源的数据库工具，用于连接和管理各种数据库。它支持多种数据库系统，包括MySQL、PostgreSQL、Oracle、SQL Server等。DBeaver使用Java语言开发，基于Eclipse RCP框架，提供图形化界面，方便用户进行数据库查询、编辑、管理等操作。该工具支持SQL编辑器、数据浏览、数据导出导入等功能，并提供连接池和事务管理等高级特性，提高了数据库开发和管理的效率。
+- [skylot/jadx](https://github.com/skylot/jadx) ★49248 [`android`] [`decompiler`] [`dex`] [`java`]  
+  Jadx 是一个用于反编译 Android 应用的工具。它可以将 .dex 文件转换为 Java 源代码，并保留尽可能多的原始代码结构和注释。该工具使用 Java 语言开发，并基于 ANTLR 框架实现语法分析。Jadx 的核心功能包括反编译 .dex 文件、处理各种 Android 编程语言特性、并支持自定义配置。 通过 Jadx，开发者能够更方便地分析和理解 Android 应用的代码。
+- [halo-dev/halo](https://github.com/halo-dev/halo) ★39178 [`blog`] [`blog-engine`] [`cms`] [`content-management-system`] [`halo`] [`halocms`] [`website-builder`]  
+  Halo是一个用于构建和部署基于微服务的应用程序的开源平台。它采用Go语言开发，并利用Kubernetes进行容器化部署和管理。核心功能包括服务注册、发现、负载均衡、监控和配置管理。Halo旨在简化微服务架构的开发和运维，并提供可扩展性和可靠性。
+- [zxing/zxing](https://github.com/zxing/zxing) ★33999 [`android`] [`barcode`] [`barcode-scanner`] [`datamatrix`] [`java`] [`qr-code`] [`upc`] [`zxing`]  
+  ZXing是一个开源的二维条码（QR码、条形码等）扫描和生成库。它支持多种条码格式，并提供多种语言的实现。该库使用Java语言开发，并基于Apache License 2.0开源协议。  ZXing的核心功能包括解码和编码各种二维条码，可以轻松集成到应用程序中。  它主要由解码器、编码器和图像处理模块组成，提供灵活的配置选项，以满足不同应用场景的需求。
+- [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ★29446 [`telegram`]  
+  该项目是一个用于在Telegram上创建和管理聊天机器人的Python库。它提供简便的API接口，允许开发者快速创建具有各种功能的机器人，例如自动回复、信息转发、用户管理等。核心功能包括机器人命令处理、消息事件监听和API交互。项目使用Python语言开发，基于Telethon库，并提供清晰的文档和示例代码，方便用户上手和定制。
+- [proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down) ★24714  
+  Proxyee-down是一个用于下载代理服务器背后资源的工具。它支持多种协议（例如HTTP、HTTPS、Socks5），能够绕过一些网站的访问限制。该工具使用Python编写，基于requests库进行网络请求，并使用tqdm库显示下载进度。核心功能包括代理设置、下载链接提取和文件保存。通过简单的命令行参数配置，用户可以轻松下载各种资源。
+
+[查看更多 Java 仓库 →](dist/2026070100/LANG_Java.md)
+
+## JavaScript
+
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★88600 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
+  Uptime Kuma是一个开源的、基于Go语言的监控工具，用于监视服务和应用程序的运行状况。它提供直观的仪表盘，显示服务状态、响应时间和错误率等关键指标。该工具使用Prometheus收集指标，并通过Grafana进行可视化。  它支持多种服务协议（如HTTP、TCP）的监控，并允许自定义监控规则。  通过简洁的界面和强大的功能，Uptime Kuma 帮助用户快速定位和解决服务故障。
+- [mozilla/pdf.js](https://github.com/mozilla/pdf.js) ★53514  
+  pdf.js 是一个开源项目，用于在浏览器中显示 PDF 文件。它使用 JavaScript 实现，并利用 HTML5 canvas 和 WebGL 渲染 PDF 内容。  该项目提供了一个独立的 PDF 阅读器，支持多种 PDF 功能，例如页面缩放、旋转、搜索、书签等。  核心技术包括 PDF 文档解析、页面布局、图像渲染和交互逻辑，目标是为用户提供流畅且可靠的 PDF 阅读体验。
+- [agalwood/Motrix](https://github.com/agalwood/Motrix) ★52146 [`aria2`] [`bittorrent`] [`bt`] [`download`] [`download-manager`] [`electron`] [`linux`] [`mac`] [`macos`] [`magnet`] [`motrix`] [`torrent`] [`windows`]  
+  Motrix是一个多线程下载管理器，支持多种协议（HTTP、HTTPS、FTP、磁力链等），并提供断点续传、多线程下载、代理服务器等功能。它使用C++编写，基于Qt框架，并采用多线程架构进行下载，以提升下载速度和稳定性。  项目提供图形用户界面，方便用户管理下载任务和设置下载参数。
+- [LeCoupa/awesome-cheatsheets](https://github.com/LeCoupa/awesome-cheatsheets) ★46117 [`backend`] [`bash`] [`cheatsheet`] [`cheatsheets`] [`database`] [`django`] [`docker`] [`feathersjs`] [`frontend`] [`javascript`] [`kubernetes`] [`language`] [`nodejs`] [`php`] [`programming-language`] [`redis`] [`sailsjs`] [`vim`] [`vuejs`] [`xcode`]  
+  这是一个汇集了各种编程语言、工具和框架的速查表合集。该项目使用 GitHub Pages 部署，以静态网页的形式呈现。  用户可以通过搜索或浏览不同的类别快速找到所需信息。  项目主要由 HTML、CSS 和 JavaScript 构建，内容来自不同的开源资源，并经过整理和归类，方便开发者查阅。
+- [NaiboWang/EasySpider](https://github.com/NaiboWang/EasySpider) ★44165 [`batch-processing`] [`batch-script`] [`code-free`] [`crawler`] [`data-collection`] [`frontend`] [`gui`] [`html`] [`input-parameters`] [`layman`] [`parameters`] [`robotics`] [`rpa`] [`scraper`] [`spider`] [`visual`] [`visualization`] [`visualprogramming`] [`web`] [`www`]  
+  EasySpider是一个轻量级的Python爬虫框架，旨在简化爬虫开发流程。它基于Scrapy框架，使用Python 3开发，并提供易于使用的API和配置选项。核心功能包括灵活的URL抓取、数据提取和持久化，支持多种数据存储方式（如CSV、JSON）。该框架提供强大的中间件机制，方便用户定制爬取规则和处理特殊情况。  通过简洁的代码结构和清晰的文档，EasySpider致力于提高爬虫开发效率，降低学习门槛。
+- [markedjs/marked](https://github.com/markedjs/marked) ★36943 [`commonmark`] [`compiler`] [`gfm`] [`hacktoberfest`] [`markdown`] [`parser`]  
+  这是一个用于渲染Markdown文本的JavaScript库。它使用简单的语法解析Markdown文档，并将其转换为HTML。该库使用纯JavaScript编写，无需依赖任何外部库。核心功能包括支持常见的Markdown语法，如标题、列表、链接、代码块等。它速度快且易于使用，适合在各种Web应用中嵌入Markdown渲染功能。
+- [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ★35379 [`api`] [`api-gateway`] [`azure-openai-api`] [`chatgpt`] [`claude`] [`ernie-bot`] [`gemini`] [`gpt`] [`openai`] [`openai-api`] [`proxy`]  
+  这是一个基于Python Flask框架的API接口，提供常用的数据处理和转换功能。  主要功能包括数据清洗、格式转换、API调用封装和结果展示。  项目使用Python语言开发，采用RESTful API设计，并整合了JSON数据处理模块。  代码结构清晰，易于扩展和维护，可用于快速构建数据处理服务。
+- [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) ★34482 [`redis`] [`redis-client`] [`redis-cluster`] [`redis-desktop-manager`] [`redis-gui`]  
+  AnotherRedisDesktopManager 是一个用于管理 Redis 数据库的桌面应用程序。它提供直观的界面，方便用户浏览、操作 Redis 数据，包括键值对、列表、集合等多种数据结构。该应用使用 C# 和 WPF 框架开发，并包含连接池和连接复用机制，以提升连接效率和稳定性。  项目包含强大的数据导出和导入功能，以及可定制的连接配置，满足不同用户的需求。
+- [docsifyjs/docsify](https://github.com/docsifyjs/docsify) ★31311 [`doc`] [`docs`] [`docsify`] [`documentation`] [`documentation-tool`] [`github-pages`] [`markdown`] [`vue`]  
+  Docsify是一个易于使用的静态站点生成器，用于创建和维护文档。它使用简单的Markdown语法，并提供丰富的主题和插件，方便用户快速构建清晰简洁的文档站点。Docsify主要使用JavaScript编写，并基于Vue.js框架，提供直观的界面和强大的自定义能力。核心功能包括Markdown文档渲染、站点导航生成和部署。用户无需服务器即可在本地或GitHub Pages上轻松部署文档。
+- [parallax/jsPDF](https://github.com/parallax/jsPDF) ★31243 [`hacktoberfest`]  
+  jsPDF是一个用于在浏览器端生成PDF文档的JavaScript库。它允许开发者将HTML内容、图像和文本转换为PDF格式，并通过API控制PDF文档的布局和样式。该库使用纯JavaScript编写，无需服务器端处理，可直接在网页上生成PDF。  主要功能包括添加文本、图像、表格以及自定义页面布局。  开发者可以通过简单的API调用来实现PDF文档创建。
+
+[查看更多 JavaScript 仓库 →](dist/2026070100/LANG_JavaScript.md)
+
+## Jupyter Notebook
+
+- [xianhu/LearnPython](https://github.com/xianhu/LearnPython) ★8492 [`learning-python`] [`python`] [`python-flask`] [`python-requests`]  
+  这是一个Python学习资源库，包含了从入门到进阶的各种Python学习材料。资源涵盖基础语法、数据结构、常用库（如NumPy、Pandas、Matplotlib）以及项目实战。学习材料以Jupyter Notebook形式呈现，方便用户运行和学习。项目使用Python语言编写，并整合了GitHub Pages进行网页展示。
+
+## Just
+
+- [gaoyifan/china-operator-ip](https://github.com/gaoyifan/china-operator-ip) ★3550 [`asn`] [`bgp`] [`daily`] [`ip`] [`ipv6`] [`operator`]  
+  这是一个用于快速获取中国境内运营商IP地址的工具。它基于Python开发，利用 `requests` 库和 `IP2Region` 库实现。  该工具可以根据用户输入的省份或城市，返回对应的运营商IP地址段。  主要功能包括：IP地址查询、运营商信息获取，并提供命令行界面 (CLI) 操作。  代码简洁易用，方便用户快速获取所需信息。
+
+## Kotlin
+
+- [topjohnwu/Magisk](https://github.com/topjohnwu/Magisk) ★61432  
+  Magisk 是一个 Android 系统模块框架，允许用户在不修改系统的情况下安装和管理模块。它使用 C++ 和 Java 编写，并利用 Android 系统的模块化特性。Magisk 通过修改系统引导加载器并插入自定义模块来实现其功能。用户可以使用 Magisk 安装各种模块，例如增强性能、添加功能或修改系统行为。
+- [2dust/v2rayNG](https://github.com/2dust/v2rayNG) ★58868 [`android`] [`proxy`] [`shadowsocks`] [`socks5`] [`trojan`] [`v2fly`] [`v2ray`] [`vless`] [`vmess`] [`vpn`] [`xray`] [`xtls`]  
+  v2rayNG 是一个基于 v2ray 的轻量级客户端，提供快速、稳定且易于使用的 VPN 连接。它使用 Go 语言开发，并整合了简洁的用户界面。  项目核心功能包括：多种协议选择、自定义配置、便捷的连接管理和日志记录。  用户无需复杂配置，即可轻松连接到不同的服务器，并获得安全可靠的网络访问。
+- [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) ★48410 [`brook`] [`daze`] [`fanqiang`] [`goflyway`] [`lightsocks`] [`proxy`] [`psiphon`] [`shadowsocks`] [`ssr`] [`trojan`] [`v2ray`]  
+  这是一个用于科学上网的翻墙工具，提供多种连接方式，支持多种操作系统。它使用Go语言开发，核心模块包括代理服务器和连接管理，并整合了多种开源库。该项目旨在为用户提供快速、稳定、便捷的网络访问方式，绕过地区限制。
+- [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) ★42199  
+  ClashMetaForAndroid 是一个用于 Android 设备的 Clash 客户端增强工具。它提供自定义规则配置、代理选择和连接状态监控等功能，提升 Clash 使用体验。该项目使用 Kotlin 语言和 Jetpack Compose 框架开发，核心模块包括规则解析、代理选择器和 UI 组件。用户可以通过该应用自定义 Clash 的规则，并监控代理连接状态，从而更好地管理和使用 Clash。
+- [gkd-kit/gkd](https://github.com/gkd-kit/gkd) ★39903 [`accessibility`] [`android`] [`auto`] [`click`] [`compose`] [`jetpack-compose`] [`kotlin`] [`kotlin-js`] [`kotlin-multiplatform`] [`webassembly`]  
+  这是一个用于快速构建和部署Go语言微服务的工具包。它提供了一套预定义的组件，例如数据库访问、日志记录和API网关，帮助开发者简化微服务开发流程。该工具包主要使用Go语言和Gin框架构建，包含了数据库交互模块、日志记录模块和HTTP API路由定义。通过配置即可快速生成基本的微服务结构，提高开发效率。
+- [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) ★26949  
+  Shizuku是一个rootless的Android系统权限管理工具，允许用户在不root的情况下控制Android应用的权限。它通过代理机制，在不修改系统的情况下，动态调整应用访问权限。该项目使用Java和Kotlin开发，核心是代理框架，并结合一些系统API来实现权限管理功能。  它能够以安全可靠的方式增强Android应用的权限控制，并为开发者提供更灵活的应用开发方式。
+- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ★26804 [`android`] [`api`] [`app`] [`bark`] [`call`] [`chatgpt`] [`dingding`] [`forward`] [`mqtt`] [`pushdear`] [`pushplus`] [`serverchan`] [`sms`] [`smtp`] [`telegram`] [`webhook`] [`wechatapp`]  
+  这是一个基于Python的短信转发器，用于接收并转发短信。它使用Twilio API发送短信，并支持自定义转发规则和多账户管理。项目使用Python和Flask框架构建，核心模块包括短信接收、规则匹配和Twilio API集成。该工具适用于需要将短信转发到不同平台或用户的场景，例如短信营销、客服系统等。
+- [mihonapp/mihon](https://github.com/mihonapp/mihon) ★21726 [`android`] [`kotlin`] [`manga`] [`manga-downloader`] [`manga-reader`] [`mangadownloader`] [`mangareader`] [`tachiyomi`] [`tachiyomi-alternative`]  
+  这是一个用于构建和管理微服务应用程序的工具。它使用 Go 语言开发，并基于 Kubernetes 集群运行。  核心功能是自动化的服务部署和管理，包括服务发现、负载均衡和监控。 通过声明式配置，开发者可以轻松定义服务及其依赖关系，无需手动配置复杂的网络和部署流程。  项目包含一个 CLI 工具，方便用户交互式地创建、运行和管理微服务。
+- [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) ★21609 [`android`] [`gfw`] [`proxy`] [`shadowsocks`] [`sing-box`] [`trojan`] [`vmess`] [`vpn`]  
+  NekoBoxForAndroid 是一个安卓平台的猫咪图片展示应用。它使用 Kotlin 语言和 Jetpack Compose 框架构建，提供丰富的猫咪图片，并支持本地缓存和离线浏览。用户可以通过搜索、分类等方式快速找到心仪的猫咪图片。  该应用的核心功能是高效加载和展示大量猫咪图片，并提供用户友好的界面。
+- [open-ani/animeko](https://github.com/open-ani/animeko) ★18616 [`android`] [`ani`] [`anime`] [`bangumi`] [`bittorrent`] [`bt`] [`compose`] [`compose-multiplatform`] [`danmaku`] [`ios`] [`jetpack-compose`] [`kotlin`] [`kotlin-multiplatform`] [`linux`] [`macos`] [`player`] [`torrent`] [`video`] [`windows`]  
+  Animeko是一个用于动漫角色识别和分类的Python项目。它使用深度学习模型（例如ResNet）和预训练权重，从图像中识别动漫角色。项目核心功能包括图像加载、预处理、模型加载及推断，并提供识别结果。主要使用Python和TensorFlow/Keras框架，利用预训练模型进行快速部署，并提供清晰的API接口。
+
+[查看更多 Kotlin 仓库 →](dist/2026070100/LANG_Kotlin.md)
+
+## Less
+
+- [F-loat/ChineseBQB-weapp](https://github.com/F-loat/ChineseBQB-weapp) ★96 [`bqb`] [`emoji`] [`emoticon`] [`meme`] [`miniapp`] [`sticker`] [`taro`]  
+  这是一个基于微信小程序的烧烤点餐系统。用户可以通过小程序选择菜品并下单，商家可以实时查看订单和管理库存。系统使用微信小程序开发框架，结合云数据库进行数据存储和管理，并使用自定义组件优化用户体验。  主要功能包括菜品浏览、下单、支付、订单管理和库存管理等。
+
+## Lua
+
+- [Kong/kong](https://github.com/Kong/kong) ★43701 [`ai`] [`ai-gateway`] [`api-gateway`] [`api-management`] [`apis`] [`artificial-intelligence`] [`cloud-native`] [`devops`] [`kubernetes`] [`kubernetes-ingress`] [`kubernetes-ingress-controller`] [`llm-gateway`] [`llm-ops`] [`mcp`] [`mcp-gateway`] [`microservice`] [`microservices`] [`openai-proxy`] [`reverse-proxy`] [`serverless`]  
+  Kong 是一个开源的 API 网关，用于管理和保护微服务 API。它支持各种功能，例如路由、负载均衡、身份验证、限流和监控。Kong 使用 Go 语言开发，并基于 Nginx 和 ETCD 等组件。项目提供 RESTful API 接口进行配置和管理，并支持多种插件扩展。
+- [nagadomi/waifu2x](https://github.com/nagadomi/waifu2x) ★28200 [`super-resolution`] [`torch`] [`waifu2x`]  
+  这是一个用于图像超分辨率的开源项目。它使用深度学习技术，通过训练模型来提高图像分辨率。该项目主要用Python编写，并基于PyTorch框架，包含预训练模型和用于图像处理的脚本。用户可以利用提供的模型对低分辨率图像进行上采样，使其达到更高清晰度。该项目旨在提供一种简单易用且高效的图像超分辨率解决方案，并支持多种输入图像格式。
+- [iDvel/rime-ice](https://github.com/iDvel/rime-ice) ★18114 [`rime`] [`rime-config`] [`rime-custom`] [`rime-schema`] [`rime-squirrel`] [`rime-weasel`]  
+  这是一个基于Rime输入法的冰岛语输入方案。它提供准确的冰岛语字符输入，支持各种冰岛语字母组合和特殊字符。该方案使用Python编写，并利用Rime的规则引擎实现。项目包含详细的配置说明，方便用户快速上手并自定义输入习惯。
+- [amzxyz/rime-wanxiang](https://github.com/amzxyz/rime-wanxiang) ★4016 [`dicts`] [`ime`] [`input-method`] [`pinyin`] [`rime`] [`rime-config`] [`rime-settings`] [`rime-wanxiang`] [`schema`] [`wanxiang`]  
+  Rime‑Wanxiang 是一套基于 Rime 输入法引擎的中文词库与配置集合，专门为日常办公与智能排版提供高质量拼音方案。核心功能包括：一键切换多种拼音方案，支持自定义同音字拆分，提供长句自动纠错与词组联想；附带高效词频文件，支持离线增删词条。实现主要使用 Rime 的 YAML 配置语法和 Lua 脚本，整合官方基础词典与自研扩展词表，并在 Windows、macOS 和 Linux 上通过 Rime-Engine 统一调用。通过模块化结构，用户可快速导入/导出自定义配置，轻松维护个性化输入体验。
+- [luarocks/luarocks](https://github.com/luarocks/luarocks) ★3706 [`lua`] [`lua-modules`] [`luajit`] [`luarocks`] [`package-management`] [`package-manager`]  
+  Luarocks是一个用于管理Lua模块的工具。它允许开发者方便地下载、安装、更新和卸载Lua库。Luarocks使用Lua语言编写，并基于LuaRocks数据库管理模块信息。该工具主要通过命令行接口操作，提供易于使用的命令来处理模块依赖关系，确保Lua项目能够顺利运行。
+- [gaboolic/rime-frost](https://github.com/gaboolic/rime-frost) ★3451  
+  Rime‑Frost 为 Rime 输入法提供的全功能方案，实现高效中文输入与简洁键位布局。核心采用 schema.yml 定义词库结构，配合 yaml 格式词表、Lua 过滤脚本，实现双拼、动态候选、智能纠错、emoji 与常用短语联想。兼容 Windows Weasel、macOS Squirrel、Linux fcitx‑rime，支持自定义 short‑code 扩展。技术上使用 Rust 编写的 rime‑engine 进行实时解析，Python 脚本负责词频统计与词表自动更新，模块划分为 MainSchema、Recognizer、Engine、Filter，确保方案可维护、可拓展，适合日常打字与专业写作。
+- [zhihulite/Hydrogen](https://github.com/zhihulite/Hydrogen) ★1739  
+  Hydrogen 是一个以 Go 语言为核心的微服务框架，旨在降低 API 的样板代码。它提供高性能路由匹配、依赖注入、自动 OpenAPI 文档生成以及轻量级中间件支持。框架基于标准库 net/http 结合 gorilla/mux，在路由表构建时利用 go generate 或代码生成工具自动生成路由映射；数据库层集成 GORM，兼容 MySQL、PostgreSQL 等数据库。项目结构清晰，cmd 目录存放可执行入口，pkg 提供核心业务模块，internal 目录封装私有实现。通过命令行工具可一键生成项目骨架，支持热重载，方便快速搭建业务后端。
+
+## Makefile
+
+- [crifan/reverse_debug_frida](https://github.com/crifan/reverse_debug_frida) ★63  
+  该项目提供了一个使用 Frida 的反向调试框架，用于分析和调试 Android 应用。它允许用户在应用运行时通过注入脚本进行操作，例如跟踪函数调用、修改内存、获取变量值等。该框架主要使用 Python 编写，并结合 Frida 的 JavaScript API，以实现高效的反向调试功能。  项目包含了常用的调试脚本示例，便于用户快速上手。
+
+## Markdown
+
+- [jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command) ★36375 [`bash`] [`chrome`] [`chrome-extension`] [`command-line`] [`gh-pages`] [`linux`] [`linux-command`] [`ls`] [`screen`] [`screenshot`] [`search`] [`ssh`] [`tools`] [`web-tools`]  
+  这是一个Linux命令速查手册，以Markdown格式组织，涵盖了常用的Linux命令及其选项。  该项目使用Markdown编写文档，并利用GitHub Pages进行部署，方便用户快速查找和学习Linux命令。  内容包括命令的语法、参数说明以及实际应用示例，便于初学者和有一定经验的用户参考。
+
+## MDX
+
+- [twbs/bootstrap](https://github.com/twbs/bootstrap) ★174409 [`bootstrap`] [`css`] [`css-framework`] [`html`] [`javascript`] [`sass`] [`scss`]  
+  Bootstrap是一个流行的、用于快速开发响应式 Web 应用的开源前端框架。它提供预先设计好的组件、样式和JavaScript插件，帮助开发者创建美观且一致的用户界面。该框架使用HTML、CSS和JavaScript构建，并包含一系列可定制的主题和布局。Bootstrap简化了开发过程，使开发者能够专注于应用逻辑而非样式设计。
+
+## Meson
+
+- [frida/frida](https://github.com/frida/frida) ★21167 [`frida`] [`instrumentation`] [`vala`]  
+  Frida 是跨平台的动态二进制插桩框架，支持 Windows、macOS、Linux、iOS、Android 等。通过在目标进程注入 JavaScript 引擎，用户可以编写脚本拦截、修改函数参数、返回值或监控内存读写，实现逆向分析、调试和安全检测。核心使用 C 实现的 libfrida 与 libffi，实现跨语言调用，提供 Python、Node.js、Swift、Java 等绑定；脚本运行基于 V8/JavaScriptCore。提供进程注入、脚本运行时和 API Hook，支持无重编细粒度控制。
+
+## NaN
+
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★302018 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
+  这是一个收集各种可自托管软件的资源列表。涵盖了从博客和论坛到视频会议和VPN等各种应用。列表按类别组织，便于用户快速找到所需的自托管工具。该项目使用纯文本格式维护，便于轻松更新和浏览。
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) ★276339  
+  该项目是一个关于中国程序员工作强度和压力的匿名吐槽平台。用户可以通过匿名发表帖子，分享工作经历和感受。平台使用简单的文本格式，并支持搜索和过滤功能。该项目主要使用PHP语言开发，并使用数据库存储用户数据和帖子信息。
+- [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ★117212 [`android`] [`angular`] [`books`] [`free`] [`ios`] [`javascript`] [`kotlin`] [`pdf`] [`programming`] [`python`] [`react`] [`react-native`] [`swift`] [`vue`]  
+  这是一个中文编程书籍资源库，收集了大量免费的编程书籍。用户可以通过搜索、分类等方式快速找到需要的书籍。项目使用Python爬取书籍信息，并存储到数据库中，提供简洁的网页界面供用户浏览。  主要技术栈包括Python、Flask框架、数据库（例如SQLite），以及网页前端技术。
+- [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ★100981 [`chinese`] [`cookbook`] [`cooking`] [`dishes`] [`recipes`]  
+  这是一个烹饪食谱网站的开源项目，提供各种菜肴的详细步骤和图片。用户可以通过搜索关键词找到所需的食谱，并查看烹饪步骤、食材清单以及图片指导。项目使用HTML、CSS和JavaScript构建前端，并使用数据库（未指定）存储食谱数据。  该项目旨在为用户提供便捷的烹饪指导和参考。
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★94782  
+  这是一个每周发布的中文技术周刊，涵盖了前端、后端、移动端、数据库、运维等多个技术领域。周刊内容包括精选文章、开源项目、工具资源、会议活动等，旨在帮助开发者快速了解业界最新技术动态。该项目使用Python和Markdown进行构建，并利用RSS订阅和邮件推送功能，确保用户及时获取最新信息。
+- [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) ★91980  
+  DeepSeek-R1 是一个基于深度学习的图像识别项目，旨在快速准确地检测和分类图像中的目标。它使用 PyTorch 框架，并包含一个卷积神经网络 (CNN) 模块，用于从图像中提取特征。该项目利用预训练模型进行特征提取，并通过自定义层进行分类，从而提高识别精度和效率。  最终目标是提供一个易于使用的图像识别工具，适用于各种应用场景，例如物体检测、图像分类等。
+- [PlexPt/awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) ★60811 [`chat-gpt`] [`chatgpt`] [`chatgpt3`] [`chatgpt4`] [`gpt`]  
+  这是一个中文版的 ChatGPT 提示词合集，涵盖了各种应用场景，例如总结文章、撰写代码、创作故事等。  该项目使用 Markdown 格式组织，方便用户查找和使用不同类型的提示词。  用户可以根据自己的需求快速找到并复制合适的提示词，提高 ChatGPT 的使用效率。
+- [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex) ★46086 [`learn-regex`] [`regex`] [`regular-expression`]  
+  这是一个用于学习正则表达式的交互式网页应用。用户可以通过输入文本和正则表达式进行匹配练习，并获得即时反馈。该应用使用 JavaScript 和 HTML 开发，利用正则表达式库进行匹配验证。用户界面清晰易懂，支持多种正则表达式语法。
+- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ★41751 [`chatgpt`] [`llms`] [`pyqt`] [`wechat`]  
+  这是一个基于Python和PyQt5的微信消息管理工具，用于批量下载微信聊天记录。它支持指定时间范围、群聊或私聊筛选，并提供下载选项（文本、图片、语音等）。项目使用PyQuery进行HTML解析，并利用微信网页版API获取数据。程序结构清晰，易于扩展。
+- [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) ★36285 [`angular`] [`bun`] [`csv`] [`data`] [`database`] [`deno`] [`excel`] [`grid`] [`html`] [`html5`] [`ios`] [`javascript`] [`json`] [`nodejs`] [`react`] [`spreadsheet`] [`table`] [`vue`] [`xlsx`] [`xml`]  
+  SheetJS 是一个用于读取、写入和操作各种电子表格格式（包括 xls, xlsx, ods, csv 等）的 JavaScript 库。它支持广泛的电子表格功能，包括单元格格式、公式、图表等。主要使用 JavaScript 语言开发，并基于二进制数据操作。该库提供高效的 API，方便开发者在前端或后端环境中处理电子表格数据。
+
+[查看更多 NaN 仓库 →](dist/2026070100/LANG_NaN.md)
+
+## NSIS
+
+- [bmatzelle/gow](https://github.com/bmatzelle/gow) ★6645  
+  这是一个Go语言编写的命令行工具，用于在本地运行和调试Go语言程序。它提供了便捷的构建、测试和运行功能，并支持多种运行模式，如指定端口、使用配置文件等。该工具主要使用Go语言标准库和一些辅助包，例如用于配置文件解析的`viper`库。它简化了Go程序的本地开发流程，提高了开发效率。
+
+## Objective-C
+
+- [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) ★22608 [`alfred`] [`macos`] [`wechat`] [`wechat-macos`] [`wechat-plugin`] [`weixin-plugin`]  
+  这是一个用于 macOS 的微信扩展程序，旨在提升微信在 Mac 上的使用体验。该扩展程序使用 JavaScript 和 Electron 框架开发，主要功能包括：自定义快捷键、消息预览、文件快速下载等。它通过与微信的原生 API 进行交互，实现对微信功能的增强。用户无需修改微信客户端，即可享受便捷的扩展功能。
+- [opa334/TrollStore](https://github.com/opa334/TrollStore) ★21625  
+  这是一个用于在iOS设备上安装非App Store应用的工具。它利用了系统漏洞，允许用户绕过苹果的应用商店审核机制。该工具主要使用Objective-C语言，并依赖于Cydia Substrate框架。核心功能包括安装、卸载和管理非App Store应用。用户需自行承担使用风险。
+- [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) ★14274 [`alfred-workflow`] [`macos`] [`plugin`] [`tweak`] [`wechat`] [`weixin`]  
+  这是一个macOS平台的微信插件，允许用户在macOS系统上使用微信。它使用Electron框架，基于微信网页版协议，并结合一些本地化UI组件，实现微信网页版功能在macOS上的桌面化运行。  项目主要使用JavaScript和TypeScript进行开发，核心模块包括Electron渲染进程、网络请求处理和UI组件。  该插件旨在提供一个更便捷的macOS微信使用体验。
+- [sequelpro/sequelpro](https://github.com/sequelpro/sequelpro) ★9196 [`macos`] [`mysql`] [`objective-c`] [`sequelpro`]  
+  SequelPro是一个Mac平台上的MySQL数据库管理工具。它提供图形界面，用于连接、浏览、管理和编辑MySQL数据库。用户可以通过SequelPro执行SQL语句、查看数据、备份和恢复数据库，以及管理用户和权限。该工具使用Objective-C和Cocoa框架开发，并整合了MySQL客户端库，以实现高效的数据库交互。
+- [CodeTips/BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS) ★8849  
+  该项目是一个macOS平台的百度网盘插件，利用CodeTips框架实现。用户可在代码编辑器中直接访问百度网盘文件，方便快捷地进行文件操作。插件使用Swift语言开发，主要模块包括文件系统集成和UI交互，支持文件上传、下载和预览等功能。
+- [shadowsocks/shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) ★8137  
+  Shadowsocks-iOS 是一个用于 iOS 设备的 Shadowsocks 代理客户端。它允许用户通过配置 Shadowsocks 服务器连接到 VPN 服务，从而绕过网络限制访问受限内容。该客户端使用 Swift 语言开发，并提供了直观的界面用于配置服务器信息、选择连接协议和管理连接。  用户可以自定义连接参数，如加密方式和端口，以满足不同的安全需求。
+- [Cenmrev/V2RayX](https://github.com/Cenmrev/V2RayX) ★7649  
+  V2RayX 是一个基于 V2Ray 的轻量级跨平台代理工具。它提供易用的图形化界面，方便用户配置和管理不同的 V2Ray 服务器连接。支持多种协议和加密方式，并提供内置的服务器管理功能。项目使用 Electron 框架，结合了 Node.js 和 Vue.js 技术，实现快速便捷的客户端操作体验。
+- [Sequel-Ace/Sequel-Ace](https://github.com/Sequel-Ace/Sequel-Ace) ★7449 [`hacktoberfest`] [`macos`] [`mariadb`] [`mysql`] [`objective-c`] [`sequel`] [`sequelace`] [`sequelpro`]  
+  Sequel-Ace 是一个用于高效管理和操作数据库的工具，提供直观的图形化界面。它支持多种数据库系统，包括 MySQL、PostgreSQL 等。该工具使用 Python 语言开发，基于 PyQt 框架构建，并包含 SQL 查询、数据导出导入、数据可视化等功能模块。用户可以通过该工具便捷地执行 SQL 语句、管理数据库对象、以及执行数据操作。
+- [AloneMonkey/MonkeyDev](https://github.com/AloneMonkey/MonkeyDev) ★6789 [`cocoapods`] [`ios`] [`iosopendev`] [`ipa`] [`objective-c`] [`reverse-engineering`] [`theos`] [`xcode`]  
+  MonkeyDev是一个用于构建和部署微服务的工具，使用Go语言开发。它提供了一套简易的API接口定义和代码生成机制，帮助开发者快速创建微服务。  核心功能包括自动生成代码（如gRPC接口、数据库模型等），以及提供本地开发和部署环境。  该工具主要面向需要快速构建和部署微服务应用的开发者，通过减少重复代码，提高开发效率。
+- [typcn/bilibili-mac-client](https://github.com/typcn/bilibili-mac-client) ★3856 [`bilibili`] [`macos`] [`mpv`] [`player`]  
+  这是一个基于Electron的Bilibili客户端，提供macOS平台上的Bilibili视频观看、投稿、直播等功能。它使用JavaScript和Electron框架构建，并集成Bilibili的API来获取和展示内容。该客户端专注于提供一个便捷、美观的macOS平台用户界面，提升用户体验。
+
+[查看更多 Objective-C 仓库 →](dist/2026070100/LANG_Objective-C.md)
+
+## Objective-C++
+
+- [josh-/Aristocrat](https://github.com/josh-/Aristocrat) ★66 [`carthage`] [`macos`] [`menubar`] [`objective-c`] [`objective-c-plus-plus`] [`tesseract-ocr`] [`zxing`]  
+  这是一个用于生成高质量、可定制化游戏角色的工具。它使用Python和Pygame库，提供界面设计和角色属性设置功能。用户可以通过简单的操作创建不同类型的角色，并自定义角色的外观、技能和能力值。该工具旨在为游戏开发者提供便捷的角色创建方案，节省开发时间和精力。
+
+## Pascal
+
+- [cheat-engine/cheat-engine](https://github.com/cheat-engine/cheat-engine) ★18549  
+  Cheat Engine是一个强大的游戏修改工具，允许用户修改游戏中的各种数值，如生命值、金钱或物品数量。它支持多种游戏格式，并提供灵活的内存编辑功能。该工具主要使用C++开发，包含一个图形用户界面，用于方便地浏览和修改游戏内存。核心模块包括内存扫描、数据类型识别和修改功能。通过这些功能，用户可以轻松地调整游戏内数值，以方便游戏测试或追求特定游戏体验。
+- [stascorp/rdpwrap](https://github.com/stascorp/rdpwrap) ★16663  
+  该项目提供了一个RDP连接包装器，用于在Windows环境下简化RDP连接过程。它允许用户通过自定义参数（如用户名、密码、服务器地址等）轻松连接到远程桌面服务器，并支持连接失败重试机制。该工具使用Python语言开发，基于`win32com`库，利用了Windows系统API进行RDP连接操作，并提供命令行接口。  核心功能是自动化RDP连接，提高了连接效率，并降低了手动操作的复杂性。
+
+## Perl
+
+- [hexsum/Mojo-Webqq](https://github.com/hexsum/Mojo-Webqq) ★1704 [`api`] [`bot`] [`chat`] [`chatbot`] [`cli`] [`docker`] [`irc`] [`mojo`] [`perl`] [`qq`] [`qqbot`] [`smartqq`] [`webqq`]  
+  Mojo-Webqq 是一个基于 Web 的 QQ 客户端，允许用户通过浏览器访问 QQ 功能。它使用 JavaScript 作为主要开发语言，并利用 Node.js 和 WebSocket 技术实现与 QQ 服务器的连接。项目包含用户登录、消息接收、好友列表、群聊等核心功能。该项目旨在提供一个便捷、易用的网页版 QQ 客户端，方便用户在各种设备上访问 QQ 服务。
+- [wisdomfusion/qqwry.dat](https://github.com/wisdomfusion/qqwry.dat) ★394 [`qqwry`]  
+  该项目提供了一个基于QQWry.dat数据库的IP地址查询工具。它使用Python编写，并利用 `ipaddress` 模块进行IP地址解析和数据库查询。  该工具能够快速准确地根据IP地址获取其对应的地理位置信息，例如国家、地区和城市。  项目包含清晰的代码结构和注释，方便用户理解和使用。
+
+## PHP
+
+- [nextcloud/server](https://github.com/nextcloud/server) ★35980 [`cloud`] [`collaboration`] [`decentralized`] [`design`] [`distributed`] [`enterprise`] [`federation`] [`file-sharing`] [`free-software`] [`hacktoberfest`] [`javascript`] [`nextcloud`] [`open-source`] [`opensource`] [`owncloud`] [`php`] [`self-hosting`] [`sharing`] [`usability`] [`ux`]  
+  Nextcloud Server是一个开源的云存储和协作平台。它允许用户在自己的服务器上创建私有的云空间，用于文件共享、协作编辑、日历同步等。该平台主要使用PHP语言开发，并基于Apache或Nginx等Web服务器，结合各种数据库技术（如MySQL），提供用户界面和API接口。核心功能包括文件管理、用户权限控制、团队协作、以及各种应用程序集成。
+- [blueimp/jQuery-File-Upload](https://github.com/blueimp/jQuery-File-Upload) ★30743  
+  这是一个基于jQuery的Web文件上传插件。它提供了一种简单易用的方式，让用户可以上传文件到服务器。插件支持多种文件类型、拖放上传、进度条显示、多文件同时上传以及错误提示等功能。它使用JavaScript编写，并利用HTML5特性，提高了上传效率和用户体验。插件的核心模块包括文件队列管理、上传进度跟踪和服务器端交互。
+- [fzaninotto/Faker](https://github.com/fzaninotto/Faker) ★26675  
+  Faker是一个用于生成伪数据（例如姓名、地址、电话号码等）的Python库。它可以帮助测试、开发和演示。该库使用多种技术来生成不同的数据类型，并支持多种语言。  核心功能包括随机数据生成，并提供各种配置选项以满足不同的需求。  该库主要使用Python语言编写，并具有良好的可扩展性。
+- [guzzle/guzzle](https://github.com/guzzle/guzzle) ★23461 [`curl`] [`guzzle`] [`http-client`] [`httpclient`] [`php`] [`psr-7`] [`requests`] [`webservices`]  
+  Guzzle是一个用于构建现代HTTP客户端的PHP库。它提供了一套易于使用且功能强大的API，用于执行各种HTTP请求，包括GET、POST、PUT、DELETE等。Guzzle支持多种请求选项，如超时、认证、请求头和响应处理。它基于事件驱动模型，可有效地处理并发请求，并提供强大的错误处理机制。Guzzle使用PHP作为主要语言，并支持多种HTTP协议和传输层。 该库广泛应用于各种PHP应用程序，以与Web服务进行交互。
+- [PHPMailer/PHPMailer](https://github.com/PHPMailer/PHPMailer) ★22217 [`attachment`] [`email`] [`hacktoberfest`] [`php`] [`php-library`] [`phpmailer`] [`smtp`] [`tls-support`] [`xoauth2`]  
+  PHPMailer是一个用于PHP的邮件发送类库。它提供了一种简单易用的方式来发送各种类型的电子邮件，包括HTML邮件和附件。该库支持多种邮件传输协议（如SMTP），并包含错误处理和调试功能，以帮助用户解决邮件发送问题。PHPMailer使用PHP语言编写，并通过面向对象的方式组织代码，提高了代码的可维护性和可扩展性。  它包含了各种配置选项，允许用户根据自己的需求定制邮件发送过程。
+- [DesignPatternsPHP/DesignPatternsPHP](https://github.com/DesignPatternsPHP/DesignPatternsPHP) ★22188 [`code-examples`] [`design-pattern`] [`design-patterns`] [`designpatternsphp`] [`modern-php`] [`oop`] [`php`] [`php8`] [`phpunit`]  
+  这是一个用PHP实现各种设计模式的示例项目。它涵盖了常用的设计模式，例如单例模式、工厂模式、观察者模式、策略模式等，并提供了清晰的代码示例和解释。项目使用PHP作为主要编程语言，并通过注释和文档说明了每个模式的用途、实现原理和优缺点。该项目旨在帮助学习者理解和应用各种设计模式，从而提高代码的可维护性和可扩展性。
+- [Seldaek/monolog](https://github.com/Seldaek/monolog) ★21395 [`hacktoberfest`] [`logger`] [`logging`] [`php`] [`psr-3`]  
+  Monolog是一个面向PHP的日志记录组件，提供灵活的日志记录和处理能力。它支持多种输出方式，例如文件、数据库、网络等，并允许自定义处理器和格式化器。Monolog采用面向对象的架构，易于集成到各种PHP项目中。它使用PHP作为主要语言，并提供清晰的API接口，方便开发者配置和使用。核心功能包括日志记录、过滤器、处理器和输出适配器，使得开发者能够根据需求定制日志流。
+- [easychen/howto-make-more-money](https://github.com/easychen/howto-make-more-money) ★18590  
+  这是一个教你如何通过多种途径增加收入的实用指南项目。它涵盖了投资理财、副业创业、提升技能等方面，内容以易于理解的步骤和案例为主。项目使用Markdown编写，并包含一些图表和表格辅助理解。通过学习该指南，用户可以系统性地了解不同增收途径，并制定适合自身情况的增收计划。
+- [bcit-ci/CodeIgniter](https://github.com/bcit-ci/CodeIgniter) ★18170 [`php`] [`php-framework`] [`php7`] [`php8`]  
+  这是一个基于CodeIgniter框架的简单CI项目，用于演示基本的控制器、模型和视图结构。  项目包含用户注册、登录等功能，使用MySQL数据库进行数据存储。  主要使用PHP语言开发，并采用MVC架构，代码结构清晰，易于理解和扩展。  项目包含完整的数据库脚本和配置文件，方便快速部署和测试。
+- [nikic/PHP-Parser](https://github.com/nikic/PHP-Parser) ★17442 [`ast`] [`parser`] [`php`] [`static-analysis`]  
+  PHP-Parser是一个用于解析PHP代码的库。它提供了一个灵活的API来访问PHP代码的抽象语法树（AST）。该库使用PHP编写，并基于递归下降解析器。  它支持PHP 5.3 到 7.4 版本的语法，并能有效地处理各种PHP代码结构，包括表达式、语句和声明。  开发者可以利用该库进行代码分析、转换、重构等操作。
+
+[查看更多 PHP 仓库 →](dist/2026070100/LANG_PHP.md)
+
+## PLpgSQL
+
+- [javahuang/SurveyKing](https://github.com/javahuang/SurveyKing) ★3983 [`java`] [`react-survey`] [`springboot`] [`survey`] [`surveyjs`] [`surveymonkey`]  
+  SurveyKing是一个基于Java开发的在线问卷调查系统。它提供创建、发布、收集问卷的功能，并支持多种问卷类型（单选、多选、文本等）和数据分析。系统采用Spring Boot框架，使用MySQL数据库存储数据，并通过前端框架Vue.js实现用户界面。关键模块包括问卷设计、用户管理、数据统计和导出等。该系统旨在为用户提供便捷的在线问卷调查工具，方便地收集和分析数据。
+
+## PowerShell
+
+- [cmderdev/cmder](https://github.com/cmderdev/cmder) ★26942 [`c-plus-plus`] [`cmder`] [`color-scheme`] [`command-line`] [`conemu`] [`mintty`] [`portable`] [`powershell`] [`shell`] [`ssh-agent`] [`windows`]  
+  cmder 是一个强大的 Windows 命令行终端模拟器，提供丰富的功能和自定义选项。它基于 Windows Console API 和纯 C++ 开发，支持多种主题、快捷键和插件。用户可以通过插件扩展 cmder 的功能，例如代码高亮、文件浏览器和 Git 集成。  项目旨在为 Windows 用户提供一个功能强大的、可自定义的命令行环境，提升工作效率。
+- [ScoopInstaller/Scoop](https://github.com/ScoopInstaller/Scoop) ★24343 [`installer`] [`powershell`] [`scoop`] [`windows`]  
+  ScoopInstaller是一个用于在Windows上安装和管理各种命令行工具的包管理器。它允许用户通过简单的命令行指令安装、更新和卸载软件包，避免了手动下载和配置的繁琐步骤。Scoop使用Go语言开发，并利用了Git和GitHub Actions进行版本控制和持续集成。核心功能包括：软件包仓库、包管理、依赖管理和自动更新，以提高用户工作效率。
+- [qwsddn/autowork](https://github.com/qwsddn/autowork) ★57  
+  这是一个用于自动化的工作流程管理工具。它使用Python和Flask框架构建，提供可视化工作流编辑器和任务执行引擎。用户可以定义不同的工作步骤、触发条件和任务依赖关系，以实现自动化流程。该工具支持任务调度、错误处理和日志记录，并提供API接口供其他系统集成。
+
+## Python
+
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★445213 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+  这是一个收集了大量公开API的资源库。它涵盖了各种类型的API，包括天气、股票、笑话、图片等等。  用户可以通过搜索和筛选功能快速找到所需的API。该项目使用简单的HTML和JavaScript构建，并提供了一个易于使用的网页界面。  该资源库主要用于开发者快速查找和测试公开API，节省了开发时间。
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★391024 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
+  这是一个收集免费编程书籍的网站。它使用 Python 和 Flask 框架构建，通过爬虫从各种网站抓取编程书籍链接，并将其整理成易于浏览的分类目录。用户可以方便地搜索和下载各种编程语言（如 Python、Java、JavaScript 等）的免费电子书。该项目旨在为学习编程的人提供免费学习资源。
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★163359 [`awesome`] [`github`] [`hellogithub`] [`python`]  
+  HelloGitHub 是一个面向 GitHub 开发者的 README 生成与维护工具，帮助快速打造动态个人主页。核心功能集中在读取用户公开信息（用户名、头像、简介、社交链接、技术栈等）并自动生成整洁的 Markdown 说明，同时通过 GitHub Actions 定期抓取项目使用率、语言分布、Star/Watch/Push 等统计，实时更新页面内容。实现上以 GitHub Actions 为主流，将脚本主要写在 Node/Python，利用 axios/requests 调用 GitHub API，配合 `badgen.net` 或 `github-readme-stats` 生成统计 badge。项目结构清晰：`.github/workflows/auto-readme.yml` 触发器、`scripts/refresh.js` 生成逻辑、`README.md` 模板文件以及可配置参数文件 `config.yml`。只需在仓库设置中开启 `Actions`，并在 `config.yml` 填写必要字段，即可自托管动态 README，省去手动维护并提升个人品牌可视化。
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ★140617  
+  这是一个命令行工具，用于下载YouTube和其他视频平台的视频和音频。它支持多种格式和质量选项，并能下载字幕和多个音轨。该工具使用Python编写，并基于`requests`库进行网络请求，`beautifulsoup4`库进行网页解析，`ffmpeg`进行视频格式转换。  项目包含丰富的命令行参数，允许用户灵活地控制下载过程。
+- [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) ★103847  
+  DeepSeek-V3 是一个基于深度学习的图像搜索引擎。它利用卷积神经网络 (CNN) 提取图像特征，并构建高效的图像相似度匹配算法。项目使用 Python 和 PyTorch 框架实现，核心模块包括特征提取网络、相似度计算模块和数据库索引。DeepSeek-V3 可用于快速查找与目标图像相似的图片，并支持大规模图像数据集的索引和搜索。
+- [nvbn/thefuck](https://github.com/nvbn/thefuck) ★97450 [`python`] [`shell`]  
+  Thefuck是一个命令行工具，用于修复错误的shell命令。它分析用户输入的错误命令，并尝试预测用户想要执行的正确命令。该工具使用Python编写，利用自然语言处理技术识别用户意图，并根据历史命令和系统信息提供建议。核心功能是自动修正用户输入的错误命令，提高用户效率。
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★94414 [`ai`] [`automation`] [`chatgpt`] [`moviepy`] [`python`] [`shortvideo`] [`tiktok`]  
+  这是一个用于快速生成大量模拟货币的工具。它使用Python编写，基于`requests`库进行网络请求，并使用`threading`模块实现并发处理，以提高生成速度。项目主要功能是模拟生成大量虚拟货币，并通过API接口将数据输出到指定文件或数据库。该工具适用于测试和模拟场景，例如大规模交易模拟、支付系统压力测试等。
+- [home-assistant/core](https://github.com/home-assistant/core) ★88093 [`asyncio`] [`hacktoberfest`] [`home-automation`] [`internet-of-things`] [`iot`] [`mqtt`] [`python`] [`raspberry-pi`]  
+  Home Assistant Core是一个开源的家庭自动化平台，允许用户通过多种设备控制和自动化家庭环境。它支持各种传感器、执行器和智能家居设备，并提供直观的界面进行配置和管理。该平台使用Python编写，基于Home Assistant YAML配置，并利用MQTT、REST API等协议进行通信。关键模块包括用户界面、设备集成和自动化规则引擎，使用户能够创建自定义的自动化场景和控制流程。
+- [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ★85911 [`cli`] [`cti`] [`cybersecurity`] [`forensics`] [`hacktoberfest`] [`information-gathering`] [`infosec`] [`linux`] [`osint`] [`pentesting`] [`python`] [`python3`] [`reconnaissance`] [`redteam`] [`sherlock`] [`tools`]  
+  这是一个用于在互联网上查找与目标相关的公开信息的工具。它利用多种搜索引擎和公共数据源来收集信息，包括社交媒体、开源数据库和网络论坛。该工具使用Python编写，并基于Scrapy爬虫框架构建，结合正则表达式和自然语言处理技术进行信息提取。核心功能包括目标识别、社交媒体分析和网络关系图谱构建，帮助用户快速获取目标个人或组织的背景信息。
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★81524  
+  这是一个基于Python的自然语言处理（NLP）项目，旨在提供一系列易于使用的函数，用于文本预处理、特征提取和情感分析。项目使用spaCy和Scikit-learn等库，实现文本清洗、词向量化和情感分类等功能。该项目的目标是简化NLP任务的流程，并提供可重用的代码模块，方便开发者快速构建NLP应用。
+
+[查看更多 Python 仓库 →](dist/2026070100/LANG_Python.md)
+
+## Rich Text Format
+
+- [huangyz0918/Hackintosh-Installer-University](https://github.com/huangyz0918/Hackintosh-Installer-University) ★3997 [`apple`] [`apple-hardware`] [`bootloader`] [`clover`] [`hackintosh`] [`hardware`] [`installation`] [`installer`] [`kext`] [`mac`] [`macos`] [`osx86`] [`tutorial`]  
+  该项目提供了一个用于在Mac硬件上安装macOS系统的工具包。  它使用自动化脚本简化了安装过程，涵盖了从准备驱动到最终安装的多个步骤。  主要由Python脚本和Shell脚本构成，并利用了自制工具和一些常用的macOS安装工具。  该项目的目标是为用户提供一个更便捷、更可靠的Hackintosh安装方案。
+- [sqlsec/clover](https://github.com/sqlsec/clover) ★1348 [`clover-efi`] [`hackintosh`]  
+  Clover是一个用于SQL注入漏洞检测的工具。它使用模糊测试技术，通过生成各种SQL语句来探测数据库服务器的漏洞。Clover主要用Python编写，并基于Requests库进行HTTP请求。核心模块包括SQL注入payload生成器和漏洞检测逻辑。该工具旨在帮助安全团队快速有效地识别潜在的SQL注入风险。
+- [tsingui/clover-efi](https://github.com/tsingui/clover-efi) ★959  
+  Clover EFI是一个用于macOS安装和引导的工具，支持多种硬件平台。它使用C++编写，基于EFI规范，提供图形化界面选择安装和引导macOS。该项目包含了核心引导逻辑、硬件检测和驱动加载模块，以及用户界面组件。Clover EFI旨在简化macOS在非苹果硬件上的安装和使用流程，并提供更灵活的自定义选项。
+
+## Roff
+
+- [TapXWorld/ChinaTextbook](https://github.com/TapXWorld/ChinaTextbook) ★75078  
+  这是一个用于中国教材的在线学习平台。该平台利用Web技术(主要语言为JavaScript，框架为React)，提供教材章节、练习题、视频讲解等学习资源。用户可以通过平台进行在线学习，并进行练习测试，获得学习反馈。项目旨在为用户提供便捷高效的中国教材学习体验。
+- [GangZhuo/BaiduPCS](https://github.com/GangZhuo/BaiduPCS) ★3543  
+  BaiduPCS 是一个基于 Python 的百度网盘客户端，允许用户方便地管理和下载百度网盘文件。它使用 requests 库进行网络请求，并结合多线程下载技术提高下载速度。  项目包含文件上传、下载、同步等功能。  用户可以通过命令行界面操作，并支持多种文件格式。
+
+## Ruby
+
+- [discourse/discourse](https://github.com/discourse/discourse) ★47364 [`discourse`] [`ember`] [`forum`] [`javascript`] [`postgresql`] [`rails`] [`ruby`]  
+  Discourse是一个开源论坛软件，提供易于使用的界面和强大的功能，用于创建和管理社区。它使用Ruby on Rails构建，并具有灵活的主题系统和插件生态系统，允许用户自定义论坛的外观和功能。  该项目支持各种语言和地区，并提供多种配置选项，以满足不同规模和需求的社区。
+- [greatghoul/remote-working](https://github.com/greatghoul/remote-working) ★11651 [`china`] [`freelancer`] [`remote-work`] [`remote-workers`] [`soho`] [`telecommunications`] [`work-from-home`]  
+  这是一个用于远程工作协作的工具，帮助团队成员更好地组织和管理远程工作任务。它使用Python和Flask框架构建，提供任务分配、进度跟踪和沟通功能。核心模块包括任务管理系统、实时聊天和文件共享功能，旨在提升远程团队的效率和协作性。
+- [Mark24Code/rime-auto-deploy](https://github.com/Mark24Code/rime-auto-deploy) ★1878 [`cli`] [`cli-app`] [`comand-line`] [`command-line-tool`] [`repl`] [`rime`] [`rime-config`] [`ruby`] [`terminal`] [`toolkit`]  
+  该项目提供了一个自动部署方案，用于将Rime输入法引擎部署到各种环境。它使用Python编写，基于`subprocess`模块和`shutil`模块实现自动化部署过程，支持多种操作系统。项目包含配置文件，用于自定义部署目标、引擎版本和依赖项。通过脚本一键完成部署，提高了效率，降低了部署门槛。
+- [TideSec/Mars](https://github.com/TideSec/Mars) ★1365  
+  Mars是一个用于安全评估的开源工具，专注于识别和利用Web应用程序中的潜在安全漏洞。它使用Python编写，基于流行的网络爬虫框架Scrapy，并结合漏洞扫描模块，以自动化方式对目标网站进行全方位扫描。该工具提供易于理解的报告，帮助安全团队快速定位并修复安全风险。
+- [elcuervo/airplay](https://github.com/elcuervo/airplay) ★1064  
+  这是一个用于在macOS上控制AirPlay接收器（例如电视或显示器）的命令行工具。它允许通过命令行指定要播放的内容（例如本地文件路径或URL）以及AirPlay接收器的名称或地址，实现便捷的媒体播放控制。该工具使用`python`和`pyobjc`库，通过与macOS系统API交互来实现AirPlay功能的控制。主要模块包括连接、认证、媒体播放控制和错误处理。
+- [Parallels/vagrant-parallels](https://github.com/Parallels/vagrant-parallels) ★1010 [`parallels`] [`parallels-desktop`] [`plugin`] [`vagrant`]  
+  这是一个用于在 Parallels Desktop 上运行 Vagrant 的插件。它允许用户通过 Parallels 的虚拟化功能，更便捷地启动和管理基于 Vagrant 的虚拟机。插件利用 Vagrant 的命令行接口，并整合 Parallels 的虚拟化环境，从而提供更流畅的虚拟机操作体验。主要使用 Ruby 和 Vagrant API 进行开发，并依赖于 Parallels Desktop 的虚拟化功能。
+- [TideSec/FuzzScanner](https://github.com/TideSec/FuzzScanner) ★1007  
+  FuzzScanner是一个基于Python开发的漏洞扫描工具，用于识别Web应用程序中的安全漏洞。它使用模糊测试技术，通过构造各种测试用例对目标应用程序进行攻击，以发现潜在的SQL注入、跨站脚本攻击等漏洞。该工具主要使用Python的requests库进行HTTP请求，并结合正则表达式和自定义规则进行漏洞检测。项目包含了详细的测试用例设计和漏洞检测规则，方便用户进行二次开发和定制。
+- [L-codes/pwcrack-framework](https://github.com/L-codes/pwcrack-framework) ★515 [`cisco`] [`dedecms`] [`filezilla`] [`foxmail`] [`gpp`] [`hashcrack`] [`juniper`] [`lm`] [`md5`] [`mdc2`] [`mysql`] [`ntlm`] [`online`] [`password`] [`pwcrack`] [`ripemd`] [`servu`] [`sha1`] [`whirlpool`] [`zfsoft`]  
+  该项目是一个用于密码破解的框架，提供多种破解方法和工具。它使用Python作为主要编程语言，并整合了多种密码学库和算法。框架包含字典攻击、暴力破解、基于规则的破解等模块，并支持自定义破解策略。用户可以根据需求配置不同的参数和选项，以提高破解效率和准确性。该框架旨在为安全研究和渗透测试提供一个便捷的工具，但其使用需遵守法律法规，且仅限于授权测试环境。
+
+## Rust
+
+- [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) ★194475  
+  claw-code 项目提供一套完整的 Claw 语言示例与配套工具，用于将高层 DSL 脚本自动转换为高效的 C/C++ 代码并支持 OpenMP 并行化。核心实现基于 Python 编写的解析器和代码生成器，利用 ANTLR 构建语法树，结合 LLVM 后端进行优化和目标代码生成。项目结构清晰，主要包括 grammar（语言语法定义）、frontend（抽象语法树构建与语义检查）、backend（代码模板渲染与并行指令插入）以及 examples（多个真实算例演示不同算子和并行模式）。通过简化源码编写流程，帮助科研人员快速将算法原型部署到 CPU/GPU 大规模计算平台。
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★117378 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
+  RustDesk是一个跨平台的远程桌面应用，支持Windows、macOS、Linux等系统。它使用Rust语言开发，具有轻量级、快速、安全等特点。RustDesk采用WebSocket协议进行通信，并提供多种安全措施，例如加密传输和身份验证。项目包含客户端和服务器端，可实现远程控制、文件共享和屏幕共享等功能。
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★111199 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
+  提供一个适用于 Cocos Creator 的 UI 开关组件。组件通过继承 cc.Component，实现了可视化的开关切换、状态同步以及点击回调，支持在编辑器属性面板中配置开关图片、文字、是否可交互和默认状态。核心代码使用 TypeScript 编写，利用 Cocos Creator 的节点树和事件系统完成状态渲染和用户交互，内部封装了 tween 动画实现平滑过渡，并暴露 onToggle 事件供业务层订阅。模块化设计便于在项目中按需引入，兼容 2.x 与 3.x 版本的引擎，实现快速集成且无需额外依赖。
+- [openai/codex](https://github.com/openai/codex) ★94635  
+  提供基于 OpenAI Codex 模型的代码生成与补全示例，封装 REST 调用并演示编辑、解释、单元测试等常见场景。核心功能包括接受自然语言提示，返回对应的可执行代码片段，支持多语言（Python、JavaScript、Go 等）并可直接写入本地文件。项目采用 Python 实现，使用 requests 与 OpenAI 官方 API 交互，内部抽象为 PromptBuilder、ResponseParser、FileWriter 三大模块，分别负责构造请求、解析模型输出以及持久化代码。示例脚本提供 CLI 参数化入口，便于快速集成到 CI/CD 流程或 IDE 插件，实现自动化代码生成与审查。
+- [zed-industries/zed](https://github.com/zed-industries/zed) ★86233 [`gpui`] [`rust-lang`] [`text-editor`] [`zed`]  
+  这是一个用于构建和管理基于ZED相机（ZED-2、ZED-Mini等）的3D点云和深度图像处理工作流的Python库。它提供了一系列工具，用于快速采集、预处理和分析ZED相机数据，例如标定、深度图处理、点云生成、目标识别等。库基于Python和OpenCV，并利用ZED SDK进行相机交互。该库的目标是简化ZED相机数据的处理流程，并提供易于使用的API，方便开发者快速构建基于ZED相机的应用。
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ★63130 [`bitwarden`] [`bitwarden-rs`] [`docker`] [`rocket`] [`rust`] [`vaultwarden`]  
+  Vaultwarden是一个开源的、轻量级的、功能强大的VPN服务器。它使用Rust编写，并提供易于使用的Web界面和命令行工具。用户可以通过Web界面管理连接、配置服务器，并监控连接状态。该项目支持多种VPN协议，例如WireGuard、OpenVPN、IKEv2和IPsec。Vaultwarden的核心功能包括用户管理、安全配置以及日志记录。它易于部署和维护，适合个人和小型团队使用。
+- [tw93/Pake](https://github.com/tw93/Pake) ★58673 [`chatgpt`] [`claude`] [`desktop`] [`gemini`] [`hight-performance`] [`linux`] [`macos`] [`no-electron`] [`package`] [`rust`] [`tauri`] [`windows`] [`youtube`]  
+  Pake是一个用于构建和管理Python包的工具，旨在简化依赖管理和版本控制。它使用Python编写，基于`setuptools`和`poetry`，并提供一个命令行界面。  Pake的核心功能包括：自动构建、安装和测试Python包，以及管理依赖项，支持多种依赖管理策略。  用户可以通过简洁的命令配置包，并确保其在不同环境下的一致性。
+- [starship/starship](https://github.com/starship/starship) ★58583 [`bash`] [`fish`] [`fish-prompt`] [`fish-theme`] [`oh-my-zsh`] [`powershell`] [`rust`] [`shell-prompt`] [`starship`] [`zsh`] [`zsh-prompt`] [`zsh-theme`]  
+  Starship 是一个跨平台的终端命令行工具，提供高度可定制化的提示信息，以增强终端用户体验。它使用纯 Rust 编写，并支持多种 shell，包括 Zsh、Bash 和 Fish。Starship 通过配置文件和插件机制实现自定义，用户可以根据需要添加主题、图标和信息展示。该项目强调易用性和高效性，为用户提供简洁明了的命令行环境。
+- [fish-shell/fish-shell](https://github.com/fish-shell/fish-shell) ★33764 [`fish`] [`rust`] [`shell`] [`terminal`]  
+  Fish shell是一个功能强大的、以用户友好性著称的Linux shell。它提供直观的命令提示符、自动补全、命令历史记录等功能，并支持各种扩展和插件，提升用户体验。Fish shell使用Go语言开发，并采用模块化设计，方便扩展和维护。核心模块包括命令解析器、交互式提示符和插件系统。它旨在为用户提供高效便捷的命令行操作环境。
+- [TabbyML/tabby](https://github.com/TabbyML/tabby) ★33661 [`ai`] [`codegen`] [`coding-assistant`] [`coding-language`] [`developer-experience`] [`developer-tools`] [`gen-ai`] [`ide`] [`llms`]  
+  TabbyML 是一个用于机器学习模型部署和管理的工具。它提供了一个易于使用的平台，允许用户将训练好的模型轻松部署到各种环境（如云服务器、本地机器）并进行监控。Tabby 使用 Python 编写，基于 Flask 框架，并整合了 Docker 和 Kubernetes 等容器化技术，以确保模型部署的可靠性和可扩展性。核心功能包括模型打包、部署、监控和版本管理，并支持多种模型格式和部署选项。
+
+[查看更多 Rust 仓库 →](dist/2026070100/LANG_Rust.md)
+
+## Scala
+
+- [rtyley/bfg-repo-cleaner](https://github.com/rtyley/bfg-repo-cleaner) ★12151 [`git`]  
+  这是一个用于清理Git仓库的工具，可以删除不需要的提交和分支，并支持多种清理策略。它使用Python编写，并结合了命令行接口。  核心功能是高效地删除不必要的历史记录，从而减小仓库大小，提高工作效率。  该工具支持递归删除，并允许用户自定义过滤条件，例如删除特定作者的提交或特定时间段之前的提交。
+
+## SCSS
+
+- [mpdf/mpdf.github.io](https://github.com/mpdf/mpdf.github.io) ★511  
+  这是一个用于生成PDF文档的PHP库。它允许开发者使用PHP代码创建各种格式的PDF文件，包括表格、图像、文本等。该库使用纯PHP实现，无需外部依赖，易于集成到现有项目中。核心功能包括页面布局控制、字体管理、图片插入等，并提供丰富的配置选项以满足不同需求。
+- [oleeskild/digitalgarden](https://github.com/oleeskild/digitalgarden) ★472  
+  这是一个基于Next.js和Tailwind CSS的个人知识库/数字花园项目。它允许用户创建、组织和链接笔记、文章、代码片段等，并进行跨平台访问。项目使用Markdown语法进行内容创作，并提供搜索、标签和链接功能，方便用户检索和管理信息。  核心功能包括笔记创建、标签管理、内容链接、搜索和导出等。
+
+## Shell
+
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★188356 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
+  Oh My Zsh 是一个流行的 Zsh 配置框架，提供丰富的主题、插件和功能。它使用 Zsh 作为其基础 shell，并通过插件机制扩展功能。  主要以 Zsh 脚本和配置文件的形式实现，用户可以通过安装不同插件来定制个性化功能，例如代码高亮、Git 集成等。  项目使用纯 Shell 脚本、JSON 配置文件和各种插件来管理配置，并提供易于使用的安装和更新机制。
+- [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ★52625 [`container`] [`docker`] [`docker-osx`] [`kvm`] [`macos`] [`os`] [`osx`] [`osx-kvm`] [`x`] [`x11`]  
+  该项目提供在Docker容器中运行macOS环境的方法。用户可以利用Docker镜像，在Linux系统上构建包含macOS所需库和工具的环境。核心功能是构建一个可运行macOS应用程序的Docker容器，并提供访问macOS系统工具和库的方式。实现方式主要基于Docker镜像构建，使用macOS SDK和相关工具，并封装成Docker镜像供用户便捷使用。该项目旨在简化在Linux环境下运行macOS应用程序的过程，方便开发者在跨平台环境下进行开发和测试。
+- [dockur/windows](https://github.com/dockur/windows) ★52228 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
+  这是一个用于在Windows系统上运行Docker容器的工具。它提供了一个图形用户界面，允许用户轻松创建、运行、停止和管理Docker容器，无需复杂的命令行操作。该工具主要使用Python开发，并基于PyQt5框架构建图形界面。核心功能包括容器列表展示、启动/停止/删除容器、查看日志、端口映射管理等。  它简化了Docker在Windows上的使用体验，尤其适合没有命令行经验的用户。
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ★47028 [`acme`] [`acme-challenge`] [`acme-protocol`] [`acme-v2`] [`ash`] [`bash`] [`buypass`] [`certbot`] [`lets-encrypt`] [`posix`] [`posix-sh`] [`shell`] [`ssl`] [`ssl-certificate`] [`ssl-certificates`] [`tls`] [`tls-certificate`] [`zerossl`]  
+  acme.sh是一个用于自动化Let's Encrypt证书获取和管理的开源工具。它支持多种方式获取证书，包括HTTP和DNS验证，并提供方便的命令行界面。该工具使用Shell脚本编写，并利用了curl和openssl等命令行工具。  acme.sh可以轻松地将证书部署到各种服务器环境，简化了证书管理流程，避免了手动操作的繁琐。
+- [pyenv/pyenv](https://github.com/pyenv/pyenv) ★44928 [`python`] [`shell`]  
+  这是一个用于在同一系统上管理不同Python版本的工具。  它允许用户轻松安装、切换和管理多个Python版本，并配置不同的项目使用不同的Python环境。  主要使用Python脚本编写，并利用操作系统级的工具进行安装和管理。  核心功能包括：创建虚拟环境、安装和卸载Python版本、切换Python版本，以及配置项目依赖。  通过简单的命令行操作，可以有效地避免不同项目Python版本冲突的问题。
+- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ★35769 [`autocomplete`] [`autosuggest`] [`fish`] [`shell`] [`zsh`] [`zsh-autosuggestions`]  
+  zsh-autosuggestions 是一个 Zsh 插件，为 Zsh shell 提供自动补全建议功能。它能根据用户输入的历史命令、当前目录、文件系统信息等上下文，智能地预测并建议可能的后续命令或文件路径。该插件使用 Zsh 的扩展功能，并基于 `readline` 库实现。  它能显著提高 Zsh 的使用效率，并减少用户输入的工作量。
+- [233boy/v2ray](https://github.com/233boy/v2ray) ★29292 [`shell-script`] [`v2ray`] [`vmess`]  
+  这是一个基于Go语言开发的V2Ray代理服务器。它提供快速、稳定的代理连接，支持多种协议和配置。项目包含了核心代理服务以及客户端配置文件生成工具，用户可以方便地配置和管理V2Ray连接。代码结构清晰，易于维护和扩展。
+- [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) ★28107 [`alpine-linux`] [`bash`] [`cisco-ipsec`] [`debian`] [`encryption`] [`ikev2`] [`installer`] [`ipsec`] [`l2tp`] [`libreswan`] [`linux`] [`network`] [`privacy`] [`raspberry-pi`] [`security`] [`self-hosted`] [`ubuntu`] [`vpn`] [`vpn-client`] [`vpn-server`]  
+  这是一个用于在基于HWDSL2的网络上设置IPsec VPN的工具。它使用OpenVPN作为VPN协议，并提供配置脚本和示例，帮助用户快速建立安全的远程访问连接。该工具主要用Python编写，利用`subprocess`模块执行系统命令，并使用配置文件管理VPN连接参数。  项目包含详细的安装说明和示例配置文件，方便用户根据自身网络环境进行配置。
+- [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help) ★26298 [`cursor`] [`error`]  
+  该项目提供了一个Go语言库，用于简化数据库游标操作。它封装了常见的数据库游标操作，例如获取数据、遍历数据、处理错误等，并提供易于使用的API。该库使用Go语言编写，并基于标准库的database/sql包，支持多种数据库类型。核心功能包括：自动错误处理、分页查询、结果集缓存等，以提高代码可读性和效率。
+- [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) ★24950 [`cjk`] [`font`] [`typeface`]  
+  这是一个开源的、基于文泉驿的字体项目，提供LxgwWenKai字体。该项目使用OpenType字体格式，提供多种字重和字形，支持多种语言和字符集。它主要由C++编写，并利用字体渲染库进行实现，以确保字体显示的清晰度和兼容性。  该项目旨在提供高质量、可读性强的字体，并兼容各种操作系统和应用。
+
+[查看更多 Shell 仓库 →](dist/2026070100/LANG_Shell.md)
+
+## Svelte
+
+- [imputnet/cobalt](https://github.com/imputnet/cobalt) ★41312 [`collaboration`] [`downloader`] [`instagram`] [`javascript`] [`music`] [`reddit`] [`social-media`] [`soundcloud`] [`svelte`] [`tiktok`] [`twitter`] [`typescript`] [`video`] [`vimeo`] [`vk`] [`webapp`] [`youtube`] [`youtube-downloader`]  
+  Cobalt是一个用于在Kubernetes集群中运行和管理容器化应用程序的工具。它提供了一个易于使用的界面来部署、更新和监控应用程序，并支持多种部署模式。Cobalt使用Go语言开发，基于Kubernetes API进行交互，并包含一个用于配置和管理应用程序的声明式配置引擎。它简化了在Kubernetes上的应用生命周期管理，提高了部署效率和可靠性。
+- [huggingface/Mongoku](https://github.com/huggingface/Mongoku) ★1414 [`admin`] [`administration`] [`angular`] [`mongo`] [`mongodb`] [`node`] [`node-mongodb`] [`typescript`] [`web`]  
+  Mongoku是一个用于MongoDB数据库的轻量级Python客户端库，旨在简化与MongoDB的交互。它使用Python语言和asyncio框架，提供异步操作，提高了数据库访问效率。  核心功能包括连接管理、文档CRUD操作、聚合管道等，并支持各种MongoDB数据类型。  该库强调简洁性、易用性和性能，适合需要高性能数据库访问的应用程序。
+- [GoodiesHQ/headscale-admin](https://github.com/GoodiesHQ/headscale-admin) ★1090  
+  Headscale-admin 是一个用于 Headscale 的 Web 管理界面。它允许用户轻松地管理 Headscale 服务器，包括创建和管理 VPN 客户端，以及监控服务器性能。该项目使用 Go 语言开发，并基于 React 框架构建前端界面，使用 PostgreSQL 数据库存储配置信息。它提供了一个直观易用的用户界面，简化了 Headscale 的日常管理任务。
+
+## Swift
+
+- [shadowsocks/ShadowsocksX-NG](https://github.com/shadowsocks/ShadowsocksX-NG) ★32887 [`kcptun`] [`macos`] [`shadowsocks`] [`shadowsocksx-ng`] [`swift`] [`v2ray-plugin`]  
+  ShadowsocksX-NG 是一个功能强大的 Shadowsocks 代理软件。它支持多种加密协议，并提供易于使用的图形界面，方便用户配置和管理代理连接。该软件使用 C++ 编写，并基于 Qt 框架构建，核心模块包括网络连接、加密算法和用户配置管理。  用户可以通过图形界面轻松添加、编辑和删除代理服务器配置，并选择不同的加密算法和端口。
+- [sunnyyoung/WeChatTweak](https://github.com/sunnyyoung/WeChatTweak) ★13760 [`alfred`] [`alfred-workflow`] [`macos`] [`no-revoke`] [`norevoke`] [`raycast-extension`] [`revoke`] [`tweak`] [`wechat`] [`wechat-macos`] [`wechat-plugin`] [`wechat-plugin-macos`] [`wechat-raycast`] [`wechat-tweak`] [`wechathook`] [`wechattweak`] [`wechattweak-macos`] [`weixin`] [`weixin-plugin`] [`weixin-tweak`]  
+  该项目为基于 Xposed 的 WeChat 修改工具，主要通过 Hook 微信进程实现界面自定义、功能增强与广告屏蔽。核心模块包括 UI 主题引擎、消息录音拦截器、群聊管理助手与配置中心。使用 Java/Kotlin 搭配 Xposed API，插件化加载与模块化配置；支持多语言切换、字体缩放、快捷表情面板等实用功能。整个实现依托 Hook、反射及 SharedPreferences，轻量插件化提升用户体验，快速集成无需改动微信源码。
+- [DevToys-app/DevToysMac](https://github.com/DevToys-app/DevToysMac) ★9225  
+  DevToysMac 是一个 macOS 平台的开发者工具集，提供多种实用功能，包括文本编辑器、代码格式化工具、进制转换器、Markdown 预览器等。它使用 Swift 构建，并利用 SwiftUI 框架实现直观的界面。项目的核心功能模块包括文本处理、格式化、进制转换以及 Markdown 支持，旨在为开发者提供便捷高效的工具。
+- [Finb/Bark](https://github.com/Finb/Bark) ★8563 [`ios`] [`ios-app`] [`ios-swift`] [`mvvm`] [`mvvm-architecture`] [`push-notifications`] [`rxcocoa`] [`rxdatasources`] [`rxswift`]  
+  这是一个用于构建基于区块链的去中心化金融应用程序的框架。它使用Rust语言和Substrate框架开发，包含一个可定制的区块链引擎和一套预构建的金融组件（例如借贷、交易所等）。开发者可以利用该框架快速搭建各种金融产品，并充分利用区块链的安全性、透明性和去中心化特性。
+- [Ji4n1ng/OpenInTerminal](https://github.com/Ji4n1ng/OpenInTerminal) ★6901  
+  通过在 Finder 右键菜单集成 “Open in Terminal”，实现选中文件或文件夹后自动在系统终端或 iTerm2 等指定终端打开对应路径。项目使用 Swift 编写，基于 macOS FinderSync 扩展框架实现文件系统监控与菜单注入，利用 NSUserDefaults 保存终端路径、启动参数等偏好设置。核心模块包括 FinderSyncExtension、PreferencesController 与 TerminalLauncher，分别负责菜单注册、用户配置界面以及构造并执行终端启动 AppleScript。支持自定义终端应用，可在系统偏好设置中切换，兼容 macOS 10.14 以上版本，提供轻量化源码和 Xcode 项目文件，便于二次开发或直接编译安装。遵循 MIT 许可，代码结构清晰，易于集成到其他 macOS 自动化工具。
+- [kyleduo/TinyPNG4Mac](https://github.com/kyleduo/TinyPNG4Mac) ★3997 [`image-compression`] [`tinyimage`] [`tinypng`] [`tinypng4mac`]  
+  TinyPNG4Mac 是一个 macOS 平台上的 TinyPNG 图片压缩工具。它允许用户批量压缩 PNG 图片，减小图片文件大小，并保持高质量。该工具使用 TinyPNG API，并通过简单的图形用户界面（GUI）操作。  主要使用 Swift 和 AppKit 框架，并集成网络请求模块处理图片上传与压缩。  用户只需拖拽图片到应用程序窗口即可进行压缩，压缩后的图片会自动保存到指定文件夹。
+- [X1a0He/Adobe-Downloader](https://github.com/X1a0He/Adobe-Downloader) ★3238  
+  Adobe-Downloader is a lightweight command‑line utility that automates retrieval of Adobe Creative Cloud installers, binaries, and license files for Windows and macOS. The tool parses Adobe’s public product manifest URLs, downloads the appropriate ZIP or EXE contents, and verifies checksums to prevent corrupted installs. It supports batch processing via a simple JSON configuration, allowing users to specify product names, version ranges, and target directories. The source is written in Python 3.10, employing the `requests` library for HTTP communication, `tqdm` for progress bars, and `hashlib` for integrity checks. A small CLI layer built with `argparse` exposes commands such as `list‑products`, `download`, and `verify`. Optional parallel downloading leverages `concurrent.futures.ThreadPoolExecutor` to speed up large collections while retaining safety through per‑file locking. The code is modular, separating manifest retrieval, download logic, and post‑processing scripts, making it suitable for integration into CI pipelines or local installers. No external dependencies beyond the standard Python ecosystem are required, enabling easy deployment on any machine with Python installed.    
+  
+Users can also generate self‑contained bundles by running the `build‑bundle` command, which packages selected installers into a single ZIP, simplifying transport across network boundaries. Proxy configuration is accepted via ENV variables `HTTP_PROXY` and `HTTPS_PROXY`, making it compatible with corporate networks. Unit tests cover download integrity, manifest parsing, and error handling.
+- [Schlaubischlump/LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator) ★3017 [`appkit`] [`development-tools`] [`fake`] [`fake-locations`] [`ios-simulator`] [`iphonesimulator`] [`ispoofer`] [`libimobiledevice`] [`location`] [`location-spoof`] [`location-spoofing`] [`macos`] [`mock-location`] [`mock-locations`] [`navigation`] [`simulation`] [`spoof`] [`swift`]  
+  这是一个用于模拟位置数据的工具，主要用于测试和开发需要地理位置信息的应用程序。它可以生成各种类型的地理位置数据，包括经度、纬度、海拔和时间戳。该工具使用Python编写，基于PyQt5框架构建图形用户界面，并使用geopy库进行地理位置计算。用户可以通过界面选择模拟区域、数据量和输出格式，方便快捷地生成符合需求的模拟位置数据。
+- [fancymax/12306ForMac](https://github.com/fancymax/12306ForMac) ★2892 [`12306`] [`osx`] [`swift`] [`ticket`] [`train`]  
+  这是一个用于 macOS 的 12306 网站客户端。  它使用 JavaScript 和 Electron 框架构建，提供便捷的火车票查询和预订功能，模拟用户登录流程，并支持多种查询方式，例如出发地、目的地、日期等。  该项目旨在为 macOS 用户提供一个更友好的 12306 在线购票体验。
+- [CauT/GuruIM](https://github.com/CauT/GuruIM) ★6 [`ai`] [`input-method`] [`ios-keyboard`] [`llm`] [`privacy`] [`rime`]  
+  GuruIM提供类企业级的实时即时通讯解决方案，支持单聊、群聊、消息离线存储、文件传输与多端同步。核心采用 Node.js 作为后端服务器，利用 WebSocket 实现双向低延迟通讯，消息持久化基于 SQLite，安全层面集成 AES 对称加密与 RSA 非对称签名，确保传输数据的机密性与完整性。客户端使用 Electron 框架构建跨平台桌面应用，前端基于 React 与 Redux 实现高响应式 UI 与状态管理，底层通过 ipcRenderer 与主进程交互完成本地文件读取、系统通知等原生功能。模块化设计包含用户认证、会话管理、消息路由、群组控制与日志审计等子系统，便于按需扩展与二次开发。整体架构轻量易部署，适合内部企业沟通、教育平台或小型社交产品快速落地。
+
+## TeX
+
+- [Pomax/nrGrammar](https://github.com/Pomax/nrGrammar) ★351  
+  这是一个用于解析自然语言的Python项目。它使用递归下降解析器，根据自定义的BNF文法，将输入文本解析为抽象语法树（AST）。项目提供了一套灵活的接口，允许用户定义自己的文法，并使用解析结果进行后续处理。  核心功能包括BNF文法定义、递归下降解析器实现和AST生成。主要使用Python语言，并结合了文法定义和解析器生成工具。
+
+## TSQL
+
+- [he426100/kangxi](https://github.com/he426100/kangxi) ★44  
+  这是一个基于Python的康熙字典查询工具。它使用正则表达式匹配用户输入的关键词，并返回康熙字典中对应的条目，包括字形、读音、释义等信息。项目使用Python的`re`模块进行正则匹配，并从预先准备好的康熙字典数据中提取信息。  该工具旨在提供快速便捷的康熙字典查询体验，方便用户查找汉字的详细释义。
+
+## TypeScript
+
+- [openclaw/openclaw](https://github.com/openclaw/openclaw) ★381145 [`ai`] [`assistant`] [`crustacean`] [`molty`] [`openclaw`] [`own-your-data`] [`personal`]  
+  OpenClaw是对经典横版动作冒险游戏Claw的跨平台开源重制，提供完整剧情关卡、平台跳跃、枪械射击、解谜与收集要素。项目采用C++与SDL2实现底层渲染、音频和输入，利用OpenGL进行硬件加速绘制，核心模块包括场景管理、碰撞系统、动画播放和脚本驱动的事件系统，资源采用JSON/PNG格式，支持Windows、Linux、macOS。代码结构清晰，易于二次开发与自定义关卡。
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★180839  
+  AnomalyCo/Opencode是一个面向工业和金融场景的Python异常检测框架，帮助数据科学家和运维工程师快速构建、部署和监控多模态异常检测模型。核心功能包括：数据预处理流水线（缺失值插补、标准化、特征工程），自适应特征选择，基于时间序列、图像和文本的多模型集成，以及实时预测与告警。框架采用PyTorch和TensorFlow实现深度学习模型，使用scikit‑learn提供传统算法，全部封装在统一的Pipeline API中，支持GPU加速与分布式训练。关键模块包括：DatasetLoader（多源数据支持）、FeatureExtractor（自定义Feature/Embedding）、ModelManager（模型注册与版本控制）、InferenceServer（FastAPI+uvicorn部署），以及AlertRouter（Webhooks/Slack/E-mail告警）。Opencode隐藏底层细节，通过配置文件即可指定数据源、特征组合和模型组合，实现从0到1的完整异常检测生命周期。项目可与Kafka、Elasticsearch、Grafana无缝集成，既适合实验室原型，也能用于生产级AIOps平台。
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★141975 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
+  Firecrawl是一个用于高效爬取数据的Python项目。它使用Scrapy框架，结合自定义中间件和数据解析器，实现对目标网站的自动化爬取。项目支持灵活的URL抓取规则配置，并能处理复杂的网页结构。核心功能包括：URL队列管理、网页解析、数据提取、以及结果存储到数据库（例如MongoDB）。该项目主要使用Python 3编写，并依赖于Scrapy和相关库。
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) ★129519 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
+  这是一个开源的 IPTV 播放器项目。它提供一个易于使用的界面，用于访问和观看各种 IPTV 频道。该项目使用 Python 和 PyQt5 构建，并包含一个插件系统，允许用户添加和管理不同的 IPTV 提供商。该项目旨在提供一个稳定且功能丰富的 IPTV 播放器，支持各种流媒体协议，例如 HTTP 和 RTSP。
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★128801 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
+  这是一个Clash Royale的辅助工具，用于快速查找并显示卡牌的属性、效果以及在不同对局中的胜率。它使用Python和Selenium进行开发，通过模拟浏览器操作来抓取游戏数据。用户可以通过直观的界面查看卡牌信息和胜率统计，辅助游戏策略制定。
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★105671 [`ai`] [`ai-agents`] [`cli`] [`gemini`] [`gemini-api`] [`mcp-client`] [`mcp-server`]  
+  该项目提供一个命令行工具，用于管理和执行Gemini模型的推理任务。用户可以通过该工具便捷地加载Gemini模型，并输入提示词进行推理，获取相应的输出结果。该工具主要使用Python语言开发，基于Google提供的Gemini API进行模型调用。项目包含了模型选择、参数配置和结果输出等功能模块，方便用户快速上手并进行Gemini模型的应用。
+- [immich-app/immich](https://github.com/immich-app/immich) ★104745 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
+  这是一个用于图像搜索和识别的移动应用程序。它使用深度学习模型（例如，基于YOLOv8）识别图像中的对象，并提供相关的搜索结果和信息。应用程序使用Python和Flask后端进行图像处理和数据检索，前端使用React Native构建。关键模块包括图像预处理、对象检测和搜索引擎。该应用旨在为用户提供便捷的图像搜索体验。
+- [ant-design/ant-design](https://github.com/ant-design/ant-design) ★98524 [`ant-design`] [`antd`] [`design-systems`] [`react`] [`typescript`] [`ui-kit`] [`ui-library`]  
+  Ant Design 是一个高质量、易于使用、并遵循 Ant Design 设计语言的 React UI 组件库。它提供了一套丰富的组件，涵盖了按钮、输入框、表格、对话框等常用 UI 元素，帮助开发者快速构建用户界面。该库基于 React 框架开发，并使用 TypeScript 提升代码的可维护性。组件的样式由 CSS-in-JS 技术（例如 styled-components）处理，保证了样式的可定制性和一致性。Ant Design 组件库旨在提升开发效率和用户体验，并提供一致的视觉风格。
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ★95797 [`css`] [`css-framework`] [`functional-css`] [`postcss`] [`responsive`] [`tailwindcss`] [`utility-classes`]  
+  Tailwind CSS是一个流行的实用类CSS框架。它允许开发者使用预定义的类来快速构建样式，无需编写大量自定义CSS。通过配置，Tailwind CSS提供响应式设计和灵活的样式定制，并支持各种布局。该框架使用JavaScript构建，并基于PostCSS，提供极高的性能和可维护性。  开发者只需引入Tailwind CSS，并使用其预定义的类来应用样式。
+- [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) ★88942 [`diagrams`] [`diagrams-as-code`] [`documentation`] [`flowchart`] [`javascript`] [`mindmap`] [`typescript`] [`uml-diagrams`]  
+  这是一个用于在网页上创建流程图、甘特图、状态图等图表的可视化库。它使用JavaScript实现，并提供多种图表类型和自定义选项。  用户可以通过简单的标记语言（如Mermaid语法）描述图表结构，Mermaid库会自动将其渲染成精美的图表，无需额外的绘图工具。  该库支持多种图表类型，并可轻松集成到各种网页应用中。
+
+[查看更多 TypeScript 仓库 →](dist/2026070100/LANG_TypeScript.md)
+
+## VBScript
+
+- [abbodi1406/vcredist](https://github.com/abbodi1406/vcredist) ★7855  
+  这是一个用于在Windows系统上安装Visual C++ Redistributable packages的脚本。它基于Python编写，使用`subprocess`模块调用系统命令行工具，实现自动化安装。脚本支持指定安装路径和选择性安装特定版本的VC++ Redistributable，提高了安装效率和灵活性。
+
+## Vim Script
+
+- [VundleVim/Vundle.vim](https://github.com/VundleVim/Vundle.vim) ★23941  
+  Vundle.vim是一个用于管理Vim插件的工具。它提供了一种便捷的方式来安装、更新和卸载Vim插件，无需手动操作。Vundle使用纯Vim脚本实现，并通过Git来获取插件，高效且易于使用。它支持插件分组和版本控制，提高了插件管理的效率。
+
+## Visual Basic
+
+- [VBA-tools/VBA-Web](https://github.com/VBA-tools/VBA-Web) ★2131  
+  该项目提供了一组VBA工具，用于在Excel中访问和处理Web数据。它使用网页浏览组件和HTTP请求库，允许VBA宏从网页提取数据、下载文件、提交表单等。项目主要使用VBA语言，并依赖于一些外部库来实现网络功能。  该工具集简化了VBA用户与Web服务的交互，提高了Excel在数据获取方面的效率。
+- [VBA-tools/VBA-JSON](https://github.com/VBA-tools/VBA-JSON) ★2119  
+  该项目提供了一个VBA库，用于在VBA宏中处理JSON数据。它允许将JSON字符串解析为VBA对象，以及将VBA对象转换为JSON字符串。  核心功能包括JSON字符串解析、对象序列化和反序列化。该库使用VBA脚本语言实现，无需外部依赖。 通过该工具，VBA程序员可以更便捷地与JSON数据交互，例如从API获取数据，或将数据以JSON格式保存。
+
+## Vue
+
+- [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) ★90251 [`admin`] [`admin-dashboard`] [`admin-template`] [`axios`] [`dashboard`] [`desktop`] [`element`] [`element-ui`] [`i18n`] [`management-system`] [`mock`] [`tinymce`] [`vue`] [`vue-admin`] [`vue-cli`] [`vuex`] [`webpack`] [`webpack4`] [`xlsx`]  
+  这是一个基于 Vue.js 和 Element UI 的后台管理系统模板。它提供了一个快速搭建后台管理系统的框架，包含常用的页面布局、路由配置、权限管理、数据表格、表单等组件，以及代码生成器等功能。该项目使用 Vue.js 作为前端框架，Element UI 作为 UI 组件库，并结合了一些路由管理和权限控制的工具包。开发者可以快速定制和扩展，用于开发各种后台管理系统。
+- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) ★39580 [`converter`] [`developer-productivity`] [`developer-tools`] [`frontend`] [`javascript`] [`productivity`] [`tool`] [`tools`] [`typescript`] [`vuejs`] [`website`]  
+  此仓库收录了一系列I.T.运维工具，聚焦服务器监控、网络诊断、日志分析与自动化脚本。核心实现为Python 3，使用psutil获取系统指标，Paramiko实现远程命令，urllib进行HTTP状态检查，及自定义CLI接口。工具拆分为monitor、netcheck、logparser三大模块，支持CLI和REST API调用，可快速集成到DevOps流水线，便于运维团队统一管理基础设施。
+- [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) ★32798 [`admin-template`] [`ant-design`] [`element-plus`] [`monorepo`] [`naive-ui`] [`shadcn-ui`] [`tsx`] [`typescript`] [`vben`] [`vite`] [`vite-template`] [`vue-router`] [`vue3`] [`vuex`]  
+  这是一个基于 Vue.js 和 Element Plus 的开源后台管理系统模板。它提供了一套完整的组件库和布局，可快速搭建各种后台管理应用。该项目使用 Vue.js 作为前端框架，Element Plus 作为 UI 组件库，并包含路由、权限管理、数据表格、图表等常用功能。开发者可以通过简单的配置和修改，快速生成具有完整功能的后台管理系统。
+- [requarks/wiki](https://github.com/requarks/wiki) ★28519 [`cross-platform`] [`documentation`] [`git`] [`markdown`] [`nodejs`] [`open-source`] [`wiki`]  
+  这是一个开源的Wiki项目，支持Markdown语法，方便用户创建和管理文档。它使用Vue.js构建前端，并基于Node.js和Express.js搭建后端，提供用户管理、权限控制和版本控制等功能。  项目旨在提供一个易于使用且功能强大的Wiki平台，方便团队协作和知识管理。
+- [lissy93/dashy](https://github.com/lissy93/dashy) ★25574 [`awesome`] [`dashboard`] [`docker`] [`homelab`] [`homepage`] [`mit`] [`nodejs`] [`organization`] [`productivity`] [`pwa`] [`self-hosted`] [`startpage`] [`vue`]  
+  Dashy 是一款轻量级、极简式自托管个人/团队仪表盘，用于集中管理网址、应用、服务以及快捷链接，提供统一且可高度自定义的入口。核心功能包括：多文件夹层次结构、卡片式布局、实时搜索、主题切换、暗夜模式、模板系统、RSS 与天气 widget、以及内置的API集成。用户只需通过编辑 JSON（或 YAML）配置文件即可添加、修改或删除链接，无需前端开发。Dashy 采用 Node.js（Express）为后端服务，前端基于 Vue.js + Vite，利用 Vue Router、Vuex 进行状态管理，同时通过 Tailwind CSS 与自定义 SCSS 完成响应式布局。项目支持多语言（i18n）、离线缓存（PWA），可直接通过 Docker 或本地 npm 快速部署，亦可在 Kubernetes、Docker Compose、Home Assistant 等环境下无缝运行。凭借简洁明了的 UI 与灵活的配置模式，Dashy 成为个人或小团队对外服务入口的首选方案。
+- [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat) ★21639 [`bongo-cat`] [`bongocat`] [`cross-platform`] [`desktop-app`] [`desktop-pet`] [`linux`] [`macos`] [`pet`] [`pet-project`] [`rust`] [`tauri`] [`tauri-app`] [`windows`]  
+  BongoCat是一个基于Python和Flask框架的简单Web应用，用于管理和展示猫咪照片。用户可以上传、浏览、搜索和下载猫咪照片。项目使用SQLite数据库存储照片信息，并提供基本的图片展示功能。  前端采用HTML、CSS和JavaScript构建，提供用户友好的界面。  该项目旨在提供一个易于上手的猫咪照片管理平台，方便用户分享和组织猫咪照片。
+- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) ★20384 [`admin`] [`element-plus`] [`esm`] [`pinia`] [`tailwindcss`] [`typescript`] [`vite`] [`vue3`]  
+  Pure Admin基于Vue3、Element Plus、Pinia、TypeScript开发的中后台模板。模块化布局支持多主题、国际化与权限验证。内置统一表格、表单校验、树形列表与ECharts图表。项目含接口封装、错误日志、请求拦截及Vite热更新。配置简洁，便于二次开发，适合快速搭建可扩展、可维护的管理系统。已提供示例页面、组件库和脚手架，并支持RESTful后端。
+- [zxwk1998/vue-admin-better](https://github.com/zxwk1998/vue-admin-better) ★18858 [`admin`] [`admin-dashboard`] [`admin-template`] [`ant-design`] [`ant-design-vue`] [`axios`] [`element`] [`element-plus`] [`element-ui`] [`spring-boot`] [`vite`] [`vue`] [`vue-admin`] [`vue-cli`] [`vue-element-admin`] [`vue-template`] [`vue3`] [`vue3-admin`] [`vue3-composition-api`] [`vuejs`]  
+  提供完善的后台管理框架。基于 Vue3、Vite、TypeScript、Element Plus 构建，可快速开发登录、权限路由、角色管理、动态菜单、CRUD 表单、图表展示、文件上传等通用模块。项目采用 Pinia 做状态管理，Axios 封装网络请求，支持多语言国际化与主题切换。核心目录拆分为 auth、layout、views、components 等，支持组件化复用与插件化扩展；配置文件统一管理 API 地址、权限定义与路由注解。通过预置标准化组件、类型约束与插件寄写，显著提升企业级应用的开发效率。
+- [weilanwl/coloruicss](https://github.com/weilanwl/coloruicss) ★12393 [`css`] [`mp-weixin`] [`scss`] [`uniapp`] [`vue`] [`vue2`]  
+  ColorUI CSS是一个轻量级的、基于CSS的UI库，提供了一套简洁的样式和组件，用于快速构建Web应用程序的界面。它使用纯CSS实现，无需JavaScript，并支持响应式设计。库包含常用的组件，例如按钮、输入框、导航栏等，可定制性高，方便开发者快速开发。项目使用Sass预处理器进行样式管理，并提供详细的文档和示例代码。
+- [chaitin/xray](https://github.com/chaitin/xray) ★11636 [`passive-vulnerability-scanner`] [`poc`] [`security`] [`sqlinjection`] [`vulnerability`] [`vulnerability-scanner`] [`xss`]  
+  这是一个用于漏洞扫描的工具，支持多种协议和漏洞类型，例如Web应用漏洞、API漏洞和基础设施漏洞。它使用Go语言开发，基于插件机制，可以扩展扫描功能。核心模块包括网络请求模块、漏洞检测引擎和报告生成模块。Xray可以自动化地发现各种安全风险，帮助安全团队快速识别和修复潜在漏洞。
+
+[查看更多 Vue 仓库 →](dist/2026070100/LANG_Vue.md)
+
+## 🛡️ Technical Sponsorship 感谢腾讯云[Tencent EdgeOne](https://edgeone.tencent.com/?from=github)提供CDN加速和安全保护
+
+CDN acceleration and security protection for this project are sponsored by [Tencent EdgeOne](https://edgeone.tencent.com/?from=github).
+
+[![Tencent EdgeOne Logo](https://edgeone.ai/media/34fe3a45-492d-4ea4-ae5d-ea1087ca7b4b.png)](https://edgeone.tencent.com/?from=github)
+
