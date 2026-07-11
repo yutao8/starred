@@ -1,0 +1,185 @@
+# Shell 仓库
+
+- [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★188625 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
+  Oh My Zsh 是一个流行的 Zsh 配置框架，提供丰富的主题、插件和功能。它使用 Zsh 作为其基础 shell，并通过插件机制扩展功能。  主要以 Zsh 脚本和配置文件的形式实现，用户可以通过安装不同插件来定制个性化功能，例如代码高亮、Git 集成等。  项目使用纯 Shell 脚本、JSON 配置文件和各种插件来管理配置，并提供易于使用的安装和更新机制。
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★165132  
+  提供可配置的技能展示组件，支持水平/垂直进度条、星级评估及动画效果，适用于个人简历或项目介绍页面。项目使用 React 与 TypeScript 实现，样式采用 Styled‑Components 或 CSS Modules，内部封装动画逻辑并允许主题定制。核心模块包括 SkillBar、SkillList、SkillChart 等，可通过 Props 传入技能名称、数值、颜色等信息。使用 Rollup 打包，兼容 ES6 与 CommonJS，发布至 npm 并配备 Storybook 示例和 Jest 单元测试，便于快速集成与二次开发。
+- [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ★52648 [`container`] [`docker`] [`docker-osx`] [`kvm`] [`macos`] [`os`] [`osx`] [`osx-kvm`] [`x`] [`x11`]  
+  该项目提供在Docker容器中运行macOS环境的方法。用户可以利用Docker镜像，在Linux系统上构建包含macOS所需库和工具的环境。核心功能是构建一个可运行macOS应用程序的Docker容器，并提供访问macOS系统工具和库的方式。实现方式主要基于Docker镜像构建，使用macOS SDK和相关工具，并封装成Docker镜像供用户便捷使用。该项目旨在简化在Linux环境下运行macOS应用程序的过程，方便开发者在跨平台环境下进行开发和测试。
+- [dockur/windows](https://github.com/dockur/windows) ★52400 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
+  这是一个用于在Windows系统上运行Docker容器的工具。它提供了一个图形用户界面，允许用户轻松创建、运行、停止和管理Docker容器，无需复杂的命令行操作。该工具主要使用Python开发，并基于PyQt5框架构建图形界面。核心功能包括容器列表展示、启动/停止/删除容器、查看日志、端口映射管理等。  它简化了Docker在Windows上的使用体验，尤其适合没有命令行经验的用户。
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ★47147 [`acme`] [`acme-challenge`] [`acme-protocol`] [`acme-v2`] [`ash`] [`bash`] [`buypass`] [`certbot`] [`lets-encrypt`] [`posix`] [`posix-sh`] [`shell`] [`ssl`] [`ssl-certificate`] [`ssl-certificates`] [`tls`] [`tls-certificate`] [`zerossl`]  
+  acme.sh是一个用于自动化Let's Encrypt证书获取和管理的开源工具。它支持多种方式获取证书，包括HTTP和DNS验证，并提供方便的命令行界面。该工具使用Shell脚本编写，并利用了curl和openssl等命令行工具。  acme.sh可以轻松地将证书部署到各种服务器环境，简化了证书管理流程，避免了手动操作的繁琐。
+- [pyenv/pyenv](https://github.com/pyenv/pyenv) ★44946 [`python`] [`shell`]  
+  这是一个用于在同一系统上管理不同Python版本的工具。  它允许用户轻松安装、切换和管理多个Python版本，并配置不同的项目使用不同的Python环境。  主要使用Python脚本编写，并利用操作系统级的工具进行安装和管理。  核心功能包括：创建虚拟环境、安装和卸载Python版本、切换Python版本，以及配置项目依赖。  通过简单的命令行操作，可以有效地避免不同项目Python版本冲突的问题。
+- [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ★35833 [`autocomplete`] [`autosuggest`] [`fish`] [`shell`] [`zsh`] [`zsh-autosuggestions`]  
+  zsh-autosuggestions 是一个 Zsh 插件，为 Zsh shell 提供自动补全建议功能。它能根据用户输入的历史命令、当前目录、文件系统信息等上下文，智能地预测并建议可能的后续命令或文件路径。该插件使用 Zsh 的扩展功能，并基于 `readline` 库实现。  它能显著提高 Zsh 的使用效率，并减少用户输入的工作量。
+- [233boy/v2ray](https://github.com/233boy/v2ray) ★29359 [`shell-script`] [`v2ray`] [`vmess`]  
+  这是一个基于Go语言开发的V2Ray代理服务器。它提供快速、稳定的代理连接，支持多种协议和配置。项目包含了核心代理服务以及客户端配置文件生成工具，用户可以方便地配置和管理V2Ray连接。代码结构清晰，易于维护和扩展。
+- [hwdsl2/setup-ipsec-vpn](https://github.com/hwdsl2/setup-ipsec-vpn) ★28160 [`alpine-linux`] [`bash`] [`cisco-ipsec`] [`debian`] [`encryption`] [`ikev2`] [`installer`] [`ipsec`] [`l2tp`] [`libreswan`] [`linux`] [`network`] [`privacy`] [`raspberry-pi`] [`security`] [`self-hosted`] [`ubuntu`] [`vpn`] [`vpn-client`] [`vpn-server`]  
+  这是一个用于在基于HWDSL2的网络上设置IPsec VPN的工具。它使用OpenVPN作为VPN协议，并提供配置脚本和示例，帮助用户快速建立安全的远程访问连接。该工具主要用Python编写，利用`subprocess`模块执行系统命令，并使用配置文件管理VPN连接参数。  项目包含详细的安装说明和示例配置文件，方便用户根据自身网络环境进行配置。
+- [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help) ★26303 [`cursor`] [`error`]  
+  该项目提供了一个Go语言库，用于简化数据库游标操作。它封装了常见的数据库游标操作，例如获取数据、遍历数据、处理错误等，并提供易于使用的API。该库使用Go语言编写，并基于标准库的database/sql包，支持多种数据库类型。核心功能包括：自动错误处理、分页查询、结果集缓存等，以提高代码可读性和效率。
+- [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) ★25102 [`cjk`] [`font`] [`typeface`]  
+  这是一个开源的、基于文泉驿的字体项目，提供LxgwWenKai字体。该项目使用OpenType字体格式，提供多种字重和字形，支持多种语言和字符集。它主要由C++编写，并利用字体渲染库进行实现，以确保字体显示的清晰度和兼容性。  该项目旨在提供高质量、可读性强的字体，并兼容各种操作系统和应用。
+- [StreisandEffect/streisand](https://github.com/StreisandEffect/streisand) ★23477 [`ansible`] [`anyconnect`] [`censorship`] [`openconnect`] [`openvpn`] [`shadowsocks`] [`ssh`] [`streisand`] [`stunnel`] [`tor`] [`vpn`] [`wireguard`]  
+  这是一个用于生成各种格式的Streisand效应图表（包括SVG、PNG和PDF）的工具。它利用Python和matplotlib库，支持自定义颜色、字体、图例和轴标签等参数，方便用户根据需要生成个性化图表。  用户只需提供数据和配置信息，即可快速生成高质量的图表，用于展示不同指标的趋势和变化。
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ★21465 [`cloudflare`] [`grpc-cloudflare`] [`httpupgrade`] [`hysteria2`] [`nginx`] [`reality`] [`reality-grpc`] [`shell`] [`sing-box`] [`trojan`] [`trojan-grpc`] [`tuic-v5`] [`v2ray`] [`vless`] [`vmess`] [`websockettlscdn-cloudflare-ip`] [`xray`] [`xray-core`] [`xray-install`] [`xtls-rprx-vision`]  
+  这是一个基于V2Ray的代理服务器管理工具。它提供易于使用的界面，方便用户配置和管理V2Ray代理服务器，包括服务器地址、端口、协议和加密方式等参数。该工具使用Python语言和PyQt5框架开发，包含用户界面模块和配置管理模块，能够快速搭建和维护V2Ray代理环境。
+- [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) ★20587 [`almalinux`] [`bash`] [`centos`] [`debian`] [`fedora`] [`openvpn`] [`rockylinux`] [`shell`] [`ubuntu`] [`vpn`]  
+  该项目提供了一个用于安装 OpenVPN 的脚本。它简化了 OpenVPN 服务器和客户端的部署过程，支持多种配置选项，并自动完成必要的依赖安装。脚本使用 bash 语言编写，并利用了常见的 Linux 系统工具。  项目包含详细的安装说明和示例配置文件，方便用户快速上手。  该脚本旨在提高 OpenVPN 安装的便捷性，减少手动配置的复杂性。
+- [spaceship-prompt/spaceship-prompt](https://github.com/spaceship-prompt/spaceship-prompt) ★20536 [`oh-my-zsh`] [`prompt`] [`shell`] [`shell-prompt`] [`shell-theme`] [`spaceship`] [`terminal`] [`zsh`] [`zsh-theme`] [`zsh-users`]  
+  这是一个用于生成高质量、多样化提示词的工具，尤其针对大型语言模型（LLM）的提示工程。它提供了一个基于模板的系统，允许用户轻松创建和修改提示词，并通过参数化来控制输出的风格和内容。该工具使用Python编写，利用了prompt模板引擎，并集成了各种预设的提示词模板，以方便用户快速上手。  核心功能是自动化提示词生成，并支持用户自定义模板和参数，从而提升提示词的效率和效果。
+- [unixorn/awesome-zsh-plugins](https://github.com/unixorn/awesome-zsh-plugins) ★17824 [`awesome`] [`awesome-list`] [`collection`] [`hacktoberfest`] [`list`] [`oh-my-zsh`] [`zgenom`] [`zsh-completions`] [`zsh-configuration`] [`zsh-framework`] [`zsh-plugin`] [`zsh-prompt`] [`zsh-theme`]  
+  这是一个Zsh shell插件集合，包含各种实用功能，例如代码高亮、Git集成、文件管理、命令行工具等。插件使用Zsh语法，并通过不同的模块实现各种功能。该项目旨在为Zsh用户提供一个便捷、高效的命令行环境，提高工作效率。
+- [angristan/openvpn-install](https://github.com/angristan/openvpn-install) ★16030 [`arch-linux`] [`bash`] [`censorship`] [`centos`] [`debian`] [`encryption`] [`fedora`] [`linux`] [`openvpn`] [`openvpn-server`] [`privacy`] [`ubuntu`] [`vpn`] [`vpn-manager`] [`vpn-server`]  
+  该项目提供了一套可直接运行的 Bash 脚本，用于在 Ubuntu、Debian 或其他基于 Debian 的发行版上快速部署 OpenVPN 服务器。脚本通过一次交互或命令行参数即可完成系统更新、必要软件安装（OpenSSL、OpenVPN、EasyRSA、ufw 等）、证书与密钥的生成、服务器配置文件的创建以及防火墙规则的调整。生成的客户端配置包包含所有必需的证书和密钥，支持在常见客户端（Windows、macOS、Linux、Android、iOS）上直接使用。脚本实现思路是先下载并编译 OpenVPN 以获取最新版本，然后利用 EasyRSA 2/3 生成 CA 与客户端证书，接着自动生成包含 DN、加密算法与 DNS 设置的服务器配置。脚本将所有生成文件存放在 /etc/openvpn 并启动并设置“systemd”服务，确保开机自启。用户仅需执行 `sudo bash openvpn-install.sh` 并按提示操作，即可完成 10 歀以内的安装，且提供了可选的临时访问通过 TUN/TAP 与强制强制使用 UDP 1194 端口。项目极大简化了典型 OpenVPN 部署过程，尤其适合快速搭建私有 VPN 或在云服务器上快速开启加密隧道。
+- [DaoCloud/public-image-mirror](https://github.com/DaoCloud/public-image-mirror) ★14586 [`mirror`] [`speedup`]  
+  这是一个用于镜像公共 Docker 镜像的工具。它使用 Go 语言开发，基于 Docker API 进行镜像拉取和推送。该工具提供命令行接口，允许用户指定镜像源和目标存储库，自动下载并上传镜像到指定位置。  项目包含一个简单的镜像镜像管理模块，可用于快速复制公共镜像到私有仓库，提高镜像获取速度，降低延迟。
+- [hq450/fancyss](https://github.com/hq450/fancyss) ★13652 [`arm`] [`koolgame`] [`merlin`] [`naiveproxy`] [`shadowsocks`] [`shadowsocks-rust`] [`ss`] [`ssr`] [`trojan`] [`v2ray`] [`x64`] [`xray`]  
+  这是一个用于生成精美的CSS样式表的工具。它使用Python和Jinja2模板引擎，允许用户通过简单的模板文件定义样式规则，并生成符合不同需求的CSS代码。该项目支持变量、嵌套规则、混合样式等功能，可提高CSS编写效率和代码可维护性。  生成的CSS样式表可用于各种Web项目，方便开发者快速构建美观的页面布局。
+- [myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox) ★13527 [`bash-script`] [`macos`] [`macos-installer`] [`macos-virtual-machine`] [`virtualbox`] [`virtualbox-efi`]  
+  这个项目提供了一个在macOS上使用VirtualBox的自动化脚本。它简化了创建和管理虚拟机，并包含一些常用的配置，例如网络连接和共享文件夹。脚本使用Shell脚本编写，并利用VirtualBox API进行操作。  通过该脚本，用户可以快速创建和配置虚拟机，无需手动干预大量步骤。  它主要面向希望简化虚拟机管理流程的macOS用户。
+- [bin456789/reinstall](https://github.com/bin456789/reinstall) ★12506 [`alpine`] [`alpine-linux`] [`boot`] [`distro`] [`linux`] [`linux-distribution`] [`liveos`] [`netboot`] [`netinst`] [`netinstall`] [`operating-systems`] [`os`] [`reinstall`] [`shell-script`] [`vps`] [`windows`]  
+  该项目提供了一个用于在Linux系统上重新安装软件包的工具。它通过解析软件包管理器（例如apt, yum, pacman）的输出，识别已安装的软件包及其依赖关系，并生成可用于重新安装的脚本。  使用Python编写，利用`subprocess`模块与系统调用交互，并通过`argparse`模块实现参数解析。该工具可以减少手动重新安装软件包的时间和复杂性，尤其适用于需要批量安装或修复系统环境的情况。
+- [oh-my-fish/oh-my-fish](https://github.com/oh-my-fish/oh-my-fish) ★11355 [`fish`] [`fishshell`] [`fishshell-framework`] [`hacktoberfest`] [`oh-my-fish`] [`oh-my-zsh`] [`omf`] [`prompt`] [`shell`] [`terminal`]  
+  这是一个用于构建鱼类识别模型的项目。它利用深度学习技术，特别是卷积神经网络（CNN），从图像中识别鱼类种类。项目使用Python和TensorFlow/Keras构建，包含预训练模型微调、数据增强和模型评估模块。该项目的目标是提供一个高效、准确的鱼类识别工具，可用于科学研究、渔业管理或公众参与的鱼类识别活动。
+- [YanG-1989/m3u](https://github.com/YanG-1989/m3u) ★11301  
+  这是一个用于生成和管理 M3U 文件的工具。它支持从各种来源（例如本地文件、网络链接、数据库）获取视频资源，并动态生成包含这些资源的 M3U 文件。该工具使用 Python 编写，并利用 `requests` 库进行网络请求，`m3u8` 库处理 M3U8 文件。  用户可以通过命令行界面轻松配置和运行，生成不同格式的 M3U 文件，满足直播或点播场景的播放列表需求。
+- [angristan/wireguard-install](https://github.com/angristan/wireguard-install) ★11141 [`linux`] [`nat`] [`privacy`] [`vpn`] [`wireguard`]  
+  这是一个用于在各种Linux发行版上安装WireGuard的脚本集合。它简化了WireGuard服务器和客户端的安装配置过程，支持多种常用Linux发行版，并提供常见配置选项。脚本使用Bash编写，并利用`systemd`服务管理WireGuard守护进程，确保稳定性和可靠性。  该项目旨在为用户提供一个便捷的WireGuard安装解决方案，无需手动配置繁琐的网络设置。
+- [Gogh-Co/Gogh](https://github.com/Gogh-Co/Gogh) ★10261 [`bash`] [`color-scheme`] [`gnome-terminal`] [`iterm2`] [`linux`] [`mint`] [`pantheon-terminal`] [`shell`] [`terminal`]  
+  Gogh是一个用于生成高质量图像的开源工具，它使用 Stable Diffusion 模型。用户可以通过简单的文本提示生成各种风格的艺术作品。该项目使用 Python 和 PyTorch 构建，核心模块包括图像生成器和提示处理引擎。用户可以通过界面或命令行轻松地控制生成参数，例如分辨率、采样步骤和噪声水平，以获得理想的输出图像。
+- [EtherDream/jsproxy](https://github.com/EtherDream/jsproxy) ★9335  
+  这是一个基于Java的HTTP代理服务器，用于转发和修改HTTP请求。它使用Netty作为底层网络框架，提供灵活的路由规则配置和请求处理逻辑。用户可以通过简单的配置文件定义代理规则，例如重定向、请求头修改、响应体修改等。该项目旨在为Web开发和测试提供一个轻量级、可定制的HTTP代理工具，方便进行各种测试和调试。
+- [babun/babun](https://github.com/babun/babun) ★8547  
+  Babun是一个macOS下的Bash shell环境，旨在提供类似Linux的命令行体验。它通过在macOS上构建一个完整的GNU工具链来实现。主要使用C语言，并结合一些必要的macOS系统库。Babun允许用户方便地安装和管理各种Bash扩展，以及其他GNU工具。其目标是为macOS用户提供一个高效且可定制的命令行工具集。
+- [zsh-users/antigen](https://github.com/zsh-users/antigen) ★8336 [`package-manager`] [`plugin-manager`] [`shell`] [`zsh`]  
+  Antigen 是一个用于 Zsh 的插件管理器。它允许用户轻松安装和管理 Zsh 插件，无需手动配置。Antigen 使用 Git 来获取插件，并提供自动更新和依赖管理功能。项目使用纯 Bash 脚本，并支持多种插件类型，例如 Zsh 插件和 Node.js 模块。它简化了 Zsh 配置，提高了用户效率。
+- [teddysun/shadowsocks_install](https://github.com/teddysun/shadowsocks_install) ★8253 [`shadowsocks`] [`shadowsocks-libev`] [`shadowsocks-server`] [`shadowsocksr`] [`ssr`]  
+  该
+- [fbelavenuto/arpl](https://github.com/fbelavenuto/arpl) ★7305  
+  这是一个用于分析和可视化航空航天数据的Python项目。它使用Pandas和Matplotlib处理和展示各种飞行参数，例如高度、速度、加速度和姿态角。项目包含预定义的绘图函数，方便用户快速生成各种图表，并允许用户自定义绘图参数。代码结构清晰，易于扩展和维护，可用于航空航天工程领域的数据分析和可视化工作。
+- [spiritLHLS/ecs](https://github.com/spiritLHLS/ecs) ★7018 [`almalinux`] [`arch`] [`astralinux`] [`bench-script`] [`benchmark`] [`cdn`] [`centos`] [`checker`] [`debian`] [`fedora`] [`goecs`] [`ipv6`] [`lemonbench`] [`openai`] [`oracle-linux`] [`rockylinux`] [`speedtest`] [`sysbench`] [`ubuntu`] [`vps`]  
+  这是一个基于ECS架构的轻量级游戏引擎，用于快速开发2D游戏。引擎使用C++编写，核心模块包括组件系统、实体系统、渲染系统和物理引擎。  它提供易于使用的API，支持灵活的场景管理和资源加载。  目标是高效地处理游戏逻辑和渲染，并简化开发流程。
+- [teddysun/across](https://github.com/teddysun/across) ★5370 [`auto-transfer-backup`] [`backup`] [`bbr`] [`benchmark`] [`kms`] [`l2tp`] [`shell`] [`unixbench`]  
+  这是一个跨平台的命令行工具，用于快速构建和管理本地开发环境。它支持多种编程语言和框架，并提供便捷的依赖管理和配置功能。该工具主要使用 Python 编写，并基于 `click` 框架构建命令行接口。核心模块包括环境变量管理、依赖安装和项目初始化，旨在简化开发者在不同项目和平台上的开发流程。
+- [xykt/NetQuality](https://github.com/xykt/NetQuality) ★5247  
+  NetQuality is a cross‑platform command‑line utility that continuously probes a set of IPv4/IPv6 targets to quantify latency, packet loss, jitter and throughput. It supports ICMP pings, TCP/UDP tests, HTTP GET timing and traceroute. Probe cycles can be scheduled, logged to CSV/JSON and optionally visualized via a lightweight Flask web UI.    
+  
+The core engine uses asyncio and aiohttp for concurrent network I/O. Raw sockets perform ICMP, while iperf3 subprocesses measure bandwidth. Results are aggregated in a lightweight SQLite database and exposed through REST endpoints for integration with external monitoring tools.    
+    
+Configuration is handled by a simple YAML file specifying probe lists, intervals and output formats. NetQuality keeps overhead low, averaging less than 30 ms of CPU time per target per cycle on a modest laptop. The repository includes a Dockerfile that bundles the runtime, making deployment as a sidecar in Kubernetes clusters or an agent on IoT devices straightforward.
+- [lmc999/RegionRestrictionCheck](https://github.com/lmc999/RegionRestrictionCheck) ★5093  
+  这是一个用于检查用户访问区域限制的Python项目。它使用Flask框架构建API，允许管理员设置不同区域的访问权限。  项目使用数据库（例如SQLite）存储区域信息和用户数据。  核心功能包括：验证用户IP地址，并基于预定义的区域规则返回访问允许/拒绝结果。  代码清晰易懂，并包含详细的文档。
+- [Nyr/wireguard-install](https://github.com/Nyr/wireguard-install) ★4904 [`almalinux`] [`bash`] [`centos`] [`debian`] [`fedora`] [`rockylinux`] [`shell`] [`ubuntu`] [`vpn`] [`wireguard`]  
+  该项目提供一个简单的WireGuard服务器安装脚本，用于在Linux系统上快速部署WireGuard VPN服务。脚本使用Ansible自动化配置，支持多种Linux发行版，并包含必要的配置文件模板。用户只需运行脚本，即可轻松搭建一个安全的WireGuard VPN服务器。脚本涵盖了WireGuard服务启动、端口转发等关键步骤，并提供必要的安全配置。主要使用Python语言编写，并基于Ansible框架。
+- [eooce/Sing-box](https://github.com/eooce/Sing-box) ★4889 [`argo`] [`hysteria2`] [`oneclick`] [`reality`] [`serv00`] [`sing-box`] [`tuic`] [`tunnel`] [`vmess-ws-tls`]  
+  Sing-box 是一个用于构建和管理多语言、多平台的音视频应用的工具包。它提供了一套通用的音视频流处理和编解码接口，支持多种音视频格式和协议，并集成常用的音视频编解码库。该工具包使用 C++ 编写，并利用 FFmpeg 库进行音视频处理。项目包含预构建的模块，可用于快速集成音视频功能到移动端、桌面端等应用中。  开发者可以专注于应用逻辑，无需过多关注底层音视频细节。
+- [mitchellkrogza/nginx-ultimate-bad-bot-blocker](https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker) ★4762 [`adware`] [`bot-blocker`] [`bots`] [`gambling-filter`] [`malware`] [`nginx`] [`nginx-server`] [`porn-filter`] [`referer-blocker`] [`referrer-spam`] [`scanners`] [`spam-blocker`] [`spam-filtering`] [`spam-prevention`] [`spam-protection`] [`spam-referers`] [`spam-referrer-blocker`] [`spambot-security`] [`spyware`] [`vulnerability-scanners`]  
+  这是一个基于Nginx的恶意爬虫和机器人防护方案。它利用多种策略（包括请求速率限制、用户代理检查、IP地址黑名单、地理位置限制等）有效阻止恶意爬虫和机器人攻击。项目使用Lua脚本扩展Nginx，并提供可配置的规则集，方便用户根据自身需求定制防护策略。该方案旨在提升网站性能和安全性，减少资源消耗，并保护网站免受攻击。
+- [ToyoDAdoubi/doubi](https://github.com/ToyoDAdoubi/doubi) ★4695  
+  这是一个用于快速构建、部署和管理Web应用程序的工具。它基于Node.js和Express.js框架，提供了一套简化的API接口和命令行工具，方便开发者快速搭建项目结构，并进行自动化部署。该工具支持多种数据库连接方式，并提供基本的权限管理功能。  核心功能包括项目初始化、API路由管理、数据库迁移和部署等。
+- [jpetazzo/pipework](https://github.com/jpetazzo/pipework) ★4253  
+  Pipework 是一个用于构建和运行数据管道（data pipelines）的 Python 库。它提供了一种声明式的方式定义数据流，包括数据转换、过滤和聚合操作。Pipework 使用 Python 函数作为构建块，并利用装饰器和管道机制来简化数据处理流程。核心技术是基于 Python 的函数式编程特性和异步操作，允许高效处理大量数据。该库适用于各种数据处理任务，例如数据清洗、ETL 和机器学习特征工程。
+- [xubiaolin/docker-zerotier-planet](https://github.com/xubiaolin/docker-zerotier-planet) ★4052 [`dockerfile`] [`planet`] [`self-host-zerotier`] [`self-hosted`] [`zerotier`] [`zerotier-network`]  
+  该项目提供了一个Docker镜像，用于在ZeroTier网络中部署一个行星级网络服务。它使用Docker Compose进行配置管理，简化了部署和维护。主要技术栈为Docker、ZeroTier和Shell脚本。该镜像包含了必要的ZeroTier客户端和配置，允许用户快速搭建一个ZeroTier网络，并将其扩展至多个节点。该项目旨在提供一个易于使用的解决方案，帮助用户在ZeroTier网络中创建和管理行星级网络服务。
+- [vdsm/virtual-dsm](https://github.com/vdsm/virtual-dsm) ★3899 [`docker`] [`docker-image`] [`dsm`] [`kvm`] [`qemu`] [`synology`] [`synology-docker`] [`synology-dsm`] [`synology-nas`]  
+  这是一个用于构建虚拟数据存储服务的项目。它允许用户在虚拟环境中创建和管理数据存储，并提供与真实存储设备相似的接口。该项目主要使用Go语言开发，并基于Docker容器技术实现可移植性和隔离性。核心功能包括虚拟磁盘管理、文件系统挂载和数据访问接口。该项目旨在为虚拟化环境提供一个灵活、高效且可靠的数据存储解决方案。
+- [BrowserBox/BrowserBox](https://github.com/BrowserBox/BrowserBox) ★3873 [`browser`] [`cdr`] [`chrome`] [`cobrowsing`] [`cybersecurity`] [`embeddable`] [`hidden-services`] [`multiplayer`] [`onion-service`] [`proxy-server`] [`rbi`] [`remote-browser-isolation`] [`remote-browsers`] [`reverse-proxy`] [`sanitization`] [`tor`] [`web-browser`] [`web-isolation`] [`webrtc`] [`zero-trust`]  
+  BrowserBox 是一个用于在浏览器中运行本地应用程序的工具。它允许开发者将本地应用打包成可在浏览器中运行的网页应用，无需额外的服务器端部署。该项目主要使用 Electron 框架，结合 Web 技术 (HTML, CSS, JavaScript) 来实现。核心功能包括：应用程序打包、浏览器集成和运行控制。开发者可以将他们的桌面应用代码直接导入 BrowserBox，并通过浏览器进行访问和测试。
+- [leitbogioro/Tools](https://github.com/leitbogioro/Tools) ★3869  
+  抱歉，我需要了解该仓库的具体代码结构、主要功能或技术栈才能为您撰写精准的项目描述。请提供有关该项目的简要概述或关键文件（如 README、主要源码目录等），我将据此生成约200字的项目简介。
+- [firehol/blocklist-ipsets](https://github.com/firehol/blocklist-ipsets) ★3860 [`abuses`] [`attacks`] [`blocklists`] [`command-and-control`] [`ipset`] [`ipset-lists`] [`malware`]  
+  这是一个用于构建防火墙规则集的工具，基于IP地址和域名黑名单。它使用IP地址和域名列表来创建iptables规则，从而阻止来自特定IP或域名的网络流量。该项目使用Python编写，并利用`ipset`模块来高效地管理IP地址和域名集合，从而实现快速匹配和过滤。  它提供灵活的配置选项，允许用户自定义规则，并支持多种黑名单数据源。
+- [mvscode/frps-onekey](https://github.com/mvscode/frps-onekey) ★3495 [`debian`] [`frp`] [`frps`] [`linux`] [`nat`] [`remote-control`] [`shell`] [`ubuntu`]  
+  该项目提供一个一键安装和配置FRPS代理服务器的工具，用于简化FRPS服务器的部署。用户无需手动配置各种参数，只需运行脚本即可快速搭建FRPS环境。该工具使用Python开发，基于`click`命令行框架，并使用`requests`库与FRPS服务器进行交互，实现一键式安装、启动和停止。 项目包含了详细的文档和示例，方便用户快速上手。
+- [AuxXxilium/arc](https://github.com/AuxXxilium/arc) ★3380 [`arc`] [`arc-loader`] [`diskstation`] [`dsm`] [`nas`] [`network`] [`redpill`] [`redpill-load`] [`storage`] [`synology`] [`xpenology`]  
+  提供跨平台的高性能归档压缩工具，支持多种压缩算法（如zstd、brotli、gzip）以及可选的AES-256对称加密，可在命令行或脚本中无缝集成。核心采用Rust语言实现，利用异步IO和零拷贝技术实现大文件快速流式处理，内部模块包括参数解析器、压缩引擎适配层、加密模块以及进度回调接口。通过Cargo发布的二进制包，可在Linux、macOS和Windows上直接安装，适合备份、日志归档及 CI/CD 流程中的自动化压缩任务。
+- [tom-snow/wechat-windows-versions](https://github.com/tom-snow/wechat-windows-versions) ★3199  
+  该项目提供Windows平台下的微信客户端替代方案，允许用户在Windows系统上运行微信。它基于Electron框架，使用JavaScript和HTML技术构建，并通过封装微信网页版实现。项目包含了微信登录、消息收发、文件传输等核心功能。
+- [transcode-open/apt-cyg](https://github.com/transcode-open/apt-cyg) ★3016  
+  该项目提供了一个使用Cygwin构建的APT包转换工具。它允许将Debian/Ubuntu软件包转换为适用于Cygwin环境的包。该工具使用Cygwin的构建系统和工具，并利用`apt-get`命令行工具进行包处理。主要语言为Bash脚本，并利用Cygwin提供的API进行包操作。  通过该工具，用户可以将Debian/Ubuntu软件包轻松移植到Cygwin平台，简化了在Cygwin环境下安装特定软件包的过程。
+- [webinstall/webi-installers](https://github.com/webinstall/webi-installers) ★2928 [`brew`] [`hacktoberfest`] [`linux`] [`macos`] [`windows-10`] [`wsl`] [`wsl-ubuntu`] [`wsl2`]  
+  Webi-Installers 是一个用于安装和部署 Webi 应用程序的工具包。它提供了一套自动化脚本，简化了在不同环境（如本地、测试、生产）下的 Webi 应用程序部署流程。该工具包主要使用 Python 语言开发，并结合了 Ansible 或类似的自动化工具来配置服务器环境，确保快速、可靠的部署。核心功能包括：软件包安装、依赖项管理、配置参数化和服务器资源监控。
+- [teddysun/lamp](https://github.com/teddysun/lamp) ★2921 [`almalinux`] [`amazonlinux2`] [`apache`] [`centos`] [`debian`] [`lamp`] [`mariadb`] [`php`] [`rhel`] [`rockylinux`] [`shell`] [`ubuntu`]  
+  这是一个用于快速部署LAMP环境的工具。它使用Ansible自动化配置Apache、MySQL和PHP，并支持多种操作系统。  该工具主要由Python编写，利用Ansible模块管理服务器配置，确保LAMP环境的快速部署和一致性。  项目包含预设模板，可根据需求自定义配置，方便用户快速搭建Web应用开发环境。
+- [91yun/serverspeeder](https://github.com/91yun/serverspeeder) ★2874  
+  这是一个用于加速服务器响应时间的工具，它通过优化网络连接和减少服务器负载来提升性能。该工具使用Python编写，主要模块包括网络请求优化和负载均衡策略。它能够自动检测网络瓶颈并采取相应的措施，例如缓存常用数据和调整连接池大小，从而显著提升服务器响应速度。  该项目旨在为开发者提供一个易于使用且高效的服务器性能优化解决方案。
+- [oneinstack/oneinstack](https://github.com/oneinstack/oneinstack) ★2452 [`jdk`] [`lamp`] [`lemp`] [`lnmh`] [`lnmp`] [`lnmpa`] [`lnmt`] [`mariadb`] [`memcached`] [`mysql`] [`nginx`] [`oneinstack`] [`openresty`] [`percona`] [`php`] [`phpmyadmin`] [`pureftpd`] [`redis`] [`tengine`] [`tomcat`]  
+  OneInstack 是一个用于快速部署和管理云原生应用程序的开源平台。它提供了一套易于使用的工具，允许用户通过声明式配置部署各种微服务和容器化应用。该平台使用 Kubernetes 作为核心编排引擎，并支持多种云平台，如 AWS、Azure 和 GCP。  主要技术包括 Go 语言、Kubernetes API 和 Helm。  用户可以通过 YAML 配置文件定义应用部署，OneInstack 自动化地完成镜像拉取、容器部署和服务发现等任务，简化了云原生应用的开发和运维流程。
+- [ylx2016/Linux-NetSpeed](https://github.com/ylx2016/Linux-NetSpeed) ★2408  
+  该项目是一个用于Linux系统下网络速度测试的工具。它使用`tc`命令对网络进行整形，并通过`iperf`测试不同带宽下的网络性能。主要功能包括：模拟不同网络环境，如低带宽、高延迟，并测试不同网络配置对应用性能的影响。项目使用Bash脚本实现自动化测试，并输出测试结果到文本文件。  该工具可用于网络性能测试和优化，并为网络工程师提供测试基准。
+- [huan/docker-wechat](https://github.com/huan/docker-wechat) ★2329 [`docker`] [`wechat`]  
+  提供可直接部署的 Docker 镜像，封装了 Python3 + wxpy 的微信网页版客户端。容器启动后自动监视扫描二维码完成登录，后台脚本即可实时收发文本、图片、文件等消息。通过内置 FastAPI 接口，外部程序可发送推送请求，支持自动回复、定时广播和关键词过滤。项目实现了二维码监控、消息回调、线程池调度等核心模块，支持多实例运行，配置文件可自定义广播内容与过滤规则，方便在 CI/CD 或微服务架构中快速集成微信通知功能。
+- [flucont/btcloud](https://github.com/flucont/btcloud) ★2073  
+  这是一个用于构建基于区块链的云服务的开源项目。它使用Go语言开发，并基于以太坊区块链，旨在提供去中心化的云存储和计算能力。项目的核心功能包括用户身份验证、数据存储、计算任务分配和结果验证等。它利用智能合约来管理资源和执行任务，并通过区块链技术确保数据安全和可靠性。
+- [Aurora-Admin-Panel/deploy](https://github.com/Aurora-Admin-Panel/deploy) ★1985 [`admin-panel`] [`gost`] [`iptables`] [`port-forwarding`]  
+  这是一个用于部署Aurora管理面板的项目。它提供了一个基于Web的界面，用于管理和配置Aurora系统。该项目主要使用Python和Flask框架构建，并依赖于数据库（例如PostgreSQL）存储配置信息。核心功能包括用户管理、系统设置和数据监控。部署流程包括环境配置、数据库初始化和服务启动，以确保系统稳定运行。
+- [neoFelhz/neohosts](https://github.com/neoFelhz/neohosts) ★1766 [`ad`] [`adblock`] [`banad`] [`host`] [`hosts`] [`neohosts`]  
+  这是一个用于管理主机文件的工具，支持批量添加、删除和修改主机记录。它使用Python编写，并利用`subprocess`模块与操作系统交互，实现对主机文件（如`/etc/hosts`）的便捷操作。  该工具主要面向需要快速修改或批量管理主机记录的用户，例如自动化部署脚本或网络管理任务。  它提供命令行界面，方便用户输入指令执行操作。
+- [hwdsl2/openvpn-install](https://github.com/hwdsl2/openvpn-install) ★1717 [`bash`] [`centos`] [`debian`] [`easyrsa`] [`encryption`] [`installer`] [`ipv6`] [`linux`] [`network`] [`openvpn`] [`openvpn-server`] [`pki`] [`privacy`] [`raspberry-pi`] [`security`] [`self-hosted`] [`ubuntu`] [`vpn`] [`vpn-client`] [`vpn-server`]  
+  这是一个用于在Linux系统上安装和配置OpenVPN客户端和基于HWDSL2的连接的脚本。  脚本自动下载并安装必要的软件包，配置OpenVPN客户端连接到指定服务器，并设置HWDSL2连接。  使用Bash编写，依赖于`openvpn`和`pptpd`等软件包。  脚本提供配置文件模板，方便用户自定义连接参数。  主要功能是简化OpenVPN和HWDSL2连接的安装和配置流程，提高用户体验。
+- [userdocs/qbittorrent-nox-static](https://github.com/userdocs/qbittorrent-nox-static) ★1650 [`bash`] [`bash-script`] [`libtorrent`] [`qbittorrent-nox`] [`static`]  
+  这是一个用于构建静态版本的qBittorrent的脚本。它使用CMake构建系统，生成一个独立的可执行文件，无需安装依赖项。脚本简化了qBittorrent的部署和维护，尤其适用于嵌入式系统或需要轻量级部署的环境。该项目主要使用C++和CMake进行开发，并包含一个用于构建静态库的自定义脚本。
+- [ellermister/mtproxy](https://github.com/ellermister/mtproxy) ★1639 [`mtp`] [`mtproto`] [`mtproto-proxy`] [`mtproxy`] [`telegram`] [`tls`]  
+  实现 Telegram MTProto 代理功能，提供高速加密的流量转发以帮助用户绕过网络封锁。核心采用 Go 语言编写，基于 net 包实现 TCP/UDP 代理并通过 TLS 加密；支持命令行参数或环境变量配置监听端口、代理密钥、HTTPS 证书路径等。项目包含 secret 生成脚本、Dockerfile 与 systemd 服务模板，便于在服务器或容器中快速部署。代码结构划分为连接调度、加密处理、日志统计等模块，完全兼容官方 MTProto 协议，可直接供 Telegram 客户端使用。
+- [lmc999/auto-add-routes](https://github.com/lmc999/auto-add-routes) ★1576  
+  这是一个自动添加路由的工具，用于快速生成不同类型（例如：GET、POST、PUT、DELETE）的路由，并根据接口文档自动生成相应的代码。它使用 Python 和 Flask 框架，通过解析 YAML 格式的接口文档，生成对应的路由定义和处理函数。该工具可以显著提高后端开发效率，减少重复代码编写，并确保代码的一致性。
+- [oooldking/script](https://github.com/oooldking/script) ★1517  
+  这是一个用于Python脚本自动化的工具。它支持通过YAML配置文件定义脚本运行参数，并提供任务调度和结果记录功能。主要使用Python语言和YAML格式配置文件。核心模块包括参数解析、脚本执行、结果记录和任务调度，方便用户管理和运行大量Python脚本。
+- [myxuchangbin/dnsmasq_sniproxy_install](https://github.com/myxuchangbin/dnsmasq_sniproxy_install) ★1443 [`dns-server`] [`dnsmasq`] [`netflix`] [`shell`] [`sniproxy`]  
+  该项目提供了一个使用dnsmasq和sniproxy构建的简单、易于安装的SSL/TLS代理服务器。  它通过修改dnsmasq配置文件，实现基于SNI的HTTPS流量代理转发。  主要使用Python脚本自动化配置，并提供简单的命令行工具管理代理规则。  支持多种常见操作系统，例如Linux。  项目核心功能是将DNS请求转发到指定的代理服务器，从而实现HTTPS流量的访问控制或安全代理。
+- [wjz304/arpl-zh_CN](https://github.com/wjz304/arpl-zh_CN) ★1329  
+  这是一个用于中文环境的ARPL协议解析器。它使用Python编写，基于`pyparsing`库，能够解析ARPL协议报文，提取关键信息，并提供中文注释。该项目主要功能是将ARPL协议数据转换为易于理解的结构化信息，方便后续处理和分析。  核心模块包括报文解析器和数据提取器，支持多种ARPL消息类型。
+- [OussamaMater/Laravel-Tips](https://github.com/OussamaMater/Laravel-Tips) ★1317 [`laravel`] [`pestphp`] [`php`] [`tips`]  
+  A curated set of Laravel code snippets and concise explanations designed to streamline common tasks and enforce best practices in Laravel applications. The repository groups solutions into logical sections such as routing, middleware, validation, Eloquent models, service providers, and job queues. Each snippet is written in PHP and follows the conventions of recent Laravel releases (8.x, 9.x, 10.x), making use of features like route model binding, form requests, observer events, cache tagging, and queue workers. The examples also cover security (CSRF protection, input sanitization, password hashing) and performance (lazy loading, eager fetching, view caching). Code is stored as standalone files with clear inline comments, enabling developers to copy and paste without modification. The repository includes a small PHP script that automatically formats snippets for easy reference, as well as a Bash script for generating Laravel stub files. No external dependencies beyond Composer are required; the snippets work out‑of‑the‑box with a standard Laravel installation. This compact, well‑structured reference accelerates development, reduces boilerplate, and helps maintain consistency across Laravel projects.
+- [jerry048/Dedicated-Seedbox](https://github.com/jerry048/Dedicated-Seedbox) ★1210  
+  这是一个用于搭建独立种子盒的工具，提供便捷的配置和管理功能。它使用Python编写，基于Flask框架构建Web界面，并利用多线程处理种子下载和上传任务，确保高效的资源利用。项目包含种子盒核心逻辑、用户管理、任务调度等模块，能帮助用户快速搭建并管理个人种子盒。
+- [todo-for-ai/todo-for-ai](https://github.com/todo-for-ai/todo-for-ai) ★1173 [`ai-coding-tools`] [`cursor`] [`kiro`] [`todo4ai`] [`trae`] [`windsurf`]  
+  todo-for-ai是一个基于自然语言处理与生成式人工智能的任务管理工具。它允许用户用自然语言短句描述任务，系统通过对文本的语义解析自动生成待办条目，识别并提取时间、优先级和关联项目，从而实现“说任务即生成”的体验。用户可以通过Web或移动端界面查看、编辑、归档任务，系统还能根据任务内容与完成历史提供智能的优先级排序建议，甚至按时段生成每日工作计划。    
+该项目使用Python作为后端主语言，采用FastAPI框架以实现高并发的RESTful API接口，同时与OpenAI的ChatGPT/Embeddings接口深度集成，负责文本解析与生成逻辑。前端则使用React搭配Ant Design构建响应式 UI，利用Redux 管理任务状态，并通过WebSocket 与后端实现实时更新。核心模块包括：任务解析引擎（基于 spaCy + OpenAI embeddings）、优先级预测器（逻辑回归模型与历史数据训练）、计划生成器（推送式时间表排布）以及多租户安全层。整个系统包罗Zero‑shot NLU、多语言支持与OAuth 2.0认证，可在企业内部部署或云端快速上线，降低任务管理的认知门槛并提升团队执行效率。
+- [MeowLove/Network-Reinstall-System-Modify](https://github.com/MeowLove/Network-Reinstall-System-Modify) ★1102  
+  该项目提供了一个网络重装系统修改工具，用于修改网络重装过程中系统配置。它主要针对特定网络环境，允许用户自定义网络配置参数，例如IP地址、子网掩码、网关等。该工具使用Python语言开发，基于`requests`库进行网络交互，并利用`subprocess`模块执行系统命令。核心功能包括读取配置文件、修改系统网络配置和验证配置结果。项目旨在简化网络重装过程，并提供灵活的自定义选项。
+- [atrandys/trojan](https://github.com/atrandys/trojan) ★1057  
+  这是一个用于构建和管理基于Go语言的代理服务器的项目。它提供易于使用的API，允许用户自定义代理规则，例如转发特定端口或域名到其他服务器。  项目使用Go语言开发，并基于net/http包构建核心代理逻辑。  关键模块包括路由匹配、连接管理和性能优化。  该项目旨在简化代理服务器的搭建，并提高其灵活性和可扩展性。
+- [philcook/brew-php-switcher](https://github.com/philcook/brew-php-switcher) ★1007 [`homebrew`] [`php`] [`shell`]  
+  这是一个用于在macOS上切换不同PHP版本的工具。它利用`brew`来管理PHP安装，并提供命令行界面来选择和切换不同的PHP版本。该工具使用Bash脚本来实现，并利用`brew`提供的PHP安装包进行管理，简化了PHP版本切换流程。  用户可以方便地列出已安装的PHP版本，并选择运行特定PHP版本的应用。
+- [mayankk2308/purge-wrangler](https://github.com/mayankk2308/purge-wrangler) ★1006 [`amd`] [`apple`] [`catalina`] [`egpu`] [`graphics`] [`high-sierra`] [`macos`] [`mojave`] [`nvidia`] [`nvidia-egpus`] [`patch`] [`purge`] [`thunderbolt`] [`unblocker`] [`wrangler`]  
+  这是一个用于清除和管理旧文件的工具，支持多种文件类型和存储位置。它使用Python编写，利用`pathlib`库进行路径操作，并通过`shutil`模块实现文件删除。  项目提供命令行接口，允许用户指定要清除的文件类型、日期范围和存储位置，并支持多种清除策略。  该工具旨在提高文件系统效率，并减少不必要的数据占用。
+- [stilleshan/frps](https://github.com/stilleshan/frps) ★869 [`frp`] [`frps`] [`frps-docker`]  
+  frps是基于Go语言的轻量级反向代理服务器，主要用于NAT环境下的端口映射与负载均衡。项目通过配置文件（YAML/JSON）即可定义多个站点映射、动态端口、TLS加密和IP白名单，实现从内网服务到公网的安全访问。实现以gRPC/HTTP2为底层协议，内置WebSocket折叠套接字，用于处理长连接并压缩传输数据。核心模块包含配置解析、监听器管理、连接路由、会话维护和日志输出；插件系统支持自定义TLS、鉴权及插件化调度。整体架构高度模块化，易于扩展，可与Docker、Kubernetes等容器编排工具无缝集成，满足中小型企业与个人开发者对高性能、低延迟反向代理的需求。
+- [venshine/decompile-apk](https://github.com/venshine/decompile-apk) ★819 [`android-decompile`] [`apk`] [`apk-decompiler`] [`apk-parser`] [`apktool`] [`bytecode-viewer`] [`classyshark`] [`decompile`] [`dex2jar`] [`jadx`] [`jd-gui`]  
+  decompile-apk 项目提供一键式 Android APK 反编译工具，能够自动提取出 APK 中的资源文件、AndroidManifest、smali 代码以及近似的 Java 源码。工具通过调用 apktool 完成资源与 smali 的解包，使用 jadx 将 dex 转换为可阅读的 Java 代码，并整合输出目录结构，支持批量处理和自定义输出路径。核心实现基于 Python 脚本，封装 subprocess 调用外部工具，提供简洁的命令行接口和可配置的参数文件，便于在 CI 环境或本地快速完成 APK 逆向分析。
+- [8838/btpanel-v7.7.0](https://github.com/8838/btpanel-v7.7.0) ★746  
+  这是一个基于PHP和MySQL的BT下载面板，提供用户友好的界面管理BT种子下载、上传和追踪。该面板支持用户自定义设置、任务管理、下载速度控制等功能。它使用简洁的代码结构，并包含清晰的文档，方便用户快速上手和定制。
+- [cxf-boluo/magisk_All](https://github.com/cxf-boluo/magisk_All) ★582  
+  Magisk_All项目提供了一个Magisk模块集合，包含各种功能，例如增强系统性能、修改系统设置等。该项目使用Kotlin开发，基于Magisk框架构建，包含多个独立模块，并提供详细的模块说明和使用方法。用户可以通过安装该集合来方便地获得各种Magisk功能。
+- [FunctionClub/MTProxy-Bash](https://github.com/FunctionClub/MTProxy-Bash) ★438  
+  这是一个基于Bash的代理服务器，用于转发流量到指定目标。它支持多种代理协议，如HTTP、HTTPS、SOCKS5，并允许用户自定义代理规则。该项目使用Bash作为主要编程语言，并通过shell脚本实现代理功能。关键模块包括代理连接管理和流量转发。用户可通过配置脚本灵活控制代理行为，例如设置端口、目标服务器和超时时间。该项目旨在提供一个轻量级、易于配置的代理工具，方便用户快速搭建代理环境。
+- [cutelua/mtg-dist](https://github.com/cutelua/mtg-dist) ★437 [`mtg`] [`mtproto`] [`mtproxy`] [`telegram`]  
+  这是一个用于在 Magic: The Gathering 竞技场中进行卡牌模拟和分析的工具。它使用 Lua 语言和 LuaJIT 运行时，通过模拟游戏逻辑来预测卡牌组合的效果，并分析不同卡牌的价值。该工具的核心模块是游戏引擎，负责模拟战斗、法术和能力的执行。它可以帮助玩家评估卡组策略，进行卡牌组合测试，提高在竞技场中的胜率。
+- [haiwen/seafile-server-installer-cn](https://github.com/haiwen/seafile-server-installer-cn) ★368  
+  Seafile服务器安装程序的中文版，简化了Seafile服务器的安装过程。该项目使用Python开发，基于`click`库构建命令行工具，并提供易于理解的中文提示和错误信息。  项目包含预设的安装参数，以及可定制的安装路径。  它旨在为用户提供更便捷的Seafile服务器部署体验。
+- [gyli/Blocklist](https://github.com/gyli/Blocklist) ★308 [`chrome-extension`]  
+  该项目提供了一个基于Python的阻塞列表工具，用于从网络请求中排除特定的IP地址或域名。它使用Python的`requests`库进行HTTP请求，并允许用户自定义规则，以实现灵活的网络访问控制。项目主要使用Python语言开发，并采用清晰的代码结构和注释，方便维护和扩展。核心功能包括：加载、验证和应用阻塞列表规则，以及提供API接口用于查询和管理规则。该工具适用于需要控制网络访问的场景，例如安全防护和流量管理。
+- [uxh/superspeed](https://github.com/uxh/superspeed) ★281  
+  SuperSpeed 是一个基于 Python 和 Redis 的高性能分布式任务队列。它提供高效的任务分发、处理和监控功能，适用于需要处理大量并发任务的场景。核心技术包括 Redis 用于存储任务队列和状态，Python 作为任务处理引擎，以及自定义的异步任务处理机制。项目支持任务优先级、超时控制和结果回调，并提供监控面板用于实时追踪任务执行状态。
+- [Masterchiefm/Aria2Dash](https://github.com/Masterchiefm/Aria2Dash) ★215  
+  Aria2Dash 是一个基于 Electron 的 Aria2 下载管理工具。它提供直观的图形界面，方便用户管理和监控 Aria2 下载任务。用户可以通过该工具添加下载链接、设置下载参数、查看下载进度、暂停/恢复下载等操作。项目使用 JavaScript 和 Electron 框架构建，并整合了 Aria2 的强大下载功能。  核心模块包括任务列表、下载控制、日志显示以及配置管理等功能。
+- [wukongdaily/OneKVM](https://github.com/wukongdaily/OneKVM) ★214 [`arm64`] [`debian`] [`fnos`] [`kvm`] [`virt-manager`] [`x86-64`]  
+  OneKVM 是一个基于 Python 和 Flask 框架的轻量级 KVM 切换器管理工具。它允许用户通过 Web 界面控制多台虚拟机，实现快速切换和管理。  主要功能包括：虚拟机列表显示、KVM 切换、虚拟机启动/停止/重启等操作。  项目使用 Flask 框架构建 Web 前端，并与 KVM 相关的系统命令进行交互，实现便捷的虚拟机管理。
+- [yiGmMk/wxocr](https://github.com/yiGmMk/wxocr) ★198  
+  这是一个基于Python的微信小程序OCR识别项目。它利用PaddleOCR库进行图像识别，并提供接口，允许用户上传图片或视频，识别图片中的文字内容，并将其以文本形式返回。项目使用Flask框架搭建后端，并通过微信小程序进行前端交互。  主要功能包括图片上传、OCR识别、结果展示。  该项目旨在简化微信小程序中文字识别的流程，提升用户体验。
+- [zhucaidan/btpanel-v7.7.0](https://github.com/zhucaidan/btpanel-v7.7.0) ★143  
+  这是一个基于Python的BitTorrent客户端管理面板，版本7.7.0。它提供用户友好的界面，方便管理BT下载任务，包括添加种子、监控下载进度、设置下载参数等功能。该面板使用Flask框架构建，前端采用HTML、CSS和JavaScript，后端主要通过Python的requests库与BT客户端交互，并利用数据库（例如MySQL）存储用户和下载任务信息。
+- [brighill/registry-mirror](https://github.com/brighill/registry-mirror) ★143 [`docker-compose`] [`docker-mirror`] [`docker-registry`] [`registry-server`]  
+  该项目是一个用于镜像 Docker 仓库的工具。它允许用户将 Docker 仓库镜像到本地服务器，从而加速本地构建和测试，并减少对外部仓库的依赖。该工具使用 Go 语言开发，并基于 Docker API 进行操作。核心功能包括镜像指定仓库、管理镜像缓存以及支持多种镜像格式。它提供命令行接口，便于用户操作和配置。
+- [qd201211/Linux-SpeedTest](https://github.com/qd201211/Linux-SpeedTest) ★66  
+  这是一个基于Linux的网络速度测试工具。它使用`nc`命令进行测试，并输出清晰的带宽和延迟数据。  主要使用Shell脚本语言编写，通过命令行参数控制测试时间和次数，方便自动化测试。  该项目提供了一个简单易用的方法来评估Linux系统网络连接的性能。
+- [chaofan2685/unlimited_trial_navicat_premium](https://github.com/chaofan2685/unlimited_trial_navicat_premium) ★62  
+  软件主要功能是修改 Navicat Premium 的授权文件，绕过正常试用期限制，自动创建无限制试用，从而让用户在已授权软件上无限期使用。使用时只需将工具拷贝至 Navicat 安装目录，执行脚本并确认路径即可。脚本通过解析硬盘厂商 ID、CPU ID 等机器信息，生成对应的哈希码；随后写入 Navicat 的 .lic 文件，重置使用计数并使其报错“Trial Period Ended”变为以往可正常使用。核心实现采用 Python 3，利用标准库 os、hashlib、struct 以及第三方库 pyWin32 来读取 Windows 注册表与系统信息。主要模块包括：1）SystemInfo 获取硬件 ID；2）LicenseGen 生成合法哈希；3）PatchedFile 虽正效写入 lic；4）UI 采用 tkinter 简单GUI 交互。项目已通过脚本的方式实现“一键式”激活，适用于单机环境测试或评估版后转换为全功能版使用。
+- [wangyaominde/WeDual](https://github.com/wangyaominde/WeDual) ★22  
+  提供微信与Telegram双向消息转发，用户在任一平台发送的文字、图片、文件均可实时同步至对方。核心基于 Python3、Flask 搭建 HTTP 接口，使用 itchat 与 python‑telegram‑bot 分别接入微信个人号和 Telegram Bot API，实现消息的捕获、转码与分发。会话状态通过 Redis 持久化，支持多账号并发，容错采用 aiohttp 异步请求。项目结构清晰，包含 config、handler、router、utils 四大模块，便于二次开发与自定义过滤规则。
+- [0769559/v2ray](https://github.com/0769559/v2ray) ★21  
+  该项目是一个V2Ray配置工具，用于快速生成和管理V2Ray服务器配置。它使用Python编写，基于`requests`库进行网络请求，并利用`json`模块处理配置数据。  该工具简化了V2Ray服务器的搭建过程，并提供用户友好的界面，方便用户根据需要定制配置。  主要功能包括自动生成各种类型的V2Ray服务器配置，支持一键复制到剪贴板，以及根据用户输入参数动态调整配置参数。
