@@ -2,15 +2,15 @@
 
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ★382873 [`ai`] [`assistant`] [`crustacean`] [`molty`] [`openclaw`] [`own-your-data`] [`personal`]  
   OpenClaw 是一个用于计算机视觉和深度学习的工具，主要用于图像和视频数据的处理与分析。项目提供了一系列功能，帮助开发者高效地构建和训练视觉模型，通常适合需要快速迭代和实验的计算机视觉应用场景。通过使用此工具，用户能够简化数据预处理、模型训练及评估流程，提升工作效率。
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185579  
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185581  
   OpenCode 主要用于提供开放源代码的协作平台，适合开发者共享和改进代码。其核心功能包括版本控制、代码审查和项目管理，能够帮助团队高效协作，优化开发流程。通常适用于软件开发、知识分享和开源项目的管理，促进技术社区的交流与创新。
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150569 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150572 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
   Firecrawl 主要用于爬取并分析动态加载的网页内容，特别适用于需要处理 JavaScript 渲染的站点。该工具可以帮助用户抓取包含复杂数据的网站，通常用于数据挖掘、市场分析和搜索引擎优化等场景。结合现代爬虫技术，Firecrawl 提供了一种高效的方式，让开发者能快速获取所需信息，优化数据获取流程。
-- [iptv-org/iptv](https://github.com/iptv-org/iptv) ★132869 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) ★132870 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
   提供全球范围内的 IPTV 流媒体播放列表，主要用于便捷获取和分享在线电视节目。该项目支持多种设备和平台，通常适合用户自行搭建 IPTV 服务或者整合现有的网络电视资源。用户可以轻松浏览和更新各种频道列表，以满足不同的观影需求，适应家庭娱乐或个人观看偏好。
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★131367 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★131368 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
   Clash Verge Rev 是一款多平台的网络代理工具，主要用于实现高速、稳定的网络连接，帮助用户突破地域限制，确保安全访问互联网。适合在不同环境下需要翻墙的用户，提供便捷的配置和管理方式，常用于科学上网和提高网络隐私保护。该项目支持多种协议，致力于提升用户的网络体验。
-- [immich-app/immich](https://github.com/immich-app/immich) ★107601 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
+- [immich-app/immich](https://github.com/immich-app/immich) ★107602 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
   Immich 是一款多功能的自托管个人照片和视频管理应用，主要用于帮助用户安全、方便地存储、组织和分享媒体文件。它支持自动备份、标签管理、智能搜索等功能，适合需要集中管理大量照片和视频的用户，尤其是希望保护隐私的家庭或个体摄影爱好者。通过直观的用户界面，用户可以轻松浏览和控制自己的媒体库，使其成为数字生活管理的得力助手。
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★105974 [`ai`] [`ai-agents`] [`cli`] [`gemini`] [`gemini-api`] [`mcp-client`] [`mcp-server`]  
   gemini-cli 是一个命令行工具，主要用于与 Google Gemini 平台进行交互，帮助用户高效地管理和使用 Gemini 的各项功能。该工具通常适合开发者和数据科学家，支持在终端中执行各种操作，如数据查询、任务管理和资源配置等，提升了用户在 Gemini 环境下的工作效率。通过简化命令行操作，gemini-cli 助力用户快速实现自动化流程和批量处理。
@@ -32,7 +32,7 @@
   Docusaurus 主要用于快速构建、部署和维护文档网站，适合开发者和内容创作者编写技术文档、用户手册或产品说明。其核心功能包括支持Markdown格式、自动版本化文档和易于自定义的主题，能够提升文档内容的可读性和用户体验。通常适合开源项目、企业产品或学习资源的页面创建，旨在简化文档管理和发布流程。
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) ★63945 [`airtable`] [`airtable-alternative`] [`automatic-api`] [`hacktoberfest`] [`low-code`] [`no-code`] [`no-code-database`] [`no-code-platform`] [`postgresql`] [`rest-api`] [`restful-api`] [`spreadsheet`] [`sqlite`] [`swagger`]  
   NocoDB 提供了一个无缝的低代码数据库解决方案，主要用于将现有的关系型数据库转变为可视化的表格界面。它适合开发者和非技术人员快速构建基于数据库的应用，无需进行复杂的编程。同时，NocoDB 支持与多种数据库系统集成，允许用户在不同的平台上访问和管理数据，提升工作效率及协作能力。
-- [marktext/marktext](https://github.com/marktext/marktext) ★58663 [`dark-mode`] [`editor`] [`electron`] [`focus-mode`] [`latex`] [`linux`] [`mac`] [`macos`] [`markdown`] [`marktext`] [`source-code`] [`typewriter-mode`] [`vue`] [`windows`]  
+- [marktext/marktext](https://github.com/marktext/marktext) ★58664 [`dark-mode`] [`editor`] [`electron`] [`focus-mode`] [`latex`] [`linux`] [`mac`] [`macos`] [`markdown`] [`marktext`] [`source-code`] [`typewriter-mode`] [`vue`] [`windows`]  
   Mark Text 是一款开源的Markdown编辑器，主要用于简化文本处理和文档编写。它支持实时预览、插件扩展和多种Markdown语法，适合开发者、作家和学生等需要高效记录和编排文字的用户。通过友好的用户界面和良好的跨平台兼容性，Mark Text 旨在提升写作体验和提高工作效率。
 - [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ★52125 [`electron`] [`javascript`] [`music-player`] [`vue`]  
   lx-music-desktop 是一款跨平台的音乐播放器，主要用于提供简洁明了的音乐播放体验，支持多种音频格式，并集成了在线音乐服务。用户可以方便地搜索、播放和管理本地音乐库，适合音乐爱好者和希望提升听歌体验的用户，尤其是在桌面环境中。该项目使用现代前端技术构建界面，旨在提供流畅的操作和优雅的用户体验。
@@ -92,7 +92,7 @@
   Clash-Verge 主要用于提供更友好的 Clash 客户端体验，集成多种 VPN 功能，适合需要科学上网的用户。该项目支持自定义规则，能够灵活管理网络流量，帮助用户在不同网络环境下实现稳定、快速的访问。通过友好的图形界面，用户可以轻松配置和切换不同的网络设置，提升上网效率。
 - [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) ★21176  
   Claude-Code 主要用于对编写的代码进行自动化检测与优化，帮助开发者提高代码质量并减少潜在的漏洞。该项目通常适用于团队协作和开源项目中，能够在代码审查环节提供有效的反馈，促进代码的可维护性与可读性。通过集成常见的开发工具，能够为开发者提供更高效的编程体验。
-- [ourongxing/newsnow](https://github.com/ourongxing/newsnow) ★20994 [`elegant`] [`news`]  
+- [ourongxing/newsnow](https://github.com/ourongxing/newsnow) ★20995 [`elegant`] [`news`]  
   NewsNow 主要用于聚合和发布最新的新闻动态，旨在帮助用户快速获取全球各地的热点信息。该项目通常适合需要实时资讯更新的媒体、博客或个人用户，能够通过有效的内容收集和展示提升新闻传播的效率。用户可以借助其功能了解不同行业和领域的最新动态，提高信息获取的便捷性与时效性。
 - [whyour/qinglong](https://github.com/whyour/qinglong) ★19689 [`crontab`] [`docker`] [`javascript`] [`python`] [`shell`] [`task-manager`] [`typescript`]  
   Qinglong 主要用于构建和管理定时任务的自动化框架，通过简洁的用户界面和强大的功能，帮助用户轻松实现定时抓取、推送和数据处理等任务。该项目通常适合有自动化需求的开发者，能够处理多种情况并支持多种环境配置，提升工作效率。
@@ -136,7 +136,7 @@
   Quartz 是一个用于任务调度的框架，主要用于 Java 应用程序中，以定时执行特定任务。该项目通常适合需要定期运行作业的场景，如定时备份、数据处理或周期性消息推送，提供了灵活的调度方式和强大的功能，帮助开发者在复杂应用中高效管理任务执行。通过 Quartz，用户可以轻松定义作业的触发规则和持久化状态，实现精确的任务控制。
 - [idootop/mi-gpt](https://github.com/idootop/mi-gpt) ★12494  
   mi-gpt 主要用于结合GPT模型实现自然语言处理应用，用户可以通过该项目构建聊天机器人、内容生成器或文本分析工具。适合需要处理和理解自然语言场景的开发者，支持高效的文本交互与智能回复功能，常用于企业客服、教育辅导和社交应用等领域。
-- [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) ★12215 [`download`] [`wechat`] [`wechat-article`] [`wechat-download`]  
+- [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) ★12216 [`download`] [`wechat`] [`wechat-article`] [`wechat-download`]  
   主要用于导出微信公众号文章的工具，支持将微信公众平台中的文章批量提取并保存为多种格式，方便用户进行备份、分析或再利用。适合需要整理管理大量微信内容的个人或团队，提升内容管理效率。通过简化导出流程，适合在社交媒体内容管理和数据分析领域使用。
 - [giscus/giscus](https://github.com/giscus/giscus) ★11910 [`blog`] [`comment-system`] [`comments`] [`comments-widget`] [`giscus`] [`github`] [`github-discussions`] [`hacktoberfest`] [`javascript`] [`nextjs`] [`react`] [`reactjs`] [`utterances`] [`widget`]  
   giscus 是一个用于将 GitHub Discussions 集成到静态网站的评论系统，主要用于增强网站用户交互。通过简单的配置，用户可以轻松在其网站上实现讨论功能，适合希望将 GitHub 社区讨论引入个人博客或项目页面的开发者。该工具支持多种主题和自定义选项，能够满足不同网站的需求，同时利用 GitHub 的用户验证机制提升安全性和便捷性。
@@ -164,7 +164,7 @@
   curlconverter用于将cURL命令转换为多种编程语言的代码片段，便于开发者在不同环境中进行API调用。该工具支持将cURL命令转换为如Python、Ruby、JavaScript等语言的请求格式，主要帮助开发者快速实现与RESTful API的交互，简化开发流程，提高效率。通常适合需要快速学习和验证API使用的开发者或团队。
 - [alibaba/x-render](https://github.com/alibaba/x-render) ★7847 [`ant`] [`ant-design`] [`chart`] [`form`] [`formrender`] [`javascript`] [`json-schema`] [`list`] [`react`] [`table`] [`typescript`] [`webpack`] [`widget`]  
   x-render 主要用于快速搭建高效的可视化表单和复杂页面。该项目提供了灵活的组件化设计，支持自定义渲染和动态配置，适合用于企业级应用开发中的表单生成、数据展示和用户交互等场景，同时提高开发效率。结合前端技术生态，x-render 可以帮助开发者轻松构建响应式和高性能的用户界面。
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) ★7805  
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) ★7806  
   提供云端数据保存和备份解决方案，允许用户通过网络将重要文件和数据安全地存储到远程服务器。该项目支持多种文件格式，适合个人用户和小型团队使用，尤其在避免数据丢失和实现安全共享方面表现突出。主要功能包括数据加密、定期备份和多设备访问，适合希望简化数据管理和保障信息安全的用户。
 - [thx/rap2-delos](https://github.com/thx/rap2-delos) ★7633  
   rap2-delos 主要用于快速搭建后端接口，适合前端开发者进行接口模拟和数据生成。该项目支持灵活的接口配置，帮助开发团队在项目初期阶段避免对后台依赖的干扰，提高开发效率。通常适用于需要快速验证前端功能的场景，简化了开发流程。
@@ -176,7 +176,7 @@
   Fiora 主要用于提供一个简单且高效的方式进行数据可视化，适合需要处理和展示大量数据的应用场景。用户可以利用该项目快速构建交互式图表，便于分析和展示信息。通过其灵活的配置和易于使用的接口，Fiora 帮助开发者提升数据呈现的效率和美观性，满足各类数据分析需求。
 - [galaxy-s10/billd-desk](https://github.com/galaxy-s10/billd-desk) ★6983 [`coturn`] [`electron`] [`flutter`] [`nodejs`] [`parsec`] [`remote-desktop`] [`rustdesk`] [`socket-io`] [`todesk`] [`typescript`] [`vue3`] [`webrtc`]  
   Billd Desk 主要用于提升桌面工作效率，通过整合多种工具和功能，帮助用户更好地管理日常任务和项目。该项目通常适合需要快速访问各种在线资源和应用程序的用户，尤其是在多任务环境中，提供便利的界面及高效的操作方式，旨在优化用户的工作流程和时间管理。
-- [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) ★6707 [`electron-app`] [`linux`] [`macos`] [`typescript`] [`vue3`] [`windows`]  
+- [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) ★6708 [`electron-app`] [`linux`] [`macos`] [`typescript`] [`vue3`] [`windows`]  
   Boxplayer 是一个用于媒体播放的工具，旨在提供流畅的视频和音频播放体验。该项目通常适合用于开发多媒体应用，支持多种文件格式和流媒体协议，能够满足用户对观看和收听的高品质需求。它可以被广泛应用于个人多媒体播放器、在线直播以及其他需要音视频处理的项目中。
 - [purocean/yn](https://github.com/purocean/yn) ★6656 [`agent`] [`chatgpt`] [`deepseek`] [`drawio`] [`editor`] [`electron`] [`gemini`] [`koa2`] [`markdown`] [`markdown-editor`] [`markdown-it`] [`mermaid`] [`monaco-editor`] [`notebook`] [`openai`] [`opencode`] [`plantuml`] [`reveal-js`] [`vscode`] [`vue`]  
   yn 主要用于简化和增强 JavaScript 中的条件语句，通过提供更优雅和可读的语法，使得开发者在处理布尔值时能够更加高效。适合需要清晰表达条件逻辑的项目，帮助提升代码的可维护性，减少冗余和复杂性，通常在构建基于 JavaScript 的应用时使用。

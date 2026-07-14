@@ -2,11 +2,11 @@
 
 - [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) ★194756  
   Claw-Code 主要用于对复杂网页进行抓取和数据提取，它提供了灵活的工具和方法，帮助用户高效获取所需信息。适合需要大规模数据采集的场景，如市场研究、内容聚合和信息监测。通过使用该项目，用户可以简化爬虫开发流程，提高数据处理效率。
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★118191 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★118192 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
   RustDesk 提供高性能的远程桌面解决方案，允许用户通过安全的连接远程访问和控制计算机。该项目支持跨平台的使用场景，适合在个人和企业环境中进行远程协作、技术支持与在线访客帮助。RustDesk 注重性能与隐私，旨在为用户提供简单易用、灵活的远程桌面体验。
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★116968 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★116971 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
   cc-switch用于简化和高效地管理项目中的切换功能，典型应用场景包括在多种状态或模式之间快速切换，尤其适合需要频繁更改设置或视图的用户界面。该项目通常采用现代前端技术构建，便于集成到现有应用中，提高用户体验和开发效率。
-- [openai/codex](https://github.com/openai/codex) ★97846  
+- [openai/codex](https://github.com/openai/codex) ★97847  
   Codex 主要用于自然语言处理和编程相关的任务，能够生成代码、自动化重复性编程工作以及提供代码建议。此项目适合开发人员和学生在编程学习、提高生产力以及快速原型开发中使用，尤其是在处理多种编程语言时，能够极大地简化开发流程。
 - [zed-industries/zed](https://github.com/zed-industries/zed) ★86938 [`gpui`] [`rust-lang`] [`text-editor`] [`zed`]  
   Zed 项目主要用于实时数据处理和分析，提供高效的解决方案来简化大规模数据流的管理。适合需要快速响应和决策的数据密集型应用场景，如金融监控、物联网数据分析等。通过其灵活的架构，用户能够方便地集成分布式系统，实现数据的实时传输与处理。
@@ -20,9 +20,9 @@
   Fish Shell 是一个友好的命令行界面，旨在提供用户友好的交互体验。它通过智能自动补全和语法高亮功能，使用户在终端中编写命令时更加高效和直观。Fish Shell 通常适合需要增强生产力的开发者和系统管理员，尤其是在复杂命令及脚本处理时。此外，其可扩展性和丰富的插件生态也为用户提供了极大的灵活性和便利性。
 - [TabbyML/tabby](https://github.com/TabbyML/tabby) ★33692 [`ai`] [`codegen`] [`coding-assistant`] [`coding-language`] [`developer-experience`] [`developer-tools`] [`gen-ai`] [`ide`] [`llms`]  
   Tabby是一款面向开发者的开源代码生成工具，主要用于提高编程效率。它通过自然语言处理技术，能够将用户输入的描述转化为代码片段，适合用于简化重复性编码任务，提升开发工作流中的自动化水平。该工具通常用于快速原型开发、代码补全及自动化脚本生成，有助于减少编码时间和误差。
-- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) ★30106 [`account-manager`] [`antigravity`]  
+- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) ★30107 [`account-manager`] [`antigravity`]  
   Antigravity-Manager 主要用于管理反重力飞行器或相关设备，通过智能调度和操作简化飞行器的控制流程，适合在航空航天、无人机以及新型运输工具领域应用，提高操作效率和安全性。该项目可能结合前沿的飞行控制算法和用户界面设计，旨在为开发者提供便捷的工具和框架，以促进技术的创新与研发。
-- [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ★26944 [`electron`] [`hosts`] [`hostseditor`] [`hostsfile`] [`switch-hosts`] [`switchhosts`]  
+- [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ★26945 [`electron`] [`hosts`] [`hostseditor`] [`hostsfile`] [`switch-hosts`] [`switchhosts`]  
   SwitchHosts主要用于便捷地管理本地 hosts 文件，提供图形化界面以简化切换不同的网络环境。用户可以快速添加、删除和编辑 hosts 条目，适合开发者在不同项目中快速调整域名解析，避免频繁手动编辑，提升工作效率。该工具支持导入和导出配置，便于在不同设备间同步使用。
 - [bee-san/Ciphey](https://github.com/bee-san/Ciphey) ★21516 [`artificial-intelligence`] [`cipher`] [`cpp`] [`cryptography`] [`ctf`] [`ctf-tools`] [`cyberchef-magic`] [`decryption`] [`deep-neural-network`] [`encodings`] [`encryptions`] [`hacking`] [`hacktoberfest`] [`hashes`] [`natural-language-processing`] [`pentesting`] [`python`]  
   Ciphey 主要用于自动解密和分析数据，特别适合用于处理加密信息和破解各种加密算法。该工具的核心功能在于提供简单易用的命令行界面，能够快速识别并解密多种常见的加密格式。通常适合安全研究人员、密码分析师和开发者用于调试和验证加密相关的工程及数据安全性。Ciphey 利用丰富的解密算法库，大幅提高解密工作效率，有助于探索安全漏洞和加密机制。

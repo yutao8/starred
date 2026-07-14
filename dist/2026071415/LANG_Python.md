@@ -1,12 +1,12 @@
 # Python 仓库
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449858 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449859 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
   提供一个全面的公共 API 列表，方便开发者查找和使用各种免费的 API 服务。适合用于集成不同功能，如获取天气信息、处理支付、访问社交媒体数据等。这些 API 涉及多种领域，包括数据科学、金融、健康、媒体等，加速开发流程，提升项目的功能性与创新性。主要适用于需要快速原型开发或寻找开放数据的开发者和研究人员。
 - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★392045 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
   该项目提供了大量免费的编程书籍和学习资源，涵盖多种编程语言和技术主题，适合初学者和有经验的开发者。用户可以通过浏览和下载不同的书籍，快速获取所需的学习材料，帮助他们提升编程技能和解决实际开发问题。该资源库常常被用于自学、课程辅助和教学参考。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214444 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214452 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
   Hermes-agent 主要用于自动化和智能化的任务管理，通过集成多种工具和服务，帮助用户提高工作效率。该项目适合需要处理复杂工作流程和多任务调度的场景，能够有效减少手动操作，有助于团队协作和资源优化。使用该工具，用户可以轻松配置和管理任务，从而专注于更重要的工作。
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★165105 [`awesome`] [`github`] [`hellogithub`] [`python`]  
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★165107 [`awesome`] [`github`] [`hellogithub`] [`python`]  
   HelloGitHub 主要用于汇集和展示优质的 GitHub 项目，帮助用户发现有趣的开源资源。它通过分类和推荐机制，适合开发者、学习者以及开源爱好者查找相关项目，以提高学习效率和项目参与度。该仓库通常包含热门项目的链接和详细信息，为开源社区营造良好的探索氛围。
 - [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ★140704  
   youtube-dl 主要用于从视频网站下载视频和音频，支持多种格式和分辨率的选择。用户通常可以通过命令行界面快速获取流行媒体内容，同时该工具适合处理多个平台的链接，提供灵活的下载选项和高级功能，如批量下载和定时下载，满足不同用户的需求。
@@ -14,7 +14,7 @@
   DeepSeek-V3 主要用于通过深度学习技术进行高效的搜索和信息检索。该项目适合需要从大规模数据集中快速获取相关信息的场景，通常应用于文本、图像和多媒体内容的智能搜索。利用最新的算法，DeepSeek-V3 努力提升搜索准确性和响应速度，帮助用户更便捷地找到所需资料。
 - [nvbn/thefuck](https://github.com/nvbn/thefuck) ★97517 [`python`] [`shell`]  
   The Fuck 是一个命令行工具，主要用于自动修正用户在终端中输入的错误命令。它通过分析错误提示，提供合理的命令建议来提高使用效率，通常适合终端用户和开发者，帮助他们快速纠正输入失误，节省时间，提高工作流的顺畅性。
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★97283 [`ai`] [`automation`] [`chatgpt`] [`moviepy`] [`python`] [`shortvideo`] [`tiktok`]  
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★97285 [`ai`] [`automation`] [`chatgpt`] [`moviepy`] [`python`] [`shortvideo`] [`tiktok`]  
   MoneyPrinterTurbo 主要用于帮助用户进行快速的财务记录和预算管理，通过直观的界面和操作实现对个人或小型企业财务状况的实时追踪和分析，适合需要简化财务流程和提高财务透明度的用户群体。该项目结合现代前端技术，旨在提升用户体验，使财务管理更为高效便捷。
 - [home-assistant/core](https://github.com/home-assistant/core) ★89339 [`asyncio`] [`hacktoberfest`] [`home-automation`] [`internet-of-things`] [`iot`] [`mqtt`] [`python`] [`raspberry-pi`]  
   Home 是一款开源的家庭自动化平台，主要用于集中管理和控制智能家居设备。通过高度可定制的界面，用户可以轻松地将各种品牌和协议的设备集成到一个系统中，实现自动化场景和远程控制。该项目支持丰富的插件生态，能够满足不同用户的需求，并且适用于创建安全、智能和高效的家庭环境。
@@ -22,13 +22,13 @@
   用于在社交媒体和网络上搜索用户信息的工具，可以帮助用户找到特定用户名在不同平台的存在情况。通过输入目标用户名，Sherlock 会自动检索多个常见网站，提供关于该用户名的相关链接和信息，适合网络安全研究、社交媒体分析和个人隐私保护等场景。该项目通常使用 Python 开发，便于用户定制和扩展。
 - [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★81789  
   funNLP主要用于自然语言处理领域，提供一系列便捷的工具和模块，帮助开发者快速实现文本分析、情感识别及对话系统等功能。它通常适合于需要处理中文文本的应用场景，特别是在教育、娱乐和社交等行业，以提升用户互动体验和信息提取效率。
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★78258 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★78259 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
   Hackingtool 是一个集成多种网络安全工具的项目，主要用于渗透测试与漏洞评估。它通常适用于安全研究人员和道德黑客，帮助他们识别系统弱点、模拟攻击场景，增强网络安全防护。该工具包支持多种功能模块，便于快速执行常见的安全测试任务，提升工作效率。
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free) ★66472 [`chatbot`] [`chatbots`] [`chatgpt`] [`chatgpt-4`] [`chatgpt-api`] [`chatgpt-free`] [`chatgpt4`] [`deepseek`] [`deepseek-api`] [`deepseek-r1`] [`gpt`] [`gpt-4`] [`gpt-4o`] [`gpt4`] [`gpt4-api`] [`language-model`] [`openai`] [`openai-api`] [`openai-chatgpt`] [`reverse-engineering`]  
   gpt4free 项目旨在提供一个免费访问 GPT-4 模型的解决方案，主要用于帮助开发者和用户在没有昂贵 API 成本的情况下体验和应用高级自然语言处理功能。该项目通常适合希望集成强大对话能力和文本生成能力的应用，尤其是在开发聊天机器人、自动回复系统或内容生成工具时。通过简化 GPT-4 的接入方式，用户可以更方便地探索和实验这一前沿技术。
 - [scrapy/scrapy](https://github.com/scrapy/scrapy) ★63132 [`crawler`] [`crawling`] [`framework`] [`hacktoberfest`] [`python`] [`scraping`] [`web-scraping`] [`web-scraping-python`]  
   Scrapy 是一个强大的网络爬虫框架，主要用于提取网站数据并处理成结构化格式。用户可以利用它快速构建爬虫，以抓取各种类型的网站，进行数据挖掘或内容聚合，适合需要自动化收集大量网页信息的场景。Scrapy 提供了丰富的功能，包括数据处理管道和异步网络请求处理，提升了爬虫开发的效率和灵活性。
-- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) ★60539 [`ai`] [`bark`] [`data-analysis`] [`docker`] [`hot-news`] [`llm`] [`mail`] [`mcp`] [`mcp-server`] [`news`] [`ntfy`] [`python`] [`rss`] [`trending-topics`] [`wechat`] [`wework`]  
+- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) ★60541 [`ai`] [`bark`] [`data-analysis`] [`docker`] [`hot-news`] [`llm`] [`mail`] [`mcp`] [`mcp-server`] [`news`] [`ntfy`] [`python`] [`rss`] [`trending-topics`] [`wechat`] [`wework`]  
   TrendRadar 主要用于实时监测和分析技术趋势，通过数据可视化帮助用户识别行业动态和市场变化。适合企业和研究人员采用，通常用于制定战略、识别潜在创新以及发现新兴竞争对手，支持数据驱动的决策。该项目利用先进的数据处理和图表展示技术，简化趋势分析过程。
 - [soimort/you-get](https://github.com/soimort/you-get) ★56851  
   you-get 主要用于从各种网页上下载视频和音频内容，支持多个流行媒体网站。用户可以通过命令行工具轻松获取所需的多媒体资源，避免繁琐的浏览器插件或手动操作，适合希望批量下载影音资料的用户。该工具简洁高效，具有良好的跨平台支持，便于集成在不同工作流程中。
@@ -38,7 +38,7 @@
   Umi-OCR 主要用于图像中的文本识别，特别适合处理海洋相关的文档和资料。它能够提取并识别多种语言的文本内容，支持各种图像输入格式，适用于学术研究、数据采集和文档数字化等场景。该项目结合了深度学习技术，旨在提高识别精度和处理速度，为用户提供高效的文本提取解决方案。
 - [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) ★45968 [`ai`] [`ai-agent`] [`ai-agents`] [`chatgpt-on-wechat`] [`claude`] [`claude-code`] [`codex`] [`cowagent`] [`deepseek`] [`harness`] [`llm`] [`mcp`] [`multi-agent`] [`openai`] [`openclaw`] [`skills`]  
   CowAgent 主要用于自动化管理和监控特定任务，适合开发者和运维团队使用。该项目提供灵活的代理功能，能够高效处理多种事务，提升工作效率。通常适合需要批量操作或任务调度的场景，如数据收集和系统监测。通过简化流程，用户可以更专注于业务核心，提高生产力。
-- [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44289 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
+- [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44290 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
   mitmproxy 是一个交互式的 HTTPS 代理工具，主要用于网络流量的拦截、监控和修改。它适合开发者和测试人员使用，可以帮助分析 HTTP/HTTPS 请求和响应，调试 Web 应用和移动应用中的网络交互问题。用户可以实时查看请求内容，进行数据筛选和修改，通常用于安全测试和性能分析。
 - [2noise/ChatTTS](https://github.com/2noise/ChatTTS) ★39610 [`agent`] [`chat`] [`chatgpt`] [`chattts`] [`chinese`] [`chinese-language`] [`english`] [`english-language`] [`gpt`] [`llm`] [`llm-agent`] [`natural-language-inference`] [`python`] [`text-to-speech`] [`torch`] [`torchaudio`] [`tts`]  
   ChatTTS 主要用于将文本转化为自然流畅的语音，适合用于智能助手、语音导航和有声阅读等场景。该项目通过结合深度学习技术，提供高质量的语音合成，旨在提升用户交互体验和信息获取的便利性，满足对语音交互的需求。
@@ -52,7 +52,7 @@
   该项目主要用于自动监测网页内容的变化，适合需要跟踪特定网站更新的用户，如开发者、研究人员或内容创作者。通过定期检查网页，能够及时获取信息变更通知，便于用户迅速响应。此外，项目兼容多种网站和平台，实现灵活配置，增强用户体验和操作效率。
 - [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) ★29298 [`bot`] [`chatbot`] [`framework`] [`python`] [`telegram`]  
   python-telegram-bot 是一个用于与 Telegram Bot API 进行交互的 Python 库，主要用于方便地创建和管理 Telegram 机器人。该库提供了简单易用的接口，使开发者能够快速实现命令处理、消息发送、跟踪用户状态等功能，适合构建自动回复、群聊管理、信息推送等应用场景。无论是对新手还是有经验的开发者，这个库都能帮助他们快速实现高效的机器人应用。
-- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) ★29091 [`dns`] [`github`] [`hosts`]  
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) ★29092 [`dns`] [`github`] [`hosts`]  
   GitHub520 主要用于表达对开源社区的感恩与支持，通过分享一些优质的开源项目和资源，旨在为开发者提供便捷的学习和交流平台。该项目适合希望提高自身技术能力和对开源文化感兴趣的用户，常见的场景包括学习编程、参与开源贡献和获取技术灵感。
 - [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) ★26478 [`api`] [`itchat`] [`robot`] [`wechat`]  
   ItChat 主要用于提供一个简单易用的微信个人号接口，方便用户在 Python 中实现微信聊天自动化。该项目适合需要进行信息推送、群发消息或聊天机器人开发的场景，支持多种功能，如自动回复、消息处理等，帮助开发者高效地与微信用户互动。
@@ -98,7 +98,7 @@
   TikTokDownloader 主要用于简便地下载 TikTok 视频，支持无水印下载，适合内容创作者和用户方便保存喜欢的视频供离线观看或分享。该工具通常功能强大，易于使用，旨在提升社交媒体内容的获取效率。适合各类用户，不论是普通用户还是专业内容制作人。
 - [pjialin/py12306](https://github.com/pjialin/py12306) ★14894  
   py12306 主要用于访问和操作中国铁路客户服务中心的12306网站，帮助用户实现购票、查询余票等功能。该项目通常适合需要自动化购票流程的用户，支持模拟登录、获取车次信息和历史记录等操作，以提升购票效率，解决高峰期抢票困难的问题。用户可以通过该工具简化购票体验，节省时间和精力。
-- [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ★14464 [`captcha`] [`ddddocr`] [`ocr`]  
+- [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ★14465 [`captcha`] [`ddddocr`] [`ocr`]  
   dddddocr 主要用于快速识别和提取文档中的文字信息，特别适合处理手写文本和复杂格式的文档图像。该项目可以帮助用户提升文档数字化效率，广泛应用于教育、法律和行政等领域。支持多种语言，结合了深度学习技术，能够处理各种场景下的文本识别任务。
 - [youfou/wxpy](https://github.com/youfou/wxpy) ★14263 [`api`] [`wechat`] [`weixin`]  
   wxpy 主要用于微信机器人开发，提供简单易用的 API 接口，帮助用户实现自动回复、消息管理等功能。适合个人和小团队进行社交媒体自动化操作，常用于实现自动化提醒、信息收集和自定义互动等场景。该项目能够提升微信使用效率，简化日常沟通任务。
@@ -138,7 +138,7 @@
   用于方便地与百度云盘进行交互的工具，实现文件的上传、下载和管理功能。主要支持命令行操作，适合需要在本地与百度云盘数据进行频繁交互的用户，能够有效解决百度云盘的 API 限制和使用复杂性问题。通过简化操作流程，提高了用户的使用体验和效率。
 - [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) ★8406 [`anonymous`] [`fastapi`] [`filecodebox`] [`python`] [`tool`] [`vue`]  
   FileCodeBox 主要用于简化代码分享和文件管理的过程，提供了一个方便的界面来上传、存储和分享代码片段与文件。适合开发者、学生及团队协作，帮助用户快速分享代码和相关文档，支持多种文件格式，便于在项目中进行资料的统一管理和共享。
-- [shaxiu/XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) ★8344 [`agent`] [`chatbot`] [`llm`]  
+- [shaxiu/XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) ★8345 [`agent`] [`chatbot`] [`llm`]  
   XianyuAutoAgent 主要用于实现闲鱼平台的自动化交易和操作，通过模拟用户行为，增强闲鱼用户的交易效率。该项目通常适合需要频繁买卖闲置物品的用户，帮助其自动化处理发布、留言等日常任务，节省时间和人力成本，同时提升交易的及时性和成功率。
 - [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) ★8240 [`automation`] [`chrome`] [`crawl`] [`csdn`] [`hotmail`] [`outlook`] [`python3`] [`selenium`] [`spider`] [`tkinter`] [`wxpython`]  
   InfoSpider 主要用于信息采集与网络爬虫，通过集成多种爬虫技术，可以自动从互联网获取特定数据，适合用于数据分析、市场调研及竞争对手监测等场景。该项目提供灵活的配置，支持多种数据源，帮助用户高效地提取和整理信息。
@@ -216,7 +216,7 @@
   用于自动化云环境配置和初始化的工具，cloud-init 通过在云实例启动时执行用户指定的设置，简化了操作系统的配置过程。它支持多种云服务平台，能够实现用户数据脚本、SSH 密钥管理、软件安装等功能，适用于开发、测试和生产中的自动化部署，帮助开发者提升效率和维护一致性。
 - [pandolia/qqbot](https://github.com/pandolia/qqbot) ★3684 [`chat`] [`chatbot`] [`python`] [`qq`] [`qqbot`] [`smartqq`] [`webqq`]  
   qqbot 主要用于自动化操作 QQ 聊天工具，支持定时发送消息、聊天记录管理和自定义指令等功能，适合个人用户和团队实现消息自动化处理。该项目通常用于简化日常交流，提高工作和生活效率，并可通过简单配置满足多种使用场景。
-- [anbeime/skill](https://github.com/anbeime/skill) ★3597 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
+- [anbeime/skill](https://github.com/anbeime/skill) ★3598 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
   该项目主要用于技能管理和学习，提供了一个平台帮助用户记录、追踪和提升个人技能。通过简洁的界面，用户可以添加、评估和更新自己的技能水平，非常适合希望在职业发展中进行自我提升或进行团队技能分析的场景。此工具可以帮助用户制定学习计划，确保技能持续成长。
 - [sc0tfree/updog](https://github.com/sc0tfree/updog) ★3367 [`file-sharing`] [`file-upload`] [`http-server`] [`https-server`] [`simplehttpserver`]  
   Updog 主要用于快速搭建本地开发环境和文件共享服务器，方便开发者在团队中共享文件或进行演示。该工具通常适合用于临时性项目或需要快速分享的场景，支持简单的命令行操作，使得用户可以在几分钟内启动服务并访问文件，提升工作效率。利用 Updog，开发者能够轻松管理和共享本地资源，适用于多种开发环境。

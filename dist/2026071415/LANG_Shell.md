@@ -2,11 +2,11 @@
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★188710 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
   ohmyzsh 是一个强大的 Zsh 配置框架，旨在提高开发者的生产力。它通过丰富的主题和插件支持，为用户提供了个性化的终端体验，通常适合需要频繁使用命令行的程序员。用户可以轻松管理各类开发环境、提高命令行操作效率，同时享受可视化的界面和快捷的命令提示功能。
-- [mattpocock/skills](https://github.com/mattpocock/skills) ★168946  
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★168954  
   支持技能管理和展示的工具，主要用于帮助用户记录和分享个人技能，适合个人职业发展及团队内部技能盘点。该项目通常集成于工作流程中，为用户提供易于使用的界面，便于填写、更新和展示技能信息，促进个人能力的可视化和分享。
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ★52665 [`container`] [`docker`] [`docker-osx`] [`kvm`] [`macos`] [`os`] [`osx`] [`osx-kvm`] [`x`] [`x11`]  
   Docker-OSX 主要用于在 Docker 容器中运行 macOS 操作系统，适合开发者和爱好者进行 macOS 应用的测试和开发。该项目通过虚拟化技术实现 macOS 的运行环境，使得用户能够在非苹果硬件上体验 macOS 的功能及界面，通常适合需要在不同操作系统之间切换的开发场景，帮助用户高效地进行跨平台开发与测试。
-- [dockur/windows](https://github.com/dockur/windows) ★52425 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
+- [dockur/windows](https://github.com/dockur/windows) ★52426 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
   提供一个在 Windows 操作系统上构建和运行 Docker 容器的环境，旨在帮助开发者和运维人员更方便地进行容器化应用的开发和测试。主要用于支持多种开发场景，包括微服务架构和多平台应用的部署，通常适合需要跨平台开发的项目，优化了在 Windows 系统上的 Docker 使用体验。
 - [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ★47169 [`acme`] [`acme-challenge`] [`acme-protocol`] [`acme-v2`] [`ash`] [`bash`] [`buypass`] [`certbot`] [`lets-encrypt`] [`posix`] [`posix-sh`] [`shell`] [`ssl`] [`ssl-certificate`] [`ssl-certificates`] [`tls`] [`tls-certificate`] [`zerossl`]  
   acme.sh 主要用于简化和自动化通过 Let's Encrypt 获取和管理 SSL/TLS 证书的过程。该脚本支持多种证书颁发方式，适合网站运营者和开发者快速配置 HTTPS，提升网站安全性。其轻量级、无依赖的特性使得在各种环境中广泛适用，适合需要频繁更新证书的场景。
@@ -24,7 +24,7 @@
   LxgwWenKai 字体主要用于提供优雅和现代的中文排版体验，适合在网页设计、图形设计和文档编辑中使用。该字体注重字形的美观与可读性，通常适合需要高质量排版的项目，如电子书、报刊和品牌宣传材料。
 - [StreisandEffect/streisand](https://github.com/StreisandEffect/streisand) ★23474 [`ansible`] [`anyconnect`] [`censorship`] [`openconnect`] [`openvpn`] [`shadowsocks`] [`ssh`] [`streisand`] [`stunnel`] [`tor`] [`vpn`] [`wireguard`]  
   Streisand 是一个用于自动化安全措施和隐私保护的工具，主要帮助用户快速搭建个人 VPN 或代理服务，方便在受限网络环境中访问互联网。该项目支持多种配置选项，适合于希望在家中或云服务器上保护网络隐私的用户，可以有效应对信息封锁和网络审查问题。通过简化安全服务的安装和配置流程，Streisand 让用户能够更轻松地实现安全上网。
-- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ★21487 [`cloudflare`] [`grpc-cloudflare`] [`httpupgrade`] [`hysteria2`] [`nginx`] [`reality`] [`reality-grpc`] [`shell`] [`sing-box`] [`trojan`] [`trojan-grpc`] [`tuic-v5`] [`v2ray`] [`vless`] [`vmess`] [`websockettlscdn-cloudflare-ip`] [`xray`] [`xray-core`] [`xray-install`] [`xtls-rprx-vision`]  
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ★21488 [`cloudflare`] [`grpc-cloudflare`] [`httpupgrade`] [`hysteria2`] [`nginx`] [`reality`] [`reality-grpc`] [`shell`] [`sing-box`] [`trojan`] [`trojan-grpc`] [`tuic-v5`] [`v2ray`] [`vless`] [`vmess`] [`websockettlscdn-cloudflare-ip`] [`xray`] [`xray-core`] [`xray-install`] [`xtls-rprx-vision`]  
   v2ray-agent 主要用于实现与 V2Ray 兼容的代理服务，通常适合在需要翻墙的环境中使用。该项目能够简化 V2Ray 的配置过程，帮助用户更轻松地搭建和管理代理服务，同时支持多种代理协议和配置选项，提升用户的网络访问体验。其设计理念注重稳定性和易用性，适合开发者和对网络安全有需求的用户。
 - [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) ★20588 [`almalinux`] [`bash`] [`centos`] [`debian`] [`fedora`] [`openvpn`] [`rockylinux`] [`shell`] [`ubuntu`] [`vpn`]  
   OpenVPN-install 主要用于简化 OpenVPN 服务器的搭建与配置，适合那些希望在自己的服务器上快速设置安全 VPN 服务的用户。通过自动化安装脚本，用户可以轻松配置各种 VPN 选项，实现安全上网、隐私保护和远程访问。该项目尤其适合希望在个人或小型团队环境中创建个人 VPN 的开发者和系统管理员。

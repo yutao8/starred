@@ -24,7 +24,7 @@
   nvm-windows 主要用于 Windows 平台，方便用户管理和切换不同版本的 Node.js。用户可以轻松地安装、卸载并切换 Node.js 版本，适合开发人员在不同项目中使用特定版本的 Node.js，从而保证项目兼容性和稳定性。该项目的便捷性和灵活性使得 Node.js 开发更加高效。
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) ★46903 [`golang`] [`http-proxy`] [`proxy`] [`shadowsocks`] [`socks`] [`socks5`] [`v2ray`] [`vmess`]  
   V2Ray Core 主要用于提供增强的网络代理服务，旨在改善用户的网络隐私和安全。该项目能够灵活地配置多种代理协议，适合在受限网络环境中访问被屏蔽的网站和服务。V2Ray 支持多种传输方式，并能与其他工具整合使用，特别适合开发者和网络安全专业人员进行网络优化和流量管理。
-- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) ★42156 [`ai-gateway`] [`claude`] [`deepseek`] [`gemini`] [`newapi`] [`openai`] [`rerank`]  
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) ★42158 [`ai-gateway`] [`claude`] [`deepseek`] [`gemini`] [`newapi`] [`openai`] [`rerank`]  
   提供一个为量子计算相关项目设计的API，支持量子算法的创建与调用。主要用于简化量子程序的开发流程，促进量子算法的实验和应用。该API通常适合研究人员和开发者在量子计算领域进行快速原型开发和测试，从而推动量子技术的创新。
 - [juanfont/headscale](https://github.com/juanfont/headscale) ★41660 [`tailscale`] [`tailscale-control-server`] [`tailscale-server`] [`wireguard`]  
   Headscale 主要用于为用户提供自托管的 WireGuard 控制平面，适合需要建立安全的虚拟私人网络（VPN）的场景。该项目能够管理动态 IP 地址和访问控制，适合用户在不依赖第三方服务的情况下，实现安全的网络连接。用户可以通过 Headscale 高效地控制和配置网络，提升私有网络的安全性和灵活性。
@@ -40,9 +40,9 @@
   ntfy 主要用于通过推送通知实现消息传递，旨在为用户提供一个简单的方式来发送和接收通知。该工具支持自托管和多种平台，适合用于个人项目、应用程序警报或系统状态更新。利用 HTTP 请求，用户能够快速接收重要信息，增强应用程序的实时性和用户交互体验。
 - [iawia002/lux](https://github.com/iawia002/lux) ★31505 [`bilibili`] [`crawler`] [`download`] [`downloader`] [`go`] [`golang`] [`iqiyi`] [`qq`] [`scraper`] [`tumblr`] [`video`] [`youku`] [`youtube`]  
   Lux 主要用于数据探索和可视化，帮助用户更高效地理解和分析复杂数据集。该项目提供了一种直观的界面，允许用户快速生成图表和图形，从而揭示数据中的潜在模式和趋势。适合数据科学家和分析师在处理大数据时，快速获得洞察力并做出数据驱动的决策。
-- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) ★28287 [`cloud`] [`cloud-storage`] [`cloudreve`] [`file`] [`file-manager`] [`file-sharing`] [`golang`]  
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) ★28288 [`cloud`] [`cloud-storage`] [`cloudreve`] [`file`] [`file-manager`] [`file-sharing`] [`golang`]  
   Cloudreve 提供了一种便捷的文件管理和分享解决方案，主要用于个人和团队的云存储需求。该项目支持多种存储后端，如本地文件系统和各类云存储，用户可以通过简单的界面上传、下载和管理文件。适合希望在私有云环境中构建高效文件共享和存储服务的用户，通常用于增强文件访问安全性和数据管理的灵活性。
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ★27906 [`cdn`] [`cloudflare`] [`go`] [`golang`] [`speedtest`]  
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ★27907 [`cdn`] [`cloudflare`] [`go`] [`golang`] [`speedtest`]  
   CloudflareSpeedTest 主要用于测试和优化通过 Cloudflare 加速的网络性能，特别适合开发者和运维人员监控网站在不同地区的访问速度和稳定性。该工具能够帮助用户快速识别和解决网络延迟问题，从而提升用户体验。它通常适合于对网站性能要求较高的应用场景。
 - [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) ★27141 [`alfred`] [`launcher`] [`launchy`] [`productivity`] [`productivity-tools`] [`raycast`] [`spotlight`] [`wox`] [`wox-launcher`]  
   Wox 是一款高效的 Windows 应用启动器，主要用于提升用户的工作效率和操作便捷性。用户可以通过简单的快捷键调用 Wox，快速搜索和启动应用程序、文件及网页，并支持插件扩展，增强其功能。其优雅的界面和强大的搜索能力，特别适合需要频繁切换应用的办公和开发环境。通过集成各种插件，用户可以实现更个性化的使用体验，方便自定义工作流程。
@@ -68,7 +68,7 @@
   gost 是一个高性能的 Golang 实现的反向代理工具，主要用于搭建安全的隧道，实现网络流量的转发和加密。它支持多种协议，包括 HTTP、HTTPS、SOCKS5 和 TCP tunneling，适合用在需要绕过网络限制或提高数据传输安全性的场景。用户可以轻松配置和部署，满足不同网络环境下的需求。
 - [slackhq/nebula](https://github.com/slackhq/nebula) ★17522  
   Nebula 主要用于在分布式环境中实现安全的网络连接，帮助用户构建和管理跨多个设备和位置的虚拟网络。借助其灵活的配置和强大的加密功能，团队可以方便地共享资源，保护敏感数据，并提高协作效率。通过支持各类设备和操作系统，Nebula 适合需要高安全性、低延迟通信的应用场景，尤其是在现代远程工作和云环境中。
-- [ory/hydra](https://github.com/ory/hydra) ★17394 [`authorization`] [`cloud`] [`docker`] [`federation`] [`hacktoberfest`] [`hydra`] [`identity`] [`oauth`] [`oauth-provider`] [`oauth2`] [`oauth2-provider`] [`oauth2-server`] [`oidc`] [`openid`] [`openid-connect`] [`openid-connect-provider`] [`openid-provider`] [`security`] [`server`] [`sso`]  
+- [ory/hydra](https://github.com/ory/hydra) ★17395 [`authorization`] [`cloud`] [`docker`] [`federation`] [`hacktoberfest`] [`hydra`] [`identity`] [`oauth`] [`oauth-provider`] [`oauth2`] [`oauth2-provider`] [`oauth2-server`] [`oidc`] [`openid`] [`openid-connect`] [`openid-connect-provider`] [`openid-provider`] [`security`] [`server`] [`sso`]  
   Ory Hydra 主要用于提供安全、高效的 OAuth 2.0 和 OpenID Connect 身份验证服务，便于开发者实现用户授权和身份管理。它支持多种连接方式，适合各种规模的应用程序，尤其在需要集中身份验证和管理访问权限的场景中表现突出。借助于其强大的自定义功能，开发者可以根据需求灵活配置安全策略，实现高效的用户体验和大规模身份验证解决方案。
 - [ent/ent](https://github.com/ent/ent) ★17134 [`ent`] [`entity-framework`] [`orm`]  
   Ent 是一个用于构建和管理数据模型的强类型 ORM，特别适用于 Go 语言开发者。通过代码生成和类型安全，Ent 可以简化数据库操作，提供清晰的 API 以便于与数据库交互。该工具适合需要高效数据管理和灵活查询的应用程序，尤其在构建现代 Web 应用和微服务架构中表现出色。

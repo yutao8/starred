@@ -50,7 +50,7 @@
   Ladon 主要用于 Kubernetes 环境中的权限管理，通过灵活的策略配置实现对用户和服务的访问控制，帮助团队有效管理和审计在集群中运行的应用程序。该项目适合需要细粒度安全控制的开发与运维场景，确保资源访问的安全性和合规性。
 - [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) ★4817 [`dotnet`] [`local-ai`] [`msix`] [`ocr`] [`window-10`] [`windows`] [`windows-11`] [`wpf`]  
   Text-Grab 主要用于从各类图像中提取文本信息，适合需要进行文本识别与处理的场景，如文档数字化、图像中的内容提取等。该项目通常借助计算机视觉和光学字符识别（OCR）技术，帮助用户快速获取并利用图片中的文字，提升信息处理的效率。
-- [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ★4755  
+- [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ★4756  
   SyncClipboard 主要用于在多设备间同步剪贴板内容，提升跨设备工作效率。该工具通常适合需要在电脑、手机和平板间快速共享文本或图像的用户，支持多种操作系统之间的无缝连接。利用该项目，用户可以轻松实现实时剪贴板内容更新，适合开发者、设计师以及需要频繁跨设备工作的专业人士。
 - [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) ★4731 [`bilibili`] [`bilibili-live`] [`dotnet-core`] [`flv`] [`stream`] [`wpf`]  
   BililiveRecorder 主要用于录制哔哩哔哩直播内容，支持多种分辨率和音视频格式的输出。用户可以轻松捕捉直播直播中的精彩瞬间，满足需要进行内容回放或二次创作的需求。该工具通常适合主播、视频创作者以及想要保存直播回放的用户，提升直播内容的可利用性和灵活性。

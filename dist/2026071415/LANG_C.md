@@ -1,6 +1,6 @@
 # C 仓库
 
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145667 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145668 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
   scrcpy 主要用于在电脑上以高效、低延迟的方式显示和控制 Android 设备的屏幕。它支持多种操作系统，通过 USB 或无线连接，用户可以方便地进行应用测试、演示或管理手机内容。通常适合开发者和测试人员使用，同时也能够满足需要大屏体验的普通用户。该项目支持高分辨率显示，并提供多种自定义选项，增强了手机与电脑的交互性。
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★136579 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
   PowerToys 主要用于提升 Windows 系统的生产力，提供一系列实用工具来增强用户体验。其核心功能包括窗口管理、文件重命名、图像调整、键盘快捷键配置等，帮助用户更高效地进行多任务操作和系统自定义。适合需要频繁进行窗口控制和文件处理的用户，能够有效简化日常工作流程。
@@ -26,7 +26,7 @@
   该项目旨在提供一个快速且高效的代码搜索工具，通常适用于开发者在大规模代码库中快速查找文本内容。通过使用类似于 grep 的语法，The Silver Searcher 能够快速定位文件中的关键词，支持多种文件类型和目录排除选项，显著提升了日常开发中的搜索效率，尤其适合需要频繁查找和调试代码的程序员。
 - [jarun/nnn](https://github.com/jarun/nnn) ★21706 [`android`] [`batch-rename`] [`c`] [`cli`] [`command-line`] [`developer-tools`] [`disk-usage`] [`file-manager`] [`file-preview`] [`file-search`] [`filesystem`] [`launcher`] [`multi-platform`] [`ncurses`] [`productivity`] [`raspberry-pi`] [`terminal`] [`tui`] [`vim`] [`wsl`]  
   nnn 是一个轻量级的文件管理器，旨在提供快速的文件浏览、管理和预览功能，适合终端用户使用。它支持丰富的插件系统，通常用于在命令行中高效处理文件操作，如复制、移动、删除等。nnn 同时具备简单的搜索和书签功能，使用户能够快速找到所需文件，适合在低资源环境下提升文件管理效率。
-- [gojue/ecapture](https://github.com/gojue/ecapture) ★15351 [`android`] [`android-https-capture`] [`ebpf`] [`ebpf-go`] [`ebpf-tc`] [`ebpf-uprobe`] [`golang`] [`https`] [`linux`] [`network-capture`] [`security-audit`] [`ssl`] [`ssldump`] [`tcpdump`] [`tls`]  
+- [gojue/ecapture](https://github.com/gojue/ecapture) ★15352 [`android`] [`android-https-capture`] [`ebpf`] [`ebpf-go`] [`ebpf-tc`] [`ebpf-uprobe`] [`golang`] [`https`] [`linux`] [`network-capture`] [`security-audit`] [`ssl`] [`ssldump`] [`tcpdump`] [`tls`]  
   ecapture主要用于简化数据捕获与处理工作，旨在高效地从不同数据源提取、清洗和转换数据，适合数据分析和机器学习项目。该项目通常适合需要处理大规模数据集的开发者和数据科学家，通过提供统一的接口和灵活的配置选项，提高数据处理的效率和准确性。
 - [coturn/coturn](https://github.com/coturn/coturn) ★14201 [`networking`] [`server`] [`turn`]  
   提供一个高性能、可靠的 TURN 和 STUN 服务器，实现 WebRTC 通信中的 NAT 穿越。主要用于支持音频、视频与数据的实时传输，适合需要在防火墙或 NAT 后进行点对点连接的应用场景。通常被用于VoIP电话、视频会议和实时数据传输等领域。
@@ -72,7 +72,7 @@
   用于在 iOS 设备上进行 Web 开发调试的工具，能够将 Safari 和 Chrome 等浏览器的调试功能扩展到 iOS 设备。主要支持通过 USB 连接的 iOS 设备与桌面开发环境进行实时调试，适合开发者优化网页在移动设备上的表现，解决兼容性和性能问题。该工具利用 WebKit 远程调试协议，提供方便的调试会话管理。
 - [ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) ★6132 [`android`] [`c`] [`cpp`] [`cross-platform`] [`epoll`] [`hpsocket`] [`http`] [`https`] [`iocp`] [`linux`] [`ndk`] [`netcore`] [`network`] [`networking`] [`socket`] [`ssl`] [`tcp`] [`udp`] [`websocket`] [`windows`]  
   HP-Socket主要用于实现高性能的网络通信，支持多种协议如TCP、UDP和HTTP，为开发者提供一个高效、易用的框架来构建网络应用。它适合用于实现服务器与客户端之间的实时数据传输，特别是在需要处理大量并发连接时，能够显著提升应用的性能和响应速度。此项目通常用于游戏开发、即时通讯和大数据传输等场景。
-- [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ★5913  
+- [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ★5914  
   Tinyproxy 用于搭建轻量级的 HTTP/HTTPS 代理服务器，使用户能够通过代理访问互联网。它适合资源有限的环境，如嵌入式系统或低配置服务器，支持基本的身份验证和访问控制，能够有效提供隐私保护和内容过滤功能。通常，Tinyproxy 用于提升网络访问安全性，绕过地理限制或管理网络流量。
 - [jedisct1/dsvpn](https://github.com/jedisct1/dsvpn) ★5806 [`privacy`] [`reallysimple`] [`simple`] [`vpn`]  
   实现安全和匿名网络连接的工具，能够通过简化的 VPN 架构为用户提供私密的网络浏览体验，适合需要绕过地理限制和保护在线身份的用户。该项目通常用于个人用户和小型团队在不安全的网络环境中建立安全的通信通道。

@@ -1,14 +1,14 @@
 # NaN 仓库
 
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★305318 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★305319 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
   汇集了众多自托管软件和服务的资源库，方便用户寻找和选择适合的自托管解决方案。主要用于帮助开发者和技术爱好者实现数据自主控制和隐私保护，涵盖从网站托管、办公工具到媒体服务等多个领域，通常适合有技术背景的用户进行二次开发或部署。
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) ★276382  
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) ★276381  
   该项目旨在为劳动者提供反对996工作制的支持与倡导，尤其针对中国的高强度工作环境。通过共享相关法律信息与案例，项目帮助人们了解自己的权益，促进更加合理的工作时间安排。适合关注劳动权益、希望改善职场文化的人士参与。
 - [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ★117345 [`android`] [`angular`] [`books`] [`free`] [`ios`] [`javascript`] [`kotlin`] [`pdf`] [`programming`] [`python`] [`react`] [`react-native`] [`swift`] [`vue`]  
   提供了丰富的中文编程书籍资源，涵盖各类编程语言和技术，适合初学者和进阶者学习。用户可以通过该项目获取免费的编程学习资料，方便随时查阅和下载，支持多种领域，包括前端、后端、算法等，帮助读者快速提高编程能力。
 - [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ★101168 [`chinese`] [`cookbook`] [`cooking`] [`dishes`] [`recipes`]  
   提供了一系列实用的烹饪指南和食谱，适合初学者和经验丰富的厨师。该项目涵盖各种菜系和烹饪技巧，通过详细的步骤和提示，帮助用户轻松掌握烹饪技巧和提升烹饪水平。主要适用于希望丰富家庭餐桌或学习新菜谱的人群。
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★96703  
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★96705  
   每周分享技术和生活相关文章，旨在帮助开发者和技术爱好者获取最新的行业动态和实用知识。该项目通过整理和推荐优质内容，适合希望扩展视野、提升技能的读者，包含了多样的主题，如编程、设计、创业等，是一个吸收新知识的好资源。
 - [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) ★91989  
   DeepSeek-R1 主要用于增强深度学习模型的可解释性，通过可视化技术帮助用户理解模型的决策过程。该工具适合研究人员和开发者在模型训练和评估阶段，提供直观的结果分析与反馈，从而优化模型性能，提升应用效果。

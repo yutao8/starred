@@ -12,9 +12,9 @@
   gkd主要用于提供一个高效的图形化工具套件，旨在简化和加速游戏开发过程。该项目通常适合开发者快速构建游戏原型，处理图形渲染和设计元素，能够有效提升团队的工作效率和创造力。通过整合多种功能和模块，gkd为开发者提供了便利的环境，以便专注于游戏逻辑和用户体验的优化。
 - [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) ★27446  
   Shizuku 主要用于在 Android 上以较低的权限允许应用访问系统 API，从而使开发者能够更方便地进行应用调试和功能开发。该项目通过提供一个框架，允许用户在不需 root 权限的情况下，进行系统级别的操作，适合需要权限管理和系统集成的开发场景。一般适合有开发需求的高级用户和开发者使用。
-- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ★27059 [`android`] [`api`] [`app`] [`bark`] [`call`] [`chatgpt`] [`dingding`] [`forward`] [`mqtt`] [`pushdear`] [`pushplus`] [`serverchan`] [`sms`] [`smtp`] [`telegram`] [`webhook`] [`wechatapp`]  
+- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ★27060 [`android`] [`api`] [`app`] [`bark`] [`call`] [`chatgpt`] [`dingding`] [`forward`] [`mqtt`] [`pushdear`] [`pushplus`] [`serverchan`] [`sms`] [`smtp`] [`telegram`] [`webhook`] [`wechatapp`]  
   SmsForwarder 主要用于自动转发接收到的短信，方便用户在多个设备或平台上查看和管理短信信息。该工具适合希望实现短信管理自动化的用户，尤其是在错过短信或需要集中管理多个号码时。通过配置，可以将短信转发到指定的电子邮件或其他信息服务，提升信息获取的及时性与便利性。
-- [mihonapp/mihon](https://github.com/mihonapp/mihon) ★21997 [`android`] [`kotlin`] [`manga`] [`manga-downloader`] [`manga-reader`] [`mangadownloader`] [`mangareader`] [`tachiyomi`] [`tachiyomi-alternative`]  
+- [mihonapp/mihon](https://github.com/mihonapp/mihon) ★21998 [`android`] [`kotlin`] [`manga`] [`manga-downloader`] [`manga-reader`] [`mangadownloader`] [`mangareader`] [`tachiyomi`] [`tachiyomi-alternative`]  
   Mihon 是一款专注于为开发者提供文档管理和协作的工具，主要用于快速生成和编辑项目文档，便于团队成员之间的信息共享和实时协作。该项目适合那些需要高效管理技术文档和提升团队工作效率的开发者，通常集成了版本控制和在线编辑功能，以确保文档始终保持最新状态。
 - [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) ★21840 [`android`] [`gfw`] [`proxy`] [`shadowsocks`] [`sing-box`] [`trojan`] [`vmess`] [`vpn`]  
   NekoBoxForAndroid 主要用于为 Android 平台提供一个集成的猫咪主题管理应用。用户可以通过该应用方便地浏览、下载和管理猫咪相关的主题和壁纸，提升设备个性化和趣味性。该项目通常适合喜欢猫咪的用户，旨在通过友好的界面和流畅的体验，使用户轻松找到和应用他们喜欢的视觉风格。

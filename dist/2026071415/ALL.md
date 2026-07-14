@@ -1,7 +1,7 @@
 # 所有收藏仓库
 
 - **仓库总数：** 1953
-- **最后更新时间：** 2026-07-14 15:19:04
+- **最后更新时间：** 2026-07-14 15:23:21
 
 - [daliansky/XiaoMi-Pro-Hackintosh](https://github.com/daliansky/XiaoMi-Pro-Hackintosh) ★2654 [`hackintosh`] [`macos`] [`xiaomi`]  
   XiaoMi-Pro-Hackintosh 主要用于在小米Pro笔记本上安装和运行macOS系统，旨在为用户提供一种便捷的黑苹果解决方案。该项目通常适合那些希望在非苹果硬件上体验macOS的用户，可以帮助解决兼容性问题，并提供必要的驱动和配置支持，以提升系统的稳定性和性能。通过详细的安装指导和社区支持，用户能够更轻松地实现黑苹果的环境搭建。
@@ -27,7 +27,7 @@
   Geek_SougouIME 提供了一个强大的输入法解决方案，主要用于增强用户在中文输入时的效率与体验。该项目集成了丰富的词库与智能联想功能，适合需要进行高频中文输入的用户，如写作、编程或商务交流人员。通过此输入法，用户可以更加便捷地输入繁体和简体中文，提升日常工作与学习的便捷性。
 - [lsky-org/lsky-pro](https://github.com/lsky-org/lsky-pro) ★4672 [`cloud`] [`image-store`] [`images`] [`laravel`] [`lsky`] [`mdui`] [`photo-album`] [`php`] [`picture`]  
   Lsky Pro 主要用于搭建个人云盘，通过简洁的界面和便捷的文件管理功能，用户可以轻松上传、下载和分享文件。该项目通常适合想要拥有私有存储方案的用户，支持多种文件格式，提供灵活的权限管理，帮助用户有效地管理和保护个人数据。
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145667 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145668 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
   scrcpy 主要用于在电脑上以高效、低延迟的方式显示和控制 Android 设备的屏幕。它支持多种操作系统，通过 USB 或无线连接，用户可以方便地进行应用测试、演示或管理手机内容。通常适合开发者和测试人员使用，同时也能够满足需要大屏体验的普通用户。该项目支持高分辨率显示，并提供多种自定义选项，增强了手机与电脑的交互性。
 - [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★136579 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
   PowerToys 主要用于提升 Windows 系统的生产力，提供一系列实用工具来增强用户体验。其核心功能包括窗口管理、文件重命名、图像调整、键盘快捷键配置等，帮助用户更高效地进行多任务操作和系统自定义。适合需要频繁进行窗口控制和文件处理的用户，能够有效简化日常工作流程。
@@ -53,7 +53,7 @@
   该项目旨在提供一个快速且高效的代码搜索工具，通常适用于开发者在大规模代码库中快速查找文本内容。通过使用类似于 grep 的语法，The Silver Searcher 能够快速定位文件中的关键词，支持多种文件类型和目录排除选项，显著提升了日常开发中的搜索效率，尤其适合需要频繁查找和调试代码的程序员。
 - [jarun/nnn](https://github.com/jarun/nnn) ★21706 [`android`] [`batch-rename`] [`c`] [`cli`] [`command-line`] [`developer-tools`] [`disk-usage`] [`file-manager`] [`file-preview`] [`file-search`] [`filesystem`] [`launcher`] [`multi-platform`] [`ncurses`] [`productivity`] [`raspberry-pi`] [`terminal`] [`tui`] [`vim`] [`wsl`]  
   nnn 是一个轻量级的文件管理器，旨在提供快速的文件浏览、管理和预览功能，适合终端用户使用。它支持丰富的插件系统，通常用于在命令行中高效处理文件操作，如复制、移动、删除等。nnn 同时具备简单的搜索和书签功能，使用户能够快速找到所需文件，适合在低资源环境下提升文件管理效率。
-- [gojue/ecapture](https://github.com/gojue/ecapture) ★15351 [`android`] [`android-https-capture`] [`ebpf`] [`ebpf-go`] [`ebpf-tc`] [`ebpf-uprobe`] [`golang`] [`https`] [`linux`] [`network-capture`] [`security-audit`] [`ssl`] [`ssldump`] [`tcpdump`] [`tls`]  
+- [gojue/ecapture](https://github.com/gojue/ecapture) ★15352 [`android`] [`android-https-capture`] [`ebpf`] [`ebpf-go`] [`ebpf-tc`] [`ebpf-uprobe`] [`golang`] [`https`] [`linux`] [`network-capture`] [`security-audit`] [`ssl`] [`ssldump`] [`tcpdump`] [`tls`]  
   ecapture主要用于简化数据捕获与处理工作，旨在高效地从不同数据源提取、清洗和转换数据，适合数据分析和机器学习项目。该项目通常适合需要处理大规模数据集的开发者和数据科学家，通过提供统一的接口和灵活的配置选项，提高数据处理的效率和准确性。
 - [coturn/coturn](https://github.com/coturn/coturn) ★14201 [`networking`] [`server`] [`turn`]  
   提供一个高性能、可靠的 TURN 和 STUN 服务器，实现 WebRTC 通信中的 NAT 穿越。主要用于支持音频、视频与数据的实时传输，适合需要在防火墙或 NAT 后进行点对点连接的应用场景。通常被用于VoIP电话、视频会议和实时数据传输等领域。
@@ -99,7 +99,7 @@
   用于在 iOS 设备上进行 Web 开发调试的工具，能够将 Safari 和 Chrome 等浏览器的调试功能扩展到 iOS 设备。主要支持通过 USB 连接的 iOS 设备与桌面开发环境进行实时调试，适合开发者优化网页在移动设备上的表现，解决兼容性和性能问题。该工具利用 WebKit 远程调试协议，提供方便的调试会话管理。
 - [ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) ★6132 [`android`] [`c`] [`cpp`] [`cross-platform`] [`epoll`] [`hpsocket`] [`http`] [`https`] [`iocp`] [`linux`] [`ndk`] [`netcore`] [`network`] [`networking`] [`socket`] [`ssl`] [`tcp`] [`udp`] [`websocket`] [`windows`]  
   HP-Socket主要用于实现高性能的网络通信，支持多种协议如TCP、UDP和HTTP，为开发者提供一个高效、易用的框架来构建网络应用。它适合用于实现服务器与客户端之间的实时数据传输，特别是在需要处理大量并发连接时，能够显著提升应用的性能和响应速度。此项目通常用于游戏开发、即时通讯和大数据传输等场景。
-- [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ★5913  
+- [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ★5914  
   Tinyproxy 用于搭建轻量级的 HTTP/HTTPS 代理服务器，使用户能够通过代理访问互联网。它适合资源有限的环境，如嵌入式系统或低配置服务器，支持基本的身份验证和访问控制，能够有效提供隐私保护和内容过滤功能。通常，Tinyproxy 用于提升网络访问安全性，绕过地理限制或管理网络流量。
 - [jedisct1/dsvpn](https://github.com/jedisct1/dsvpn) ★5806 [`privacy`] [`reallysimple`] [`simple`] [`vpn`]  
   实现安全和匿名网络连接的工具，能够通过简化的 VPN 架构为用户提供私密的网络浏览体验，适合需要绕过地理限制和保护在线身份的用户。该项目通常用于个人用户和小型团队在不安全的网络环境中建立安全的通信通道。
@@ -215,7 +215,7 @@
   Ladon 主要用于 Kubernetes 环境中的权限管理，通过灵活的策略配置实现对用户和服务的访问控制，帮助团队有效管理和审计在集群中运行的应用程序。该项目适合需要细粒度安全控制的开发与运维场景，确保资源访问的安全性和合规性。
 - [TheJoeFin/Text-Grab](https://github.com/TheJoeFin/Text-Grab) ★4817 [`dotnet`] [`local-ai`] [`msix`] [`ocr`] [`window-10`] [`windows`] [`windows-11`] [`wpf`]  
   Text-Grab 主要用于从各类图像中提取文本信息，适合需要进行文本识别与处理的场景，如文档数字化、图像中的内容提取等。该项目通常借助计算机视觉和光学字符识别（OCR）技术，帮助用户快速获取并利用图片中的文字，提升信息处理的效率。
-- [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ★4755  
+- [Jeric-X/SyncClipboard](https://github.com/Jeric-X/SyncClipboard) ★4756  
   SyncClipboard 主要用于在多设备间同步剪贴板内容，提升跨设备工作效率。该工具通常适合需要在电脑、手机和平板间快速共享文本或图像的用户，支持多种操作系统之间的无缝连接。利用该项目，用户可以轻松实现实时剪贴板内容更新，适合开发者、设计师以及需要频繁跨设备工作的专业人士。
 - [BililiveRecorder/BililiveRecorder](https://github.com/BililiveRecorder/BililiveRecorder) ★4731 [`bilibili`] [`bilibili-live`] [`dotnet-core`] [`flv`] [`stream`] [`wpf`]  
   BililiveRecorder 主要用于录制哔哩哔哩直播内容，支持多种分辨率和音视频格式的输出。用户可以轻松捕捉直播直播中的精彩瞬间，满足需要进行内容回放或二次创作的需求。该工具通常适合主播、视频创作者以及想要保存直播回放的用户，提升直播内容的可利用性和灵活性。
@@ -299,7 +299,7 @@
   aria2 是一款轻量级的下载工具，支持多种协议，包括 HTTP、HTTPS、FTP、BitTorrent 和 Metalink。它可以高效地处理大文件下载，适用于需要批量下载或下载高带宽文件的场景。用户可灵活配置下载参数，实现断点续传和多源下载，极大提升下载速度。该项目通常适合开发者、网络管理员和普通用户使用，提供了命令行界面以及丰富的配置选项，使其功能强大而灵活。
 - [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★39210 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine 主要用于提供高效的实时天气数据服务，支持多种天气信息查询功能。用户可以通过该项目获取不同地点的气象数据，如温度、湿度和风速等，适合用于个人天气应用、智能家居系统或其他需要天气信息的项目开发。该项目的灵活性使其能轻松集成于多种平台，帮助开发者快速实现气象相关功能。
-- [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★38800 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
+- [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★38799 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent 是一款轻量级的开源 BitTorrent 客户端，旨在提供简单易用的界面与强大的功能。它支持下载和上传种子文件，具备内置的搜索引擎、RSS 订阅与管理功能，使用户能够便捷地获取和管理下载内容。此外，qBittorrent 还提供了对多种操作系统的支持，适合需要高效下载大文件的用户。其高效的资源管理和无广告的设计，通常能够满足对下载体验有较高要求的用户。
 - [microsoft/WSL](https://github.com/microsoft/WSL) ★33082  
   WSL 主要用于在 Windows 环境中运行 Linux 发行版，提供了一种无缝的开发体验。用户可以在 Windows 上使用 Linux 命令行工具、开发和测试跨平台应用，便于开发者在不同系统间切换和优化兼容性。此项目增强了 Windows 与 Linux 的互动，适合需要同时使用两者的开发场景。
@@ -343,7 +343,7 @@
   noMeiryoUI 主要用于创建美观的用户界面，适合开发现代 Web 应用程序。该项目专注于提供简洁而美观的设计元素，帮助开发者快速构建具有吸引力的界面，通常结合 CSS 和 JavaScript 技术栈使用，适合需要提升用户体验的项目。
 - [zhongyang219/MusicPlayer2](https://github.com/zhongyang219/MusicPlayer2) ★6520  
   音乐播放器用于提供便捷的音乐播放体验，支持多种音频格式和播放列表管理。该项目可以帮助用户轻松浏览、选择和播放自己喜欢的音乐，适合在个人电脑或移动设备上使用。常见的使用场景包括在工作时播放背景音乐或在休闲时享受音乐。整体界面友好，旨在提升用户的音乐享受和管理效率。
-- [AlkaidLab/foundation-sunshine](https://github.com/AlkaidLab/foundation-sunshine) ★6071 [`cloudgaming`] [`game-streaming`] [`moonlight`] [`rdp`] [`remote-desktop`] [`stream`] [`sunshine`]  
+- [AlkaidLab/foundation-sunshine](https://github.com/AlkaidLab/foundation-sunshine) ★6072 [`cloudgaming`] [`game-streaming`] [`moonlight`] [`rdp`] [`remote-desktop`] [`stream`] [`sunshine`]  
   foundation-sunshine 主要用于构建和管理前端项目，提供一套灵活的开发框架和工具链，帮助开发者高效地搭建现代化的 web 应用。该项目通常适合需要快速迭代与高度定制化的开发场景，支持模块化设计，提高代码的可维护性和复用性。通过集成前沿的技术生态，foundation-sunshine 助力团队提升开发效率和项目质量。
 - [rainmeter/rainmeter](https://github.com/rainmeter/rainmeter) ★5872  
   Rainmeter主要用于Windows平台的桌面个性化定制，通过提供丰富的小工具和主题，用户可以自定义系统信息显示、时钟、天气、日历等多种 widget，提升桌面美观和功能性。适合希望增强桌面体验、展示个性化信息的用户，通过简单的配置和广泛的社区支持，用户能够轻松创建和分享自己的桌面皮肤。
@@ -487,7 +487,7 @@
   Sms主要用于简化和方便短信发送功能，适合需要批量发送或自动化短信的场景。该项目通常与各种编程语言和服务结合使用，支持开发者快速集成短信服务，提升应用的通信能力。它可广泛应用于账户验证、通知推送等场合，提高用户体验与信息传递效率。
 - [shrimpsend/shrimpsend](https://github.com/shrimpsend/shrimpsend) ★179 [`file-transfer`] [`lan`] [`s3`] [`shrimpsend`] [`webrtc`]  
   Shrimpsend 主要用于提供简单高效的文件传输解决方案，适合需要快速分享文件的用户和团队。该项目支持将文件通过链接快速发送，实现跨平台文件共享，通常用于小型项目或日常办公中的文件交流，旨在提升工作效率和简化文件传输流程。
-- [jaywcjlove/reference](https://github.com/jaywcjlove/reference) ★15151 [`cheatsheet`] [`docker`] [`javascript`] [`npm`] [`npm-package`] [`react`] [`reactjs`] [`references`] [`semver`] [`toml`] [`typescript`] [`vue3`] [`vuejs`]  
+- [jaywcjlove/reference](https://github.com/jaywcjlove/reference) ★15152 [`cheatsheet`] [`docker`] [`javascript`] [`npm`] [`npm-package`] [`react`] [`reactjs`] [`references`] [`semver`] [`toml`] [`typescript`] [`vue3`] [`vuejs`]  
   该项目主要用于提供一个参考资料库，涵盖了多种编程语言、框架和工具的实用信息，适合开发者在学习和工作中快速查找相关资料。通过汇集常用的代码示例、最佳实践和技术文档，它帮助提升开发效率，适合各个技术水平的程序员使用。
 - [datawhalechina/vibe-vibe](https://github.com/datawhalechina/vibe-vibe) ★5728 [`agent`] [`agentic-ai`] [`ai`] [`coding-assistant`] [`programming`] [`vibe-coding`] [`vibecoding`]  
   Vibe 是一个基于大数据和机器学习技术的人际关系可视化工具，主要用于帮助用户分析和理解复杂的社交网络。它通过对各种社交媒体和网络数据的挖掘，提供友好且直观的界面，适合学术研究、市场分析及社交行为洞察等场景，帮助用户识别关键联系、趋势和模式。
@@ -523,7 +523,7 @@
   nvm-windows 主要用于 Windows 平台，方便用户管理和切换不同版本的 Node.js。用户可以轻松地安装、卸载并切换 Node.js 版本，适合开发人员在不同项目中使用特定版本的 Node.js，从而保证项目兼容性和稳定性。该项目的便捷性和灵活性使得 Node.js 开发更加高效。
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) ★46903 [`golang`] [`http-proxy`] [`proxy`] [`shadowsocks`] [`socks`] [`socks5`] [`v2ray`] [`vmess`]  
   V2Ray Core 主要用于提供增强的网络代理服务，旨在改善用户的网络隐私和安全。该项目能够灵活地配置多种代理协议，适合在受限网络环境中访问被屏蔽的网站和服务。V2Ray 支持多种传输方式，并能与其他工具整合使用，特别适合开发者和网络安全专业人员进行网络优化和流量管理。
-- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) ★42156 [`ai-gateway`] [`claude`] [`deepseek`] [`gemini`] [`newapi`] [`openai`] [`rerank`]  
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) ★42158 [`ai-gateway`] [`claude`] [`deepseek`] [`gemini`] [`newapi`] [`openai`] [`rerank`]  
   提供一个为量子计算相关项目设计的API，支持量子算法的创建与调用。主要用于简化量子程序的开发流程，促进量子算法的实验和应用。该API通常适合研究人员和开发者在量子计算领域进行快速原型开发和测试，从而推动量子技术的创新。
 - [juanfont/headscale](https://github.com/juanfont/headscale) ★41660 [`tailscale`] [`tailscale-control-server`] [`tailscale-server`] [`wireguard`]  
   Headscale 主要用于为用户提供自托管的 WireGuard 控制平面，适合需要建立安全的虚拟私人网络（VPN）的场景。该项目能够管理动态 IP 地址和访问控制，适合用户在不依赖第三方服务的情况下，实现安全的网络连接。用户可以通过 Headscale 高效地控制和配置网络，提升私有网络的安全性和灵活性。
@@ -539,9 +539,9 @@
   ntfy 主要用于通过推送通知实现消息传递，旨在为用户提供一个简单的方式来发送和接收通知。该工具支持自托管和多种平台，适合用于个人项目、应用程序警报或系统状态更新。利用 HTTP 请求，用户能够快速接收重要信息，增强应用程序的实时性和用户交互体验。
 - [iawia002/lux](https://github.com/iawia002/lux) ★31505 [`bilibili`] [`crawler`] [`download`] [`downloader`] [`go`] [`golang`] [`iqiyi`] [`qq`] [`scraper`] [`tumblr`] [`video`] [`youku`] [`youtube`]  
   Lux 主要用于数据探索和可视化，帮助用户更高效地理解和分析复杂数据集。该项目提供了一种直观的界面，允许用户快速生成图表和图形，从而揭示数据中的潜在模式和趋势。适合数据科学家和分析师在处理大数据时，快速获得洞察力并做出数据驱动的决策。
-- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) ★28287 [`cloud`] [`cloud-storage`] [`cloudreve`] [`file`] [`file-manager`] [`file-sharing`] [`golang`]  
+- [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) ★28288 [`cloud`] [`cloud-storage`] [`cloudreve`] [`file`] [`file-manager`] [`file-sharing`] [`golang`]  
   Cloudreve 提供了一种便捷的文件管理和分享解决方案，主要用于个人和团队的云存储需求。该项目支持多种存储后端，如本地文件系统和各类云存储，用户可以通过简单的界面上传、下载和管理文件。适合希望在私有云环境中构建高效文件共享和存储服务的用户，通常用于增强文件访问安全性和数据管理的灵活性。
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ★27906 [`cdn`] [`cloudflare`] [`go`] [`golang`] [`speedtest`]  
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ★27907 [`cdn`] [`cloudflare`] [`go`] [`golang`] [`speedtest`]  
   CloudflareSpeedTest 主要用于测试和优化通过 Cloudflare 加速的网络性能，特别适合开发者和运维人员监控网站在不同地区的访问速度和稳定性。该工具能够帮助用户快速识别和解决网络延迟问题，从而提升用户体验。它通常适合于对网站性能要求较高的应用场景。
 - [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) ★27141 [`alfred`] [`launcher`] [`launchy`] [`productivity`] [`productivity-tools`] [`raycast`] [`spotlight`] [`wox`] [`wox-launcher`]  
   Wox 是一款高效的 Windows 应用启动器，主要用于提升用户的工作效率和操作便捷性。用户可以通过简单的快捷键调用 Wox，快速搜索和启动应用程序、文件及网页，并支持插件扩展，增强其功能。其优雅的界面和强大的搜索能力，特别适合需要频繁切换应用的办公和开发环境。通过集成各种插件，用户可以实现更个性化的使用体验，方便自定义工作流程。
@@ -567,7 +567,7 @@
   gost 是一个高性能的 Golang 实现的反向代理工具，主要用于搭建安全的隧道，实现网络流量的转发和加密。它支持多种协议，包括 HTTP、HTTPS、SOCKS5 和 TCP tunneling，适合用在需要绕过网络限制或提高数据传输安全性的场景。用户可以轻松配置和部署，满足不同网络环境下的需求。
 - [slackhq/nebula](https://github.com/slackhq/nebula) ★17522  
   Nebula 主要用于在分布式环境中实现安全的网络连接，帮助用户构建和管理跨多个设备和位置的虚拟网络。借助其灵活的配置和强大的加密功能，团队可以方便地共享资源，保护敏感数据，并提高协作效率。通过支持各类设备和操作系统，Nebula 适合需要高安全性、低延迟通信的应用场景，尤其是在现代远程工作和云环境中。
-- [ory/hydra](https://github.com/ory/hydra) ★17394 [`authorization`] [`cloud`] [`docker`] [`federation`] [`hacktoberfest`] [`hydra`] [`identity`] [`oauth`] [`oauth-provider`] [`oauth2`] [`oauth2-provider`] [`oauth2-server`] [`oidc`] [`openid`] [`openid-connect`] [`openid-connect-provider`] [`openid-provider`] [`security`] [`server`] [`sso`]  
+- [ory/hydra](https://github.com/ory/hydra) ★17395 [`authorization`] [`cloud`] [`docker`] [`federation`] [`hacktoberfest`] [`hydra`] [`identity`] [`oauth`] [`oauth-provider`] [`oauth2`] [`oauth2-provider`] [`oauth2-server`] [`oidc`] [`openid`] [`openid-connect`] [`openid-connect-provider`] [`openid-provider`] [`security`] [`server`] [`sso`]  
   Ory Hydra 主要用于提供安全、高效的 OAuth 2.0 和 OpenID Connect 身份验证服务，便于开发者实现用户授权和身份管理。它支持多种连接方式，适合各种规模的应用程序，尤其在需要集中身份验证和管理访问权限的场景中表现突出。借助于其强大的自定义功能，开发者可以根据需求灵活配置安全策略，实现高效的用户体验和大规模身份验证解决方案。
 - [ent/ent](https://github.com/ent/ent) ★17134 [`ent`] [`entity-framework`] [`orm`]  
   Ent 是一个用于构建和管理数据模型的强类型 ORM，特别适用于 Go 语言开发者。通过代码生成和类型安全，Ent 可以简化数据库操作，提供清晰的 API 以便于与数据库交互。该工具适合需要高效数据管理和灵活查询的应用程序，尤其在构建现代 Web 应用和微服务架构中表现出色。
@@ -771,7 +771,7 @@
   bug主要用于简化软件缺陷的跟踪和管理，提供便利的工具来记录、分类和解决程序中的错误。该项目适合开发团队在软件开发过程中，提高缺陷处理的效率与协作，促进快速迭代和产品质量提升。通常适用于各类软件项目，特别是那些需要及时反馈和修复的开发环境。
 - [Lerist/FakeLocation](https://github.com/Lerist/FakeLocation) ★7175  
   FakeLocation用于动态生成和伪装用户的地理位置信息，帮助开发者在应用测试中模拟不同的地理位置场景。该项目适合需要测试位置敏感功能的应用，如地图导航、社交媒体和位置服务，确保在无真实移动的情况下验证功能的正确性。通过提供虚构的地理数据，开发者可以提升测试效率，避免在不同地点进行真实测试的繁琐。
-- [vbskycn/iptv](https://github.com/vbskycn/iptv) ★7111  
+- [vbskycn/iptv](https://github.com/vbskycn/iptv) ★7110  
   该项目主要用于提供 IPTV（互联网协议电视）服务，允许用户通过网络观看直播电视节目。适合希望搭建个人或家庭 IPTV 解决方案的人群，支持多种设备接入，能够满足用户在不同场景下的观看需求。项目可能集成了流媒体技术，以实现高效、稳定的播放体验。
 - [CaiJimmy/hugo-theme-stack](https://github.com/CaiJimmy/hugo-theme-stack) ★6433 [`bloggers`] [`hugo`] [`hugo-theme`] [`theme`]  
   Hugo-theme-stack 主要用于构建个人博客或作品展示网站，提供简洁、美观且响应式的页面布局。该主题支持多种自定义选项，方便用户根据个人喜好调整外观和功能，适合技术爱好者和创作者展示自己的作品与文章。通常适用于希望快速搭建网站而无需深入了解前端开发的用户。
@@ -881,7 +881,7 @@
   lyy077.github.io 是一个个人博客网站，主要用于展示个人作品、技术分享和生活琐事。通过直观的页面设计与清晰的内容结构，用户可以方便地阅读和获取信息。该项目通常适合喜欢分享与学习的开发者，支持多种技术话题和个人见解的交流。
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128476 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
   hello-algo 主要用于提供算法和数据结构的可视化教学工具，适合学习者通过直观的图形展示来理解复杂的概念。该项目包含多个算法的图示，通常适合用于编程教育、面试准备以及自学者的复习，帮助用户加深对基础算法的理解并提升编程能力。
-- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★87033 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★87034 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
   Stirling-PDF 主要用于简化PDF文档的处理与分析。它提供了一系列功能，通常适合用于提取文本、合并文件和进行格式转换，能够有效提升用户在PDF文件管理上的效率，适用范围广泛，涵盖文档管理、数据提取等场景。
 - [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) ★70853 [`disassembler`] [`reverse-engineering`] [`software-analysis`]  
   Ghidra是一款强大的开源反向工程工具，主要用于软件分析、漏洞挖掘和安全研究。它支持多种平台和文件格式，提供用户友好的界面和丰富的分析功能，使工程师能够更有效地识别和理解软件中的安全漏洞。开发者或安全研究人员可以利用Ghidra对二进制文件进行静态和动态分析，快速解构复杂的程序逻辑，通常非常适合用于网络安全和恶意软件分析。
@@ -893,7 +893,7 @@
   jadx主要用于将Android APK文件反编译成可读的Java源代码，便于开发者进行代码审查和安全分析。该工具支持多种反编译模式，并提供图形用户界面和命令行界面，通常适合需要分析Android应用程序内部逻辑或修改应用的开发者。通过使用jadx，用户能够快速提取应用程序中的代码结构，识别潜在的安全漏洞或进行逆向工程。
 - [halo-dev/halo](https://github.com/halo-dev/halo) ★39266 [`blog`] [`blog-engine`] [`cms`] [`content-management-system`] [`halo`] [`halocms`] [`website-builder`]  
   Halo 是一个开源的现代博客引擎，主要用于搭建个人博客和内容管理系统。该项目提供了简洁的界面和丰富的功能，支持多种主题和插件，通常适合希望快速创建并管理在线内容的用户。通过 Halo，用户能够轻松发布文章、管理标签和分类，同时具备良好的响应式设计，确保在各种设备上的良好体验。
-- [zxing/zxing](https://github.com/zxing/zxing) ★34020 [`android`] [`barcode`] [`barcode-scanner`] [`datamatrix`] [`java`] [`qr-code`] [`upc`] [`zxing`]  
+- [zxing/zxing](https://github.com/zxing/zxing) ★34021 [`android`] [`barcode`] [`barcode-scanner`] [`datamatrix`] [`java`] [`qr-code`] [`upc`] [`zxing`]  
   ZXing 是一款开源的条形码和二维码处理库，主要用于生成、解码和识别各种类型的条形码。它支持多种格式，包括二维码、条形码和一维码，能够在移动设备和桌面应用中广泛应用。常用于支付系统、商品追踪、票务和身份验证等场景，为用户提供便捷的信息获取和数据管理功能。该库在 Java 生态系统中使用较为普遍，并且可以与 Android 和其他平台集成，适合开发者在项目中实现条形码相关的功能。
 - [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ★29536 [`telegram`]  
   Telegram 是一款用于即时通讯的应用程序，主要功能包括安全的文字聊天、语音通话和视频通话，支持多种平台。用户可以随时创建群组、频道，分享媒体文件，且具备强大的隐私保护和加密特性。该应用适合希望保持通讯安全、同时享受丰富社交功能的用户。
@@ -1645,9 +1645,9 @@
   gkd主要用于提供一个高效的图形化工具套件，旨在简化和加速游戏开发过程。该项目通常适合开发者快速构建游戏原型，处理图形渲染和设计元素，能够有效提升团队的工作效率和创造力。通过整合多种功能和模块，gkd为开发者提供了便利的环境，以便专注于游戏逻辑和用户体验的优化。
 - [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) ★27446  
   Shizuku 主要用于在 Android 上以较低的权限允许应用访问系统 API，从而使开发者能够更方便地进行应用调试和功能开发。该项目通过提供一个框架，允许用户在不需 root 权限的情况下，进行系统级别的操作，适合需要权限管理和系统集成的开发场景。一般适合有开发需求的高级用户和开发者使用。
-- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ★27059 [`android`] [`api`] [`app`] [`bark`] [`call`] [`chatgpt`] [`dingding`] [`forward`] [`mqtt`] [`pushdear`] [`pushplus`] [`serverchan`] [`sms`] [`smtp`] [`telegram`] [`webhook`] [`wechatapp`]  
+- [pppscn/SmsForwarder](https://github.com/pppscn/SmsForwarder) ★27060 [`android`] [`api`] [`app`] [`bark`] [`call`] [`chatgpt`] [`dingding`] [`forward`] [`mqtt`] [`pushdear`] [`pushplus`] [`serverchan`] [`sms`] [`smtp`] [`telegram`] [`webhook`] [`wechatapp`]  
   SmsForwarder 主要用于自动转发接收到的短信，方便用户在多个设备或平台上查看和管理短信信息。该工具适合希望实现短信管理自动化的用户，尤其是在错过短信或需要集中管理多个号码时。通过配置，可以将短信转发到指定的电子邮件或其他信息服务，提升信息获取的及时性与便利性。
-- [mihonapp/mihon](https://github.com/mihonapp/mihon) ★21997 [`android`] [`kotlin`] [`manga`] [`manga-downloader`] [`manga-reader`] [`mangadownloader`] [`mangareader`] [`tachiyomi`] [`tachiyomi-alternative`]  
+- [mihonapp/mihon](https://github.com/mihonapp/mihon) ★21998 [`android`] [`kotlin`] [`manga`] [`manga-downloader`] [`manga-reader`] [`mangadownloader`] [`mangareader`] [`tachiyomi`] [`tachiyomi-alternative`]  
   Mihon 是一款专注于为开发者提供文档管理和协作的工具，主要用于快速生成和编辑项目文档，便于团队成员之间的信息共享和实时协作。该项目适合那些需要高效管理技术文档和提升团队工作效率的开发者，通常集成了版本控制和在线编辑功能，以确保文档始终保持最新状态。
 - [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) ★21840 [`android`] [`gfw`] [`proxy`] [`shadowsocks`] [`sing-box`] [`trojan`] [`vmess`] [`vpn`]  
   NekoBoxForAndroid 主要用于为 Android 平台提供一个集成的猫咪主题管理应用。用户可以通过该应用方便地浏览、下载和管理猫咪相关的主题和壁纸，提升设备个性化和趣味性。该项目通常适合喜欢猫咪的用户，旨在通过友好的界面和流畅的体验，使用户轻松找到和应用他们喜欢的视觉风格。
@@ -1727,15 +1727,15 @@
   Bootstrap 是一个流行的前端开发框架，主要用于快速构建响应式和移动优先的网站。它提供了一套简洁的 CSS 和 JavaScript 组件，方便开发者实现导航条、按钮、表单等常见界面元素，同时确保在各种设备上的良好显示效果。由于其广泛的兼容性和丰富的文档，Bootstrap 通常适合需要快速开发且易于维护的网页应用。
 - [frida/frida](https://github.com/frida/frida) ★21308 [`frida`] [`instrumentation`] [`vala`]  
   Frida 是一个强大的动态插桩工具，主要用于安全研究、逆向工程和应用程序分析。它支持多种平台和编程语言，使开发者能够实时修改和监控运行中的应用程序，非常适合进行安全测试和调试。Frida 可以帮助分析复杂的应用行为，识别潜在的安全漏洞和恶意活动，广泛应用于移动应用、桌面软件和嵌入式设备的安全检测。
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★305318 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★305319 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
   汇集了众多自托管软件和服务的资源库，方便用户寻找和选择适合的自托管解决方案。主要用于帮助开发者和技术爱好者实现数据自主控制和隐私保护，涵盖从网站托管、办公工具到媒体服务等多个领域，通常适合有技术背景的用户进行二次开发或部署。
-- [996icu/996.ICU](https://github.com/996icu/996.ICU) ★276382  
+- [996icu/996.ICU](https://github.com/996icu/996.ICU) ★276381  
   该项目旨在为劳动者提供反对996工作制的支持与倡导，尤其针对中国的高强度工作环境。通过共享相关法律信息与案例，项目帮助人们了解自己的权益，促进更加合理的工作时间安排。适合关注劳动权益、希望改善职场文化的人士参与。
 - [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ★117345 [`android`] [`angular`] [`books`] [`free`] [`ios`] [`javascript`] [`kotlin`] [`pdf`] [`programming`] [`python`] [`react`] [`react-native`] [`swift`] [`vue`]  
   提供了丰富的中文编程书籍资源，涵盖各类编程语言和技术，适合初学者和进阶者学习。用户可以通过该项目获取免费的编程学习资料，方便随时查阅和下载，支持多种领域，包括前端、后端、算法等，帮助读者快速提高编程能力。
 - [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ★101168 [`chinese`] [`cookbook`] [`cooking`] [`dishes`] [`recipes`]  
   提供了一系列实用的烹饪指南和食谱，适合初学者和经验丰富的厨师。该项目涵盖各种菜系和烹饪技巧，通过详细的步骤和提示，帮助用户轻松掌握烹饪技巧和提升烹饪水平。主要适用于希望丰富家庭餐桌或学习新菜谱的人群。
-- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★96703  
+- [ruanyf/weekly](https://github.com/ruanyf/weekly) ★96705  
   每周分享技术和生活相关文章，旨在帮助开发者和技术爱好者获取最新的行业动态和实用知识。该项目通过整理和推荐优质内容，适合希望扩展视野、提升技能的读者，包含了多样的主题，如编程、设计、创业等，是一个吸收新知识的好资源。
 - [deepseek-ai/DeepSeek-R1](https://github.com/deepseek-ai/DeepSeek-R1) ★91989  
   DeepSeek-R1 主要用于增强深度学习模型的可解释性，通过可视化技术帮助用户理解模型的决策过程。该工具适合研究人员和开发者在模型训练和评估阶段，提供直观的结果分析与反馈，从而优化模型性能，提升应用效果。
@@ -2675,13 +2675,13 @@
   Claude-Desktop-zh-cn 是一款用于桌面环境的应用程序，主要为用户提供中文界面的智能助手功能。该项目旨在提升用户的工作效率，适合需要快速获取信息、制定计划或进行任务管理的人群。通过友好的用户交互设计，用户能够方便地访问和使用各种智能服务，从而优化日常生活与工作的处理流程。
 - [qwsddn/autowork](https://github.com/qwsddn/autowork) ★57  
   autowork 主要用于自动化处理和管理工作流，特别适合需要高效率和规范化的团队协作场景。该项目通过集成多种工具和服务，实现任务的自动分配、进度跟踪和结果分析，从而提高工作效率并减少耗时的手动操作。通常适合需要优化工作流程和提升团队生产力的项目使用。
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449858 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449859 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
   提供一个全面的公共 API 列表，方便开发者查找和使用各种免费的 API 服务。适合用于集成不同功能，如获取天气信息、处理支付、访问社交媒体数据等。这些 API 涉及多种领域，包括数据科学、金融、健康、媒体等，加速开发流程，提升项目的功能性与创新性。主要适用于需要快速原型开发或寻找开放数据的开发者和研究人员。
 - [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★392045 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
   该项目提供了大量免费的编程书籍和学习资源，涵盖多种编程语言和技术主题，适合初学者和有经验的开发者。用户可以通过浏览和下载不同的书籍，快速获取所需的学习材料，帮助他们提升编程技能和解决实际开发问题。该资源库常常被用于自学、课程辅助和教学参考。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214444 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214452 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
   Hermes-agent 主要用于自动化和智能化的任务管理，通过集成多种工具和服务，帮助用户提高工作效率。该项目适合需要处理复杂工作流程和多任务调度的场景，能够有效减少手动操作，有助于团队协作和资源优化。使用该工具，用户可以轻松配置和管理任务，从而专注于更重要的工作。
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★165105 [`awesome`] [`github`] [`hellogithub`] [`python`]  
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★165107 [`awesome`] [`github`] [`hellogithub`] [`python`]  
   HelloGitHub 主要用于汇集和展示优质的 GitHub 项目，帮助用户发现有趣的开源资源。它通过分类和推荐机制，适合开发者、学习者以及开源爱好者查找相关项目，以提高学习效率和项目参与度。该仓库通常包含热门项目的链接和详细信息，为开源社区营造良好的探索氛围。
 - [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ★140704  
   youtube-dl 主要用于从视频网站下载视频和音频，支持多种格式和分辨率的选择。用户通常可以通过命令行界面快速获取流行媒体内容，同时该工具适合处理多个平台的链接，提供灵活的下载选项和高级功能，如批量下载和定时下载，满足不同用户的需求。
@@ -2689,7 +2689,7 @@
   DeepSeek-V3 主要用于通过深度学习技术进行高效的搜索和信息检索。该项目适合需要从大规模数据集中快速获取相关信息的场景，通常应用于文本、图像和多媒体内容的智能搜索。利用最新的算法，DeepSeek-V3 努力提升搜索准确性和响应速度，帮助用户更便捷地找到所需资料。
 - [nvbn/thefuck](https://github.com/nvbn/thefuck) ★97517 [`python`] [`shell`]  
   The Fuck 是一个命令行工具，主要用于自动修正用户在终端中输入的错误命令。它通过分析错误提示，提供合理的命令建议来提高使用效率，通常适合终端用户和开发者，帮助他们快速纠正输入失误，节省时间，提高工作流的顺畅性。
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★97283 [`ai`] [`automation`] [`chatgpt`] [`moviepy`] [`python`] [`shortvideo`] [`tiktok`]  
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★97285 [`ai`] [`automation`] [`chatgpt`] [`moviepy`] [`python`] [`shortvideo`] [`tiktok`]  
   MoneyPrinterTurbo 主要用于帮助用户进行快速的财务记录和预算管理，通过直观的界面和操作实现对个人或小型企业财务状况的实时追踪和分析，适合需要简化财务流程和提高财务透明度的用户群体。该项目结合现代前端技术，旨在提升用户体验，使财务管理更为高效便捷。
 - [home-assistant/core](https://github.com/home-assistant/core) ★89339 [`asyncio`] [`hacktoberfest`] [`home-automation`] [`internet-of-things`] [`iot`] [`mqtt`] [`python`] [`raspberry-pi`]  
   Home 是一款开源的家庭自动化平台，主要用于集中管理和控制智能家居设备。通过高度可定制的界面，用户可以轻松地将各种品牌和协议的设备集成到一个系统中，实现自动化场景和远程控制。该项目支持丰富的插件生态，能够满足不同用户的需求，并且适用于创建安全、智能和高效的家庭环境。
@@ -2697,13 +2697,13 @@
   用于在社交媒体和网络上搜索用户信息的工具，可以帮助用户找到特定用户名在不同平台的存在情况。通过输入目标用户名，Sherlock 会自动检索多个常见网站，提供关于该用户名的相关链接和信息，适合网络安全研究、社交媒体分析和个人隐私保护等场景。该项目通常使用 Python 开发，便于用户定制和扩展。
 - [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★81789  
   funNLP主要用于自然语言处理领域，提供一系列便捷的工具和模块，帮助开发者快速实现文本分析、情感识别及对话系统等功能。它通常适合于需要处理中文文本的应用场景，特别是在教育、娱乐和社交等行业，以提升用户互动体验和信息提取效率。
-- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★78258 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
+- [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★78259 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
   Hackingtool 是一个集成多种网络安全工具的项目，主要用于渗透测试与漏洞评估。它通常适用于安全研究人员和道德黑客，帮助他们识别系统弱点、模拟攻击场景，增强网络安全防护。该工具包支持多种功能模块，便于快速执行常见的安全测试任务，提升工作效率。
 - [xtekky/gpt4free](https://github.com/xtekky/gpt4free) ★66472 [`chatbot`] [`chatbots`] [`chatgpt`] [`chatgpt-4`] [`chatgpt-api`] [`chatgpt-free`] [`chatgpt4`] [`deepseek`] [`deepseek-api`] [`deepseek-r1`] [`gpt`] [`gpt-4`] [`gpt-4o`] [`gpt4`] [`gpt4-api`] [`language-model`] [`openai`] [`openai-api`] [`openai-chatgpt`] [`reverse-engineering`]  
   gpt4free 项目旨在提供一个免费访问 GPT-4 模型的解决方案，主要用于帮助开发者和用户在没有昂贵 API 成本的情况下体验和应用高级自然语言处理功能。该项目通常适合希望集成强大对话能力和文本生成能力的应用，尤其是在开发聊天机器人、自动回复系统或内容生成工具时。通过简化 GPT-4 的接入方式，用户可以更方便地探索和实验这一前沿技术。
 - [scrapy/scrapy](https://github.com/scrapy/scrapy) ★63132 [`crawler`] [`crawling`] [`framework`] [`hacktoberfest`] [`python`] [`scraping`] [`web-scraping`] [`web-scraping-python`]  
   Scrapy 是一个强大的网络爬虫框架，主要用于提取网站数据并处理成结构化格式。用户可以利用它快速构建爬虫，以抓取各种类型的网站，进行数据挖掘或内容聚合，适合需要自动化收集大量网页信息的场景。Scrapy 提供了丰富的功能，包括数据处理管道和异步网络请求处理，提升了爬虫开发的效率和灵活性。
-- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) ★60539 [`ai`] [`bark`] [`data-analysis`] [`docker`] [`hot-news`] [`llm`] [`mail`] [`mcp`] [`mcp-server`] [`news`] [`ntfy`] [`python`] [`rss`] [`trending-topics`] [`wechat`] [`wework`]  
+- [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) ★60541 [`ai`] [`bark`] [`data-analysis`] [`docker`] [`hot-news`] [`llm`] [`mail`] [`mcp`] [`mcp-server`] [`news`] [`ntfy`] [`python`] [`rss`] [`trending-topics`] [`wechat`] [`wework`]  
   TrendRadar 主要用于实时监测和分析技术趋势，通过数据可视化帮助用户识别行业动态和市场变化。适合企业和研究人员采用，通常用于制定战略、识别潜在创新以及发现新兴竞争对手，支持数据驱动的决策。该项目利用先进的数据处理和图表展示技术，简化趋势分析过程。
 - [soimort/you-get](https://github.com/soimort/you-get) ★56851  
   you-get 主要用于从各种网页上下载视频和音频内容，支持多个流行媒体网站。用户可以通过命令行工具轻松获取所需的多媒体资源，避免繁琐的浏览器插件或手动操作，适合希望批量下载影音资料的用户。该工具简洁高效，具有良好的跨平台支持，便于集成在不同工作流程中。
@@ -2713,7 +2713,7 @@
   Umi-OCR 主要用于图像中的文本识别，特别适合处理海洋相关的文档和资料。它能够提取并识别多种语言的文本内容，支持各种图像输入格式，适用于学术研究、数据采集和文档数字化等场景。该项目结合了深度学习技术，旨在提高识别精度和处理速度，为用户提供高效的文本提取解决方案。
 - [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) ★45968 [`ai`] [`ai-agent`] [`ai-agents`] [`chatgpt-on-wechat`] [`claude`] [`claude-code`] [`codex`] [`cowagent`] [`deepseek`] [`harness`] [`llm`] [`mcp`] [`multi-agent`] [`openai`] [`openclaw`] [`skills`]  
   CowAgent 主要用于自动化管理和监控特定任务，适合开发者和运维团队使用。该项目提供灵活的代理功能，能够高效处理多种事务，提升工作效率。通常适合需要批量操作或任务调度的场景，如数据收集和系统监测。通过简化流程，用户可以更专注于业务核心，提高生产力。
-- [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44289 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
+- [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44290 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
   mitmproxy 是一个交互式的 HTTPS 代理工具，主要用于网络流量的拦截、监控和修改。它适合开发者和测试人员使用，可以帮助分析 HTTP/HTTPS 请求和响应，调试 Web 应用和移动应用中的网络交互问题。用户可以实时查看请求内容，进行数据筛选和修改，通常用于安全测试和性能分析。
 - [2noise/ChatTTS](https://github.com/2noise/ChatTTS) ★39610 [`agent`] [`chat`] [`chatgpt`] [`chattts`] [`chinese`] [`chinese-language`] [`english`] [`english-language`] [`gpt`] [`llm`] [`llm-agent`] [`natural-language-inference`] [`python`] [`text-to-speech`] [`torch`] [`torchaudio`] [`tts`]  
   ChatTTS 主要用于将文本转化为自然流畅的语音，适合用于智能助手、语音导航和有声阅读等场景。该项目通过结合深度学习技术，提供高质量的语音合成，旨在提升用户交互体验和信息获取的便利性，满足对语音交互的需求。
@@ -2727,7 +2727,7 @@
   该项目主要用于自动监测网页内容的变化，适合需要跟踪特定网站更新的用户，如开发者、研究人员或内容创作者。通过定期检查网页，能够及时获取信息变更通知，便于用户迅速响应。此外，项目兼容多种网站和平台，实现灵活配置，增强用户体验和操作效率。
 - [python-telegram-bot/python-telegram-bot](https://github.com/python-telegram-bot/python-telegram-bot) ★29298 [`bot`] [`chatbot`] [`framework`] [`python`] [`telegram`]  
   python-telegram-bot 是一个用于与 Telegram Bot API 进行交互的 Python 库，主要用于方便地创建和管理 Telegram 机器人。该库提供了简单易用的接口，使开发者能够快速实现命令处理、消息发送、跟踪用户状态等功能，适合构建自动回复、群聊管理、信息推送等应用场景。无论是对新手还是有经验的开发者，这个库都能帮助他们快速实现高效的机器人应用。
-- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) ★29091 [`dns`] [`github`] [`hosts`]  
+- [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) ★29092 [`dns`] [`github`] [`hosts`]  
   GitHub520 主要用于表达对开源社区的感恩与支持，通过分享一些优质的开源项目和资源，旨在为开发者提供便捷的学习和交流平台。该项目适合希望提高自身技术能力和对开源文化感兴趣的用户，常见的场景包括学习编程、参与开源贡献和获取技术灵感。
 - [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) ★26478 [`api`] [`itchat`] [`robot`] [`wechat`]  
   ItChat 主要用于提供一个简单易用的微信个人号接口，方便用户在 Python 中实现微信聊天自动化。该项目适合需要进行信息推送、群发消息或聊天机器人开发的场景，支持多种功能，如自动回复、消息处理等，帮助开发者高效地与微信用户互动。
@@ -2773,7 +2773,7 @@
   TikTokDownloader 主要用于简便地下载 TikTok 视频，支持无水印下载，适合内容创作者和用户方便保存喜欢的视频供离线观看或分享。该工具通常功能强大，易于使用，旨在提升社交媒体内容的获取效率。适合各类用户，不论是普通用户还是专业内容制作人。
 - [pjialin/py12306](https://github.com/pjialin/py12306) ★14894  
   py12306 主要用于访问和操作中国铁路客户服务中心的12306网站，帮助用户实现购票、查询余票等功能。该项目通常适合需要自动化购票流程的用户，支持模拟登录、获取车次信息和历史记录等操作，以提升购票效率，解决高峰期抢票困难的问题。用户可以通过该工具简化购票体验，节省时间和精力。
-- [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ★14464 [`captcha`] [`ddddocr`] [`ocr`]  
+- [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ★14465 [`captcha`] [`ddddocr`] [`ocr`]  
   dddddocr 主要用于快速识别和提取文档中的文字信息，特别适合处理手写文本和复杂格式的文档图像。该项目可以帮助用户提升文档数字化效率，广泛应用于教育、法律和行政等领域。支持多种语言，结合了深度学习技术，能够处理各种场景下的文本识别任务。
 - [youfou/wxpy](https://github.com/youfou/wxpy) ★14263 [`api`] [`wechat`] [`weixin`]  
   wxpy 主要用于微信机器人开发，提供简单易用的 API 接口，帮助用户实现自动回复、消息管理等功能。适合个人和小团队进行社交媒体自动化操作，常用于实现自动化提醒、信息收集和自定义互动等场景。该项目能够提升微信使用效率，简化日常沟通任务。
@@ -2813,7 +2813,7 @@
   用于方便地与百度云盘进行交互的工具，实现文件的上传、下载和管理功能。主要支持命令行操作，适合需要在本地与百度云盘数据进行频繁交互的用户，能够有效解决百度云盘的 API 限制和使用复杂性问题。通过简化操作流程，提高了用户的使用体验和效率。
 - [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) ★8406 [`anonymous`] [`fastapi`] [`filecodebox`] [`python`] [`tool`] [`vue`]  
   FileCodeBox 主要用于简化代码分享和文件管理的过程，提供了一个方便的界面来上传、存储和分享代码片段与文件。适合开发者、学生及团队协作，帮助用户快速分享代码和相关文档，支持多种文件格式，便于在项目中进行资料的统一管理和共享。
-- [shaxiu/XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) ★8344 [`agent`] [`chatbot`] [`llm`]  
+- [shaxiu/XianyuAutoAgent](https://github.com/shaxiu/XianyuAutoAgent) ★8345 [`agent`] [`chatbot`] [`llm`]  
   XianyuAutoAgent 主要用于实现闲鱼平台的自动化交易和操作，通过模拟用户行为，增强闲鱼用户的交易效率。该项目通常适合需要频繁买卖闲置物品的用户，帮助其自动化处理发布、留言等日常任务，节省时间和人力成本，同时提升交易的及时性和成功率。
 - [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) ★8240 [`automation`] [`chrome`] [`crawl`] [`csdn`] [`hotmail`] [`outlook`] [`python3`] [`selenium`] [`spider`] [`tkinter`] [`wxpython`]  
   InfoSpider 主要用于信息采集与网络爬虫，通过集成多种爬虫技术，可以自动从互联网获取特定数据，适合用于数据分析、市场调研及竞争对手监测等场景。该项目提供灵活的配置，支持多种数据源，帮助用户高效地提取和整理信息。
@@ -2891,7 +2891,7 @@
   用于自动化云环境配置和初始化的工具，cloud-init 通过在云实例启动时执行用户指定的设置，简化了操作系统的配置过程。它支持多种云服务平台，能够实现用户数据脚本、SSH 密钥管理、软件安装等功能，适用于开发、测试和生产中的自动化部署，帮助开发者提升效率和维护一致性。
 - [pandolia/qqbot](https://github.com/pandolia/qqbot) ★3684 [`chat`] [`chatbot`] [`python`] [`qq`] [`qqbot`] [`smartqq`] [`webqq`]  
   qqbot 主要用于自动化操作 QQ 聊天工具，支持定时发送消息、聊天记录管理和自定义指令等功能，适合个人用户和团队实现消息自动化处理。该项目通常用于简化日常交流，提高工作和生活效率，并可通过简单配置满足多种使用场景。
-- [anbeime/skill](https://github.com/anbeime/skill) ★3597 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
+- [anbeime/skill](https://github.com/anbeime/skill) ★3598 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
   该项目主要用于技能管理和学习，提供了一个平台帮助用户记录、追踪和提升个人技能。通过简洁的界面，用户可以添加、评估和更新自己的技能水平，非常适合希望在职业发展中进行自我提升或进行团队技能分析的场景。此工具可以帮助用户制定学习计划，确保技能持续成长。
 - [sc0tfree/updog](https://github.com/sc0tfree/updog) ★3367 [`file-sharing`] [`file-upload`] [`http-server`] [`https-server`] [`simplehttpserver`]  
   Updog 主要用于快速搭建本地开发环境和文件共享服务器，方便开发者在团队中共享文件或进行演示。该工具通常适合用于临时性项目或需要快速分享的场景，支持简单的命令行操作，使得用户可以在几分钟内启动服务并访问文件，提升工作效率。利用 Updog，开发者能够轻松管理和共享本地资源，适用于多种开发环境。
@@ -3171,11 +3171,11 @@
   pwcrack-framework 主要用于密码破解的工具集，旨在为安全研究人员和测试人员提供高效灵活的密码破解解决方案。项目支持多种破解算法和攻击方式，适合分析密码强度和发现潜在的安全漏洞，通常用于渗透测试和安全审计。通过集成多种现有技术，用户能够快速实施密码恢复和破解操作，提高安全防护意识。
 - [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) ★194756  
   Claw-Code 主要用于对复杂网页进行抓取和数据提取，它提供了灵活的工具和方法，帮助用户高效获取所需信息。适合需要大规模数据采集的场景，如市场研究、内容聚合和信息监测。通过使用该项目，用户可以简化爬虫开发流程，提高数据处理效率。
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★118191 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★118192 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
   RustDesk 提供高性能的远程桌面解决方案，允许用户通过安全的连接远程访问和控制计算机。该项目支持跨平台的使用场景，适合在个人和企业环境中进行远程协作、技术支持与在线访客帮助。RustDesk 注重性能与隐私，旨在为用户提供简单易用、灵活的远程桌面体验。
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★116968 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★116971 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
   cc-switch用于简化和高效地管理项目中的切换功能，典型应用场景包括在多种状态或模式之间快速切换，尤其适合需要频繁更改设置或视图的用户界面。该项目通常采用现代前端技术构建，便于集成到现有应用中，提高用户体验和开发效率。
-- [openai/codex](https://github.com/openai/codex) ★97846  
+- [openai/codex](https://github.com/openai/codex) ★97847  
   Codex 主要用于自然语言处理和编程相关的任务，能够生成代码、自动化重复性编程工作以及提供代码建议。此项目适合开发人员和学生在编程学习、提高生产力以及快速原型开发中使用，尤其是在处理多种编程语言时，能够极大地简化开发流程。
 - [zed-industries/zed](https://github.com/zed-industries/zed) ★86938 [`gpui`] [`rust-lang`] [`text-editor`] [`zed`]  
   Zed 项目主要用于实时数据处理和分析，提供高效的解决方案来简化大规模数据流的管理。适合需要快速响应和决策的数据密集型应用场景，如金融监控、物联网数据分析等。通过其灵活的架构，用户能够方便地集成分布式系统，实现数据的实时传输与处理。
@@ -3189,9 +3189,9 @@
   Fish Shell 是一个友好的命令行界面，旨在提供用户友好的交互体验。它通过智能自动补全和语法高亮功能，使用户在终端中编写命令时更加高效和直观。Fish Shell 通常适合需要增强生产力的开发者和系统管理员，尤其是在复杂命令及脚本处理时。此外，其可扩展性和丰富的插件生态也为用户提供了极大的灵活性和便利性。
 - [TabbyML/tabby](https://github.com/TabbyML/tabby) ★33692 [`ai`] [`codegen`] [`coding-assistant`] [`coding-language`] [`developer-experience`] [`developer-tools`] [`gen-ai`] [`ide`] [`llms`]  
   Tabby是一款面向开发者的开源代码生成工具，主要用于提高编程效率。它通过自然语言处理技术，能够将用户输入的描述转化为代码片段，适合用于简化重复性编码任务，提升开发工作流中的自动化水平。该工具通常用于快速原型开发、代码补全及自动化脚本生成，有助于减少编码时间和误差。
-- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) ★30106 [`account-manager`] [`antigravity`]  
+- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) ★30107 [`account-manager`] [`antigravity`]  
   Antigravity-Manager 主要用于管理反重力飞行器或相关设备，通过智能调度和操作简化飞行器的控制流程，适合在航空航天、无人机以及新型运输工具领域应用，提高操作效率和安全性。该项目可能结合前沿的飞行控制算法和用户界面设计，旨在为开发者提供便捷的工具和框架，以促进技术的创新与研发。
-- [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ★26944 [`electron`] [`hosts`] [`hostseditor`] [`hostsfile`] [`switch-hosts`] [`switchhosts`]  
+- [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ★26945 [`electron`] [`hosts`] [`hostseditor`] [`hostsfile`] [`switch-hosts`] [`switchhosts`]  
   SwitchHosts主要用于便捷地管理本地 hosts 文件，提供图形化界面以简化切换不同的网络环境。用户可以快速添加、删除和编辑 hosts 条目，适合开发者在不同项目中快速调整域名解析，避免频繁手动编辑，提升工作效率。该工具支持导入和导出配置，便于在不同设备间同步使用。
 - [bee-san/Ciphey](https://github.com/bee-san/Ciphey) ★21516 [`artificial-intelligence`] [`cipher`] [`cpp`] [`cryptography`] [`ctf`] [`ctf-tools`] [`cyberchef-magic`] [`decryption`] [`deep-neural-network`] [`encodings`] [`encryptions`] [`hacking`] [`hacktoberfest`] [`hashes`] [`natural-language-processing`] [`pentesting`] [`python`]  
   Ciphey 主要用于自动解密和分析数据，特别适合用于处理加密信息和破解各种加密算法。该工具的核心功能在于提供简单易用的命令行界面，能够快速识别并解密多种常见的加密格式。通常适合安全研究人员、密码分析师和开发者用于调试和验证加密相关的工程及数据安全性。Ciphey 利用丰富的解密算法库，大幅提高解密工作效率，有助于探索安全漏洞和加密机制。
@@ -3231,11 +3231,11 @@
   数字花园是一个用于构建个人知识管理系统的工具，主要用于创建和组织自己的笔记、文章和思考。用户可以通过链接和标签将内容联系起来，适合那些希望以非线性方式探索和扩展知识的个体。该项目通常适合希望加强个人学习能力、管理信息流和强化思维结构的人士。
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★188710 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
   ohmyzsh 是一个强大的 Zsh 配置框架，旨在提高开发者的生产力。它通过丰富的主题和插件支持，为用户提供了个性化的终端体验，通常适合需要频繁使用命令行的程序员。用户可以轻松管理各类开发环境、提高命令行操作效率，同时享受可视化的界面和快捷的命令提示功能。
-- [mattpocock/skills](https://github.com/mattpocock/skills) ★168946  
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★168954  
   支持技能管理和展示的工具，主要用于帮助用户记录和分享个人技能，适合个人职业发展及团队内部技能盘点。该项目通常集成于工作流程中，为用户提供易于使用的界面，便于填写、更新和展示技能信息，促进个人能力的可视化和分享。
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ★52665 [`container`] [`docker`] [`docker-osx`] [`kvm`] [`macos`] [`os`] [`osx`] [`osx-kvm`] [`x`] [`x11`]  
   Docker-OSX 主要用于在 Docker 容器中运行 macOS 操作系统，适合开发者和爱好者进行 macOS 应用的测试和开发。该项目通过虚拟化技术实现 macOS 的运行环境，使得用户能够在非苹果硬件上体验 macOS 的功能及界面，通常适合需要在不同操作系统之间切换的开发场景，帮助用户高效地进行跨平台开发与测试。
-- [dockur/windows](https://github.com/dockur/windows) ★52425 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
+- [dockur/windows](https://github.com/dockur/windows) ★52426 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
   提供一个在 Windows 操作系统上构建和运行 Docker 容器的环境，旨在帮助开发者和运维人员更方便地进行容器化应用的开发和测试。主要用于支持多种开发场景，包括微服务架构和多平台应用的部署，通常适合需要跨平台开发的项目，优化了在 Windows 系统上的 Docker 使用体验。
 - [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ★47169 [`acme`] [`acme-challenge`] [`acme-protocol`] [`acme-v2`] [`ash`] [`bash`] [`buypass`] [`certbot`] [`lets-encrypt`] [`posix`] [`posix-sh`] [`shell`] [`ssl`] [`ssl-certificate`] [`ssl-certificates`] [`tls`] [`tls-certificate`] [`zerossl`]  
   acme.sh 主要用于简化和自动化通过 Let's Encrypt 获取和管理 SSL/TLS 证书的过程。该脚本支持多种证书颁发方式，适合网站运营者和开发者快速配置 HTTPS，提升网站安全性。其轻量级、无依赖的特性使得在各种环境中广泛适用，适合需要频繁更新证书的场景。
@@ -3253,7 +3253,7 @@
   LxgwWenKai 字体主要用于提供优雅和现代的中文排版体验，适合在网页设计、图形设计和文档编辑中使用。该字体注重字形的美观与可读性，通常适合需要高质量排版的项目，如电子书、报刊和品牌宣传材料。
 - [StreisandEffect/streisand](https://github.com/StreisandEffect/streisand) ★23474 [`ansible`] [`anyconnect`] [`censorship`] [`openconnect`] [`openvpn`] [`shadowsocks`] [`ssh`] [`streisand`] [`stunnel`] [`tor`] [`vpn`] [`wireguard`]  
   Streisand 是一个用于自动化安全措施和隐私保护的工具，主要帮助用户快速搭建个人 VPN 或代理服务，方便在受限网络环境中访问互联网。该项目支持多种配置选项，适合于希望在家中或云服务器上保护网络隐私的用户，可以有效应对信息封锁和网络审查问题。通过简化安全服务的安装和配置流程，Streisand 让用户能够更轻松地实现安全上网。
-- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ★21487 [`cloudflare`] [`grpc-cloudflare`] [`httpupgrade`] [`hysteria2`] [`nginx`] [`reality`] [`reality-grpc`] [`shell`] [`sing-box`] [`trojan`] [`trojan-grpc`] [`tuic-v5`] [`v2ray`] [`vless`] [`vmess`] [`websockettlscdn-cloudflare-ip`] [`xray`] [`xray-core`] [`xray-install`] [`xtls-rprx-vision`]  
+- [mack-a/v2ray-agent](https://github.com/mack-a/v2ray-agent) ★21488 [`cloudflare`] [`grpc-cloudflare`] [`httpupgrade`] [`hysteria2`] [`nginx`] [`reality`] [`reality-grpc`] [`shell`] [`sing-box`] [`trojan`] [`trojan-grpc`] [`tuic-v5`] [`v2ray`] [`vless`] [`vmess`] [`websockettlscdn-cloudflare-ip`] [`xray`] [`xray-core`] [`xray-install`] [`xtls-rprx-vision`]  
   v2ray-agent 主要用于实现与 V2Ray 兼容的代理服务，通常适合在需要翻墙的环境中使用。该项目能够简化 V2Ray 的配置过程，帮助用户更轻松地搭建和管理代理服务，同时支持多种代理协议和配置选项，提升用户的网络访问体验。其设计理念注重稳定性和易用性，适合开发者和对网络安全有需求的用户。
 - [Nyr/openvpn-install](https://github.com/Nyr/openvpn-install) ★20588 [`almalinux`] [`bash`] [`centos`] [`debian`] [`fedora`] [`openvpn`] [`rockylinux`] [`shell`] [`ubuntu`] [`vpn`]  
   OpenVPN-install 主要用于简化 OpenVPN 服务器的搭建与配置，适合那些希望在自己的服务器上快速设置安全 VPN 服务的用户。通过自动化安装脚本，用户可以轻松配置各种 VPN 选项，实现安全上网、隐私保护和远程访问。该项目尤其适合希望在个人或小型团队环境中创建个人 VPN 的开发者和系统管理员。
@@ -3439,15 +3439,15 @@
   这个项目主要用于学习和研究康熙字典，提供了字典的结构化数据和相关工具，方便用户进行字词查询及文本分析。通常适合语言学研究、历史文化探讨或文字学习，通过数字化的方式让更多人方便地接触和理解经典文献。
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ★382873 [`ai`] [`assistant`] [`crustacean`] [`molty`] [`openclaw`] [`own-your-data`] [`personal`]  
   OpenClaw 是一个用于计算机视觉和深度学习的工具，主要用于图像和视频数据的处理与分析。项目提供了一系列功能，帮助开发者高效地构建和训练视觉模型，通常适合需要快速迭代和实验的计算机视觉应用场景。通过使用此工具，用户能够简化数据预处理、模型训练及评估流程，提升工作效率。
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185579  
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185581  
   OpenCode 主要用于提供开放源代码的协作平台，适合开发者共享和改进代码。其核心功能包括版本控制、代码审查和项目管理，能够帮助团队高效协作，优化开发流程。通常适用于软件开发、知识分享和开源项目的管理，促进技术社区的交流与创新。
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150569 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150572 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
   Firecrawl 主要用于爬取并分析动态加载的网页内容，特别适用于需要处理 JavaScript 渲染的站点。该工具可以帮助用户抓取包含复杂数据的网站，通常用于数据挖掘、市场分析和搜索引擎优化等场景。结合现代爬虫技术，Firecrawl 提供了一种高效的方式，让开发者能快速获取所需信息，优化数据获取流程。
-- [iptv-org/iptv](https://github.com/iptv-org/iptv) ★132869 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
+- [iptv-org/iptv](https://github.com/iptv-org/iptv) ★132870 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
   提供全球范围内的 IPTV 流媒体播放列表，主要用于便捷获取和分享在线电视节目。该项目支持多种设备和平台，通常适合用户自行搭建 IPTV 服务或者整合现有的网络电视资源。用户可以轻松浏览和更新各种频道列表，以满足不同的观影需求，适应家庭娱乐或个人观看偏好。
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★131367 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★131368 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
   Clash Verge Rev 是一款多平台的网络代理工具，主要用于实现高速、稳定的网络连接，帮助用户突破地域限制，确保安全访问互联网。适合在不同环境下需要翻墙的用户，提供便捷的配置和管理方式，常用于科学上网和提高网络隐私保护。该项目支持多种协议，致力于提升用户的网络体验。
-- [immich-app/immich](https://github.com/immich-app/immich) ★107601 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
+- [immich-app/immich](https://github.com/immich-app/immich) ★107602 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
   Immich 是一款多功能的自托管个人照片和视频管理应用，主要用于帮助用户安全、方便地存储、组织和分享媒体文件。它支持自动备份、标签管理、智能搜索等功能，适合需要集中管理大量照片和视频的用户，尤其是希望保护隐私的家庭或个体摄影爱好者。通过直观的用户界面，用户可以轻松浏览和控制自己的媒体库，使其成为数字生活管理的得力助手。
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★105974 [`ai`] [`ai-agents`] [`cli`] [`gemini`] [`gemini-api`] [`mcp-client`] [`mcp-server`]  
   gemini-cli 是一个命令行工具，主要用于与 Google Gemini 平台进行交互，帮助用户高效地管理和使用 Gemini 的各项功能。该工具通常适合开发者和数据科学家，支持在终端中执行各种操作，如数据查询、任务管理和资源配置等，提升了用户在 Gemini 环境下的工作效率。通过简化命令行操作，gemini-cli 助力用户快速实现自动化流程和批量处理。
@@ -3469,7 +3469,7 @@
   Docusaurus 主要用于快速构建、部署和维护文档网站，适合开发者和内容创作者编写技术文档、用户手册或产品说明。其核心功能包括支持Markdown格式、自动版本化文档和易于自定义的主题，能够提升文档内容的可读性和用户体验。通常适合开源项目、企业产品或学习资源的页面创建，旨在简化文档管理和发布流程。
 - [nocodb/nocodb](https://github.com/nocodb/nocodb) ★63945 [`airtable`] [`airtable-alternative`] [`automatic-api`] [`hacktoberfest`] [`low-code`] [`no-code`] [`no-code-database`] [`no-code-platform`] [`postgresql`] [`rest-api`] [`restful-api`] [`spreadsheet`] [`sqlite`] [`swagger`]  
   NocoDB 提供了一个无缝的低代码数据库解决方案，主要用于将现有的关系型数据库转变为可视化的表格界面。它适合开发者和非技术人员快速构建基于数据库的应用，无需进行复杂的编程。同时，NocoDB 支持与多种数据库系统集成，允许用户在不同的平台上访问和管理数据，提升工作效率及协作能力。
-- [marktext/marktext](https://github.com/marktext/marktext) ★58663 [`dark-mode`] [`editor`] [`electron`] [`focus-mode`] [`latex`] [`linux`] [`mac`] [`macos`] [`markdown`] [`marktext`] [`source-code`] [`typewriter-mode`] [`vue`] [`windows`]  
+- [marktext/marktext](https://github.com/marktext/marktext) ★58664 [`dark-mode`] [`editor`] [`electron`] [`focus-mode`] [`latex`] [`linux`] [`mac`] [`macos`] [`markdown`] [`marktext`] [`source-code`] [`typewriter-mode`] [`vue`] [`windows`]  
   Mark Text 是一款开源的Markdown编辑器，主要用于简化文本处理和文档编写。它支持实时预览、插件扩展和多种Markdown语法，适合开发者、作家和学生等需要高效记录和编排文字的用户。通过友好的用户界面和良好的跨平台兼容性，Mark Text 旨在提升写作体验和提高工作效率。
 - [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ★52125 [`electron`] [`javascript`] [`music-player`] [`vue`]  
   lx-music-desktop 是一款跨平台的音乐播放器，主要用于提供简洁明了的音乐播放体验，支持多种音频格式，并集成了在线音乐服务。用户可以方便地搜索、播放和管理本地音乐库，适合音乐爱好者和希望提升听歌体验的用户，尤其是在桌面环境中。该项目使用现代前端技术构建界面，旨在提供流畅的操作和优雅的用户体验。
@@ -3529,7 +3529,7 @@
   Clash-Verge 主要用于提供更友好的 Clash 客户端体验，集成多种 VPN 功能，适合需要科学上网的用户。该项目支持自定义规则，能够灵活管理网络流量，帮助用户在不同网络环境下实现稳定、快速的访问。通过友好的图形界面，用户可以轻松配置和切换不同的网络设置，提升上网效率。
 - [claude-code-best/claude-code](https://github.com/claude-code-best/claude-code) ★21176  
   Claude-Code 主要用于对编写的代码进行自动化检测与优化，帮助开发者提高代码质量并减少潜在的漏洞。该项目通常适用于团队协作和开源项目中，能够在代码审查环节提供有效的反馈，促进代码的可维护性与可读性。通过集成常见的开发工具，能够为开发者提供更高效的编程体验。
-- [ourongxing/newsnow](https://github.com/ourongxing/newsnow) ★20994 [`elegant`] [`news`]  
+- [ourongxing/newsnow](https://github.com/ourongxing/newsnow) ★20995 [`elegant`] [`news`]  
   NewsNow 主要用于聚合和发布最新的新闻动态，旨在帮助用户快速获取全球各地的热点信息。该项目通常适合需要实时资讯更新的媒体、博客或个人用户，能够通过有效的内容收集和展示提升新闻传播的效率。用户可以借助其功能了解不同行业和领域的最新动态，提高信息获取的便捷性与时效性。
 - [whyour/qinglong](https://github.com/whyour/qinglong) ★19689 [`crontab`] [`docker`] [`javascript`] [`python`] [`shell`] [`task-manager`] [`typescript`]  
   Qinglong 主要用于构建和管理定时任务的自动化框架，通过简洁的用户界面和强大的功能，帮助用户轻松实现定时抓取、推送和数据处理等任务。该项目通常适合有自动化需求的开发者，能够处理多种情况并支持多种环境配置，提升工作效率。
@@ -3573,7 +3573,7 @@
   Quartz 是一个用于任务调度的框架，主要用于 Java 应用程序中，以定时执行特定任务。该项目通常适合需要定期运行作业的场景，如定时备份、数据处理或周期性消息推送，提供了灵活的调度方式和强大的功能，帮助开发者在复杂应用中高效管理任务执行。通过 Quartz，用户可以轻松定义作业的触发规则和持久化状态，实现精确的任务控制。
 - [idootop/mi-gpt](https://github.com/idootop/mi-gpt) ★12494  
   mi-gpt 主要用于结合GPT模型实现自然语言处理应用，用户可以通过该项目构建聊天机器人、内容生成器或文本分析工具。适合需要处理和理解自然语言场景的开发者，支持高效的文本交互与智能回复功能，常用于企业客服、教育辅导和社交应用等领域。
-- [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) ★12215 [`download`] [`wechat`] [`wechat-article`] [`wechat-download`]  
+- [wechat-article/wechat-article-exporter](https://github.com/wechat-article/wechat-article-exporter) ★12216 [`download`] [`wechat`] [`wechat-article`] [`wechat-download`]  
   主要用于导出微信公众号文章的工具，支持将微信公众平台中的文章批量提取并保存为多种格式，方便用户进行备份、分析或再利用。适合需要整理管理大量微信内容的个人或团队，提升内容管理效率。通过简化导出流程，适合在社交媒体内容管理和数据分析领域使用。
 - [giscus/giscus](https://github.com/giscus/giscus) ★11910 [`blog`] [`comment-system`] [`comments`] [`comments-widget`] [`giscus`] [`github`] [`github-discussions`] [`hacktoberfest`] [`javascript`] [`nextjs`] [`react`] [`reactjs`] [`utterances`] [`widget`]  
   giscus 是一个用于将 GitHub Discussions 集成到静态网站的评论系统，主要用于增强网站用户交互。通过简单的配置，用户可以轻松在其网站上实现讨论功能，适合希望将 GitHub 社区讨论引入个人博客或项目页面的开发者。该工具支持多种主题和自定义选项，能够满足不同网站的需求，同时利用 GitHub 的用户验证机制提升安全性和便捷性。
@@ -3601,7 +3601,7 @@
   curlconverter用于将cURL命令转换为多种编程语言的代码片段，便于开发者在不同环境中进行API调用。该工具支持将cURL命令转换为如Python、Ruby、JavaScript等语言的请求格式，主要帮助开发者快速实现与RESTful API的交互，简化开发流程，提高效率。通常适合需要快速学习和验证API使用的开发者或团队。
 - [alibaba/x-render](https://github.com/alibaba/x-render) ★7847 [`ant`] [`ant-design`] [`chart`] [`form`] [`formrender`] [`javascript`] [`json-schema`] [`list`] [`react`] [`table`] [`typescript`] [`webpack`] [`widget`]  
   x-render 主要用于快速搭建高效的可视化表单和复杂页面。该项目提供了灵活的组件化设计，支持自定义渲染和动态配置，适合用于企业级应用开发中的表单生成、数据展示和用户交互等场景，同时提高开发效率。结合前端技术生态，x-render 可以帮助开发者轻松构建响应式和高性能的用户界面。
-- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) ★7805  
+- [remotely-save/remotely-save](https://github.com/remotely-save/remotely-save) ★7806  
   提供云端数据保存和备份解决方案，允许用户通过网络将重要文件和数据安全地存储到远程服务器。该项目支持多种文件格式，适合个人用户和小型团队使用，尤其在避免数据丢失和实现安全共享方面表现突出。主要功能包括数据加密、定期备份和多设备访问，适合希望简化数据管理和保障信息安全的用户。
 - [thx/rap2-delos](https://github.com/thx/rap2-delos) ★7633  
   rap2-delos 主要用于快速搭建后端接口，适合前端开发者进行接口模拟和数据生成。该项目支持灵活的接口配置，帮助开发团队在项目初期阶段避免对后台依赖的干扰，提高开发效率。通常适用于需要快速验证前端功能的场景，简化了开发流程。
@@ -3613,7 +3613,7 @@
   Fiora 主要用于提供一个简单且高效的方式进行数据可视化，适合需要处理和展示大量数据的应用场景。用户可以利用该项目快速构建交互式图表，便于分析和展示信息。通过其灵活的配置和易于使用的接口，Fiora 帮助开发者提升数据呈现的效率和美观性，满足各类数据分析需求。
 - [galaxy-s10/billd-desk](https://github.com/galaxy-s10/billd-desk) ★6983 [`coturn`] [`electron`] [`flutter`] [`nodejs`] [`parsec`] [`remote-desktop`] [`rustdesk`] [`socket-io`] [`todesk`] [`typescript`] [`vue3`] [`webrtc`]  
   Billd Desk 主要用于提升桌面工作效率，通过整合多种工具和功能，帮助用户更好地管理日常任务和项目。该项目通常适合需要快速访问各种在线资源和应用程序的用户，尤其是在多任务环境中，提供便利的界面及高效的操作方式，旨在优化用户的工作流程和时间管理。
-- [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) ★6707 [`electron-app`] [`linux`] [`macos`] [`typescript`] [`vue3`] [`windows`]  
+- [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) ★6708 [`electron-app`] [`linux`] [`macos`] [`typescript`] [`vue3`] [`windows`]  
   Boxplayer 是一个用于媒体播放的工具，旨在提供流畅的视频和音频播放体验。该项目通常适合用于开发多媒体应用，支持多种文件格式和流媒体协议，能够满足用户对观看和收听的高品质需求。它可以被广泛应用于个人多媒体播放器、在线直播以及其他需要音视频处理的项目中。
 - [purocean/yn](https://github.com/purocean/yn) ★6656 [`agent`] [`chatgpt`] [`deepseek`] [`drawio`] [`editor`] [`electron`] [`gemini`] [`koa2`] [`markdown`] [`markdown-editor`] [`markdown-it`] [`mermaid`] [`monaco-editor`] [`notebook`] [`openai`] [`opencode`] [`plantuml`] [`reveal-js`] [`vscode`] [`vue`]  
   yn 主要用于简化和增强 JavaScript 中的条件语句，通过提供更优雅和可读的语法，使得开发者在处理布尔值时能够更加高效。适合需要清晰表达条件逻辑的项目，帮助提升代码的可维护性，减少冗余和复杂性，通常在构建基于 JavaScript 的应用时使用。

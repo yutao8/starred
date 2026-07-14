@@ -10,7 +10,7 @@
   aria2 是一款轻量级的下载工具，支持多种协议，包括 HTTP、HTTPS、FTP、BitTorrent 和 Metalink。它可以高效地处理大文件下载，适用于需要批量下载或下载高带宽文件的场景。用户可灵活配置下载参数，实现断点续传和多源下载，极大提升下载速度。该项目通常适合开发者、网络管理员和普通用户使用，提供了命令行界面以及丰富的配置选项，使其功能强大而灵活。
 - [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★39210 [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine 主要用于提供高效的实时天气数据服务，支持多种天气信息查询功能。用户可以通过该项目获取不同地点的气象数据，如温度、湿度和风速等，适合用于个人天气应用、智能家居系统或其他需要天气信息的项目开发。该项目的灵活性使其能轻松集成于多种平台，帮助开发者快速实现气象相关功能。
-- [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★38800 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
+- [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★38799 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent 是一款轻量级的开源 BitTorrent 客户端，旨在提供简单易用的界面与强大的功能。它支持下载和上传种子文件，具备内置的搜索引擎、RSS 订阅与管理功能，使用户能够便捷地获取和管理下载内容。此外，qBittorrent 还提供了对多种操作系统的支持，适合需要高效下载大文件的用户。其高效的资源管理和无广告的设计，通常能够满足对下载体验有较高要求的用户。
 - [microsoft/WSL](https://github.com/microsoft/WSL) ★33082  
   WSL 主要用于在 Windows 环境中运行 Linux 发行版，提供了一种无缝的开发体验。用户可以在 Windows 上使用 Linux 命令行工具、开发和测试跨平台应用，便于开发者在不同系统间切换和优化兼容性。此项目增强了 Windows 与 Linux 的互动，适合需要同时使用两者的开发场景。
@@ -54,7 +54,7 @@
   noMeiryoUI 主要用于创建美观的用户界面，适合开发现代 Web 应用程序。该项目专注于提供简洁而美观的设计元素，帮助开发者快速构建具有吸引力的界面，通常结合 CSS 和 JavaScript 技术栈使用，适合需要提升用户体验的项目。
 - [zhongyang219/MusicPlayer2](https://github.com/zhongyang219/MusicPlayer2) ★6520  
   音乐播放器用于提供便捷的音乐播放体验，支持多种音频格式和播放列表管理。该项目可以帮助用户轻松浏览、选择和播放自己喜欢的音乐，适合在个人电脑或移动设备上使用。常见的使用场景包括在工作时播放背景音乐或在休闲时享受音乐。整体界面友好，旨在提升用户的音乐享受和管理效率。
-- [AlkaidLab/foundation-sunshine](https://github.com/AlkaidLab/foundation-sunshine) ★6071 [`cloudgaming`] [`game-streaming`] [`moonlight`] [`rdp`] [`remote-desktop`] [`stream`] [`sunshine`]  
+- [AlkaidLab/foundation-sunshine](https://github.com/AlkaidLab/foundation-sunshine) ★6072 [`cloudgaming`] [`game-streaming`] [`moonlight`] [`rdp`] [`remote-desktop`] [`stream`] [`sunshine`]  
   foundation-sunshine 主要用于构建和管理前端项目，提供一套灵活的开发框架和工具链，帮助开发者高效地搭建现代化的 web 应用。该项目通常适合需要快速迭代与高度定制化的开发场景，支持模块化设计，提高代码的可维护性和复用性。通过集成前沿的技术生态，foundation-sunshine 助力团队提升开发效率和项目质量。
 - [rainmeter/rainmeter](https://github.com/rainmeter/rainmeter) ★5872  
   Rainmeter主要用于Windows平台的桌面个性化定制，通过提供丰富的小工具和主题，用户可以自定义系统信息显示、时钟、天气、日历等多种 widget，提升桌面美观和功能性。适合希望增强桌面体验、展示个性化信息的用户，通过简单的配置和广泛的社区支持，用户能够轻松创建和分享自己的桌面皮肤。

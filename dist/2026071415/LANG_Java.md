@@ -2,7 +2,7 @@
 
 - [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128476 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
   hello-algo 主要用于提供算法和数据结构的可视化教学工具，适合学习者通过直观的图形展示来理解复杂的概念。该项目包含多个算法的图示，通常适合用于编程教育、面试准备以及自学者的复习，帮助用户加深对基础算法的理解并提升编程能力。
-- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★87033 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★87034 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
   Stirling-PDF 主要用于简化PDF文档的处理与分析。它提供了一系列功能，通常适合用于提取文本、合并文件和进行格式转换，能够有效提升用户在PDF文件管理上的效率，适用范围广泛，涵盖文档管理、数据提取等场景。
 - [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) ★70853 [`disassembler`] [`reverse-engineering`] [`software-analysis`]  
   Ghidra是一款强大的开源反向工程工具，主要用于软件分析、漏洞挖掘和安全研究。它支持多种平台和文件格式，提供用户友好的界面和丰富的分析功能，使工程师能够更有效地识别和理解软件中的安全漏洞。开发者或安全研究人员可以利用Ghidra对二进制文件进行静态和动态分析，快速解构复杂的程序逻辑，通常非常适合用于网络安全和恶意软件分析。
@@ -14,7 +14,7 @@
   jadx主要用于将Android APK文件反编译成可读的Java源代码，便于开发者进行代码审查和安全分析。该工具支持多种反编译模式，并提供图形用户界面和命令行界面，通常适合需要分析Android应用程序内部逻辑或修改应用的开发者。通过使用jadx，用户能够快速提取应用程序中的代码结构，识别潜在的安全漏洞或进行逆向工程。
 - [halo-dev/halo](https://github.com/halo-dev/halo) ★39266 [`blog`] [`blog-engine`] [`cms`] [`content-management-system`] [`halo`] [`halocms`] [`website-builder`]  
   Halo 是一个开源的现代博客引擎，主要用于搭建个人博客和内容管理系统。该项目提供了简洁的界面和丰富的功能，支持多种主题和插件，通常适合希望快速创建并管理在线内容的用户。通过 Halo，用户能够轻松发布文章、管理标签和分类，同时具备良好的响应式设计，确保在各种设备上的良好体验。
-- [zxing/zxing](https://github.com/zxing/zxing) ★34020 [`android`] [`barcode`] [`barcode-scanner`] [`datamatrix`] [`java`] [`qr-code`] [`upc`] [`zxing`]  
+- [zxing/zxing](https://github.com/zxing/zxing) ★34021 [`android`] [`barcode`] [`barcode-scanner`] [`datamatrix`] [`java`] [`qr-code`] [`upc`] [`zxing`]  
   ZXing 是一款开源的条形码和二维码处理库，主要用于生成、解码和识别各种类型的条形码。它支持多种格式，包括二维码、条形码和一维码，能够在移动设备和桌面应用中广泛应用。常用于支付系统、商品追踪、票务和身份验证等场景，为用户提供便捷的信息获取和数据管理功能。该库在 Java 生态系统中使用较为普遍，并且可以与 Android 和其他平台集成，适合开发者在项目中实现条形码相关的功能。
 - [DrKLO/Telegram](https://github.com/DrKLO/Telegram) ★29536 [`telegram`]  
   Telegram 是一款用于即时通讯的应用程序，主要功能包括安全的文字聊天、语音通话和视频通话，支持多种平台。用户可以随时创建群组、频道，分享媒体文件，且具备强大的隐私保护和加密特性。该应用适合希望保持通讯安全、同时享受丰富社交功能的用户。
