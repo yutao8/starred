@@ -227,10 +227,11 @@ class GitHubStarred
 		
 		$providers = $this->getGptProviders();
 		$maxProviderAttempts = count($providers); // 每批最多尝试的 provider/model 数
+		$lastSuccessfulProviderIndex = 0; // 本次运行内记住最近可用的 provider/model
 		$hasValidDesc = false; // 是否有有效描述
 		
 		foreach ($repoNameBatches as $batchIndex => $batchRepoNames) {
-			$currentProviderIndex = 0; // 每批从第一个 provider/model 开始尝试
+			$currentProviderIndex = $lastSuccessfulProviderIndex; // 优先使用上次成功的 provider/model
 			$providerAttemptCount = 0; // 每批独立统计尝试次数
 			$startIndex = $batchIndex * $batchSize;
 			$endIndex = min($startIndex + $batchSize, $totalRepos);
@@ -246,6 +247,7 @@ class GitHubStarred
 				
 				try {
 					$descriptionResults = $this->askGptMulti($batchRepoNames, '', $currentProvider);
+					$lastSuccessfulProviderIndex = $currentProviderIndex;
 					break;
 				} catch (Exception $e) {
 					$providerAttemptCount++;
