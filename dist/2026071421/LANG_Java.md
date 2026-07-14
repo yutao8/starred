@@ -1,6 +1,6 @@
 # Java 仓库
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128491 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128492 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
   hello-algo 是一个专为数据结构与算法学习设计的教学项目，主要用于配合《Hello 算法》在线书，提供清晰易懂的图解和代码示例。该项目以 Python 为主要实现语言，覆盖数组、链表、栈、队列到排序、递归、动态规划等核心算法内容，结构清晰，适合初学者系统学习或开发者复习巩固基础。每章包含可视化图示和可运行代码，帮助深入理解算法原理与执行过程。
 - [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★87067 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
   用于操作和转换PDF文件的Web应用程序，支持多文档合并、拆分、格式转换等常见处理功能，通常部署为本地或私有化服务以保障文件安全。

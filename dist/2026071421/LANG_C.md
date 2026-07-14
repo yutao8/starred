@@ -1,8 +1,8 @@
 # C 仓库
 
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145697 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145698 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
   通过USB或网络将Android设备屏幕投射到电脑并实现鼠标键盘控制，无需ROOT，支持视频编码、剪贴板同步和文件拖拽安装，常用于演示、测试或操作大屏化。
-- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★136588 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★136589 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
   PowerToys 是一套面向高级用户的实用工具集，旨在增强 Windows 操作系统的生产力与自定义能力，提供诸如窗口布局管理、快捷键自定义、文件预览、颜色拾取、批量重命名等功能，帮助用户更高效地操作和定制系统体验。
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) ★78014 [`arm64`] [`auto-install`] [`bootable-usb`] [`bsd`] [`chromeos`] [`iso-files`] [`legacy`] [`linux`] [`multiboot`] [`persistence`] [`secure-boot`] [`uefi`] [`unattended`] [`unix`] [`usb`] [`windows`] [`x86`] [`x86-64`]  
   Ventoy 是一个开源工具，用于创建可启动的U盘，支持直接拷贝ISO/WIM/IMG/VHD(x)/EFI等镜像文件到U盘并直接启动，无需反复格式化，兼容 Legacy BIOS 和 UEFI 模式，简化多系统安装和维护流程。

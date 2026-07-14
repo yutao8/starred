@@ -1,6 +1,6 @@
 # HTML 仓库
 
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★129114 [`awesome-list`] [`free-for-developers`]  
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★129115 [`awesome-list`] [`free-for-developers`]  
   提供一系列对开发者和小型企业完全免费的软件和服务，涵盖开发工具、监控、CI/CD、API 服务等多个领域，旨在帮助个人开发者和初创团队降低技术成本，通过精心筛选的高质量免费资源提升开发效率和项目能力。
 - [vernesong/OpenClash](https://github.com/vernesong/OpenClash) ★26689 [`clash`] [`luci`] [`mihomo`] [`openclash`] [`openwrt`] [`shadowsocks`] [`snell`] [`v2ray`] [`vmess`]  
   OpenClash 是一个基于 Clash 内核的开源代理工具，主要用于 OpenWrt 路由器系统，提供强大的广告过滤和流量管理功能，支持多种代理协议和灵活的规则配置，适合需要精细化网络控制的用户。
@@ -48,7 +48,7 @@
   检测开发者工具是否打开的轻量级 JavaScript 库，主要用于防止用户通过审查元素等方式绕过前端限制，适合需要保护网页内容或实现反作弊的场景，兼容主流浏览器且使用简单。
 - [kimwang1978/collect-txt](https://github.com/kimwang1978/collect-txt) ★1927 [`aptv`] [`auto`] [`daily`] [`epg`] [`fongmi`] [`iptv`] [`ipv4`] [`ipv6`] [`live`] [`m3u`] [`m3u8`] [`mytv`] [`television`] [`tv`] [`tvbox`] [`tvlist`] [`tvlive`] [`txt`]  
   用于批量收集和整理文本文件的工具，支持从指定目录中提取文本内容并合并成单个文件，通常适合日志处理、文档汇总等场景，依赖简单，可通过脚本快速运行。
-- [z-libraryopp/z-libraryopp.github.io](https://github.com/z-libraryopp/z-libraryopp.github.io) ★1895 [`dianzishu`] [`dianzishuxiazai`] [`zlibrary`] [`zlibrary-apk`]  
+- [z-libraryopp/z-libraryopp.github.io](https://github.com/z-libraryopp/z-libraryopp.github.io) ★1896 [`dianzishu`] [`dianzishuxiazai`] [`zlibrary`] [`zlibrary-apk`]  
   一个基于网页的开源电子书管理工具，主要用于本地化存储和分类管理个人电子书籍资源，支持书名、作者、标签等元数据索引，方便用户快速检索与阅读，适合自建私有书库或离线知识库，通过静态页面部署可实现跨平台访问。
 - [mzlogin/mzlogin.github.io](https://github.com/mzlogin/mzlogin.github.io) ★1663 [`beaudar`] [`blog`] [`blog-theme`] [`giscus`] [`github-pages`] [`jekyll`] [`jekyll-theme`] [`jekyll-themes`] [`template-project`] [`template-repository`] [`utterances`]  
   一个个人博客项目，主要用于分享前端开发、JavaScript 技术文章及编程经验，采用静态页面构建，支持 GitHub Pages 直接部署，方便技术写作与知识沉淀。

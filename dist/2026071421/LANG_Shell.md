@@ -2,7 +2,7 @@
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★188721 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
   ohmyzsh 是一个社区驱动的命令行框架，用于管理 Zsh 配置，提供丰富的主题、插件和便捷工具，可简化日常终端操作，提升开发效率，适用于需要高度自定义 shell 环境的用户。
-- [mattpocock/skills](https://github.com/mattpocock/skills) ★169490  
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★169495  
   该项目主要用于展示和分享 TypeScript 相关技能与实战经验，通过代码示例帮助开发者提升类型体操、泛型编程及类型推导等高级 TypeScript 技术的应用能力。
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ★52666 [`container`] [`docker`] [`docker-osx`] [`kvm`] [`macos`] [`os`] [`osx`] [`osx-kvm`] [`x`] [`x11`]  
   通过 Docker 部署可远程访问的 macOS 操作系统环境，主要用于在 Linux 上运行 macOS 实例进行开发测试、安全研究或应用调试，支持 Apple Silicon 和 x86_64 架构的虚拟化，适合需要 macOS 云服务或自动化测试的场景。
@@ -20,7 +20,7 @@
   用于快速部署 IPsec VPN 服务器的自动化脚本，支持 IKEv2 和 L2TP 协议，适用于主流 Linux 发行版，简化了证书配置、防火墙规则和网络设置，帮助用户在云服务器或本地环境快速搭建安全可靠的虚拟专用网络。
 - [yuaotian/go-cursor-help](https://github.com/yuaotian/go-cursor-help) ★26302 [`cursor`] [`error`]  
   一个基于 Go 语言开发的光标辅助工具，主要用于在终端或文本编辑场景中实现高效的光标定位、移动和内容选取功能，适合需要操作文本流或构建命令行交互应用的开发者使用。
-- [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) ★25141 [`cjk`] [`font`] [`typeface`]  
+- [lxgw/LxgwWenKai](https://github.com/lxgw/LxgwWenKai) ★25142 [`cjk`] [`font`] [`typeface`]  
   LxgwWenKai 是一款开源的中文字体，基于思源黑体和霞鹜文楷优化而成，主要用于改善中文排版的可读性和美观度，适合在屏幕显示、电子书、网页设计等场景中使用，支持多种字重和字符集，兼顾现代感与传统书法韵味。
 - [StreisandEffect/streisand](https://github.com/StreisandEffect/streisand) ★23475 [`ansible`] [`anyconnect`] [`censorship`] [`openconnect`] [`openvpn`] [`shadowsocks`] [`ssh`] [`streisand`] [`stunnel`] [`tor`] [`vpn`] [`wireguard`]  
   Streisand 是一个自动化部署工具，主要用于快速搭建和配置服务器环境，尤其适用于需要代理服务或突破网络限制的场景。它通过简单的交互式流程帮助用户在云服务器上部署多种代理协议和加密通信服务，支持多种平台与自定义配置，降低技术门槛，适合个人隐私保护及网络自由访问需求。

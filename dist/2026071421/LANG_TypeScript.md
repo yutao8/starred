@@ -2,9 +2,9 @@
 
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ★382903 [`ai`] [`assistant`] [`crustacean`] [`molty`] [`openclaw`] [`own-your-data`] [`personal`]  
   OpenClaw 是一个开源的机器人控制框架，主要用于机械臂运动规划、视觉伺服和灵巧操作任务，支持多种硬件平台，提供模块化设计以方便算法开发与实验部署。
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185696  
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185698  
   一个开源代码协作平台，主要用于代码托管、版本控制和团队协作开发，支持仓库管理、代码审查、持续集成等常见软件开发功能，便于开发者共享和贡献开源项目。
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150765 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150767 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
   FireCrawl 是一个用于自动化网页数据抓取与信息提取的开源工具，主要用于从网站中高效采集结构化数据，支持动态页面渲染，适用于构建训练数据集、监控网页变化及集成到 AI 应用中，提供可扩展的爬虫框架与 API 接口。
 - [iptv-org/iptv](https://github.com/iptv-org/iptv) ★132918 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
   提供全球范围的免费 IPTV 频道链接集合，主要用于收集和整理可通过互联网访问的电视直播流，支持多种语言和地区，适合用于媒体中心软件或流媒体设备播放。
@@ -46,7 +46,7 @@
   slab/quill 是一个基于 Web 的富文本编辑器，提供轻量级、模块化的设计，支持自定义格式和扩展，主要用于构建内容创作工具，适合需要富文本排版、协作编辑或 Markdown 编辑的场景。
 - [RocketChat/Rocket.Chat](https://github.com/RocketChat/Rocket.Chat) ★45788 [`chat`] [`collaboration`] [`foss`] [`free`] [`hacktoberfest`] [`javascript`] [`meteor`] [`mit`] [`real-time`] [`slack`] [`webrtc`]  
   Rocket.Chat 是一个开源的团队协作通信平台，提供实时聊天、视频会议、文件共享和屏幕共享功能，支持跨平台使用和高度定制化集成，适用于企业内部沟通和团队协作场景。
-- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) ★45259 [`bilibili`] [`douban`] [`dribbble`] [`instagram`] [`lofter`] [`pixiv`] [`rss`] [`rsshub`] [`spotify`] [`telegram`] [`tiktok`] [`twitter`] [`v2ex`] [`wechat`] [`weibo`] [`ximalaya`] [`youtube`] [`zhihu`]  
+- [DIYgod/RSSHub](https://github.com/DIYgod/RSSHub) ★45260 [`bilibili`] [`douban`] [`dribbble`] [`instagram`] [`lofter`] [`pixiv`] [`rss`] [`rsshub`] [`spotify`] [`telegram`] [`tiktok`] [`twitter`] [`v2ex`] [`wechat`] [`weibo`] [`ximalaya`] [`youtube`] [`zhihu`]  
   RSSHub 是一个开源的轻量级 RSS 生成器，无需编程基础即可为任意网站定制 RSS 源。通过简单配置即可快速获取新闻、博客、社交媒体、学术、娱乐等内容的订阅支持，广泛适用于各类内容聚合场景，帮助用户摆脱平台算法限制，实现信息自主获取。
 - [HeyPuter/puter](https://github.com/HeyPuter/puter) ★42715 [`cloud`] [`cloud-os`] [`cloud-storage`] [`desktop`] [`desktop-environment`] [`dropbox`] [`good-first-issue`] [`gui`] [`javascript`] [`nas`] [`open-source`] [`operating-system`] [`os`] [`osjs`] [`puter`] [`remote-desktop`] [`storage`] [`web-desktop`] [`web-os`] [`webtop`]  
   一个开源的网页操作系统，提供类似桌面环境的在线交互体验，支持多应用并行、文件管理、终端操作和协作功能，可通过浏览器直接运行，适合远程办公、教育和开发场景使用。
@@ -58,7 +58,7 @@
   Umami 是一个简单、快速、隐私友好的开源网站分析工具，用于替代 Google Analytics。它提供实时访问数据、用户行为分析、流量来源统计等功能，支持多种数据库和部署方式，无需收集个人身份信息，符合 GDPR 规范，适合个人博客、企业网站等注重数据隐私的场景。
 - [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) ★37616 [`editor`] [`javascript`] [`js`] [`prosemirror`] [`react`] [`renderless-components`] [`rich-text`] [`tiptap`] [`vue`] [`wysiwyg`] [`wysiwyg-editor`]  
   一个基于 ProseMirror 的可扩展富文本编辑器框架，主要用于构建现代化 Web 应用中的内容编辑功能，支持模块化扩展、协作编辑与自定义节点，适合集成到 Vue、React 等前端框架中。
-- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) ★35776  
+- [musistudio/claude-code-router](https://github.com/musistudio/claude-code-router) ★35777  
   一个基于 Claude 大模型的代码路由工具，用于自动分析代码结构并生成相应的路由配置，主要适用于需要根据代码上下文动态管理 API 路由的 Node.js 或前端项目，简化开发中的路由维护工作。
 - [nativefier/nativefier](https://github.com/nativefier/nativefier) ★35304 [`desktop-application`] [`electron`] [`linux`] [`macos`] [`nodejs`] [`windows`]  
   将任意网页封装为桌面应用程序，支持 Windows、macOS 和 Linux，无需编写代码即可创建独立的 Electron 应用，适用于 Web 工具、聊天平台、笔记服务等需要桌面快捷方式的场景。

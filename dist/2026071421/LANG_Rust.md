@@ -4,13 +4,13 @@
   claw-code 是一个用于生成和管理验证码的工具库，主要用于图像识别测试、自动化任务中的验证码处理场景，支持多种编码格式和自定义扩展，适用于需要高效处理视觉验证码的爬虫或自动化系统。
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★118213 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
   RustDesk 是一个开源的远程桌面软件，用于替代 TeamViewer、AnyDesk 等商业解决方案。它支持跨平台远程访问，允许用户通过互联网安全地连接和控制其他设备，主要用于远程技术支持、设备维护和远程办公场景。
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★117119 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★117121 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
   一个轻量级的用户脚本工具，主要用于在网页中快速切换和管理不同的自定义脚本配置，支持便捷的开关控制与版本管理，适合需要频繁调试或切换脚本环境的用户使用。
-- [openai/codex](https://github.com/openai/codex) ★97969  
+- [openai/codex](https://github.com/openai/codex) ★97972  
   Codex 是 OpenAI 开发的 AI 模型，主要用于将自然语言转换为编程代码，支持多种编程语言，可集成到开发工具中辅助编写、调试和解释代码，提升开发效率。
 - [zed-industries/zed](https://github.com/zed-industries/zed) ★86956 [`gpui`] [`rust-lang`] [`text-editor`] [`zed`]  
   Zed 是一个高性能的代码编辑器，主打低延迟和流畅的协作体验，适用于大型项目开发，支持多人实时协作编辑，具备强大的语法解析和类型感知功能，通常适合需要快速响应和高效编码的程序员使用。
-- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ★63680 [`bitwarden`] [`bitwarden-rs`] [`docker`] [`rocket`] [`rust`] [`vaultwarden`]  
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ★63682 [`bitwarden`] [`bitwarden-rs`] [`docker`] [`rocket`] [`rust`] [`vaultwarden`]  
   Vaultwarden 是一个轻量级的 Bitwarden 兼容服务器实现，用于自建密码管理服务。它支持 Bitwarden 客户端的所有核心功能，如密码存储、双因素认证和跨设备同步，但资源占用更少，适合个人或小型团队部署。通过 Docker 快速部署，可配合反向代理实现 HTTPS 访问，提供安全便捷的私有化密码管理方案。
 - [tw93/Pake](https://github.com/tw93/Pake) ★59861 [`chatgpt`] [`claude`] [`desktop`] [`gemini`] [`hight-performance`] [`linux`] [`macos`] [`no-electron`] [`package`] [`rust`] [`tauri`] [`windows`] [`youtube`]  
   Pake 是一个轻量级的前端构建工具，主要用于快速打包和部署静态网页应用，支持 HTML、CSS、JavaScript 等资源的构建优化，适合小型项目或需要简单构建流程的开发者，通过简洁配置实现文件压缩、资源合并与高效输出。
