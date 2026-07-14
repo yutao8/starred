@@ -121,6 +121,8 @@ gh variable set STARRED_GITHUB_ACTOR --body yutao8
 - OpenRouter 作为主通道
 - DeepSeek 开放平台 `deepseek-v4-flash` 作为兜底
 
+`REQUEST_CONCURRENCY` 控制脚本对外请求的全局默认并发数，模型接口会按该值分块请求；`PAGE_CHUNK` 如未单独设置，也会使用该默认值作为 GitHub 分页并发。
+
 不再兼容旧版 `GPT_KEY`、`GPT_URL`、`GPT_MODELS` 配置方式。
 
 ## 常见问题
