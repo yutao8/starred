@@ -72,6 +72,8 @@ $envBool = static function (string $key, bool $default) use ($env): bool {
 	return filter_var($value, FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE) ?? $default;
 };
 
+$requestConcurrency = max(1, $envInt('REQUEST_CONCURRENCY', 10));
+
 return [
 	'GITHUB_ACTOR' => $env('GITHUB_ACTOR', 'yutao8'),
 	'GH_TOKEN' => $env('GH_TOKEN', ''),
@@ -113,12 +115,13 @@ return [
 	'CURL_TIMEOUT' => $envInt('CURL_TIMEOUT', 20),
 	'CURL_CONNECT_TIMEOUT' => $envInt('CURL_CONNECT_TIMEOUT', 5),
 	'CURL_MULTI_TIMEOUT' => $envInt('CURL_MULTI_TIMEOUT', 30),
+	'REQUEST_CONCURRENCY' => $requestConcurrency, // 全局默认并发数
 	'DESC_TIME' => $envInt('DESC_TIME', 0), // 描述缓存时间(0:永久缓存)
 	'DEBUG_MODE' => $envBool('DEBUG_MODE', false), // 是否开启调试模式
 	'PAGE_START' => $envInt('PAGE_START', 1), // 开始页数
 	'PAGE_END' => $envInt('PAGE_END', 20), // 结束页数
 	'PAGE_LIMIT' => $envInt('PAGE_LIMIT', 100), // 每页数量
-	'PAGE_CHUNK' => $envInt('PAGE_CHUNK', 10), // 每页并发数
+	'PAGE_CHUNK' => $envInt('PAGE_CHUNK', $requestConcurrency), // GitHub 分页并发数
 	'RECENT_LIMIT' => $envInt('RECENT_LIMIT', 10), // 最近N条
 	'LANG_LIMIT' => $envInt('LANG_LIMIT', 10), // 每栏语言数量
 	'INDEX_FOOTER' => <<<EOL

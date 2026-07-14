@@ -123,7 +123,7 @@ class GitHubStarred
 		$pageStart = $this->config['PAGE_START'] ?? 1;
 		$pageEnd = $this->config['PAGE_END'] ?? 50;
 		$pageLimit = $this->config['PAGE_LIMIT'] ?? 100;
-		$pageChunk = $this->config['PAGE_CHUNK'] ?? 10;
+		$pageChunk = max(1, (int)($this->config['PAGE_CHUNK'] ?? $this->config['REQUEST_CONCURRENCY'] ?? 10));
 
 		if ($this->isDebug) {
 			echo "调试模式：只获取第一页，每页10个仓库\n";
@@ -609,6 +609,7 @@ class GitHubStarred
 		$results = [];
 		$maxRetryCount = 3; // 重试次数
 		$retryDelay = 2; // 重试延迟
+		$requestConcurrency = max(1, (int)($this->config['REQUEST_CONCURRENCY'] ?? 10));
 
 		$cacheDir = $this->cachePath . 'api'; // 单独缓存
 		if (!is_dir($cacheDir)) {
@@ -651,106 +652,110 @@ class GitHubStarred
 				$retryDelay *= 2;
 			}
 
-			$multiHandle = curl_multi_init();
-			$handles = [];
-
-			foreach ($pendingRepoNames as $repoIndex => $repoName) {
-				$apiRequests++;
-				$payload = $this->buildOpenAiChatPayload($model, $systemPrompt, $repoName);
-
-				$curlHandle = curl_init($url);
-				curl_setopt_array($curlHandle, $this->getBaseCurlOptions() + [
-					CURLOPT_POST => true,
-					CURLOPT_POSTFIELDS => json_encode($payload),
-					CURLOPT_HTTPHEADER => $headers,
-				]);
-
-				curl_multi_add_handle($multiHandle, $curlHandle);
-				$handles[$repoIndex] = $curlHandle;
-			}
-
-			$resultCodes = $this->executeCurlMulti($multiHandle, 'GPT 批量请求执行失败');
-
 			$failedRepoNames = [];
 			$lastError = '';
-			foreach ($handles as $repoIndex => $curlHandle) {
-				$response = curl_multi_getcontent($curlHandle);
-				$httpCode = curl_getinfo($curlHandle, CURLINFO_HTTP_CODE);
-				$error = curl_error($curlHandle);
-				$errno = curl_errno($curlHandle);
-				$resultCode = $resultCodes[spl_object_id($curlHandle)] ?? CURLE_OK;
-				$errorMessage = $this->buildCurlErrorMessage($curlHandle, sprintf('GPT 请求失败: %s/%s', $providerName, $model), $response, $resultCode);
-				curl_multi_remove_handle($multiHandle, $curlHandle);
-				curl_close($curlHandle);
-				
-				if ($resultCode !== CURLE_OK || $errno !== 0 || $error !== '') {
-					$lastError = $errorMessage;
-					$failedRepoNames[$repoIndex] = $pendingRepoNames[$repoIndex];
-					continue;
+			$pendingChunks = array_chunk($pendingRepoNames, $requestConcurrency, true);
+
+			foreach ($pendingChunks as $pendingChunk) {
+				$multiHandle = curl_multi_init();
+				$handles = [];
+
+				foreach ($pendingChunk as $repoIndex => $repoName) {
+					$apiRequests++;
+					$payload = $this->buildOpenAiChatPayload($model, $systemPrompt, $repoName);
+
+					$curlHandle = curl_init($url);
+					curl_setopt_array($curlHandle, $this->getBaseCurlOptions() + [
+						CURLOPT_POST => true,
+						CURLOPT_POSTFIELDS => json_encode($payload),
+						CURLOPT_HTTPHEADER => $headers,
+					]);
+
+					curl_multi_add_handle($multiHandle, $curlHandle);
+					$handles[$repoIndex] = $curlHandle;
 				}
-				
-				if ($httpCode !== 200) {
-					if ($response) {
-						$errorData = json_decode($response, true);
-						if ($errorData && isset($errorData['error'])) {
-							$lastError = sprintf("API 错误: %s", json_encode($errorData['error'], JSON_UNESCAPED_UNICODE));
-							$failedRepoNames[$repoIndex] = $pendingRepoNames[$repoIndex];
-							continue;
+
+				$resultCodes = $this->executeCurlMulti($multiHandle, 'GPT 批量请求执行失败');
+
+				foreach ($handles as $repoIndex => $curlHandle) {
+					$response = curl_multi_getcontent($curlHandle);
+					$httpCode = curl_getinfo($curlHandle, CURLINFO_HTTP_CODE);
+					$error = curl_error($curlHandle);
+					$errno = curl_errno($curlHandle);
+					$resultCode = $resultCodes[spl_object_id($curlHandle)] ?? CURLE_OK;
+					$errorMessage = $this->buildCurlErrorMessage($curlHandle, sprintf('GPT 请求失败: %s/%s', $providerName, $model), $response, $resultCode);
+					curl_multi_remove_handle($multiHandle, $curlHandle);
+					curl_close($curlHandle);
+					
+					if ($resultCode !== CURLE_OK || $errno !== 0 || $error !== '') {
+						$lastError = $errorMessage;
+						$failedRepoNames[$repoIndex] = $pendingChunk[$repoIndex];
+						continue;
+					}
+					
+					if ($httpCode !== 200) {
+						if ($response) {
+							$errorData = json_decode($response, true);
+							if ($errorData && isset($errorData['error'])) {
+								$lastError = sprintf("API 错误: %s", json_encode($errorData['error'], JSON_UNESCAPED_UNICODE));
+								$failedRepoNames[$repoIndex] = $pendingChunk[$repoIndex];
+								continue;
+							}
+						}
+						$lastError = $errorMessage;
+						$failedRepoNames[$repoIndex] = $pendingChunk[$repoIndex];
+						continue;
+					}
+
+					$body = json_decode($response, true);
+					if (json_last_error() !== JSON_ERROR_NONE) {
+						$lastError = sprintf("JSON 解析错误: %s，原始响应: %s", json_last_error_msg(), $response);
+						$failedRepoNames[$repoIndex] = $pendingChunk[$repoIndex];
+						continue;
+					}
+
+					$answer = $this->parseOpenAiChatAnswer($body);
+					if ($answer === '') {
+						$lastError = sprintf("响应格式错误: %s", $response);
+						$failedRepoNames[$repoIndex] = $pendingChunk[$repoIndex];
+						continue;
+					}
+
+					$result = [
+						'question' => $pendingChunk[$repoIndex],
+						'answer' => $this->sanitizeDescription($answer),
+						'error' => $error ?: ($body['error'] ?? ''),
+						'code' => $httpCode
+					];
+					
+					if (empty($result['answer'])) {
+						$lastError = sprintf("响应为空: %s", $response);
+						$failedRepoNames[$repoIndex] = $pendingChunk[$repoIndex];
+						continue;
+					}
+
+					// 无论是否调试模式，都保存缓存
+					if ($httpCode === 200 && !empty($result['answer'])) {
+						$cacheData = [
+							'expire' => empty($this->config['DESC_TIME']) ? 9999999999 : (time() + $this->config['DESC_TIME']),
+							'data' => $result
+						];
+						$cacheFile = $cacheDir . '/' . $this->buildDescCacheKey($pendingChunk[$repoIndex], $systemPrompt, $provider) . '.json';
+						$this->writeJsonFile(
+							$cacheFile,
+							$cacheData,
+							JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
+						);
+						if ($this->isDebug) {
+							echo sprintf("\t调试模式：已保存缓存 %s", $pendingChunk[$repoIndex]);
 						}
 					}
-					$lastError = $errorMessage;
-					$failedRepoNames[$repoIndex] = $pendingRepoNames[$repoIndex];
-					continue;
+					
+					$results[$repoIndex] = $result;
 				}
 
-				$body = json_decode($response, true);
-				if (json_last_error() !== JSON_ERROR_NONE) {
-					$lastError = sprintf("JSON 解析错误: %s，原始响应: %s", json_last_error_msg(), $response);
-					$failedRepoNames[$repoIndex] = $pendingRepoNames[$repoIndex];
-					continue;
-				}
-
-				$answer = $this->parseOpenAiChatAnswer($body);
-				if ($answer === '') {
-					$lastError = sprintf("响应格式错误: %s", $response);
-					$failedRepoNames[$repoIndex] = $pendingRepoNames[$repoIndex];
-					continue;
-				}
-
-				$result = [
-					'question' => $pendingRepoNames[$repoIndex],
-					'answer' => $this->sanitizeDescription($answer),
-					'error' => $error ?: ($body['error'] ?? ''),
-					'code' => $httpCode
-				];
-				
-				if (empty($result['answer'])) {
-					$lastError = sprintf("响应为空: %s", $response);
-					$failedRepoNames[$repoIndex] = $pendingRepoNames[$repoIndex];
-					continue;
-				}
-
-				// 无论是否调试模式，都保存缓存
-				if ($httpCode === 200 && !empty($result['answer'])) {
-					$cacheData = [
-						'expire' => empty($this->config['DESC_TIME']) ? 9999999999 : (time() + $this->config['DESC_TIME']),
-						'data' => $result
-					];
-					$cacheFile = $cacheDir . '/' . $this->buildDescCacheKey($pendingRepoNames[$repoIndex], $systemPrompt, $provider) . '.json';
-					$this->writeJsonFile(
-						$cacheFile,
-						$cacheData,
-						JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
-					);
-					if ($this->isDebug) {
-						echo sprintf("\t调试模式：已保存缓存 %s", $pendingRepoNames[$repoIndex]);
-					}
-				}
-				
-				$results[$repoIndex] = $result;
+				curl_multi_close($multiHandle);
 			}
-
-			curl_multi_close($multiHandle);
 
 			if (empty($failedRepoNames)) {
 				break;
