@@ -1,36 +1,36 @@
 # Objective-C 仓库
 
 - [MustangYM/WeChatExtension-ForMac](https://github.com/MustangYM/WeChatExtension-ForMac) ★22600 [`alfred`] [`macos`] [`wechat`] [`wechat-macos`] [`wechat-plugin`] [`weixin-plugin`]  
-  允许用户在 macOS 版微信上添加多种实用功能，包括消息防撤回、自动登录、多开窗口、消息快捷回复以及界面美化等，通常用于提升微信桌面端的使用便利性和个性化体验，适合需要增强微信功能或进行自动化操作的用户。
+  为 macOS 版微信提供增强功能的开源插件，主要通过 Hopper 反汇编分析并注入功能，可实现自动聊天记录备份、消息防撤回、查看好友朋友圈等优化体验功能，适用于希望提升微信使用效率的用户。
 - [opa334/TrollStore](https://github.com/opa334/TrollStore) ★21728  
-  TrollStore 是一款无需越狱即可在 iOS 设备上永久安装 IPA 应用的工具，利用 CoreTrust 漏洞绕过签名限制，适用于安装未上架 App Store 的第三方应用或修改版软件，尤其适合需要长期使用自签名应用的用户。
+  TrollStore 是一个用于在 iOS 设备上永久安装和管理未经签名的应用程序的工具，无需每次重启后重新签名。它利用系统漏洞实现应用持久化，适合越狱或半越狱环境使用，方便用户安装第三方应用而不需要依赖传统签名服务。
 - [TKkk-iOSer/WeChatPlugin-MacOS](https://github.com/TKkk-iOSer/WeChatPlugin-MacOS) ★14273 [`alfred-workflow`] [`macos`] [`plugin`] [`tweak`] [`wechat`] [`weixin`]  
-  这是一个为macOS版微信客户端开发的功能增强插件，主要提供消息防撤回、自动回复、多开登录等扩展功能，方便用户在PC端使用微信时获得更便捷的体验。
+  用于 macOS 平台的微信插件，主要实现自定义功能增强，如消息防撤回、自动回复、聊天记录导出等，适用于个人开发者研究微信逆向技术和 macOS 应用开发实践。
 - [sequelpro/sequelpro](https://github.com/sequelpro/sequelpro) ★9194 [`macos`] [`mysql`] [`objective-c`] [`sequelpro`]  
-  Sequel Pro 是一款 macOS 平台上的开源 MySQL 数据库管理工具，支持本地或远程连接数据库服务器。它提供直观的图形界面用于执行查询、管理表结构、导入导出数据以及浏览数据库内容，适合开发者或数据库管理员日常进行快速的数据库操作与维护。
+  Sequel Pro 是一款专为 macOS 设计的开源数据库管理工具，主要用于简化 MySQL 和 MariaDB 的管理和开发工作。它提供直观的图形界面，支持数据库浏览、SQL 查询执行、数据导入导出、表结构编辑、索引管理等功能，适合开发者和数据库管理员用于本地或远程数据库的日常操作与维护。
 - [CodeTips/BaiduNetdiskPlugin-macOS](https://github.com/CodeTips/BaiduNetdiskPlugin-macOS) ★8851  
-  用于扩展百度网盘 macOS 客户端的功能，支持任务列表显示、文件高速下载链接获取及自定义主题等特性。它能提升用户在 macOS 系统下使用百度网盘时的操作效率和界面体验，尤其适合需要批量管理下载任务或加速文件传输的场景。该项目通常通过插件机制集成到原生客户端中，实现非官方扩展的实用工具。
+  用于破解百度网盘macOS客户端限速的插件，通过注入动态库绕过下载速度限制，提升小文件下载体验，通常配合自定义版本或补丁使用以实现高速下载。
 - [shadowsocks/shadowsocks-iOS](https://github.com/shadowsocks/shadowsocks-iOS) ★8136  
-  提供基于iOS平台的Shadowsocks代理客户端，帮助用户安全地访问被限制的网络资源，通过加密传输数据实现网络流量转发，适用于需要突破网络封锁或保护隐私的场景，支持多种加密方式和服务器配置。
+  Shadowsocks-iOS 是一个为 iOS 设备设计的 Shadowsocks 客户端，用于科学上网。它支持 SS 协议的基本功能，如本地代理、多种加密方式、远程服务器连接等，帮助用户在 iOS 平台上安全、便捷地访问被限制的网络内容。通常配合 VPS 搭建的 Shadowsocks 服务端使用，适合需要翻墙的用户。
 - [Cenmrev/V2RayX](https://github.com/Cenmrev/V2RayX) ★7646  
-  Cenmrev/V2RayX 是一个基于 V2Ray 内核的 macOS 客户端软件，主要用于在系统后台代理网络流量，实现安全的加密通信和网络数据转发。它通常适合需要突破网络限制、提升连接隐私性的用户，通过图形化界面简化了 V2Ray 配置流程，支持服务器切换和代理规则设置，方便日常访问受限资源或保护数据传输安全。
+  V2RayX 是一个 macOS 平台下的代理工具客户端，主要用于管理和配置 V2Ray 代理服务，支持通过 GUI 界面方便地切换节点、设置路由规则和代理模式，适合需要科学上网的用户，简化了 V2Ray 在 macOS 上的使用流程，提升操作便捷性。
 - [Sequel-Ace/Sequel-Ace](https://github.com/Sequel-Ace/Sequel-Ace) ★7460 [`hacktoberfest`] [`macos`] [`mariadb`] [`mysql`] [`objective-c`] [`sequel`] [`sequelace`] [`sequelpro`]  
-  Sequel Ace 是一款专为 macOS 设计的高级数据库管理客户端，兼容并替代了之前的 Sequel Pro。它主要用于连接、管理、查询和操作各种类型的数据库，如 MySQL、MariaDB、PostgreSQL 和 SQLite。用户可以在图形化界面中执行编写 SQL 查询、管理表格结构、导入导出数据集等任务，界面设计高效清晰，功能强大稳定，为后端开发者或数据管理员提供了轻量级的桌面解决方案。
+  Sequel Ace 是一款专为 macOS 设计的开源数据库管理工具，主要用于连接、管理和操作 MySQL 和 MariaDB 数据库。它提供直观的图形界面，支持语法高亮、自动补全、数据导入导出、表结构设计、SSH 隧道连接等实用功能，适合开发者和数据库管理员用于日常数据库开发与维护。
 - [AloneMonkey/MonkeyDev](https://github.com/AloneMonkey/MonkeyDev) ★6789 [`cocoapods`] [`ios`] [`iosopendev`] [`ipa`] [`objective-c`] [`reverse-engineering`] [`theos`] [`xcode`]  
-  MonkeyDev 主要用于 iOS 应用逆向开发和插件开发，通过集成越狱开发工具与 Theos 环境，简化了动态库注入、应用重签名等常用操作流程。它适合安全研究人员或开发者对现有 iOS 应用进行调试、功能扩展或行为分析，支持通过编写少量代码快速实现 Hook 和自定义功能，通常与 Xcode 配合使用以提升逆向工程效率。
+  用于 iOS 越狱开发的集成环境，支持动态库注入、重签名及调试，简化 tweak 开发流程，适合逆向工程与应用修改。
 - [typcn/bilibili-mac-client](https://github.com/typcn/bilibili-mac-client) ★3855 [`bilibili`] [`macos`] [`mpv`] [`player`]  
-  基于 B 站开放 API 构建的 macOS 桌面客户端，支持视频播放、弹幕显示、直播观看等核心功能，方便用户在不打开浏览器的情况下直接访问 bilibili 内容。常用于提升追番、观看教程或娱乐视频的桌面体验，适合需要长期驻留或专注使用的 macOS 用户。该项目通常运用原生开发技术适配系统特性，提供更流畅的交互界面和便捷的操作方式。
+  用于在 macOS 系统上提供更便捷的哔哩哔哩客户端体验，支持视频播放、番剧追更、消息通知等核心功能，优化了原网页端的操作逻辑，适配 macOS 原生界面交互，提升使用流畅度与视觉统一性，适合习惯桌面端应用的用户日常使用。
 - [syncthing/syncthing-macos](https://github.com/syncthing/syncthing-macos) ★3795 [`apple`] [`backup`] [`cloud-sync`] [`file-sharing`] [`file-sync`] [`frugal`] [`mac`] [`macos`] [`macosx`] [`objective-c`] [`osx`] [`p2p`] [`peer-to-peer`] [`simple`] [`swift`] [`sync`] [`sync-files`] [`synchronization`] [`syncthing`]  
-  Syncthing-macos 是 Syncthing 官方开发的 macOS 原生图形客户端，用于在本地网络或多台设备间实现文件同步与备份。它为用户提供了比命令行工具更易用的操作界面，可直观管理共享文件夹、连接节点设备以及查看同步状态与日志。该程序通常适合需要在个人电脑、家庭服务器或办公设备之间安全、去中心化地同步文档、照片等文件的 macOS 用户，无需依赖中心服务器，通过点对点技术确保数据传输的私密性。
+  SyncThing for macOS 是一个开源的跨平台文件同步工具，主要用于在多台设备间实时同步文件夹，支持端到端加密和去中心化传输，无需依赖第三方云服务，适合注重隐私和数据自主权的用户在 macOS 系统上安全共享和备份文件。
 - [100apps/openshare](https://github.com/100apps/openshare) ★3621 [`openshare`]  
-  OpenShare 是一个开源的 iOS 分享组件库，主要用于简化社交平台分享功能的集成过程，支持微信、QQ、微博等常见平台，帮助开发者快速实现分享授权和回调处理，适用于需要集成多平台分享功能的移动应用开发场景。
+  一个开源的网页工具集合平台，主要用于整合常用工具、代码片段和开发资源，方便开发者快速访问和分享实用功能，通常支持自定义配置和部署，适合个人效率提升或团队工具统一管理。
 - [gsdios/GSD_WeiXin](https://github.com/gsdios/GSD_WeiXin) ★3165  
-  用于快速高效地开发微信小程序，基于微信官方API封装常用功能模块，提供组件化方案简化界面构建过程。通常适合需要快速实现小程序基础框架的开发者，支持自定义扩展和跨页面状态管理，降低了界面交互与网络请求的实现复杂度。
+  用于实现微信公众号相关功能的开源项目，主要包含消息处理、用户管理、菜单操作及素材管理等接口封装，便于开发者快速集成微信公众号能力，适用于企业级应用与定制化服务开发。
 - [zhongfenglee/IDCardRecognition](https://github.com/zhongfenglee/IDCardRecognition) ★1712  
-  通过扫描或拍摄身份证自动识别并提取姓名、性别、民族、出生日期、住址和身份证号码等关键信息，支持正反面识别，适用于金融开户、酒店入住、实名认证等需要快速录入身份证信息的场景，基于OCR技术实现高效准确的文字提取与结构化输出。
+  基于深度学习的身份证文字识别项目，主要用于自动提取身份证上的姓名、性别、民族、出生日期、地址和身份证号等信息，支持图像预处理、文字检测与识别功能，适用于需要快速录入身份证信息的场景。
 - [weidian-inc/hera](https://github.com/weidian-inc/hera) ★1502 [`android`] [`hera`] [`ios`] [`mina`] [`miniprogram`] [`sdk`] [`transfrom`] [`wechat`] [`xiaochengxu`]  
-  Hera 是 Weidian 推出的移动端跨平台开发框架，主要用于快速构建高性能的微信小程序和类似结构的轻应用。它基于 Vue.js 的语法和开发体验，允许开发者使用前端技术栈编写业务代码，然后编译成可在小程序环境中运行的代码，从而提高开发效率并实现一定程度的代码复用。该框架通常适合需要将 Web 技术栈快速适配到小程序平台的中大型项目，帮助团队降低多端维护成本。
+  weidian-inc/hera 是一个前端监控与性能分析工具，主要用于捕获 Web 应用的运行时错误、API 异常、资源加载性能等数据，帮助开发者定位和解决线上问题。它支持跨页面追踪、用户行为回溯和性能指标采集，通常用于提升用户体验和前端稳定性。
 - [AYJk/AYTikTokPod](https://github.com/AYJk/AYTikTokPod) ★308  
-  AYTikTokPod 主要帮助开发者将 TikTok 短视频集成到 iOS 应用中，提供便捷的接口加载和展示视频内容。它通常用于需要嵌入主流社交平台内容的场景，支持自定义播放器界面和基础交互功能，适合移动应用快速实现短视频浏览模块，减少直接处理网络请求和渲染优化的开发工作量。
+  一个专为 TikTok 优化的 iOS 播客客户端，支持视频播客的流畅播放与订阅，提供简洁界面和个性化推荐，方便用户在苹果设备上收看 TikTok 上的优质长视频内容。
 - [chanify/chanify-ios](https://github.com/chanify/chanify-ios) ★228 [`anonymous`] [`apns`] [`ios`] [`ios-app`] [`macos-app`] [`notifications`] [`objective-c`] [`open-source`] [`push-notifications`]  
-  Chanify 是一款专为 iOS 设计的个人消息推送工具，可以帮助用户将自定义提醒、系统通知或第三方服务信息直接发送到 iPhone。通过集成简单的 API 或使用配套的跨平台客户端，用户可以接收来自服务器、脚本或自动化流程的实时消息，适合开发者和日常用户用于监控任务状态、接收报警或同步重要动态。它通常支持端到端加密，注重隐私保护，能够方便地与各种自助服务或工具链结合使用。
+  Chanify 是一个基于 iOS 平台的消息推送工具，主要用于将设备间的消息、链接或文件通过加密通道快速同步。它支持自建服务器，提供轻量级、高隐私保护的推送服务，适合个人或小团队在多设备间安全传递信息，无需依赖第三方平台。
