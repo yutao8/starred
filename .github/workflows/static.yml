@@ -23,7 +23,8 @@ jobs:
       - name: Prepare artifact folder
         run: |
           mkdir artifact
-          cp index.html starList.json artifact/
+          cp index.html starList.json starList.public.json artifact/
+          cp -r assets artifact/
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3

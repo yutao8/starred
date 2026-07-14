@@ -7,22 +7,43 @@ on:
   # 手动触发事件
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
 
       - name: Set up PHP
         uses: shivammathur/setup-php@v2
         with:
-          php-version: '7.2'
+          php-version: '8.2'
 
       - name: Run PHP script
         env:
-          GH_TOKEN: ${{ secrets.GH_TOKEN }}  # github token
-          GPT_URL: ${{ secrets.GPT_URL }}  # chatgpt url
-          GPT_KEY: ${{ secrets.GPT_KEY }}  # chatgpt key
+          GITHUB_ACTOR: ${{ vars.STARRED_GITHUB_ACTOR || github.repository_owner }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN }}
+          OPENROUTER_KEY: ${{ secrets.OPENROUTER_KEY }}
+          OPENROUTER_URL: ${{ vars.OPENROUTER_URL }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          DEEPSEEK_URL: ${{ vars.DEEPSEEK_URL }}
+          CURL_PROXY: ''
+          CURL_PROXY_TYPE: http
+          CURL_IPRESOLVE_V4: true
         run: php index.php
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md starList.json starList.public.json dist
+          if git diff --cached --quiet; then
+            echo "No generated changes."
+            exit 0
+          fi
+          git commit -m "update starred data"
+          git push

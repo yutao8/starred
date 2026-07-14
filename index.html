@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Starred Projects</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
-    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <link href="./assets/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap-icons.css" rel="stylesheet">
+    <script src="./assets/vendor/vue.global.prod.js"></script>
     <style>
         :root {
             --vp-c-brand: #3eaf7c;
@@ -894,7 +894,7 @@
 
         <div class="main-container">
             <div class="sidebar" id="sidebar">
-                <div v-for="(projects, lang) in groupedProjects" :key="lang"
+                <div v-for="(projects, lang) in sidebarGroupedProjects" :key="lang"
                      class="sidebar-item" :class="{ 'active': activeLang === lang }"
                      :style="{ 'border-left-color': activeLang === lang ? stringToHslColor(lang) : 'transparent' }">
                     <span class="sidebar-color-dot" :style="{ backgroundColor: stringToHslColor(lang) }"></span>
@@ -920,7 +920,7 @@
                                     <div>
                                         <div class="project-card-header d-flex justify-content-between align-items-center mb-2">
                                             <div class="d-flex align-items-center gap-2">
-                                                <img v-if="project.owner && project.owner.avatar_url" :src="project.owner.avatar_url" :alt="project.owner.login" class="rounded-circle me-2" style="width:28px;height:28px;object-fit:cover;" :title="project.owner.login">
+                                                <img v-if="project.owner && project.owner.avatar_url" :src="project.owner.avatar_url" :alt="project.owner.login" class="rounded-circle me-2" style="width:28px;height:28px;object-fit:cover;" width="28" height="28" loading="lazy" decoding="async" referrerpolicy="no-referrer" :title="project.owner.login">
                                                 <div class="project-card-title fw-semibold">
                                                     <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
                                                 </div>
@@ -1013,7 +1013,7 @@
     </div>
 
     <script>
-        const { createApp, ref, computed, onMounted, watch } = Vue;
+        const { createApp, ref, computed, onMounted, onBeforeUnmount, watch } = Vue;
 
         // 防抖函数
         function debounce(fn, delay = 300) {
@@ -1033,25 +1033,83 @@
                 const searchQuery = ref('');
                 const sidebarOpen = ref(false);
                 const activeLang = ref('');
-                const projects = ref([]); // 当前展示的项目
+                const filteredProjects = ref([]); // 当前搜索命中的完整项目
+                const renderLimit = ref(0); // 当前内容区已渲染数量
                 let rawProjects = [];     // 原始所有项目（非响应式）
+                let sortedLanguages = []; // 原始语言排序，搜索时复用
+                let renderFrame = null;
+                let languageObserver = null;
+                let observeTimer = null;
+                const initialRenderCount = 120;
+                const renderChunkSize = 180;
 
-                // 分组并排序
-                const groupedProjects = computed(() => {
+                const normalizeText = (value) => String(value || '').toLowerCase();
+
+                const buildSearchText = (project) => {
+                    return [
+                        project.full_name,
+                        project.name,
+                        project.desc,
+                        project.description,
+                        project.language,
+                        project.owner && project.owner.login,
+                        ...(project.topics || [])
+                    ].map(normalizeText).join(' ');
+                };
+
+                const groupProjects = (list) => {
                     const groups = {};
-                    projects.value.forEach(project => {
+                    list.forEach(project => {
                         const lang = project.language || 'Other';
                         if (!groups[lang]) groups[lang] = [];
                         groups[lang].push(project);
                     });
-                    const sortedLangs = Object.keys(groups).sort((a, b) => a.localeCompare(b, 'zh-CN'));
                     const result = {};
-                    sortedLangs.forEach(lang => {
-                        groups[lang].sort((a, b) => (b.stargazers_count || 0) - (a.stargazers_count || 0));
-                        result[lang] = groups[lang];
+                    sortedLanguages.forEach(lang => {
+                        if (groups[lang]) {
+                            result[lang] = groups[lang];
+                        }
                     });
                     return result;
+                };
+
+                const renderedProjects = computed(() => filteredProjects.value.slice(0, renderLimit.value));
+
+                const sidebarGroupedProjects = computed(() => groupProjects(filteredProjects.value));
+
+                // 分组。仓库列表在加载时已按语言和星数排序，这里避免搜索时重复排序。
+                const groupedProjects = computed(() => {
+                    return groupProjects(renderedProjects.value);
                 });
+
+                const updateRenderedProjects = (list) => {
+                    if (renderFrame) {
+                        cancelAnimationFrame(renderFrame);
+                        renderFrame = null;
+                    }
+
+                    filteredProjects.value = list;
+                    renderLimit.value = Math.min(initialRenderCount, list.length);
+
+                    const appendChunk = () => {
+                        if (renderLimit.value >= filteredProjects.value.length) {
+                            renderFrame = null;
+                            return;
+                        }
+
+                        renderLimit.value = Math.min(
+                            renderLimit.value + renderChunkSize,
+                            filteredProjects.value.length
+                        );
+                        scheduleObserveLanguageTitles();
+                        renderFrame = requestAnimationFrame(appendChunk);
+                    };
+
+                    if (renderLimit.value < list.length) {
+                        renderFrame = requestAnimationFrame(appendChunk);
+                    }
+                    scheduleObserveLanguageTitles();
+                };
 
                 // 主题切换
                 const toggleTheme = () => {
@@ -1095,6 +1153,16 @@
                     // 滚动到分组标题
                     const id = 'lang-' + lang;
                     const element = document.getElementById(id);
+                    if (!element && renderLimit.value < filteredProjects.value.length) {
+                        if (renderFrame) {
+                            cancelAnimationFrame(renderFrame);
+                            renderFrame = null;
+                        }
+                        renderLimit.value = filteredProjects.value.length;
+                        scheduleObserveLanguageTitles();
+                        setTimeout(() => scrollToLang(lang), 0);
+                        return;
+                    }
                     if (element) {
                         // 优先用scrollIntoView，兼容性好
                         element.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -1117,26 +1185,28 @@
                     document.getElementById('sidebar').classList.toggle('show');
                 };
 
+                const scheduleObserveLanguageTitles = () => {
+                    clearTimeout(observeTimer);
+                    observeTimer = setTimeout(() => {
+                        if (!languageObserver) return;
+                        languageObserver.disconnect();
+                        document.querySelectorAll('.language-title').forEach(el => languageObserver.observe(el));
+                    }, 80);
+                };
+
                 // 搜索过滤逻辑（防抖）
                 const doFilter = debounce(() => {
-                    globalLoading.value = true;
-                    setTimeout(() => {
-                        if (!searchQuery.value.trim()) {
-                            projects.value = rawProjects.slice();
-                            globalLoading.value = false;
-                            return;
-                        }
-                        const keywords = searchQuery.value.toLowerCase().split(' ').filter(k => k);
-                        projects.value = rawProjects.filter(p => {
-                            const searchableText = [
-                                p.full_name,
-                                p.description,
-                                ...(p.topics || [])
-                            ].join(' ').toLowerCase();
-                            return keywords.every(kw => searchableText.includes(kw));
-                        });
-                        globalLoading.value = false;
-                    }, 200);
+                    const query = normalizeText(searchQuery.value).trim();
+                    if (!query) {
+                        updateRenderedProjects(rawProjects);
+                        return;
+                    }
+
+                    const keywords = query.split(/\s+/).filter(Boolean);
+                    const matchedProjects = rawProjects.filter(project => {
+                        return keywords.every(keyword => project._searchText.includes(keyword));
+                    });
+                    updateRenderedProjects(matchedProjects);
                 }, 300);
 
                 // 监听 searchQuery
@@ -1146,10 +1216,23 @@
                     globalLoading.value = true;
                     initTheme();
                     try {
-                        const res = await fetch('./starList.json');
-                        if (!res.ok) throw new Error('无法加载 starList.json');
+                        let res = await fetch('./starList.public.json');
+                        if (!res.ok) {
+                            res = await fetch('./starList.json');
+                        }
+                        if (!res.ok) throw new Error('无法加载 starList 数据');
                         rawProjects = await res.json();
-                        projects.value = rawProjects.slice();
+                        rawProjects.forEach(project => {
+                            project.language = project.language || 'Other';
+                            project._searchText = buildSearchText(project);
+                        });
+                        rawProjects.sort((a, b) => {
+                            const langCompare = a.language.localeCompare(b.language, 'zh-CN');
+                            if (langCompare !== 0) return langCompare;
+                            return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                        });
+                        sortedLanguages = Array.from(new Set(rawProjects.map(project => project.language)));
+                        updateRenderedProjects(rawProjects);
                     } catch (e) {
                         error.value = e.message;
                     } finally {
@@ -1158,16 +1241,24 @@
                     }
 
                     // 滚动监听高亮
-                    const observer = new IntersectionObserver((entries) => {
+                    languageObserver = new IntersectionObserver((entries) => {
                         entries.forEach(entry => {
                             if (entry.isIntersecting) {
-                                activeLang.value = entry.target.id.split('-')[1];
+                                activeLang.value = entry.target.id.replace(/^lang-/, '');
                             }
                         });
                     }, { rootMargin: "-50% 0px -50% 0px" });
-                    setTimeout(() => {
-                        document.querySelectorAll('.language-title').forEach(el => observer.observe(el));
-                    }, 1000);
+                    scheduleObserveLanguageTitles();
+                });
+
+                onBeforeUnmount(() => {
+                    if (renderFrame) {
+                        cancelAnimationFrame(renderFrame);
+                    }
+                    clearTimeout(observeTimer);
+                    if (languageObserver) {
+                        languageObserver.disconnect();
+                    }
                 });
 
                 return {
@@ -1178,6 +1269,7 @@
                     searchQuery,
                     sidebarOpen,
                     activeLang,
+                    sidebarGroupedProjects,
                     groupedProjects,
                     toggleTheme,
                     toggleSidebar,
