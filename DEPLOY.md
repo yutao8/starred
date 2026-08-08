@@ -56,7 +56,7 @@ CURL_IPRESOLVE_V4=true
 4. 执行生成：
 
 ```bash
-php index.php
+php fetch.php
 ```
 
 执行完成后会更新：
@@ -117,8 +117,8 @@ php history.php --repo=sensepost/Snoopy
 - **折线图 Hover 提示框**：ECharts Tooltip 鼠标悬停实时展示当前数据点对应的详细数据快照相对路径 `file`。
 - **快照定位与明细表格**：折线图下方提供“📅 历史数据快照定位与明细”表格，列出历次快照的日期与数值，并支持直接点击链接跳转至对应的原始快照 JSON 文件。
 
-### 4. 自动化管道同步 (`index.php`)
-- 每次运行 `php index.php` 抓取并保存新快照 (`dist/YYYYMMDDHH`) 后，管道会自动触发 `syncDistToReposDir()` 对 `repos/` 目录下的项目履历文件进行增量更新，避免重复扫描历史全量文件。
+### 4. 自动化管道同步 (`fetch.php`)
+- 每次运行 `php fetch.php` 抓取并保存新快照 (`dist/YYYYMMDDHH`) 后，管道会自动触发 `syncDistToReposDir()` 对 `repos/` 目录下的项目履历文件进行增量更新，避免重复扫描历史全量文件。
 
 ## GitHub Actions 部署
 
@@ -160,7 +160,7 @@ gh variable set STARRED_GITHUB_ACTOR --body yutao8
 
 仓库 Actions -> PHP Workflow -> Run workflow。
 
-工作流会执行 `php index.php`，并自动提交生成文件：
+工作流会执行 `php fetch.php`，并自动提交生成文件：
 
 - `README.md`
 - `starList.json`

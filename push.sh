@@ -5,9 +5,9 @@ export PATH=/usr/local/bin:/usr/bin:/bin
 export HOME=/root  # 或实际用户目录
 
 git pull
-php index.php
+php fetch.php
 
-git add README.md starList.json starList.public.json dist
+git add README.md starList.json starList.public.json dist repos
 if git diff --cached --quiet; then
   echo "No changes to commit."
   exit 0

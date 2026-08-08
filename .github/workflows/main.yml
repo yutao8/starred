@@ -34,13 +34,13 @@ jobs:
           CURL_PROXY: ''
           CURL_PROXY_TYPE: http
           CURL_IPRESOLVE_V4: true
-        run: php index.php
+        run: php fetch.php
 
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md starList.json starList.public.json dist
+          git add README.md starList.json starList.public.json dist repos
           if git diff --cached --quiet; then
             echo "No generated changes."
             exit 0
