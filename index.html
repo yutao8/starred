@@ -923,7 +923,7 @@
                                     <div>
                                         <div class="project-card-header d-flex justify-content-between align-items-center mb-2">
                                             <div class="d-flex align-items-center gap-2">
-                                                <img v-if="project.owner && project.owner.avatar_url" :src="project.owner.avatar_url" :alt="project.owner.login" class="rounded-circle me-2" style="width:28px;height:28px;object-fit:cover;" width="28" height="28" loading="lazy" decoding="async" referrerpolicy="no-referrer" :title="project.owner.login">
+                                                <img v-if="project.owner && project.owner.avatar_url" :data-src="project.owner.avatar_url" :alt="project.owner.login" class="rounded-circle me-2 lazy-avatar" style="width:28px;height:28px;object-fit:cover;background:#e9ecef;" width="28" height="28" decoding="async" referrerpolicy="no-referrer" :title="project.owner.login" @error="$event.target.style.display='none'">
                                                 <div class="project-card-title fw-semibold">
                                                     <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
                                                 </div>
@@ -1048,8 +1048,8 @@
                 let renderFrame = null;
                 let languageObserver = null;
                 let observeTimer = null;
-                const initialRenderCount = 120;
-                const renderChunkSize = 180;
+                const initialRenderCount = 50;
+                const renderChunkSize = 100;
 
                 const normalizeText = (value) => String(value || '').toLowerCase();
 
@@ -1254,6 +1254,40 @@
                         });
                     }, { rootMargin: "-50% 0px -50% 0px" });
                     scheduleObserveLanguageTitles();
+
+                    // 图片懒加载
+                    const imageObserver = new IntersectionObserver((entries) => {
+                        entries.forEach(entry => {
+                            if (entry.isIntersecting) {
+                                const img = entry.target;
+                                const src = img.getAttribute('data-src');
+                                if (src) {
+                                    img.src = src;
+                                    img.removeAttribute('data-src');
+                                    imageObserver.unobserve(img);
+                                }
+                            }
+                        });
+                    }, { rootMargin: "100px" });
+
+                    // 观察所有懒加载图片
+                    const observeImages = () => {
+                        document.querySelectorAll('img.lazy-avatar[data-src]').forEach(img => {
+                            imageObserver.observe(img);
+                        });
+                    };
+
+                    // 初始观察
+                    observeImages();
+
+                    // 每次 DOM 更新后重新观察新图片
+                    const mutationObserver = new MutationObserver(() => {
+                        observeImages();
+                    });
+                    mutationObserver.observe(document.getElementById('app'), {
+                        childList: true,
+                        subtree: true
+                    });
                 });
 
                 onBeforeUnmount(() => {
