@@ -28,11 +28,20 @@ Copy-Item .env.example .env
 ```ini
 GITHUB_ACTOR=yutao8
 GH_TOKEN=你的 GitHub Token
+DEEPSEEK_KEY=你的 DeepSeek Key
 OPENROUTER_KEY=你的 OpenRouter Key
-DEEPSEEK_API_KEY=你的 DeepSeek Key
 ```
 
-`DEEPSEEK_API_KEY` 用于兜底模型。如果只想先验证主流程，也可以先只配置 `OPENROUTER_KEY`，但不建议生产运行时缺少兜底。
+可选渠道（不配置则自动跳过）：
+
+```ini
+OPENAI_KEY=你的 OpenAI Key
+CUSTOM_URL=https://your-api.example.com/v1/chat/completions
+CUSTOM_KEY=你的自定义渠道 Key
+CUSTOM_MODELS=model-name-1,model-name-2
+```
+
+每个渠道的 URL 和 Key 都为空时会自动跳过，不影响其他渠道。多个渠道互为备用，请求失败时自动切换。
 
 3. 如果本地 PHP 访问 GitHub 或模型接口需要代理，配置：
 
@@ -74,15 +83,17 @@ http://127.0.0.1:8099/index.html
 1. 在仓库 Settings 中配置 Secrets：
 
 - `GH_TOKEN`
+- `DEEPSEEK_KEY`
 - `OPENROUTER_KEY`
-- `DEEPSEEK_API_KEY`
+- `OPENAI_KEY`（可选）
+- `CUSTOM_KEY`（可选）
 
 如果使用 GitHub CLI，可在仓库目录执行：
 
 ```bash
 gh secret set GH_TOKEN
+gh secret set DEEPSEEK_KEY
 gh secret set OPENROUTER_KEY
-gh secret set DEEPSEEK_API_KEY
 ```
 
 2. 配置 Variables：
@@ -90,6 +101,8 @@ gh secret set DEEPSEEK_API_KEY
 - `STARRED_GITHUB_ACTOR`：要抓取收藏列表的 GitHub 用户名，例如 `yutao8`
 - `OPENROUTER_URL`：可选，默认 `https://openrouter.ai/api/v1/chat/completions`
 - `DEEPSEEK_URL`：可选，默认 `https://api.deepseek.com/chat/completions`
+- `OPENAI_URL`：可选，默认 `https://api.openai.com/v1/chat/completions`
+- `CUSTOM_URL`：可选，自定义 OpenAI 兼容接口地址
 
 GitHub CLI 示例：
 
@@ -116,10 +129,25 @@ gh variable set STARRED_GITHUB_ACTOR --body yutao8
 
 `config.php` 可以提交到 Git，用于定义默认配置和模型列表；`.env` 只保存私密配置和本地差异配置。
 
-当前模型配置使用 OpenAI-compatible Chat Completions 格式：
+当前模型配置使用 OpenAI-compatible Chat Completions 格式，支持以下渠道（按优先级排列）：
 
-- OpenRouter 作为主通道
-- DeepSeek 开放平台 `deepseek-v4-flash` 作为兜底
+| 渠道 | 环境变量前缀 | 默认模型 | 说明 |
+|------|-------------|---------|------|
+| DeepSeek | `DEEPSEEK_` | `deepseek-v4-flash` | DeepSeek 开放平台 |
+| OpenRouter | `OPENROUTER_` | 多模型轮询 | 聚合多家模型 |
+| OpenAI | `OPENAI_` | `gpt-5.6-luna` | OpenAI 官方 API |
+| Custom | `CUSTOM_` | 无默认，需手动配置 | 自定义 OpenAI 兼容接口 |
+
+每个渠道的模型列表可通过 `.env` 覆盖，用逗号分隔：
+
+```ini
+DEEPSEEK_MODELS=deepseek-v4-flash
+OPENROUTER_MODELS=openai/gpt-4o-mini,qwen/qwen-plus-2025-07-28
+OPENAI_MODELS=gpt-5.6-luna
+CUSTOM_MODELS=your-model-name
+```
+
+未配置 Key 或 URL 的渠道会自动跳过。多渠道互为备用，某个渠道请求失败时自动切换到下一个。
 
 `REQUEST_CONCURRENCY` 控制脚本对外请求的全局默认并发数，模型接口会按该值分块请求；`PAGE_CHUNK` 如未单独设置，也会使用该默认值作为 GitHub 分页并发。
 
@@ -142,7 +170,7 @@ gh variable set STARRED_GITHUB_ACTOR --body yutao8
 
 ### 模型接口无返回或很慢
 
-优先检查 `OPENROUTER_KEY`、`DEEPSEEK_API_KEY` 是否有效；其次降低 `PAGE_END` 做小范围测试，确认链路正常后再恢复完整页数。
+优先检查 `OPENROUTER_KEY`、`DEEPSEEK_KEY` 是否有效；其次降低 `PAGE_END` 做小范围测试，确认链路正常后再恢复完整页数。
 
 ### 不要提交哪些文件
 
