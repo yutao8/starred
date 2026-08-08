@@ -6,16 +6,16 @@
         "name": "One-KVM",
         "html_url": "https:\/\/github.com\/mofeng-git\/One-KVM",
         "language": "Python",
-        "description": "One-KVM 是一个基于 KVM 虚拟化技术的轻量级虚拟机管理工具，主要用于简化 Linux 下虚拟机的创建、配置和管理流程。它通过命令行提供直观的操作接口，支持快速部署虚拟机实例，适合开发、测试和自动化场景，通常与 QEMU、libvirt 等组件协同工作，提升虚拟化操作效率。"
+        "description": "One-KVM 是一套开源的远程控制解决方案，借助 KVM over IP 技术让运维人员通过网络直接管理多台主机。它通常运行在低功耗设备上，配合视频采集与虚拟键鼠功能，可完成服务器装系统、BIOS 调试和故障恢复等操作，尤其适合机房环境。项目强调将零散组件整合为一体化工具，并提供浏览器界面操作，降低远程管理的搭建与使用成本。"
     },
     "summary": {
         "initial_stars": 1512,
-        "current_stars": 2498,
-        "star_diff": 986,
-        "growth_rate": 65.21,
+        "current_stars": 2499,
+        "star_diff": 987,
+        "growth_rate": 65.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 2498,
             "forks": 261,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 2499,
+            "forks": 261,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

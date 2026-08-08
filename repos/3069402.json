@@ -6,16 +6,16 @@
         "name": "JsBarcode",
         "html_url": "https:\/\/github.com\/lindell\/JsBarcode",
         "language": "JavaScript",
-        "description": "一个轻量级的JavaScript库，用于在HTML5 Canvas或SVG中生成各种格式的条形码，支持Code 128、Code 39、EAN、UPC等多种条码标准，适用于网页中快速生成可打印的条码图像，无需依赖外部资源。"
+        "description": "JsBarcode 是一款纯 JavaScript 编写的条形码生成库，支持 Code128、EAN-13、UPC、QR 码等主流一维和二维格式，可直接在浏览器中运行，也可通过 Node.js 在服务端渲染。它无需依赖任何外部图形库，能灵活输出为 Canvas、SVG 或图片，适合电商订单标签、库存管理、票据打印等需要动态生成条码的场景。开发者可通过简单的 API 配置宽度、高度、字体和显示文本，并支持自定义校验位与格式化选项。由于轻量、易集成，常用于前端表单实时预览、后端批量生成条码图片，以及需要离线生成条码的 Web 应用或移动端 H5。"
     },
     "summary": {
         "initial_stars": 5697,
-        "current_stars": 5881,
-        "star_diff": 184,
-        "growth_rate": 3.23,
+        "current_stars": 5882,
+        "star_diff": 185,
+        "growth_rate": 3.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 146
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 147
     },
     "history": [
         {
@@ -1039,6 +1039,13 @@
             "stars": 5881,
             "forks": 1113,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 5882,
+            "forks": 1113,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

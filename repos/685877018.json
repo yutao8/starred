@@ -6,16 +6,16 @@
         "name": "res-downloader",
         "html_url": "https:\/\/github.com\/putyy\/res-downloader",
         "language": "Go",
-        "description": "用于下载网页资源的工具，支持从指定URL抓取文件、图片、视频等资源并保存到本地，通常用于批量下载或离线备份，适合需要提取网页静态资源的场景。"
+        "description": "用于从网页中提取并下载各种类型的资源，例如图片、视频、音频和文件。适合需要批量获取页面素材或备份网页内容的用户，可避免逐条手动保存链接的繁琐过程。工具通常基于网络请求分析，自动识别资源地址，并按类别或配置进行保存。具体支持的功能和使用方式需参考项目说明，但核心定位是解决网页资源下载效率低下的问题。"
     },
     "summary": {
         "initial_stars": 7495,
-        "current_stars": 19007,
-        "star_diff": 11512,
-        "growth_rate": 153.6,
+        "current_stars": 19009,
+        "star_diff": 11514,
+        "growth_rate": 153.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 19007,
             "forks": 2360,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 19009,
+            "forks": 2360,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

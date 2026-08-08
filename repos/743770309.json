@@ -6,16 +6,16 @@
         "name": "HuLa",
         "html_url": "https:\/\/github.com\/HuLaSpark\/HuLa",
         "language": "Vue",
-        "description": "HuLa 是一个专注于简化大数据处理流程的开源项目，主要用于高效管理 Spark 作业的调度、监控与资源优化，适合在大规模数据场景下提升任务执行效率与系统稳定性。"
+        "description": "HuLa 是一个跨平台桌面客户端项目，主要用于即时通讯场景，涵盖消息收发、会话列表、联系人管理等基础功能。它通常借助现代 Web 技术或 Rust 工具链构建，强调轻量、隐私和可定制，适合需要把多个聊天账号集中到一个窗口中管理的用户。具体实现细节与模块划分需以仓库源码为准。"
     },
     "summary": {
         "initial_stars": 3240,
-        "current_stars": 7521,
-        "star_diff": 4281,
-        "growth_rate": 132.13,
+        "current_stars": 7528,
+        "star_diff": 4288,
+        "growth_rate": 132.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 193
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 194
     },
     "history": [
         {
@@ -1368,6 +1368,13 @@
             "stars": 7521,
             "forks": 1020,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 7528,
+            "forks": 1022,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

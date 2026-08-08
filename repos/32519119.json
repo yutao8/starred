@@ -6,7 +6,7 @@
         "name": "ics-openvpn",
         "html_url": "https:\/\/github.com\/schwabe\/ics-openvpn",
         "language": "C",
-        "description": "用于管理 OpenVPN 连接的 Android 应用，支持 ICS OpenVPN 配置文件，提供安全的网络隧道服务，适用于需要远程访问私有网络的用户和企业场景。"
+        "description": "schwabe\/ics-openvpn 是一个为 Android 设备提供 OpenVPN 协议支持的开源客户端实现，主要用于建立安全加密的 VPN 连接。它允许用户导入标准 OpenVPN 配置文件，进而访问受限网络或保护公共 Wi-Fi 环境下的数据传输。该应用通常适合需要灵活配置 VPN 参数的技术用户，也常被用作其他 Android 应用集成 VPN 功能的基础方案，解决了 Android 原生系统缺少完整 OpenVPN 支持的问题。"
     },
     "summary": {
         "initial_stars": 3572,

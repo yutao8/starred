@@ -6,7 +6,7 @@
         "name": "VBA-Web",
         "html_url": "https:\/\/github.com\/VBA-tools\/VBA-Web",
         "language": "Visual Basic",
-        "description": "VBA-Web 是一个用于简化 VBA 中 Web 请求的开源工具库，主要用于在 Excel、Access 等 Office 应用中实现与 RESTful API 的交互。它支持 GET、POST、PUT、DELETE 等 HTTP 方法，提供类浏览器的会话管理、Cookie 处理、JSON 数据解析和 OAuth 认证支持，使开发者能便捷地连接 Web 服务获取或提交数据。"
+        "description": "VBA-Web 是一个为 VBA 环境设计的 HTTP 通信库，主要用于在 Excel、Access 等 Office 应用中直接请求 Web API、下载网页数据或调用 RESTful 服务。它封装了常见的请求操作，支持 GET、POST 等主流方法，并简化了 JSON 和 XML 响应的解析，同时提供会话保持、基本认证等实用能力。适合需要从 VBA 中集成外部数据源或自动化网络交互的开发者，也能有效弥补 VBA 原生网络功能薄弱的问题。典型场景包括拉取股票行情、发送表单数据、对接第三方平台接口等，通常与 VBA-Web 系列的其他库配合使用。"
     },
     "summary": {
         "initial_stars": 2072,

@@ -6,7 +6,7 @@
         "name": "webterminal",
         "html_url": "https:\/\/github.com\/jimmy201602\/webterminal",
         "language": "Python",
-        "description": "webterminal 是一个基于 Web 的终端工具，主要用于通过浏览器远程访问和操作服务器命令行。它采用前后端分离架构，前端使用 Vue.js，后端使用 Node.js 和 WebSocket 实现实时通信，支持多用户连接管理和基础权限控制，适合嵌入各类运维平台或作为轻量级终端替代方案。"
+        "description": "基于 Web 的 SSH 终端工具，让用户无需安装本地客户端即可通过浏览器远程连接和管理服务器，通常用于运维人员快速登录内网或云端主机，支持会话管理和操作审计，便于集中控制访问入口，适合需要安全管控远程操作权限的团队或系统管理员使用。"
     },
     "summary": {
         "initial_stars": 1666,

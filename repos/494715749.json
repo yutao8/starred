@@ -6,7 +6,7 @@
         "name": "checkchan-dist",
         "html_url": "https:\/\/github.com\/easychen\/checkchan-dist",
         "language": "JavaScript",
-        "description": "checkchan 是一个用于检测网络服务可用性的监控工具，checkchan-dist 仓库通常包含其分发文件或预编译版本，便于用户快速部署和使用，主要用于定期检查 Web 服务或 API 的连通性并通知异常。"
+        "description": "该工具旨在解决网页内容变更难以实时感知的问题，核心功能是周期性检查指定页面的关键变化，并在触发条件后向用户发送提醒。它支持分布式节点协同工作，能够应对大批量监控任务，适合新闻更新、价格波动、公告发布等需要持续跟踪的典型场景。项目通常以容器方式快速部署，方便个人或团队搭建自有监控服务，并保持较低的使用成本。"
     },
     "summary": {
         "initial_stars": 2163,

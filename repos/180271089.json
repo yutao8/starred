@@ -6,7 +6,7 @@
         "name": "js-reverse",
         "html_url": "https:\/\/github.com\/freedom-wy\/js-reverse",
         "language": "HTML",
-        "description": "JavaScript逆向工程学习仓库，主要用于分享和交流JS代码反混淆、加密算法分析、爬虫逆向等技术，包含常见混淆手段（如Array Reversal、Base64解码、自执行函数）的去混淆思路与实战案例，适合网络安全、逆向分析爱好者参考。"
+        "description": "该资源围绕 JavaScript 逆向工程展开，主要面向网页前端加密参数与签名逻辑的分析破解，常用于爬虫开发中定位并还原加密流程。内容通常涵盖断点调试、请求参数关键代码追踪、JS 混淆处理以及常见 Hook 的使用，适合需要绕过浏览器端校验、模拟执行加密算法的开发者。通过具体案例演示如何从网页脚本提取算法逻辑，并在 Python 或 Node 等环境中复现，解决登录接口加密、动态令牌生成或请求签名等问题。整体侧重实战操作，帮助理解浏览器环境与外部脚本通信的细节。"
     },
     "summary": {
         "initial_stars": 279,

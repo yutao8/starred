@@ -6,7 +6,7 @@
         "name": "nginx-ui",
         "html_url": "https:\/\/github.com\/0xJacky\/nginx-ui",
         "language": "Go",
-        "description": "Nginx UI 是一个基于 Web 的图形化管理工具，用于可视化配置和管理 Nginx 服务器。通过简洁的界面，用户可方便地操作站点配置、SSL 证书、反向代理等常见功能，无需手动编辑配置文件，适合需要快速部署和维护 Nginx 的开发者与运维人员。"
+        "description": "为 Nginx 提供可视化 Web 管理界面，帮助运维人员通过浏览器完成站点配置、反向代理、负载均衡与 SSL 证书管理等操作，替代手工编辑配置文件的繁琐流程。采用 Go 与 Vue 构建，支持配置语法高亮、在线校验、一键重载以及实时访问日志查看，适合需要更直观管理多台 Nginx 服务器或希望降低配置门槛的个人开发者与中小团队使用。"
     },
     "summary": {
         "initial_stars": 8876,

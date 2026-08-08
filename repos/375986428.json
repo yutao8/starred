@@ -6,7 +6,7 @@
         "name": "js_reverse",
         "html_url": "https:\/\/github.com\/luzhisheng\/js_reverse",
         "language": "JavaScript",
-        "description": "js_reverse 是一个专注于 JavaScript 逆向工程的工具库，主要用于分析和调试混淆后的 JS 代码，支持常见的反混淆操作，如格式化、断点调试、AST 解析等，常用于爬虫开发与安全研究中的动态参数破解。"
+        "description": "用于分析和破解网页端 JavaScript 加密与反爬机制，通常涉及前端签名算法还原、混淆代码格式化与去除混淆、加密参数逆向等内容，主要服务于爬虫工程师和安全研究人员，帮他们理解浏览器端 JS 执行逻辑，定位请求参数的生成过程，从而模拟或绕过校验。仓库可能包含实战案例、工具脚本或技术笔记，适合从事数据采集、网页自动化或安全测试的人群参考。"
     },
     "summary": {
         "initial_stars": 1004,

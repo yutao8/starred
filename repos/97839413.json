@@ -6,7 +6,7 @@
         "name": "COMTool",
         "html_url": "https:\/\/github.com\/Neutree\/COMTool",
         "language": "Python",
-        "description": "COMTool 是一个串口和网络通信调试工具，主要用于调试单片机、嵌入式设备等与计算机的通信。它支持串口收发、TCP\/UDP 网络通信，提供十六进制收发、自动发送、数据保存等功能，界面简洁，适合开发和调试过程中快速验证通信协议和数据交互。"
+        "description": "用于串口和网络调试的跨平台工具，支持串口、TCP、UDP、SSH等连接方式，提供数据收发、协议解析、波形绘制、自动回复、日志记录等功能，适合嵌入式开发、硬件调试、物联网设备通信测试等场景。基于Python开发，提供图形界面和命令行模式，操作简便，可扩展性强。"
     },
     "summary": {
         "initial_stars": 2134,

@@ -6,16 +6,16 @@
         "name": "netmaker",
         "html_url": "https:\/\/github.com\/gravitl\/netmaker",
         "language": "Go",
-        "description": "用于创建和管理去中心化虚拟私有网络的开源平台，通过区块链技术实现节点身份验证与网络配置同步，支持跨云、本地及边缘环境的无缝连接部署，简化零信任网络架构实施。"
+        "description": "Netmaker 是一个以 WireGuard 为核心的开源虚拟网络控制平台，用于在服务器、云主机和边缘设备之间搭建安全高效的覆盖网络。它通过统一管理界面和 API 自动完成 WireGuard 密钥分配、节点发现和路由配置，使分布在不同位置的机器能够像在同一个局域网内一样互相通信。典型场景包括远程办公访问、跨地域集群组网、物联网设备管理等。它特别适合需要自建网络基础设施、对数据主权有较高要求的团队，能够快速部署并规模化纳管节点，同时支持访问控制和网络隔离。借助活跃的开源社区，该项目已广泛应用于企业私有云和混合云环境中。"
     },
     "summary": {
         "initial_stars": 10374,
-        "current_stars": 11740,
-        "star_diff": 1366,
-        "growth_rate": 13.17,
+        "current_stars": 11741,
+        "star_diff": 1367,
+        "growth_rate": 13.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 11740,
             "forks": 649,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 11741,
+            "forks": 650,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

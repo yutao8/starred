@@ -6,7 +6,7 @@
         "name": "apidoc-php",
         "html_url": "https:\/\/github.com\/HGthecode\/apidoc-php",
         "language": "PHP",
-        "description": "用于为 PHP 项目生成 API 文档的工具，通过解析代码中的注释自动生成接口文档，支持常见注解格式，便于开发者在团队协作或项目维护中快速构建和更新 API 说明，适用于基于 PHP 的 Web 服务开发场景。"
+        "description": "这个工具用于从 PHP 代码注释中自动提取接口信息并生成 API 文档，适合需要为现有 PHP 项目快速整理接口说明的开发者或团队。它通常通过解析注释中的参数、返回值、请求示例等标记，输出结构化的文档页面，从而减少手动编写和维护文档的工作量，特别适合接口频繁更新或多人协作的场景。"
     },
     "summary": {
         "initial_stars": 207,

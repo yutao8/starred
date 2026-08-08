@@ -6,16 +6,16 @@
         "name": "Telegram_Restricted_Media_Downloader",
         "html_url": "https:\/\/github.com\/Gentlesprite\/Telegram_Restricted_Media_Downloader",
         "language": "Python",
-        "description": "用于下载 Telegram 中受限制的媒体文件，解除频道或群组对视频、图片等媒体的下载限制，支持通过机器人或用户会话登录后自动捕获并下载受限制内容，适合需要备份或离线查看受限媒体的用户。"
+        "description": "用于下载 Telegram 中受限媒体内容的工具，主要解决普通方式无法保存或下载受限视频、图片与文件的问题。通过模拟登录会话或利用访问权限，从频道、群组或聊天记录中提取原始媒体信息并下载到本地，同时尽量保留原始质量。通常适合需要备份频道资料、整理群组文件或迁移重要内容的场景，也可用于收藏无法直接下载的过期或保护媒体。具体操作方式以该仓库说明为准。"
     },
     "summary": {
         "initial_stars": 135,
-        "current_stars": 361,
-        "star_diff": 226,
-        "growth_rate": 167.41,
+        "current_stars": 362,
+        "star_diff": 227,
+        "growth_rate": 168.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 142
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 143
     },
     "history": [
         {
@@ -1011,6 +1011,13 @@
             "stars": 361,
             "forks": 43,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 362,
+            "forks": 43,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "nice-validator",
         "html_url": "https:\/\/github.com\/niceue\/nice-validator",
         "language": "JavaScript",
-        "description": "一个轻量级、可扩展的前端表单验证库，主要用于网页中表单的实时校验，支持自定义验证规则、多语言提示和常见表单控件，适合用于提升用户输入准确性和交互体验。"
+        "description": "一个轻量级 jQuery 表单验证插件，用于在网页前端对用户输入进行实时校验。它内置常用验证规则，如必填、邮箱、手机号、URL、日期、密码强度等，并支持自定义规则和异步验证。采用声明式配置，只需在表单元素上添加 data-rule 属性或通过 JavaScript 调用，即可快速实现输入提示、错误显示和提交阻断。适合需要快速为现有表单增加验证功能的中小型项目，也支持与 Bootstrap 等前端框架配合使用。其本地化错误消息和灵活的扩展机制便于按项目需求定制，是传统表单开发中简化验证流程的实用工具。"
     },
     "summary": {
         "initial_stars": 609,

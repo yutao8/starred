@@ -6,16 +6,16 @@
         "name": "pikvm",
         "html_url": "https:\/\/github.com\/pikvm\/pikvm",
         "language": "Other",
-        "description": "PiKVM 是一个基于 Raspberry Pi 的开源 IPMI 解决方案，通过 USB 和网络实现远程硬件管理，支持远程开机、关机、BIOS 控制和操作系统安装，适用于服务器和 PC 的远程运维，提供类似 IPMI 的功能但成本更低。"
+        "description": "PiKVM 是一套基于树莓派的 IP-KVM 远程管理方案，用于通过浏览器对服务器或无头设备进行键盘、鼠标和屏幕的实时操控。它支持虚拟媒体挂载，可远程引导镜像安装系统，并集成电源控制，适合机房运维、故障排查或居家管理多台机器。该软件通常部署在树莓派上，利用 HID 和 UVC 协议模拟键鼠与显示器，工作于已有网络环境，无需在被管端安装额外代理。"
     },
     "summary": {
         "initial_stars": 9090,
-        "current_stars": 10232,
-        "star_diff": 1142,
-        "growth_rate": 12.56,
+        "current_stars": 10233,
+        "star_diff": 1143,
+        "growth_rate": 12.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 10232,
             "forks": 564,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 10233,
+            "forks": 564,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

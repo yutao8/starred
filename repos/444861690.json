@@ -6,7 +6,7 @@
         "name": "opentele",
         "html_url": "https:\/\/github.com\/thedemons\/opentele",
         "language": "Python",
-        "description": "OpenTele 是一个基于 Go 语言开发的开源 Telegram 机器人框架，提供简洁的 API 用于快速构建和部署 Telegram 机器人，支持消息处理、命令路由、会话管理等功能，适合需要高效开发电报机器人的开发者使用。"
+        "description": "用于简化OpenTelemetry接入的实践项目，核心方向是分布式系统的链路追踪、指标与日志统一观测。通常会提供配置示例、客户端封装或自定义导出器，帮助开发者快速将监控数据发送到后端平台，从而定位服务间调用延迟、异常依赖等问题。适合微服务架构中需要建立可观测性体系但无时间从零搭建的团队。具体功能以仓库源码为准。"
     },
     "summary": {
         "initial_stars": 383,

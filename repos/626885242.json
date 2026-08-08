@@ -6,7 +6,7 @@
         "name": "page-spy-web",
         "html_url": "https:\/\/github.com\/HuolalaTech\/page-spy-web",
         "language": "TypeScript",
-        "description": "一个用于网页调试与远程监控的开源工具，支持实时查看页面状态、控制台日志、网络请求等，便于开发者远程诊断问题，提升调试效率，尤其适用于移动端或无直接访问设备的场景。"
+        "description": "用于 Web 应用的远程调试，通过注入 SDK 将页面运行时的控制台日志、网络请求、页面结构等信息同步到调试面板，让开发者无需连接实体设备即可实时排查线上或真机中的 H5 页面问题。通常适合移动端网页、内嵌浏览器等场景，尤其便于远程定位白屏、接口异常和交互错误。"
     },
     "summary": {
         "initial_stars": 5326,

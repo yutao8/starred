@@ -6,7 +6,7 @@
         "name": "SwitchyOmega",
         "html_url": "https:\/\/github.com\/FelisCatus\/SwitchyOmega",
         "language": "CoffeeScript",
-        "description": "SwitchyOmega 是一款用于管理浏览器代理设置的 Chrome 扩展，支持灵活配置多个代理规则，可自动化切换代理，便于在不同网络环境间快速切换，常用于科学上网、开发调试和访问控制。"
+        "description": "一个用于管理并快速切换浏览器代理设置的扩展插件，常配合Shadowsocks、Clash等代理客户端使用。它支持为不同网站或地址配置独立的代理规则，实现自动分流，例如国内网站直连、国外网站走代理。适合经常需要使用多个代理服务器或按域名精细控制流量走向的用户，能有效提升翻墙或访问特定资源的效率与便利性。"
     },
     "summary": {
         "initial_stars": 22160,

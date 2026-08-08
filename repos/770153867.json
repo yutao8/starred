@@ -6,16 +6,16 @@
         "name": "MoneyPrinterTurbo",
         "html_url": "https:\/\/github.com\/harry0703\/MoneyPrinterTurbo",
         "language": "Python",
-        "description": "一个基于大语言模型的开源视频创作工具，通过提示词自动生成视频脚本、匹配素材并合成短视频，主要用于批量制作短视频内容，支持中文场景下的自动化视频生产，适用于自媒体运营、营销推广等场景，简化视频创作流程。"
+        "description": "MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，通常适合自媒体创作者、内容运营者或需要批量产出视频的用户使用。它通过输入简单主题或关键词，自动完成文案创作、语音合成、视频素材匹配和字幕生成等环节，帮助用户将原本需要剪辑、配音、配字幕的复杂流程压缩到几分钟内完成。项目主要基于 Python 技术生态，结合大语言模型和视频处理能力，解决短视频制作中重复劳动多、产出效率低的问题，适合用于抖音、快手、小红书等平台的内容生产场景。需要注意实际效果取决于底层模型与素材库的支持质量。"
     },
     "summary": {
         "initial_stars": 37272,
-        "current_stars": 102191,
-        "star_diff": 64919,
-        "growth_rate": 174.18,
+        "current_stars": 102214,
+        "star_diff": 64942,
+        "growth_rate": 174.24,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 102191,
             "forks": 15402,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 102214,
+            "forks": 15408,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

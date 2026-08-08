@@ -6,7 +6,7 @@
         "name": "watchtower",
         "html_url": "https:\/\/github.com\/containrrr\/watchtower",
         "language": "Go",
-        "description": "用于自动更新 Docker 容器的工具，可定期检查镜像仓库中的新版本，并在发现更新时自动重启对应容器，保持容器化应用始终运行最新镜像，适用于需要持续部署的 Docker 环境。"
+        "description": "用于自动更新 Docker 容器的工具，通过定期检查镜像仓库中的版本变化，在发现新镜像后自动拉取并重建容器，避免手动更新和维护的繁琐。常与 Docker Compose 或 Kubernetes 配合使用，适合需要持续运行最新版本镜像的服务器环境，例如自托管服务、个人 NAS 或生产集群。主要解决容器镜像版本滞后、安全补丁延迟以及多容器批量更新的问题，让容器保持最新状态而无需人工干预。"
     },
     "summary": {
         "initial_stars": 22461,

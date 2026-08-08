@@ -6,16 +6,16 @@
         "name": "nohost",
         "html_url": "https:\/\/github.com\/Tencent\/nohost",
         "language": "JavaScript",
-        "description": "NoHost 是腾讯开源的一个 Hosts 文件管理工具，主要用于简化和增强本地域名解析的配置管理。它支持多环境 Hosts 切换、分组管理、快速启用\/禁用规则等功能，适用于开发、测试等需要频繁修改 Hosts 文件的场景，提升调试和开发效率。"
+        "description": "基于 Node.js 的本地代理与抓包调试工具，常用于前端开发环境中的接口 Mock、请求转发和跨域处理。它支持多规则配置，可对 HTTP\/HTTPS 流量进行拦截与修改，方便调试页面、排查线上问题，也适合团队共享代理规则以统一联调环境。腾讯开源，轻量易用，主要面向需要快速搭建本地开发代理或模拟后端响应的前端工程师。"
     },
     "summary": {
         "initial_stars": 1445,
-        "current_stars": 1475,
-        "star_diff": 30,
-        "growth_rate": 2.08,
+        "current_stars": 1476,
+        "star_diff": 31,
+        "growth_rate": 2.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 51
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 52
     },
     "history": [
         {
@@ -374,6 +374,13 @@
             "stars": 1475,
             "forks": 167,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 1476,
+            "forks": 167,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

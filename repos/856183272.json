@@ -6,7 +6,7 @@
         "name": "HivisionIDPhotos-wechat-weapp",
         "html_url": "https:\/\/github.com\/no1xuan\/HivisionIDPhotos-wechat-weapp",
         "language": "Java",
-        "description": "HivisionIDPhotos 是一个提供证件照制作服务的微信小程序，用户可通过该应用快速生成符合多种规格的证件照，支持智能裁剪、背景替换、换装等功能，适用于考试报名、签证、简历等场景，操作简便，提升自助拍摄和编辑体验。"
+        "description": "用于在微信小程序内快速制作标准证件照，用户上传普通照片后，可通过智能抠图自动去除背景，自由更换红、白、蓝等底色，并一键调整为一寸、二寸等常用尺寸规格。整个流程简化了手动修图的繁琐操作，适合求职报名、考试办证等急需证件照的场景。作为HivisionIDPhotos的小程序端实现，通常依赖云端算法完成人像分割和图像处理，前端侧重交互与预览，方便用户随时随地在手机上生成合规照片。"
     },
     "summary": {
         "initial_stars": 398,

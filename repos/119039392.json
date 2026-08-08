@@ -6,7 +6,7 @@
         "name": "WeChatDeveloper",
         "html_url": "https:\/\/github.com\/zoujingli\/WeChatDeveloper",
         "language": "PHP",
-        "description": "WeChatDeveloper 是一个基于 PHP 的微信公众号开发扩展库，主要用于简化微信公众号、小程序、企业微信等接口的调用。它封装了常见的消息处理、用户管理、菜单操作、支付等功能，提供清晰的 API 和易于集成的结构，适合快速开发微信生态相关应用。"
+        "description": "基于ThinkPHP框架的微信开发组件，用于快速集成微信公众号、微信支付、小程序等常见功能。封装了菜单管理、消息回复、素材管理、用户管理、模板消息、微信支付、小程序登录等核心接口，通常适合需要在PHP项目中快速对接微信生态的开发者。通过简洁的调用方式减少重复代码编写，并支持多账号配置，适合中小型项目快速上线微信相关业务。"
     },
     "summary": {
         "initial_stars": 1581,

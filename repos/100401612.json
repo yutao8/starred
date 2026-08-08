@@ -6,16 +6,16 @@
         "name": "loguru",
         "html_url": "https:\/\/github.com\/Delgan\/loguru",
         "language": "Python",
-        "description": "Loguru 是一个轻量级的 Go 语言日志库，旨在提供简单、直观的 API 来实现高效、结构化的日志记录。它支持日志级别控制、颜色输出、文件滚动、上下文信息添加等功能，适用于需要清晰日志追踪和调试的 Go 应用程序，尤其适合中小型项目快速集成。"
+        "description": "loguru 是一个以开箱即用为设计哲学的 Python 日志库，主要解决标准库 logging 配置繁琐、代码冗长的问题。它无需手动初始化 logger 或设置 handler、formatter，导入后即可直接调用，并自动附带时间、级别、文件名等丰富上下文。核心功能包括优雅的异常信息追踪（自动捕获堆栈）、灵活的过滤与格式化规则、支持轮转和压缩输出，以及可控的并发与异步日志写入。通常适合中小型脚本、自动化工具、数据处理管线以及需要快速集成日志系统的开发场景，能极大减少日志模块的样板代码，同时保持生产环境所需的可读性和可扩展性。"
     },
     "summary": {
         "initial_stars": 22008,
-        "current_stars": 24073,
-        "star_diff": 2065,
-        "growth_rate": 9.38,
+        "current_stars": 24071,
+        "star_diff": 2063,
+        "growth_rate": 9.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 24073,
             "forks": 805,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 24071,
+            "forks": 805,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

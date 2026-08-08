@@ -6,16 +6,16 @@
         "name": "rectg",
         "html_url": "https:\/\/github.com\/jackhawks\/rectg",
         "language": "Python",
-        "description": "一个基于Go语言的通用模板生成工具，主要用于根据预定义规则批量生成文本文件，适合自动化创建代码模板、配置文件或文档，支持灵活的变量注入与条件逻辑，提升开发效率。"
+        "description": "用于在 React 应用中集成 Telegram 功能的轻量库，提供消息发送、接收和用户交互的封装，主要解决前端项目快速接入 Telegram 生态的问题。典型场景包括构建聊天界面、自定义机器人前端或嵌入 Telegram 的 Web App，适合熟悉 React 的开发者使用。"
     },
     "summary": {
         "initial_stars": 7783,
-        "current_stars": 9136,
-        "star_diff": 1353,
-        "growth_rate": 17.38,
+        "current_stars": 9139,
+        "star_diff": 1356,
+        "growth_rate": 17.42,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 9136,
             "forks": 531,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 9139,
+            "forks": 531,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

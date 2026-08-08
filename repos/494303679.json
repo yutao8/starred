@@ -6,7 +6,7 @@
         "name": "openvpn-install",
         "html_url": "https:\/\/github.com\/hwdsl2\/openvpn-install",
         "language": "Shell",
-        "description": "用于在 Linux 服务器上快速部署 OpenVPN 和 L2TP\/IPsec VPN 服务的自动化安装脚本，支持多种发行版，简化配置过程，适合需要安全远程访问的场景。"
+        "description": "用于在 Linux 服务器上快速部署 OpenVPN 的自动化脚本，支持主流发行版如 Ubuntu、Debian、CentOS 等。它自动完成安装、配置防火墙、生成服务端证书和管理客户端配置，只需通过菜单式交互选择端口与协议即可完成部署。通常适合个人搭建远程访问 VPN 或小型团队安全接入，无需深入掌握 OpenVPN 细节，即可生成便于分发的客户端配置文件。脚本注重安全默认项并提供卸载与日志查看功能。"
     },
     "summary": {
         "initial_stars": 1456,

@@ -6,7 +6,7 @@
         "name": "telegram_media_downloader",
         "html_url": "https:\/\/github.com\/Dineshkarthik\/telegram_media_downloader",
         "language": "Python",
-        "description": "用于从 Telegram 下载媒体文件的工具，支持在服务器或本地环境中自动下载指定频道或用户中的图片、视频、文档等媒体内容，便于批量保存和管理 Telegram 中的资源。"
+        "description": "一款用于从 Telegram 频道、群组或对话中批量下载媒体文件的工具，支持图片、视频、文档等常见类型，通过 Telegram API 配合用户登录凭证或机器人令牌实现抓取，适合需要保存聊天记录中的照片、视频或文件时使用。它通常以命令行方式运行，可灵活配置下载范围、目标目录和媒体格式，常被用于备份重要聊天内容或归档媒体资源。对于需要自动化整理 Telegram 中大量媒体素材的开发者或普通用户来说，该工具能显著减少手工点击保存的繁琐操作。"
     },
     "summary": {
         "initial_stars": 2329,

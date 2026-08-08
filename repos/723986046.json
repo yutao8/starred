@@ -6,7 +6,7 @@
         "name": "frpc-desktop",
         "html_url": "https:\/\/github.com\/luckjiawei\/frpc-desktop",
         "language": "Vue",
-        "description": "frpc-desktop 是一个用于简化 frpc（Fast Reverse Proxy Client）配置和管理的桌面图形化工具，主要用于便捷地启动、监控和管理内网穿透隧道，适合不熟悉命令行操作的用户快速部署和维护 frp 客户端服务。"
+        "description": "frpc-desktop 为内网穿透工具 frp 提供图形化桌面客户端，主要用于管理 frpc 客户端配置并启动反向代理，适合需要将本地 Web 服务、SSH 等内网资源安全暴露到公网访问的场景。它省去了手动编辑配置文件和记忆命令行参数的麻烦，通过界面即可实现隧道的新增、修改与启停，常用于远程办公、家庭服务器访问或临时演示环境，尤其适合不熟悉命令行的用户快速完成内网穿透设置。"
     },
     "summary": {
         "initial_stars": 5770,

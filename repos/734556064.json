@@ -6,7 +6,7 @@
         "name": "ql_jd_cookie",
         "html_url": "https:\/\/github.com\/yclown\/ql_jd_cookie",
         "language": "C#",
-        "description": "用于生成京东账号的 Cookie，支持青龙面板自动化任务，方便用户快速获取并更新京东的签到、领京豆等操作所需的登录凭证，常用于京东相关优惠活动的自动化脚本。"
+        "description": "用于管理青龙面板中的京东账号 Cookie，帮助用户自动同步、更新或转换京东登录凭证，解决京东 Cookie 频繁过期导致定时脚本失效的问题。通常配合青龙面板的京东签到、领京豆等自动化任务使用，适合需要长期稳定运行京东脚本的用户，减少手动维护 Cookie 的麻烦，提升任务执行成功率。"
     },
     "summary": {
         "initial_stars": 506,

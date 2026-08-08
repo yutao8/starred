@@ -6,7 +6,7 @@
         "name": "PowerWhois",
         "html_url": "https:\/\/github.com\/WenLiCG\/PowerWhois",
         "language": "Go",
-        "description": "用于查询IP地址或域名的WHOIS信息的PowerShell模块，可获取注册人、组织、联系方式及注册时间等数据，便于网络信息侦察与安全分析。"
+        "description": "PowerWhois 是一个面向 PowerShell 环境的 Whois 查询工具，主要用于在终端中直接获取域名的注册商、注册与到期时间、名称服务器等公开注册信息。它省去了访问在线 Whois 页面的步骤，便于系统管理员、安全研究人员和域名持有者快速检查域名状态、排查解析异常或进行批量调查。该工具通常适合集成到 PowerShell 脚本中，实现自动化的域名信息收集与审计，整体设计面向需要轻量、快速完成 Whois 查询的 Windows 命令行场景。"
     },
     "summary": {
         "initial_stars": 165,

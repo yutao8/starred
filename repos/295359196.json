@@ -6,7 +6,7 @@
         "name": "ovpn-admin",
         "html_url": "https:\/\/github.com\/palark\/ovpn-admin",
         "language": "Go",
-        "description": "用于管理和部署 OpenVPN 服务的 Web 管理界面，支持用户权限控制、证书管理、日志监控等功能，便于多用户环境下的 OpenVPN 配置与维护，通常适用于需要简化 VPN 账号分配和网络策略管理的场景。"
+        "description": "为OpenVPN服务器提供基于Web的管理后台，主要帮助运维人员集中管理VPN用户和证书。支持用户账号的创建、禁用与删除，并自动处理证书签发和吊销流程，同时可生成客户端配置文件供下载。通常适合中小型团队或企业内网中需要批量管理VPN接入的场景，能够替代手动执行OpenVPN命令的繁琐操作。该工具一般以轻量级服务方式部署，与现有OpenVPN环境配合使用，降低日常维护成本和误操作风险。"
     },
     "summary": {
         "initial_stars": 1522,

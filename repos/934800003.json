@@ -6,7 +6,7 @@
         "name": "CursorPool_Client",
         "html_url": "https:\/\/github.com\/Cloxl\/CursorPool_Client",
         "language": "TypeScript",
-        "description": "一个用于管理和优化数据库连接使用的客户端工具，主要用于简化数据库连接池的配置与维护，提升服务端应用在高并发场景下的性能与资源利用率，支持灵活的连接复用与释放策略。"
+        "description": "用来管理 Cursor 编辑器多个实例或会话的客户端工具，主要解决同时承担多项编码任务时切换成本高、资源分配不均的问题。它提供统一的会话池入口，支持对 Cursor 会话进行创建、查看、回收和再分配，适合需要并行使用多个 AI 编程会话的开发者，或需要在团队内共享有限 Cursor 资源的场景。项目采用客户端形态，注重轻量和易集成，通常配合服务端或代理层使用，以提升批量编码和自动化流程的效率。"
     },
     "summary": {
         "initial_stars": 498,

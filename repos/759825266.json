@@ -6,7 +6,7 @@
         "name": "openai-gemini",
         "html_url": "https:\/\/github.com\/PublicAffairs\/openai-gemini",
         "language": "JavaScript",
-        "description": "该项目结合OpenAI和Google Gemini模型，提供多AI对话管理功能，支持对话上下文保持、模型对比与统一接口调用，适用于需要同时集成和测试多种大语言模型的开发场景。"
+        "description": "用于在OpenAI与Google Gemini模型服务之间建立兼容层，让原本使用OpenAI接口的程序可以无缝调用Gemini模型，或反向转换。通常适合需要同时使用或迁移不同大模型的开发者，能降低多模型集成的成本，避免重写业务逻辑。具体实现可能包括请求格式转换、鉴权适配等功能，适合在需要灵活切换模型供应商的场景下使用。"
     },
     "summary": {
         "initial_stars": 2219,

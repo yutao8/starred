@@ -6,16 +6,16 @@
         "name": "wireguard-install",
         "html_url": "https:\/\/github.com\/angristan\/wireguard-install",
         "language": "Shell",
-        "description": "用于自动化安装和配置 WireGuard VPN 的脚本工具，支持 Linux 系统快速部署，简化网络隧道和安全通信的搭建过程，适合服务器与客户端间的加密连接需求。"
+        "description": "angristan\/wireguard-install 是一个用于在 Linux 服务器上一键部署 WireGuard VPN 的交互式安装脚本，旨在免去手动编写配置文件和生成密钥的繁琐流程。运行脚本后，它会自动检测系统环境、配置服务端网络参数，并生成可导入客户端的二维码或配置文件，同时提供添加、撤销客户端等管理功能。通常适合需要快速搭建个人私有 VPN 或远程访问内网的场景，兼容主流 Debian、Ubuntu 等发行版，也支持无 systemd 的旧系统。对于不熟悉 WireGuard 原始配置的用户，这款脚本能显著降低部署门槛，只需几步即可获得可用的加密加密通道。"
     },
     "summary": {
         "initial_stars": 9419,
-        "current_stars": 11226,
-        "star_diff": 1807,
-        "growth_rate": 19.18,
+        "current_stars": 11227,
+        "star_diff": 1808,
+        "growth_rate": 19.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 193
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 194
     },
     "history": [
         {
@@ -1368,6 +1368,13 @@
             "stars": 11226,
             "forks": 1663,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 11227,
+            "forks": 1663,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

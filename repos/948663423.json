@@ -6,16 +6,16 @@
         "name": "XianyuAutoAgent",
         "html_url": "https:\/\/github.com\/shaxiu\/XianyuAutoAgent",
         "language": "Python",
-        "description": "XianyuAutoAgent 是一个用于闲鱼平台的自动化操作工具，主要用于商品发布、消息回复、订单管理等任务的自动化处理，帮助用户提升在闲鱼上的运营效率，适用于个人卖家或电商从业者批量管理闲置商品交易。"
+        "description": "该工具主要面向闲鱼二手交易平台的自动化场景，通常用于辅助完成重复性操作，例如自动登录、商品浏览、消息回复或订单处理等流程。它适合个人卖家或小规模运营者用来减轻日常维护负担，提升操作效率，也能用于测试或学习逆向、爬虫及浏览器自动化技术。由于是社区开源项目，具体能力需以仓库说明和最新代码为准，建议在合规前提下使用。"
     },
     "summary": {
         "initial_stars": 2892,
-        "current_stars": 8664,
-        "star_diff": 5772,
-        "growth_rate": 199.59,
+        "current_stars": 8665,
+        "star_diff": 5773,
+        "growth_rate": 199.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 8664,
             "forks": 1545,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 8665,
+            "forks": 1545,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

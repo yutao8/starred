@@ -6,7 +6,7 @@
         "name": "gnvm",
         "html_url": "https:\/\/github.com\/Kenshin\/gnvm",
         "language": "Go",
-        "description": "gnvm是一个用于管理Go语言版本的命令行工具，支持快速切换、安装和删除不同版本的Go，方便开发者在多项目中适配不同的Go版本需求，适用于需要频繁切换Go版本的开发场景。"
+        "description": "用于在Windows系统上管理多个Node.js版本，支持通过命令行安装、切换和卸载不同版本的Node.js，并可配置镜像源以加速下载。适合需要同时维护多个Node项目或验证版本兼容性的开发者，避免手动下载安装包和修改环境变量的繁琐过程。通常作为Windows下nvm的替代工具，以独立可执行文件运行，提供全局默认版本设置和常用版本管理操作，帮助提升开发环境配置效率。"
     },
     "summary": {
         "initial_stars": 684,

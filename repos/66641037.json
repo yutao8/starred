@@ -6,7 +6,7 @@
         "name": "Telethon",
         "html_url": "https:\/\/github.com\/LonamiWebs\/Telethon",
         "language": "Python",
-        "description": "用于创建 Telegram 客户端应用程序的 Python 库，提供与 Telegram API 交互的完整接口，支持消息收发、用户管理、文件传输等功能，适用于自动化机器人、消息监控和自定义客户端开发，基于 MTProto 协议实现高效安全的通信。"
+        "description": "Telethon 是用于 Python 的 MTProto 库，可直接与 Telegram API 交互，支持用户账户和机器人。它适合开发自动化脚本、消息转发、群组管理、媒体下载等工具，也可用于构建自定义 Telegram 客户端。作为异步库，它能高效处理大量请求和实时更新。通常用于需要比 Bot API 更底层或更灵活控制的场景，例如个人助理或数据采集。"
     },
     "summary": {
         "initial_stars": 10987,

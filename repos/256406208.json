@@ -6,7 +6,7 @@
         "name": "wireguard-ui",
         "html_url": "https:\/\/github.com\/ngoduykhanh\/wireguard-ui",
         "language": "Go",
-        "description": "用于管理和配置 WireGuard VPN 的 Web 界面工具，简化隧道和对等点的创建与维护，适合需要图形化操作的用户在 Linux 服务器上部署和监控 WireGuard 连接。"
+        "description": "WireGuard UI 是一个用于管理 WireGuard VPN 的图形化 Web 界面，帮助用户通过浏览器直观地创建和管理隧道配置。它主要解决命令行操作繁琐的问题，支持生成配置文件、添加或删除对端、查看连接状态等常用运维操作。通常适合个人或小型团队自建 VPN 时使用，部署简单，能够降低配置出错概率。该工具围绕 WireGuard 的配置与运行逻辑提供更友好的交互方式，让不熟悉命令行的用户也能轻松维护虚拟专用网络。"
     },
     "summary": {
         "initial_stars": 4731,

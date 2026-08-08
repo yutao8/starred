@@ -6,7 +6,7 @@
         "name": "js-cookie-monitor-debugger-hook",
         "html_url": "https:\/\/github.com\/JSREI\/js-cookie-monitor-debugger-hook",
         "language": "TypeScript",
-        "description": "用于调试和监控 JavaScript 中的 cookie 操作，通过钩子拦截 cookie 的读写行为，帮助开发者追踪第三方脚本对 cookie 的修改，适用于前端调试和安全审计场景。"
+        "description": "用于在浏览器环境中监控和调试 Cookie 的读写操作。该工具通过钩子机制拦截 Cookie 的赋值与获取，将变化记录下来，方便开发者排查 Cookie 被意外修改、登录态异常或第三方脚本干扰等问题。适合前端调试、安全分析以及理解网页会话管理行为时使用。通常以用户脚本或调试工具形式注入页面，无需修改原始业务代码。"
     },
     "summary": {
         "initial_stars": 701,

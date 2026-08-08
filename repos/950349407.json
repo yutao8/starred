@@ -6,7 +6,7 @@
         "name": "AI_JS_DEBUGGER",
         "html_url": "https:\/\/github.com\/Valerian7\/AI_JS_DEBUGGER",
         "language": "Python",
-        "description": "一个基于JavaScript的AI调试工具，用于可视化和监控AI模型的推理过程，提供实时变量跟踪、执行流程分析和错误诊断功能，帮助开发者高效调试AI相关算法在浏览器或Node.js环境中的运行状态。"
+        "description": "面向 JavaScript 开发者的 AI 辅助调试工具，主要用于自动分析代码运行时的报错与异常，结合常见错误模式和上下文信息判断问题根源，并给出可操作的修复建议。通常以编辑器插件或命令行工具的形式集成到开发流程中，适合前端页面、Node.js 服务端以及各种基于 JavaScript 的自动化脚本。能帮助开发者快速定位异步逻辑、类型转换和第三方依赖引发的疑难错误，减少手动排查堆栈和反复试错的成本，提升日常调试效率。"
     },
     "summary": {
         "initial_stars": 104,

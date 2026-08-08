@@ -6,16 +6,16 @@
         "name": "tailscale",
         "html_url": "https:\/\/github.com\/tailscale\/tailscale",
         "language": "Go",
-        "description": "Tailscale 用于创建安全的私有网络，让设备和服务器通过加密连接轻松互通，无需手动配置防火墙或公网IP，适用于远程访问、服务发现和跨云网络互联，基于 WireGuard 实现，支持多种平台和自动化运维。"
+        "description": "Tailscale 是一款基于 WireGuard 协议的现代 VPN 工具，用于在任何设备间快速搭建安全加密的私有网络。它利用自动 NAT 穿透和密钥管理，使电脑、手机、服务器等跨地域设备像处于同一局域网内直接通信，无需手动配置端口转发或公网 IP。典型场景包括远程访问家中或公司内部资源、云服务器组网、多人协作共享设备，适合需要简单可靠安全直连的团队和个人，替代传统 VPN 的复杂配置。"
     },
     "summary": {
         "initial_stars": 23305,
-        "current_stars": 34947,
-        "star_diff": 11642,
-        "growth_rate": 49.95,
+        "current_stars": 34951,
+        "star_diff": 11646,
+        "growth_rate": 49.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 34947,
             "forks": 3046,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 34951,
+            "forks": 3047,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

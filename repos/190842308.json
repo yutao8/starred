@@ -6,7 +6,7 @@
         "name": "JS-Encoder",
         "html_url": "https:\/\/github.com\/JS-Encoder\/JS-Encoder",
         "language": "TypeScript",
-        "description": "JS-Encoder 是一个用于 JavaScript 代码混淆和编码的工具，主要用于将源代码转换为难以阅读的格式以保护前端逻辑，支持多种编码方式如 Base64、Unicode 等，常用于前端代码安全防护和反爬策略。"
+        "description": "JS-Encoder 是一个面向 JavaScript 生态的编码器工具库，主要用于将字符串、对象或二进制数据在多种常见编码格式间相互转换，例如 Base64、URL 编码、十六进制以及 Unicode 转义等。它提供简洁的 API 调用，适合在前端页面或 Node.js 服务端中处理数据传输、存储和展示时的格式规范化需求，帮助开发者快速解决编码不一致或特殊字符转义问题。通常适合需要轻量级、无依赖编码方案的场景，也可用于构建工具或数据处理管道中作为基础组件。"
     },
     "summary": {
         "initial_stars": 259,

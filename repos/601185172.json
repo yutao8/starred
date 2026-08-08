@@ -6,7 +6,7 @@
         "name": "telegram_media_downloader",
         "html_url": "https:\/\/github.com\/tangyoha\/telegram_media_downloader",
         "language": "JavaScript",
-        "description": "用于从 Telegram 群组或频道批量下载媒体文件的工具，支持自动识别消息中的图片、视频、文档等并按类型分类保存，适用于个人媒体备份或资源收集，可通过配置会话参数实现高效断点续传。"
+        "description": "一个用于批量下载 Telegram 频道和群组中媒体文件的工具，通常适合需要备份聊天记录中的图片、视频、文档等内容的用户，或者希望将特定 Telegram 内容同步到本地进行归档的场景。其核心功能是根据给定的会话或链接，自动抓取并保存媒体资源，支持自定义下载范围与过滤条件，适合在个人或开源社区中使用。"
     },
     "summary": {
         "initial_stars": 3527,

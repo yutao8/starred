@@ -6,7 +6,7 @@
         "name": "open-ip-kvm",
         "html_url": "https:\/\/github.com\/Nihiue\/open-ip-kvm",
         "language": "JavaScript",
-        "description": "一个开源的IP-KVM解决方案，通过网页界面实现远程服务器的开机、关机、BIOS级访问和操作系统安装等操作，适用于远程运维管理，支持跨平台使用且无需安装客户端。"
+        "description": "开源的IP KVM解决方案，主要用于通过网络远程管理物理计算机或服务器。它提供键盘、鼠标和视频信号的远程传输，使运维人员能在无操作系统甚至BIOS阶段进行本地化操作，适合无人值守机房、设备调试和故障恢复等场景。项目通常基于低成本硬件如树莓派构建，用于替代昂贵的商业KVM设备，是软硬件结合的工具。"
     },
     "summary": {
         "initial_stars": 493,

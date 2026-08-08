@@ -6,16 +6,16 @@
         "name": "cursor-vip",
         "html_url": "https:\/\/github.com\/kingparks\/cursor-vip",
         "language": "Go",
-        "description": "提供 Cursor 编辑器的高级功能解锁方案，主要用于激活 VIP 特性以获得增强的代码补全、编辑效率工具及个性化设置，适合需要提升开发体验的用户使用，但可能涉及违反软件许可协议的行为，建议通过官方渠道获取正版服务。"
+        "description": "用于为 AI 代码编辑器 Cursor 启用 VIP 功能的第三方辅助工具，通过本地配置修改或授权校验等方式让免费账号获得部分付费权益，适合无法订阅或希望先体验高级功能的开发者。通常以脚本形式提供，需要用户手动执行并跟进版本兼容性。此类工具非官方性质，使用时可能涉及条款风险，一般建议在个人学习或测试环境中使用，并留意后续更新以保持可用性。"
     },
     "summary": {
         "initial_stars": 3987,
-        "current_stars": 4776,
-        "star_diff": 789,
-        "growth_rate": 19.79,
+        "current_stars": 4777,
+        "star_diff": 790,
+        "growth_rate": 19.81,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 4776,
             "forks": 705,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 4777,
+            "forks": 705,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

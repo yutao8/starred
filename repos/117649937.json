@@ -6,7 +6,7 @@
         "name": "laravel-s",
         "html_url": "https:\/\/github.com\/hhxsv5\/laravel-s",
         "language": "PHP",
-        "description": "基于 Swoole 扩展为 Laravel\/Lumen 框架提供高性能 HTTP 服务支持，通过常驻内存和协程化提升应用吞吐能力，主要用于优化高并发场景下的响应速度与资源利用率。"
+        "description": "用于在 Swoole 扩展上运行 Laravel 和 Lumen 框架，将应用常驻内存以消除框架初始化开销，显著提升接口响应速度和并发处理能力。它提供高性能 HTTP 服务器，支持 WebSocket、异步任务队列、定时任务以及协程化数据库和缓存操作，适合需要应对高流量、低延迟的 PHP 服务端场景。通过一键集成和命令行管理，可替代传统 PHP-FPM 部署方式，同时保留 Laravel 原有开发体验，便于在不改变业务代码的情况下优化线上性能。"
     },
     "summary": {
         "initial_stars": 3874,

@@ -6,16 +6,16 @@
         "name": "puter",
         "html_url": "https:\/\/github.com\/HeyPuter\/puter",
         "language": "JavaScript",
-        "description": "一个开源的网页操作系统，提供类似桌面环境的在线交互体验，支持多应用并行、文件管理、终端操作和协作功能，可通过浏览器直接运行，适合远程办公、教育和开发场景使用。"
+        "description": "用于在浏览器中构建并运行完整的桌面操作系统环境，提供类Windows的应用窗口、文件管理器和终端等体验。支持多个应用同时运行，数据保存在云端，可随时通过任意设备访问。作为开源且可自托管的项目，适合个人搭建私人云电脑、团队共享远程桌面，或作为Web端生产力工具的平台，解决了传统桌面系统受限于本地硬件和跨设备协作不便的问题。"
     },
     "summary": {
         "initial_stars": 33588,
-        "current_stars": 43003,
-        "star_diff": 9415,
+        "current_stars": 43004,
+        "star_diff": 9416,
         "growth_rate": 28.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 43003,
             "forks": 3984,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 43004,
+            "forks": 3984,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

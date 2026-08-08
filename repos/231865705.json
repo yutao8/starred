@@ -6,16 +6,16 @@
         "name": "ChinaTextbook",
         "html_url": "https:\/\/github.com\/TapXWorld\/ChinaTextbook",
         "language": "Roff",
-        "description": "该项目主要用于收集和整理中国各教育阶段的教材内容，涵盖基础教育至高等教育的多个学科，旨在提供标准化、结构化的中文教材文本资源，便于教育研究、课程开发与技术应用如自然语言处理和人工智能训练等场景使用，支持开源协作与共享。"
+        "description": "收集并分类中国国内教育各阶段教材电子版的仓库，以PDF等常见格式保存，按年级、科目和出版版本整理目录，方便快速定位和下载。主要面向学生、教师及自学者，解决纸质教材获取难、携带重的问题，也便于电子化备课和离线阅读。资源覆盖主要版本和学科，适合需要批量查阅或对照不同版本课本的场景，同时保持目录结构清晰，降低使用门槛。"
     },
     "summary": {
         "initial_stars": 41346,
-        "current_stars": 77770,
-        "star_diff": 36424,
-        "growth_rate": 88.1,
+        "current_stars": 77880,
+        "star_diff": 36534,
+        "growth_rate": 88.36,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 06:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 77770,
             "forks": 17555,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 06:00",
+            "timestamp": 1786226400,
+            "stars": 77880,
+            "forks": 17615,
+            "file": "dist\/2026080906\/starList.public.json"
         }
     ]
 }

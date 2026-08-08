@@ -6,7 +6,7 @@
         "name": "VBA-JSON",
         "html_url": "https:\/\/github.com\/VBA-tools\/VBA-JSON",
         "language": "Visual Basic",
-        "description": "VBA-JSON 是一个用于在 VBA（Visual Basic for Applications）中解析和生成 JSON 数据的开源工具库，主要用于简化 Excel、Access 等 Office 应用程序与 JSON 格式数据之间的交互。它提供轻量级的 JSON 解析器和序列化功能，使用户可以在不依赖外部库或网络请求的情况下，直接在 VBA 项目中处理复杂的 JSON 字符串，适合用于自动化数据处理、API 调用响应解析等场景。"
+        "description": "为 VBA 环境提供完整的 JSON 解析与生成能力，解决 VBA 原生不支持 JSON 数据格式的问题。它可以将 JSON 字符串转换为 VBA 的字典和集合对象，便于在代码中直接读取嵌套数据，也能将字典、集合及自定义对象序列化为 JSON 字符串，用于接口请求或数据导出。该库常被用于 Excel、Access 等 Office 应用中对接 Web API、处理接口返回数据、读取配置文件或实现数据交换场景。使用者只需引入该模块即可调用，适合需要在 VBA 项目中轻量处理 JSON 的开发者。"
     },
     "summary": {
         "initial_stars": 1975,
