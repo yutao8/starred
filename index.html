@@ -1224,10 +1224,7 @@
                     globalLoading.value = true;
                     initTheme();
                     try {
-                        let res = await fetch('./starList.public.json');
-                        if (!res.ok) {
-                            res = await fetch('./starList.json');
-                        }
+                        const res = await fetch('./starList.public.json');
                         if (!res.ok) throw new Error('无法加载 starList 数据');
                         rawProjects = await res.json();
                         rawProjects.forEach(project => {
