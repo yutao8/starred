@@ -72,6 +72,15 @@ $envBool = static function (string $key, bool $default) use ($env): bool {
 	return filter_var($value, FILTER_VALIDATE_BOOLEAN, FILTER_NULL_ON_FAILURE) ?? $default;
 };
 
+$envModels = static function (string $key, array $default) use ($env): array {
+	$value = $env($key, '');
+	if ($value === '') {
+		return $default;
+	}
+
+	return array_values(array_filter(array_map('trim', explode(',', $value))));
+};
+
 $requestConcurrency = max(1, $envInt('REQUEST_CONCURRENCY', 10));
 
 return [
@@ -79,24 +88,38 @@ return [
 	'GH_TOKEN' => $env('GH_TOKEN', ''),
 	'GPT_PROVIDERS' => [
 		[
+			'name' => 'deepseek',
+			'url' => $env('DEEPSEEK_URL', 'https://api.deepseek.com/chat/completions'),
+			'key' => $env('DEEPSEEK_KEY', ''),
+			'models' => $envModels('DEEPSEEK_MODELS', [
+				'deepseek-v4-flash',
+			]),
+		],
+		[
 			'name' => 'openrouter',
 			'url' => $env('OPENROUTER_URL', 'https://openrouter.ai/api/v1/chat/completions'),
 			'key' => $env('OPENROUTER_KEY', ''),
-			'models' => [
+			'models' => $envModels('OPENROUTER_MODELS', [
 				'openai/gpt-4o-mini',
 				'qwen/qwen-plus-2025-07-28',
 				'deepseek/deepseek-chat-v3.1',
 				'openai/gpt-4.1-nano',
 				'qwen/qwen3-32b',
-			],
+			]),
 		],
 		[
-			'name' => 'deepseek',
-			'url' => $env('DEEPSEEK_URL', 'https://api.deepseek.com/chat/completions'),
-			'key' => $env('DEEPSEEK_API_KEY', ''),
-			'models' => [
-				'deepseek-v4-flash',
-			],
+			'name' => 'openai',
+			'url' => $env('OPENAI_URL', 'https://api.openai.com/v1/chat/completions'),
+			'key' => $env('OPENAI_KEY', ''),
+			'models' => $envModels('OPENAI_MODELS', [
+				'gpt-5.6-luna',
+			]),
+		],
+		[
+			'name' => 'custom',
+			'url' => $env('CUSTOM_URL', ''),
+			'key' => $env('CUSTOM_KEY', ''),
+			'models' => $envModels('CUSTOM_MODELS', []),
 		],
 	],
 	'GPT_PROMPT' => "你是一个专业的 GitHub 项目摘要生成器。用户会提供一个 GitHub 仓库名称或地址，请为该仓库生成一段中文纯文本简介。要求：

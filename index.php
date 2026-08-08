@@ -803,6 +803,11 @@ class GitHubStarred
 		$key = (string)($provider['key'] ?? '');
 		$models = $provider['models'] ?? [];
 
+		// 跳过未配置 url 或 key 的渠道
+		if ($url === '' || $key === '') {
+			return [];
+		}
+
 		if (is_string($models)) {
 			$models = explode(',', $models);
 		}
