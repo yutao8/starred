@@ -28,15 +28,15 @@
   该项目主要用于构建新一代API服务，聚焦于提升系统间通信效率与数据处理能力，通常适用于需要高并发、低延迟场景的分布式系统集成，帮助开发者简化后端服务对接与业务逻辑封装。
 - [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ★41810 [`antigravity`] [`claude-code`] [`cluade`] [`codex`] [`gemini`] [`openai`]  
   CLIProxyAPI 是一个用于简化命令行工具与 API 服务之间交互的代理接口，主要用于将 CLI 请求转发为 HTTP 调用，支持鉴权、参数映射和响应格式化，适合集成第三方服务或构建自动化工作流。
-- [juanfont/headscale](https://github.com/juanfont/headscale) ★41689 [`tailscale`] [`tailscale-control-server`] [`tailscale-server`] [`wireguard`]  
+- [juanfont/headscale](https://github.com/juanfont/headscale) ★41691 [`tailscale`] [`tailscale-control-server`] [`tailscale-server`] [`wireguard`]  
   headscale是一个开源的、自托管的Tailscale控制服务器，主要用于创建和管理私有网络，支持Zero Trust网络架构，允许用户在没有公网IP的情况下安全地连接设备，适合个人、企业搭建内网穿透服务，提供与Tailscale兼容的API接口，便于集成到现有基础设施中。
 - [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) ★35538 [`file-browser`] [`file-manager`] [`file-sharing`] [`go`] [`material-design`] [`self-hosted`] [`vue`]  
   提供基于网页的文件管理功能，允许用户通过浏览器查看、上传、下载、删除和管理服务器上的文件，支持用户权限控制、多用户隔离和简单部署，通常用于轻量级文件共享或个人网盘场景。
-- [schollz/croc](https://github.com/schollz/croc) ★35532 [`data-transfer`] [`file-sharing`] [`golang`] [`pake`] [`peer-to-peer`] [`tcp`] [`transfer`]  
+- [schollz/croc](https://github.com/schollz/croc) ★35533 [`data-transfer`] [`file-sharing`] [`golang`] [`pake`] [`peer-to-peer`] [`tcp`] [`transfer`]  
   croc 是一个命令行工具，用于在两台计算机之间轻松、安全地传输文件。它通过一个中继服务器建立直接连接，支持端到端加密，允许用户仅通过简单的口令或生成的代码实现跨平台文件共享，适用于快速发送文件而无需配置复杂的网络环境。
 - [ehang-io/nps](https://github.com/ehang-io/nps) ★34130 [`dns`] [`firewall`] [`go`] [`gzip`] [`http`] [`https`] [`nat`] [`nps`] [`snnapy`] [`socks`] [`socks5`] [`ssh`] [`tcp`] [`tunnel`] [`udp`]  
   nps是一款轻量级、高性能的内网穿透代理服务器，支持tcp、udp、http、https等协议，主要用于将内网服务映射到公网访问，适合远程办公、调试本地项目、搭建私有云服务等场景，具有配置简单、传输高效、安全性强等特点，适用于个人开发者及企业级应用。
-- [tailscale/tailscale](https://github.com/tailscale/tailscale) ★33958 [`2fa`] [`oauth`] [`sso`] [`tailscale`] [`vpn`] [`wireguard`]  
+- [tailscale/tailscale](https://github.com/tailscale/tailscale) ★33959 [`2fa`] [`oauth`] [`sso`] [`tailscale`] [`vpn`] [`wireguard`]  
   Tailscale 用于创建安全的私有网络，让设备和服务器通过加密连接轻松互通，无需手动配置防火墙或公网IP，适用于远程访问、服务发现和跨云网络互联，基于 WireGuard 实现，支持多种平台和自动化运维。
 - [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) ★32083 [`2api`] [`antigravity2api`] [`cc2api`] [`claude`] [`claude-code`] [`codex`] [`crs`] [`crs2`] [`gemini`]  
   sub2api 是一个将订阅链接转换为 API 接口的工具，主要用于将网络订阅服务中的资源列表转换为可通过 HTTP 请求访问的 API 接口，方便用户在自定义应用或脚本中动态获取和管理订阅内容，适用于需要自动化处理订阅源的场景。

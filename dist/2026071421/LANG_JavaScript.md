@@ -1,6 +1,6 @@
 # JavaScript 仓库
 
-- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★89114 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★89115 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
   Uptime Kuma 是一个开源的监控工具，主要用于跟踪网站和服务器的运行状态，支持 HTTP、HTTPS 和 TCP 等多种协议的 uptime 监测，提供可视化仪表板、状态页面和多种通知方式，适合个人和团队使用。
 - [mozilla/pdf.js](https://github.com/mozilla/pdf.js) ★53562  
   用于在网页中直接渲染 PDF 文件的 JavaScript 库，无需依赖外部插件，兼容多种浏览器，支持文本选择、搜索和表单功能，通常用于构建在线文档查看器。
@@ -22,7 +22,7 @@
   docsify 是一个动态生成文档网站的工具，无需构建过程即可将 Markdown 文件解析为静态站点，适用于快速搭建项目文档、API 说明和技术笔记，支持主题定制、插件扩展和服务器部署。
 - [parallax/jsPDF](https://github.com/parallax/jsPDF) ★31240 [`hacktoberfest`]  
   用于生成 PDF 文档的 JavaScript 库，支持在浏览器端通过 HTML 内容创建、编辑和下载 PDF，常用于导出页面内容、生成报表等前端场景，具备添加文本、图像、形状及自定义样式的功能，也可结合 HTML2Canvas 实现网页截图式导出。
-- [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) ★30663 [`ai`] [`chat`] [`llm`]  
+- [SillyTavern/SillyTavern](https://github.com/SillyTavern/SillyTavern) ★30664 [`ai`] [`chat`] [`llm`]  
   SillyTavern 是一个基于 Web 的角色扮演聊天界面，主要用于与 AI 模型进行互动对话。它支持自定义角色、世界设定、记忆管理以及情感状态，适合搭建本地化、个性化的 AI 聊天和剧情推进环境，通常与本地模型或后端 AI 服务配合使用。
 - [layui/layui](https://github.com/layui/layui) ★30570 [`component-library`] [`css`] [`html`] [`javascript`] [`layui`] [`ui-kit`] [`ui-library`]  
   Layui 是一款轻量级的前端 UI 框架，主要用于构建简洁、响应式的网页界面，提供丰富的 UI 组件如表单、表格、弹窗、导航等，适合后端开发者快速搭建 Web 页面，基于原生 HTML、CSS、JavaScript 实现，兼容主流浏览器，易于上手且无需依赖其他框架。
@@ -62,7 +62,7 @@
   iCSS 是一个专注于 CSS 变量与运行时样式管理的轻量级库，通过动态控制 CSS 自定义属性实现主题切换、样式注入和运行时样式更新，简化复杂应用中的视觉层逻辑控制，适合需要高度动态化样式的前端项目集成。
 - [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) ★20602 [`component`] [`drag-and-drop`] [`vue`]  
   基于 SortableJS 的 Vue 组件，实现列表的拖拽排序与跨列表拖拽交互，支持 Vue 2 和 Vue 3，适用于需要可视化重新排序或元素移动的场景，如任务看板、表单排序、图层排列等。
-- [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) ★20561 [`chrome`] [`chrome-extension`] [`firefox`] [`firefox-extension`] [`javascript`] [`jquery`] [`m3u8-downloader`] [`video-downloader`]  
+- [xifangczy/cat-catch](https://github.com/xifangczy/cat-catch) ★20562 [`chrome`] [`chrome-extension`] [`firefox`] [`firefox-extension`] [`javascript`] [`jquery`] [`m3u8-downloader`] [`video-downloader`]  
   一个基于网页的猫咪抓取模拟游戏，玩家通过点击或互动控制角色捕捉猫咪，通常用于趣味性前端交互演示或小游戏开发学习，结合HTML、CSS和JavaScript实现动态效果与用户操作反馈。
 - [SnapDrop/snapdrop](https://github.com/SnapDrop/snapdrop) ★19711 [`pwa`] [`snapdrop`] [`webrtc`]  
   Snapdrop 是一个基于 Web 的局域网文件共享工具，无需安装应用即可在设备间快速传输文件。它利用 WebRTC 技术实现端对端加密传输，支持跨平台使用，适用于手机、电脑等多设备间的即时文件分享，所有数据直接在客户端间传输，不经过服务器，保障隐私安全。

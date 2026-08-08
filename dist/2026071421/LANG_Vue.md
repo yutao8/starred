@@ -2,7 +2,7 @@
 
 - [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) ★90248 [`admin`] [`admin-dashboard`] [`admin-template`] [`axios`] [`dashboard`] [`desktop`] [`element`] [`element-ui`] [`i18n`] [`management-system`] [`mock`] [`tinymce`] [`vue`] [`vue-admin`] [`vue-cli`] [`vuex`] [`webpack`] [`webpack4`] [`xlsx`]  
   基于Vue.js和Element UI的中后台前端解决方案，提供权限管理、路由控制、动态菜单等开箱即用功能，主要用于快速搭建企业级管理后台系统，集成常用业务组件与最佳实践。
-- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) ★39797 [`converter`] [`developer-productivity`] [`developer-tools`] [`frontend`] [`javascript`] [`productivity`] [`tool`] [`tools`] [`typescript`] [`vuejs`] [`website`]  
+- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) ★39798 [`converter`] [`developer-productivity`] [`developer-tools`] [`frontend`] [`javascript`] [`productivity`] [`tool`] [`tools`] [`typescript`] [`vuejs`] [`website`]  
   提供一系列实用的在线工具集合，主要用于文本处理、编码转换、密码学操作、网络测试等日常开发和运维任务，支持多种常见格式的转换与分析，适合开发者快速调试和验证技术需求。
 - [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) ★32912 [`admin-template`] [`ant-design`] [`element-plus`] [`monorepo`] [`naive-ui`] [`shadcn-ui`] [`tsx`] [`typescript`] [`vben`] [`vite`] [`vite-template`] [`vue-router`] [`vue3`] [`vuex`]  
   基于 Vue 3 和 Vite 构建的企业级中后台管理系统解决方案，提供完善的权限控制、动态路由、多语言支持及丰富的组件库，主要用于快速搭建功能复杂、界面美观的管理界面，适合需要高可维护性和扩展性的中大型项目使用。

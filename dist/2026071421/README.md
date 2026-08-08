@@ -2,7 +2,7 @@
 
 - **编程语言种类：** 57
 - **仓库总数：** 1957
-- **最后更新时间：** 2026-07-14 21:20:30
+- **最后更新时间：** 2026-07-14 21:23:17
 
 [**→ 查看所有仓库**](dist/2026071421/ALL.md)  
 [**→ 部署文档**](DEPLOY.md)
@@ -19,9 +19,9 @@
   relayAPI 是一个用于简化 API 请求转发与代理的 Node.js 服务，主要用于前后端分离开发中解决跨域问题，支持请求拦截、参数修改、本地模拟数据等功能，便于调试和提升开发效率。
 - [CookSleep/gpt_image_playground](https://github.com/CookSleep/gpt_image_playground) ★3010 [`gpt-image`] [`image-editing`] [`image-generation`] [`openai`] [`react`] [`tailwindcss`] [`typescript`] [`vite`]  
   一个基于GPT和图像生成技术的交互式实验平台，主要用于结合文本理解与图像生成模型实现创意可视化、图像编辑和多模态内容探索，适合开发者和研究人员测试AIGC在图文任务中的应用效果。
-- [mattpocock/skills](https://github.com/mattpocock/skills) ★169490  
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★169495  
   该项目主要用于展示和分享 TypeScript 相关技能与实战经验，通过代码示例帮助开发者提升类型体操、泛型编程及类型推导等高级 TypeScript 技术的应用能力。
-- [anbeime/skill](https://github.com/anbeime/skill) ★3632 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
+- [anbeime/skill](https://github.com/anbeime/skill) ★3633 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
   一个基于 Vue.js 的个人技能展示网页模板，主要用于前端开发者或设计师展示技术栈、项目经验和专业能力，支持自定义主题和响应式布局，开箱即用，适合快速搭建个性化简历或作品集页面。
 - [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) ★28066 [`agent-skills`] [`ai-agents`] [`antigravity-skills`] [`awesome`] [`awesome-list`] [`awesome-lists`] [`claude-code`] [`claude-code-skills`] [`claude-skills`] [`codex-skills`] [`cursor-skills`] [`gemini-skills`] [`opencode-skills`] [`skills`]  
   一个精选的智能体（Agent）技能集合库，主要用于展示和分享各类基于大模型的自动化代理能力，涵盖任务规划、工具调用、记忆管理等功能，适合开发可自主决策的AI代理系统。
@@ -110,7 +110,7 @@
 <a id="lang-batchfile"></a>
 ## Batchfile
 
-- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ★183112 [`activator`] [`hwid`] [`kms`] [`kms38`] [`massgrave`] [`massgravel`] [`microsoft`] [`microsoft365`] [`office`] [`office365`] [`ohook`] [`powershell`] [`tsforge`] [`windows`] [`windows-10`] [`windows-11`]  
+- [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) ★183113 [`activator`] [`hwid`] [`kms`] [`kms38`] [`massgrave`] [`massgravel`] [`microsoft`] [`microsoft365`] [`office`] [`office365`] [`ohook`] [`powershell`] [`tsforge`] [`windows`] [`windows-10`] [`windows-11`]  
   用于激活微软产品的开源脚本工具，支持Windows和Office的KMS激活，通过自动化部署KMS服务实现批量激活，适用于企业环境或个人用户快速完成系统和办公软件授权，无需手动配置激活服务器。
 - [Atlas-OS/Atlas](https://github.com/Atlas-OS/Atlas) ★21062 [`ame-wizard`] [`atlas`] [`atlasos`] [`debloat`] [`fps`] [`gaming`] [`latency`] [`open-source`] [`opensource`] [`performance`] [`privacy`] [`security`] [`tweaks`] [`windows`]  
   一个轻量级操作系统内核，主要用于教育和研究目的，提供基础的进程管理、内存管理和设备驱动框架，支持x86架构，适合学习操作系统原理和开发实践。
@@ -136,9 +136,9 @@
 <a id="lang-c"></a>
 ## C
 
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145697 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★145698 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
   通过USB或网络将Android设备屏幕投射到电脑并实现鼠标键盘控制，无需ROOT，支持视频编码、剪贴板同步和文件拖拽安装，常用于演示、测试或操作大屏化。
-- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★136588 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★136589 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
   PowerToys 是一套面向高级用户的实用工具集，旨在增强 Windows 操作系统的生产力与自定义能力，提供诸如窗口布局管理、快捷键自定义、文件预览、颜色拾取、批量重命名等功能，帮助用户更高效地操作和定制系统体验。
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) ★78014 [`arm64`] [`auto-install`] [`bootable-usb`] [`bsd`] [`chromeos`] [`iso-files`] [`legacy`] [`linux`] [`multiboot`] [`persistence`] [`secure-boot`] [`uefi`] [`unattended`] [`unix`] [`usb`] [`windows`] [`x86`] [`x86-64`]  
   Ventoy 是一个开源工具，用于创建可启动的U盘，支持直接拷贝ISO/WIM/IMG/VHD(x)/EFI等镜像文件到U盘并直接启动，无需反复格式化，兼容 Legacy BIOS 和 UEFI 模式，简化多系统安装和维护流程。
@@ -356,7 +356,7 @@
 <a id="lang-html"></a>
 ## HTML
 
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★129114 [`awesome-list`] [`free-for-developers`]  
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★129115 [`awesome-list`] [`free-for-developers`]  
   提供一系列对开发者和小型企业完全免费的软件和服务，涵盖开发工具、监控、CI/CD、API 服务等多个领域，旨在帮助个人开发者和初创团队降低技术成本，通过精心筛选的高质量免费资源提升开发效率和项目能力。
 - [vernesong/OpenClash](https://github.com/vernesong/OpenClash) ★26689 [`clash`] [`luci`] [`mihomo`] [`openclash`] [`openwrt`] [`shadowsocks`] [`snell`] [`v2ray`] [`vmess`]  
   OpenClash 是一个基于 Clash 内核的开源代理工具，主要用于 OpenWrt 路由器系统，提供强大的广告过滤和流量管理功能，支持多种代理协议和灵活的规则配置，适合需要精细化网络控制的用户。
@@ -382,7 +382,7 @@
 <a id="lang-java"></a>
 ## Java
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128491 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★128492 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
   hello-algo 是一个专为数据结构与算法学习设计的教学项目，主要用于配合《Hello 算法》在线书，提供清晰易懂的图解和代码示例。该项目以 Python 为主要实现语言，覆盖数组、链表、栈、队列到排序、递归、动态规划等核心算法内容，结构清晰，适合初学者系统学习或开发者复习巩固基础。每章包含可视化图示和可运行代码，帮助深入理解算法原理与执行过程。
 - [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★87067 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
   用于操作和转换PDF文件的Web应用程序，支持多文档合并、拆分、格式转换等常见处理功能，通常部署为本地或私有化服务以保障文件安全。
@@ -408,7 +408,7 @@
 <a id="lang-javascript"></a>
 ## JavaScript
 
-- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★89114 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
+- [louislam/uptime-kuma](https://github.com/louislam/uptime-kuma) ★89115 [`docker`] [`monitor`] [`monitoring`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`uptime`] [`uptime-monitoring`] [`webapp`] [`websocket`]  
   Uptime Kuma 是一个开源的监控工具，主要用于跟踪网站和服务器的运行状态，支持 HTTP、HTTPS 和 TCP 等多种协议的 uptime 监测，提供可视化仪表板、状态页面和多种通知方式，适合个人和团队使用。
 - [mozilla/pdf.js](https://github.com/mozilla/pdf.js) ★53562  
   用于在网页中直接渲染 PDF 文件的 JavaScript 库，无需依赖外部插件，兼容多种浏览器，支持文本选择、搜索和表单功能，通常用于构建在线文档查看器。
@@ -536,7 +536,7 @@
   该项目整理了大量可用于ChatGPT的中文提示词（prompts），涵盖写作、编程、对话、翻译等多个应用场景，帮助用户更好地发挥语言模型的潜力，提升交互效率与输出质量，适用于需要中文任务引导的各类AI对话场景。
 - [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex) ★46080 [`learn-regex`] [`regex`] [`regular-expression`]  
   ziishaned/learn-regex 是一个帮助用户学习正则表达式的开源项目，通过简洁的实例和逐步讲解，涵盖匹配、捕获、替换等核心概念，适合初学者快速掌握正则表达式在文本处理中的实际应用。
-- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ★41830 [`chatgpt`] [`llms`] [`pyqt`] [`wechat`]  
+- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ★41829 [`chatgpt`] [`llms`] [`pyqt`] [`wechat`]  
   用于解析和导出微信聊天记录的开源工具，支持将聊天记录转换为多种格式（如文本、HTML、CSV），方便用户进行数据分析与存档，适用于个人聊天记录备份与取证场景。
 - [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) ★36301 [`angular`] [`bun`] [`csv`] [`data`] [`database`] [`deno`] [`excel`] [`grid`] [`html`] [`html5`] [`ios`] [`javascript`] [`json`] [`nodejs`] [`react`] [`spreadsheet`] [`table`] [`vue`] [`xlsx`] [`xml`]  
   用于读写电子表格的JavaScript库，支持Excel、CSV等格式，适用于浏览器和Node.js环境，提供数据导入导出、格式转换、公式计算等功能，常用于Web应用的数据处理场景。
@@ -644,11 +644,11 @@
 <a id="lang-python"></a>
 ## Python
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449950 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449951 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
   提供大量免费公开的 API 接口，涵盖天气、新闻、地理、金融、娱乐等多个领域，适用于开发者在项目中集成第三方数据，所有 API 按类别整理并标明认证方式和是否需要付费，便于快速查找和使用，助力开发效率提升。
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★392074 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★392075 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
   提供大量免费编程书籍资源，涵盖多种编程语言和技术领域，适合开发者和学习者自主提升技能，所有资料均开放获取并支持社区贡献。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214663 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214665 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
   一个基于推理的AI代理框架，专注于通过结构化思维链和动态决策优化复杂任务执行，支持工具调用、环境交互与自主目标分解，适用于自动化推理、智能体协作和闭环任务处理场景。
 - [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★165161 [`awesome`] [`github`] [`hellogithub`] [`python`]  
   HelloGitHub 是一个分享开源项目的平台，主要推荐 GitHub 上有趣、入门级的开源项目，帮助开发者和编程爱好者发现优质资源、学习新技术。内容涵盖多种编程语言和开发领域，适合不同水平的用户参与和贡献。
@@ -712,13 +712,13 @@
   claw-code 是一个用于生成和管理验证码的工具库，主要用于图像识别测试、自动化任务中的验证码处理场景，支持多种编码格式和自定义扩展，适用于需要高效处理视觉验证码的爬虫或自动化系统。
 - [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★118213 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
   RustDesk 是一个开源的远程桌面软件，用于替代 TeamViewer、AnyDesk 等商业解决方案。它支持跨平台远程访问，允许用户通过互联网安全地连接和控制其他设备，主要用于远程技术支持、设备维护和远程办公场景。
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★117119 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★117121 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`hermes`] [`hermes-agent`] [`mcp`] [`minimax`] [`omo`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
   一个轻量级的用户脚本工具，主要用于在网页中快速切换和管理不同的自定义脚本配置，支持便捷的开关控制与版本管理，适合需要频繁调试或切换脚本环境的用户使用。
-- [openai/codex](https://github.com/openai/codex) ★97969  
+- [openai/codex](https://github.com/openai/codex) ★97972  
   Codex 是 OpenAI 开发的 AI 模型，主要用于将自然语言转换为编程代码，支持多种编程语言，可集成到开发工具中辅助编写、调试和解释代码，提升开发效率。
 - [zed-industries/zed](https://github.com/zed-industries/zed) ★86956 [`gpui`] [`rust-lang`] [`text-editor`] [`zed`]  
   Zed 是一个高性能的代码编辑器，主打低延迟和流畅的协作体验，适用于大型项目开发，支持多人实时协作编辑，具备强大的语法解析和类型感知功能，通常适合需要快速响应和高效编码的程序员使用。
-- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ★63680 [`bitwarden`] [`bitwarden-rs`] [`docker`] [`rocket`] [`rust`] [`vaultwarden`]  
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) ★63682 [`bitwarden`] [`bitwarden-rs`] [`docker`] [`rocket`] [`rust`] [`vaultwarden`]  
   Vaultwarden 是一个轻量级的 Bitwarden 兼容服务器实现，用于自建密码管理服务。它支持 Bitwarden 客户端的所有核心功能，如密码存储、双因素认证和跨设备同步，但资源占用更少，适合个人或小型团队部署。通过 Docker 快速部署，可配合反向代理实现 HTTPS 访问，提供安全便捷的私有化密码管理方案。
 - [tw93/Pake](https://github.com/tw93/Pake) ★59861 [`chatgpt`] [`claude`] [`desktop`] [`gemini`] [`hight-performance`] [`linux`] [`macos`] [`no-electron`] [`package`] [`rust`] [`tauri`] [`windows`] [`youtube`]  
   Pake 是一个轻量级的前端构建工具，主要用于快速打包和部署静态网页应用，支持 HTML、CSS、JavaScript 等资源的构建优化，适合小型项目或需要简单构建流程的开发者，通过简洁配置实现文件压缩、资源合并与高效输出。
@@ -750,7 +750,7 @@
 
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★188721 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
   ohmyzsh 是一个社区驱动的命令行框架，用于管理 Zsh 配置，提供丰富的主题、插件和便捷工具，可简化日常终端操作，提升开发效率，适用于需要高度自定义 shell 环境的用户。
-- [mattpocock/skills](https://github.com/mattpocock/skills) ★169490  
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★169495  
   该项目主要用于展示和分享 TypeScript 相关技能与实战经验，通过代码示例帮助开发者提升类型体操、泛型编程及类型推导等高级 TypeScript 技术的应用能力。
 - [sickcodes/Docker-OSX](https://github.com/sickcodes/Docker-OSX) ★52666 [`container`] [`docker`] [`docker-osx`] [`kvm`] [`macos`] [`os`] [`osx`] [`osx-kvm`] [`x`] [`x11`]  
   通过 Docker 部署可远程访问的 macOS 操作系统环境，主要用于在 Linux 上运行 macOS 实例进行开发测试、安全研究或应用调试，支持 Apple Silicon 和 x86_64 架构的虚拟化，适合需要 macOS 云服务或自动化测试的场景。
@@ -822,9 +822,9 @@
 
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ★382903 [`ai`] [`assistant`] [`crustacean`] [`molty`] [`openclaw`] [`own-your-data`] [`personal`]  
   OpenClaw 是一个开源的机器人控制框架，主要用于机械臂运动规划、视觉伺服和灵巧操作任务，支持多种硬件平台，提供模块化设计以方便算法开发与实验部署。
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185696  
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★185698  
   一个开源代码协作平台，主要用于代码托管、版本控制和团队协作开发，支持仓库管理、代码审查、持续集成等常见软件开发功能，便于开发者共享和贡献开源项目。
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150765 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★150767 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
   FireCrawl 是一个用于自动化网页数据抓取与信息提取的开源工具，主要用于从网站中高效采集结构化数据，支持动态页面渲染，适用于构建训练数据集、监控网页变化及集成到 AI 应用中，提供可扩展的爬虫框架与 API 接口。
 - [iptv-org/iptv](https://github.com/iptv-org/iptv) ★132918 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
   提供全球范围的免费 IPTV 频道链接集合，主要用于收集和整理可通过互联网访问的电视直播流，支持多种语言和地区，适合用于媒体中心软件或流媒体设备播放。
@@ -868,7 +868,7 @@
 
 - [PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin) ★90248 [`admin`] [`admin-dashboard`] [`admin-template`] [`axios`] [`dashboard`] [`desktop`] [`element`] [`element-ui`] [`i18n`] [`management-system`] [`mock`] [`tinymce`] [`vue`] [`vue-admin`] [`vue-cli`] [`vuex`] [`webpack`] [`webpack4`] [`xlsx`]  
   基于Vue.js和Element UI的中后台前端解决方案，提供权限管理、路由控制、动态菜单等开箱即用功能，主要用于快速搭建企业级管理后台系统，集成常用业务组件与最佳实践。
-- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) ★39797 [`converter`] [`developer-productivity`] [`developer-tools`] [`frontend`] [`javascript`] [`productivity`] [`tool`] [`tools`] [`typescript`] [`vuejs`] [`website`]  
+- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) ★39798 [`converter`] [`developer-productivity`] [`developer-tools`] [`frontend`] [`javascript`] [`productivity`] [`tool`] [`tools`] [`typescript`] [`vuejs`] [`website`]  
   提供一系列实用的在线工具集合，主要用于文本处理、编码转换、密码学操作、网络测试等日常开发和运维任务，支持多种常见格式的转换与分析，适合开发者快速调试和验证技术需求。
 - [vbenjs/vue-vben-admin](https://github.com/vbenjs/vue-vben-admin) ★32912 [`admin-template`] [`ant-design`] [`element-plus`] [`monorepo`] [`naive-ui`] [`shadcn-ui`] [`tsx`] [`typescript`] [`vben`] [`vite`] [`vite-template`] [`vue-router`] [`vue3`] [`vuex`]  
   基于 Vue 3 和 Vite 构建的企业级中后台管理系统解决方案，提供完善的权限控制、动态路由、多语言支持及丰富的组件库，主要用于快速搭建功能复杂、界面美观的管理界面，适合需要高可维护性和扩展性的中大型项目使用。

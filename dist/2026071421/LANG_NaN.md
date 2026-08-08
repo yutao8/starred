@@ -16,7 +16,7 @@
   该项目整理了大量可用于ChatGPT的中文提示词（prompts），涵盖写作、编程、对话、翻译等多个应用场景，帮助用户更好地发挥语言模型的潜力，提升交互效率与输出质量，适用于需要中文任务引导的各类AI对话场景。
 - [ziishaned/learn-regex](https://github.com/ziishaned/learn-regex) ★46080 [`learn-regex`] [`regex`] [`regular-expression`]  
   ziishaned/learn-regex 是一个帮助用户学习正则表达式的开源项目，通过简洁的实例和逐步讲解，涵盖匹配、捕获、替换等核心概念，适合初学者快速掌握正则表达式在文本处理中的实际应用。
-- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ★41830 [`chatgpt`] [`llms`] [`pyqt`] [`wechat`]  
+- [LC044/WeChatMsg](https://github.com/LC044/WeChatMsg) ★41829 [`chatgpt`] [`llms`] [`pyqt`] [`wechat`]  
   用于解析和导出微信聊天记录的开源工具，支持将聊天记录转换为多种格式（如文本、HTML、CSV），方便用户进行数据分析与存档，适用于个人聊天记录备份与取证场景。
 - [SheetJS/sheetjs](https://github.com/SheetJS/sheetjs) ★36301 [`angular`] [`bun`] [`csv`] [`data`] [`database`] [`deno`] [`excel`] [`grid`] [`html`] [`html5`] [`ios`] [`javascript`] [`json`] [`nodejs`] [`react`] [`spreadsheet`] [`table`] [`vue`] [`xlsx`] [`xml`]  
   用于读写电子表格的JavaScript库，支持Excel、CSV等格式，适用于浏览器和Node.js环境，提供数据导入导出、格式转换、公式计算等功能，常用于Web应用的数据处理场景。

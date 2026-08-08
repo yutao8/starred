@@ -1,10 +1,10 @@
 # Python 仓库
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449950 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★449951 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
   提供大量免费公开的 API 接口，涵盖天气、新闻、地理、金融、娱乐等多个领域，适用于开发者在项目中集成第三方数据，所有 API 按类别整理并标明认证方式和是否需要付费，便于快速查找和使用，助力开发效率提升。
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★392074 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★392075 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
   提供大量免费编程书籍资源，涵盖多种编程语言和技术领域，适合开发者和学习者自主提升技能，所有资料均开放获取并支持社区贡献。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214663 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★214665 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
   一个基于推理的AI代理框架，专注于通过结构化思维链和动态决策优化复杂任务执行，支持工具调用、环境交互与自主目标分解，适用于自动化推理、智能体协作和闭环任务处理场景。
 - [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★165161 [`awesome`] [`github`] [`hellogithub`] [`python`]  
   HelloGitHub 是一个分享开源项目的平台，主要推荐 GitHub 上有趣、入门级的开源项目，帮助开发者和编程爱好者发现优质资源、学习新技术。内容涵盖多种编程语言和开发领域，适合不同水平的用户参与和贡献。
@@ -36,7 +36,7 @@
   用于抓取社交媒体平台内容的自动化工具，支持小红书、抖音等平台的媒体数据采集，可提取图文、视频内容及元数据，便于批量下载和分析，常用于舆情监控、内容聚合和数字营销场景。
 - [hiroi-sora/Umi-OCR](https://github.com/hiroi-sora/Umi-OCR) ★46050 [`ocr`] [`ocr-python`] [`paddleocr`] [`qml`] [`qt`] [`screenshot`] [`umi-ocr`]  
   Umi-OCR 是一款基于 OCR 技术的图片文字识别工具，支持离线使用，可高效提取图像中的文本内容，适用于文档扫描、截图转文字等场景，具有高准确率和多语言支持特性，方便用户快速获取和编辑所需文字信息。
-- [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) ★45977 [`ai`] [`ai-agent`] [`ai-agents`] [`chatgpt-on-wechat`] [`claude`] [`claude-code`] [`codex`] [`cowagent`] [`deepseek`] [`harness`] [`llm`] [`mcp`] [`multi-agent`] [`openai`] [`openclaw`] [`skills`]  
+- [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) ★45978 [`ai`] [`ai-agent`] [`ai-agents`] [`chatgpt-on-wechat`] [`claude`] [`claude-code`] [`codex`] [`cowagent`] [`deepseek`] [`harness`] [`llm`] [`mcp`] [`multi-agent`] [`openai`] [`openclaw`] [`skills`]  
   一个基于Python的自动化爬虫框架，主要用于简化网络数据采集流程，支持任务分发、代理池管理、数据清洗与存储功能，适用于大规模网页抓取场景，具有良好的扩展性和调度性能。
 - [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44292 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
   用于拦截、修改和重放网络流量的开源交互式工具，支持 HTTP/HTTPS 协议，可作为代理服务器或 Web 调试代理，帮助开发者调试网络应用、分析请求响应、修改数据或自动化测试，内置图形界面与命令行工具，适合安全测试与网络协议研究。
@@ -54,7 +54,7 @@
   用于构建 Telegram 机器人的 Python 库，提供与 Telegram Bot API 交互的简洁接口，支持消息处理、命令响应、错误处理和异步操作，适合快速开发功能丰富的聊天机器人。
 - [521xueweihan/GitHub520](https://github.com/521xueweihan/GitHub520) ★29096 [`dns`] [`github`] [`hosts`]  
   为开发者提供 GitHub 加速访问的工具，通过优化网络请求提升国内用户访问 GitHub 的速度，解决加载慢、资源无法获取等问题，支持仓库克隆、文件下载等核心功能，帮助技术社区更高效地参与开源项目。
-- [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) ★26478 [`api`] [`itchat`] [`robot`] [`wechat`]  
+- [littlecodersh/ItChat](https://github.com/littlecodersh/ItChat) ★26477 [`api`] [`itchat`] [`robot`] [`wechat`]  
   ItChat 是一个基于微信网页版协议的 Python 第三方库，主要用于实现微信个人账号的自动化消息处理，支持发送文本、图片、文件等消息，以及监听和响应好友、群聊消息，常用于开发聊天机器人、自动回复工具和简单的消息监控应用。
 - [Guovin/iptv-api](https://github.com/Guovin/iptv-api) ★24607 [`auto-update`] [`awesome`] [`epg`] [`iptv`] [`iptv-api`] [`iptv-channels`] [`iptv-free`] [`iptv-m3u`] [`iptv-m3u8`] [`iptv-playlist`] [`ipv4`] [`ipv6`] [`live`] [`m3u`] [`m3u8`] [`playlist`] [`rtmp`] [`schedule`] [`tv`] [`tvbox`]  
   提供 IPTV 频道列表的 API 接口服务，主要用于获取和管理网络电视直播源，支持频道分类和实时播放，适合集成到智能电视、流媒体盒子或第三方播放器中，方便用户自定义观看直播内容。
@@ -90,7 +90,7 @@
   提供一系列Python编写的登录模型示例，涵盖主流网站和应用的模拟登录方法，包含验证码处理、密码加密、会话保持等常见技术，主要用于学习和研究反爬虫机制及登录流程分析，适合爬虫开发者参考使用。
 - [microsoft/Bringing-Old-Photos-Back-to-Life](https://github.com/microsoft/Bringing-Old-Photos-Back-to-Life) ★15702 [`gans`] [`generative-adversarial-network`] [`image-manipulation`] [`image-restoration`] [`old-photo-restoration`] [`photo-restoration`] [`photos`] [`pytorch`]  
   该项目旨在通过人工智能技术修复和增强老照片，自动去除噪点、划痕和褪色，提升图像清晰度与色彩还原度，使旧照片恢复视觉活力，适用于照片修复、历史影像处理与数字相册优化等场景。
-- [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) ★15338 [`ai`] [`ai-agent`] [`ai-agents`] [`ai-coding`] [`ai-programming`] [`chinese`] [`claude-code`] [`codex`] [`cursor`] [`developer-tools`] [`gemini-cli`] [`glue-coding`] [`prompt-engineering`] [`prompts`] [`skills`] [`tutorial`] [`vibe-coding`] [`workflow`]  
+- [tradecatlabs/vibe-coding-cn](https://github.com/tradecatlabs/vibe-coding-cn) ★15339 [`ai`] [`ai-agent`] [`ai-agents`] [`ai-coding`] [`ai-programming`] [`chinese`] [`claude-code`] [`codex`] [`cursor`] [`developer-tools`] [`gemini-cli`] [`glue-coding`] [`prompt-engineering`] [`prompts`] [`skills`] [`tutorial`] [`vibe-coding`] [`workflow`]  
   Vibe Coding 是一个面向中文开发者的 AI 编程助手，旨在通过自然语言交互提升编码效率。它支持代码生成、补全、解释及错误诊断，帮助开发者快速构建和调试项目。
 - [OpenEthan/SMSBoom](https://github.com/OpenEthan/SMSBoom) ★15183 [`deprecated`]  
   一个基于Python的短信轰炸防御工具，主要用于识别和拦截大量重复的短信请求，通过日志分析和规则匹配来发现异常行为，适合用于提升Web应用的安全性，防止恶意用户利用短信接口进行攻击。
@@ -216,7 +216,7 @@
   用于在云实例首次启动时进行系统初始化配置，支持用户自定义主机名、网络、用户账户、SSH 密钥、软件源等，广泛用于自动化部署云服务器，兼容主流云平台如 AWS、Azure、GCP、OpenStack 等。
 - [pandolia/qqbot](https://github.com/pandolia/qqbot) ★3684 [`chat`] [`chatbot`] [`python`] [`qq`] [`qqbot`] [`smartqq`] [`webqq`]  
   QQBot 是一个基于酷Q和OneBot标准的QQ机器人框架，主要用于实现QQ消息的自动接收与回复，支持插件扩展和事件监听，适合构建各类自动化服务和群聊管理功能。
-- [anbeime/skill](https://github.com/anbeime/skill) ★3632 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
+- [anbeime/skill](https://github.com/anbeime/skill) ★3633 [`claude-skills`] [`finance-skill`] [`gemini-skills`] [`hermes-skill`] [`office-skill`] [`openclaw-skills`] [`skill`] [`skill-md`] [`skills`]  
   一个基于 Vue.js 的个人技能展示网页模板，主要用于前端开发者或设计师展示技术栈、项目经验和专业能力，支持自定义主题和响应式布局，开箱即用，适合快速搭建个性化简历或作品集页面。
 - [sc0tfree/updog](https://github.com/sc0tfree/updog) ★3367 [`file-sharing`] [`file-upload`] [`http-server`] [`https-server`] [`simplehttpserver`]  
   一个轻量级的 Python 工具，用于快速启动临时文件服务器，支持上传和下载文件，适用于渗透测试或内网穿透场景下的简易文件传输需求，通常在安全研究或红队操作中使用。
