@@ -639,10 +639,31 @@
                 const data = await resp.json();
                 if (data && data.repos) {
                     repoList = data.repos;
+                    return;
+                }
+            }
+        } catch (e) {}
+
+        // 静态托管环境退回 (GitHub Pages)
+        try {
+            const resp = await fetch('starList.json');
+            if (resp.ok) {
+                const data = await resp.json();
+                if (Array.isArray(data)) {
+                    repoList = data.map(r => ({
+                        id: Number(r.id || 0),
+                        full_name: r.full_name || r.name || '',
+                        name: r.name || r.full_name || '',
+                        language: r.language || 'Other',
+                        stars: Number(r.stargazers_count || 0),
+                        forks: Number(r.forks_count || 0),
+                        description: r.desc || r.description || '',
+                        html_url: r.html_url || ('https://github.com/' + (r.full_name || r.name))
+                    }));
                 }
             }
         } catch (e) {
-            console.warn('获取预设项目列表失败:', e);
+            console.warn('获取项目列表失败:', e);
         }
     }
 
@@ -694,18 +715,45 @@
         stateMsg.innerHTML = `⏳ 正在读取项目 '${escapeHtml(query)}' 的历史履历数据...`;
         detailWrap.style.display = 'none';
 
+        // 1. 优先尝试调用 history.php 动态接口
         try {
             const url = `history.php?repo=${encodeURIComponent(query)}`;
             const resp = await fetch(url);
-            if (!resp.ok) throw new Error(`HTTP 状态异常: ${resp.status}`);
+            if (resp.ok) {
+                const data = await resp.json();
+                if (data && data.status === 'success') {
+                    stateMsg.style.display = 'none';
+                    renderRepoHistory(data);
+                    return;
+                }
+            }
+        } catch (err) {}
 
-            const data = await resp.json();
-            if (!data || data.status === 'error') {
-                throw new Error(data.message || '未找到该项目的履历数据');
+        // 2. 静态 GitHub Pages 模式退回：直接从 repos/{id}.json 读取项目履历
+        try {
+            const queryLower = query.trim().toLowerCase();
+            let targetRepo = repoList.find(r => 
+                r.full_name.toLowerCase() === queryLower || 
+                r.name.toLowerCase() === queryLower ||
+                String(r.id) === queryLower
+            );
+            if (!targetRepo && repoList.length > 0) {
+                targetRepo = repoList.find(r => r.full_name.toLowerCase().includes(queryLower));
             }
 
-            stateMsg.style.display = 'none';
-            renderRepoHistory(data);
+            if (targetRepo && targetRepo.id) {
+                const repoFile = `repos/${targetRepo.id}.json`;
+                const resp = await fetch(repoFile);
+                if (resp.ok) {
+                    const data = await resp.json();
+                    if (data && data.status === 'success') {
+                        stateMsg.style.display = 'none';
+                        renderRepoHistory(data);
+                        return;
+                    }
+                }
+            }
+            throw new Error('未在 repos 履历库中匹配到该项目');
         } catch (err) {
             stateMsg.style.display = 'block';
             stateMsg.innerHTML = `⚠️ 查询失败: ${escapeHtml(err.message)}`;
