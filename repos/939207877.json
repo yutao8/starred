@@ -2,20 +2,20 @@
     "status": "success",
     "repo": {
         "id": 939207877,
-        "full_name": "mg-chao\/snow-shot",
-        "name": "snow-shot",
+        "full_name": "mg-chao\/snow-apps",
+        "name": "snow-apps",
         "html_url": "https:\/\/github.com\/mg-chao\/snow-shot",
         "language": "TypeScript",
-        "description": "一个轻量级的网页截图工具，主要用于快速捕获网页可见区域或完整页面的截图，支持滚动截长图，通常适用于前端开发调试、内容保存或自动化测试场景，基于 Puppeteer 或类似无头浏览器技术实现，提供简洁的命令行或 API 调用方式。"
+        "description": "用于管理和部署雪花算法相关应用的工具集，主要用于生成分布式环境下的唯一ID，适用于需要高并发唯一标识的业务场景，支持多种配置扩展与应用集成。"
     },
     "summary": {
         "initial_stars": 4772,
-        "current_stars": 4888,
-        "star_diff": 116,
-        "growth_rate": 2.43,
+        "current_stars": 4889,
+        "star_diff": 117,
+        "growth_rate": 2.45,
         "first_seen": "2026-07-09 00:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 16
+        "last_seen": "2026-08-09 00:00",
+        "data_points_count": 17
     },
     "history": [
         {
@@ -129,6 +129,13 @@
             "stars": 4888,
             "forks": 292,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 00:00",
+            "timestamp": 1786204800,
+            "stars": 4889,
+            "forks": 292,
+            "file": "dist\/2026080900\/starList.public.json"
         }
     ]
 }
