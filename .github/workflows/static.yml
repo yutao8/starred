@@ -10,10 +10,20 @@ permissions:
   pages: write
   id-token: write
 
+# 并发控制：同一时间只允许一个部署任务，新任务会取消旧任务
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      - name: Wait for 3 minutes
+        run: |
+          echo "等待 3 分钟后开始部署，防止短时间多次提交..."
+          sleep 180
+
       - name: Checkout
         uses: actions/checkout@v4
 
