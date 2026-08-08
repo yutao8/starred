@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Starred 历史数据与趋势分析</title>
+    <!-- 引入 ECharts 5 图表库 -->
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <style>
+        :root {
+            --bg-dark: #0d1117;
+            --bg-card: #161b22;
+            --bg-input: #21262d;
+            --border-color: #30363d;
+            --text-main: #c9d1d9;
+            --text-muted: #8b949e;
+            --text-heading: #f0f6fc;
+            --accent-blue: #58a6ff;
+            --accent-green: #3fb950;
+            --accent-purple: #bc8cff;
+            --accent-orange: #d29922;
+            --accent-red: #f85149;
+            --radius-md: 8px;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            padding: 24px;
+            line-height: 1.5;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1360px;
+            margin: 0 auto;
+        }
+
+        /* 顶栏 Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 24px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .brand-title {
+            font-size: 24px;
+            font-weight: 700;
+            color: var(--text-heading);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .brand-title span {
+            font-size: 20px;
+        }
+
+        .subtitle {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-top: 4px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background-color: var(--bg-input);
+            color: var(--accent-blue);
+            border: 1px solid var(--border-color);
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 13px;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--border-color);
+            border-color: #8b949e;
+            color: #ffffff;
+        }
+
+        .btn-success {
+            color: var(--accent-green);
+        }
+
+        /* 顶部 KPI 卡片网格 */
+        .kpi-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 16px;
+            margin-bottom: 24px;
+        }
+
+        .kpi-card {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            position: relative;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .kpi-title {
+            font-size: 13px;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+        }
+
+        .kpi-value {
+            font-size: 30px;
+            font-weight: 700;
+            color: var(--text-heading);
+            letter-spacing: -0.5px;
+        }
+
+        .kpi-sub {
+            font-size: 12px;
+            margin-top: 6px;
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .up { color: var(--accent-green); }
+        .down { color: var(--accent-red); }
+        .neutral { color: var(--accent-blue); }
+
+        /* 选项卡 Tab Navigation */
+        .tab-nav {
+            display: flex;
+            gap: 8px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 8px;
+        }
+
+        .tab-item {
+            padding: 8px 16px;
+            border-radius: 6px;
+            background: transparent;
+            color: var(--text-muted);
+            border: none;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.2s;
+        }
+
+        .tab-item:hover {
+            color: var(--text-main);
+            background-color: var(--bg-input);
+        }
+
+        .tab-item.active {
+            color: var(--text-heading);
+            background-color: var(--bg-input);
+            border-bottom: 2px solid var(--accent-blue);
+        }
+
+        /* 容器页面组件 */
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+
+        /* 图表组件 */
+        .charts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(580px, 1fr));
+            gap: 20px;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .charts-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .chart-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+        }
+
+        .box-title {
+            font-size: 15px;
+            font-weight: 600;
+            color: var(--text-heading);
+            margin-bottom: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .chart-dom {
+            width: 100%;
+            height: 380px;
+        }
+
+        /* 数据表格与搜索 */
+        .table-box {
+            background-color: var(--bg-card);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .table-header-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .search-input {
+            background-color: var(--bg-input);
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 8px 12px;
+            border-radius: 6px;
+            font-size: 13px;
+            width: 260px;
+            outline: none;
+        }
+
+        .search-input:focus {
+            border-color: var(--accent-blue);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 14px;
+        }
+
+        th, td {
+            text-align: left;
+            padding: 12px 14px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        th {
+            color: var(--text-muted);
+            font-weight: 600;
+            background-color: rgba(0,0,0,0.2);
+        }
+
+        tr:hover td {
+            background-color: rgba(255,255,255,0.03);
+        }
+
+        .repo-link {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .repo-link:hover {
+            text-decoration: underline;
+        }
+
+        .tag-lang {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 12px;
+            background-color: var(--bg-input);
+            color: var(--accent-purple);
+            border: 1px solid var(--border-color);
+        }
+
+        .loading-overlay {
+            text-align: center;
+            padding: 60px 0;
+            font-size: 16px;
+            color: var(--text-muted);
+        }
+
+        .badge-new {
+            background-color: rgba(63, 185, 80, 0.15);
+            color: var(--accent-green);
+            font-size: 11px;
+            padding: 2px 6px;
+            border-radius: 4px;
+            margin-left: 6px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- 页头 -->
+    <header>
+        <div>
+            <div class="brand-title">
+                📊 GitHub Starred 历史数据与趋势分析
+            </div>
+            <div class="subtitle" id="last-update-info">加载中...</div>
+        </div>
+        <div class="header-actions">
+            <a href="index.html" class="btn">🏠 项目列表 (Home)</a>
+            <button class="btn btn-success" id="btn-refresh">🔄 刷新分析数据</button>
+            <a href="history.php?format=json" target="_blank" class="btn">📄 API 接口 (JSON)</a>
+        </div>
+    </header>
+
+    <!-- 加载中占位 -->
+    <div id="loading" class="loading-overlay">
+        ⏳ 正在从 history.php 加载历史快照分析数据，请稍候...
+    </div>
+
+    <!-- 主体区域 -->
+    <div id="main-content" style="display: none;">
+
+        <!-- 顶部核心指标 KPI 卡片 -->
+        <div class="kpi-grid">
+            <div class="kpi-card">
+                <div class="kpi-title">当前收藏仓库总数</div>
+                <div class="kpi-value" id="kpi-repo-count">-</div>
+                <div class="kpi-sub up" id="kpi-repo-diff">-</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">项目星标总累积数 (Stars)</div>
+                <div class="kpi-value" id="kpi-total-stars">-</div>
+                <div class="kpi-sub up" id="kpi-stars-diff">-</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">Fork 总累积数</div>
+                <div class="kpi-value" id="kpi-total-forks">-</div>
+                <div class="kpi-sub neutral">跨所有已收藏项目</div>
+            </div>
+            <div class="kpi-card">
+                <div class="kpi-title">快照记录数 / 时间跨度</div>
+                <div class="kpi-value" id="kpi-snapshot-count">-</div>
+                <div class="kpi-sub neutral" id="kpi-date-range">-</div>
+            </div>
+        </div>
+
+        <!-- 导航选项卡 -->
+        <div class="tab-nav">
+            <button class="tab-item active" onclick="switchTab('tab-charts')">📈 整体趋势图表</button>
+            <button class="tab-item" onclick="switchTab('tab-growth')">🚀 星标飙升排行榜</button>
+            <button class="tab-item" onclick="switchTab('tab-top')">⭐ 高星仓库列表</button>
+        </div>
+
+        <!-- 选项卡 1：总体趋势图表 -->
+        <div id="tab-charts" class="tab-content active">
+            <div class="charts-grid">
+                <div class="chart-box">
+                    <div class="box-title">仓库总数 & 星标总数演化趋势</div>
+                    <div id="chart-overall" class="chart-dom"></div>
+                </div>
+                <div class="chart-box">
+                    <div class="box-title">主要编程语言分布演变</div>
+                    <div id="chart-languages" class="chart-dom"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 选项卡 2：星标飙升榜 -->
+        <div id="tab-growth" class="tab-content">
+            <div class="table-box">
+                <div class="table-header-bar">
+                    <div class="box-title">🚀 历史星标数增长最快项目 (Top 50)</div>
+                    <input type="text" id="search-growth" class="search-input" placeholder="🔍 搜索项目名称或语言..." oninput="filterGrowthTable()">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>项目名称</th>
+                            <th>主语言</th>
+                            <th>当前 Stars</th>
+                            <th>期间净增长</th>
+                            <th>增长率</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-growth"></tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- 选项卡 3：绝对高星榜 -->
+        <div id="tab-top" class="tab-content">
+            <div class="table-box">
+                <div class="table-header-bar">
+                    <div class="box-title">⭐ 绝对星标总数最高项目 (Top 50)</div>
+                    <input type="text" id="search-top" class="search-input" placeholder="🔍 搜索项目名称..." oninput="filterTopTable()">
+                </div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>项目名称</th>
+                            <th>主语言</th>
+                            <th>当前 Stars</th>
+                            <th>初始 Stars</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody-top"></tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    let globalData = null;
+    let chartOverall = null;
+    let chartLanguages = null;
+
+    // 页面初始化
+    document.addEventListener('DOMContentLoaded', () => {
+        loadData();
+
+        document.getElementById('btn-refresh').addEventListener('click', () => {
+            loadData(true);
+        });
+    });
+
+    // 异步加载数据 (优先请求 history.php API，若失败则尝试静态 JSON)
+    async function loadData(force = false) {
+        document.getElementById('loading').style.display = 'block';
+        document.getElementById('main-content').style.display = 'none';
+
+        const apiUrl = force ? 'history.php?force=1' : 'history.php';
+
+        try {
+            let resp = await fetch(apiUrl);
+            if (!resp.ok) {
+                // 如果后端 API 不可用（例如在纯静态托管环境），尝试拉取导出的 JSON
+                resp = await fetch('dist/history_analytics.json');
+            }
+            if (!resp.ok) {
+                throw new Error(`HTTP status ${resp.status}`);
+            }
+
+            globalData = await resp.json();
+            if (!globalData || globalData.status === 'error') {
+                throw new Error(globalData.message || '获取分析数据失败');
+            }
+
+            renderDashboard(globalData);
+        } catch (err) {
+            console.error('加载历史分析数据失败:', err);
+            document.getElementById('loading').innerHTML = `
+                <div style="color: var(--accent-red);">
+                    ⚠️ 加载历史分析数据失败: ${err.message}<br>
+                    请确认已运行 php index.php 并生成 dist/ 数据。
+                </div>
+            `;
+        }
+    }
+
+    // 渲染页面
+    function renderDashboard(data) {
+        document.getElementById('loading').style.display = 'none';
+        document.getElementById('main-content').style.display = 'block';
+
+        const summary = data.summary || {};
+
+        // 渲染顶部更新时间
+        document.getElementById('last-update-info').innerText = 
+            `上次更新时间: ${data.updated_at || summary.last_snapshot_date} | 时间范围: ${summary.first_snapshot_date} ~ ${summary.last_snapshot_date}`;
+
+        // 渲染 KPI 卡片
+        document.getElementById('kpi-repo-count').innerText = (summary.current_repo_count || 0).toLocaleString();
+        document.getElementById('kpi-repo-diff').innerText = `较首次记录: ${summary.repo_count_diff >= 0 ? '+' : ''}${summary.repo_count_diff} 个`;
+
+        document.getElementById('kpi-total-stars').innerText = (summary.current_total_stars || 0).toLocaleString();
+        document.getElementById('kpi-stars-diff').innerText = `较首次记录: +${(summary.total_stars_diff || 0).toLocaleString()} stars`;
+
+        document.getElementById('kpi-total-forks').innerText = (summary.current_total_forks || 0).toLocaleString();
+
+        document.getElementById('kpi-snapshot-count').innerText = `${summary.snapshot_count || 0} 次`;
+        document.getElementById('kpi-date-range').innerText = `新增 +${summary.new_starred_since_start} / 移除 -${summary.removed_starred_since_start}`;
+
+        // 初始化渲染 ECharts
+        renderOverallChart(data.timeline || []);
+        renderLanguagesChart(data.timeline || []);
+
+        // 渲染表格
+        renderGrowthTable(data.fastest_growing || []);
+        renderTopTable(data.top_starred || []);
+    }
+
+    // 选项卡切换逻辑
+    function switchTab(tabId) {
+        document.querySelectorAll('.tab-item').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('.tab-content').forEach(content => content.classList.remove('active'));
+
+        event.currentTarget.classList.add('active');
+        document.getElementById(tabId).classList.add('active');
+
+        // 图表尺寸自适应
+        if (tabId === 'tab-charts') {
+            if (chartOverall) chartOverall.resize();
+            if (chartLanguages) chartLanguages.resize();
+        }
+    }
+
+    // 1. 渲染总体趋势图表
+    function renderOverallChart(timeline) {
+        const dom = document.getElementById('chart-overall');
+        if (!dom) return;
+
+        chartOverall = echarts.init(dom, 'dark');
+
+        const dates = timeline.map(item => item.date);
+        const repoCounts = timeline.map(item => item.repo_count);
+        const totalStars = timeline.map(item => item.total_stars);
+
+        const option = {
+            backgroundColor: 'transparent',
+            tooltip: { trigger: 'axis' },
+            legend: { data: ['收藏仓库总数', '总星标累积数 (Stars)'], top: 0, textStyle: { color: '#c9d1d9' } },
+            grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
+            xAxis: { type: 'category', boundaryGap: false, data: dates },
+            yAxis: [
+                { type: 'value', name: '仓库总数', position: 'left', axisLine: { lineStyle: { color: '#58a6ff' } } },
+                { type: 'value', name: '总 Stars', position: 'right', axisLine: { lineStyle: { color: '#3fb950' } } }
+            ],
+            series: [
+                {
+                    name: '收藏仓库总数',
+                    type: 'line',
+                    smooth: true,
+                    data: repoCounts,
+                    lineStyle: { color: '#58a6ff', width: 3 },
+                    itemStyle: { color: '#58a6ff' },
+                },
+                {
+                    name: '总星标累积数 (Stars)',
+                    type: 'line',
+                    yAxisIndex: 1,
+                    smooth: true,
+                    data: totalStars,
+                    lineStyle: { color: '#3fb950', width: 3 },
+                    itemStyle: { color: '#3fb950' },
+                    areaStyle: {
+                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                            { offset: 0, color: 'rgba(63, 185, 80, 0.35)' },
+                            { offset: 1, color: 'rgba(63, 185, 80, 0.0)' }
+                        ])
+                    }
+                }
+            ]
+        };
+
+        chartOverall.setOption(option);
+    }
+
+    // 2. 渲染语言占比演变图表
+    function renderLanguagesChart(timeline) {
+        const dom = document.getElementById('chart-languages');
+        if (!dom || timeline.length === 0) return;
+
+        chartLanguages = echarts.init(dom, 'dark');
+
+        const dates = timeline.map(item => item.date);
+        const languages = Object.keys(timeline[0].top_languages || {});
+
+        const series = languages.map(lang => {
+            return {
+                name: lang,
+                type: 'line',
+                stack: 'Total',
+                smooth: true,
+                areaStyle: {},
+                emphasis: { focus: 'series' },
+                data: timeline.map(item => (item.top_languages && item.top_languages[lang]) || 0)
+            };
+        });
+
+        const option = {
+            backgroundColor: 'transparent',
+            tooltip: { trigger: 'axis' },
+            legend: { data: languages, top: 0, type: 'scroll', textStyle: { color: '#c9d1d9' } },
+            grid: { left: '3%', right: '4%', bottom: '3%', containLabel: true },
+            xAxis: { type: 'category', boundaryGap: false, data: dates },
+            yAxis: { type: 'value', name: '项目数量' },
+            series: series
+        };
+
+        chartLanguages.setOption(option);
+    }
+
+    // 3. 渲染飙升榜表格
+    function renderGrowthTable(list) {
+        const tbody = document.getElementById('tbody-growth');
+        tbody.innerHTML = '';
+
+        list.forEach((item, index) => {
+            const tr = document.createElement('tr');
+            const newBadge = item.is_new ? '<span class="badge-new">新收藏</span>' : '';
+            tr.innerHTML = `
+                <td>${index + 1}</td>
+                <td>
+                    <a href="https://github.com/${escapeHtml(item.name)}" target="_blank" class="repo-link">
+                        ${escapeHtml(item.name)}
+                    </a>
+                    ${newBadge}
+                </td>
+                <td><span class="tag-lang">${escapeHtml(item.lang)}</span></td>
+                <td>${item.current_stars.toLocaleString()}</td>
+                <td style="color: var(--accent-green); font-weight: 600;">+${item.star_diff.toLocaleString()}</td>
+                <td>${item.growth_rate}%</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    // 4. 渲染高星榜表格
+    function renderTopTable(list) {
+        const tbody = document.getElementById('tbody-top');
+        tbody.innerHTML = '';
+
+        list.forEach((item, index) => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td>${index + 1}</td>
+                <td>
+                    <a href="https://github.com/${escapeHtml(item.name)}" target="_blank" class="repo-link">
+                        ${escapeHtml(item.name)}
+                    </a>
+                </td>
+                <td><span class="tag-lang">${escapeHtml(item.lang)}</span></td>
+                <td style="color: var(--accent-blue); font-weight: 700;">${item.current_stars.toLocaleString()}</td>
+                <td>${item.initial_stars.toLocaleString()}</td>
+            `;
+            tbody.appendChild(tr);
+        });
+    }
+
+    // 搜索过滤函数
+    function filterGrowthTable() {
+        const query = document.getElementById('search-growth').value.toLowerCase().trim();
+        const list = globalData.fastest_growing || [];
+        const filtered = list.filter(item => 
+            item.name.toLowerCase().includes(query) || 
+            item.lang.toLowerCase().includes(query)
+        );
+        renderGrowthTable(filtered);
+    }
+
+    function filterTopTable() {
+        const query = document.getElementById('search-top').value.toLowerCase().trim();
+        const list = globalData.top_starred || [];
+        const filtered = list.filter(item => 
+            item.name.toLowerCase().includes(query) || 
+            item.lang.toLowerCase().includes(query)
+        );
+        renderTopTable(filtered);
+    }
+
+    function escapeHtml(str) {
+        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    }
+
+    // 窗口调整大小时重绘 ECharts
+    window.addEventListener('resize', () => {
+        if (chartOverall) chartOverall.resize();
+        if (chartLanguages) chartLanguages.resize();
+    });
+</script>
+</body>
+</html>

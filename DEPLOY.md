@@ -78,21 +78,25 @@ php -S 127.0.0.1:8099
 http://127.0.0.1:8099/index.html
 ```
 
-或访问历史趋势看板：
+访问独立的历史趋势 HTML 展示页面：
+
+```text
+http://127.0.0.1:8099/history.html
+```
+
+访问历史趋势 JSON 数据 API 接口：
 
 ```text
 http://127.0.0.1:8099/history.php
 ```
 
-6. 命令行查看历史分析：
+6. 命令行查看历史分析与导出 API 数据：
 
 ```bash
+# 终端直接打印文本报告
 php history.php
-```
 
-或导出历史趋势数据为 JSON：
-
-```bash
+# 导出 API 数据到 dist/history_analytics.json
 php history.php --export-json
 ```
 
