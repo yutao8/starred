@@ -801,7 +801,10 @@
             return;
         }
 
-        history.forEach(item => {
+        // 按时间倒序排列（最新的在前）
+        const sortedHistory = [...history].reverse();
+
+        sortedHistory.forEach(item => {
             const tr = document.createElement('tr');
             const fileHtml = item.file ? `<a href="${escapeHtml(item.file)}" target="_blank" class="file-link">📄 ${escapeHtml(item.file)}</a>` : '-';
             tr.innerHTML = `
