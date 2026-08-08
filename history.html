@@ -595,9 +595,9 @@
         applyTheme();
     }
 
-    document.addEventListener('DOMContentLoaded', () => {
+    document.addEventListener('DOMContentLoaded', async () => {
         applyTheme();
-        loadRepoList();
+        await loadRepoList(); // 等待项目列表加载完成
 
         const searchInput = document.getElementById('search-input');
         const btnSearch = document.getElementById('btn-search');
@@ -622,7 +622,7 @@
             }
         });
 
-        // 自动提取 URL 参数触发查询
+        // 自动提取 URL 参数触发查询（此时 repoList 已加载完成）
         const urlParams = new URLSearchParams(window.location.search);
         const repoParam = urlParams.get('repo') || urlParams.get('name') || urlParams.get('id');
         if (repoParam) {
