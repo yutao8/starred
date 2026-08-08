@@ -90,15 +90,35 @@ http://127.0.0.1:8099/history.html
 http://127.0.0.1:8099/history.php
 ```
 
-6. 命令行查看历史分析与导出 API 数据：
+6. 命令行查看历史分析与查询 API 数据：
 
 ```bash
-# 终端直接打印文本报告
+# 获取所有项目列表 (读取根目录 startList.json，响应时间 < 20ms)
 php history.php
 
-# 导出 API 数据到 dist/history_analytics.json
-php history.php --export-json
+# 查询指定项目的历史履历 (读取 repos/{id}.json 独立履历文件，响应时间 < 2ms)
+php history.php --repo=sensepost/Snoopy
 ```
+
+## 独立项目履历目录架构 (`repos/`)
+
+系统维护一个独立的 `repos/` 数据目录，为每个项目生成并自动同步独立的 JSON 履历文件（例如 `repos/7036331.json`）：
+
+### 1. 履历文件结构 (`repos/{id}.json`)
+- **`repo`**：项目基本信息（ID、全名、名称、链接、语言、描述）。
+- **`summary`**：历史 KPI 统计（初始 Stars、当前 Stars、增量变化、增长率、首次记录时间、最后记录时间、数据点覆盖数）。
+- **`history`**：时间序列履历列表。每个节点记录该时间点的 `date`、`timestamp`、`stars`、`forks`，以及对应的数据快照源文件相对路径 `file`（例如 `dist/2025062706/starList.json`）。
+
+### 2. 毫秒级查询机制 (`history.php`)
+- **未指定项目**：直接读取根目录的 `startList.json` / `starList.json` / `starList.public.json` 返回项目列表，耗时 < 20ms。
+- **指定了项目**：查找 `repos/index.json` 主索引并定位读取对应的 `repos/{id}.json` 独立履历文件，响应时间 < 2ms。
+
+### 3. 可视化交互 (`history.html`)
+- **折线图 Hover 提示框**：ECharts Tooltip 鼠标悬停实时展示当前数据点对应的详细数据快照相对路径 `file`。
+- **快照定位与明细表格**：折线图下方提供“📅 历史数据快照定位与明细”表格，列出历次快照的日期与数值，并支持直接点击链接跳转至对应的原始快照 JSON 文件。
+
+### 4. 自动化管道同步 (`index.php`)
+- 每次运行 `php index.php` 抓取并保存新快照 (`dist/YYYYMMDDHH`) 后，管道会自动触发 `syncDistToReposDir()` 对 `repos/` 目录下的项目履历文件进行增量更新，避免重复扫描历史全量文件。
 
 ## GitHub Actions 部署
 

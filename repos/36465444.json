@@ -1,0 +1,43 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 36465444,
+        "full_name": "utkarsh9891\/PackageSync",
+        "name": "PackageSync",
+        "html_url": "https:\/\/github.com\/utkarsh9891\/PackageSync",
+        "language": "Python",
+        "description": "PackageSync 是一个用于同步本地项目依赖包的工具，主要用于保持不同环境或设备间 npm\/yarn\/pnpm 包版本一致。它通过分析项目中的锁定文件（如 package-lock.json）自动检测并安装缺失或版本不一致的依赖包，简化团队协作和部署时的依赖管理流程，提升开发效率与环境一致性。"
+    },
+    "summary": {
+        "initial_stars": 73,
+        "current_stars": 73,
+        "star_diff": 0,
+        "growth_rate": 0,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-02-15 06:00",
+        "data_points_count": 3
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 73,
+            "forks": 2,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2026-02-11 06:00",
+            "timestamp": 1770760800,
+            "stars": 74,
+            "forks": 2,
+            "file": "dist\/2026021106\/starList.json"
+        },
+        {
+            "date": "2026-02-15 06:00",
+            "timestamp": 1771106400,
+            "stars": 73,
+            "forks": 2,
+            "file": "dist\/2026021506\/starList.json"
+        }
+    ]
+}

@@ -1,0 +1,50 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 13673038,
+        "full_name": "adamwulf\/json-to-mysql",
+        "name": "json-to-mysql",
+        "html_url": "https:\/\/github.com\/adamwulf\/json-to-mysql",
+        "language": "PHP",
+        "description": "将JSON数据转换为MySQL数据库表结构和插入语句的工具，支持根据JSON自动生成表创建语句和对应的INSERT语句，适用于快速将JSON数据导入MySQL场景，通常用于数据迁移、测试数据生成或后端开发中的原型构建。"
+    },
+    "summary": {
+        "initial_stars": 137,
+        "current_stars": 136,
+        "star_diff": -1,
+        "growth_rate": -0.73,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-07-26 00:00",
+        "data_points_count": 4
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 137,
+            "forks": 62,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2025-08-27 06:00",
+            "timestamp": 1756245600,
+            "stars": 137,
+            "forks": 61,
+            "file": "dist\/2025082706\/starList.json"
+        },
+        {
+            "date": "2026-07-24 00:00",
+            "timestamp": 1784822400,
+            "stars": 137,
+            "forks": 60,
+            "file": "dist\/2026072400\/starList.public.json"
+        },
+        {
+            "date": "2026-07-26 00:00",
+            "timestamp": 1784995200,
+            "stars": 136,
+            "forks": 60,
+            "file": "dist\/2026072600\/starList.public.json"
+        }
+    ]
+}

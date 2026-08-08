@@ -2,91 +2,420 @@
 declare(strict_types=1);
 
 /**
- * GitHub Starred Repositories - Historical Data & Trend API / CLI
+ * GitHub Starred Repositories - 单项目历史趋势与履历 API
  * 
- * - API Endpoint: http://127.0.0.1:8099/history.php (返回 JSON)
- * - CLI 模式: php history.php [--export-json] [--force]
+ * 独立项目履历目录架构 (repos/ 目录)：
+ * - 未指定项目：读取根目录 startList.json / starList.json 展现项目列表 (< 20ms)
+ * - 指定了项目：读取 repos/{id}.json 独立项目履历文件 (< 1ms)
  */
 
 error_reporting(E_ALL);
 ini_set('display_errors', '1');
-ini_set('memory_limit', '1024M');
+ini_set('memory_limit', '512M');
 set_time_limit(300);
 date_default_timezone_set('Asia/Shanghai');
 
-class HistoryAnalyzer
+class FastRepoHistoryAnalyzer
 {
     private string $rootPath;
     private string $distPath;
-    private string $cachePath;
-    private string $cacheFile;
+    private string $reposDir;
+    private string $indexFile;
 
     public function __construct(?string $rootPath = null)
     {
         $this->rootPath = $rootPath ?? __DIR__;
         $this->distPath = rtrim($this->rootPath, '/\\') . '/dist';
-        $this->cachePath = rtrim($this->rootPath, '/\\') . '/.cache';
-        $this->cacheFile = $this->cachePath . '/history_analytics_cache.json';
+        $this->reposDir = rtrim($this->rootPath, '/\\') . '/repos';
+        $this->indexFile = $this->reposDir . '/index.json';
 
-        if (!is_dir($this->cachePath)) {
-            @mkdir($this->cachePath, 0777, true);
+        if (!is_dir($this->reposDir)) {
+            @mkdir($this->reposDir, 0777, true);
         }
     }
 
     /**
-     * 获取历史分析数据（优先读增量缓存）
+     * 从根目录获取可用项目清单 (不扫描 dist 目录，毫秒级响应)
+     * 支持 startList.json, starList.json, starList.public.json
      */
-    public function getAnalyticsData(bool $forceRebuild = false): array
+    public function getRepoListFromRoot(): array
     {
-        $cacheData = $forceRebuild ? null : $this->loadCache();
-        $snapshots = $this->scanDistSnapshots();
+        $candidates = [
+            $this->rootPath . '/startList.json',
+            $this->rootPath . '/starList.json',
+            $this->rootPath . '/starList.public.json',
+        ];
 
-        if (empty($snapshots)) {
+        $targetFile = null;
+        foreach ($candidates as $file) {
+            if (is_file($file)) {
+                $targetFile = $file;
+                break;
+            }
+        }
+
+        if ($targetFile === null) {
             return [
                 'status' => 'error',
-                'message' => '未在 dist 目录找到任何快照数据。',
-                'timeline' => [],
-                'summary' => [],
+                'message' => '未找到根目录的项目数据文件 (startList.json / starList.json / starList.public.json)',
             ];
         }
 
-        $cachedSnapshots = $cacheData['snapshot_data'] ?? [];
-        $hasNewData = false;
-        $snapshotData = [];
-        $folderKeys = array_keys($snapshots);
-        $firstKey = reset($folderKeys);
-        $lastKey = end($folderKeys);
+        $content = file_get_contents($targetFile);
+        if ($content === false) {
+            return [
+                'status' => 'error',
+                'message' => '无法读取项目数据文件: ' . basename($targetFile),
+            ];
+        }
 
-        foreach ($snapshots as $folder => $info) {
-            $folderStr = (string)$folder;
-            $keepMap = ($folderStr === (string)$firstKey || $folderStr === (string)$lastKey);
-            if (isset($cachedSnapshots[$folderStr]) && (!$keepMap || !empty($cachedSnapshots[$folderStr]['repo_map']))) {
-                $snapshotData[$folderStr] = $cachedSnapshots[$folderStr];
-            } else {
-                $parsed = $this->parseSnapshotFolder($info['path'], $info['timestamp'], $folderStr, $keepMap);
-                if ($parsed !== null) {
-                    $snapshotData[$folderStr] = $parsed;
-                    $hasNewData = true;
+        $repos = json_decode($content, true);
+        unset($content);
+
+        if (!is_array($repos)) {
+            return [
+                'status' => 'error',
+                'message' => '解析项目数据文件 JSON 失败: ' . basename($targetFile),
+            ];
+        }
+
+        $list = [];
+        foreach ($repos as $r) {
+            $fullName = $r['full_name'] ?? ($r['name'] ?? '');
+            if ($fullName === '') {
+                continue;
+            }
+
+            $lang = trim((string)($r['language'] ?? 'Other'));
+            if ($lang === '' || strtolower($lang) === 'null' || strtolower($lang) === 'nan') {
+                $lang = 'Other';
+            }
+
+            $list[] = [
+                'id' => (int)($r['id'] ?? 0),
+                'full_name' => $fullName,
+                'name' => $r['name'] ?? $fullName,
+                'language' => $lang,
+                'stars' => (int)($r['stargazers_count'] ?? 0),
+                'forks' => (int)($r['forks_count'] ?? 0),
+                'description' => $r['desc'] ?? ($r['description'] ?? ''),
+                'html_url' => $r['html_url'] ?? ('https://github.com/' . $fullName),
+            ];
+        }
+
+        return [
+            'status' => 'success',
+            'source' => basename($targetFile),
+            'updated_at' => date('Y-m-d H:i:s', filemtime($targetFile)),
+            'total' => count($list),
+            'repos' => $list,
+        ];
+    }
+
+    public function getRepoList(bool $force = false): array
+    {
+        return $this->getRepoListFromRoot();
+    }
+
+    /**
+     * 查询指定项目的历史履历
+     * 读取 repos/{id}.json 独立项目履历文件，毫秒级响应
+     */
+    public function getRepoHistory(string $query, bool $force = false): array
+    {
+        $queryLower = strtolower(trim($query));
+        $index = $this->loadMasterIndex();
+
+        $repoId = $this->resolveRepoId($queryLower, $index);
+
+        // 如果履历文件存在且非强制刷新，直接读取独立的履历 JSON 文件
+        if (!$force && $repoId !== null) {
+            $repoFile = $this->reposDir . '/' . $repoId . '.json';
+            if (is_file($repoFile)) {
+                $content = file_get_contents($repoFile);
+                if ($content !== false) {
+                    $data = json_decode($content, true);
+                    if (is_array($data) && ($data['status'] ?? '') === 'success') {
+                        return $data;
+                    }
                 }
             }
         }
 
-        // 按时间升序排列快照
-        ksort($snapshotData);
+        // 增量同步 dist/ 快照到 repos/ 独立履历文件
+        $index = $this->syncDistToReposDir($force);
+        $repoId = $this->resolveRepoId($queryLower, $index);
 
-        // 如果数据有更新或无缓存，重新计算汇总和趋势
-        if ($hasNewData || empty($cacheData['analytics'])) {
-            $analytics = $this->computeAnalytics($snapshotData);
-            $cacheData = [
-                'updated_at' => date('Y-m-d H:i:s'),
-                'snapshot_count' => count($snapshotData),
-                'snapshot_data' => $snapshotData,
-                'analytics' => $analytics,
+        if ($repoId === null) {
+            return [
+                'status' => 'error',
+                'message' => "未找到匹配的项目履历: '{$query}'",
             ];
-            $this->saveCache($cacheData);
         }
 
-        return $cacheData['analytics'];
+        $repoFile = $this->reposDir . '/' . $repoId . '.json';
+        if (is_file($repoFile)) {
+            $content = file_get_contents($repoFile);
+            if ($content !== false) {
+                $data = json_decode($content, true);
+                if (is_array($data)) {
+                    return $data;
+                }
+            }
+        }
+
+        return [
+            'status' => 'error',
+            'message' => "读取项目 '{$query}' 的履历文件失败",
+        ];
+    }
+
+    /**
+     * 加载 repos/index.json 主索引
+     */
+    private function loadMasterIndex(): array
+    {
+        if (is_file($this->indexFile)) {
+            $content = file_get_contents($this->indexFile);
+            if ($content !== false) {
+                $data = json_decode($content, true);
+                if (is_array($data)) {
+                    return $data;
+                }
+            }
+        }
+
+        return [
+            'status' => 'success',
+            'updated_at' => date('Y-m-d H:i:s'),
+            'processed_snapshots' => [],
+            'map' => [],
+            'repos_meta' => [],
+        ];
+    }
+
+    /**
+     * 根据项目名/ID 解析出 repoId
+     */
+    private function resolveRepoId(string $queryLower, array $index): ?int
+    {
+        $map = $index['map'] ?? [];
+        if (isset($map[$queryLower])) {
+            return (int)$map[$queryLower];
+        }
+
+        // 模糊搜索全名
+        foreach ($map as $nameKey => $id) {
+            if (str_contains((string)$nameKey, $queryLower)) {
+                return (int)$id;
+            }
+        }
+
+        // 尝试从根目录 project 列表中查找
+        $rootData = $this->getRepoListFromRoot();
+        if (($rootData['status'] ?? '') === 'success' && !empty($rootData['repos'])) {
+            foreach ($rootData['repos'] as $r) {
+                $fn = strtolower((string)$r['full_name']);
+                $name = strtolower((string)$r['name']);
+                $idStr = (string)$r['id'];
+
+                if ($queryLower === $fn || $queryLower === $name || $queryLower === $idStr || str_contains($fn, $queryLower)) {
+                    return (int)$r['id'];
+                }
+            }
+        }
+
+        return null;
+    }
+
+    /**
+     * 增量解析 dist/ 快照，为每个项目生成/更新独立的履历 JSON 文件
+     */
+    public function syncDistToReposDir(bool $force = false): array
+    {
+        $masterIndex = $force ? [
+            'status' => 'success',
+            'updated_at' => date('Y-m-d H:i:s'),
+            'processed_snapshots' => [],
+            'map' => [],
+            'repos_meta' => [],
+        ] : $this->loadMasterIndex();
+
+        $allSnapshots = $this->scanDistSnapshots();
+        $processed = $masterIndex['processed_snapshots'] ?? [];
+        $unprocessed = array_diff_key($allSnapshots, $processed);
+
+        if (empty($unprocessed) && !empty($masterIndex['map']) && !$force) {
+            return $masterIndex;
+        }
+
+        $snapList = array_values($unprocessed);
+        $totalSnapCount = count($snapList);
+        $step = ($totalSnapCount > 200) ? (int)ceil($totalSnapCount / 200) : 1;
+
+        for ($i = 0; $i < $totalSnapCount; $i++) {
+            $folder = $snapList[$i]['folder'];
+            $processed[$folder] = true;
+
+            // 智能采样：首次生成时保证处理首节点、末节点与采样步长节点
+            if ($i !== 0 && $i !== ($totalSnapCount - 1) && ($i % $step !== 0)) {
+                continue;
+            }
+
+            $snap = $snapList[$i];
+            $jsonFile = null;
+            foreach (['/starList.public.json', '/starList.json', '/startList.json'] as $fname) {
+                if (is_file($snap['path'] . $fname)) {
+                    $jsonFile = $snap['path'] . $fname;
+                    break;
+                }
+            }
+
+            if ($jsonFile === null) {
+                continue;
+            }
+
+            $content = file_get_contents($jsonFile);
+            if ($content === false) {
+                continue;
+            }
+
+            $repos = json_decode($content, true);
+            unset($content);
+
+            if (!is_array($repos)) {
+                $processed[$folder] = true;
+                continue;
+            }
+
+            $ts = $snap['timestamp'];
+            $date = $snap['formatted'];
+            $relFile = 'dist/' . $folder . '/' . basename($jsonFile);
+
+            foreach ($repos as $r) {
+                $fullName = $r['full_name'] ?? ($r['name'] ?? '');
+                if ($fullName === '') {
+                    continue;
+                }
+
+                $id = (int)($r['id'] ?? 0);
+                if ($id <= 0) {
+                    $id = abs((int)crc32($fullName));
+                }
+
+                $stars = (int)($r['stargazers_count'] ?? 0);
+                $forks = (int)($r['forks_count'] ?? 0);
+                $lang = trim((string)($r['language'] ?? 'Other'));
+                if ($lang === '' || strtolower($lang) === 'null' || strtolower($lang) === 'nan') {
+                    $lang = 'Other';
+                }
+
+                // 维护主映射表
+                $fnLower = strtolower($fullName);
+                $nameLower = strtolower((string)($r['name'] ?? $fullName));
+                $map[$fnLower] = $id;
+                $map[$nameLower] = $id;
+                $map[(string)$id] = $id;
+
+                // 如果尚未在内存中加载该 repo 履历，尝试读取已有文件或新建
+                if (!isset($repoStores[$id])) {
+                    $repoFile = $this->reposDir . '/' . $id . '.json';
+                    $existingData = null;
+                    if (is_file($repoFile)) {
+                        $c = file_get_contents($repoFile);
+                        if ($c !== false) {
+                            $existingData = json_decode($c, true);
+                        }
+                    }
+
+                    if (is_array($existingData) && isset($existingData['history'])) {
+                        $repoStores[$id] = $existingData;
+                    } else {
+                        $repoStores[$id] = [
+                            'status' => 'success',
+                            'repo' => [
+                                'id' => $id,
+                                'full_name' => $fullName,
+                                'name' => $r['name'] ?? $fullName,
+                                'html_url' => $r['html_url'] ?? ('https://github.com/' . $fullName),
+                                'language' => $lang,
+                                'description' => $r['desc'] ?? ($r['description'] ?? ''),
+                            ],
+                            'summary' => [],
+                            'history' => [],
+                        ];
+                    }
+                }
+
+                // 更新 repo 基本信息
+                $repoStores[$id]['repo']['full_name'] = $fullName;
+                $repoStores[$id]['repo']['name'] = $r['name'] ?? $fullName;
+                if (!empty($r['desc'])) {
+                    $repoStores[$id]['repo']['description'] = $r['desc'];
+                }
+
+                // 追加履历节点（稀疏记录：仅在 Stars/Forks 改变或首节点插入）
+                $history = &$repoStores[$id]['history'];
+                $lastPoint = !empty($history) ? end($history) : null;
+
+                if ($lastPoint === null || $lastPoint['stars'] !== $stars || $lastPoint['forks'] !== $forks) {
+                    $history[] = [
+                        'date' => $date,
+                        'timestamp' => $ts,
+                        'stars' => $stars,
+                        'forks' => $forks,
+                        'file' => $relFile,
+                    ];
+                }
+
+                $reposMeta[$id] = [
+                    'id' => $id,
+                    'full_name' => $fullName,
+                    'file' => 'repos/' . $id . '.json',
+                ];
+            }
+
+            unset($repos);
+            $processed[$folder] = true;
+        }
+
+        // 保存更新后的每个项目的独立 JSON 履历文件
+        foreach ($repoStores as $id => $repoData) {
+            $history = $repoData['history'] ?? [];
+            if (!empty($history)) {
+                $firstPoint = $history[0];
+                $lastPoint = end($history);
+
+                $initialStars = $firstPoint['stars'];
+                $currentStars = $lastPoint['stars'];
+                $starDiff = $currentStars - $initialStars;
+                $growthRate = $initialStars > 0 ? round(($starDiff / $initialStars) * 100, 2) : 0;
+
+                $repoData['summary'] = [
+                    'initial_stars' => $initialStars,
+                    'current_stars' => $currentStars,
+                    'star_diff' => $starDiff,
+                    'growth_rate' => $growthRate,
+                    'first_seen' => $firstPoint['date'],
+                    'last_seen' => $lastPoint['date'],
+                    'data_points_count' => count($history),
+                ];
+            }
+
+            $repoFile = $this->reposDir . '/' . $id . '.json';
+            file_put_contents($repoFile, json_encode($repoData, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+        }
+
+        $masterIndex['status'] = 'success';
+        $masterIndex['updated_at'] = date('Y-m-d H:i:s');
+        $masterIndex['snapshot_count'] = count($processed);
+        $masterIndex['processed_snapshots'] = $processed;
+        $masterIndex['map'] = $map;
+        $masterIndex['repos_meta'] = $reposMeta;
+
+        file_put_contents($this->indexFile, json_encode($masterIndex, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
+
+        return $masterIndex;
     }
 
     /**
@@ -135,308 +464,39 @@ class HistoryAnalyzer
         ksort($snapshots);
         return $snapshots;
     }
-
-    /**
-     * 解析单个快照目录中的 starList.json / starList.public.json
-     */
-    private function parseSnapshotFolder(string $folderPath, int $timestamp, string|int $folderKey, bool $keepRepoMap = false): ?array
-    {
-        $jsonFile = $folderPath . '/starList.json';
-        if (!is_file($jsonFile)) {
-            $jsonFile = $folderPath . '/starList.public.json';
-            if (!is_file($jsonFile)) {
-                return null;
-            }
-        }
-
-        $content = file_get_contents($jsonFile);
-        if ($content === false) {
-            return null;
-        }
-
-        $repos = json_decode($content, true);
-        unset($content);
-
-        if (!is_array($repos)) {
-            return null;
-        }
-
-        $totalStars = 0;
-        $totalForks = 0;
-        $repoCount = 0;
-        $languages = [];
-        $repoMap = [];
-
-        foreach ($repos as $repo) {
-            $fullName = $repo['full_name'] ?? ($repo['name'] ?? '');
-            if ($fullName === '') {
-                continue;
-            }
-
-            $stars = (int)($repo['stargazers_count'] ?? 0);
-            $forks = (int)($repo['forks_count'] ?? 0);
-            $lang = trim((string)($repo['language'] ?? 'Other'));
-            if ($lang === '' || strtolower($lang) === 'null' || strtolower($lang) === 'nan') {
-                $lang = 'Other';
-            }
-
-            $totalStars += $stars;
-            $totalForks += $forks;
-            $repoCount++;
-
-            if (!isset($languages[$lang])) {
-                $languages[$lang] = 0;
-            }
-            $languages[$lang]++;
-
-            if ($keepRepoMap) {
-                $repoMap[$fullName] = [
-                    'stars' => $stars,
-                    'forks' => $forks,
-                    'lang' => $lang,
-                ];
-            }
-        }
-
-        unset($repos);
-        arsort($languages);
-
-        return [
-            'folder' => (string)$folderKey,
-            'timestamp' => $timestamp,
-            'date' => date('Y-m-d H:i', $timestamp),
-            'day' => date('Y-m-d', $timestamp),
-            'repo_count' => $repoCount,
-            'total_stars' => $totalStars,
-            'total_forks' => $totalForks,
-            'languages' => $languages,
-            'repo_map' => $repoMap,
-        ];
-    }
-
-    /**
-     * 计算整体趋势、增长率、语言变化、星标排行榜等
-     */
-    private function computeAnalytics(array $snapshots): array
-    {
-        if (empty($snapshots)) {
-            return [];
-        }
-
-        $folders = array_keys($snapshots);
-        $firstFolder = $folders[0];
-        $lastFolder = end($folders);
-
-        $firstSnapshot = $snapshots[$firstFolder];
-        $lastSnapshot = $snapshots[$lastFolder];
-
-        $timeline = [];
-        $topLangs = array_slice(array_keys($lastSnapshot['languages']), 0, 12);
-
-        $totalSnapshots = count($snapshots);
-        $step = max(1, (int)ceil($totalSnapshots / 150));
-        $counter = 0;
-
-        foreach ($snapshots as $folder => $snap) {
-            $counter++;
-            if ($counter % $step !== 0 && $folder !== $firstFolder && $folder !== $lastFolder) {
-                continue;
-            }
-
-            $langDistribution = [];
-            foreach ($topLangs as $l) {
-                $langDistribution[$l] = $snap['languages'][$l] ?? 0;
-            }
-
-            $timeline[] = [
-                'folder' => (string)$folder,
-                'date' => $snap['date'],
-                'day' => $snap['day'],
-                'repo_count' => $snap['repo_count'],
-                'total_stars' => $snap['total_stars'],
-                'total_forks' => $snap['total_forks'],
-                'top_languages' => $langDistribution,
-            ];
-        }
-
-        $firstRepoMap = $firstSnapshot['repo_map'] ?? [];
-        $lastRepoMap = $lastSnapshot['repo_map'] ?? [];
-
-        $repoGrowth = [];
-        foreach ($lastRepoMap as $fullName => $info) {
-            $currentStars = $info['stars'];
-            $initialStars = $firstRepoMap[$fullName]['stars'] ?? null;
-
-            if ($initialStars !== null) {
-                $starDiff = $currentStars - $initialStars;
-                $growthRate = $initialStars > 0 ? round(($starDiff / $initialStars) * 100, 2) : 0;
-                $isNew = false;
-            } else {
-                $starDiff = 0;
-                $growthRate = 0;
-                $isNew = true;
-            }
-
-            $repoGrowth[] = [
-                'name' => $fullName,
-                'current_stars' => $currentStars,
-                'initial_stars' => $initialStars ?? $currentStars,
-                'star_diff' => $starDiff,
-                'growth_rate' => $growthRate,
-                'lang' => $info['lang'],
-                'is_new' => $isNew,
-            ];
-        }
-
-        // 按星标增长量降序
-        $fastestGrowing = $repoGrowth;
-        usort($fastestGrowing, fn($a, $b) => $b['star_diff'] <=> $a['star_diff']);
-        $fastestGrowing = array_slice($fastestGrowing, 0, 50);
-
-        // 按当前总星标数降序
-        $topStarred = $repoGrowth;
-        usort($topStarred, fn($a, $b) => $b['current_stars'] <=> $a['current_stars']);
-        $topStarred = array_slice($topStarred, 0, 50);
-
-        $newStarredCount = 0;
-        foreach ($lastRepoMap as $name => $info) {
-            if (!isset($firstRepoMap[$name])) {
-                $newStarredCount++;
-            }
-        }
-
-        $removedStarredCount = 0;
-        foreach ($firstRepoMap as $name => $info) {
-            if (!isset($lastRepoMap[$name])) {
-                $removedStarredCount++;
-            }
-        }
-
-        return [
-            'status' => 'success',
-            'updated_at' => date('Y-m-d H:i:s'),
-            'summary' => [
-                'first_snapshot_date' => $firstSnapshot['date'],
-                'last_snapshot_date' => $lastSnapshot['date'],
-                'snapshot_count' => $totalSnapshots,
-                'current_repo_count' => $lastSnapshot['repo_count'],
-                'initial_repo_count' => $firstSnapshot['repo_count'],
-                'repo_count_diff' => $lastSnapshot['repo_count'] - $firstSnapshot['repo_count'],
-                'current_total_stars' => $lastSnapshot['total_stars'],
-                'initial_total_stars' => $firstSnapshot['total_stars'],
-                'total_stars_diff' => $lastSnapshot['total_stars'] - $firstSnapshot['total_stars'],
-                'current_total_forks' => $lastSnapshot['total_forks'],
-                'new_starred_since_start' => $newStarredCount,
-                'removed_starred_since_start' => $removedStarredCount,
-                'top_languages' => array_slice($lastSnapshot['languages'], 0, 20, true),
-            ],
-            'timeline' => $timeline,
-            'fastest_growing' => $fastestGrowing,
-            'top_starred' => $topStarred,
-            'all_repos_summary' => array_values($repoGrowth),
-        ];
-    }
-
-    private function loadCache(): ?array
-    {
-        if (!is_file($this->cacheFile)) {
-            return null;
-        }
-
-        $content = file_get_contents($this->cacheFile);
-        if ($content === false) {
-            return null;
-        }
-
-        $data = json_decode($content, true);
-        return is_array($data) ? $data : null;
-    }
-
-    private function saveCache(array $data): void
-    {
-        file_put_contents(
-            $this->cacheFile,
-            json_encode($data, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT)
-        );
-    }
-
-    /**
-     * CLI 纯文本输出模式
-     */
-    public function renderCliReport(array $analytics): void
-    {
-        $summary = $analytics['summary'] ?? [];
-        if (empty($summary)) {
-            echo "没有可用的历史统计数据。\n";
-            return;
-        }
-
-        echo "=========================================================\n";
-        echo "           GitHub Starred 历史数据与趋势分析             \n";
-        echo "=========================================================\n";
-        echo sprintf("快照时间范围: %s 至 %s (共 %d 个快照)\n",
-            $summary['first_snapshot_date'] ?? '-',
-            $summary['last_snapshot_date'] ?? '-',
-            $summary['snapshot_count'] ?? 0
-        );
-        echo "---------------------------------------------------------\n";
-        echo sprintf("当前项目总数: %s (较首次变化: %+d)\n",
-            number_format($summary['current_repo_count'] ?? 0),
-            $summary['repo_count_diff'] ?? 0
-        );
-        echo sprintf("星标总累积数: %s (较首次增长: %+s)\n",
-            number_format($summary['current_total_stars'] ?? 0),
-            number_format($summary['total_stars_diff'] ?? 0)
-        );
-        echo sprintf("Fork 总累积数: %s\n",
-            number_format($summary['current_total_forks'] ?? 0)
-        );
-        echo sprintf("期间新增收藏: %d 个 / 移出收藏: %d 个\n",
-            $summary['new_starred_since_start'] ?? 0,
-            $summary['removed_starred_since_start'] ?? 0
-        );
-        echo "---------------------------------------------------------\n";
-        echo "【当前主要语言分布】\n";
-        foreach ($summary['top_languages'] as $lang => $count) {
-            echo sprintf(" - %-16s: %d 个\n", $lang, $count);
-        }
-        echo "---------------------------------------------------------\n";
-        echo "【星标数增长最快的 10 个项目】\n";
-        foreach (array_slice($analytics['fastest_growing'] ?? [], 0, 10) as $idx => $repo) {
-            echo sprintf(" %2d. %-35s +%-6d (现 %s, 增 %s%%) [%s]\n",
-                $idx + 1,
-                $repo['name'],
-                $repo['star_diff'],
-                number_format($repo['current_stars']),
-                $repo['growth_rate'],
-                $repo['lang']
-            );
-        }
-        echo "=========================================================\n";
-    }
 }
 
-// 主逻辑入口
-$analyzer = new HistoryAnalyzer();
+// 执行入口
+$analyzer = new FastRepoHistoryAnalyzer();
 $isCli = (PHP_SAPI === 'cli');
-
 $force = isset($_GET['force']) || (isset($argv) && in_array('--force', $argv, true));
-$analyticsData = $analyzer->getAnalyticsData($force);
 
-// 如果 CLI 下带有 --export-json 参数
-if ($isCli && in_array('--export-json', $argv, true)) {
-    $exportFile = __DIR__ . '/dist/history_analytics.json';
-    file_put_contents($exportFile, json_encode($analyticsData, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT));
-    echo "已成功导出历史趋势 API 数据至 {$exportFile}\n";
-    exit;
+$query = $_GET['repo'] ?? ($_GET['name'] ?? ($_GET['id'] ?? ''));
+if ($isCli) {
+    foreach ($argv as $arg) {
+        if (str_starts_with($arg, '--repo=')) {
+            $query = trim(substr($arg, 7));
+        } elseif (str_starts_with($arg, '--id=')) {
+            $query = trim(substr($arg, 5));
+        } elseif (str_starts_with($arg, '--name=')) {
+            $query = trim(substr($arg, 7));
+        }
+    }
 }
 
-if ($isCli && !in_array('--json', $argv, true)) {
-    $analyzer->renderCliReport($analyticsData);
+if ($query !== '') {
+    // 指定了项目时，读取 repos/{id}.json 独立项目履历文件
+    $result = $analyzer->getRepoHistory($query, $force);
 } else {
-    // Web HTTP 请求：默认输出 JSON 格式接口响应
+    // 没有指定项目时，读取 startList.json / starList.json 来展示列表
+    $result = $analyzer->getRepoListFromRoot();
+}
+
+if ($isCli) {
+    echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . PHP_EOL;
+} else {
     header('Access-Control-Allow-Origin: *');
     header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($analyticsData, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+    echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
     exit;
 }

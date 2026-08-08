@@ -1,0 +1,92 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 153473250,
+        "full_name": "chenlinzhong\/php-delayqueue",
+        "name": "php-delayqueue",
+        "html_url": "https:\/\/github.com\/chenlinzhong\/php-delayqueue",
+        "language": "PHP",
+        "description": "基于 PHP 实现的延迟队列系统，主要用于处理需要在指定时间后执行的任务，适用于订单超时处理、定时提醒等场景，依赖 Redis 的有序集合实现任务的调度与管理，支持任务的延迟执行、取消和状态查询，通常用于解耦耗时操作和提升系统响应速度。"
+    },
+    "summary": {
+        "initial_stars": 520,
+        "current_stars": 520,
+        "star_diff": 0,
+        "growth_rate": 0,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-07-16 00:00",
+        "data_points_count": 10
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 520,
+            "forks": 121,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2025-07-14 06:00",
+            "timestamp": 1752444000,
+            "stars": 521,
+            "forks": 121,
+            "file": "dist\/2025071406\/starList.json"
+        },
+        {
+            "date": "2025-09-04 06:00",
+            "timestamp": 1756936800,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2025090406\/starList.json"
+        },
+        {
+            "date": "2025-09-18 06:00",
+            "timestamp": 1758146400,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025091806\/starList.json"
+        },
+        {
+            "date": "2025-09-27 18:00",
+            "timestamp": 1758967200,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2025092718\/starList.json"
+        },
+        {
+            "date": "2025-10-11 18:00",
+            "timestamp": 1760176800,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025101118\/starList.json"
+        },
+        {
+            "date": "2025-10-17 18:00",
+            "timestamp": 1760695200,
+            "stars": 523,
+            "forks": 120,
+            "file": "dist\/2025101718\/starList.json"
+        },
+        {
+            "date": "2025-12-15 00:00",
+            "timestamp": 1765728000,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025121500\/starList.json"
+        },
+        {
+            "date": "2026-02-11 06:00",
+            "timestamp": 1770760800,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2026021106\/starList.json"
+        },
+        {
+            "date": "2026-07-16 00:00",
+            "timestamp": 1784131200,
+            "stars": 520,
+            "forks": 120,
+            "file": "dist\/2026071600\/starList.public.json"
+        }
+    ]
+}

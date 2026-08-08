@@ -318,6 +318,21 @@ class GitHubStarred
 		);
 		$this->copyFile($this->distPath . 'starList.public.json', $this->rootPath . '/starList.public.json');
 		echo "JSON 文件保存完成\n";
+
+		// 自动增量更新 repos/ 独立项目履历文件目录
+		try {
+			$historyFile = $this->rootPath . '/history.php';
+			if (is_file($historyFile)) {
+				require_once $historyFile;
+				if (class_exists('FastRepoHistoryAnalyzer')) {
+					$analyzer = new FastRepoHistoryAnalyzer($this->rootPath);
+					$analyzer->syncDistToReposDir();
+					echo "项目履历文件 (repos/) 增量同步完成\n";
+				}
+			}
+		} catch (\Throwable $e) {
+			echo "同步项目履历文件提示: " . $e->getMessage() . "\n";
+		}
 	}
 
 	private function buildPublicRepo(array $repo): array
