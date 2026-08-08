@@ -94,6 +94,7 @@ return [
 			'models' => $envModels('DEEPSEEK_MODELS', [
 				'deepseek-v4-flash',
 			]),
+			'concurrency' => $envInt('DEEPSEEK_CONCURRENCY', 0),
 		],
 		[
 			'name' => 'openrouter',
@@ -106,6 +107,7 @@ return [
 				'openai/gpt-4.1-nano',
 				'qwen/qwen3-32b',
 			]),
+			'concurrency' => $envInt('OPENROUTER_CONCURRENCY', 0),
 		],
 		[
 			'name' => 'openai',
@@ -114,12 +116,14 @@ return [
 			'models' => $envModels('OPENAI_MODELS', [
 				'gpt-5.6-luna',
 			]),
+			'concurrency' => $envInt('OPENAI_CONCURRENCY', 0),
 		],
 		[
 			'name' => 'custom',
 			'url' => $env('CUSTOM_URL', ''),
 			'key' => $env('CUSTOM_KEY', ''),
 			'models' => $envModels('CUSTOM_MODELS', []),
+			'concurrency' => $envInt('CUSTOM_CONCURRENCY', 0),
 		],
 	],
 	'GPT_PROMPT' => "你是一个专业的 GitHub 项目摘要生成器。用户会提供一个 GitHub 仓库名称或地址，请为该仓库生成一段中文纯文本简介。要求：

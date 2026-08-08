@@ -147,9 +147,18 @@ OPENAI_MODELS=gpt-5.6-luna
 CUSTOM_MODELS=your-model-name
 ```
 
+也可通过 `.env` 为每个渠道配置单独的并发数限制（不配置则使用全局 `REQUEST_CONCURRENCY`）：
+
+```ini
+DEEPSEEK_CONCURRENCY=5
+OPENROUTER_CONCURRENCY=10
+OPENAI_CONCURRENCY=3
+CUSTOM_CONCURRENCY=1
+```
+
 未配置 Key 或 URL 的渠道会自动跳过。多渠道互为备用，某个渠道请求失败时自动切换到下一个。
 
-`REQUEST_CONCURRENCY` 控制脚本对外请求的全局默认并发数，模型接口会按该值分块请求；`PAGE_CHUNK` 如未单独设置，也会使用该默认值作为 GitHub 分页并发。
+`REQUEST_CONCURRENCY` 控制脚本对外请求的全局默认并发数，如果渠道没有单独配置并发，模型接口会按该全局值分块请求；`PAGE_CHUNK` 如未单独设置，也会使用该默认值作为 GitHub 分页并发。
 
 不再兼容旧版 `GPT_KEY`、`GPT_URL`、`GPT_MODELS` 配置方式。
 

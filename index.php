@@ -609,7 +609,8 @@ class GitHubStarred
 		$results = [];
 		$maxRetryCount = 3; // 重试次数
 		$retryDelay = 2; // 重试延迟
-		$requestConcurrency = max(1, (int)($this->config['REQUEST_CONCURRENCY'] ?? 10));
+		$providerConcurrency = (int)($provider['concurrency'] ?? 0);
+		$requestConcurrency = $providerConcurrency > 0 ? $providerConcurrency : max(1, (int)($this->config['REQUEST_CONCURRENCY'] ?? 10));
 
 		$cacheDir = $this->cachePath . 'api'; // 单独缓存
 		if (!is_dir($cacheDir)) {
@@ -802,6 +803,7 @@ class GitHubStarred
 		$url = trim((string)($provider['url'] ?? ''));
 		$key = (string)($provider['key'] ?? '');
 		$models = $provider['models'] ?? [];
+		$concurrency = (int)($provider['concurrency'] ?? 0);
 
 		// 跳过未配置 url 或 key 的渠道
 		if ($url === '' || $key === '') {
@@ -823,6 +825,7 @@ class GitHubStarred
 				'url' => $url,
 				'key' => $key,
 				'model' => $model,
+				'concurrency' => $concurrency,
 			];
 		}
 
