@@ -6,16 +6,16 @@
         "name": "AppFlowy",
         "html_url": "https:\/\/github.com\/AppFlowy-IO\/AppFlowy",
         "language": "Dart",
-        "description": "AppFlowy 是一个开源的生产力工具，主要用于构建个性化的工作流和应用，支持数据可视化、自动化任务处理，适合需要灵活定制业务流程的团队或个人使用。"
+        "description": "AppFlowy 是一个开源的生产力平台，主要用作 Notion 的本地优先替代品，帮助个人和团队在一个统一工作区中管理文档、任务、数据库和看板。它提供丰富的块编辑器、双向链接、筛选与视图切换等能力，适合用于知识管理、项目协作、个人笔记和轻量级 CRM。由于数据默认存储在本地，更关注隐私保护与数据控制，同时支持通过插件和社区模板扩展功能。通常适合需要自托管或离线使用、追求灵活定制的团队与开发者。"
     },
     "summary": {
         "initial_stars": 64073,
-        "current_stars": 75012,
-        "star_diff": 10939,
-        "growth_rate": 17.07,
+        "current_stars": 75082,
+        "star_diff": 11009,
+        "growth_rate": 17.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 75012,
             "forks": 5791,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 75082,
+            "forks": 5798,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

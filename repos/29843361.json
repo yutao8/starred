@@ -6,7 +6,7 @@
         "name": "easywechat",
         "html_url": "https:\/\/github.com\/w7corp\/easywechat",
         "language": "PHP",
-        "description": "w7corp\/easywechat 是一个基于 EasyWeChat 的微信开发扩展包，主要用于简化 Laravel 框架中微信公众号、小程序、开放平台等模块的集成与配置。它封装了常用接口如消息推送、用户管理、菜单创建、支付等功能，支持服务化注入，便于在 Laravel 项目中快速实现微信相关业务逻辑，提高开发效率并降低接入成本。"
+        "description": "EasyWeChat 是一个基于 PHP 的微信开发工具包，用于快速接入微信公众号、小程序、企业微信、微信支付等官方 API。它封装了消息接收与回复、用户管理、二维码生成、模板消息、素材管理、支付回调等常见功能，并提供统一的接口风格和链式调用方式，大幅简化开发流程。通常适合需要处理微信生态业务的后端项目，如电商、客服系统、营销工具或企业应用。开发者可以直接通过 Composer 安装并使用，省去自行拼接请求和解析回调的繁琐工作。"
     },
     "summary": {
         "initial_stars": 10328,

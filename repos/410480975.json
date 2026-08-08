@@ -6,16 +6,16 @@
         "name": "NotionNext",
         "html_url": "https:\/\/github.com\/tangly1024\/NotionNext",
         "language": "JavaScript",
-        "description": "NotionNext 是一个基于 Notion API 的开源项目，主要用于将 Notion 内容快速构建为静态网站，支持博客、文档站等场景，具备简洁的主题设计与良好的 SEO 优化能力，适合个人知识分享与轻量级内容发布。"
+        "description": "NotionNext是一款基于Next.js的博客生成工具，它把Notion作为数据源，让用户无需搭建后台即可在Notion中写作，并自动生成一个快速、可部署的博客站点。核心功能包括自定义主题、全文搜索、评论系统、好友链接等，通常适合个人博客、知识库或作品集场景。它将Notion的编辑体验与静态站点的性能结合起来，解决了内容管理繁琐的问题。"
     },
     "summary": {
         "initial_stars": 9614,
-        "current_stars": 11719,
-        "star_diff": 2105,
-        "growth_rate": 21.9,
+        "current_stars": 11724,
+        "star_diff": 2110,
+        "growth_rate": 21.95,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 11719,
             "forks": 14708,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11724,
+            "forks": 14708,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

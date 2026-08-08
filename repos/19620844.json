@@ -6,16 +6,16 @@
         "name": "octotree",
         "html_url": "https:\/\/github.com\/ovity\/octotree",
         "language": "JavaScript",
-        "description": "用于在 GitHub 代码浏览界面侧边添加树状文件结构，便于快速导航和查看项目目录，提升代码阅读效率，适用于开发者在 GitHub 上浏览开源项目时更高效地定位文件。"
+        "description": "为GitHub浏览提供侧边栏文件树的浏览器扩展。它会在仓库页面侧边栏生成完整目录结构，支持折叠展开，免去逐层点击文件夹的麻烦。适合阅读大型项目源码、代码审查和日常仓库导航，能显著减少切换页面的次数，提升操作效率。安装后直接在GitHub页面内使用，无需额外配置，是开发者常用的效率工具。"
     },
     "summary": {
         "initial_stars": 23013,
-        "current_stars": 23228,
-        "star_diff": 215,
-        "growth_rate": 0.93,
+        "current_stars": 23225,
+        "star_diff": 212,
+        "growth_rate": 0.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 23228,
             "forks": 1781,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23225,
+            "forks": 1781,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

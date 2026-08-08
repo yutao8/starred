@@ -6,16 +6,16 @@
         "name": "MyIP",
         "html_url": "https:\/\/github.com\/jason5ng32\/MyIP",
         "language": "Vue",
-        "description": "用于查询和显示用户公网IP地址的小工具，支持通过命令行快速获取IP信息，适用于需要快速定位网络出口地址的场景，通常用于网络调试、自动化脚本或IP变动监控。"
+        "description": "用于查看本机公网 IP 和网络状态的开源工具，通常以网页形式部署运行，适合在网络诊断、代理配置验证或需要快速了解出口 IP 归属地时使用。它一般能展示当前网络的公网地址、IP 所属地区及运营商信息，并支持检测 IPv4\/IPv6 连通性、测速或常见网络端口是否可用。借助这些能力，可以有效帮助用户判断网络异常原因，或确认代理、VPN 是否按预期生效。整体设计偏向轻量实用，部署简单，面向需要掌握自己网络出口细节的开发者或普通用户。"
     },
     "summary": {
         "initial_stars": 8547,
-        "current_stars": 11486,
-        "star_diff": 2939,
-        "growth_rate": 34.39,
+        "current_stars": 11503,
+        "star_diff": 2956,
+        "growth_rate": 34.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 11486,
             "forks": 1206,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11503,
+            "forks": 1208,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

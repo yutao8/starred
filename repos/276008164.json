@@ -6,16 +6,16 @@
         "name": "ios_rule_script",
         "html_url": "https:\/\/github.com\/blackmatrix7\/ios_rule_script",
         "language": "JavaScript",
-        "description": "主要用于 iOS 平台的规则脚本集合，提供基于 Quantities、Loon、Surge 等工具的自动化网络请求处理方案，适用于自定义分流、去广告、应用增强等场景，支持定时任务与条件匹配，方便用户通过快捷指令或配置文件优化网络策略。"
+        "description": "面向 iOS\/macOS 常用的网络代理工具（如 Surge、Quantumult X、Loon、Shadowrocket）提供大量现成的规则集、脚本模块和订阅转换配置，主要用于拦截广告和追踪器、解锁部分应用功能，并通过定时任务自动更新规则或执行网络请求（如签到、数据抓取）。仓库内脚本按工具分类整理，自动化程度高，减少手动维护，适合需要精细化代理配置或希望利用脚本高效完成各类网络任务（如视频下载辅助）的用户。"
     },
     "summary": {
         "initial_stars": 21529,
-        "current_stars": 27442,
-        "star_diff": 5913,
-        "growth_rate": 27.47,
+        "current_stars": 27458,
+        "star_diff": 5929,
+        "growth_rate": 27.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 27442,
             "forks": 4051,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27458,
+            "forks": 4052,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

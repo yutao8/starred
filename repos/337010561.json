@@ -6,16 +6,16 @@
         "name": "bing-wallpaper",
         "html_url": "https:\/\/github.com\/niumoo\/bing-wallpaper",
         "language": "Java",
-        "description": "用于自动下载并设置必应每日壁纸的开源工具，支持 Windows、macOS 和 Linux 系统，可定时获取高清壁纸并应用于桌面，同时保存图片至本地，方便收藏与管理，适用于追求桌面美化的用户。"
+        "description": "用于获取必应每日精选壁纸，通常适合个人收藏或开发调用。它定期抓取必应首页的高清风景图，提供便捷的图片访问链接，支持多种常见分辨率。用户可以用它自动更新电脑桌面背景，也可以嵌入自己的应用或网页中展示每日更新图片。项目结构简单，易于部署，解决了手动下载壁纸的繁琐问题。"
     },
     "summary": {
         "initial_stars": 2450,
-        "current_stars": 3648,
-        "star_diff": 1198,
-        "growth_rate": 48.9,
+        "current_stars": 3656,
+        "star_diff": 1206,
+        "growth_rate": 49.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 3648,
             "forks": 513,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3656,
+            "forks": 514,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

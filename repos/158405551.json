@@ -6,16 +6,16 @@
         "name": "git-credential-manager",
         "html_url": "https:\/\/github.com\/git-ecosystem\/git-credential-manager",
         "language": "C#",
-        "description": "用于简化 Git 凭据管理的跨平台工具，支持 GitHub、Azure DevOps 等服务，可安全存储和检索仓库访问凭据，提升认证流程的安全性与便捷性，适用于命令行 Git 操作中的身份验证管理。"
+        "description": "管理 Git 认证凭据的工具，支持 GitHub、GitLab、Bitbucket 等主流平台的令牌与 OAuth 认证，能在推送或拉取代码时自动处理身份验证，避免反复输入密码。其核心价值在于安全存储凭据并支持多因素认证，通常适合在 Windows、macOS 和 Linux 上使用，尤其适合企业用户通过微软账户或其他单点登录方式访问 Git 服务。"
     },
     "summary": {
         "initial_stars": 7767,
-        "current_stars": 9153,
-        "star_diff": 1386,
-        "growth_rate": 17.84,
+        "current_stars": 9161,
+        "star_diff": 1394,
+        "growth_rate": 17.95,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 9153,
             "forks": 2880,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9161,
+            "forks": 2881,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

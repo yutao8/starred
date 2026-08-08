@@ -6,7 +6,7 @@
         "name": "gogocode",
         "html_url": "https:\/\/github.com\/thx\/gogocode",
         "language": "JavaScript",
-        "description": "一个基于 AST 的 JavaScript\/TypeScript 代码转换工具，主要用于自动化代码重构、语法升级和代码格式转换，通过简单 API 实现精准的代码模式匹配与替换，适合开发人员进行大规模项目迁移或代码规范统一。"
+        "description": "用于自动化代码转换和重构的 AST 工具，通常适合处理大规模代码升级、框架迁移和 Codemod 任务。它通过类 jQuery 的选择器语法快速定位和修改代码语法树，简化了传统手写 AST 遍历的繁琐流程，支持 JavaScript、TypeScript 等多种语言。常见场景包括 API 变更、样式库替换、React 或 Vue 版本升级等。相比同类工具，它上手简单，可读性强，适合集成到工程化流程中。"
     },
     "summary": {
         "initial_stars": 5963,

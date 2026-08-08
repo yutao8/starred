@@ -6,7 +6,7 @@
         "name": "php-crud-api",
         "html_url": "https:\/\/github.com\/mevdschee\/php-crud-api",
         "language": "PHP",
-        "description": "提供单个PHP文件实现的自动生成RESTful API服务，支持MySQL、PostgreSQL、SQL Server等数据库的增删改查操作，通过URL参数自动处理过滤、排序、搜索及关联表查询，适合快速为关系型数据库构建可直接使用的Web API接口，无需编写额外代码即可实现数据交互与管理功能。"
+        "description": "为常见数据库快速生成REST API的轻量级PHP单文件库，支持MySQL、PostgreSQL、SQL Server和SQLite。只需配置数据库连接，即可自动提供增删改查接口，常用于快速搭建后台服务、原型开发或为前端提供数据接口，适合需要简化后端开发流程、避免重复编写基础CRUD代码的场景。"
     },
     "summary": {
         "initial_stars": 3687,

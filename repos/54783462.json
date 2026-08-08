@@ -6,16 +6,16 @@
         "name": "SmarterStreaming",
         "html_url": "https:\/\/github.com\/daniulive\/SmarterStreaming",
         "language": "Java",
-        "description": "一个专注于音视频流媒体技术的开源项目，提供低延迟、高并发的推拉流解决方案，支持RTMP、HLS等主流协议，适用于直播、监控、在线教育等场景，具备灵活的自定义扩展能力与跨平台部署特性。"
+        "description": "面向移动端和 PC 端的跨平台流媒体直播与播放方案，专注于低延迟音视频传输，支持 RTMP 推拉流等常见协议。主要适用于实时直播、安防监控、视频通话等场景，能够帮助开发者在 Android、iOS、Windows 等设备上快速集成稳定高效的数据采集、编码、推流和播放能力，尤其适合对延迟和可靠性要求较高的应用，也常作为研究流媒体客户端实现的参考项目。"
     },
     "summary": {
         "initial_stars": 11080,
-        "current_stars": 11168,
-        "star_diff": 88,
-        "growth_rate": 0.79,
+        "current_stars": 11166,
+        "star_diff": 86,
+        "growth_rate": 0.78,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 139
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 140
     },
     "history": [
         {
@@ -990,6 +990,13 @@
             "stars": 11168,
             "forks": 2758,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11166,
+            "forks": 2757,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

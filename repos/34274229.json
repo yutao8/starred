@@ -6,16 +6,16 @@
         "name": "yakpro-po",
         "html_url": "https:\/\/github.com\/pk-fr\/yakpro-po",
         "language": "PHP",
-        "description": "yakpro-po 是一个 PHP 代码混淆工具，主要用于对 PHP 源码进行混淆和加密，以保护代码逻辑不被轻易逆向分析。它支持多种混淆功能，如变量名混淆、函数名混淆、控制流扁平化等，适合用于闭源项目的代码保护，提升源码的安全性和反破解能力。"
+        "description": "yakpro-po 是一款基于 PHP-Parser 的 PHP 代码混淆工具，主要用于保护 PHP 源码不被直接阅读和逆向分析。它通过重命名变量与函数、加密字符串、移除注释和空白、控制流扁平化等手段，将清晰可读的代码转换为难以理解的等价形式，同时保持原有逻辑和功能不变。典型使用场景包括商业软件分发、将 Web 应用部署到不可信环境，或需要隐藏业务逻辑的 PHP 项目。该工具适合开发者在发布前对源码进行混淆处理，提升知识产权保护强度，也可与自动构建流程结合使用。"
     },
     "summary": {
         "initial_stars": 1425,
-        "current_stars": 1570,
-        "star_diff": 145,
-        "growth_rate": 10.18,
+        "current_stars": 1571,
+        "star_diff": 146,
+        "growth_rate": 10.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 131
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 132
     },
     "history": [
         {
@@ -934,6 +934,13 @@
             "stars": 1570,
             "forks": 413,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1571,
+            "forks": 412,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

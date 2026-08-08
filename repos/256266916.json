@@ -6,7 +6,7 @@
         "name": "goindex-theme-acrou",
         "html_url": "https:\/\/github.com\/Achrou\/goindex-theme-acrou",
         "language": "JavaScript",
-        "description": "基于 goindex 开发的现代化文件列表主题，提供简洁美观的响应式界面，支持多种文件类型预览、暗黑模式切换与自定义配置，适用于个人网盘链接分享和资源管理，提升 Google Drive 等存储服务的网页访问体验。"
+        "description": "为 GoIndex 这类基于 Google Drive 的网盘索引程序提供一套美观的界面主题，核心功能是替代默认的简陋页面，让访客能像浏览精美文件管理器一样查看、下载云端文件。通常部署在 Cloudflare Workers 环境中，适合个人搭建在线资源分享站或团队内部文件展示页，可以自定义网站标题、布局样式、目录展示方式等，无需修改底层后端逻辑，只需替换主题文件即可生效。该项目特别适合希望快速提升网盘页视觉体验、且不想从头编写前端样式的用户，安装和配置都较为直接，能很好地与现有 GoIndex 实例结合使用。"
     },
     "summary": {
         "initial_stars": 1607,

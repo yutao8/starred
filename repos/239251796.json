@@ -6,16 +6,16 @@
         "name": "Crack-JS-Spider",
         "html_url": "https:\/\/github.com\/LoseNine\/Crack-JS-Spider",
         "language": "JavaScript",
-        "description": "用于破解和分析 JavaScript 加密逻辑的爬虫工具，主要用于逆向常见的反爬机制，帮助开发者理解并绕过由 JavaScript 实现的动态数据加密或签名算法，适用于需要抓取动态渲染网页数据的场景。"
+        "description": "面向爬虫开发与逆向分析场景，用于破解各类JavaScript反爬机制，包括动态Token、参数加密、混淆代码等。通过分析前端加载流程、断点追踪关键函数、还原加密算法，辅助定位并绕过网站对自动化访问的检测。通常适合在合法授权下处理数据采集难题，也适合安全人员研究前端防护逻辑。仓库可能包含实战案例、通用破解流程与相关脚本工具，以应对不断变换的反爬策略。"
     },
     "summary": {
         "initial_stars": 934,
-        "current_stars": 1033,
-        "star_diff": 99,
-        "growth_rate": 10.6,
+        "current_stars": 1034,
+        "star_diff": 100,
+        "growth_rate": 10.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 97
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 98
     },
     "history": [
         {
@@ -696,6 +696,13 @@
             "stars": 1033,
             "forks": 261,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1034,
+            "forks": 261,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

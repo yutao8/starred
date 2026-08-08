@@ -6,7 +6,7 @@
         "name": "alipay",
         "html_url": "https:\/\/github.com\/dedemao\/alipay",
         "language": "PHP",
-        "description": "该项目主要用于支付宝相关功能的集成与开发，可能包含支付接口调用、订单处理、回调验证等能力，适用于需要接入支付宝服务的Java应用，通常用于电商、金融服务等场景中的支付模块实现。"
+        "description": "这是一套用于对接支付宝开放平台接口的工具库，主要面向需要集成支付宝支付能力的 PHP 项目，通常适用于电商、交易系统、会员充值等场景。它封装了支付下单、订单查询、退款处理、异步回调验签等常见业务流程，帮助开发者避免直接处理复杂的签名算法和接口协议，从而快速完成支付宝相关功能的接入与调试。"
     },
     "summary": {
         "initial_stars": 1342,
@@ -14,8 +14,8 @@
         "star_diff": 46,
         "growth_rate": 3.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 74
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 75
     },
     "history": [
         {
@@ -535,6 +535,13 @@
             "stars": 1388,
             "forks": 643,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1388,
+            "forks": 642,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

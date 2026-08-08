@@ -6,16 +6,16 @@
         "name": "coloruicss",
         "html_url": "https:\/\/github.com\/weilanwl\/coloruicss",
         "language": "Vue",
-        "description": "一个用于快速构建美观用户界面的 CSS 框架，提供丰富的配色方案和简洁的样式组件，帮助开发者通过语义化类名轻松实现现代化、响应式的网页设计，适用于需要高效开发且注重视觉表现的项目。"
+        "description": "ColorUI 是一套专为微信小程序和 uni-app 等跨端应用设计的 CSS 样式库，主要提供丰富鲜艳的渐变色、常用组件样式和布局工具类，帮助开发者快速构建视觉统一的移动端界面。它通过简洁的类名即可实现按钮、标签、卡片、导航栏等常见元素的风格化，特别适合需要快速打造高颜值原型或中小型项目的场景。若你正在开发小程序或 H5 应用并希望减少手写样式的工作量，这套轻量方案能有效提升开发效率。"
     },
     "summary": {
         "initial_stars": 12371,
-        "current_stars": 12386,
-        "star_diff": 15,
-        "growth_rate": 0.12,
+        "current_stars": 12383,
+        "star_diff": 12,
+        "growth_rate": 0.1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 144
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 145
     },
     "history": [
         {
@@ -1025,6 +1025,13 @@
             "stars": 12386,
             "forks": 2184,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12383,
+            "forks": 2183,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

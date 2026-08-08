@@ -6,7 +6,7 @@
         "name": "php-amqplib",
         "html_url": "https:\/\/github.com\/php-amqplib\/php-amqplib",
         "language": "PHP",
-        "description": "PHP AMQP库，用于与遵循AMQP协议的消息代理（如RabbitMQ）进行交互，支持消息发布、消费、队列绑定等操作，适用于构建可靠的消息队列系统，处理异步任务和解耦应用组件。"
+        "description": "php-amqplib 是 PHP 生态中广泛使用的 AMQP 协议客户端，主要用于与 RabbitMQ 等消息代理进行交互。它实现了 AMQP 0-9-1 协议，让 PHP 应用能够声明队列和交换机、发布消息、接收并处理消息，支持可靠的消息确认与事务。适用于异步任务处理、服务间解耦、事件通知等场景，是构建分布式系统或队列化 PHP 后端的常用组件。"
     },
     "summary": {
         "initial_stars": 4547,

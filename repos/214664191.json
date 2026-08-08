@@ -6,7 +6,7 @@
         "name": "FrpClient-Win",
         "html_url": "https:\/\/github.com\/codemonkey-m\/FrpClient-Win",
         "language": "C#",
-        "description": "FrpClient-Win 是一个用于 Windows 平台的 Frp（Fast Reverse Proxy）客户端管理工具，主要用于简化内网穿透配置和管理流程。它通过图形化界面帮助用户快速启动、监控和管理 Frp 客户端连接，适合需要在 Windows 环境下稳定运行内网穿透服务的用户，提升使用 Frp 的便捷性和效率。"
+        "description": "面向 Windows 平台的 FRP 内网穿透图形客户端，主要用于简化 frpc 的配置与启动流程。它通过可视化界面管理隧道规则，将本地 Web 服务、远程桌面等端口映射到公网，适合需要远程访问内网资源或搭建临时公网服务的场景。用户无需手动编写复杂命令行参数，即可完成服务器地址、端口、认证信息等配置，并快速查看连接状态。适合个人开发者或运维人员使用，尤其适合对 frp 原生命令行不熟的用户。"
     },
     "summary": {
         "initial_stars": 309,

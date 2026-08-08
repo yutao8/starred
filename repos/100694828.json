@@ -6,7 +6,7 @@
         "name": "aria2-ariang-x-docker-compose",
         "html_url": "https:\/\/github.com\/wahyd4\/aria2-ariang-x-docker-compose",
         "language": "Other",
-        "description": "基于 Docker Compose 部署 Aria2 与 AriaNg 的一体化解决方案，便于快速搭建轻量级离线下载服务，支持 Web 界面管理下载任务，适合个人或小型团队使用。"
+        "description": "用于在服务器或 NAS 上快速搭建离线下载服务，主要通过 Docker Compose 编排 Aria2 下载引擎和 AriaNg 网页前端，让用户透过浏览器直观管理 HTTP、FTP、BitTorrent 等下载任务。典型场景包括长时间挂机下载、远程控制下载进度、自建下载中心，通常适合与文件管理工具或安全面板等扩展组件配合。部署时只需准备 docker-compose 配置文件即可启动整套环境，后续可通过修改配置调整下载目录、端口映射与下载选项，比较便于集成到现有家庭服务器或云主机中。整体上简化了多容器配置的繁琐过程，是面向自托管用户的轻量解决方案。"
     },
     "summary": {
         "initial_stars": 1807,

@@ -6,16 +6,16 @@
         "name": "phpspider",
         "html_url": "https:\/\/github.com\/owner888\/phpspider",
         "language": "PHP",
-        "description": "基于 PHP 的网页爬虫框架，主要用于快速构建数据抓取和网络爬虫应用，支持灵活配置采集规则、自动分页、数据存储等功能，适合对特定网站内容进行定向采集和结构化处理，简化了网页解析与数据提取流程。"
+        "description": "用于 PHP 环境下的网络爬虫开发，PHPSpider 帮助快速搭建数据采集任务。它提供多线程并发抓取、URL 调度去重、正则与 XPath 内容提取、数据入库等常用能力，并支持断点续爬和长时间运行，适合新闻聚合、商品价格监控、舆情分析等需要批量获取网页信息的场景。相比从零编写抓取脚本，它能减少重复工作，提高采集稳定性，特别适合以 PHP 为主要技术栈的开发者使用。"
     },
     "summary": {
         "initial_stars": 3490,
-        "current_stars": 3467,
-        "star_diff": -23,
-        "growth_rate": -0.66,
+        "current_stars": 3466,
+        "star_diff": -24,
+        "growth_rate": -0.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 53
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 54
     },
     "history": [
         {
@@ -388,6 +388,13 @@
             "stars": 3467,
             "forks": 1149,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3466,
+            "forks": 1149,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

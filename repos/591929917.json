@@ -6,16 +6,16 @@
         "name": "NetworkPanel",
         "html_url": "https:\/\/github.com\/ljxi\/NetworkPanel",
         "language": "Vue",
-        "description": "NetworkPanel 是一个用于监控和调试网络请求的 Android 开源库，主要用于在应用内实时查看 HTTP\/HTTPS 请求与响应的详细信息，方便开发和测试过程中排查网络问题，提升调试效率。"
+        "description": "用于网络代理服务的可视化管理和流量监控，提供Web界面来配置代理节点、查看连接状态和统计流量数据，并支持简单的访问控制。通常适合部署在服务器或路由器上，用于家庭网络加速或小型团队共享代理资源，既可替代命令行工具，也能帮助非技术用户直观管理网络连接。"
     },
     "summary": {
         "initial_stars": 730,
-        "current_stars": 969,
-        "star_diff": 239,
-        "growth_rate": 32.74,
+        "current_stars": 970,
+        "star_diff": 240,
+        "growth_rate": 32.88,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 144
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 145
     },
     "history": [
         {
@@ -1025,6 +1025,13 @@
             "stars": 969,
             "forks": 223,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 970,
+            "forks": 223,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

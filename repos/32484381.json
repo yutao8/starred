@@ -6,16 +6,16 @@
         "name": "free-for-dev",
         "html_url": "https:\/\/github.com\/ripienaar\/free-for-dev",
         "language": "HTML",
-        "description": "提供一系列对开发者和小型企业完全免费的软件和服务，涵盖开发工具、监控、CI\/CD、API 服务等多个领域，旨在帮助个人开发者和初创团队降低技术成本，通过精心筛选的高质量免费资源提升开发效率和项目能力。"
+        "description": "面向开发者的免费服务资源聚合清单，收录了数百项可长期免费使用的云主机、数据库、API、CDN、监控、CI\/CD 等工具与服务，并按类别整理便于检索。适合个人开发者、初创团队在预算有限时快速找到替代方案，主要用于降低原型验证和中小规模项目的运营成本，也常被用来对比各厂商免费额度。清单维护活跃，覆盖基础设施、SaaS 工具以及开源替代品，是查找免费技术资源的重要参考。"
     },
     "summary": {
         "initial_stars": 100830,
-        "current_stars": 131186,
-        "star_diff": 30356,
-        "growth_rate": 30.11,
+        "current_stars": 131298,
+        "star_diff": 30468,
+        "growth_rate": 30.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 131186,
             "forks": 13741,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 131298,
+            "forks": 13759,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

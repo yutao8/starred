@@ -6,16 +6,16 @@
         "name": "aliyundrive-webdav",
         "html_url": "https:\/\/github.com\/messense\/aliyundrive-webdav",
         "language": "Rust",
-        "description": "将阿里云盘通过 WebDAV 协议挂载为本地磁盘，无需官方客户端即可实现文件管理，支持多平台访问与自动化同步，适用于个人云存储扩展和媒体库挂载等场景。"
+        "description": "将阿里云盘变为标准 WebDAV 服务，方便你用支持 WebDAV 的客户端直接挂载和访问云端文件。通常以本地服务方式运行，提供 HTTP 接口，使播放器、阅读器、文件管理器等应用能够像操作本地文件一样读写阿里云盘内容。适合解决阿里云盘官方客户端不通用、第三方应用难以接入的问题，也适合在 NAS 或路由器上部署，作为家庭影音和文件同步的中间层。该项目用 Rust 编写，性能较好，部署简单，支持多平台运行。"
     },
     "summary": {
         "initial_stars": 9771,
-        "current_stars": 9778,
-        "star_diff": 7,
-        "growth_rate": 0.07,
+        "current_stars": 9777,
+        "star_diff": 6,
+        "growth_rate": 0.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 163
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 164
     },
     "history": [
         {
@@ -1158,6 +1158,13 @@
             "stars": 9778,
             "forks": 1071,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9777,
+            "forks": 1071,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

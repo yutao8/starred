@@ -6,16 +6,16 @@
         "name": "Emulatrix",
         "html_url": "https:\/\/github.com\/lrusso\/Emulatrix",
         "language": "HTML",
-        "description": "Emulatrix 是一个专注于 Atari 2600 游戏模拟的开源项目，主要用于在现代设备上运行和测试经典游戏 ROM，支持精确的硬件仿真和调试功能，适合复古游戏爱好者和模拟器开发者使用。"
+        "description": "Emulatrix 是一款多合一模拟器工具，主要用来通过同一个界面运行多种经典游戏机与掌机上的老游戏。它的核心价值在于免去用户分别下载和切换多个独立模拟器的麻烦，统一管理游戏文件与对应的模拟环境，并在一套操作界面中完成启动和游玩。通常适合怀旧游戏爱好者、复古游戏收藏者以及想在手机或电脑上重温早期游戏作品的人。项目基于常见的模拟器生态构建，也便于开发者了解或集成多系统模拟能力。"
     },
     "summary": {
         "initial_stars": 336,
-        "current_stars": 371,
-        "star_diff": 35,
-        "growth_rate": 10.42,
+        "current_stars": 372,
+        "star_diff": 36,
+        "growth_rate": 10.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 52
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 53
     },
     "history": [
         {
@@ -381,6 +381,13 @@
             "stars": 371,
             "forks": 136,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 372,
+            "forks": 137,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

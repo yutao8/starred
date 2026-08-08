@@ -6,7 +6,7 @@
         "name": "pikpak",
         "html_url": "https:\/\/github.com\/xiaokaixuan\/pikpak",
         "language": "Vue",
-        "description": "pikpak 是一个专注于提供高效、安全文件存储与分享服务的开源项目，支持多平台客户端与 Web 端，具备高速传输、端到端加密、离线下载等功能，适合个人与团队用于云端文件管理、备份与协作，尤其适用于对隐私保护和大文件传输有较高要求的场景。"
+        "description": "围绕PikPak网盘开发的第三方工具，主要用于封装其核心服务，提供命令行或程序化调用接口，帮助用户自动管理文件与离线下载任务，适合有脚本操作或集成需求的场景，具体功能以仓库代码和文档为准。"
     },
     "summary": {
         "initial_stars": 90,
@@ -14,8 +14,8 @@
         "star_diff": 14,
         "growth_rate": 15.56,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-28 00:00",
-        "data_points_count": 85
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 86
     },
     "history": [
         {
@@ -612,6 +612,13 @@
             "stars": 104,
             "forks": 1014,
             "file": "dist\/2026072800\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 104,
+            "forks": 1012,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "HoRNDIS",
         "html_url": "https:\/\/github.com\/jwise\/HoRNDIS",
         "language": "C++",
-        "description": "HoRNDIS 是一个让 Windows 设备在 macOS 上通过 USB 网络共享功能联网的驱动工具，主要用于 iPhone、Android 手机等设备与 Mac 建立 RNDIS 网络连接，实现便捷的反向网络共享，无需额外配置即可让 Mac 访问手机网络。"
+        "description": "面向macOS的内核扩展驱动，主要用来让Mac电脑通过USB线连接Android手机时，将手机的网络共享识别为普通网卡，从而实现即插即用式上网，省去安装第三方管理器或手动配置网络的过程。它实现了RNDIS协议，适合在没有Wi-Fi的场合使用手机流量临时给Mac供网。由于依赖传统内核扩展，在新版macOS上可能需要关闭SIP或调整安全策略，兼容性受限。"
     },
     "summary": {
         "initial_stars": 3083,

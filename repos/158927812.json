@@ -6,16 +6,16 @@
         "name": "lsd",
         "html_url": "https:\/\/github.com\/lsd-rs\/lsd",
         "language": "Rust",
-        "description": "一个用 Rust 编写的现代化 ls 命令行替代工具，提供更直观的彩色输出、图标显示和可配置的文件排序方式，提升终端中的目录浏览体验，主要用于替代传统 ls 并增强视觉识别效率。"
+        "description": "为 ls 命令提供现代化替代方案，用丰富的色彩、文件类型图标和清晰的排版增强目录浏览体验，同时兼容常见的 ls 参数与排序选项，并支持树形视图显示。适合在终端中快速查看目录结构、区分文件类型或整理项目文件，尤其适合喜欢自定义外观或需要更直观输出界面的开发者与运维人员。作为原生命令的增强版，它无需复杂配置即可替换系统自带的 ls。"
     },
     "summary": {
         "initial_stars": 14474,
-        "current_stars": 16162,
-        "star_diff": 1688,
-        "growth_rate": 11.66,
+        "current_stars": 16165,
+        "star_diff": 1691,
+        "growth_rate": 11.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 16162,
             "forks": 507,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16165,
+            "forks": 509,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

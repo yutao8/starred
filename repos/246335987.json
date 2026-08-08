@@ -6,16 +6,16 @@
         "name": "Ventoy",
         "html_url": "https:\/\/github.com\/ventoy\/Ventoy",
         "language": "C",
-        "description": "Ventoy 是一个开源工具，用于创建可启动的U盘，支持直接拷贝ISO\/WIM\/IMG\/VHD(x)\/EFI等镜像文件到U盘并直接启动，无需反复格式化，兼容 Legacy BIOS 和 UEFI 模式，简化多系统安装和维护流程。"
+        "description": "Ventoy是一款开源的可启动U盘制作工具，核心功能是将U盘变成多镜像启动盘。用户只需将ISO、WIM等镜像文件直接拷贝到U盘，启动时即可通过菜单选择所需系统或工具，无需反复格式化或分区。它主要解决传统启动盘制作工具需逐个写入镜像、过程繁琐的问题，适合系统安装、系统维护、PE工具包等场景，同时支持UEFI和传统BIOS启动模式，兼容性广泛。"
     },
     "summary": {
         "initial_stars": 68856,
-        "current_stars": 78544,
-        "star_diff": 9688,
-        "growth_rate": 14.07,
+        "current_stars": 78570,
+        "star_diff": 9714,
+        "growth_rate": 14.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 78544,
             "forks": 4884,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 78570,
+            "forks": 4885,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "shadowsocks-iOS",
         "html_url": "https:\/\/github.com\/shadowsocks\/shadowsocks-iOS",
         "language": "Objective-C",
-        "description": "Shadowsocks-iOS 是一个为 iOS 设备设计的 Shadowsocks 客户端，用于科学上网。它支持 SS 协议的基本功能，如本地代理、多种加密方式、远程服务器连接等，帮助用户在 iOS 平台上安全、便捷地访问被限制的网络内容。通常配合 VPS 搭建的 Shadowsocks 服务端使用，适合需要翻墙的用户。"
+        "description": "shadowsocks-iOS 是运行在 iPhone 和 iPad 上的 Shadowsocks 客户端，用于通过配置好的代理服务器转发网络流量，帮助用户在受限制的网络环境中访问被屏蔽的网站和服务。它主要提供服务器地址、端口、密码及加密方式等参数管理，支持一键开关代理连接，并允许在不同服务器配置间切换。适合需要绕过网络审查、保护个人隐私或稳定访问境外服务的 iOS 用户。需注意该项目已不再积极维护，在新版系统上可能存在兼容性问题。"
     },
     "summary": {
         "initial_stars": 8171,
@@ -14,8 +14,8 @@
         "star_diff": -39,
         "growth_rate": -0.48,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 121
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 122
     },
     "history": [
         {
@@ -864,6 +864,13 @@
             "stars": 8132,
             "forks": 3390,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8132,
+            "forks": 3387,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

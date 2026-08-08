@@ -6,16 +6,16 @@
         "name": "ss-panel",
         "html_url": "https:\/\/github.com\/orvice\/ss-panel",
         "language": "PHP",
-        "description": "一个基于 PHP 的 Shadowsocks 管理面板，主要用于搭建和管理 SS 服务，支持多用户、流量统计、节点管理及支付接口，适合个人或组织搭建科学上网服务。"
+        "description": "ss-panel 是一个用于 Shadowsocks 科学上网服务的 Web 管理面板，主要帮助运营者管理用户账号、节点信息、流量配额与在线状态。它通常支持用户注册、套餐购买、订阅链接生成、流量统计和支付接口对接，适合需要搭建小型或中型机场服务的技术团队或个人维护者。通过图形界面替代手动配置，能够批量创建账号、分发配置，并实时监控节点负载与使用情况，方便日常运维和用户自助服务。"
     },
     "summary": {
         "initial_stars": 3625,
-        "current_stars": 3605,
-        "star_diff": -20,
-        "growth_rate": -0.55,
+        "current_stars": 3604,
+        "star_diff": -21,
+        "growth_rate": -0.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 85
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 86
     },
     "history": [
         {
@@ -612,6 +612,13 @@
             "stars": 3605,
             "forks": 1546,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3604,
+            "forks": 1544,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

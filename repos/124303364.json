@@ -6,16 +6,16 @@
         "name": "squoosh",
         "html_url": "https:\/\/github.com\/GoogleChromeLabs\/squoosh",
         "language": "TypeScript",
-        "description": "Squoosh 是一个网页工具，用于以高效且直观的方式压缩和转换图片。它支持多种现代图像格式（如 WebP、AVIF、JPEG-XL），提供可视化比较功能，帮助用户在压缩前后对比画质与文件大小，从而在保持视觉质量的同时最小化文件体积，特别适合网页性能优化场景。"
+        "description": "Squoosh 是一款基于浏览器的图片压缩工具，由 Google Chrome Labs 开发，无需上传图片即可在本地完成压缩，保护隐私。它支持 WebP、AVIF、JPEG、PNG 等主流格式互转，并提供滑块实时对比压缩前后的质量与体积。用户可针对不同使用场景（如网页加载优化、社交媒体分享）灵活调整编码参数，适合需要快速批量优化图片大小而又不愿安装桌面软件的开发者或设计师。"
     },
     "summary": {
         "initial_stars": 23168,
-        "current_stars": 25626,
-        "star_diff": 2458,
-        "growth_rate": 10.61,
+        "current_stars": 25650,
+        "star_diff": 2482,
+        "growth_rate": 10.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 25626,
             "forks": 2051,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 25650,
+            "forks": 2087,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

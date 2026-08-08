@@ -6,7 +6,7 @@
         "name": "maccms10",
         "html_url": "https:\/\/github.com\/magicblack\/maccms10",
         "language": "PHP",
-        "description": "Magicblack\/maccms10 是一个基于 PHP 开发的影视内容管理系统，主要用于快速搭建视频网站。它支持自动生成静态页面、智能采集远程资源、SEO 优化等功能，适合用于影视、综艺、动漫等内容的展示与管理，具备良好的扩展性和模板生态。"
+        "description": "用于快速搭建视频资源网站的PHP开源系统，通常称为苹果CMS v10。适用于影视内容站点或个人影视站，核心功能包括视频分类管理、内容发布、数据采集、播放器对接和用户会员体系。系统支持通过采集规则自动获取更新视频资源，大幅降低手动维护成本，适合需要持续更新大量影片资源的场景。前台界面由模板驱动，便于调整展示风格，技术栈基于PHP开发，部署相对简单，适合中小规模站点使用和二次开发。"
     },
     "summary": {
         "initial_stars": 2528,
@@ -14,8 +14,8 @@
         "star_diff": 311,
         "growth_rate": 12.3,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 2839,
             "forks": 975,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2839,
+            "forks": 977,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

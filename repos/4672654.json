@@ -6,7 +6,7 @@
         "name": "yar",
         "html_url": "https:\/\/github.com\/laruence\/yar",
         "language": "C",
-        "description": "一个基于 PHP 扩展实现的轻量级、高性能的 RPC 框架，主要用于解决 PHP 语言在构建分布式服务时的通信问题，适合需要高效远程调用的场景。"
+        "description": "Yar 是一个轻量级的 PHP RPC 框架，用于在多个服务之间快速发起并发远程调用。它基于 PHP 扩展实现，支持并行请求，能够显著降低多服务通信的延迟，适用于微服务架构、内部服务接口聚合以及需要同时调用多个后端场景。使用简单，性能较高，通常适合想要避免引入重量级消息队列或复杂服务网格的 PHP 项目。"
     },
     "summary": {
         "initial_stars": 1438,

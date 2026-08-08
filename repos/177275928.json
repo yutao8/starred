@@ -6,7 +6,7 @@
         "name": "Request",
         "html_url": "https:\/\/github.com\/WindRunnerMax\/Request",
         "language": "Python",
-        "description": "WindRunnerMax\/Request 是一个轻量级的 HTTP 请求库，主要用于简化浏览器端的网络请求操作，支持链式调用、拦截器、请求取消等特性，适合在前端项目中替代原生 fetch 或 XMLHttpRequest 进行更便捷的数据交互。"
+        "description": "用于处理网络请求的 JavaScript\/TypeScript 工具库，主要面向浏览器或 Node.js 环境，封装了 HTTP 请求的发送与响应处理逻辑。通常适合在前端项目中统一管理接口调用，支持请求拦截、错误处理等常见需求，帮助开发者减少重复代码，提升数据交互效率。也适用于需要自定义请求行为或对请求流程进行细致控制的场景。"
     },
     "summary": {
         "initial_stars": 144,

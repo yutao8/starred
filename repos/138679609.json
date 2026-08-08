@@ -6,7 +6,7 @@
         "name": "ServerStatus",
         "html_url": "https:\/\/github.com\/cppla\/ServerStatus",
         "language": "C++",
-        "description": "ServerStatus 是一个用于监控服务器状态的工具，主要用于实时展示多台服务器的 CPU、内存、网络等资源使用情况，支持跨平台部署和自定义告警，适合运维人员对主机健康状况进行集中监控与管理。"
+        "description": "服务器状态监控工具，用于同时监测多台服务器的运行状态，包括在线情况、CPU、内存、磁盘和流量等实时数据。它采用服务端汇总展示、客户端采集上报的架构，客户端轻量易部署，服务端提供简洁的 Web 界面。常见使用场景是个人或小团队管理多台 VPS 或云主机，只需部署一次即可在单一页面直观查看所有机器的健康指标。相比单纯 ping 检测，它能给出更详细的性能数据和历史趋势，适合用来集中运维分散的主机群，排查资源占用异常或网络波动问题。"
     },
     "summary": {
         "initial_stars": 4464,
@@ -14,8 +14,8 @@
         "star_diff": 214,
         "growth_rate": 4.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 157
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 158
     },
     "history": [
         {
@@ -1116,6 +1116,13 @@
             "stars": 4678,
             "forks": 930,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4678,
+            "forks": 929,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

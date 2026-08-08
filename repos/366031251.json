@@ -6,16 +6,16 @@
         "name": "vxe-pc-ui",
         "html_url": "https:\/\/github.com\/x-extends\/vxe-pc-ui",
         "language": "TypeScript",
-        "description": "基于 Vue.js 的桌面端 UI 组件库，主要用于构建企业级中后台管理系统界面，提供丰富的表格、表单、弹窗等常用组件，支持主题定制与国际化，提升开发效率与用户体验。"
+        "description": "vxe-pc-ui 是一套面向 PC 端的 Vue 组件库，主要用于中后台管理系统的界面开发。它围绕数据密集场景设计，提供包括表格、表单、弹窗、布局等常用组件，能够满足复杂业务下的数据展示、编辑和交互需求。组件设计通常注重性能与可定制性，适合需要快速搭建企业级应用的前端团队使用。与同类库相比，它更强调表格处理能力，常被用于配合数据表格类功能使用。"
     },
     "summary": {
         "initial_stars": 147,
-        "current_stars": 233,
-        "star_diff": 86,
-        "growth_rate": 58.5,
+        "current_stars": 235,
+        "star_diff": 88,
+        "growth_rate": 59.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 79
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 80
     },
     "history": [
         {
@@ -570,6 +570,13 @@
             "stars": 233,
             "forks": 43,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 235,
+            "forks": 43,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

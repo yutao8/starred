@@ -6,7 +6,7 @@
         "name": "rest-api-to-miniprogram",
         "html_url": "https:\/\/github.com\/iamxjb\/rest-api-to-miniprogram",
         "language": "PHP",
-        "description": "将 REST API 快速转换为微信小程序可用的接口调用代码，自动生成请求方法、参数处理和类型定义，简化小程序与后端服务的对接流程。"
+        "description": "用于将 REST API 接口无缝接入小程序开发流程的工具。它通常根据接口描述文件自动生成对应的小程序端请求代码，免去手动编写网络请求和参数封装的繁琐过程。核心功能包括统一管理请求地址、自动处理常见 HTTP 方法，并生成可调用的 JavaScript 模块。典型场景是微信小程序或其它小程序平台对接后端接口时，通过该工具快速生成可维护的 API 层，减少切换文档与编码的重复劳动。适合需要标准化、批量化生成接口请求代码的团队，尤其适合接口数量多、变更频繁的项目。"
     },
     "summary": {
         "initial_stars": 243,

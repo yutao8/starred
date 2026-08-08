@@ -6,16 +6,16 @@
         "name": "WebStackPage.github.io",
         "html_url": "https:\/\/github.com\/WebStackPage\/WebStackPage.github.io",
         "language": "CSS",
-        "description": "一个基于 GitHub Pages 构建的导航网站模板，主要用于收集和分类各类网站，支持响应式布局和自定义主题，适合个人或团队搭建资源聚合页、书签导航或开源项目展示平台。"
+        "description": "用于搭建个人或团队网址导航页的开源项目，基于静态页面，可部署到 GitHub Pages。它提供网址分类收纳、快速搜索、图标展示等功能，支持多主题和自定义配色，适合把浏览器书签或常用链接整理成美观的起始页，常被个人用作浏览器主页，也被团队用作内部链接导航门户，替代默认标签页以提高高频网址的访问效率。"
     },
     "summary": {
         "initial_stars": 6913,
-        "current_stars": 7316,
-        "star_diff": 403,
-        "growth_rate": 5.83,
+        "current_stars": 7314,
+        "star_diff": 401,
+        "growth_rate": 5.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 7316,
             "forks": 2108,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7314,
+            "forks": 2108,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "wechatpay-guzzle-middleware",
         "html_url": "https:\/\/github.com\/wechatpay-apiv3\/wechatpay-guzzle-middleware",
         "language": "PHP",
-        "description": "用于在 Guzzle HTTP 客户端中集成微信支付 API v3 的签名、验签、敏感字段加解密等安全机制，简化与微信支付平台证书交互流程，提升接口调用的安全性与便捷性。"
+        "description": "用于微信支付 API v3 的 PHP Guzzle 中间件，在基于 Guzzle 的 HTTP 请求中自动处理商户请求签名、平台响应验签和敏感字段加解密，免去手动实现安全协议的麻烦。通常适合在 PHP 服务端项目中整合微信支付商户能力，例如发起支付、查询订单、处理回调等场景，让开发者只关注业务逻辑而不必操心底层签名与加密细节。该中间件与微信支付官方 API v3 规范保持一致，可降低接入门槛并减少安全漏洞风险。"
     },
     "summary": {
         "initial_stars": 206,

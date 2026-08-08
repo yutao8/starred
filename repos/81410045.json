@@ -6,7 +6,7 @@
         "name": "weibo_image_uploader",
         "html_url": "https:\/\/github.com\/consatan\/weibo_image_uploader",
         "language": "PHP",
-        "description": "用于将微博图片批量上传并保存到指定存储位置，支持自动捕获微博中的图片内容，适用于微博数据备份、图片资源采集等场景，通常与爬虫或自动化脚本配合使用。"
+        "description": "用于将本地图片上传至微博并获取图片外链，常被当作免费图床使用。这类工具通常面向博客写作、Markdown 排版、文档存储等需要远程图片引用的场景，能快速生成可被第三方网页引用的链接。一般支持从命令行或剪贴板上传，批量处理图片，并把得到的 URL 保存到剪贴板，方便直接粘贴。适合需要稳定、零成本存放静态图片的个人站长或内容创作者。"
     },
     "summary": {
         "initial_stars": 129,

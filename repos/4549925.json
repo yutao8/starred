@@ -6,16 +6,16 @@
         "name": "psysh",
         "html_url": "https:\/\/github.com\/bobthecow\/psysh",
         "language": "PHP",
-        "description": "一个功能强大的 PHP 交互式解释器（REPL），提供实时执行代码、调试和探索 PHP 语法的能力，支持自动补全、语法高亮和历史记录，常用于开发调试或学习 PHP。"
+        "description": "PsySH 是一个面向 PHP 开发者的交互式调试与开发工具，提供类似 Python 控制台的实时 REPL 环境。它让你在运行中输入并执行 PHP 表达式、查看变量、调用函数，并支持语法高亮、自动补全、文档预览和包含来自框架或项目的上下文，常用于快速测试代码片段、排查逻辑问题、探索现有类与命名空间，以及替代临时脚本进行调试。"
     },
     "summary": {
         "initial_stars": 9788,
-        "current_stars": 9835,
-        "star_diff": 47,
-        "growth_rate": 0.48,
+        "current_stars": 9834,
+        "star_diff": 46,
+        "growth_rate": 0.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 116
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 117
     },
     "history": [
         {
@@ -829,6 +829,13 @@
             "stars": 9835,
             "forks": 318,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9834,
+            "forks": 318,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

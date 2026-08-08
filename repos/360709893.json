@@ -6,7 +6,7 @@
         "name": "o365",
         "html_url": "https:\/\/github.com\/vanyouseea\/o365",
         "language": "CSS",
-        "description": "一个用于管理 Office 365 账户和执行批量操作的自动化工具，主要用于账户登录测试、邮件收发测试及批量账号状态检查，适用于需要对 O365 服务进行批量运维或安全验证的场景。"
+        "description": "一个用于自动化管理 Office 365 的 Python 工具，主要围绕 Microsoft Graph API 封装常用操作，帮助管理员批量处理用户、组、邮箱、日历等资源。适合需要替代手工网页操作、执行定期维护或集成到自动化脚本中的场景，尤其适合中小型企业的 IT 运维人员。仓库本身聚焦于简化 Office 365 日常管理流程，通常通过命令行或 Python 脚本调用，能够降低重复配置的时间和出错概率。"
     },
     "summary": {
         "initial_stars": 306,

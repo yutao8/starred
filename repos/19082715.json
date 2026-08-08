@@ -6,16 +6,16 @@
         "name": "GmsCore",
         "html_url": "https:\/\/github.com\/microg\/GmsCore",
         "language": "Java",
-        "description": "提供Google移动服务（GMS）的自由开源实现，用于在没有谷歌官方服务的Android设备上运行依赖GMS的应用，支持位置服务、推送通知和安全认证等功能，常见于自定义ROM如LineageOS中。"
+        "description": "为 Android 设备提供开源版 Google Play Services 替代实现，主要面向因未预装谷歌服务或出于隐私考虑而无法使用 Google 服务的用户，例如搭载定制 ROM 的设备。它实现了包括位置服务、地图、账号登录和云消息推送在内的常用谷歌接口，配套 microG 相关组件，能帮助依赖 Google API 的第三方应用正常运行，同时避免设备过度依赖闭源谷歌框架，兼顾功能全面与隐私可控。"
     },
     "summary": {
         "initial_stars": 10163,
-        "current_stars": 14133,
-        "star_diff": 3970,
-        "growth_rate": 39.06,
+        "current_stars": 14146,
+        "star_diff": 3983,
+        "growth_rate": 39.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14133,
             "forks": 3008,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14146,
+            "forks": 3013,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

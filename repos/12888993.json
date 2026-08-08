@@ -6,16 +6,16 @@
         "name": "core",
         "html_url": "https:\/\/github.com\/home-assistant\/core",
         "language": "Python",
-        "description": "Home Core 是一个开源的智能家居中枢平台，用于本地化集成和自动化管理各类智能设备。它支持广泛的硬件和协议，实现设备联动、场景控制与远程访问，强调隐私保护与离线运行能力，适用于构建个性化、高可靠的家庭自动化系统。"
+        "description": "Home 用于构建开源家庭自动化系统，强调本地控制与隐私保护，能接入并管理多品牌智能家居设备。用户可通过统一界面或语音助手控制设备，并借助自动化规则实现场景联动，例如根据传感器状态自动调节灯光或空调。它通常部署在树莓派或家庭服务器上，适合希望减少云端依赖、自主掌控数据的用户。该项目拥有庞大的设备兼容性生态，支持通过插件持续扩展功能。"
     },
     "summary": {
         "initial_stars": 79811,
-        "current_stars": 89776,
-        "star_diff": 9965,
-        "growth_rate": 12.49,
+        "current_stars": 89797,
+        "star_diff": 9986,
+        "growth_rate": 12.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 89776,
             "forks": 38285,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 89797,
+            "forks": 38303,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

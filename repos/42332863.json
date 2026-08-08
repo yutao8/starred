@@ -6,16 +6,16 @@
         "name": "filebrowser",
         "html_url": "https:\/\/github.com\/filebrowser\/filebrowser",
         "language": "Go",
-        "description": "提供基于网页的文件管理功能，允许用户通过浏览器查看、上传、下载、删除和管理服务器上的文件，支持用户权限控制、多用户隔离和简单部署，通常用于轻量级文件共享或个人网盘场景。"
+        "description": "一种用于在浏览器中管理服务器文件的轻量级Web应用，提供直观界面来上传、下载、编辑、删除和预览文件，支持多用户登录与权限分配。通常自托管在个人服务器或NAS上，用于替代传统的FTP或命令行操作，适合个人用户或小团队快速搭建私有云盘及协作文件管理系统。部署简单，后端采用Go语言，响应速度快，支持跨平台运行及自定义主题，能够有效解决远程文件管理不便、权限控制困难等问题。"
     },
     "summary": {
         "initial_stars": 29832,
-        "current_stars": 35777,
-        "star_diff": 5945,
-        "growth_rate": 19.93,
+        "current_stars": 35801,
+        "star_diff": 5969,
+        "growth_rate": 20.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 35777,
             "forks": 3998,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 35801,
+            "forks": 4001,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

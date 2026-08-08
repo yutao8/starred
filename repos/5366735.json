@@ -6,7 +6,7 @@
         "name": "beanstalk_console",
         "html_url": "https:\/\/github.com\/ptrofimov\/beanstalk_console",
         "language": "JavaScript",
-        "description": "一个基于 Web 的管理工具，用于监控和操作 Beanstalkd 工作队列。提供直观的界面来查看作业状态、管理队列、查看统计信息及执行调试操作，便于开发和运维人员实时掌控任务处理情况。"
+        "description": "用于为Beanstalkd消息队列提供可视化Web管理界面，方便开发者与运维人员通过浏览器监控队列运行状态。核心功能包括查看队列列表、任务详情与统计信息，支持暂停、删除队列以及管理待处理任务，弥补了命令行工具操作繁琐、不直观的缺陷。通常适合在开发调试或生产环境中运行，帮助快速定位消息堆积、任务失败等问题。基于PHP构建，部署简单，依赖于Beanstalkd服务即可独立使用。"
     },
     "summary": {
         "initial_stars": 1268,

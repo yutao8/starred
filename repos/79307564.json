@@ -6,16 +6,16 @@
         "name": "WeChatTweak",
         "html_url": "https:\/\/github.com\/sunnyyoung\/WeChatTweak-macOS",
         "language": "Objective-C",
-        "description": "用于修改和增强微信客户端功能的开源工具，主要针对 macOS 平台上的微信应用，支持自定义界面、防撤回、消息转发等个性化功能，方便用户根据需求优化使用体验。"
+        "description": "用于在 macOS 上对微信客户端进行功能增强和定制，通过注入方式实现消息防撤回、多开、修改登录界面等实用特性，主要满足个人用户对微信原生功能之外的扩展需求，适合希望突破官方限制、提升使用灵活性的场景。"
     },
     "summary": {
         "initial_stars": 12246,
-        "current_stars": 13818,
-        "star_diff": 1572,
-        "growth_rate": 12.84,
+        "current_stars": 13821,
+        "star_diff": 1575,
+        "growth_rate": 12.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 13818,
             "forks": 1657,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13821,
+            "forks": 1658,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

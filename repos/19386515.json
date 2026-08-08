@@ -6,7 +6,7 @@
         "name": "browsershot",
         "html_url": "https:\/\/github.com\/spatie\/browsershot",
         "language": "PHP",
-        "description": "用于从 Laravel 或 PHP 应用程序生成网页截图、生成 PDF 或提取页面内容，基于 Puppeteer 的无头 Chrome 实现，适合用于生成网页快照、自动生成文档或抓取单页应用内容。"
+        "description": "用于将网页转换为PDF或图片截图的PHP库，通常无缝集成在Laravel等框架中。它借助无头Chrome或Puppeteer提供原生渲染能力，适合需要把动态页面、图表或富文本生成文档的场景，比如自动输出电子发票、财务报告、数据报表或网站预览图。相比传统打印接口，它能准确还原CSS动画和JavaScript渲染后的结果，并支持对输出尺寸、页面边距、加载等待等进行灵活配置。在PHP生态中较为流行，常用于自动化报告系统和后台导出功能。安装时常依赖Node环境。"
     },
     "summary": {
         "initial_stars": 5040,

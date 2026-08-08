@@ -6,16 +6,16 @@
         "name": "natmap",
         "html_url": "https:\/\/github.com\/heiher\/natmap",
         "language": "C",
-        "description": "natmap 是一个用于网络地址转换（NAT）映射和端口预测的工具，主要用于分析和穿透 NAT 环境下的网络连接行为。它通过探测 NAT 映射策略和端口分配规律，帮助实现更高效的 P2P 通信或穿透测试。"
+        "description": "用于在 NAT 后方实现端口映射和公网访问，通过 UDP 打洞等机制穿透网络地址转换，使内网服务无需公网 IP 即可被外部访问。通常适合家庭宽带、运营商大内网环境中的 P2P 通信、远程连接、自建服务暴露等场景。它支持多种 NAT 类型，可自动检测映射方式并动态保持端口连通，配合防火墙规则或虚拟专用网络工具使用效果更佳。项目采用轻量级设计，主要面向需要低成本内网穿透或点对点直连的开发者与运维人员。"
     },
     "summary": {
         "initial_stars": 1635,
-        "current_stars": 1947,
-        "star_diff": 312,
-        "growth_rate": 19.08,
+        "current_stars": 1948,
+        "star_diff": 313,
+        "growth_rate": 19.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 1947,
             "forks": 150,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1948,
+            "forks": 150,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

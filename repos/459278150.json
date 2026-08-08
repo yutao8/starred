@@ -6,7 +6,7 @@
         "name": "obsidian-digital-garden",
         "html_url": "https:\/\/github.com\/oleeskild\/obsidian-digital-garden",
         "language": "TypeScript",
-        "description": "一个用于在 Obsidian 笔记中构建数字花园的插件，支持将笔记以网页形式发布并自动生成链接关系图，帮助用户将个人知识库可视化并对外分享，适合实践渐进式总结与知识网络构建。"
+        "description": "将Obsidian笔记发布为数字花园网站的插件，适合希望把个人知识库转化为公开网站的用户。它保留双向链接、标签和图谱视图等Obsidian核心功能，让访客可以像浏览网页一样在笔记间跳转。通常配合GitHub Pages、Netlify等静态托管服务使用，支持自动部署和更新。解决了传统博客不适合展示互联笔记的问题，尤其适合研究人员、开发者、终身学习者维护公开知识库。无需开发者经验即可搭建，但需要基本的Git和静态站点配置。"
     },
     "summary": {
         "initial_stars": 1784,
@@ -14,8 +14,8 @@
         "star_diff": 665,
         "growth_rate": 37.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 2449,
             "forks": 217,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2449,
+            "forks": 218,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

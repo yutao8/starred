@@ -6,16 +6,16 @@
         "name": "webui-aria2",
         "html_url": "https:\/\/github.com\/ziahamza\/webui-aria2",
         "language": "JavaScript",
-        "description": "提供基于 Web 的图形界面来管理 Aria2 下载任务，支持多线程下载、种子管理、下载进度监控等功能，通过浏览器即可远程控制 Aria2，简化命令行操作，适用于需要可视化操作的用户。"
+        "description": "用于为 aria2 下载工具提供基于浏览器的图形化管理界面，让你不必再操作繁琐的命令行。它支持通过 Web 页面添加、暂停、继续和删除下载任务，实时查看下载速度、进度和文件列表，同时兼容 HTTP、FTP、BT 等多种下载协议。通常适合部署在服务器或 NAS 上，利用 aria2 的高效下载能力，再通过网页进行远程控制和监控，尤其适合需要在无图形环境或公网环境下管理批量下载的场景。项目本身是一个纯前端界面，通过 aria2 的 RPC 接口完成所有交互，部署简单，只需放置静态文件并指向运行的 aria2 服务即可。"
     },
     "summary": {
         "initial_stars": 10140,
-        "current_stars": 10337,
-        "star_diff": 197,
-        "growth_rate": 1.94,
+        "current_stars": 10338,
+        "star_diff": 198,
+        "growth_rate": 1.95,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 163
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 164
     },
     "history": [
         {
@@ -1158,6 +1158,13 @@
             "stars": 10337,
             "forks": 1461,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10338,
+            "forks": 1462,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

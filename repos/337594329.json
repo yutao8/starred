@@ -6,16 +6,16 @@
         "name": "SmsForwarder",
         "html_url": "https:\/\/github.com\/pppscn\/SmsForwarder",
         "language": "Kotlin",
-        "description": "SmsForwarder 是一个用于转发短信的开源工具，主要用于将接收到的短信通过网络协议（如HTTP、MQTT、Telegram等）实时转发到指定服务器或消息平台，适用于需要远程监控短信、双卡双待设备短信同步或自动化短信处理的场景，支持多种自定义规则过滤和转发。"
+        "description": "SmsForwarder 是用于 Android 的短信自动转发工具，可把手机收到的短信实时转发到邮箱、Telegram、钉钉、企业微信等常用平台，解决备用机收验证码不能及时查看的问题。它支持按关键词、发件人、SIM 卡等条件灵活筛选，并允许自定义转发模板，也能处理未接来电通知。通常适合多卡用户、远程验证码接收或需要统一消息推送的场景。应用在后台运行，监听系统短信，无需 root，配置简单，适合个人搭建轻量级通知中转。"
     },
     "summary": {
         "initial_stars": 21628,
-        "current_stars": 27395,
-        "star_diff": 5767,
-        "growth_rate": 26.66,
+        "current_stars": 27412,
+        "star_diff": 5784,
+        "growth_rate": 26.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 27395,
             "forks": 3354,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27412,
+            "forks": 3359,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

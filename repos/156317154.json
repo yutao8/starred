@@ -6,16 +6,16 @@
         "name": "onedev",
         "html_url": "https:\/\/github.com\/theonedev\/onedev",
         "language": "Java",
-        "description": "OneDev 是一个集代码托管、持续集成、项目管理于一体的自托管 DevOps 平台，主要用于替代 GitHub、GitLab 等工具，适合团队搭建私有化开发环境。它提供类似 GitHub 的代码仓库管理、Pull Request、CI\/CD 流水线、问题跟踪等功能，支持插件扩展和容器化部署，便于企业内部统一研发流程。"
+        "description": "OneDev 是一款自托管的 Git 服务器，集持续集成、问题追踪与项目看板于一体，适合团队搭建一体化的 DevOps 平台。它提供轻量级部署、代码审查、流水线编排和 Kubernetes 集成，支持通过 Git 操作触发自动化构建与发布，常用于替代 GitLab 或 Jenkins 的组合场景。相比同类工具，它强调单实例易维护性和内置的代码搜索、导航能力，适合中小团队追求高效协作与简化运维的需求。"
     },
     "summary": {
         "initial_stars": 14079,
-        "current_stars": 15144,
-        "star_diff": 1065,
-        "growth_rate": 7.56,
+        "current_stars": 15145,
+        "star_diff": 1066,
+        "growth_rate": 7.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 15144,
             "forks": 966,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15145,
+            "forks": 967,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "discosrv",
         "html_url": "https:\/\/github.com\/syncthing\/discosrv",
         "language": "Other",
-        "description": "用于实现 Syncthing 设备发现的服务器程序，帮助设备在不同网络环境下自动发现彼此，通常配合 Syncthing 客户端使用以简化局域网或跨网络的设备共享与同步配置，提高连接效率。"
+        "description": "用于 Syncthing 生态的全局发现服务器，帮助客户端设备通过网络相互发现并建立连接。它作为公共目录服务，存储和响应设备地址信息，使不同网络中的 Syncthing 实例无需手动配置对方 IP 即可完成配对。适合在无法使用默认发现服务或需要自建私有发现服务的场景中部署，以增强隐私或可靠性。通常以轻量级服务方式运行，与 Syncthing 主程序配套使用。"
     },
     "summary": {
         "initial_stars": 283,

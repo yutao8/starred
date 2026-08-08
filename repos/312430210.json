@@ -6,16 +6,16 @@
         "name": "Ditto",
         "html_url": "https:\/\/github.com\/sabrogden\/Ditto",
         "language": "C",
-        "description": "Ditto 是一个用于 macOS 的剪贴板管理工具，可保存历史记录、支持片段快速插入、提供强大的文本处理功能，帮助用户提升日常复制粘贴效率，主要用于频繁文本操作场景下的工作流优化。"
+        "description": "简洁的 Windows 剪贴板历史管理工具，自动记录复制过的文本、图片等数据，支持全文搜索、分组整理和自定义快捷键，方便随时调用历史剪贴项。还提供网络同步功能，可在多台计算机间共享剪贴板内容。适合编辑、编程等频繁复制粘贴的场景，弥补系统剪贴板只能保留最近一次内容的不足。支持插件扩展，通常以托盘图标驻留后台运行。"
     },
     "summary": {
         "initial_stars": 4722,
-        "current_stars": 6905,
-        "star_diff": 2183,
-        "growth_rate": 46.23,
+        "current_stars": 6916,
+        "star_diff": 2194,
+        "growth_rate": 46.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 6905,
             "forks": 426,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6916,
+            "forks": 429,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

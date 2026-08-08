@@ -6,16 +6,16 @@
         "name": "polr",
         "html_url": "https:\/\/github.com\/cydrobolt\/polr",
         "language": "PHP",
-        "description": "Polr 是一个轻量级的开源 URL 缩短服务，提供自托管的短链接解决方案，支持 API 接口、密码保护、自定义短代码和访问统计功能，适合个人或组织搭建私有化短链平台。"
+        "description": "Polr 是一款可自行托管的短链接服务，主要用于将冗长的 URL 转换为简短链接，并提供点击统计功能。它基于 PHP\/Laravel 构建，适合个人或组织部署在自有服务器上，以摆脱对第三方缩短服务的依赖，完整掌握数据所有权。Polr 提供简洁的 Web 管理界面，支持自定义短链接关键词、用户管理、开放 API 便于开发者集成，以及二维码生成等辅助能力。典型使用场景包括品牌营销中的链接美化、社交媒体分享时节省字符，以及企业内部系统的短链管理。由于需要自行安装并配置 PHP 环境和数据库，它更适合具备一定服务器运维经验的使用者。"
     },
     "summary": {
         "initial_stars": 5077,
-        "current_stars": 5098,
-        "star_diff": 21,
-        "growth_rate": 0.41,
+        "current_stars": 5097,
+        "star_diff": 20,
+        "growth_rate": 0.39,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 121
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 122
     },
     "history": [
         {
@@ -864,6 +864,13 @@
             "stars": 5098,
             "forks": 890,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5097,
+            "forks": 890,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

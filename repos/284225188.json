@@ -6,16 +6,16 @@
         "name": "PoloDB",
         "html_url": "https:\/\/github.com\/PoloDB\/PoloDB",
         "language": "Rust",
-        "description": "PoloDB 是一个轻量级的本地文档数据库，主要用于在 Go 语言项目中实现简单的数据持久化，适合小型应用或原型开发，支持基于 JSON 的文档存储和查询，具有易用、零依赖、嵌入式运行的特点。"
+        "description": "PoloDB是一款用Rust编写的嵌入式文档数据库，让应用程序无需额外运行数据库服务即可直接存储和查询JSON文档。它提供类似MongoDB的灵活数据模型和查询能力，同时具备嵌入式库的轻量、高效与跨平台特性。通常适合桌面软件、移动应用或边缘设备等需要在本地保存结构化数据、并追求部署简单和离线可用的场景。由于基于Rust实现，在性能和内存安全方面也有较好保障。"
     },
     "summary": {
         "initial_stars": 1086,
-        "current_stars": 1223,
-        "star_diff": 137,
-        "growth_rate": 12.62,
+        "current_stars": 1224,
+        "star_diff": 138,
+        "growth_rate": 12.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 105
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 106
     },
     "history": [
         {
@@ -752,6 +752,13 @@
             "stars": 1223,
             "forks": 59,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1224,
+            "forks": 59,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

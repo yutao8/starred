@@ -6,16 +6,16 @@
         "name": "proxy_pool",
         "html_url": "https:\/\/github.com\/jhao104\/proxy_pool",
         "language": "Python",
-        "description": "用于构建和管理代理IP池的Python项目，支持代理的抓取、验证、存储和API调用，可扩展支持多种代理来源和数据库，适用于需要大量可用代理IP的爬虫或请求转发场景。"
+        "description": "一款开源的爬虫代理IP池工具，用于自动抓取互联网上的免费代理IP，并通过定时检测过滤失效代理，最终以HTTP接口形式对外提供可用代理。通常适合需要频繁请求目标网站但自身IP容易受限的爬虫场景，比如数据采集、网页抓取、批量注册等。项目基于Python和Flask构建，自带Web管理界面，支持通过API获取随机代理或指定数量的代理，也支持代理的自动更新与清理。它的核心价值在于帮助开发者快速搭建一个稳定、可扩展的代理池，从而降低请求被封锁的风险，减少维护成本。"
     },
     "summary": {
         "initial_stars": 22513,
-        "current_stars": 23575,
-        "star_diff": 1062,
-        "growth_rate": 4.72,
+        "current_stars": 23580,
+        "star_diff": 1067,
+        "growth_rate": 4.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 23575,
             "forks": 5400,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23580,
+            "forks": 5402,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

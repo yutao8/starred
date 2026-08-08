@@ -6,7 +6,7 @@
         "name": "WeChatExtension-ForMac",
         "html_url": "https:\/\/github.com\/MustangYM\/WeChatExtension-ForMac",
         "language": "Objective-C",
-        "description": "为 macOS 版微信提供增强功能的开源插件，主要通过 Hopper 反汇编分析并注入功能，可实现自动聊天记录备份、消息防撤回、查看好友朋友圈等优化体验功能，适用于希望提升微信使用效率的用户。"
+        "description": "一款用于 macOS 版微信的功能增强插件，主要解决微信自带功能缺失和限制带来的不便。它支持消息防撤回、聊天多开、自动回复、免认证登录等常用能力，同时提供 Alfred 远程控制、菜单栏快捷操作等效率工具，适合希望扩展微信功能、提升日常沟通与办公效率的 Mac 用户。通常通过微信小助手的形式集成，安装后可直接在微信菜单中启用。"
     },
     "summary": {
         "initial_stars": 22600,
@@ -14,8 +14,8 @@
         "star_diff": -11,
         "growth_rate": -0.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 174
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 175
     },
     "history": [
         {
@@ -1235,6 +1235,13 @@
             "stars": 22589,
             "forks": 3553,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22589,
+            "forks": 3554,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

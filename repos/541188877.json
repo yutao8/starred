@@ -6,16 +6,16 @@
         "name": "reinstall",
         "html_url": "https:\/\/github.com\/bin456789\/reinstall",
         "language": "Shell",
-        "description": "一个自动化系统重装工具，主要用于快速重新安装操作系统或恢复系统环境，支持自定义镜像和预配置设置，通常适合运维人员或开发者用于批量部署或系统维护。"
+        "description": "用于在 VPS 或云服务器上一键重装系统，支持常见 Linux 发行版和 Windows，适合需要更换系统、纯净安装或修复引导的场景。通过预置脚本和镜像源自动完成网络安装，通常由 SSH 远程执行，无需进入救援模式，操作简洁且对新手友好。"
     },
     "summary": {
         "initial_stars": 5759,
-        "current_stars": 12685,
-        "star_diff": 6926,
-        "growth_rate": 120.26,
+        "current_stars": 12703,
+        "star_diff": 6944,
+        "growth_rate": 120.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 12685,
             "forks": 2048,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12703,
+            "forks": 2052,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

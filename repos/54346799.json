@@ -6,16 +6,16 @@
         "name": "public-apis",
         "html_url": "https:\/\/github.com\/public-apis\/public-apis",
         "language": "Python",
-        "description": "提供大量免费公开的 API 接口，涵盖天气、新闻、地理、金融、娱乐等多个领域，适用于开发者在项目中集成第三方数据，所有 API 按类别整理并标明认证方式和是否需要付费，便于快速查找和使用，助力开发效率提升。"
+        "description": "整理并分类收录了大量免费开放的公共 API 接口，涵盖音频、金融、游戏、新闻、天气等多个领域，并提供检索与筛选功能。开发者可以在开发原型、构建应用或学习实践时，快速查找替代自建服务的第三方接口，避免重复造轮子，特别适合需要快速验证想法、获取示例数据或集成外部功能的场景。该列表通常按类别、认证方式等组织，帮助用户评估选项并选择合适的公共数据源。"
     },
     "summary": {
         "initial_stars": 353465,
-        "current_stars": 454667,
-        "star_diff": 101202,
-        "growth_rate": 28.63,
+        "current_stars": 455016,
+        "star_diff": 101551,
+        "growth_rate": 28.73,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 454667,
             "forks": 50175,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 455016,
+            "forks": 50204,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

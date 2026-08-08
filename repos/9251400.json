@@ -6,7 +6,7 @@
         "name": "bom-cleaner",
         "html_url": "https:\/\/github.com\/emrahgunduz\/bom-cleaner",
         "language": "PHP",
-        "description": "用于清理和标准化 BOM（字节顺序标记）的工具，主要用于处理含 BOM 的文本文件，确保跨平台兼容性和数据一致性，适合需要统一文本编码格式的场景。"
+        "description": "该工具主要用于清理文本文件中的字节顺序标记（BOM），解决因BOM导致的编码兼容问题。它能够扫描指定目录或文件，自动检测并移除BOM头，使文件恢复为无BOM的UTF-8或其他编码格式。通常适合开发者在跨平台项目中使用，例如处理Windows环境生成的带BOM的源码文件，避免编译报错或脚本解析异常。支持批量处理，操作简单，适用于日常开发中的编码清理需求。"
     },
     "summary": {
         "initial_stars": 38,

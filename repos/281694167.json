@@ -6,16 +6,16 @@
         "name": "go-cqhttp",
         "html_url": "https:\/\/github.com\/Mrs4s\/go-cqhttp",
         "language": "Go",
-        "description": "一个用 Go 语言编写的轻量级 cqhttp 服务端实现，主要用于对接 QQ 协议，支持 HTTP、WebSocket 等通信方式，方便开发者通过 API 与 QQ 机器人进行交互，常用于构建自定义 QQ 机器人应用，具备跨平台、高并发和易于部署的特点。"
+        "description": "用于搭建基于 QQ 的机器人服务，以 Go 语言实现 QQ 协议的接口转换。它兼容 OneBot 标准，提供 HTTP 和 WebSocket 通信方式，使开发者能用任意编程语言编写消息处理逻辑。典型场景包括群管理、自动回复、消息转发和关键词触发等。它解决了官方 QQ 机器人接口限制多、申请门槛高的问题，适合个人或小团体快速构建轻量级机器人。部署简单，天然适配常见机器人框架，是目前社区使用较广泛的开源方案之一。"
     },
     "summary": {
         "initial_stars": 10552,
-        "current_stars": 10645,
-        "star_diff": 93,
-        "growth_rate": 0.88,
+        "current_stars": 10642,
+        "star_diff": 90,
+        "growth_rate": 0.85,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 172
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 173
     },
     "history": [
         {
@@ -1221,6 +1221,13 @@
             "stars": 10645,
             "forks": 1587,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10642,
+            "forks": 1587,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

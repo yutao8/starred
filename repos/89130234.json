@@ -6,7 +6,7 @@
         "name": "swoft",
         "html_url": "https:\/\/github.com\/swoft-cloud\/swoft",
         "language": "PHP",
-        "description": "Swoft 是一个基于 Swoole 的高性能协程 PHP 微服务框架，内置 HTTP、TCP、WebSocket 服务，支持 AOP、注解、自动依赖注入，适用于构建高并发分布式系统。"
+        "description": "用于构建高性能 PHP 应用的常驻内存协程框架，基于 Swoole 引擎提供异步非阻塞 IO 和协程调度能力，显著提升服务并发处理效率。内置注解、依赖注入、事件监听、中间件等现代开发组件，支持 HTTP 服务、WebSocket、RPC、定时任务等多种网络服务形态，适合开发微服务、实时通讯、高并发 API 后端，常被用来替代传统 PHP-FPM 部署模式以降低资源消耗并提升吞吐量。"
     },
     "summary": {
         "initial_stars": 5572,

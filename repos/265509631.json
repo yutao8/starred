@@ -6,7 +6,7 @@
         "name": "webBenchmark",
         "html_url": "https:\/\/github.com\/maintell\/webBenchmark",
         "language": "Go",
-        "description": "webBenchmark 是一个用于评估 Web 服务器性能的基准测试工具，主要用于测量响应时间、吞吐量和并发处理能力，帮助开发者优化服务端应用性能。"
+        "description": "用于Web服务性能评测的基准测试工具，主要帮助开发者对HTTP接口或网站进行压测与性能验证，量化响应时间、吞吐量、错误率等指标，从而定位瓶颈或比较不同部署方案的差异。通常支持并发请求模拟与结果统计，适合在开发自测、上线前验证和容量规划场景中使用。具体能力以仓库说明为准。"
     },
     "summary": {
         "initial_stars": 985,

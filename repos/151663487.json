@@ -6,7 +6,7 @@
         "name": "LTSC-Add-MicrosoftStore",
         "html_url": "https:\/\/github.com\/kkkgo\/LTSC-Add-MicrosoftStore",
         "language": "Batchfile",
-        "description": "为 Windows 10\/11 LTSC 版本添加微软商店及依赖组件，通过脚本自动部署适用于长期服务频道系统的 Microsoft Store 应用，解决 LTSC 系统缺失应用商店的问题，便于用户安装和更新 UWP 应用。"
+        "description": "为Windows LTSC（长期服务版）系统提供一键重新添加Microsoft Store的解决方案，解决LTSC精简版缺少应用商店的问题。该工具通常以脚本形式执行，自动安装商店及必要的UWP依赖项，用户无需手动寻找和部署多个安装包。适合需要在不自带商店的Windows LTSC环境中使用UWP应用、购买或更新Microsoft Store应用的场景。操作简单，尤其适合企业或开发者维护精简系统时快速恢复商店功能。"
     },
     "summary": {
         "initial_stars": 3610,

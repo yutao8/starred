@@ -6,7 +6,7 @@
         "name": "google-play-api",
         "html_url": "https:\/\/github.com\/facundoolano\/google-play-api",
         "language": "JavaScript",
-        "description": "提供一个用于访问 Google Play 商店的非官方 API 接口，支持获取应用详情、搜索应用、下载 APK 等功能，便于开发者在 Python 环境中与 Google Play 进行交互，适用于应用数据抓取、市场分析和自动化下载等场景。"
+        "description": "该库提供基于 Node.js 的非官方 Google Play 商店数据接入方案，主要用来搜索应用、获取应用详情、用户评论、评分及权限等公开元数据。它通过解析页面底层数据实现请求，绕开官方 API 的申请流程，适合快速搭建应用市场监控、竞品分析、评论舆情分析等场景。通常用于自动化抓取应用榜单、对比版本更新或构建应用推荐数据集。因为不依赖官方授权，使用时应留意请求频率和 Google 的防爬限制。"
     },
     "summary": {
         "initial_stars": 362,

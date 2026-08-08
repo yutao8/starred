@@ -6,16 +6,16 @@
         "name": "KillWxapkg",
         "html_url": "https:\/\/github.com\/Ackites\/KillWxapkg",
         "language": "Go",
-        "description": "用于解除微信小程序包的符号化混淆并反编译还原代码的工具，主要针对.wxapkg文件进行解包、反混淆和源码恢复，方便安全分析与逆向研究。"
+        "description": "主要用于处理微信小程序的 .wxapkg 包文件，能够对这类加密或压缩的包进行解包、解密和还原，提取其中的前端代码、页面逻辑和静态资源。它通常适合开发者进行逆向分析、安全审计或学习参考，尤其是在无法直接获取小程序原始源码的情况下。工具面向需要深入理解小程序内部实现的技术人员，操作上依赖已有的微信小程序运行环境或相关数据文件。通过简单的命令行方式即可完成解析，是目前常见的小程序研究辅助工具之一。"
     },
     "summary": {
         "initial_stars": 5009,
-        "current_stars": 5929,
-        "star_diff": 920,
-        "growth_rate": 18.37,
+        "current_stars": 5931,
+        "star_diff": 922,
+        "growth_rate": 18.41,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 5929,
             "forks": 1217,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5931,
+            "forks": 1218,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "scrcpy",
         "html_url": "https:\/\/github.com\/Genymobile\/scrcpy",
         "language": "C",
-        "description": "通过USB或网络将Android设备屏幕投射到电脑并实现鼠标键盘控制，无需ROOT，支持视频编码、剪贴板同步和文件拖拽安装，常用于演示、测试或操作大屏化。"
+        "description": "用于在电脑上实时镜像和控制 Android 设备的开源工具，通过 USB 或无线 ADB 连接，无需 root 权限。它利用设备自身编码能力，以极低延迟传输屏幕画面，支持鼠标键盘操控、剪贴板共享、文件拖放和同时管理多台设备，适合应用演示、手机投屏、游戏操作、开发调试或日常远程控制。轻量命令行设计，跨平台运行于 Windows、macOS 和 Linux，技术栈基于 ADB 与视频流处理，是开发者和普通用户常用的高效投屏方案。"
     },
     "summary": {
         "initial_stars": 124264,
-        "current_stars": 147075,
-        "star_diff": 22811,
-        "growth_rate": 18.36,
+        "current_stars": 147178,
+        "star_diff": 22914,
+        "growth_rate": 18.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 147075,
             "forks": 13543,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 147178,
+            "forks": 13554,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

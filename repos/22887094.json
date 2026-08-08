@@ -6,16 +6,16 @@
         "name": "tesseract",
         "html_url": "https:\/\/github.com\/tesseract-ocr\/tesseract",
         "language": "C++",
-        "description": "Tesseract 是一个开源的光学字符识别（OCR）引擎，能够识别图像中的文字并将其转换为可编辑的文本格式，支持多种语言和字体，广泛应用于文档数字化、自动化数据提取等场景，具有高准确率和良好的扩展性。"
+        "description": "Tesseract 是开源的光学字符识别引擎，把图片里的文字转成可编辑文本。它支持多语言文字识别，也能通过训练适应特殊字体，常被集成进文档扫描、票据识别、自动录入等流程。适合处理印刷体为主的图像，配合图像预处理可提升准确率，是 OCR 应用最常用的底层工具之一。"
     },
     "summary": {
         "initial_stars": 67779,
-        "current_stars": 75791,
-        "star_diff": 8012,
-        "growth_rate": 11.82,
+        "current_stars": 75809,
+        "star_diff": 8030,
+        "growth_rate": 11.85,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 75791,
             "forks": 10721,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 75809,
+            "forks": 10722,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

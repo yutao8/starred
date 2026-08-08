@@ -6,16 +6,16 @@
         "name": "turbovnc",
         "html_url": "https:\/\/github.com\/TurboVNC\/turbovnc",
         "language": "C",
-        "description": "TurboVNC 是一个高性能的远程桌面软件，专注于为 3D 和视频应用提供高速 VNC（虚拟网络计算）连接，通过优化图像压缩与传输显著提升远程桌面响应速度，常用于科学可视化、云计算和虚拟桌面基础设施场景。"
+        "description": "TurboVNC 是一种高性能的远程桌面（VNC）实现，专为图形密集型和3D应用场景优化。它在低带宽、高延迟网络环境下通过改进的压缩与编码策略提供流畅的远程显示体验，常用于虚拟桌面基础设施（VDI）、远程GPU计算及科学可视化。该软件通常与VirtualGL配合，将OpenGL渲染与网络传输分离，使远程用户能够顺畅运行大型图形应用，适合需要高效远程访问图形工作站的用户。"
     },
     "summary": {
         "initial_stars": 896,
-        "current_stars": 1025,
-        "star_diff": 129,
-        "growth_rate": 14.4,
+        "current_stars": 1026,
+        "star_diff": 130,
+        "growth_rate": 14.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 101
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 102
     },
     "history": [
         {
@@ -724,6 +724,13 @@
             "stars": 1025,
             "forks": 155,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1026,
+            "forks": 155,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

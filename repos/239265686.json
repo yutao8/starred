@@ -6,16 +6,16 @@
         "name": "jmal-cloud-view",
         "html_url": "https:\/\/github.com\/jamebal\/jmal-cloud-view",
         "language": "Vue",
-        "description": "jmal-cloud-view 是一个基于 Vue.js 和 Element Plus 构建的轻量级网盘前端管理系统，主要用于展示和管理云存储文件，支持文件浏览、上传下载、权限控制等常见网盘功能，适合个人或企业快速搭建简洁高效的文件管理界面。"
+        "description": "为云存储和网盘系统提供在线文件预览能力，主要解决用户需下载文件才能查看内容的问题。它通常集成在自托管网盘或文件管理应用中，基于 Web 技术实现，无需安装客户端，即可在浏览器中直接打开常见格式的图片、音视频和文档。适合个人私有云、团队文件共享或知识管理场景，有助于提升文件浏览与检索效率。"
     },
     "summary": {
         "initial_stars": 760,
-        "current_stars": 880,
-        "star_diff": 120,
-        "growth_rate": 15.79,
+        "current_stars": 881,
+        "star_diff": 121,
+        "growth_rate": 15.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 96
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 97
     },
     "history": [
         {
@@ -689,6 +689,13 @@
             "stars": 880,
             "forks": 168,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 881,
+            "forks": 168,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

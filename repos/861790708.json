@@ -6,16 +6,16 @@
         "name": "newsnow",
         "html_url": "https:\/\/github.com\/ourongxing\/newsnow",
         "language": "TypeScript",
-        "description": "NewsNow 是一个实时新闻聚合工具，主要用于收集、分类和展示来自不同来源的最新新闻内容，帮助用户快速获取关注领域的资讯动态，通常适合需要监控舆情或追踪热点的技术人员与媒体从业者使用。"
+        "description": "用于实时聚合和展示新闻资讯，以时间线或列表形式呈现多个来源的热点内容，让用户在一个页面内掌握最新动态。它适合信息密度高的阅读场景，比如上班前快速浏览新闻、舆情监控或跟踪突发事件，能有效解决资讯分散、切换成本高的问题。项目通常面向 Web 端，可能采用现代前端技术构建，注重移动端适配和加载性能，更具体的功能细节请参考仓库说明。"
     },
     "summary": {
         "initial_stars": 11644,
-        "current_stars": 21363,
-        "star_diff": 9719,
-        "growth_rate": 83.47,
+        "current_stars": 21384,
+        "star_diff": 9740,
+        "growth_rate": 83.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 21363,
             "forks": 5882,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21384,
+            "forks": 5885,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

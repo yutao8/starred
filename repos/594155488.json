@@ -6,16 +6,16 @@
         "name": "Stirling-PDF",
         "html_url": "https:\/\/github.com\/Stirling-Tools\/Stirling-PDF",
         "language": "Java",
-        "description": "用于操作和转换PDF文件的Web应用程序，支持多文档合并、拆分、格式转换等常见处理功能，通常部署为本地或私有化服务以保障文件安全。"
+        "description": "Stirling-PDF 是一个基于 Web 的 PDF 工具箱，旨在提供本地化、隐私安全的文件处理方案。它支持合并、拆分、压缩、转换、加密、解密以及 OCR 文字识别等常见操作，所有处理均在浏览器或自托管环境中完成，无需上传文件至第三方服务器，适合对数据敏感的个人或企业用户。通常通过 Docker 部署，界面简洁，可替代部分付费在线 PDF 服务。"
     },
     "summary": {
         "initial_stars": 62653,
-        "current_stars": 88992,
-        "star_diff": 26339,
-        "growth_rate": 42.04,
+        "current_stars": 89093,
+        "star_diff": 26440,
+        "growth_rate": 42.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 88992,
             "forks": 8019,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 89093,
+            "forks": 8045,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

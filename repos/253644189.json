@@ -6,16 +6,16 @@
         "name": "MyIPTV",
         "html_url": "https:\/\/github.com\/SPX372928\/MyIPTV",
         "language": "Other",
-        "description": "一个用于管理和自定义IPTV播放列表的开源工具，支持频道分类、EPG电子节目指南配置，可配合本地网络或在线M3U播放器使用，便于搭建个人IPTV服务。"
+        "description": "用于管理和播放 IPTV 直播源，用户可通过导入 M3U 播放列表快速访问全球各地电视频道，适合需要集中浏览大量直播内容的人群。通常具备频道分类、收藏、搜索及电子节目指南等功能，并支持按个人偏好整理频道列表，常见于 Android TV、智能电视或手机等设备，帮助简化 IPTV 服务的使用流程。"
     },
     "summary": {
         "initial_stars": 2590,
-        "current_stars": 2686,
-        "star_diff": 96,
-        "growth_rate": 3.71,
+        "current_stars": 2687,
+        "star_diff": 97,
+        "growth_rate": 3.75,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 135
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 136
     },
     "history": [
         {
@@ -962,6 +962,13 @@
             "stars": 2686,
             "forks": 585,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2687,
+            "forks": 585,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

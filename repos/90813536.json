@@ -6,16 +6,16 @@
         "name": "GetOneDriveDirectLink",
         "html_url": "https:\/\/github.com\/Mapaler\/GetOneDriveDirectLink",
         "language": "JavaScript",
-        "description": "用于将 OneDrive 文件链接转换为可直链访问的下载地址，方便用户快速获取文件的直接下载链接，适用于分享和批量处理场景。"
+        "description": "一款用于将 OneDrive 分享链接转换为直接下载链接的工具，解决常规分享页跳转繁琐、无法直接引用资源的问题。通常适合需要从 OneDrive 下载文件、制作直链供下载器或网站嵌入使用的场景，能够提取出可稳定访问的媒体或文件地址，省去手动解析操作。界面简洁，使用流程清晰，适合个人用户、开发者以及内容管理需求。"
     },
     "summary": {
         "initial_stars": 214,
-        "current_stars": 217,
-        "star_diff": 3,
-        "growth_rate": 1.4,
+        "current_stars": 218,
+        "star_diff": 4,
+        "growth_rate": 1.87,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-06-25 00:00",
-        "data_points_count": 21
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 22
     },
     "history": [
         {
@@ -164,6 +164,13 @@
             "stars": 217,
             "forks": 59,
             "file": "dist\/2026062500\/starList.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 218,
+            "forks": 59,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

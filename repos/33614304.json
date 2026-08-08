@@ -6,16 +6,16 @@
         "name": "thefuck",
         "html_url": "https:\/\/github.com\/nvbn\/thefuck",
         "language": "Python",
-        "description": "一个命令行工具，用于自动修正之前输入错误的命令，通过监听并纠正用户的shell命令，支持多种常见错误场景，如拼写纠错、权限提示、目录切换等，提升命令行操作效率。"
+        "description": "thefuck 是一款命令行纠错工具，当你在终端输错命令并得到错误提示后，只需输入 fuck 即可让程序自动分析上一条命令的错误原因，并给出若干可行的修正建议供你选择执行。它内置了丰富的命令错误匹配规则，覆盖拼写错误、缺少 sudo、Git 参数写错、目录不存在等常见场景，也支持用户自定义规则扩展。该工具适合频繁在终端操作、容易打错命令的开发者和运维人员，能够显著减少重复输入正确命令的麻烦，提升日常命令行操作效率。它通常通过包管理器安装并集成到 shell 中，在 Linux、macOS 等类 Unix 环境下使用效果最佳。"
     },
     "summary": {
         "initial_stars": 92556,
-        "current_stars": 97604,
-        "star_diff": 5048,
-        "growth_rate": 5.45,
+        "current_stars": 97619,
+        "star_diff": 5063,
+        "growth_rate": 5.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 97604,
             "forks": 3956,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 97619,
+            "forks": 3958,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

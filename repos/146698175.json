@@ -6,7 +6,7 @@
         "name": "PicUploader",
         "html_url": "https:\/\/github.com\/xiebruce\/PicUploader",
         "language": "PHP",
-        "description": "PicUploader是一个Python编写的命令行图片上传工具，支持将本地图片或剪贴板图片一键上传至多种图床（如SM.MS、GitHub、阿里云等），自动生成Markdown或HTML格式的图片链接，适用于博客写作、笔记记录等场景，可高效管理图片资源并减少手动操作。"
+        "description": "PicUploader 是一个用于图片上传管理的工具，主要解决本地图片与远程图床之间上传、同步和替换的问题。它通常适合需要将图片批量或定时上传至云存储、对象存储或自建服务器的场景，可以配合本地写作、博客发布或静态站点生成流程使用，减少手动上传和复制链接的重复操作。工具强调配置灵活性，支持多种常见存储服务，并可通过命令行或界面方式调用，适合开发者在快速构建图片处理工作流时集成使用。"
     },
     "summary": {
         "initial_stars": 1203,
@@ -14,8 +14,8 @@
         "star_diff": 23,
         "growth_rate": 1.91,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 47
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 48
     },
     "history": [
         {
@@ -346,6 +346,13 @@
             "stars": 1226,
             "forks": 167,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1226,
+            "forks": 168,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

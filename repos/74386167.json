@@ -6,16 +6,16 @@
         "name": "psalm",
         "html_url": "https:\/\/github.com\/vimeo\/psalm",
         "language": "PHP",
-        "description": "Psalm 是一个用于分析和检查 PHP 代码的静态分析工具，可帮助开发者发现类型错误、潜在 bug 和代码质量问题，支持严格的类型检查和渐进式采用，适用于大型 PHP 项目的维护和重构。"
+        "description": "为 PHP 代码提供静态类型检查与错误检测，能在不运行代码的情况下发现潜在缺陷，例如类型不匹配、未定义变量和错误的函数调用。它通过扫描项目源码并利用类型推断，帮助开发者提前定位问题，尤其适合大型或遗留 PHP 项目在重构、维护和持续集成阶段使用，可有效提升代码可靠性与可读性。"
     },
     "summary": {
         "initial_stars": 5689,
-        "current_stars": 5876,
-        "star_diff": 187,
-        "growth_rate": 3.29,
+        "current_stars": 5878,
+        "star_diff": 189,
+        "growth_rate": 3.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 157
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 158
     },
     "history": [
         {
@@ -1116,6 +1116,13 @@
             "stars": 5876,
             "forks": 704,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5878,
+            "forks": 705,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

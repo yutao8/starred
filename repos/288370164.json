@@ -6,7 +6,7 @@
         "name": "PortBrute",
         "html_url": "https:\/\/github.com\/awake1t\/PortBrute",
         "language": "Go",
-        "description": "PortBrute 是一个用于网络端口爆破的工具，主要用于对常见服务（如SSH、FTP、Redis等）进行密码暴力破解测试。它支持自定义目标、端口和服务类型，适用于渗透测试中的弱口令检测场景，帮助安全人员评估内网服务的安全性。使用时需配合合法授权环境，避免非法入侵行为。"
+        "description": "PortBrute 是一款用于多协议口令爆破的安全测试工具，支持 SSH、RDP、FTP、MySQL、Redis 等常见服务的密码尝试与批量验证。它适合在授权渗透测试中评估弱口令风险，通过高并发线程提升爆破效率，帮助安全人员快速定位可被暴力破解的系统入口。通常与端口扫描结果配合使用，以发现暴露在互联网或内网中的薄弱服务。"
     },
     "summary": {
         "initial_stars": 1063,

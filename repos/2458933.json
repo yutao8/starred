@@ -6,16 +6,16 @@
         "name": "xunlei-lixian",
         "html_url": "https:\/\/github.com\/iambus\/xunlei-lixian",
         "language": "Python",
-        "description": "用于迅雷离线下载的第三方工具，支持通过命令行或脚本调用迅雷离线服务实现资源下载，适用于需要自动化获取下载链接或管理离线任务的场景，方便在服务器或本地环境中批量处理下载需求。"
+        "description": "面向命令行环境的迅雷离线下载工具，使用 Python 编写，通过模拟迅雷离线网页交互，实现添加下载任务、查询任务状态、获取离线文件下载地址等操作，适合在服务器、NAS 或无图形界面的 Linux 系统中管理迅雷离线任务。核心价值是将图形化操作转化为可脚本化的命令行流程，便于自动化批量下载和远程控制，尤其适合需要定时下载或无人值守的场景。由于依赖迅雷官方页面接口，服务变动时可能导致功能失效，使用前建议确认其兼容性。"
     },
     "summary": {
         "initial_stars": 1973,
-        "current_stars": 1971,
-        "star_diff": -2,
-        "growth_rate": -0.1,
+        "current_stars": 1970,
+        "star_diff": -3,
+        "growth_rate": -0.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 35
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 36
     },
     "history": [
         {
@@ -262,6 +262,13 @@
             "stars": 1971,
             "forks": 364,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1970,
+            "forks": 364,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

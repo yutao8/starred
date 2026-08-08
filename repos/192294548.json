@@ -6,16 +6,16 @@
         "name": "miniprogram-to-uniapp",
         "html_url": "https:\/\/github.com\/zhangdaren\/miniprogram-to-uniapp",
         "language": "JavaScript",
-        "description": "将微信小程序代码转换为uni-app代码的工具，主要用于帮助开发者将现有的微信小程序快速迁移到uni-app框架中，支持部分语法和组件的自动转换，提高多端移植效率。"
+        "description": "用于将微信小程序项目转换为uni-app工程，帮助开发者把已有的微信小程序代码迁移到uni-app多端框架，进而通过同一套代码发布到微信、支付宝、H5、iOS和安卓等多个平台。它主要处理两种框架之间的文件结构、生命周期和模板语法差异，减少手工重写的工作量，通常适合已有存量小程序、希望快速实现多端覆盖或转型uni-app技术栈的团队。使用过程中，部分原生组件或复杂逻辑仍可能需要人工适配。"
     },
     "summary": {
         "initial_stars": 1751,
-        "current_stars": 1808,
-        "star_diff": 57,
-        "growth_rate": 3.26,
+        "current_stars": 1807,
+        "star_diff": 56,
+        "growth_rate": 3.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 90
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 91
     },
     "history": [
         {
@@ -647,6 +647,13 @@
             "stars": 1808,
             "forks": 286,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1807,
+            "forks": 286,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

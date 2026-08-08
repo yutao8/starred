@@ -6,16 +6,16 @@
         "name": "wgcf",
         "html_url": "https:\/\/github.com\/ViRb3\/wgcf",
         "language": "Go",
-        "description": "wgcf 是一个用于生成 WireGuard 配置文件的命令行工具，主要用于快速创建连接 Cloudflare WARP 服务的配置，简化了启用 WARP 客户端的过程，适合需要提升网络隐私和安全性的用户。"
+        "description": "用于生成 Cloudflare WARP 的 WireGuard 配置命令行工具，解决官方客户端在通用设备上难以使用的问题。它自动完成账号注册、密钥交换和参数获取，输出标准配置文件，可被任意兼容 WireGuard 的客户端导入。典型场景是路由器、NAS、Linux 服务器等无官方支持的平台，也便于脚本化批量部署。项目采用 Go 开发，轻量无依赖，执行单一命令即可完成从注册到生成配置的流程，在社区中使用广泛。"
     },
     "summary": {
         "initial_stars": 6830,
-        "current_stars": 8572,
-        "star_diff": 1742,
-        "growth_rate": 25.51,
+        "current_stars": 8577,
+        "star_diff": 1747,
+        "growth_rate": 25.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 8572,
             "forks": 864,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8577,
+            "forks": 865,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

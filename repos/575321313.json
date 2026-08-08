@@ -6,16 +6,16 @@
         "name": "LangBot",
         "html_url": "https:\/\/github.com\/RockChinQ\/LangBot",
         "language": "Python",
-        "description": "LangBot 是一个基于大语言模型的聊天机器人应用，主要用于自然语言理解与对话交互，支持自定义技能、多轮对话管理及插件扩展，适用于客服、助手、教育等场景，帮助开发者快速构建智能化语言处理服务。"
+        "description": "LangBot 是一个开源的大语言模型智能助手框架，主要用于快速搭建可多平台接入的 AI 聊天机器人。它支持连接常见的大模型服务，提供插件系统和会话管理功能，适合个人或小团队在 QQ、微信、飞书等渠道部署私有的 AI 助手，实现自动化问答、角色扮演等场景。项目强调低成本、易部署和高性能，能够有效降低开发与使用大模型应用的门槛。"
     },
     "summary": {
         "initial_stars": 12209,
-        "current_stars": 17307,
-        "star_diff": 5098,
-        "growth_rate": 41.76,
+        "current_stars": 17332,
+        "star_diff": 5123,
+        "growth_rate": 41.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 17307,
             "forks": 1537,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17332,
+            "forks": 1537,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

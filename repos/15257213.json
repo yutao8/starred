@@ -6,7 +6,7 @@
         "name": "HP-Socket",
         "html_url": "https:\/\/github.com\/ldcsaa\/HP-Socket",
         "language": "C",
-        "description": "HP-Socket 是一套高性能的 TCP\/UDP\/HTTP 通信组件，主要用于 Windows 平台下的网络编程，提供稳定、高效、易用的客户端与服务器通信解决方案，适用于高并发、低延迟的网络应用开发，支持多种编程语言扩展。"
+        "description": "HP-Socket 是一套面向高并发场景的跨平台网络通信中间件，主要用于快速构建 TCP、UDP、HTTP 服务端与客户端。底层基于 Windows IOCP 和 Linux epoll 事件驱动模型，提供非阻塞异步收发和连接管理能力，能在单进程内支撑大量并发连接。典型使用场景包括游戏服务器、即时通讯、物联网网关以及需要长连接推送的后端服务。该组件以 C++ 编写，接口封装简洁，并支持 SSL 加密通道，适合作为底层通信骨架嵌入各类高性能业务系统。"
     },
     "summary": {
         "initial_stars": 5947,

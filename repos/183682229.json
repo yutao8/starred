@@ -6,16 +6,16 @@
         "name": "FakeLocation",
         "html_url": "https:\/\/github.com\/Lerist\/FakeLocation",
         "language": "HTML",
-        "description": "用于Android平台的虚拟定位工具，可以帮助用户在不修改系统设置的情况下模拟地理位置，适用于测试应用或保护隐私场景，支持自定义坐标和位置欺骗功能。"
+        "description": "用于安卓设备上的虚拟定位，可模拟任意GPS位置，帮助用户将手机定位修改到全球各地，典型应用场景包括社交软件打卡、游戏地理围栏操作、地图应用测试等。通常基于安卓系统的位置模拟机制实现，部分功能可能需要相应权限或免root环境。作为开源项目，适合需要自定义定位行为或研究定位原理的用户使用，也可用于开发调试中伪造位置信息，验证应用在不同地理区域下的表现。"
     },
     "summary": {
         "initial_stars": 6165,
-        "current_stars": 7206,
-        "star_diff": 1041,
-        "growth_rate": 16.89,
+        "current_stars": 7207,
+        "star_diff": 1042,
+        "growth_rate": 16.9,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 7206,
             "forks": 468,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7207,
+            "forks": 468,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

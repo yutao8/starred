@@ -6,7 +6,7 @@
         "name": "qqbot",
         "html_url": "https:\/\/github.com\/pandolia\/qqbot",
         "language": "Python",
-        "description": "QQBot 是一个基于酷Q和OneBot标准的QQ机器人框架，主要用于实现QQ消息的自动接收与回复，支持插件扩展和事件监听，适合构建各类自动化服务和群聊管理功能。"
+        "description": "用于构建 QQ 机器人的 Python 框架，主要帮助开发者快速实现 QQ 私聊和群消息的自动监听与响应。通过注册关键字或正则表达式即可定义交互逻辑，也支持消息的定时发送与被动回复，便于集成到现有自动化流程中。典型场景包括群内提问自动解答、消息转发、提醒通知以及轻量级运维管理。部署方式较为灵活，既能独立运行，也能作为模块嵌入其他 Python 项目，适合需要与 QQ 进行程序化交互的开发者使用。"
     },
     "summary": {
         "initial_stars": 3687,

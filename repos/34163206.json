@@ -6,16 +6,16 @@
         "name": "cheat-engine",
         "html_url": "https:\/\/github.com\/cheat-engine\/cheat-engine",
         "language": "Pascal",
-        "description": "用于修改电脑游戏中的内存数据以实现游戏修改的开源工具，支持指针扫描、内存编辑、反汇编和脚本注入等功能，主要面向游戏爱好者和逆向工程学习者。"
+        "description": "Cheat Engine 是一款开源的内存扫描与调试工具，主要面向游戏修改和逆向工程场景。它通过扫描进程内存帮助用户定位和修改关键数值，常被用于调整单机游戏中的生命值、金币等参数，也能辅助分析软件运行逻辑。内置调试器、反汇编器和速度控制等功能，支持脚本与插件扩展，适合学习内存结构、调试技术以及游戏外挂原理的开发者或爱好者使用。"
     },
     "summary": {
         "initial_stars": 16434,
-        "current_stars": 18884,
-        "star_diff": 2450,
-        "growth_rate": 14.91,
+        "current_stars": 18900,
+        "star_diff": 2466,
+        "growth_rate": 15.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 18884,
             "forks": 2702,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18900,
+            "forks": 2707,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

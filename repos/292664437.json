@@ -6,16 +6,16 @@
         "name": "cups",
         "html_url": "https:\/\/github.com\/OpenPrinting\/cups",
         "language": "C",
-        "description": "CUPS（Common Unix Printing System）是一个开源的打印系统，用于Unix-like操作系统，提供打印队列管理、打印机发现、打印作业调度及IPP（Internet Printing Protocol）支持，使用户能够通过网络或本地连接使用打印机。项目包含核心打印服务、驱动框架和管理工具，广泛用于Linux发行版中实现标准化打印功能。"
+        "description": "CUPS是Linux和类Unix系统上最常用的开源打印系统，提供打印队列管理、驱动支持以及网络打印协议（如IPP、SMB）的兼容层。它允许桌面应用和服务器统一调度本地或共享打印机，支持从配置文件、Web管理界面或命令行控制打印任务。该仓库由OpenPrinting维护，是许多发行版默认的打印基础设施，适合需要部署企业级打印服务、解决驱动兼容性或批量管理打印机资源的场景。"
     },
     "summary": {
         "initial_stars": 1290,
-        "current_stars": 1702,
-        "star_diff": 412,
-        "growth_rate": 31.94,
+        "current_stars": 1703,
+        "star_diff": 413,
+        "growth_rate": 32.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 174
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 175
     },
     "history": [
         {
@@ -1235,6 +1235,13 @@
             "stars": 1702,
             "forks": 306,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1703,
+            "forks": 306,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

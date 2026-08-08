@@ -6,16 +6,16 @@
         "name": "fancyss_history_package",
         "html_url": "https:\/\/github.com\/hq450\/fancyss_history_package",
         "language": "Other",
-        "description": "该项目主要用于提供FancySS历史版本的OpenWrt固件整合包，方便用户下载和使用旧版本Shadowsocks相关功能，适合需要特定版本SS插件的路由器固件定制需求。"
+        "description": "面向华硕\/梅林路由器用户，提供koolshare软件中心科学上网插件fancyss的历史版本安装包归档，主要满足因新版本出现兼容性问题、功能退化或使用习惯变化而需要回滚旧版的场景。仓库中的软件包通常按路由器平台和固件版本区分，便于用户按需下载并手动安装，以维持代理服务的稳定运行。"
     },
     "summary": {
         "initial_stars": 10696,
-        "current_stars": 10981,
-        "star_diff": 285,
-        "growth_rate": 2.66,
+        "current_stars": 10983,
+        "star_diff": 287,
+        "growth_rate": 2.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 174
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 175
     },
     "history": [
         {
@@ -1235,6 +1235,13 @@
             "stars": 10981,
             "forks": 3586,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10983,
+            "forks": 3587,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

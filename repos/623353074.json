@@ -6,16 +6,16 @@
         "name": "GoFilm",
         "html_url": "https:\/\/github.com\/ProudMuBai\/GoFilm",
         "language": "Go",
-        "description": "GoFilm 是一个基于 Go 语言开发的轻量级影视资源聚合爬虫项目，主要用于收集和整理网络上的电影、电视剧等视频资源信息。它支持多站点数据抓取、关键字搜索和分类筛选，具备良好的扩展性和并发性能，适合用于搭建个人影视资源检索工具或内容分发平台的后端数据源。"
+        "description": "GoFilm 是一款基于 Go 语言开发的影视资源聚合与在线播放程序，主要用于快速搭建个人影音网站。它支持多数据源采集、影片信息展示、分类筛选、关键词搜索以及在线播放等常见功能，适合需要部署轻量级视频站点或聚合影视内容的场景。由于采用 Go 编写，通常部署简单、资源占用低，并发处理能力较强，适合个人或小团队自建使用。"
     },
     "summary": {
         "initial_stars": 1291,
-        "current_stars": 1960,
-        "star_diff": 669,
-        "growth_rate": 51.82,
+        "current_stars": 1963,
+        "star_diff": 672,
+        "growth_rate": 52.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 1960,
             "forks": 436,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1963,
+            "forks": 435,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

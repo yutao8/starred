@@ -6,16 +6,16 @@
         "name": "notion-zh_CN",
         "html_url": "https:\/\/github.com\/Reamd7\/notion-zh_CN",
         "language": "JavaScript",
-        "description": "一个为 Notion 提供中文语言包的开源项目，主要用于帮助中文用户将 Notion 界面本地化为简体中文，提升使用体验，支持插件化部署，方便快捷集成到本地客户端，适合需要中文界面又希望保留官方功能的用户。"
+        "description": "提供 Notion 的中文本地化方案，通过用户脚本或样式覆盖将界面文字替换为简体中文，让不熟悉英文的用户也能顺畅使用。该仓库持续维护，跟随 Notion 版本更新翻译，覆盖主要导航、菜单和编辑区域。适合希望以中文界面使用 Notion 的群体，通常搭配浏览器插件或客户端注入。"
     },
     "summary": {
         "initial_stars": 7262,
-        "current_stars": 7042,
-        "star_diff": -220,
-        "growth_rate": -3.03,
+        "current_stars": 7040,
+        "star_diff": -222,
+        "growth_rate": -3.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 155
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 156
     },
     "history": [
         {
@@ -1102,6 +1102,13 @@
             "stars": 7042,
             "forks": 995,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7040,
+            "forks": 995,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "uncaptcha2",
         "html_url": "https:\/\/github.com\/ecthros\/uncaptcha2",
         "language": "Python",
-        "description": "uncaptcha2 是一个用于绕过 reCAPTCHA 验证码的工具，通过音频识别与自动化技术分析 reCAPTCHA 的音频挑战，主要用于测试和研究目的，帮助开发者了解验证码系统的安全机制及防御策略。"
+        "description": "uncaptcha2 是一个借助语音识别技术自动破解 Google reCAPTCHA 验证码的开源工具。它通过绕过音频验证的环节，将捕获的音频片段交给机器学习模型转写为文本，最终实现在网页上自动完成验证。该项目主要用于安全研究、验证码机制评估以及机器学习在语音识别中的应用演示，适合对验证码安全性或自动化测试感兴趣的技术人员。由于验证码随时更新，其实际效果可能受限，请仅用于合法合规的测试场景。"
     },
     "summary": {
         "initial_stars": 4953,
-        "current_stars": 4918,
-        "star_diff": -35,
-        "growth_rate": -0.71,
+        "current_stars": 4919,
+        "star_diff": -34,
+        "growth_rate": -0.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 73
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 74
     },
     "history": [
         {
@@ -528,6 +528,13 @@
             "stars": 4918,
             "forks": 449,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4919,
+            "forks": 449,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

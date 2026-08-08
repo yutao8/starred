@@ -6,16 +6,16 @@
         "name": "hosts",
         "html_url": "https:\/\/github.com\/ineo6\/hosts",
         "language": "TypeScript",
-        "description": "主要用于科学上网和广告屏蔽的 hosts 文件集合，通过将特定域名指向本地或无效地址来阻止广告、追踪器及不良内容，适用于多种操作系统和设备，定期更新以支持最新的屏蔽需求，可配合去广告工具使用以提升网络浏览体验。"
+        "description": "主要提供一份整合了多个公开来源的 hosts 文件，用于解决本机域名解析异常、DNS 污染等问题。仓库通常会定期合并并更新规则，包含广告拦截、恶意网站屏蔽以及常用网站访问加速等常见用途，适合需要快速修改系统 hosts 文件来提升上网体验或访问特定资源的场景。用户可以直接下载生成的 hosts 内容，覆盖到本机对应目录后生效，也可以配合计划任务或第三方工具进行定期自动更新。整体使用方式简单，不依赖复杂环境，适合普通用户手动配置。"
     },
     "summary": {
         "initial_stars": 5159,
-        "current_stars": 5351,
-        "star_diff": 192,
-        "growth_rate": 3.72,
+        "current_stars": 5352,
+        "star_diff": 193,
+        "growth_rate": 3.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 145
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 146
     },
     "history": [
         {
@@ -1032,6 +1032,13 @@
             "stars": 5351,
             "forks": 457,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5352,
+            "forks": 458,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

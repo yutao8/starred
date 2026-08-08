@@ -6,16 +6,16 @@
         "name": "ChineseUtil",
         "html_url": "https:\/\/github.com\/Yurunsoft\/ChineseUtil",
         "language": "PHP",
-        "description": "用于实现中文相关功能的工具库，支持中文繁简体转换、拼音转换、汉字转数字、数字转汉字等实用功能，方便在 PHP 项目中处理中文文本，适用于需要中文处理的各类应用场景。"
+        "description": "用于处理中文文本的PHP工具库，提供汉字转拼音、繁体简体互转、中文数字与阿拉伯数字互转等核心功能。拼音转换支持多音字识别和首字母提取，适合中文搜索、敏感词过滤、输入法联想等场景；简繁转换可处理港台与大陆文本转换；数字转换方便财务和报表场景。库设计灵活，支持通过PHP扩展或纯PHP方式运行，便于在多种环境中集成。适用于需要在PHP项目中快速实现中文处理能力的开发者。"
     },
     "summary": {
         "initial_stars": 496,
-        "current_stars": 493,
-        "star_diff": -3,
-        "growth_rate": -0.6,
+        "current_stars": 491,
+        "star_diff": -5,
+        "growth_rate": -1.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-22 00:00",
-        "data_points_count": 15
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 16
     },
     "history": [
         {
@@ -122,6 +122,13 @@
             "stars": 493,
             "forks": 70,
             "file": "dist\/2026072200\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 491,
+            "forks": 70,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

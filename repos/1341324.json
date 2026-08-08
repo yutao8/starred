@@ -6,7 +6,7 @@
         "name": "rimraf",
         "html_url": "https:\/\/github.com\/isaacs\/rimraf",
         "language": "TypeScript",
-        "description": "用于删除文件和目录的 Node.js 命令行工具，功能类似于 Unix 的 `rm -rf`，可跨平台安全移除文件夹及其中的所有内容，常用于清理构建产物或临时文件。"
+        "description": "用于Node.js生态的递归删除工具，功能相当于跨平台的rm -rf，能强制删除非空目录和文件，避免权限确认及平台差异问题。常被构建流程、清理脚本以及包管理工具用来移除node_modules、dist等临时或生成目录。既提供命令行调用，也提供编程接口，支持同步与异步用法，可设置在删除时的重试、错误处理等选项。由于实现注重兼容性，在Windows和POSIX系统上均有稳定表现，适合需要安全、可靠清理路径的场景。"
     },
     "summary": {
         "initial_stars": 5778,
@@ -14,8 +14,8 @@
         "star_diff": 71,
         "growth_rate": 1.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 123
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 124
     },
     "history": [
         {
@@ -878,6 +878,13 @@
             "stars": 5849,
             "forks": 267,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5849,
+            "forks": 268,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

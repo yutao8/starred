@@ -6,16 +6,16 @@
         "name": "WebCrack",
         "html_url": "https:\/\/github.com\/yzddmr6\/WebCrack",
         "language": "Python",
-        "description": "WebCrack 是一个用于 Web 应用指纹识别和漏洞检测的自动化工具，主要用于识别目标网站使用的技术栈（如 CMS、前端框架、服务器等）并检测常见安全漏洞。它通过分析 HTTP 响应特征、路径探测和版本比对，帮助安全研究人员快速评估 Web 应用的安全状况，适用于渗透测试和安全评估场景。"
+        "description": "WebCrack 主要用于针对 Web 登录表单的密码安全测试，通过内置的常见弱口令字典和请求构造逻辑，帮助安全研究人员快速验证目标系统的口令强度。它适合在授权渗透测试中批量检测后台、管理入口等场景，也可用于评估自建系统的防暴力破解能力。工具通常采用 Python 编写，支持自定义请求参数和代理，以适配不同站点结构。如果目标是快速识别薄弱口令、验证验证码或频率限制是否有效，WebCrack 能提供简洁的自动化方案。使用时应注意仅对拥有授权的目标发起测试，避免触发法律风险。"
     },
     "summary": {
         "initial_stars": 1962,
-        "current_stars": 2049,
-        "star_diff": 87,
-        "growth_rate": 4.43,
+        "current_stars": 2048,
+        "star_diff": 86,
+        "growth_rate": 4.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 104
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 105
     },
     "history": [
         {
@@ -745,6 +745,13 @@
             "stars": 2049,
             "forks": 330,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2048,
+            "forks": 330,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

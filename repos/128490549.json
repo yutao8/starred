@@ -6,7 +6,7 @@
         "name": "kms-server-deploy",
         "html_url": "https:\/\/github.com\/Mr-xn\/kms-server-deploy",
         "language": "Batchfile",
-        "description": "用于部署 KMS 服务的自动化脚本工具，支持快速搭建 KMS 激活服务器，适用于批量管理微软产品密钥激活，通常用于内网测试或个人学习环境中的系统激活，部署后可模拟 KMS 服务器响应客户端激活请求。"
+        "description": "用于部署 KMS 服务器，实现 Windows 和 Office 的本地激活，适合企业或个人在网络隔离环境中批量激活微软产品。该仓库提供自动化部署脚本，简化 KMS 服务的安装与配置过程，支持快速搭建激活服务，避免依赖外部 KMS 服务。通常适合系统管理员在局域网内使用，解决批量激活和授权管理问题。"
     },
     "summary": {
         "initial_stars": 306,

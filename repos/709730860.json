@@ -6,16 +6,16 @@
         "name": "LuckyLilliaBot",
         "html_url": "https:\/\/github.com\/LLOneBot\/LLOneBot",
         "language": "TypeScript",
-        "description": "LuckyLilliaBot 是一个基于 OneBot 标准开发的轻量级 QQ 机器人，旨在提供便捷的群聊管理、自定义命令和自动化交互功能，适合用于游戏、娱乐和日常群运营场景。"
+        "description": "用于搭建基于 LLOneBot 的 QQ 机器人，主要面向群聊管理和自动化场景。借助 OneBot 协议与 QQ 客户端交互，能够处理消息、响应指令，并可能支持自动回复和群管操作。适合个人或社群快速部署一个可定制的机器人助手，也便于开发者参考其项目结构进行二次开发。整体轻量、易部署，核心目标是让 QQ 群聊更高效、更有趣味。"
     },
     "summary": {
         "initial_stars": 2636,
-        "current_stars": 3517,
-        "star_diff": 881,
-        "growth_rate": 33.42,
+        "current_stars": 3521,
+        "star_diff": 885,
+        "growth_rate": 33.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 3517,
             "forks": 276,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3521,
+            "forks": 277,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

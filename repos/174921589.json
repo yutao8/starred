@@ -6,16 +6,16 @@
         "name": "music-dl",
         "html_url": "https:\/\/github.com\/guanguans\/music-dl",
         "language": "PHP",
-        "description": "用于下载和管理音乐的命令行工具，支持从多个平台搜索并下载歌曲、专辑或歌单，提供高音质选项和元数据嵌入，通常适合个人音乐收藏的快速获取与整理。"
+        "description": "用于在命令行中搜索并下载音乐，支持按歌曲名、歌手或专辑进行查询，并聚合多个音乐源的结果。用户可以选择目标歌曲直接下载，适合个人批量收藏或离线收听。它解决了不同平台音乐资源分散、下载门槛高的问题，尤其方便技术用户自动化处理。此类工具通常以轻量级脚本或 CLI 方式发布，需注意版权与合规使用。"
     },
     "summary": {
         "initial_stars": 703,
-        "current_stars": 752,
-        "star_diff": 49,
-        "growth_rate": 6.97,
+        "current_stars": 754,
+        "star_diff": 51,
+        "growth_rate": 7.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 59
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 60
     },
     "history": [
         {
@@ -430,6 +430,13 @@
             "stars": 752,
             "forks": 69,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 754,
+            "forks": 69,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "SillyTavern",
         "html_url": "https:\/\/github.com\/SillyTavern\/SillyTavern",
         "language": "JavaScript",
-        "description": "SillyTavern 是一个基于 Web 的角色扮演聊天界面，主要用于与 AI 模型进行互动对话。它支持自定义角色、世界设定、记忆管理以及情感状态，适合搭建本地化、个性化的 AI 聊天和剧情推进环境，通常与本地模型或后端 AI 服务配合使用。"
+        "description": "SillyTavern 是一款开源的 AI 角色扮演聊天前端，通过连接多种大语言模型或本地推理服务，让用户与自定义角色进行沉浸式对话、故事创作和互动式剧情体验。它提供丰富的角色卡管理、世界书设定、记忆增强和提示词调试工具，适合想要深度定制对话风格、进行文字冒险或构建虚拟角色的玩家与开发者使用。"
     },
     "summary": {
         "initial_stars": 15582,
-        "current_stars": 31730,
-        "star_diff": 16148,
-        "growth_rate": 103.63,
+        "current_stars": 31800,
+        "star_diff": 16218,
+        "growth_rate": 104.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 31730,
             "forks": 5977,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31800,
+            "forks": 6000,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

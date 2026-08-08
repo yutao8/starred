@@ -6,16 +6,16 @@
         "name": "nativefier",
         "html_url": "https:\/\/github.com\/nativefier\/nativefier",
         "language": "TypeScript",
-        "description": "将任意网页封装为桌面应用程序，支持 Windows、macOS 和 Linux，无需编写代码即可创建独立的 Electron 应用，适用于 Web 工具、聊天平台、笔记服务等需要桌面快捷方式的场景。"
+        "description": "将任意网站转换成桌面应用的开源命令行工具，基于 Electron 打包，支持 Windows、macOS 和 Linux。日常适用于把常用 Web 服务变成独立窗口程序，获得原生应用的启动方式、任务栏图标和独立进程体验，无需手动编写代码或维护前端工程。它适合希望快速封装内部工具、减少浏览器标签页干扰或分发轻量级客户端的场景，通常只需提供网址和应用名称即可生成可执行文件，并可自定义图标、窗口参数等基础配置。"
     },
     "summary": {
         "initial_stars": 35230,
-        "current_stars": 35292,
-        "star_diff": 62,
-        "growth_rate": 0.18,
+        "current_stars": 35290,
+        "star_diff": 60,
+        "growth_rate": 0.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 35292,
             "forks": 2239,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 35290,
+            "forks": 2239,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

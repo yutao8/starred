@@ -6,16 +6,16 @@
         "name": "clients",
         "html_url": "https:\/\/github.com\/bitwarden\/clients",
         "language": "TypeScript",
-        "description": "Bitwarden客户端是开源的密码管理工具，提供浏览器扩展、桌面和移动应用，支持跨平台同步加密的登录信息、卡片和密码，通过端到端加密保障用户数据安全，便于个人和团队安全地存储与管理敏感信息。"
+        "description": "Bitwarden 的官方客户端应用仓库，用于提供跨平台的密码管理解决方案。它包含了桌面应用、移动应用和浏览器扩展等客户端，支持用户安全地存储、同步和自动填充各类账号密码、支付信息与身份资料。该客户端通常适合个人或团队集中管理敏感凭据，配合 Bitwarden 服务端使用，通过端到端加密保护数据，并可利用主密码或生物识别方式解锁。若你是自托管用户，这些客户端也能方便地接入自己的服务器实例，解决多人协作和跨设备访问的密码安全问题。"
     },
     "summary": {
         "initial_stars": 10364,
-        "current_stars": 13528,
-        "star_diff": 3164,
-        "growth_rate": 30.53,
+        "current_stars": 13543,
+        "star_diff": 3179,
+        "growth_rate": 30.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 13528,
             "forks": 1956,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13543,
+            "forks": 1961,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

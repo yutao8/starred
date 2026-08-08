@@ -6,16 +6,16 @@
         "name": "AreaCity-JsSpider-StatsGov",
         "html_url": "https:\/\/github.com\/xiangyuecn\/AreaCity-JsSpider-StatsGov",
         "language": "JavaScript",
-        "description": "该项目用于解析中国国家统计局发布的行政区划代码数据，自动爬取并生成省、市、区县及乡镇级别的JSON层级结构，方便前端或小程序实现地区选择功能，数据更新至最新年份，支持按年份区分历史变更。"
+        "description": "用于抓取和处理国家统计局发布的省、市、县三级行政区划数据，并提供 JavaScript 脚本工具将结果整理成结构化数据文件。通常用于需要维护中国行政区划信息的 Web 项目，比如省市区联动选择器、地址录入校验、区域统计分析等。项目重点解决行政区划变动频繁、人工整理成本高的问题，适合需要定期同步官方区划数据的开发者。"
     },
     "summary": {
         "initial_stars": 6093,
-        "current_stars": 6807,
-        "star_diff": 714,
-        "growth_rate": 11.72,
+        "current_stars": 6814,
+        "star_diff": 721,
+        "growth_rate": 11.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 6807,
             "forks": 1010,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6814,
+            "forks": 1012,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "TrollStore",
         "html_url": "https:\/\/github.com\/opa334\/TrollStore",
         "language": "Objective-C",
-        "description": "TrollStore 是一个用于在 iOS 设备上永久安装和管理未经签名的应用程序的工具，无需每次重启后重新签名。它利用系统漏洞实现应用持久化，适合越狱或半越狱环境使用，方便用户安装第三方应用而不需要依赖传统签名服务。"
+        "description": "TrollStore 是一款面向 iOS 设备的永久签名工具，利用系统漏洞实现 IPA 应用的免证书安装与持久化签名。它能让用户无需 Apple ID 或定期重签，即可长期安装和管理非 App Store 应用，甚至覆盖系统自带应用。典型使用场景包括侧载游戏、修改版应用或需长期使用的工具，适合因证书过期而烦恼的越狱或非越狱 iOS 用户。该工具通过保留签名身份来保证应用在重启后依然有效，同时提供简易的安装与卸载界面，是自签和分发 IPA 的常用选择。"
     },
     "summary": {
         "initial_stars": 19767,
-        "current_stars": 21889,
-        "star_diff": 2122,
-        "growth_rate": 10.74,
+        "current_stars": 21906,
+        "star_diff": 2139,
+        "growth_rate": 10.82,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 21889,
             "forks": 1627,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21906,
+            "forks": 1628,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "2FAuth",
         "html_url": "https:\/\/github.com\/Bubka\/2FAuth",
         "language": "PHP",
-        "description": "用于生成和验证双因素身份验证（2FA）代码的工具，支持基于时间的一次性密码（TOTP），帮助用户安全登录支持2FA的服务，适用于开发者集成到应用程序中以增强账户安全性。"
+        "description": "2FAuth 是一个用于集中管理和验证双因素认证（2FA）验证码的 Web 应用，通常支持 TOTP 等主流协议。它允许用户将多个服务的一次性密码密钥保存在自托管的服务中，通过浏览器或手机访问，替代分散在各设备上的认证器应用。适合需要跨设备同步、备份或多用户共用认证信息的个人或团队，能够解决密钥分散、丢失和难以管理的问题。部署简便，注重数据自主可控和安全性。"
     },
     "summary": {
         "initial_stars": 2842,
-        "current_stars": 4084,
-        "star_diff": 1242,
-        "growth_rate": 43.7,
+        "current_stars": 4092,
+        "star_diff": 1250,
+        "growth_rate": 43.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 4084,
             "forks": 291,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4092,
+            "forks": 294,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

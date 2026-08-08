@@ -6,16 +6,16 @@
         "name": "gfwlist",
         "html_url": "https:\/\/github.com\/gfwlist\/gfwlist",
         "language": "Other",
-        "description": "用于记录被中国防火墙屏蔽的域名和IP地址列表，帮助开发者和用户识别网络访问受限的资源，通常用于配合代理工具实现自动分流和科学上网。"
+        "description": "用于维护被中国大陆防火墙屏蔽的域名和网址列表，通常以PAC文件格式呈现，供各类代理工具和浏览器插件自动识别并分流访问规则，用户部署后即可实现绕过封锁或智能代理切换，适合需要科学上网、自动规避网络屏蔽的普通用户及开发者使用。"
     },
     "summary": {
         "initial_stars": 24211,
-        "current_stars": 25492,
-        "star_diff": 1281,
-        "growth_rate": 5.29,
+        "current_stars": 25495,
+        "star_diff": 1284,
+        "growth_rate": 5.3,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 25492,
             "forks": 3995,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 25495,
+            "forks": 3993,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

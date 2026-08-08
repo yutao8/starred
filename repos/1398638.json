@@ -6,7 +6,7 @@
         "name": "dom-crawler",
         "html_url": "https:\/\/github.com\/symfony\/dom-crawler",
         "language": "PHP",
-        "description": "用于解析和操作HTML和XML文档的组件，提供方便的DOM元素选择和遍历方法，常用于Web爬虫和自动化测试中提取页面数据。"
+        "description": "用于解析 HTML 和 XML 文档并提取其中内容的 PHP 组件，是 Symfony 框架的一部分。它提供对 DOM 树的操作能力，支持通过 CSS 选择器和 XPath 表达式查找元素，也支持处理表单、链接等节点。常用于编写爬虫、网页数据采集，以及在功能测试中模拟用户点击和提交表单。适合需要从网页中精准提取结构化信息或验证网页行为的场景。"
     },
     "summary": {
         "initial_stars": 4012,

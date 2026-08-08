@@ -6,16 +6,16 @@
         "name": "cnn_captcha",
         "html_url": "https:\/\/github.com\/nickliqian\/cnn_captcha",
         "language": "Python",
-        "description": "基于卷积神经网络的验证码识别工具，主要用于训练和预测文本验证码，适用于图像识别学习与验证码安全测试，结合TensorFlow实现端到端的验证码图像分类。"
+        "description": "用于解决验证码自动识别问题，借助卷积神经网络模型对数字、字母等简单验证码进行训练和预测。项目自带验证码样本生成工具，可快速构造训练数据，并提供了完整的训练、验证和测试流程，适合需要批量处理验证码的自动化场景，如爬虫、自动化测试或账号注册流程中的验证码识别。"
     },
     "summary": {
         "initial_stars": 2836,
-        "current_stars": 2881,
-        "star_diff": 45,
-        "growth_rate": 1.59,
+        "current_stars": 2880,
+        "star_diff": 44,
+        "growth_rate": 1.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 95
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 96
     },
     "history": [
         {
@@ -682,6 +682,13 @@
             "stars": 2881,
             "forks": 784,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2880,
+            "forks": 784,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

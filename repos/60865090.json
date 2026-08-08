@@ -6,16 +6,16 @@
         "name": "tc-lib-pdf",
         "html_url": "https:\/\/github.com\/tecnickcom\/tc-lib-pdf",
         "language": "PHP",
-        "description": "用于生成 PDF 文档的 PHP 库，提供底层操作功能，支持字体嵌入、页面管理、文本与图形绘制，适用于需要程序化创建或修改 PDF 文件的场景，可作为 TCPDF 等库的基础组件。"
+        "description": "为 PHP 应用提供生成 PDF 文档的底层核心能力，适合在服务端动态创建包含文本、图像、表格和矢量图形的页面。它常被用于构建电子票据、报表、合同和标签等需要精确控制版式与输出质量的场景，尤其适合已有 PHP 技术栈且希望避免依赖外部转换服务的项目。该库在内部处理页面布局、字体加载、颜色空间与压缩等基础逻辑，通常作为完整 TCPDF 组件的基础层来使用。"
     },
     "summary": {
         "initial_stars": 1722,
-        "current_stars": 1895,
-        "star_diff": 173,
-        "growth_rate": 10.05,
+        "current_stars": 1896,
+        "star_diff": 174,
+        "growth_rate": 10.1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 116
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 117
     },
     "history": [
         {
@@ -829,6 +829,13 @@
             "stars": 1895,
             "forks": 256,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1896,
+            "forks": 256,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

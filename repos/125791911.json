@@ -6,7 +6,7 @@
         "name": "pierced",
         "html_url": "https:\/\/github.com\/open-dingtalk\/pierced",
         "language": "Other",
-        "description": "用于穿透内网的钉钉开放平台工具，支持将本地服务映射到公网，方便开发者调试和部署应用，常用于钉钉机器人、小程序等场景的本地开发联调。"
+        "description": "钉钉开源的内网穿透工具，用于将本地开发服务通过公网域名暴露，方便调试和测试。通常适合开发者在本地运行代码时，让外部网络（如钉钉回调、第三方 webhook）能够访问到临时端口。它支持自定义域名映射、多端口转发等常见功能，客户端与服务端采用 Go 编写，部署简单，解决没有公网 IP 时联调困难的问题。"
     },
     "summary": {
         "initial_stars": 2272,

@@ -6,16 +6,16 @@
         "name": "scrapy",
         "html_url": "https:\/\/github.com\/scrapy\/scrapy",
         "language": "Python",
-        "description": "Scrapy 是一个快速高效的 Python 网络爬虫框架，用于抓取网站并提取结构化数据。它广泛应用于数据挖掘、监控和自动化测试，支持 XPath 和 CSS 表达式解析，提供强大的中间件和扩展机制，适合构建复杂的爬虫项目。"
+        "description": "Scrapy 是一个用于大规模网页数据抓取的 Python 框架，提供完整的爬虫生命周期管理，包括请求调度、并发下载、数据解析、管道持久化及中间件扩展机制。它自带选择器支持 CSS 和 XPath，并集成日志、去重、限速和分布式部署能力，适合构建结构化采集系统。典型场景涵盖搜索引擎数据源、价格监控、舆情分析及学术数据集构建，解决从规则编写到数据落地的工程化问题。通常与 ScrapyRT、Splash 或 Playwright 配合处理 JavaScript 渲染页面。其插件生态允许定制深度优先爬取、自定义存储格式及反封锁策略，但需注意遵守目标网站 robots 协议与访问频率限制。"
     },
     "summary": {
         "initial_stars": 57305,
-        "current_stars": 63672,
-        "star_diff": 6367,
-        "growth_rate": 11.11,
+        "current_stars": 63695,
+        "star_diff": 6390,
+        "growth_rate": 11.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 63672,
             "forks": 11863,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 63695,
+            "forks": 11870,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

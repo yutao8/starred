@@ -6,7 +6,7 @@
         "name": "spy-debugger",
         "html_url": "https:\/\/github.com\/wuchangming\/spy-debugger",
         "language": "JavaScript",
-        "description": "一个基于 Node.js 开发的远程调试工具，主要用于移动端 WebView 调试，支持通过 USB 连接设备并代理网络请求，方便开发者在桌面浏览器中调试手机端页面，特别适用于 Cordova、微信、Hybrid 等应用的前端问题排查。"
+        "description": "移动端网页开发调试工具，通过代理方式拦截并查看HTTP\/HTTPS请求，能直观呈现请求头、参数和响应内容，同时提供页面脚本调试能力，辅助定位线上或本地H5页面的问题。通常以命令行形式运行，适合在真机或模拟器上调试微信内置浏览器、App内嵌WebView等场景，帮助开发者快速排查网络异常和页面报错。"
     },
     "summary": {
         "initial_stars": 7598,

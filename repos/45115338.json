@@ -6,7 +6,7 @@
         "name": "YAAW-for-Chrome",
         "html_url": "https:\/\/github.com\/acgotaku\/YAAW-for-Chrome",
         "language": "JavaScript",
-        "description": "用于Chrome浏览器的轻量级aria2图形化前端工具，通过WebUI与aria2进程通信实现离线下载任务管理，支持批量下载、任务调度和远程控制，适合需要高效管理下载队列的用户。"
+        "description": "专为 Chrome 浏览器打造的 Aria2 图形化管理扩展，用于替代 Aria2 原生的命令行操作方式。它通过简洁的网页界面连接 Aria2 后台，实现下载任务的添加、进度查看、暂停恢复与删除等常见管理操作，适合需要快速掌控下载状态、批量处理任务或通过浏览器便捷管理 Aria2 的用户。该扩展通常搭配本地或远程 Aria2 服务使用，利用其 RPC 接口进行通信，适合爬虫工程师、资源收集者及依赖 Aria2 高速下载的日常用户。"
     },
     "summary": {
         "initial_stars": 1214,

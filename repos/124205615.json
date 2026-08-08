@@ -6,16 +6,16 @@
         "name": "Bark",
         "html_url": "https:\/\/github.com\/Finb\/Bark",
         "language": "Swift",
-        "description": "Bark 是一个由 Finb 开发的高效轻量级通知推送工具，主要用于将系统或应用程序的告警消息通过多种渠道（如微信、钉钉、Telegram 等）实时推送给用户，支持自定义消息模板和多平台集成，适用于运维监控、CI\/CD 通知等场景。"
+        "description": "Bark 是一款专为 iOS 设备设计的自定义推送通知工具，让用户通过简单的 HTTP 请求向 iPhone 或 iPad 发送通知消息。它适合开发者或自动化爱好者用来接收脚本运行结果、服务器监控告警、定时任务提醒等，无需开发完整的 App 即可快速将信息推送到移动端。通过自建服务器或利用现有推送通道，用户可以高度定制通知内容、优先级和声音。通常用于个人自动化工作流、智能家居联动或运维监控场景，解决了传统推送服务配置复杂、难以自定义的问题。"
     },
     "summary": {
         "initial_stars": 6204,
-        "current_stars": 8869,
-        "star_diff": 2665,
-        "growth_rate": 42.96,
+        "current_stars": 8872,
+        "star_diff": 2668,
+        "growth_rate": 43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 8869,
             "forks": 678,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8872,
+            "forks": 678,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

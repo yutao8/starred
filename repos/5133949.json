@@ -6,16 +6,16 @@
         "name": "swoole-src",
         "html_url": "https:\/\/github.com\/swoole\/swoole-src",
         "language": "C++",
-        "description": "Swoole 是一个基于 C++ 编写的高性能 PHP 协程扩展，主要用于构建高并发的网络服务器和微服务。它提供了异步非阻塞多路复用、协程、定时器、进程通信等功能，支持 HTTP、WebSocket、TCP\/UDP 等协议，显著提升 PHP 在长生命周期服务中的性能表现。"
+        "description": "用于为 PHP 提供高性能异步网络通信能力的扩展引擎，基于 C 语言实现并集成协程支持，使开发者能够在 PHP 中构建高并发服务器、WebSocket 服务、TCP\/UDP 长连接应用以及微服务网关。它允许 PHP 脚本以同步编码方式获得异步执行效率，典型场景包括即时通讯、实时消息推送、物联网接入和 RPC 服务。通常适合需要突破传统 PHP-FPM 并发瓶颈、追求低延迟和更高吞吐量的后端项目。"
     },
     "summary": {
         "initial_stars": 18697,
-        "current_stars": 18907,
-        "star_diff": 210,
-        "growth_rate": 1.12,
+        "current_stars": 18908,
+        "star_diff": 211,
+        "growth_rate": 1.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 18907,
             "forks": 3148,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18908,
+            "forks": 3148,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "X6",
         "html_url": "https:\/\/github.com\/antvis\/X6",
         "language": "TypeScript",
-        "description": "一个功能强大的图编辑引擎，主要用于构建流程图、拓扑图、脑图等各类图形化应用，提供灵活的节点与边的操作、丰富的交互行为和高度可定制的渲染能力，适用于需要可视化建模的前端场景。"
+        "description": "基于 Web 的图编辑引擎，主要用于流程图、DAG、ER 图等交互式图表的搭建与编辑。它提供节点和边的自定义、拖拽、缩放、撤销重做等核心能力，适合需要在业务系统中集成可视化编排、设计器或拓扑编辑工具的场景，尤其适用于复杂图编辑应用的快速开发。"
     },
     "summary": {
         "initial_stars": 6084,
-        "current_stars": 6655,
-        "star_diff": 571,
-        "growth_rate": 9.39,
+        "current_stars": 6659,
+        "star_diff": 575,
+        "growth_rate": 9.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 6655,
             "forks": 1896,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6659,
+            "forks": 1896,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

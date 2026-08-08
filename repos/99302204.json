@@ -6,7 +6,7 @@
         "name": "udp2raw",
         "html_url": "https:\/\/github.com\/wangyu-\/udp2raw",
         "language": "C++",
-        "description": "udp2raw 是一个用于将 UDP 流量伪装成 TCP 流量的工具，主要用于绕过网络审查或防火墙对 UDP 的限制。通过将 UDP 数据包封装在 TCP 连接中传输，它能够有效改善在不友好网络环境下（如受干扰或封锁）的连接稳定性，适用于游戏加速、VoIP 通信等对延迟敏感的场景。"
+        "description": "用于将UDP流量通过raw socket封装成TCP或ICMP包，以绕过防火墙对UDP的屏蔽或QoS限制。通常适合游戏加速、科学上网等场景，配合KCP等协议实现低延迟可靠传输。通过伪造成普通TCP连接来隐藏UDP特征，在弱网环境下表现稳定，并支持地址伪装、加密和抗重放，用于解决UDP被运营商干扰或丢弃的问题。"
     },
     "summary": {
         "initial_stars": 7767,

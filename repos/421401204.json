@@ -6,16 +6,16 @@
         "name": "goravel",
         "html_url": "https:\/\/github.com\/goravel\/goravel",
         "language": "Go",
-        "description": "Goravel 是一个基于 Go 语言的 Web 应用框架，主要用于构建高效、可维护的后端服务。它借鉴了 Laravel 的设计理念，提供了优雅的路由、依赖注入、服务容器、ORM 和队列等特性，适合开发大型 Web 应用和微服务。"
+        "description": "为Go语言开发者设计的Web应用框架，借鉴Laravel的优雅语法与设计模式，内置路由、中间件、数据库ORM、缓存、队列等常用功能，开箱即用，帮助开发者快速搭建Web应用和RESTful API。其目录结构和约定与Laravel相似，可显著降低从Laravel迁移到Go的成本，同时利用Go的高并发特性提升服务性能，适合中大型后端项目及需要敏捷开发的团队。"
     },
     "summary": {
         "initial_stars": 3884,
-        "current_stars": 4791,
-        "star_diff": 907,
-        "growth_rate": 23.35,
+        "current_stars": 4792,
+        "star_diff": 908,
+        "growth_rate": 23.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 4791,
             "forks": 270,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4792,
+            "forks": 270,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

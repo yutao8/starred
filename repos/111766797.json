@@ -6,7 +6,7 @@
         "name": "php-ext-xlswriter",
         "html_url": "https:\/\/github.com\/viest\/php-ext-xlswriter",
         "language": "C",
-        "description": "一个基于 libxlsxwriter 的 PHP 扩展，用于高效生成 XLSX 格式 Excel 文件。它提供简洁的编程接口，支持写入文本、数字、公式及基本格式，适用于需要高性能导出 Excel 的场景，尤其适合处理大数据量时对内存和速度要求较高的应用。"
+        "description": "viest\/php-ext-xlswriter 是一个 PHP 扩展，用于高效读写 Excel 文件（.xlsx 格式），底层依赖 C 库 libxlsxwriter，性能远优于纯 PHP 实现。它支持多工作表、单元格样式、公式、图表、数据验证等常见功能，适合处理大规模数据导出、批量生成报表或转换数据格式等场景，通常用于 Laravel、ThinkPHP 等框架或原生 PHP 项目中需要高性能 Excel 处理的场合。"
     },
     "summary": {
         "initial_stars": 2335,

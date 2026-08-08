@@ -6,16 +6,16 @@
         "name": "iCSS",
         "html_url": "https:\/\/github.com\/chokcoco\/iCSS",
         "language": "TypeScript",
-        "description": "iCSS 是一个专注于 CSS 变量与运行时样式管理的轻量级库，通过动态控制 CSS 自定义属性实现主题切换、样式注入和运行时样式更新，简化复杂应用中的视觉层逻辑控制，适合需要高度动态化样式的前端项目集成。"
+        "description": "iCSS 是前端开发者 chokcoco 维护的 CSS 技巧与特效案例库，集中展示各种少见、高级或有趣的 CSS 用法。它收录了大量可直接运行的 demo，涵盖布局、动画、交互、视觉特效等方向，适合在制作复杂界面或寻找灵感时参考。仓库内容围绕纯 CSS 实现展开，常用来解决 JavaScript 实现成本高或性能不佳的场景，也能帮助开发者深入理解层叠上下文、动画帧、滤镜、混合模式等底层机制。对于想提升样式功底、探索 CSS 边界的前端工程师而言，是一份持续更新的实战手册。"
     },
     "summary": {
         "initial_stars": 20329,
-        "current_stars": 20672,
-        "star_diff": 343,
-        "growth_rate": 1.69,
+        "current_stars": 20670,
+        "star_diff": 341,
+        "growth_rate": 1.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 20672,
             "forks": 2053,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 20670,
+            "forks": 2052,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "Video-Downloader",
         "html_url": "https:\/\/github.com\/EvilCult\/Video-Downloader",
         "language": "Python",
-        "description": "用于下载网页视频的工具，支持多种视频网站的解析与下载，可捕获在线视频流并保存为本地文件，通常适用于需要离线观看或保存网络视频内容的场景，使用 Python 编写，依赖常见网络请求和解析库实现核心功能。"
+        "description": "EvilCult\/Video-Downloader 是一款跨平台的视频下载工具，通过解析网页链接来抓取并保存网络视频，支持主流视频网站和较丰富的清晰度选项。它通常在桌面环境下运行，提供图形化界面，方便用户直接粘贴链接、选择下载格式与保存路径。该工具适合个人收藏视频、离线观看或素材整理等场景，能够有效解决网页视频无法直接保存的问题，尤其适合不熟悉命令行操作的用户。其底层机制往往依赖成熟的解析和下载组件，因此在应对链接失效或网站改版时可能具有一定局限，但整体上手简单，实用性强。"
     },
     "summary": {
         "initial_stars": 1446,
-        "current_stars": 1450,
-        "star_diff": 4,
-        "growth_rate": 0.28,
+        "current_stars": 1449,
+        "star_diff": 3,
+        "growth_rate": 0.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 35
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 36
     },
     "history": [
         {
@@ -262,6 +262,13 @@
             "stars": 1450,
             "forks": 257,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1449,
+            "forks": 257,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

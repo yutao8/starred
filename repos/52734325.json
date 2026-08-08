@@ -6,7 +6,7 @@
         "name": "torsniff",
         "html_url": "https:\/\/github.com\/fanpei91\/torsniff",
         "language": "Go",
-        "description": "用于捕获和分析 Tor 网络流量的工具，可帮助研究人员监控并解析 Tor 加密通信中的元数据，通常适用于网络安全研究与流量指纹识别，需注意其技术敏感性及合法合规使用场景。"
+        "description": "用于从BitTorrent DHT网络实时抓取并解析种子元数据，通过伪装节点监听网络中的元数据交换，从而获取torrent文件信息。通常适合构建种子搜索引擎、监控下载活动或分析P2P网络流量。工具基于Go语言实现，具备高并发、低资源占用特点，可独立运行作为持续数据收集服务，帮助用户批量积累infohash与对应的torrent文件。"
     },
     "summary": {
         "initial_stars": 4010,
@@ -14,8 +14,8 @@
         "star_diff": 7,
         "growth_rate": 0.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 83
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 84
     },
     "history": [
         {
@@ -598,6 +598,13 @@
             "stars": 4017,
             "forks": 891,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4017,
+            "forks": 890,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

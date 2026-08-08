@@ -6,16 +6,16 @@
         "name": "nps",
         "html_url": "https:\/\/github.com\/ehang-io\/nps",
         "language": "Go",
-        "description": "nps是一款轻量级、高性能的内网穿透代理服务器，支持tcp、udp、http、https等协议，主要用于将内网服务映射到公网访问，适合远程办公、调试本地项目、搭建私有云服务等场景，具有配置简单、传输高效、安全性强等特点，适用于个人开发者及企业级应用。"
+        "description": "nps 是一款用 Go 实现的内网穿透工具，主要将内网中的 Web、数据库、SSH 等服务安全映射到公网，支持 TCP、UDP、HTTP、HTTPS 协议以及多端口复用和域名转发。它采用轻量级服务端加客户端模式，并附带可视化 Web 管理界面，适合没有公网 IP 的个人用户或中小团队，用于远程办公、设备调试、临时演示、内网服务公网访问等场景。配置灵活，部署简单，是搭建反向代理隧道和跳板服务的常用选择。"
     },
     "summary": {
         "initial_stars": 32955,
-        "current_stars": 34156,
-        "star_diff": 1201,
-        "growth_rate": 3.64,
+        "current_stars": 34157,
+        "star_diff": 1202,
+        "growth_rate": 3.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 34156,
             "forks": 6072,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 34157,
+            "forks": 6072,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

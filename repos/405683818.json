@@ -6,7 +6,7 @@
         "name": "webcall",
         "html_url": "https:\/\/github.com\/mehrvarz\/webcall",
         "language": "JavaScript",
-        "description": "Webcall 是一个用于简化 Web API 调用的工具库，主要用于发起 HTTP 请求并与后端服务交互，支持灵活的配置和中间件扩展，适合构建前端与 API 之间的通信层。"
+        "description": "用于在浏览器中实现实时音视频通话的 Web 组件，通常基于 WebRTC 和 WebSocket 等标准技术，主要解决网页应用缺乏原生点对点通信能力的问题。它封装了信令交换、媒体流协商、连接管理等底层细节，方便在线客服、远程协助、视频会议等场景快速集成呼叫功能。开发者能够通过简单配置发起或接收呼叫，并在网页上控制通话状态，尤其适合用在前端为主的项目中，以较少代码获得接近原生的通信体验。"
     },
     "summary": {
         "initial_stars": 143,

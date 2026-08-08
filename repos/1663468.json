@@ -6,16 +6,16 @@
         "name": "pdf.js",
         "html_url": "https:\/\/github.com\/mozilla\/pdf.js",
         "language": "JavaScript",
-        "description": "用于在网页中直接渲染 PDF 文件的 JavaScript 库，无需依赖外部插件，兼容多种浏览器，支持文本选择、搜索和表单功能，通常用于构建在线文档查看器。"
+        "description": "PDF.js 是 Mozilla 开源的一款基于 HTML5 和 JavaScript 的 PDF 渲染引擎，能让浏览器无需插件直接显示 PDF。主要用于在 Web 应用中嵌入 PDF 阅读和预览功能，支持缩放、翻页、文本选择与搜索等常见操作，适合构建在线文档预览系统、电子书阅读器或企业内部文档管理平台。该引擎基于 Canvas 渲染，兼容绝大多数现代浏览器，也常被用于前端 PDF 解析和文本提取场景。"
     },
     "summary": {
         "initial_stars": 51127,
-        "current_stars": 53680,
-        "star_diff": 2553,
-        "growth_rate": 4.99,
+        "current_stars": 53694,
+        "star_diff": 2567,
+        "growth_rate": 5.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 53680,
             "forks": 10653,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 53694,
+            "forks": 10654,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

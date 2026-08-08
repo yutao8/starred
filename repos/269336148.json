@@ -6,16 +6,16 @@
         "name": "Docker-OSX",
         "html_url": "https:\/\/github.com\/sickcodes\/Docker-OSX",
         "language": "Shell",
-        "description": "通过 Docker 部署可远程访问的 macOS 操作系统环境，主要用于在 Linux 上运行 macOS 实例进行开发测试、安全研究或应用调试，支持 Apple Silicon 和 x86_64 架构的虚拟化，适合需要 macOS 云服务或自动化测试的场景。"
+        "description": "用于在 Linux 环境下通过 Docker 容器运行完整 macOS 系统，利用 KVM 硬件虚拟化实现接近原生的性能。它支持多种 macOS 版本，可自动下载恢复镜像并完成安装，适合需要在非苹果硬件上进行 macOS 应用测试、CI\/CD 流水线构建、安全研究与逆向分析等场景。通常还能配合 VNC 或 SSH 远程访问图形界面，方便开发者在无 Mac 设备时验证软件兼容性或执行自动化任务。该项目面向开发者和测试人员，提供命令行参数定制磁盘大小、内存和 CPU 核心，以适配不同资源需求。"
     },
     "summary": {
         "initial_stars": 50733,
-        "current_stars": 52833,
-        "star_diff": 2100,
-        "growth_rate": 4.14,
+        "current_stars": 52837,
+        "star_diff": 2104,
+        "growth_rate": 4.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 52833,
             "forks": 2881,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 52837,
+            "forks": 2881,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

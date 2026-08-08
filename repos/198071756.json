@@ -6,16 +6,16 @@
         "name": "RevokeMsgPatcher",
         "html_url": "https:\/\/github.com\/huiyadanli\/RevokeMsgPatcher",
         "language": "C#",
-        "description": "用于修改微信以支持撤回已发送消息的补丁工具，主要用于在微信客户端中实现消息撤回功能的增强或修复，适合需要更灵活消息管理的用户，通常适用于特定版本的微信客户端修改。"
+        "description": "一个用于解除微信、QQ 和 TIM 消息撤回限制的补丁工具。通过修改客户端程序文件，使接收方在对方撤回消息后仍能保留并查看已撤回的内容，适用于聊天记录取证和资料保存场景。支持一键自动修补、还原原版文件，并提供命令行模式便于批量处理。通常需要管理员权限运行，使用前建议备份客户端数据。"
     },
     "summary": {
         "initial_stars": 33254,
-        "current_stars": 38380,
-        "star_diff": 5126,
-        "growth_rate": 15.41,
+        "current_stars": 38394,
+        "star_diff": 5140,
+        "growth_rate": 15.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 38380,
             "forks": 4038,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 38394,
+            "forks": 4040,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

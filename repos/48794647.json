@@ -6,7 +6,7 @@
         "name": "forsaken-mail",
         "html_url": "https:\/\/github.com\/denghongcai\/forsaken-mail",
         "language": "JavaScript",
-        "description": "一个轻量级、可自托管的临时邮箱服务，主要用于接收测试邮件或临时注册验证，支持动态生成临时邮箱地址并实时查看邮件内容，适合开发调试和隐私保护场景。"
+        "description": "用于搭建临时邮箱服务的开源项目，通过网页界面接收和查看一次性邮件，无需注册。它通常适合个人或团队部署，用来在注册网站、测试邮件功能时保护真实邮箱地址，避免垃圾邮件骚扰。基于 Node.js 构建，支持自定义域名，并可将邮件存入数据库供后续查询。整体上是一个轻量、自托管的临时邮件方案。"
     },
     "summary": {
         "initial_stars": 1522,

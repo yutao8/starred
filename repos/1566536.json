@@ -6,7 +6,7 @@
         "name": "klein.php",
         "html_url": "https:\/\/github.com\/klein\/klein.php",
         "language": "PHP",
-        "description": "klein\/klein.php 是一个轻量级的 PHP 微框架，主要用于快速构建简单的 Web 应用和 RESTful API。它提供简洁的路由系统，支持灵活的请求响应处理，适合小型项目或原型开发。"
+        "description": "面向 PHP 的轻量级路由库，用于快速构建 Web 应用和 RESTful API。它提供简洁的请求路由匹配与分发机制，支持多种 HTTP 方法、路径参数捕获以及正则表达式模式，使开发者无需依赖重型框架即可优雅组织控制器和回调逻辑。通常适合中小型项目、微服务接口，或作为现有系统中的路由组件，能有效简化 URL 到处理函数的映射过程，提升开发效率。"
     },
     "summary": {
         "initial_stars": 2669,

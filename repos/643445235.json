@@ -6,16 +6,16 @@
         "name": "lobehub",
         "html_url": "https:\/\/github.com\/lobehub\/lobe-chat",
         "language": "TypeScript",
-        "description": "LobeHub 是一个专注于大模型应用开发的开源平台，提供大模型对话、语音识别、图像识别等能力的集成框架，主要用于帮助开发者快速构建和部署 AI 原生应用，支持插件化扩展和多平台部署，适合搭建个性化 AI 助手、智能客服等场景。"
+        "description": "LobeHub 是一个开源的 AI 聊天机器人框架，提供美观的界面和功能丰富的插件系统，让用户能够轻松部署自托管的智能助手。它支持接入多种主流大模型，适合个人或团队搭建私有的 AI 对话环境，也常用于定制专属角色或构建知识库问答场景，解决数据安全和个性化交互需求。"
     },
     "summary": {
         "initial_stars": 62834,
-        "current_stars": 81331,
-        "star_diff": 18497,
-        "growth_rate": 29.44,
+        "current_stars": 81414,
+        "star_diff": 18580,
+        "growth_rate": 29.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 81331,
             "forks": 15776,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 81414,
+            "forks": 15782,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

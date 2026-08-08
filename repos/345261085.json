@@ -6,7 +6,7 @@
         "name": "BingWallpaper",
         "html_url": "https:\/\/github.com\/myseil\/BingWallpaper",
         "language": "Other",
-        "description": "用于自动下载并设置必应每日壁纸的开源工具，支持 Windows、macOS 和 Linux 系统，可定时获取高清 Bing 封面图像作为桌面背景，提供轻量化的本地化壁纸管理方案。"
+        "description": "用于获取必应每日壁纸并自动设为桌面背景的小工具，通常调用必应官方接口或解析网页获取当天高清图片，支持本地保存与定时更换，适合喜欢每天自动更新壁纸、不想手动搜索的用户。项目以简单易用为主，可能提供命令行或图形界面，常见于 Windows 环境，也可扩展至其他系统，解决手动下载和设置壁纸的麻烦。"
     },
     "summary": {
         "initial_stars": 191,

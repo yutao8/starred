@@ -6,16 +6,16 @@
         "name": "gh-proxy",
         "html_url": "https:\/\/github.com\/hunshcn\/gh-proxy",
         "language": "Python",
-        "description": "用于加速 GitHub 资源下载的反向代理服务，支持释放文件、仓库压缩包等静态资源的加速访问，常用于解决网络受限环境下访问 GitHub 缓慢的问题，部署后可通过中转代理提升下载速度。"
+        "description": "为 GitHub 资源访问提供加速代理服务，专门解决国内或其他网络环境下克隆仓库、下载 release 附件或 raw 文件速度缓慢的问题。通常部署于边缘计算平台，作为反向代理转发请求，用户无需修改本地 git 配置即可直接替换链接使用，适合个人开发者或团队在受限网络中高效获取开源项目文件。"
     },
     "summary": {
         "initial_stars": 8107,
-        "current_stars": 8928,
-        "star_diff": 821,
-        "growth_rate": 10.13,
+        "current_stars": 8937,
+        "star_diff": 830,
+        "growth_rate": 10.24,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 8928,
             "forks": 2385,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8937,
+            "forks": 2386,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

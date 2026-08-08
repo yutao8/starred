@@ -6,16 +6,16 @@
         "name": "MusicPlayer2",
         "html_url": "https:\/\/github.com\/zhongyang219\/MusicPlayer2",
         "language": "C++",
-        "description": "MusicPlayer2 是一个功能丰富的音乐播放器开源项目，支持多种音频格式播放，提供均衡器、音效处理、歌词同步显示和自定义主题等特性，适合需要高自定义性和高性能音频播放功能的桌面应用开发参考。"
+        "description": "面向Windows桌面环境开发的本地音乐播放器，专注于高效管理本地曲库与流畅播放。支持多种常见音频格式，内置歌词同步显示、播放列表分组、歌曲标签编辑、专辑封面匹配等实用功能，适合需要离线听歌和整理本地音乐资源的用户。界面简洁且支持自定义布局，在无网络环境下也能获得完整的播放体验。"
     },
     "summary": {
         "initial_stars": 5606,
-        "current_stars": 6573,
-        "star_diff": 967,
-        "growth_rate": 17.25,
+        "current_stars": 6584,
+        "star_diff": 978,
+        "growth_rate": 17.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 6573,
             "forks": 511,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6584,
+            "forks": 514,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "x-render",
         "html_url": "https:\/\/github.com\/alibaba\/x-render",
         "language": "TypeScript",
-        "description": "x-render 是一个基于 JSON Schema 的前端动态表单渲染引擎，主要用于将 JSON 格式的表单配置动态渲染为 Vue 页面组件，支持复杂表单逻辑、联动控制和校验规则，适用于低代码平台和配置化表单场景。"
+        "description": "用于构建中后台系统的低代码渲染引擎，核心是把 JSON Schema 转换成表单和表格界面，适合需要动态配置、快速搭建管理台或搭建平台的场景。它提供表单生成、表格渲染、校验联动等能力，并支持自定义组件和布局模板，帮助开发者减少重复 UI 代码，同时保持高度可扩展性。"
     },
     "summary": {
         "initial_stars": 7346,

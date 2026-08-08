@@ -6,16 +6,16 @@
         "name": "awesome-selfhosted",
         "html_url": "https:\/\/github.com\/awesome-selfhosted\/awesome-selfhosted",
         "language": "Other",
-        "description": "提供一系列可在本地服务器部署的开源软件推荐列表，涵盖文件存储、媒体管理、生产力工具、通信服务等多个领域，帮助个人和组织实现数据自主可控，替代主流商业云服务，支持隐私保护和自定义部署需求。"
+        "description": "用于汇总和推荐各类可自行部署的网络服务、软件与工具的精选清单，涵盖文件管理、媒体流、协作办公、密码管理、监控分析等数十个领域。常见的用法是查找替代商业SaaS的自托管解决方案，适合注重数据隐私、希望完全掌控服务运行环境的个人或团队参考。所有条目附带源码和部署说明，典型场景包括在企业内网搭建知识库、在家庭服务器运行云存储或多媒体娱乐平台，同时帮助减少订阅费用和第三方依赖。由于信息来自社区持续整理，内容可靠且更新频繁，是探索自托管生态的重要入口。"
     },
     "summary": {
         "initial_stars": 233901,
-        "current_stars": 310991,
-        "star_diff": 77090,
-        "growth_rate": 32.96,
+        "current_stars": 311297,
+        "star_diff": 77396,
+        "growth_rate": 33.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 310991,
             "forks": 14585,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 311297,
+            "forks": 14594,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "GKD_subscription",
         "html_url": "https:\/\/github.com\/AIsouler\/GKD_subscription",
         "language": "TypeScript",
-        "description": "用于去广告的GKD订阅规则集合，包含针对各类应用启动页、弹窗等广告的自动化跳过配置，帮助用户实现绿色无广告的使用体验，主要配合自动化工具如GKD或类似框架使用。"
+        "description": "为 GKD 手势跳过广告工具提供订阅规则合集，集中维护适用于各类安卓应用的自动跳过与点击规则。用户导入订阅后即可获得持续更新的规则源，免去手动配置单个应用的烦恼，适合批量解决应用开屏广告、弹窗及横条干扰，提升日常使用体验。"
     },
     "summary": {
         "initial_stars": 6655,
-        "current_stars": 11902,
-        "star_diff": 5247,
-        "growth_rate": 78.84,
+        "current_stars": 11906,
+        "star_diff": 5251,
+        "growth_rate": 78.9,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 11902,
             "forks": 489,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11906,
+            "forks": 490,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

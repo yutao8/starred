@@ -6,7 +6,7 @@
         "name": "wechaty-puppet-padplus",
         "html_url": "https:\/\/github.com\/wechaty\/wechaty-puppet-padplus",
         "language": "TypeScript",
-        "description": "Wechaty Puppet Padplus 是 Wechaty 项目的一个微信协议适配插件，主要用于通过非官方接口实现微信个人账号的自动化控制。它基于微信的网页协议扩展，支持消息收发、联系人管理、群组操作等核心功能，通常用于构建个人微信机器人，适合需要稳定长连接和高并发消息处理的场景。该插件需配合 Wechaty 核心库使用，适用于 Node.js 环境。"
+        "description": "为Wechaty聊天机器人框架提供微信iPad协议支持，让开发者通过统一接口接入个人微信，实现消息收发、好友与群管理、自动回复等操作。通常适用于个人微信自动化、客服机器人、社群运营等场景，可规避网页版微信功能限制。"
     },
     "summary": {
         "initial_stars": 327,

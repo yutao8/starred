@@ -6,7 +6,7 @@
         "name": "localForage",
         "html_url": "https:\/\/github.com\/localForage\/localForage",
         "language": "JavaScript",
-        "description": "localForage 是一个快速、轻量级的 JavaScript 库，用于在浏览器中异步存储大量结构化数据。它通过简单的 API 提供对 IndexedDB、WebSQL 或 localStorage 的封装，优先使用现代异步存储机制，在不支持的情况下自动降级。主要用于需要离线存储和高效读写复杂数据类型的 Web 应用，提升性能与兼容性。"
+        "description": "localForage 是一个浏览器端异步存储工具，提供类似 localStorage 的简单接口，但底层会自动选择 IndexedDB、WebSQL 或 localStorage 作为存储驱动，从而获得更大的容量和更好的性能。它支持 Promise 和回调两种风格，适合在需要缓存大量数据、构建离线优先应用或 PWA 时使用。借助统一封装，开发者可以避免直接处理不同存储引擎的差异，同时还能优雅降级到旧版浏览器。通常用于存储用户设置、表单草稿、图片等离线数据，以提升加载速度并改善弱网环境下的体验。"
     },
     "summary": {
         "initial_stars": 25437,

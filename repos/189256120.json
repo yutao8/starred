@@ -6,16 +6,16 @@
         "name": "OpenClash",
         "html_url": "https:\/\/github.com\/vernesong\/OpenClash",
         "language": "JavaScript",
-        "description": "OpenClash 是一个基于 Clash 内核的开源代理工具，主要用于 OpenWrt 路由器系统，提供强大的广告过滤和流量管理功能，支持多种代理协议和灵活的规则配置，适合需要精细化网络控制的用户。"
+        "description": "OpenClash 是运行在 OpenWrt 路由器上的 Clash 客户端管理插件，基于 LuCI 界面提供完整的代理配置与流量管理能力。它支持订阅节点、自动选择或手动切换代理线路，可灵活配置分流规则，实现透明代理与科学上网。适合需要在路由器层面统一管理局域网设备出站流量的场景，尤其适用于家庭或小型办公网络。"
     },
     "summary": {
         "initial_stars": 20398,
-        "current_stars": 26986,
-        "star_diff": 6588,
-        "growth_rate": 32.3,
+        "current_stars": 27020,
+        "star_diff": 6622,
+        "growth_rate": 32.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 26986,
             "forks": 3988,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27020,
+            "forks": 3989,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

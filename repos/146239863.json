@@ -6,16 +6,16 @@
         "name": "awesome-vpn",
         "html_url": "https:\/\/github.com\/awesome-vpn\/awesome-vpn",
         "language": "Other",
-        "description": "一个精选的VPN相关资源集合，主要用于收集和分享高质量的VPN工具、搭建教程、网络科学配置方案及安全隐私实践，适合需要稳定翻墙服务或自建代理节点的用户参考使用，涵盖多种协议如Shadowsocks、V2Ray、WireGuard等技术方案与开源项目推荐。"
+        "description": "为网络工程师、隐私保护用户和开发者整理的一站式 VPN 资源索引库，系统收集了主流 VPN 客户端、服务端软件、代理工具、协议对比及部署教程。覆盖 WireGuard、OpenVPN、Shadowsocks 等常见技术方案，方便用户按需求筛选开源自建或商用服务，适用于搭建个人加密隧道、突破网络限制、评估隐私工具选型等场景。条目按分类组织，适合快速查阅工具特性、协议差异及适用平台，是选择或比较 VPN 解决方案时的实用参考手册。"
     },
     "summary": {
         "initial_stars": 4344,
-        "current_stars": 6008,
-        "star_diff": 1664,
-        "growth_rate": 38.31,
+        "current_stars": 6020,
+        "star_diff": 1676,
+        "growth_rate": 38.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 6008,
             "forks": 554,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6020,
+            "forks": 556,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

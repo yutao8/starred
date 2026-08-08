@@ -6,16 +6,16 @@
         "name": "dootask",
         "html_url": "https:\/\/github.com\/kuaifan\/dootask",
         "language": "PHP",
-        "description": "dootask 是一个开源的轻量级任务管理工具，主要用于个人或团队的任务跟踪与项目协作，支持任务分组、优先级设置、进度管理等功能，通常适合敏捷开发、日常待办事项管理等场景。"
+        "description": "Dootask 是用于团队协作和项目管理的开源工具，其核心功能包括看板式任务管理、任务分配与追踪、日历规划、文件共享以及内置即时通讯。它帮助中小团队在一个平台上完成项目规划、进度同步和成员沟通，避免在多个工具之间切换。由于支持私有化部署，适合对数据隐私或系统集成有特殊要求的团队。整体设计轻量、上手快，能有效解决任务状态不透明、协作信息分散等问题，提升团队工作效率。"
     },
     "summary": {
         "initial_stars": 5036,
-        "current_stars": 5541,
-        "star_diff": 505,
-        "growth_rate": 10.03,
+        "current_stars": 5542,
+        "star_diff": 506,
+        "growth_rate": 10.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 5541,
             "forks": 1065,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5542,
+            "forks": 1065,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

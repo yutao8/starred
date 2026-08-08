@@ -6,16 +6,16 @@
         "name": "Adblock4limbo",
         "html_url": "https:\/\/github.com\/limbopro\/Adblock4limbo",
         "language": "JavaScript",
-        "description": "Adblock4limbo 是一个专注于广告拦截的开源工具，主要用于屏蔽应用内广告、跟踪行为和恶意域名，支持自定义规则和 hosts 文件管理，适合追求纯净网络体验的用户在 Android 平台使用。"
+        "description": "Adblock4limbo 提供一套针对特定浏览器或客户端的广告过滤规则，用于屏蔽网页中的横幅广告、弹窗和跟踪脚本，从而减少信息干扰、加快页面加载并保护浏览隐私。它通常适用于安装了内容拦截扩展或插件工具的用户，通过订阅规则实现自动过滤，适合常访问资讯站点、视频网站或论坛、希望获得更干净浏览体验的人群。规则更新方式和安装方法需要参照仓库说明，整体设计围绕轻量、易配置和可持续维护展开。"
     },
     "summary": {
         "initial_stars": 4002,
-        "current_stars": 4471,
-        "star_diff": 469,
-        "growth_rate": 11.72,
+        "current_stars": 4473,
+        "star_diff": 471,
+        "growth_rate": 11.77,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 4471,
             "forks": 238,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4473,
+            "forks": 238,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

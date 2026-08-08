@@ -6,16 +6,16 @@
         "name": "wifi-card",
         "html_url": "https:\/\/github.com\/bndw\/wifi-card",
         "language": "JavaScript",
-        "description": "生成美观的Wi-Fi网络信息卡片，主要用于分享Wi-Fi名称、密码和连接方式，支持二维码生成，方便他人扫码接入，适用于活动、家庭或办公场景下的网络共享。"
+        "description": "用于生成 WiFi 共享二维码卡片的小工具，把无线网络的 SSID、密码和加密方式自动编码为 QR 码。用户只需输入网络信息，即可生成一张可打印或分享的二维码卡片，他人用手机相机或扫码应用扫描后就能直接连接网络，省去手动输入密码的麻烦。适合餐厅、咖啡馆、办公室等场景张贴或发送给访客，也适合家庭中分享 Wi-Fi。该项目通常以纯前端方式实现，信息在本地处理，不经过服务器，因此相对安全。整体轻量易用，解决无线凭据分享不便的问题。"
     },
     "summary": {
         "initial_stars": 6765,
-        "current_stars": 7174,
-        "star_diff": 409,
-        "growth_rate": 6.05,
+        "current_stars": 7185,
+        "star_diff": 420,
+        "growth_rate": 6.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 143
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 144
     },
     "history": [
         {
@@ -1018,6 +1018,13 @@
             "stars": 7174,
             "forks": 500,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7185,
+            "forks": 502,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

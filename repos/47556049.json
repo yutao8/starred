@@ -6,16 +6,16 @@
         "name": "tinyproxy",
         "html_url": "https:\/\/github.com\/tinyproxy\/tinyproxy",
         "language": "C",
-        "description": "TinyProxy 是一个轻量级的开源HTTP\/HTTPS代理服务器，主要用于在资源受限的环境中提供高效的网页代理服务，支持基本的身份验证、访问控制和日志记录，适合部署在嵌入式设备或Linux服务器上实现简单安全的网络代理。"
+        "description": "Tinyproxy 是一个轻量级的高性能 HTTP\/HTTPS 代理服务器，特别适合资源受限的嵌入式设备、路由器或小型服务器使用。它占用内存和 CPU 极低，配置简洁易用，支持访问控制、缓存、基本认证和请求过滤等常见代理功能，适合为局域网或本地应用提供正向代理服务，也可用于搭建简单的隐私中转或内容过滤网关。"
     },
     "summary": {
         "initial_stars": 5268,
-        "current_stars": 5950,
-        "star_diff": 682,
-        "growth_rate": 12.95,
+        "current_stars": 5952,
+        "star_diff": 684,
+        "growth_rate": 12.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 5950,
             "forks": 756,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5952,
+            "forks": 756,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

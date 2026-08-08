@@ -6,7 +6,7 @@
         "name": "mp-push-nestjs",
         "html_url": "https:\/\/github.com\/brucx\/mp-push-nestjs",
         "language": "TypeScript",
-        "description": "用于在 NestJS 项目中集成微信公众号和小程序消息推送功能的模块，支持模板消息、订阅消息等场景，便于服务端快速对接微信消息能力。"
+        "description": "基于 NestJS 打造的小程序推送服务，面向需要向微信小程序等平台推送模板消息或订阅消息的后端系统。通常用于订单状态变更、支付结果通知、活动提醒等场景，将服务端事件及时触达用户。借助 NestJS 的模块化和依赖注入设计，便于集成到现有 Node.js 项目，并支持通过配置文件管理应用凭证和多端推送逻辑。"
     },
     "summary": {
         "initial_stars": 153,

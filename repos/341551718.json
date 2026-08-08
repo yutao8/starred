@@ -6,16 +6,16 @@
         "name": "netflix-verify",
         "html_url": "https:\/\/github.com\/sjlleo\/netflix-verify",
         "language": "Go",
-        "description": "用于检测 Netflix 是否支持解锁的脚本工具，主要检查网络环境是否能访问 Netflix 服务，常用于 VPS 网络质量测试及流媒体解锁验证，支持快速批量检测 IP 或代理节点的 Netflix 解锁状态。"
+        "description": "用于检测当前网络环境或IP是否支持Netflix流媒体解锁，并判断解锁类型（如原生、仅自制剧、非原生等），适合需要确认代理服务器或机场节点是否能正常观看Netflix的用户。通过命令行简单运行即可输出诊断结果，帮助排查DNS、代理或IP归属地导致的地区限制问题，尤其适合自建代理、VPS用户或流媒体解锁测试场景。"
     },
     "summary": {
         "initial_stars": 2500,
-        "current_stars": 2528,
-        "star_diff": 28,
-        "growth_rate": 1.12,
+        "current_stars": 2527,
+        "star_diff": 27,
+        "growth_rate": 1.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 95
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 96
     },
     "history": [
         {
@@ -682,6 +682,13 @@
             "stars": 2528,
             "forks": 390,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2527,
+            "forks": 390,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

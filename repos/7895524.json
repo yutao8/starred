@@ -6,7 +6,7 @@
         "name": "oauth2-client",
         "html_url": "https:\/\/github.com\/thephpleague\/oauth2-client",
         "language": "PHP",
-        "description": "一个 PHP 库，用于与支持 OAuth 2.0 的服务提供商进行身份验证和授权，简化了用户登录和 API 访问令牌的获取流程，适用于构建第三方登录功能，支持多种主流平台如 Google、Facebook、GitHub 等。"
+        "description": "用于PHP应用中集成OAuth2认证流程的客户端库，抽象了授权码、隐式、资源所有者密码等常见授权模式，帮助开发者快速完成与第三方服务提供商（如Google、GitHub）的对接，包括发起授权请求、处理回调、获取和刷新访问令牌。通常适合需要实现第三方账号登录或代表用户访问受保护API的PHP项目，也适合需要灵活扩展自定义OAuth2提供商的场景。"
     },
     "summary": {
         "initial_stars": 3737,
@@ -14,8 +14,8 @@
         "star_diff": 80,
         "growth_rate": 2.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 112
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 113
     },
     "history": [
         {
@@ -801,6 +801,13 @@
             "stars": 3817,
             "forks": 770,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3817,
+            "forks": 769,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

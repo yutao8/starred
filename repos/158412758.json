@@ -6,16 +6,16 @@
         "name": "doubi",
         "html_url": "https:\/\/github.com\/ToyoDAdoubi\/doubi",
         "language": "Shell",
-        "description": "一个基于Shell脚本的实用工具集合，主要用于Linux服务器的系统管理、网络测试、性能监控和运维自动化，包含一键部署、测速、防火墙配置等功能，适合系统管理员和运维人员快速完成常见任务。"
+        "description": "Linux VPS 一键脚本合集，用于简化服务器基础环境和网络工具的部署。涵盖常见代理服务（如 Shadowsocks、V2Ray）的一键安装、TCP 加速模块（如 BBR、锐速）的启用，以及系统参数优化等操作。用户只需复制执行命令，即可自动完成下载、配置和启动流程，特别适合购买海外服务器后快速搭建网络通道或改善连接质量。脚本以 Shell 编写，主要面向对命令行不陌生但希望提升效率的运维或普通用户，使用前建议根据服务器系统版本挑选对应脚本。"
     },
     "summary": {
         "initial_stars": 4713,
-        "current_stars": 4690,
-        "star_diff": -23,
-        "growth_rate": -0.49,
+        "current_stars": 4691,
+        "star_diff": -22,
+        "growth_rate": -0.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 128
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 129
     },
     "history": [
         {
@@ -913,6 +913,13 @@
             "stars": 4690,
             "forks": 2395,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4691,
+            "forks": 2394,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

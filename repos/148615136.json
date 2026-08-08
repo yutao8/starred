@@ -6,7 +6,7 @@
         "name": "SNETCracker",
         "html_url": "https:\/\/github.com\/shack2\/SNETCracker",
         "language": "C#",
-        "description": "SNETCracker 是一个用于网络设备安全测试的工具，主要用于检测和破解S端口认证协议中的弱密码，帮助管理员评估系统安全性，发现潜在风险。该工具支持多种设备型号，适用于企业网络维护与渗透测试场景，需在合法授权范围内使用以避免非法入侵。"
+        "description": "SNETCracker是一款网络设备安全弱口令检测工具，主要用于在授权安全测试中批量发现路由器、交换机等设备的默认口令和弱口令。支持SNMP、FTP、Telnet等多种常见协议，可快速验证凭据是否有效，帮助安全人员评估内网薄弱点，适合渗透测试、基线检查与合规审计等场景。"
     },
     "summary": {
         "initial_stars": 2611,

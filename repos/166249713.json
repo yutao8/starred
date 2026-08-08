@@ -6,7 +6,7 @@
         "name": "frps-onekey",
         "html_url": "https:\/\/github.com\/mvscode\/frps-onekey",
         "language": "Shell",
-        "description": "用于快速部署 FRPS（Fast Reverse Proxy Server）的一键安装脚本，支持 Linux 系统，简化配置流程，方便用户快速搭建内网穿透服务，适用于需要远程访问内网应用的场景。"
+        "description": "用于快速部署 frp 服务端（frps）的一键脚本，主要面向需要自建内网穿透服务的用户。通过简单命令即可完成 frps 的下载、配置、启动及开机自启设置，省去手动编译或配置的繁琐过程。通常适合在云服务器或拥有公网 IP 的主机上使用，搭配 frpc 客户端即可实现从外部访问内网设备，例如远程桌面、SSH 或访问内部 Web 服务。脚本一般支持修改端口、认证密钥等基本参数，并能自动识别主流 Linux 发行版，降低入门门槛。适合个人开发者或小型团队快速搭建稳定可控的内网穿透节点，避免依赖第三方公共服务器。"
     },
     "summary": {
         "initial_stars": 3365,
@@ -14,8 +14,8 @@
         "star_diff": 137,
         "growth_rate": 4.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 3502,
             "forks": 846,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3502,
+            "forks": 847,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "walk",
         "html_url": "https:\/\/github.com\/lxn\/walk",
         "language": "Go",
-        "description": "一个基于 Go 语言的 Windows 桌面 GUI 开发库，封装了 Windows API 实现原生界面编程，支持事件驱动、控件布局和常见窗口组件，适合开发轻量级 Windows 原生应用。"
+        "description": "用于Go语言开发Windows原生图形界面应用程序，封装了常见控件、窗口和事件处理，使开发者无需依赖C++或C#就能构建桌面工具。通常适合需要简洁界面且注重系统原生观感的软件，如配置工具、监控小工具或内部自动化程序。与Web界面相比，它更轻量、启动快，并能直接调用Windows平台能力。该库面向有Go编程经验的开发者，使用方式接近标准库，适合维护成本较低的项目。"
     },
     "summary": {
         "initial_stars": 6984,

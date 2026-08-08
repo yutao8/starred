@@ -6,7 +6,7 @@
         "name": "Office-E5",
         "html_url": "https:\/\/github.com\/msojocs\/Office-E5",
         "language": "PHP",
-        "description": "一个开源工具，主要用于自动化配置和管理 Microsoft 365 E5 开发环境，支持快速部署 Office 365 租户中的安全与合规、身份验证、Exchange Online 等服务，适用于开发者和系统管理员进行环境初始化和测试场景。"
+        "description": "自动续期 Microsoft 365 E5 开发者订阅的辅助工具，通过调用微软图形 API 模拟正常办公活动来避免订阅因闲置被回收，适合需要长期保留 E5 账号及 Office 全家桶权益的个人开发者或管理员，通常运行在服务器或本地环境中定期执行任务。"
     },
     "summary": {
         "initial_stars": 2,

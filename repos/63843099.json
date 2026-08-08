@@ -6,16 +6,16 @@
         "name": "IPProxyPool",
         "html_url": "https:\/\/github.com\/qiyeboy\/IPProxyPool",
         "language": "Python",
-        "description": "一个基于Python的高效IP代理池工具，主要用于收集、验证和管理大量公开代理IP，支持多种代理网站的自动爬取和代理可用性检测，适用于需要高匿名性和稳定性的网络爬虫项目，通过API接口或数据库形式提供代理服务，提升请求效率与反爬应对能力。"
+        "description": "用于构建和维护代理 IP 池的爬虫工具，自动抓取网上公开的代理地址，通过持续验证筛选出可用 IP，并提供 HTTP 接口供爬虫程序调用。它解决了频繁采集数据时 IP 被封锁的问题，适合需要大量请求的分布式爬虫、数据采集或反爬绕过场景。使用者可通过简单的 API 获取随机可用代理，也能自定义验证策略和更新频率，降低维护成本和请求失败率。"
     },
     "summary": {
         "initial_stars": 4232,
-        "current_stars": 4282,
-        "star_diff": 50,
-        "growth_rate": 1.18,
+        "current_stars": 4283,
+        "star_diff": 51,
+        "growth_rate": 1.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 117
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 118
     },
     "history": [
         {
@@ -836,6 +836,13 @@
             "stars": 4282,
             "forks": 1285,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4283,
+            "forks": 1284,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

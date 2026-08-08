@@ -6,7 +6,7 @@
         "name": "socialite",
         "html_url": "https:\/\/github.com\/overtrue\/socialite",
         "language": "PHP",
-        "description": "一个支持多平台的第三方登录授权 SDK，可用于 PHP 项目中快速集成微信、GitHub、微博等 OAuth 登录，提供统一的 API 接口，简化社交登录的开发与管理。"
+        "description": "为 PHP 应用提供统一的社交账号登录接入方案，核心功能是封装 GitHub、微信、QQ、微博等数十个平台的 OAuth 授权流程，通过一致的接口处理用户获取、令牌刷新和资料解析。通常用于 Laravel 或 PHP 框架中快速集成第三方登录，省去为每个平台单独编写认证逻辑的重复工作，适合需要让用户使用社交账号注册或登录的网站、API 服务及管理后台。"
     },
     "summary": {
         "initial_stars": 1333,

@@ -6,16 +6,16 @@
         "name": "wp-cli",
         "html_url": "https:\/\/github.com\/wp-cli\/wp-cli",
         "language": "PHP",
-        "description": "WP-CLI 是一个用于管理 WordPress 站点的命令行工具，支持安装、更新、插件管理、数据库操作和用户管理等任务，适合开发者通过终端高效执行 WordPress 维护工作。"
+        "description": "wp-cli 是 WordPress 的命令行管理工具，通过终端直接执行安装、更新插件主题、管理文章评论、备份数据库、配置多站点等操作，替代繁复的网页点击流程，适合开发者、运维人员以及需要脚本化批量处理 WordPress 任务的场景，能显著提升站点部署、自动化运维和日常维护效率，是构建和管理 WordPress 环境时的常用基础组件。"
     },
     "summary": {
         "initial_stars": 4945,
-        "current_stars": 5132,
-        "star_diff": 187,
-        "growth_rate": 3.78,
+        "current_stars": 5133,
+        "star_diff": 188,
+        "growth_rate": 3.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 5132,
             "forks": 1020,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5133,
+            "forks": 1020,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

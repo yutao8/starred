@@ -6,16 +6,16 @@
         "name": "rsync",
         "html_url": "https:\/\/github.com\/RsyncProject\/rsync",
         "language": "C",
-        "description": "rsync 是一个快速、通用的文件同步与传输工具，用于本地或远程系统间高效同步文件和目录，支持增量传输算法，仅发送差异部分，显著节省带宽并提升传输速度，常用于备份、镜像和大规模数据同步场景，支持多种操作系统与网络协议。"
+        "description": "rsync是一款广泛使用的开源文件同步和传输工具，主要用于在本地或远程系统之间高效地复制和同步文件。其核心优势在于增量传输，只传输文件差异部分，大幅节省带宽和时间。它常用于数据备份、目录镜像、服务器间文件同步以及分发部署等场景。rsync通常运行于Unix\/Linux环境，也支持通过SSH协议进行加密远程传输，并具备灵活的选项控制权限、压缩和删除行为，是系统管理员和开发者日常工作的得力工具。"
     },
     "summary": {
         "initial_stars": 3617,
-        "current_stars": 5088,
-        "star_diff": 1471,
-        "growth_rate": 40.67,
+        "current_stars": 5094,
+        "star_diff": 1477,
+        "growth_rate": 40.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 5088,
             "forks": 582,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5094,
+            "forks": 582,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "rclone-webui-angular",
         "html_url": "https:\/\/github.com\/yuudi\/rclone-webui-angular",
         "language": "TypeScript",
-        "description": "提供基于 Angular 的网页界面，用于管理和操作 rclone 文件同步工具，支持远程配置、文件浏览、传输任务监控等功能，便于通过可视化界面控制 rclone 的各项操作，适用于自托管云存储管理。"
+        "description": "一个基于 Angular 开发的 rclone 网页界面，用于在浏览器中操作 rclone 支持的各种云存储服务。它提供文件浏览、上传下载、远程端点管理等常用功能，让不熟悉命令行操作的用户也可以方便地使用 rclone 进行数据同步和文件管理。通常适合个人或团队自托管部署，用于替代或补充命令行工具的操作体验。"
     },
     "summary": {
         "initial_stars": 325,
-        "current_stars": 357,
-        "star_diff": 32,
-        "growth_rate": 9.85,
+        "current_stars": 358,
+        "star_diff": 33,
+        "growth_rate": 10.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 55
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 56
     },
     "history": [
         {
@@ -402,6 +402,13 @@
             "stars": 357,
             "forks": 31,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 358,
+            "forks": 31,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

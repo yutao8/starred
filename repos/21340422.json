@@ -6,16 +6,16 @@
         "name": "astexplorer",
         "html_url": "https:\/\/github.com\/fkling\/astexplorer",
         "language": "JavaScript",
-        "description": "一个基于网页的工具，用于可视化和探索 JavaScript 代码的抽象语法树（AST），支持多种解析器和语法扩展，方便开发者调试和理解代码转换过程，常用于编写和测试 Babel 插件及相关工具。"
+        "description": "一个用于解析 JavaScript、CSS、HTML 等多种语言代码并实时可视化抽象语法树的交互式网页工具。它支持在浏览器中直接编辑代码，同步展示对应解析器生成的 AST 结构，帮助开发者理解不同解析器的输出差异、调试 Babel 插件或 ESLint 规则，也适合学习编译原理和语言转换技术。通常面向前端工具链作者、编译器爱好者和需要分析代码结构的开发者，能够在无需搭建本地环境的情况下快速对比不同解析器行为。"
     },
     "summary": {
         "initial_stars": 6382,
-        "current_stars": 6542,
-        "star_diff": 160,
-        "growth_rate": 2.51,
+        "current_stars": 6541,
+        "star_diff": 159,
+        "growth_rate": 2.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 139
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 140
     },
     "history": [
         {
@@ -990,6 +990,13 @@
             "stars": 6542,
             "forks": 774,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6541,
+            "forks": 774,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

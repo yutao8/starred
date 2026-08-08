@@ -6,7 +6,7 @@
         "name": "iperf-ios",
         "html_url": "https:\/\/github.com\/ndfred\/iperf-ios",
         "language": "C",
-        "description": "iperf-ios 是一个用于在 iOS 平台上运行 iperf 网络性能测试的工具，允许用户测量网络带宽、延迟和连接质量，适用于移动网络环境下的性能分析和故障排查。"
+        "description": "在 iOS 平台上运行 iperf 网络性能测试的工具，主要用于测量移动设备与服务器之间的 TCP\/UDP 吞吐量、丢包和抖动。通常适合开发人员和网络管理员评估 Wi-Fi 或蜂窝网络的实际带宽，定位连接瓶颈，或对比不同网络环境下的传输性能。一般配合现有 iperf 服务端使用，通过命令行或自动化测试方式调用，为移动端网络优化提供量化数据参考。"
     },
     "summary": {
         "initial_stars": 202,

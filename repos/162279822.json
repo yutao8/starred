@@ -6,16 +6,16 @@
         "name": "Motrix",
         "html_url": "https:\/\/github.com\/agalwood\/Motrix",
         "language": "JavaScript",
-        "description": "Motrix 是一款开源的下载管理器，支持 HTTP、FTP、BT、磁力链和百度网盘等资源的下载，提供简洁的界面和跨平台支持，适合需要高效管理多种类型下载任务的用户。"
+        "description": "Motrix是一款跨平台的开源下载管理器，主要用于解决用户在不同下载场景下需要多协议支持的问题。它支持HTTP、FTP、BitTorrent以及磁力链接等多种协议，并提供多线程下载、断点续传、任务调度等核心功能，能够显著提升下载速度和稳定性。界面简洁清爽，操作直观，适合桌面端用户统一管理各类下载任务，同时占用资源较低，兼顾了轻量化和实用性。无论是日常软件下载、文件资源获取，还是处理离线BT生态，Motrix都是一款高效可靠的选择。"
     },
     "summary": {
         "initial_stars": 48197,
-        "current_stars": 52391,
-        "star_diff": 4194,
-        "growth_rate": 8.7,
+        "current_stars": 52400,
+        "star_diff": 4203,
+        "growth_rate": 8.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 52391,
             "forks": 4904,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 52400,
+            "forks": 4906,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

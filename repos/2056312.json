@@ -6,16 +6,16 @@
         "name": "html2canvas",
         "html_url": "https:\/\/github.com\/niklasvh\/html2canvas",
         "language": "TypeScript",
-        "description": "将网页内容转换为 Canvas 图像的 JavaScript 库，通过捕获页面或指定元素的视觉表现生成可导出的画布，适用于截图、保存为图片等前端需求，支持大多数现代浏览器并可处理 CSS 样式、SVG 和图像等内容。"
+        "description": "用于在浏览器端将网页 DOM 元素直接渲染成 canvas 图像，实现类似截图的功能。它读取页面上的 HTML 和 CSS 并绘制到 canvas 上，适合生成网页缩略图、分享图片、保存海报等场景，无需后端配合。由于是基于 DOM 解析而非真实渲染，某些复杂样式或跨域资源可能无法完美还原，通常适合对保真度要求不高的前端需求。"
     },
     "summary": {
         "initial_stars": 31338,
-        "current_stars": 31907,
-        "star_diff": 569,
+        "current_stars": 31909,
+        "star_diff": 571,
         "growth_rate": 1.82,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 31907,
             "forks": 4879,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31909,
+            "forks": 4880,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

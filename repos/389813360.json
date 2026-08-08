@@ -6,16 +6,16 @@
         "name": "pikapika",
         "html_url": "https:\/\/github.com\/niuhuan\/pikapika",
         "language": "Dart",
-        "description": "一个基于Web的漫画阅读器，主要用于浏览和管理本地或远程的漫画资源，支持多种格式和自定义源，提供流畅的阅读体验和离线缓存功能，适合个人化漫画收藏与观看。"
+        "description": "一款开源的漫画阅读器，主要用于聚合多个漫画图源，让用户在一个界面中完成搜索、浏览和追更不同平台的漫画内容。它通常适合喜欢自选图源、希望在手机端集中管理书架并减少多应用切换的漫画爱好者，同时也方便搭配自定义规则实现换源阅读和离线缓存。项目重点关注客户端体验，常与社区维护的图源插件配合使用。"
     },
     "summary": {
         "initial_stars": 7160,
-        "current_stars": 8247,
-        "star_diff": 1087,
-        "growth_rate": 15.18,
+        "current_stars": 8252,
+        "star_diff": 1092,
+        "growth_rate": 15.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 8247,
             "forks": 488,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8252,
+            "forks": 487,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

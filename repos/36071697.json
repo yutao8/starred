@@ -6,16 +6,16 @@
         "name": "hydra",
         "html_url": "https:\/\/github.com\/ory\/hydra",
         "language": "Go",
-        "description": "ORY Hydra 是一个符合 OAuth 2.0 和 OpenID Connect 规范的身份认证和访问管理服务，主要用于处理用户认证、令牌发放和权限管理，适合在微服务架构中集中管理安全策略，支持分布式部署和低延迟鉴权，通常与 ORY 其他组件或自定义用户管理系统集成使用。"
+        "description": "ory\/hydra 是一款开源的高性能 OAuth 2.0 和 OpenID Connect 认证服务器，主要用于为现有应用快速接入标准化的授权与单点登录能力。它由云原生团队 Ory 维护，通常作为独立服务部署，支持与任意数据库或用户系统集成，适合需要令牌签发、访问控制、联合身份认证的微服务架构或企业系统。其设计强调安全性、可扩展性和协议合规性，常用于替代自行开发的认证模块，帮助团队专注业务逻辑。"
     },
     "summary": {
         "initial_stars": 16296,
-        "current_stars": 17456,
-        "star_diff": 1160,
-        "growth_rate": 7.12,
+        "current_stars": 17462,
+        "star_diff": 1166,
+        "growth_rate": 7.16,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 17456,
             "forks": 1595,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17462,
+            "forks": 1595,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

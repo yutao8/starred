@@ -6,7 +6,7 @@
         "name": "airplay",
         "html_url": "https:\/\/github.com\/elcuervo\/airplay",
         "language": "Ruby",
-        "description": "一个支持 AirPlay 协议的开源工具，主要用于将音频流从 AirPlay 设备接收并播放，适用于在 Linux 系统上搭建音频接收服务器，方便苹果设备无线音频传输和投射。"
+        "description": "一个用于在 Ruby 环境中控制 Apple AirPlay 设备的开源库，允许开发者向支持 AirPlay 的电视、音箱或接收器推送视频、音频和图片内容。它封装了 AirPlay 协议，适合构建媒体投屏工具、自动化播放脚本或智能家居集成，让 Ruby 应用能够发现并远程操作局域网内的 AirPlay 设备。通常用于需要快速实现投屏功能的场景，例如自动化演示、家庭媒体中心或测试工具，无需依赖苹果官方 SDK。"
     },
     "summary": {
         "initial_stars": 1067,

@@ -6,16 +6,16 @@
         "name": "syncthing-android",
         "html_url": "https:\/\/github.com\/syncthing\/syncthing-android",
         "language": "Java",
-        "description": "SyncThing for Android 是一个开源的文件同步工具，允许用户在多台设备间安全地同步数据。它不依赖第三方云服务，通过点对点加密传输，确保文件隐私与安全，适合自建私有云存储环境，实现跨平台无缝文件共享和备份。"
+        "description": "用于在 Android 设备上运行 Syncthing 的开源客户端，实现手机、平板与电脑、NAS 等多设备间点对点文件同步。同步过程不依赖中央服务器，数据经 TLS 加密传输，默认只在本机网络内发现设备，也可通过中继或自定义服务器跨网络连接。典型场景包括自动备份相机照片、批量传输文件、在多台设备间保持文档和音乐库一致，尤其适合注重隐私、希望完全掌控数据流向的用户。应用支持按文件夹、按设备灵活配置同步策略，并提供后台常驻、监控文件变更等能力。由于同步采用分布式哈希表而非第三方存储，可避免文件泄露或服务商锁定，解决了公有网盘在安全性、容量和传输速度上的常见限制。"
     },
     "summary": {
         "initial_stars": 3903,
-        "current_stars": 4280,
-        "star_diff": 377,
-        "growth_rate": 9.66,
+        "current_stars": 4277,
+        "star_diff": 374,
+        "growth_rate": 9.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 4280,
             "forks": 517,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4277,
+            "forks": 517,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

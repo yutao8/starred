@@ -6,16 +6,16 @@
         "name": "zed",
         "html_url": "https:\/\/github.com\/zed-industries\/zed",
         "language": "Rust",
-        "description": "Zed 是一个高性能的代码编辑器，主打低延迟和流畅的协作体验，适用于大型项目开发，支持多人实时协作编辑，具备强大的语法解析和类型感知功能，通常适合需要快速响应和高效编码的程序员使用。"
+        "description": "Zed是一款主打高性能与多人协作的现代代码编辑器，采用Rust原生开发并借助GPU渲染，以极低延迟和流畅响应著称。它特别适合追求极致编辑性能的开发者，也满足远程与实时结对编程需求，多个成员可直接在同一工作区协作。内置集成的AI助手、终端和Git支持，有助于减少工具切换成本，提高日常编码效率。目前主要面向macOS和Linux用户，常被用于替代传统编辑器并适配大型代码库场景。"
     },
     "summary": {
         "initial_stars": 61903,
-        "current_stars": 88139,
-        "star_diff": 26236,
-        "growth_rate": 42.38,
+        "current_stars": 88252,
+        "star_diff": 26349,
+        "growth_rate": 42.56,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 88139,
             "forks": 9893,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 88252,
+            "forks": 9929,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

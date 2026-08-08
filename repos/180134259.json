@@ -6,7 +6,7 @@
         "name": "FuzzScanner",
         "html_url": "https:\/\/github.com\/TideSec\/FuzzScanner",
         "language": "Ruby",
-        "description": "FuzzScanner 是一个用于自动化模糊测试和安全漏洞探测的工具，主要用于发现目标系统中的潜在安全问题。它支持自定义 payloads 和多协议适配，适用于 Web 应用、API 接口及网络服务的健壮性测试，帮助安全研究人员高效识别注入、内存泄漏等常见漏洞。"
+        "description": "主要用于Web应用安全测试，通过模糊测试向目标发送大量构造的请求参数，并根据响应特征判断可能存在的漏洞，如SQL注入、跨站脚本等。它综合了多种扫描思路，适合渗透测试人员在授权环境中对目标系统进行自动化安全检测，也适合开发者在上线前排查常见安全隐患，能有效节省手动测试的时间。"
     },
     "summary": {
         "initial_stars": 1011,

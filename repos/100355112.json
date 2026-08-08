@@ -6,16 +6,16 @@
         "name": "pay",
         "html_url": "https:\/\/github.com\/yansongda\/pay",
         "language": "PHP",
-        "description": "一个轻量级、高扩展性的 PHP 支付 SDK，支持支付宝、微信支付等主流支付平台，适用于 Web 商城、小程序、App 等场景的支付集成，提供统一的调用接口和便捷的配置方式，简化支付功能开发。"
+        "description": "PHP聚合支付库，主要用于快速接入支付宝和微信等主流支付渠道。它统一了不同平台的接口差异，支持扫码、H5、小程序等多种支付方式，涵盖下单、退款、对账、查询等核心流程，并内置回调验签和异常处理。通常适合基于Laravel、ThinkPHP等框架构建的电商或服务项目，可显著减少支付集成的重复工作，让开发者更专注于业务逻辑。"
     },
     "summary": {
         "initial_stars": 5184,
-        "current_stars": 5362,
-        "star_diff": 178,
-        "growth_rate": 3.43,
+        "current_stars": 5360,
+        "star_diff": 176,
+        "growth_rate": 3.4,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 5362,
             "forks": 1057,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5360,
+            "forks": 1059,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

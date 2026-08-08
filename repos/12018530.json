@@ -6,7 +6,7 @@
         "name": "agent",
         "html_url": "https:\/\/github.com\/jenssegers\/agent",
         "language": "PHP",
-        "description": "一个基于 Laravel 的轻量级 API 请求代理工具，主要用于路由和转发 HTTP 请求，支持缓存、限流和跨域处理，适合构建微服务网关或 API 聚合层。"
+        "description": "用于解析用户代理字符串，从浏览器请求中识别访客的操作系统、设备类型、浏览器品牌及版本号等客户端信息。基于 PHP 开发，支持超过数千种常见浏览器和设备规则，可轻松集成到现有 Web 项目中，适用于用户行为统计、自适应页面渲染、访问日志分析或基于客户端环境的功能适配等场景。通过简单的方法调用即可获取平台相关属性，帮助开发者免于维护复杂的正则规则，快速构建跨终端兼容的 Web 应用。"
     },
     "summary": {
         "initial_stars": 4643,
@@ -14,8 +14,8 @@
         "star_diff": 191,
         "growth_rate": 4.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 147
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 148
     },
     "history": [
         {
@@ -1046,6 +1046,13 @@
             "stars": 4834,
             "forks": 535,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4834,
+            "forks": 536,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

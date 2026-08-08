@@ -6,7 +6,7 @@
         "name": "lamp",
         "html_url": "https:\/\/github.com\/teddysun\/lamp",
         "language": "Shell",
-        "description": "LAMP 是 Teddysun 开发的一键安装脚本，用于在 Linux 系统上快速部署 Apache、MySQL、PHP 环境，支持 CentOS、Debian、Ubuntu 等主流发行版，简化 Web 服务器搭建流程，适合运行动态网站或博客系统。"
+        "description": "用于在 Linux 服务器上快速部署 LAMP 环境（Apache、MySQL\/MariaDB、PHP）的一键安装脚本，支持多种主流发行版和版本自定义，提供组件卸载与升级管理功能，适合需要自动化搭建 Web 服务、节省手动配置时间的运维人员和开发者使用。"
     },
     "summary": {
         "initial_stars": 2925,

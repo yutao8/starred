@@ -6,16 +6,16 @@
         "name": "adminer",
         "html_url": "https:\/\/github.com\/vrana\/adminer",
         "language": "PHP",
-        "description": "一个轻量级的数据库管理工具，用于替代phpMyAdmin，支持MySQL、PostgreSQL、SQLite等多种数据库，通过单个PHP文件部署，提供直观的Web界面，便于执行查询、管理表结构和数据操作，适合开发者和管理员快速访问和维护数据库。"
+        "description": "Adminer 是一款用 PHP 编写的轻量级数据库管理工具，以单个文件提供完整功能，支持 MySQL、PostgreSQL、SQLite 等多种数据库。它覆盖数据表浏览、编辑、查询、索引管理、导入导出等常用操作，并能管理用户权限。由于部署简单，只需上传一个文件即可运行，非常适合需要轻量级数据库管理或临时运维的场景，也可替代体积较大的 phpMyAdmin。通常用于快速处理数据库任务，特别适合小型项目、开发环境或统一管理多个不同数据库。"
     },
     "summary": {
         "initial_stars": 6878,
-        "current_stars": 7486,
-        "star_diff": 608,
-        "growth_rate": 8.84,
+        "current_stars": 7552,
+        "star_diff": 674,
+        "growth_rate": 9.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 7486,
             "forks": 1174,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7552,
+            "forks": 1175,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

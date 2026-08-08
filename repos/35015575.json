@@ -6,16 +6,16 @@
         "name": "webtorrent-desktop",
         "html_url": "https:\/\/github.com\/webtorrent\/webtorrent-desktop",
         "language": "JavaScript",
-        "description": "WebTorrent Desktop 是一个基于 WebTorrent 协议的桌面客户端，支持在无需传统种子客户端的情况下直接播放视频、音频和图像等文件，边下边播，跨平台支持 Windows、macOS 和 Linux，适用于快速共享和流媒体播放。"
+        "description": "WebTorrent Desktop 是一款基于 Electron 的跨平台种子下载与流媒体播放客户端，支持 Windows、macOS 和 Linux。它以流式传输方式直接播放视频和音频文件，无需等待完整下载，同时也能用于常规文件下载。依托 WebTorrent 生态，它支持 WebRTC 协议，可连接浏览器中的对等节点，适合在无需中央服务器的场景下分享大文件，也适合需要边下边播或轻量使用 BT 的用户。界面简洁，支持磁力链接和种子文件，并可在后台静默运行。"
     },
     "summary": {
         "initial_stars": 9877,
-        "current_stars": 10101,
-        "star_diff": 224,
-        "growth_rate": 2.27,
+        "current_stars": 10102,
+        "star_diff": 225,
+        "growth_rate": 2.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 10101,
             "forks": 1033,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10102,
+            "forks": 1033,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

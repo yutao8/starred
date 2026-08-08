@@ -6,7 +6,7 @@
         "name": "baiduwp-php",
         "html_url": "https:\/\/github.com\/yuantuo666\/baiduwp-php",
         "language": "HTML",
-        "description": "用于解析百度文库文档的 PHP 工具，支持无需登录快速提取百度文库的文本内容，适合需要批量获取公开文档内容的场景，常用于数据采集、信息提取等自动化任务。"
+        "description": "用于解析百度网盘分享链接并生成直接下载地址的PHP工具，通常部署在服务器或虚拟主机上，通过网页界面输入分享链接和提取码，即可获取对应文件的直链下载地址。主要解决百度网盘网页端下载限速严重、客户端安装繁琐的问题，适合需要批量或大文件下载的场景。常见功能包括提取码校验、链接有效性判断、文件列表展示以及下载地址输出，方便配合多线程下载工具提升速度。基于PHP开发，部署门槛低，适合个人或小团队自建使用。"
     },
     "summary": {
         "initial_stars": 6484,
@@ -14,8 +14,8 @@
         "star_diff": -103,
         "growth_rate": -1.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 6381,
             "forks": 1344,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6381,
+            "forks": 1343,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

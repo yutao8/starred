@@ -6,16 +6,16 @@
         "name": "iptv",
         "html_url": "https:\/\/github.com\/vbskycn\/iptv",
         "language": "Python",
-        "description": "提供精选的IPTV直播源列表，主要用于整合和分享高质量的电视直播频道，适合需要自定义播放列表的用户，支持多种设备上的IPTV播放器，便于实时观看国内外电视频道。"
+        "description": "聚合了众多电视频道直播源，提供可直接使用的播放列表文件，方便用户在手机、电视或电脑上的播放软件中一键导入，解决寻找稳定、免费直播源的痛点，适合日常观看国内外电视节目或测试播放器兼容性。"
     },
     "summary": {
         "initial_stars": 3941,
-        "current_stars": 7381,
-        "star_diff": 3440,
-        "growth_rate": 87.29,
+        "current_stars": 7391,
+        "star_diff": 3450,
+        "growth_rate": 87.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 7381,
             "forks": 1093,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7391,
+            "forks": 1097,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

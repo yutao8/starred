@@ -6,7 +6,7 @@
         "name": "chrome-extension-downloader",
         "html_url": "https:\/\/github.com\/ayoubfaouzi\/chrome-extension-downloader",
         "language": "Go",
-        "description": "用于下载 Chrome 扩展程序的工具，可获取线上 Chrome 应用商店中的扩展插件离线安装包（CRX 文件），方便本地安装或备份，无需手动访问商店页面，适用于开发者或需要离线部署扩展的用户。"
+        "description": "该工具主要面向Chrome扩展程序的下载与备份，用户可输入扩展的ID或链接，直接获取对应的CRX安装包，解决Chrome网上应用店无法直接下载或需在线安装的问题。通常适合需要离线安装扩展、进行本地审计或分发扩展的开发者与高级用户。工具可能通过解析商店页面或接口来提取下载地址，以自动化方式替代手动寻找资源，操作流程简洁，便于批量管理扩展文件。"
     },
     "summary": {
         "initial_stars": 30,

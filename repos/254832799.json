@@ -6,16 +6,16 @@
         "name": "hackingtool",
         "html_url": "https:\/\/github.com\/Z4nzu\/hackingtool",
         "language": "Python",
-        "description": "一个集合了多种渗透测试和网络安全工具的综合性 hacking 工具箱，主要用于信息收集、漏洞扫描、密码破解、网络嗅探等安全测试任务，适合网络安全研究人员和渗透测试人员在授权范围内进行评估与防御加固。"
+        "description": "集成了多种渗透测试与黑客工具的聚合工具包，主要面向安全研究人员、渗透测试人员以及网络安全学习者。它将常见的密码破解、SQL 注入、XSS 攻击、钓鱼模拟、键盘记录等功能集中到一个脚本界面中，便于快速调用。通常适用于授权范围内的安全评估、漏洞测试和教学演示。该项目通过整合各类开源工具，简化了安装和使用的流程，但同时也提醒使用者应当仅用于合法的安全研究场景。"
     },
     "summary": {
         "initial_stars": 52835,
-        "current_stars": 78793,
-        "star_diff": 25958,
-        "growth_rate": 49.13,
+        "current_stars": 78834,
+        "star_diff": 25999,
+        "growth_rate": 49.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 78793,
             "forks": 8940,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 78834,
+            "forks": 8945,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

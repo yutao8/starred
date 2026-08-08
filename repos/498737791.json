@@ -6,16 +6,16 @@
         "name": "backtrace",
         "html_url": "https:\/\/github.com\/zhanghanyun\/backtrace",
         "language": "Go",
-        "description": "用于捕获和分析 Go 程序中的调用栈信息，帮助开发者快速定位和排查错误，适用于需要精细化错误追踪的场景。"
+        "description": "一个用于程序运行时错误诊断的调用堆栈回溯工具，通常在异常或崩溃发生时捕获并输出完整的函数调用链，帮助开发者快速定位代码执行路径中的问题根源。适合在服务端应用、命令行工具或库的调试阶段使用，特别适用于需要分析并发或深层调用场景下的故障现场。该仓库以 Go 语言生态为常见实现背景，通常集成在日志系统或错误处理流程中，能将堆栈信息格式化输出到控制台或日志文件，便于与现有监控体系对接。借助该工具，开发者可以省去手动添加调试输出的步骤，直接通过标准库或轻量接口获取结构化回溯信息，提升排错效率。"
     },
     "summary": {
         "initial_stars": 1173,
-        "current_stars": 1539,
-        "star_diff": 366,
-        "growth_rate": 31.2,
+        "current_stars": 1540,
+        "star_diff": 367,
+        "growth_rate": 31.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 164
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 165
     },
     "history": [
         {
@@ -1165,6 +1165,13 @@
             "stars": 1539,
             "forks": 168,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1540,
+            "forks": 168,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

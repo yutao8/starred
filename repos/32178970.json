@@ -6,7 +6,7 @@
         "name": "rapidleech",
         "html_url": "https:\/\/github.com\/Th3-822\/rapidleech",
         "language": "PHP",
-        "description": "RapiDleech 是一个用于加速文件下载的开源工具，主要用于从支持的免费和付费文件托管服务中高速下载文件。它通过多线程技术提升下载速度，支持断点续传，并提供图形化界面方便用户管理下载任务，通常部署在远程服务器或VPS上以实现全天候下载。"
+        "description": "用于搭建基于Web的远程文件下载管理工具，利用PHP在服务器端处理各类文件托管链接。核心功能是从多个主流文件托管服务批量下载文件，并将下载内容直接转存到其他网盘或远程存储，从而节省本地带宽、突破单文件下载限制。通常适合部署在个人服务器或NAS上，实现离线下载、资源镜像和多网盘分发。这个仓库是RapidLeech较新的维护分支，针对现代PHP环境进行适配，使原有功能在当下主机环境中仍可使用。"
     },
     "summary": {
         "initial_stars": 594,
@@ -14,8 +14,8 @@
         "star_diff": 3,
         "growth_rate": 0.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 44
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 45
     },
     "history": [
         {
@@ -325,6 +325,13 @@
             "stars": 597,
             "forks": 505,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 597,
+            "forks": 506,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

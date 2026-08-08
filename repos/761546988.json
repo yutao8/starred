@@ -6,16 +6,16 @@
         "name": "ip-info-api",
         "html_url": "https:\/\/github.com\/ihmily\/ip-info-api",
         "language": "Other",
-        "description": "ip-info-api 是一个轻量级 IP 地理位置查询服务，主要用于根据 IP 地址获取详细的地理位置信息，如国家、省份、城市、运营商等。适用于需要 IP 数据解析的场景，如访问日志分析、用户地域统计和安全风控，支持本地化部署，数据可定期更新，适合注重隐私和数据自主性的项目集成。"
+        "description": "用于查询IP地址归属地及相关网络信息的API服务，支持IPv4和IPv6，通常返回JSON格式数据。主要面向需要IP定位、访问来源分析、日志统计、反欺诈或区域内容适配等场景的开发者，可快速集成到Web服务或脚本中。通过HTTP请求即可获取IP所在国家、省份、城市、运营商等常用信息，设计上注重响应速度和调用简洁，适合个人项目、爬虫辅助或中小型应用自建IP查询能力。"
     },
     "summary": {
         "initial_stars": 1176,
-        "current_stars": 1529,
-        "star_diff": 353,
-        "growth_rate": 30.02,
+        "current_stars": 1530,
+        "star_diff": 354,
+        "growth_rate": 30.1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 163
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 164
     },
     "history": [
         {
@@ -1158,6 +1158,13 @@
             "stars": 1529,
             "forks": 146,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1530,
+            "forks": 146,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

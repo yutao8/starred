@@ -6,16 +6,16 @@
         "name": "sqlmodel",
         "html_url": "https:\/\/github.com\/fastapi\/sqlmodel",
         "language": "Python",
-        "description": "用于构建高效API的Python框架，结合FastAPI的异步性能与SQLModel的数据库操作能力，适合开发现代化、类型安全的Web应用与数据驱动服务。"
+        "description": "SQLModel用于为FastAPI等Python应用快速构建数据模型，结合SQLAlchemy和Pydantic，让同一套模型同时支持数据库操作、请求体校验和响应序列化。开发者定义一次模型，即可获得类型提示、自动文档和表单验证，省去手写ORM与Schema转换的冗余代码。它特别适合依赖FastAPI构建中小型API服务，在用户管理、内容系统等常见场景中能显著加快开发速度，同时保持代码清晰。"
     },
     "summary": {
         "initial_stars": 16226,
-        "current_stars": 18248,
-        "star_diff": 2022,
-        "growth_rate": 12.46,
+        "current_stars": 18253,
+        "star_diff": 2027,
+        "growth_rate": 12.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 18248,
             "forks": 882,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18253,
+            "forks": 883,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

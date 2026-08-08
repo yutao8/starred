@@ -6,7 +6,7 @@
         "name": "wechat-app-unpack",
         "html_url": "https:\/\/github.com\/leo9960\/wechat-app-unpack",
         "language": "JavaScript",
-        "description": "用于解包微信小程序的工具，支持对微信开发者工具中加密的小程序代码进行解密和反编译，便于分析小程序实现逻辑，常用于逆向分析、安全研究或学习参考。"
+        "description": "用于解包和分析微信小程序包文件，能够从 .wxapkg 格式中还原前端源码与静态资源，便于开发者学习小程序实现、排查代码问题或进行安全审计。通常适合需要逆向查看小程序逻辑的场合，操作流程简单，主要面向有一定编程基础的技术人员。"
     },
     "summary": {
         "initial_stars": 1160,

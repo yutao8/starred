@@ -6,7 +6,7 @@
         "name": "obsidian-memos-sync",
         "html_url": "https:\/\/github.com\/RyoJerryYu\/obsidian-memos-sync",
         "language": "TypeScript",
-        "description": "用于将 Obsidian 笔记与 memos 实例双向同步，支持定期自动同步笔记内容、标签和创建时间，便于在个人知识管理和轻量级 memo 记录之间建立无缝连接，通常适合希望整合深度写作与碎片化记录场景的用户。"
+        "description": "为Obsidian用户提供Memos短笔记的同步与备份能力，通常作为插件安装使用。它可将本地的Memos记录推送至远程存储或外部服务，也支持从远端拉取内容，帮助你在多设备间保持笔记一致。适合日常快速记录想法、随想等短文本场景，解决Memos数据易丢失、跨设备难同步的问题。具体支持的目标平台与配置方法以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 54,

@@ -6,7 +6,7 @@
         "name": "nintendo-switch-eshop",
         "html_url": "https:\/\/github.com\/lmmfranco\/nintendo-switch-eshop",
         "language": "TypeScript",
-        "description": "用于查询任天堂Switch eShop的游戏价格、折扣和区域信息，支持多地区比价和监控，适合玩家查找低价区服或追踪心愿单游戏降价，可通过API获取数字版游戏数据。"
+        "description": "用于与任天堂Switch在线商店交互的开发工具，通常适合需要获取游戏列表、售价、折扣信息或区域商店数据的场景，例如构建游戏比价应用、折扣提醒服务或商店浏览客户端。它封装了与eShop相关的网络请求逻辑，帮助开发者省去手动处理接口细节的麻烦。如果目标是整合Switch游戏数据，这个仓库可以作为可靠的底层依赖。具体支持的功能范围以仓库文档为准，但整体定位清晰，适合有任天堂生态开发需求的个人或团队使用。"
     },
     "summary": {
         "initial_stars": 522,

@@ -6,7 +6,7 @@
         "name": "evercookie",
         "html_url": "https:\/\/github.com\/samyk\/evercookie",
         "language": "JavaScript",
-        "description": "evercookie 是一个用于演示用户追踪技术的开源项目，通过利用多种浏览器存储机制（如 Cookie、LocalStorage、Flash Storage、ETag 等）实现用户识别和持久化追踪。它主要用于研究网站如何在用户尝试清除数据的情况下依然保留追踪能力，帮助开发者和安全研究人员理解隐私泄露风险并改进防护措施。"
+        "description": "evercookie 是一套用于创建近乎不可删除的持久性 cookie 的 JavaScript 工具，核心目标是让网站在用户清除浏览器 cookie 后仍能识别和追踪其身份。它通过同时利用多种浏览器存储机制（如普通 cookie、Flash 本地存储、Web Storage、IndexedDB、缓存等）保存标识符，并在检测到部分数据丢失时自动从其他存储中恢复。主要适用于需要强持久性用户标识的敏感场景，如反欺诈、防滥用和会话完整性验证，但因其可能侵犯隐私，通常也被用作安全研究示例，帮助开发者了解浏览器存储边界的限制。"
     },
     "summary": {
         "initial_stars": 4665,

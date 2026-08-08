@@ -6,16 +6,16 @@
         "name": "SuperWeChatPC",
         "html_url": "https:\/\/github.com\/anhkgg\/SuperWeChatPC",
         "language": "C++",
-        "description": "SuperWeChatPC 是一个基于 Electron 和 React 开发的桌面版微信增强工具，支持多开、防撤回、消息备份、自动回复等实用功能，旨在提升微信在 PC 端的使用效率与体验，适用于需要高效管理微信账号的用户。"
+        "description": "SuperWeChatPC 是一套针对 Windows 微信客户端的逆向与扩展工具集合，主要用于通过动态注入和函数挂钩方式访问微信内部接口，从而实现对聊天消息的自动化处理、界面行为定制以及数据读取等操作。它适合开发者研究微信桌面版协议，或构建个人辅助工具，例如自动回复、消息统计、机器人集成等场景。由于涉及逆向技术，通常需要具备 Windows 底层开发经验，并应遵守相关软件使用规范，避免用于不正当用途。"
     },
     "summary": {
         "initial_stars": 4534,
-        "current_stars": 4588,
-        "star_diff": 54,
-        "growth_rate": 1.19,
+        "current_stars": 4587,
+        "star_diff": 53,
+        "growth_rate": 1.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 129
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 130
     },
     "history": [
         {
@@ -920,6 +920,13 @@
             "stars": 4588,
             "forks": 1036,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4587,
+            "forks": 1036,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

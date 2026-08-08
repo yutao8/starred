@@ -6,7 +6,7 @@
         "name": "php-proxy",
         "html_url": "https:\/\/github.com\/jenssegers\/php-proxy",
         "language": "PHP",
-        "description": "用于创建HTTP代理服务的PHP库，可通过服务器转发HTTP请求，常用于跨域请求处理、API代理或网页内容抓取，支持请求重写与响应过滤，适合在PHP应用中实现反向代理功能。"
+        "description": "用 PHP 编写的轻量级 Web 代理库，可快速搭建可定制的中转服务。它拦截并转发 HTTP 请求，允许开发者改写请求头和响应内容，适用于网页抓取、内容过滤、跨域请求转发或为内网服务提供统一入口。其设计简洁，通常基于 Guzzle 等 HTTP 客户端实现，适合部署在共享主机或虚拟服务器上，少量代码即可实现具备反向代理和正向代理能力的脚本，并天然支持 Cookie、跳转等常见 HTTP 特性。"
     },
     "summary": {
         "initial_stars": 938,

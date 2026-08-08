@@ -6,16 +6,16 @@
         "name": "Auto_Bangumi",
         "html_url": "https:\/\/github.com\/EstrellaXD\/Auto_Bangumi",
         "language": "Python",
-        "description": "Auto_Bangumi 是一个自动化的追番工具，主要用于监测新发布的动画剧集并自动下载或整理到指定目录。它支持与主流媒体管理软件如 Plex 或 Jellyfin 集成，可配合 RSS 订阅、字幕下载和文件重命名功能，实现零接触的追番体验。通常用于家庭服务器或 NAS 环境，适合希望本地收藏动画番组的用户。"
+        "description": "Auto_Bangumi 用于番剧资源的全自动追更与整理，通过订阅 RSS 源监控新番发布，自动派发下载任务，并在下载完成后对文件进行重命名和分类归档。通常配合 qBittorrent 等下载工具和媒体服务器使用，适合部署在 NAS 或家庭服务器上，实现新番从订阅、下载到入库播放的无人值守流程。对于不想手动查找资源、希望追番库保持整洁的用户而言尤其省心。"
     },
     "summary": {
         "initial_stars": 7569,
-        "current_stars": 8187,
-        "star_diff": 618,
-        "growth_rate": 8.16,
+        "current_stars": 8184,
+        "star_diff": 615,
+        "growth_rate": 8.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 8187,
             "forks": 444,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8184,
+            "forks": 444,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "js-xlsx",
         "html_url": "https:\/\/github.com\/protobi\/js-xlsx",
         "language": "JavaScript",
-        "description": "用于读取、写入和操作 Excel 文件的 JavaScript 库，支持多种格式如 XLSX、XLS 等，适用于浏览器和 Node.js 环境，提供数据导入导出功能，便于 Web 应用处理电子表格数据。"
+        "description": "用于在 JavaScript 环境中解析和生成 Excel 文件（如 .xlsx 和 .xls），支持浏览器和 Node.js 端运行。核心功能包括读取工作簿、工作表及单元格数据，并能将数据导出为 Excel 格式，适合处理数据导入导出、报表生成、表格数据转换等常见业务场景。通常被集成到前端页面或后端服务中，实现对表格文件的程序化操作，以替代手动处理 Excel 的工作。"
     },
     "summary": {
         "initial_stars": 847,

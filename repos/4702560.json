@@ -6,16 +6,16 @@
         "name": "PHPExcel",
         "html_url": "https:\/\/github.com\/PHPOffice\/PHPExcel",
         "language": "PHP",
-        "description": "用于读取和写入Excel文件的PHP库，支持多种格式如XLS、XLSX，提供数据导入导出、样式设置、图表生成等功能，适用于处理电子表格数据的Web应用。"
+        "description": "PHPExcel 是 PHP 生态中广泛使用的开源库，主要用于在服务端生成和解析 Excel 电子表格文件，支持 Excel 97 至 2007 及以上格式的读写，同时兼容 CSV 等多种格式。开发者可以借助它批量导入导出数据、创建带格式和公式的报表、处理图表及样式，适合需要处理表格数据的后台系统、数据迁移工具或统计报表场景。该项目已完成历史使命，官方已停止维护，新项目建议迁移至其继任者 PhpSpreadsheet，但存量代码中仍有大量应用依赖该库。"
     },
     "summary": {
         "initial_stars": 11428,
-        "current_stars": 11369,
-        "star_diff": -59,
-        "growth_rate": -0.52,
+        "current_stars": 11370,
+        "star_diff": -58,
+        "growth_rate": -0.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 127
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 128
     },
     "history": [
         {
@@ -906,6 +906,13 @@
             "stars": 11369,
             "forks": 4119,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11370,
+            "forks": 4119,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

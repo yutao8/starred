@@ -6,16 +6,16 @@
         "name": "jieba-php",
         "html_url": "https:\/\/github.com\/fukuball\/jieba-php",
         "language": "PHP",
-        "description": "基于 PHP 的中文分词工具，提供精确模式、全模式和搜索引擎模式的分词功能，支持自定义词典与词性标注，适用于文本分析、信息检索等场景，是 Python jieba 的 PHP 移植版本，便于在 PHP 环境中实现高效中文分词。"
+        "description": "jieba-php 是 Python 著名中文分词工具 jieba 的 PHP 移植版本，主要用于对中文文本进行分词处理。它支持精确模式、全模式和搜索引擎模式三种分词方式，并能识别新词，适合用于搜索建议、关键词提取、文本挖掘、自然语言处理等场景。该库通常适合需要在 PHP 项目中快速实现中文分词功能的开发者，可以作为搜索引擎或内容分析系统的底层组件。"
     },
     "summary": {
         "initial_stars": 1352,
-        "current_stars": 1379,
-        "star_diff": 27,
-        "growth_rate": 2,
+        "current_stars": 1378,
+        "star_diff": 26,
+        "growth_rate": 1.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 50
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 51
     },
     "history": [
         {
@@ -367,6 +367,13 @@
             "stars": 1379,
             "forks": 258,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1378,
+            "forks": 258,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

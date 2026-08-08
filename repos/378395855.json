@@ -6,7 +6,7 @@
         "name": "superspeed",
         "html_url": "https:\/\/github.com\/uxh\/superspeed",
         "language": "Shell",
-        "description": "一个基于Go语言开发的高速文件传输工具，主要用于在不同设备间快速传输大文件，支持多线程加速和断点续传，适用于内网或跨网络环境下的高效数据同步与分发。"
+        "description": "用于快速测试 Linux 服务器到国内外多个节点的网络下载速度，常被称为 SuperSpeed 测速脚本。只需一行命令即可自动完成测试，并汇总显示每个节点的延迟和下载速率，适合购买 VPS、选择机房或评估线路质量时使用。脚本无需安装额外依赖，兼容多数主流 Linux 发行版，输出结果简洁直观，便于对比不同服务商的网络性能，也常被站长或开发者用来排查服务器带宽瓶颈。"
     },
     "summary": {
         "initial_stars": 279,

@@ -6,16 +6,16 @@
         "name": "dev-sidecar",
         "html_url": "https:\/\/github.com\/docmirror\/dev-sidecar",
         "language": "JavaScript",
-        "description": "Dev-sidecar 是一个专为开发者设计的本地开发代理工具，主要用于解决本地开发环境与远程服务之间的网络问题，支持请求代理、流量转发、本地 HTTPS、跨域调试等功能，帮助开发者更高效地调试和测试 Web 应用与 API 服务。"
+        "description": "dev-sidecar 是面向开发者的网络加速工具，主要解决国内访问 GitHub 缓慢、下载失败等问题。它通过本地代理服务和自动更新 hosts 的方式优化 GitHub 相关域名，同时支持 npm、pip 等常见平台的加速。使用时安装并开启即可自动接管网络请求，适合频繁拉取代码、提交或安装依赖的开发场景。工具提供图形界面和简单配置项，方便按需调整。"
     },
     "summary": {
         "initial_stars": 18405,
-        "current_stars": 23478,
-        "star_diff": 5073,
-        "growth_rate": 27.56,
+        "current_stars": 23500,
+        "star_diff": 5095,
+        "growth_rate": 27.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 23478,
             "forks": 2890,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23500,
+            "forks": 2892,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

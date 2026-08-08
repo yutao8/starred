@@ -6,16 +6,16 @@
         "name": "frigate",
         "html_url": "https:\/\/github.com\/blakeblackshear\/frigate",
         "language": "TypeScript",
-        "description": "Frigate 是一个开源的实时视频分析应用，利用深度学习实现本地化智能视频监控。它支持通过 RTSP 摄像头进行物体检测（如人、车等）、区域入侵检测和事件记录，所有处理均在本地完成以保护隐私，无需云服务。Frigate 可与 Home 无缝集成，提供低延迟的警报和视频回放功能，适用于家庭安防与自动化场景。"
+        "description": "Frigate 是一款专为实时监控视频流设计的智能网络录像机（NVR）系统，核心用途是借助本地 AI 物体检测技术，对摄像头画面中的人员、车辆等目标进行快速识别与跟踪，并在此基础上提供事件记录和剪辑。它优先采用边缘计算和硬件加速，力求降低资源占用，还能与 Home 智能家居平台无缝整合，适用于需要本地化、低延迟且注重隐私的监控场景，帮助用户在海量录像中快速定位关键活动。"
     },
     "summary": {
         "initial_stars": 23535,
-        "current_stars": 34871,
-        "star_diff": 11336,
-        "growth_rate": 48.17,
+        "current_stars": 34907,
+        "star_diff": 11372,
+        "growth_rate": 48.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 34871,
             "forks": 3453,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 34907,
+            "forks": 3463,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

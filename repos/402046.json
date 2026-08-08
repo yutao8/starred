@@ -6,16 +6,16 @@
         "name": "jsPDF",
         "html_url": "https:\/\/github.com\/parallax\/jsPDF",
         "language": "JavaScript",
-        "description": "用于生成 PDF 文档的 JavaScript 库，支持在浏览器端通过 HTML 内容创建、编辑和下载 PDF，常用于导出页面内容、生成报表等前端场景，具备添加文本、图像、形状及自定义样式的功能，也可结合 HTML2Canvas 实现网页截图式导出。"
+        "description": "jsPDF 是一款在浏览器端使用 JavaScript 生成 PDF 文件的流行库，无需安装额外插件或依赖服务端。它允许开发者通过调用简洁的 API 动态创建包含文本、图像、矢量图形和表格的 PDF 文档，并支持页面尺寸调整、分页、字体样式设置以及导出为 Base64、Blob 或直接触发下载。通常适合用于在线报表导出、发票打印、订单详情保存、证书生成以及需要将网页内容转换为静态 PDF 的场景。由于纯前端运行，它特别适合轻量级、无需重型后端支持的文档生成需求，同时也能与各类前端框架无缝集成。"
     },
     "summary": {
         "initial_stars": 30320,
-        "current_stars": 31261,
-        "star_diff": 941,
-        "growth_rate": 3.1,
+        "current_stars": 31262,
+        "star_diff": 942,
+        "growth_rate": 3.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 31261,
             "forks": 4801,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31262,
+            "forks": 4800,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

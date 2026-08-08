@@ -6,16 +6,16 @@
         "name": "netease-cloud",
         "html_url": "https:\/\/github.com\/ZainCheung\/netease-cloud",
         "language": "Python",
-        "description": "用于操作网易云音乐的 Node.js 库，支持登录、歌单管理、音乐播放控制等功能，便于开发者集成网易云音乐服务到自己的应用中，实现音乐数据的获取与交互操作。"
+        "description": "一个围绕网易云音乐平台开发的第三方工具，通常用于扩展或替代官方客户端的部分功能。它可能封装了网易云音乐的网络接口，实现歌曲搜索、歌单解析、歌词获取以及音源下载等常见操作，适合喜欢在命令行或轻量级脚本中管理音乐资源的用户。这类项目也常被用来完成批量下载、自定义播放体验或数据分析等任务，同时可以作为学习网页接口调用和异步编程的参考。具体功能随版本更新有所变化，建议以仓库内实际说明为准。"
     },
     "summary": {
         "initial_stars": 1747,
-        "current_stars": 1785,
-        "star_diff": 38,
-        "growth_rate": 2.18,
+        "current_stars": 1786,
+        "star_diff": 39,
+        "growth_rate": 2.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 134
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 135
     },
     "history": [
         {
@@ -955,6 +955,13 @@
             "stars": 1785,
             "forks": 1294,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1786,
+            "forks": 1292,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

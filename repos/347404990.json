@@ -6,16 +6,16 @@
         "name": "qinglong",
         "html_url": "https:\/\/github.com\/whyour\/qinglong",
         "language": "TypeScript",
-        "description": "青龙是一个基于Web的定时任务管理平台，主要用于管理和执行各种自动化脚本，支持Shell、Python、NodeJS等多种脚本类型，适用于定时执行任务、批量处理请求等场景，常被用于个人自动化运维、签到脚本托管、数据抓取等用途，具有友好的可视化操作界面和API接口。"
+        "description": "青龙面板用于搭建和管理定时任务，提供可视化界面来配置任务执行周期、查看运行日志并管理脚本依赖，通常适合个人或团队处理需要按时自动执行的重复工作，例如签到、数据监控、通知推送等场景。它支持常见脚本语言编写的定时任务，用户无须手动登录服务器执行命令，通过浏览器即可完成任务的增删改查和启停控制。项目强调轻量和易用，常被部署在小型服务器或容器环境中，作为自动化任务的中枢。整体而言，它解决的是多任务定时调度的复杂性问题，降低了手动维护多个cron任务的成本。"
     },
     "summary": {
         "initial_stars": 17903,
-        "current_stars": 19758,
-        "star_diff": 1855,
-        "growth_rate": 10.36,
+        "current_stars": 19756,
+        "star_diff": 1853,
+        "growth_rate": 10.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 19758,
             "forks": 3238,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19756,
+            "forks": 3238,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

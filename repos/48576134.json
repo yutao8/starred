@@ -6,16 +6,16 @@
         "name": "cat-catch",
         "html_url": "https:\/\/github.com\/xifangczy\/cat-catch",
         "language": "JavaScript",
-        "description": "一个基于网页的猫咪抓取模拟游戏，玩家通过点击或互动控制角色捕捉猫咪，通常用于趣味性前端交互演示或小游戏开发学习，结合HTML、CSS和JavaScript实现动态效果与用户操作反馈。"
+        "description": "用于网页资源抓取与嗅探的浏览器扩展，能自动检测网页播放的视频、音频及图片等媒体文件，捕获网络请求并生成下载链接。用户可直接从页面提取所需媒体，适合需要保存流媒体内容、图片素材或排查网页资源加载的场景。以轻量方式实现类似抓包工具的实用功能，帮助绕过常规方式难以获取的网络资源。"
     },
     "summary": {
         "initial_stars": 14125,
-        "current_stars": 21194,
-        "star_diff": 7069,
-        "growth_rate": 50.05,
+        "current_stars": 21219,
+        "star_diff": 7094,
+        "growth_rate": 50.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 21194,
             "forks": 1859,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21219,
+            "forks": 1863,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

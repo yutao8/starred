@@ -6,7 +6,7 @@
         "name": "IMESupport",
         "html_url": "https:\/\/github.com\/zcodes\/IMESupport",
         "language": "C",
-        "description": "用于支持输入法编辑器（IME）的工具库，主要解决文本输入过程中光标位置、文本组成和事件处理等问题，提升在富文本编辑、输入框等场景下的中文输入体验，适用于需要精细化控制 IME 行为的前端应用。"
+        "description": "用于为Python Tkinter应用提供Windows输入法候选框跟随支持。它解决Tkinter默认在中文输入时候选词窗口位置偏离光标的问题，通过自动调整窗口坐标，使IME候选列表在输入位置附近显示。适用于所有基于Tkinter构建的桌面程序，尤其需要中文输入的文本编辑器、表单应用和内部工具。通常以小型扩展库形式安装，接入后无需修改业务代码，即可改善输入法交互体验。"
     },
     "summary": {
         "initial_stars": 268,

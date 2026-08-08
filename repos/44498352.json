@@ -6,7 +6,7 @@
         "name": "AndroidWiFiADB",
         "html_url": "https:\/\/github.com\/pedrovgs\/AndroidWiFiADB",
         "language": "Java",
-        "description": "一个Android应用，用于在设备上快速开启或关闭通过Wi-Fi调试功能，方便开发者无需USB连接即可进行应用调试，提升开发效率，支持一键切换和快捷开关小部件。"
+        "description": "一个用于 Android 开发调试的 Android Studio 插件，核心功能是让开发者通过 WiFi 无线连接 Android 设备进行 ADB 调试，彻底摆脱 USB 数据线的束缚。它通常适合需要频繁安装应用、查看日志或执行命令的场景，尤其当数据线损坏、接口不够用或希望保持设备自由移动时非常实用。你只需确保电脑与手机处于同一局域网，即可一键建立连接并开始调试，大幅提升日常开发效率。该工具操作简单，能显著减少重复插拔设备带来的时间损耗，是移动端开发者的便捷辅助工具。"
     },
     "summary": {
         "initial_stars": 4148,

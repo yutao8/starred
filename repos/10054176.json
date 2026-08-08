@@ -6,7 +6,7 @@
         "name": "openvpn-install",
         "html_url": "https:\/\/github.com\/Nyr\/openvpn-install",
         "language": "Shell",
-        "description": "用于简化 OpenVPN 服务器在 Linux 系统上的部署，提供一键安装脚本，自动配置网络、防火墙和证书，帮助用户快速搭建私有虚拟专用网络，适用于远程访问和安全上网场景。"
+        "description": "在Linux服务器上一键部署OpenVPN的自动化脚本，通过交互式问答完成服务端安装、证书与客户端配置，免去手动编辑复杂参数和调试防火墙的麻烦。适合个人或小型团队在VPS上搭建远程安全访问通道，支持常见发行版，重复运行可添加或撤销客户端，也可彻底卸载。"
     },
     "summary": {
         "initial_stars": 19894,

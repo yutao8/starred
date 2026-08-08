@@ -6,7 +6,7 @@
         "name": "pinyin",
         "html_url": "https:\/\/github.com\/overtrue\/pinyin",
         "language": "PHP",
-        "description": "一个 PHP 扩展库，用于将中文汉字转换为拼音，支持多音字、声调标记和格式化输出，适用于中文搜索、排序和语音相关功能的开发。"
+        "description": "用于将中文汉字转换为拼音的 PHP 库，支持多音字识别、拼音首字母提取、分隔符自定义和多种输出格式，通常适合需要中文搜索、按拼音排序或生成 URL 段等场景，常与 Laravel 等框架集成使用，能有效处理中文文本的拼音化需求。"
     },
     "summary": {
         "initial_stars": 4387,

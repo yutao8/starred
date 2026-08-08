@@ -6,16 +6,16 @@
         "name": "goproxy",
         "html_url": "https:\/\/github.com\/snail007\/goproxy",
         "language": "Go",
-        "description": "snail007\/goproxy 是一个用 Go 编写的高性能内网穿透代理工具，支持 TCP、UDP、HTTP、HTTPS 等多种协议，主要用于将内网服务暴露到公网，适合远程访问、服务调试等场景，具备跨平台、配置简单、加密传输等特点。"
+        "description": "基于 Go 语言开发的高性能代理与内网穿透工具，通过简洁的命令行就能搭建稳定安全的网络通道。它支持 HTTP、HTTPS、SOCKS5 等常用代理协议，同时能够转发 TCP、UDP 流量，广泛用于解决异地组网、远程调试、外网访问内网服务等场景。由于不需要公网 IP 即可穿透，也常用于将本地服务临时公开给他人访问。整体轻量易用，适合开发者快速构建各类代理链路，且支持多平台部署。"
     },
     "summary": {
         "initial_stars": 16408,
-        "current_stars": 17100,
-        "star_diff": 692,
-        "growth_rate": 4.22,
+        "current_stars": 17102,
+        "star_diff": 694,
+        "growth_rate": 4.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 17100,
             "forks": 3092,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17102,
+            "forks": 3094,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

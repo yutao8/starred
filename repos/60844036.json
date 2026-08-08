@@ -6,16 +6,16 @@
         "name": "ShadowsocksX-NG",
         "html_url": "https:\/\/github.com\/shadowsocks\/ShadowsocksX-NG",
         "language": "Swift",
-        "description": "ShadowsocksX-NG 是一个基于 Shadowsocks 协议的 macOS 平台网络代理工具，主要用于科学上网和网络流量加密。它提供简洁的图形界面，支持自动代理配置、全局代理、PAC 智能分流等功能，可帮助用户绕过网络审查，提升网络访问自由度和隐私安全性。项目通常配合 Shadowsocks 服务器使用，适合需要稳定翻墙体验的 macOS 用户。"
+        "description": "用于在 macOS 上运行 Shadowsocks 代理的客户端工具，帮助用户通过加密通道访问受限网络内容或保护本地网络流量。它基于 Shadowsocks 协议，支持多种加密算法和自定义服务器配置，通常配合服务器端实现安全上网。软件提供简洁的菜单栏界面，可快速切换代理模式，并自动接管系统网络设置，适合需要稳定、轻量翻墙或远程访问内网资源的个人用户。尤其适用于开发者在测试、抓包或访问海外服务时保持网络畅通，同时也为普通用户提供低成本、易上手的代理连接方案。"
     },
     "summary": {
         "initial_stars": 32782,
-        "current_stars": 32893,
-        "star_diff": 111,
-        "growth_rate": 0.34,
+        "current_stars": 32889,
+        "star_diff": 107,
+        "growth_rate": 0.33,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 32893,
             "forks": 7773,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 32889,
+            "forks": 7770,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

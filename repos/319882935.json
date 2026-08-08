@@ -6,16 +6,16 @@
         "name": "GeoIP2-CN",
         "html_url": "https:\/\/github.com\/Hackl0us\/GeoIP2-CN",
         "language": "Go",
-        "description": "该项目主要用于提供中文增强版的 GeoIP2 地理位置数据库，优化针对中国地区的 IP 地址定位精度，支持城市级地理位置查询，适用于需要精准识别中国用户地域分布的应用场景。"
+        "description": "提供基于 GeoIP2 数据库生成的中国大陆 IP 地址段规则集，主要用于代理工具（如 Clash、Surge、Shadowrocket）的分流与策略路由，可自动更新并生成适用于多种格式的规则文件，帮助用户实现国内直连、国外代理的智能选择，尤其适合需要稳定分开大陆和海外网络环境的场景。"
     },
     "summary": {
         "initial_stars": 6976,
-        "current_stars": 7396,
-        "star_diff": 420,
-        "growth_rate": 6.02,
+        "current_stars": 7401,
+        "star_diff": 425,
+        "growth_rate": 6.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 7396,
             "forks": 215,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7401,
+            "forks": 215,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

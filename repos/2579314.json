@@ -6,16 +6,16 @@
         "name": "Faker",
         "html_url": "https:\/\/github.com\/fzaninotto\/Faker",
         "language": "PHP",
-        "description": "Faker 是一个用于生成伪造数据的 PHP 库，常用于开发和测试环境中填充数据库。它支持生成姓名、地址、电话、邮箱、时间等多种格式化数据，提供丰富的本地化支持，方便快速模拟真实应用场景的数据需求。"
+        "description": "用于生成大量逼真且可重复的伪造数据，主要面向PHP开发、测试和演示场景。它能够快速填充数据库、构造单元测试样本、制作模拟API响应或创建演示界面，解决手工造数低效和隐私风险问题。内置丰富的数据生成器，涵盖姓名、地址、电话、公司、日期、文本、图片等信息，支持多语言本地化和自定义格式，适合不同地区业务。注意，原仓库已停止维护，新版推荐使用FakerPHP\/Faker，但旧库仍在许多遗留项目中广泛使用。"
     },
     "summary": {
         "initial_stars": 26785,
-        "current_stars": 26664,
-        "star_diff": -121,
-        "growth_rate": -0.45,
+        "current_stars": 26663,
+        "star_diff": -122,
+        "growth_rate": -0.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 163
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 164
     },
     "history": [
         {
@@ -1158,6 +1158,13 @@
             "stars": 26664,
             "forks": 3582,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26663,
+            "forks": 3580,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

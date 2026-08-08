@@ -6,16 +6,16 @@
         "name": "shadowsocks_install",
         "html_url": "https:\/\/github.com\/teddysun\/shadowsocks_install",
         "language": "Shell",
-        "description": "一键安装 Shadowsocks 服务端脚本，支持 Shadowsocks-libev 和 ShadowsocksR 版本，适用于 CentOS、Debian、Ubuntu 等系统，快速部署科学上网代理服务，提供 TCP BBR 加速优化选项，便于搭建和管理 Shadowsocks 服务器。"
+        "description": "用于在 Linux 服务器上一键安装和配置 Shadowsocks 代理服务，提供多种后端实现（如 Python、libev、Go、Rust）的安装脚本，覆盖安装、卸载、查看配置等操作。通常适合需要在 VPS 上快速部署科学上网工具的用户，或者用于替代商业 VPN、自建加密代理通道的场景。脚本自动完成依赖下载、编译安装和系统服务配置，避免手动操作带来的繁琐和出错，同时支持 TCP 等性能优化参数，是个人搭建代理服务器时常用的自动化工具。"
     },
     "summary": {
         "initial_stars": 8175,
-        "current_stars": 8247,
-        "star_diff": 72,
-        "growth_rate": 0.88,
+        "current_stars": 8248,
+        "star_diff": 73,
+        "growth_rate": 0.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 157
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 158
     },
     "history": [
         {
@@ -1116,6 +1116,13 @@
             "stars": 8247,
             "forks": 4433,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8248,
+            "forks": 4432,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

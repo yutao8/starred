@@ -6,7 +6,7 @@
         "name": "jquery-resizable-columns",
         "html_url": "https:\/\/github.com\/dobtco\/jquery-resizable-columns",
         "language": "JavaScript",
-        "description": "用于实现 HTML 表格列宽拖拽调整的 jQuery 插件，通过拖动表头分隔线可动态改变各列宽度，支持本地存储列宽配置，适用于需要用户自定义表格布局的场景，使用简单且兼容性良好。"
+        "description": "用于让 HTML 表格列支持鼠标拖拽调整宽度的 jQuery 插件，主要解决数据展示时列宽固定导致内容截断或空白过多的问题。它通常适合后台管理面板、报表系统、数据密集型的页面，用户可手动调整列宽以更好地查看数据。插件基于 jQuery，集成方式简单，调用后即可在表头进行拖拽操作，并保持整体布局稳定，适合快速为现有系统添加列宽调整能力。"
     },
     "summary": {
         "initial_stars": 534,

@@ -6,7 +6,7 @@
         "name": "home.github.io",
         "html_url": "https:\/\/github.com\/dmego\/home.github.io",
         "language": "HTML",
-        "description": "该项目主要用于个人网页或技术博客的静态站点托管，通常包含作者的介绍、项目展示及技术分享内容，适合作为开源作品集或在线简历使用。"
+        "description": "一个基于 GitHub Pages 搭建的个人主页仓库，用于展示个人简介、技术博客或项目合集。通常通过修改 HTML、CSS 或 Markdown 文件即可完成内容更新，适合开发者快速部署静态个人网站，无需购买服务器或维护数据库。其典型使用场景包括建立在线名片、归档学习笔记、展示开源项目，以及作为个人品牌的门户。由于仓库名中包含 “home”，可以推断该站点重点呈现个人核心信息与导航链接，整体结构简洁，便于访客快速了解作者背景与关注领域。"
     },
     "summary": {
         "initial_stars": 844,
@@ -14,8 +14,8 @@
         "star_diff": 93,
         "growth_rate": 11.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 138
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 139
     },
     "history": [
         {
@@ -983,6 +983,13 @@
             "stars": 937,
             "forks": 434,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 937,
+            "forks": 435,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

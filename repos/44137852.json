@@ -6,16 +6,16 @@
         "name": "cups",
         "html_url": "https:\/\/github.com\/apple\/cups",
         "language": "C",
-        "description": "CUPS（Common Unix Printing System）是一个开源的打印系统，用于类 Unix 操作系统，通过支持 IPP（Internet Printing Protocol）实现本地和网络打印机的管理与打印任务调度，支持多种打印设备和驱动，提供基于 Web 的管理界面，便于配置打印队列、监控任务及远程管理打印服务。"
+        "description": "用于提供 macOS 和多数 Unix 类操作系统完整打印服务的开源打印系统，通常作为系统后台调度程序运行。它基于互联网打印协议（IPP）实现打印任务管理、驱动程序适配以及网络打印机发现，支持从桌面应用到远程设备的统一打印流程，适合需要在服务器或嵌入式环境中搭建打印服务、管理多台共享打印机的场景。"
     },
     "summary": {
         "initial_stars": 2045,
-        "current_stars": 2170,
-        "star_diff": 125,
-        "growth_rate": 6.11,
+        "current_stars": 2168,
+        "star_diff": 123,
+        "growth_rate": 6.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 133
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 134
     },
     "history": [
         {
@@ -948,6 +948,13 @@
             "stars": 2170,
             "forks": 477,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2168,
+            "forks": 477,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

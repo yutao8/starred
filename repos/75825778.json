@@ -6,16 +6,16 @@
         "name": "oh-my-userscripts",
         "html_url": "https:\/\/github.com\/ipcjs\/bilibili-helper",
         "language": "JavaScript",
-        "description": "oh-my-userscripts 是一个用户脚本集合，主要用于增强和自定义网页浏览体验，通过 Tampermonkey 或类似用户脚本管理器在浏览器中运行，常见功能包括去除广告、优化页面布局、增加快捷操作等，适用于希望提升网页交互效率的用户。"
+        "description": "维护用于浏览器网页功能增强的用户脚本合集，借助 Tampermonkey 或 Greasemonkey 等扩展运行，通过注入 JavaScript 定制网页行为。主要用于改善常用网站的使用体验，例如界面布局调整、操作流程简化、信息展示优化、去除冗余内容等，适合希望轻量实现个性化功能、不想安装完整浏览器扩展的用户。脚本通常以模块化方式组织，统一管理配置和更新，便于发现问题并保持兼容性。"
     },
     "summary": {
         "initial_stars": 3975,
-        "current_stars": 4071,
-        "star_diff": 96,
-        "growth_rate": 2.42,
+        "current_stars": 4070,
+        "star_diff": 95,
+        "growth_rate": 2.39,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 115
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 116
     },
     "history": [
         {
@@ -822,6 +822,13 @@
             "stars": 4071,
             "forks": 339,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4070,
+            "forks": 338,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

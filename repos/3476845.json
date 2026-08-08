@@ -6,16 +6,16 @@
         "name": "Newtonsoft.Json",
         "html_url": "https:\/\/github.com\/JamesNK\/Newtonsoft.Json",
         "language": "C#",
-        "description": "Newtonsoft.Json 是一个高性能的 .NET JSON 框架，用于序列化和反序列化 JSON 数据，支持复杂的对象映射、LINQ to JSON 查询以及与 XML 的转换，广泛应用于 .NET 项目中处理 REST API 和配置文件。"
+        "description": "Newtonsoft.Json，即Json.NET，是.NET生态中最流行的JSON序列化与反序列化库，提供高性能的JsonSerializer、LINQ to JSON查询以及灵活的JsonConverter扩展，支持强类型对象与动态类型的双向转换，广泛应用于ASP.NET Core、Unity及各类桌面和Web服务的API数据交互与配置存储场景。"
     },
     "summary": {
         "initial_stars": 11078,
-        "current_stars": 11311,
-        "star_diff": 233,
-        "growth_rate": 2.1,
+        "current_stars": 11310,
+        "star_diff": 232,
+        "growth_rate": 2.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 11311,
             "forks": 3294,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11310,
+            "forks": 3295,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

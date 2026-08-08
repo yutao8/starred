@@ -6,7 +6,7 @@
         "name": "omnipay",
         "html_url": "https:\/\/github.com\/thephpleague\/omnipay",
         "language": "PHP",
-        "description": "Omnipay 是一个 PHP 通用支付处理库，提供统一的接口与多种支付网关进行交互，支持信用卡、电子钱包等多种支付方式，适用于需要对接多个支付服务的 Web 应用，具有高扩展性和简洁的 API 设计。"
+        "description": "Omnipay 是 PHP 生态中的多网关支付处理抽象库，通过统一 API 集成 PayPal、Stripe、支付宝等各类支付服务。开发者只需编写一套支付代码，即可在多个网关间切换或扩展新网关，极大降低电商网站、SaaS 平台或定制系统对接支付渠道时的工作量。它基于标准 PHP 设计，能融入主流框架，适合需要灵活适配不同支付方式、避免供应商锁定的项目场景。"
     },
     "summary": {
         "initial_stars": 6007,

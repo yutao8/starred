@@ -6,16 +6,16 @@
         "name": "BilibiliAPIDocs",
         "html_url": "https:\/\/github.com\/fython\/BilibiliAPIDocs",
         "language": "Other",
-        "description": "提供 Bilibili 未公开 API 的接口文档与技术分析，涵盖用户、视频、直播、动态等模块的请求参数、响应结构及调用示例，主要用于开发者学习、研究平台通信机制，需遵守相关法律法规，不可用于非法抓取或自动化刷量等违规行为。"
+        "description": "整理并维护哔哩哔哩非官方 API 接口文档，涵盖视频、用户、评论、弹幕、动态等常见数据接口的请求方式与参数说明，主要供开发者快速查阅接口路径、鉴权方式和返回结构，用于开发B站相关的工具、爬虫、数据分析和自动化脚本。文档通常基于社区逆向分析成果，适合需要对接B站开放能力但缺乏官方文档支持的场景，能够帮助减少接口调试成本，但使用时需注意接口可能随平台更新而变化。"
     },
     "summary": {
         "initial_stars": 2455,
-        "current_stars": 2517,
-        "star_diff": 62,
-        "growth_rate": 2.53,
+        "current_stars": 2518,
+        "star_diff": 63,
+        "growth_rate": 2.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 95
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 96
     },
     "history": [
         {
@@ -682,6 +682,13 @@
             "stars": 2517,
             "forks": 387,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2518,
+            "forks": 387,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

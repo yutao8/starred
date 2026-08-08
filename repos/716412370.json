@@ -6,16 +6,16 @@
         "name": "sun-panel",
         "html_url": "https:\/\/github.com\/hslr-s\/sun-panel",
         "language": "Vue",
-        "description": "Sun Panel 是一个用于管理服务器和网站的控制面板工具，主要用于简化 Linux 系统下建站环境的部署与运维，支持一键配置 LNMP、LAMP 等常见环境，提供可视化界面管理网站、数据库、SSL 证书、域名绑定等功能，适合需要快速搭建 Web 服务的用户使用。"
+        "description": "Sun Panel 是一个开源的服务器导航面板，主要用于搭建自托管服务的统一入口。它通过网页界面集中展示常用应用链接、系统状态和自定义分组，方便快速访问各类服务，适合家庭实验室、NAS 用户或自建服务器管理者整理资源。通常通过 Docker 部署，界面简洁，配置直接，能有效免除频繁输入地址或维护书签的麻烦。"
     },
     "summary": {
         "initial_stars": 4077,
-        "current_stars": 5259,
-        "star_diff": 1182,
-        "growth_rate": 28.99,
+        "current_stars": 5261,
+        "star_diff": 1184,
+        "growth_rate": 29.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 5259,
             "forks": 615,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5261,
+            "forks": 615,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

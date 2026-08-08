@@ -6,7 +6,7 @@
         "name": "Hackintosh-Installer-University",
         "html_url": "https:\/\/github.com\/huangyz0918\/Hackintosh-Installer-University",
         "language": "Rich Text Format",
-        "description": "用于创建 macOS 启动安装盘的开源工具，主要支持 Hackintosh 黑苹果系统安装，提供自动化脚本和配置文件，帮助用户简化在非苹果硬件上部署 macOS 的过程，适用于学习和研究黑苹果系统引导机制。"
+        "description": "面向黑苹果玩家的开源教程资源库，汇总了从零开始的安装指南、常用工具链接及硬件搭配建议，主要帮助用户在普通PC上运行macOS系统，并解决引导配置、驱动兼容与安装流程中常见的疑难问题。内容通常按系统版本和主板型号整理，适合DIY装机爱好者、想要低成本体验macOS的开发者，以及遇到安装失败需要排查方案的初学者参考。整体以社区经验沉淀为主，强调实操步骤与资源索引，比单一教程更系统化。"
     },
     "summary": {
         "initial_stars": 3944,
@@ -14,8 +14,8 @@
         "star_diff": 52,
         "growth_rate": 1.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 132
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 133
     },
     "history": [
         {
@@ -941,6 +941,13 @@
             "stars": 3996,
             "forks": 991,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3996,
+            "forks": 990,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

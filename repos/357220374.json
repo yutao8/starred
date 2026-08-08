@@ -6,16 +6,16 @@
         "name": "obsidian-image-auto-upload-plugin",
         "html_url": "https:\/\/github.com\/renmu123\/obsidian-image-auto-upload-plugin",
         "language": "TypeScript",
-        "description": "一个为 Obsidian 设计的插件，用于自动将本地图片上传至指定图床，支持多种图片传输方式和自定义存储路径，帮助用户实现笔记中图片的云端同步与管理，提升跨设备访问效率。"
+        "description": "这是 Obsidian 的图片自动上传插件，解决笔记中本地图片难以管理的问题。当用户在笔记中粘贴或拖入图片时，插件会自动将图片上传至配置好的图床，并替换为远程链接，从而减小笔记体积、方便跨设备同步和博客发布。通常适合经常在笔记中插入截图、需要多端访问或发布内容的用户。支持自定义图床服务，需要预先进行配置。"
     },
     "summary": {
         "initial_stars": 392,
-        "current_stars": 472,
-        "star_diff": 80,
-        "growth_rate": 20.41,
+        "current_stars": 473,
+        "star_diff": 81,
+        "growth_rate": 20.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 91
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 92
     },
     "history": [
         {
@@ -654,6 +654,13 @@
             "stars": 472,
             "forks": 65,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 473,
+            "forks": 65,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

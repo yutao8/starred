@@ -6,16 +6,16 @@
         "name": "PHP_XLSXWriter",
         "html_url": "https:\/\/github.com\/mk-j\/PHP_XLSXWriter",
         "language": "PHP",
-        "description": "用于生成XLSX格式Excel文件的轻量级PHP库，无需依赖外部扩展，通过纯PHP代码将数组或数据流写入Excel文件，支持单元格样式、公式和多工作表，适合导出大量数据，使用简单且内存占用低。"
+        "description": "用于在 PHP 中直接生成 Excel XLSX 文件的轻量级库，不需要依赖 PHPExcel 或 PhpSpreadsheet 等大型组件。它专注于高性能导出大批量数据，支持多工作表、单元格样式、日期格式、公式等常用功能，适合将数组或数据库查询结果快速转换成表格文件，用于数据报表、业务导出和批量下载等场景，特别适合对内存占用和执行速度有要求的后端环境。"
     },
     "summary": {
         "initial_stars": 1858,
-        "current_stars": 1866,
-        "star_diff": 8,
-        "growth_rate": 0.43,
+        "current_stars": 1867,
+        "star_diff": 9,
+        "growth_rate": 0.48,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-16 00:00",
-        "data_points_count": 58
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 59
     },
     "history": [
         {
@@ -423,6 +423,13 @@
             "stars": 1866,
             "forks": 663,
             "file": "dist\/2026071600\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1867,
+            "forks": 663,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

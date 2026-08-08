@@ -6,16 +6,16 @@
         "name": "Release",
         "html_url": "https:\/\/github.com\/FongMi\/Release",
         "language": "Batchfile",
-        "description": "一个专为影视资源站设计的自动化发布工具，主要用于从各类视频采集接口获取数据并自动推送到网站后台，支持多种主流CMS系统，简化影视内容更新流程，提高站点维护效率。"
+        "description": "用于发布专为电视盒子与安卓电视端开发的媒体播放应用安装包，主要面向聚合影视点播与直播源播放的使用场景。仓库集中提供可安装的 APK 成品和版本更新信息，适合需要自行配置视频源、直播源或启用自定义播放接口的用户，用来搭建家庭影院、替代传统有线电视或集中管理多个影视资源。应用通常配合 txt、json 格式的源文件及多种播放内核使用，可适配不同品牌的电视盒子、投影仪乃至手机，满足多源聚合、本地网络播放和个性化界面设置等需求。"
     },
     "summary": {
         "initial_stars": 4404,
-        "current_stars": 6524,
-        "star_diff": 2120,
-        "growth_rate": 48.14,
+        "current_stars": 6549,
+        "star_diff": 2145,
+        "growth_rate": 48.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 6524,
             "forks": 927,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6549,
+            "forks": 930,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

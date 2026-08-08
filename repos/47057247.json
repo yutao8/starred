@@ -6,16 +6,16 @@
         "name": "vlmcsd",
         "html_url": "https:\/\/github.com\/Wind4\/vlmcsd",
         "language": "C",
-        "description": "Wind4\/vlmcsd 是一个开源的 KMS 激活服务器实现，主要用于模拟微软的密钥管理服务（KMS），支持批量激活 Windows 和 Office 产品。它适用于需要本地化激活管理的场景，常用于企业内网或测试环境，具有跨平台、轻量级和易于部署的特点。"
+        "description": "vlmcsd 是一个用于搭建 KMS 激活服务器的开源工具，它能在本地网络模拟微软的密钥管理服务，为 Windows 和 Office 提供批量激活。通常适合企业、学校或测试环境使用，用来集中处理大量客户端的激活请求，避免每台设备单独联系官方服务器。它轻量且跨平台，配置简单，是常见的 KMS 激活解决方案。该工具本身不包含密钥，需配合对应的 KMS 密钥才能正常工作。"
     },
     "summary": {
         "initial_stars": 8644,
-        "current_stars": 8851,
-        "star_diff": 207,
-        "growth_rate": 2.39,
+        "current_stars": 8850,
+        "star_diff": 206,
+        "growth_rate": 2.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 8851,
             "forks": 2482,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8850,
+            "forks": 2482,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

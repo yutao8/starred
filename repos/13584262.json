@@ -6,16 +6,16 @@
         "name": "webtorrent",
         "html_url": "https:\/\/github.com\/webtorrent\/webtorrent",
         "language": "JavaScript",
-        "description": "WebTorrent 是一个基于 WebRTC 的流媒体文件共享库，可在浏览器和 Node.js 中运行，支持直接在网页中上传下载 torrent 文件，实现去中心化的内容分发与实时流媒体播放，适用于构建分布式视频播放、文件共享应用。"
+        "description": "用于在浏览器和Node.js环境中实现BitTorrent协议的流媒体下载与播放，完全基于JavaScript编写，无需安装原生客户端。它支持种子文件的解析、磁力链接、P2P分块传输，并能将视频内容边下边播，适合构建网页端种子播放器、去中心化文件分发工具或嵌入自定义下载应用。其设计强调模块化和跨平台，可轻松集成到现代前端框架中，同时兼容WebRTC和WebSocket等传输方式，便于在受限网络条件下实现高效共享。通常适合需要轻量级、可定制且免插件的P2P场景。"
     },
     "summary": {
         "initial_stars": 30216,
-        "current_stars": 31312,
-        "star_diff": 1096,
-        "growth_rate": 3.63,
+        "current_stars": 31318,
+        "star_diff": 1102,
+        "growth_rate": 3.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 31312,
             "forks": 2909,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31318,
+            "forks": 2909,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

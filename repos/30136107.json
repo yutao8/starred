@@ -6,16 +6,16 @@
         "name": "editor.md",
         "html_url": "https:\/\/github.com\/pandao\/editor.md",
         "language": "JavaScript",
-        "description": "pandao\/editor.md 是一个基于 Markdown 的所见即所得富文本编辑器，主要用于网页端内容创作，支持实时预览、图片上传、LaTeX 数学公式、代码高亮等功能，适合集成在博客、论坛或文档系统中提供轻量高效的编辑体验。"
+        "description": "Editor.md 用于在网页应用中提供所见即所得的 Markdown 编辑能力，基于 CodeMirror 构建。它支持实时预览、标准 Markdown 语法、代码高亮、任务列表、表格绘制和流程图生成，并附带快捷键与工具栏操作，适合博客后台、文档管理系统或在线写作平台使用。编辑器能够直接嵌入现有页面，帮助用户编写和排版 Markdown 内容时获得即时反馈，同时降低集成第三方编辑器的成本，解决网页环境下 Markdown 写作体验单一、预览不便的问题。"
     },
     "summary": {
         "initial_stars": 14179,
-        "current_stars": 14316,
-        "star_diff": 137,
-        "growth_rate": 0.97,
+        "current_stars": 14318,
+        "star_diff": 139,
+        "growth_rate": 0.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 157
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 158
     },
     "history": [
         {
@@ -1116,6 +1116,13 @@
             "stars": 14316,
             "forks": 2449,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14318,
+            "forks": 2449,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

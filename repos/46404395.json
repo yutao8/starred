@@ -6,7 +6,7 @@
         "name": "electron-dl",
         "html_url": "https:\/\/github.com\/sindresorhus\/electron-dl",
         "language": "JavaScript",
-        "description": "用于 Electron 应用中简化文件下载流程的工具库，提供进度跟踪、自动保存对话框、下载取消与重试等特性，支持大文件和流式下载，可与 Electron 的主进程和渲染进程集成，提升桌面应用的文件下载体验。"
+        "description": "为 Electron 应用提供可靠的下载管理能力，封装底层下载流程，自动处理保存路径、进度跟踪和系统通知。开发者无需自行实现复杂逻辑，即可让应用支持带进度条和完成提醒的文件下载，并兼容取消操作和错误处理。典型场景包括桌面端浏览器、媒体下载工具或需要保存附件的业务软件。适合希望快速为 Electron 应用添加标准下载功能的团队使用。"
     },
     "summary": {
         "initial_stars": 1189,

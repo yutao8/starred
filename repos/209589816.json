@@ -6,16 +6,16 @@
         "name": "FODI",
         "html_url": "https:\/\/github.com\/vcheckzen\/FODI",
         "language": "Python",
-        "description": "FODI 是一个专注于前端监控与性能分析的开源工具，主要用于实时捕获网页的性能数据、错误日志和用户行为，帮助开发者快速定位和解决前端问题，提升应用稳定性和用户体验。"
+        "description": "FODI 是一个以自动化和批处理为核心的工具，通常用于在线数据的获取、整理与分发，适合需要定期同步资源或更新本地数据的场景。它借助配置文件来定义任务，运行后即可按规则完成下载、分类和存储等操作，减少人工介入。项目设计上偏向轻量和可部署性，使用者一般在服务器或定时任务中运行，以便持续维护数据集合。"
     },
     "summary": {
         "initial_stars": 691,
-        "current_stars": 705,
-        "star_diff": 14,
-        "growth_rate": 2.03,
+        "current_stars": 706,
+        "star_diff": 15,
+        "growth_rate": 2.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 62
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 63
     },
     "history": [
         {
@@ -451,6 +451,13 @@
             "stars": 705,
             "forks": 469,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 706,
+            "forks": 468,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

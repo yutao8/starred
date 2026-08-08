@@ -6,7 +6,7 @@
         "name": "registry-mirror",
         "html_url": "https:\/\/github.com\/brighill\/registry-mirror",
         "language": "Shell",
-        "description": "用于加速 Docker 镜像拉取的 Registry 镜像服务，支持镜像缓存与代理，优化容器镜像分发，通常用于私有化部署或网络受限环境下提升镜像下载效率。"
+        "description": "用于搭建镜像加速服务的工具，通过代理和缓存将外部镜像仓库同步到本地或内网，解决容器镜像、软件包等拉取缓慢或无法访问的问题。通常适合开发测试环境或生产内网部署，用于提升依赖获取效率，减少对外部网络的依赖。具体支持的镜像源和配置方式需参考仓库文档。"
     },
     "summary": {
         "initial_stars": 133,

@@ -6,7 +6,7 @@
         "name": "devtools-detect",
         "html_url": "https:\/\/github.com\/sindresorhus\/devtools-detect",
         "language": "HTML",
-        "description": "检测开发者工具是否打开的轻量级 JavaScript 库，主要用于防止用户通过审查元素等方式绕过前端限制，适合需要保护网页内容或实现反作弊的场景，兼容主流浏览器且使用简单。"
+        "description": "用于检测浏览器开发者工具（DevTools）是否处于打开状态的轻量级JavaScript工具，通常适合需要根据调试行为调整页面逻辑、防止用户查看源代码或辅助开发调试的场景。它通过分析窗口尺寸、元素布局等特征变化来识别DevTools的开启与关闭，并允许开发者监听这一状态的实时切换，以便在页面中触发对应的响应。该库设计简洁，不依赖复杂框架，可快速集成到普通网页或前端项目中使用。"
     },
     "summary": {
         "initial_stars": 2108,

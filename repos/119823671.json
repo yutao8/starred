@@ -6,7 +6,7 @@
         "name": "docker-jetbrains-license-server",
         "html_url": "https:\/\/github.com\/crazy-max\/docker-jetbrains-license-server",
         "language": "Dockerfile",
-        "description": "用于运行 JetBrains 全系列产品许可证激活服务的 Docker 容器，方便本地或内网部署以管理授权，适用于开发团队或个人在隔离环境激活 JetBrains 工具，支持持续更新与自动化配置。"
+        "description": "该仓库提供用于在 Docker 环境中部署 JetBrains 许可证服务器的镜像，适合企业或团队在内网集中管理 JetBrains 系列 IDE 的浮动许可证。它简化了许可证服务器的安装与配置，支持客户端激活、并发用户数控制及授权状态监控，解决了多用户共享正版许可证时的管理问题。通常结合 Docker Compose 使用，通过环境变量设置服务参数，便于快速搭建和维护。"
     },
     "summary": {
         "initial_stars": 1715,

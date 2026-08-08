@@ -6,16 +6,16 @@
         "name": "webi-installers",
         "html_url": "https:\/\/github.com\/webinstall\/webi-installers",
         "language": "Shell",
-        "description": "webi-installers 是一个用于简化 Web 工具和编程语言安装的脚本集合，通过统一的命令行接口快速安装如 Node.js、Python、Rust 等开发工具，支持跨平台自动配置环境，提升开发者环境搭建效率。"
+        "description": "提供常用开发工具的一键安装脚本，用户通过简单的 curl 命令或 webi 指令即可快速安装 Node.js、Go、Rust 等工具。它支持 Linux、macOS 和 Windows 常见 shell，特别适合在新环境中快速搭建开发环境，或在没有 root 权限的服务器、容器内安装软件。所有软件默认安装到用户目录，不污染系统级路径，便于统一不同平台上的工具版本，也简化了升级和卸载操作。"
     },
     "summary": {
         "initial_stars": 2369,
-        "current_stars": 2952,
-        "star_diff": 583,
-        "growth_rate": 24.61,
+        "current_stars": 2953,
+        "star_diff": 584,
+        "growth_rate": 24.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 2952,
             "forks": 324,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2953,
+            "forks": 324,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

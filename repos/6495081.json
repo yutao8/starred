@@ -6,16 +6,16 @@
         "name": "mediawiki",
         "html_url": "https:\/\/github.com\/wikimedia\/mediawiki",
         "language": "PHP",
-        "description": "用于创建和管理维基网站的开源 Wiki 软件，支持内容协作、版本控制和多用户编辑，广泛应用于维基百科等大型知识库项目，提供灵活的扩展机制和皮肤定制，适合构建各类文档网站和知识管理系统。"
+        "description": "MediaWiki 是维基百科及其姊妹项目所使用的开源协作平台，主要用于构建大型多人编辑的知识库或文档站点。它提供完善的页面版本管理、分类导航、全文搜索和讨论页机制，并支持通过扩展与皮肤自定义功能及外观，适合需要严格权限控制、内容审核及多语言支持的团队或组织部署内部维基、公共知识库或技术文档系统。"
     },
     "summary": {
         "initial_stars": 4629,
-        "current_stars": 5134,
-        "star_diff": 505,
-        "growth_rate": 10.91,
+        "current_stars": 5135,
+        "star_diff": 506,
+        "growth_rate": 10.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 5134,
             "forks": 1561,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5135,
+            "forks": 1560,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

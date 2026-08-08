@@ -6,16 +6,16 @@
         "name": "proxyee-down",
         "html_url": "https:\/\/github.com\/proxyee-down-org\/proxyee-down",
         "language": "Java",
-        "description": "一个基于HTTP代理的下载工具，主要用于拦截和解析HTTPS请求，支持视频、文件等资源的捕获与下载，适合需要对HTTP\/HTTPS流量进行中间人解析的场景，常用于调试、抓包和资源嗅探。"
+        "description": "Proxyee-Down 是一款开源的跨平台下载工具，基于 Java 开发，通过内置本地代理拦截浏览器中的下载请求，将普通下载链接转换为多线程任务，大幅提升下载速度。它主要解决文件下载慢、不支持断点续传等问题，尤其常用于下载百度网盘等网页受限资源。用户只需配置浏览器代理或使用其扩展，即可自动接管下载，并支持自定义线程数、限速、远程下载等实用功能。整个工具无需复杂设置，适合日常需要高速下载文件的个人用户。"
     },
     "summary": {
         "initial_stars": 24895,
-        "current_stars": 24692,
-        "star_diff": -203,
+        "current_stars": 24690,
+        "star_diff": -205,
         "growth_rate": -0.82,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 24692,
             "forks": 4341,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 24690,
+            "forks": 4340,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

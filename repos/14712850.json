@@ -6,16 +6,16 @@
         "name": "syncthing",
         "html_url": "https:\/\/github.com\/syncthing\/syncthing",
         "language": "Go",
-        "description": "SyncThing 是一个开源的分布式文件同步工具，用于在多台设备间安全地共享和同步文件。它不依赖中心服务器，所有数据直接在设备间加密传输，确保隐私与安全。用户可通过本地网络或互联网实现跨平台文件实时同步，适用于备份、协作和文件管理场景。"
+        "description": "Syncthing 是一款开源的去中心化文件同步工具，采用点对点协议直接在设备间传输数据，无需中央服务器或云存储中转。它适合需要跨电脑、手机或服务器同步文件夹的用户，尤其注重隐私和安全性，所有通信均经过加密，并支持端到端信任验证。典型使用场景包括同步文档、照片、配置文件，或在多台设备间保持工作目录一致。由于没有第三方留存数据，也常用于替换 Dropbox 等云盘服务，同时兼容 Windows、macOS、Linux 和移动平台，部署灵活且易于通过 Web 界面管理。"
     },
     "summary": {
         "initial_stars": 73048,
-        "current_stars": 87373,
-        "star_diff": 14325,
-        "growth_rate": 19.61,
+        "current_stars": 87446,
+        "star_diff": 14398,
+        "growth_rate": 19.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 87373,
             "forks": 5397,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 87446,
+            "forks": 5400,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

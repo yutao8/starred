@@ -6,16 +6,16 @@
         "name": "N_m3u8DL-CLI",
         "html_url": "https:\/\/github.com\/nilaoda\/N_m3u8DL-CLI",
         "language": "C#",
-        "description": "N_m3u8DL-CLI 是一个用于下载 M3U8 格式视频流的命令行工具，支持高并发下载、自动合并视频片段，适用于快速获取加密或未加密的 HLS 流媒体内容，常用于本地保存网络直播或点播视频资源。"
+        "description": "为命令行环境下解析和下载 HLS 流媒体而设计，通过读取 m3u8 索引文件获取视频分片地址，支持多线程并发拉取 TS 或 fMP4 媒体块并自动合并成 MP4、MKV 等容器格式。通常用于抓取直播回放、点播课程等以 m3u8 形式分发的视频资源，能够处理密钥解密、自定义请求头、基础鉴权等常见场景，适合需要批量离线保存或跨设备迁移视频内容的用户。"
     },
     "summary": {
         "initial_stars": 15195,
-        "current_stars": 16039,
-        "star_diff": 844,
-        "growth_rate": 5.55,
+        "current_stars": 16042,
+        "star_diff": 847,
+        "growth_rate": 5.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 16039,
             "forks": 2282,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16042,
+            "forks": 2281,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

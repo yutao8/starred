@@ -6,7 +6,7 @@
         "name": "fluentpdo",
         "html_url": "https:\/\/github.com\/envms\/fluentpdo",
         "language": "PHP",
-        "description": "一个基于 PHP 的轻量级数据库查询构建器，主要用于简化 PDO 的 SQL 查询操作。通过提供流畅的接口，支持链式调用，方便构建 SELECT、INSERT、UPDATE、DELETE 等 SQL 语句，提升数据库操作的可读性和开发效率，适用于中小项目或对 ORM 功能需求不复杂的场景。"
+        "description": "FluentPDO为PHP项目提供流畅安全的SQL查询构建能力，主要解决手写SQL字符串拼接带来的繁琐与注入风险。它支持MySQL、PostgreSQL等主流数据库，通过链式调用快速构造SELECT、INSERT、UPDATE和DELETE语句，并能动态组织WHERE、JOIN、聚合等复杂条件。适合用于后台管理列表、报表筛选、接口数据查询等场景，也可在现有框架中作为轻量查询层使用。其简洁的接口让代码更易读、易维护，减少重复样板代码。"
     },
     "summary": {
         "initial_stars": 934,

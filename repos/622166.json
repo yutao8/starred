@@ -6,16 +6,16 @@
         "name": "Goutte",
         "html_url": "https:\/\/github.com\/FriendsOfPHP\/Goutte",
         "language": "PHP",
-        "description": "一个简单易用的PHP网页抓取工具，基于Symfony组件构建，支持使用CSS选择器解析HTML内容，适合用于网站数据抓取和Web自动化测试，具有流畅的API接口，可方便地发送HTTP请求并解析响应内容。"
+        "description": "Goutte 是一个基于 Symfony 组件的 PHP 网页抓取库，主要用于从 HTML 中提取数据、遍历 DOM 节点并模拟常规浏览器操作。它提供了类似 CSS 选择器和 XPath 的支持，方便定位和抽取页面内容；同时还能处理表单提交、点击链接、管理 Cookie 与会话，适合开发爬虫脚本和自动化测试。对于需要快速构建简单网页采集任务的 PHP 项目，通常是一个直接的选择。"
     },
     "summary": {
         "initial_stars": 9245,
-        "current_stars": 9193,
-        "star_diff": -52,
-        "growth_rate": -0.56,
+        "current_stars": 9192,
+        "star_diff": -53,
+        "growth_rate": -0.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 99
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 100
     },
     "history": [
         {
@@ -710,6 +710,13 @@
             "stars": 9193,
             "forks": 986,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9192,
+            "forks": 986,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

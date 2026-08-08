@@ -6,16 +6,16 @@
         "name": "regexr",
         "html_url": "https:\/\/github.com\/gskinner\/regexr",
         "language": "JavaScript",
-        "description": "一个基于网页的正则表达式编辑器，提供实时匹配高亮、替换功能和语法提示，帮助开发者测试和调试正则表达式，支持保存和分享表达式实例，界面简洁直观，适合学习和日常使用。"
+        "description": "RegExr 是一个在浏览器中运行的正则表达式编辑与测试工具，目标用户是需要在文本处理中使用正则的开发者。它提供实时匹配高亮、语法解释、常用表达式参考以及社区分享示例，帮助用户快速调试和掌握正则规则。适合日常编码、日志分析、数据清洗等场景，也常被用作正则学习的辅助工具，无需安装，打开即用。"
     },
     "summary": {
         "initial_stars": 10154,
-        "current_stars": 10342,
-        "star_diff": 188,
-        "growth_rate": 1.85,
+        "current_stars": 10344,
+        "star_diff": 190,
+        "growth_rate": 1.87,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 10342,
             "forks": 1004,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10344,
+            "forks": 1004,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

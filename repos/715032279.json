@@ -6,7 +6,7 @@
         "name": "wechat_ocr",
         "html_url": "https:\/\/github.com\/kanadeblisst00\/wechat_ocr",
         "language": "Python",
-        "description": "该项目主要用于实现微信OCR文字识别功能，通过调用微信客户端内置的OCR能力，实现对图片中文字的快速识别与提取，适用于自动化办公、信息录入、图像内容分析等场景，支持在微信环境中调用原生接口进行高效准确的文本识别，并可结合小程序或工具类应用实现批量处理与数据交互。"
+        "description": "用于从微信图片中提取文字信息的OCR工具，能够识别聊天截图、朋友圈图片等图像中的文本，自动输出为纯文本，方便复制、检索或二次处理。主要面向需要频繁整理微信图片内容的个人用户和开发者，可应用于聊天记录归档、图文资料数字化、自动化信息采集等场景。项目通常以轻量级库的形式提供，调用简便，适合集成到Python脚本中，从而减少手动抄录的麻烦，提升文字提取效率。"
     },
     "summary": {
         "initial_stars": 430,
@@ -14,8 +14,8 @@
         "star_diff": 65,
         "growth_rate": 15.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-06-29 00:00",
-        "data_points_count": 79
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 80
     },
     "history": [
         {
@@ -570,6 +570,13 @@
             "stars": 495,
             "forks": 108,
             "file": "dist\/2026062900\/starList.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 495,
+            "forks": 109,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

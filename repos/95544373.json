@@ -6,16 +6,16 @@
         "name": "MonkeyDev",
         "html_url": "https:\/\/github.com\/AloneMonkey\/MonkeyDev",
         "language": "Objective-C",
-        "description": "用于 iOS 越狱开发的集成环境，支持动态库注入、重签名及调试，简化 tweak 开发流程，适合逆向工程与应用修改。"
+        "description": "MonkeyDev 是一个面向 iOS 逆向工程与插件开发的集成工具，主要帮助开发者更方便地调试和分析应用，支持通过动态库注入、Logos 语法等方式编写和构建 tweak，适合用于越狱环境下的功能扩展、安全研究以及自动化测试场景，能够简化从砸壳、头文件分析到注入调试的整个流程。"
     },
     "summary": {
         "initial_stars": 6686,
-        "current_stars": 6796,
-        "star_diff": 110,
-        "growth_rate": 1.65,
+        "current_stars": 6797,
+        "star_diff": 111,
+        "growth_rate": 1.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 141
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 142
     },
     "history": [
         {
@@ -1004,6 +1004,13 @@
             "stars": 6796,
             "forks": 1242,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6797,
+            "forks": 1242,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

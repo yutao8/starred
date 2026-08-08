@@ -6,16 +6,16 @@
         "name": "TV",
         "html_url": "https:\/\/github.com\/FongMi\/TV",
         "language": "Java",
-        "description": "FongMi\/TV 是一个开源的电视直播与影视聚合应用，支持自定义数据源，主要用于整合网络上的视频资源，实现电视节目的在线观看。它兼容多种格式的数据接口，可加载本地或远程的频道和影视列表，适合个人用户搭建私有化的视频播放平台，常用于智能电视或安卓盒子上的影视中心部署。"
+        "description": "为安卓电视设备设计的影视与直播聚合应用，FongMi\/TV 主要解决单一播放源不稳定、内容分散的问题。它支持自定义接口与订阅源，用户可按需导入影视或直播资源，并通过配置解析规则和播放内核来适配不同站点。典型使用场景是在智能电视或盒子上集中观看点播、直播内容，适合喜欢自行维护源、追求灵活定制的用户。项目本身不提供节目内容，依赖社区或用户提供的源地址。其技术思路与TVBox相似，可作为自托管、可扩展的电视播放方案。"
     },
     "summary": {
         "initial_stars": 6145,
-        "current_stars": 8935,
-        "star_diff": 2790,
-        "growth_rate": 45.4,
+        "current_stars": 8975,
+        "star_diff": 2830,
+        "growth_rate": 46.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 8935,
             "forks": 2700,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8975,
+            "forks": 2702,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

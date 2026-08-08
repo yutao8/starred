@@ -6,16 +6,16 @@
         "name": "tabby",
         "html_url": "https:\/\/github.com\/TabbyML\/tabby",
         "language": "Rust",
-        "description": "TabbyML\/tabby 是一个开源的 AI 代码补全工具，支持在本地运行，提供类似 GitHub Copilot 的功能。它允许开发者通过自托管方式实现代码自动补全，支持多种编程语言和编辑器集成，注重隐私保护与低延迟响应，适合个人和团队在安全环境中使用。"
+        "description": "Tabby 是一款开源的 AI 编程助手，用于替代商业 Copilot 服务，支持代码补全、聊天和代码搜索等功能。它可部署在自有服务器或本地环境，保障代码隐私与安全，适合对数据合规敏感的团队。支持主流 IDE 和编辑器，并能接入多种开源模型或自定义模型，便于集成到现有开发流程，解决依赖外部云服务带来的成本与隐私问题。"
     },
     "summary": {
         "initial_stars": 31556,
-        "current_stars": 33819,
-        "star_diff": 2263,
-        "growth_rate": 7.17,
+        "current_stars": 33822,
+        "star_diff": 2266,
+        "growth_rate": 7.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 33819,
             "forks": 1779,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33822,
+            "forks": 1779,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

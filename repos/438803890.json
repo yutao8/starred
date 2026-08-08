@@ -6,16 +6,16 @@
         "name": "Sunshine",
         "html_url": "https:\/\/github.com\/LizardByte\/Sunshine",
         "language": "C++",
-        "description": "Sunshine 是一个开源的家庭流媒体服务器，主要用于将 PC 或服务器上的游戏和应用串流到其他设备，支持与 Moonlight 等客户端无缝配合，提供低延迟的远程桌面体验，适合搭建个人云游戏平台或远程访问高性能主机。"
+        "description": "Sunshine 作为 LizardByte 组织维护的免费开源游戏串流服务端，配合客户端 Moonlight 使用，可搭建类似 NVIDIA GameStream 的自建串流方案。它利用 NVIDIA、AMD 或 Intel 显卡的硬件编码能力，将电脑中的游戏画面与音频以低延迟实时传输至手机、平板、笔记本等设备，既适用于局域网内临场游玩，也支持配置公网远程访问。相比商业串流服务，Sunshine 无账号和订阅限制，玩家可完全掌控串流配置与数据，适合注重隐私、追求低延迟或需在异机游玩 PC 游戏的用户。项目支持 Windows、Linux 与 macOS。"
     },
     "summary": {
         "initial_stars": 26802,
-        "current_stars": 39916,
-        "star_diff": 13114,
-        "growth_rate": 48.93,
+        "current_stars": 39973,
+        "star_diff": 13171,
+        "growth_rate": 49.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 39916,
             "forks": 2000,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 39973,
+            "forks": 2006,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

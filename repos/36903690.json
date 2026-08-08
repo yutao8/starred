@@ -6,16 +6,16 @@
         "name": "noto-emoji",
         "html_url": "https:\/\/github.com\/googlefonts\/noto-emoji",
         "language": "Python",
-        "description": "提供涵盖多种表情符号的开源字体，支持跨平台统一显示，主要用于在不同设备和系统中呈现一致的 emoji 样式，包含黑白线框和彩色 PNG 版本，适用于需要标准化表情符号渲染的场景。"
+        "description": "用于提供一整套跨平台的开源 emoji 字体资源，包含彩色、黑白、单色等多种风格，覆盖 Unicode 标准中的表情符号。通常被操作系统、浏览器、应用和开发者集成，以保证不同设备上显示一致的 emoji 视觉效果，也适合需要自定义或复用官方表情图形的设计项目。"
     },
     "summary": {
         "initial_stars": 4164,
-        "current_stars": 4868,
-        "star_diff": 704,
-        "growth_rate": 16.91,
+        "current_stars": 4875,
+        "star_diff": 711,
+        "growth_rate": 17.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 4868,
             "forks": 554,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4875,
+            "forks": 555,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

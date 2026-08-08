@@ -6,16 +6,16 @@
         "name": "github-markdown-css",
         "html_url": "https:\/\/github.com\/sindresorhus\/github-markdown-css",
         "language": "CSS",
-        "description": "提供纯 CSS 实现的 GitHub 风格 Markdown 渲染，适用于静态页面或文档展示，还原 GitHub 原生的代码、表格、标题等样式，开箱即用，无需 JavaScript，适合用于项目 README 预览、博客或文档站点。"
+        "description": "为网页中的 Markdown 内容提供 GitHub 风格外观的轻量 CSS 主题，它由知名开发者 Sindre Sorhus 维护，核心只是一个样式表，引入后即可让文章正文、注释区块或文档目录呈现类似 GitHub 的排版效果，覆盖标题层级、代码块、表格、引用与列表等元素。通常适合用于博客、文档站点、静态网站生成器以及任何需要在前端渲染 Markdown 的场景，帮助开发者免去手动编写兼容样式的繁琐工作。该项目还提供深色与浅色等色调变体，方便网站按界面主题自由切换。"
     },
     "summary": {
         "initial_stars": 8389,
-        "current_stars": 8911,
-        "star_diff": 522,
-        "growth_rate": 6.22,
+        "current_stars": 8910,
+        "star_diff": 521,
+        "growth_rate": 6.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 8911,
             "forks": 2084,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8910,
+            "forks": 2082,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

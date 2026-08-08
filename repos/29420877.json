@@ -6,7 +6,7 @@
         "name": "SmartQQBot",
         "html_url": "https:\/\/github.com\/Yinzo\/SmartQQBot",
         "language": "Python",
-        "description": "基于 SmartQQ 协议的智能机器人框架，主要用于实现 QQ 聊天机器人的自动化消息处理与扩展功能集成，支持自定义插件、关键词回复、群组管理等，适用于个人或小型社群的自动化服务，通常部署在本地或私有服务器上以实现长期运行和交互响应。"
+        "description": "SmartQQBot 是一款基于 SmartQQ 协议的 QQ 机器人框架，主要面向 Python 开发者，用于实现 QQ 消息的自动收发与响应。它通过模拟网页版 QQ 登录，支持接收好友和群消息，并允许开发者编写回调函数或插件来处理消息，完成关键词回复、群管理、定时提醒等常见任务。典型使用场景包括个人助理、群聊自动应答以及消息转发等，适合在缺少官方 API 的情况下快速搭建 QQ 自动化脚本。需要注意的是，由于 SmartQQ 协议已逐步受限，实际使用时应关注可用性与稳定性。"
     },
     "summary": {
         "initial_stars": 990,

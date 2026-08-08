@@ -6,16 +6,16 @@
         "name": "go-cursor-help",
         "html_url": "https:\/\/github.com\/yuaotian\/go-cursor-help",
         "language": "Shell",
-        "description": "一个基于 Go 语言开发的光标辅助工具，主要用于在终端或文本编辑场景中实现高效的光标定位、移动和内容选取功能，适合需要操作文本流或构建命令行交互应用的开发者使用。"
+        "description": "用于解决 Cursor 编辑器试用期限制问题的命令行工具，通常以 Go 语言编写并跨平台运行。其核心功能是重置或更换 Cursor 的本地设备标识，从而绕过基于硬件的试用期检测机制，适合频繁重装系统或需要在多台设备上使用 Cursor 的开发者。操作上多依赖命令行自动完成配置修改，无需手动编辑文件。需要注意的是，此类行为可能违反 Cursor 服务条款，建议仅用于个人学习与合法场景。"
     },
     "summary": {
         "initial_stars": 23150,
-        "current_stars": 26263,
-        "star_diff": 3113,
-        "growth_rate": 13.45,
+        "current_stars": 26259,
+        "star_diff": 3109,
+        "growth_rate": 13.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 26263,
             "forks": 3168,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26259,
+            "forks": 3170,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

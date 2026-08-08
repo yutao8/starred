@@ -6,7 +6,7 @@
         "name": "simdjson_php",
         "html_url": "https:\/\/github.com\/crazyxman\/simdjson_php",
         "language": "C++",
-        "description": "基于 simdjson 库为 PHP 提供高性能的 JSON 解析功能，利用 SIMD 指令加速解析过程，显著提升大 JSON 文件或高并发场景下的处理效率，适用于对性能敏感的 PHP 应用。"
+        "description": "为PHP提供基于simdjson的高性能JSON解析能力，利用现代CPU的SIMD指令集显著提升解析吞吐量并降低延迟。该扩展主要用于处理大规模JSON数据或高并发API响应，相较于原生json_decode，在数据密集场景如日志分析、实时消息处理、微服务网关中能带来更优的性能表现。适合对响应速度敏感、需要快速提取大量嵌套字段的PHP应用，同时保持与主流JSON语法兼容。"
     },
     "summary": {
         "initial_stars": 178,

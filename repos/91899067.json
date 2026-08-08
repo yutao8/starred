@@ -6,16 +6,16 @@
         "name": "Imagine",
         "html_url": "https:\/\/github.com\/meowtec\/Imagine",
         "language": "TypeScript",
-        "description": "一个基于Go语言的图像处理库，主要用于Web应用中的图片裁剪、缩放、旋转、水印添加等操作，支持常见图像格式，提供简洁API便于集成到服务端项目中进行动态图像处理。"
+        "description": "为开发者与设计师提供跨平台桌面图片批量压缩工具，支持 macOS、Windows 和 Linux。它利用多种压缩算法处理 PNG、JPEG 等格式，通过拖拽即可快速减小文件体积，同时保留可接受视觉质量。适用于网站资源优化、图片存储精简等需要降低体积而不明显损害画质的场景。"
     },
     "summary": {
         "initial_stars": 3908,
-        "current_stars": 4394,
-        "star_diff": 486,
-        "growth_rate": 12.44,
+        "current_stars": 4398,
+        "star_diff": 490,
+        "growth_rate": 12.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 156
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 157
     },
     "history": [
         {
@@ -1109,6 +1109,13 @@
             "stars": 4394,
             "forks": 317,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4398,
+            "forks": 318,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

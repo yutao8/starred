@@ -6,7 +6,7 @@
         "name": "miniProgram-Webview-Pay",
         "html_url": "https:\/\/github.com\/szxiaobei\/miniProgram-Webview-Pay",
         "language": "JavaScript",
-        "description": "用于在微信小程序的 Webview 中实现支付功能的轻量级解决方案，通过接口注入与事件通信，使 H5 页面能在小程序环境中安全调用支付 API，适用于嵌入式业务场景如商城、订单支付等。"
+        "description": "实现小程序内嵌网页（Webview）场景下的在线支付功能，允许开发者在小程序中加载H5页面完成交易付款。它主要解决因小程序原生支付权限受限而无法直接调用支付接口的问题，适合需要在小程序内处理商品购买、订单结算或会员充值等支付业务的开发者。该方案通常通过配置业务域名和加载支付网页来执行支付流程，并负责处理支付完成后的结果回跳。可以结合微信或支付宝等第三方支付渠道使用，适用于快速搭建具备支付能力的小程序应用。"
     },
     "summary": {
         "initial_stars": 17,

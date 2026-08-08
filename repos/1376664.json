@@ -6,16 +6,16 @@
         "name": "monolog",
         "html_url": "https:\/\/github.com\/Seldaek\/monolog",
         "language": "PHP",
-        "description": "Monolog 是一个强大的 PHP 日志库，用于将应用日志发送到文件、流、数据库、第三方服务等多种目标，支持灵活的日志级别和处理器配置，适用于从小型项目到大型企业应用的各种日志记录需求。"
+        "description": "Monolog是PHP生态中最常用的日志记录库，遵循PSR-3日志接口标准，提供灵活且可扩展的日志处理方案。它支持将日志输出到文件、控制台、邮件、数据库以及多种第三方服务，并可通过处理器与格式化器的自由组合，实现不同场景下的日志记录和格式化。该库广泛集成于Symfony、Laravel等主流框架，也适用于各类Web应用、CLI工具和后台服务，主要帮助开发者统一管理日志、追踪错误、监控系统行为。通过配置日志级别、通道和过滤规则，既能满足开发阶段的调试需求，也能支撑生产环境的告警与审计，是PHP项目日志基础设施的常见选择。"
     },
     "summary": {
         "initial_stars": 21255,
-        "current_stars": 21396,
-        "star_diff": 141,
-        "growth_rate": 0.66,
+        "current_stars": 21394,
+        "star_diff": 139,
+        "growth_rate": 0.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 21396,
             "forks": 1908,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21394,
+            "forks": 1908,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

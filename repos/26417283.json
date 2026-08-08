@@ -6,16 +6,16 @@
         "name": "gridstack.js",
         "html_url": "https:\/\/github.com\/gridstack\/gridstack.js",
         "language": "TypeScript",
-        "description": "用于创建可拖拽、可调整大小的响应式网格布局的JavaScript库，适合构建仪表盘、编辑器等需要自由排布组件的Web应用，支持多种浏览器和触摸设备。"
+        "description": "GridStack.js 是一个专注于网格布局管理的 JavaScript 库，主要用于构建可拖拽、可缩放且响应式的仪表板或管理界面。它允许用户通过拖拽和调整尺寸自由排列网格中的元素，同时保持布局结构稳定。该库常用于数据可视化大屏、后台管理面板、网页布局编辑器等场景，适合需要用户自定义布局或动态重置排版的系统。它提供了基于网格的标准化定位与缩放逻辑，可简化复杂界面中拖拽交互的开发工作，并且容易与主流前端框架集成。通过它，开发者无需从零实现拖放与碰撞检测等底层细节，即可快速获得流畅的布局交互体验。"
     },
     "summary": {
         "initial_stars": 8103,
-        "current_stars": 9042,
-        "star_diff": 939,
-        "growth_rate": 11.59,
+        "current_stars": 9044,
+        "star_diff": 941,
+        "growth_rate": 11.61,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 9042,
             "forks": 1407,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9044,
+            "forks": 1408,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

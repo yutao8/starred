@@ -6,16 +6,16 @@
         "name": "shadowsocksr-android",
         "html_url": "https:\/\/github.com\/shadowsocksrr\/shadowsocksr-android",
         "language": "Other",
-        "description": "提供Android平台的ShadowsocksR代理工具，支持SSR协议的加密传输与节点切换，用于网络请求的加密代理和访问境外资源，适合需要绕过网络限制的用户，具备本地代理和路由分流功能。"
+        "description": "安卓平台上的ShadowsocksR客户端，专门用于建立加密代理连接以绕过网络封锁。它支持SS和SSR协议，提供服务器节点管理、流量统计、按应用代理等实用功能，可配合自建或第三方代理服务器使用，解决网络审查、访问受限和公共Wi-Fi下的隐私安全问题。适合需要稳定访问境外网站或保护通信数据的用户，配置支持二维码扫描和手动填写，操作门槛较低。"
     },
     "summary": {
         "initial_stars": 7682,
-        "current_stars": 7587,
-        "star_diff": -95,
-        "growth_rate": -1.24,
+        "current_stars": 7588,
+        "star_diff": -94,
+        "growth_rate": -1.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 134
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 135
     },
     "history": [
         {
@@ -955,6 +955,13 @@
             "stars": 7587,
             "forks": 1266,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7588,
+            "forks": 1265,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

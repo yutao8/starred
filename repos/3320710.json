@@ -6,16 +6,16 @@
         "name": "ua-parser-js",
         "html_url": "https:\/\/github.com\/faisalman\/ua-parser-js",
         "language": "JavaScript",
-        "description": "用于解析用户代理字符串的轻量级 JavaScript 库，可识别浏览器、操作系统、设备类型等信息，适用于 Web 分析、兼容性检测和用户行为追踪场景。"
+        "description": "用于解析用户代理字符串，从环境信息中提取浏览器名称与版本、渲染引擎、操作系统及设备类型（如桌面、移动端、平板）。广泛适用于访问日志分析、用户设备统计、页面适配和功能降级判断等场景。支持浏览器和 Node.js 环境，可离线执行正则匹配，输出结构化数据，方便后续程序处理。由于社区持续维护，对新兴浏览器和系统版本识别及时，适合需要准确快速解析 UA 的各类 Web 开发与数据统计任务。"
     },
     "summary": {
         "initial_stars": 9728,
-        "current_stars": 10172,
-        "star_diff": 444,
-        "growth_rate": 4.56,
+        "current_stars": 10174,
+        "star_diff": 446,
+        "growth_rate": 4.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 177
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 178
     },
     "history": [
         {
@@ -1256,6 +1256,13 @@
             "stars": 10172,
             "forks": 1219,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10174,
+            "forks": 1218,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

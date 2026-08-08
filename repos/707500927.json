@@ -6,16 +6,16 @@
         "name": "gopeed-extension-baiduwp",
         "html_url": "https:\/\/github.com\/monkeyWie\/gopeed-extension-baiduwp",
         "language": "JavaScript",
-        "description": "用于 Gopeed 下载工具的百度网盘扩展插件，支持从百度网盘快速解析并下载文件链接，提升大文件下载效率，适用于需要高效获取百度网盘资源的用户。"
+        "description": "为Gopeed高速下载器开发的百度网盘扩展，用于在Gopeed中直接解析并下载百度网盘分享文件。该扩展主要解决百度网盘下载速度受限、依赖专用客户端的问题，用户复制分享链接后即可调用Gopeed的下载能力，并借助其多线程和断点续传特性提升传输效率。通常适合习惯用第三方下载工具管理百度网盘资源、追求更可靠下载体验的场景。它作为Gopeed的插件运行，基于Go技术生态构建，安装使用较为便捷，无需复杂的额外配置。"
     },
     "summary": {
         "initial_stars": 1483,
-        "current_stars": 2029,
-        "star_diff": 546,
-        "growth_rate": 36.82,
+        "current_stars": 2032,
+        "star_diff": 549,
+        "growth_rate": 37.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 179
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 180
     },
     "history": [
         {
@@ -1270,6 +1270,13 @@
             "stars": 2029,
             "forks": 104,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2032,
+            "forks": 104,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

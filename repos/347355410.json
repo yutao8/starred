@@ -6,7 +6,7 @@
         "name": "LightHouse_Automatic_Shutdown",
         "html_url": "https:\/\/github.com\/2lifetop\/LightHouse_Automatic_Shutdown",
         "language": "Python",
-        "description": "用于监控 LightHouse 服务状态并在满足特定条件时自动执行关机操作，通常适用于优化资源使用或配合定时任务，避免不必要的运行开销，支持自定义检测逻辑与安全关机流程。"
+        "description": "用于自动关机的小工具，主要解决用户需要定时或按特定条件关闭计算机的问题。通常适合设定倒计时、指定时间，或在下载任务完成、系统空闲等场景下自动执行关机操作，减少人工干预和能源浪费。实现方式可能依赖系统调度机制，操作简单，适合个人电脑日常使用。"
     },
     "summary": {
         "initial_stars": 146,

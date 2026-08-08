@@ -6,16 +6,16 @@
         "name": "SwitchHosts",
         "html_url": "https:\/\/github.com\/oldj\/SwitchHosts",
         "language": "TypeScript",
-        "description": "SwitchHosts 是一个用于快速切换和管理 hosts 文件的桌面应用程序，支持 Windows、macOS 和 Linux。它允许开发者通过预设方案轻松切换不同网络环境下的 hosts 配置，便于本地开发、域名调试和屏蔽特定站点，提升网络访问效率与开发便利性。"
+        "description": "SwitchHosts 是一款跨平台的 hosts 文件管理工具，主要解决开发或测试中需要频繁切换不同 hosts 配置的问题。它支持将多套 hosts 方案分组保存，并根据场景快速启用或停用，免去手动编辑系统 hosts 文件的麻烦。用户既可以维护本地规则，也能导入远程配置，适合前端开发、接口调试、本地域名映射或临时访问特定环境时使用。该工具覆盖 Windows、macOS 和 Linux 等主流操作系统，界面直观，操作简单。"
     },
     "summary": {
         "initial_stars": 25273,
-        "current_stars": 27022,
-        "star_diff": 1749,
-        "growth_rate": 6.92,
+        "current_stars": 27025,
+        "star_diff": 1752,
+        "growth_rate": 6.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 27022,
             "forks": 2660,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27025,
+            "forks": 2659,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

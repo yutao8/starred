@@ -6,16 +6,16 @@
         "name": "aria2",
         "html_url": "https:\/\/github.com\/aria2\/aria2",
         "language": "C++",
-        "description": "aria2 是一个轻量级的多协议命令行下载工具，支持 HTTP、HTTPS、FTP、SFTP、BitTorrent 和 Metalink。它可同时从多个来源和协议下载文件，提升下载速度，适合需要高效下载和任务调度的用户，常用于服务器环境或配合前端图形界面使用。"
+        "description": "aria2 是一款轻量级、多协议、多源下载工具，支持 HTTP\/HTTPS、FTP、SFTP、BitTorrent 和 Metalink 协议，能够从多个源地址同时下载同一文件并分段加速，适合在命令行环境或嵌入式设备中高效处理大规模下载任务。它具备断点续传、速度限制、RPC 远程控制等实用特性，常被用于服务器端批量下载任务调度、脚本集成以及构建私有下载加速方案，在 Linux 系统和高性能下载场景中尤其受欢迎。"
     },
     "summary": {
         "initial_stars": 37997,
-        "current_stars": 41658,
-        "star_diff": 3661,
-        "growth_rate": 9.63,
+        "current_stars": 41671,
+        "star_diff": 3674,
+        "growth_rate": 9.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 41658,
             "forks": 3888,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 41671,
+            "forks": 3888,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

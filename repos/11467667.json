@@ -6,7 +6,7 @@
         "name": "typecho",
         "html_url": "https:\/\/github.com\/typecho\/typecho",
         "language": "PHP",
-        "description": "Typecho 是一个轻量级、开源的博客程序，基于 PHP 开发，注重简洁高效与用户体验。它无需数据库支持，可直接使用文件存储，适合个人网站或小型博客系统搭建，具有良好的扩展性和自定义主题插件支持，便于快速部署和管理内容。"
+        "description": "Typecho 是一款开源的 PHP 博客建站工具，专为追求轻量和高效的个人博客而设计。它提供简洁的后台写作体验，支持文章发布、页面管理、分类、标签、评论等核心博客功能，同时通过丰富的主题与插件系统扩展站点的外观和性能。相比同类系统，Typecho 对服务器资源占用较小，安装和部署简单，适合独立博主、小型内容站以及偏爱干净、快速后台的开发者。它解决了传统博客系统冗余繁杂的问题，让用户专注于写作和内容管理。通常部署在 PHP 环境与 MySQL 等数据库之上，是一个值得考虑的轻量级内容解决方案。"
     },
     "summary": {
         "initial_stars": 11865,
@@ -14,8 +14,8 @@
         "star_diff": 553,
         "growth_rate": 4.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 12418,
             "forks": 2123,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12418,
+            "forks": 2124,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

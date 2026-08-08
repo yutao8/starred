@@ -6,7 +6,7 @@
         "name": "TideFinger",
         "html_url": "https:\/\/github.com\/TideSec\/TideFinger",
         "language": "Python",
-        "description": "TideFinger 是一款多功能的资产收集与指纹识别工具，主要用于目标探测、端口扫描、服务识别和Web指纹识别，支持自定义指纹库，适用于攻防演练中的信息收集阶段，帮助安全研究人员快速识别目标资产和技术栈，提升渗透测试效率。"
+        "description": "TideFinger 是一款开源 Web 应用指纹识别工具，主要用于快速探测目标网站所使用的 CMS、框架、前端库、服务器组件及版本信息。它适用于资产梳理、渗透测试前期信息收集和攻防演练中的目标识别场景，帮助安全人员在不依赖单一规则库的情况下，通过多种匹配算法提升指纹判定的准确性与覆盖面。该工具通常以 Python 构建，支持批量扫描和自定义指纹扩展，适合集成到安全检测流程中。"
     },
     "summary": {
         "initial_stars": 2012,

@@ -6,7 +6,7 @@
         "name": "chromephp",
         "html_url": "https:\/\/github.com\/ccampbell\/chromephp",
         "language": "PHP",
-        "description": "ChromePHP是一个允许开发者在Chrome浏览器的开发者工具中记录PHP错误、日志和调试信息的开源库，主要用于PHP应用调试，通过扩展在Console面板输出日志，提升调试效率。"
+        "description": "Chromephp 帮助开发者在 Chrome 浏览器开发者工具的控制台里直接查看 PHP 变量、数组、对象等调试信息，无需打断页面正常输出。它通常用于本地或测试环境下的快速调试，适合排查逻辑错误、检查中间变量值，尤其适合不习惯使用 Xdebug 等重型工具的轻量场景，有效提升 PHP 应用开发效率。"
     },
     "summary": {
         "initial_stars": 1373,

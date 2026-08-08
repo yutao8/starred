@@ -6,16 +6,16 @@
         "name": "v_jstools",
         "html_url": "https:\/\/github.com\/cilame\/v_jstools",
         "language": "JavaScript",
-        "description": "一个前端开发工具库，提供实用的 JavaScript 工具函数，主要用于简化日常编码中的常见操作，如数据处理、类型判断、字符串操作等，提升开发效率，适合在浏览器和 Node.js 环境中使用。"
+        "description": "一套面向 JavaScript 生态的轻量工具集，主要提供若干短小实用的函数与脚本片段，覆盖常见的数据格式化、数组操作、DOM 查询、事件绑定等前端开发需求。代码风格直接，不依赖大型框架，适合直接复制到项目或作为辅助脚本在浏览器控制台中使用。通常适合前端开发者在处理页面交互、数据清洗或快速调试时参考，也可以作为学习 JavaScript 常用技巧的实用样例。整体体积小，模块划分简单，方便按需提取与二次封装。"
     },
     "summary": {
         "initial_stars": 2431,
-        "current_stars": 3007,
-        "star_diff": 576,
-        "growth_rate": 23.69,
+        "current_stars": 3008,
+        "star_diff": 577,
+        "growth_rate": 23.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 165
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 166
     },
     "history": [
         {
@@ -1172,6 +1172,13 @@
             "stars": 3007,
             "forks": 762,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3008,
+            "forks": 762,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

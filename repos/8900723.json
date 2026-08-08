@@ -6,7 +6,7 @@
         "name": "ngrok",
         "html_url": "https:\/\/github.com\/inconshreveable\/ngrok",
         "language": "Go",
-        "description": "ngrok 是一个用于将本地服务器暴露到公网的反向代理工具，通过在本地启动隧道将内网服务映射到公网可访问的 URL，便于开发时调试 Webhook、API 或本地网站，支持 HTTP、TCP 隧道，提供加密通信和流量检查功能，常用于开发、测试和演示场景。"
+        "description": "ngrok 是广受欢迎的内网穿透工具，能将本地或局域网中的服务通过加密隧道映射到公网临时域名，实现外部访问。主要用于本地开发时调试第三方支付、微信等回调接口，或向远程同伴分享本机页面，也适合在没有公网 IP 的环境下快速验证 Web 服务。支持 HTTP、HTTPS 与 TCP 协议，并提供简易状态面板查看请求记录。通常适合需要快速安全暴露本地端口的开发者与测试人员，用于缩短联调周期、简化演示流程。"
     },
     "summary": {
         "initial_stars": 24354,
@@ -14,8 +14,8 @@
         "star_diff": 79,
         "growth_rate": 0.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 24433,
             "forks": 4257,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 24433,
+            "forks": 4256,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

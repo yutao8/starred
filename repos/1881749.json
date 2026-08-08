@@ -6,16 +6,16 @@
         "name": "h5ai",
         "html_url": "https:\/\/github.com\/lrsjng\/h5ai",
         "language": "JavaScript",
-        "description": "h5ai 是一个现代化的 HTTP 文件服务器索引目录，专注于美观的界面与便捷的浏览体验，支持多种文件预览模式，适用于 Apache、Nginx 等 Web 服务器，帮助用户更高效地通过浏览器查看和下载服务器上的文件。"
+        "description": "用于美化 Web 服务器目录列表，将默认的简单文件索引替换为现代且功能丰富的页面。支持文件预览（图片、视频、音频等）、按名称或时间排序、前端搜索过滤、面包屑导航，以及多语言界面。通常适合个人网盘、静态资源分享或文件托管场景，帮助访问者更直观地浏览和下载文件。"
     },
     "summary": {
         "initial_stars": 5768,
-        "current_stars": 6051,
-        "star_diff": 283,
-        "growth_rate": 4.91,
+        "current_stars": 6052,
+        "star_diff": 284,
+        "growth_rate": 4.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 6051,
             "forks": 630,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6052,
+            "forks": 629,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

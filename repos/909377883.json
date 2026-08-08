@@ -6,16 +6,16 @@
         "name": "cursor-auto-free",
         "html_url": "https:\/\/github.com\/chengazhen\/cursor-auto-free",
         "language": "Python",
-        "description": "一个专为网页设计的自动化脚本，主要用于实现鼠标指针的自动释放与控制，提升用户交互体验，适用于需要模拟点击或自动操作的场景，简化前端开发中的事件处理逻辑。"
+        "description": "面向 Cursor 编辑器用户的自动化辅助工具，主要用于自动处理免费账号的注册、登录或额度续期等重复性操作，通过脚本模拟人工行为来维持免费使用状态。典型使用场景是那些需要长期依赖 Cursor 的 AI 编程功能、却又不希望手动频繁操作账号的开发者，能节省时间并降低使用门槛。由于涉及绕过付费限制，通常适合个人学习或评估用途，使用时需注意账号安全和平台政策风险。"
     },
     "summary": {
         "initial_stars": 9227,
-        "current_stars": 9824,
-        "star_diff": 597,
-        "growth_rate": 6.47,
+        "current_stars": 9823,
+        "star_diff": 596,
+        "growth_rate": 6.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 9824,
             "forks": 1515,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9823,
+            "forks": 1515,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "ijkplayer",
         "html_url": "https:\/\/github.com\/bilibili\/ijkplayer",
         "language": "C",
-        "description": "一个基于 FFmpeg 的轻量级 Android\/iOS 视频播放器框架，由 Bilibili 开发并开源，主要用于实现高性价比的多媒体播放功能，支持软硬解码，具有良好的兼容性和扩展性，常被集成到各类音视频应用中以提供高效稳定的播放体验。"
+        "description": "用于在移动端实现视频播放的轻量级播放器，由哔哩哔哩开源，基于FFmpeg，支持Android和iOS平台。它支持RTMP、HLS、HTTP等常见流媒体协议，能处理直播与点播场景，并允许在软解码和硬解码之间切换以平衡兼容性与性能。通常适合需要深度定制播放界面、滤镜效果或者对协议支持有特殊要求的应用开发者，相比系统自带播放器更灵活，也常作为研究播放器底层原理的参考实现。"
     },
     "summary": {
         "initial_stars": 32943,
-        "current_stars": 33201,
-        "star_diff": 258,
+        "current_stars": 33199,
+        "star_diff": 256,
         "growth_rate": 0.78,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 179
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 180
     },
     "history": [
         {
@@ -1270,6 +1270,13 @@
             "stars": 33201,
             "forks": 8235,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33199,
+            "forks": 8235,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

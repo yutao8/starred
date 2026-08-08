@@ -6,16 +6,16 @@
         "name": "reactphp",
         "html_url": "https:\/\/github.com\/reactphp\/reactphp",
         "language": "PHP",
-        "description": "ReactPHP 是一个基于 PHP 的事件驱动编程库，主要用于构建异步非阻塞的网络应用和服务。它提供了一个事件循环、流处理、DNS 解析、HTTP 客户端等组件，适合实现高性能的实时应用，如 WebSocket 服务、API 网关或代理服务器，尤其适用于需要同时处理大量 I\/O 操作的场景。"
+        "description": "用于在 PHP 中实现事件驱动和异步编程的底层基础库，提供事件循环、流、套接字、定时器和 Promise 等核心组件。通常适合开发高性能网络服务、长连接应用或并发任务处理，能避开传统阻塞式 PHP 的瓶颈。采用可插拔架构，常与 ReactPHP 生态中的 HTTP、Socket 等组件配合使用，可用于构建网络爬虫、实时消息推送或命令行异步工具。"
     },
     "summary": {
         "initial_stars": 9036,
-        "current_stars": 9093,
-        "star_diff": 57,
-        "growth_rate": 0.63,
+        "current_stars": 9092,
+        "star_diff": 56,
+        "growth_rate": 0.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 111
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 112
     },
     "history": [
         {
@@ -794,6 +794,13 @@
             "stars": 9093,
             "forks": 714,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9092,
+            "forks": 713,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "public-gateway-checker",
         "html_url": "https:\/\/github.com\/ipfs\/public-gateway-checker",
         "language": "TypeScript",
-        "description": "用于检测和验证公共 IPFS 网关的可用性与性能，帮助用户选择稳定快速的网关服务，支持定期扫描和响应时间测试，适用于开发者和节点运营者监控公网网关状态。"
+        "description": "用于检测和比较 IPFS 公共网关的可用性与响应性能。它通常让用户输入一段 IPFS 内容标识符或直接使用预设测试内容，批量向多个公共网关发起请求，检查哪些网关能正常返回数据、响应是否迅速，并以列表形式直观展示各网关的状态与耗时。该工具主要面向日常需要使用 IPFS 获取内容的用户、开发基于 IPFS 的应用或维护网关资源的工程师，遇到部分网关无法访问或速度不稳时，可借此快速筛选出可靠的访问入口。基于 IPFS 公共网络生态，它能帮助降低内容获取失败和超时的问题。"
     },
     "summary": {
         "initial_stars": 2026,

@@ -6,7 +6,7 @@
         "name": "sync-my-cookie",
         "html_url": "https:\/\/github.com\/Andiedie\/sync-my-cookie",
         "language": "TypeScript",
-        "description": "同步浏览器 cookie 的工具，主要用于多设备间共享登录状态，方便需要保持账户持续登录的场景，如自动化测试、爬虫或跨设备浏览数据同步。"
+        "description": "用于将浏览器中的 Cookie 快速同步导出，方便开发者在调试接口、自动化脚本或使用命令行工具时复用浏览器登录态。典型使用场景是登录一个网站后，把当前会话的 Cookie 直接导入到 API 测试工具或爬虫脚本中，避免手动复制和格式转换。通常以浏览器扩展或脚本形式存在，适合需要频繁从浏览器提取认证信息的开发人员，能够减少重复操作并提高调试效率。"
     },
     "summary": {
         "initial_stars": 224,

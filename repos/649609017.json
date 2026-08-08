@@ -6,16 +6,16 @@
         "name": "VTable",
         "html_url": "https:\/\/github.com\/VisActor\/VTable",
         "language": "TypeScript",
-        "description": "VTable 是一个由 VisActor 开发的高性能表格渲染引擎，主要用于处理大规模数据场景下的表格展示与交互。它支持复杂表头、多维数据透视、海量数据滚动、单元格自定义渲染与交互操作，适用于数据分析、BI 报表、电子表格等需要高性能表格的应用场景，兼容浏览器与移动端，提供丰富的配置选项和扩展能力。"
+        "description": "面向海量数据场景的 Canvas 表格渲染库，属于 VisActor 开源生态，用于构建高性能的表格视图。它支持基本表格、透视表格等常见形态，渲染大数据量时仍能保持流畅的交互体验，并允许在单元格内嵌入图表或迷你图，常用于数据看板、商业智能分析及后台管理系统。适合解决传统 HTML 表格在大数据下性能衰退、可视化能力不足的问题。"
     },
     "summary": {
         "initial_stars": 2825,
-        "current_stars": 3635,
-        "star_diff": 810,
-        "growth_rate": 28.67,
+        "current_stars": 3636,
+        "star_diff": 811,
+        "growth_rate": 28.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 177
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 178
     },
     "history": [
         {
@@ -1256,6 +1256,13 @@
             "stars": 3635,
             "forks": 482,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3636,
+            "forks": 482,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

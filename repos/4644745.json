@@ -6,16 +6,16 @@
         "name": "chrome-extensions-samples",
         "html_url": "https:\/\/github.com\/GoogleChrome\/chrome-extensions-samples",
         "language": "JavaScript",
-        "description": "提供一系列 Chrome 扩展开发示例代码，涵盖常用 API 和功能实现，帮助开发者快速学习和构建 Chrome 扩展程序，包含模块化结构、消息传递、服务工作线程集成等现代最佳实践。"
+        "description": "官方仓库收录了大量Chrome扩展的示例代码，从基础弹窗、内容脚本到存储、通知、上下文菜单、快捷键等常见功能都有对应样例，并覆盖不同版本的最佳实践。开发者可以直接阅读或运行这些示例，快速理解扩展的清单配置、API用法和典型交互模式，适合刚接触扩展开发的人作为入门参考，也适合有经验者查找特定功能的实现思路。"
     },
     "summary": {
         "initial_stars": 16541,
-        "current_stars": 17702,
-        "star_diff": 1161,
+        "current_stars": 17703,
+        "star_diff": 1162,
         "growth_rate": 7.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 17702,
             "forks": 9021,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17703,
+            "forks": 9019,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

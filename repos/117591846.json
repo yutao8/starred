@@ -6,16 +6,16 @@
         "name": "server",
         "html_url": "https:\/\/github.com\/gotify\/server",
         "language": "Go",
-        "description": "Gotify\/server 是一个自托管的消息推送服务，用于向用户设备发送实时通知。它支持通过 API 发送消息，具备 WebSocket 实时通信、用户管理、应用管理及消息历史存储功能，适合用于服务器监控、应用告警、自动化通知等场景，无需依赖第三方推送服务。"
+        "description": "Gotify 是一款使用 Go 语言编写的自托管推送通知服务器，用于替代依赖第三方服务的消息推送。它提供简洁的 REST API 供应用或脚本发送消息，同时自带 Web 管理界面，可查看历史消息、创建应用和客户端令牌。适合个人或团队在自有服务器上搭建通知中心，实现服务器监控报警、自动化任务结果推送、智能家居通知等场景。部署简单，支持 Docker，默认采用 HTTPS 加密传输，并提供 Android 客户端以便在手机上实时接收通知。"
     },
     "summary": {
         "initial_stars": 12893,
-        "current_stars": 15640,
-        "star_diff": 2747,
-        "growth_rate": 21.31,
+        "current_stars": 15667,
+        "star_diff": 2774,
+        "growth_rate": 21.52,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 15640,
             "forks": 855,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15667,
+            "forks": 857,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

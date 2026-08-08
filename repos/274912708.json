@@ -6,16 +6,16 @@
         "name": "netease-cloud-api",
         "html_url": "https:\/\/github.com\/ZainCheung\/netease-cloud-api",
         "language": "PHP",
-        "description": "提供网易云音乐API接口的Node.js实现，主要用于获取音乐数据、用户信息、歌单详情、歌曲播放链接等功能，方便开发者快速集成网易云音乐服务到自己的应用中，适合构建音乐类Web服务或小程序。"
+        "description": "用于访问网易云音乐数据的非官方接口封装，主要解决个人项目或学习过程中快速获取音乐数据的需求。它封装了常见接口调用逻辑，开发者可通过简洁的方法获取歌曲详情、搜索、歌单信息和评论等，省去处理签名、加密等复杂流程。典型应用场景包括第三方音乐客户端、数据可视化分析或音乐推荐实验。通常基于Node.js环境，采用异步调用方式，设计简洁，适合学习参考或二次开发。"
     },
     "summary": {
         "initial_stars": 1476,
-        "current_stars": 1521,
-        "star_diff": 45,
-        "growth_rate": 3.05,
+        "current_stars": 1522,
+        "star_diff": 46,
+        "growth_rate": 3.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 154
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 155
     },
     "history": [
         {
@@ -1095,6 +1095,13 @@
             "stars": 1521,
             "forks": 3181,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1522,
+            "forks": 3181,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

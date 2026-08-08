@@ -6,16 +6,16 @@
         "name": "BrowserBox",
         "html_url": "https:\/\/github.com\/BrowserBox\/BrowserBox",
         "language": "JavaScript",
-        "description": "BrowserBox 是一个基于浏览器的虚拟沙盒环境，允许用户在隔离的浏览器中运行和测试网页应用，主要用于安全浏览、恶意软件分析和跨版本浏览器兼容性测试，支持自定义网络配置和快照保存，适合开发、测试及网络安全研究场景。"
+        "description": "用于在网页中嵌入一个完整可交互的浏览器，通过流式传输将远程浏览器界面实时回传，让用户无需离开当前页面即可操作独立的浏览器实例。核心价值在于提供安全隔离的浏览环境，适合用于处理不受信任的链接、多账号并行操作、远程协同浏览，以及为 Web 应用集成浏览器能力。通常结合容器和 WebRTC 技术实现，支持高并发和多会话管理，能够帮助开发者在自己的基础设施上构建类似云浏览器的服务。"
     },
     "summary": {
         "initial_stars": 3630,
-        "current_stars": 3891,
-        "star_diff": 261,
-        "growth_rate": 7.19,
+        "current_stars": 3892,
+        "star_diff": 262,
+        "growth_rate": 7.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 3891,
             "forks": 416,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3892,
+            "forks": 416,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

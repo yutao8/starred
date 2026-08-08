@@ -6,16 +6,16 @@
         "name": "md",
         "html_url": "https:\/\/github.com\/doocs\/md",
         "language": "Vue",
-        "description": "doocs\/md 是一个现代化的 Markdown 编辑器，支持实时预览、语法高亮、数学公式、图表渲染等功能，主要用于编写结构化文档，适合技术笔记、博客创作和知识管理，具有轻量、安全、跨平台等特点，便于集成与扩展。"
+        "description": "用于在线编写 Markdown 并转换成微信公众号排版格式的开源工具。支持代码高亮、自定义主题、目录生成、图片上传等常见功能，适合公众号运营者、技术写作者快速完成图文排版，无需手动调整样式。通常将编辑好的内容一键复制到公众号后台即可发布，风格简洁且易部署自用。"
     },
     "summary": {
         "initial_stars": 9884,
-        "current_stars": 13138,
-        "star_diff": 3254,
-        "growth_rate": 32.92,
+        "current_stars": 13145,
+        "star_diff": 3261,
+        "growth_rate": 32.99,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 13138,
             "forks": 2207,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13145,
+            "forks": 2207,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

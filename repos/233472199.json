@@ -6,16 +6,16 @@
         "name": "Microsoft-Activation-Scripts",
         "html_url": "https:\/\/github.com\/massgravel\/Microsoft-Activation-Scripts",
         "language": "Batchfile",
-        "description": "用于激活微软产品的开源脚本工具，支持Windows和Office的KMS激活，通过自动化部署KMS服务实现批量激活，适用于企业环境或个人用户快速完成系统和办公软件授权，无需手动配置激活服务器。"
+        "description": "用于激活 Microsoft Windows 和 Office 的脚本集合，提供 HWID 数字许可证、KMS 等多种激活方式。用户可在系统重装后恢复激活，或通过命令行和交互菜单选择适合的激活策略。适合需要快速解决激活问题、或管理多台设备的用户。脚本通常以 PowerShell 运行，支持自动检测产品版本。需注意，非官方激活工具可能涉及许可合规性问题。"
     },
     "summary": {
         "initial_stars": 139660,
-        "current_stars": 186152,
-        "star_diff": 46492,
-        "growth_rate": 33.29,
+        "current_stars": 186349,
+        "star_diff": 46689,
+        "growth_rate": 33.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 186152,
             "forks": 17811,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 186349,
+            "forks": 17832,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "TinyPNG4Mac",
         "html_url": "https:\/\/github.com\/kyleduo\/TinyPNG4Mac",
         "language": "Swift",
-        "description": "用于 macOS 的轻量级图片压缩工具，主要功能是将 PNG 图片高效压缩以减小文件体积，适用于需要优化图像资源的开发者或设计师，支持拖拽操作和批量处理，提升图片在项目中的使用效率。"
+        "description": "为macOS 用户提供简洁易用的图片压缩工具，通过 TinyPNG 官方接口帮助批量压缩 PNG 和 JPEG 图片，支持拖拽添加文件、自动处理输出路径，适合设计师、前端开发者在打包前快速减小图片体积，操作直观且无需频繁访问网页。"
     },
     "summary": {
         "initial_stars": 3891,
-        "current_stars": 4000,
-        "star_diff": 109,
-        "growth_rate": 2.8,
+        "current_stars": 4001,
+        "star_diff": 110,
+        "growth_rate": 2.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 107
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 108
     },
     "history": [
         {
@@ -766,6 +766,13 @@
             "stars": 4000,
             "forks": 290,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4001,
+            "forks": 289,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

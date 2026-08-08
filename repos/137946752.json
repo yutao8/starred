@@ -6,16 +6,16 @@
         "name": "UnblockNeteaseMusic",
         "html_url": "https:\/\/github.com\/nondanee\/UnblockNeteaseMusic",
         "language": "JavaScript",
-        "description": "通过代理服务解锁网易云音乐的版权限制，使用户能够播放因版权问题在平台受限的音乐资源，支持跨设备使用，适用于追求无限制音乐收听体验的用户。"
+        "description": "用于解锁网易云音乐中因版权限制而无法播放的灰色歌曲。它通过本地代理服务器拦截网易云音乐客户端的请求，自动从其他主流音乐平台获取对应的音源链接，让用户无需切换应用也能直接播放原本下架的曲目。通常适合网易云音乐重度用户，尤其是在曲库缺失或版权受限时补全收听体验。支持常见的桌面端和移动端配置方式，以命令行运行并配合代理设置使用，适合有一定技术基础、希望保留原有客户端习惯的用户。"
     },
     "summary": {
         "initial_stars": 17469,
-        "current_stars": 17371,
-        "star_diff": -98,
-        "growth_rate": -0.56,
+        "current_stars": 17370,
+        "star_diff": -99,
+        "growth_rate": -0.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 165
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 166
     },
     "history": [
         {
@@ -1172,6 +1172,13 @@
             "stars": 17371,
             "forks": 2443,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17370,
+            "forks": 2443,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

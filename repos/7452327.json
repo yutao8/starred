@@ -6,7 +6,7 @@
         "name": "mysqldump-php",
         "html_url": "https:\/\/github.com\/ifsnop\/mysqldump-php",
         "language": "PHP",
-        "description": "一个轻量级 PHP 库，用于通过 PHP 执行 MySQL 数据库的备份与还原操作，支持导出表结构、数据及生成可执行的 SQL 文件，常用于 Web 环境下的数据库维护和迁移任务。"
+        "description": "纯 PHP 实现的数据库备份工具，可替代系统 mysqldump 命令，无需安装 MySQL 客户端即可导出数据库结构和数据。支持 MySQL、MariaDB、PostgreSQL 等常见数据库，生成包含完整建表语句与数据插入的 SQL 文件。典型使用场景是 PHP 应用中需要程序化备份、迁移或下载数据库内容，尤其适合共享主机或没有 shell 权限的环境。工具提供表过滤、压缩输出、大表分批处理等常用选项，方便集成进自动备份脚本或 Web 管理界面。以 Composer 包形式分发，通过简单调用即可完成导出，适合开发者快速为项目加入数据库备份能力。"
     },
     "summary": {
         "initial_stars": 1271,

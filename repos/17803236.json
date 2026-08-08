@@ -6,16 +6,16 @@
         "name": "rclone",
         "html_url": "https:\/\/github.com\/rclone\/rclone",
         "language": "Go",
-        "description": "rclone 是一个命令行工具，用于同步、上传和下载文件到多种云存储服务，支持包括 Amazon S3、Google Drive、Dropbox 等在内的数十种云存储平台，常用于备份和文件迁移场景。"
+        "description": "rclone 是用于管理云存储文件的命令行工具，主要解决把文件可靠地从一个存储系统复制或同步到另一个存储系统的问题。它支持海内外常见云盘、对象存储和远程协议，可执行文件复制、双向同步、加密备份、内容校验与限速控制，也可以把远程目录挂载为本地磁盘。通常适合做跨云迁移、定期备份、服务器数据同步等自动化场景，因为配置文件清晰且可在无图形界面环境下运行。"
     },
     "summary": {
         "initial_stars": 51206,
-        "current_stars": 58978,
-        "star_diff": 7772,
-        "growth_rate": 15.18,
+        "current_stars": 59003,
+        "star_diff": 7797,
+        "growth_rate": 15.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 58978,
             "forks": 5288,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 59003,
+            "forks": 5293,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

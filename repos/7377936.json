@@ -6,16 +6,16 @@
         "name": "ImageGlass",
         "html_url": "https:\/\/github.com\/d2phap\/ImageGlass",
         "language": "C#",
-        "description": "ImageGlass 是一个轻量级的 Windows 图片查看器，支持多种图像格式，提供简洁的界面和流畅的浏览体验，主要用于快速查看本地图片文件，适合需要高效管理与浏览图像的用户，支持自定义主题和扩展功能。"
+        "description": "ImageGlass 是一款面向 Windows 的轻量级开源图像查看器，主要用于快速浏览和管理本地图片，支持超过 80 种常见图片格式，包括 GIF、SVG、WEBP 等。它启动迅速、内存占用低，适合替代系统自带看图工具，处理日常照片查看、批量翻图以及格式转换需求。软件提供标签页浏览、深色模式、可自定义快捷键和扩展插件，界面简洁且无广告，适合追求高效流畅看图体验的普通用户和摄影爱好者。"
     },
     "summary": {
         "initial_stars": 10588,
-        "current_stars": 13943,
-        "star_diff": 3355,
-        "growth_rate": 31.69,
+        "current_stars": 13965,
+        "star_diff": 3377,
+        "growth_rate": 31.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 13943,
             "forks": 728,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13965,
+            "forks": 729,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "google-play-scraper",
         "html_url": "https:\/\/github.com\/facundoolano\/google-play-scraper",
         "language": "JavaScript",
-        "description": "用于从 Google Play 商店抓取应用信息的 Node.js 库，支持获取应用详情、评论、评分、开发者信息等数据，适用于应用市场分析、竞品监控和数据挖掘，无需 API 密钥即可通过网页爬取方式获取公开信息。"
+        "description": "用于从 Google Play 商店抓取公开应用数据，无需官方 API。核心功能包括搜索应用、获取应用详情、评分、评论、权限列表、相似应用以及热门榜单等。通常适合需要批量分析应用市场情报、建立推荐系统、监控竞品动态或进行应用数据研究的开发者。该库基于 Node.js 生态实现，能直接以 JSON 形式返回结构化数据，方便集成到数据分析或自动化流程中。"
     },
     "summary": {
         "initial_stars": 2505,
-        "current_stars": 2935,
-        "star_diff": 430,
-        "growth_rate": 17.17,
+        "current_stars": 2937,
+        "star_diff": 432,
+        "growth_rate": 17.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 2935,
             "forks": 721,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2937,
+            "forks": 721,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

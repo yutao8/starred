@@ -6,16 +6,16 @@
         "name": "ACL4SSR",
         "html_url": "https:\/\/github.com\/ACL4SSR\/ACL4SSR",
         "language": "Other",
-        "description": "ACL4SSR 是一个为 SSR（ShadowsocksR）客户端设计的规则集合，主要用于网络流量分流，支持自动代理、国内直连和全局代理等多种模式，帮助用户更高效地管理网络请求，提升科学上网体验。"
+        "description": "ACL4SSR 提供面向 Clash、Surge、Shadowrocket 等代理工具的分流规则集，主要用于自动区分国内与国际流量，帮助用户实现国内外网站访问的智能代理切换。规则集通常包含大陆白名单、广告拦截、常用应用分组等策略，适用于软路由、路由器或桌面端代理软件，能够减少人工配置规则的成本，提升科学上网时的访问速度与稳定性。适合需要精细化流量管理、避免代理干扰国内服务的用户或网络管理员使用。"
     },
     "summary": {
         "initial_stars": 4821,
-        "current_stars": 6463,
-        "star_diff": 1642,
-        "growth_rate": 34.06,
+        "current_stars": 6472,
+        "star_diff": 1651,
+        "growth_rate": 34.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 6463,
             "forks": 2017,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6472,
+            "forks": 2017,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

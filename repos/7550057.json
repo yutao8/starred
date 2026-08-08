@@ -6,7 +6,7 @@
         "name": "cache",
         "html_url": "https:\/\/github.com\/doctrine\/cache",
         "language": "PHP",
-        "description": "用于PHP应用的缓存抽象层，提供统一接口操作多种缓存后端（如Redis、Memcached、APC等），支持文件、数据库、内存等多种存储方式，可独立使用或集成于Doctrine ORM，提升数据读取性能并减少重复查询开销。"
+        "description": "doctrine\/cache 是一个用于 PHP 项目的缓存抽象库，主要解决不同缓存后端接口不统一的问题。它提供一套通用接口，让开发者可以透明地使用文件、内存、数据库、Redis、Memcached 等多种缓存驱动，并在项目需要更换缓存方式时无需修改业务代码。通常适合用于需要缓存查询结果、会话数据、配置信息或频繁计算结果的 PHP 应用，帮助提升响应速度并降低数据库负载。该库还支持基本的缓存操作如存取、删除和批量管理，适合与各类现代 PHP 框架或传统应用集成使用。"
     },
     "summary": {
         "initial_stars": 7890,
@@ -14,8 +14,8 @@
         "star_diff": -30,
         "growth_rate": -0.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 7860,
             "forks": 211,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7860,
+            "forks": 210,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "Medoo",
         "html_url": "https:\/\/github.com\/catfan\/Medoo",
         "language": "PHP",
-        "description": "一个轻量级的PHP数据库框架，简化了数据库操作，支持多种数据库类型，提供链式调用API，便于快速开发小型项目或原型应用。"
+        "description": "Medoo 是一款面向 PHP 开发者的轻量级数据库操作框架，核心价值在于用极简的 API 替代繁琐的 SQL 编写，帮助开发者快速完成常见的增删改查操作。它原生支持 MySQL、MariaDB、SQLite、PostgreSQL 等多种数据库，并提供了统一的查询语法和预处理机制，有效降低 SQL 注入风险。典型使用场景是中小型 Web 应用、API 接口开发或脚本工具，尤其适合需要快速搭建数据层、又不想引入重量级 ORM 的项目。Medoo 体积小、上手快，基本无需复杂配置即可集成到现有 PHP 代码中，能显著提升开发效率并减少重复样板代码。"
     },
     "summary": {
         "initial_stars": 4887,
-        "current_stars": 4948,
-        "star_diff": 61,
-        "growth_rate": 1.25,
+        "current_stars": 4949,
+        "star_diff": 62,
+        "growth_rate": 1.27,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 118
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 119
     },
     "history": [
         {
@@ -843,6 +843,13 @@
             "stars": 4948,
             "forks": 1132,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4949,
+            "forks": 1131,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

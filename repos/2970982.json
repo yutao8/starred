@@ -6,7 +6,7 @@
         "name": "yaf",
         "html_url": "https:\/\/github.com\/laruence\/yaf",
         "language": "C",
-        "description": "yaf是一个基于C语言开发的PHP框架扩展，主要用于提升PHP应用的性能和稳定性。它采用MVC架构，通过扩展形式运行，无需编译即可直接使用PHP类，适合构建高性能的Web应用和服务。"
+        "description": "为 PHP 开发者提供基于 C 语言扩展的高性能 MVC 框架，以扩展模块形式常驻内存，显著减少框架加载开销，适合高并发、性能敏感的 Web 应用。支持简洁的路由分发、配置管理、视图渲染和自动加载，兼容传统 PHP 项目结构，学习成本较低，常用于优化现有框架性能或构建轻量级微服务接口。由 Laravel 作者之外的中国开发者维护，在 PHP 生态中定位为性能优先的实用选择。"
     },
     "summary": {
         "initial_stars": 4529,

@@ -6,16 +6,16 @@
         "name": "anti-AD",
         "html_url": "https:\/\/github.com\/privacy-protection-tools\/anti-AD",
         "language": "Other",
-        "description": "主要用于拦截和屏蔽各类广告内容，通过过滤广告请求、阻止追踪脚本、管理浏览器隐私权限等方式提升上网安全与隐私保护，适合希望减少广告干扰、防止用户行为被监测的场景，通常支持自定义规则和插件扩展。"
+        "description": "anti-AD 提供面向 DNS 查询的广告拦截规则，适合集成到 AdGuard Home、Pi-hole 等本地 DNS 工具中，用于屏蔽常见网页和 App 的广告、统计追踪器及恶意域名。规则列表保持更新，并兼容 hosts、dnsmasq、AdGuard 语法等多种常用格式，用户可以直接订阅或部署到路由器、NAS 等设备上。通过提前在 DNS 层过滤，可以有效减少广告干扰，同时降低隐私信息被跟踪的风险，适合希望从全局保护家庭网络或个人设备隐私的场景。"
     },
     "summary": {
         "initial_stars": 9408,
-        "current_stars": 10637,
-        "star_diff": 1229,
-        "growth_rate": 13.06,
+        "current_stars": 10639,
+        "star_diff": 1231,
+        "growth_rate": 13.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 10637,
             "forks": 790,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10639,
+            "forks": 790,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

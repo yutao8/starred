@@ -6,7 +6,7 @@
         "name": "LanZouCloud-API",
         "html_url": "https:\/\/github.com\/zaxtyson\/LanZouCloud-API",
         "language": "Python",
-        "description": "LanZouCloud-API 是一个用于与蓝奏云网盘交互的第三方接口工具，支持文件上传、下载、分享、目录管理等操作，方便用户通过命令行或程序自动化管理蓝奏云上的资源，适用于需要批量处理文件或集成网盘功能的场景。"
+        "description": "用于操作蓝奏云网盘的第三方 Python API 库，封装了文件上传、下载、删除、目录管理等核心功能，解决蓝奏云缺少官方公开接口的问题。通常适合需要将蓝奏云集成到自动化脚本、命令行工具或自建应用中的开发者，通过模拟网页请求实现账号登录与分享链接操作，典型场景包括批量备份、文件分发和网盘资源管理。"
     },
     "summary": {
         "initial_stars": 772,

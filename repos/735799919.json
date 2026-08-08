@@ -6,7 +6,7 @@
         "name": "quark-auto-save",
         "html_url": "https:\/\/github.com\/Cp0204\/quark-auto-save",
         "language": "Python",
-        "description": "一个专为夸克网盘设计的自动化保存工具，主要用于自动监听和保存分享链接中的文件，支持定时任务与快速转存，提升网盘管理效率，简化重复性操作流程，适用于需要频繁处理夸克分享链接的用户。"
+        "description": "用于夸克网盘的自动化资源保存工具，主要针对需要批量转存分享链接或定期备份网盘内容的用户。通过配置监控任务，能够自动识别分享页面或指定路径下的文件，并将新出现的资源转存到自己的夸克网盘中，减少手动逐条操作的繁琐过程。通常适合个人网盘资源整理、追更收藏或从社交媒体同步文件等场景，帮助用户在无人值守时也能及时保存重要数据，避免分享链接失效带来的损失。"
     },
     "summary": {
         "initial_stars": 1607,
@@ -14,8 +14,8 @@
         "star_diff": 1366,
         "growth_rate": 85,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 2973,
             "forks": 407,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2973,
+            "forks": 408,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

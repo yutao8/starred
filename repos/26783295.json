@@ -6,16 +6,16 @@
         "name": "kong",
         "html_url": "https:\/\/github.com\/Kong\/kong",
         "language": "Lua",
-        "description": "Kong 是一个开源的云原生 API 网关，用于管理、扩展和保护微服务及 API。它提供路由、认证、限流、监控等插件化功能，支持高可用、高性能的流量治理，适用于现代分布式架构中的服务网关场景。"
+        "description": "Kong 是一款开源 API 网关和微服务管理平台，基于 Nginx 与 OpenResty 构建，用于在客户端与后端服务之间统一代理和管控流量。它通常用于处理请求路由、负载均衡、认证授权、限流、日志记录与健康检查等常见网关场景，适合在微服务架构、云原生环境或混合部署中集中管理南北向流量。通过插件机制可以灵活扩展功能，并支持声明式配置和 Kubernetes 集成，帮助团队提升服务接入的安全性与可维护性。"
     },
     "summary": {
         "initial_stars": 41140,
-        "current_stars": 43932,
-        "star_diff": 2792,
-        "growth_rate": 6.79,
+        "current_stars": 43949,
+        "star_diff": 2809,
+        "growth_rate": 6.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 43932,
             "forks": 5196,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 43949,
+            "forks": 5197,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "aptv",
         "html_url": "https:\/\/github.com\/Kimentanm\/aptv",
         "language": "Other",
-        "description": "Aptv 是一个基于命令行的电视直播和视频点播播放器，支持通过订阅源加载频道列表，适用于观看网络电视节目，具有轻量、快速启动和跨平台特性，主要用于浏览和播放网络媒体内容。"
+        "description": "用于播放和管理 IPTV 频道的电视流媒体工具，适合在智能电视、电视盒子或电脑上使用，可以帮助用户把零散的直播源整理成分类清晰、可快速切换的节目列表，构建自己的收看系统。项目围绕电视播放场景设计，通常具备自定义源接入、频道分组和播放记录等常见能力。适合希望摆脱固定运营商订阅、喜欢动手整理直播资源的用户，也适合家庭影院或媒体中心爱好者作为轻量级替代方案参考。具体使用方式和功能细节以仓库官方文档为准。"
     },
     "summary": {
         "initial_stars": 2283,
-        "current_stars": 2815,
-        "star_diff": 532,
-        "growth_rate": 23.3,
+        "current_stars": 2814,
+        "star_diff": 531,
+        "growth_rate": 23.26,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 2815,
             "forks": 243,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2814,
+            "forks": 243,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

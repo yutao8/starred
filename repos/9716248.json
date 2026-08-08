@@ -6,7 +6,7 @@
         "name": "php-aria2",
         "html_url": "https:\/\/github.com\/shiny\/php-aria2",
         "language": "PHP",
-        "description": "一个基于 PHP 的轻量级 Aria2 RPC 客户端，用于通过 JSON-RPC 与 Aria2 下载工具通信，支持添加下载、查询状态、暂停恢复任务等操作，适合构建网页版下载管理界面。"
+        "description": "用于在 PHP 项目中控制 aria2 下载工具，提供基于 JSON-RPC 协议的操作接口。它解决 PHP 应用无法直接管理 aria2 下载任务的问题，适合搭建下载管理面板、后台任务系统，或配合爬虫和批量抓取流程自动下载文件。使用时需要本机或远程运行 aria2 并开启 RPC，库内部封装了添加下载、暂停、恢复、删除任务、查询进度和速度等常用操作，以面向对象的方式暴露方法，便于集成到现有代码中。整体功能围绕 aria2 的特性设计，通常用于 Linux 服务器上的 PHP 应用场景。"
     },
     "summary": {
         "initial_stars": 71,

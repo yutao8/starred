@@ -6,16 +6,16 @@
         "name": "autocomplete",
         "html_url": "https:\/\/github.com\/algolia\/autocomplete",
         "language": "TypeScript",
-        "description": "一个可扩展的前端库，用于构建现代化的搜索界面，提供开箱即用的无障碍支持和高性能搜索功能，通常与 Algolia 搜索服务集成以实现快速、相关性高的搜索体验，适合需要自定义搜索交互的网页应用。"
+        "description": "一个用于构建搜索自动补全和推荐建议的用户界面库，由搜索引擎服务商 Algolia 开发并开源。它帮助开发者快速为搜索框加入实时下拉建议、分类导航和推荐结果，支持键盘操作与无障碍访问，并可与任意后端或搜索API集成。库提供原生JavaScript及React、Vue等主流框架的适配版本，适合电商网站、文档站或通用站内搜索场景，用于减少无效输入、引导用户发现内容，从而提升搜索体验和转化率。"
     },
     "summary": {
         "initial_stars": 5143,
-        "current_stars": 5264,
-        "star_diff": 121,
-        "growth_rate": 2.35,
+        "current_stars": 5265,
+        "star_diff": 122,
+        "growth_rate": 2.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 128
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 129
     },
     "history": [
         {
@@ -913,6 +913,13 @@
             "stars": 5264,
             "forks": 339,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5265,
+            "forks": 339,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "rap2-delos",
         "html_url": "https:\/\/github.com\/thx\/rap2-delos",
         "language": "TypeScript",
-        "description": "一个基于 RESTful API 的接口管理平台后端服务，主要用于接口的定义、测试、文档生成和团队协作，支持接口版本控制、权限管理和自动化测试，通常与 RAP2 前端配套使用，帮助开发团队高效管理 API 生命周期。"
+        "description": "rap2-delos 是 RAP2 接口管理平台的后端服务，用于提供接口定义、数据 Mock、文档管理等核心能力。它通常与 RAP2 前端项目配合，帮助开发团队在前后端分离的开发流程中统一管理 API 契约，支持通过可视化方式维护接口信息，并自动生成模拟数据以供前端联调。该服务适合需要频繁变更接口、希望减少沟通成本的中小型团队，也常用于搭建内部 API 管理平台。基于 Node.js 技术栈构建，部署后可作为独立服务运行，搭配 RAP2 的 Web 前端即可组成完整系统。"
     },
     "summary": {
         "initial_stars": 7652,

@@ -6,16 +6,16 @@
         "name": "quick-look-plugins",
         "html_url": "https:\/\/github.com\/sindresorhus\/quick-look-plugins",
         "language": "Other",
-        "description": "提供一系列 macOS Quick Look 插件，用于快速预览更多文件格式，如代码文件、压缩包、图片等，提升文件浏览效率，无需打开对应应用即可查看内容，支持自定义扩展，安装后直接在 Finder 中选中文件按空格键预览。"
+        "description": "为 macOS 的 Finder 快速预览（Quick Look）功能扩展插件集合，安装后可支持预览更多文件格式，包括代码、压缩包、图片、JSON、Markdown 等开发者常用类型，无需打开对应软件即可在空格预览中查看内容，适合前端、后端或日常办公中需要快速浏览多种文件格式的场景，可显著提升文件查看效率。"
     },
     "summary": {
         "initial_stars": 18310,
-        "current_stars": 18731,
-        "star_diff": 421,
+        "current_stars": 18732,
+        "star_diff": 422,
         "growth_rate": 2.3,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 18731,
             "forks": 549,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18732,
+            "forks": 548,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

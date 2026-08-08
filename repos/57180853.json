@@ -6,16 +6,16 @@
         "name": "vConsole",
         "html_url": "https:\/\/github.com\/Tencent\/vConsole",
         "language": "TypeScript",
-        "description": "vConsole 是一个轻量、可扩展的前端调试面板，主要用于移动网页的开发与调试。它能够在移动设备上模拟浏览器控制台，支持查看日志、网络请求、本地存储、Cookie 等信息，帮助开发者在手机端高效排查问题。"
+        "description": "vConsole是腾讯开源的移动端网页调试面板，专为手机端H5设计，在浏览器内提供日志输出、网络请求查看、元素审查、Cookie管理等功能，帮助开发者无需连接电脑即可实时排查移动端页面问题。它轻量易用，支持通过npm或script标签快速集成，通常适合移动Web开发、测试及线上问题定位场景，能显著提升移动端调试效率。"
     },
     "summary": {
         "initial_stars": 17161,
-        "current_stars": 17505,
-        "star_diff": 344,
+        "current_stars": 17504,
+        "star_diff": 343,
         "growth_rate": 2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 17505,
             "forks": 2966,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17504,
+            "forks": 2965,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

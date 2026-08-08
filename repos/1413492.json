@@ -6,16 +6,16 @@
         "name": "jquery-pjax",
         "html_url": "https:\/\/github.com\/defunkt\/jquery-pjax",
         "language": "JavaScript",
-        "description": "通过 AJAX 和 HTML5 History API 实现页面无刷新跳转，提升网页加载速度，主要用于传统多页应用改造为类单页体验，减少重复资源请求，改善用户浏览连续性。"
+        "description": "jquery-pjax是一个基于jQuery的页面无刷新加载插件，主要解决传统网站整页跳转带来的加载慢、体验割裂问题。它拦截链接点击，通过Ajax请求只获取目标页面中需要更新的部分，并将页面内容平滑替换，同时利用浏览器的history.pushState接口同步地址栏URL，支持前进后退。适合用于内容型网站、后台管理界面等以导航为主的场景，能显著减少流量和渲染开销。使用前提是服务端需要返回HTML片段而非完整文档，以便插件直接插入。"
     },
     "summary": {
         "initial_stars": 16699,
-        "current_stars": 16648,
-        "star_diff": -51,
+        "current_stars": 16647,
+        "star_diff": -52,
         "growth_rate": -0.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 110
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 111
     },
     "history": [
         {
@@ -787,6 +787,13 @@
             "stars": 16648,
             "forks": 1928,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16647,
+            "forks": 1928,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

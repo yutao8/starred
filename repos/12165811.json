@@ -6,7 +6,7 @@
         "name": "php-curl-class",
         "html_url": "https:\/\/github.com\/php-curl-class\/php-curl-class",
         "language": "PHP",
-        "description": "一个功能强大的 PHP cURL 类库，简化了 HTTP 请求的处理，支持同步和异步请求、文件上传、Cookie 管理、代理设置等常见网络操作，适用于网页抓取、API 调用等场景，具有良好的可读性和扩展性，便于开发者高效地进行 HTTP 通信。"
+        "description": "用于简化 PHP 中 cURL 操作的封装类库，提供面向对象接口来发送 HTTP 请求、处理响应、设置请求头与参数，并支持文件上传、Cookie 会话、代理和重定向等常见功能。适合快速开发 REST API 客户端、网页爬虫或自动化测试脚本，能有效减少原生 cURL 的样板代码，提升代码可读性与维护性。"
     },
     "summary": {
         "initial_stars": 3289,

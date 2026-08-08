@@ -6,7 +6,7 @@
         "name": "JSDec",
         "html_url": "https:\/\/github.com\/hax0r31337\/JSDec",
         "language": "HTML",
-        "description": "JSDec 是一个用于 JavaScript 代码混淆保护与逆向分析的工具，主要用于解密和还原经过混淆加密的 JS 脚本，帮助开发者调试、理解和分析高度混淆的代码，适用于逆向工程、安全审计和代码恢复等场景。"
+        "description": "JSDec 主要用于 JavaScript 代码的解密与反混淆，帮助用户处理被混淆或加密的脚本，还原其可读性。它特别适合安全分析场景，如检查恶意网页内容、逆向工程前端代码，或调试难以阅读的第三方库。工具通常以命令行方式提供，便于自动化批量处理多个文件。通过识别和转换常见混淆模式，JSDec 能显著减少手动分析时间，提高工作效率。"
     },
     "summary": {
         "initial_stars": 244,

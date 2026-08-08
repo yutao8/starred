@@ -6,16 +6,16 @@
         "name": "guzzle",
         "html_url": "https:\/\/github.com\/guzzle\/guzzle",
         "language": "PHP",
-        "description": "Guzzle是一个用于发送HTTP请求的PHP库，主要用来与Web服务进行交互，支持同步和异步请求，提供简洁的API来处理请求、响应、表单提交、文件上传及认证等，常用于调用RESTful API或集成第三方服务。"
+        "description": "Guzzle 是 PHP 生态中广泛使用的 HTTP 客户端库，主要用于发送 HTTP 请求并与各类 Web 服务进行交互。它提供简洁统一的接口来构造请求、处理响应，支持同步与异步请求、认证、重定向、重试机制以及中间件扩展，能应对复杂的网络通信需求。典型使用场景包括调用第三方 API、网络爬虫、微服务间通信，以及需要可靠 HTTP 传输的 PHP 应用，适合希望简化客户端开发并增强可维护性的项目。"
     },
     "summary": {
         "initial_stars": 23399,
-        "current_stars": 23459,
-        "star_diff": 60,
+        "current_stars": 23461,
+        "star_diff": 62,
         "growth_rate": 0.26,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 162
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 163
     },
     "history": [
         {
@@ -1151,6 +1151,13 @@
             "stars": 23459,
             "forks": 2391,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23461,
+            "forks": 2391,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

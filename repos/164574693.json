@@ -6,16 +6,16 @@
         "name": "AnotherRedisDesktopManager",
         "html_url": "https:\/\/github.com\/qishibo\/AnotherRedisDesktopManager",
         "language": "JavaScript",
-        "description": "Another Redis Desktop Manager 是一款更快、更好用的跨平台 Redis 图形化管理工具，支持 Windows、macOS 和 Linux，具备响应式界面、批量操作、数据导入导出、性能监控等功能，适合开发者和运维人员高效管理多个 Redis 实例。"
+        "description": "用于管理Redis实例的跨平台图形客户端，支持Windows、macOS和Linux。核心功能包括多连接管理、键值对的可视化浏览与编辑、常用数据类型的增删改查，并内置命令行输入框以便直接执行原生Redis命令。典型使用场景是数据库日常管理、缓存数据排查以及应用开发时的快速验证。相比纯命令行操作，它降低了Redis的使用门槛，尤其适合不熟悉命令行的开发者或需要频繁切换多个环境的运维人员。整体设计实用，主要解决查看不方便、操作效率低的问题。"
     },
     "summary": {
         "initial_stars": 32538,
-        "current_stars": 34609,
-        "star_diff": 2071,
+        "current_stars": 34607,
+        "star_diff": 2069,
         "growth_rate": 6.36,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 34609,
             "forks": 2715,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 34607,
+            "forks": 2713,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

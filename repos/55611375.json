@@ -6,7 +6,7 @@
         "name": "php-http-proxy",
         "html_url": "https:\/\/github.com\/walkor\/php-http-proxy",
         "language": "PHP",
-        "description": "一个基于 Workerman 开发的 PHP 高性能 HTTP 代理服务器，支持 HTTP 和 HTTPS 请求转发，主要用于调试、测试或中间层代理场景，适合在 PHP 环境中快速搭建轻量级代理服务，无需依赖传统 Web 服务器。"
+        "description": "基于 PHP 实现的轻量级 HTTP 代理服务器，主要用于搭建正向或反向代理服务，支持请求转发、响应处理以及自定义中间件逻辑。通常适合用于接口调试、流量抓包、访问控制、跨域转发等场景，也可以嵌入到现有 PHP 项目中实现代理功能。该工具利用 PHP 的事件驱动特性处理并发连接，部署简单，适合需要快速实现自定义代理策略的开发者在本地或服务器环境使用。"
     },
     "summary": {
         "initial_stars": 203,

@@ -6,16 +6,16 @@
         "name": "termux-tasker",
         "html_url": "https:\/\/github.com\/termux\/termux-tasker",
         "language": "Java",
-        "description": "提供 Termux 与 Android 系统的 Tasker 应用集成能力，允许用户通过 Tasker 触发 Termux 中的 shell 脚本，实现自动化任务执行，如定时运行程序、根据条件调用 Termux 命令、结合 Android 事件执行 Linux 脚本等，扩展了移动端自动化场景下的操作自由度。"
+        "description": "用于在Tasker自动化流程中调用Termux执行Shell命令和脚本，让Android设备上的自动化任务获得完整的Linux命令行动态能力。它通常用于文件批量处理、网络请求、系统状态检查、数据脚本转换，以及借助Termux包管理器安装的工具来扩展Tasker无法直接完成的操作。适合需要运行Python、ffmpeg、curl等程序，或需要更精细控制设备内部文件的自动化场景。使用时需要先安装Termux和对应插件，并在Tasker的插件动作中配置命令参数。"
     },
     "summary": {
         "initial_stars": 1190,
-        "current_stars": 1564,
-        "star_diff": 374,
-        "growth_rate": 31.43,
+        "current_stars": 1568,
+        "star_diff": 378,
+        "growth_rate": 31.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 172
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 173
     },
     "history": [
         {
@@ -1221,6 +1221,13 @@
             "stars": 1564,
             "forks": 243,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1568,
+            "forks": 244,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "wechat-miniapp-radar",
         "html_url": "https:\/\/github.com\/justjavac\/awesome-wechat-weapp",
         "language": "Other",
-        "description": "用于检测和分析微信小程序的开源工具，通过反编译和代码扫描帮助开发者研究小程序技术实现，主要用于安全审计、代码合规性检查和逆向工程，支持快速识别小程序中的敏感行为与潜在风险。"
+        "description": "用于扫描和收集微信小程序生态数据，以雷达式视角汇总各类小程序及其特征，帮助开发者快速发现热门应用、分析功能设计和技术实现。通常适合产品经理、前端开发等移动端技术人员作为市场参考或学习资源，也可以用于观察小程序行业变化。项目更侧重信息聚合，实际监控范围、更新频率和数据结构请以仓库说明为准，避免对其能力做过度假设。"
     },
     "summary": {
         "initial_stars": 47847,
-        "current_stars": 51208,
-        "star_diff": 3361,
+        "current_stars": 51204,
+        "star_diff": 3357,
         "growth_rate": 7.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 51208,
             "forks": 9010,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 51204,
+            "forks": 9010,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

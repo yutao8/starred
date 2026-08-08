@@ -6,7 +6,7 @@
         "name": "sweetalert",
         "html_url": "https:\/\/github.com\/t4t5\/sweetalert",
         "language": "TypeScript",
-        "description": "SweetAlert 是一个 JavaScript 库，用于替换浏览器默认的弹窗样式，提供美观、响应式的警告框、确认框和输入框，支持自定义图标、动画和主题，通常与前端项目集成以提升用户交互体验。"
+        "description": "SweetAlert 是一个用于替代浏览器原生弹窗的 JavaScript 库，能以更美观、可定制的方式展示提示框、确认框和输入框。它支持多种动画效果、自定义图标与按钮样式，并允许通过链式调用处理用户交互结果。常用于网页表单校验提示、操作确认、成功或错误反馈等需要视觉一致的场景。该库基于原生 JavaScript 开发，无需依赖 jQuery，适合各种前端项目，也能配合 Vue、React 等框架通过插件形式使用。其核心价值在于用几行代码即可实现美观且可访问的弹窗体验，避免繁琐的 CSS 和 DOM 操作。"
     },
     "summary": {
         "initial_stars": 22379,
@@ -14,8 +14,8 @@
         "star_diff": -110,
         "growth_rate": -0.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 146
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 147
     },
     "history": [
         {
@@ -1039,6 +1039,13 @@
             "stars": 22269,
             "forks": 2747,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22269,
+            "forks": 2746,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

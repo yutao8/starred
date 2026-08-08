@@ -6,7 +6,7 @@
         "name": "FastTunnel",
         "html_url": "https:\/\/github.com\/FastTunnel\/FastTunnel",
         "language": "C#",
-        "description": "FastTunnel 是一个高性能的反向代理工具，主要用于内网穿透和隧道转发，支持 HTTP、HTTPS 和 TCP 协议，适用于本地服务对外暴露、开发调试和远程访问等场景，具有轻量、易用、高并发的特点。"
+        "description": "FastTunnel是一款开源的内网穿透工具，用于将局域网内的服务安全暴露到公网，实现远程访问。它支持转发HTTP、TCP等流量，典型场景包括远程连接内网服务器、访问家中NAS或开发中的Web应用，无需公网IP或配置复杂路由器。工具通常部署在具有公网IP的服务器端和需要穿透的客户端，通过隧道建立双向通信，适合个人开发者或小型团队快速搭建远程访问方案。它基于.NET实现，提供跨平台支持，配置简单，可替代部分商业内网穿透服务。"
     },
     "summary": {
         "initial_stars": 1636,

@@ -6,16 +6,16 @@
         "name": "electron-ssr-backup",
         "html_url": "https:\/\/github.com\/qingshuisiyuan\/electron-ssr-backup",
         "language": "Other",
-        "description": "用于备份和管理 Electron-SSR 订阅的工具，支持自动同步远程订阅链接、定时备份本地配置及多设备间的数据迁移，便于科学上网用户的配置保护与恢复，通常配合 SSR 客户端使用以增强服务可用性。"
+        "description": "基于 Electron 的 ShadowsocksR 客户端备份仓库，主要用于提供可用的客户端版本下载与源码存档，方便用户在网络受限环境中配置和使用 SSR 代理服务。适合需要科学上网或访问境外资源的用户，通常用于替代已停止维护的原版项目，解决客户端获取困难的问题。仓库侧重功能可用性与部署便捷性，帮助用户快速搭建代理环境。"
     },
     "summary": {
         "initial_stars": 5846,
-        "current_stars": 5802,
-        "star_diff": -44,
-        "growth_rate": -0.75,
+        "current_stars": 5803,
+        "star_diff": -43,
+        "growth_rate": -0.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 141
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 142
     },
     "history": [
         {
@@ -1004,6 +1004,13 @@
             "stars": 5802,
             "forks": 3739,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5803,
+            "forks": 3738,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

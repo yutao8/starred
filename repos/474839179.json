@@ -6,16 +6,16 @@
         "name": "Umi-OCR",
         "html_url": "https:\/\/github.com\/hiroi-sora\/Umi-OCR",
         "language": "Python",
-        "description": "Umi-OCR 是一款基于 OCR 技术的图片文字识别工具，支持离线使用，可高效提取图像中的文本内容，适用于文档扫描、截图转文字等场景，具有高准确率和多语言支持特性，方便用户快速获取和编辑所需文字信息。"
+        "description": "Umi-OCR 是一款免费开源的离线 OCR 工具，基于 PaddleOCR 引擎，无需联网即可完成图片文字识别。它支持截图识别、批量导入图片、剪贴板监听和 PDF 转文字，并具备多语言识别、自定义输出格式及翻译功能。适用于需要保护隐私、离线办公、文献整理或高频截屏取词的场景，既可作为桌面应用直接使用，也适合开发者集成到自动化流程中。"
     },
     "summary": {
         "initial_stars": 35061,
-        "current_stars": 46445,
-        "star_diff": 11384,
-        "growth_rate": 32.47,
+        "current_stars": 46467,
+        "star_diff": 11406,
+        "growth_rate": 32.53,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 46445,
             "forks": 4554,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 46467,
+            "forks": 4555,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

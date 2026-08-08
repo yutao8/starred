@@ -6,16 +6,16 @@
         "name": "amemv-crawler",
         "html_url": "https:\/\/github.com\/loadchange\/amemv-crawler",
         "language": "Python",
-        "description": "用于自动化抓取抖音（AmeMv）平台上用户视频数据的爬虫工具，支持账号信息、视频列表、点赞评论等数据采集，主要用于内容分析、用户行为研究及数据挖掘等场景。"
+        "description": "用于抓取抖音短视频的爬虫工具，通过传入用户主页链接或分享口令，自动解析页面数据，获取该用户发布的视频列表，并批量下载不含水印的原视频。适合需要备份已发布视频、做内容分析或收集训练素材的用户，也常用于短视频运营中快速整理竞品内容。项目通常依赖 Python 脚本模拟请求并解析 JSON 数据，需注意账号风控和接口变化。整体以命令行方式运行，简单直接，适合有一定技术基础的人使用。"
     },
     "summary": {
         "initial_stars": 2489,
-        "current_stars": 2631,
-        "star_diff": 142,
-        "growth_rate": 5.71,
+        "current_stars": 2632,
+        "star_diff": 143,
+        "growth_rate": 5.75,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 125
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 126
     },
     "history": [
         {
@@ -892,6 +892,13 @@
             "stars": 2631,
             "forks": 629,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2632,
+            "forks": 629,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

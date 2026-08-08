@@ -6,16 +6,16 @@
         "name": "n2n",
         "html_url": "https:\/\/github.com\/ntop\/n2n",
         "language": "C",
-        "description": "n2n 是一个开源的点对点虚拟私有网络（VPN）工具，主要用于在不同网络设备之间建立安全的通信隧道。它通过 NAT 穿透技术实现内网设备间的直接连接，无需复杂配置，适用于构建去中心化的虚拟局域网，常用于远程访问、设备组网和网络扩展等场景。"
+        "description": "一款用于构建二层点对点虚拟网络的工具，由 ntop 团队开发，主打轻量级和加密通信。它允许分布在不同网络环境中的设备通过公共互联网组成一个虚拟局域网，设备之间直接通信，无需中心服务器转发数据流量。适合远程办公时访问内网资源、多台服务器之间互联、穿透 NAT 设备进行点对点连接，以及搭建跨地域的游戏联机或物联网测试环境。其典型架构包含 Supernode（用于节点发现和协助握手）和 Edge 节点（实际参与组网），同时支持 AES 加密以保证传输安全，部署简单，适用于 Linux、Windows、macOS 等常见系统。"
     },
     "summary": {
         "initial_stars": 6601,
-        "current_stars": 6993,
-        "star_diff": 392,
-        "growth_rate": 5.94,
+        "current_stars": 6994,
+        "star_diff": 393,
+        "growth_rate": 5.95,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 179
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 180
     },
     "history": [
         {
@@ -1270,6 +1270,13 @@
             "stars": 6993,
             "forks": 1016,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6994,
+            "forks": 1016,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

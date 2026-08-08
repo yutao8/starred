@@ -6,7 +6,7 @@
         "name": "go-cq-http-sdk",
         "html_url": "https:\/\/github.com\/MicroDreamTeam\/go-cq-http-sdk",
         "language": "PHP",
-        "description": "用于与QQ机器人框架go-cqhttp进行交互的Go语言SDK，封装了API调用、事件接收和消息处理功能，便于开发者快速构建QQ机器人应用，支持正向和反向WebSocket连接，简化了消息发送、群组管理、好友操作等常用功能的调用。"
+        "description": "用于Go语言对接go-cqhttp的SDK，旨在简化QQ机器人开发流程。它封装了go-cqhttp的HTTP API，提供消息收发、事件处理、群组管理等常用操作，使开发者无需直接处理底层HTTP请求即可快速构建机器人功能。通常适合基于Go语言编写QQ机器人的项目，能够减少重复代码、提升开发效率。"
     },
     "summary": {
         "initial_stars": 11,

@@ -6,7 +6,7 @@
         "name": "message-pusher",
         "html_url": "https:\/\/github.com\/songquanpeng\/message-pusher",
         "language": "JavaScript",
-        "description": "一个轻量级消息推送服务，用于将文本消息通过 Webhook 方式推送到企业微信、钉钉或飞书等办公协作平台，支持多类型消息格式与自定义模板，适用于系统告警、日志通知等场景。"
+        "description": "消息推送服务，用于将消息从多种来源转发到用户指定的渠道，支持自定义推送规则，适合在服务器监控告警、定时任务通知、自动化脚本结果提醒等场景中使用，帮助用户集中接收和管理各类通知，无需逐一登录各平台查看。通常部署为自托管服务，提供简洁的 API 接口，便于集成到现有系统或工具中。"
     },
     "summary": {
         "initial_stars": 3165,

@@ -6,16 +6,16 @@
         "name": "istoreos",
         "html_url": "https:\/\/github.com\/istoreos\/istoreos",
         "language": "C",
-        "description": "iStoreOS 是一个基于 OpenWrt 的开源路由器操作系统，专注于提供稳定、高效和可扩展的网络服务。它支持多种硬件平台，集成常用功能如科学上网、去广告、内网穿透等，适合追求高性能与个性化的用户。"
+        "description": "iStoreOS 是一款基于 OpenWrt 的软路由操作系统，主要为家庭和小型办公网络环境设计。它针对普通用户优化了使用体验，提供简洁直观的网页管理界面，大幅降低了软路由配置门槛。系统内置应用商店，可一键安装或管理网络插件，涵盖智能流控、广告过滤、动态DNS、VPN 服务等功能。凭借轻量化内核和灵活的设备兼容性，它常被部署在各类 x86、ARM 架构的小型路由器或迷你主机上，用于替代原厂固件，实现更稳定可控的网络管理。该项目适合希望以较低成本获得高性能、可定制网络方案的玩家。"
     },
     "summary": {
         "initial_stars": 6226,
-        "current_stars": 7938,
-        "star_diff": 1712,
-        "growth_rate": 27.5,
+        "current_stars": 7945,
+        "star_diff": 1719,
+        "growth_rate": 27.61,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 7938,
             "forks": 910,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7945,
+            "forks": 915,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

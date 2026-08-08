@@ -6,16 +6,16 @@
         "name": "iperf",
         "html_url": "https:\/\/github.com\/esnet\/iperf",
         "language": "C",
-        "description": "iperf 是一个网络性能测试工具，用于测量 TCP、UDP 和 SCTP 网络带宽。它支持跨平台运行，可定制化测试时长、缓冲区大小和并行流数量，常用于评估网络链路质量、诊断带宽瓶颈和验证网络应用性能。"
+        "description": "iperf是一款开源的网络性能测量工具，主要用于测试TCP和UDP链路的带宽、吞吐量、丢包率以及延迟抖动等关键指标。它通常采用客户端和服务器模式运行，支持双向测试、并行流数量调整、窗口尺寸设置等丰富参数，适合网络管理员和运维人员排查链路质量问题、验证带宽瓶颈、评估网络设备转发性能及进行容量规划。借助其跨平台特性和灵活的测试选项，iperf成为网络性能基准测试和故障定位中最常用的标准工具之一。"
     },
     "summary": {
         "initial_stars": 7608,
-        "current_stars": 8674,
-        "star_diff": 1066,
-        "growth_rate": 14.01,
+        "current_stars": 8678,
+        "star_diff": 1070,
+        "growth_rate": 14.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 8674,
             "forks": 1437,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8678,
+            "forks": 1438,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

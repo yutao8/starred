@@ -6,7 +6,7 @@
         "name": "csv",
         "html_url": "https:\/\/github.com\/thephpleague\/csv",
         "language": "PHP",
-        "description": "用于简化 PHP 中 CSV 文件的读取、写入和操作，提供流式处理、数据过滤、格式转换等功能，适合处理大型 CSV 文件及实现自定义数据导出方案。"
+        "description": "用于在 PHP 项目中高效读写 CSV 数据，支持从字符串、文件或流中解析和导出表格内容，正确处理定界符、引号和换行的转义规则。采用流式处理方式，能应对较大的数据文件而不会导致内存不足。提供清晰的对象接口，使生成和解析 CSV 变得简单。该库不依赖特定框架，可独立使用，也能集成到 Laravel、Symfony 等主流 PHP 框架中。适合数据导入导出、报表生成、批量处理外部系统提供的数据文件等场景，是 PHP 生态中处理表格数据的常用工具。"
     },
     "summary": {
         "initial_stars": 3424,
@@ -14,8 +14,8 @@
         "star_diff": 57,
         "growth_rate": 1.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 96
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 97
     },
     "history": [
         {
@@ -689,6 +689,13 @@
             "stars": 3481,
             "forks": 351,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3481,
+            "forks": 352,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "zfile",
         "html_url": "https:\/\/github.com\/zfile-dev\/zfile",
         "language": "Java",
-        "description": "ZFile 是一个在线文件目录索引程序，支持将本地或远程存储的文件以美观的网页界面展示，方便用户在线浏览、搜索和分享文件。支持多种存储后端，如本地存储、S3、OneDrive 等，适合搭建个人网盘或文件共享站点。"
+        "description": "ZFile用于搭建个人或团队网盘，是一款开源在线文件管理系统，支持对接本地磁盘、FTP、WebDAV及各类对象存储作为存储后端，提供网页端文件上传、下载、目录管理、在线预览和分享链接等核心功能，适合替代传统FTP工具或公有云网盘，在私有服务器上实现文件统一托管与安全分享。项目基于Java Spring Boot开发，部署简单，跨平台运行稳定，常用于个人主页文件展示、团队协作文件共享及远程文件访问等场景。"
     },
     "summary": {
         "initial_stars": 10230,
-        "current_stars": 10807,
-        "star_diff": 577,
-        "growth_rate": 5.64,
+        "current_stars": 10809,
+        "star_diff": 579,
+        "growth_rate": 5.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 10807,
             "forks": 1966,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10809,
+            "forks": 1966,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

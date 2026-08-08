@@ -6,16 +6,16 @@
         "name": "NextChat",
         "html_url": "https:\/\/github.com\/ChatGPTNextWeb\/NextChat",
         "language": "TypeScript",
-        "description": "一个基于 Next.js 和 ChatGPT API 的开源聊天应用，主要用于快速搭建个性化网页版对话机器人，支持多轮对话、上下文记忆和自定义主题，适合部署私有化聊天助手。"
+        "description": "NextChat（原 ChatGPT-Next-Web）是一款开源的 AI 对话 Web 应用，部署后即可提供类似 ChatGPT 的浏览器界面，适合个人或团队自托管使用。它支持接入 OpenAI、Claude、Gemini 等多种主流大模型 API，用户可以自定义模型参数、管理会话与提示词模板，并可通过环境变量配置实现多用户、开启实时流式输出、导出聊天记录等功能。前端基于 Next.js 构建，轻量易部署，可一键部署到 Vercel 等平台，也支持 Docker 本地运行，广泛用于搭建私有 AI 助手或企业内部分享入口。"
     },
     "summary": {
         "initial_stars": 83931,
-        "current_stars": 88591,
-        "star_diff": 4660,
+        "current_stars": 88592,
+        "star_diff": 4661,
         "growth_rate": 5.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 88591,
             "forks": 59330,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 88592,
+            "forks": 59314,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

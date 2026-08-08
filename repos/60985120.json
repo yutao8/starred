@@ -6,16 +6,16 @@
         "name": "syncthing-macos",
         "html_url": "https:\/\/github.com\/syncthing\/syncthing-macos",
         "language": "Objective-C",
-        "description": "SyncThing for macOS 是一个开源的跨平台文件同步工具，主要用于在多台设备间实时同步文件夹，支持端到端加密和去中心化传输，无需依赖第三方云服务，适合注重隐私和数据自主权的用户在 macOS 系统上安全共享和备份文件。"
+        "description": "Syncthing 的 macOS 专用封装与集成工具，用于在 Mac 上以原生方式运行 Syncthing 文件同步服务。它通常提供菜单栏控制、自动启动、状态查看等功能，让你无需手动操作命令行即可管理同步任务。适合希望自托管、注重隐私、不想依赖第三方云盘的用户，在多台设备间直接加密传输文件。该项目基于开源的 Syncthing 生态，注重与 macOS 系统习惯融合，简化安装部署和日常维护。"
     },
     "summary": {
         "initial_stars": 3059,
-        "current_stars": 3852,
-        "star_diff": 793,
-        "growth_rate": 25.92,
+        "current_stars": 3856,
+        "star_diff": 797,
+        "growth_rate": 26.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 3852,
             "forks": 201,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3856,
+            "forks": 201,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

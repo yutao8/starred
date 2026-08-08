@@ -6,7 +6,7 @@
         "name": "cnm3u",
         "html_url": "https:\/\/github.com\/kaigedong\/cnm3u",
         "language": "Go",
-        "description": "用于生成和管理m3u格式播放列表的工具，支持自定义分类和节目单过滤，适用于个人媒体库或IPTV频道整理，可快速构建本地或远程播放源的索引文件。"
+        "description": "用于整理和共享中文网络直播源，以 M3U 播放列表格式为主，方便用户通过 VLC、PotPlayer 等常见播放器直接加载观看。通常适合需要集中订阅 IPTV 频道或网络流媒体地址的场景，免去逐个查找和手动维护链接的麻烦。仓库会按一定分类或命名组织源，便于筛选和切换，适合日常观看电视直播、网络频道或测试播放器兼容性时使用。"
     },
     "summary": {
         "initial_stars": 86,

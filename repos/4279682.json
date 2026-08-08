@@ -6,16 +6,16 @@
         "name": "fish-shell",
         "html_url": "https:\/\/github.com\/fish-shell\/fish-shell",
         "language": "Rust",
-        "description": "fish-shell 是一个用户友好的命令行 shell，专注于易用性和交互体验，提供语法高亮、自动补全、可视化编辑等功能，主要用于提升终端操作效率，适合开发者和系统管理员日常使用。"
+        "description": "一款主打易用和交互体验的命令行 shell，用语法高亮、实时自动补全、友好的错误提示和可搜索的历史记录降低新手使用门槛，也提供脚本语法和 Web 界面配置，适合需要频繁操作终端、追求开箱即用配置而无需繁琐定制脚本的开发者与系统管理员。"
     },
     "summary": {
         "initial_stars": 30185,
-        "current_stars": 33987,
-        "star_diff": 3802,
-        "growth_rate": 12.6,
+        "current_stars": 33993,
+        "star_diff": 3808,
+        "growth_rate": 12.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 33987,
             "forks": 2342,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33993,
+            "forks": 2344,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "var-dumper",
         "html_url": "https:\/\/github.com\/symfony\/var-dumper",
         "language": "PHP",
-        "description": "用于优雅地输出变量信息，主要提供美观、可展开的变量调试格式，支持递归检测、截断大型数据结构，常用于开发调试时查看数组、对象等内容，在命令行和浏览器中均能良好展示。"
+        "description": "用于替代 PHP 内置 var_dump 与 print_r 的调试组件，提供带语法高亮、可展开折叠的变量输出视图。在 Web 页面中以结构化树形展示数组、对象等复杂数据，在命令行中也能输出清晰的可视化信息，帮助开发者快速定位变量内容，避免因原生输出格式杂乱而反复测试。通常适合集成到 Symfony 框架或任意 PHP 项目中作为全局调试辅助，对大型嵌套数据结构尤其实用，能够显著提升排查效率。"
     },
     "summary": {
         "initial_stars": 7444,
-        "current_stars": 7428,
-        "star_diff": -16,
-        "growth_rate": -0.21,
+        "current_stars": 7427,
+        "star_diff": -17,
+        "growth_rate": -0.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 92
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 93
     },
     "history": [
         {
@@ -661,6 +661,13 @@
             "stars": 7428,
             "forks": 101,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7427,
+            "forks": 101,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

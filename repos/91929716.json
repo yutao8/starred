@@ -6,7 +6,7 @@
         "name": "proxylist",
         "html_url": "https:\/\/github.com\/fate0\/proxylist",
         "language": "HTML",
-        "description": "一个开源的代理 IP 列表收集与验证工具，主要用于抓取和检测公开代理的可用性，支持多种代理来源和验证机制，适合需要大量可用代理 IP 的爬虫或测试场景。"
+        "description": "用于采集并验证免费代理的可用性，自动从多个公开数据源获取代理地址，并发测试其连接速度和协议支持，筛掉失效条目后生成干净列表。输出格式友好，支持定制筛选条件，便于引入爬虫或抓取工具作为代理池。通常通过命令行运行或作为Python模块使用，适合需要大量匿名IP的场景。"
     },
     "summary": {
         "initial_stars": 989,

@@ -6,16 +6,16 @@
         "name": "KodExplorer",
         "html_url": "https:\/\/github.com\/kalcaddle\/KodExplorer",
         "language": "PHP",
-        "description": "KodExplorer 是一个功能强大的开源私有云和在线文件管理解决方案，主要用于搭建个人或企业级的 Web 文件管理系统。它提供类似桌面的界面，支持文件浏览、编辑、上传下载、权限管理、在线预览及基础办公功能，适合用于局域网或外网的文档协作与服务器文件管理。"
+        "description": "KodExplorer 是一款基于 PHP 和 JavaScript 的在线文件管理器，让用户通过浏览器直接管理服务器上的文件，无需 FTP 或命令行。它提供类似桌面操作系统的界面，支持文件上传下载、在线编辑文本与图片、预览音视频、压缩解压、复制移动和权限管理等功能。典型场景是快速搭建个人私有云盘、Web 站点文件管理或团队协作空间，尤其适合没有深厚技术背景的用户，在网页上完成服务器资源的日常维护。技术栈主要围绕 PHP 后端与前端交互组件，容易部署到主流虚拟主机或服务器中。整体上旨在降低文件管理门槛，让云端数据像本地磁盘一样直观可用。"
     },
     "summary": {
         "initial_stars": 6312,
-        "current_stars": 6383,
-        "star_diff": 71,
-        "growth_rate": 1.12,
+        "current_stars": 6384,
+        "star_diff": 72,
+        "growth_rate": 1.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 136
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 137
     },
     "history": [
         {
@@ -969,6 +969,13 @@
             "stars": 6383,
             "forks": 1812,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6384,
+            "forks": 1812,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

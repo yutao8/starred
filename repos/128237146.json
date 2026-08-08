@@ -6,16 +6,16 @@
         "name": "vuepress",
         "html_url": "https:\/\/github.com\/vuejs\/vuepress",
         "language": "JavaScript",
-        "description": "VuePress 是一个基于 Vue.js 的静态站点生成器，主要用于搭建技术文档网站。它支持响应式布局、自动生成侧边栏和导航栏、代码高亮、Markdown 扩展语法，并内置 Vue 响应式机制，适合构建高交互性的文档页面，广泛用于项目文档、博客和官网搭建。"
+        "description": "VuePress 是 Vue 官方出品的静态网站生成器，主要面向技术文档与知识库场景。它基于 Markdown 文件驱动内容组织，内置 Vue 组件系统，让文档可交互、可实时预览。通过简单的目录结构即可构建带有侧边栏、导航栏和全文搜索的响应式站点，并支持多语言与主题定制。适合团队快速搭建 API 文档、教程手册或个人博客，强调极简配置与开发体验，同时兼顾构建速度、SEO 优化和离线访问。"
     },
     "summary": {
         "initial_stars": 22776,
-        "current_stars": 22747,
-        "star_diff": -29,
+        "current_stars": 22746,
+        "star_diff": -30,
         "growth_rate": -0.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 22747,
             "forks": 4630,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22746,
+            "forks": 4630,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

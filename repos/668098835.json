@@ -6,16 +6,16 @@
         "name": "crawlProject",
         "html_url": "https:\/\/github.com\/xishandong\/crawlProject",
         "language": "JavaScript",
-        "description": "用于网页数据抓取与分析的Python爬虫项目，支持多网站并发采集、数据清洗及存储，通常适用于舆情监控、价格追踪和公开信息聚合等场景，内置反反爬机制与日志监控模块。"
+        "description": "这个仓库专注于网络数据采集，主要提供一套通用的爬虫解决方案，用于从目标网站批量抓取公开信息并整理成结构化数据。它通常适合需要定期获取网页内容、监控信息变动或为数据分析构建数据集的场景，可以解决手工复制效率低、维护成本高的问题。项目可能涉及请求调度、页面解析和结果存储等常见爬虫环节，适合有一定编程基础、希望快速搭建自定义采集流程的开发者使用。"
     },
     "summary": {
         "initial_stars": 1450,
-        "current_stars": 1759,
-        "star_diff": 309,
-        "growth_rate": 21.31,
+        "current_stars": 1760,
+        "star_diff": 310,
+        "growth_rate": 21.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 1759,
             "forks": 345,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1760,
+            "forks": 345,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

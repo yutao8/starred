@@ -6,16 +6,16 @@
         "name": "YOURLS",
         "html_url": "https:\/\/github.com\/YOURLS\/YOURLS",
         "language": "PHP",
-        "description": "YOURLS 是一个开源的轻量级 URL 缩短服务程序，允许用户自建短链接系统，支持自定义短网址、查看点击统计、管理链接等功能，适合用于社交媒体、营销活动或个人网站的链接管理和分享。"
+        "description": "YOURLS 是一款自托管的短链接服务系统，可让个人或组织自己搭建类似 Bitly 的网址缩短平台，解决对外部服务和数据控制不足的问题。它支持将长链接转换为自定义短链接，并提供点击次数统计、批量生成链接、开放 API 以及插件扩展等核心功能，方便与博客、营销活动或日常分享流程结合运行在 PHP 和 MySQL 环境下。通常适合需要维护品牌短链接、掌握访问数据并希望完全管理自身链接资产的应用场景。"
     },
     "summary": {
         "initial_stars": 11325,
-        "current_stars": 12146,
-        "star_diff": 821,
-        "growth_rate": 7.25,
+        "current_stars": 12148,
+        "star_diff": 823,
+        "growth_rate": 7.27,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 12146,
             "forks": 2077,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12148,
+            "forks": 2077,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

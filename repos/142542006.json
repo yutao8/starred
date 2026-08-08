@@ -6,16 +6,16 @@
         "name": "cloudpods",
         "html_url": "https:\/\/github.com\/yunionio\/cloudpods",
         "language": "Go",
-        "description": "基于Kubernetes的多云管理平台，支持异构资源统一纳管，提供虚拟机、容器、裸金属等服务的混合编排与运维能力，适用于企业级多云协同场景。"
+        "description": "Cloudpods 是面向多云环境的一体化云管理平台，用于统一纳管并操作各类公有云、私有云和本地虚拟化资源。它提供计算、存储和网络等核心资源的创建与运维能力，适合需要混合云治理、资源统一调度或构建私有云的场景。通常帮助团队降低多云管理的复杂性，提升资源利用率和交付效率。"
     },
     "summary": {
         "initial_stars": 2732,
-        "current_stars": 2927,
-        "star_diff": 195,
-        "growth_rate": 7.14,
+        "current_stars": 2929,
+        "star_diff": 197,
+        "growth_rate": 7.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 150
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 151
     },
     "history": [
         {
@@ -1067,6 +1067,13 @@
             "stars": 2927,
             "forks": 635,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2929,
+            "forks": 634,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

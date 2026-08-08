@@ -6,7 +6,7 @@
         "name": "lazyload",
         "html_url": "https:\/\/github.com\/tuupola\/lazyload",
         "language": "JavaScript",
-        "description": "用于实现图片懒加载的轻量级JavaScript库，主要用于提升网页性能，通过延迟加载屏幕外的图片资源减少初始加载时间，适合长页面或图片较多的网站使用，兼容性好且无需依赖其他框架。"
+        "description": "用于网页中图片、iframe 等资源的懒加载库，通过延迟加载减少初始流量和请求数，提升页面加载速度。当资源滚动到可视区域附近时才触发加载，适合长页面、瀑布流、电商网站等大量图片场景。提供原生 JavaScript 和 jQuery 两种集成方式，可灵活配置加载阈值、占位图及回退行为，兼容现代浏览器和旧环境。代码精简，易于嵌入现有前端项目，是优化首屏性能和节省带宽的实用工具。"
     },
     "summary": {
         "initial_stars": 8754,

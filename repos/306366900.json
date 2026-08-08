@@ -6,16 +6,16 @@
         "name": "casdoor",
         "html_url": "https:\/\/github.com\/casdoor\/casdoor",
         "language": "Go",
-        "description": "Casdoor是一个基于OAuth 2.0和OIDC协议的身份认证与单点登录系统，提供用户管理、权限控制、应用接入等功能，支持多种数据库和第三方登录方式，适用于多系统集成场景下的统一认证服务。"
+        "description": "用于身份认证与访问管理，提供单点登录、OIDC、OAuth2.0等标准协议支持，可嵌入自建应用或作为独立认证中心。通常适合需要统一登录、用户管理、第三方认证集成以及权限控制的场景，例如云原生应用、企业系统或开放平台。基于Go开发，部署轻量，并提供管理界面，方便管理员配置认证策略、组织和登录方式，减少开发者在身份验证上的重复工作。"
     },
     "summary": {
         "initial_stars": 11781,
-        "current_stars": 14130,
-        "star_diff": 2349,
-        "growth_rate": 19.94,
+        "current_stars": 14143,
+        "star_diff": 2362,
+        "growth_rate": 20.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14130,
             "forks": 1766,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14143,
+            "forks": 1768,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "Git-Credential-Manager-for-Windows",
         "html_url": "https:\/\/github.com\/microsoft\/Git-Credential-Manager-for-Windows",
         "language": "C#",
-        "description": "用于安全存储和管理 Git 操作中的用户凭据，支持 Windows 平台上的 HTTPS 和 SSH 连接，可与 Azure DevOps、GitHub、GitLab 等平台集成，提升凭据安全性与使用便利性。"
+        "description": "用于安全存储和自动管理 Git 操作所需的登录凭据，支持 GitHub、Azure DevOps、Bitbucket 等常见托管平台。它替代了旧版 Windows 凭据管理器，允许用户通过浏览器或设备流进行身份验证，并将令牌加密保存在本机凭据库中，避免每次推送或拉取时反复输入密码。适合在 Windows 环境下使用 Git 的开发者，尤其是需要对接远程仓库、启用双因素认证或切换多个账户的场景。该工具通常作为 Git 的凭据助手运行，能够透明处理认证流程，提升日常开发效率。"
     },
     "summary": {
         "initial_stars": 2903,

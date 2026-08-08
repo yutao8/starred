@@ -6,7 +6,7 @@
         "name": "html2Dash",
         "html_url": "https:\/\/github.com\/selfboot\/html2Dash",
         "language": "Python",
-        "description": "将 HTML 文档转换为 Dash 文档的工具，主要用于将现有的 HTML 内容快速迁移或集成到 Python 的 Dash 交互式网页应用中，方便开发者构建数据可视化界面。"
+        "description": "该工具用于将 HTML 代码转换为 Dash 应用界面，方便 Python 开发者复用现有网页结构。它主要解析 HTML 标签并映射为 Dash 的组件树，适合需要快速把静态页面或前端原型迁移到 Plotly Dash 框架的场景。通常可嵌入数据仪表板或内部工具开发流程，减少手工重写布局的工作量。由于依赖 HTML 解析和组件转换逻辑，适用于结构清晰的页面；复杂交互和动态脚本可能需要额外处理。总体而言，它解决了在 Dash 生态中复用传统前端代码的痛点，适合熟悉 HTML 但不熟悉 Dash 布局语法的用户。"
     },
     "summary": {
         "initial_stars": 209,

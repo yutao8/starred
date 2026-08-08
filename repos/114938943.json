@@ -6,16 +6,16 @@
         "name": "nginx-proxy-manager",
         "html_url": "https:\/\/github.com\/NginxProxyManager\/nginx-proxy-manager",
         "language": "JavaScript",
-        "description": "Nginx Proxy Manager 是一个基于 Nginx 的图形化反向代理管理工具，主要用于简化域名代理、SSL 证书申请（支持 Let's Encrypt）和端口转发配置。通过直观的 Web 界面，用户可轻松将多个网站服务暴露在公网，实现 HTTPS 访问与统一入口管理，适合个人项目、开发测试及多服务部署场景。"
+        "description": "提供 Web 图形化界面的 Nginx 反向代理管理工具，主要解决手动编辑 Nginx 配置繁琐易错的问题。用户可通过浏览器完成反向代理、域名绑定、HTTP\/HTTPS 端口映射等操作，并内置 Let's Encrypt 证书自动申请与续期功能，同时支持简单的访问限制和认证。通常以 Docker 容器方式部署，适合家用服务器、开发环境及中小型项目，用于将多个内部服务安全地暴露到公网。"
     },
     "summary": {
         "initial_stars": 26792,
-        "current_stars": 33795,
-        "star_diff": 7003,
-        "growth_rate": 26.14,
+        "current_stars": 33806,
+        "star_diff": 7014,
+        "growth_rate": 26.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 33795,
             "forks": 3847,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33806,
+            "forks": 3849,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

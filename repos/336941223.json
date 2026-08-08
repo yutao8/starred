@@ -6,7 +6,7 @@
         "name": "chanify-ios",
         "html_url": "https:\/\/github.com\/chanify\/chanify-ios",
         "language": "Objective-C",
-        "description": "Chanify 是一个基于 iOS 平台的消息推送工具，主要用于将设备间的消息、链接或文件通过加密通道快速同步。它支持自建服务器，提供轻量级、高隐私保护的推送服务，适合个人或小团队在多设备间安全传递信息，无需依赖第三方平台。"
+        "description": "用于在iPhone上接收Chanify服务端下发的自定义推送通知，是自建通知通道的移动端入口。它适合开发者将脚本、服务器告警、定时任务等消息通过HTTP接口转发到手机，无需依赖商业推送服务，即可获得即时提醒。通常需要配合自行部署的Chanify服务端使用，客户端负责展示通知内容、保留通知记录，并提供必要的选项配置，整体轻量、自主可控，适合个人或小团队自建消息中枢。"
     },
     "summary": {
         "initial_stars": 219,

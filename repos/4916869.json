@@ -6,16 +6,16 @@
         "name": "uuid",
         "html_url": "https:\/\/github.com\/ramsey\/uuid",
         "language": "PHP",
-        "description": "用于生成和操作 UUID（通用唯一标识符）的 PHP 库，支持版本 1 到 5 的 UUID，提供简单接口创建基于时间、随机或命名的唯一标识符，适用于分布式系统、日志追踪和资源标识等场景。"
+        "description": "用于生成和操作UUID的PHP库，遵循RFC 4122标准，支持基于时间、随机数和命名空间等多种UUID版本，并提供生成、解析、格式化与比较等常用操作。在分布式系统、数据库主键、会话标识等场景中，它能替代自增ID，避免唯一性冲突和数据泄露，同时保持较好的跨系统一致性。该库接口简洁、兼容主流PHP框架，适合需要统一标识符方案的项目直接集成。"
     },
     "summary": {
         "initial_stars": 12546,
-        "current_stars": 12637,
-        "star_diff": 91,
-        "growth_rate": 0.73,
+        "current_stars": 12636,
+        "star_diff": 90,
+        "growth_rate": 0.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 137
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 138
     },
     "history": [
         {
@@ -976,6 +976,13 @@
             "stars": 12637,
             "forks": 528,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12636,
+            "forks": 528,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

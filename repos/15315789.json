@@ -6,16 +6,16 @@
         "name": "Wox",
         "html_url": "https:\/\/github.com\/Wox-launcher\/Wox",
         "language": "Go",
-        "description": "Wox 是一个基于 Electron 的开源桌面启动器，主要用于快速搜索和启动应用程序、文件、文件夹及执行自定义命令，支持插件扩展与主题定制，适用于 Windows 平台，提升用户操作效率。"
+        "description": "Wox 是 Windows 平台上的开源快速启动器，类似 macOS 的 Alfred。通过自定义快捷键唤起搜索框，输入关键词即可实时搜索本地程序、文件，并支持网页搜索与插件扩展。基于 C# 构建，运行流畅，适合习惯键盘操作、希望减少鼠标切换的桌面用户，能显著提升日常软件启动和系统操作的效率。插件机制还允许按需扩展功能，覆盖更多个性化场景。"
     },
     "summary": {
         "initial_stars": 25760,
-        "current_stars": 27191,
-        "star_diff": 1431,
-        "growth_rate": 5.56,
+        "current_stars": 27197,
+        "star_diff": 1437,
+        "growth_rate": 5.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 27191,
             "forks": 2419,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27197,
+            "forks": 2419,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

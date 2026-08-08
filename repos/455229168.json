@@ -6,16 +6,16 @@
         "name": "immich",
         "html_url": "https:\/\/github.com\/immich-app\/immich",
         "language": "TypeScript",
-        "description": "Immich 是一个自托管的照片和视频备份解决方案，主要用于在个人服务器上安全存储、管理和同步来自手机、电脑等设备的媒体文件，支持跨平台访问、人脸识别、相册共享和高画质缩略图生成，适合注重隐私和数据自主权的用户。"
+        "description": "Immich 是一个开源的自托管照片和视频备份与管理系统，用于替代 Google Photos 等云服务。它支持自动备份手机相册，提供按时间线浏览、相册管理、元数据索引、人脸识别、智能搜索和分享功能。通常部署在 NAS 或个人服务器上，让用户完全掌控自己的媒体数据，解决云端存储隐私泄漏和付费容量限制问题。适合注重数据隐私、希望自建私有云相册的个人或家庭用户，也常被用于搭建团队或社区的共享图片库。"
     },
     "summary": {
         "initial_stars": 69123,
-        "current_stars": 109838,
-        "star_diff": 40715,
-        "growth_rate": 58.9,
+        "current_stars": 109953,
+        "star_diff": 40830,
+        "growth_rate": 59.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 109838,
             "forks": 6441,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 109953,
+            "forks": 6462,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

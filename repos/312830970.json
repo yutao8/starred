@@ -6,16 +6,16 @@
         "name": "wvp-GB28181-pro",
         "html_url": "https:\/\/github.com\/648540858\/wvp-GB28181-pro",
         "language": "Java",
-        "description": "基于GB28181标准的视频平台，支持设备接入、实时视频流转发、云台控制及录像回放功能，主要用于安防监控场景，适用于大规模视频设备统一管理与集成。"
+        "description": "用于构建基于GB28181国标协议的视频监控平台，支持设备接入、信令交互、视频流拉取与分发。通常配合ZLMediaKit流媒体服务使用，可对接海康、大华等主流厂商设备，核心功能包括SIP注册、目录查询、实时预览、录像回放和云台控制。通过WebRTC、RTSP、HLS等协议向业务系统输出视频流，适合需要快速搭建国标监控系统或集成到现有项目的场景。项目基于Java技术栈，后端采用Spring Boot，具备良好的扩展性和稳定性。"
     },
     "summary": {
         "initial_stars": 5985,
-        "current_stars": 7218,
-        "star_diff": 1233,
-        "growth_rate": 20.6,
+        "current_stars": 7219,
+        "star_diff": 1234,
+        "growth_rate": 20.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 7218,
             "forks": 2062,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7219,
+            "forks": 2062,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

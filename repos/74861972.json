@@ -6,7 +6,7 @@
         "name": "ajax-hook",
         "html_url": "https:\/\/github.com\/wendux\/ajax-hook",
         "language": "JavaScript",
-        "description": "一个轻量级 JavaScript 库，用于拦截和处理全局的 AJAX 请求（基于 XMLHttpRequest），可在不修改原始请求代码的情况下，统一监听、修改或阻止请求与响应，适用于调试、数据拦截和请求监控等场景。"
+        "description": "ajax-hook 用于拦截和修改浏览器中 XMLHttpRequest 的请求与响应，通过劫持原生对象并提供钩子机制，开发者可以在请求发起前、响应返回后等阶段插入自定义逻辑。它主要适用于统一管理页面内所有异步网络调用，比如批量注入请求头、全局错误捕获、日志记录、接口调试或模拟返回数据。该库设计轻量，不侵入业务代码，方便在大型前端项目中实现基础网络层增强，也适合用于插件开发或自动化测试场景。其回调方式简单灵活，能够有效控制请求流程，解决传统方案中难以同时处理多个拦截需求的问题。"
     },
     "summary": {
         "initial_stars": 2645,

@@ -6,7 +6,7 @@
         "name": "ntfsx",
         "html_url": "https:\/\/github.com\/Sailiy\/ntfsx",
         "language": "JavaScript",
-        "description": "用于修改NTFS文件系统权限的工具，主要支持Windows平台下的文件和文件夹权限调整，可辅助实现类似Unix的chmod功能，适用于需要精确控制磁盘访问权限的场景。"
+        "description": "ntfsx 是一个面向 NTFS 文件系统解析与操作的工具库，主要用于在 Windows 或跨平台环境下读取 NTFS 卷的元数据、目录结构和文件记录，适合开发磁盘体检、数据恢复、取证分析或文件系统管理类应用。它通常会提供对主文件表和属性列表的低层访问能力，以便开发者绕过标准文件 API 直接处理磁盘数据。如果涉及性能敏感场景，这类库还可能支持流式读取或只读挂载方式，以降低资源占用。实际使用时需要一定的文件系统知识，适合熟悉磁盘结构与二进制数据处理的开发者集成。"
     },
     "summary": {
         "initial_stars": 435,

@@ -6,7 +6,7 @@
         "name": "jd_sign_bot",
         "html_url": "https:\/\/github.com\/ruicky\/jd_sign_bot",
         "language": "Other",
-        "description": "用于自动签到京东账户的Python脚本，支持通过GitHub Actions定时运行，可实现每日自动领取京豆等任务，配置简单，适合希望自动化管理京东账号福利的用户。"
+        "description": "基于 GitHub Actions 的京东自动签到工具，主要用于定时执行京东商城签到、领京豆等日常任务，减轻手工操作负担。它通过调用京东移动端接口实现自动化，用户需要获取并配置自己的京东 Cookie，再按项目说明部署到仓库中，由定时触发器驱动脚本运行。适合希望稳定获取京豆、又不想每天手动操作的京东用户。项目基于 Python 实现，通常需要用户自行 Fork 仓库并设置安全变量，属于典型的个人自动化部署方案，对有一定动手能力的人较为友好。Cookie 可能定期失效，使用中需要留意更新。"
     },
     "summary": {
         "initial_stars": 4407,

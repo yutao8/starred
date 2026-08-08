@@ -6,16 +6,16 @@
         "name": "cron-expression",
         "html_url": "https:\/\/github.com\/dragonmantank\/cron-expression",
         "language": "PHP",
-        "description": "用于解析和操作CRON表达式的PHP库，支持生成下一次执行时间、检查时间有效性及计算执行周期，常用于任务调度系统与自动化运维工具集成，提供清晰的API处理标准与扩展CRON格式。"
+        "description": "解析和生成cron表达式的PHP类库，可准确计算下一次执行时间或生成符合规范的任务计划。它支持标准五字段格式以及秒、年等扩展字段，能处理数值范围、步长、通配符和月份\/星期别名，适用于定时任务调度、队列管理或需要按计划触发事件的系统。开发者可借助它验证表达式合法性，并在实际运行时动态获取未来若干次触发时间，避免手工计算误差。"
     },
     "summary": {
         "initial_stars": 4620,
-        "current_stars": 4676,
-        "star_diff": 56,
-        "growth_rate": 1.21,
+        "current_stars": 4677,
+        "star_diff": 57,
+        "growth_rate": 1.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 89
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 90
     },
     "history": [
         {
@@ -640,6 +640,13 @@
             "stars": 4676,
             "forks": 132,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4677,
+            "forks": 132,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

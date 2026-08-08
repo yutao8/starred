@@ -6,16 +6,16 @@
         "name": "jQuery-File-Upload",
         "html_url": "https:\/\/github.com\/blueimp\/jQuery-File-Upload",
         "language": "PHP",
-        "description": "用于实现文件上传功能的 jQuery 插件，支持多文件选择、拖拽上传、上传进度显示和图片预览，基于 HTML5 和 jQuery，兼容主流浏览器，可轻松集成到 Web 应用中实现高效、流畅的文件上传体验。"
+        "description": "jQuery-File-Upload 是一个基于 jQuery 的多功能文件上传插件，广泛用于 Web 前端实现各类文件上传需求。它支持单文件与多文件上传、拖拽选择文件、上传进度显示、文件预览与删除，并允许自定义上传队列和并发控制。插件提供多种传输方式，可无缝适配表单提交、FormData 或第三方上传代理，同时具备丰富的回调事件，便于与后端接口灵活对接。该插件尤其适合需要快速构建交互友好上传界面的传统技术栈，或是希望在不引入大型框架的情况下增强网页上传能力的项目，能够有效解决浏览器原生上传体验差、状态反馈缺失等问题。"
     },
     "summary": {
         "initial_stars": 30904,
-        "current_stars": 30727,
-        "star_diff": -177,
-        "growth_rate": -0.57,
+        "current_stars": 30723,
+        "star_diff": -181,
+        "growth_rate": -0.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 165
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 166
     },
     "history": [
         {
@@ -1172,6 +1172,13 @@
             "stars": 30727,
             "forks": 7758,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 30723,
+            "forks": 7757,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

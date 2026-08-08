@@ -6,7 +6,7 @@
         "name": "php-spider",
         "html_url": "https:\/\/github.com\/mvdbos\/php-spider",
         "language": "PHP",
-        "description": "一个基于 PHP 的网络爬虫工具，用于抓取和解析网页内容，支持灵活的规则配置与数据提取，适用于自动化采集、数据挖掘等场景。"
+        "description": "用于PHP环境的网页爬虫框架，可快速抓取页面内容并自动提取链接，支持自定义抓取规则、队列管理和爬取深度控制。通常适合中小规模的数据采集任务，比如收集商品信息、监控页面更新、做站点内容聚合。底层基于Symfony DomCrawler和Guzzle HTTP客户端，方便解析HTML和发送请求，并可通过事件机制扩展功能。用法简洁，适合有一定PHP基础、需要快速搭建爬虫脚本的开发者，但不适用于超大分布式爬取场景。"
     },
     "summary": {
         "initial_stars": 1335,
@@ -14,8 +14,8 @@
         "star_diff": 9,
         "growth_rate": 0.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-26 00:00",
-        "data_points_count": 31
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 32
     },
     "history": [
         {
@@ -234,6 +234,13 @@
             "stars": 1344,
             "forks": 230,
             "file": "dist\/2026072600\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1344,
+            "forks": 229,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "PHPMailer",
         "html_url": "https:\/\/github.com\/PHPMailer\/PHPMailer",
         "language": "PHP",
-        "description": "PHPMailer是一个用于发送电子邮件的PHP库，支持通过SMTP、Mail、Sendmail等多种方式发送文本和HTML邮件，提供对附件、嵌入式图像、SMTP身份验证、加密传输等功能的便捷支持，常用于Web应用中实现邮件通知、用户注册验证、密码重置等功能。"
+        "description": "PHPMailer是PHP最常用的邮件发送库，用于在PHP应用中通过SMTP或本地邮件方式发送HTML和纯文本邮件，支持附件、内嵌图片、身份验证、加密传输（TLS\/SSL）以及批量发信等特性。它适合替代PHP内置的mail()函数，尤其适合需要可靠投递、调试方便或应对复杂邮件场景的项目，如用户注册验证、密码重置、系统通知等。该库接口简洁，兼容主流PHP版本，是众多框架和CMS内置的邮件组件。"
     },
     "summary": {
         "initial_stars": 21554,
-        "current_stars": 22276,
-        "star_diff": 722,
+        "current_stars": 22277,
+        "star_diff": 723,
         "growth_rate": 3.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 22276,
             "forks": 9815,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22277,
+            "forks": 9815,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

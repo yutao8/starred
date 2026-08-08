@@ -6,16 +6,16 @@
         "name": "pandoc",
         "html_url": "https:\/\/github.com\/jgm\/pandoc",
         "language": "Haskell",
-        "description": "一个通用的文档格式转换工具，主要用于在不同标记语言（如Markdown、HTML、LaTeX、Docx等）之间进行高质量转换，支持扩展语法和自定义过滤器，广泛应用于学术写作、文档自动化和出版流程中。"
+        "description": "用于在多种标记格式之间进行转换，支持 Markdown、HTML、LaTeX、Word、EPUB、PDF 等常见格式。其核心能力是统一的内容处理管线，让同一份源文档轻松生成不同排版的目标文件，广泛应用于学术写作、书籍出版和静态博客生成等场景。适合需要反复转换文档格式的用户，也常集成到自动化流程中批量处理文档。能有效解决格式转换繁琐、排版不统一、人工复制粘贴效率低下等问题。"
     },
     "summary": {
         "initial_stars": 38105,
-        "current_stars": 45742,
-        "star_diff": 7637,
-        "growth_rate": 20.04,
+        "current_stars": 45770,
+        "star_diff": 7665,
+        "growth_rate": 20.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 45742,
             "forks": 3938,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 45770,
+            "forks": 3942,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

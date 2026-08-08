@@ -6,16 +6,16 @@
         "name": "codelf",
         "html_url": "https:\/\/github.com\/unbug\/codelf",
         "language": "JavaScript",
-        "description": "通过分析超过 200 万个开源项目中的变量和函数命名，Codelf 帮助开发者发现具有语义意义的命名模式和命名推荐，提升代码可读性与一致性，支持集成到主流编辑器中实时提供建议。"
+        "description": "Codelf 是一个辅助开发者命名变量、函数和类的工具，通过搜索 GitHub、GitLab 等公开代码库中的真实用法，为给定中文或英文描述推荐最贴近语义的英文命名；它同时支持从现有代码反向搜索相关命名模式，并集成到 VS Code、JetBrains 等主流编辑器中，适合在写代码时为命名发愁、希望统一团队命名风格或快速找到行业通用术语的场景，减少因命名不规范导致的阅读和重构成本。"
     },
     "summary": {
         "initial_stars": 14176,
-        "current_stars": 14151,
-        "star_diff": -25,
+        "current_stars": 14150,
+        "star_diff": -26,
         "growth_rate": -0.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 130
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 131
     },
     "history": [
         {
@@ -927,6 +927,13 @@
             "stars": 14151,
             "forks": 959,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14150,
+            "forks": 959,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

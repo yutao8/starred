@@ -6,16 +6,16 @@
         "name": "iproute2mac",
         "html_url": "https:\/\/github.com\/brona\/iproute2mac",
         "language": "Python",
-        "description": "iproute2mac 是一个为 macOS 系统提供的工具集，旨在将 Linux 中常用的 iproute2 命令行工具（如 ip）移植到 macOS 平台，使其用户能够使用熟悉的网络配置语法进行网络管理。该项目主要用于简化跨平台网络调试和自动化脚本的编写，特别适合需要在 Linux 和 macOS 之间迁移网络操作命令的开发者和系统管理员。它通过封装 macOS 原生网络命令（如 ifconfig、route 等）来模拟 iproute2 的行为，提供更一致的使用体验。"
+        "description": "用于在 macOS 上提供 Linux iproute2 网络管理工具的命令行封装，让用户可以直接使用 ip 命令查看和配置网络接口、路由表、ARP 缓存等网络参数。它解决了 macOS 自带 ifconfig、route 等命令与 Linux 行为不一致的问题，适合需要在 Mac 上编写或执行依赖 ip 命令脚本的开发者和运维人员。通常通过 Homebrew 安装，并尽量保持与 Linux 版本相近的参数和输出格式。"
     },
     "summary": {
         "initial_stars": 958,
-        "current_stars": 1053,
-        "star_diff": 95,
-        "growth_rate": 9.92,
+        "current_stars": 1054,
+        "star_diff": 96,
+        "growth_rate": 10.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 1053,
             "forks": 77,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1054,
+            "forks": 77,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

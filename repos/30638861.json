@@ -6,16 +6,16 @@
         "name": "fingerprintjs",
         "html_url": "https:\/\/github.com\/fingerprintjs\/fingerprintjs",
         "language": "TypeScript",
-        "description": "用于精准识别网页访问者设备的前端库，通过采集浏览器和设备的多种指纹信息实现跨会话追踪，适用于反欺诈、账户安全和用户行为分析场景，无需依赖 Cookie 即可识别匿名访客。"
+        "description": "FingerprintJS 是一个用于浏览器指纹识别的 JavaScript 库，通过分析浏览器多种属性（如用户代理、屏幕分辨率、时区、插件列表等）生成稳定的设备标识符。它能够在用户清除 Cookie 或使用隐身模式时仍有效识别设备，常用于反欺诈、风控、账户安全、广告防作弊和用户行为追踪等场景。该库支持现代主流浏览器，提供了简洁的 API，自动处理属性采集和哈希计算，适合需要无痕识别或降低对 Cookie 依赖的 Web 应用。"
     },
     "summary": {
         "initial_stars": 24934,
-        "current_stars": 28100,
-        "star_diff": 3166,
-        "growth_rate": 12.7,
+        "current_stars": 28170,
+        "star_diff": 3236,
+        "growth_rate": 12.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28100,
             "forks": 2601,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28170,
+            "forks": 2604,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

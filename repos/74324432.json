@@ -6,7 +6,7 @@
         "name": "ide-helper",
         "html_url": "https:\/\/github.com\/swoole\/ide-helper",
         "language": "PHP",
-        "description": "为 Swoole 扩展提供 IDE 智能提示和代码补全支持，通过生成辅助类和注释文件，帮助开发者在 PHPStorm、VSCode 等编辑器中获得更准确的 Swoole API 提示，提升开发效率与代码准确性。"
+        "description": "为Swoole扩展提供IDE辅助类型定义，使PHP IDE（如PhpStorm）能识别Swoole的类、方法和常量，实现自动补全、参数提示与静态分析。Swoole本身以C扩展形式运行，传统IDE无法解析其符号，此工具通过生成stub文件弥补这一空缺。适用于基于Swoole进行异步网络通信、协程服务或长驻内存应用的开发者，在编码阶段即可获得准确的类型检查。通常通过Composer安装，使用时应与Swoole扩展版本相匹配。"
     },
     "summary": {
         "initial_stars": 507,

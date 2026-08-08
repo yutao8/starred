@@ -6,16 +6,16 @@
         "name": "ip2region",
         "html_url": "https:\/\/github.com\/lionsoul2014\/ip2region",
         "language": "Go",
-        "description": "ip2region 是一个高效的 IP 地址定位库，提供精准的 IP 归属地查询功能，支持多种编程语言，适用于日志分析、用户定位和安全审计等场景。"
+        "description": "面向开发者的离线IP地址定位库，通过内置的二进制数据文件实现毫秒级归属地查询，覆盖全球网络运营商和行政区划信息。特别适合需要高并发、低延迟的日志分析、用户画像、反欺诈风控等场景，支持Java、Python、PHP等多种语言接入，同时提供标准化的查询接口和自定义数据更新能力。不依赖外部API，兼顾隐私与稳定性，通常用于替代在线IP定位服务。"
     },
     "summary": {
         "initial_stars": 17925,
-        "current_stars": 19386,
-        "star_diff": 1461,
-        "growth_rate": 8.15,
+        "current_stars": 19391,
+        "star_diff": 1466,
+        "growth_rate": 8.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 19386,
             "forks": 3042,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19391,
+            "forks": 3042,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

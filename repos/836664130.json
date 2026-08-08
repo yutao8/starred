@@ -6,16 +6,16 @@
         "name": "godoos",
         "html_url": "https:\/\/github.com\/phpk\/godoos",
         "language": "JavaScript",
-        "description": "一个基于 Go 语言开发的轻量级待办事项（To-Do）命令行管理工具，主要用于帮助用户高效管理日常任务，支持任务增删改查、状态更新及本地数据持久化存储，适用于追求简洁效率的命令行用户。"
+        "description": "godoos 是一个采用 Go 语言实现的待办事项管理工具，主要帮助用户记录日常任务、跟踪执行进度和标记完成状态。它通常以简洁的命令行界面或轻量级 Web 形式运行，适合个人开发者或小团队进行简单的任务规划。项目名称中的“Go”点明技术栈，“do”则暗示其核心围绕行动与任务展开，目前具体功能细节仍需参考仓库文档或源码。"
     },
     "summary": {
         "initial_stars": 217,
-        "current_stars": 392,
-        "star_diff": 175,
-        "growth_rate": 80.65,
+        "current_stars": 393,
+        "star_diff": 176,
+        "growth_rate": 81.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 95
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 96
     },
     "history": [
         {
@@ -682,6 +682,13 @@
             "stars": 392,
             "forks": 68,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 393,
+            "forks": 68,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

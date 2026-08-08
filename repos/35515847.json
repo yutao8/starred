@@ -6,16 +6,16 @@
         "name": "blocklist-ipsets",
         "html_url": "https:\/\/github.com\/firehol\/blocklist-ipsets",
         "language": "Shell",
-        "description": "提供一系列用于防火墙规则的IP集合黑名单，主要用于阻止恶意流量，如垃圾邮件、暴力破解和网络攻击，支持多种格式，便于集成到iptables等防火墙工具中，提升网络安全性。"
+        "description": "用于生成和维护面向网络防火墙的恶意 IP 地址集合，汇总多个公开威胁情报源的扫描器、僵尸网络、垃圾邮件来源等恶意 IP，输出为 ipset 规则格式。通过配合 iptables 或 nftables 等防火墙工具，可实现对恶意流量的自动封禁和过滤。仓库定期更新数据，并提供分类清晰的子列表，适合需要针对已知威胁源做快速安全防护的网络管理员，也可用于安全研究、入侵检测以及流量审计等场景。"
     },
     "summary": {
         "initial_stars": 3450,
-        "current_stars": 3891,
-        "star_diff": 441,
-        "growth_rate": 12.78,
+        "current_stars": 3889,
+        "star_diff": 439,
+        "growth_rate": 12.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 3891,
             "forks": 421,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3889,
+            "forks": 421,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

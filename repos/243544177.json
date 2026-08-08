@@ -6,7 +6,7 @@
         "name": "mirai-api-http",
         "html_url": "https:\/\/github.com\/project-mirai\/mirai-api-http",
         "language": "Kotlin",
-        "description": "提供基于 Mirai 框架的 QQ 机器人 HTTP 接口，支持通过 HTTP 请求收发消息、管理好友群组等操作，便于开发者快速构建和管理 QQ 机器人功能，常用于自动化消息处理和第三方应用集成。"
+        "description": "为 Mirai QQ 机器人框架提供 HTTP API，使开发者不必依赖 Kotlin 或 JVM，即可通过 HTTP 请求控制机器人。它支持消息收发、好友与群管理、事件回调等核心功能，适合用 Python、JavaScript 等语言编写机器人逻辑，或将机器人接入现有 Web 服务。通常用于搭建独立于 Mirai 进程的后端，解决跨语言集成与异步通信问题。"
     },
     "summary": {
         "initial_stars": 1673,

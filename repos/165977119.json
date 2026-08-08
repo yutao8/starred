@@ -6,16 +6,16 @@
         "name": "mmewmd_crack_for_wenshu",
         "html_url": "https:\/\/github.com\/sml2h3\/mmewmd_crack_for_wenshu",
         "language": "JavaScript",
-        "description": "该项目主要用于解析和处理中国裁判文书网的数据，提供绕过反爬机制的抓取工具，适合需要批量获取司法文书数据的研究或分析场景，常用于法律科技、司法大数据等领域。"
+        "description": "该仓库提供针对中国裁判文书网反爬机制的破解方案，主要处理页面中的加密参数与动态验证码识别。通常用于辅助爬虫开发者获取公开法律文书数据，解决请求过程中遇到的签名校验、数据混淆等障碍，适合需要批量采集裁判文书或开展司法数据研究的使用场景。请注意合规使用，遵守网站服务条款和相关法律法规。"
     },
     "summary": {
         "initial_stars": 475,
-        "current_stars": 476,
-        "star_diff": 1,
-        "growth_rate": 0.21,
+        "current_stars": 475,
+        "star_diff": 0,
+        "growth_rate": 0,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 12
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 13
     },
     "history": [
         {
@@ -101,6 +101,13 @@
             "stars": 476,
             "forks": 185,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 475,
+            "forks": 185,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

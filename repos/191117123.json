@@ -6,16 +6,16 @@
         "name": "xray",
         "html_url": "https:\/\/github.com\/chaitin\/xray",
         "language": "Vue",
-        "description": "一款功能强大的安全评估工具，主要用于自动化扫描和检测Web应用程序漏洞，支持多种常见漏洞类型的识别与验证，适用于安全研究人员和渗透测试人员进行高效的安全测试。"
+        "description": "用于Web安全漏洞检测的被动扫描工具，常与Burp Suite等代理配合，通过流量分析自动发现并验证SQL注入、XSS、命令注入等常见漏洞。适合安全测试人员在渗透测试和漏洞评估中使用，也可以作为持续集成中的安全扫描环节。它通过监听代理流量并发送检测Payload，减少手动测试成本，提升漏洞发现效率。支持多种漏洞类型和自定义插件，便于集成到现有安全流程。"
     },
     "summary": {
         "initial_stars": 10996,
-        "current_stars": 11692,
-        "star_diff": 696,
-        "growth_rate": 6.33,
+        "current_stars": 11694,
+        "star_diff": 698,
+        "growth_rate": 6.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 11692,
             "forks": 1875,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11694,
+            "forks": 1875,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

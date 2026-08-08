@@ -6,16 +6,16 @@
         "name": "YurunOAuthLogin",
         "html_url": "https:\/\/github.com\/Yurunsoft\/YurunOAuthLogin",
         "language": "PHP",
-        "description": "用于实现第三方登录的 PHP 类库，支持 GitHub、QQ、微信、微博等多家平台的 OAuth 授权登录，提供统一调用接口，方便开发者快速集成多种社交登录功能，适用于需要用户通过第三方账号登录的 Web 应用场景。"
+        "description": "开源 PHP 库 YurunOAuthLogin 用于快速接入第三方 OAuth 授权登录，支持微信、QQ、微博、GitHub、Gitee 等主流平台，提供统一调用方式，简化授权流程，适合需要社交账号登录、用户绑定或统一身份认证的 Web 项目，尤其便于开发者避免重复对接不同平台接口的繁琐工作。"
     },
     "summary": {
         "initial_stars": 432,
-        "current_stars": 436,
-        "star_diff": 4,
-        "growth_rate": 0.93,
+        "current_stars": 434,
+        "star_diff": 2,
+        "growth_rate": 0.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-22 00:00",
-        "data_points_count": 26
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 27
     },
     "history": [
         {
@@ -199,6 +199,13 @@
             "stars": 436,
             "forks": 112,
             "file": "dist\/2026072200\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 434,
+            "forks": 112,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

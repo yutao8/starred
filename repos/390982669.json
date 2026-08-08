@@ -6,16 +6,16 @@
         "name": "natpass",
         "html_url": "https:\/\/github.com\/lwch\/natpass",
         "language": "Go",
-        "description": "NatPass 是一个轻量级的内网穿透和反向代理工具，主要用于在无公网 IP 的环境下将本地服务暴露到公网，支持多平台部署，适用于远程访问、服务调试和轻量级隧道代理，配置简单，依赖少，适合个人和开发者使用。"
+        "description": "natpass 是一款适用于内网穿透和远程访问的工具，帮助用户将处于 NAT 或防火墙后的本地服务安全暴露到公网，实现跨网络的设备连接与管理。它主要支持 TCP、UDP 流量转发，也涵盖远程桌面、SSH 和 VNC 等常见远程操作场景，适合运维人员远程维护服务器、开发人员调试本地接口或访问家庭内网设备。工具通常以 Go 编写，具有部署简单、占用资源低的特点，并附带 Web 端管理界面，便于集中配置连接规则与查看会话状态。它的定位与 frp、nps 类似，但更强调实时交互与远程控制体验，适合需要高效、稳定穿透连接的团队或个人使用。"
     },
     "summary": {
         "initial_stars": 4419,
-        "current_stars": 4452,
-        "star_diff": 33,
-        "growth_rate": 0.75,
+        "current_stars": 4451,
+        "star_diff": 32,
+        "growth_rate": 0.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 99
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 100
     },
     "history": [
         {
@@ -710,6 +710,13 @@
             "stars": 4452,
             "forks": 487,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4451,
+            "forks": 486,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

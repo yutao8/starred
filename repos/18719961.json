@@ -6,16 +6,16 @@
         "name": "Tieba-Cloud-Sign",
         "html_url": "https:\/\/github.com\/MoeNetwork\/Tieba-Cloud-Sign",
         "language": "PHP",
-        "description": "用于百度贴吧的自动云端签到工具，支持多账号管理与定时任务，可自动完成每日签到、获取经验值及奖励，常用于维护贴吧等级与积分，适用于个人用户或小规模自动化需求。"
+        "description": "贴吧云签到工具，用于百度贴吧的自动签到服务，支持多账号同时管理和定时执行每日签到任务。用户只需配置好贴吧账号和需要签到的贴吧列表，即可在服务器或云主机上长期运行，免去每天手动打开贴吧签到的麻烦。适合拥有多个贴吧账号、希望稳定获取贴吧经验值的用户，也适合个人站长或脚本爱好者部署在虚拟主机上使用。该工具通常采用PHP开发，界面简洁，部署后可通过网页管理账号和签到状态，并支持查看历史签到记录。"
     },
     "summary": {
         "initial_stars": 1889,
-        "current_stars": 1966,
-        "star_diff": 77,
-        "growth_rate": 4.08,
+        "current_stars": 1967,
+        "star_diff": 78,
+        "growth_rate": 4.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 112
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 113
     },
     "history": [
         {
@@ -801,6 +801,13 @@
             "stars": 1966,
             "forks": 424,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1967,
+            "forks": 424,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

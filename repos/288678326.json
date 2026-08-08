@@ -6,7 +6,7 @@
         "name": "PanIndex",
         "html_url": "https:\/\/github.com\/px-org\/PanIndex",
         "language": "Go",
-        "description": "PanIndex 是一个开源的多功能网盘聚合与文件索引工具，支持将多个网盘账户整合到统一界面中进行管理，方便用户集中浏览、搜索和分享跨平台存储的文件，适用于个人云存储整合及资源分享场景。"
+        "description": "用于搭建网盘目录索引和文件分享页面的工具，支持接入多种常见云存储服务，将分散在不同网盘中的文件统一展示在Web界面上，并提供直链下载功能。通常适合个人或小团队用来快速构建在线文件列表，替代传统的网盘导航站，或作为临时文件分享入口。用户可以按目录浏览文件，无需登录即可下载公开资源，部署方式相对灵活，常见于服务器或Serverless环境。核心价值在于简化多网盘管理，提升文件检索和分享效率。"
     },
     "summary": {
         "initial_stars": 1397,
@@ -14,8 +14,8 @@
         "star_diff": 8,
         "growth_rate": 0.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 1405,
             "forks": 253,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1405,
+            "forks": 252,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

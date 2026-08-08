@@ -6,16 +6,16 @@
         "name": "pagescms",
         "html_url": "https:\/\/github.com\/pages-cms\/pages-cms",
         "language": "TypeScript",
-        "description": "PagesCMS 是一个基于 Node.js 的轻量级内容管理系统，主要用于快速搭建静态页面网站，支持页面编辑、模板管理及内容版本控制，适合需要简单维护宣传页、文档站点或博客的开发者使用，具备易部署、可扩展的特点。"
+        "description": "PagesCMS 是一套面向静态网站或小型站点设计的内容管理工具，主要用于让非技术人员通过直观的网页界面维护页面内容，而不需要直接修改代码或标记文件。它通常适合博客、文档站、产品落地页等场景，能降低内容发布的门槛，让添加或更新文章、页面变得更加方便。这类系统一般会与现有静态站点构建流程结合，在后台编辑完成后生成或同步更新站点文件，适合希望保留静态站点性能又需要简洁管理入口的团队或个人。"
     },
     "summary": {
         "initial_stars": 2634,
-        "current_stars": 3895,
-        "star_diff": 1261,
-        "growth_rate": 47.87,
+        "current_stars": 3899,
+        "star_diff": 1265,
+        "growth_rate": 48.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 3895,
             "forks": 514,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3899,
+            "forks": 516,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

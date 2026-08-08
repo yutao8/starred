@@ -6,7 +6,7 @@
         "name": "decrypt-mflac-frida",
         "html_url": "https:\/\/github.com\/yllhwa\/decrypt-mflac-frida",
         "language": "JavaScript",
-        "description": "用于解密MFLAC格式音频文件的Frida脚本，通过内存劫持实现动态解密，适用于逆向分析音乐应用的本地加密音频文件，提取原始音频数据。"
+        "description": "项目用于解密QQ音乐下载的mflac加密音频文件，通过Frida框架对客户端运行时进行动态插桩，获取解密密钥后将mflac还原为标准FLAC格式。通常适合需要离线播放或转换自己已缓存音乐文件的用户，解决因格式加密而无法直接使用的问题。它利用运行时挂钩绕过静态分析，实现实时解密，操作上更适合有一定技术基础的用户。使用时应关注版权限制，仅建议用于个人合法备份。"
     },
     "summary": {
         "initial_stars": 385,

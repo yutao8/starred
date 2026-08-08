@@ -6,16 +6,16 @@
         "name": "uikit",
         "html_url": "https:\/\/github.com\/uikit\/uikit",
         "language": "HTML",
-        "description": "UIkit 是一个轻量级、模块化的前端框架，主要用于快速构建响应式网页界面。它提供了一系列预设的 CSS 组件和 JavaScript 交互功能，支持网格布局、表单样式、导航菜单、模态框等常见 UI 元素，适用于现代 Web 项目的高效开发。"
+        "description": "用于构建现代响应式网站的前端界面框架，提供排版、按钮、导航、表单等一系列跨设备组件。通过基于LESS的模块化架构，可灵活选择组件并按需定制主题样式，适合快速搭建企业官网、营销页面或Web应用界面。它强调语义化标记、易用性和移动端优先，既适合初学者入门，也能满足专业前端对组件扩展和样式覆盖的需求。"
     },
     "summary": {
         "initial_stars": 18446,
-        "current_stars": 18537,
-        "star_diff": 91,
+        "current_stars": 18536,
+        "star_diff": 90,
         "growth_rate": 0.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 18537,
             "forks": 2289,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18536,
+            "forks": 2288,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

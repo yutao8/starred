@@ -6,7 +6,7 @@
         "name": "purge-wrangler",
         "html_url": "https:\/\/github.com\/mayankk2308\/purge-wrangler",
         "language": "Shell",
-        "description": "用于自动清理 GitHub Actions 运行记录的轻量级工具，通过 API 批量删除指定仓库中的工作流历史，帮助节省存储空间并提升仓库管理效率，特别适用于频繁执行 CI\/CD 任务的项目维护。"
+        "description": "Purge-wrangler 是面向 macOS 用户的开源实用工具，核心用途是管理外接图形卡的驱动加载，尤其针对使用 AMD 独立显卡的 Mac 机型。它通过清除或屏蔽系统自带的 AMD 显卡驱动，解决系统升级后外接 GPU 无法正常输出、黑屏或内核崩溃等问题。典型使用场景是运行 macOS Mojave 及以上版本、通过雷电接口连接 eGPU 的用户，在驱动冲突导致显示异常时执行修复。工具提供命令行交互，操作简单，适合有一定命令行经验的技术用户。需要留意版本兼容性，使用时需关闭系统安全设置。"
     },
     "summary": {
         "initial_stars": 998,

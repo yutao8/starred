@@ -6,16 +6,16 @@
         "name": "VirtualXposed",
         "html_url": "https:\/\/github.com\/android-hacker\/VirtualXposed",
         "language": "Java",
-        "description": "VirtualXposed是一款无需刷机即可使用Xposed框架的Android工具，通过虚拟化技术创建隔离环境来运行Xposed模块，支持大部分常用Xposed插件，适用于需要免root体验Xposed功能的用户，方便安全地进行应用双开、功能增强和系统定制。"
+        "description": "VirtualXposed 是一个基于 VirtualApp 与 Xposed 框架的虚拟环境工具，用于在免 Root 条件下运行 Xposed 模块，实现对应用行为的修改和增强。主要面向需要调试、逆向分析或定制应用功能的开发者与安全研究人员，适合在不影响真机系统的情况下测试模块兼容性，或安全地管理应用权限。它通过创建独立的虚拟空间加载模块，避免了对设备系统的直接改动，降低了使用门槛和风险。"
     },
     "summary": {
         "initial_stars": 15730,
-        "current_stars": 16043,
-        "star_diff": 313,
-        "growth_rate": 1.99,
+        "current_stars": 16045,
+        "star_diff": 315,
+        "growth_rate": 2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 16043,
             "forks": 2530,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16045,
+            "forks": 2530,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

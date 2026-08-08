@@ -6,7 +6,7 @@
         "name": "Vundle.vim",
         "html_url": "https:\/\/github.com\/VundleVim\/Vundle.vim",
         "language": "Vim Script",
-        "description": "Vundle.vim 是一个用于管理 Vim 插件的插件管理器，允许用户通过简单的配置自动安装、更新和卸载插件。它支持从 GitHub 等平台直接获取插件，简化了 Vim 配置的维护过程，适合希望通过代码方式管理编辑器环境的 Vim 用户。"
+        "description": "Vundle.vim 是 Vim 编辑器的插件管理工具，通过修改 .vimrc 配置文件列出所需插件，即可用命令自动完成安装、更新、搜索与清理。它支持从 GitHub 等仓库获取插件，并能管理插件间的依赖关系，省去手动下载和整理目录的麻烦。典型使用场景包括快速搭建 Vim 环境、同步多台机器的插件配置，以及解决插件卸载不干净等问题。适合希望简化插件维护流程的 Vim 用户。"
     },
     "summary": {
         "initial_stars": 24020,
@@ -14,8 +14,8 @@
         "star_diff": -95,
         "growth_rate": -0.4,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 156
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 157
     },
     "history": [
         {
@@ -1109,6 +1109,13 @@
             "stars": 23925,
             "forks": 2540,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23925,
+            "forks": 2539,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

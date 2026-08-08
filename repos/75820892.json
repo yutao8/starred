@@ -6,16 +6,16 @@
         "name": "vbot",
         "html_url": "https:\/\/github.com\/Hanson\/vbot",
         "language": "PHP",
-        "description": "一个基于 Python 的聊天机器人框架，主要用于快速搭建 QQ 机器人，支持插件扩展、消息过滤和自动化回复，适合在 Windows 和 Linux 系统上运行，通过模拟登录实现无需官方 API 的 QQ 消息收发。"
+        "description": "vbot 是一款基于 PHP 的微信个人号机器人工具，主要用于帮助用户实现个人微信的自动化操作，例如自动回复消息、监听群聊或好友消息、执行定时发送任务等。它通常适合需要管理多个社群或频繁处理微信消息的运营人员，通过简单配置即可让机器人代替人工完成重复性互动，减少日常值守成本。该项目依靠模拟微信网页端行为来运行，适合对消息有实时响应需求、希望将微信操作与自有脚本或服务结合的场景。使用前需要了解微信个人号的使用风险，并注意账号安全。"
     },
     "summary": {
         "initial_stars": 4258,
-        "current_stars": 4573,
-        "star_diff": 315,
-        "growth_rate": 7.4,
+        "current_stars": 4572,
+        "star_diff": 314,
+        "growth_rate": 7.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 4573,
             "forks": 756,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4572,
+            "forks": 756,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

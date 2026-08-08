@@ -6,16 +6,16 @@
         "name": "discourse",
         "html_url": "https:\/\/github.com\/discourse\/discourse",
         "language": "Ruby",
-        "description": "Discourse 是一个现代化的开源讨论平台，主要用于构建社区论坛、用户支持站点和讨论组。它支持实时通知、私信、话题分类、SEO 优化和强大的管理工具，可通过插件和主题高度定制，通常用于替代传统论坛软件如 phpBB 或 vBulletin，适合需要活跃用户互动的在线社区。"
+        "description": "Discourse 是一款开源的现代论坛与在线社区讨论平台，主要用于搭建高互动性的交流社区、技术支持论坛或产品反馈站。它提供分类、标签、私信、通知、实时刷新、细粒度权限等完整讨论功能，并通过提升新话题可见度、抑制水贴和引导理性回应等机制改善讨论质量。其界面响应迅速，支持移动端友好浏览，适合需要长期沉淀内容和维护用户关系的团队部署自托管服务。技术栈基于 Ruby on Rails 与 Ember.js，通常搭配 PostgreSQL 和 Redis 使用，可通过插件和主题深度定制。"
     },
     "summary": {
         "initial_stars": 44379,
-        "current_stars": 47611,
-        "star_diff": 3232,
-        "growth_rate": 7.28,
+        "current_stars": 47622,
+        "star_diff": 3243,
+        "growth_rate": 7.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 47611,
             "forks": 8979,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 47622,
+            "forks": 8979,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "NTrace-core",
         "html_url": "https:\/\/github.com\/nxtrace\/NTrace-core",
         "language": "Go",
-        "description": "NTrace-core 是一个高性能的网络追踪与诊断核心库，主要用于实现链路追踪、延迟分析和网络拓扑发现。它支持多协议识别、分布式场景下的调用链路还原，适用于微服务架构中的故障排查与性能监控，提供轻量级、可扩展的追踪数据采集与处理能力。"
+        "description": "用于网络路由追踪与诊断的开源工具，专注于快速探测数据包从本机到目标地址经过的路径节点。它支持常见的 TCP、UDP、ICMP 等多种探测协议，并能结合 IP 地理位置数据展示每一跳的路由器位置、延迟和丢包情况。通常适合网络管理员排查链路故障、开发者分析跨地域访问慢的问题，以及普通用户了解网络连接路径。作为 NextTrace 项目的核心部分，其命令行界面简洁，输出易读，可与多种可视化前端配合使用。"
     },
     "summary": {
         "initial_stars": 6757,
-        "current_stars": 8080,
-        "star_diff": 1323,
-        "growth_rate": 19.58,
+        "current_stars": 8086,
+        "star_diff": 1329,
+        "growth_rate": 19.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 8080,
             "forks": 482,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8086,
+            "forks": 482,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

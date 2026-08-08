@@ -6,16 +6,16 @@
         "name": "Qv2ray",
         "html_url": "https:\/\/github.com\/Qv2ray\/Qv2ray",
         "language": "C++",
-        "description": "Qv2ray 是一个基于 V2Ray 内核的跨平台代理工具，提供图形化界面用于简化 V2Ray 的配置和管理。它支持多种协议和路由策略，主要用于科学上网，帮助用户实现网络流量的加密传输与节点代理。项目已停止维护，建议迁移到后续替代项目。"
+        "description": "Qv2ray是一款基于Qt开发的跨平台图形化代理客户端，主要用于连接和管理V2Ray等网络代理服务。它提供了直观的图形界面，让用户无需手动编辑复杂的JSON配置，即可添加服务器、导入订阅、切换路由规则并查看连接状态，适合需要科学上网、访问受限资源或管理多套代理节点的用户。软件支持Windows、macOS和Linux，通常结合多种代理协议使用，兼顾功能完整性与易用性。"
     },
     "summary": {
         "initial_stars": 16918,
-        "current_stars": 16930,
-        "star_diff": 12,
-        "growth_rate": 0.07,
+        "current_stars": 16932,
+        "star_diff": 14,
+        "growth_rate": 0.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 16930,
             "forks": 3167,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16932,
+            "forks": 3166,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

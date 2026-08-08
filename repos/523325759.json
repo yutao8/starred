@@ -6,16 +6,16 @@
         "name": "LinkSwift",
         "html_url": "https:\/\/github.com\/hmjz100\/LinkSwift",
         "language": "JavaScript",
-        "description": "LinkSwift 是一个用于简化和优化链接管理的工具，主要用于快速生成、跟踪和管理短链接，适合需要高效处理大量链接的场景，如营销活动、数据分析和资源聚合，支持自定义参数与基础统计功能。"
+        "description": "用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口请求、数据解析与缓存管理的集成流程，减少重复样板代码。通常适合 iOS、macOS 等苹果生态下的原生应用开发场景，可快速接入现有项目，帮助开发者统一管理网络会话、响应转换和错误处理，尤其适用于中小型应用或对启动速度敏感的工具类 App。"
     },
     "summary": {
         "initial_stars": 4524,
-        "current_stars": 18751,
-        "star_diff": 14227,
-        "growth_rate": 314.48,
+        "current_stars": 18803,
+        "star_diff": 14279,
+        "growth_rate": 315.63,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 18751,
             "forks": 1110,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18803,
+            "forks": 1110,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "7kbscan-WebPathBrute",
         "html_url": "https:\/\/github.com\/7kbstorm\/7kbscan-WebPathBrute",
         "language": "Other",
-        "description": "用于对Web目录进行暴力破解的工具，支持自定义字典和多线程扫描，帮助安全研究人员快速发现目标站点的隐藏路径与敏感文件，适用于渗透测试中的信息收集阶段。"
+        "description": "7kbscan-WebPathBrute 是一款用于 Web 路径探测与目录爆破的安全工具，主要帮助安全测试人员快速发现目标网站中隐藏的目录和文件，从而评估暴露面或寻找潜在入口。它通过字典组合请求并分析响应状态码，过滤无效资源，适用于渗透测试、攻防演练及日常敏感路径排查。工具通常具备多线程、自定义字典和结果导出能力，适合在授权范围内对 Web 应用进行自动化路径枚举，提高信息收集效率。"
     },
     "summary": {
         "initial_stars": 1378,

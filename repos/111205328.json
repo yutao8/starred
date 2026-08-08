@@ -6,16 +6,16 @@
         "name": "v2ray",
         "html_url": "https:\/\/github.com\/233boy\/v2ray",
         "language": "Shell",
-        "description": "V2Ray 是一个网络代理工具，用于网络协议和数据传输。它支持多种协议，具备良好的网络性能和安全性，常用于科学上网。该项目为 V2Ray 的第三方维护版本，可能包含特定优化或功能调整，适用于需要代理服务的用户。"
+        "description": "233boy 的 v2ray 项目是一个面向 Linux 服务器的 V2Ray 一键部署与管理脚本，主要用于快速搭建和配置 V2Ray 代理服务。它通过交互式菜单简化了安装流程，支持常见的传输协议和伪装配置，方便用户根据需求选择合适的节点类型。该脚本还提供查看配置、修改端口、管理用户等常用功能，适合需要快速部署科学上网工具或自建代理服务的个人用户。由于项目会随 V2Ray 生态更新，使用前建议先查看仓库说明以确认脚本与当前 V2Ray 版本的兼容性。"
     },
     "summary": {
         "initial_stars": 26297,
-        "current_stars": 29455,
-        "star_diff": 3158,
-        "growth_rate": 12.01,
+        "current_stars": 29463,
+        "star_diff": 3166,
+        "growth_rate": 12.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 29455,
             "forks": 16681,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 29463,
+            "forks": 16678,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

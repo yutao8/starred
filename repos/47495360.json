@@ -6,16 +6,16 @@
         "name": "koel",
         "html_url": "https:\/\/github.com\/koel\/koel",
         "language": "PHP",
-        "description": "Koel 是一个基于 Web 的个人音乐流媒体服务，允许用户上传、管理并在线播放自己的音乐文件，支持跨设备访问和多用户协作，适用于自建私人云音乐库。"
+        "description": "Koel 主要用于自托管音乐流媒体服务，帮助用户搭建私人音乐库，通过浏览器或客户端随时在线播放。它适合音乐爱好者或家庭环境，用于集中管理本地音乐文件，并支持多用户访问，无需依赖第三方云平台。界面简洁现代，具备响应式设计，可在多种设备上使用，同时用户能完全掌控自己的音乐数据与隐私。整体体验类似主流流媒体应用，但数据存储与播放完全自主可控。"
     },
     "summary": {
         "initial_stars": 16528,
-        "current_stars": 17206,
-        "star_diff": 678,
-        "growth_rate": 4.1,
+        "current_stars": 17209,
+        "star_diff": 681,
+        "growth_rate": 4.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 17206,
             "forks": 2107,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17209,
+            "forks": 2107,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

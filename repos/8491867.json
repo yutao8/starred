@@ -6,7 +6,7 @@
         "name": "apcu",
         "html_url": "https:\/\/github.com\/krakjoe\/apcu",
         "language": "C",
-        "description": "APCu 是一个基于 APC 的用户缓存扩展，移除了 APC 的操作码缓存功能，仅保留用户数据缓存能力，兼容 APC 的 API，适用于 PHP 5.5+ 环境，通常与 OPcache 配合使用以实现完整的缓存解决方案，主要用于提升应用性能。"
+        "description": "APCu 是 PHP 的用户缓存扩展，提供基于共享内存的键值存储，用于缓存应用数据。它常用于存储数据库查询结果、API 响应或会话数据，减少重复计算与磁盘 I\/O。其特点是简单高效，适合在 Web 或 CLI 场景中作为轻量缓存层，尤其适用于无法安装 Redis 等外部服务的环境。该扩展由 PECL 分发，维护活跃，是 PHP 应用性能优化的常见选择。"
     },
     "summary": {
         "initial_stars": 987,

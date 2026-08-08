@@ -6,16 +6,16 @@
         "name": "video_spider",
         "html_url": "https:\/\/github.com\/5ime\/video_spider",
         "language": "PHP",
-        "description": "用于批量抓取和下载指定网站视频内容的自动化工具，支持多线程采集和任务队列管理，通常适用于对公开视频资源进行离线保存和整理，需配合具体配置使用，遵守相关网站的访问协议和法律法规。"
+        "description": "用于从网页或视频平台抓取视频资源的爬虫工具，核心功能是解析页面中的视频链接并提取可下载地址，自动处理常见的反爬逻辑或加密参数，适合批量下载视频、离线缓存教学资料、整理个人收藏等场景。通常基于Python的请求与解析库开发，面向需要从网络收集视频内容的个人开发者或研究者，帮助简化手动保存视频的繁琐过程。"
     },
     "summary": {
         "initial_stars": 2739,
-        "current_stars": 2977,
-        "star_diff": 238,
-        "growth_rate": 8.69,
+        "current_stars": 2979,
+        "star_diff": 240,
+        "growth_rate": 8.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 149
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 150
     },
     "history": [
         {
@@ -1060,6 +1060,13 @@
             "stars": 2977,
             "forks": 663,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2979,
+            "forks": 663,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

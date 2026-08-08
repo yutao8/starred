@@ -6,16 +6,16 @@
         "name": "antigen",
         "html_url": "https:\/\/github.com\/zsh-users\/antigen",
         "language": "Shell",
-        "description": "antigen 是一个用于管理 Zsh 插件的简易框架，主要用于加载 oh-my-zsh 和其他 Zsh 插件，支持快速克隆、更新和配置插件，提升终端效率，通常适合需要自定义 Shell 环境的开发者使用。"
+        "description": "Antigen 是一款面向 Zsh 的插件管理器，主要用于简化 shell 配置文件的维护，集中管理插件和主题。它能从 oh-my-zsh、GitHub 等来源加载所需功能，并自动处理依赖与更新，省去手动克隆和配置的麻烦。典型场景是开发者想按需启用 Zsh 扩展、优化启动速度，同时保持配置清晰可复现。通常适合希望快速搭建或迁移命令行环境、避免配置混乱的 Zsh 用户。"
     },
     "summary": {
         "initial_stars": 8211,
-        "current_stars": 8345,
-        "star_diff": 134,
-        "growth_rate": 1.63,
+        "current_stars": 8346,
+        "star_diff": 135,
+        "growth_rate": 1.64,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 143
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 144
     },
     "history": [
         {
@@ -1018,6 +1018,13 @@
             "stars": 8345,
             "forks": 289,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8346,
+            "forks": 289,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

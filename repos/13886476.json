@@ -6,16 +6,16 @@
         "name": "zsh-autosuggestions",
         "html_url": "https:\/\/github.com\/zsh-users\/zsh-autosuggestions",
         "language": "Shell",
-        "description": "提供基于历史命令的实时建议，输入时自动显示剩余部分，按右键补全，适用于 Zsh，提升命令行操作效率。"
+        "description": "为Zsh命令行环境实现自动建议功能，当用户输入命令时，插件会从历史记录中推测当前输入对应的最可能完整命令，并以灰色字体在光标后显示建议。用户无需记忆复杂命令，只需按既定快捷键即可采纳补全内容。适合频繁使用终端的开发者，尤其对长命令、常用参数或重复操作能显著提升效率，减少手动输入和拼写错误。该插件可独立加载，也能与主流Zsh配置框架配合使用，并兼容Vi编辑模式，是Zsh社区广泛采用的效率工具。"
     },
     "summary": {
         "initial_stars": 33247,
-        "current_stars": 35946,
-        "star_diff": 2699,
-        "growth_rate": 8.12,
+        "current_stars": 35956,
+        "star_diff": 2709,
+        "growth_rate": 8.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 35946,
             "forks": 1934,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 35956,
+            "forks": 1934,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

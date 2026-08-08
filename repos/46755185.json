@@ -6,16 +6,16 @@
         "name": "server",
         "html_url": "https:\/\/github.com\/bitwarden\/server",
         "language": "C#",
-        "description": "Bitwarden Server 是一个开源的密码管理平台，用于自托管部署密码管理服务。它提供安全的密码存储、双因素认证、团队共享、API 密钥管理等功能，支持通过 Web、桌面和移动端访问，适合个人和团队用来集中管理和保护敏感信息。"
+        "description": "用于搭建Bitwarden自托管后端服务，为密码管理提供账号认证、密码库加密封存、跨设备同步及安全共享等核心能力，通常配合官方客户端或浏览器扩展使用。适合对数据隐私和自主可控要求较高的个人、团队或企业，通过自行部署避免依赖云端托管服务，同时保留完整的密码管理功能和访问控制机制。"
     },
     "summary": {
         "initial_stars": 16729,
-        "current_stars": 19758,
-        "star_diff": 3029,
-        "growth_rate": 18.11,
+        "current_stars": 19785,
+        "star_diff": 3056,
+        "growth_rate": 18.27,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 19758,
             "forks": 1730,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19785,
+            "forks": 1730,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

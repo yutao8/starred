@@ -6,16 +6,16 @@
         "name": "card-system",
         "html_url": "https:\/\/github.com\/Tai7sy\/card-system",
         "language": "PHP",
-        "description": "一个基于Python的卡片管理系统，主要用于管理用户信息与卡券发放，支持数据存储、查询和批量操作，适合用于小型活动或会员管理场景。"
+        "description": "用于搭建在线发卡与自动发货系统，面向虚拟商品销售场景。支持商品分类、卡密库存管理、订单创建与支付对接，用户购买后系统自动提取卡密或激活码并展示。通常适合个人站长或小微商家快速部署自助售货平台，用于销售游戏点卡、充值码、会员账号等数字商品。整体侧重于轻量、易用和自动化，减少人工发卡操作。"
     },
     "summary": {
         "initial_stars": 2905,
-        "current_stars": 3019,
-        "star_diff": 114,
-        "growth_rate": 3.92,
+        "current_stars": 3018,
+        "star_diff": 113,
+        "growth_rate": 3.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 146
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 147
     },
     "history": [
         {
@@ -1039,6 +1039,13 @@
             "stars": 3019,
             "forks": 898,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3018,
+            "forks": 897,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

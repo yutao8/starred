@@ -6,16 +6,16 @@
         "name": "hiwifi-ss",
         "html_url": "https:\/\/github.com\/qiwihui\/hiwifi-ss",
         "language": "HTML",
-        "description": "该项目主要用于在HiWiFi路由器上部署SS（Shadowsocks）翻墙服务，通过自动化脚本简化SS客户端的安装与配置流程，适用于需要在家庭网络环境中实现科学上网的用户，提升网络访问自由度。"
+        "description": "专为极路由（HiWiFi）设计的 Shadowsocks 部署方案，旨在将代理能力直接集成到路由器层面，使家庭或小型办公网络中所有接入设备都自动通过代理访问网络，免去逐台配置客户端的麻烦。项目通常以脚本或插件形式提供安装、启动及规则管理功能，适合解决多设备统一翻墙、按需分流等场景。需要留意的是，此类工具的具体使用应遵循当地相关法律法规。"
     },
     "summary": {
         "initial_stars": 1446,
-        "current_stars": 1470,
-        "star_diff": 24,
-        "growth_rate": 1.66,
+        "current_stars": 1468,
+        "star_diff": 22,
+        "growth_rate": 1.52,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-24 00:00",
-        "data_points_count": 82
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 83
     },
     "history": [
         {
@@ -591,6 +591,13 @@
             "stars": 1470,
             "forks": 286,
             "file": "dist\/2026072400\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1468,
+            "forks": 286,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

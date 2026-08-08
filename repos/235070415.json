@@ -6,16 +6,16 @@
         "name": "Waifu2x-Extension-GUI",
         "html_url": "https:\/\/github.com\/AaronFeng753\/Waifu2x-Extension-GUI",
         "language": "C++",
-        "description": "Waifu2x-Extension-GUI 是一款基于 Waifu2x 图像超分辨率技术开发的图形化工具，主要用于放大和增强动漫风格图像与视频的画质。它支持批量处理、噪声抑制、分辨率扩展、帧补偿等功能，适用于提升二次元图像清晰度和制作高清化视频，操作简单，适合动漫爱好者、画师及视频创作者使用。"
+        "description": "一款基于 Waifu2x 算法的图形界面工具，用于图片和视频的超分辨率放大与降噪处理。它借助深度学习模型，在放大画面时尽量保留细节并减轻噪点，尤其适合动漫插画、二次元壁纸及老照片的画质提升。同时支持视频批量处理，用户可导出高分辨率版本，常用于修复低清素材、提升播放分辨率或为后期制作准备高清资源。软件不需要命令行操作，通过直观的界面配置放大倍数、模型和硬件加速选项，即可完成转换。"
     },
     "summary": {
         "initial_stars": 14710,
-        "current_stars": 16860,
-        "star_diff": 2150,
-        "growth_rate": 14.62,
+        "current_stars": 16859,
+        "star_diff": 2149,
+        "growth_rate": 14.61,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 16860,
             "forks": 1049,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16859,
+            "forks": 1050,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

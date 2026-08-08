@@ -6,16 +6,16 @@
         "name": "WechatMomentScreenshot",
         "html_url": "https:\/\/github.com\/TransparentLC\/WechatMomentScreenshot",
         "language": "HTML",
-        "description": "用于生成微信朋友圈截图的工具，支持自定义头像、昵称、时间和内容，可制作文字、图片、点赞和评论等元素，适用于模拟社交场景或测试用途。"
+        "description": "用于生成微信朋友圈截图，允许自定义文本、图片、头像、昵称、时间等元素，模拟逼真的朋友圈界面。通常适合开发调试、产品原型演示、界面测试或制作示例图片，能在无需真实微信环境的情况下快速构造朋友圈内容。工具一般提供命令行或图形界面操作，解决个性化批量生成朋友圈截屏的需求。"
     },
     "summary": {
         "initial_stars": 4153,
-        "current_stars": 4358,
-        "star_diff": 205,
-        "growth_rate": 4.94,
+        "current_stars": 4357,
+        "star_diff": 204,
+        "growth_rate": 4.91,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 154
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 155
     },
     "history": [
         {
@@ -1095,6 +1095,13 @@
             "stars": 4358,
             "forks": 582,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4357,
+            "forks": 582,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

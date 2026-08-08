@@ -6,7 +6,7 @@
         "name": "browscap-php",
         "html_url": "https:\/\/github.com\/browscap\/browscap-php",
         "language": "PHP",
-        "description": "用于解析浏览器用户代理字符串并识别浏览器、操作系统、设备类型等信息的 PHP 库，基于 Browscap 数据文件，适合需要分析客户端环境的 Web 应用或统计系统。"
+        "description": "browscap-php 是一个用于解析浏览器用户代理字符串的 PHP 库，通过读取 Browscap 数据文件来识别访问者的浏览器类型、版本、平台、设备类别及功能特性（如是否支持 JavaScript、Cookie、框架等）。它主要用于生成浏览器兼容性报告、设备检测、流量统计分析或针对不同浏览器提供定制化页面。相比 PHP 原生 get_browser 函数，该库无需额外配置且支持离线数据更新，通常适合需要精确浏览器识别或对性能有要求的环境。"
     },
     "summary": {
         "initial_stars": 434,
@@ -14,8 +14,8 @@
         "star_diff": 8,
         "growth_rate": 1.84,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-28 00:00",
-        "data_points_count": 27
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 28
     },
     "history": [
         {
@@ -206,6 +206,13 @@
             "stars": 442,
             "forks": 84,
             "file": "dist\/2026072800\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 442,
+            "forks": 85,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

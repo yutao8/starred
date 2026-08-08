@@ -6,16 +6,16 @@
         "name": "ReadYou",
         "html_url": "https:\/\/github.com\/Ashinch\/ReadYou",
         "language": "Kotlin",
-        "description": "ReadYou 是一个专注于提升阅读体验的应用程序，主要用于个性化文档阅读与信息管理。它支持多种格式的电子书和文章导入，提供智能推荐、阅读进度同步、笔记标注等功能，适合需要高效处理大量文本内容的用户，如学生、研究人员和深度阅读爱好者。"
+        "description": "ReadYou 是 Android 平台上的开源 RSS 阅读器，采用 Material You 动态主题设计，界面会跟随系统壁纸色彩自动适配。它主要用于替代传统订阅工具，集中管理新闻、博客及各类网站的 RSS 源，提供流畅的阅读和离线缓存体验。支持 Fever API 协议，适合搭配 FreshRSS、Miniflux 等自建服务使用，也可通过本地订阅管理独立运行。项目基于 Kotlin 与 Jetpack Compose 构建，注重轻量化和隐私保护，适合追求界面美观与订阅数据自主性的用户。"
     },
     "summary": {
         "initial_stars": 6086,
-        "current_stars": 7401,
-        "star_diff": 1315,
-        "growth_rate": 21.61,
+        "current_stars": 7400,
+        "star_diff": 1314,
+        "growth_rate": 21.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 7401,
             "forks": 313,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7400,
+            "forks": 314,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

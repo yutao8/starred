@@ -6,16 +6,16 @@
         "name": "Douyin-Bot",
         "html_url": "https:\/\/github.com\/wangshub\/Douyin-Bot",
         "language": "Python",
-        "description": "抖音机器人，主要用于自动化执行抖音平台上的互动操作，如自动点赞、关注、评论等，基于ADB和OpenCV实现手机端自动化控制，适合用于抖音内容运营或自动化测试场景。"
+        "description": "用于自动化操作抖音短视频应用，通过模拟点击和滑动实现刷视频、点赞、关注等交互，适合个人娱乐或测试场景。基于 Python 与 Appium 技术栈，需结合 Android 设备使用，可配置运行时长和操作频率，帮助用户在无人值守时完成重复性操作。该项目因抖音客户端更新可能失效，使用时需注意适配。"
     },
     "summary": {
         "initial_stars": 9501,
-        "current_stars": 9624,
-        "star_diff": 123,
-        "growth_rate": 1.29,
+        "current_stars": 9626,
+        "star_diff": 125,
+        "growth_rate": 1.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 149
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 150
     },
     "history": [
         {
@@ -1060,6 +1060,13 @@
             "stars": 9624,
             "forks": 1897,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9626,
+            "forks": 1896,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

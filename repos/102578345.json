@@ -6,16 +6,16 @@
         "name": "lede",
         "html_url": "https:\/\/github.com\/coolsnowwolf\/lede",
         "language": "C",
-        "description": "基于OpenWrt的第三方固件，主要用于路由器等网络设备，提供稳定的网络服务、丰富的插件支持（如广告过滤、流量控制、内网穿透等）和定期更新，适合追求自定义功能和性能优化的高级用户。"
+        "description": "coolsnowwolf\/lede 是广受欢迎的路由器固件项目，基于 OpenWrt 深度定制，主要用于构建功能丰富的软路由或家用路由器系统。它集成大量常用插件和优化配置，方便用户一键编译出支持科学上网、去广告、流量统计、动态 DNS 等功能的固件，适合需要灵活网络管理或个性化路由器功能的技术爱好者。"
     },
     "summary": {
         "initial_stars": 30787,
-        "current_stars": 31559,
-        "star_diff": 772,
-        "growth_rate": 2.51,
+        "current_stars": 31564,
+        "star_diff": 777,
+        "growth_rate": 2.52,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 31559,
             "forks": 19233,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31564,
+            "forks": 19228,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

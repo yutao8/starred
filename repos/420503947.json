@@ -6,16 +6,16 @@
         "name": "ntfy",
         "html_url": "https:\/\/github.com\/binwiederhier\/ntfy",
         "language": "Go",
-        "description": "ntfy是一个简单的HTTP服务器，允许通过推送通知发送消息，支持多种客户端平台，主要用于系统告警、日志通知和自动化消息推送，可通过命令行、API或邮件等方式触发，配置简单，部署便捷，适合个人和团队使用。"
+        "description": "ntfy 是一个轻量级的开源推送通知服务，允许用户通过简单的 HTTP 请求或命令行向手机、桌面或浏览器实时发送通知，无需注册或安装专用客户端。它的核心思路是利用自托管的服务器或公共实例，结合主题订阅机制，将消息推送到任意设备。典型使用场景包括服务器监控告警、脚本执行结果提醒、定时任务通知，以及任何需要及时触达的轻量级消息传递。项目支持多种通知渠道（如 WebSocket、Android、iOS 和 Web），并可通过 curl 或标准 HTTP 工具直接调用，极大降低了集成门槛。它尤其适合希望摆脱商业推送服务限制、追求隐私和自定义控制的开发者和运维人员。"
     },
     "summary": {
         "initial_stars": 23698,
-        "current_stars": 33148,
-        "star_diff": 9450,
-        "growth_rate": 39.88,
+        "current_stars": 33283,
+        "star_diff": 9585,
+        "growth_rate": 40.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 33148,
             "forks": 1519,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33283,
+            "forks": 1535,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "youtube-dl",
         "html_url": "https:\/\/github.com\/ytdl-org\/youtube-dl",
         "language": "Python",
-        "description": "用于从 YouTube 和其他视频网站下载视频的开源命令行工具，支持多种格式和批量下载，适用于跨平台视频保存与离线播放。"
+        "description": "youtube-dl 是一款命令行视频下载工具，主要用于从 YouTube 及其他众多网站抓取视频和音频内容。它适合需要批量下载、离线观看或提取音频的用户，通过简单指令即可选择画质与格式，同时支持字幕和元数据获取。该工具基于 Python 开发，常被嵌入脚本或服务器流程中，解决在线媒体不便直接保存的问题。"
     },
     "summary": {
         "initial_stars": 136225,
-        "current_stars": 140885,
-        "star_diff": 4660,
-        "growth_rate": 3.42,
+        "current_stars": 140895,
+        "star_diff": 4670,
+        "growth_rate": 3.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 140885,
             "forks": 10667,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 140895,
+            "forks": 10667,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "MusicFree",
         "html_url": "https:\/\/github.com\/maotoumao\/MusicFree",
         "language": "TypeScript",
-        "description": "MusicFree 是一款开源的音乐应用，主要提供无广告、高质量的音乐播放体验，支持多种音频源解析与自定义扩展，适合追求纯净听歌环境的用户，可用于免费收听和下载主流平台的音乐资源。"
+        "description": "MusicFree是一款基于插件化架构的开源音乐播放器，本身不内置任何歌曲资源，用户通过自行安装第三方音源插件来获取音乐内容。它适合用来解决主流播放器曲库分散、版权受限或需要高度定制收听来源的问题。核心功能包括本地播放、搜索、歌单管理等常见能力，并支持通过插件动态扩展服务端来源。其使用方式较为灵活，适合有一定技术基础、愿意自行维护音源的用户。由于基于Flutter开发，通常支持包括桌面和移动端在内的多平台运行。"
     },
     "summary": {
         "initial_stars": 17344,
-        "current_stars": 25936,
-        "star_diff": 8592,
-        "growth_rate": 49.54,
+        "current_stars": 25970,
+        "star_diff": 8626,
+        "growth_rate": 49.73,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 25936,
             "forks": 1829,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 25970,
+            "forks": 1832,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

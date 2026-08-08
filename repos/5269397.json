@@ -6,7 +6,7 @@
         "name": "tooltipster",
         "html_url": "https:\/\/github.com\/calebjacob\/tooltipster",
         "language": "JavaScript",
-        "description": "Tooltipster 是一个轻量级的 jQuery 插件，用于创建美观且可高度自定义的工具提示（tooltip）。它支持丰富的自定义选项，包括动画效果、主题样式、交互行为和内容动态加载，适用于为网页元素添加简洁现代的提示信息，提升用户交互体验。"
+        "description": "Tooltipster是一款流行的jQuery工具提示插件，主要用于为网页元素添加美观且高度可定制的悬浮提示框。它支持多种主题、动画效果和触发方式，能够呈现HTML内容，并适应响应式布局，常用于替代浏览器原生title属性，为界面提供解释说明、帮助信息或补充内容，适合需要丰富交互提示的网站开发。"
     },
     "summary": {
         "initial_stars": 2749,
@@ -14,8 +14,8 @@
         "star_diff": -13,
         "growth_rate": -0.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 46
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 47
     },
     "history": [
         {
@@ -339,6 +339,13 @@
             "stars": 2736,
             "forks": 461,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2736,
+            "forks": 460,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

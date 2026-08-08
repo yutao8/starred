@@ -6,16 +6,16 @@
         "name": "croc",
         "html_url": "https:\/\/github.com\/schollz\/croc",
         "language": "Go",
-        "description": "croc 是一个命令行工具，用于在两台计算机之间轻松、安全地传输文件。它通过一个中继服务器建立直接连接，支持端到端加密，允许用户仅通过简单的口令或生成的代码实现跨平台文件共享，适用于快速发送文件而无需配置复杂的网络环境。"
+        "description": "croc 实现在两台设备间安全传输文件和文件夹，是一个基于命令行的工具。它使用端到端加密保护内容，通过中继服务器协助握手，即使双方都在内网也能穿透 NAT 互联。使用时只需在两台机器上分别输入同一串随机短语，即可建立加密通道并开始传送；支持断点续传，也可发送整个目录。适合临时跨设备分享大文件，替代网盘或 U 盘，支持 Windows、macOS、Linux 等常见平台，对普通用户和开发者都很方便。"
     },
     "summary": {
         "initial_stars": 30439,
-        "current_stars": 39418,
-        "star_diff": 8979,
-        "growth_rate": 29.5,
+        "current_stars": 39496,
+        "star_diff": 9057,
+        "growth_rate": 29.75,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 39418,
             "forks": 1562,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 39496,
+            "forks": 1568,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

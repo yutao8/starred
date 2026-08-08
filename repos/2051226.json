@@ -6,16 +6,16 @@
         "name": "FileSaver.js",
         "html_url": "https:\/\/github.com\/eligrey\/FileSaver.js",
         "language": "JavaScript",
-        "description": "FileSaver.js 是一个轻量级 JavaScript 库，用于在浏览器中实现文件保存功能，支持将文本、Blob、ArrayBuffer 等数据类型保存为文件下载，兼容多种现代浏览器，简化了前端生成和导出文件的操作，常用于导出日志、配置、用户生成内容等场景。"
+        "description": "为浏览器端提供客户端保存文件的解决方案，主要用于将前端生成的 Blob、Canvas、文本或 URL 等数据直接保存为本地文件，避免依赖服务器响应或传统下载链接的局限。它封装了不同浏览器的兼容性差异，支持提示用户选择保存位置，并能处理大文件或流式数据的保存场景。典型应用包括导出表格、图表、日志、图片等需在页面内即时生成并下载的文件，适合需要精细控制下载行为或突破普通 a 标签限制的 Web 应用开发。"
     },
     "summary": {
         "initial_stars": 21880,
-        "current_stars": 21990,
-        "star_diff": 110,
-        "growth_rate": 0.5,
+        "current_stars": 21991,
+        "star_diff": 111,
+        "growth_rate": 0.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 21990,
             "forks": 4306,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21991,
+            "forks": 4306,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

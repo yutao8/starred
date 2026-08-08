@@ -6,16 +6,16 @@
         "name": "MikuTools",
         "html_url": "https:\/\/github.com\/Ice-Hazymoon\/MikuTools",
         "language": "JavaScript",
-        "description": "一个基于网页的多功能工具集合，主要用于文本处理、编码转换、密码学运算、网络请求测试等实用功能，适合开发者和网络技术人员日常使用。"
+        "description": "MikuTools 是一个开源的在线工具箱，聚合了数十种日常实用功能，涵盖图片处理、视频解析下载、音乐搜索、文本转换等常见需求。它无需安装，通过浏览器即可快速调用，适合需要批量处理文件或临时使用轻量工具的用户。项目前后端分离，部署简单，通常用于个人或小团队搭建自用工具站，也可作为学习全栈开发的参考实例。"
     },
     "summary": {
         "initial_stars": 4291,
-        "current_stars": 4401,
-        "star_diff": 110,
-        "growth_rate": 2.56,
+        "current_stars": 4402,
+        "star_diff": 111,
+        "growth_rate": 2.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 134
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 135
     },
     "history": [
         {
@@ -955,6 +955,13 @@
             "stars": 4401,
             "forks": 712,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4402,
+            "forks": 712,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "ChatTTS",
         "html_url": "https:\/\/github.com\/2noise\/ChatTTS",
         "language": "Python",
-        "description": "ChatTTS 是一个专为对话场景设计的文本转语音模型，支持中英文双语，具备自然流畅的语音合成能力，适用于语音助手、有声书生成、对话系统等场景，提供高质量、高自然度的语音输出，可本地部署并支持自定义参数调节。"
+        "description": "ChatTTS 是一个面向对话场景的文本转语音工具，重点解决自然语音生成和细粒度控制问题。它支持多说话人音色、语气词与笑声等副语言现象，并允许通过韵律控制调节语速、停顿和情感表达，适合用于配音、有声内容制作、语音助手开发及交互式对话系统。该模型通常基于大规模语音数据训练，能够生成接近真人对话节奏的音频。如果你需要为聊天机器人、播客或短视频生成自然流畅的口播内容，ChatTTS 是一个实用的开源选择。"
     },
     "summary": {
         "initial_stars": 36946,
-        "current_stars": 39748,
-        "star_diff": 2802,
-        "growth_rate": 7.58,
+        "current_stars": 39752,
+        "star_diff": 2806,
+        "growth_rate": 7.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 39748,
             "forks": 4255,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 39752,
+            "forks": 4255,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

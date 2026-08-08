@@ -6,16 +6,16 @@
         "name": "fiora",
         "html_url": "https:\/\/github.com\/yinxin630\/fiora",
         "language": "TypeScript",
-        "description": "一个基于 Node.js 和 Socket.IO 的实时聊天应用，支持多房间、私聊、消息持久化和用户在线状态管理，适合用于构建社交平台或团队协作工具。"
+        "description": "开源实时聊天应用 fiora 主要用于搭建轻量级网页聊天服务，支持多人群聊和私聊，可发送图片、代码片段，并保留历史消息。适合小型团队、社区或个人自建聊天平台。它的技术栈以 Node.js 和前端框架为主，界面简洁，部署简单，适合用来做学习实践或快速私有化部署。"
     },
     "summary": {
         "initial_stars": 6944,
-        "current_stars": 7165,
-        "star_diff": 221,
-        "growth_rate": 3.18,
+        "current_stars": 7166,
+        "star_diff": 222,
+        "growth_rate": 3.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 163
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 164
     },
     "history": [
         {
@@ -1158,6 +1158,13 @@
             "stars": 7165,
             "forks": 1405,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7166,
+            "forks": 1404,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

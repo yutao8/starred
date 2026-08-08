@@ -6,16 +6,16 @@
         "name": "Tvlist-awesome-m3u-m3u8",
         "html_url": "https:\/\/github.com\/imDazui\/Tvlist-awesome-m3u-m3u8",
         "language": "Other",
-        "description": "提供精选的M3U\/M3U8直播源列表，涵盖主流电视台和网络频道，适用于各类播放器和智能家居设备，方便用户自定义观看直播内容，持续更新并优化链接稳定性，提升观赛和观影体验。"
+        "description": "收集并整理了多套 m3u\/m3u8 格式的电视直播源，覆盖央视、卫视及部分境外频道，所有链接均为公开资源，可直接复制到 VLC、PotPlayer 或各种 IPTV 播放软件中使用。仓库主要为解决直播源分散、经常失效的问题，按照类别和地区做了归纳，便于快速找到所需频道。适合需要在电脑、手机或电视上通过通用播放器收看免费直播的用户，也适合开发者测试播放器或研究流媒体协议。使用时应留意来源合法性及地域限制。"
     },
     "summary": {
         "initial_stars": 27384,
-        "current_stars": 29835,
-        "star_diff": 2451,
-        "growth_rate": 8.95,
+        "current_stars": 29837,
+        "star_diff": 2453,
+        "growth_rate": 8.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 29835,
             "forks": 3468,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 29837,
+            "forks": 3468,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

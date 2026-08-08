@@ -6,16 +6,16 @@
         "name": "live2d-widget",
         "html_url": "https:\/\/github.com\/stevenjoezhang\/live2d-widget",
         "language": "JavaScript",
-        "description": "用于在网页中集成Live2D看板娘的轻量级小部件，支持角色拖拽、对话气泡、屏幕边缘吸附及多种交互事件，常用于个人博客或网站以提升趣味性和用户互动体验。"
+        "description": "用于在网页中嵌入可互动的Live2D看板娘形象，通常部署在个人博客或展示类网站的角落，访客可以通过点击、拖拽或输入文本与虚拟角色互动。设计上注重轻量与易集成，支持自定义模型、对话内容及显示样式，适合希望为站点增加趣味性和视觉辨识度的个人开发者或内容创作者。"
     },
     "summary": {
         "initial_stars": 9775,
-        "current_stars": 10870,
-        "star_diff": 1095,
-        "growth_rate": 11.2,
+        "current_stars": 10877,
+        "star_diff": 1102,
+        "growth_rate": 11.27,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 10870,
             "forks": 2609,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10877,
+            "forks": 2607,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

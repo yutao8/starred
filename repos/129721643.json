@@ -6,7 +6,7 @@
         "name": "getCurrentQQGroupList",
         "html_url": "https:\/\/github.com\/nasaplayer\/getCurrentQQGroupList",
         "language": "PHP",
-        "description": "用于获取当前QQ群列表的工具，通常作为QQ机器人或自动化插件功能的一部分，帮助用户获取已加入的群组信息，便于消息管理或群控操作，适用于需要批量处理群消息或数据分析的场景。"
+        "description": "用于获取当前登录QQ账号的群列表，主要服务需要读取群数据的开发场景，比如群管理机器人、成员统计或自动化运营工具。实现方式通常依赖QQ客户端的接口或协议，具体机制需查看源码。适合熟悉逆向或协议分析的开发者参考使用，注意遵守平台使用规范，避免用于违规用途。项目结构简洁，可扩展性取决于实际代码设计。"
     },
     "summary": {
         "initial_stars": 11,

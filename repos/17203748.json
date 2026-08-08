@@ -6,16 +6,16 @@
         "name": "Dexie.js",
         "html_url": "https:\/\/github.com\/dexie\/Dexie.js",
         "language": "JavaScript",
-        "description": "Dexie.js 是一个用于简化 IndexedDB 操作的轻量级 JavaScript 库，提供更直观的 API 来进行浏览器端数据存储，主要用于提升 Web 应用的离线数据管理效率，适合需要复杂查询和事务处理的前端项目。"
+        "description": "Dexie.js 是一个用于浏览器 IndexedDB 的封装库，主要让前端开发者用更简洁、易读的链式语法操作本地数据库。它简化了建表、增删改查和索引定义，支持事务、批量操作、复杂查询与响应式绑定，适合需要在浏览器端存储大量结构化数据、构建离线优先应用或缓存数据的场景。相比原生 IndexedDB，能明显降低上手成本和代码复杂度。"
     },
     "summary": {
         "initial_stars": 13252,
-        "current_stars": 14520,
-        "star_diff": 1268,
-        "growth_rate": 9.57,
+        "current_stars": 14524,
+        "star_diff": 1272,
+        "growth_rate": 9.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 14520,
             "forks": 710,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14524,
+            "forks": 711,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

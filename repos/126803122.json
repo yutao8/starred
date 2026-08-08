@@ -6,16 +6,16 @@
         "name": "txv-miniprogram-plugin",
         "html_url": "https:\/\/github.com\/tvfe\/txv-miniprogram-plugin",
         "language": "JavaScript",
-        "description": "用于腾讯视频在微信小程序中嵌入播放器的插件，支持视频播放、弹幕、缓存等功能，便于开发者快速集成腾讯视频内容，适用于视频类小程序的开发与优化。"
+        "description": "腾讯视频官方推出的小程序插件，主要用于在微信小程序等平台中快速集成视频播放、点播等功能，帮助开发者省去自行搭建播放器的成本，适合需要在小程序内展示长视频或剧集内容的场景，通常搭配腾讯视频的授权资源使用，能较为便捷地实现播放器控制与基础交互。"
     },
     "summary": {
         "initial_stars": 463,
-        "current_stars": 462,
-        "star_diff": -1,
-        "growth_rate": -0.22,
+        "current_stars": 461,
+        "star_diff": -2,
+        "growth_rate": -0.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 8
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 9
     },
     "history": [
         {
@@ -73,6 +73,13 @@
             "stars": 462,
             "forks": 75,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 461,
+            "forks": 75,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "ninja",
         "html_url": "https:\/\/github.com\/0x676e67\/ninja",
         "language": "Rust",
-        "description": "一个轻量级、高效的构建系统，主要用于快速编译和管理大型C\/C++项目，通过最小化解析和并行构建提升编译速度，适合与CMake等工具配合使用，降低项目构建时间。"
+        "description": "Ninja是一个以速度为核心设计的构建工具，用于高效管理软件项目的编译和链接任务。它依靠简单的规则文件描述依赖关系，通过并行调度和增量构建减少不必要的操作，从而显著加快大型代码库的构建过程。通常适合与C\/C++、Rust等编译器配合，在本地开发或持续集成环境中作为底层构建引擎使用。当前仓库可能是对经典Ninja的定制或重新实现，延续了其轻量、快速的特点，具体功能需结合源码验证。"
     },
     "summary": {
         "initial_stars": 1700,
-        "current_stars": 1678,
-        "star_diff": -22,
-        "growth_rate": -1.29,
+        "current_stars": 1677,
+        "star_diff": -23,
+        "growth_rate": -1.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 105
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 106
     },
     "history": [
         {
@@ -752,6 +752,13 @@
             "stars": 1678,
             "forks": 282,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1677,
+            "forks": 282,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

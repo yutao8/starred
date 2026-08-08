@@ -6,16 +6,16 @@
         "name": "TikTok-Api",
         "html_url": "https:\/\/github.com\/davidteather\/TikTok-Api",
         "language": "Python",
-        "description": "用于与TikTok API交互的Python库，可实现用户数据、视频、评论等内容的抓取和分析，适合做社交媒体数据挖掘和自动化操作。"
+        "description": "TikTok-Api 是一个非官方的 Python 库，主要用于从 TikTok 获取公开数据，支持用户信息、视频列表、评论、趋势内容等常见接口的抓取。它适合需要批量采集 TikTok 数据用于分析、研究或内容监控的场景，通常配合代理和爬虫策略使用，以绕过反爬限制。由于是非官方实现，使用时需注意平台条款和频率控制。"
     },
     "summary": {
         "initial_stars": 5529,
-        "current_stars": 6543,
-        "star_diff": 1014,
-        "growth_rate": 18.34,
+        "current_stars": 6544,
+        "star_diff": 1015,
+        "growth_rate": 18.36,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 6543,
             "forks": 1211,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6544,
+            "forks": 1210,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

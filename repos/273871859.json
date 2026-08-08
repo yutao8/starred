@@ -6,16 +6,16 @@
         "name": "headscale",
         "html_url": "https:\/\/github.com\/juanfont\/headscale",
         "language": "Go",
-        "description": "headscale是一个开源的、自托管的Tailscale控制服务器，主要用于创建和管理私有网络，支持Zero Trust网络架构，允许用户在没有公网IP的情况下安全地连接设备，适合个人、企业搭建内网穿透服务，提供与Tailscale兼容的API接口，便于集成到现有基础设施中。"
+        "description": "headscale 用于自托管 Tailscale 控制服务器，让用户在没有官方云端的情况下运行自己的 VPN 组网协调服务。它兼容 Tailscale 客户端，能够管理节点注册、设备认证和网络配置，实现基于 WireGuard 的加密组网。典型使用场景包括企业内部网络互联、跨地域设备访问，以及需要数据主权和隐私保护的团队。通过自建控制平面，可以摆脱对第三方云服务的依赖，同时保留 Tailscale 的易用性和功能。适合对自主可控、合规审计和定制集成有要求的部署环境。"
     },
     "summary": {
         "initial_stars": 29350,
-        "current_stars": 42565,
-        "star_diff": 13215,
-        "growth_rate": 45.03,
+        "current_stars": 42616,
+        "star_diff": 13266,
+        "growth_rate": 45.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 42565,
             "forks": 2484,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 42616,
+            "forks": 2494,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

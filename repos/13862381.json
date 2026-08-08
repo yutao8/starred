@@ -6,16 +6,16 @@
         "name": "Telegram",
         "html_url": "https:\/\/github.com\/DrKLO\/Telegram",
         "language": "Java",
-        "description": "一个非官方的Telegram客户端开源实现，主要用于学习和研究Telegram的协议与功能架构，适合开发者参考和定制化开发。"
+        "description": "Telegram 官方 Android 客户端的开源版本，提供端到端加密聊天、群组、频道、文件传输和语音通话等即时通讯功能，注重隐私保护与同步速度。适合需要高安全性、跨设备同步以及希望深入定制或自行编译客户端的技术用户，也可作为研究高性能 Android 网络应用和加密通信的参考实现。"
     },
     "summary": {
         "initial_stars": 26798,
-        "current_stars": 29669,
-        "star_diff": 2871,
-        "growth_rate": 10.71,
+        "current_stars": 29676,
+        "star_diff": 2878,
+        "growth_rate": 10.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 29669,
             "forks": 9877,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 29676,
+            "forks": 9884,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

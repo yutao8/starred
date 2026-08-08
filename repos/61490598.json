@@ -6,16 +6,16 @@
         "name": "PhpSpreadsheet",
         "html_url": "https:\/\/github.com\/PHPOffice\/PhpSpreadsheet",
         "language": "PHP",
-        "description": "用于读写电子表格文件的PHP库，支持Excel、ODS、CSV等格式，可创建、修改、转换和导出带有样式、图表、公式等内容的表格文件，适用于报表生成、数据导入导出等场景。"
+        "description": "PhpSpreadsheet 是一个用于读写和处理电子表格的 PHP 库，支持 Excel、CSV、ODS 等多种格式。它能创建、修改、解析工作表，处理公式、样式、图表和数据验证，适合在 Web 应用中实现报表导出、批量导入、数据转换和模板填充等任务。相比旧版 PHPExcel，它改进了命名空间、性能与 PHP 新版本兼容性，是 PHP 生态中处理表格数据的常用工具。"
     },
     "summary": {
         "initial_stars": 13676,
-        "current_stars": 13963,
-        "star_diff": 287,
-        "growth_rate": 2.1,
+        "current_stars": 13966,
+        "star_diff": 290,
+        "growth_rate": 2.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 13963,
             "forks": 3625,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13966,
+            "forks": 3625,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

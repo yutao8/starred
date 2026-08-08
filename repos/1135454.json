@@ -6,16 +6,16 @@
         "name": "CefSharp",
         "html_url": "https:\/\/github.com\/cefsharp\/CefSharp",
         "language": "C#",
-        "description": "CefSharp 是一个基于 Chromium Embedded Framework (CEF) 的 .NET 库，允许在 Windows Forms 或 WPF 应用程序中嵌入 Chrome 浏览器控件，用于显示现代网页内容。它支持 JavaScript 互操作、页面加载控制和自定义协议处理，适合需要在桌面应用中集成 Web 技术的场景。"
+        "description": "用于在.NET桌面应用中嵌入Chromium浏览器内核，它基于CEF封装，为WinForms和WPF提供现代网页渲染能力。开发人员可借此在客户端内展示HTML5内容，支持JavaScript与.NET代码双向通信，适合构建混合桌面应用、内置文档查看器或在线支付界面等场景。相比传统WebBrowser控件，CefSharp显著提升了网页兼容性和渲染性能，能够解决老旧组件无法正确处理现代Web标准的问题，同时提供了生命周期管理、下载、多进程运行等底层能力，让桌面应用可以灵活整合Web技术。"
     },
     "summary": {
         "initial_stars": 10064,
-        "current_stars": 10238,
-        "star_diff": 174,
-        "growth_rate": 1.73,
+        "current_stars": 10239,
+        "star_diff": 175,
+        "growth_rate": 1.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 10238,
             "forks": 2930,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10239,
+            "forks": 2930,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

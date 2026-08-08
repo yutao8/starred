@@ -6,16 +6,16 @@
         "name": "rathole",
         "html_url": "https:\/\/github.com\/rathole-org\/rathole",
         "language": "Rust",
-        "description": "rathole 是一个用于内网穿透的高性能反向代理工具，主要用于将本地服务暴露到公网。它支持 TCP 和 UDP 协议，具备心跳检测、自动重连、多路复用等特性，适用于远程调试、服务暴露等场景，配置简单，跨平台，适合开发者和运维人员在无公网 IP 环境下安全稳定地暴露内网服务。"
+        "description": "rathole 用于将 NAT 或防火墙后的本地服务安全地暴露到公网，是一款用 Rust 编写的高性能反向代理工具。它采用客户端-服务端架构转发 TCP 和 UDP 流量，常用来远程访问家中或办公网络的 SSH、HTTP 服务及游戏服务器。相比 frp 等同类方案，rathole 内存占用极低、调度高效，部署配置简单，特别适合树莓派、路由器等资源受限设备长期稳定运行。"
     },
     "summary": {
         "initial_stars": 10952,
-        "current_stars": 13995,
-        "star_diff": 3043,
-        "growth_rate": 27.78,
+        "current_stars": 13999,
+        "star_diff": 3047,
+        "growth_rate": 27.82,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 13995,
             "forks": 804,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13999,
+            "forks": 805,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "mochat",
         "html_url": "https:\/\/github.com\/mochat-cloud\/mochat",
         "language": "PHP",
-        "description": "一个基于 SaaS 模式的开源企业微信整合营销平台，主要用于客户关系管理、社群运营和营销自动化，提供私域流量管理解决方案，适用于企业客户沉淀、互动营销及数据分析等场景。"
+        "description": "开源的企业微信私域流量管理系统，基于 Hyperf 与 Vue 构建，通常适合企业或开发者搭建属于自有品牌的客户运营平台。它围绕企业微信生态提供客户管理、消息群发、营销触达、会话存档等核心能力，帮助运营团队统一维护客户关系、提升转化与留存效率。同时支持私有化部署和二次开发，方便与既有业务系统对接，适用于 SCRM、私域电商、售后运营等典型场景。"
     },
     "summary": {
         "initial_stars": 2391,
-        "current_stars": 2583,
-        "star_diff": 192,
-        "growth_rate": 8.03,
+        "current_stars": 2584,
+        "star_diff": 193,
+        "growth_rate": 8.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 137
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 138
     },
     "history": [
         {
@@ -976,6 +976,13 @@
             "stars": 2583,
             "forks": 533,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2584,
+            "forks": 533,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

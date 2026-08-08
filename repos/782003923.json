@@ -6,7 +6,7 @@
         "name": "IPTV",
         "html_url": "https:\/\/github.com\/yuanzl77\/IPTV",
         "language": "Python",
-        "description": "提供全球多个国家和地区的IPTV频道列表，支持m3u格式导入，适用于各类流媒体播放器，主要用于在线观看电视直播，涵盖新闻、体育、娱乐、影视等多种节目类型，方便用户自建频道源。"
+        "description": "提供可日常使用的 IPTV 直播源，一般整理成 M3U 或 TXT 格式，涵盖央视、卫视、地方频道以及部分网络频道，方便用户配合 VLC、PotPlayer、Kodi 等播放工具直接观看。该仓库主要面向希望免费收看电视、摆脱有线机顶盒限制或自行定制频道列表的人群，通过持续更新源地址来缓解直播源失效的常见问题。由于直播源受网络环境和版权政策影响较大，实际使用效果可能有所波动，通常需要用户自行筛选和验证可用性。"
     },
     "summary": {
         "initial_stars": 1990,
@@ -14,8 +14,8 @@
         "star_diff": 81,
         "growth_rate": 4.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 2071,
             "forks": 272,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2071,
+            "forks": 271,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

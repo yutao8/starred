@@ -6,16 +6,16 @@
         "name": "setup-ipsec-vpn",
         "html_url": "https:\/\/github.com\/hwdsl2\/setup-ipsec-vpn",
         "language": "Shell",
-        "description": "用于快速部署 IPsec VPN 服务器的自动化脚本，支持 IKEv2 和 L2TP 协议，适用于主流 Linux 发行版，简化了证书配置、防火墙规则和网络设置，帮助用户在云服务器或本地环境快速搭建安全可靠的虚拟专用网络。"
+        "description": "用于在 Linux 服务器上一键部署 IPsec\/L2TP 和 Cisco IPsec VPN，提供自动化安装脚本和配置工具，适合个人或小型团队快速搭建安全的远程访问通道。它支持常见的 Linux 发行版，安装后自动生成连接凭据，并可通过附带脚本管理用户、证书和重启服务。典型场景包括访问受限网络、加密通信或远程办公。该工具专注于简化配置流程，对已有防火墙和 NAT 环境做了兼容处理，通常部署在具有公网 IP 的 VPS 上即可使用。内置的 VPN 模式兼顾了不同客户端的兼容性，适合需要稳定、轻量级自建 VPN 的用户。"
     },
     "summary": {
         "initial_stars": 26373,
-        "current_stars": 28300,
-        "star_diff": 1927,
-        "growth_rate": 7.31,
+        "current_stars": 28310,
+        "star_diff": 1937,
+        "growth_rate": 7.34,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28300,
             "forks": 6514,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28310,
+            "forks": 6515,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "laravel-admin",
         "html_url": "https:\/\/github.com\/z-song\/laravel-admin",
         "language": "PHP",
-        "description": "laravel-admin 是一个基于 Laravel 框架的后台管理界面构建工具，主要用于快速生成美观、功能完善的管理后台。它提供了丰富的表单组件和数据展示功能，支持通过简单的 PHP 代码创建 CRUD 操作，无需手动编写前端页面。通常适合企业管理系统、运营后台等需要快速开发和维护的场景，结合 Laravel 的生态实现高效开发。"
+        "description": "laravel-admin 为 Laravel 开发者提供开箱即用的后台管理界面解决方案，主要用来快速搭建数据管理后台。它通过模型与配置自动生成 CRUD 页面，包含列表筛选、表单校验、数据导出等常用功能，并集成权限控制与菜单管理，省去大量重复的视图和控制器代码。典型场景是中小型项目或内部系统的管理端开发，尤其适合团队中没有专职前端时，依靠少量 PHP 代码就能实现完整的后台操作界面。"
     },
     "summary": {
         "initial_stars": 11172,
@@ -14,8 +14,8 @@
         "star_diff": -24,
         "growth_rate": -0.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 136
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 137
     },
     "history": [
         {
@@ -969,6 +969,13 @@
             "stars": 11148,
             "forks": 2818,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11148,
+            "forks": 2816,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

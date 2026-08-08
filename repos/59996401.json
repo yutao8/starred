@@ -6,16 +6,16 @@
         "name": "yapi",
         "html_url": "https:\/\/github.com\/YMFE\/yapi",
         "language": "JavaScript",
-        "description": "YApi 是一个可本地部署的开源接口管理平台，支持团队协作，提供接口文档维护、调试、Mock 数据生成及自动化测试功能，旨在提升前后端分离开发模式下的接口开发与协作效率。"
+        "description": "YApi 是去哪儿网开源的高效接口管理平台，主要用于 API 文档的编写、发布与维护，同时提供强大的 Mock 服务，帮助前后端开发者在接口定义阶段快速模拟数据并验证联调流程。它支持可视化接口编辑、自动化测试、项目分组与权限管理，还能平滑导入 Swagger、Postman 等常见格式，并可与 Git 等工具集成，适合中大型团队统一管理和协作开发 API，有效解决接口文档散乱、更新不及时、前后端沟通成本高的问题。"
     },
     "summary": {
         "initial_stars": 27592,
-        "current_stars": 27722,
-        "star_diff": 130,
+        "current_stars": 27721,
+        "star_diff": 129,
         "growth_rate": 0.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 27722,
             "forks": 4827,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27721,
+            "forks": 4825,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

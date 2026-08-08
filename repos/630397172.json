@@ -6,16 +6,16 @@
         "name": "netdisk-fast-download",
         "html_url": "https:\/\/github.com\/qaiu\/netdisk-fast-download",
         "language": "Java",
-        "description": "用于实现网盘文件高速下载的工具，主要解决常规下载速度慢的问题，支持多线程加速和断点续传，适用于主流网盘服务，提升大文件下载效率，方便用户快速获取资源。"
+        "description": "该工具主要用于解决网盘下载速度受限、单线程慢的问题，通过解析网盘文件的真实下载链接，配合多线程下载引擎实现加速。通常以命令行方式运行，支持多个主流网盘，适合需要批量下载大文件或经常从网盘获取资源的用户，也能方便地集成到自动化脚本中，从而绕过网页版限速，提升下载效率和成功率。"
     },
     "summary": {
         "initial_stars": 1933,
-        "current_stars": 3050,
-        "star_diff": 1117,
-        "growth_rate": 57.79,
+        "current_stars": 3057,
+        "star_diff": 1124,
+        "growth_rate": 58.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 3050,
             "forks": 268,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3057,
+            "forks": 267,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

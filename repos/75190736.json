@@ -6,7 +6,7 @@
         "name": "orchestrator",
         "html_url": "https:\/\/github.com\/openark\/orchestrator",
         "language": "Go",
-        "description": "用于管理MySQL复制拓扑的开源工具，支持自动故障检测与恢复、手动切换主从、拓扑重构等功能，提供Web界面和命令行工具，帮助用户实现MySQL高可用与集群管理。"
+        "description": "用于管理和可视化 MySQL 复制拓扑的开源工具，提供 Web 接口、命令行和 HTTP API，能自动发现数据库实例、实时展示主从复制关系，并支持复制拓扑调整、故障检测、自动切换和恢复操作。适合维护复杂复制集群或大规模 MySQL 部署的运维场景，可减少人工干预，提升数据库层的可用性与可维护性。"
     },
     "summary": {
         "initial_stars": 5684,

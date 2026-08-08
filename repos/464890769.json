@@ -6,16 +6,16 @@
         "name": "openspout",
         "html_url": "https:\/\/github.com\/openspout\/openspout",
         "language": "PHP",
-        "description": "OpenSpout 是一个用于读取和写入电子表格文件的高性能 PHP 库，支持 XLSX 和 CSV 格式，能够在处理大型文件时保持低内存占用，适用于需要生成或解析海量表格数据的场景。"
+        "description": "用于在 PHP 项目中高效读写 Excel（XLSX）和 CSV 文件，以极低的内存消耗处理超大数据集，适合批量数据导入导出、报表生成和数据转换等场景。作为 Spout 库的活跃维护版本，提供简洁的流式处理能力，兼容主流 PHP 版本，是处理大量表格数据的轻量可靠选择。"
     },
     "summary": {
         "initial_stars": 944,
-        "current_stars": 1211,
-        "star_diff": 267,
-        "growth_rate": 28.28,
+        "current_stars": 1212,
+        "star_diff": 268,
+        "growth_rate": 28.39,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 132
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 133
     },
     "history": [
         {
@@ -941,6 +941,13 @@
             "stars": 1211,
             "forks": 147,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1212,
+            "forks": 147,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

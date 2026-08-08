@@ -6,16 +6,16 @@
         "name": "Telegraph-Image",
         "html_url": "https:\/\/github.com\/cf-pages\/Telegraph-Image",
         "language": "HTML",
-        "description": "用于将图片上传至 Telegraph 并获取外链地址的工具，支持通过 Cloudflare Pages 快速部署，适合需要临时图床服务的用户，上传后返回 Markdown 或 HTML 格式的链接，方便在博客、论坛等场景使用。"
+        "description": "用 Cloudflare Pages 免费部署的自托管图床，上传图片后能够生成可直接引用的外链，支持拖拽与粘贴上传、批量处理以及图片管理功能，适合个人博主、开发者或小团队在没有独立服务器的情况下快速搭建轻量级图片托管服务，既能保证访问速度，又避免第三方图床的隐私与失效风险。"
     },
     "summary": {
         "initial_stars": 3780,
-        "current_stars": 4633,
-        "star_diff": 853,
-        "growth_rate": 22.57,
+        "current_stars": 4637,
+        "star_diff": 857,
+        "growth_rate": 22.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 4633,
             "forks": 8878,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4637,
+            "forks": 8879,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

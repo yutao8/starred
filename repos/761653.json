@@ -6,7 +6,7 @@
         "name": "phpDocumentor",
         "html_url": "https:\/\/github.com\/phpDocumentor\/phpDocumentor",
         "language": "PHP",
-        "description": "用于生成 PHP 项目文档的静态分析工具，通过解析代码中的注释和结构，自动生成结构化的 API 文档，支持多种输出格式，便于开发者维护和浏览项目接口说明。"
+        "description": "phpDocumentor 是一款专门为 PHP 代码生成文档的工具，它通过解析源码中的 DocBlock 注释和类型声明，自动生成结构清晰、可浏览的 API 文档，支持类、方法、属性和命名空间等元素的高亮与交叉引用。常用于 PHP 项目在交付或开源时快速产出规范参考手册，也适合团队在代码重构或维护中梳理公共接口。它能够显著减少人工编写技术文档的负担，并帮助新成员更快理解项目架构，适用于各类 PHP 框架和类库的文档自动化建设。"
     },
     "summary": {
         "initial_stars": 4222,

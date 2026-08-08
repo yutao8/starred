@@ -6,16 +6,16 @@
         "name": "real-url",
         "html_url": "https:\/\/github.com\/wbt5\/real-url",
         "language": "Python",
-        "description": "用于解析 wbt5 平台的真实音视频播放链接，主要针对其加密或重定向的 URL 进行解密和还原，适用于需要获取原始媒体地址的场景，如离线下载、流媒体分析等。"
+        "description": "用于提取常用直播平台的真实流媒体地址，支持B站、抖音、快手等多个网站。它通过分析网页请求或模拟客户端行为，从页面中解析出可供外部播放器直接播放的m3u8或flv链接，解决官方网页播放器地址加密、不易拿到直链的问题。适合需要在PotPlayer、VLC等播放器观看直播，或对直播流进行录制的用户，也方便开发集成或二次转发。通常以命令行方式使用，基于Python，易于安装和操作，能快速获取并输出可用的直播源地址。"
     },
     "summary": {
         "initial_stars": 7618,
-        "current_stars": 7824,
-        "star_diff": 206,
-        "growth_rate": 2.7,
+        "current_stars": 7825,
+        "star_diff": 207,
+        "growth_rate": 2.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 7824,
             "forks": 1557,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7825,
+            "forks": 1558,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

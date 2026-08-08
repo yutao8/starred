@@ -6,16 +6,16 @@
         "name": "TrackersListCollection",
         "html_url": "https:\/\/github.com\/XIU2\/TrackersListCollection",
         "language": "Other",
-        "description": "一个收集和维护可用 BitTorrent 赘 tracker 服务器列表的开源项目，主要用于提升种子文件的下载速度和连接性能，适合需要优化 BT 下载体验的用户和工具集成。"
+        "description": "整理并持续更新全网可用的公共 BitTorrent Tracker 地址集合，帮助用户在下载工具中批量添加这些 tracker 以提升 Peers 连接成功率与下载速度。通常用于 qBittorrent、Transmission、Deluge 等支持自定义 Tracker 的客户端，适合因 ISP 封锁或资源冷门导致连接不上节点时使用。仓库提供多个自动合并的列表文件，并支持白名单、黑名单等过滤规则，用户可定期更新以应对 tracker 失效和变动。"
     },
     "summary": {
         "initial_stars": 28550,
-        "current_stars": 31904,
-        "star_diff": 3354,
-        "growth_rate": 11.75,
+        "current_stars": 31916,
+        "star_diff": 3366,
+        "growth_rate": 11.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 31904,
             "forks": 1788,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31916,
+            "forks": 1788,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

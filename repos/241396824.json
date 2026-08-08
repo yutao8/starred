@@ -6,16 +6,16 @@
         "name": "updog",
         "html_url": "https:\/\/github.com\/sc0tfree\/updog",
         "language": "Python",
-        "description": "一个轻量级的 Python 工具，用于快速启动临时文件服务器，支持上传和下载文件，适用于渗透测试或内网穿透场景下的简易文件传输需求，通常在安全研究或红队操作中使用。"
+        "description": "Updog 是基于 Python Flask 构建的轻量级 HTTP 文件共享服务器，用于快速在浏览器中上传和下载文件。在目标目录启动后即可生成一个带有直观界面的网页，支持设置访问密码、自定义端口，并可通过局域网或反向代理分享给其他设备。相比 Python 自带的 http.server，它提供了更友好的操作体验，适合临时传输文件、收集作业或小组协作等场景。"
     },
     "summary": {
         "initial_stars": 3103,
-        "current_stars": 3384,
-        "star_diff": 281,
-        "growth_rate": 9.06,
+        "current_stars": 3386,
+        "star_diff": 283,
+        "growth_rate": 9.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 159
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 160
     },
     "history": [
         {
@@ -1130,6 +1130,13 @@
             "stars": 3384,
             "forks": 339,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3386,
+            "forks": 339,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

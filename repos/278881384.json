@@ -6,16 +6,16 @@
         "name": "InfoSpider",
         "html_url": "https:\/\/github.com\/kangvcar\/InfoSpider",
         "language": "Python",
-        "description": "一个基于 Python 的信息爬虫工具，主要用于收集和整合互联网上的公开信息，支持多种数据源解析与存储，适用于舆情监控、数据挖掘和信息分析等场景，具有良好的扩展性和可配置性。"
+        "description": "InfoSpider是一个用于批量采集公开个人信息的爬虫工具集，集成了GitHub、QQ、微博、邮箱、淘宝、豆瓣等多个平台的数据抓取能力，支持通过关键词或账户信息自动爬取关联数据并汇总展示。通常被安全研究人员、渗透测试人员用于授权范围内的信息收集与资产梳理，也可帮助用户了解自身在互联网上的暴露面。项目采用模块化设计，搭配可视化界面，便于快速部署和扩展新的数据源，适合需要高效整合多源公开情报的场景。"
     },
     "summary": {
         "initial_stars": 8016,
-        "current_stars": 8243,
-        "star_diff": 227,
-        "growth_rate": 2.83,
+        "current_stars": 8245,
+        "star_diff": 229,
+        "growth_rate": 2.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 162
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 163
     },
     "history": [
         {
@@ -1151,6 +1151,13 @@
             "stars": 8243,
             "forks": 1481,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8245,
+            "forks": 1481,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

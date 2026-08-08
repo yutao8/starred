@@ -6,16 +6,16 @@
         "name": "thc-hydra",
         "html_url": "https:\/\/github.com\/vanhauser-thc\/thc-hydra",
         "language": "C",
-        "description": "一款快速的网络登录破解工具，主要用于测试远程系统认证安全，支持多种协议的暴力破解攻击，常用于渗透测试中评估弱口令风险。"
+        "description": "用于网络登录口令的爆破与安全评估，支持HTTP、FTP、SSH、MySQL和RDP等数十种常见协议。安全工程师或系统管理员可以在授权范围内，用它测试远程服务的认证强度，检测弱口令风险，并辅助漏洞验证和渗透测试。它借助字典文件或自定义规则，批量尝试用户名和密码组合，并支持多线程并行、暂停恢复、代理切换等操作，也可通过脚本扩展协议。通常适合登录防护能力验证、账号安全审核与合规检查，但必须遵守目标授权，仅用于合法安全任务。"
     },
     "summary": {
         "initial_stars": 10531,
-        "current_stars": 12126,
-        "star_diff": 1595,
-        "growth_rate": 15.15,
+        "current_stars": 12130,
+        "star_diff": 1599,
+        "growth_rate": 15.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 12126,
             "forks": 2619,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12130,
+            "forks": 2622,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

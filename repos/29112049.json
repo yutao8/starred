@@ -6,16 +6,16 @@
         "name": "ZeroNet",
         "html_url": "https:\/\/github.com\/HelloZeroNet\/ZeroNet",
         "language": "JavaScript",
-        "description": "ZeroNet是一个基于区块链技术和比特币加密原理的去中心化网站平台，利用BT网络实现网站内容分发与更新，用户可匿名运行和访问网站，有效避免审查和封锁，适合搭建抗屏蔽的Web应用与社区。"
+        "description": "ZeroNet 基于比特币加密和 BitTorrent 协议构建去中心化网站网络，用户无需中心服务器即可发布和访问网站，所有内容存储在节点中，支持离线浏览、实时更新，并提供匿名性和抗审查能力。通常适合需要绕过审查、保护隐私或希望完全掌控内容的场景，技术上以 Bitcoin 地址作为身份标识，通过 P2P 分发数据，体验接近传统 Web 但底层完全去中心化。"
     },
     "summary": {
         "initial_stars": 18569,
-        "current_stars": 18761,
-        "star_diff": 192,
-        "growth_rate": 1.03,
+        "current_stars": 18763,
+        "star_diff": 194,
+        "growth_rate": 1.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 18761,
             "forks": 2284,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18763,
+            "forks": 2284,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

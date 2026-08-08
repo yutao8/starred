@@ -6,7 +6,7 @@
         "name": "Upload",
         "html_url": "https:\/\/github.com\/brandonsavage\/Upload",
         "language": "PHP",
-        "description": "Upload 是一个简单的 PHP 文件上传处理库，主要用于安全地处理文件上传操作，提供文件验证、过滤和移动功能，适用于需要可靠文件上传机制的 Web 应用程序。"
+        "description": "面向 PHP 开发者的文件上传处理库，主要用于接收并校验用户提交的文件，验证文件类型与大小，并将内容安全保存到目标目录，以降低恶意文件带来的风险。适合需要在 Web 应用中统一管理上传流程、保障存储安全的项目，尤其适合对文件来源和内容有较高安全要求的场景。"
     },
     "summary": {
         "initial_stars": 1662,

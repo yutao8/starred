@@ -6,16 +6,16 @@
         "name": "quartz",
         "html_url": "https:\/\/github.com\/jackyzha0\/quartz",
         "language": "TypeScript",
-        "description": "Quartz 是一个基于 Obsidian 的静态网站生成工具，主要用于将本地笔记转换为可发布的个人知识库网站，支持双向链接、图谱视图和高度定制化主题，适合构建个人博客或文档站点，无需编程基础即可实现知识管理与共享。"
+        "description": "Quartz 将 Markdown 笔记快速转换为功能完整的静态网站，专为数字花园和知识库设计。它支持双向链接、自动生成关系图谱、全文搜索与标签系统，让笔记间连接清晰可见。通常适合个人知识管理、技术博客或公开课程笔记，尤其适合使用 Obsidian 等工具的用户，只需同步 Markdown 文件即可发布。项目采用现代静态站点生成技术，特性丰富且部署简单，能帮助用户低成本搭建长期维护的个人信息中心。"
     },
     "summary": {
         "initial_stars": 9394,
-        "current_stars": 12952,
-        "star_diff": 3558,
-        "growth_rate": 37.88,
+        "current_stars": 12961,
+        "star_diff": 3567,
+        "growth_rate": 37.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 12952,
             "forks": 4031,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12961,
+            "forks": 4035,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

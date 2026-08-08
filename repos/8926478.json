@@ -6,7 +6,7 @@
         "name": "source-map-visualization",
         "html_url": "https:\/\/github.com\/sokra\/source-map-visualization",
         "language": "JavaScript",
-        "description": "用于可视化 JavaScript 源码映射（source map）的工具，帮助开发者直观查看源码与压缩后代码的对应关系，定位调试时的代码位置，提升调试效率，主要用于分析构建产物的源映射准确性与结构。"
+        "description": "一个用于可视化 JavaScript Source Map 的调试辅助工具，能够将打包压缩后的代码与原始源码的映射关系以图形方式直观呈现出来，帮助开发者快速定位编译产物中每一行代码对应的源文件位置，排查打包配置问题或进行逆向分析。它很适合配合 webpack 等构建工具使用，在排查代码压缩、混淆或模块合并后的调用栈时，能显著降低理解成本。通常适合前端工程化调试场景，尤其是需要确认 source map 是否正确生成或映射范围异常的场合。"
     },
     "summary": {
         "initial_stars": 657,

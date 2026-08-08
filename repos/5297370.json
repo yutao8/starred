@@ -6,7 +6,7 @@
         "name": "SuperSocket",
         "html_url": "https:\/\/github.com\/kerryjiang\/SuperSocket",
         "language": "C#",
-        "description": "SuperSocket是一个基于.NET平台的高性能、可扩展的网络通信框架，主要用于快速构建TCP\/UDP服务器应用程序。它支持多种协议，提供异步通信机制，具备良好的可插拔架构，适用于需要处理大量并发连接的场景，如游戏服务器、物联网网关和实时通信系统。"
+        "description": "SuperSocket 是一款面向 .NET 的轻量级、跨平台 socket 服务器框架，主要用于快速搭建 TCP\/UDP 网络服务，支持自定义协议解析、连接管理和会话处理。它适合开发实时通信、游戏服务器、物联网设备接入等场景，通过插件机制可灵活扩展功能，帮助开发者避免重复处理底层网络细节，专注业务逻辑。"
     },
     "summary": {
         "initial_stars": 4106,

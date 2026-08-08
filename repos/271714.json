@@ -6,7 +6,7 @@
         "name": "wkhtmltopdf",
         "html_url": "https:\/\/github.com\/wkhtmltopdf\/wkhtmltopdf",
         "language": "C++",
-        "description": "将HTML网页转换为PDF文档的开源命令行工具，支持页眉页脚、自定义字体、JavaScript渲染等功能，适用于生成报表、发票等需要精准排版的PDF文件，常与后端服务集成实现批量文档自动化生成。"
+        "description": "wkhtmltopdf 是一款基于 WebKit 引擎的命令行工具，用于将 HTML 文件或网址直接转换为 PDF 及图片格式。它提供细致的页面控制选项，包括纸张大小、页边距、页眉页脚和分页方式，适合服务端通过 HTML 模板批量生成报表、发票和文档。它常被集成在自动化流程中，解决从动态网页内容产出格式统一且可打印 PDF 的需求。"
     },
     "summary": {
         "initial_stars": 14308,
@@ -14,8 +14,8 @@
         "star_diff": 263,
         "growth_rate": 1.84,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 14571,
             "forks": 1950,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14571,
+            "forks": 1952,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

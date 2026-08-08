@@ -6,7 +6,7 @@
         "name": "AfuseKt-release",
         "html_url": "https:\/\/github.com\/AttemptD\/AfuseKt-release",
         "language": "Other",
-        "description": "一个基于 Kotlin 实现的 A* 路径搜索算法库，主要用于游戏开发或地图寻路场景，提供简洁的 API 用于计算二维网格中的最短路径，支持自定义障碍物与移动成本，适用于 Android 或 JVM 平台的桌面应用。"
+        "description": "AfuseKt 是一个基于 Kotlin 编程语言开发的 FUSE 文件系统库，用于在用户态实现自定义文件系统。它通过封装 FUSE 接口，让开发者能够用 Kotlin 简洁地处理文件读写、目录遍历、权限控制等操作，适合构建虚拟文件系统、挂载远程存储或实现资源映射等场景。由于项目以 release 形式发布，通常面向需要稳定版依赖或直接集成二进制产物的使用者。该库致力于降低文件系统开发门槛，并利用 Kotlin 的语法特性提高代码可维护性。"
     },
     "summary": {
         "initial_stars": 3644,

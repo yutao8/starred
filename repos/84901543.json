@@ -6,16 +6,16 @@
         "name": "qBittorrent-Enhanced-Edition",
         "html_url": "https:\/\/github.com\/c0re100\/qBittorrent-Enhanced-Edition",
         "language": "C++",
-        "description": "qBittorrent 增强版是一款基于 qBittorrent 的第三方修改版，主要用于提升下载体验，增加更多实用功能，如内置Tracker服务器、自动屏蔽广告、增强的搜索插件集成、更精细的下载调度控制，以及界面优化等，适合追求高效、纯净下载体验的用户。"
+        "description": "qBittorrent-Enhanced-Edition 是开源 BT 客户端 qBittorrent 的第三方增强版，主要用于优化下载体验，尤其适合使用 PT 和公网 BT 的场景。它在原版基础上加入了常见的反吸血功能，能够自动屏蔽迅雷等已知吸血客户端，避免上传带宽和做种资源被不公平占用；同时增强了对 tracker 订阅和更新的支持，使 tracker 列表更易维护，提升连接成功率。该版本通常被有长期做种需求或注重下载公平性的用户选用，下载、上传、RSS 订阅等核心功能与原版保持一致，但额外提供了更细粒度的连接和 IP 过滤选项。如果你日常使用 qBittorrent 并经常遇到下载速度不均、被非标准客户端抢占资源的问题，这个增强版往往能比原版提供更顺手的控制能力。"
     },
     "summary": {
         "initial_stars": 22640,
-        "current_stars": 26320,
-        "star_diff": 3680,
-        "growth_rate": 16.25,
+        "current_stars": 26332,
+        "star_diff": 3692,
+        "growth_rate": 16.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 26320,
             "forks": 1432,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26332,
+            "forks": 1432,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

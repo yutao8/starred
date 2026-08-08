@@ -6,16 +6,16 @@
         "name": "hamuleite",
         "html_url": "https:\/\/github.com\/hoochanlon\/hamulete",
         "language": "Python",
-        "description": "一个基于 Vue.js 的轻量级前端模板引擎，主要用于快速构建动态网页界面，支持组件化开发和数据双向绑定，适合中小型项目快速原型开发与静态页面渲染。"
+        "description": "该库整合了面向Windows、Linux及macOS的运维脚本与实用工具，主要用于一站式完成常用软件安装、系统初始化配置和网络环境调节。它适合在新电脑或虚拟机中快速搭建开发环境，也能用于日常批量执行重复性维护操作，解决手动下载安装、逐项设置系统参数的低效问题。脚本按平台分类，涵盖包管理器调用、偏好项写入与常规诊断，普通用户和运维人员均可按需选用。"
     },
     "summary": {
         "initial_stars": 9155,
-        "current_stars": 9527,
-        "star_diff": 372,
-        "growth_rate": 4.06,
+        "current_stars": 9528,
+        "star_diff": 373,
+        "growth_rate": 4.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 162
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 163
     },
     "history": [
         {
@@ -1151,6 +1151,13 @@
             "stars": 9527,
             "forks": 1884,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9528,
+            "forks": 1883,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

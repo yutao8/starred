@@ -6,7 +6,7 @@
         "name": "vue-pdf",
         "html_url": "https:\/\/github.com\/FranckFreiburger\/vue-pdf",
         "language": "JavaScript",
-        "description": "基于 Vue 的 PDF 预览组件，利用 PDF.js 实现浏览器内直接加载和显示 PDF 文件，支持分页渲染、缩放操作与自定义样式，适用于需要在前端展示 PDF 文档的场景。"
+        "description": "用于在 Vue.js 应用中直接嵌入 PDF 文件查看器，让用户无需离开页面即可预览文档，支持常见的滚动、缩放和翻页操作，通常适合在线文档展示、合同预览、报告阅读等场景。该组件将 PDF.js 封装为 Vue 组件，使用简单，能快速集成到基于 Vue 2 或 Vue 3 的项目中，解决了在单页应用里内嵌 PDF 预览功能的常见需求。"
     },
     "summary": {
         "initial_stars": 2282,

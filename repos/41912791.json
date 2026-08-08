@@ -6,16 +6,16 @@
         "name": "v2ray-core",
         "html_url": "https:\/\/github.com\/v2ray\/v2ray-core",
         "language": "Go",
-        "description": "V2Ray 是一个网络代理工具，用于绕过网络审查和保护用户隐私，支持多种协议和传输方式，可帮助用户实现安全、稳定的网络访问，常用于构建科学上网环境，具有高扩展性和跨平台支持。"
+        "description": "V2Ray 是一个跨平台的网络代理引擎，主要用于构建加密传输通道，实现安全访问互联网和绕过网络审查。它支持多种代理协议，如 VMess、Shadowsocks、HTTP 等，并能通过灵活的路由规则自由分流流量。典型应用场景包括保护隐私、突破地域限制、科学上网等，适合需要高度定制化代理策略的用户与开发者。"
     },
     "summary": {
         "initial_stars": 46132,
-        "current_stars": 46943,
-        "star_diff": 811,
+        "current_stars": 46945,
+        "star_diff": 813,
         "growth_rate": 1.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 46943,
             "forks": 8827,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 46945,
+            "forks": 8825,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

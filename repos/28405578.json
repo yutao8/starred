@@ -6,7 +6,7 @@
         "name": "BGAQRCode-Android",
         "html_url": "https:\/\/github.com\/bingoogolapple\/BGAQRCode-Android",
         "language": "C",
-        "description": "BGAQRCode-Android 是一个功能强大的 Android 二维码扫描与生成库，支持扫码识别、自定义扫描界面、闪光灯控制及快速生成带 logo 的二维码，适用于需要集成条码识别或二维码生成功能的 Android 应用，简化了相机预览和图像处理的复杂性，提供高效稳定的使用体验。"
+        "description": "为 Android 应用提供二维码扫描与生成能力，主要解决移动端扫一扫功能的快速集成问题。核心功能涵盖相机实时扫描、从相册图片识别二维码、生成普通或带 Logo 的二维码，并允许开发者自定义扫描框样式、闪光灯与提示音等交互细节。典型使用场景包括支付、社交加好友、商品溯源、WiFi 分享等需要从二维码获取信息的业务。该库封装了底层相机与解码逻辑，降低了接入门槛，适合希望快速获得稳定二维码功能的 Android 项目。"
     },
     "summary": {
         "initial_stars": 8003,

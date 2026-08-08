@@ -6,16 +6,16 @@
         "name": "php-webdriver",
         "html_url": "https:\/\/github.com\/php-webdriver\/php-webdriver",
         "language": "PHP",
-        "description": "用于 PHP 的 WebDriver 客户端库，支持通过 Selenium WebDriver 协议控制浏览器进行自动化测试，可模拟用户操作如点击、表单提交等，适用于 Web 应用的功能测试和 UI 测试，兼容 Chrome、Firefox 等主流浏览器。"
+        "description": "php-webdriver 是一个 PHP 库，用于通过 Selenium WebDriver 协议控制浏览器，实现自动化测试和网页交互。它支持 Chrome、Firefox 等主流浏览器，可模拟点击、输入、导航等操作，验证页面行为，常用于端到端测试和抓取动态网页。开发者可将其集成到 PHPUnit 等测试框架中，适合需要跨浏览器验证功能的场景。"
     },
     "summary": {
         "initial_stars": 5194,
-        "current_stars": 5201,
-        "star_diff": 7,
-        "growth_rate": 0.13,
+        "current_stars": 5202,
+        "star_diff": 8,
+        "growth_rate": 0.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 86
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 87
     },
     "history": [
         {
@@ -619,6 +619,13 @@
             "stars": 5201,
             "forks": 845,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5202,
+            "forks": 845,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

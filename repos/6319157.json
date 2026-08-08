@@ -6,16 +6,16 @@
         "name": "interact.js",
         "html_url": "https:\/\/github.com\/taye\/interact.js",
         "language": "TypeScript",
-        "description": "interact.js 是一个用于实现拖拽、缩放和多点触控手势的 JavaScript 库，适用于网页中的交互元素。它支持现代浏览器和移动设备，提供简单 API 来处理 drag、drop、resize 和 gesture 操作，常用于构建可交互的 UI 组件，如可拖动对话框、布局调整和触控拖拽等场景。"
+        "description": "interact.js用于在网页中实现拖拽、缩放和旋转等手势交互，是一个轻量级且不依赖框架的JavaScript库。它统一处理鼠标、触摸和指针事件，使交互在桌面和移动设备上都能正常工作。通过简洁的API，开发者可以快速让元素变得可拖拽，或为其添加缩放和旋转能力，并自定义事件回调与约束条件。通常适合构建可拖拽的看板、可视化编辑器、白板工具和游戏界面等场景。它还支持与React、Vue等流行前端框架集成，方便在大型项目中控制交互逻辑。"
     },
     "summary": {
         "initial_stars": 12613,
-        "current_stars": 12918,
-        "star_diff": 305,
-        "growth_rate": 2.42,
+        "current_stars": 12919,
+        "star_diff": 306,
+        "growth_rate": 2.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 159
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 160
     },
     "history": [
         {
@@ -1130,6 +1130,13 @@
             "stars": 12918,
             "forks": 806,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12919,
+            "forks": 806,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "NatTypeTester",
         "html_url": "https:\/\/github.com\/HMBSbige\/NatTypeTester",
         "language": "C#",
-        "description": "用于测试和识别网络的NAT类型，帮助用户判断当前网络环境下的NAT映射与过滤特性，常用于P2P、VoIP等需要穿透NAT的应用场景，支持多种探测模式以准确识别对称型、端口限制型等不同NAT行为。"
+        "description": "用于检测当前网络环境中的 NAT 类型，帮助用户判断路由器或防火墙对 UDP 流量的映射与过滤行为。它通常借助 STUN 协议向公共服务器发送探测报文，并依据返回结果区分全锥型、受限锥型、端口受限锥型及对称型等不同 NAT 模式。适合网络调试、P2P 连接排查、游戏联机问题分析及内网穿透配置验证等场景。界面简洁，操作直观，可快速获取本地公网地址映射情况。"
     },
     "summary": {
         "initial_stars": 4073,
-        "current_stars": 4741,
-        "star_diff": 668,
-        "growth_rate": 16.4,
+        "current_stars": 4757,
+        "star_diff": 684,
+        "growth_rate": 16.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 177
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 178
     },
     "history": [
         {
@@ -1256,6 +1256,13 @@
             "stars": 4741,
             "forks": 272,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4757,
+            "forks": 272,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

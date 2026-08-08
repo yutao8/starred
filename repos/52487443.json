@@ -6,16 +6,16 @@
         "name": "city-picker",
         "html_url": "https:\/\/github.com\/tshi0912\/city-picker",
         "language": "JavaScript",
-        "description": "城市选择器，主要用于移动端 H5 页面，提供省市区三级联动选择功能，支持自定义数据、默认值设置和回调事件，适用于表单中地址选择场景，基于原生 JavaScript 开发，兼容主流移动端浏览器，使用简单，可快速集成到项目中。"
+        "description": "城市选择器组件，主要面向网页或移动端表单中的地址填写场景，帮助用户按省、市、区（县）的层级结构快速定位并选择所在地区。通过联动机制，在选定上一级后自动更新下一级选项，减少手动输入成本并提升数据规范性。代码结构通常轻量，可直接嵌入常用前端项目，适合需要行政区划选择功能的电商、物流、政务系统等。内置数据以中国行政区划为主，便于快速部署使用。"
     },
     "summary": {
         "initial_stars": 787,
-        "current_stars": 780,
-        "star_diff": -7,
-        "growth_rate": -0.89,
+        "current_stars": 779,
+        "star_diff": -8,
+        "growth_rate": -1.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-11 00:00",
-        "data_points_count": 21
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 22
     },
     "history": [
         {
@@ -164,6 +164,13 @@
             "stars": 780,
             "forks": 330,
             "file": "dist\/2026071100\/starList.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 779,
+            "forks": 330,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

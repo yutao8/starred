@@ -6,16 +6,16 @@
         "name": "winsw",
         "html_url": "https:\/\/github.com\/winsw\/winsw",
         "language": "C#",
-        "description": "WinSW 是一个轻量级的 Windows 服务包装器，主要用于将任何可执行文件或脚本封装为 Windows 服务，支持 .NET 和 Java 等应用，便于在后台运行和管理应用程序，提供安装、卸载、启动、停止等命令行操作，常用于部署 Web 服务、守护进程等场景。"
+        "description": "用于将任意可执行程序包装成Windows服务的工具，通过简洁的XML配置文件即可指定要运行的命令、参数、启动方式和服务行为，实现服务的安装、卸载、启动、停止等操作。典型场景是把Java应用、Python脚本、守护进程或命令行工具改造成随系统开机自启、后台持续运行的服务，同时支持日志记录、依赖管理和进程异常时自动重启。适合需要将现有程序快速迁移为Windows服务的运维和开发人员，无需编写复杂驱动或原生服务代码。"
     },
     "summary": {
         "initial_stars": 13001,
-        "current_stars": 14202,
-        "star_diff": 1201,
-        "growth_rate": 9.24,
+        "current_stars": 14203,
+        "star_diff": 1202,
+        "growth_rate": 9.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 14202,
             "forks": 1693,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14203,
+            "forks": 1692,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

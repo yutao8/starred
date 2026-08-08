@@ -6,7 +6,7 @@
         "name": "BaiduNetdiskPlugin-macOS",
         "html_url": "https:\/\/github.com\/CodeTips\/BaiduNetdiskPlugin-macOS",
         "language": "Objective-C",
-        "description": "用于破解百度网盘macOS客户端限速的插件，通过注入动态库绕过下载速度限制，提升小文件下载体验，通常配合自定义版本或补丁使用以实现高速下载。"
+        "description": "为 macOS 用户提供百度网盘客户端的功能增强插件，主要解决官方版本下载速度受限、界面广告干扰等问题，同时可能解锁部分需付费或限制的便利操作。通过注入或替换原有文件，能显著改善日常使用百度网盘的体验，尤其适合经常下载大文件、希望突破速度瓶颈或摆脱弹窗广告的用户。由于需要修改客户端文件，通常要求 macOS 支持第三方签名的插件机制，且在不同版本间存在兼容性风险，安装前建议备份原始数据。该项目持续跟随百度网盘更新，但具体实现细节和安全性需用户自行确认。"
     },
     "summary": {
         "initial_stars": 8776,

@@ -6,16 +6,16 @@
         "name": "autojs",
         "html_url": "https:\/\/github.com\/bayson\/autojs",
         "language": "JavaScript",
-        "description": "一个基于 Auto.js 的自动化脚本工具，主要用于 Android 平台上的自动化操作，如自动点击、滑动、文本识别等，支持 JavaScript 脚本编写，适用于自动化测试、APP 自动化任务和无障碍服务开发，具有轻量级和易上手的特点。"
+        "description": "用于在Android设备上运行JavaScript自动化脚本，借助系统的无障碍服务实现对屏幕控件的识别与模拟点击、滑动和输入等操作。通常适合解决日常应用中的重复性任务，例如自动签到、批量处理消息、辅助软件测试等，也支持按时间或条件触发脚本。用户可以通过内置编辑器或外部导入方式编写代码，在手机上直接执行，适合需要轻量级自动化方案的开发者或普通使用者。"
     },
     "summary": {
         "initial_stars": 472,
-        "current_stars": 476,
-        "star_diff": 4,
-        "growth_rate": 0.85,
+        "current_stars": 477,
+        "star_diff": 5,
+        "growth_rate": 1.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 31
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 32
     },
     "history": [
         {
@@ -234,6 +234,13 @@
             "stars": 476,
             "forks": 125,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 477,
+            "forks": 125,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

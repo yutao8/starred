@@ -6,16 +6,16 @@
         "name": "gridea",
         "html_url": "https:\/\/github.com\/getgridea\/gridea",
         "language": "TypeScript",
-        "description": "Gridea 是一个静态博客写作客户端，支持 Markdown 写作，可一键发布内容到 GitHub、GitLab 等平台，自动生成静态页面，适合个人博客搭建，无需复杂配置即可实现写作与部署自动化。"
+        "description": "Gridea 是一款面向写作者的静态博客管理工具，无需服务器即可将 Markdown 文档渲染成美观的网页。它提供跨平台桌面客户端，支持本地编辑、实时预览，并一键部署到 GitHub Pages、Gitee Pages 等托管平台，也支持自定义域名、主题和分类归档。适合希望专注内容、快速搭建个人独立博客或技术文档站点的用户，省去手动配置环境与繁琐发布流程，同时保留对页面细节的深度控制能力。"
     },
     "summary": {
         "initial_stars": 10152,
-        "current_stars": 10265,
-        "star_diff": 113,
-        "growth_rate": 1.11,
+        "current_stars": 10266,
+        "star_diff": 114,
+        "growth_rate": 1.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 159
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 160
     },
     "history": [
         {
@@ -1130,6 +1130,13 @@
             "stars": 10265,
             "forks": 831,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10266,
+            "forks": 830,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

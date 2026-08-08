@@ -6,16 +6,16 @@
         "name": "ecs",
         "html_url": "https:\/\/github.com\/spiritLHLS\/ecs",
         "language": "Shell",
-        "description": "一个基于阿里云ECS的自动化部署与管理工具，主要用于批量创建、配置和监控云服务器实例，支持自定义镜像、安全组规则和定时任务，适用于需要高效运维云资源的开发者和企业。"
+        "description": "通常用于一键评测服务器的脚本工具，集中提供硬件配置、CPU 与内存性能、磁盘读写、国内外网络速度及路由回程等多项测试。用户购买或租赁 VPS 后可快速获得综合性能数据，便于对比机房线路质量和判断是否满足需求。整个过程通过命令行自动完成，适合需要评估云服务器或独立主机性能的开发者和运维人员。"
     },
     "summary": {
         "initial_stars": 5425,
-        "current_stars": 7099,
-        "star_diff": 1674,
-        "growth_rate": 30.86,
+        "current_stars": 7101,
+        "star_diff": 1676,
+        "growth_rate": 30.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 7099,
             "forks": 559,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7101,
+            "forks": 559,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

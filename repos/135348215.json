@@ -6,7 +6,7 @@
         "name": "MTProxy",
         "html_url": "https:\/\/github.com\/TelegramMessenger\/MTProxy",
         "language": "C",
-        "description": "MTProxy 是 Telegram 提供的轻量级代理工具，主要用于绕过网络封锁以安全连接到 Telegram 服务器。它支持通过第三方代理中转加密流量，配置简单且兼容多种平台，通常用于在受限网络环境中加速并稳定访问 Telegram 服务。"
+        "description": "MTProxy 是 Telegram 官方推出的代理工具，主要用于在不稳定的网络环境中维持 Telegram 的正常通讯，帮助用户绕过访问限制。它基于 MTProto 协议，支持快速部署在轻量级服务器上，适合个人搭建专属代理或为组织提供稳定的接入方案，以解决连接被干扰或封锁的问题，同时兼顾传输效率与数据安全。"
     },
     "summary": {
         "initial_stars": 5297,
@@ -14,8 +14,8 @@
         "star_diff": 1591,
         "growth_rate": 30.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 6888,
             "forks": 1131,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6888,
+            "forks": 1132,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

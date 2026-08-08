@@ -6,7 +6,7 @@
         "name": "think-workerman",
         "html_url": "https:\/\/github.com\/DDZH-DEV\/think-workerman",
         "language": "PHP",
-        "description": "基于 thinkphp 和 workerman 的长连接通信解决方案，主要用于实现 Websocket 服务与 thinkphp 框架的集成，适用于需要实时消息推送、在线用户管理、聊天室等场景，通过进程管理提供稳定的常驻内存服务，支持事件驱动和多进程通信，便于构建高并发的实时 Web 应用。"
+        "description": "为 ThinkPHP 框架提供 Workerman 常驻内存运行能力，使 PHP 应用摆脱传统 Web 模式，支持长连接、WebSocket 实时通信和异步任务处理。通常适合需要高并发推送、聊天室、物联网设备接入或定时任务的场景，能在不改变原有框架代码结构的同时，利用 Workerman 的事件驱动模型提升性能，简化部署与进程管理。"
     },
     "summary": {
         "initial_stars": 39,

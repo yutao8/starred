@@ -6,16 +6,16 @@
         "name": "baidu-nolimit",
         "html_url": "https:\/\/github.com\/cloudroc\/baidu-nolimit",
         "language": "JavaScript",
-        "description": "用于突破百度网盘下载限速的工具，通过第三方技术手段优化下载链接，实现高速下载。主要用于解决百度网盘非会员用户限速问题，支持多线程加速，适用于大文件传输需求，操作简单，兼容主流操作系统，提升网盘资源获取效率。"
+        "description": "一款针对百度服务解除限制的工具，主要用途是突破百度网盘的下载速度限制和访问限制，适合需要频繁下载大文件、希望提升网盘使用体验的用户。其实现思路通常是通过技术手段绕过平台原有的速度和功能约束，从而获得更快的下载速率或更自由的访问权限。具体效果可能随百度官方策略调整而变化，使用时需要留意账号安全和平台合规要求。"
     },
     "summary": {
         "initial_stars": 1046,
-        "current_stars": 1042,
-        "star_diff": -4,
-        "growth_rate": -0.38,
+        "current_stars": 1043,
+        "star_diff": -3,
+        "growth_rate": -0.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 24
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 25
     },
     "history": [
         {
@@ -185,6 +185,13 @@
             "stars": 1042,
             "forks": 200,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1043,
+            "forks": 200,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

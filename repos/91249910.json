@@ -6,16 +6,16 @@
         "name": "SyncClipboard",
         "html_url": "https:\/\/github.com\/Jeric-X\/SyncClipboard",
         "language": "C#",
-        "description": "SyncClipboard 是一个用于在多台设备间同步剪贴板内容的工具，支持实时共享文本和图片，适用于跨平台工作场景，提升操作效率。"
+        "description": "用于在多个设备之间同步剪贴板内容的工具，解决跨设备复制粘贴不便的问题。核心功能是将文本、图片或文件从当前设备自动传输到其他设备，方便不同电脑或移动设备间即时共享信息。通常适合开发调试、文档编辑、远程协作等需要频繁转移内容的场景。项目可能提供自托管或自建服务的方案，便于用户控制数据隐私。整体上是一种轻量、快捷的跨平台剪贴板共享方案。"
     },
     "summary": {
         "initial_stars": 2953,
-        "current_stars": 4851,
-        "star_diff": 1898,
-        "growth_rate": 64.27,
+        "current_stars": 4857,
+        "star_diff": 1904,
+        "growth_rate": 64.48,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 4851,
             "forks": 239,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4857,
+            "forks": 239,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

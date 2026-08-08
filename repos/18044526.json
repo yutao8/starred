@@ -6,16 +6,16 @@
         "name": "streisand",
         "html_url": "https:\/\/github.com\/StreisandEffect\/streisand",
         "language": "Shell",
-        "description": "Streisand 是一个自动化部署工具，主要用于快速搭建和配置服务器环境，尤其适用于需要代理服务或突破网络限制的场景。它通过简单的交互式流程帮助用户在云服务器上部署多种代理协议和加密通信服务，支持多种平台与自定义配置，降低技术门槛，适合个人隐私保护及网络自由访问需求。"
+        "description": "Streisand 是一款用于快速部署个人翻墙服务器的开源工具，主要面向需要绕过网络限制的用户。它通过自动化脚本在一台全新 VPS 上配置多种常用 VPN 协议，例如 WireGuard、OpenConnect、Shadowsocks 等，并提供统一的管理入口和客户端连接信息。使用场景包括自建安全代理、保护隐私、访问受限内容。由于项目已停止活跃维护，建议仅用于了解原理或结合其他工具使用。它适合有服务器基础、希望独立掌控网络出口的用户。"
     },
     "summary": {
         "initial_stars": 23375,
-        "current_stars": 23480,
-        "star_diff": 105,
-        "growth_rate": 0.45,
+        "current_stars": 23479,
+        "star_diff": 104,
+        "growth_rate": 0.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 23480,
             "forks": 1952,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23479,
+            "forks": 1952,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

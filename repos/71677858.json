@@ -6,7 +6,7 @@
         "name": "The-New-M3U8-Downloader",
         "html_url": "https:\/\/github.com\/nilaoda\/The-New-M3U8-Downloader",
         "language": "C#",
-        "description": "用于下载和解析M3U8视频流的工具，支持多线程加速下载、视频合并及断点续传，适用于从网络直播或点播平台保存加密或未加密的分段视频内容。"
+        "description": "用于下载基于HLS协议的M3U8格式视频，通过解析索引文件获取分片地址并抓取TS片段，支持多线程下载、AES-128解码及自动合并输出为MP4等常见格式。主要面向在线播放但未提供直接下载入口的视频资源，适合处理课程、影视剧集、直播回放等场景。通常需要配合FFmpeg完成音视频封装，操作上支持直接粘贴链接或解析本地M3U8文件，可有效解决批量保存和离线观看需求。"
     },
     "summary": {
         "initial_stars": 1115,

@@ -6,16 +6,16 @@
         "name": "QuantumultX",
         "html_url": "https:\/\/github.com\/KOP-XIAO\/QuantumultX",
         "language": "JavaScript",
-        "description": "一个专为Quantumult X设计的个人配置分享项目，主要用于iOS平台上的网络请求重写、流量转发及规则管理，提供自定义策略组、去广告规则、应用分流等功能，适合高级用户优化网络体验。"
+        "description": "一款面向 iOS 设备的网络代理与规则管理工具，主要帮助用户配置和运行代理服务，支持订阅导入、分流规则、脚本扩展等功能，常用于科学上网、访问控制及流量策略定制。它通过模块化的规则引擎和可自定义配置文件，满足进阶用户对网络请求精细化管理的需求，同时也适合日常使用便捷规则和保持一定匿名性的场景。"
     },
     "summary": {
         "initial_stars": 2818,
-        "current_stars": 2982,
-        "star_diff": 164,
-        "growth_rate": 5.82,
+        "current_stars": 2981,
+        "star_diff": 163,
+        "growth_rate": 5.78,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 2982,
             "forks": 639,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2981,
+            "forks": 639,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

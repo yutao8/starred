@@ -6,16 +6,16 @@
         "name": "nocodb",
         "html_url": "https:\/\/github.com\/nocodb\/nocodb",
         "language": "TypeScript",
-        "description": "NoCodeDB 是一个开源的无代码数据库平台，将传统数据库转化为可视化电子表格界面，支持 MySQL、PostgreSQL、SQLite 等多种数据源，允许用户通过类 Airtable 的界面进行数据管理、表单设计、视图切换和协作共享，适用于快速构建后台管理系统、内部工具和小型应用。"
+        "description": "开源无代码数据库平台NocoDB能将主流数据库转换成类似电子表格的智能界面，让非技术用户轻松建表、管理数据。它提供网格、看板、日历等多种视图，支持公式、筛选、排序与自动化流程，适合团队快速搭建内部管理系统、业务后台或协作工具，显著降低数据库使用门槛。"
     },
     "summary": {
         "initial_stars": 55401,
-        "current_stars": 64429,
-        "star_diff": 9028,
-        "growth_rate": 16.3,
+        "current_stars": 64442,
+        "star_diff": 9041,
+        "growth_rate": 16.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 64429,
             "forks": 4968,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 64442,
+            "forks": 4971,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

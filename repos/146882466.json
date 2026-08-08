@@ -6,16 +6,16 @@
         "name": "iqiyi-parser",
         "html_url": "https:\/\/github.com\/ZSAIm\/iqiyi-parser",
         "language": "Python",
-        "description": "用于解析爱奇艺视频页面的工具，可提取视频标题、播放地址、弹幕等数据，适用于需要从爱奇艺获取公开信息的场景，如视频采集、内容分析或研究用途。"
+        "description": "解析爱奇艺视频资源的工具，主要用于提取视频文件的真实播放地址、标题、封面图等关键信息，支持批量获取和下载。针对爱奇艺网页端常见的加密参数与签名校验进行了处理，适合开发者在个人学习或内容采集场景下快速获取视频元数据。也常用于视频下载工具、爬虫程序或私人媒体库的接入。实际使用时需注意遵守网站服务条款和相关法律法规，避免用于商业侵权用途。"
     },
     "summary": {
         "initial_stars": 959,
-        "current_stars": 972,
-        "star_diff": 13,
-        "growth_rate": 1.36,
+        "current_stars": 970,
+        "star_diff": 11,
+        "growth_rate": 1.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 39
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 40
     },
     "history": [
         {
@@ -290,6 +290,13 @@
             "stars": 972,
             "forks": 257,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 970,
+            "forks": 257,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

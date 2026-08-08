@@ -6,16 +6,16 @@
         "name": "vcredist",
         "html_url": "https:\/\/github.com\/abbodi1406\/vcredist",
         "language": "VBScript",
-        "description": "提供 Visual C++ 运行库的离线安装包集成工具，主要用于一键部署微软 Visual C++ Redistributable 各版本运行时环境，适合系统维护、软件打包及开发环境配置，支持自动检测和安装缺失的 VC 运行库组件。"
+        "description": "批量安装所有 Microsoft Visual C++ 运行库的集成脚本，解决了新版系统或精简版 Windows 缺少旧版 VC++ 组件导致软件运行报错的问题。它整合了从 2005 到 2022 的各版本 Redistributable，支持静默安装、检测已安装版本并跳过重复项，也允许用户按需挑选架构（x86\/x64）或单独安装某项。适合游戏玩家、软件开发者以及系统维护人员在新装系统后快速补齐运行库环境，避免因 DLL 缺失而反复寻找补丁。"
     },
     "summary": {
         "initial_stars": 6677,
-        "current_stars": 7990,
-        "star_diff": 1313,
-        "growth_rate": 19.66,
+        "current_stars": 7995,
+        "star_diff": 1318,
+        "growth_rate": 19.74,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 7990,
             "forks": 426,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7995,
+            "forks": 427,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

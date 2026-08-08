@@ -6,16 +6,16 @@
         "name": "qt",
         "html_url": "https:\/\/github.com\/therecipe\/qt",
         "language": "Go",
-        "description": "一个基于 Go 语言的跨平台 GUI 框架，通过绑定 Qt 库实现原生桌面应用开发，支持 Windows、macOS、Linux 和移动平台，允许使用 Go 代码构建具有原生外观和高性能的图形界面应用程序，适用于需要本地化部署或系统级集成的桌面软件项目。"
+        "description": "用于在 Go 语言中调用 Qt 框架，实现跨平台图形界面应用的开发。该绑定通过 cgo 对接 C++ 版 Qt，覆盖桌面端（Windows、macOS、Linux）和移动端（Android、iOS），提供完整的控件与事件系统。适合需要原生界面、性能要求较高，或者希望用 Go 语言复用现有 Qt 生态的场景。通常配合官方命令行工具处理资源配置与打包，简化跨平台构建流程。"
     },
     "summary": {
         "initial_stars": 10680,
-        "current_stars": 10804,
-        "star_diff": 124,
-        "growth_rate": 1.16,
+        "current_stars": 10802,
+        "star_diff": 122,
+        "growth_rate": 1.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 145
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 146
     },
     "history": [
         {
@@ -1032,6 +1032,13 @@
             "stars": 10804,
             "forks": 745,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10802,
+            "forks": 745,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

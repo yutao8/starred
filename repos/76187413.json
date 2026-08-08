@@ -6,16 +6,16 @@
         "name": "YalpStore",
         "html_url": "https:\/\/github.com\/yeriomin\/YalpStore",
         "language": "Java",
-        "description": "Yalp Store 是一个 Android 应用商店客户端，允许用户在不依赖 Google Play 服务的情况下下载和更新应用程序。它支持 APK 文件的下载与安装，可从公开的源检索应用信息，适合注重隐私或使用去谷歌化系统的用户，通常与微G 环境或自定义 ROM 配合使用。"
+        "description": "YalpStore 是一款开源的安卓应用商店客户端，主要用途是不登录 Google 账号即可搜索、浏览和下载 Google Play 上的应用及更新。它直接对接 Play Store 的接口，适合在没有预装谷歌服务或需要保留 APK 安装包的场景，比如部分国产手机或定制系统。用户可通过该工具获取正版应用文件，便于离线安装或备份，同时避免在设备上登录个人账户。整个项目注重隐私和自由软件理念，常被作为可替代官方商店的轻量方案。"
     },
     "summary": {
         "initial_stars": 2448,
-        "current_stars": 2540,
-        "star_diff": 92,
-        "growth_rate": 3.76,
+        "current_stars": 2541,
+        "star_diff": 93,
+        "growth_rate": 3.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 114
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 115
     },
     "history": [
         {
@@ -815,6 +815,13 @@
             "stars": 2540,
             "forks": 268,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2541,
+            "forks": 268,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "bilibili-API-collect",
         "html_url": "https:\/\/github.com\/SocialSisterYi\/bilibili-API-collect",
         "language": "JavaScript",
-        "description": "该项目整理了B站（bilibili）的开放API接口文档，主要用于帮助开发者了解和接入B站的开放平台服务，涵盖用户、视频、直播、评论等多个模块的接口调用方式，适用于第三方应用集成B站社交与内容功能。"
+        "description": "该仓库系统整理了哔哩哔哩（B站）非官方公开接口文档，持续更新登录、视频、用户、动态、直播等模块的API说明。面向需要开发B站第三方工具、数据采集脚本或自动化脚本的开发者，帮助其快速查阅请求地址、参数与返回示例，解决官方文档缺失、接口变动难追踪的问题。通常适合作为逆向分析与生态开发时的参考手册。"
     },
     "summary": {
         "initial_stars": 17884,
-        "current_stars": 20242,
-        "star_diff": 2358,
+        "current_stars": 20241,
+        "star_diff": 2357,
         "growth_rate": 13.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 20242,
             "forks": 2865,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 20241,
+            "forks": 2866,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

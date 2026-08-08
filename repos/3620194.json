@@ -6,16 +6,16 @@
         "name": "select2",
         "html_url": "https:\/\/github.com\/select2\/select2",
         "language": "JavaScript",
-        "description": "Select2 是一个增强的下拉选择框组件，通过 jQuery 实现，支持搜索、远程数据加载、无限滚动、标签选择等功能，主要用于提升传统 HTML select 元素的用户体验，适合处理大量选项或需要动态加载数据的场景。"
+        "description": "Select2 是一款基于 jQuery 的增强型下拉选择框插件，用于替代浏览器原生 select 元素，解决其样式单调、难以搜索和选择大数据量选项时的操作不便。它支持键盘搜索过滤、多选、标签式自定义输入，以及通过 Ajax 远程加载选项数据，适合用于后台管理系统、数据筛选表单、分类标签选择等需要强大选择交互的网页场景。此外还提供主题定制和国际化能力，开发者可快速集成并适配不同界面风格。通常与 jQuery 一起使用，是前端开发中常见的表单增强工具。"
     },
     "summary": {
         "initial_stars": 25968,
-        "current_stars": 25910,
-        "star_diff": -58,
+        "current_stars": 25911,
+        "star_diff": -57,
         "growth_rate": -0.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 25910,
             "forks": 6147,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 25911,
+            "forks": 6144,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

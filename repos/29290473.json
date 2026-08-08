@@ -6,16 +6,16 @@
         "name": "XX-Net",
         "html_url": "https:\/\/github.com\/XX-net\/XX-Net",
         "language": "Python",
-        "description": "XX-Net 是一个基于代理技术的开源网络穿透工具，主要用于突破网络限制，实现自由访问互联网。它通过部署本地代理服务器与远程服务器（如 GAE）协同工作，提供稳定、安全的网络通道，支持多种应用的流量转发，适合需要绕过防火墙或访问受限内容的用户使用。"
+        "description": "XX-Net 是一个开源的网络代理工具，主要用于绕过网络封锁、访问被屏蔽的网站，常被用于科学上网场景。它支持多种代理协议，并集成了流量调度和自动切换功能，适合需要稳定访问海外服务的个人用户。项目基于 Google App Engine 等基础设施搭建，能够在一定程度上提升访问速度，并降低单一节点失效的风险。由于涉及网络穿透，使用前需了解相关法律法规，并自行承担风险。"
     },
     "summary": {
         "initial_stars": 33264,
-        "current_stars": 33455,
-        "star_diff": 191,
-        "growth_rate": 0.57,
+        "current_stars": 33456,
+        "star_diff": 192,
+        "growth_rate": 0.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 33455,
             "forks": 7543,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33456,
+            "forks": 7541,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

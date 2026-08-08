@@ -6,7 +6,7 @@
         "name": "FastRoute",
         "html_url": "https:\/\/github.com\/nikic\/FastRoute",
         "language": "PHP",
-        "description": "FastRoute 是一个快速的 PHP 路由库，主要用于解析 URL 并将其分发到对应的处理程序。它支持自定义路由规则、正则匹配和变量提取，适用于构建高性能的 Web 应用和 API，设计简洁，执行效率高。"
+        "description": "FastRoute 是 PHP 生态中的高性能路由解析库，专为加速请求 URI 与路由规则的匹配而设计。它通过预编译路由并结合分治正则匹配算法，在处理大量路由时仍能保持稳定快速的性能。支持常见的占位符、可选参数和通配符语法，使用灵活，且不绑定特定框架，可以方便地集成进各类 PHP 项目。典型用途包括 RESTful API 接口管理、微服务网关路径分发，或作为自研框架的基础路由组件。需要注意的是，FastRoute 只负责匹配过程，并不包含请求分发逻辑，后续处理需由调用方自行实现。"
     },
     "summary": {
         "initial_stars": 5201,

@@ -6,16 +6,16 @@
         "name": "WeChatExporter",
         "html_url": "https:\/\/github.com\/tsycnh\/WeChatExporter",
         "language": "JavaScript",
-        "description": "用于导出微信聊天记录的工具，支持将聊天记录导出为多种格式，方便在电脑上查看和存档，适用于需要备份或分析微信对话内容的用户，通常与微信网页版或本地数据库结合使用。"
+        "description": "用于导出微信聊天记录的开源工具，主要通过解析本地数据库或备份文件，将聊天内容整理成结构化格式，便于用户长期保存、离线查阅或进一步分析。通常适用于备份聊天记录、整理重要对话、迁移历史消息等场景。操作上偏向本地化，注重隐私安全，适合对数据控制要求较高的用户。具体支持平台和输出格式以实际版本为准。"
     },
     "summary": {
         "initial_stars": 1428,
-        "current_stars": 1513,
-        "star_diff": 85,
-        "growth_rate": 5.95,
+        "current_stars": 1514,
+        "star_diff": 86,
+        "growth_rate": 6.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 94
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 95
     },
     "history": [
         {
@@ -675,6 +675,13 @@
             "stars": 1513,
             "forks": 241,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1514,
+            "forks": 241,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

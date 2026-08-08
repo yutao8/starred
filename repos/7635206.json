@@ -6,16 +6,16 @@
         "name": "filterus",
         "html_url": "https:\/\/github.com\/ircmaxell\/filterus",
         "language": "PHP",
-        "description": "一个轻量级 PHP 过滤库，用于安全处理和过滤用户输入数据，支持多种内置过滤规则和自定义扩展，适用于表单验证、数据清洗等场景，帮助开发者快速实现输入过滤与净化。"
+        "description": "Filterus 是一个 PHP 数据过滤与验证库，主要用于对数组、对象和标量值进行统一的清洗与校验。它允许开发者以声明式规则描述数据类型和约束，从而过滤不安全或不规范的输入，适合表单提交、API 参数处理、配置文件校验等场景。该库强调轻量和灵活，能够将过滤逻辑从业务代码中解耦，减少重复的条件判断，提升代码的可维护性与安全性。对于需要快速处理用户输入并保证数据完整的 PHP 项目，Filterus 通常是一个实用的选择。"
     },
     "summary": {
         "initial_stars": 451,
-        "current_stars": 445,
-        "star_diff": -6,
-        "growth_rate": -1.33,
+        "current_stars": 444,
+        "star_diff": -7,
+        "growth_rate": -1.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-26 00:00",
-        "data_points_count": 11
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 12
     },
     "history": [
         {
@@ -94,6 +94,13 @@
             "stars": 445,
             "forks": 52,
             "file": "dist\/2026072600\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 444,
+            "forks": 52,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

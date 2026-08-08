@@ -6,16 +6,16 @@
         "name": "RedisDesktopManager",
         "html_url": "https:\/\/github.com\/RedisInsight\/RedisDesktopManager",
         "language": "C++",
-        "description": "Redis Desktop Manager 是一个跨平台的图形化工具，用于直观地管理 Redis 数据库。它支持连接多个实例，提供键值浏览、编辑、搜索及导入导出功能，便于开发和调试时高效操作数据，适用于需要可视化界面管理 Redis 的场景。"
+        "description": "Redis Desktop Manager 是跨平台的 Redis 图形化客户端，主要为开发者和运维人员提供可视化的数据管理界面，用于浏览、编辑和删除 Redis 中的键值对，覆盖字符串、哈希、列表、集合等常见数据类型。它还内置命令行终端，方便直接执行 Redis 命令，并支持同时管理多个本地或远程实例。典型使用场景包括日常调试、数据排查和简单监控，能显著减少命令行操作的复杂性和误操作风险。该工具开源免费，适合替代原生 redis-cli 进行交互式数据管理。"
     },
     "summary": {
         "initial_stars": 23110,
-        "current_stars": 23230,
-        "star_diff": 120,
-        "growth_rate": 0.52,
+        "current_stars": 23229,
+        "star_diff": 119,
+        "growth_rate": 0.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 23230,
             "forks": 3237,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23229,
+            "forks": 3237,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

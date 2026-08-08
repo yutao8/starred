@@ -6,16 +6,16 @@
         "name": "Shizuku",
         "html_url": "https:\/\/github.com\/RikkaApps\/Shizuku",
         "language": "Kotlin",
-        "description": "提供一种无需 root 权限即可使用系统私有 API 的方式，通过辅助服务模式授予应用系统级权限，主要用于开发调试或高级功能扩展，适合需要调用隐藏接口但不想或无法 root 设备的场景。"
+        "description": "使用 Shizuku 可以通过 ADB 或 root 权限向普通应用赋予系统级 API 调用能力，无需额外修改系统镜像。它适合开发者和高级用户用来运行需要高权限的自动化工具、系统管理应用或修改系统设置的脚本，常与 ADB 无线连接配合使用，以更安全的方式替代传统 root 方案。"
     },
     "summary": {
         "initial_stars": 15197,
-        "current_stars": 28449,
-        "star_diff": 13252,
-        "growth_rate": 87.2,
+        "current_stars": 28527,
+        "star_diff": 13330,
+        "growth_rate": 87.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28449,
             "forks": 2801,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28527,
+            "forks": 2814,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "BililiveRecorder",
         "html_url": "https:\/\/github.com\/BililiveRecorder\/BililiveRecorder",
         "language": "C#",
-        "description": "用于录制 Bilibili 直播的开源工具，支持自动录制、多直播间监听和清晰度选择，通常适用于直播内容存档或离线观看场景，基于 .NET 开发，可运行在 Windows 等平台。"
+        "description": "BililiveRecorder 是一款专门用于录制哔哩哔哩直播的开源工具，主要解决直播内容无法回看或需要永久保存的问题。它能自动监测直播间开播状态，在开播后开始录制并保存为本地视频文件，支持同时录制多个直播间，也常通过图形界面或命令行进行操作。该工具适合需要批量备份直播内容、制作录播合集或长期追更特定主播的用户，通常还会提供文件分段、目录整理等辅助功能，方便长时间连续录播。整体实用性高，是B站直播录制的常用选择之一。"
     },
     "summary": {
         "initial_stars": 4224,
-        "current_stars": 4759,
-        "star_diff": 535,
-        "growth_rate": 12.67,
+        "current_stars": 4763,
+        "star_diff": 539,
+        "growth_rate": 12.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 174
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 175
     },
     "history": [
         {
@@ -1235,6 +1235,13 @@
             "stars": 4759,
             "forks": 394,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4763,
+            "forks": 394,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

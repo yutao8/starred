@@ -6,16 +6,16 @@
         "name": "IPTV",
         "html_url": "https:\/\/github.com\/joevess\/IPTV",
         "language": "Other",
-        "description": "一个用于收集和分享全球可用的开源IPTV播放列表的项目，主要包含按国家和地区分类的m3u格式直播源，支持电视、电影、体育等多种频道类型，适合希望自建直播平台或在支持IPTV的应用中观看直播内容的用户使用，需配合兼容的播放器如VLC或IPTV Smarter等。"
+        "description": "提供可用的IPTV直播源合集，主要收录国内外多个电视频道的流媒体链接，通常以m3u或txt格式整理并分类。用户可直接下载播放列表文件，导入VLC、PotPlayer等支持网络串流的播放器，实现免安装、免注册观看电视直播。仓库会不定期更新源地址，用于缓解直播源失效的问题，适合需要搭建家庭观影环境或寻求轻量级看电视方案的用户。使用方式较为简单，获取文件后打开即可，无需额外技术门槛。"
     },
     "summary": {
         "initial_stars": 10167,
-        "current_stars": 10282,
-        "star_diff": 115,
-        "growth_rate": 1.13,
+        "current_stars": 10285,
+        "star_diff": 118,
+        "growth_rate": 1.16,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 10282,
             "forks": 704,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10285,
+            "forks": 704,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

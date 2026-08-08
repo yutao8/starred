@@ -6,7 +6,7 @@
         "name": "satis",
         "html_url": "https:\/\/github.com\/composer\/satis",
         "language": "PHP",
-        "description": "用于创建和维护私有的 Composer 包仓库，通过配置文件将指定的 Composer 包及其版本生成静态的 JSON 文件，使私有包能够像公共包一样被 require 到项目中，通常用于企业内部包管理。"
+        "description": "Composer\/Satis 是一个用于搭建 Composer 私有包仓库的工具，能够将多个 PHP 包集中到一个可静态部署的站点中。它通常被团队用来托管内部或第三方依赖，避免所有组件都依赖公开的 Packagist 服务。通过约定好的配置文件，Satis 会从 Git 仓库或压缩包中收集包信息，生成可供 Composer 客户端直接读取的元数据和下载地址。它适合需要私有依赖分发、建立离线镜像或统一管理内部包版本的开发场景，尤其在企业内网或对安全与合规有要求的项目中非常实用。"
     },
     "summary": {
         "initial_stars": 3208,

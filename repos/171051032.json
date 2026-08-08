@@ -6,7 +6,7 @@
         "name": "SakuraFrp",
         "html_url": "https:\/\/github.com\/ZeroDream-CN\/SakuraFrp",
         "language": "Go",
-        "description": "ZeroDream-CN\/SakuraFrp 是一个用于内网穿透和网络代理的开源工具，主要用于在没有公网 IP 的环境下实现本地服务的远程访问。该项目通常适用于调试微信公众号、小程序或 Webhook 等需要外网访问本地服务器的场景，支持多种协议转发、自定义域名和加密传输，配置简便，适合开发者在测试和部署阶段使用。"
+        "description": "SakuraFrp 主要用于内网穿透，解决没有公网 IP 时无法从外部访问本地服务的问题。通过客户端将本地端口映射到公网，即可远程访问 SSH、远程桌面、Web 服务，或搭建 Minecraft 游戏服务器。它提供图形界面和命令行两种使用方式，并配有在线管理面板，方便查看连接状态与流量数据，适合个人开发者、玩家及小团队在临时或长期场景下快速开放本地服务。"
     },
     "summary": {
         "initial_stars": 541,

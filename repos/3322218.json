@@ -6,7 +6,7 @@
         "name": "dispatch",
         "html_url": "https:\/\/github.com\/noodlehaus\/dispatch",
         "language": "PHP",
-        "description": "一个轻量级 PHP 路由库，用于将 HTTP 请求映射到回调函数或控制器方法，支持 RESTful 风格的路由定义，适用于构建简单的 Web 应用或 API 服务。"
+        "description": "一款轻量级的 PHP 微框架，专注于将 HTTP 请求路由到处理函数，帮助开发者用最简单的方式快速搭建 Web 应用或 API。它采用类似 Sinatra 的简洁风格，无需复杂的配置即可定义路由、处理请求参数和返回响应，适合小型项目、接口原型或学习 PHP 路由机制的场景。用户可以在几分钟内掌握基本用法，减少传统框架繁琐的样板代码，从而更专注于业务逻辑本身。"
     },
     "summary": {
         "initial_stars": 534,

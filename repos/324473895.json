@@ -6,16 +6,16 @@
         "name": "downkyi",
         "html_url": "https:\/\/github.com\/leiurayer\/downkyi",
         "language": "C#",
-        "description": "downkyi 是一个用于下载哔哩哔哩（Bilibili）视频的开源工具，支持高清视频和弹幕下载，提供简洁的图形界面，便于用户批量下载视频内容，主要用于个人保存和离线观看。"
+        "description": "DownKyi 是一款专注于 Bilibili（B站）视频与音频下载的开源工具，支持批量解析下载、多种画质选择，并能够一并获取弹幕和字幕，适合需要离线观看或收藏 B 站内容的用户。它通过解析链接快速提取资源，操作直观，通常配合本地面板或 GUI 使用，能有效解决在线播放受网络限制、视频无法永久保存等问题。"
     },
     "summary": {
         "initial_stars": 23246,
-        "current_stars": 24434,
-        "star_diff": 1188,
+        "current_stars": 24433,
+        "star_diff": 1187,
         "growth_rate": 5.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 24434,
             "forks": 2593,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 24433,
+            "forks": 2594,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "wireguard-install",
         "html_url": "https:\/\/github.com\/Nyr\/wireguard-install",
         "language": "Shell",
-        "description": "用于自动安装和配置 WireGuard VPN 的脚本工具，支持快速部署服务器端和生成客户端配置，简化了在 Linux 系统上搭建安全私有网络的过程，适用于需要安全远程访问或网络加密的场景。"
+        "description": "一个开箱即用的 WireGuard VPN 部署脚本，用于在各种 Linux 发行版上快速搭建 WireGuard 服务端与客户端配置。通过交互式向导自动生成密钥对、设置内网 IP、配置防火墙和 NAT 转发，无需手动编辑复杂配置文件。适合个人或小型团队快速构建加密远程访问通道，常用于安全连接云服务器、异地组网或规避地理限制。脚本简洁透明，支持重复运行添加多个客户端，并内置卸载与查看配置功能，是 WireGuard 社区中广泛使用的轻量级部署方案。"
     },
     "summary": {
         "initial_stars": 4504,
-        "current_stars": 4919,
-        "star_diff": 415,
-        "growth_rate": 9.21,
+        "current_stars": 4917,
+        "star_diff": 413,
+        "growth_rate": 9.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 4919,
             "forks": 1004,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4917,
+            "forks": 1004,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

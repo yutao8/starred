@@ -6,7 +6,7 @@
         "name": "php-resque",
         "html_url": "https:\/\/github.com\/chrisboulton\/php-resque",
         "language": "PHP",
-        "description": "PHP-Resque 是一个基于 Redis 的 PHP 任务队列系统，用于异步执行耗时任务，如发送邮件、处理文件等。它提供了一个简单的接口来创建和管理后台作业，并支持事件回调、任务追踪和多队列调度，适用于需要解耦应用逻辑和提升响应速度的 Web 应用。"
+        "description": "php-resque 是 Resque 后台任务队列的 PHP 实现，基于 Redis 存储任务。它允许将发送邮件、图片处理、第三方接口调用等耗时操作异步化，通过任务队列与后台 worker 即时消费，显著减少 Web 请求响应时间。支持多队列、任务优先级、失败重试及事件监听，适合在 PHP 应用中构建可靠的任务分发机制，解决高延迟与阻塞问题。"
     },
     "summary": {
         "initial_stars": 3427,
@@ -14,8 +14,8 @@
         "star_diff": -15,
         "growth_rate": -0.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 50
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 51
     },
     "history": [
         {
@@ -367,6 +367,13 @@
             "stars": 3412,
             "forks": 741,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3412,
+            "forks": 740,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

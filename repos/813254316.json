@@ -6,16 +6,16 @@
         "name": "CF-Workers-docker.io",
         "html_url": "https:\/\/github.com\/cmliu\/CF-Workers-docker.io",
         "language": "JavaScript",
-        "description": "通过 Cloudflare Workers 提供对 Docker Hub 的代理访问，解决网络受限环境下镜像拉取困难问题，支持镜像信息查询与下载加速，适用于需要稳定访问 Docker Hub 的开发和部署场景。"
+        "description": "利用Cloudflare Workers搭建Docker镜像加速代理，将Docker Hub的拉取请求转发至Cloudflare边缘网络，有效解决国内或网络受限环境下docker pull超时、连接失败及限速问题。部署后生成一个专属加速地址，配置到Docker守护进程的registry-mirrors即可替代官方源。实现方式通常较轻量，支持自定义域名和路径，适合个人开发者或小型团队快速获得稳定可用的镜像拉取服务。使用时需绑定自有域名，并留意Workers免费额度限制。"
     },
     "summary": {
         "initial_stars": 8271,
-        "current_stars": 9238,
-        "star_diff": 967,
-        "growth_rate": 11.69,
+        "current_stars": 9239,
+        "star_diff": 968,
+        "growth_rate": 11.7,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 9238,
             "forks": 10590,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9239,
+            "forks": 10589,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

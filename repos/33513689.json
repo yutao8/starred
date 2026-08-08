@@ -6,16 +6,16 @@
         "name": "auto-correct",
         "html_url": "https:\/\/github.com\/nauxliu\/auto-correct",
         "language": "PHP",
-        "description": "一个自动纠正输入错误的工具，主要用于检测并修正文本中的拼写、语法及常见打字错误，支持自定义规则，适用于提升文本输入准确性，可集成到编辑器或聊天应用中改善用户体验。"
+        "description": "用于自动纠正文本拼写和语法错误的实用工具，可检测并修正输入内容中的错别字、大小写误用和常见标点问题，并给出可选择的修改建议。它通常适合嵌入写作编辑器、表单校验、命令行管道或聊天机器人，减少人工校对成本，提升文本规范度。实现上多基于词库匹配与上下文规则，并可扩展自定义词表以覆盖专业术语。对于需要批量清洗用户输入或提升文案质量的场景，auto-correct 提供了一种轻量、可靠的解决方案。"
     },
     "summary": {
         "initial_stars": 122,
-        "current_stars": 123,
-        "star_diff": 1,
-        "growth_rate": 0.82,
+        "current_stars": 122,
+        "star_diff": 0,
+        "growth_rate": 0,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-07 00:00",
-        "data_points_count": 4
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 5
     },
     "history": [
         {
@@ -45,6 +45,13 @@
             "stars": 123,
             "forks": 8,
             "file": "dist\/2026070700\/starList.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 122,
+            "forks": 8,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

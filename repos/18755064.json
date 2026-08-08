@@ -6,7 +6,7 @@
         "name": "image-to-ascii",
         "html_url": "https:\/\/github.com\/IonicaBizau\/image-to-ascii",
         "language": "JavaScript",
-        "description": "将图片转换为ASCII艺术字符的工具，支持命令行操作，可自定义输出宽度、字符集和颜色模式，适用于生成终端友好的图像表示，常用于艺术化展示或轻量级图像处理场景。"
+        "description": "将图像转换为ASCII字符画，用于在终端或纯文本环境中展示图片。支持自定义字符集、输出尺寸和对比度调节，可将常见图片格式（如PNG、JPEG）映射为光标字符或字符串。典型场景包括命令行预览图片、生成趣味文本艺术、嵌入聊天或代码注释，以及为低带宽环境提供图形替代方案。通常适合开发者或设计师快速生成基于字符的视觉作品，也适合作为学习图像处理与字符映射的示例工具。"
     },
     "summary": {
         "initial_stars": 1616,

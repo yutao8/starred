@@ -6,16 +6,16 @@
         "name": "imewlconverter",
         "html_url": "https:\/\/github.com\/studyzy\/imewlconverter",
         "language": "C#",
-        "description": "用于转换和处理输入法词库的开源工具，支持将搜狗、QQ拼音等主流输入法的词库转换为适用于 Linux、Windows 等平台的格式，方便用户迁移和共享个人词汇，主要适用于 Rime（如小狼毫、鼠须管）等输入法引擎的词库定制与优化。"
+        "description": "用于在各类输入法之间转换词库文件，支持搜狗、QQ、微软、谷歌、百度等主流输入法的用户词库和细胞词库格式互转，也能处理常见的文本格式和部分加密格式。用户更换输入法时常因词库不兼容而丢失自造词和常用语，该工具可批量转换这些个性化词条，实现无缝迁移；同时适用于词库备份、格式整理和去重场景。工具开源免费，通常提供图形界面和命令行两种操作方式，适合个人用户和需要批量处理词库的开发者。"
     },
     "summary": {
         "initial_stars": 8682,
-        "current_stars": 10232,
-        "star_diff": 1550,
-        "growth_rate": 17.85,
+        "current_stars": 10236,
+        "star_diff": 1554,
+        "growth_rate": 17.9,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 10232,
             "forks": 701,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10236,
+            "forks": 701,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

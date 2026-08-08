@@ -6,7 +6,7 @@
         "name": "log",
         "html_url": "https:\/\/github.com\/adamschwartz\/log",
         "language": "HTML",
-        "description": "一个轻量级的 JavaScript 日志记录工具，主要用于在浏览器和 Node.js 环境中输出格式化的调试信息，支持自定义日志级别和样式，方便开发者在开发过程中追踪程序运行状态，简化调试流程。"
+        "description": "用于改善 JavaScript 项目中的日志输出体验，尤其适合在浏览器控制台或 Node.js 环境下替代原生 console。它通常提供颜色区分、日志级别与格式化能力，帮助开发者在调试时快速定位信息。核心目标是让日志更直观、降低阅读成本，适合需要频繁查看运行时状态的前后端开发场景。由于仓库描述有限，该工具主要面向需要更灵活日志展示的开发者，使用方式轻量，易集成到现有项目中。"
     },
     "summary": {
         "initial_stars": 3016,

@@ -6,16 +6,16 @@
         "name": "predis",
         "html_url": "https:\/\/github.com\/predis\/predis",
         "language": "PHP",
-        "description": "一个纯 PHP 实现的 Redis 客户端，用于与 Redis 数据库进行交互，支持 Redis 多种命令、连接池、集群和序列化选项，适用于需要通过 PHP 操作 Redis 缓存或数据存储的应用场景。"
+        "description": "用于 PHP 应用的 Redis 客户端库，用纯 PHP 编写，不依赖 C 扩展，安装部署方便。它支持多种连接方式、集群与哨兵模式，覆盖大多数 Redis 命令，适合在 Laravel、Symfony 等框架中处理缓存、会话、消息队列和排行榜等场景。提供从简单单机到复杂高可用集群的灵活配置，能快速集成到现有 PHP 项目中。"
     },
     "summary": {
         "initial_stars": 7692,
-        "current_stars": 7779,
-        "star_diff": 87,
-        "growth_rate": 1.13,
+        "current_stars": 7780,
+        "star_diff": 88,
+        "growth_rate": 1.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 121
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 122
     },
     "history": [
         {
@@ -864,6 +864,13 @@
             "stars": 7779,
             "forks": 996,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7780,
+            "forks": 995,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

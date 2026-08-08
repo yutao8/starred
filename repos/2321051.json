@@ -6,16 +6,16 @@
         "name": "proxychains-ng",
         "html_url": "https:\/\/github.com\/rofl0r\/proxychains-ng",
         "language": "C",
-        "description": "用于增强应用程序的网络代理能力，支持链式代理转发，可配置多种代理协议（如SOCKS、HTTP），适用于渗透测试和网络调试场景，提升匿名性和灵活性。"
+        "description": "用于强制任何不支持代理的应用程序（如命令行工具、游戏、系统服务）通过 HTTP、SOCKS4、SOCKS5 代理转发网络流量，并可将多个代理串联成一条链路，实现隐藏出口 IP、绕过访问限制或安全审计。它通过预加载动态库的方式透明拦截网络连接调用，无需修改目标程序，也不依赖虚拟网卡。通常结合 Tor 或自建代理使用，适合隐私保护、渗透测试及突破网络封锁等场景。配置文件简单，支持根据目标地址匹配不同代理策略，兼容性强，是 proxychains 的增强维护版本。"
     },
     "summary": {
         "initial_stars": 10176,
-        "current_stars": 10659,
-        "star_diff": 483,
-        "growth_rate": 4.75,
+        "current_stars": 10660,
+        "star_diff": 484,
+        "growth_rate": 4.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 10659,
             "forks": 1116,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10660,
+            "forks": 1116,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

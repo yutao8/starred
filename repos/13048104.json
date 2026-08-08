@@ -6,16 +6,16 @@
         "name": "alfred-workflows",
         "html_url": "https:\/\/github.com\/zenorocha\/alfred-workflows",
         "language": "Other",
-        "description": "提供一系列 Alfred 工作流以提升 macOS 用户的效率，涵盖快速搜索、系统控制、文本操作和开发工具集成，通过自定义快捷方式实现快速启动应用、查询信息和自动化任务，适合程序员和高效办公用户使用。"
+        "description": "这是由知名开发者维护的 macOS Alfred 效率工具工作流集合，旨在通过自定义关键词和快捷键快速完成开发中的常见操作，例如文本格式转换、URL 处理、时间戳转换和速查常用文档。适合频繁在窗口与命令行之间切换的开发者使用，能显著减少重复操作，提升日常编码与信息处理效率。"
     },
     "summary": {
         "initial_stars": 12311,
-        "current_stars": 12256,
-        "star_diff": -55,
+        "current_stars": 12255,
+        "star_diff": -56,
         "growth_rate": -0.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 107
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 108
     },
     "history": [
         {
@@ -766,6 +766,13 @@
             "stars": 12256,
             "forks": 822,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12255,
+            "forks": 822,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

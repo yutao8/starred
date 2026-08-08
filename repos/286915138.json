@@ -6,16 +6,16 @@
         "name": "picx",
         "html_url": "https:\/\/github.com\/XPoet\/picx",
         "language": "TypeScript",
-        "description": "一个基于Vue.js开发的轻量级图床工具，支持将本地图片上传至GitHub仓库并生成可访问的CDN链接，主要用于个人博客、笔记或Markdown文档中的图片托管，通过简单配置实现图片上传、管理与分享，提升写作和内容发布效率。"
+        "description": "PicX 是一个基于 GitHub 的图床管理工具，通过 GitHub API 和 Pages 服务实现图片的自动上传、存储与访问，适合个人博客、静态站点或文档体系中需要稳定图床资源的场景。它无需后端服务器，配置简单，支持拖拽上传、生成外链和批量管理，并自带 Web 管理界面，方便用户直接在线操作仓库中的图片文件，解决开发者自建图床困难、付费图床不稳定等问题。"
     },
     "summary": {
         "initial_stars": 4886,
-        "current_stars": 5081,
-        "star_diff": 195,
-        "growth_rate": 3.99,
+        "current_stars": 5080,
+        "star_diff": 194,
+        "growth_rate": 3.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 150
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 151
     },
     "history": [
         {
@@ -1067,6 +1067,13 @@
             "stars": 5081,
             "forks": 565,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5080,
+            "forks": 566,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

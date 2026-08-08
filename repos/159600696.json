@@ -6,7 +6,7 @@
         "name": "Network-Reinstall-System-Modify",
         "html_url": "https:\/\/github.com\/MeowLove\/Network-Reinstall-System-Modify",
         "language": "Shell",
-        "description": "一个用于网络重装操作系统的开源工具，支持自动化修改和部署系统环境，适用于快速批量部署Linux系统，提供多种安装模式和自定义配置选项，简化服务器系统重装流程。"
+        "description": "用于通过网络一键重装或更换服务器的 Linux 系统，尤其适合无面板或仅有原版系统的 VPS、独立服务器场景。它能在不进入救援模式的前提下自动下载、写入指定系统镜像，并修复网络配置，确保新系统可正常连接。支持众多常见发行版及自定义镜像地址，操作简单，可解决机房环境下手动 dd 或安装系统难的问题。通常适合需要批量重装、迁移系统或从预设模板切换到纯净系统的运维人员使用。"
     },
     "summary": {
         "initial_stars": 1095,

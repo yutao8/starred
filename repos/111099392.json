@@ -6,7 +6,7 @@
         "name": "chrome",
         "html_url": "https:\/\/github.com\/chrome-php\/chrome",
         "language": "PHP",
-        "description": "用于从 PHP 控制 Chrome 或 Puppeteer 浏览器实例，通过 DevTools 协议实现网页截图、PDF 生成、页面操作及自动化测试，适合需要服务端浏览器控制的场景。"
+        "description": "用于在 PHP 环境中驱动无头 Chrome 浏览器，实现网页自动化操作。它支持打开页面、执行 JavaScript、模拟点击和表单提交，并能截取屏幕快照、导出 PDF，也适合抓取动态渲染的网页数据。代码风格贴近 Puppeteer，熟悉 JavaScript 生态的开发者容易上手。该库常被用于构建爬虫、生成网页报告、自动化 UI 验证，帮助解决不需要真实人工操作浏览器的重复性任务。"
     },
     "summary": {
         "initial_stars": 2463,

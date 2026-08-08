@@ -6,16 +6,16 @@
         "name": "Text-Grab",
         "html_url": "https:\/\/github.com\/TheJoeFin\/Text-Grab",
         "language": "C#",
-        "description": "一个用于从网页或应用程序中快速提取和收集文本内容的浏览器扩展工具，支持一键复制、保存和管理选中的文本片段，便于知识积累和笔记整理。"
+        "description": "用于在 Windows 上快速抓取屏幕文字的 Text-Grab，依靠 OCR 技术把屏幕任意区域的文本识别出来并复制到剪贴板。它主要解决图片、视频、对话框或网页中无法直接选择复制文字的场景，用户只需框选区域，即可得到可编辑的纯文本。除了基础抓取，还支持对识别结果进行编辑、翻译等操作，适合需要大量提取截图文字、整理资料或撰写文档的人群。工具强调速度和便捷，通常以快捷键唤起，是一个轻量的屏幕文字复用方案。"
     },
     "summary": {
         "initial_stars": 3675,
-        "current_stars": 4850,
-        "star_diff": 1175,
-        "growth_rate": 31.97,
+        "current_stars": 4852,
+        "star_diff": 1177,
+        "growth_rate": 32.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 4850,
             "forks": 312,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4852,
+            "forks": 312,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

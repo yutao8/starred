@@ -6,7 +6,7 @@
         "name": "PhpUserAgent",
         "html_url": "https:\/\/github.com\/donatj\/PhpUserAgent",
         "language": "PHP",
-        "description": "用于解析和识别HTTP用户代理字符串的PHP库，可提取浏览器、操作系统等信息，适用于用户设备检测与兼容性分析。"
+        "description": "用于解析 User-Agent 字符串的 PHP 库，通过正则匹配快速提取浏览器名称及版本、操作系统、设备类型等信息。它不依赖外部数据库，具备轻量、高效的特点，适合在需要实时识别用户访问环境的场景中集成，例如网站访问日志分析、前端兼容性优化、用户行为统计等。通常适合中小型项目或对性能敏感、不想引入重型解析组件的 PHP 应用。可以基于返回结果判断用户使用的是桌面端还是移动端，从而执行相应的逻辑处理。"
     },
     "summary": {
         "initial_stars": 597,

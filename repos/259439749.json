@@ -6,16 +6,16 @@
         "name": "charles-keygen",
         "html_url": "https:\/\/github.com\/duraki\/charles-keygen",
         "language": "Java",
-        "description": "用于生成 Charles 抓包工具激活码的密钥生成器，支持生成合法的许可证密钥以激活 Charles 软件的付费功能，适用于开发者进行调试和测试，但可能违反软件许可协议，建议用于学习和研究目的。"
+        "description": "面向 Charles 网络抓包工具的密钥生成器，能生成注册码来激活软件，以便正常使用其代理调试、HTTPS 解密、流量录制等功能。适合需要完整工具能力的开发者，或用作学习软件 license 验证机制的示例。仓库提供源代码，用户可在本地编译运行生成许可证。注意：若未购买正版授权，使用此类工具会违反许可协议，仅供技术研究或个人合法场景参考。"
     },
     "summary": {
         "initial_stars": 93,
-        "current_stars": 103,
-        "star_diff": 10,
-        "growth_rate": 10.75,
+        "current_stars": 104,
+        "star_diff": 11,
+        "growth_rate": 11.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 103,
             "forks": 38,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 104,
+            "forks": 38,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

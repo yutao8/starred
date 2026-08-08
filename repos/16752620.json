@@ -6,16 +6,16 @@
         "name": "gogs",
         "html_url": "https:\/\/github.com\/gogs\/gogs",
         "language": "Go",
-        "description": "Gogs 是一个用 Go 语言编写的开源 Git 服务，主要用于快速搭建轻量级、自托管的代码托管平台，适合中小型团队或个人开发者使用，支持仓库管理、代码浏览、Issue 跟踪和 Web 钩子等常用功能，部署简单，资源占用低。"
+        "description": "Gogs 用 Go 编写，专门用于搭建轻量级私有 Git 托管服务。它面向个人或小团队，适合在内网部署，提供仓库管理、问题跟踪、代码审查和 Web 编辑等协作能力，安装维护成本低，对硬件要求不高，支持多平台运行，是替代公有代码托管或作为 CI\/CD 后端的常见选择。"
     },
     "summary": {
         "initial_stars": 46541,
-        "current_stars": 47721,
-        "star_diff": 1180,
+        "current_stars": 47724,
+        "star_diff": 1183,
         "growth_rate": 2.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 47721,
             "forks": 5077,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 47724,
+            "forks": 5076,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

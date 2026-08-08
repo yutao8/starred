@@ -6,16 +6,16 @@
         "name": "pageplug",
         "html_url": "https:\/\/github.com\/cloudtogo\/pageplug",
         "language": "TypeScript",
-        "description": "PagePlug 是一个轻量级的低代码页面构建工具，主要用于快速搭建动态网页和可视化编辑界面，支持通过配置生成前端页面，适合需要高效开发运营活动页、后台管理界面等场景，可与云服务集成实现部署一体化。"
+        "description": "PagePlug 是一个开源的低代码开发平台，主要用于快速搭建企业内部工具、后台管理系统和数据可视化看板。它提供拖拽式页面编辑和常见组件库，支持与多种数据源连接，适合业务人员或开发者以较少编码量完成表单、列表、图表等典型界面。同时具备用户权限管理和部署能力，常用于需要快速迭代和交付的运营后台、审批流程及数据管理场景，能有效降低前端开发成本。"
     },
     "summary": {
         "initial_stars": 1778,
-        "current_stars": 2183,
-        "star_diff": 405,
-        "growth_rate": 22.78,
+        "current_stars": 2184,
+        "star_diff": 406,
+        "growth_rate": 22.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 158
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 159
     },
     "history": [
         {
@@ -1123,6 +1123,13 @@
             "stars": 2183,
             "forks": 365,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2184,
+            "forks": 364,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "nginx-ultimate-bad-bot-blocker",
         "html_url": "https:\/\/github.com\/mitchellkrogza\/nginx-ultimate-bad-bot-blocker",
         "language": "Shell",
-        "description": "用于阻止恶意爬虫和机器人访问的 Nginx 安全防护工具，通过维护黑名单自动拦截已知有害的用户代理和 IP 地址，常用于增强网站安全性和防御自动化攻击，适用于各类需要防护非授权抓取和恶意访问的 Web 环境。"
+        "description": "为 Nginx 服务器提供一套强效的恶意机器人拦截方案，通过定期更新的黑名单和规则配置，阻止恶意爬虫、垃圾邮件发送者、漏洞扫描器及不良 IP 段访问站点。典型使用场景是部署于高流量网站或暴露在公网的应用前，能明显减少恶意请求、保护后端资源并降低日志噪音。适合需要快速集成并持续防御恶意流量的 Nginx 管理员。"
     },
     "summary": {
         "initial_stars": 4411,
-        "current_stars": 4766,
-        "star_diff": 355,
-        "growth_rate": 8.05,
+        "current_stars": 4767,
+        "star_diff": 356,
+        "growth_rate": 8.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 4766,
             "forks": 520,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4767,
+            "forks": 520,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

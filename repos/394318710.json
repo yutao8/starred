@@ -6,16 +6,16 @@
         "name": "ExplorerPatcher",
         "html_url": "https:\/\/github.com\/valinet\/ExplorerPatcher",
         "language": "C",
-        "description": "提供适用于 Windows 的资源管理器界面增强补丁，主要用于自定义任务栏外观、合并多个显示器的任务栏以及调整文件资源管理器行为，通常用于改善多显示器体验和还原经典任务栏样式。"
+        "description": "为定制 Windows 11 及部分 Windows 10 系统界面而设计的轻量工具，主要用于恢复经典任务栏、右键菜单、窗口标题栏、文件管理器等元素，并允许用户调整系统托盘、开始菜单和 Alt+Tab 行为。适合因新版界面改动影响操作效率、希望找回传统 Windows 交互习惯的用户，无需修改系统文件即可灵活配置。"
     },
     "summary": {
         "initial_stars": 27806,
-        "current_stars": 33533,
-        "star_diff": 5727,
-        "growth_rate": 20.6,
+        "current_stars": 33552,
+        "star_diff": 5746,
+        "growth_rate": 20.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 33533,
             "forks": 1365,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33552,
+            "forks": 1366,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

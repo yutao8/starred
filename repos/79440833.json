@@ -6,16 +6,16 @@
         "name": "china-operator-ip",
         "html_url": "https:\/\/github.com\/gaoyifan\/china-operator-ip",
         "language": "Shell",
-        "description": "该项目主要用于收集和整理中国各大运营商的IP地址段信息，帮助用户识别和区分中国电信、中国联通、中国移动等运营商的网络范围，适用于网络调试、路由规划、访问控制等场景。"
+        "description": "该仓库整理并维护中国电信、联通、移动等主要运营商的 IP 地址段列表，以供程序化获取和更新。这类数据通常用于网络分流、路由策略配置、防火墙规则、流量识别与归属判断等场景。适合在网络管理、反向代理、数据分析或开发相关工具时，按运营商区分国内 IP 来源。仓库数据保持定期更新，便于直接集成到自动化流程中。"
     },
     "summary": {
         "initial_stars": 3096,
-        "current_stars": 3587,
-        "star_diff": 491,
-        "growth_rate": 15.86,
+        "current_stars": 3588,
+        "star_diff": 492,
+        "growth_rate": 15.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 3587,
             "forks": 351,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3588,
+            "forks": 351,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

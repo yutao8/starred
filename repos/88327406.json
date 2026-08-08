@@ -6,16 +6,16 @@
         "name": "xmrig",
         "html_url": "https:\/\/github.com\/xmrig\/xmrig",
         "language": "C",
-        "description": "XMRig是一款开源的门罗币（Monero）挖矿软件，主要用于通过CPU或GPU进行加密货币挖矿，支持RandomHash算法，具备高效、低延迟的特点，常被用于个人矿工加入矿池挖矿或集成到其他项目中实现挖矿功能。"
+        "description": "XMRig是高性能开源加密货币挖矿程序，主要用于挖掘门罗币（Monero）等基于RandomX算法的币种，能够充分利用CPU与GPU算力高效挖掘。它提供矿池挖矿、独立挖矿以及灵活的配置选项，还能实时查看算力与运行状态。该软件跨平台运行，注重性能与稳定性，适合个人电脑或矿场部署，是许多矿工提高收益的首选工具。"
     },
     "summary": {
         "initial_stars": 9287,
-        "current_stars": 10065,
-        "star_diff": 778,
-        "growth_rate": 8.38,
+        "current_stars": 10069,
+        "star_diff": 782,
+        "growth_rate": 8.42,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 10065,
             "forks": 3823,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10069,
+            "forks": 3823,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

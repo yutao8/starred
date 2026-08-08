@@ -6,16 +6,16 @@
         "name": "Dango-Translator",
         "html_url": "https:\/\/github.com\/PantsuDango\/Dango-Translator",
         "language": "Python",
-        "description": "一个基于Python的轻量级翻译工具，主要用于游戏文本或日文内容的实时翻译，支持多种输入方式和翻译引擎对接，适合二次元相关软件或游戏汉化场景使用。"
+        "description": "用于翻译图片中的文字，尤其适合漫画、插画和游戏截图等场景。它通过光学字符识别提取图中外语文本，再经翻译引擎输出译文，帮助用户阅读生肉资源和外文画面内容。通常具备多语言支持与常见图片格式适配，适合频繁接触外语漫画或需要快速理解画面信息的读者，能省去手动查词和复制粘贴的麻烦。"
     },
     "summary": {
         "initial_stars": 7663,
-        "current_stars": 8729,
-        "star_diff": 1066,
-        "growth_rate": 13.91,
+        "current_stars": 8730,
+        "star_diff": 1067,
+        "growth_rate": 13.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 8729,
             "forks": 571,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8730,
+            "forks": 571,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

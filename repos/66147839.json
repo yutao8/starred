@@ -6,7 +6,7 @@
         "name": "smartqq",
         "html_url": "https:\/\/github.com\/slince\/smartqq",
         "language": "PHP",
-        "description": "用于实现与QQ机器人交互的PHP库，支持通过SmartQQ协议登录并收发消息，适用于开发自动化聊天、消息监听等应用，便于在PHP项目中集成QQ机器人功能。"
+        "description": "用于在PHP项目中对接SmartQQ（QQ网页版）协议，使开发者能够快速实现QQ消息的收发、自动回复和机器人逻辑。它封装了登录、消息监听与发送等核心流程，并支持多账号同时管理以及通过回调或事件方式处理消息，适合个人QQ机器人、消息中转、群聊辅助等自动化场景。该项目通常基于QQ非官方网页接口构建，不依赖桌面客户端，因此简单轻量，但可能受腾讯协议变更影响，适合在个人或低风险环境下使用。"
     },
     "summary": {
         "initial_stars": 84,

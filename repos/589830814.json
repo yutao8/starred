@@ -6,16 +6,16 @@
         "name": "CookieCloud",
         "html_url": "https:\/\/github.com\/easychen\/CookieCloud",
         "language": "JavaScript",
-        "description": "用于管理和同步浏览器Cookie的开源工具，支持多设备间Cookie共享，便于实现网站登录状态同步与自动化登录，通常用于个人隐私保护或自动化测试场景。"
+        "description": "CookieCloud 专注于浏览器 Cookie 的跨设备同步与安全分享，用户可将浏览器中的登录态加密上传至自建服务器，再从其他设备或脚本中拉取。它主要解决多设备间重复登录、或自动化任务需要复用浏览器会话的问题，常见用于爬虫、RSS 订阅、个人服务联动等场景。数据在传输和存储前经过端到端加密，避免明文泄露风险。通常以浏览器插件配合服务端程序部署，配置简单，适合个人用户及小型团队自托管使用。"
     },
     "summary": {
         "initial_stars": 2384,
-        "current_stars": 3113,
-        "star_diff": 729,
-        "growth_rate": 30.58,
+        "current_stars": 3116,
+        "star_diff": 732,
+        "growth_rate": 30.7,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 3113,
             "forks": 279,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3116,
+            "forks": 279,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "MTProxy-Bash",
         "html_url": "https:\/\/github.com\/FunctionClub\/MTProxy-Bash",
         "language": "Shell",
-        "description": "用于快速部署和管理 MTProxy 代理服务的 Bash 脚本工具，支持一键安装、配置、启动和状态监控，简化 Telegram 代理服务器的搭建流程，适用于 CentOS、Debian 和 Ubuntu 系统，帮助用户高效搭建自用或共享的 MTProxy 代理。"
+        "description": "MTProxy-Bash 提供一套 Bash 脚本，用于在 Linux 服务器上快速部署和管理 Telegram 官方 MTProxy 代理服务。它主要解决用户无法直接连接 Telegram 的问题，通过自动化配置流程，省去手动编译、生成密钥和设置防火墙的繁琐步骤。通常适合需要自行搭建代理的个人或小型团队，只需执行命令即可完成安装、启动和简单维护，并支持查看运行状态。该脚本面向有 VPS 操作经验但希望简化部署过程的用户。"
     },
     "summary": {
         "initial_stars": 441,

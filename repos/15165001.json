@@ -6,7 +6,7 @@
         "name": "php-html-parser",
         "html_url": "https:\/\/github.com\/paquettg\/php-html-parser",
         "language": "HTML",
-        "description": "用于解析和操作HTML文档的PHP库，支持类似jQuery选择器的元素查找与修改，适合网页内容提取、自动化测试等场景，可便捷地遍历、增删、修改DOM节点。"
+        "description": "主要用于解析和操作 HTML 文档，为 PHP 开发者提供简洁的面向对象 API。它能够将 HTML 字符串转换为可遍历的节点树，支持通过 CSS 选择器或 XPath 查询元素，并读取属性与文本内容。典型场景包括网络爬虫、网页信息抓取、表单数据提取以及 HTML 模板的局部替换。相比正则表达式，这种方式更稳定易读，适合需要从不可控的网页源码中精准提取数据的项目。"
     },
     "summary": {
         "initial_stars": 2393,

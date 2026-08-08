@@ -6,16 +6,16 @@
         "name": "TikTokDownloader",
         "html_url": "https:\/\/github.com\/JoeanAmier\/TikTokDownloader",
         "language": "Python",
-        "description": "用于下载 TikTok 视频的工具，支持无水印保存，操作简单，可快速提取和下载平台上的视频内容，适用于需要离线保存或分享 TikTok 视频的用户。"
+        "description": "一款用于下载TikTok视频的命令行工具，支持解析并保存无水印视频文件，通常用于备份、离线观看或二次创作素材收集。它能够根据用户提供的分享链接或视频链接直接获取内容，适合需要批量下载或日常收集视频的个人用户使用。工具通常基于Python编写，免去手动抓取网页资源的麻烦，操作上以指令为主，便于重复执行和脚本化处理。"
     },
     "summary": {
         "initial_stars": 10674,
-        "current_stars": 15332,
-        "star_diff": 4658,
-        "growth_rate": 43.64,
+        "current_stars": 15346,
+        "star_diff": 4672,
+        "growth_rate": 43.77,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 15332,
             "forks": 2642,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15346,
+            "forks": 2646,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

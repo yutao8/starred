@@ -6,16 +6,16 @@
         "name": "wechat-windows-versions",
         "html_url": "https:\/\/github.com\/tom-snow\/wechat-windows-versions",
         "language": "Shell",
-        "description": "提供微信 Windows 版本的安装包与更新历史，方便用户下载旧版微信客户端，适用于需要特定版本的场景，如兼容性需求或偏好经典界面。"
+        "description": "收集并分享微信 Windows 客户端的历代版本安装文件，主要方便用户下载旧版微信。常用于需要降级或锁定特定版本，以解决新版本带来的兼容性问题、功能改变或使用习惯差异，也适合测试人员或安全研究人员对比各版本行为。仓库按版本号归类并提供下载链接，无需额外配置，适合个人或企业快速回滚，也可作为可靠的历史版本来源。"
     },
     "summary": {
         "initial_stars": 2253,
-        "current_stars": 3229,
-        "star_diff": 976,
-        "growth_rate": 43.32,
+        "current_stars": 3232,
+        "star_diff": 979,
+        "growth_rate": 43.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 3229,
             "forks": 498,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3232,
+            "forks": 498,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

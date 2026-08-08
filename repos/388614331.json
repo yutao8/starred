@@ -6,16 +6,16 @@
         "name": "js-deobfuscator",
         "html_url": "https:\/\/github.com\/kuizuo\/js-deobfuscator",
         "language": "JavaScript",
-        "description": "一个基于 JavaScript 的代码反混淆工具，主要用于解析和还原混淆后的 JS 代码，提升代码可读性与分析效率，适合安全研究和代码审计场景。"
+        "description": "用于分析和还原混淆后的 JavaScript 代码，帮助安全研究人员、爬虫工程师和前端开发者理解被混淆的脚本逻辑。它通常基于抽象语法树解析，能够格式化代码、还原标识符名称、解密字符串或常量，并移除控制流平坦化等常见混淆手段。适合在恶意脚本分析、代码审计、接口逆向或漏洞研究中使用。通过自动化处理，大幅降低手动调试混淆代码的时间成本，但无法完全还原所有混淆技巧，仍需结合动态调试验证结果。"
     },
     "summary": {
         "initial_stars": 747,
-        "current_stars": 1160,
-        "star_diff": 413,
-        "growth_rate": 55.29,
+        "current_stars": 1161,
+        "star_diff": 414,
+        "growth_rate": 55.42,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 1160,
             "forks": 264,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1161,
+            "forks": 264,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

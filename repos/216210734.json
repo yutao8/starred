@@ -6,16 +6,16 @@
         "name": "Bob",
         "html_url": "https:\/\/github.com\/ripperhe\/Bob",
         "language": "Other",
-        "description": "Bob 是一个基于 Electron 和 React 开发的跨平台桌面应用框架，主要用于构建现代化的桌面客户端。它集成了常见开发工具和最佳实践，提供模块化结构、TypeScript 支持、热更新和插件系统，适用于需要高性能、可扩展性的桌面应用开发，特别适合开发者快速搭建具备复杂交互和本地资源操作能力的客户端程序。"
+        "description": "Bob 是一款面向 macOS 的翻译工具，主要提供截图翻译、划词翻译和输入翻译等核心功能，适用于阅读外文文档、图片取词、跨语言交流等场景。它支持多种主流翻译服务，能够快速获取选中或截取内容的译文，并通过菜单栏或快捷键高效调用，适合经常需要处理多语言信息、希望减少切换窗口操作的用户。"
     },
     "summary": {
         "initial_stars": 9337,
-        "current_stars": 9716,
-        "star_diff": 379,
-        "growth_rate": 4.06,
+        "current_stars": 9718,
+        "star_diff": 381,
+        "growth_rate": 4.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 172
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 173
     },
     "history": [
         {
@@ -1221,6 +1221,13 @@
             "stars": 9716,
             "forks": 522,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9718,
+            "forks": 522,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

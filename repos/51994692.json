@@ -6,7 +6,7 @@
         "name": "electronic-wechat",
         "html_url": "https:\/\/github.com\/geeeeeeeeek\/electronic-wechat",
         "language": "JavaScript",
-        "description": "用于在桌面端运行的电子病历微信小程序，方便用户在电脑上使用微信小程序功能进行中医诊疗记录管理，支持与移动端同步，提升医生日常接诊和病历管理效率。"
+        "description": "基于 Electron 框架封装的微信桌面客户端，主要解决微信网页版在浏览器中使用时功能受限、通知不及时、易掉线等问题。它通过加载微信网页版接口，提供独立窗口、系统托盘、消息提醒等接近原生应用的体验，适合希望在 Linux 或 macOS 等缺少官方客户端环境下的用户使用。通常支持多开、快捷键、自定义样式等增强功能，但需注意其依赖网页版协议，可能存在登录风控或功能失效的风险。"
     },
     "summary": {
         "initial_stars": 13920,

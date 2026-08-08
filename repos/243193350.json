@@ -6,16 +6,16 @@
         "name": "m3u8-downloader",
         "html_url": "https:\/\/github.com\/Momo707577045\/m3u8-downloader",
         "language": "JavaScript",
-        "description": "用于下载m3u8格式的视频流并合并为完整的视频文件，支持断点续传和多线程下载，适用于保存网络上的直播或点播视频内容。"
+        "description": "用于下载和合并 m3u8 格式的 HLS 流媒体视频，通常适合从支持 m3u8 索引的视频网站、直播回放或在线课程中保存视频内容。它能够解析播放列表中的分片地址，自动下载所有 ts 分片并合并成完整的视频文件，解决直接访问链接无法获取完整文件的问题。一般需要用户提供 m3u8 链接或页面地址，并可根据需要调整并发数和输出格式，适合需要离线观看或备份视频资源的场景。"
     },
     "summary": {
         "initial_stars": 6483,
-        "current_stars": 7046,
-        "star_diff": 563,
-        "growth_rate": 8.68,
+        "current_stars": 7045,
+        "star_diff": 562,
+        "growth_rate": 8.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 177
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 178
     },
     "history": [
         {
@@ -1256,6 +1256,13 @@
             "stars": 7046,
             "forks": 1268,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7045,
+            "forks": 1268,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

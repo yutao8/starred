@@ -6,16 +6,16 @@
         "name": "jq",
         "html_url": "https:\/\/github.com\/jqlang\/jq",
         "language": "C",
-        "description": "jqlang\/jq 是一个用于处理 JSON 数据的轻量级命令行工具，支持从 JSON 文件中提取、过滤、转换和格式化数据，通常用于 shell 脚本或管道中对 API 响应等 JSON 内容进行高效解析和操作。"
+        "description": "jq 是一款轻量级命令行 JSON 处理工具，具备强大的过滤、查询、变换能力，能够从复杂嵌套的 JSON 数据中精准提取所需字段，重新构造对象结构，并转换数据格式。它特别适合在 Shell 脚本中与管道结合，用于自动化处理 API 返回结果、日志文件、配置文件等场景，无需编写完整的编程语言代码即可完成繁琐的数据整理工作，大幅提升处理效率。"
     },
     "summary": {
         "initial_stars": 32002,
-        "current_stars": 35404,
-        "star_diff": 3402,
-        "growth_rate": 10.63,
+        "current_stars": 35415,
+        "star_diff": 3413,
+        "growth_rate": 10.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 35404,
             "forks": 1819,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 35415,
+            "forks": 1818,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

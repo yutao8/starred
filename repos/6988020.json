@@ -6,16 +6,16 @@
         "name": "sheetjs",
         "html_url": "https:\/\/github.com\/SheetJS\/sheetjs",
         "language": "Other",
-        "description": "用于读写电子表格的JavaScript库，支持Excel、CSV等格式，适用于浏览器和Node.js环境，提供数据导入导出、格式转换、公式计算等功能，常用于Web应用的数据处理场景。"
+        "description": "SheetJS 是一个在浏览器和 Node.js 环境中广泛使用的电子表格解析与生成库，主要支持读写 Excel 的 XLS、XLSX、CSV 等常见格式，也能处理 ODS 等文件。它适合需要在前端或服务端导入导出表格数据、读取工作簿内容、合并或转换格式、生成报表等场景，能帮助开发者绕开对 Office 软件的依赖，直接通过代码操作表格数据，性能高且文档完整，是处理复杂表格数据的常见技术选型。"
     },
     "summary": {
         "initial_stars": 35730,
-        "current_stars": 36313,
-        "star_diff": 583,
-        "growth_rate": 1.63,
+        "current_stars": 36317,
+        "star_diff": 587,
+        "growth_rate": 1.64,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 36313,
             "forks": 7933,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 36317,
+            "forks": 7932,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

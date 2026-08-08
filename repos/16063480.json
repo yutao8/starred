@@ -6,16 +6,16 @@
         "name": "hoverzoom",
         "html_url": "https:\/\/github.com\/extesy\/hoverzoom",
         "language": "JavaScript",
-        "description": "Hover Zoom 是一款浏览器扩展，主要用于增强网页图片的查看体验。它能在鼠标悬停时自动放大显示图片，支持多平台如 GitHub、Twitter、Instagram 等，方便用户快速预览高清图像而无需点击或跳转页面，提升浏览效率。"
+        "description": "为网页浏览器提供鼠标悬停图片即自动显示原始大图的快捷功能，省去逐一点击查看的繁琐操作。它广泛适用于各类图片密集的新闻、购物、社交和论坛网站，可直接替换缩略图为高清原图，同时支持自定义触发按键、过滤规则及隐私白名单，让浏览体验更流畅更高效。"
     },
     "summary": {
         "initial_stars": 1369,
-        "current_stars": 2046,
-        "star_diff": 677,
-        "growth_rate": 49.45,
+        "current_stars": 2048,
+        "star_diff": 679,
+        "growth_rate": 49.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 2046,
             "forks": 217,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2048,
+            "forks": 217,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

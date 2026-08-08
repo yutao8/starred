@@ -6,16 +6,16 @@
         "name": "BaoTa",
         "html_url": "https:\/\/github.com\/aaPanel\/BaoTa",
         "language": "Python",
-        "description": "aaPanel（宝塔面板）是一款服务器管理工具，支持Linux\/Windows系统，提供图形化界面方便用户管理网站、数据库、FTP、SSL等服务，集成一键部署、安全防护和监控功能，适用于个人开发者及中小企业快速搭建和运维Web环境。"
+        "description": "用于快速搭建和管理 Linux 服务器环境的开源 Web 控制面板，又称宝塔面板。提供图形化操作界面，支持一键安装和配置 Nginx、Apache、MySQL、PHP 等常见环境组件，涵盖网站发布、数据库管理、文件备份、计划任务、SSL 证书部署、系统监控等日常功能。通过浏览器即可远程操作，极大降低服务器运维门槛，适合个人站长、开发者以及中小团队快速部署和管理多台服务器。"
     },
     "summary": {
         "initial_stars": 4350,
-        "current_stars": 4555,
-        "star_diff": 205,
-        "growth_rate": 4.71,
+        "current_stars": 4560,
+        "star_diff": 210,
+        "growth_rate": 4.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 4555,
             "forks": 1012,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4560,
+            "forks": 1013,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

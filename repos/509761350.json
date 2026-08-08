@@ -6,16 +6,16 @@
         "name": "magisk_All",
         "html_url": "https:\/\/github.com\/cxf-boluo\/magisk_All",
         "language": "Shell",
-        "description": "用于管理和修改 Magisk 的工具集合，主要支持模块化系统定制、Root 权限管理及系统镜像修补，适合 Android 设备的深度定制与调试，兼容多种设备型号，便于开发者和高级用户进行高效系统优化和功能扩展。"
+        "description": "集中整合 Magisk 相关的模块、脚本和资源，为已 root 的安卓设备提供一站式下载与安装体验。涵盖系统美化、性能调优、广告拦截、隐私增强等常见用途，并可能包含自动更新或批量部署功能。适合需要高效管理多个 Magisk 模块的用户，解决模块分散、来源不一、难以统一配置的问题。使用前需确保设备已正确安装 Magisk 框架，且模块版本与系统兼容。"
     },
     "summary": {
         "initial_stars": 570,
-        "current_stars": 586,
-        "star_diff": 16,
-        "growth_rate": 2.81,
+        "current_stars": 587,
+        "star_diff": 17,
+        "growth_rate": 2.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 49
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 50
     },
     "history": [
         {
@@ -360,6 +360,13 @@
             "stars": 586,
             "forks": 115,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 587,
+            "forks": 115,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

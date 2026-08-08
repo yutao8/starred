@@ -6,16 +6,16 @@
         "name": "parsedown",
         "html_url": "https:\/\/github.com\/erusev\/parsedown",
         "language": "PHP",
-        "description": "一个轻量级 PHP Markdown 解析器，将 Markdown 语法高效转换为 HTML，适用于需要快速解析 Markdown 的 Web 应用和内容系统，语法兼容性强且易于集成。"
+        "description": "Parsedown 是一个用 PHP 编写的 Markdown 解析器，能把 Markdown 文本转换成标准的 HTML 代码。它主打极致的简洁与高性能，无需复杂的配置即可嵌入现有项目，特别适合用于博客系统、评论组件或任何需要用户输入轻量级格式的场合。与许多依赖正则替换的解析器不同，Parsedown 采用更严谨的解析流程，并支持标准的 Markdown 语法扩展，帮助开发者快速实现安全、规范的富文本渲染功能。"
     },
     "summary": {
         "initial_stars": 14918,
-        "current_stars": 15059,
-        "star_diff": 141,
-        "growth_rate": 0.95,
+        "current_stars": 15058,
+        "star_diff": 140,
+        "growth_rate": 0.94,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 15059,
             "forks": 1136,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15058,
+            "forks": 1137,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

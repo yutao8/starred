@@ -6,7 +6,7 @@
         "name": "spike",
         "html_url": "https:\/\/github.com\/slince\/spike",
         "language": "PHP",
-        "description": "slince\/spike 是一个基于 Go 语言开发的轻量级、高性能的 API 网关，主要用于路由管理、请求转发、负载均衡和插件扩展，适合构建微服务架构中的统一入口层，支持热加载配置和多种中间件扩展机制。"
+        "description": "spike 是一个 PHP 编写的网络服务组件，尤其适合处理大量长连接的场景。它通常基于 Swoole 或 ReactPHP 实现异步事件驱动，可以替代传统阻塞式 IO，提升并发能力和吞吐量。典型使用场景包括即时通讯、消息推送、设备接入、游戏服务端等。借助统一的连接管理和数据帧处理，开发者能够快速搭建稳定高效的 TCP\/UDP 服务，减少底层网络细节的重复劳动。"
     },
     "summary": {
         "initial_stars": 671,

@@ -6,7 +6,7 @@
         "name": "multChrome_pyside2",
         "html_url": "https:\/\/github.com\/lokkon\/multChrome_pyside2",
         "language": "Python",
-        "description": "一个基于 PySide2 开发的多标签 Chrome 风格浏览器应用，支持标签页管理和基本浏览功能，适用于需要轻量级浏览器嵌入或自定义浏览界面的桌面应用程序，具有良好的可扩展性和原生 Python 实现优势。"
+        "description": "基于 PySide2 开发的图形界面工具，用于管理多个 Chrome 浏览器实例或配置文件。它主要面向需要同时登录多个账号、隔离工作环境的用户，通过统一界面操作多个浏览器会话，适合多账号运营、网页调试或自动化测试等场景。借助 Qt 的跨平台能力，可在不同系统上运行，减少手动切换配置的麻烦。整体属于浏览器多开管理工具，具体功能围绕多 Chrome 实例的启动和切换展开。"
     },
     "summary": {
         "initial_stars": 31,

@@ -6,7 +6,7 @@
         "name": "CentWSL",
         "html_url": "https:\/\/github.com\/wsldl-pg\/CentWSL",
         "language": "Other",
-        "description": "CentWSL 是一个基于 WSL（Windows Subsystem for Linux）的 CentOS 发行版，旨在为 Windows 用户提供一个轻量级、开箱即用的 CentOS 环境。主要用于在 Windows 上便捷运行 CentOS 命令行工具、开发环境搭建及服务器应用本地测试，适合需要与生产环境保持一致的开发者或运维人员使用。"
+        "description": "CentWSL 用于在 Windows 的 Linux 子系统（WSL）中安装和运行 CentOS 发行版。它基于 wsldl 启动器，提供类似原生 WSL 的使用方式，适合需要在 Windows 下搭建 CentOS 环境进行开发、测试或服务器运维的场景。通过该仓库可以获得 CentOS 的 rootfs 镜像与启动配置，便于将其集成到 WSL 中并管理多个发行版实例。如果你日常依赖 CentOS 兼容环境，又希望与 Windows 工具链共存，这个项目能帮助快速建立一致的本地工作区。"
     },
     "summary": {
         "initial_stars": 1148,

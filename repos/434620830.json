@@ -6,7 +6,7 @@
         "name": "gg",
         "html_url": "https:\/\/github.com\/mzz2017\/gg",
         "language": "Go",
-        "description": "一个基于 Go 语言开发的轻量级、高性能 gRPC 网关框架，主要用于构建微服务API网关，支持服务发现、负载均衡、限流熔断等核心功能，适用于云原生场景下的服务代理与治理。"
+        "description": "用于为 DAE 代理工具生成和更新地理 IP 与域名分类数据，从公开数据源拉取原始信息，经过清洗和合并后输出为路由规则所需的格式。通常适合需要定期构建 GeoIP 和 GeoSite 数据库的 DAE 使用者，通过命令行即可完成整个流程，便于集成到自动化更新脚本中。"
     },
     "summary": {
         "initial_stars": 1744,

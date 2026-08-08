@@ -6,16 +6,16 @@
         "name": "collect-txt",
         "html_url": "https:\/\/github.com\/kimwang1978\/collect-tv-txt",
         "language": "Python",
-        "description": "用于批量收集和整理文本文件的工具，支持从指定目录中提取文本内容并合并成单个文件，通常适合日志处理、文档汇总等场景，依赖简单，可通过脚本快速运行。"
+        "description": "用于批量收集、整理和下载 TXT 格式文本资源，常被用来抓取网络小说、电子书或纯文本资料，适合需要将分散网页内容保存为统一文本文件的场景，操作方式偏向自动化脚本，便于本地归档和后续处理。"
     },
     "summary": {
         "initial_stars": 1648,
-        "current_stars": 1932,
-        "star_diff": 284,
-        "growth_rate": 17.23,
+        "current_stars": 1933,
+        "star_diff": 285,
+        "growth_rate": 17.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 166
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 167
     },
     "history": [
         {
@@ -1179,6 +1179,13 @@
             "stars": 1932,
             "forks": 431,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1933,
+            "forks": 431,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

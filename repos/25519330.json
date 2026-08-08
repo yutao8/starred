@@ -6,7 +6,7 @@
         "name": "winpe_vnc",
         "html_url": "https:\/\/github.com\/sjkingo\/winpe_vnc",
         "language": "Other",
-        "description": "用于创建带有VNC远程访问功能的Windows PE启动环境，便于在系统维护或救援时进行远程操作和故障排除，通常适用于IT管理员执行远程修复、数据备份等任务。"
+        "description": "为 Windows PE 环境提供 VNC 远程桌面支持，方便在启动进入预安装环境（WinPE）时进行远程操作和维护。适用于系统部署、故障修复、无头服务器管理等场景，使管理员无需物理接触设备即可完成分区、镜像部署或诊断。通常集成在定制 WinPE 镜像中，通过启动脚本自动加载 VNC 服务端，并支持设置密码与网络连接。适合需要在系统安装或救援阶段获得图形界面的运维人员使用。"
     },
     "summary": {
         "initial_stars": 31,

@@ -6,16 +6,16 @@
         "name": "chrome-plugin-demo",
         "html_url": "https:\/\/github.com\/sxei\/chrome-plugin-demo",
         "language": "JavaScript",
-        "description": "一个Chrome浏览器插件示例项目，主要用于演示如何开发和构建Chrome扩展，包含常见的插件功能实现，如内容脚本注入、背景页通信、浏览器按钮交互等，适合学习插件开发结构和快速上手。"
+        "description": "用于演示Chrome浏览器插件开发的各种核心技术与常见功能，帮助开发者通过实例快速掌握扩展程序的实现思路。它通常覆盖右键菜单、页面内容注入、消息传递、数据存储等典型场景，并针对不同需求提供可运行的最小示例，适合希望系统学习Chrome扩展机制或查找代码范式的开发者参考。基于仓库展示的丰富示例，也常被当作搭建自己插件的起点。"
     },
     "summary": {
         "initial_stars": 8572,
-        "current_stars": 8673,
-        "star_diff": 101,
-        "growth_rate": 1.18,
+        "current_stars": 8671,
+        "star_diff": 99,
+        "growth_rate": 1.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 162
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 163
     },
     "history": [
         {
@@ -1151,6 +1151,13 @@
             "stars": 8673,
             "forks": 1900,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8671,
+            "forks": 1899,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

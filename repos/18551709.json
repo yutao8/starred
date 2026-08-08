@@ -6,16 +6,16 @@
         "name": "3proxy",
         "html_url": "https:\/\/github.com\/3proxy\/3proxy",
         "language": "C",
-        "description": "3proxy是一个轻量级的代理服务器软件，主要用于HTTP、HTTPS、SOCKS、FTP等协议的代理和转发，适用于小型网络环境或嵌入式设备，支持访问控制、日志记录和用户认证，常用于隐私保护、网络共享和限制绕过等场景。"
+        "description": "3proxy是一个轻量级的多协议代理服务器，支持HTTP、HTTPS、SOCKS4\/5、FTP代理等多种转发方式，并提供TCP\/UDP端口映射功能。它占用资源极低，适合部署在服务器、嵌入式设备或路由器上，常用于网络访问转发、内外网穿透、流量代理和简单的访问控制。用户可以通过配置文件灵活定义代理规则、认证方式和端口监听，实现匿名上网、局域网共享代理或反向连接等场景。由于可运行于Windows、Linux、Android等多种平台，通常用于需要稳定、小巧且高并发代理服务的环境，适合替代部分重量级网络网关工具。"
     },
     "summary": {
         "initial_stars": 4402,
-        "current_stars": 5377,
-        "star_diff": 975,
-        "growth_rate": 22.15,
+        "current_stars": 5379,
+        "star_diff": 977,
+        "growth_rate": 22.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 5377,
             "forks": 921,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5379,
+            "forks": 921,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

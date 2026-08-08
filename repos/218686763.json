@@ -6,16 +6,16 @@
         "name": "subconverter",
         "html_url": "https:\/\/github.com\/tindy2013\/subconverter",
         "language": "C++",
-        "description": "一个基于 Python 的订阅转换工具，主要用于将网络代理的订阅链接转换为适用于不同客户端的配置格式，支持多种协议和自定义规则，方便用户在各类设备上快速部署和管理网络代理服务。"
+        "description": "用于将不同格式的代理订阅链接相互转换，支持 Clash、Surge、V2ray 等主流协议和客户端配置，方便用户在多种工具间迁移订阅，同时提供参数调节功能以满足自定义需求，通常适合需要频繁切换代理工具或管理多份订阅的用户。"
     },
     "summary": {
         "initial_stars": 14594,
-        "current_stars": 16962,
-        "star_diff": 2368,
-        "growth_rate": 16.23,
+        "current_stars": 16961,
+        "star_diff": 2367,
+        "growth_rate": 16.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 16962,
             "forks": 3848,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16961,
+            "forks": 3850,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "workerman-chat",
         "html_url": "https:\/\/github.com\/walkor\/workerman-chat",
         "language": "PHP",
-        "description": "一个基于 Workerman 开发的高性能即时聊天系统，支持多房间、实时消息推送和广播通信，主要用于学习和展示 Workerman 在 WebSocket 长连接、异步通信和高并发处理方面的应用，适合快速搭建轻量级聊天服务或实时通信后端。"
+        "description": "基于 Workerman 的实时 Web 聊天室解决方案，利用 WebSocket 实现服务端与客户端的高效双向通信，支持多房间、群聊及私聊等常见聊天功能。通常用于快速搭建在线客服系统、社区互动或教学演示，帮助 PHP 开发者突破传统 HTTP 短连接限制，处理长连接与高并发场景。项目提供简洁的前端交互界面和服务端示例，易于理解核心逻辑，适合直接部署使用或作为二次开发的基础模板。"
     },
     "summary": {
         "initial_stars": 1205,

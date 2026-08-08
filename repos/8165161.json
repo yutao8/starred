@@ -6,7 +6,7 @@
         "name": "ios-webkit-debug-proxy",
         "html_url": "https:\/\/github.com\/google\/ios-webkit-debug-proxy",
         "language": "C",
-        "description": "用于调试iOS设备上Safari浏览器的代理服务器，通过实现WebKit远程调试协议，将iOS设备的调试接口转发到本地端口，方便配合Chrome DevTools等工具进行移动网页调试，通常用于自动化测试和移动Web开发场景。"
+        "description": "ios-webkit-debug-proxy 用于在非 macOS 系统（如 Linux 或 Windows）上调试 iOS 设备中的 Safari 浏览器和 WebView 页面。它作为 WebKit 远程调试协议的代理，将 iOS 设备与桌面开发者工具连接起来，让前端工程师可以使用 Chrome DevTools 等工具实时查看和调试移动端网页。该项目主要适合跨平台 Web 开发、移动端自动化测试以及需要远程检查 iOS WebView 的场景，解决真机调试时必须依赖 macOS 的问题。工具通过本地端口转发实现通信，部署简便。"
     },
     "summary": {
         "initial_stars": 6054,

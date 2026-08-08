@@ -6,7 +6,7 @@
         "name": "docker-zerotier-planet",
         "html_url": "https:\/\/github.com\/xubiaolin\/docker-zerotier-planet",
         "language": "Shell",
-        "description": "用于搭建 ZeroTier 自建 Planet 服务器的 Docker 镜像，支持自定义配置以实现内网穿透和虚拟局域网通信，适合需要自主控制网络拓扑的场景。"
+        "description": "用于构建自有的 ZeroTier 网络 Planet 服务器，借助 Docker 容器简化部署和运维。它允许用户创建独立的 ZeroTier 根服务器，替代官方公共 Planet，从而降低延迟、增强隐私并自主控制网络。典型场景包括跨地域设备组网、异地办公互联、远程访问内部服务等。通常适合对网络自主权有较高要求的开发者或企业，通过自建 Planet 实现更稳定、安全的虚拟局域网。项目面向有一定 ZeroTier 使用经验的用户，提供更灵活的网络配置能力。"
     },
     "summary": {
         "initial_stars": 3344,
@@ -14,8 +14,8 @@
         "star_diff": 724,
         "growth_rate": 21.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 4068,
             "forks": 761,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4068,
+            "forks": 762,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

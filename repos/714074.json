@@ -6,16 +6,16 @@
         "name": "pouchdb",
         "html_url": "https:\/\/github.com\/pouchdb\/pouchdb",
         "language": "JavaScript",
-        "description": "PouchDB 是一个开源的 JavaScript 数据库，可在浏览器中运行，支持离线数据存储并通过同步机制与 CouchDB 等后端数据库保持数据一致，适用于构建离线优先的 Web 应用。"
+        "description": "PouchDB 是一个运行在浏览器和 Node.js 中的开源 JavaScript 数据库，主要用于客户端本地数据存储，并与 CouchDB 服务器双向同步。它支持离线优先的 Web 应用架构，让应用在断网时也能正常读写数据，联网后自动完成数据同步，适合需要跨浏览器持久化或连接远程 CouchDB 兼容服务的场景。通过提供类似 CouchDB 的编程接口，开发者能快速上手，同时具备索引、查询和附件处理能力，常用于移动端离线应用、本地缓存以及与后端 CouchDB 集群协同工作的前后端项目。"
     },
     "summary": {
         "initial_stars": 17291,
-        "current_stars": 17599,
-        "star_diff": 308,
+        "current_stars": 17598,
+        "star_diff": 307,
         "growth_rate": 1.78,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 17599,
             "forks": 1509,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17598,
+            "forks": 1509,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

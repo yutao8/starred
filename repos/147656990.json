@@ -6,7 +6,7 @@
         "name": "x-spreadsheet",
         "html_url": "https:\/\/github.com\/myliang\/x-spreadsheet",
         "language": "JavaScript",
-        "description": "x-spreadsheet 是一个基于 Web 的表格组件，主要用于在浏览器中实现类似 Excel 的表格编辑与展示功能，支持单元格编辑、合并、行列操作、数据绑定等常见电子表格操作，适用于需要在线处理表格数据的前端应用场景。"
+        "description": "一个基于JavaScript开发的网页电子表格组件，提供类似Excel的单元格编辑、公式计算、样式调整和行列操作等核心功能。它不依赖重型框架，可灵活嵌入各类前端项目，适合需要在Web应用中快速搭建数据录入、表格展示或轻量级数据处理场景，尤其适合简化传统表格开发的复杂度，帮助开发者以较低成本实现可交互的在线表格界面。"
     },
     "summary": {
         "initial_stars": 14444,
@@ -14,8 +14,8 @@
         "star_diff": 146,
         "growth_rate": 1.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 156
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 157
     },
     "history": [
         {
@@ -1109,6 +1109,13 @@
             "stars": 14590,
             "forks": 1753,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14590,
+            "forks": 1751,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "pan-light",
         "html_url": "https:\/\/github.com\/peterq\/pan-light",
         "language": "Go",
-        "description": "PanLight 是一个轻量级的网络调试工具，主要用于抓包和分析 HTTP\/HTTPS 流量，支持代理模式、数据拦截与请求修改，适合开发者调试 API 和学习网络通信机制。"
+        "description": "pan-light 是一个轻量级的百度网盘客户端，主要面向需要替代官方客户端、追求简洁高效体验的用户。它支持百度账号登录、文件的上传与下载、目录管理以及分享链接等基础操作，并提供命令行和图形界面两种交互方式，适合在无图形环境或服务器上使用。该项目通常采用 Go 后端与 Web 前端相结合的技术栈，因此具备跨平台、易部署的特点，适合个人开发者或需要自动化管理网盘文件的场景。"
     },
     "summary": {
         "initial_stars": 12133,
-        "current_stars": 12129,
-        "star_diff": -4,
-        "growth_rate": -0.03,
+        "current_stars": 12130,
+        "star_diff": -3,
+        "growth_rate": -0.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 155
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 156
     },
     "history": [
         {
@@ -1102,6 +1102,13 @@
             "stars": 12129,
             "forks": 2386,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12130,
+            "forks": 2385,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

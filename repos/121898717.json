@@ -6,16 +6,16 @@
         "name": "vaultwarden",
         "html_url": "https:\/\/github.com\/dani-garcia\/vaultwarden",
         "language": "Rust",
-        "description": "Vaultwarden 是一个轻量级的 Bitwarden 兼容服务器实现，用于自建密码管理服务。它支持 Bitwarden 客户端的所有核心功能，如密码存储、双因素认证和跨设备同步，但资源占用更少，适合个人或小型团队部署。通过 Docker 快速部署，可配合反向代理实现 HTTPS 访问，提供安全便捷的私有化密码管理方案。"
+        "description": "自托管密码管理器服务器，轻量级实现 Bitwarden 服务端功能，用 Rust 编写，兼容官方 Bitwarden 客户端和浏览器扩展。适合个人或小团队部署在自己的服务器上，避免依赖官方云服务，全面掌控账号和密码数据。相比官方服务器占用资源更少，运行效率高，支持 Docker 部署，并具备组织共享、两步验证、附件等核心能力。主要用于解决数据隐私和控制权问题，同时降低自建运维成本。"
     },
     "summary": {
         "initial_stars": 45805,
-        "current_stars": 65039,
-        "star_diff": 19234,
-        "growth_rate": 41.99,
+        "current_stars": 65104,
+        "star_diff": 19299,
+        "growth_rate": 42.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 65039,
             "forks": 3094,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 65104,
+            "forks": 3098,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

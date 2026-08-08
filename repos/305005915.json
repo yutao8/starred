@@ -6,16 +6,16 @@
         "name": "kamiFaka",
         "html_url": "https:\/\/github.com\/Baiyuetribe\/kamiFaka",
         "language": "Python",
-        "description": "kamiFaka 是一个用于自动化脚本录制与回放的工具，主要用于简化重复性网页操作流程。通过模拟用户行为，支持快速生成操作脚本并批量执行，适合做自动化测试、表单填写、页面检测等场景，提升工作效率。"
+        "description": "kamiFaka 是一款开源的虚拟商品发卡系统，主要用于搭建自动售卖数字商品的网站，适合出售卡密、兑换码、账号、激活码等虚拟资源。它支持独立部署，集成常见支付接口，能够实现用户下单后自动发货、订单查询、库存管理等功能，通常适用于个人站长或小团队快速建立属于自己的发卡平台，替代依赖第三方发卡服务的方案。"
     },
     "summary": {
         "initial_stars": 2150,
-        "current_stars": 2314,
-        "star_diff": 164,
-        "growth_rate": 7.63,
+        "current_stars": 2315,
+        "star_diff": 165,
+        "growth_rate": 7.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 151
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 152
     },
     "history": [
         {
@@ -1074,6 +1074,13 @@
             "stars": 2314,
             "forks": 575,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2315,
+            "forks": 574,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

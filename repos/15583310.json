@@ -6,16 +6,16 @@
         "name": "SoftEtherVPN",
         "html_url": "https:\/\/github.com\/SoftEtherVPN\/SoftEtherVPN",
         "language": "C",
-        "description": "SoftEtherVPN 是一个开源的多协议 VPN 软件，支持 SSL VPN、L2TP\/IPsec、OpenVPN 和 EtherIP 等多种协议，提供跨平台的虚拟化网络解决方案，适用于构建安全的远程访问和站点间通信隧道，具有高性能和穿透防火墙的能力，可在 Linux、Windows、macOS 等系统上部署使用。"
+        "description": "SoftEtherVPN 是一款跨平台的开源 VPN 解决方案，主要用于搭建高性能的虚拟专用网络服务器，支持 SSL、L2TP\/IPsec、OpenVPN 等多种常见协议，可在一台服务器上统一管理。它适用于远程办公、跨地域组网、突破网络限制等场景，具备出色的传输速度与稳定性，并提供图形化管理和命令行工具，适合企业及个人部署使用。"
     },
     "summary": {
         "initial_stars": 12350,
-        "current_stars": 13444,
-        "star_diff": 1094,
-        "growth_rate": 8.86,
+        "current_stars": 13450,
+        "star_diff": 1100,
+        "growth_rate": 8.91,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 13444,
             "forks": 2770,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13450,
+            "forks": 2770,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

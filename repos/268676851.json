@@ -6,16 +6,16 @@
         "name": "TikTok-Unlock",
         "html_url": "https:\/\/github.com\/Semporia\/TikTok-Unlock",
         "language": "JavaScript",
-        "description": "用于解除 TikTok 云端版（Web\/Mobile）的区域限制和功能锁定，通常通过代理或修改请求实现访问特定地区受限内容，适合开发者测试或用户绕过地理封禁，需注意合规与账号安全风险。"
+        "description": "用于解除 TikTok 区域封锁与内容限制的工具，通常依托配置文件或代理规则，让用户无需修改系统设置即可自由浏览海外区域视频。适用于因所在地无法正常访问 TikTok，或希望提前观看其他地区热门内容的用户。项目通过匹配网络请求或替换客户端参数，绕过地域检测，同时可能涵盖去广告、移除弹窗等辅助功能。其技术实现多围绕规则更新与动态适配，适合搭配代理工具使用，但具体安装方式需参考仓库文档。"
     },
     "summary": {
         "initial_stars": 11347,
-        "current_stars": 11966,
-        "star_diff": 619,
-        "growth_rate": 5.46,
+        "current_stars": 11965,
+        "star_diff": 618,
+        "growth_rate": 5.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 11966,
             "forks": 837,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11965,
+            "forks": 836,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

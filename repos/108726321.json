@@ -6,16 +6,16 @@
         "name": "DnsServer",
         "html_url": "https:\/\/github.com\/TechnitiumSoftware\/DnsServer",
         "language": "C#",
-        "description": "基于 .NET 开发的高性能 DNS 服务器，支持权威解析和递归查询，提供可视化管理界面与 API，适用于私有化部署、内网解析及安全可控的域名解析服务，可用于替代传统 BIND 方案。"
+        "description": "Technitium DNS Server 主要用于构建自主可控的 DNS 基础设施，适合家庭网络或企业内部部署。它提供美观易用的 Web 管理界面，让你集中管理域名解析、配置转发和递归查询，并支持 DNSSEC 验证及加密 DNS 协议以保障安全。该服务器还能拦截广告与恶意域名，基于规则灵活过滤，同时兼容动态 IP 和 IPv6。跨平台特性使其能够运行在 Windows、Linux 和 macOS 上，解决需要自定义域名解析、提升隐私保护或实现内网服务解析的问题。"
     },
     "summary": {
         "initial_stars": 5593,
-        "current_stars": 9437,
-        "star_diff": 3844,
-        "growth_rate": 68.73,
+        "current_stars": 9449,
+        "star_diff": 3856,
+        "growth_rate": 68.94,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 9437,
             "forks": 746,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9449,
+            "forks": 747,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

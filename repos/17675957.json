@@ -6,7 +6,7 @@
         "name": "brew-php-switcher",
         "html_url": "https:\/\/github.com\/philcook\/brew-php-switcher",
         "language": "Shell",
-        "description": "用于在 macOS 上通过 Homebrew 快速切换不同 PHP 版本的命令行工具，适合本地开发中多项目不同 PHP 版本需求的场景，自动化更新环境变量和 Apache 配置，简化版本管理流程。"
+        "description": "在 macOS 上管理多个 PHP 版本并快速切换的命令行工具，面向使用 Homebrew 安装 PHP 的开发者。它解决不同项目需要不同 PHP 版本时反复修改环境配置的问题，通常适合本地开发场景。核心功能包括列出已安装的 PHP 版本、一键切换当前终端或系统默认的 php 命令指向，并自动更新相关符号链接。操作简单，无需手动编辑路径或重新编译，提高多项目并行开发时的切换效率。"
     },
     "summary": {
         "initial_stars": 988,

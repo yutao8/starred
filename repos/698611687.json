@@ -6,16 +6,16 @@
         "name": "Sing-box",
         "html_url": "https:\/\/github.com\/eooce\/Sing-box",
         "language": "Shell",
-        "description": "Sing-box 是一个功能强大的多协议代理工具，主要用于网络流量转发和隐私保护，支持 VMess、VLESS、Trojan 等多种协议，适用于科学上网、网络加密传输等场景，具备高性能、易配置的特点，适合开发者和高级用户构建安全的通信环境。"
+        "description": "Sing-box 是一款通用代理工具，主要用于网络流量转发与访问受限资源的突破。它同时提供客户端和服务端能力，支持多种常见代理协议与灵活的路由规则配置，适合搭建个人翻墙服务、远程局域网接入或作为服务器端流量中转工具。用户可通过配置文件精细控制代理策略，以满足不同网络环境下的安全通信需求。该仓库通常面向需要自建代理服务的用户，帮助解决网络审查、地理位置限制及私密连接等问题。"
     },
     "summary": {
         "initial_stars": 3015,
-        "current_stars": 4968,
-        "star_diff": 1953,
-        "growth_rate": 64.78,
+        "current_stars": 4969,
+        "star_diff": 1954,
+        "growth_rate": 64.81,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 4968,
             "forks": 1798,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4969,
+            "forks": 1802,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

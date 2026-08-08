@@ -6,16 +6,16 @@
         "name": "cloudflare-workers-blog",
         "html_url": "https:\/\/github.com\/gdtool\/cloudflare-workers-blog",
         "language": "JavaScript",
-        "description": "用于快速搭建个人博客的 Cloudflare Workers 示例项目，通过兼容 R2 对象存储实现静态资源托管与动态路由，适合无服务器架构下的轻量级内容发布，无需传统服务器即可全球低延迟访问。"
+        "description": "利用 Cloudflare Workers 在边缘节点运行博客服务，无需自建服务器即可实现全球加速访问。通常采用轻量级架构，结合 KV 或 D1 存储文章内容，支持 Markdown 写作与动态渲染。适合个人博客、文档站点或低流量内容发布场景，具备部署简单、成本低、响应快等优点。通过 GitHub 集成可实现自动构建与发布，便于版本管理和持续更新。由于基于 Workers 生态，可较方便地扩展自定义路由和中间件。此项目可作为快速搭建无服务器博客的技术参考。"
     },
     "summary": {
         "initial_stars": 914,
-        "current_stars": 1184,
-        "star_diff": 270,
-        "growth_rate": 29.54,
+        "current_stars": 1185,
+        "star_diff": 271,
+        "growth_rate": 29.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 1184,
             "forks": 1065,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1185,
+            "forks": 1064,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

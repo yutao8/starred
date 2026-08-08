@@ -6,7 +6,7 @@
         "name": "ZerotierFix",
         "html_url": "https:\/\/github.com\/kaaass\/ZerotierFix",
         "language": "Java",
-        "description": "用于解决 ZeroTier 在 Windows 系统中可能出现的虚拟网卡或服务异常问题，提供自动化修复脚本，可重置网络配置、重新安装虚拟网卡驱动及修复服务权限，帮助用户快速恢复 ZeroTier 网络连接功能，适用于因系统更新或权限变更导致的连接失败场景。"
+        "description": "用于修复ZeroTier在部分设备或网络环境下无法正常连接、频繁掉线或功能受限的问题，通过补丁、配置优化或客户端改进来增强其兼容性与穿透能力，让用户能够更稳定地组建虚拟局域网。通常适合需要跨地域远程访问设备、搭建私有网络或进行异地联机等场景，尤其对遇到严格NAT、防火墙阻拦或官方客户端功能缺失的用户有帮助。"
     },
     "summary": {
         "initial_stars": 2039,

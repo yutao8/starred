@@ -6,7 +6,7 @@
         "name": "json-to-mysql",
         "html_url": "https:\/\/github.com\/adamwulf\/json-to-mysql",
         "language": "PHP",
-        "description": "将JSON数据转换为MySQL数据库表结构和插入语句的工具，支持根据JSON自动生成表创建语句和对应的INSERT语句，适用于快速将JSON数据导入MySQL场景，通常用于数据迁移、测试数据生成或后端开发中的原型构建。"
+        "description": "用于将 JSON 数据转换为 MySQL 数据库可用的 SQL 语句，帮助用户把 JSON 文件中的记录批量导入 MySQL。通常以命令行工具或代码库的形式提供，解析 JSON 结构并生成 INSERT 语句，适合数据迁移、备份恢复或定期同步等场景。能减少手写 SQL 的工作量，同时保持字段映射一致性，通常会处理数据类型和转义问题。适合需要将文档型数据导入关系型数据库的开发者，也可用于快速搭建测试数据或初始化数据库。"
     },
     "summary": {
         "initial_stars": 137,

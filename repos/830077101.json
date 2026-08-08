@@ -6,16 +6,16 @@
         "name": "wechat-article-exporter",
         "html_url": "https:\/\/github.com\/wechat-article\/wechat-article-exporter",
         "language": "Vue",
-        "description": "用于导出微信文章内容的工具，支持将公众号文章转换为 Markdown、HTML 或 PDF 格式，方便本地保存与内容迁移，适用于内容备份、知识管理及批量处理微信公众号文章。"
+        "description": "用于将微信公众号文章导出为本地文件的工具，支持抓取公众号历史文章并保存为 HTML、Markdown 或 PDF 格式，方便离线阅读、归档和二次编辑。通常适合需要长期保存公众号内容、做知识管理或数据备份的用户。由于微信公众号文章页面限制复制和下载，该工具通过解析文章链接或自动翻页来获取正文和图片，帮助绕过网页限制。具体支持和配置方式以项目说明为准。"
     },
     "summary": {
         "initial_stars": 3948,
-        "current_stars": 12674,
-        "star_diff": 8726,
-        "growth_rate": 221.02,
+        "current_stars": 12686,
+        "star_diff": 8738,
+        "growth_rate": 221.33,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 12674,
             "forks": 2232,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12686,
+            "forks": 2237,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

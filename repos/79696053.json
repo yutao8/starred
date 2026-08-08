@@ -6,16 +6,16 @@
         "name": "gushi_namer",
         "html_url": "https:\/\/github.com\/holynova\/gushi_namer",
         "language": "JavaScript",
-        "description": "一个基于经典古诗文生成优雅中文名字的工具，通过分析古诗词的字词组合与意境，为用户输出富有文化底蕴的姓名或昵称，适用于角色命名、品牌取名等场景。"
+        "description": "面向中文用户的起名辅助工具，仓库名中的“gushi”指古诗，“namer”指命名器，核心用途是从古诗词中筛选和组合字词，生成寓意优美、文雅的中文名字。通常适合给孩子起名、取笔名或网名，也能用于文学创作中的人物角色命名。用户可依据关键词、诗句意象或期望风格获取候选名字，名字可能附带出处与释义，便于理解内涵。这解决了普通起名时缺乏文化底蕴、词藻贫乏或难以判断寓意好坏的问题。仓库通常包含诗词语料库与相关命名算法，但具体实现细节需参照源码。"
     },
     "summary": {
         "initial_stars": 2042,
-        "current_stars": 2238,
-        "star_diff": 196,
-        "growth_rate": 9.6,
+        "current_stars": 2239,
+        "star_diff": 197,
+        "growth_rate": 9.65,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 133
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 134
     },
     "history": [
         {
@@ -948,6 +948,13 @@
             "stars": 2238,
             "forks": 396,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2239,
+            "forks": 395,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

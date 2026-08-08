@@ -6,16 +6,16 @@
         "name": "ReplaceGoogleCDN",
         "html_url": "https:\/\/github.com\/justjavac\/ReplaceGoogleCDN",
         "language": "JavaScript",
-        "description": "将网页中对 Google CDN 的请求替换为国内可用的 CDN 资源，解决国内访问 Google 提供的前端库加载慢或失败的问题，适用于前端开发和网站优化场景。"
+        "description": "用于将网页中引用的 Google CDN 资源自动替换为国内可访问的镜像地址，解决因 Google 服务无法访问导致页面加载失败或白屏的问题。作为浏览器扩展，它拦截并改写 Google Fonts、Google AJAX 等公共库请求，定向至 360、极客族等国内镜像源，适合国内开发者调试以及普通用户浏览依赖 Google 资源的网站。"
     },
     "summary": {
         "initial_stars": 3560,
-        "current_stars": 3680,
-        "star_diff": 120,
-        "growth_rate": 3.37,
+        "current_stars": 3677,
+        "star_diff": 117,
+        "growth_rate": 3.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 131
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 132
     },
     "history": [
         {
@@ -934,6 +934,13 @@
             "stars": 3680,
             "forks": 529,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3677,
+            "forks": 529,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

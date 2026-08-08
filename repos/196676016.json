@@ -6,7 +6,7 @@
         "name": "BiliHelper-personal",
         "html_url": "https:\/\/github.com\/lkeme\/BiliHelper-personal",
         "language": "PHP",
-        "description": "BiliHelper-personal 是一个针对 Bilibili 平台的个人辅助工具，主要用于自动化完成每日任务、领取奖励、直播签到、送礼、道具交换等操作，帮助用户高效管理账号，适合希望节省时间、保持连续登录和活动参与的 B 站用户。"
+        "description": "该仓库实现一个哔哩哔哩个人助手，用于自动完成每日签到、观看视频、投币、领取奖励等日常任务，主要运行在命令行环境。它适合希望简化 B 站账号重复操作、稳定获取成长经验与福利的用户。使用前需配置个人账号信息，并可通过定时任务周期执行。项目通常以 PHP 脚本形式提供，功能设计围绕个人账号自动化展开，具体细节以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 1027,

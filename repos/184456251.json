@@ -6,16 +6,16 @@
         "name": "PowerToys",
         "html_url": "https:\/\/github.com\/microsoft\/PowerToys",
         "language": "C#",
-        "description": "PowerToys 是一套面向高级用户的实用工具集，旨在增强 Windows 操作系统的生产力与自定义能力，提供诸如窗口布局管理、快捷键自定义、文件预览、颜色拾取、批量重命名等功能，帮助用户更高效地操作和定制系统体验。"
+        "description": "为 Windows 用户提供一套系统级效率增强工具集，集成窗口布局管理、批量文件重命名、键盘按键重映射、颜色拾取、快捷方式引导等多种实用工具。这些功能多为 Windows 系统默认缺失或操作繁琐的痛点，用户无需学习复杂配置即可按需启用。主要通过命令行或图形界面调用，适合需要高频处理多窗口、批量操作或自定义工作习惯的开发者、设计师及进阶办公人群。项目由微软官方维护，开源免费，并持续吸收社区建议。"
     },
     "summary": {
         "initial_stars": 120273,
-        "current_stars": 137524,
-        "star_diff": 17251,
-        "growth_rate": 14.34,
+        "current_stars": 137564,
+        "star_diff": 17291,
+        "growth_rate": 14.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 137524,
             "forks": 8451,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 137564,
+            "forks": 8465,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

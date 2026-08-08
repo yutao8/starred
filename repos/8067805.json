@@ -6,7 +6,7 @@
         "name": "entrust",
         "html_url": "https:\/\/github.com\/Zizaco\/entrust",
         "language": "PHP",
-        "description": "基于角色的权限控制库，用于 Laravel 框架实现用户权限管理，支持角色、权限分配及中间件验证，简化多用户系统中对访问控制的开发，适合需要 RBAC 功能的项目集成。"
+        "description": "适用于Laravel框架的权限管理解决方案，采用基于角色的访问控制模型，将权限关联到角色、用户关联角色，从而简化授权逻辑。通常用于后台管理系统的用户权限划分，比如管理员、编辑、普通用户等不同角色分别拥有不同操作权限。提供中间件、模板指令等工具，方便在路由和视图中校验权限。适合需要快速集成可靠角色权限功能的PHP开发者使用。"
     },
     "summary": {
         "initial_stars": 6034,
@@ -14,8 +14,8 @@
         "star_diff": -28,
         "growth_rate": -0.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 77
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 78
     },
     "history": [
         {
@@ -556,6 +556,13 @@
             "stars": 6006,
             "forks": 1278,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6006,
+            "forks": 1279,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

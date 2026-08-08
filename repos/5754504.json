@@ -6,16 +6,16 @@
         "name": "speedtest-cli",
         "html_url": "https:\/\/github.com\/sivel\/speedtest-cli",
         "language": "Python",
-        "description": "用于通过命令行测试网络带宽，支持连接到最近的 Speedtest.net 服务器自动选择最佳测试节点，测量下载和上传速度，并可分享测试结果，适用于诊断网络性能问题或监控带宽变化。"
+        "description": "一个用于在命令行中测试网络速度的工具，通过 Speedtest.net 的服务器资源，快速测量本机的下载速度、上传速度和延迟（Ping）。它无需安装图形界面，直接在终端中运行，适合服务器管理员、网络工程师或普通用户诊断宽带质量、对比不同时段网络表现，也能方便地集成进自动化脚本中进行定期监控。该工具基于 Python 编写，跨平台支持良好，在 Linux、macOS 和 Windows 上均可使用，是排查网络瓶颈和验证运营商带宽的轻量级方案。"
     },
     "summary": {
         "initial_stars": 13826,
-        "current_stars": 14079,
-        "star_diff": 253,
-        "growth_rate": 1.83,
+        "current_stars": 14081,
+        "star_diff": 255,
+        "growth_rate": 1.84,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 14079,
             "forks": 1918,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14081,
+            "forks": 1917,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

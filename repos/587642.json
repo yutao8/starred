@@ -6,7 +6,7 @@
         "name": "php-cli-tools",
         "html_url": "https:\/\/github.com\/wp-cli\/php-cli-tools",
         "language": "PHP",
-        "description": "一个为 PHP CLI 应用程序提供的工具库，主要用于简化命令行界面的开发，提供输入输出处理、进度条、表格渲染、颜色支持和用户交互等功能，适合构建现代化的命令行工具，常与 WP-CLI 等项目结合使用。"
+        "description": "用于构建 PHP 命令行应用的工具集，提供终端文本格式化、表格输出、进度条、颜色渲染、参数解析等常见功能，让开发者无需重复实现底层控制台交互逻辑。通常适合编写 WP-CLI 命令行插件、各类 PHP 脚本或基础 CLI 工具时使用，能简化输出界面的处理，并提升命令行程序的易用性和可维护性。"
     },
     "summary": {
         "initial_stars": 680,

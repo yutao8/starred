@@ -6,16 +6,16 @@
         "name": "m3u",
         "html_url": "https:\/\/github.com\/YanG-1989\/m3u",
         "language": "Shell",
-        "description": "一个用于生成和管理m3u格式播放列表的工具，支持自定义过滤规则和分类，适用于影音媒体库的自动化整理，可配合Plex、Jellyfin等媒体服务器使用，方便用户按条件生成直播源或视频点播列表。"
+        "description": "维护并分享可订阅的 m3u 格式直播源列表，主要面向 IPTV 播放器、网络电视盒及支持流媒体协议的手机应用。内容涵盖国内外电视频道、地方台及网络频道，用户通过复制链接或下载文件即可导入播放，解决传统有线电视覆盖面窄、费用高的问题。适合希望自主选择直播源、追求免费或低成本观看体验的技术用户，也常被开发者用于测试播放器兼容性或搭建个人影视服务。"
     },
     "summary": {
         "initial_stars": 9209,
-        "current_stars": 11348,
-        "star_diff": 2139,
-        "growth_rate": 23.23,
+        "current_stars": 11354,
+        "star_diff": 2145,
+        "growth_rate": 23.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 11348,
             "forks": 1603,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11354,
+            "forks": 1604,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

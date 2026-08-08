@@ -6,7 +6,7 @@
         "name": "array-to-xml",
         "html_url": "https:\/\/github.com\/spatie\/array-to-xml",
         "language": "PHP",
-        "description": "将 PHP 数组转换为 XML 格式，支持复杂嵌套结构和自定义选项，适用于 API 数据输出、XML 文档生成等场景，使用简单且无需依赖第三方扩展。"
+        "description": "将 PHP 数组转换为合法 XML 的轻量工具，支持关联数组、数字索引自动处理、属性设置、自定义根节点等常见需求，同时提供 CDATA 包裹、空元素、自动转义等选项，避免手写字符串拼接带来的转义和结构错误。典型场景包括生成 API 响应、导出数据文件、与旧系统交换 XML 格式数据等，适合需要快速、可靠完成数组与 XML 结构互换的 PHP 项目。"
     },
     "summary": {
         "initial_stars": 1168,

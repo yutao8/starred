@@ -6,16 +6,16 @@
         "name": "pot-desktop",
         "html_url": "https:\/\/github.com\/pot-app\/pot-desktop",
         "language": "JavaScript",
-        "description": "用于创建和管理桌面端应用的开发框架，支持跨平台部署，通常适用于需要本地运行的轻量级应用程序开发，提供简洁的界面构建工具和系统级功能调用能力。"
+        "description": "pot-desktop 是一款跨平台桌面翻译工具，主要解决阅读外文内容时频繁切换应用查词的痛点。它支持划词翻译、截图翻译和输入翻译等交互方式，用户选中或截取屏幕上的文本即可快速获得译文。工具集成了多种在线翻译服务，用户可根据需要选择不同引擎，适合日常浏览网页、阅读文档或处理外语资料时使用。基于 Tauri 框架开发，安装包体积较小，支持 Windows、macOS 和 Linux 系统。整体设计注重效率与流畅度，适合追求轻量翻译体验的用户。"
     },
     "summary": {
         "initial_stars": 12888,
-        "current_stars": 19199,
-        "star_diff": 6311,
-        "growth_rate": 48.97,
+        "current_stars": 19208,
+        "star_diff": 6320,
+        "growth_rate": 49.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 19199,
             "forks": 969,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19208,
+            "forks": 971,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

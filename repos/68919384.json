@@ -6,7 +6,7 @@
         "name": "vue-codemirror",
         "html_url": "https:\/\/github.com\/surmon-china\/vue-codemirror",
         "language": "TypeScript",
-        "description": "基于 Vue 2 的 Codemirror 代码编辑器组件，支持代码高亮、语法检查、自动补全等功能，适用于需要在网页中嵌入可编辑代码区域的场景，如在线 IDE、配置编辑器、Markdown 编辑器等，兼容常见前端构建工具，易于集成与定制。"
+        "description": "vue-codemirror 是一个面向 Vue.js 的代码编辑器组件，将 CodeMirror 封装为易于集成的 Vue 组件，用于在网页中提供专业的代码编辑能力。它适合需要嵌入代码输入、配置编辑或在线编程界面等场景，支持多种编程语言的语法高亮、主题切换、按键映射等常见编辑器功能，并能通过 v-model 实现数据双向绑定。该组件可用于 Vue 2 和 Vue 3 项目，通常搭配构建工具直接使用，是开发管理后台、代码演示工具或教学平台时的常见选择。"
     },
     "summary": {
         "initial_stars": 3398,

@@ -6,7 +6,7 @@
         "name": "DeviceJs",
         "html_url": "https:\/\/github.com\/skillnull\/DeviceJs",
         "language": "JavaScript",
-        "description": "DeviceJs 是一个用于简化前端设备检测与环境判断的轻量级 JavaScript 工具库，主要用于识别用户设备类型、操作系统、浏览器信息及网络状态，适用于需要根据设备特性进行自适应处理的 Web 应用场景。"
+        "description": "用于在浏览器端识别并采集设备相关信息，包括操作系统、浏览器内核、屏幕分辨率、语言、时间以及部分硬件特征，适合做设备指纹、访问统计、个性化适配和风控反欺诈等场景，通常以轻量级脚本引入页面即可运行，无需服务端配合，帮助开发者快速判断用户设备的类型和特性。"
     },
     "summary": {
         "initial_stars": 240,

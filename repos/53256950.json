@@ -6,16 +6,16 @@
         "name": "eruda",
         "html_url": "https:\/\/github.com\/liriliri\/eruda",
         "language": "JavaScript",
-        "description": "一个专为移动端设计的前端调试工具，可在浏览器中内嵌控制台，用于调试页面布局、网络请求、JavaScript 执行等，特别适合在手机浏览器或 WebView 环境中进行开发调试，无需依赖 Chrome DevTools 即可快速定位问题。"
+        "description": "移动端网页调试工具，可直接嵌入页面在手机浏览器上运行，模拟桌面浏览器开发者工具的部分能力。主要用于真机测试时查看控制台日志、网络请求、页面结构、存储信息等，在不连接电脑的情况下快速定位前端问题。适合移动端 H5 开发、调试和性能排查场景，通常可通过扩展方式增加更多能力，整体轻量且部署简单。"
     },
     "summary": {
         "initial_stars": 19794,
-        "current_stars": 21126,
-        "star_diff": 1332,
-        "growth_rate": 6.73,
+        "current_stars": 21124,
+        "star_diff": 1330,
+        "growth_rate": 6.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 21126,
             "forks": 1388,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21124,
+            "forks": 1388,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

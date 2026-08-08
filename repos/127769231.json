@@ -6,16 +6,16 @@
         "name": "RSSHub",
         "html_url": "https:\/\/github.com\/DIYgod\/RSSHub",
         "language": "TypeScript",
-        "description": "RSSHub 是一个开源的轻量级 RSS 生成器，无需编程基础即可为任意网站定制 RSS 源。通过简单配置即可快速获取新闻、博客、社交媒体、学术、娱乐等内容的订阅支持，广泛适用于各类内容聚合场景，帮助用户摆脱平台算法限制，实现信息自主获取。"
+        "description": "RSSHub 是一个开源的 RSS 生成器，可以把数百个网站的公开内容（如社交媒体动态、新闻、博客、视频更新等）转换成标准 RSS 订阅源。它主要解决网站不提供 RSS 或官方订阅过于简陋的问题，适合使用 RSS 阅读器统一聚合信息流的用户。通常采用自部署方式运行，也支持公共实例，方便用户按需订阅任意网站的最新更新。"
     },
     "summary": {
         "initial_stars": 37490,
-        "current_stars": 45624,
-        "star_diff": 8134,
-        "growth_rate": 21.7,
+        "current_stars": 45648,
+        "star_diff": 8158,
+        "growth_rate": 21.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 45624,
             "forks": 10096,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 45648,
+            "forks": 10097,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

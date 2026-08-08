@@ -6,16 +6,16 @@
         "name": "frp",
         "html_url": "https:\/\/github.com\/fatedier\/frp",
         "language": "Go",
-        "description": "frp 是一个快速反向代理工具，主要用于将内网服务通过具有公网 IP 的节点进行穿透，支持 TCP、UDP、HTTP、HTTPS 等多种协议，常用于在没有公网 IP 的环境下对外暴露本地服务，适合远程访问、调试和搭建私有服务。"
+        "description": "用于内网穿透和端口转发，可以将位于防火墙或 NAT 后面的内网服务安全地暴露到公网，支持 TCP、UDP、HTTP、HTTPS 等多种协议。它通常由部署在公网的服务端和运行在内网的客户端组成，通过反向代理建立加密通道，实现远程访问内网主机、Web 服务或 SSH 等应用。适合个人开发调试、远程办公、搭建临时演示站点或物联网设备管理，尤其适用于没有独立公网 IP 的场景。配置简单，性能稳定，是运维和开发人员常用的自托管穿透方案。"
     },
     "summary": {
         "initial_stars": 95489,
-        "current_stars": 108594,
-        "star_diff": 13105,
-        "growth_rate": 13.72,
+        "current_stars": 108625,
+        "star_diff": 13136,
+        "growth_rate": 13.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 108594,
             "forks": 15162,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 108625,
+            "forks": 15170,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "phpVideos",
         "html_url": "https:\/\/github.com\/Mickeyto\/phpVideos",
         "language": "PHP",
-        "description": "一个基于PHP开发的视频管理与播放系统，支持视频上传、分类管理、在线播放等功能，适用于搭建小型视频分享网站或企业内部视频资源平台，具有良好的可扩展性和定制性。"
+        "description": "phpVideos 提供基于 PHP 的视频处理能力，通常用于 Web 应用中视频的上传、格式转换与播放管理。它面向需要在现有 PHP 环境中集成视频功能的开发者，可覆盖从文件接收、存储到前端展示的常见流程，适合中小型站点或学习用途。由于依赖简单的 PHP 技术栈，部署门槛较低。项目的核心价值在于减少二次开发成本，让开发者不必从零搭建视频处理模块。具体支持哪些格式和功能，建议参考仓库文档进一步确认。"
     },
     "summary": {
         "initial_stars": 369,
-        "current_stars": 374,
-        "star_diff": 5,
-        "growth_rate": 1.36,
+        "current_stars": 373,
+        "star_diff": 4,
+        "growth_rate": 1.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-16 00:00",
-        "data_points_count": 18
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 19
     },
     "history": [
         {
@@ -143,6 +143,13 @@
             "stars": 374,
             "forks": 88,
             "file": "dist\/2026071600\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 373,
+            "forks": 88,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

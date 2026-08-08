@@ -6,7 +6,7 @@
         "name": "php-github-api",
         "html_url": "https:\/\/github.com\/KnpLabs\/php-github-api",
         "language": "PHP",
-        "description": "用于与 GitHub API 进行交互的 PHP 客户端库，提供简洁的接口来操作仓库、用户、组织、问题、拉取请求等资源，适合在 PHP 应用中集成 GitHub 功能，如自动化部署、持续集成和数据统计分析。"
+        "description": "面向 PHP 开发者的 GitHub API 客户端库，用于在 PHP 项目中轻松调用 GitHub 的 REST API。它封装了仓库、issue、拉取请求、用户、组织、Gist 等常见资源的操作接口，支持令牌认证、请求分页和自定义请求头，适合构建需要与 GitHub 深度集成的工具、自动化脚本或持续集成流程，帮助开发者用面向对象的方式快速读写 GitHub 数据，而无需手工拼接 HTTP 请求。"
     },
     "summary": {
         "initial_stars": 2191,

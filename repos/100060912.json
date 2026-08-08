@@ -6,16 +6,16 @@
         "name": "terminal",
         "html_url": "https:\/\/github.com\/microsoft\/terminal",
         "language": "C++",
-        "description": "Windows Terminal 是一个现代化的终端应用程序，支持多个选项卡和窗格，提供高效的命令行体验，适用于开发者和系统管理员，支持 PowerShell、CMD、WSL 及 SSH 等多种 shell 环境。"
+        "description": "Windows Terminal 是微软推出的现代终端应用，主要用于替代传统的命令提示符和 PowerShell 控制台窗口。它支持多标签页同时管理多个会话，并整合了 PowerShell、CMD、WSL 等常见命令行环境，方便开发者在统一界面中切换。核心特性包括 GPU 加速渲染以提升文字显示流畅度、完整的 Unicode 与 Emoji 支持、自定义配色方案和背景效果，以及键位绑定等深度配置能力。通常适合需要高频使用命令行、追求更好可读性和操作效率的 Windows 用户，也适合跨平台开发流程中集中管理不同 Shell 会话。"
     },
     "summary": {
         "initial_stars": 98730,
-        "current_stars": 104500,
-        "star_diff": 5770,
-        "growth_rate": 5.84,
+        "current_stars": 104519,
+        "star_diff": 5789,
+        "growth_rate": 5.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 104500,
             "forks": 9488,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 104519,
+            "forks": 9494,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

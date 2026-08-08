@@ -6,16 +6,16 @@
         "name": "smartdns",
         "html_url": "https:\/\/github.com\/pymumu\/smartdns",
         "language": "C",
-        "description": "smartdns是一个用于提供高效、稳定DNS解析的开源工具，通过多上游DNS服务器并行查询和智能选择响应最快的IP地址，有效提升网络访问速度与稳定性。它支持DNS缓存、自定义规则和域名分流，常用于科学上网、广告过滤和优化国内\/国外网站访问体验。"
+        "description": "用于提升域名解析速度和准确性的本地DNS服务器，核心功能包括智能分流、多上游DNS选择、缓存和测速。它支持按域名规则将查询分配到不同上游，对国内外域名进行差异化解析，同时具备广告过滤和防污染能力。通常部署在路由器或局域网环境中，可改善网络延迟和污染问题。开源可配置，适合需要自定义DNS解析策略的用户。"
     },
     "summary": {
         "initial_stars": 9202,
-        "current_stars": 11174,
-        "star_diff": 1972,
-        "growth_rate": 21.43,
+        "current_stars": 11184,
+        "star_diff": 1982,
+        "growth_rate": 21.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 11174,
             "forks": 1241,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11184,
+            "forks": 1242,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

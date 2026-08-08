@@ -6,7 +6,7 @@
         "name": "php-mfenc-decompiler",
         "html_url": "https:\/\/github.com\/ganlvtech\/php-mfenc-decompiler",
         "language": "PHP",
-        "description": "用于反编译 PHP 的 mfenc 扩展加密文件的工具，可还原被加密的 PHP 代码，适用于逆向分析或备份恢复等场景，支持常见混淆和加密方式，帮助开发者调试或迁移使用 mfenc 保护的项目。"
+        "description": "用于分析和还原经 mfenc 加密的 PHP 文件，通过逆向手段解密源码，适用于在授权条件下恢复丢失的代码或研究加密混淆机制。通常用于安全审计、代码维护和样本分析场景，帮助开发者或安全研究人员绕过基于 mfenc 的加密保护，获取原始可读的 PHP 逻辑。该工具定位专一，操作上一般针对加密文件整体处理，适合处理批量混淆文件，是 PHP 代码加固后逆向排查的实用辅助脚本。"
     },
     "summary": {
         "initial_stars": 81,

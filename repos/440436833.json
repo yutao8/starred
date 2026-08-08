@@ -6,16 +6,16 @@
         "name": "dperf",
         "html_url": "https:\/\/github.com\/baidu\/dperf",
         "language": "C",
-        "description": "dperf 是百度开源的一款高性能分布式压测工具，主要用于模拟海量用户并发访问场景，支持高并发、低延迟的请求发送，适用于大规模服务端性能测试，帮助评估系统在极端负载下的稳定性与性能表现。"
+        "description": "dperf是百度开源的高性能网络性能测试工具，基于DPDK技术实现，主要用于生成海量TCP\/UDP流量并模拟大规模并发连接。它能够突破传统测试工具在连接数上的限制，常用于测试负载均衡器、防火墙、网关等L4网络设备的极限处理能力与稳定性。典型应用场景包括网络设备性能评估、容量规划、故障注入验证等，适合需要高效模拟真实高并发业务流量的研发和运维团队使用。"
     },
     "summary": {
         "initial_stars": 5375,
-        "current_stars": 5585,
-        "star_diff": 210,
-        "growth_rate": 3.91,
+        "current_stars": 5586,
+        "star_diff": 211,
+        "growth_rate": 3.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 5585,
             "forks": 558,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5586,
+            "forks": 558,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

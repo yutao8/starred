@@ -6,7 +6,7 @@
         "name": "sharelist",
         "html_url": "https:\/\/github.com\/reruin\/sharelist",
         "language": "TypeScript",
-        "description": "ShareList 是一个基于 Node.js 的开源文件列表程序，主要用于挂载和管理多个网盘或存储服务的文件目录，支持本地文件、OneDrive、Google Drive 等多种后端存储。它可通过简单的配置实现文件的统一浏览与分享，适合作为个人网盘聚合工具或静态资源站使用。"
+        "description": "ShareList 是一个网盘资源聚合与分享管理工具，主要用于将多种云存储或网盘服务挂载到统一的目录列表页面，方便集中展示、浏览和下载文件。它适合搭建个人资源导航站、团队文件共享平台或轻量级网盘门户，解决多网盘分散管理的问题。用户通过简洁的配置即可接入不同存储后端，并生成可访问的分享链接，整体使用门槛较低，适用于自部署场景。"
     },
     "summary": {
         "initial_stars": 2705,

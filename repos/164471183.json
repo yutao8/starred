@@ -6,16 +6,16 @@
         "name": "py12306",
         "html_url": "https:\/\/github.com\/pjialin\/py12306",
         "language": "Python",
-        "description": "用于查询和自动购买火车票的 Python 工具，主要针对中国铁路12306网站，支持余票查询、自动下单、定时任务和通知提醒，方便用户在春运等高峰期抢购车票，具备简洁的命令行界面和可配置的监控策略。"
+        "description": "用于12306火车票自动抢票的工具，通过Python脚本模拟用户查询和购票操作，支持多线程并发监控余票、自动识别验证码、自动提交订单，并能在有票时第一时间通知用户。适用于春运或节假日抢票困难场景，适合需要批量刷票或定时抢票的个人用户。项目通常需要配合配置文件设置乘车日期、车次和乘客信息，通过分布式或本地多开方式来提高成功率，解决了手动刷新网页效率低、容易错过放票时间的问题。"
     },
     "summary": {
         "initial_stars": 14612,
-        "current_stars": 14900,
-        "star_diff": 288,
-        "growth_rate": 1.97,
+        "current_stars": 14901,
+        "star_diff": 289,
+        "growth_rate": 1.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 179
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 180
     },
     "history": [
         {
@@ -1270,6 +1270,13 @@
             "stars": 14900,
             "forks": 3572,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14901,
+            "forks": 3572,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "GatewayWorker",
         "html_url": "https:\/\/github.com\/walkor\/GatewayWorker",
         "language": "PHP",
-        "description": "GatewayWorker是一个基于Workerman的PHP socket服务器框架，主要用于快速开发TCP、UDP、WebSocket等长连接服务，支持分布式部署、平滑重启和热更新，适合构建即时通讯、消息推送、在线客服等高并发实时应用。"
+        "description": "GatewayWorker 是 Workerman 生态下的一个分布式长连接通信网关框架，专注于解决高并发实时消息推送和 TCP\/UDP\/WebSocket 服务端开发问题。它提供基于 Gateway 和 Worker 的多进程模型，支持服务器横向扩展，自带客户端分组、消息广播、事件回调等机制，能显著简化稳定长连接服务的搭建流程。通常适合用于实现即时聊天、直播弹幕、实时通知、物联网设备接入、游戏服务器等需要维持大量并发连接并快速转发数据的场景，也可与现有业务逻辑无缝集成，是构建实时交互系统的基础性框架。"
     },
     "summary": {
         "initial_stars": 1044,

@@ -6,16 +6,16 @@
         "name": "halo",
         "html_url": "https:\/\/github.com\/halo-dev\/halo",
         "language": "Java",
-        "description": "Halo 是一个基于 Java 开发的开源个人博客系统，主要用于快速搭建个人博客、技术网站或内容平台。它支持本地部署，提供友好的后台管理界面，支持 Markdown 编辑、主题自定义、多用户协作、静态页面生成等功能，适合程序员或内容创作者使用。"
+        "description": "Halo 是一款用 Java 开发的现代化开源博客系统，专为追求高效写作与灵活展示的用户设计。它提供完整的文章发布、分类、标签和评论管理能力，支持丰富主题和插件扩展，让个人开发者或小团队能快速搭建自己的博客、技术文档或内容信息站。部署轻量，常与 Docker 搭配使用，适合自托管场景，是替代传统博客框架的可靠选择。"
     },
     "summary": {
         "initial_stars": 35941,
-        "current_stars": 39481,
-        "star_diff": 3540,
-        "growth_rate": 9.85,
+        "current_stars": 39484,
+        "star_diff": 3543,
+        "growth_rate": 9.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 39481,
             "forks": 10323,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 39484,
+            "forks": 10320,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

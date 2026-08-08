@@ -6,16 +6,16 @@
         "name": "qBittorrent",
         "html_url": "https:\/\/github.com\/qbittorrent\/qBittorrent",
         "language": "C++",
-        "description": "qBittorrent 是一个跨平台的开源 BitTorrent 客户端，提供无广告的轻量级下载体验，支持磁力链接、DHT、PEX、UPnP\/NAT-PMP 等主流功能，适用于 Windows、macOS、Linux 和 FreeBSD，通常用于高效下载大型文件或资源分享。"
+        "description": "qBittorrent 是一款开源跨平台的 BitTorrent 下载客户端，以轻量高效著称。它基于 Qt 框架，支持 Windows、macOS 和 Linux，提供完整且时尚的图形界面。核心功能包括磁力链接与种子文件下载、下载速度限制、RSS 订阅自动下载、内置搜索引擎，以及通过 Web 界面进行远程管理。它适合需要替代存在广告或臃肿的下载工具的用户，或是在服务器上部署无界面下载环境。主要解决 BT\/PT 资源获取与任务管理需求，同时强调无广告、功能全面且资源占用较低。"
     },
     "summary": {
         "initial_stars": 31747,
-        "current_stars": 39288,
-        "star_diff": 7541,
-        "growth_rate": 23.75,
+        "current_stars": 39331,
+        "star_diff": 7584,
+        "growth_rate": 23.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 39288,
             "forks": 4809,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 39331,
+            "forks": 4813,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

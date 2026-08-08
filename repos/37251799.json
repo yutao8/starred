@@ -6,7 +6,7 @@
         "name": "crontab-ui",
         "html_url": "https:\/\/github.com\/alseambusher\/crontab-ui",
         "language": "JavaScript",
-        "description": "提供图形化界面管理 Linux cron 定时任务，支持任务的添加、编辑、删除和执行日志查看，无需直接编辑 crontab 文件，降低使用门槛，适合需要可视化操作定时任务的用户。"
+        "description": "一个基于Web的定时任务管理界面，用于通过浏览器可视化地查看、编辑和调度Cron任务。它提供友好的表单填写方式替代手动编辑crontab命令，支持设置执行脚本、日志输出、错误记录，并能实时预览任务运行状态。适合不熟悉命令行语法的用户快速管理服务器计划任务，也适合运维人员集中维护多台机器上的定时作业。通常以Node.js服务方式运行，轻量易部署，可有效减少误操作并提升任务管理效率。"
     },
     "summary": {
         "initial_stars": 3053,

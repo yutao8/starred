@@ -6,7 +6,7 @@
         "name": "noscreen",
         "html_url": "https:\/\/github.com\/whiler\/noscreen",
         "language": "JavaScript",
-        "description": "一个轻量级的 Linux 屏幕录制工具，专注于命令行操作，适合在无图形界面环境下高效录制终端会话，支持直接输出为 GIF 或 MP4 格式，便于分享和文档制作。"
+        "description": "用于在无图形界面的环境下运行需要屏幕的应用程序，适合服务器、容器或远程工作站场景。它能够为程序提供虚拟显示或禁用屏幕依赖，从而完成自动化测试、网页渲染、后台截屏等任务，无需物理显示器。通常与虚拟帧缓冲技术配合使用，帮助开发者在精简环境中运行图形软件。"
     },
     "summary": {
         "initial_stars": 52,

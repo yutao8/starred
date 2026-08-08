@@ -6,16 +6,16 @@
         "name": "poster-design",
         "html_url": "https:\/\/github.com\/palxiao\/poster-design",
         "language": "Vue",
-        "description": "一个基于 Vue 3 和 TypeScript 的海报设计器，支持拖拽组件、实时预览和导出图片，主要用于可视化搭建场景下的动态海报生成，适合需要低代码实现设计能力的前端项目集成。"
+        "description": "用于快速制作海报的在线设计工具，主要用于营销图片、社交媒体配图、电商主图等场景。支持拖拽式自由排版，可添加文本、图片、图形、二维码等元素，并具备图层管理、模板套用与快捷替换资源等功能。操作简单，输出标准图片格式，适合运营人员、中小团队使用，也便于开发者将其作为海报编辑功能集成到自身项目中，从而降低设计成本、提高出图效率。"
     },
     "summary": {
         "initial_stars": 4303,
-        "current_stars": 4777,
-        "star_diff": 474,
-        "growth_rate": 11.02,
+        "current_stars": 4779,
+        "star_diff": 476,
+        "growth_rate": 11.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 4777,
             "forks": 739,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4779,
+            "forks": 738,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

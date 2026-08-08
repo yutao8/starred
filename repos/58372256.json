@@ -6,16 +6,16 @@
         "name": "WechatSogou",
         "html_url": "https:\/\/github.com\/chyroc\/WechatSogou",
         "language": "Python",
-        "description": "WechatSogou 是一个用于获取微信公众号及其文章信息的工具，支持通过搜狗搜索解析公众号和文章数据，便于内容采集、数据分析等场景使用，主要适用于需要对接微信生态公开信息的开发者。"
+        "description": "用于通过搜狗搜索获取微信公众号内容，提供公众号文章搜索、公众号信息抓取等功能。通常适合需要批量采集公众号文章做数据分析、舆情监控或内容整理的用户。基于搜狗微信搜索的网页数据，以Python封装为主，方便集成到爬虫或数据处理流程中。具体实现细节可能随搜索页面变化，建议使用前查看最新文档。"
     },
     "summary": {
         "initial_stars": 6087,
-        "current_stars": 6363,
-        "star_diff": 276,
-        "growth_rate": 4.53,
+        "current_stars": 6365,
+        "star_diff": 278,
+        "growth_rate": 4.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 6363,
             "forks": 1699,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6365,
+            "forks": 1699,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

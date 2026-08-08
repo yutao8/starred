@@ -6,16 +6,16 @@
         "name": "Pake",
         "html_url": "https:\/\/github.com\/tw93\/Pake",
         "language": "Rust",
-        "description": "Pake 是一个轻量级的前端构建工具，主要用于快速打包和部署静态网页应用，支持 HTML、CSS、JavaScript 等资源的构建优化，适合小型项目或需要简单构建流程的开发者，通过简洁配置实现文件压缩、资源合并与高效输出。"
+        "description": "Pake是一款利用Rust和Tauri将网页打包成桌面应用的工具，相比Electron方案体积更小、内存占用更低，通常适合将常用Web页面快速转换为跨平台桌面客户端。它支持macOS、Windows和Linux，提供窗口定制、系统托盘、快捷键等常用功能，用户无需编写复杂原生代码即可生成轻量级应用。该工具特别适合希望以桌面形式使用Web应用、减少浏览器标签页干扰或需要离线快捷入口的场景，也有命令行和图形化界面可供选择。"
     },
     "summary": {
         "initial_stars": 39883,
-        "current_stars": 60487,
-        "star_diff": 20604,
-        "growth_rate": 51.66,
+        "current_stars": 60514,
+        "star_diff": 20631,
+        "growth_rate": 51.73,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 60487,
             "forks": 12327,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 60514,
+            "forks": 12329,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

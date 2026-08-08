@@ -6,16 +6,16 @@
         "name": "Gogh",
         "html_url": "https:\/\/github.com\/Gogh-Co\/Gogh",
         "language": "Shell",
-        "description": "一个开源的网页应用，主要用于创建、分享和探索配色方案。用户可以通过直观的界面实时生成调色板，支持多种色彩模式与导出格式，方便设计师和开发者在项目中使用。"
+        "description": "Gogh 是一款适用于 Linux 终端的配色主题管理工具，提供大量预设色彩方案供用户一键切换。它通过简单的命令行交互即可将主题应用到 GNOME Terminal、Tilix 等常见终端模拟器，也支持自定义颜色组合并导出。适合经常使用终端、希望统一或美化工作环境、减少视觉疲劳的开发者，尤其方便快速试验不同配色而无需手动逐项修改终端配置。"
     },
     "summary": {
         "initial_stars": 9759,
-        "current_stars": 10276,
-        "star_diff": 517,
-        "growth_rate": 5.3,
+        "current_stars": 10279,
+        "star_diff": 520,
+        "growth_rate": 5.33,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 10276,
             "forks": 630,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10279,
+            "forks": 630,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

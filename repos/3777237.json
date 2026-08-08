@@ -6,16 +6,16 @@
         "name": "weasel",
         "html_url": "https:\/\/github.com\/rime\/weasel",
         "language": "C++",
-        "description": "Weasel 是 Rime 输入法引擎的 Windows 前端实现，提供稳定高效的中文输入体验，支持多种输入方案定制与用户词典同步，主要用于在 Windows 平台部署 Rime 输入法核心功能，适合需要高度自定义输入行为的用户，通常与 Rime 配置工具配合使用以实现皮肤更换、输入风格调整等个性化设置。"
+        "description": "在 Windows 上运行的开源输入法，通常称为小狼毫，是 Rime 输入法引擎的桌面端实现。它依托纯文本配置，支持拼音、五笔、仓颉、注音等多种输入方案，并允许用户自由定制词库、按键绑定和界面风格。适合追求输入效率、偏好高度个性化配置或对隐私敏感的用户，以本地处理为主要方式，避免云端依赖。"
     },
     "summary": {
         "initial_stars": 5483,
-        "current_stars": 7763,
-        "star_diff": 2280,
-        "growth_rate": 41.58,
+        "current_stars": 7771,
+        "star_diff": 2288,
+        "growth_rate": 41.73,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 7763,
             "forks": 757,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7771,
+            "forks": 758,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

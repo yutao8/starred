@@ -6,16 +6,16 @@
         "name": "animeko",
         "html_url": "https:\/\/github.com\/open-ani\/animeko",
         "language": "Kotlin",
-        "description": "Animeko 是一个基于 WebGPU 的开源 3D 动画渲染库，专注于高性能呈现高质量的动漫风格角色模型，支持实时渲染、骨骼动画与材质自定义，适用于网页端的虚拟偶像展示、互动应用与轻量级动画播放。"
+        "description": "用于动漫爱好者管理追番进度和在线观看动画的第三方客户端，支持在多个设备上浏览新番、搜索动画、收藏追番列表，并能同步主流追番平台数据。它主要解决传统动漫网站广告杂乱、跨设备记录不同步以及观看体验不统一的问题，适合喜欢追番且需要简洁无打扰界面的用户。项目通常提供跨平台版本，覆盖桌面与移动端，技术栈偏向现代原生框架。"
     },
     "summary": {
         "initial_stars": 7854,
-        "current_stars": 19369,
-        "star_diff": 11515,
-        "growth_rate": 146.61,
+        "current_stars": 19403,
+        "star_diff": 11549,
+        "growth_rate": 147.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 19369,
             "forks": 532,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19403,
+            "forks": 532,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

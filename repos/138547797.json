@@ -6,16 +6,16 @@
         "name": "mkcert",
         "html_url": "https:\/\/github.com\/FiloSottile\/mkcert",
         "language": "Go",
-        "description": "mkcert 是一个简单易用的工具，用于在本地生成受信任的 HTTPS 证书，主要用于开发和测试环境。它自动创建并安装本地 CA，无需任何配置即可为 localhost、127.0.0.1 等生成有效证书，支持 macOS、Linux、Windows 和多种浏览器，极大简化了本地 HTTPS 的设置过程。"
+        "description": "mkcert 是一个用于在本地开发环境中快速生成受信任 HTTPS 证书的命令行工具，只需一条命令即可为 localhost、127.0.0.1 或任意局域网地址签发浏览器和操作系统信任的证书，同时自动在系统证书库中安装本地 CA，彻底解决开发时浏览器对自签名证书的警告问题。它主要面向前后端工程师、API 开发者以及需要模拟生产 HTTPS 环境的本机测试场景，支持 Windows、macOS 和 Linux，能够与 Nginx、Docker、Node.js 等常见开发栈无缝配合。通过简单的证书管理命令，用户可以随时创建或删除证书，适合需要频繁搭建本地加密服务的团队或个人使用。"
     },
     "summary": {
         "initial_stars": 54059,
-        "current_stars": 59426,
-        "star_diff": 5367,
-        "growth_rate": 9.93,
+        "current_stars": 59430,
+        "star_diff": 5371,
+        "growth_rate": 9.94,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 59426,
             "forks": 3132,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 59430,
+            "forks": 3130,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

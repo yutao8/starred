@@ -6,7 +6,7 @@
         "name": "WebAliveScan",
         "html_url": "https:\/\/github.com\/broken5\/WebAliveScan",
         "language": "Python",
-        "description": "WebAliveScan 是一个用于批量检测 Web 服务可用性的扫描工具，主要用于验证多个网站或 Web 应用是否正常运行，支持高并发请求、自定义超时时间和结果输出，适合在渗透测试或安全评估前期快速识别活跃目标。"
+        "description": "批量探测Web站点存活状态是这款工具的用途，适合安全测试人员、运维人员或渗透测试者在资产梳理阶段使用。它通过向目标URL发送HTTP或HTTPS请求来判断站点是否正常响应，并输出存活结果，从而快速筛选可访问的Web服务。工具通常支持多线程并发扫描，以提高大批量URL的检测效率，也可用于子域或IP对应Web服务的批量验证。借助该工具，用户能减少手动检查的繁琐步骤，更高效地完成前期的信息收集和资产存活确认工作。"
     },
     "summary": {
         "initial_stars": 910,

@@ -6,7 +6,7 @@
         "name": "TeambitionShare",
         "html_url": "https:\/\/github.com\/FlxSNX\/TeambitionShare",
         "language": "PHP",
-        "description": "用于将 Teambition 资源分享链接转换为可直接访问的文件链接，支持批量解析与导出，便于快速获取共享文件的真实地址，提升资源下载效率。通常配合第三方工具实现文件抓取与保存。"
+        "description": "用于将 Teambition 网盘中的文件转换为可直接访问的网页目录，生成下载直链以供分享。适合解决 Teambition 官方分享需要登录、链接易失效的问题，常用于个人或小团队搭建轻量网盘、资源下载站。该项目基于 PHP 开发，部署简单，通常运行在虚拟主机上，支持自定义挂载目录、访问密码和多种文件列表样式，是常见的 Teambition 分享工具之一。"
     },
     "summary": {
         "initial_stars": 295,

@@ -6,16 +6,16 @@
         "name": "shadowsocksr-csharp",
         "html_url": "https:\/\/github.com\/shadowsocksrr\/shadowsocksr-csharp",
         "language": "C#",
-        "description": "这是一个基于C#开发的ShadowsocksR（SSR）客户端，主要用于科学上网，支持Windows平台。它在原版Shadowsocks基础上加入了增强功能，如多种加密方式、协议混淆和自定义参数设置，以提高连接稳定性和抗封锁能力，适合需要通过代理服务器访问境外网络资源的用户。项目通常被用于个人网络隐私保护和绕过网络审查。"
+        "description": "基于 C# 开发的图形化代理客户端，主要用于创建和管理加密代理连接，帮助用户绕过网络封锁、保护隐私并访问被屏蔽的资源。通常配合自建的代理服务器或订阅服务使用，支持多种加密协议与传输方式，适合需要在 Windows 环境下配置科学上网工具的人群。"
     },
     "summary": {
         "initial_stars": 15258,
-        "current_stars": 15033,
-        "star_diff": -225,
-        "growth_rate": -1.47,
+        "current_stars": 15030,
+        "star_diff": -228,
+        "growth_rate": -1.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 174
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 175
     },
     "history": [
         {
@@ -1235,6 +1235,13 @@
             "stars": 15033,
             "forks": 3173,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15030,
+            "forks": 3171,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

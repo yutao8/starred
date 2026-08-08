@@ -6,7 +6,7 @@
         "name": "nonebot2",
         "html_url": "https:\/\/github.com\/nonebot\/nonebot2",
         "language": "Python",
-        "description": "NoneBot2 是一个基于 Python 的异步机器人框架，主要用于构建 QQ、微信、飞书等平台的聊天机器人。它支持插件化开发，提供丰富的事件驱动 API，便于扩展和定制功能，适合实现消息处理、自动化任务、交互游戏等多种场景，具有良好的社区生态和文档支持。"
+        "description": "NoneBot2 是一个基于 Python 的异步聊天机器人开发框架，面向 QQ、Telegram 等主流即时通讯平台，通过事件驱动和插件化架构帮助开发者快速构建可扩展的交互机器人。它提供完整的异步支持、灵活的权限控制与丰富的官方插件，适合处理消息响应、指令系统、定时任务等常见场景，尤其适用于需要高并发或复杂业务逻辑的机器人项目，能够显著降低从原型到部署的维护成本。"
     },
     "summary": {
         "initial_stars": 6831,
@@ -14,8 +14,8 @@
         "star_diff": 823,
         "growth_rate": 12.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 7654,
             "forks": 662,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7654,
+            "forks": 663,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

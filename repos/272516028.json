@@ -6,7 +6,7 @@
         "name": "BaiduPanFilesTransfers",
         "html_url": "https:\/\/github.com\/hxz393\/BaiduPanFilesTransfers",
         "language": "Python",
-        "description": "用于实现百度网盘文件的高效转移与管理，支持多线程传输和断点续传，适用于批量文件迁移、备份及跨账号同步场景，提升大文件处理效率。"
+        "description": "主要用于百度网盘文件的批量转存与迁移，支持通过分享链接或目录方式批量操作，方便用户快速将文件从一个账号转移至另一个账号，或集中整理分散的网盘资源。适合需要备份资料、清理空间、同步多账号文件的场景，能显著减少逐一手动处理的工作量。通常作为命令行或脚本工具使用，适合有一定技术基础的用户。"
     },
     "summary": {
         "initial_stars": 1751,

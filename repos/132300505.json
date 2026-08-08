@@ -6,16 +6,16 @@
         "name": "multi-v2ray",
         "html_url": "https:\/\/github.com\/Jrohy\/multi-v2ray",
         "language": "Python",
-        "description": "用于管理多用户 V2Ray 配置的开源工具，支持批量创建、修改和监控 V2Ray 节点，适用于需要高效运维多个 V2Ray 账号的场景，提供命令行界面简化配置流程，便于部署在服务器上进行集中管理。"
+        "description": "multi-v2ray 是一款 V2Ray 多用户管理工具，提供 Web 面板和命令行界面，用于集中管理服务端配置、用户账号及流量数据。它适合个人或小型团队自建代理服务，解决多用户权限隔离、配置分发和流量统计等问题，简化部署与日常运维操作。"
     },
     "summary": {
         "initial_stars": 7041,
-        "current_stars": 6975,
-        "star_diff": -66,
-        "growth_rate": -0.94,
+        "current_stars": 6976,
+        "star_diff": -65,
+        "growth_rate": -0.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 145
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 146
     },
     "history": [
         {
@@ -1032,6 +1032,13 @@
             "stars": 6975,
             "forks": 2344,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6976,
+            "forks": 2343,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

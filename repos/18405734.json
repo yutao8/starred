@@ -6,7 +6,7 @@
         "name": "smartcrop.js",
         "html_url": "https:\/\/github.com\/jwagner\/smartcrop.js",
         "language": "JavaScript",
-        "description": "smartcrop.js 是一个用于智能裁剪图片的 JavaScript 库，能够自动识别图像中的重要区域并裁剪出最具代表性的部分，常用于生成缩略图或在有限空间内展示图像关键内容，适用于网页和 Node.js 环境。"
+        "description": "smartcrop.js 是一个基于内容感知的图像智能裁剪库，通过算法自动识别图像中的视觉焦点（如人脸、主体），并据此确定最优裁剪区域，以替代简单的居中或手动裁剪。它主要适用于生成缩略图、响应式图片适配、社会化分享预览等场景，能有效避免关键内容被裁切，提升图片在有限窗口中的展示效果。该库支持浏览器和 Node.js 环境，通常配合 Canvas API 使用，适合需要在服务端或客户端批量处理图片的开发者。"
     },
     "summary": {
         "initial_stars": 12900,

@@ -6,7 +6,7 @@
         "name": "mp-unpack",
         "html_url": "https:\/\/github.com\/xdmjun\/mp-unpack",
         "language": "Other",
-        "description": "用于解包和分析微信小程序的工具，支持提取和解析小程序包（如 .wxapkg 文件），方便开发者研究小程序结构、资源文件和代码逻辑，主要用于小程序逆向分析和学习。"
+        "description": "用于解包微信小程序编译生成的 wxapkg 文件，将二进制打包内容还原为接近开发时的源码结构，包括页面、组件、样式和逻辑代码。主要面向开发者对小程序做逆向分析、安全审计或学习研究，帮助定位程序实现细节，也适合分析竞品小程序的功能架构。操作对象通常为本地缓存或抓包获得的小程序包文件，使用时需遵守相关协议的授权与合规要求。"
     },
     "summary": {
         "initial_stars": 1092,
@@ -14,8 +14,8 @@
         "star_diff": -12,
         "growth_rate": -1.1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-20 00:00",
-        "data_points_count": 21
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 22
     },
     "history": [
         {
@@ -164,6 +164,13 @@
             "stars": 1080,
             "forks": 425,
             "file": "dist\/2026072000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1080,
+            "forks": 424,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

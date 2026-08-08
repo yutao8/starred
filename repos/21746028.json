@@ -6,7 +6,7 @@
         "name": "php-ftp-client",
         "html_url": "https:\/\/github.com\/Nicolab\/php-ftp-client",
         "language": "PHP",
-        "description": "基于 PHP 的 FTP 客户端封装库，简化文件上传、下载、目录管理等 FTP 操作，支持连接配置、递归操作及错误处理，适用于需要与远程 FTP 服务器交互的文件管理场景。"
+        "description": "一个用于在PHP项目中快速集成FTP功能的客户端库，通过面向对象的方式封装了FTP协议常用操作，支持连接服务器、上传和下载文件、创建及删除目录、重命名文件等基础功能。通常适合需要批量处理远程文件、自动化部署或同步数据的场景，例如定时备份、定时同步静态资源或与远程服务器交换文件。该库基于PHP的FTP扩展，要求运行环境启用相关模块，使用时需注意FTP协议本身不加密，敏感信息传输建议配合FTP over TLS或改用SFTP方案。整体设计简洁，适合已有PHP项目中直接引入并调用。"
     },
     "summary": {
         "initial_stars": 640,

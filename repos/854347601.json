@@ -6,16 +6,16 @@
         "name": "ha_xiaomi_home",
         "html_url": "https:\/\/github.com\/XiaoMi\/ha_xiaomi_home",
         "language": "Python",
-        "description": "用于在 Home 中集成小米家居设备，支持多种小米设备的本地控制与自动化，提升隐私性和响应速度，减少对云服务的依赖，适合构建本地化智能家居系统。"
+        "description": "用于将小米米家智能家居设备接入Home Assistant平台，实现统一管理和联动控制。支持网关、传感器、灯、开关、窗帘、扫地机器人等常见设备，可同步实体状态并执行指令，适合有多品牌生态、希望在Home Assistant中集中自动化控制的用户。通常通过局域网通信实现本地操作，减少云依赖，同时保留远程控制能力。适用于搭建智能家居中枢、跨平台场景联动等需求，帮助米家设备用户突破小米App的封闭性，灵活定制自动化规则。"
     },
     "summary": {
         "initial_stars": 20140,
-        "current_stars": 21967,
-        "star_diff": 1827,
-        "growth_rate": 9.07,
+        "current_stars": 21975,
+        "star_diff": 1835,
+        "growth_rate": 9.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 21967,
             "forks": 1172,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21975,
+            "forks": 1173,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

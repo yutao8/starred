@@ -6,7 +6,7 @@
         "name": "LTSB-Add-MicrosoftStore",
         "html_url": "https:\/\/github.com\/kkkgo\/LTSB-Add-MicrosoftStore",
         "language": "Batchfile",
-        "description": "该项目旨在为LTSC\/LTSB版本的Windows系统提供添加微软商店（Microsoft Store）及必要依赖组件的功能，通过脚本自动化部署UWP运行环境和商店应用，解决精简系统缺少应用生态的问题，适用于需要纯净系统环境又希望保留应用安装能力的用户。"
+        "description": "用于在Windows 10企业版LTSB（长期服务分支）上恢复Microsoft Store，解决该版本默认不含应用商店、无法安装和运行UWP应用的问题。该工具通常以脚本方式自动补齐商店运行所需的组件和依赖，操作简单，无需手动处理复杂的包管理命令，适合既希望保留LTSB精简高效特性、又需要商店功能的用户。实现基于官方渠道文件，尽量不影响系统稳定。"
     },
     "summary": {
         "initial_stars": 587,

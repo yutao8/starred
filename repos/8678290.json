@@ -6,16 +6,16 @@
         "name": "laravel-ide-helper",
         "html_url": "https:\/\/github.com\/barryvdh\/laravel-ide-helper",
         "language": "PHP",
-        "description": "为 Laravel 项目生成 IDE 辅助文件，提升代码自动补全和提示功能，便于在 PhpStorm、VS Code 等编辑器中更高效地开发，支持自动生成模型属性、facade 和配置类的 PHPDoc 注释，提高代码可读性和开发效率。"
+        "description": "为 Laravel 开发者生成 IDE 智能提示文件，解决 IDE 无法识别 Facade、门面方法、模型注解等问题。它通过解析应用代码和数据库结构，自动生成 `_ide_helper.php` 等元数据文件，优化 PhpStorm 等 IDE 的自动补全、类型推断和静态分析体验。常用于大型 Laravel 项目开发或调试环境，适合需要提升代码导航和错误检查效率的场景。"
     },
     "summary": {
         "initial_stars": 14618,
-        "current_stars": 14950,
-        "star_diff": 332,
-        "growth_rate": 2.27,
+        "current_stars": 14952,
+        "star_diff": 334,
+        "growth_rate": 2.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 14950,
             "forks": 1191,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14952,
+            "forks": 1191,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

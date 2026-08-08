@@ -6,16 +6,16 @@
         "name": "ws-scrcpy",
         "html_url": "https:\/\/github.com\/NetrisTV\/ws-scrcpy",
         "language": "TypeScript",
-        "description": "通过 WebSocket 实现浏览器远程控制 Android 设备的轻量级投屏工具，支持实时音视频传输与交互操作，适用于设备远程调试、在线演示等场景。"
+        "description": "ws-scrcpy 是一个通过浏览器远程控制 Android 设备的开源工具，它是 scrcpy 的 Web 化实现，无需安装客户端即可在网页上实时查看手机屏幕并模拟触摸、滑动和按键操作。通常适合开发调试、设备演示或临时远程协助场景，用户只需在电脑上启动服务，再用支持 WebSocket 的现代浏览器访问即可连接同一局域网内的安卓设备。它主要解决传统 adb 操作依赖命令行和有线连接的问题，使得跨平台访问和设备共享更加方便，同时保留了低延迟的画面传输和基本的输入控制能力。"
     },
     "summary": {
         "initial_stars": 2003,
-        "current_stars": 2512,
-        "star_diff": 509,
-        "growth_rate": 25.41,
+        "current_stars": 2517,
+        "star_diff": 514,
+        "growth_rate": 25.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 2512,
             "forks": 557,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2517,
+            "forks": 557,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

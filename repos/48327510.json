@@ -6,16 +6,16 @@
         "name": "QueryList",
         "html_url": "https:\/\/github.com\/jae-jae\/QueryList",
         "language": "PHP",
-        "description": "QueryList 是一个基于 PHP 的网页数据抽取工具，主要用于采集和解析 HTML 页面内容，支持链式操作、插件扩展及自定义请求，适合网页爬虫、数据抓取等场景，简化了DOM元素选择和数据提取流程。"
+        "description": "QueryList 是一款基于 PHP 的轻量级网页数据采集与解析工具，提供简洁的链式 API 用于从 HTML 中提取结构化信息，支持 CSS 选择器、XPath 及正则匹配，并内置多线程抓取、编码转换和格式清洗等实用功能。它适合快速构建定向爬虫、抓取列表页或详情页数据，常用于内容聚合、价格监控、舆情分析等场景，能够显著简化获取网页数据的流程。"
     },
     "summary": {
         "initial_stars": 2681,
-        "current_stars": 2696,
-        "star_diff": 15,
-        "growth_rate": 0.56,
+        "current_stars": 2695,
+        "star_diff": 14,
+        "growth_rate": 0.52,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 62
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 63
     },
     "history": [
         {
@@ -451,6 +451,13 @@
             "stars": 2696,
             "forks": 425,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2695,
+            "forks": 424,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

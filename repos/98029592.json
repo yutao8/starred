@@ -6,16 +6,16 @@
         "name": "learn-regex",
         "html_url": "https:\/\/github.com\/ziishaned\/learn-regex",
         "language": "Other",
-        "description": "ziishaned\/learn-regex 是一个帮助用户学习正则表达式的开源项目，通过简洁的实例和逐步讲解，涵盖匹配、捕获、替换等核心概念，适合初学者快速掌握正则表达式在文本处理中的实际应用。"
+        "description": "一个面向初学者的正则表达式交互式教程，通过分步示例和可视化匹配结果，帮助理解元字符、字符类、分组、量词、断言等核心概念。内容按难度递进，适合编程入门者或需要系统梳理正则语法的开发者，通常可直接在网页上练习并查看高亮匹配效果，用于快速掌握日常文本处理、表单校验、日志提取等场景中的正则写法。"
     },
     "summary": {
         "initial_stars": 46034,
-        "current_stars": 46080,
-        "star_diff": 46,
-        "growth_rate": 0.1,
+        "current_stars": 46084,
+        "star_diff": 50,
+        "growth_rate": 0.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 46080,
             "forks": 6144,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 46084,
+            "forks": 6144,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

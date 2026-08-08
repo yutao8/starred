@@ -6,7 +6,7 @@
         "name": "oicq",
         "html_url": "https:\/\/github.com\/takayama-lily\/oicq",
         "language": "TypeScript",
-        "description": "基于 QQ 协议的 Node.js SDK，提供登录、消息收发、群管理等接口，支持二维码登录和设备锁，适用于构建 QQ 机器人或自动化应用，兼容 NTQQ 与普通 QQ 协议。"
+        "description": "oicq 是一个基于 Node.js 的开源 QQ 机器人框架，核心用途是让开发者通过代码与 QQ 系统交互，实现消息监听、自动回复、群成员管理等自动化功能。它采用事件驱动模型，常用于搭建私聊或群聊机器人，也可以用于消息转发、通知推送、签到打卡等场景。由于支持 TypeScript，且模块划分清晰，通常适合在 Node.js 环境中快速构建稳定可靠的 QQ 机器人服务。需要注意的是，该项目基于对 QQ 协议的逆向实现，使用时应关注账号安全与合规风险。"
     },
     "summary": {
         "initial_stars": 2671,
@@ -14,8 +14,8 @@
         "star_diff": -29,
         "growth_rate": -1.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 103
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 104
     },
     "history": [
         {
@@ -738,6 +738,13 @@
             "stars": 2642,
             "forks": 369,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2642,
+            "forks": 370,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

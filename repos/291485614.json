@@ -6,16 +6,16 @@
         "name": "CloudflareSpeedTest",
         "html_url": "https:\/\/github.com\/XIU2\/CloudflareSpeedTest",
         "language": "Go",
-        "description": "用于测试 Cloudflare CDN 节点的延迟和下载速度，支持自动优选域名、IP 扫描与速度测试，帮助用户快速发现低延迟、高速率的 Cloudflare 节点，常用于搭建代理或加速服务时的节点筛选。"
+        "description": "CloudflareSpeedTest 是一款用于测试 Cloudflare CDN 延迟和速度的命令行工具，它通过批量测试 Cloudflare 各 IP 节点的响应速度和连接质量，帮助用户找出当前网络环境下最快的 IP 地址。该工具通常与 hosts 文件或 DNS 工具搭配使用，可用于解决网站访问缓慢或连接不稳定的问题，常见于代理配置、服务器网络优化等场景。它支持 Windows、Linux、macOS 等多平台，操作方式简单，适合开发者和网络管理员使用。"
     },
     "summary": {
         "initial_stars": 21986,
-        "current_stars": 28304,
-        "star_diff": 6318,
-        "growth_rate": 28.74,
+        "current_stars": 28348,
+        "star_diff": 6362,
+        "growth_rate": 28.94,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28304,
             "forks": 5356,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28348,
+            "forks": 5359,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

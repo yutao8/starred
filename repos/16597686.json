@@ -6,7 +6,7 @@
         "name": "SocketLog",
         "html_url": "https:\/\/github.com\/luofei614\/SocketLog",
         "language": "PHP",
-        "description": "一个基于 WebSocket 的实时日志查看工具，主要用于开发和调试过程中实时查看 PHP 应用日志。通过浏览器控制台输出日志，支持按级别过滤和实时刷新，方便定位问题。通常用于 PHP 项目中替代传统文件日志，提升调试效率。"
+        "description": "用于在浏览器控制台实时调试PHP程序。它通过WebSocket将后端日志推送到浏览器开发者工具，便于查看SQL查询、请求参数、异常堆栈等运行信息，无需频繁切换编辑器与浏览器。适用于本地及开发环境调试，支持多项目、多标签页，可配合Chrome扩展使用，帮助PHP开发者快速定位问题。"
     },
     "summary": {
         "initial_stars": 1122,

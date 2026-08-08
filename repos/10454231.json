@@ -6,16 +6,16 @@
         "name": "daux.io",
         "html_url": "https:\/\/github.com\/justinwalsh\/daux.io",
         "language": "Other",
-        "description": "基于静态文件生成技术文档的工具，支持使用Markdown编写文档，通过Docker容器化部署，自动化构建美观的响应式网站，适合团队协作维护技术文档和知识库。"
+        "description": "一个基于 Markdown 的文档网站生成器，通过简单的文件夹结构和配置文件即可生成美观的静态 HTML 文档，无需数据库和服务器端动态处理，适合为开源项目、API 或内部工具快速搭建文档站点，支持自定义主题、多语言及侧边栏导航，生成结果可直接部署到任意静态托管服务。"
     },
     "summary": {
         "initial_stars": 4524,
-        "current_stars": 4524,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 4523,
+        "star_diff": -1,
+        "growth_rate": -0.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 4524,
             "forks": 510,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4523,
+            "forks": 510,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

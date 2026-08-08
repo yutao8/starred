@@ -6,7 +6,7 @@
         "name": "Shairport4w",
         "html_url": "https:\/\/github.com\/Frank-Friemel\/Shairport4w",
         "language": "C++",
-        "description": "Shairport4w 是一个为 Windows 系统设计的开源 AirPlay 接收器，允许用户将 macOS 或 iOS 设备上的音频无线流式传输到 Windows 电脑的扬声器或耳机上，支持高分辨率音频和多房间同步播放，提供类似 AirPort Express 的音频接收功能，适用于家庭或办公环境中的无线音频共享场景。"
+        "description": "Shairport4w 是 Shairport 的 Windows 移植版本，主要用于将 Windows 电脑变成 Apple AirPlay 音频接收器。它能让 iPhone、iPad 或 Mac 等设备通过 AirPlay 将音乐直接推送到电脑连接的扬声器上，适用于家庭无线音频播放或桌面场景。通常适合希望把 Apple 设备音频流转到 Windows 系统播放的用户，无需额外专用硬件，即可实现跨设备的声音投送。"
     },
     "summary": {
         "initial_stars": 620,
@@ -14,8 +14,8 @@
         "star_diff": 103,
         "growth_rate": 16.61,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 84
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 85
     },
     "history": [
         {
@@ -605,6 +605,13 @@
             "stars": 723,
             "forks": 61,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 723,
+            "forks": 62,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

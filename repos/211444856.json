@@ -6,16 +6,16 @@
         "name": "zpan",
         "html_url": "https:\/\/github.com\/saltbo\/zpan",
         "language": "Go",
-        "description": "一个基于 Go 语言开发的自托管网盘系统，主要用于个人或企业搭建私有云存储服务，支持文件上传下载、分享链接、权限管理等功能，具有高性能、易扩展的特点，适合对数据隐私和存储安全有较高要求的场景。"
+        "description": "zpan 是一个基于 Go 与 Vue 构建的私有网盘与文件分享工具，主要用于个人或团队快速搭建轻量级的在线文件管理服务。它支持文件上传、下载、目录管理，并提供分享链接功能，适合替代公共网盘用于内网文件协作、个人备份或临时文件分发场景。部署简单，运行占用低，通常需要配合 MySQL 或 SQLite 使用，适合有一定技术背景的用户自助托管。"
     },
     "summary": {
         "initial_stars": 1904,
-        "current_stars": 2048,
-        "star_diff": 144,
-        "growth_rate": 7.56,
+        "current_stars": 2049,
+        "star_diff": 145,
+        "growth_rate": 7.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 127
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 128
     },
     "history": [
         {
@@ -906,6 +906,13 @@
             "stars": 2048,
             "forks": 282,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2049,
+            "forks": 282,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "docker-wechat",
         "html_url": "https:\/\/github.com\/RICwang\/docker-wechat",
         "language": "Dockerfile",
-        "description": "基于 Docker 的微信客户端封装，便于在 Linux 系统中以容器化方式运行微信，解决原生 Linux 客户端缺失问题，支持快速部署与环境隔离，适合需要在服务器或桌面 Linux 使用微信的用户。"
+        "description": "用于在 Docker 容器中运行微信客户端，解决 Linux 系统下无法直接安装官方微信的问题。通过容器化封装，提供隔离运行环境，支持在服务器或桌面环境中使用微信。通常适合需要将微信集成到自动化流程、远程访问或保持系统干净的用户。基于 Docker 镜像，可以方便地部署和迁移，适合需要长期在线或跨设备使用的场景。"
     },
     "summary": {
         "initial_stars": 777,

@@ -6,16 +6,16 @@
         "name": "bug",
         "html_url": "https:\/\/github.com\/liu673cn\/bug",
         "language": "HTML",
-        "description": "一个用于跟踪和管理软件缺陷（bug）的仓库，主要用于记录问题报告、修复进度和技术讨论，帮助开发者协作解决代码中的错误，提升项目稳定性和开发效率。"
+        "description": "面向软件开发中的缺陷管理与经验沉淀，以 bug 为主题收集常见异常、逻辑错误与兼容性问题的解决方案，适合开发者遇到报错时查阅，也可作为个人或团队记录踩坑经历的知识库。由于仓库描述不明确，内容可能是文档、示例代码或调试脚本，通常还会包含代码片段与调试技巧，具体实现需参见仓库主页说明。"
     },
     "summary": {
         "initial_stars": 10575,
-        "current_stars": 10359,
-        "star_diff": -216,
-        "growth_rate": -2.04,
+        "current_stars": 10357,
+        "star_diff": -218,
+        "growth_rate": -2.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 10359,
             "forks": 1991,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10357,
+            "forks": 1990,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

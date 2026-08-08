@@ -6,16 +6,16 @@
         "name": "ngx_http_google_filter_module",
         "html_url": "https:\/\/github.com\/cuber\/ngx_http_google_filter_module",
         "language": "C",
-        "description": "用于在 Nginx 服务器中实现 Google 相关服务的请求过滤与重写，主要功能是修改和转发发往 Google 的 HTTP 请求，通常用于反向代理场景以绕过网络限制，支持搜索结果链接替换、Cookie 处理和域名映射，适用于需要访问 Google 服务但受网络策略影响的环境。"
+        "description": "用于Nginx的Google搜索结果过滤模块，通过替换搜索结果页中的重定向链接，将指向Google跳转服务器的地址还原为原始目标URL。部署在反向代理Google搜索的后端服务器上，可消除搜索结果中多余的重定向请求，减少访问延迟和追踪暴露，提升搜索引擎的可用性与响应速度。适合搭建个人或团队内部的Google搜索代理，尤其适用于网络访问受限或希望绕过Google搜索链路跟踪的场景。模块基于Nginx的响应体过滤机制实现，在响应输出前完成链接改写，配置简单且对请求透明。"
     },
     "summary": {
         "initial_stars": 3338,
-        "current_stars": 3362,
-        "star_diff": 24,
-        "growth_rate": 0.72,
+        "current_stars": 3361,
+        "star_diff": 23,
+        "growth_rate": 0.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 95
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 96
     },
     "history": [
         {
@@ -682,6 +682,13 @@
             "stars": 3362,
             "forks": 755,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3361,
+            "forks": 755,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

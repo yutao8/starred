@@ -6,16 +6,16 @@
         "name": "idb",
         "html_url": "https:\/\/github.com\/jakearchibald\/idb",
         "language": "TypeScript",
-        "description": "提供了一个用于操作浏览器 IndexedDB 的简易 JavaScript 封装库，简化了数据库的增删改查操作，支持 Promise API，使异步存储更直观易用，适用于需要在客户端持久化大量结构化数据的 Web 应用。"
+        "description": "浏览器内置 IndexedDB 的轻量级封装，将原本复杂的异步回调 API 改造成基于 Promise 的简洁接口，用来简化本地数据库的读写和事务操作。通常适合需要在前端存储结构化数据、离线缓存或管理大量本地记录的应用。它保留了 IndexedDB 的核心能力，如对象仓库、索引、事务和游标，同时解决了原生 API 中的兼容性和易用性问题，代码体积小且没有额外依赖。"
     },
     "summary": {
         "initial_stars": 6894,
-        "current_stars": 7389,
-        "star_diff": 495,
-        "growth_rate": 7.18,
+        "current_stars": 7392,
+        "star_diff": 498,
+        "growth_rate": 7.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 7389,
             "forks": 381,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7392,
+            "forks": 382,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

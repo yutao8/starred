@@ -6,16 +6,16 @@
         "name": "tailwindcss",
         "html_url": "https:\/\/github.com\/tailwindlabs\/tailwindcss",
         "language": "TypeScript",
-        "description": "一个功能优先的 CSS 框架，通过工具类直接在 HTML 中构建自定义设计，无需编写自定义 CSS。支持响应式布局、暗黑模式和动态主题，开箱即用，灵活高效，适合快速构建现代化用户界面。"
+        "description": "Tailwind CSS 以实用工具类为核心，用于直接在 HTML 中组合原子样式，快速构建现代用户界面。它提供了丰富的颜色、间距、排版和布局类，支持响应式设计和暗色模式，并能通过配置文件定制设计系统。适合与 React、Vue、Next.js 等组件化框架配合使用，能显著减少自定义 CSS 的编写量，解决样式命名冲突和维护问题。其按需生成机制可避免未使用样式污染打包结果，常用于快速原型设计、企业级前端项目以及需要高度一致性视觉规范的应用开发。"
     },
     "summary": {
         "initial_stars": 88611,
-        "current_stars": 97033,
-        "star_diff": 8422,
-        "growth_rate": 9.5,
+        "current_stars": 97119,
+        "star_diff": 8508,
+        "growth_rate": 9.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 97033,
             "forks": 5555,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 97119,
+            "forks": 5568,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

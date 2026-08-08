@@ -6,16 +6,16 @@
         "name": "GSYVideoPlayer",
         "html_url": "https:\/\/github.com\/CarGuo\/GSYVideoPlayer",
         "language": "Java",
-        "description": "一个功能强大的 Android 视频播放器库，支持多种视频格式和流媒体协议，提供丰富的自定义控制UI和弹幕功能，适用于直播、点播、短视频等场景，具有良好的性能和扩展性，便于在复杂业务中集成与定制。"
+        "description": "用于Android平台的高性能视频播放器解决方案，支持ExoPlayer、IJKPlayer和MediaPlayer等内核自由切换，提供播放器UI组件、边播边缓存、视频进度记忆、手势控制、倍速播放、分辨率切换等常用功能。适合需要快速集成播放功能的视频类应用，兼顾易用性与定制能力。"
     },
     "summary": {
         "initial_stars": 20925,
-        "current_stars": 21457,
-        "star_diff": 532,
-        "growth_rate": 2.54,
+        "current_stars": 21458,
+        "star_diff": 533,
+        "growth_rate": 2.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 21457,
             "forks": 4317,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21458,
+            "forks": 4317,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

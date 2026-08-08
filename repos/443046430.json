@@ -6,16 +6,16 @@
         "name": "wallhaven",
         "html_url": "https:\/\/github.com\/leoFitz1024\/wallhaven",
         "language": "CSS",
-        "description": "一个基于 Python 的开源工具，用于从 Wallhaven 网站批量下载高清壁纸。支持按关键词搜索、分类筛选和自动保存，适合需要管理大量壁纸的用户在本地快速获取并分类存储网络图片资源。"
+        "description": "面向Wallhaven壁纸网站的辅助工具，主要用于按关键词或标签搜索高清壁纸，并支持批量下载与本地管理，适合需要经常更换壁纸或收集图片素材的用户，能有效解决手动浏览、保存效率低的问题。通常基于Python开发，可配合命令行或图形界面使用，具体功能以仓库说明为准。"
     },
     "summary": {
         "initial_stars": 1526,
-        "current_stars": 1585,
-        "star_diff": 59,
-        "growth_rate": 3.87,
+        "current_stars": 1587,
+        "star_diff": 61,
+        "growth_rate": 4,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 103
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 104
     },
     "history": [
         {
@@ -738,6 +738,13 @@
             "stars": 1585,
             "forks": 112,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1587,
+            "forks": 112,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

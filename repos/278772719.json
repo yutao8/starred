@@ -6,16 +6,16 @@
         "name": "vue-vben-admin",
         "html_url": "https:\/\/github.com\/vbenjs\/vue-vben-admin",
         "language": "Vue",
-        "description": "基于 Vue 3 和 Vite 构建的企业级中后台管理系统解决方案，提供完善的权限控制、动态路由、多语言支持及丰富的组件库，主要用于快速搭建功能复杂、界面美观的管理界面，适合需要高可维护性和扩展性的中大型项目使用。"
+        "description": "基于 Vue3、Vite 和 TypeScript 打造的中后台前端解决方案，常被用于快速搭建企业级管理后台和内部数据看板。它内置了权限认证、路由守卫、动态菜单、多主题切换和国际化支持，并编排了大量常用业务页面，省去从零搭建工程的时间。项目组件化程度较高，代码结构清晰，适合需要统一规范、频繁迭代并兼顾视觉定制的团队使用，也常被学习和改造为自定义后台基础框架。"
     },
     "summary": {
         "initial_stars": 28808,
-        "current_stars": 33071,
-        "star_diff": 4263,
-        "growth_rate": 14.8,
+        "current_stars": 33080,
+        "star_diff": 4272,
+        "growth_rate": 14.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 33071,
             "forks": 8910,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33080,
+            "forks": 8910,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

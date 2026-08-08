@@ -6,16 +6,16 @@
         "name": "RSSBud",
         "html_url": "https:\/\/github.com\/Cay-Zhang\/RSSBud",
         "language": "JavaScript",
-        "description": "RSSBud 是一个用于管理和订阅 RSS 源的轻量级工具，支持自定义订阅源、定时抓取和推送通知，主要用于帮助用户高效跟踪关注的网站更新，通常适合自建 RSS 服务或与第三方推送服务集成使用。"
+        "description": "RSSBud是一款面向iOS用户的RSS订阅源发现工具，主要用于在浏览网页或使用应用时快速识别并提取隐藏的RSS、Atom等订阅链接。它常与快捷指令、浏览器分享菜单配合，帮助用户将App Store、GitHub、社交媒体等页面中的Feed链接直接添加到RSS阅读器。适合经常需要手动查找订阅源、希望提高订阅效率的RSS使用者。该工具注重隐私保护，操作流程简洁，通过系统分享扩展即可调用，无需打开独立应用。"
     },
     "summary": {
         "initial_stars": 1422,
-        "current_stars": 1530,
-        "star_diff": 108,
-        "growth_rate": 7.59,
+        "current_stars": 1531,
+        "star_diff": 109,
+        "growth_rate": 7.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 103
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 104
     },
     "history": [
         {
@@ -738,6 +738,13 @@
             "stars": 1530,
             "forks": 47,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1531,
+            "forks": 47,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

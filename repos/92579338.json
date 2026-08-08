@@ -6,7 +6,7 @@
         "name": "SSDBAdmin",
         "html_url": "https:\/\/github.com\/jhao104\/SSDBAdmin",
         "language": "Python",
-        "description": "SSDBAdmin 是一个基于 Web 的图形化管理工具，主要用于管理和操作 SSDB 数据库。它提供了直观的界面，支持键值浏览、编辑、删除、搜索等操作，方便开发者和运维人员快速查看和管理 SSDB 中的数据，提升调试和维护效率。"
+        "description": "SSDBAdmin 是一款用于管理 SSDB 数据库的 Web 图形化工具，提供比命令行更直观的运维操作体验。它主要面向需要监控和操作 SSDB 实例的开发与运维人员，支持查看服务器运行状态、浏览修改键值数据、执行删除和过期等基础管理操作，并能在多个实例间切换管理。由于 SSDB 常被用作 Redis 的替代方案，该工具通常适合部署在测试或生产环境中，帮助团队便捷地完成日常的数据检视与维护工作。"
     },
     "summary": {
         "initial_stars": 352,

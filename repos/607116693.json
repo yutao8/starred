@@ -6,16 +6,16 @@
         "name": "onelist",
         "html_url": "https:\/\/github.com\/msterzhang\/onelist",
         "language": "Go",
-        "description": "一个基于 Go 语言开发的开源列表分享平台，主要用于聚合和展示各种资源链接，支持多用户、分类管理和个性化配置，适合用于收集和分享常用网址、学习资料或项目资源，具有轻量、易部署、界面简洁等特点。"
+        "description": "用于将多个 Emby 或 Jellyfin 媒体服务器聚合到同一个 Web 界面，集中展示来自不同服务器的影视资源，方便统一浏览和播放。适合家中或朋友间运行多套媒体服务、资源分散的场景，省去来回切换不同页面的麻烦，提高找片效率。通常自部署在 NAS 或 VPS 上，可用于整合影视库，实现一处访问。"
     },
     "summary": {
         "initial_stars": 1529,
-        "current_stars": 1534,
-        "star_diff": 5,
-        "growth_rate": 0.33,
+        "current_stars": 1535,
+        "star_diff": 6,
+        "growth_rate": 0.39,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 97
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 98
     },
     "history": [
         {
@@ -696,6 +696,13 @@
             "stars": 1534,
             "forks": 139,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1535,
+            "forks": 139,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

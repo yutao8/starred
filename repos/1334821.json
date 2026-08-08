@@ -6,7 +6,7 @@
         "name": "CouchPotatoServer",
         "html_url": "https:\/\/github.com\/CouchPotato\/CouchPotatoServer",
         "language": "Python",
-        "description": "CouchPotatoServer 是一个自动电影下载工具，主要用于监控电影信息并自动从 Usenet 或 torrent 网络下载影片，支持通过 IMDB ID 或电影名称搜索，配合下载工具如 SABnzbd、Deluge 等实现一站式电影管理，通常用于家庭媒体服务器搭建，方便用户自动收集和整理高清电影。"
+        "description": "用于自动化管理电影下载的开源工具，通常部署在NAS或家庭服务器上。用户维护电影愿望清单，它持续监控种子和Usenet资源，自动挑选符合画质与大小要求的发布，并交给下载客户端处理，完成后重命名、归类到媒体库。适合希望自建媒体库、实现“想看即自动下载”的用户，常与Plex、Kodi等播放器配合，解决从影片发现到入库的全自动流程。"
     },
     "summary": {
         "initial_stars": 3875,

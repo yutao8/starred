@@ -6,16 +6,16 @@
         "name": "itchat4j",
         "html_url": "https:\/\/github.com\/yaphone\/itchat4j",
         "language": "Java",
-        "description": "一个基于 Python 的微信个人号接口库，主要用于实现微信消息的收发、好友管理、群聊交互等自动化功能，适用于开发聊天机器人、消息监控和自动化运维工具，通过调用微信网页版协议实现免 API 密钥操作，易于集成到各类 Python 应用中。"
+        "description": "itchat4j 是一个基于 Java 的微信个人号接口库，通常用于通过网页版微信协议实现消息收发、好友与群管理、以及自定义回复等自动化操作。它适合需要编写微信机器人、批量管理消息或集成企业内外部通知的开发者，能够帮助在 Java 生态中快速对接微信交互能力，减少直接处理底层协议的复杂度。"
     },
     "summary": {
         "initial_stars": 2117,
-        "current_stars": 2116,
-        "star_diff": -1,
-        "growth_rate": -0.05,
+        "current_stars": 2115,
+        "star_diff": -2,
+        "growth_rate": -0.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 58
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 59
     },
     "history": [
         {
@@ -423,6 +423,13 @@
             "stars": 2116,
             "forks": 637,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2115,
+            "forks": 637,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "Ctool",
         "html_url": "https:\/\/github.com\/baiy\/Ctool",
         "language": "TypeScript",
-        "description": "Ctool 是一个基于 C 语言开发的工具集，主要用于简化 Linux 系统下的开发与运维任务。它包含文件操作、系统监控、日志分析等实用功能，适合需要高效处理系统底层操作的场景，通常以命令行方式运行，轻量且依赖少。"
+        "description": "用于日常开发调试的浏览器扩展工具箱，整合了 JSON 格式化与校验、时间戳转换、URL 编解码、Base64 加密解密、正则测试等常见功能，通过单页操作界面集中管理，避免在多个网站间切换。适合前端、后端工程师在快速验证数据格式或处理编码问题时使用，也常被当作程序员浏览器主页的可定制替代品。其设计强调离线可用与便捷唤起，所有工具均在前端本地运行，不依赖服务器。整体上是一个轻量、实用的开发者效率工具集合。"
     },
     "summary": {
         "initial_stars": 1780,
-        "current_stars": 2044,
-        "star_diff": 264,
-        "growth_rate": 14.83,
+        "current_stars": 2045,
+        "star_diff": 265,
+        "growth_rate": 14.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 149
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 150
     },
     "history": [
         {
@@ -1060,6 +1060,13 @@
             "stars": 2044,
             "forks": 307,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2045,
+            "forks": 306,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

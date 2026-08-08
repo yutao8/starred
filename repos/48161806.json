@@ -6,7 +6,7 @@
         "name": "smartqq",
         "html_url": "https:\/\/github.com\/ScienJus\/smartqq",
         "language": "Java",
-        "description": "基于 SmartQQ 协议的第三方 QQ 机器人框架，支持消息接收与发送、好友管理、群组互动等功能，便于开发者对接自定义服务实现自动化消息处理，适用于构建聊天机器人、通知推送工具等场景。"
+        "description": "用于Java的SmartQQ协议封装库，基于QQ网页版接口实现账号登录和消息处理，开发者可以借此完成自动收发消息、管理好友与群聊等操作。典型场景包括个人QQ机器人、自动应答、消息推送和简单群管理。由于依赖非官方网页接口，适合个人学习或低风险自动化项目，不建议用于生产环境，也需留意账号安全与协议变动风险。"
     },
     "summary": {
         "initial_stars": 1143,

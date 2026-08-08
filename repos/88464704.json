@@ -6,16 +6,16 @@
         "name": "vue-element-admin",
         "html_url": "https:\/\/github.com\/PanJiaChen\/vue-element-admin",
         "language": "Vue",
-        "description": "基于Vue.js和Element UI的中后台前端解决方案，提供权限管理、路由控制、动态菜单等开箱即用功能，主要用于快速搭建企业级管理后台系统，集成常用业务组件与最佳实践。"
+        "description": "vue-element-admin 是一套基于 Vue.js 和 Element UI 的后台管理系统前端解决方案，集成了权限验证、多标签页导航、动态路由、国际化、富文本编辑器等常用功能模块，并内置了丰富的可复用组件与页面示例。它主要帮助开发者快速搭建企业中后台管理界面，省去从零搭建脚手架和配置通用逻辑的重复劳动，适合需要开发数据看板、内容管理、权限敏感型运维后台等场景。项目结构清晰，文档完善，通常配合 Vue CLI 进行二次开发，也能与各类后端接口无缝对接，是目前社区使用最广泛的中后台模板之一。"
     },
     "summary": {
         "initial_stars": 89524,
-        "current_stars": 90241,
-        "star_diff": 717,
-        "growth_rate": 0.8,
+        "current_stars": 90233,
+        "star_diff": 709,
+        "growth_rate": 0.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 90241,
             "forks": 30373,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 90233,
+            "forks": 30371,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

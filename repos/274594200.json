@@ -6,16 +6,16 @@
         "name": "Bringing-Old-Photos-Back-to-Life",
         "html_url": "https:\/\/github.com\/microsoft\/Bringing-Old-Photos-Back-to-Life",
         "language": "Python",
-        "description": "该项目旨在通过人工智能技术修复和增强老照片，自动去除噪点、划痕和褪色，提升图像清晰度与色彩还原度，使旧照片恢复视觉活力，适用于照片修复、历史影像处理与数字相册优化等场景。"
+        "description": "微软推出的老照片修复工具，基于深度学习技术，专门用于恢复受损或褪色的历史照片。它能够自动清除划痕、污渍、噪点，并补全照片缺失细节，同时保留人物面部特征与原始风格。主要面向家庭档案数字化、博物馆文物照片修复、个人旧照翻新等场景，适合处理黑白或彩色老照片中的常见破损。该工具提供完整的训练与推理代码，用户可通过命令行对单张或批量照片进行修复，也可微调模型以适应特定风格或年代的照片。"
     },
     "summary": {
         "initial_stars": 15535,
-        "current_stars": 15702,
-        "star_diff": 167,
+        "current_stars": 15701,
+        "star_diff": 166,
         "growth_rate": 1.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 166
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 167
     },
     "history": [
         {
@@ -1179,6 +1179,13 @@
             "stars": 15702,
             "forks": 2092,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15701,
+            "forks": 2091,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

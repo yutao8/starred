@@ -6,7 +6,7 @@
         "name": "DDNS",
         "html_url": "https:\/\/github.com\/NewFuture\/DDNS",
         "language": "Python",
-        "description": "DDNS 是一个动态域名解析工具，主要用于将动态IP地址绑定到域名上，适用于公网IP变化时自动更新DNS记录，支持多种DNS服务商和自定义配置，常用于家庭宽带搭建服务器时保持域名可访问。"
+        "description": "用于动态域名解析（DDNS）的自动更新工具，当本地公网 IP 变化时，自动将域名解析记录指向最新地址，解决家庭宽带或服务器 IP 不固定导致的访问问题。通常运行在路由器、NAS、云主机等环境中，支持定时检测和 Web 触发等方式，兼容多种主流 DNS 服务商。适合需要远程访问家中的设备、搭建私有服务或维护个人网站的场景。"
     },
     "summary": {
         "initial_stars": 4496,

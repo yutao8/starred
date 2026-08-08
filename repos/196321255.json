@@ -6,7 +6,7 @@
         "name": "Airplay-SDK",
         "html_url": "https:\/\/github.com\/xfirefly\/Airplay-SDK",
         "language": "HTML",
-        "description": "Airplay-SDK 是一个用于实现 AirPlay 协议的开源开发工具包，主要用于在嵌入式设备或应用中集成苹果设备的屏幕镜像和音频流接收功能，支持在自定义硬件上接收来自 iPhone、iPad 或 Mac 的无线投屏和音频传输，适用于智能显示设备、数字标牌或多媒体网关等场景。"
+        "description": "该SDK为开发者提供AirPlay协议实现能力，主要用于让非苹果设备（如智能电视、机顶盒、音箱）接收并播放来自iPhone、iPad等苹果设备的音频和视频流，支持屏幕镜像与媒体推送。通常适合需要快速集成AirPlay接收端功能的硬件产品或软件方案，用于解决跨系统设备间的内容投屏与互联问题。其技术实现涉及网络发现、媒体传输和播放控制等环节，实际使用时需结合具体硬件环境进行适配与优化。"
     },
     "summary": {
         "initial_stars": 3761,

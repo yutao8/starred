@@ -6,16 +6,16 @@
         "name": "speedtest",
         "html_url": "https:\/\/github.com\/librespeed\/speedtest",
         "language": "PHP",
-        "description": "一个轻量级、自托管的网速测试工具，用于测量网络带宽和延迟，支持多设备并发测试，适合部署在本地服务器或云主机上，提供简洁的 Web 界面和详细的测试报告。"
+        "description": "用于自建基于HTML5的网页版网速测试服务，通过浏览器直接测量下载速度、上传速度和网络延迟，无需安装Flash或Java插件。该工具适合个人、企业或网络服务商部署在自己的服务器上，以提供私密且可定制的测速入口，避免使用第三方测速网站导致的数据外泄或结果干扰。采用常见Web技术实现，客户端与服务器通信完成测速，通常部署在Nginx或Apache上，并支持多平台浏览器访问。核心优势在于完全掌控测试流程和数据，适合对隐私或定制化有要求的场景。"
     },
     "summary": {
         "initial_stars": 13210,
-        "current_stars": 15021,
-        "star_diff": 1811,
-        "growth_rate": 13.71,
+        "current_stars": 15024,
+        "star_diff": 1814,
+        "growth_rate": 13.73,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 15021,
             "forks": 2494,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15024,
+            "forks": 2496,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "arpl-zh_CN",
         "html_url": "https:\/\/github.com\/wjz304\/arpl-zh_CN",
         "language": "Shell",
-        "description": "arpl-zh_CN 是一个为 ARPL（Asustor Router PLatform）系统提供中文界面支持的本地化项目，主要用于将 Asustor 路由器固件中的英文界面翻译为简体中文，提升中文用户的使用体验。该项目通常包含语言包文件和相关补丁，便于在兼容设备上安装与切换。"
+        "description": "用于在普通个人电脑上引导安装和运行群晖 DSM 系统的加载工具，针对中文用户进行了全面汉化。它简化了黑群晖引导镜像的配置与生成流程，通常适合希望利用现有硬件搭建 NAS 存储服务、但又不想购买官方设备的用户。该工具通过菜单式交互，帮助用户选择机型、内核版本和驱动选项，从而降低新手构建黑群晖的技术门槛。如需维护和升级引导配置，也能通过此汉化版本更直观地完成操作。"
     },
     "summary": {
         "initial_stars": 1340,
-        "current_stars": 1325,
-        "star_diff": -15,
-        "growth_rate": -1.12,
+        "current_stars": 1324,
+        "star_diff": -16,
+        "growth_rate": -1.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 62
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 63
     },
     "history": [
         {
@@ -451,6 +451,13 @@
             "stars": 1325,
             "forks": 226,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1324,
+            "forks": 226,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

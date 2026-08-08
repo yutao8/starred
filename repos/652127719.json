@@ -6,16 +6,16 @@
         "name": "qBittorrent-ClientBlocker",
         "html_url": "https:\/\/github.com\/Simple-Tracker\/qBittorrent-ClientBlocker",
         "language": "Go",
-        "description": "用于 qBittorrent 客户端的简易 Tracker 屏蔽工具，可阻止特定 peer 客户端连接，优化下载网络环境，减少不良客户端干扰，常用于私有 Tracker 站点维护网络健康。"
+        "description": "用于屏蔽 qBittorrent 下载中不受欢迎的 Peer 客户端，通过识别客户端类型与版本，自动阻止或断开特定客户端的连接。主要解决公共或私有 Tracker 上频繁出现的吸血客户端、恶意节点或不符合规则用户的问题，帮助上传者稳定上传收益、减少不必要的带宽消耗。通常结合 qBittorrent 的日志或接口运行，可配置黑名单规则，适合需要精细控制 Peer 列表的 PT 站玩家或种子维护者。"
     },
     "summary": {
         "initial_stars": 1168,
-        "current_stars": 1237,
-        "star_diff": 69,
-        "growth_rate": 5.91,
+        "current_stars": 1238,
+        "star_diff": 70,
+        "growth_rate": 5.99,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 96
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 97
     },
     "history": [
         {
@@ -689,6 +689,13 @@
             "stars": 1237,
             "forks": 30,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1238,
+            "forks": 31,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

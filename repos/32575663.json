@@ -6,16 +6,16 @@
         "name": "scaleway-cli",
         "html_url": "https:\/\/github.com\/scaleway\/scaleway-cli",
         "language": "Go",
-        "description": "用于管理 Scaleway 云基础设施的命令行工具，支持服务器、存储、数据库等资源的快速创建、配置和监控，适用于自动化部署与日常运维。"
+        "description": "Scaleway CLI 是 Scaleway 云平台的官方命令行工具，让用户直接在终端中操作云资源。它覆盖了计算实例、存储、网络、容器等常用服务的管理，适合系统管理员和开发者用来编写自动化脚本、批量操作资源，或在无图形界面环境中快速完成部署与配置。通过这条命令行工具，用户可以将日常云资源管理流程集成到持续集成和持续部署管道中，提升运维效率。通常借助 API 凭据完成认证，支持丰富的子命令和输出格式，便于与现有工具链结合。"
     },
     "summary": {
         "initial_stars": 921,
-        "current_stars": 989,
-        "star_diff": 68,
-        "growth_rate": 7.38,
+        "current_stars": 990,
+        "star_diff": 69,
+        "growth_rate": 7.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 82
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 83
     },
     "history": [
         {
@@ -591,6 +591,13 @@
             "stars": 989,
             "forks": 170,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 990,
+            "forks": 171,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

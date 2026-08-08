@@ -6,16 +6,16 @@
         "name": "auxpi",
         "html_url": "https:\/\/github.com\/0xDkd\/auxpi",
         "language": "Go",
-        "description": "AuxPi 是一个基于 Go 语言开发的多平台图床工具，支持上传图片至多个图床服务，统一管理上传来源与目标。主要用于聚合不同图床 API，提供简洁的接口实现一键上传、备份和替换，适合需要跨平台分发图片的用户使用。"
+        "description": "auxpi 是一个自托管的图床管理系统，主要面向需要统一管理多个图床服务的个人或团队。它支持对接多种第三方图床平台，提供图片上传、外链生成、相册管理和后台控制等核心功能，通常被部署在自有服务器上，用于替代零散的手动上传流程。该工具适合需要批量处理图片、跨平台分发或集中维护图片资源的场景，也能作为个人博客或小型站点的图片存储中间层。其技术栈以服务端渲染和数据库存储为主，部署方式相对轻量，适合有一定服务器运维基础的用户使用。"
     },
     "summary": {
         "initial_stars": 2716,
-        "current_stars": 2705,
-        "star_diff": -11,
-        "growth_rate": -0.41,
+        "current_stars": 2704,
+        "star_diff": -12,
+        "growth_rate": -0.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 65
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 66
     },
     "history": [
         {
@@ -472,6 +472,13 @@
             "stars": 2705,
             "forks": 360,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2704,
+            "forks": 360,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

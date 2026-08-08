@@ -6,7 +6,7 @@
         "name": "alist-encrypt",
         "html_url": "https:\/\/github.com\/traceless\/alist-encrypt",
         "language": "JavaScript",
-        "description": "用于 AList 的文件加密扩展工具，支持对存储在 AList 中的文件进行透明加密和解密，保护用户数据隐私，通常适用于需要在网盘等公共存储中实现私有文件加密的场景。"
+        "description": "alist-encrypt 为 AList 网盘增加服务端加密能力，在文件存储前自动加密、访问时动态解密，避免数据以明文形式保存在服务器或对象存储上。部署后用户依然能使用 AList 的浏览、下载和分享功能，但存储端看到的是密文。适合自建网盘时提升数据隐私，或用于备份敏感文件。项目通常以独立服务配合 AList 使用，需在前端与存储之间增加一层加密代理。"
     },
     "summary": {
         "initial_stars": 1476,

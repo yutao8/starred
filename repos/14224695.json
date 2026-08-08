@@ -6,16 +6,16 @@
         "name": "sequelpro",
         "html_url": "https:\/\/github.com\/sequelpro\/sequelpro",
         "language": "Objective-C",
-        "description": "Sequel Pro 是一款专为 macOS 设计的开源数据库管理工具，主要用于简化 MySQL 和 MariaDB 的管理和开发工作。它提供直观的图形界面，支持数据库浏览、SQL 查询执行、数据导入导出、表结构编辑、索引管理等功能，适合开发者和数据库管理员用于本地或远程数据库的日常操作与维护。"
+        "description": "Sequel Pro 是一款面向 macOS 的开源数据库管理工具，专注于 MySQL 和 MariaDB 数据库。它提供直观的图形界面，让用户可以快速浏览数据库结构、执行 SQL 查询、编辑表数据以及管理导入导出。通常适合开发者和数据库管理员在日常开发中快速操作远程或本地的数据库实例，替代命令行操作。其界面简洁，支持常用数据库管理任务，是 macOS 上流行的数据库客户端之一。"
     },
     "summary": {
         "initial_stars": 9143,
-        "current_stars": 9197,
-        "star_diff": 54,
-        "growth_rate": 0.59,
+        "current_stars": 9196,
+        "star_diff": 53,
+        "growth_rate": 0.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 124
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 125
     },
     "history": [
         {
@@ -885,6 +885,13 @@
             "stars": 9197,
             "forks": 837,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9196,
+            "forks": 837,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "wiki",
         "html_url": "https:\/\/github.com\/requarks\/wiki",
         "language": "Vue",
-        "description": "一个开源的现代化 Wiki 平台，专为团队协作设计，支持 Markdown 编辑、页面版本控制、权限管理与实时协作，适用于知识库、文档管理与内部协作场景，提供直观的界面与灵活的部署选项。"
+        "description": "一款基于 Node.js 构建的开源 Wiki 引擎，旨在为团队提供现代化、轻量且可扩展的知识管理平台。它支持 Markdown 和可视化编辑器，内容可存储在 PostgreSQL、MySQL、SQLite 等数据库中，也支持与 Git 仓库双向同步，方便版本追踪和协作。界面简洁响应式，支持多语言、多用户权限管理、全文搜索与分类导航，适合企业文档中心、技术手册、产品说明或团队内部知识库等场景，兼具易用性与可定制性。"
     },
     "summary": {
         "initial_stars": 26509,
-        "current_stars": 28721,
-        "star_diff": 2212,
-        "growth_rate": 8.34,
+        "current_stars": 28727,
+        "star_diff": 2218,
+        "growth_rate": 8.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28721,
             "forks": 3286,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28727,
+            "forks": 3286,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "IPTV",
         "html_url": "https:\/\/github.com\/Meroser\/IPTV",
         "language": "Other",
-        "description": "IPTV 是一个由 Meroser 维护的开源项目，主要用于提供和管理 IPTV 服务的频道列表及直播源，通常包含 m3u 格式的播放列表，方便用户通过支持 IPTV 的播放器观看电视直播。该项目可能涵盖频道分类、地区划分及源的维护，适合自建个人或小范围使用的 IPTV 系统，具体功能以仓库内容为准。"
+        "description": "用于整理和分发IPTV直播源，提供可定期更新的m3u或txt格式播放列表，方便用户通过智能电视、手机或电脑播放器直接加载观看全球频道，适合希望免费获取稳定直播源的个人或家庭用户。"
     },
     "summary": {
         "initial_stars": 4002,
-        "current_stars": 4135,
-        "star_diff": 133,
-        "growth_rate": 3.32,
+        "current_stars": 4136,
+        "star_diff": 134,
+        "growth_rate": 3.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 152
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 153
     },
     "history": [
         {
@@ -1081,6 +1081,13 @@
             "stars": 4135,
             "forks": 587,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4136,
+            "forks": 587,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

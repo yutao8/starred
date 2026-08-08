@@ -6,16 +6,16 @@
         "name": "earth",
         "html_url": "https:\/\/github.com\/cambecc\/earth",
         "language": "JavaScript",
-        "description": "用于展示地球大气流动的可视化项目，通过粒子系统呈现全球风场、温度、湿度等气象数据，支持交互式浏览和多种数据图层切换，常用于气象分析和科学可视化。"
+        "description": "用于在浏览器中交互式展示全球天气和气候数据的可视化工具，基于WebGL渲染高分辨率地球模型，可叠加风场、洋流、温度、湿度等动态图层。典型场景包括气象教学、数据新闻演示和科研数据预览，适合快速查看全球范围内的环境变化规律。该工具以流畅的动画和直观的图层切换为核心，帮助用户从宏观视角理解大气环流与海洋运动，无需安装本地软件即可使用。"
     },
     "summary": {
         "initial_stars": 6349,
-        "current_stars": 6572,
-        "star_diff": 223,
-        "growth_rate": 3.51,
+        "current_stars": 6573,
+        "star_diff": 224,
+        "growth_rate": 3.53,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 155
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 156
     },
     "history": [
         {
@@ -1102,6 +1102,13 @@
             "stars": 6572,
             "forks": 1248,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6573,
+            "forks": 1247,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

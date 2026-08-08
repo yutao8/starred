@@ -6,7 +6,7 @@
         "name": "OLAINDEX",
         "html_url": "https:\/\/github.com\/WangNingkai\/OLAINDEX",
         "language": "PHP",
-        "description": "OLAINDEX 是一个基于 OneDrive 的在线文件索引与分享工具，通过简洁的网页界面实现文件的快速浏览、搜索和共享，支持多账户管理和多种样式自定义，适合用于搭建个人网盘或资源站。"
+        "description": "OLAINDEX是一款专为OneDrive打造的目录索引与文件分享工具，主要用于将OneDrive网盘内容快速转化为可浏览、可搜索的在线文件列表。它支持多账户管理、文件直链下载、自定义主题和访问密码保护，适合个人或团队搭建私有网盘导航页或文件共享站点。部署轻量，通常搭配PHP环境即可运行，能有效解决OneDrive原生界面无法按需展示、链接分享不便等问题。该工具界面简洁，操作直观，适合需要优雅展示云端文件并安全分享下载链接的场景。"
     },
     "summary": {
         "initial_stars": 2232,
@@ -14,8 +14,8 @@
         "star_diff": -16,
         "growth_rate": -0.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 83
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 84
     },
     "history": [
         {
@@ -598,6 +598,13 @@
             "stars": 2216,
             "forks": 566,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2216,
+            "forks": 567,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

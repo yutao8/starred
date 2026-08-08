@@ -6,16 +6,16 @@
         "name": "DeepSeek-V3",
         "html_url": "https:\/\/github.com\/deepseek-ai\/DeepSeek-V3",
         "language": "Python",
-        "description": "DeepSeek-V3 是深度求索（DeepSeek）推出的第三代大语言模型，主要用于生成高质量文本，支持复杂推理、编程理解与多轮对话。该模型在数学、代码、自然语言推理等任务上表现优异，适合科研、工程应用与内容创作等场景。"
+        "description": "DeepSeek-V3是深度求索推出的新一代大语言模型，专注于高精度文本理解与生成，支持多轮对话、内容创作、代码编写与推理分析等任务。它适用于智能客服、知识问答、辅助编程及自动化写作等场景，能够帮助开发者与企业在复杂自然语言处理任务中快速获得可靠结果，同时兼顾长文本处理与响应效率。"
     },
     "summary": {
         "initial_stars": 97862,
-        "current_stars": 104122,
-        "star_diff": 6260,
-        "growth_rate": 6.4,
+        "current_stars": 104132,
+        "star_diff": 6270,
+        "growth_rate": 6.41,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 104122,
             "forks": 16726,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 104132,
+            "forks": 16724,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

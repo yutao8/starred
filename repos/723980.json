@@ -6,16 +6,16 @@
         "name": "snappy",
         "html_url": "https:\/\/github.com\/KnpLabs\/snappy",
         "language": "PHP",
-        "description": "KnpLabs\/snappy 是一个 PHP 库，用于简化通过 wkhtmltopdf 将 HTML 内容生成 PDF 文件的过程，也支持生成图片。它提供简洁的 API 来配置和执行转换，适合用于生成报表、发票等需要打印格式的文档，通常与 Symfony 等框架集成使用。"
+        "description": "KnpLabs\/snappy 是 PHP 环境中用于将 HTML 内容转换为 PDF 文档或图片的封装库，它通过调用 wkhtmltopdf 和 wkhtmltoimage 等外部工具实现转换，支持复杂样式和布局，适合在 Laravel、Symfony 等框架中生成报告、发票、票据等文档，也能批量生成网页截图，通常用于后台管理系统或自动化任务中。"
     },
     "summary": {
         "initial_stars": 4447,
-        "current_stars": 4475,
-        "star_diff": 28,
-        "growth_rate": 0.63,
+        "current_stars": 4474,
+        "star_diff": 27,
+        "growth_rate": 0.61,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-28 00:00",
-        "data_points_count": 78
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 79
     },
     "history": [
         {
@@ -563,6 +563,13 @@
             "stars": 4475,
             "forks": 437,
             "file": "dist\/2026072800\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4474,
+            "forks": 437,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "TVBox",
         "html_url": "https:\/\/github.com\/2hacc\/TVBox",
         "language": "JavaScript",
-        "description": "TVBox是一款专为电视端设计的开源影音聚合盒子，主要用于聚合各类影视资源，支持自定义配置源，方便用户在大屏设备上观看免费内容，通常配合个人订阅配置使用，适合喜欢DIY影视平台的用户。"
+        "description": "TVBox 影视播放器相关配置资源集合，主要用于提供电视盒子或安卓端影视应用的接口订阅地址与解析源，解决单一资源源失效、播放不稳定等问题。通常适合自建或补充观影仓库的用户，通过导入该仓库维护的配置，即可快速更新视频源列表，扩展影视搜索、在线播放和直播功能。此类仓库一般紧跟社区维护节奏，会定期调整可用接口，以满足日常观影和多源切换需求。使用前建议确认接口兼容性，并遵守相关版权规定。"
     },
     "summary": {
         "initial_stars": 5471,
-        "current_stars": 5794,
-        "star_diff": 323,
-        "growth_rate": 5.9,
+        "current_stars": 5797,
+        "star_diff": 326,
+        "growth_rate": 5.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 172
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 173
     },
     "history": [
         {
@@ -1221,6 +1221,13 @@
             "stars": 5794,
             "forks": 683,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5797,
+            "forks": 682,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "awesome-zsh-plugins",
         "html_url": "https:\/\/github.com\/unixorn\/awesome-zsh-plugins",
         "language": "Shell",
-        "description": "收集整理了大量高质量的 Zsh 插件，涵盖开发、运维、主题、语法高亮、自动补全等场景，帮助用户提升命令行效率，简化日常操作，适用于 macOS 和 Linux 环境下的 Zsh 配置优化。"
+        "description": "面向Zsh用户的插件和配置资源索引，系统整理了社区中大量实用的插件、主题、框架、命令行提示符及补全工具，并附有分类说明和链接。常用于快速查找适合自身工作流的Zsh增强方案，或了解该生态的流行趋势与最佳实践，适合希望定制终端环境、提升命令行操作效率的开发者参考。"
     },
     "summary": {
         "initial_stars": 16473,
-        "current_stars": 17898,
-        "star_diff": 1425,
-        "growth_rate": 8.65,
+        "current_stars": 17905,
+        "star_diff": 1432,
+        "growth_rate": 8.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 17898,
             "forks": 607,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17905,
+            "forks": 607,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

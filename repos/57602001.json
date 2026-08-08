@@ -6,16 +6,16 @@
         "name": "wechaty",
         "html_url": "https:\/\/github.com\/wechaty\/wechaty",
         "language": "TypeScript",
-        "description": "Wechaty 是一个用于开发微信个人号机器人的 Node.js 框架，支持消息收发、联系人管理、群组操作等功能，常用于构建自动化聊天机器人、客服系统和微信生态的应用集成，通过简洁的 API 降低微信协议交互的复杂度，适合需要与微信用户进行高频交互的服务场景。"
+        "description": "一个用于构建聊天机器人的开源框架，支持微信、WhatsApp、Telegram 等多种即时通讯平台，让开发者使用同一套代码即可对接不同消息渠道。它基于 TypeScript 开发，提供统一的 API 和事件处理模型，适合快速实现自动回复、消息转发、群管理、客服机器人等交互场景。通常适合那些希望降低多平台接入成本，或需要在不熟悉各平台协议的情况下快速搭建机器人服务的个人和团队使用。"
     },
     "summary": {
         "initial_stars": 21671,
-        "current_stars": 22950,
-        "star_diff": 1279,
-        "growth_rate": 5.9,
+        "current_stars": 22951,
+        "star_diff": 1280,
+        "growth_rate": 5.91,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 22950,
             "forks": 2833,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22951,
+            "forks": 2833,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

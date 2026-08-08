@@ -6,7 +6,7 @@
         "name": "wechat-spider",
         "html_url": "https:\/\/github.com\/bowenpay\/wechat-spider",
         "language": "Python",
-        "description": "用于抓取微信公众号文章内容的爬虫工具，支持自动采集公众号历史消息、文章详情、阅读点赞数等数据，可配合代理池和关键词监控实现定向信息收集，适用于内容分析、舆情监测和数据挖掘场景。"
+        "description": "用于抓取微信公开数据的爬虫工具，主要面向微信公众号文章、阅读数、点赞数等信息采集，适合需要批量获取公众号历史内容、做舆情分析或构建中文语料库的用户。通常借助网页版微信或移动端协议模拟请求，支持定时抓取、增量更新等常见爬虫需求。使用时需注意微信反爬机制，避免高频请求导致账号受限。此类项目一般只用于学习研究，需遵守相关平台规则和法律法规。"
     },
     "summary": {
         "initial_stars": 3249,
@@ -14,8 +14,8 @@
         "star_diff": 115,
         "growth_rate": 3.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 112
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 113
     },
     "history": [
         {
@@ -801,6 +801,13 @@
             "stars": 3364,
             "forks": 986,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3364,
+            "forks": 985,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

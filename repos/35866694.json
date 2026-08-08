@@ -6,16 +6,16 @@
         "name": "Rocket.Chat",
         "html_url": "https:\/\/github.com\/RocketChat\/Rocket.Chat",
         "language": "TypeScript",
-        "description": "Rocket.Chat 是一个开源的团队协作通信平台，提供实时聊天、视频会议、文件共享和屏幕共享功能，支持跨平台使用和高度定制化集成，适用于企业内部沟通和团队协作场景。"
+        "description": "Rocket.Chat 是一款开源的企业级团队协作平台，提供即时消息、频道讨论、私信、音视频会议、文件共享与屏幕共享等核心功能，支持自托管部署以保证数据安全。它适合需要替代商业聊天工具的机构，在私有云或本地服务器上构建集中式沟通中枢，同时具备 LDAP\/SSO 集成、通知管理和机器人扩展能力，广泛服务于企业、政企及教育等场景。"
     },
     "summary": {
         "initial_stars": 42872,
-        "current_stars": 45940,
-        "star_diff": 3068,
-        "growth_rate": 7.16,
+        "current_stars": 45949,
+        "star_diff": 3077,
+        "growth_rate": 7.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 45940,
             "forks": 13767,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 45949,
+            "forks": 13778,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

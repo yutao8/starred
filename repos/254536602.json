@@ -6,16 +6,16 @@
         "name": "MrDoc",
         "html_url": "https:\/\/github.com\/zmister2016\/MrDoc",
         "language": "JavaScript",
-        "description": "一个开源的在线文档写作与发布平台，支持 Markdown 编辑、富文本排版、文档版本管理及静态站点生成，适用于个人博客、技术文档、项目手册等场景，具有简洁的界面和灵活的部署方式，便于快速搭建专属文档网站。"
+        "description": "MrDoc 是一个开源的在线文档与知识管理系统，主要面向个人或团队的知识沉淀与协作场景。它支持 Markdown 编辑、文档分类管理、全文搜索、图片\/附件上传以及多用户权限控制，还能将文档导出为 PDF 或离线文档。系统部署简单，适合用来搭建私有知识库、个人笔记站或小型团队内部资料库，解决了数据自主可控和内容组织管理的问题。"
     },
     "summary": {
         "initial_stars": 3112,
-        "current_stars": 3225,
-        "star_diff": 113,
-        "growth_rate": 3.63,
+        "current_stars": 3224,
+        "star_diff": 112,
+        "growth_rate": 3.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 137
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 138
     },
     "history": [
         {
@@ -976,6 +976,13 @@
             "stars": 3225,
             "forks": 583,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3224,
+            "forks": 583,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

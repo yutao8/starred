@@ -6,16 +6,16 @@
         "name": "awesome-adb",
         "html_url": "https:\/\/github.com\/mzlogin\/awesome-adb",
         "language": "Other",
-        "description": "提供 ADB（Android Debug Bridge）的全面使用指南，涵盖安装、设备连接、应用管理、日志查看、文件操作等常用命令，帮助开发者高效调试 Android 设备与应用，适合移动开发及测试人员参考学习。"
+        "description": "一个整理 Android 调试桥（ADB）常用命令与实用技巧的精选资源列表，涵盖设备连接、文件传输、应用管理、日志抓取、屏幕录制、模拟输入等高频操作，并附带脚本示例和进阶玩法。通常适合 Android 开发者、测试人员、自动化脚本编写者以及刷机爱好者日常调试和问题排查，能帮助快速查找和掌握高效使用 ADB 的方法。"
     },
     "summary": {
         "initial_stars": 11765,
-        "current_stars": 12407,
-        "star_diff": 642,
-        "growth_rate": 5.46,
+        "current_stars": 12408,
+        "star_diff": 643,
+        "growth_rate": 5.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 180
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 181
     },
     "history": [
         {
@@ -1277,6 +1277,13 @@
             "stars": 12407,
             "forks": 2287,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12408,
+            "forks": 2287,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

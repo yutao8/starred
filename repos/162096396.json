@@ -6,7 +6,7 @@
         "name": "simple-torrent",
         "html_url": "https:\/\/github.com\/boypt\/simple-torrent",
         "language": "Go",
-        "description": "一个轻量级的 Torrent 下载工具，专注于简化操作流程，支持磁力链接和种子文件解析，适用于快速下载和资源分享场景，适合对 Torrent 协议有基础了解的用户。"
+        "description": "简单的BitTorrent下载客户端，以自托管方式运行并提供Web控制界面，便于在服务器或NAS上远程添加和管理种子下载任务。它通常适合需要无人值守下载、通过浏览器操作而非桌面客户端的场景，支持种子文件与磁力链接，并可对接RSS订阅等自动化流程。其设计轻量，易于部署，常用于家庭媒体服务器、离线下载机或资源收集环境。"
     },
     "summary": {
         "initial_stars": 1002,

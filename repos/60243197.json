@@ -6,16 +6,16 @@
         "name": "server",
         "html_url": "https:\/\/github.com\/nextcloud\/server",
         "language": "PHP",
-        "description": "Nextcloud Server 是一个开源的私有云解决方案，用于文件同步、共享和协作。它支持跨平台文件存储、日程管理、联系人同步、文档协作、消息通信等功能，可部署在自有服务器上，保障数据隐私与安全，适合个人、团队和企业构建自托管的云服务平台。"
+        "description": "Nextcloud Server 是自托管云存储与文件同步分享平台的后端服务，用于替代公有网盘并实现数据主权。核心功能包括文件存储、多设备同步、灵活共享权限，并附带日历、联系人、在线文档编辑等协作能力，适合个人或企业在自有服务器、NAS 上部署。基于 PHP 构建，通常搭配 MySQL\/PostgreSQL 等数据库使用，通过 WebDAV 和开放 API 可对接桌面端、移动端及其他工具，同时以应用商店机制支持功能扩展，解决隐私可控、集中管理与数据边界问题。"
     },
     "summary": {
         "initial_stars": 29897,
-        "current_stars": 36349,
-        "star_diff": 6452,
-        "growth_rate": 21.58,
+        "current_stars": 36362,
+        "star_diff": 6465,
+        "growth_rate": 21.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 36349,
             "forks": 5098,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 36362,
+            "forks": 5099,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

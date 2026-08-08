@@ -6,16 +6,16 @@
         "name": "grav",
         "html_url": "https:\/\/github.com\/getgrav\/grav",
         "language": "PHP",
-        "description": "一个快速、灵活的文件型内容管理系统，无需数据库，通过Markdown文件管理内容，适用于构建简单网站、博客和文档，支持插件、主题和多语言，易于部署和版本控制。"
+        "description": "Grav 是一个基于 PHP 的扁平文件内容管理系统，无需数据库即可运行，内容以 Markdown 文件形式存储，配合 Twig 模板渲染页面。它适合搭建个人博客、企业官网、文档站和作品集等中小型站点，部署简单，支持版本控制。相比传统动态 CMS，Grav 结合了静态网站生成器的轻量灵活与后台管理的便利性，用户可通过后台或直接编辑文件管理内容，扩展插件和主题生态完善。"
     },
     "summary": {
         "initial_stars": 15055,
-        "current_stars": 15620,
-        "star_diff": 565,
-        "growth_rate": 3.75,
+        "current_stars": 15621,
+        "star_diff": 566,
+        "growth_rate": 3.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 15620,
             "forks": 1415,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15621,
+            "forks": 1415,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

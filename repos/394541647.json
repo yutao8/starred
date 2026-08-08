@@ -6,16 +6,16 @@
         "name": "SMSBoom",
         "html_url": "https:\/\/github.com\/OpenEthan\/SMSBoom",
         "language": "Python",
-        "description": "一个基于Python的短信轰炸防御工具，主要用于识别和拦截大量重复的短信请求，通过日志分析和规则匹配来发现异常行为，适合用于提升Web应用的安全性，防止恶意用户利用短信接口进行攻击。"
+        "description": "用于批量发送手机短信的工具，常被称作短信轰炸机。它通过调用公开短信接口或模拟网络请求，在短时间内向指定号码发送大量验证码或通知短信，通常用于测试短信服务稳定性、验证码接口的并发能力，或进行安全研究及渗透测试，也可用于朋友间的恶搞场景。该工具常以Python脚本形式实现，适合有一定网络编程基础的开发者学习HTTP请求和接口鉴权。需要注意的是，未经机主许可滥用此类功能可能构成骚扰或违法，务必仅用于合法授权的测试环境。"
     },
     "summary": {
         "initial_stars": 15351,
-        "current_stars": 15169,
-        "star_diff": -182,
-        "growth_rate": -1.19,
+        "current_stars": 15167,
+        "star_diff": -184,
+        "growth_rate": -1.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 15169,
             "forks": 3571,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15167,
+            "forks": 3569,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

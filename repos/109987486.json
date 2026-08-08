@@ -6,16 +6,16 @@
         "name": "webssh",
         "html_url": "https:\/\/github.com\/huashengdun\/webssh",
         "language": "Python",
-        "description": "webssh 是一个基于 Go 语言开发的轻量级 Web SSH 客户端，主要用于通过浏览器直接连接和管理远程 Linux 服务器。它支持多终端会话、命令输入和实时输出，无需依赖第三方 SSH 客户端，适合嵌入运维系统或用于简单远程管理场景。"
+        "description": "基于 Web 的 SSH 客户端，允许用户在浏览器中直接登录并操作远程服务器，无需安装本地终端工具。支持常见的 SSH 认证方式，如密码和密钥，通常提供多标签会话界面，方便同时维护多台机器。适合需要跨设备快速运维、受限网络环境或内网穿透场景，尤其适合不便于使用系统自带终端的用户。项目采用 Python 生态构建，部署简单，可快速搭建一个可用的 web 终端入口。"
     },
     "summary": {
         "initial_stars": 4857,
-        "current_stars": 5133,
-        "star_diff": 276,
-        "growth_rate": 5.68,
+        "current_stars": 5135,
+        "star_diff": 278,
+        "growth_rate": 5.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 5133,
             "forks": 1594,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5135,
+            "forks": 1593,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

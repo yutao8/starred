@@ -6,7 +6,7 @@
         "name": "babun",
         "html_url": "https:\/\/github.com\/babun\/babun",
         "language": "Shell",
-        "description": "babun\/babun 是一个基于 Cygwin 的 Windows 命令行工具集，提供开箱即用的 Unix 工具链和包管理器 pact，主要用于简化开发者在 Windows 上使用 shell 脚本、Git 和常用 CLI 工具的配置流程，适合需要类 Linux 环境的日常开发与运维任务。"
+        "description": "为 Windows 用户提供开箱即用的类 Unix 命令行环境，基于 Cygwin 预配置了大量常用工具和 Zsh 终端，免去手动安装配置的繁琐。适合需要在 Windows 上使用 grep、vim、curl、git 等命令，或希望获得接近 Linux\/macOS 的 shell 体验的开发者。安装简单，还内置包管理器用于扩展组件，常用于搭建跨平台开发环境或日常自动化脚本操作。"
     },
     "summary": {
         "initial_stars": 8592,

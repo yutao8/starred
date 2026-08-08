@@ -6,7 +6,7 @@
         "name": "Mojo-Webqq",
         "html_url": "https:\/\/github.com\/hexsum\/Mojo-Webqq",
         "language": "Perl",
-        "description": "基于 Mojo::Webqq 开发的 Perl 模块，用于实现与 QQ Web 客户端的交互，支持消息收发、好友管理等操作，适用于构建 QQ 机器人或自动化工具，依赖 Mojolicious 框架提供异步非阻塞的网络通信能力。"
+        "description": "用于构建 QQ 机器人的框架，基于 Perl 与 Mojolicious，通过 WebQQ 协议实现消息收发、群管理和好友互动，支持插件扩展，适合熟悉 Perl 的开发者编写自动回复、定时推送、关键词触发等自动化脚本，常用于个人 QQ 号的辅助管理。需要说明的是，腾讯早已关闭 WebQQ 接口，该项目已无法在公网正常使用，仅具备协议学习或旧代码参考价值。"
     },
     "summary": {
         "initial_stars": 1721,

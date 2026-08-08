@@ -6,16 +6,16 @@
         "name": "pinyin-pro",
         "html_url": "https:\/\/github.com\/zh-lx\/pinyin-pro",
         "language": "TypeScript",
-        "description": "pinyin-pro 是一个用于中文文本处理的 Python 库，主要用于将汉字转换为拼音，支持多音字识别、声调标记、拼音格式转换等功能，适用于自然语言处理、语音合成、输入法开发等场景，提供高效准确的拼音转换能力。"
+        "description": "pinyin-pro 是一个用于将汉字转换为拼音的 JavaScript 库，支持声调、多音字识别，并拥有拼音匹配、拼音排序等实用功能。通常适合需要处理中文发音的 Web 前端或 Node.js 场景，比如构建拼音搜索、按拼音首字母分类联系人、中文输入法辅助、语言学习应用等。它能够根据上下文准确选择多音字读音，并支持多种输出格式，帮助开发者快速实现中文字符与拼音之间的转换。整体设计轻量，易于集成。"
     },
     "summary": {
         "initial_stars": 4288,
-        "current_stars": 4672,
-        "star_diff": 384,
-        "growth_rate": 8.96,
+        "current_stars": 4673,
+        "star_diff": 385,
+        "growth_rate": 8.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 164
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 165
     },
     "history": [
         {
@@ -1165,6 +1165,13 @@
             "stars": 4672,
             "forks": 390,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4673,
+            "forks": 390,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

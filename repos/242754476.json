@@ -6,16 +6,16 @@
         "name": "heroicons",
         "html_url": "https:\/\/github.com\/tailwindlabs\/heroicons",
         "language": "JavaScript",
-        "description": "提供一套简洁美观的开源 SVG 图标，专为与 Tailwind CSS 框架搭配使用而设计，适用于现代 Web 项目的界面开发，支持两种风格（Outline 和 Solid），开箱即用且可高度自定义。"
+        "description": "Heroicons 是 Tailwind Labs 出品的开源 SVG 图标合集，提供 300 多个精致、统一风格的手工设计图标，覆盖常用界面元素和操作场景，分为描边和实心两种风格。所有图标均以 SVG 形式提供，可直接嵌入 HTML、React、Vue 等项目，也便于按需定制尺寸与颜色。它特别适合配合 Tailwind CSS 使用，能让开发者快速在网站或后台系统中加入清晰一致的视觉符号，省去单独设计图标的时间。由于体积小、无依赖，通常用于现代前端项目，尤其是需要原生、轻量且风格协调的图标集合时。"
     },
     "summary": {
         "initial_stars": 22565,
-        "current_stars": 23722,
-        "star_diff": 1157,
-        "growth_rate": 5.13,
+        "current_stars": 23725,
+        "star_diff": 1160,
+        "growth_rate": 5.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 23722,
             "forks": 1315,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 23725,
+            "forks": 1313,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

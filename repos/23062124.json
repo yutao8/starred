@@ -6,16 +6,16 @@
         "name": "mui",
         "html_url": "https:\/\/github.com\/dcloudio\/mui",
         "language": "JavaScript",
-        "description": "MUI 是一个基于 HTML5 Plus 的前端框架，主要用于开发高性能的移动应用，提供丰富的 UI 组件和接近原生的交互体验，支持快速构建跨平台的 Hybrid App，适用于需要调用原生能力的移动 Web 项目。"
+        "description": "这是一套用于移动端开发的HTML5 UI框架，由DCloud推出，主要帮助开发者快速构建具有原生视觉和交互体验的App界面。它提供了丰富的移动端常用组件，如按钮、列表、表单、弹出层、侧滑菜单等，并且封装了手势、滚动、下拉刷新等基础交互逻辑。通常适合配合HBuilder或HTML5+环境，用来开发跨平台混合App，也可以单独用于移动端Web页面。与普通响应式框架不同，它更侧重于模拟iOS和Android的使用习惯，让前端代码实现接近原生App的流畅效果，适合团队快速产出移动端产品原型或落地项目。"
     },
     "summary": {
         "initial_stars": 13505,
-        "current_stars": 13470,
-        "star_diff": -35,
-        "growth_rate": -0.26,
+        "current_stars": 13467,
+        "star_diff": -38,
+        "growth_rate": -0.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 121
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 122
     },
     "history": [
         {
@@ -864,6 +864,13 @@
             "stars": 13470,
             "forks": 6467,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13467,
+            "forks": 6465,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

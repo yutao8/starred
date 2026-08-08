@@ -6,16 +6,16 @@
         "name": "zxing",
         "html_url": "https:\/\/github.com\/zxing\/zxing",
         "language": "Java",
-        "description": "用于生成和识别多种条形码与二维码的开源 Java 库，支持 QR Code、Data Matrix、PDF417、AZTEC、UPC 等格式，常用于 Android 应用开发，提供核心编码解码功能，可集成至图像捕获流程实现快速扫码。"
+        "description": "为Java和Android生态设计的条码图像处理库，核心能力是从图片或摄像头帧中识别并解析多种一维和二维条码，例如QR码、Data Matrix、EAN、UPC等；同时支持生成带纠错级别的二维码。通常用于手机扫码应用、支付系统、库存管理、物流追踪等场景，也可嵌入到Java服务端处理上传的条码图片。它具备跨平台移植版本，但最常用的是Android端集成，适合需要快速落地条码扫描而不从零实现算法的开发团队。"
     },
     "summary": {
         "initial_stars": 33400,
-        "current_stars": 34056,
-        "star_diff": 656,
-        "growth_rate": 1.96,
+        "current_stars": 34057,
+        "star_diff": 657,
+        "growth_rate": 1.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 34056,
             "forks": 9432,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 34057,
+            "forks": 9432,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

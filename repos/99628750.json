@@ -6,16 +6,16 @@
         "name": "AirConnect",
         "html_url": "https:\/\/github.com\/philippe44\/AirConnect",
         "language": "C",
-        "description": "AirConnect 是一个将音频流媒体协议转换为 AirPlay 兼容信号的工具，主要用于将不支持 AirPlay 的设备或应用音频投射到 AirPlay 接收设备上播放。它支持将 Chromecast、Spotify、DLNA 等音频源伪装成 AirPlay 流，实现跨平台音频共享，特别适合在家庭网络中扩展音频设备的兼容性，无需更换硬件即可实现苹果生态的无线播放功能。"
+        "description": "用于将 DLNA 和 Chromecast 等设备桥接成 AirPlay 接收端，使原本不支持 AirPlay 的音箱、电视或播放器能被苹果设备发现和控制。它在家庭局域网中运行，通常部署在 NAS 或常开主机上，通过 UPnP 搜索周边兼容设备并为其广播 AirPlay 服务。适合需要统一用 iPhone、iPad 或 iTunes 向不同品牌设备推送音频的用户，解决多协议设备无法互通的问题。使用起来需要一定的配置，但开源且兼容性广。"
     },
     "summary": {
         "initial_stars": 3828,
-        "current_stars": 4142,
-        "star_diff": 314,
-        "growth_rate": 8.2,
+        "current_stars": 4143,
+        "star_diff": 315,
+        "growth_rate": 8.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 163
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 164
     },
     "history": [
         {
@@ -1158,6 +1158,13 @@
             "stars": 4142,
             "forks": 248,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4143,
+            "forks": 248,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

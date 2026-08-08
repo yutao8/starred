@@ -6,7 +6,7 @@
         "name": "weapp-cookie",
         "html_url": "https:\/\/github.com\/charleslo1\/weapp-cookie",
         "language": "JavaScript",
-        "description": "用于在微信小程序中实现 Cookie 管理的轻量级库，通过拦截 wx.request 实现自动 Cookie 存储与发送，支持手动设置 Cookie、跨域请求等功能，方便在小程序环境下维持登录会话状态，适用于需要 cookie 机制的接口认证场景。"
+        "description": "这个项目用于在微信小程序中实现浏览器风格的 Cookie 管理。由于小程序原生请求接口不支持 Cookie 自动携带与存储，它为请求和响应提供拦截式处理，自动保存服务端下发的 Set-Cookie，并在后续请求中带上对应 Cookie。主要用于解决微信小程序开发中需要登录态保持、会话管理或与基于标准 Cookie 的服务端接口对接的问题，适合需要无痛兼容已有 Web 会话机制的小程序项目。"
     },
     "summary": {
         "initial_stars": 839,

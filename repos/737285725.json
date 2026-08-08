@@ -6,16 +6,16 @@
         "name": "SamWaf",
         "html_url": "https:\/\/github.com\/samwafgo\/SamWaf",
         "language": "Go",
-        "description": "SamWaf 是一个基于 Go 语言开发的轻量级 Web 应用防火墙（WAF），主要用于防护 Web 服务免受常见攻击（如 SQL 注入、XSS、CSRF 等）。它通过规则匹配和行为分析实现高效流量过滤，支持灵活配置，适用于 API 网关、边缘代理等场景，具备高性能和低延迟特点，便于集成到现代云原生架构中。"
+        "description": "SamWaf 是一个基于 Go 语言开发的 Web 应用防火墙，主要用于防护网站免受常见的网络攻击，如 SQL 注入、跨站脚本攻击和恶意爬虫访问。它提供实时流量检测与拦截能力，适合部署在中小型网站或业务系统前端，帮助运维人员快速构建基础的 Web 安全防护层。项目通常支持规则自定义、日志审计和简单的管理界面，适合需要低成本、轻量级安全防护的场景。"
     },
     "summary": {
         "initial_stars": 1006,
-        "current_stars": 1526,
-        "star_diff": 520,
-        "growth_rate": 51.69,
+        "current_stars": 1530,
+        "star_diff": 524,
+        "growth_rate": 52.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 1526,
             "forks": 186,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1530,
+            "forks": 186,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

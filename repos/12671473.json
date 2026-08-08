@@ -6,7 +6,7 @@
         "name": "Bootstrap-3-Typeahead",
         "html_url": "https:\/\/github.com\/bassjobsen\/Bootstrap-3-Typeahead",
         "language": "JavaScript",
-        "description": "基于 Bootstrap 3 的增强型搜索建议插件，用于为文本输入框添加动态自动补全功能，支持远程数据源加载与本地缓存，适用于表单搜索、地址输入等需要提示用户输入的场景，通过简洁的 API 实现与 Bootstrap 3 样式无缝集成。"
+        "description": "用于为Bootstrap 3提供轻量级输入框自动补全功能，基于Bootstrap的dropdown组件实现，不依赖额外的大型库。支持本地数据源和通过AJAX获取的远程数据源，可自定义模板、匹配规则和显示效果。通常适合在Bootstrap 3项目的搜索框、标签输入或表单字段中，快速添加带键盘导航和鼠标选择的下拉建议列表。相比Twitter的typeahead.js，它更贴近Bootstrap 3的原生样式，集成成本低，适合希望以简单方式增强输入体验的前端开发者。"
     },
     "summary": {
         "initial_stars": 1681,

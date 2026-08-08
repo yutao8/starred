@@ -6,16 +6,16 @@
         "name": "SSPanel-UIM",
         "html_url": "https:\/\/github.com\/Anankke\/SSPanel-UIM",
         "language": "PHP",
-        "description": "SSPanel-UIM 是一个用于管理 Shadowsocks 服务器的用户界面与后端管理系统，主要用于搭建和运营 Shadowsocks 服务，支持多用户、流量统计、订阅管理、节点监控等功能，适合自建科学上网服务或提供代理服务使用。"
+        "description": "SSPanel-UIM 是一款基于 PHP 的代理服务管理面板，常用于搭建和管理 Shadowsocks、V2Ray 等机场服务。它提供用户注册、套餐购买、节点管理、流量统计与限速、订阅链接生成等核心功能，并支持对接多种支付接口，帮助站长快速构建商业化运营的代理平台。该面板通常部署在 LNMP 环境中，适合需要自动化管理多节点、多用户计费与流量控制的场景。由于项目社区活跃，插件和主题丰富，便于根据实际需求进行二次开发。"
     },
     "summary": {
         "initial_stars": 9689,
-        "current_stars": 10400,
-        "star_diff": 711,
-        "growth_rate": 7.34,
+        "current_stars": 10402,
+        "star_diff": 713,
+        "growth_rate": 7.36,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 10400,
             "forks": 3440,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10402,
+            "forks": 3437,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

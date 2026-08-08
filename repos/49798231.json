@@ -6,7 +6,7 @@
         "name": "utils",
         "html_url": "https:\/\/github.com\/dompdf\/utils",
         "language": "PHP",
-        "description": "提供辅助工具函数和脚本以支持 DomPDF 的操作，主要用于处理 HTML 到 PDF 转换过程中的文件操作、配置管理与调试任务，方便开发者自定义和扩展功能。"
+        "description": "为 dompdf 提供辅助工具和脚本的配套仓库，用于处理 PDF 渲染流程中的非核心但必要的维护工作。它通常涉及字体安装与缓存管理、目录权限设置、运行环境检测等，帮助开发者减少在部署或调试 HTML 转 PDF 功能时遇到的琐碎问题。该仓库可独立使用或作为 dompdf 的子模块引入，适合需要让 dompdf 在多种 PHP 环境中稳定运行、统一配置的开发者。"
     },
     "summary": {
         "initial_stars": 75,

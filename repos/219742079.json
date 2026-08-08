@@ -6,16 +6,16 @@
         "name": "TPscan",
         "html_url": "https:\/\/github.com\/Lucifer1993\/TPscan",
         "language": "Python",
-        "description": "TPscan是一款用于检测和扫描ThinkPHP框架相关安全漏洞的工具，主要用于识别基于ThinkPHP开发的应用是否存在远程代码执行等常见漏洞，适合安全研究人员在授权范围内进行安全测试，帮助发现框架层面的安全隐患，需遵守法律法规并仅限合法用途使用。"
+        "description": "TPscan是一款专用于ThinkPHP框架的漏洞扫描工具，用于快速检测基于该框架的Web应用是否存在已知安全漏洞。它通常支持批量目标扫描、特征匹配和常见漏洞POC加载，可以大幅提升对ThinkPHP站点进行安全评估的效率，适合渗透测试人员在授权条件下排查框架版本相关的风险并验证漏洞利用条件。"
     },
     "summary": {
         "initial_stars": 1144,
-        "current_stars": 1159,
-        "star_diff": 15,
-        "growth_rate": 1.31,
+        "current_stars": 1158,
+        "star_diff": 14,
+        "growth_rate": 1.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 60
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 61
     },
     "history": [
         {
@@ -437,6 +437,13 @@
             "stars": 1159,
             "forks": 180,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1158,
+            "forks": 180,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

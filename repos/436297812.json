@@ -6,16 +6,16 @@
         "name": "memos",
         "html_url": "https:\/\/github.com\/usememos\/memos",
         "language": "Go",
-        "description": "一个开源的、轻量级的笔记与知识管理工具，支持 Markdown 编辑、标签分类和实时同步，主要用于个人知识记录、日常想法整理和技术笔记存储，适合追求简洁高效写作体验的用户。"
+        "description": "Memos 是一款开源的轻量级备忘录服务，用于替代传统笔记或社交媒体动态，支持快速记录短文字、图片和 Markdown 内容，并配合标签、筛选和每日回顾功能整理碎片信息。它采用自托管方式部署，用户可完全掌控数据，适合个人或小团队作为隐私友好的微博式笔记工具，同时提供简洁的 API 和响应式界面，便于日常灵感收集、任务速记与知识沉淀。"
     },
     "summary": {
         "initial_stars": 42094,
-        "current_stars": 62050,
-        "star_diff": 19956,
-        "growth_rate": 47.41,
+        "current_stars": 62100,
+        "star_diff": 20006,
+        "growth_rate": 47.53,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 62050,
             "forks": 4625,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 62100,
+            "forks": 4630,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

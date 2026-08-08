@@ -6,16 +6,16 @@
         "name": "buildadmin",
         "html_url": "https:\/\/github.com\/build-admin\/buildadmin",
         "language": "Vue",
-        "description": "一个基于 Vue 3、Vite、TypeScript 和 Element Plus 开发的现代化后台管理系统脚手架，提供动态菜单、权限控制、多标签页、国际化等企业级功能，支持快速构建中后台应用，具备良好的可扩展性和开发体验。"
+        "description": "BuildAdmin 是一款用于快速搭建后台管理系统的开源工具，主要面向需要高效实现管理界面的开发场景。它整合了主流前后端技术方案，能直接提供用户权限、菜单配置、操作日志等基础功能，并支持通过可视化方式生成数据表对应的增删改查页面与接口，从而显著减少重复性编码工作。通常适合中小型项目或企业内部系统的后台管理模块开发，也适用于前后端分离架构的快速落地。"
     },
     "summary": {
         "initial_stars": 1820,
-        "current_stars": 2360,
-        "star_diff": 540,
-        "growth_rate": 29.67,
+        "current_stars": 2361,
+        "star_diff": 541,
+        "growth_rate": 29.73,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 2360,
             "forks": 288,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2361,
+            "forks": 287,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

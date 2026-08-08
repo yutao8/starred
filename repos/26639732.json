@@ -6,7 +6,7 @@
         "name": "LocationReportEnabler",
         "html_url": "https:\/\/github.com\/GhostFlying\/LocationReportEnabler",
         "language": "Java",
-        "description": "用于修改iOS系统定位的越狱插件，通过伪造位置信息欺骗应用的位置检查，通常用于绕过地理围栏限制或模拟定位打卡，需配合越狱环境使用，可能违反部分应用服务条款。"
+        "description": "用于启用设备上被隐藏或禁用位置报告功能的Android Xposed模块，主要针对系统或Google服务中因地区、版本或运营商定制而无法打开的位置报告选项。通过Hook相关设置逻辑，强制显示并允许用户开启位置历史记录，适合需要正常记录设备位置但受限制的用户使用。模块通常需要配合Xposed框架或LSPosed环境运行，并在安装后于设置界面中激活相应开关。"
     },
     "summary": {
         "initial_stars": 1086,

@@ -6,16 +6,16 @@
         "name": "antSword",
         "html_url": "https:\/\/github.com\/AntSwordProject\/antSword",
         "language": "JavaScript",
-        "description": "AntSword 是一款开源的 WebShell 管理工具，主要用于安全研究人员在授权渗透测试场景下管理服务器后门。它支持多种脚本语言（如 PHP、ASP、JSP），提供文件管理、虚拟终端、数据库操作等功能，界面友好且插件扩展性强，便于红队人员高效执行后续操作。使用需遵守法律法规，禁止未授权访问。"
+        "description": "蚁剑是一款开源的跨平台网站管理工具，主要面向安全测试人员，用于对授权目标进行Web应用渗透测试与后续管理。它通过图形化界面连接网站后门，支持多种动态脚本语言和加密传输方式，能够高效地浏览服务器文件、执行命令、管理数据库，并具备插件扩展能力。工具设计注重交互易用性与流量隐蔽性，适合在授权评估环境中辅助完成漏洞验证、权限维持及数据收集等任务，通常搭配Burp Suite等抓包工具使用。"
     },
     "summary": {
         "initial_stars": 4118,
-        "current_stars": 4672,
-        "star_diff": 554,
-        "growth_rate": 13.45,
+        "current_stars": 4675,
+        "star_diff": 557,
+        "growth_rate": 13.53,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 4672,
             "forks": 646,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4675,
+            "forks": 646,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

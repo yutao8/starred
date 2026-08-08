@@ -6,16 +6,16 @@
         "name": "PHP-FFMpeg",
         "html_url": "https:\/\/github.com\/PHP-FFMpeg\/PHP-FFMpeg",
         "language": "PHP",
-        "description": "用于操作视频和音频文件的PHP库，基于FFmpeg命令行工具封装，提供简洁的API实现转码、截图、格式转换、剪辑等多媒体处理功能，适用于需要在PHP项目中集成音视频处理的场景。"
+        "description": "PHP-FFMpeg用于在PHP应用中处理多媒体文件，它封装了FFmpeg命令行工具，提供面向对象的方式完成视频和音频的转码、剪辑、合并、提取音频、生成缩略图等常见任务。通常适合需要在Web服务中批量处理媒体、搭建视频上传转码流程或进行音视频自动化处理的开发者，无需手动拼接复杂命令。该库支持常见多媒体格式和编码器，可通过回调监视执行进度，适合与各类PHP框架共同使用，整体上降低了在PHP环境下操作FFmpeg的技术门槛，提升开发效率和代码可维护性。"
     },
     "summary": {
         "initial_stars": 4950,
-        "current_stars": 5017,
-        "star_diff": 67,
-        "growth_rate": 1.35,
+        "current_stars": 5016,
+        "star_diff": 66,
+        "growth_rate": 1.33,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 112
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 113
     },
     "history": [
         {
@@ -801,6 +801,13 @@
             "stars": 5017,
             "forks": 895,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5016,
+            "forks": 895,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

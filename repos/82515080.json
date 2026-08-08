@@ -6,16 +6,16 @@
         "name": "gocron",
         "html_url": "https:\/\/github.com\/ouqiang\/gocron",
         "language": "Go",
-        "description": "基于时间间隔或特定时间点自动执行指定命令或脚本的任务调度工具，主要用于Linux系统下的定时任务管理，支持Web界面操作，方便用户可视化添加、编辑、监控和管理周期性任务，适用于运维自动化、日志清理、数据备份等场景。"
+        "description": "基于Go语言开发的定时任务集中管理平台，通过Web界面替代传统crontab的手工维护方式，支持任务的创建、编辑、暂停、删除及即时触发，并提供任务执行日志和状态监控。通常适合需要跨多台服务器统一调度、希望降低运维成本并实现任务可视化管理的团队，能够解决分布式环境下定时任务分散、难以追踪和告警缺失的问题。"
     },
     "summary": {
         "initial_stars": 6133,
-        "current_stars": 6257,
-        "star_diff": 124,
-        "growth_rate": 2.02,
+        "current_stars": 6258,
+        "star_diff": 125,
+        "growth_rate": 2.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 139
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 140
     },
     "history": [
         {
@@ -990,6 +990,13 @@
             "stars": 6257,
             "forks": 1305,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6258,
+            "forks": 1305,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "ipp-middleware",
         "html_url": "https:\/\/github.com\/Rebnerd\/ipp-middleware",
         "language": "JavaScript",
-        "description": "ipp-middleware 是一个用于处理 IPP（Internet Printing Protocol）通信的中间件工具，主要用于简化打印设备与客户端之间的协议交互，支持打印任务管理、打印机状态查询等功能，通常适用于需要集成网络打印能力的应用程序或服务。"
+        "description": "用于处理互联网打印协议（IPP）的中间件，在打印客户端与后端打印服务之间提供通信转换、请求转发或协议适配。通常适合需要统一接入多种IPP打印机、对打印作业进行拦截或监控，以及构建企业级打印服务网关的场景，能够简化打印协议对接流程并提升系统扩展性。"
     },
     "summary": {
         "initial_stars": 16,

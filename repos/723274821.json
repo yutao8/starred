@@ -6,16 +6,16 @@
         "name": "iptv-sources",
         "html_url": "https:\/\/github.com\/HerbertHe\/iptv-sources",
         "language": "TypeScript",
-        "description": "提供全球范围的IPTV频道直播源整合，包含央视、卫视、地方台及国际频道的m3u播放列表，便于通过支持IPTV协议的播放器观看电视直播，适合自建直播平台或个性化频道聚合使用。"
+        "description": "用于收集、聚合和更新IPTV直播源，输出可直接导入播放器的M3U播放列表。通过自动化脚本从公开渠道抓取频道地址，经过连通性校验后合并去重，确保源列表的相对稳定性。适用于VLC、Kodi等主流播放器，以及需要批量获取直播源的开发场景。覆盖面通常包括国内外常见的综合频道、新闻频道和高清节目源，并可能定期更新以维持可用性。使用时需自行确认源是否有效，并注意遵守相关版权规定。"
     },
     "summary": {
         "initial_stars": 7937,
-        "current_stars": 8901,
-        "star_diff": 964,
-        "growth_rate": 12.15,
+        "current_stars": 8906,
+        "star_diff": 969,
+        "growth_rate": 12.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 8901,
             "forks": 1522,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8906,
+            "forks": 1521,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

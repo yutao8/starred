@@ -6,16 +6,16 @@
         "name": "Natter",
         "html_url": "https:\/\/github.com\/MikeWang000000\/Natter",
         "language": "Python",
-        "description": "Natter 是一个基于 WebRTC 技术实现的点对点通信工具，主要用于内网穿透和实时数据传输。它通过中继服务器协助建立直连，支持 NAT 穿透，可在无公网 IP 环境下实现设备间低延迟通信，适用于远程控制、文件传输和即时通讯等场景。"
+        "description": "用于检测当前网络的 NAT 类型并自动进行端口映射，以便提升 P2P 连接的成功率与稳定性。通常适合需要公网访问内网服务、优化联机游戏或自建服务的用户。它通过常见协议如 UPnP 和 NAT-PMP 尝试打通路由，并能清晰展示网络环境特征，便于诊断和改善网络连通性。"
     },
     "summary": {
         "initial_stars": 1901,
-        "current_stars": 2198,
-        "star_diff": 297,
-        "growth_rate": 15.62,
+        "current_stars": 2199,
+        "star_diff": 298,
+        "growth_rate": 15.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 2198,
             "forks": 178,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2199,
+            "forks": 178,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

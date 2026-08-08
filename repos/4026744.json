@@ -6,7 +6,7 @@
         "name": "hashids",
         "html_url": "https:\/\/github.com\/vinkla\/hashids",
         "language": "PHP",
-        "description": "一个 PHP 库，用于将数字 ID 转换为短小的唯一字符串，适合在 URL 中隐藏真实 ID，支持加解密和自定义盐值，常用于美化路由或保护数据暴露。"
+        "description": "用于将整数序列转换为短且不可猜测的哈希字符串，并提供反向解码功能。通过自定义盐值和长度生成类似YouTube的短ID，常用于隐藏数据库主键、构造不可枚举的URL或分享链接，适合在Web应用中替代自增ID直接暴露的场景。该库是Hashids算法在PHP生态中的实现，支持批量编码、解码，并可通过灵活配置满足不同安全需求。可直接集成到现有PHP项目，为业务提供简洁且可逆的混淆方案。"
     },
     "summary": {
         "initial_stars": 5369,

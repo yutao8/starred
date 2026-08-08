@@ -6,7 +6,7 @@
         "name": "wxParse",
         "html_url": "https:\/\/github.com\/icindy\/wxParse",
         "language": "JavaScript",
-        "description": "用于微信小程序的富文本解析组件，将HTML内容转换为小程序可渲染的WXML格式，支持图文混排、标签解析及自定义样式，方便在小程序中展示带格式的文本内容。"
+        "description": "wxParse 主要用于微信小程序中解析和渲染富文本内容，它将 HTML 字符串转换为小程序组件可用的节点树，从而在小程序内展示格式化文本、图片、链接等。适合处理后台返回的文章或页面源码，避免手动拼接视图。同时提供样式适配和自定义扩展，常用于博客、社区、电商详情页等场景。"
     },
     "summary": {
         "initial_stars": 7773,

@@ -6,16 +6,16 @@
         "name": "pyenv",
         "html_url": "https:\/\/github.com\/pyenv\/pyenv",
         "language": "Roff",
-        "description": "用于管理和安装多个 Python 版本的命令行工具，允许用户在不同项目中切换 Python 版本，支持全局和局部版本设置，适用于开发和测试需要多版本 Python 共存的场景。"
+        "description": "pyenv 用于在单台机器上安装、切换和管理多个 Python 版本，支持按项目目录配置局部版本或全局切换，方便开发者维护依赖不同 Python 版本的项目，避免环境冲突。它在 PATH 中插入代理层来拦截 python 命令，无需改动系统自带 Python，即可切换版本。适合本地开发、版本兼容性测试及部署前验证，常搭配 pyenv-virtualenv 插件管理虚拟环境。"
     },
     "summary": {
         "initial_stars": 42440,
-        "current_stars": 45001,
-        "star_diff": 2561,
-        "growth_rate": 6.03,
+        "current_stars": 45003,
+        "star_diff": 2563,
+        "growth_rate": 6.04,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 45001,
             "forks": 3264,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 45003,
+            "forks": 3266,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

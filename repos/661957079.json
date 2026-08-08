@@ -6,16 +6,16 @@
         "name": "gkd",
         "html_url": "https:\/\/github.com\/gkd-kit\/gkd",
         "language": "Kotlin",
-        "description": "一个基于 Go 语言开发的通用知识图谱构建工具包，主要用于实体对齐、关系抽取和图谱融合，适用于多源异构数据的自动化处理与知识库构建场景，支持灵活扩展和高性能计算。"
+        "description": "gkd是一款基于无障碍服务实现的安卓自动化点击工具，主要用于自动跳过应用开屏广告、自动签到、自动完成任务等重复性操作。它通过配置规则匹配界面元素并模拟点击，适合想要省去手动点击广告跳过按钮或日常打卡流程的用户。支持自定义规则，可以按需订阅或编写自己的动作策略，常与任务型脚本结合使用，在无需Root的环境下运行。"
     },
     "summary": {
         "initial_stars": 29115,
-        "current_stars": 40698,
-        "star_diff": 11583,
-        "growth_rate": 39.78,
+        "current_stars": 40747,
+        "star_diff": 11632,
+        "growth_rate": 39.95,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 40698,
             "forks": 1927,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 40747,
+            "forks": 1926,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

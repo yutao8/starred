@@ -6,7 +6,7 @@
         "name": "sweetalert2",
         "html_url": "https:\/\/github.com\/sweetalert2\/sweetalert2",
         "language": "JavaScript",
-        "description": "SweetAlert2 是一个用于替代浏览器默认 alert 弹窗的 JavaScript 库，提供美观、可高度定制的模态对话框，支持提示、确认、加载、输入等多种交互场景，兼容现代浏览器并具有良好的可访问性支持，主要用于提升 Web 应用中的用户提示体验。"
+        "description": "sweetalert2 是一款用于网页端的弹窗组件，用来替代浏览器原生 alert、confirm 和 prompt 对话框，让提示信息、确认操作和输入收集显得更美观统一。它支持丰富的自定义主题、动画效果、按钮组合和异步回调，适合在表单校验、删除确认、操作成功或失败提示等场景中快速集成。针对开发者对交互体验和视觉一致性的需求，该库通常配合 Vue、React 等主流前端框架使用，能有效减少手写弹窗样式和逻辑的工作量。整体上，它是前端开发中常用的、兼顾美观与功能性的弹窗解决方案。"
     },
     "summary": {
         "initial_stars": 17732,
@@ -14,8 +14,8 @@
         "star_diff": 370,
         "growth_rate": 2.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 18102,
             "forks": 1631,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18102,
+            "forks": 1629,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "EcoPaste",
         "html_url": "https:\/\/github.com\/EcoPasteHub\/EcoPaste",
         "language": "TypeScript",
-        "description": "EcoPaste 是一个轻量级的开源代码片段托管平台，主要用于快速分享和存储代码片段，支持语法高亮、临时存储和自定义过期时间，适合开发者在协作或调试时便捷地传输代码，无需注册即可使用，部署简单，可集成于个人或团队的工作流中。"
+        "description": "一款跨平台的剪贴板管理工具，用于集中保存和检索复制历史，支持文本、图片等常见格式，方便用户快速查找、整理并重新使用之前复制的内容。通常适合需要频繁复制粘贴素材的办公、写作或开发场景，帮助减少重复操作，提升效率。"
     },
     "summary": {
         "initial_stars": 4644,
-        "current_stars": 7272,
-        "star_diff": 2628,
-        "growth_rate": 56.59,
+        "current_stars": 7277,
+        "star_diff": 2633,
+        "growth_rate": 56.7,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 7272,
             "forks": 364,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7277,
+            "forks": 364,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "onenav",
         "html_url": "https:\/\/github.com\/helloxz\/onenav",
         "language": "JavaScript",
-        "description": "helloxz\/onenav 是一个基于 Go 语言开发的简约风格导航网站程序，主要用于个人或团队构建实用的书签管理与网址导航站点，支持多用户、分类管理、响应式布局，便于自托管部署和定制化。"
+        "description": "OneNav 是一款开源的网址导航管理工具，用于自建个人或团队的书签导航首页。它支持将常用链接按分类整理，提供简洁的收藏、搜索和快速访问功能，帮助解决浏览器书签杂乱、团队共享链接不便的问题。通常适合部署在服务器上作为统一入口，也支持多用户使用，并用自定义主题和数据备份。整体上是一个轻量、易部署的导航站解决方案。"
     },
     "summary": {
         "initial_stars": 2783,
-        "current_stars": 3131,
-        "star_diff": 348,
-        "growth_rate": 12.5,
+        "current_stars": 3132,
+        "star_diff": 349,
+        "growth_rate": 12.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 169
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 170
     },
     "history": [
         {
@@ -1200,6 +1200,13 @@
             "stars": 3131,
             "forks": 543,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3132,
+            "forks": 543,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

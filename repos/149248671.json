@@ -6,7 +6,7 @@
         "name": "echarts3-mapFile",
         "html_url": "https:\/\/github.com\/zhangqian00\/echarts3-mapFile",
         "language": "JavaScript",
-        "description": "用于 ECharts 3 的地图数据文件集合，主要包含中国省市县的地理边界 GeoJSON 数据，方便在 ECharts 中实现地图可视化，支持省级、市级、区县级的下钻展示，适用于构建地理信息相关的数据大屏或业务分析系统。"
+        "description": "这个仓库整理了适配 ECharts 3 的地图 GeoJSON 数据文件，通常用于在网页中绘制中国及各省市的可交互行政区划地图，适合需要区域分布、统计报表等地理可视化场景，可直接加载使用。"
     },
     "summary": {
         "initial_stars": 352,
@@ -14,8 +14,8 @@
         "star_diff": 4,
         "growth_rate": 1.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 16
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 17
     },
     "history": [
         {
@@ -129,6 +129,13 @@
             "stars": 356,
             "forks": 363,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 356,
+            "forks": 362,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

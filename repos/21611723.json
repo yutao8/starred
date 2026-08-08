@@ -6,16 +6,16 @@
         "name": "Quasar",
         "html_url": "https:\/\/github.com\/quasar\/Quasar",
         "language": "C#",
-        "description": "Quasar是一个基于Vue.js的开源框架，用于构建响应式网站、PWA、移动应用和桌面应用，支持一套代码多端运行，提供丰富的UI组件和开箱即用的构建配置，简化跨平台前端开发流程。"
+        "description": "Quasar 是一款开源的 Windows 远程管理工具，基于 C# 和 .NET 框架构建，通常用于系统管理员对多台 Windows 机器进行集中监控与维护。核心功能涵盖远程桌面查看、文件上传下载、命令提示符执行、注册表编辑以及进程管理等，能够在不中断用户操作的情况下实现后台静默控制。它适合内部网络资产管理、技术支持排障或安全应急响应等场景，但因其控制能力强大，也常被安全研究者用于红队演练或恶意软件分析。使用时需要注意授权边界，避免在未获许可的计算机上部署。"
     },
     "summary": {
         "initial_stars": 9350,
-        "current_stars": 9901,
-        "star_diff": 551,
-        "growth_rate": 5.89,
+        "current_stars": 9904,
+        "star_diff": 554,
+        "growth_rate": 5.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 9901,
             "forks": 2650,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9904,
+            "forks": 2648,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

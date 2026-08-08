@@ -6,7 +6,7 @@
         "name": "chrome-extensions-examples",
         "html_url": "https:\/\/github.com\/orbitbot\/chrome-extensions-examples",
         "language": "JavaScript",
-        "description": "提供一系列 Chrome 扩展开发示例，涵盖常用 API 和功能实现，帮助开发者快速掌握扩展程序的开发流程、配置结构和最佳实践，适用于学习和参考各类浏览器插件的构建方法。"
+        "description": "面向Chrome扩展开发者的示例代码合集，收录了扩展开发中常见功能的完整实现，涵盖工具栏按钮、右键菜单、内容脚本注入、书签管理、网络请求监听、选项页配置等典型场景。每个示例都附带可直接加载的 manifest 配置和配套脚本，代码结构清晰，注释简洁，方便开发者快速运行并针对性修改。仓库通常按 Chrome 扩展的架构和新版标准组织，便于按需查找特定功能的参考实现，适合从零开始学习扩展开发、理解扩展与网页的交互机制，或在遇到实际问题时查找可借鉴的代码模板。主要用于降低扩展开发的上手门槛，提高功能开发效率。"
     },
     "summary": {
         "initial_stars": 1589,
@@ -14,8 +14,8 @@
         "star_diff": -3,
         "growth_rate": -0.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 56
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 57
     },
     "history": [
         {
@@ -409,6 +409,13 @@
             "stars": 1586,
             "forks": 451,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1586,
+            "forks": 450,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

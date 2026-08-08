@@ -6,16 +6,16 @@
         "name": "electerm",
         "html_url": "https:\/\/github.com\/electerm\/electerm",
         "language": "JavaScript",
-        "description": "electerm 是一个基于 Electron 的跨平台终端工具，主要用于 Linux、macOS 和 Windows 系统，支持 SSH 连接、SFTP 文件传输和多标签页管理，适合开发者和系统管理员远程操作服务器，界面简洁，无需依赖额外运行时即可使用。"
+        "description": "electerm 是一款跨平台的终端模拟器，主要用于连接和管理远程服务器，支持 SSH、SFTP 协议，并集成了文件传输、编辑和本地终端功能。它适合开发者和运维人员在日常工作中同时处理命令行操作与远程文件管理，解决了传统终端与文件管理器分离带来的效率问题。软件界面友好，支持多标签页、快捷命令、主题定制和书签管理，能够适配 Windows、macOS 和 Linux 等主流操作系统。通常用于替代系统自带终端，或作为轻量级的服务器管理工具。"
     },
     "summary": {
         "initial_stars": 12601,
-        "current_stars": 14671,
-        "star_diff": 2070,
-        "growth_rate": 16.43,
+        "current_stars": 14679,
+        "star_diff": 2078,
+        "growth_rate": 16.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14671,
             "forks": 1174,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14679,
+            "forks": 1178,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

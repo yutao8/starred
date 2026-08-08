@@ -6,16 +6,16 @@
         "name": "tesseract-ocr-for-php",
         "html_url": "https:\/\/github.com\/thiagoalessio\/tesseract-ocr-for-php",
         "language": "PHP",
-        "description": "用于在 PHP 中调用 Tesseract OCR 引擎的封装库，方便开发者在项目中实现图像文字识别功能，支持多种图像格式和语言识别，适用于自动化表单填写、验证码识别、文档数字化等场景。"
+        "description": "为 PHP 项目提供简洁易用的 Tesseract OCR 封装，让开发者通过面向对象接口快速从图片中提取文字。支持多种语言和识别模式，可直接处理扫描文档、截图、车牌或表单图片，适合需要自动化文字识别、数据录入或内容搜索的 PHP 应用。库负责调用并管理 Tesseract 进程，通常用于后端服务或命令行工具，能有效替代人工转录，减少繁琐的图像预处理工作。"
     },
     "summary": {
         "initial_stars": 2973,
-        "current_stars": 3040,
-        "star_diff": 67,
-        "growth_rate": 2.25,
+        "current_stars": 3039,
+        "star_diff": 66,
+        "growth_rate": 2.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 93
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 94
     },
     "history": [
         {
@@ -668,6 +668,13 @@
             "stars": 3040,
             "forks": 553,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3039,
+            "forks": 553,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "php-qrcode-detector-decoder",
         "html_url": "https:\/\/github.com\/khanamiryan\/php-qrcode-detector-decoder",
         "language": "PHP",
-        "description": "用于检测和解码图像中的 QR 码，支持从图片文件或图像资源中识别 QR 码内容，适用于 PHP 环境下的二维码读取需求，无需依赖外部二进制工具，纯 PHP 实现便于部署与集成。"
+        "description": "用于在 PHP 环境中从图片中检测并解码二维码，是 ZXing 二维码识别库的 PHP 移植版本。它能够读取图像中的二维码，还原其中编码的文本或数据，适用于需要在服务端处理二维码内容的场景，如解析上传的二维码图片、自动识别票据或商品上的二维码等。库通过图像分析定位二维码并提取信息，不依赖外部服务，适合集成到已有的 PHP 项目中。通常用于二维码读取和识别，而不涉及二维码生成功能。"
     },
     "summary": {
         "initial_stars": 1397,

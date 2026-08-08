@@ -6,16 +6,16 @@
         "name": "marked",
         "html_url": "https:\/\/github.com\/markedjs\/marked",
         "language": "JavaScript",
-        "description": "一个轻量级的 JavaScript Markdown 解析器，用于将 Markdown 文本快速转换为 HTML，支持浏览器和 Node.js 环境，可扩展且易于集成，常用于文档渲染和富文本展示场景。"
+        "description": "用于将 Markdown 文本快速解析为 HTML，是 JavaScript 生态中轻量级、高性能的 Markdown 编译器。支持标准 Markdown 语法和 CommonMark 规范，可在浏览器和 Node.js 环境运行，常被用于博客、文档站、评论系统等需要把 Markdown 内容实时渲染成网页的场景。支持通过配置和扩展定制输出，适合对解析速度和产物体积有要求的项目。"
     },
     "summary": {
         "initial_stars": 34964,
-        "current_stars": 37034,
-        "star_diff": 2070,
-        "growth_rate": 5.92,
+        "current_stars": 37037,
+        "star_diff": 2073,
+        "growth_rate": 5.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 37034,
             "forks": 3617,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 37037,
+            "forks": 3620,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

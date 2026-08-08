@@ -6,16 +6,16 @@
         "name": "moments",
         "html_url": "https:\/\/github.com\/kingwrcy\/moments",
         "language": "Go",
-        "description": "一个基于社交动态的前端展示项目，主要用于模拟朋友圈或社交平台的时间线功能，支持内容发布、点赞、评论等常见交互，采用模块化设计便于二次开发和学习参考。"
+        "description": "用于搭建个人朋友圈或时光轴的开源项目，可将日常想法、图片或生活片段整理成时间线，方便集中展示与回顾。主要解决自建轻量社交动态管理的需求，适合个人博主、独立开发者或小团队用来分享近况和沉淀记忆。项目通常具备响应式界面，支持在常见云托管服务上部署，技术栈以现代前端工具为主，配置简单且易于扩展，能为不依赖大型社交平台的人提供一个自由、可控的记录空间。"
     },
     "summary": {
         "initial_stars": 1692,
-        "current_stars": 1892,
-        "star_diff": 200,
-        "growth_rate": 11.82,
+        "current_stars": 1893,
+        "star_diff": 201,
+        "growth_rate": 11.88,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 147
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 148
     },
     "history": [
         {
@@ -1046,6 +1046,13 @@
             "stars": 1892,
             "forks": 240,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1893,
+            "forks": 239,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

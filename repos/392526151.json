@@ -6,16 +6,16 @@
         "name": "aliyunpan",
         "html_url": "https:\/\/github.com\/tickstep\/aliyunpan",
         "language": "Go",
-        "description": "阿里云盘命令行客户端，支持文件上传、下载、同步等操作，提供自动化脚本和批量处理功能，适用于Linux、macOS和Windows系统，可通过简单命令管理云端文件，提升操作效率。"
+        "description": "用于在命令行中管理阿里云盘文件，属于第三方非官方工具，适合服务器、无图形环境或自动化脚本场景。支持批量上传下载、目录同步、文件分享与转存等常用操作，可通过定时任务实现数据备份或跨设备迁移。基于Go语言构建，单文件跨平台运行，配置简单，用户可自行编译或直接使用发布版。通常适合需要绕过图形界面、追求高效批量处理或部署在远程主机上的阿里云盘用户。"
     },
     "summary": {
         "initial_stars": 4661,
-        "current_stars": 5089,
-        "star_diff": 428,
-        "growth_rate": 9.18,
+        "current_stars": 5092,
+        "star_diff": 431,
+        "growth_rate": 9.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 5089,
             "forks": 394,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5092,
+            "forks": 394,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

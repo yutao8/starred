@@ -6,7 +6,7 @@
         "name": "im-server",
         "html_url": "https:\/\/github.com\/wildfirechat\/im-server",
         "language": "Java",
-        "description": "WildFireChat IM-Server 是一个开源的即时通讯服务器，主要用于实现私有化部署的聊天服务，支持消息收发、群组管理、好友关系、消息推送等功能，适用于需要高安全性、可自定义扩展的企业或开发者，通常与 WildFireChat 客户端配合使用，支持多种平台集成。"
+        "description": "为野火IM提供即时通讯服务端，主要实现消息收发、群组管理、好友关系、用户状态维护等核心功能，支持单聊、群聊以及音视频通话等场景。通常适合需要私有化部署IM能力的企业或开发者，能够替代依赖第三方云服务的方案，将数据掌握在自己手中。服务端采用模块化设计，便于定制和扩展，并常与野火IM客户端SDK配合构建完整IM应用。"
     },
     "summary": {
         "initial_stars": 8216,

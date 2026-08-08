@@ -6,16 +6,16 @@
         "name": "kirara-ai",
         "html_url": "https:\/\/github.com\/lss233\/kirara-ai",
         "language": "Python",
-        "description": "一个基于大语言模型的开源AI对话系统，主要用于二次元角色对话、智能回复和情感交互设计，支持自定义角色设定与多平台接入，适合构建虚拟角色聊天机器人。"
+        "description": "一个面向多平台的 AI 聊天机器人框架，通常用于接入 QQ、Telegram 等即时通讯工具，让用户通过对话界面与大语言模型交互。它支持接入多种主流模型服务，并允许通过插件或配置定制角色人设、指令和回复逻辑，适合个人搭建私人助理、群聊机器人或自动化问答服务。项目设计注重易部署和扩展，常见于需要快速构建跨平台聊天机器人、且希望灵活切换模型后端的场景。"
     },
     "summary": {
         "initial_stars": 15539,
-        "current_stars": 18891,
-        "star_diff": 3352,
-        "growth_rate": 21.57,
+        "current_stars": 18898,
+        "star_diff": 3359,
+        "growth_rate": 21.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 18891,
             "forks": 1835,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18898,
+            "forks": 1835,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

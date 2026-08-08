@@ -6,16 +6,16 @@
         "name": "google-images-download",
         "html_url": "https:\/\/github.com\/hardikvasa\/google-images-download",
         "language": "Python",
-        "description": "用于从Google Images批量下载图片的命令行工具，支持自定义搜索关键词、图像格式、数量限制和过滤条件，便于快速采集训练数据集或素材图片，适用于机器学习、图像识别等场景。"
+        "description": "用于从 Google 图片搜索中批量下载图像，是数据采集和机器学习数据集构建的常用工具。它通过命令行或 Python 脚本方式运行，支持输入关键词、指定下载数量、设置图片格式与尺寸筛选，并能保存图片链接。适合需要快速获取大量公开图片以用于训练模型、图像分类或内容分析的开发者。该库一度被广泛使用，但需注意 Google 页面结构变化可能导致其失效，适合熟悉自动化抓取技术的用户进行二次调整。"
     },
     "summary": {
         "initial_stars": 8640,
-        "current_stars": 8684,
-        "star_diff": 44,
-        "growth_rate": 0.51,
+        "current_stars": 8685,
+        "star_diff": 45,
+        "growth_rate": 0.52,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 118
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 119
     },
     "history": [
         {
@@ -843,6 +843,13 @@
             "stars": 8684,
             "forks": 2085,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8685,
+            "forks": 2085,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

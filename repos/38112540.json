@@ -6,16 +6,16 @@
         "name": "Api",
         "html_url": "https:\/\/github.com\/TelegramBot\/Api",
         "language": "PHP",
-        "description": "用于创建和管理 Telegram 机器人的 API 接口，支持消息收发、命令处理、键盘交互、文件传输等核心功能，便于开发者通过 HTTP 请求与 Telegram Bot API 服务器通信，实现自动化回复、群组管理、通知推送等应用场景。"
+        "description": "提供对Telegram Bot API的封装与调用，用于快速创建和管理Telegram机器人。支持消息收发、命令处理、群组与频道交互等常见功能，适合需要自动化通知、客服回复或自定义交互的开发者。通常通过HTTP请求与Telegram服务器通信，简化认证、更新获取和发送消息等流程，使开发者能专注于业务逻辑。该仓库可作为机器人服务的基础库或参考实现，具体用法取决于所选语言和接口设计。"
     },
     "summary": {
         "initial_stars": 1136,
-        "current_stars": 1190,
-        "star_diff": 54,
-        "growth_rate": 4.75,
+        "current_stars": 1192,
+        "star_diff": 56,
+        "growth_rate": 4.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 82
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 83
     },
     "history": [
         {
@@ -591,6 +591,13 @@
             "stars": 1190,
             "forks": 342,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1192,
+            "forks": 342,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "assert",
         "html_url": "https:\/\/github.com\/webmozarts\/assert",
         "language": "PHP",
-        "description": "提供一系列强大的断言工具函数，主要用于在 PHP 项目中进行运行时数据验证和参数校验，帮助开发者尽早发现错误并提高代码健壮性，常用于库或框架开发中对输入参数的严格检查。"
+        "description": "webmozarts\/assert 是一个用于 PHP 代码中参数验证的断言库，提供一系列易用的静态方法，帮助开发者快速检查变量是否符合预期类型或条件，例如字符串、整数、数组、对象等。它通常用于构造函数、方法参数或外部输入数据的校验，在条件不满足时抛出异常，从而尽早发现错误并保证程序运行健壮。该库语法简洁，与 PHP 原生类型提示互补，尤其适合在库开发或框架集成中统一处理输入校验，减少重复的手动检查代码，提升代码可读性和可维护性。"
     },
     "summary": {
         "initial_stars": 7605,
-        "current_stars": 7651,
-        "star_diff": 46,
-        "growth_rate": 0.6,
+        "current_stars": 7650,
+        "star_diff": 45,
+        "growth_rate": 0.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 114
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 115
     },
     "history": [
         {
@@ -815,6 +815,13 @@
             "stars": 7651,
             "forks": 164,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7650,
+            "forks": 164,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

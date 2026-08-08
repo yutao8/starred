@@ -6,16 +6,16 @@
         "name": "macos-virtualbox",
         "html_url": "https:\/\/github.com\/myspaghetti\/macos-virtualbox",
         "language": "Shell",
-        "description": "用于在 VirtualBox 虚拟机中安装和运行 macOS 的开源工具集合，包含自动化脚本和配置文件，简化了 macOS 虚拟环境的部署流程，适合开发测试和学习使用。"
+        "description": "用于在VirtualBox中自动创建和配置macOS虚拟机的脚本和配置集合，省去手动获取系统镜像、调整引导参数、修改分辨率等繁琐步骤。主要面向需要在非Mac硬件上体验或测试macOS的开发者与普通用户，常见于软件兼容性测试、自学macOS环境或临时构建开发环境等场景。仓库提供较明确的安装说明和可调选项，支持在Windows、Linux等宿主机上运行，帮助解决macOS无法直接安装于普通PC的兼容性问题。不过实际成功率取决于硬件、VirtualBox版本和系统镜像来源，属于需要一定动手能力的自助型开源方案。"
     },
     "summary": {
         "initial_stars": 13553,
-        "current_stars": 13526,
-        "star_diff": -27,
-        "growth_rate": -0.2,
+        "current_stars": 13525,
+        "star_diff": -28,
+        "growth_rate": -0.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 150
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 151
     },
     "history": [
         {
@@ -1067,6 +1067,13 @@
             "stars": 13526,
             "forks": 1118,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13525,
+            "forks": 1118,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

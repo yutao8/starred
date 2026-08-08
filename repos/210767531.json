@@ -6,16 +6,16 @@
         "name": "Chinese-IPTV",
         "html_url": "https:\/\/github.com\/BurningC4\/Chinese-IPTV",
         "language": "Other",
-        "description": "提供中国大陆地区的公开可用IPTV直播源列表，包含央视、卫视、地方台及数字频道等M3U格式播放链接，适用于支持IPTV协议的播放器或智能家居系统集成，主要用于家庭电视内容的网络直播观看和自定义频道配置。"
+        "description": "用于整理和分享中文电视频道直播流地址，通常以M3U播放列表形式打包，方便用户导入VLC、PotPlayer等播放器直接观看央视、卫视及地方频道。适合希望绕过繁杂的电视客户端、使用轻量播放器或自定义播放源的人群。由于部分直播源可能失效，仓库会持续更新列表，使用时建议查看最新版本。"
     },
     "summary": {
         "initial_stars": 1602,
-        "current_stars": 1663,
-        "star_diff": 61,
-        "growth_rate": 3.81,
+        "current_stars": 1664,
+        "star_diff": 62,
+        "growth_rate": 3.87,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 110
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 111
     },
     "history": [
         {
@@ -787,6 +787,13 @@
             "stars": 1663,
             "forks": 162,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1664,
+            "forks": 162,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

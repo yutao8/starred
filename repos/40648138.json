@@ -6,16 +6,16 @@
         "name": "HyperDown",
         "html_url": "https:\/\/github.com\/segmentfault\/HyperDown",
         "language": "PHP",
-        "description": "HyperDown 是一个轻量级的 PHP Markdown 解析器，主要用于将 Markdown 文本安全地转换为 HTML。它具备良好的性能和较高的安全性，适用于需要解析用户输入的 Markdown 内容的 Web 应用，如论坛、博客和在线问答平台等，有效防止 XSS 攻击的同时保持语法解析的准确性。"
+        "description": "SegmentFault 开源的 HyperDown 是 PHP 生态中常用的 Markdown 解析器，基于 Parsedown 扩展，用于把 Markdown 文本转换为安全可用的 HTML。它支持标准 Markdown 语法，并额外提供代码高亮、表格、任务列表等常用扩展能力，同时内建防 XSS 过滤机制。典型使用场景包括论坛、博客、评论系统或任何需要用户输入格式化文本的后台应用，适合开发者快速集成可靠的 Markdown 渲染功能，避免从零编写解析器和漏掉安全漏洞。"
     },
     "summary": {
         "initial_stars": 1208,
-        "current_stars": 1265,
-        "star_diff": 57,
-        "growth_rate": 4.72,
+        "current_stars": 1264,
+        "star_diff": 56,
+        "growth_rate": 4.64,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 59
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 60
     },
     "history": [
         {
@@ -430,6 +430,13 @@
             "stars": 1265,
             "forks": 220,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1264,
+            "forks": 220,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

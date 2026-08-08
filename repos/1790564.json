@@ -6,16 +6,16 @@
         "name": "handsontable",
         "html_url": "https:\/\/github.com\/handsontable\/handsontable",
         "language": "JavaScript",
-        "description": "Handsontable 是一个用于在网页中创建类似 Excel 电子表格的 JavaScript\/HTML5 数据网格组件，支持数据绑定、编辑、排序、筛选、合并单元格、拖拽调整行列、冻结行列等丰富功能，适用于需要高性能表格数据展示与交互的 Web 应用场景。"
+        "description": "Handsontable 是一个功能丰富的 JavaScript 数据表格库，用于在 Web 应用中构建类似 Excel 的交互式电子表格。它支持单元格编辑、键盘导航、数据绑定、排序、筛选、合并单元格以及多种内置验证和类型（如数字、日期、下拉列表），适合处理批量数据录入、实时编辑和前端数据可视化场景。常被用于管理后台、金融分析工具或配置类界面，可搭配 React、Vue、Angular 等框架使用，并通过插件扩展如列冻结、上下文菜单和撤销重做等功能，帮助团队快速实现复杂的数据操作界面。"
     },
     "summary": {
         "initial_stars": 21139,
-        "current_stars": 22005,
-        "star_diff": 866,
-        "growth_rate": 4.1,
+        "current_stars": 22008,
+        "star_diff": 869,
+        "growth_rate": 4.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 22005,
             "forks": 3190,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22008,
+            "forks": 3190,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

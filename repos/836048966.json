@@ -6,7 +6,7 @@
         "name": "gh-proxy-go",
         "html_url": "https:\/\/github.com\/moeyy01\/gh-proxy-go",
         "language": "Go",
-        "description": "一个基于 Go 语言开发的轻量级 GitHub 资源代理工具，主要用于加速 GitHub 图片、API 等静态资源的访问，支持自定义域名和缓存策略，适合部署在海外服务器以优化国内用户的 GitHub 使用体验，部署简单，资源消耗低。"
+        "description": "主要用于为 GitHub 资源提供反向代理加速，解决网络受限环境下访问 GitHub 缓慢或下载失败的问题。通常部署在服务器上，通过替换 URL 前缀代理 release、archive、raw 等文件下载，适合开发者或 CI 环境使用。基于 Go 编写，部署简单、资源占用低，常以 Docker 方式运行。"
     },
     "summary": {
         "initial_stars": 137,

@@ -6,7 +6,7 @@
         "name": "SSTap-Rule",
         "html_url": "https:\/\/github.com\/FQrabbit\/SSTap-Rule",
         "language": "Python",
-        "description": "基于SS-Tap的规则增强工具，主要用于优化Shadowsocks的分流规则与节点管理，支持自定义规则匹配与流量转发，适用于游戏玩家和需要低延迟网络的场景，提升特定应用的网络稳定性与访问速度。"
+        "description": "SSTap 代理客户端的分流规则集，用于定义哪些网络流量走代理、哪些直连，通常配合订阅链接使用，帮助用户优化科学上网体验，同时避免影响国内网站和局域网访问速度，适合需要灵活管理代理规则的个人用户。"
     },
     "summary": {
         "initial_stars": 6410,
@@ -14,8 +14,8 @@
         "star_diff": 155,
         "growth_rate": 2.42,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 152
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 153
     },
     "history": [
         {
@@ -1081,6 +1081,13 @@
             "stars": 6565,
             "forks": 1171,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6565,
+            "forks": 1169,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

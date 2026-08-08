@@ -6,16 +6,16 @@
         "name": "Validation",
         "html_url": "https:\/\/github.com\/Respect\/Validation",
         "language": "PHP",
-        "description": "一个轻量级 PHP 验证库，用于验证数据的合法性，支持自定义规则和错误消息，通常用于表单验证和 API 输入校验，具有良好的可扩展性和易用性。"
+        "description": "为PHP开发者提供链式调用的数据验证库，支持超过百种常用验证规则（如邮箱、URL、长度、数字范围等），并能验证嵌套数组和对象属性。通过简洁语法将多个规则组合成复杂校验逻辑，适合表单提交、API接口入参等场景，减少重复的if-else判断，提升代码可读性与可维护性。"
     },
     "summary": {
         "initial_stars": 5872,
-        "current_stars": 6033,
-        "star_diff": 161,
-        "growth_rate": 2.74,
+        "current_stars": 6032,
+        "star_diff": 160,
+        "growth_rate": 2.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 124
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 125
     },
     "history": [
         {
@@ -885,6 +885,13 @@
             "stars": 6033,
             "forks": 775,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6032,
+            "forks": 775,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

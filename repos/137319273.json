@@ -6,7 +6,7 @@
         "name": "form-builder",
         "html_url": "https:\/\/github.com\/xaboy\/form-builder",
         "language": "PHP",
-        "description": "一个用于快速生成表单的 PHP 类库，主要用于 Laravel 框架中动态构建表单元素，支持链式操作和丰富的表单组件，提升开发效率，减少重复代码，适合需要动态表单处理的后台管理系统。"
+        "description": "用于快速生成现代化表单的PHP组件，核心功能是通过PHP代码定义表单结构和字段类型，自动渲染出带样式的前端页面。它支持文本、下拉选择、日期、文件上传等常见控件，并内置校验规则。典型使用场景是后台管理系统中的增删改查表单，特别是字段多、变动频繁时，能大幅减少手写HTML和JavaScript的工作量。利用链式调用写出的代码直观易维护，适合希望统一表单风格、提升开发效率的PHP开发者。"
     },
     "summary": {
         "initial_stars": 757,

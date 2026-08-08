@@ -6,16 +6,16 @@
         "name": "Ciphey",
         "html_url": "https:\/\/github.com\/bee-san\/Ciphey",
         "language": "Python",
-        "description": "Ciphey 是一个自动化解密工具，主要用于识别和解密多种加密算法，包括常见的编码格式、古典密码和现代加密方法。它通过分析密文特征，自动尝试合适的解密方式，适用于CTF竞赛和密码学学习场景，支持Python命令行操作，帮助用户快速完成加密内容的逆向解析。"
+        "description": "Ciphey 是一款自动化文本解密工具，专门用于识别和破解多种常见编码、加密格式，如 Base64、凯撒密码、十六进制、哈希等。它通过智能分析输入内容并自动尝试不同解码策略，适合处理 CTF 竞赛中的密文题目、日常数据恢复或安全分析场景。用户无需手动猜测编码方式，工具会给出可读的明文结果，极大提升解密效率。"
     },
     "summary": {
         "initial_stars": 19596,
-        "current_stars": 21565,
-        "star_diff": 1969,
-        "growth_rate": 10.05,
+        "current_stars": 21574,
+        "star_diff": 1978,
+        "growth_rate": 10.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 21565,
             "forks": 1439,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21574,
+            "forks": 1442,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

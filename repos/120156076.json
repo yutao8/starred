@@ -6,16 +6,16 @@
         "name": "cloudreve",
         "html_url": "https:\/\/github.com\/cloudreve\/cloudreve",
         "language": "Go",
-        "description": "Cloudreve 是一个支持多存储的私有云存储系统，可用于快速搭建个人或企业网盘服务，支持本地、阿里云OSS、腾讯云COS、OneDrive等存储后端，提供文件管理、分享、上传下载、权限控制和用户管理等功能，适合用于文件托管与协作。"
+        "description": "Cloudreve是一款开源的云存储网盘系统，主要用于搭建个人或团队的私有文件管理平台。它支持本地磁盘及多种主流对象存储后端，提供文件上传、下载、在线预览、目录分享、用户权限管理等功能，并具备响应式Web界面，适合部署在服务器上用于替代公有网盘，解决数据自主可控、访问速度受限和容量不足等问题，同时可通过插件机制进行功能扩展。"
     },
     "summary": {
         "initial_stars": 23822,
-        "current_stars": 28476,
-        "star_diff": 4654,
-        "growth_rate": 19.54,
+        "current_stars": 28485,
+        "star_diff": 4663,
+        "growth_rate": 19.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 28476,
             "forks": 3875,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28485,
+            "forks": 3874,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

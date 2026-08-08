@@ -6,16 +6,16 @@
         "name": "docsify",
         "html_url": "https:\/\/github.com\/docsifyjs\/docsify",
         "language": "JavaScript",
-        "description": "docsify 是一个动态生成文档网站的工具，无需构建过程即可将 Markdown 文件解析为静态站点，适用于快速搭建项目文档、API 说明和技术笔记，支持主题定制、插件扩展和服务器部署。"
+        "description": "docsify 是一个轻量级的文档网站生成工具，核心功能是直接将 Markdown 文件转换成可在线浏览的静态页面，无需构建步骤或预编译。使用时只需提供一个包含 Markdown 文档的目录，访问时按需加载并渲染成整洁的单页应用，通常适合快速搭建项目文档、个人知识库或团队内部手册。它支持侧边栏导航、全文搜索、代码高亮、多语言切换等常用功能，并可通过插件扩展。由于部署简单、学习成本低，特别适合拥抱 GitHub Pages 等静态托管的场景，让写作者专注于内容本身。"
     },
     "summary": {
         "initial_stars": 29792,
-        "current_stars": 31439,
-        "star_diff": 1647,
-        "growth_rate": 5.53,
+        "current_stars": 31442,
+        "star_diff": 1650,
+        "growth_rate": 5.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 31439,
             "forks": 5801,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31442,
+            "forks": 5801,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

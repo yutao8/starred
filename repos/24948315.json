@@ -6,16 +6,16 @@
         "name": "cloud-init",
         "html_url": "https:\/\/github.com\/canonical\/cloud-init",
         "language": "Python",
-        "description": "用于在云实例首次启动时进行系统初始化配置，支持用户自定义主机名、网络、用户账户、SSH 密钥、软件源等，广泛用于自动化部署云服务器，兼容主流云平台如 AWS、Azure、GCP、OpenStack 等。"
+        "description": "cloud-init 是用于云实例首次启动时自动化初始化的工具，能在系统启动早期完成主机名设置、用户创建、网络配置、软件包安装等任务，广泛支持 AWS、Azure、OpenStack、KVM 等主流云平台和虚拟化环境，适合需要批量部署一致镜像、实现基础设施即代码的团队，通过用户数据机制灵活定制实例配置，大幅减少手动运维工作。"
     },
     "summary": {
         "initial_stars": 3299,
-        "current_stars": 3777,
-        "star_diff": 478,
-        "growth_rate": 14.49,
+        "current_stars": 3781,
+        "star_diff": 482,
+        "growth_rate": 14.61,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 3777,
             "forks": 1111,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3781,
+            "forks": 1112,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

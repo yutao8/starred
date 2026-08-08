@@ -6,7 +6,7 @@
         "name": "php-zbarcode",
         "html_url": "https:\/\/github.com\/mkoppanen\/php-zbarcode",
         "language": "C",
-        "description": "用于PHP的条形码生成和识别扩展，基于ZBar库实现，支持生成和读取多种条形码格式，适用于需要处理二维码或条形码的PHP应用，如商品识别、票据扫描等场景。"
+        "description": "用于在 PHP 环境中解析和读取条形码及二维码，基于 ZBar 库提供底层识别能力。可处理常见一维码、QR 码等格式，适合需要从图片或摄像头图像中提取条码信息的 Web 应用、库存管理或自动化签到场景。通常与 GD 或 ImageMagick 配合读取图像数据，并支持反向解码，便于集成到现有 PHP 服务中。"
     },
     "summary": {
         "initial_stars": 382,

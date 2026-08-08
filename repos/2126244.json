@@ -6,16 +6,16 @@
         "name": "bootstrap",
         "html_url": "https:\/\/github.com\/twbs\/bootstrap",
         "language": "MDX",
-        "description": "用于快速开发响应式和移动优先的前端项目，提供一套完整的HTML、CSS和JavaScript框架，包括网格系统、表单、按钮、导航组件等，支持现代化工作流，广泛用于构建兼容多种设备的网站界面。"
+        "description": "Bootstrap 是用于快速构建响应式、移动优先的 Web 界面的主流前端框架，提供了一整套预设的 CSS 样式、栅格布局系统、常用 UI 组件（如按钮、导航、表单、卡片）及可选的 JavaScript 插件。它特别适合前端基础薄弱或需要高效交付的团队，通过引入现成样式即可快速搭建风格统一、适配不同屏幕设备的页面，显著减少手写 CSS 和兼容性调试的工作量，同时也常被用于后台管理界面和产品原型制作。基于 HTML、CSS、JavaScript 生态，并支持 Sass 定制，兼顾灵活性与开发效率。"
     },
     "summary": {
         "initial_stars": 172459,
-        "current_stars": 174563,
-        "star_diff": 2104,
+        "current_stars": 174568,
+        "star_diff": 2109,
         "growth_rate": 1.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 174563,
             "forks": 78687,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 174568,
+            "forks": 78679,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

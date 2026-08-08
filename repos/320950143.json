@@ -6,16 +6,16 @@
         "name": "certd",
         "html_url": "https:\/\/github.com\/certd\/certd",
         "language": "JavaScript",
-        "description": "Certd 是一个自动化证书申请与管理工具，主要用于自动从 Let's Encrypt 等 CA 机构申请、更新 SSL\/TLS 证书，支持多种域名验证方式和存储后端，适合用于服务器、容器或边缘设备上的证书生命周期管理。"
+        "description": "certd是一个用于自动化管理SSL\/TLS证书的开源工具，主要解决证书申请、部署和续期需要人工操作的痛点。它通常适合服务器管理员或开发者在网站、反向代理、容器集群等环境中使用，能够定期检查证书状态并自动完成更新，从而避免因证书过期导致的服务不可访问。该项目的设计侧重于轻量化和易配置，让非专业安全人员也能高效维护证书生命周期，减少日常运维负担。"
     },
     "summary": {
         "initial_stars": 3156,
-        "current_stars": 4938,
-        "star_diff": 1782,
-        "growth_rate": 56.46,
+        "current_stars": 4943,
+        "star_diff": 1787,
+        "growth_rate": 56.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 4938,
             "forks": 577,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4943,
+            "forks": 576,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

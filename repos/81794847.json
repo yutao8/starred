@@ -6,16 +6,16 @@
         "name": "ThinkAdmin",
         "html_url": "https:\/\/github.com\/zoujingli\/ThinkAdmin",
         "language": "PHP",
-        "description": "ThinkAdmin 是一个基于 ThinkPHP 框架开发的后台管理系统，主要用于快速构建和管理 Web 后台应用。它提供了用户管理、权限控制、菜单管理、系统配置等基础功能，支持灵活扩展和二次开发，适用于中小型项目的后台支撑。"
+        "description": "ThinkAdmin 是一套基于 ThinkPHP 框架开发的后台管理脚手架，常用于快速搭建企业级管理后台，内置了管理员登录、权限控制、菜单管理、系统配置、操作日志等核心基础功能，让开发者能专注于业务模块而无需重复造轮子，适合需要快速交付内部管理系统或中后台项目的场景。"
     },
     "summary": {
         "initial_stars": 2222,
-        "current_stars": 2262,
-        "star_diff": 40,
-        "growth_rate": 1.8,
+        "current_stars": 2261,
+        "star_diff": 39,
+        "growth_rate": 1.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-28 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 2262,
             "forks": 844,
             "file": "dist\/2026072800\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2261,
+            "forks": 844,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

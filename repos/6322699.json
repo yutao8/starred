@@ -6,16 +6,16 @@
         "name": "FreshRSS",
         "html_url": "https:\/\/github.com\/FreshRSS\/FreshRSS",
         "language": "PHP",
-        "description": "FreshRSS 是一个自托管的开源 RSS 订阅工具，支持多用户、全文搜索、标签分类和跨设备同步，适合个人或团队高效聚合和管理网络资讯内容，可通过 API 和浏览器扩展集成到现有工作流中。"
+        "description": "用于自托管RSS订阅聚合的开源工具，支持RSS和Atom格式订阅，提供分类、标签、搜索、过滤等管理功能。界面响应式，可安装为个人或团队使用，支持多用户独立账户。数据完全掌握在自己手中，适合注重隐私、希望摆脱云端推送依赖的用户。基于PHP技术栈，可搭配MySQL或SQLite存储，轻量易部署，适用于VPS或NAS等环境。"
     },
     "summary": {
         "initial_stars": 11815,
-        "current_stars": 15709,
-        "star_diff": 3894,
-        "growth_rate": 32.96,
+        "current_stars": 15717,
+        "star_diff": 3902,
+        "growth_rate": 33.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 15709,
             "forks": 1235,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15717,
+            "forks": 1235,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "Tiktok",
         "html_url": "https:\/\/github.com\/running-libo\/Tiktok",
         "language": "Kotlin",
-        "description": "一个基于 TikTok 开源的高性能网络库，主要用于简化网络编程，提供事件驱动的异步 I\/O 框架，支持高并发连接，适用于开发高性能服务器，具备轻量级、低延迟、易扩展等特点，适合构建即时通信、直播推流等实时性要求较高的网络应用。"
+        "description": "针对 TikTok 平台设计的自动化工具，主要解决视频下载、信息采集和内容解析等需求。典型使用场景包括备份个人或他人发布的视频、分析热门话题与用户互动数据，以及搭建第三方内容服务。它通常通过模拟客户端请求来获取页面数据，并支持批量操作，适合有内容运营、市场调研或数据挖掘需求的开发者使用。项目基于常见的网络请求与数据解析技术构建，能够处理部分反爬机制，但具体功能需参考仓库中的说明。"
     },
     "summary": {
         "initial_stars": 2927,
-        "current_stars": 3141,
-        "star_diff": 214,
-        "growth_rate": 7.31,
+        "current_stars": 3143,
+        "star_diff": 216,
+        "growth_rate": 7.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 3141,
             "forks": 805,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3143,
+            "forks": 805,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

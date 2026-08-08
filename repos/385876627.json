@@ -6,16 +6,16 @@
         "name": "ddddocr",
         "html_url": "https:\/\/github.com\/sml2h3\/ddddocr",
         "language": "Python",
-        "description": "一个基于深度学习的OCR工具，主要用于图像中文本的检测与识别，支持端到端的文本识别流程，适用于需要高精度文字提取的场景，如文档分析、票据识别等。"
+        "description": "ddddocr 是一款开源的深度学习验证码识别工具，主要用于自动化处理各类图形验证码，包括字符型、滑块缺口以及部分点选类验证码。它基于 PyTorch 等深度学习框架训练，提供简洁的 Python 接口，适合在数据采集、自动化测试、账号注册与登录等场景中快速集成，能够有效解决传统 OCR 对扭曲、干扰线、背景噪点等复杂验证码识别率低的问题，同时兼顾识别速度与准确率。"
     },
     "summary": {
         "initial_stars": 12151,
-        "current_stars": 14569,
-        "star_diff": 2418,
-        "growth_rate": 19.9,
+        "current_stars": 14580,
+        "star_diff": 2429,
+        "growth_rate": 19.99,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 14569,
             "forks": 2317,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14580,
+            "forks": 2317,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

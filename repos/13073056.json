@@ -6,7 +6,7 @@
         "name": "rainloop-webmail",
         "html_url": "https:\/\/github.com\/RainLoop\/rainloop-webmail",
         "language": "PHP",
-        "description": "RainLoop 是一个轻量级的开源 Web 邮件客户端，提供简洁现代的用户界面，支持通过 IMAP 和 SMTP 协议连接主流邮件服务器，允许用户在浏览器中快速收发和管理邮件，适合个人和团队自建邮件系统使用，具备多账户管理、联系人同步和主题自定义等实用功能。"
+        "description": "用于搭建基于浏览器的电子邮件客户端，通过 PHP 后端与 JavaScript 前端实现，主要面向自托管或嵌入式邮件访问场景。支持 IMAP 和 SMTP 协议，提供多账户聚合、文件夹管理、全文搜索、标签筛选及拖拽操作，界面简洁且响应快速，无需数据库即可运行。适合替代传统 WebMail，或集成到现有系统中以提供轻量、私密的邮件处理体验。"
     },
     "summary": {
         "initial_stars": 4130,

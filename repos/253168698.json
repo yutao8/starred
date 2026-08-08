@@ -6,16 +6,16 @@
         "name": "IPTV",
         "html_url": "https:\/\/github.com\/kimcrowing\/IPTV",
         "language": "Other",
-        "description": "提供全球多个国家和地区的IPTV频道直播源，涵盖体育、娱乐、新闻等类型，以m3u格式的播放列表文件形式组织，适用于支持IPTV协议的播放器或智能电视应用，方便用户通过网络观看实时电视节目。"
+        "description": "该仓库提供可直接导入播放器的IPTV直播源列表，汇总了多个可访问的电视节目频道，常见格式适合在VLC、PotPlayer等网络播放器中加载使用。它主要帮助用户集中获取和维护直播地址，减少手动搜集与失效源替换的麻烦，适合日常观看国内外公开直播频道的场景。"
     },
     "summary": {
         "initial_stars": 1480,
-        "current_stars": 1602,
-        "star_diff": 122,
-        "growth_rate": 8.24,
+        "current_stars": 1603,
+        "star_diff": 123,
+        "growth_rate": 8.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 137
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 138
     },
     "history": [
         {
@@ -976,6 +976,13 @@
             "stars": 1602,
             "forks": 268,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1603,
+            "forks": 268,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

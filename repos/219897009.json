@@ -6,16 +6,16 @@
         "name": "v2ray-agent",
         "html_url": "https:\/\/github.com\/mack-a\/v2ray-agent",
         "language": "Shell",
-        "description": "V2Ray代理工具，用于简化V2Ray的配置和管理，支持多种传输协议和伪装方式，便于科学上网与网络流量优化，适用于需要网络代理服务的用户。"
+        "description": "快速部署和管理代理服务，主要面向V2Ray、Xray等工具。它通过一键脚本自动完成安装、配置和更新，支持VMess、VLESS、Trojan等多种协议，并集成WebSocket、TLS等传输方案，还能自动申请证书和设置网站伪装。典型使用场景包括搭建个人翻墙服务器、自建代理节点，适合需要规避网络封锁或安全访问外部资源的用户。项目提供交互式菜单，操作简单，运维便利，适合有基本Linux使用经验的人群。"
     },
     "summary": {
         "initial_stars": 16148,
-        "current_stars": 21618,
-        "star_diff": 5470,
-        "growth_rate": 33.87,
+        "current_stars": 21632,
+        "star_diff": 5484,
+        "growth_rate": 33.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 21618,
             "forks": 5531,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21632,
+            "forks": 5530,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

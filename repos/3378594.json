@@ -6,7 +6,7 @@
         "name": "Requests",
         "html_url": "https:\/\/github.com\/WordPress\/Requests",
         "language": "PHP",
-        "description": "Requests for WordPress 是一个为 WordPress 设计的 HTTP 请求库，用于简化和统一远程 HTTP 请求的处理。它替代了 WordPress 原生较为底层的 HTTP API，提供更清晰、更易用的接口，支持自定义头部、超时设置、重试机制等，适用于插件和主题中需要与外部 API 交互的场景，提升代码可读性和请求稳定性。"
+        "description": "为 PHP 开发者提供简洁流畅的 HTTP 请求发送能力，适合快速访问远程 API、抓取网页或处理 Web 服务交互的场景。该库屏蔽底层传输差异，支持 cURL 与 fsockopen 等多种传输方式，内置 Cookie 管理、身份认证、代理设置与 SSL 验证等常用功能，并提供优雅的会话管理机制。因其轻量高效，已深度集成到 WordPress 核心中，也被众多第三方 PHP 项目用于替代或补充原生 HTTP 扩展。相比同类库，它更强调简单直接，让开发者用极少的代码完成可靠的网络请求。"
     },
     "summary": {
         "initial_stars": 3582,

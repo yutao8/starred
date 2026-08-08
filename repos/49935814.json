@@ -6,7 +6,7 @@
         "name": "ItChat",
         "html_url": "https:\/\/github.com\/littlecodersh\/ItChat",
         "language": "Python",
-        "description": "ItChat 是一个基于微信网页版协议的 Python 第三方库，主要用于实现微信个人账号的自动化消息处理，支持发送文本、图片、文件等消息，以及监听和响应好友、群聊消息，常用于开发聊天机器人、自动回复工具和简单的消息监控应用。"
+        "description": "用于通过Python控制个人微信的库，基于网页微信协议，以扫码方式登录后即可自动收发消息、管理联系人和群聊。通常适合搭建个人微信机器人、自动回复、消息转发、群管理以及聊天记录分析等场景，帮助开发者将日常微信操作脚本化。无需认证公众号，代码风格简洁，适合快速实现微信自动化，但依赖网页微信的可用性，稳定性随官方政策变化。"
     },
     "summary": {
         "initial_stars": 26248,
@@ -14,8 +14,8 @@
         "star_diff": 235,
         "growth_rate": 0.9,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 26483,
             "forks": 5620,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26483,
+            "forks": 5618,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

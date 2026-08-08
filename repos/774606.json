@@ -6,16 +6,16 @@
         "name": "gow",
         "html_url": "https:\/\/github.com\/bmatzelle\/gow",
         "language": "NSIS",
-        "description": "一个基于 Go 语言的 Windows 可执行文件生成工具，主要用于将 Go 程序打包为独立的 .exe 文件，支持资源嵌入和图标定制，适合开发需要原生 Windows 兼容性的命令行或图形界面应用。"
+        "description": "用于监视文件变化并在变化发生时自动执行预设命令，典型场景包括开发中自动重新编译、运行测试或重启本地服务。它采用Go语言实现，配置简单，支持扩展名过滤和递归监视，适合在命令行环境中替代常用监视工具，帮助开发者即时响应代码修改。"
     },
     "summary": {
         "initial_stars": 6616,
-        "current_stars": 6646,
-        "star_diff": 30,
-        "growth_rate": 0.45,
+        "current_stars": 6645,
+        "star_diff": 29,
+        "growth_rate": 0.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 99
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 100
     },
     "history": [
         {
@@ -710,6 +710,13 @@
             "stars": 6646,
             "forks": 366,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6645,
+            "forks": 366,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

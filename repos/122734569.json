@@ -6,16 +6,16 @@
         "name": "lux",
         "html_url": "https:\/\/github.com\/iawia002\/lux",
         "language": "Go",
-        "description": "lux 是一个用 Go 语言编写的轻量级命令行工具，主要用于简化网页内容的下载与解析。它支持从网页提取标题、视频、图片等资源，常用于快速抓取网页中的多媒体内容，适合需要高效处理网络数据的场景。"
+        "description": "支持众多视频网站的视频下载工具，可通过命令行直接输入链接获取并保存视频，同时支持自定义画质、批量下载、外挂字幕和 cookies 等功能，适合需要离线观看视频或备份内容的用户。"
     },
     "summary": {
         "initial_stars": 29773,
-        "current_stars": 31585,
-        "star_diff": 1812,
-        "growth_rate": 6.09,
+        "current_stars": 31584,
+        "star_diff": 1811,
+        "growth_rate": 6.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 31585,
             "forks": 3316,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31584,
+            "forks": 3315,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

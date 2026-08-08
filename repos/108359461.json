@@ -6,16 +6,16 @@
         "name": "gitstars",
         "html_url": "https:\/\/github.com\/cfour-hi\/gitstars",
         "language": "Vue",
-        "description": "一个用于管理 GitHub 仓库收藏的工具，通过 Git 提交记录追踪星标项目，支持自动化同步和个人知识库构建，便于开发者高效整理和分享优质开源项目。"
+        "description": "GitStars 是一个帮助 GitHub 用户高效管理星标项目的工具，主要用于解决收藏项目过多后难以查找和整理的问题。它通常支持对已加星标的仓库进行分类、标签、全文搜索以及批量导出等操作，方便用户按语言、主题或时间筛选内容，并定期备份星标数据以防丢失。适合频繁浏览开源项目、需要构建个人资源库的开发者或技术爱好者使用，能够显著提升收藏夹的检索效率与可维护性。"
     },
     "summary": {
         "initial_stars": 1694,
-        "current_stars": 1773,
-        "star_diff": 79,
-        "growth_rate": 4.66,
+        "current_stars": 1774,
+        "star_diff": 80,
+        "growth_rate": 4.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 140
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 141
     },
     "history": [
         {
@@ -997,6 +997,13 @@
             "stars": 1773,
             "forks": 313,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1774,
+            "forks": 314,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "dashy",
         "html_url": "https:\/\/github.com\/Lissy93\/dashy",
         "language": "Vue",
-        "description": "Dashy 是一个开源的自托管仪表板工具，主要用于将常用的服务、应用和监控组件集中展示，支持多种微服务框架和静态站点集成，适合构建个性化的导航页面，提升团队协作和开发效率。"
+        "description": "开源自托管仪表板Dashy，用于集中管理和快速访问个人或团队常用的应用与服务链接，是替代浏览器书签的现代化方案。它支持高度自定义的网格布局、多种主题和图标，并通过内置状态监控直观显示各服务运行是否正常。用户无需复杂代码，使用简单配置文件或界面即可增删组件、规划分组和设置访问权限。典型应用场景包括个人网址导航、家庭实验室控制面板或团队内部资源入口，能显著减少查找和切换成本，提升日常工作效率。"
     },
     "summary": {
         "initial_stars": 21202,
-        "current_stars": 26131,
-        "star_diff": 4929,
-        "growth_rate": 23.25,
+        "current_stars": 26144,
+        "star_diff": 4942,
+        "growth_rate": 23.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 26131,
             "forks": 1917,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26144,
+            "forks": 1918,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

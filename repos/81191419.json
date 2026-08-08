@@ -6,7 +6,7 @@
         "name": "unpack-wxapkg",
         "html_url": "https:\/\/github.com\/Clarence-pan\/unpack-wxapkg",
         "language": "PHP",
-        "description": "用于解包微信小程序包（.wxapkg 文件）的工具，能够提取和还原小程序的原始文件结构，便于分析和研究小程序的本地资源与代码实现，通常适用于前端逆向、安全审计等场景。"
+        "description": "用于解析和提取微信小程序的 .wxapkg 包文件，帮助开发者还原或查看小程序前端代码资源。通常适合用于学习研究、代码审计、资源备份等场景，可处理常规及部分加密或压缩的包，输出其中的页面、组件、图片和配置文件。该工具以命令行方式运行，操作简单，适合需要批量解包或分析小程序结构的技术人员使用。"
     },
     "summary": {
         "initial_stars": 119,

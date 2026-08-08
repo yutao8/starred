@@ -6,7 +6,7 @@
         "name": "electron-vue-template",
         "html_url": "https:\/\/github.com\/umbrella22\/electron-vue-template",
         "language": "TypeScript",
-        "description": "基于 Electron 和 Vue.js 的桌面应用开发模板，集成常用开发工具与构建配置，支持快速搭建跨平台桌面程序，适用于需要结合 Web 技术栈开发原生级桌面应用的场景，内置热重载、打包优化等特性，简化项目初始化流程。"
+        "description": "一个用于快速搭建跨平台桌面应用的 Electron + Vue 项目模板，集成了主进程与渲染进程的常用配置、开发热更新和打包构建流程，适合从零开始创建基于 Vue 的桌面客户端。通常只需拉取模板并安装依赖即可启动开发调试，省去手动配置 webpack、主进程入口和基础目录结构的步骤，便于开发者专注于业务功能实现，尤其适用于需要快速验证桌面端原型或中小型工具类应用。"
     },
     "summary": {
         "initial_stars": 506,

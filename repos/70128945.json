@@ -6,16 +6,16 @@
         "name": "BaiduPanDownloadWinform",
         "html_url": "https:\/\/github.com\/Accelerider\/BaiduPanDownloadWinform",
         "language": "C#",
-        "description": "用于下载百度网盘文件的 Windows 桌面工具，基于 BaiduPCS 协议实现高速下载功能，支持多线程、断点续传等特性，解决官方客户端限速问题，方便用户更高效地获取网盘资源。"
+        "description": "Accelerider\/BaiduPanDownloadWinform 是一款基于 Windows 窗体的百度网盘下载工具，主要用于解决百度网盘大文件下载速度受限、客户端功能冗余等问题。它提供直观的图形界面，支持用户直接登录并管理网盘文件，通过解析下载链接调用外部下载器或内置多线程加速机制来提升传输效率，适合需要批量下载、迁移网盘资料或对下载速度有较高要求的个人用户。该工具通常面向熟悉百度网盘生态、希望绕过官方客户端限制的技术用户，操作上强调轻量化和本地化，不依赖浏览器运行。"
     },
     "summary": {
         "initial_stars": 2912,
-        "current_stars": 2943,
-        "star_diff": 31,
-        "growth_rate": 1.06,
+        "current_stars": 2942,
+        "star_diff": 30,
+        "growth_rate": 1.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 87
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 88
     },
     "history": [
         {
@@ -626,6 +626,13 @@
             "stars": 2943,
             "forks": 535,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2942,
+            "forks": 535,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

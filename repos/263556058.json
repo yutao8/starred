@@ -6,16 +6,16 @@
         "name": "GitHub520",
         "html_url": "https:\/\/github.com\/521xueweihan\/GitHub520",
         "language": "Python",
-        "description": "为开发者提供 GitHub 加速访问的工具，通过优化网络请求提升国内用户访问 GitHub 的速度，解决加载慢、资源无法获取等问题，支持仓库克隆、文件下载等核心功能，帮助技术社区更高效地参与开源项目。"
+        "description": "一个用于解决国内访问 GitHub 缓慢或失败问题的工具，通过自动更新并合并 hosts 文件来加速 GitHub 的访问。它每天自动获取最新的可用 IP 列表，覆盖网页端、命令行以及各类需要连接 GitHub 的场景，适合开发者、科研人员及依赖 GitHub 资源的用户。无需安装复杂环境，只需运行脚本或按说明操作即可生效，能够显著减少克隆、下载或浏览时的连接超时和断连风险。该工具通常以开源脚本形式提供，支持 Windows、macOS 和 Linux 等多种操作系统。"
     },
     "summary": {
         "initial_stars": 26065,
-        "current_stars": 29237,
-        "star_diff": 3172,
-        "growth_rate": 12.17,
+        "current_stars": 29240,
+        "star_diff": 3175,
+        "growth_rate": 12.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 29237,
             "forks": 2729,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 29240,
+            "forks": 2730,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "PicGo",
         "html_url": "https:\/\/github.com\/Molunerfinn\/PicGo",
         "language": "TypeScript",
-        "description": "PicGo 是一个用于管理图片上传的工具，主要用于将本地图片快速上传至图床并生成图片链接，支持多种云存储平台，如 GitHub、腾讯云、阿里云等，常用于 Markdown 编辑、博客写作等场景，提升图片资源管理效率。"
+        "description": "PicGo 是一款开源的图床上传与管理工具，主要用于将本地图片快速上传到各类图床服务，并自动生成可用的链接。它支持七牛、腾讯云、阿里云、GitHub 等多种常用图床，也能通过插件扩展更多平台。典型使用场景包括写作、博客编辑、Markdown 文档撰写时批量上传图片并获取外链，适合需要频繁管理图片资源的开发者和内容创作者。软件提供桌面客户端和命令行方式，操作简单，能有效解决图片存储和链接管理的问题。"
     },
     "summary": {
         "initial_stars": 25338,
-        "current_stars": 26968,
-        "star_diff": 1630,
-        "growth_rate": 6.43,
+        "current_stars": 26969,
+        "star_diff": 1631,
+        "growth_rate": 6.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 26968,
             "forks": 2327,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26969,
+            "forks": 2327,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

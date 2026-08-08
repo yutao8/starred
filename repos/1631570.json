@@ -6,16 +6,16 @@
         "name": "PHP-Parser",
         "html_url": "https:\/\/github.com\/nikic\/PHP-Parser",
         "language": "PHP",
-        "description": "一个用PHP编写的PHP解析器，能够将PHP源代码转换为抽象语法树（AST），便于静态分析、代码重构和代码生成，适用于开发PHP工具如检查器、优化器和转换器，支持PHP 5到PHP 8语法，提供清晰的API操作AST节点。"
+        "description": "PHP-Parser 是一个用 PHP 编写的 PHP 解析器，能够将 PHP 源码解析为抽象语法树（AST），并支持从 AST 重新生成代码。它通常用于静态分析、代码重构、代码美化、自动化代码修改以及自定义代码规则检查等开发工具场景。该库提供了词法分析、语法解析、节点遍历与修改等核心能力，适合需要深入理解和转换 PHP 代码的开发者使用，是构建 PHP 静态分析工具的基础组件。"
     },
     "summary": {
         "initial_stars": 17277,
-        "current_stars": 17452,
-        "star_diff": 175,
-        "growth_rate": 1.01,
+        "current_stars": 17450,
+        "star_diff": 173,
+        "growth_rate": 1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 171
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 172
     },
     "history": [
         {
@@ -1214,6 +1214,13 @@
             "stars": 17452,
             "forks": 1132,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17450,
+            "forks": 1132,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

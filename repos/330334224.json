@@ -6,16 +6,16 @@
         "name": "fluent-reader-lite",
         "html_url": "https:\/\/github.com\/yang991178\/fluent-reader-lite",
         "language": "Dart",
-        "description": "Fluent Reader Lite 是一个轻量级的开源新闻阅读器，主要用于订阅和浏览 RSS 源，支持简洁的用户界面和跨平台使用，适合追求高效阅读和信息聚合的用户。"
+        "description": "用于 RSS 订阅和阅读的轻量级客户端，作为 Fluent Reader 的简化版，主要面向追求低资源消耗和快速启动的用户。它保留订阅、更新、阅读等核心功能，去除了部分非必要特性，适合日常集中管理博客或新闻源。技术生态上可能采用比 Electron 更紧凑的桌面实现方案，但具体技术栈与功能细节需以仓库源码为准。"
     },
     "summary": {
         "initial_stars": 1551,
-        "current_stars": 1761,
-        "star_diff": 210,
-        "growth_rate": 13.54,
+        "current_stars": 1762,
+        "star_diff": 211,
+        "growth_rate": 13.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 140
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 141
     },
     "history": [
         {
@@ -997,6 +997,13 @@
             "stars": 1761,
             "forks": 103,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1762,
+            "forks": 103,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

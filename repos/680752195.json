@@ -6,16 +6,16 @@
         "name": "94list",
         "html_url": "https:\/\/github.com\/codehub666\/94list",
         "language": "PHP",
-        "description": "一个开源的列表管理工具，主要用于高效组织和展示各类数据列表，支持自定义配置与扩展，适用于需要动态维护信息列表的场景，如资源导航、任务管理或内容聚合，基于现代 Web 技术构建，便于部署和集成。"
+        "description": "94list 以列表形式聚合和展示网络资源，核心功能是把常用链接、工具或内容按类别整理成清单，方便快速访问和分享。它常被用作个人收藏夹、导航站或资源索引，主要解决信息分散、链接易忘、分享不便等问题。列表结构简单，维护成本低，适合个人或小团队持续更新，也可配合静态页面生成工具呈现，典型场景包括资源导航、网址大全和内容聚合。"
     },
     "summary": {
         "initial_stars": 1828,
-        "current_stars": 1796,
-        "star_diff": -32,
-        "growth_rate": -1.75,
+        "current_stars": 1795,
+        "star_diff": -33,
+        "growth_rate": -1.81,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 106
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 107
     },
     "history": [
         {
@@ -759,6 +759,13 @@
             "stars": 1796,
             "forks": 309,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1795,
+            "forks": 309,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

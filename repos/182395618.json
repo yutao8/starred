@@ -6,16 +6,16 @@
         "name": "vxe-table",
         "html_url": "https:\/\/github.com\/x-extends\/vxe-table",
         "language": "TypeScript",
-        "description": "基于 Vue 的表格组件扩展库，主要用于增强 vxe-table 的功能，提供更丰富的表格操作、编辑能力及性能优化，适合需要处理复杂数据展示与交互的企业级后台应用。"
+        "description": "vxe-table 是一款面向 Vue 生态的高性能表格组件库，主要用于解决后台管理系统和数据密集型页面中的复杂表格呈现与操作问题。它提供丰富的表格功能，包括大数据量下的虚拟滚动渲染、列宽拖拽、排序、筛选、行编辑、树形结构及分页等，适合需要兼顾性能与交互体验的业务场景。组件设计上力求配置灵活、功能集成度高，通常适合与 Vue 2 或 Vue 3 构建的项目配合使用，帮助开发者降低表格功能的开发成本，提升数据展示与操作效率。"
     },
     "summary": {
         "initial_stars": 8175,
-        "current_stars": 8608,
-        "star_diff": 433,
-        "growth_rate": 5.3,
+        "current_stars": 8610,
+        "star_diff": 435,
+        "growth_rate": 5.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 172
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 173
     },
     "history": [
         {
@@ -1221,6 +1221,13 @@
             "stars": 8608,
             "forks": 1146,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8610,
+            "forks": 1146,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

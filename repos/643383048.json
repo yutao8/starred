@@ -6,7 +6,7 @@
         "name": "trzsz-ssh",
         "html_url": "https:\/\/github.com\/trzsz\/trzsz-ssh",
         "language": "Go",
-        "description": "trzsz-ssh 是一个支持批量主机管理的 SSH 客户端工具，主要用于简化多台远程服务器的并发操作，适合运维人员进行批量命令执行、文件同步等任务，提升远程管理效率。"
+        "description": "trzsz-ssh 专为远程服务器管理设计，在标准 SSH 基础上集成 trzsz 文件传输，终端里即可通过 rz 和 sz 命令上传下载文件，免去单独使用 scp 或 sftp 的麻烦。通常适合频繁与远程主机交换文件的开发者和运维人员，也可作为传统 lrzsz 的现代替代，兼顾简洁与交互体验。"
     },
     "summary": {
         "initial_stars": 2142,

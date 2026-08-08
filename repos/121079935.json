@@ -6,16 +6,16 @@
         "name": "form-create",
         "html_url": "https:\/\/github.com\/xaboy\/form-create",
         "language": "JavaScript",
-        "description": "form-create 是一个基于 Vue 的表单生成器，通过 JSON 配置快速生成动态表单，支持自定义组件、表单验证和复杂布局，主要用于简化前端表单开发流程，提升表单构建效率。"
+        "description": "form-create 是一个基于 Vue 的动态表单生成与设计工具，支持通过 JSON 配置快速构建复杂表单，并提供可视化拖拽设计器，适用于后台管理系统、数据录入页面以及需要动态渲染表单的场景，可有效减少重复代码并提升表单开发效率。"
     },
     "summary": {
         "initial_stars": 6617,
-        "current_stars": 7085,
-        "star_diff": 468,
-        "growth_rate": 7.07,
+        "current_stars": 7086,
+        "star_diff": 469,
+        "growth_rate": 7.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 176
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 177
     },
     "history": [
         {
@@ -1249,6 +1249,13 @@
             "stars": 7085,
             "forks": 1099,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7086,
+            "forks": 1099,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

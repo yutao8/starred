@@ -6,7 +6,7 @@
         "name": "deploy",
         "html_url": "https:\/\/github.com\/Aurora-Admin-Panel\/deploy",
         "language": "Shell",
-        "description": "Aurora Admin Panel 的部署配置用于快速搭建现代化管理后台，支持 Docker 容器化部署与 Nginx 反向代理，结合 CI\/CD 实现自动化发布，确保高可用性与安全性，适合前后端分离架构的项目上线运行。"
+        "description": "提供 Aurora 管理后台的自动化部署方案与运维配置，主要面向需要快速搭建或更新该后台的环境。通过预置的部署脚本与容器化支持，简化从仓库代码到运行服务的完整流程，覆盖开发、测试和生成环境的常见需求。适合团队内部统一部署标准、减少手工操作失误，也适合与持续集成流程结合，实现提交后自动发布。通常涉及服务器配置、依赖安装和进程管理，帮助运维或开发人员更稳定地维护 Aurora 管理面板。"
     },
     "summary": {
         "initial_stars": 1828,
@@ -14,8 +14,8 @@
         "star_diff": 162,
         "growth_rate": 8.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 151
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 152
     },
     "history": [
         {
@@ -1074,6 +1074,13 @@
             "stars": 1990,
             "forks": 526,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1990,
+            "forks": 525,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

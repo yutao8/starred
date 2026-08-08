@@ -6,16 +6,16 @@
         "name": "AriaNg",
         "html_url": "https:\/\/github.com\/mayswind\/AriaNg",
         "language": "JavaScript",
-        "description": "AriaNg 是一个现代化的 Aria2 客户端前端，主要用于通过 Web 界面管理和监控 Aria2 下载任务，支持多种功能如文件浏览、任务排序、主题切换和跨平台部署，适合需要图形化操作 Aria2 的用户。"
+        "description": "AriaNg 是为 Aria2 下载工具打造的现代化 Web 前端，用户通过浏览器即可全面管理 Aria2 下载任务。它无需安装原生客户端，只需部署静态页面或直接打开 HTML 文件，支持在桌面和移动设备上访问。界面清晰展示下载速率、进度、剩余时间等信息，并支持添加磁力链接、HTTP\/FTP 链接，以及管理多服务器连接。适合需要远程控制下载、或偏好图形化操作而非命令行的情况。项目基于 JavaScript 开发，轻量且响应快速，广泛用于 NAS、软路由及个人电脑上的 Aria2 图形化管理。"
     },
     "summary": {
         "initial_stars": 12357,
-        "current_stars": 13144,
-        "star_diff": 787,
-        "growth_rate": 6.37,
+        "current_stars": 13147,
+        "star_diff": 790,
+        "growth_rate": 6.39,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 13144,
             "forks": 1358,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13147,
+            "forks": 1360,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

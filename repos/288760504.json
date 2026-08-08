@@ -6,7 +6,7 @@
         "name": "get-bduss",
         "html_url": "https:\/\/github.com\/BANKA2017\/get-bduss",
         "language": "HTML",
-        "description": "通过分析网页请求自动获取百度账号的BDUSS凭证，常用于批量管理百度系应用登录状态，需配合有效账号信息使用，存在封号风险请谨慎操作。"
+        "description": "获取百度账号登录凭证 BDUSS 的小工具，便于在命令行或脚本中自动完成百度系列服务的身份认证，适合需要频繁登录百度贴吧、网盘等场景的用户。通常通过模拟登录流程或抓取 Cookie 来提取关键字段，以配合后续 API 调用或数据抓取任务使用。"
     },
     "summary": {
         "initial_stars": 36,

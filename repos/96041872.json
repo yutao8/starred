@@ -6,7 +6,7 @@
         "name": "image-optimizer",
         "html_url": "https:\/\/github.com\/spatie\/image-optimizer",
         "language": "PHP",
-        "description": "用于自动优化图像文件大小的 PHP 库，支持多种图像格式和优化工具，可在不损失视觉质量的前提下减小图片体积，适合在 Laravel 等 PHP 项目中集成使用，提升网页加载性能。"
+        "description": "用于自动压缩和优化图片的PHP工具包，通常集成在Laravel等PHP项目中。它调用jpegoptim、optipng、pngquant等外部优化工具，在保持视觉质量的前提下显著减小JPEG、PNG、SVG等格式文件的体积，从而加快网页加载速度并节省存储空间。适合处理用户上传的图片，可以批量优化或按需优化，常用于内容管理系统、电商网站或任何需要处理图像的Web应用。通过简单的API即可将优化步骤嵌入现有流程，但需要服务器预先安装相应的优化工具。"
     },
     "summary": {
         "initial_stars": 2814,

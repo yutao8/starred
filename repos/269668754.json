@@ -6,16 +6,16 @@
         "name": "src.next",
         "html_url": "https:\/\/github.com\/kiwibrowser\/src.next",
         "language": "C++",
-        "description": "Kiwi Browser 是基于 Chromium 开源项目开发的 Android 浏览器，注重隐私保护与高性能体验，支持广告拦截、夜间模式、来去无痕浏览等特性，同时兼容 Chrome 扩展程序，提供流畅且安全的网页浏览服务，主要面向追求自定义与隐私安全的移动用户。"
+        "description": "kiwibrowser\/src.next 是 Kiwi 浏览器的一个开发分支源码仓库，Kiwi 浏览器是一款基于 Chromium 内核的安卓端浏览器，其最大特色是完整支持桌面版 Chrome 扩展程序，用户可以直接安装广告拦截、脚本管理、密码管理等各类扩展，极大拓展了移动浏览器的功能边界。它同时保留了 Chromium 的快速渲染能力和现代 Web 标准兼容性，并针对移动设备进行了触摸交互和界面优化。该项目适合希望深入定制移动浏览器行为、研究 Chromium 在安卓上的移植实现，或需要在实际移动环境中运行桌面扩展的用户。由于是开发分支，其中可能包含尚未合并到稳定版的实验性特性。"
     },
     "summary": {
         "initial_stars": 2979,
-        "current_stars": 3928,
-        "star_diff": 949,
-        "growth_rate": 31.86,
+        "current_stars": 3931,
+        "star_diff": 952,
+        "growth_rate": 31.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 3928,
             "forks": 686,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3931,
+            "forks": 686,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

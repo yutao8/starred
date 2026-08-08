@@ -6,16 +6,16 @@
         "name": "one-api",
         "html_url": "https:\/\/github.com\/songquanpeng\/one-api",
         "language": "JavaScript",
-        "description": "一个用于统一管理多个 API 服务的开源工具，支持多用户、多渠道、流量统计与计费功能，可部署在私有服务器上，便于对接和管理如 OpenAI、Anthropic 等大模型 API，适用于团队或企业级 API 调度与权限控制场景。"
+        "description": "one-api 是一个 OpenAI 接口管理与分发系统，主要用于聚合多个 AI 渠道（如 OpenAI、Azure、各种第三方代理）的 API 密钥，通过统一入口对外提供兼容 OpenAI 格式的接口。它支持多租户管理、令牌额度控制、用量统计和渠道负载均衡，适合需要集中管理大模型调用、为多个用户或项目分配配额、降低密钥泄露风险的后端开发场景。部署后可将不同模型供应商的 API 整合为一个可监控、可计费的网关服务。"
     },
     "summary": {
         "initial_stars": 25883,
-        "current_stars": 36235,
-        "star_diff": 10352,
-        "growth_rate": 40,
+        "current_stars": 36257,
+        "star_diff": 10374,
+        "growth_rate": 40.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 36235,
             "forks": 6785,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 36257,
+            "forks": 6788,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "blind_watermark",
         "html_url": "https:\/\/github.com\/guofei9987\/blind_watermark",
         "language": "Python",
-        "description": "一个基于频域变换的Python盲水印库，主要用于在图片中嵌入不可见的水印信息，支持水印的嵌入与提取，适用于版权保护和数据防泄露场景，通过DCT或DWT变换将水印信息隐藏在图像中，具备一定的抗压缩和抗裁剪能力。"
+        "description": "用于给数字图像添加盲水印的Python工具，能将文字或图片作为不可见信息写入图像，即使图片被裁剪、缩放或部分破坏，仍能提取出水印，主要用于图片版权保护、原创溯源和防盗图场景。基于Python生态，接口简洁，适合自媒体和开发者快速集成到内容安全流程中。"
     },
     "summary": {
         "initial_stars": 6497,
-        "current_stars": 14323,
-        "star_diff": 7826,
-        "growth_rate": 120.46,
+        "current_stars": 14524,
+        "star_diff": 8027,
+        "growth_rate": 123.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 14323,
             "forks": 1420,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14524,
+            "forks": 1441,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

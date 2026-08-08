@@ -6,16 +6,16 @@
         "name": "Carbon",
         "html_url": "https:\/\/github.com\/briannesbitt\/Carbon",
         "language": "PHP",
-        "description": "Carbon 是一个用于处理日期和时间的 PHP 库，主要用于简化日期的创建、格式化、计算和国际化操作。它扩展了 PHP 的 DateTime 类，提供了更直观的 API，适合处理时区、日期计算和人类可读的时间显示。"
+        "description": "Carbon 是 PHP 生态中广泛使用的日期时间处理库，基于原生 DateTime 强化而来。它提供语义化方法，可简洁地解析、格式化、比较和修改日期时间，支持直接增减日、月、年，计算两个时刻的差值，并以“刚刚”“3天前”等自然语言展示相对时间。同时具备完善的时区设置与转换能力，适用于多时区业务场景。常用于 Web 应用的日程安排、数据统计周期、任务调度及用户活动时间展示，尤其适合 Laravel、Symfony 等框架项目，能大幅简化原本繁琐的时间运算代码，是 PHP 开发中处理时间逻辑的实用工具。"
     },
     "summary": {
         "initial_stars": 16634,
-        "current_stars": 16611,
-        "star_diff": -23,
+        "current_stars": 16610,
+        "star_diff": -24,
         "growth_rate": -0.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 139
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 140
     },
     "history": [
         {
@@ -990,6 +990,13 @@
             "stars": 16611,
             "forks": 1287,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16610,
+            "forks": 1287,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

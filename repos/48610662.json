@@ -6,16 +6,16 @@
         "name": "acme.sh",
         "html_url": "https:\/\/github.com\/acmesh-official\/acme.sh",
         "language": "Shell",
-        "description": "acme.sh 是一个用 Shell 编写的 ACME 协议客户端，用于自动申请、续期和管理 SSL\/TLS 证书。它支持通过多种验证方式（如 HTTP、DNS）与 Let's Encrypt 等证书颁发机构交互，适用于 Nginx、Apache 等服务器，可部署在各类 Unix 系统上，轻量高效，无需额外依赖。"
+        "description": "用于自动获取和续期SSL\/TLS证书的ACME协议客户端，以纯Shell脚本实现，无需额外依赖。它主要帮助服务器管理员和个人开发者从Let's Encrypt等免费证书颁发机构自动申请、安装和续期证书，支持HTTP和DNS两种验证方式，并能与常用Web服务器集成。通过定时任务，可确保证书在过期前自动更新，解决手动管理证书繁琐且易忘记续期的痛点。通常适用于部署HTTPS服务的Linux服务器或嵌入式环境。"
     },
     "summary": {
         "initial_stars": 43145,
-        "current_stars": 47418,
-        "star_diff": 4273,
-        "growth_rate": 9.9,
+        "current_stars": 47431,
+        "star_diff": 4286,
+        "growth_rate": 9.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 47418,
             "forks": 5652,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 47431,
+            "forks": 5653,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

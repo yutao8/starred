@@ -6,16 +6,16 @@
         "name": "LocationSimulator",
         "html_url": "https:\/\/github.com\/Schlaubischlump\/LocationSimulator",
         "language": "Swift",
-        "description": "LocationSimulator 是一个用于模拟地理位置的工具，主要用于测试依赖 GPS 定位的应用程序。它可在无需真实移动设备的情况下伪造位置信息，支持自定义坐标、路线回放和地理围栏测试，适用于开发和调试基于位置的服务（LBS）功能，帮助开发者高效验证应用在不同地理场景下的行为表现。"
+        "description": "用于在macOS上模拟iOS模拟器GPS位置的辅助工具，面向移动应用开发者。通过它可以在Xcode内置模拟器中随意改变定位，方便测试地图导航、位置打卡、周边搜索等依赖位置的功能。支持直接输入经纬度或搜索地点，也能模拟沿路线移动和设定步行、骑行、驾车等速度，让开发者在真机之外便捷地调试位置相关行为。无需修改项目代码即可实时生效，适合开发早期和回归测试使用。该工具常与Xcode配合，减轻位置类App的测试成本。"
     },
     "summary": {
         "initial_stars": 2690,
-        "current_stars": 3074,
-        "star_diff": 384,
-        "growth_rate": 14.28,
+        "current_stars": 3075,
+        "star_diff": 385,
+        "growth_rate": 14.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 162
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 163
     },
     "history": [
         {
@@ -1151,6 +1151,13 @@
             "stars": 3074,
             "forks": 233,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3075,
+            "forks": 233,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

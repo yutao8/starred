@@ -6,7 +6,7 @@
         "name": "php-domain-parser",
         "html_url": "https:\/\/github.com\/jeremykendall\/php-domain-parser",
         "language": "PHP",
-        "description": "基于 PSL (Public Suffix List) 提供域名解析功能，可从 URL 中提取注册域名、子域名和顶级域名，主要用于分析和验证网络地址结构，适合需要处理域名信息的应用场景。"
+        "description": "用于从URL或域名中提取注册域名的PHP库，基于公共后缀列表实现精确解析，能自动识别并剥离子域名与公共后缀，还原出可注册的主域部分。常见于域名安全分析、URL清洗、Cookie作用域判断、站点聚合等需要把不同子域名归并到同一主域名的场景，适合PHP生态中处理域名拆分与匹配的需求。"
     },
     "summary": {
         "initial_stars": 1199,

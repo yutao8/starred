@@ -6,16 +6,16 @@
         "name": "xpay",
         "html_url": "https:\/\/github.com\/Exrick\/xpay",
         "language": "Java",
-        "description": "XPay 是一个开源的聚合支付系统，主要面向开发者和企业，用于快速接入多种支付渠道（如支付宝、微信支付等）。它提供统一的 API 接口，支持支付、退款、对账等功能，简化多渠道支付整合的复杂度，适用于需要自建支付网关的场景，具备较高的可扩展性和安全性。"
+        "description": "Xpay 是一个面向开发者的支付系统解决方案，主要用于集成和管理多种在线支付渠道，帮助电商平台或商户快速接入支付功能。它通常包含订单处理、支付回调、退款、对账等核心模块，支持常见的第三方支付平台，适合需要自建支付服务或统一管理支付流程的业务场景。项目基于 Java 技术栈开发，结构清晰，便于二次开发和部署，能够降低支付集成的复杂度，提升交易环节的可靠性。"
     },
     "summary": {
         "initial_stars": 4990,
-        "current_stars": 5281,
-        "star_diff": 291,
-        "growth_rate": 5.83,
+        "current_stars": 5282,
+        "star_diff": 292,
+        "growth_rate": 5.85,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 164
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 165
     },
     "history": [
         {
@@ -1165,6 +1165,13 @@
             "stars": 5281,
             "forks": 1125,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5282,
+            "forks": 1125,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

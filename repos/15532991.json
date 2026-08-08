@@ -6,16 +6,16 @@
         "name": "bypy",
         "html_url": "https:\/\/github.com\/houtianze\/bypy",
         "language": "Python",
-        "description": "bypy 是一个用 Python 编写的命令行工具，用于与百度网盘进行交互，支持文件上传、下载、同步等操作，方便用户在 Linux 系统中通过脚本管理百度网盘中的数据，弥补了百度网盘无官方 Linux 客户端的不足。"
+        "description": "bypy 是一个用于百度网盘的 Python 命令行客户端，提供上传、下载、同步、列出文件、创建目录等核心操作。它适合需要在服务器或无图形界面环境下管理网盘文件的用户，能通过脚本或定时任务自动完成备份、批量传输和文件同步。该工具基于百度网盘开放 API 构建，支持增量同步和断点续传，通常用于数据备份、远程文件归档以及自动化运维场景，是 Python 生态中较为常用的网盘命令行工具。"
     },
     "summary": {
         "initial_stars": 8287,
-        "current_stars": 8570,
-        "star_diff": 283,
-        "growth_rate": 3.41,
+        "current_stars": 8571,
+        "star_diff": 284,
+        "growth_rate": 3.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 8570,
             "forks": 1410,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8571,
+            "forks": 1410,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

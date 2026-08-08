@@ -6,16 +6,16 @@
         "name": "lucky",
         "html_url": "https:\/\/github.com\/gdy666\/lucky",
         "language": "Go",
-        "description": "lucky 是一个基于 Go 语言开发的轻量级 Web 应用框架，主要用于快速构建高性能的 Web 服务和 API 接口，通常适合中小型项目或需要高并发处理的场景，简化了路由、中间件、请求处理等常见 Web 开发任务。"
+        "description": "一款基于 Go 语言的网络工具，主要用于端口转发、内网穿透和动态域名解析，适合需要远程访问家庭或办公内网服务的场景。它通常提供 Web 管理界面，支持多种协议和灵活的路由规则，可帮助用户在没有公网 IP 的情况下稳定暴露本地服务，常用于搭建个人服务器、NAS 远程访问或游戏联机。配置相对简单，常见于自建网络环境的辅助工具中。"
     },
     "summary": {
         "initial_stars": 5898,
-        "current_stars": 8014,
-        "star_diff": 2116,
-        "growth_rate": 35.88,
+        "current_stars": 8019,
+        "star_diff": 2121,
+        "growth_rate": 35.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 8014,
             "forks": 728,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8019,
+            "forks": 728,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

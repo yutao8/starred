@@ -6,7 +6,7 @@
         "name": "electron-webview",
         "html_url": "https:\/\/github.com\/cba85\/electron-webview",
         "language": "JavaScript",
-        "description": "基于 Electron 实现的多标签页浏览器应用，支持标签页的独立渲染与通信，利用 webview 标签隔离网页内容，实现类似 Chrome 的多标签浏览体验，适用于构建桌面端的浏览器外壳应用。"
+        "description": "该仓库围绕 Electron 的 webview 标签提供使用示例或封装，帮助开发者在桌面应用中嵌入网页内容，并处理页面加载、导航及主进程与嵌入页面的通信。适合需要将远程 Web 界面、在线文档或第三方服务集成到原生桌面壳层的场景，利用 webview 的隔离特性减少安全风险。"
     },
     "summary": {
         "initial_stars": 302,

@@ -6,16 +6,16 @@
         "name": "v2rayNG",
         "html_url": "https:\/\/github.com\/2dust\/v2rayNG",
         "language": "Kotlin",
-        "description": "V2RayNG 是一个基于 V2Ray 核心的 Android 代理客户端，主要用于科学上网，支持 V2Ray 常见的协议如 VMess、VLESS、Trojan 等，提供简洁的图形界面，方便用户配置和管理节点，具备自动代理、路由自定义、DNS 劫持过滤等功能，适合需要网络代理的用户在 Android 设备上使用。"
+        "description": "用于Android设备上的代理客户端，基于V2Ray核心，支持VMess、VLESS等主流传输协议，通过用户自备的服务器地址实现加密通信和访问受限内容。通常适合需要隐私保护、绕过地域封锁或网络审查的场景，使用者可手动添加服务器配置或通过订阅链接批量导入，并灵活切换全局、路由等代理模式。应用内置实时连接状态显示与延迟测试，方便排查网络问题，以开源、轻量、配置灵活为特点，但实际效果取决于用户所配置的服务器可用性与稳定性。"
     },
     "summary": {
         "initial_stars": 42049,
-        "current_stars": 60702,
-        "star_diff": 18653,
-        "growth_rate": 44.36,
+        "current_stars": 60796,
+        "star_diff": 18747,
+        "growth_rate": 44.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 60702,
             "forks": 7891,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 60796,
+            "forks": 7904,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

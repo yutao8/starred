@@ -6,7 +6,7 @@
         "name": "clover",
         "html_url": "https:\/\/github.com\/sqlsec\/clover",
         "language": "Rich Text Format",
-        "description": "Clover 是一个基于 Java 开发的 SQL 安全检测工具，主要用于发现应用程序中的 SQL 注入漏洞。它通过静态代码分析技术，扫描项目源码中与数据库交互的部分，识别潜在的不安全 SQL 拼接操作，并提供漏洞定位与修复建议，适用于企业安全审计和开发自检。"
+        "description": "面向黑苹果引导场景，围绕Clover引导器整理了一批配置模板和实用脚本，主要解决macOS在非苹果硬件上的启动、驱动加载及多系统引导问题。通常提供不同机型或板卡的EFI设置参考，并附有调整和排障指引，适合需要借助Clover完成系统安装、维护或个性化启动项的玩家和开发者。"
     },
     "summary": {
         "initial_stars": 1352,
@@ -14,8 +14,8 @@
         "star_diff": -8,
         "growth_rate": -0.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 45
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 46
     },
     "history": [
         {
@@ -332,6 +332,13 @@
             "stars": 1344,
             "forks": 589,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1344,
+            "forks": 588,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

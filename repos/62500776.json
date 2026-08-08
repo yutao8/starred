@@ -6,16 +6,16 @@
         "name": "cerebro",
         "html_url": "https:\/\/github.com\/cerebroapp\/cerebro",
         "language": "JavaScript",
-        "description": "Cerebro 是一个开源的 Electron 应用程序启动器，主要用于快速启动和搜索应用程序、文件、书签及执行自定义命令，支持插件扩展和全局快捷键唤醒，适用于 macOS 和 Linux 平台，注重极简操作与开发者友好性。"
+        "description": "Cerebro 是一款开源的桌面启动器，主要用于快速搜索和启动本地应用、文件、网页及系统命令，类似于 Alfred 或 Spotlight。它支持通过快捷键唤起输入框，实时模糊匹配并执行常见操作，适合追求高效率工作流的用户。Cerebro 提供插件机制，可扩展翻译、计算、剪贴板管理等能力，也能与常用开发者工具集成，帮助减少鼠标点击，提升日常操作效率。"
     },
     "summary": {
         "initial_stars": 8469,
-        "current_stars": 8553,
-        "star_diff": 84,
-        "growth_rate": 0.99,
+        "current_stars": 8555,
+        "star_diff": 86,
+        "growth_rate": 1.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 140
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 141
     },
     "history": [
         {
@@ -997,6 +997,13 @@
             "stars": 8553,
             "forks": 455,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8555,
+            "forks": 456,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

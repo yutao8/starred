@@ -6,16 +6,16 @@
         "name": "ChinaIPTV",
         "html_url": "https:\/\/github.com\/hujingguang\/ChinaIPTV",
         "language": "Other",
-        "description": "提供中国大陆地区的IPTV频道直播源，主要用于网络电视设备或播放软件中观看实时电视频道，包含多个常见卫视频道和地方台，适合家庭娱乐或信息获取场景下的流媒体播放需求。"
+        "description": "用于整理和分享国内电视频道直播源，提供可直接导入播放器的 M3U 或 TXT 格式的 IPTV 地址列表，涵盖央视、卫视及地方频道。适合在 Kodi、VLC、PotPlayer 等支持网络串流的播放器中打开，解决寻找稳定、免费直播源的问题。用户可定期获取更新，也便于自行筛选与打包。"
     },
     "summary": {
         "initial_stars": 1334,
-        "current_stars": 2022,
-        "star_diff": 688,
-        "growth_rate": 51.57,
+        "current_stars": 2024,
+        "star_diff": 690,
+        "growth_rate": 51.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 2022,
             "forks": 237,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2024,
+            "forks": 237,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

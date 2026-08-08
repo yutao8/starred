@@ -6,16 +6,16 @@
         "name": "RegionRestrictionCheck",
         "html_url": "https:\/\/github.com\/lmc999\/RegionRestrictionCheck",
         "language": "Shell",
-        "description": "用于检测和绕过 YouTube 等平台的区域限制，通过自动化脚本检查视频可播放区域，并提供解除地理封锁的解决方案，帮助用户访问受地域限制的内容。"
+        "description": "用于检测服务器 IP 对主流流媒体服务解锁情况的脚本，覆盖 Netflix、Disney+、HBO Max 等众多平台，可检查是否有版权限制或地区锁定。适合 VPS 用户、代理服务提供者快速评估节点能否观看特定区域内容，辅助选择服务器或排查解锁失效问题。脚本基于 bash，简单易用，通过远程执行即可获得清晰的区域检测结果。"
     },
     "summary": {
         "initial_stars": 4469,
-        "current_stars": 5106,
-        "star_diff": 637,
-        "growth_rate": 14.25,
+        "current_stars": 5108,
+        "star_diff": 639,
+        "growth_rate": 14.3,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 5106,
             "forks": 601,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5108,
+            "forks": 601,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

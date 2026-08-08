@@ -6,16 +6,16 @@
         "name": "linuxdeploy",
         "html_url": "https:\/\/github.com\/meefik\/linuxdeploy",
         "language": "Java",
-        "description": "用于创建便携式 Linux 应用程序的轻量级部署工具，支持自定义根文件系统、应用封装及跨发行版兼容运行，通常适合将应用程序及其依赖打包为自包含的目录或压缩包以便分发和执行。"
+        "description": "用于在 Android 设备上部署和运行 Linux 发行版的开源工具，通过 chroot 机制创建独立环境，支持 Debian、Ubuntu、Arch Linux 等多种主流发行版。通常需要 root 权限，安装后可在手机或平板上启动 Linux 命令行环境，并可配置 VNC 或 SSH 服务，实现远程访问和图形界面操作。适合开发者、极客或需要将移动设备用作便携 Linux 服务器的用户。"
     },
     "summary": {
         "initial_stars": 5535,
-        "current_stars": 5897,
-        "star_diff": 362,
-        "growth_rate": 6.54,
+        "current_stars": 5898,
+        "star_diff": 363,
+        "growth_rate": 6.56,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 5897,
             "forks": 735,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5898,
+            "forks": 736,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

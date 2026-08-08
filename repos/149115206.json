@@ -6,16 +6,16 @@
         "name": "piping-server",
         "html_url": "https:\/\/github.com\/nwtgck\/piping-server",
         "language": "TypeScript",
-        "description": "Piping Server 是一个允许用户通过 HTTP 直接传输文件或消息的轻量级服务，每次传输生成唯一 URL，支持多语言客户端，常用于临时文件分享、自动化流水线数据传递等场景，部署简单且无依赖。"
+        "description": "用于在设备间通过HTTP直接安全传输流式数据的开源工具，无需注册、安装客户端或依赖中间存储。它借鉴Linux管道概念，发送端将数据推送到自定义URL，接收端同时从该URL拉取，形成实时一对一传输通道。典型场景包括跨网络分享大文件、临时传输密钥或日志，以及在内网自建隐私优先的传输服务。服务端可部署在低资源设备上，协议简单，可配合HTTPS加密，适合对数据隐私和自主可控有要求的技术用户。"
     },
     "summary": {
         "initial_stars": 3067,
-        "current_stars": 3153,
-        "star_diff": 86,
-        "growth_rate": 2.8,
+        "current_stars": 3154,
+        "star_diff": 87,
+        "growth_rate": 2.84,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 92
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 93
     },
     "history": [
         {
@@ -661,6 +661,13 @@
             "stars": 3153,
             "forks": 167,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3154,
+            "forks": 167,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

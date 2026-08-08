@@ -6,7 +6,7 @@
         "name": "SublimeText-Package-Syncing",
         "html_url": "https:\/\/github.com\/csch0\/SublimeText-Package-Syncing",
         "language": "Python",
-        "description": "用于在 Sublime Text 编辑器中同步已安装的插件、配置和设置，支持通过 Git 或其他方式备份和恢复环境，方便跨设备同步开发配置，提升工作效率。"
+        "description": "用于同步Sublime Text编辑器的插件包和用户配置，解决多台设备间开发环境不一致的问题。通常适合将Sublime的Packages目录及设置文件纳入版本控制或云存储，在更换电脑或重装系统后快速恢复完整的编辑环境。核心功能包括配置文件的上传、下载与合并，确保不同机器上的插件版本和偏好设置保持一致。适用于频繁在多设备切换的开发者，便于维护统一的Sublime Text使用体验。"
     },
     "summary": {
         "initial_stars": 212,

@@ -6,16 +6,16 @@
         "name": "ddns-go",
         "html_url": "https:\/\/github.com\/jeessy2\/ddns-go",
         "language": "Go",
-        "description": "ddns-go 是一个基于 Go 语言开发的轻量级动态域名解析（DDNS）工具，主要用于将动态公网 IP 地址自动更新到域名解析记录中，支持主流云服务商的 DNS API，适合自建服务器、家庭宽带等场景实现域名动态解析。"
+        "description": "DDNS-GO 是一个基于 Go 语言编写的动态域名解析工具，用于在家庭宽带或服务器公网 IP 发生变化时，自动更新域名解析记录，确保域名始终指向最新 IP。它支持阿里云、腾讯云、Cloudflare、华为云等主流 DNS 服务商，并兼容 IPv4 和 IPv6。用户只需在 Web 界面中配置账号密钥和域名，即可实现无人值守的自动同步。该工具尤其适合需要远程访问家里设备、搭建个人服务器或开展自托管服务的用户，解决了使用固定公网 IP 成本高、手动更新麻烦的问题。程序轻量易部署，支持多种操作系统，安装后常驻后台运行。"
     },
     "summary": {
         "initial_stars": 14609,
-        "current_stars": 17169,
-        "star_diff": 2560,
-        "growth_rate": 17.52,
+        "current_stars": 17180,
+        "star_diff": 2571,
+        "growth_rate": 17.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 17169,
             "forks": 1866,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17180,
+            "forks": 1867,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

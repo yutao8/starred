@@ -6,16 +6,16 @@
         "name": "virtual-dsm",
         "html_url": "https:\/\/github.com\/vdsm\/virtual-dsm",
         "language": "Shell",
-        "description": "VDSM（Virtual Desktop Service Manager）是一个用于管理和监控虚拟桌面基础设施的工具，主要用于部署、配置和维护虚拟机实例，支持与云计算平台集成，提供资源调度、网络管理和存储配置等功能，通常作为后端服务用于虚拟化环境的自动化运维。"
+        "description": "用于在虚拟化环境中运行群晖 DSM 系统的工具，通常借助 QEMU 模拟硬件，并以容器方式封装，便于用户在没有物理群晖设备时体验或测试 DSM 功能。典型场景包括开发调试、应用兼容性验证，以及快速搭建虚拟 NAS 环境。主要用于解决实体设备成本高、不易获取的问题，适合个人用户或小团队在本地服务器上模拟运行群晖系统。该工具一般需要配合 Docker 使用，并依赖宿主机 KVM 等虚拟化能力来获得较好性能。"
     },
     "summary": {
         "initial_stars": 3241,
-        "current_stars": 3941,
-        "star_diff": 700,
-        "growth_rate": 21.6,
+        "current_stars": 3942,
+        "star_diff": 701,
+        "growth_rate": 21.63,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 3941,
             "forks": 487,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3942,
+            "forks": 487,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

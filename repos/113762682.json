@@ -6,7 +6,7 @@
         "name": "php-decoder",
         "html_url": "https:\/\/github.com\/CaledoniaProject\/php-decoder",
         "language": "Other",
-        "description": "用于解码和分析 PHP 编码内容的工具，主要用于还原混淆的 PHP 代码，辅助安全审计与漏洞检测，支持常见编码方式的识别与解密，便于开发者或安全人员快速查看原始逻辑。"
+        "description": "用于还原被混淆或加密的 PHP 源代码，帮助开发者分析未知或恶意脚本的逻辑。通常适合安全研究人员在审计 Webshell、破解加密扩展或恢复丢失源码时使用，也适用于理解第三方加密组件的实现方式。工具会解析 PHP 语法并尝试逆向常见的编码与混淆模式，最终输出可读性较好的明文代码。主要面向命令行操作，适合集成到自动化分析流程中。"
     },
     "summary": {
         "initial_stars": 28,

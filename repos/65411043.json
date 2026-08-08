@@ -6,16 +6,16 @@
         "name": "Kap",
         "html_url": "https:\/\/github.com\/wulkano\/Kap",
         "language": "TypeScript",
-        "description": "Kap 是一款开源的屏幕录制工具，主要用于 macOS 系统上的高质量录屏和 GIF 制作。它支持多种视频导出格式，提供简洁直观的用户界面，可自定义录制区域、摄像头叠加和系统音频捕捉，适合开发者、设计师快速创建演示内容或分享操作流程。"
+        "description": "Kap 是一款面向 macOS 的免费开源屏幕录制工具，主要用于快速捕获屏幕操作并导出为 GIF、MP4、WebM 等常见格式。它支持选择区域、录制窗口或整个屏幕，并提供裁剪、标注和调整尺寸等基础编辑功能。通过插件机制可以扩展输出方式和分享流程，适合制作产品演示、Bug 报告、教学资料或社交网络动图。整体体验轻量专注，常被开发者、设计师和内容创作者使用。"
     },
     "summary": {
         "initial_stars": 18663,
-        "current_stars": 19312,
-        "star_diff": 649,
-        "growth_rate": 3.48,
+        "current_stars": 19314,
+        "star_diff": 651,
+        "growth_rate": 3.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 19312,
             "forks": 890,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19314,
+            "forks": 890,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

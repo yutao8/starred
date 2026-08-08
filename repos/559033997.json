@@ -6,16 +6,16 @@
         "name": "autocut",
         "html_url": "https:\/\/github.com\/mli\/autocut",
         "language": "Python",
-        "description": "autocut 是一个用于自动化视频剪辑的工具，主要通过识别音频中的静音段或语音间隔，自动检测并裁剪视频中的无效片段，提升剪辑效率。它适合处理录播内容、访谈、教程等长时间录制的视频，帮助用户快速生成紧凑流畅的成片，支持命令行操作，便于批量处理和集成到工作流中。"
+        "description": "AutoCut 主要用于视频自动剪辑，通过分析字幕或文本来定位有效内容，并生成可直接使用的剪辑片段，省去人工逐段筛选的繁琐过程。它尤其适合处理长视频、课程录制、播客或游戏录像，能够根据文字快速去除静默、停顿或无关内容，常用于快速产出短视频、高光片段或知识类内容。工具依托自然语言处理和文本匹配，帮助创作者高效整理原始素材，降低后期时间成本，适合需要批量处理视频的个体创作者和团队。"
     },
     "summary": {
         "initial_stars": 7263,
-        "current_stars": 7777,
-        "star_diff": 514,
-        "growth_rate": 7.08,
+        "current_stars": 7778,
+        "star_diff": 515,
+        "growth_rate": 7.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 172
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 173
     },
     "history": [
         {
@@ -1221,6 +1221,13 @@
             "stars": 7777,
             "forks": 822,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7778,
+            "forks": 822,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "cow",
         "html_url": "https:\/\/github.com\/cyfdecyf\/cow",
         "language": "Go",
-        "description": "一个基于 Go 语言开发的轻量级代理工具，主要用于网络请求的转发与代理，支持多种网络协议，具备高性能和低资源占用特点，适用于科学上网、内网穿透等场景，配置简单，跨平台兼容，常用于个人用户提升网络访问效率。"
+        "description": "用于网络代理分流，以本地 HTTP 代理方式运行，智能判断目标网站连通性，自动选择直连或走代理，避免全局代理导致国内网站访问缓慢。通常适合需要同时访问国内外网站的用户，如开发或研究人员。基于 Go 语言编写，配置灵活，支持自定义规则和上游代理，占用资源少。"
     },
     "summary": {
         "initial_stars": 8457,
-        "current_stars": 8417,
-        "star_diff": -40,
-        "growth_rate": -0.47,
+        "current_stars": 8416,
+        "star_diff": -41,
+        "growth_rate": -0.48,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 98
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 99
     },
     "history": [
         {
@@ -703,6 +703,13 @@
             "stars": 8417,
             "forks": 1599,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8416,
+            "forks": 1599,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "musicbox",
         "html_url": "https:\/\/github.com\/darknessomi\/musicbox",
         "language": "Python",
-        "description": "网易云音乐命令行版本，支持歌曲搜索、播放、歌单管理等功能，适用于 Linux、macOS 和 Windows，通过终端即可享受音乐，主要用于在无图形界面环境下便捷访问网易云音乐服务，适合开发者和命令行爱好者使用。"
+        "description": "用于在终端中播放和下载网易云音乐的命令行工具，基于Python开发，通过调用公开接口获取音乐资源。支持歌曲搜索、在线播放、歌词显示、歌单管理以及本地下载，并配有简洁的键盘快捷键操作界面。通常适合在无图形界面的服务器、远程终端或轻量环境中使用，能让你在不离开命令行的情况下享受音乐。"
     },
     "summary": {
         "initial_stars": 9842,
-        "current_stars": 9825,
-        "star_diff": -17,
-        "growth_rate": -0.17,
+        "current_stars": 9823,
+        "star_diff": -19,
+        "growth_rate": -0.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 127
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 128
     },
     "history": [
         {
@@ -906,6 +906,13 @@
             "stars": 9825,
             "forks": 1561,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9823,
+            "forks": 1562,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

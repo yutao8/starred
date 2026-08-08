@@ -6,7 +6,7 @@
         "name": "jwt-auth",
         "html_url": "https:\/\/github.com\/tymondesigns\/jwt-auth",
         "language": "PHP",
-        "description": "用于 Laravel 和 Lumen 框架的 JWT（JSON Web Token）认证扩展，支持用户认证和 API 令牌管理，适用于无状态的 RESTful API 开发，提供开箱即用的 token 生成、刷新和黑名单功能。"
+        "description": "为 Laravel 框架提供基于 JSON Web Token（JWT）的无状态认证解决方案，支持用户登录、令牌签发与刷新、注销等核心流程，并集成 Laravel 的认证守卫机制。适用于构建 API 服务、移动端后端或单页应用，需要在不使用传统 Session 的情况下实现安全的用户身份验证。它通常配合 Eloquent 用户模型使用，支持自定义令牌过期时间与用户标识字段，并能无缝切换多认证驱动。适合需要轻量级、可扩展、跨域认证场景的开发者快速实现受保护的资源接口。"
     },
     "summary": {
         "initial_stars": 11408,

@@ -6,16 +6,16 @@
         "name": "echarts-map-demo",
         "html_url": "https:\/\/github.com\/TangSY\/echarts-map-demo",
         "language": "Vue",
-        "description": "基于ECharts实现的地图可视化演示项目，主要用于展示中国各省份或地区数据的地理信息映射，支持自定义地图样式、区域颜色分级、tooltip提示框及点击交互功能，适合用于数据大屏、统计报表等场景下的地理数据动态展示。"
+        "description": "用于演示 ECharts 地图可视化的示例项目，通过简洁的代码展示如何加载地图数据、配置样式并实现基本交互效果。通常适合前端开发者参考学习，用来解决网页中地理数据展示、区域分布统计、自定义地图样式等问题。项目以常用地图示例为主，可帮助快速上手 ECharts 地图组件的实际应用。"
     },
     "summary": {
         "initial_stars": 1971,
-        "current_stars": 2129,
-        "star_diff": 158,
-        "growth_rate": 8.02,
+        "current_stars": 2130,
+        "star_diff": 159,
+        "growth_rate": 8.07,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 127
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 128
     },
     "history": [
         {
@@ -906,6 +906,13 @@
             "stars": 2129,
             "forks": 352,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2130,
+            "forks": 352,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

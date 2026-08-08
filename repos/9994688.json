@@ -6,16 +6,16 @@
         "name": "Scoop",
         "html_url": "https:\/\/github.com\/ScoopInstaller\/Scoop",
         "language": "PowerShell",
-        "description": "Scoop 是一个适用于 Windows 的命令行包管理工具，主要用于简化软件的安装与管理。通过 Scoop，用户可快速部署开发者工具、实用程序和常用软件，支持从主仓库或自定义桶中安装应用，适合追求高效、自动化的命令行用户和开发者环境配置。"
+        "description": "Scoop 是 Windows 平台的命令行包管理器，主要帮助用户通过命令行安装、更新和卸载软件，尤其适合开发者快速搭建开发环境。它默认将软件安装到用户目录，无需管理员权限，避免修改系统盘和注册表，从而减少权限弹窗和系统环境变量污染。Scoop 支持软件多版本切换，并依靠社区维护的软件清单覆盖大量常用工具，比如 Git、Python、Node.js 等。通常适合需要批量管理命令行工具、追求干净隔离的 Windows 用户使用。"
     },
     "summary": {
         "initial_stars": 22502,
-        "current_stars": 24505,
-        "star_diff": 2003,
-        "growth_rate": 8.9,
+        "current_stars": 24516,
+        "star_diff": 2014,
+        "growth_rate": 8.95,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 24505,
             "forks": 1529,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 24516,
+            "forks": 1529,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

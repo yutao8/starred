@@ -6,16 +6,16 @@
         "name": "Clash-for-Windows_Chinese",
         "html_url": "https:\/\/github.com\/Z-Siqi\/Clash-for-Windows_Chinese",
         "language": "JavaScript",
-        "description": "Clash for Windows 中文版是一款基于 Clash for Windows 的网络代理工具，支持多平台代理配置与管理，主要用于科学上网及网络流量分流。该项目提供中文界面优化与本地化支持，便于国内用户配置节点、规则及代理策略，适用于需要网络隐私保护或访问境外网络资源的场景。"
+        "description": "为 Clash for Windows 提供简体中文本地化资源，包含完整的汉化语言文件与安装脚本，方便国内用户将界面切换为中文。适用于 Windows 平台上的 Clash 代理工具，解决原版英文界面阅读不便的问题。支持跟随官方版本更新，通过替换或注入语言包实现即时汉化，适合需要无障碍使用 Clash 各项配置的用户。"
     },
     "summary": {
         "initial_stars": 24918,
-        "current_stars": 28491,
-        "star_diff": 3573,
-        "growth_rate": 14.34,
+        "current_stars": 28493,
+        "star_diff": 3575,
+        "growth_rate": 14.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 28491,
             "forks": 3216,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28493,
+            "forks": 3215,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

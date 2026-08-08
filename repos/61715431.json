@@ -6,16 +6,16 @@
         "name": "NeteaseCloudMusicApi",
         "html_url": "https:\/\/github.com\/Binaryify\/NeteaseCloudMusicApi",
         "language": "Other",
-        "description": "提供网易云音乐 Web API 的非官方实现，主要用于获取歌曲、歌单、用户信息等数据，支持登录、播放、搜索、评论等功能，便于开发者搭建音乐相关应用或进行数据研究。"
+        "description": "提供网易云音乐的非官方 Node.js API 接口封装，能够模拟客户端请求，实现对音乐搜索、歌单详情、歌曲播放地址获取、用户信息、评论以及排行榜等常用功能的调用。主要用于个人开发或学习场景，帮助构建自定义的音乐客户端、命令行工具或自动化脚本，适合需要在不使用官方 SDK 的情况下快速获取网易云音乐数据的技术项目。"
     },
     "summary": {
         "initial_stars": 30325,
-        "current_stars": 30275,
-        "star_diff": -50,
-        "growth_rate": -0.16,
+        "current_stars": 30273,
+        "star_diff": -52,
+        "growth_rate": -0.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 30275,
             "forks": 15775,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 30273,
+            "forks": 15781,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "Mobile-Detect",
         "html_url": "https:\/\/github.com\/serbanghita\/Mobile-Detect",
         "language": "PHP",
-        "description": "Mobile-Detect 是一个轻量级的 PHP 脚本，用于检测移动设备（包括手机和平板）的访问，帮助开发者根据设备类型切换桌面版或移动版页面，适用于响应式设计或独立移动站点的构建，支持广泛的移动设备识别。"
+        "description": "用于在 PHP 服务端识别移动设备类型的轻量级类库，通过解析用户代理字符串和请求头信息判断访客使用的是手机、平板还是桌面浏览器，并能检测常见操作系统、浏览器型号以及个别具体设备。典型应用场景包括根据设备类型输出不同页面布局、调整资源加载策略或进行访问统计，适合需要快速实现响应式适配或设备分流的中小型 Web 项目，部署简便且不依赖外部 API。"
     },
     "summary": {
         "initial_stars": 10644,
-        "current_stars": 10682,
-        "star_diff": 38,
-        "growth_rate": 0.36,
+        "current_stars": 10683,
+        "star_diff": 39,
+        "growth_rate": 0.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 10682,
             "forks": 2612,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10683,
+            "forks": 2612,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "awesome-python-login-model",
         "html_url": "https:\/\/github.com\/Kr1s77\/awesome-python-login-model",
         "language": "Python",
-        "description": "提供一系列Python编写的登录模型示例，涵盖主流网站和应用的模拟登录方法，包含验证码处理、密码加密、会话保持等常见技术，主要用于学习和研究反爬虫机制及登录流程分析，适合爬虫开发者参考使用。"
+        "description": "收集了多种主流网站登录接口的 Python 实现与模拟方案，覆盖账号密码加密、验证码识别、会话维持等常见登录流程。通常用于爬虫开发、自动化测试或研究各平台登录协议，帮助开发者直接参考或复用现有代码，避免从零逆向登录逻辑，适合需要处理登录态抓取数据或构建非官方客户端的场景。"
     },
     "summary": {
         "initial_stars": 16125,
-        "current_stars": 16226,
-        "star_diff": 101,
-        "growth_rate": 0.63,
+        "current_stars": 16222,
+        "star_diff": 97,
+        "growth_rate": 0.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 166
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 167
     },
     "history": [
         {
@@ -1179,6 +1179,13 @@
             "stars": 16226,
             "forks": 3242,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16222,
+            "forks": 3242,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

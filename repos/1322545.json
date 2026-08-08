@@ -6,16 +6,16 @@
         "name": "SMSSync",
         "html_url": "https:\/\/github.com\/ushahidi\/SMSSync",
         "language": "Java",
-        "description": "SMSSync 是一个由 Ushahidi 开发的开源 Android 应用，主要用于通过短信实现数据同步，适用于网络连接受限的环境。它能将手机收发的短信通过互联网自动同步到指定服务器，常用于远程数据采集、信息监控和危机响应场景，支持基于 Web 的集中式消息管理。"
+        "description": "SMSSync 将 Android 设备改造成短信网关，使没有互联网接入的偏远地区也能通过普通短信与服务器双向交换数据。它主要配合 Ushahidi 等开源数据平台，自动提取短消息内容并同步至云端，也可将服务器信息下发给用户。典型场景包括灾难应急响应、社区事件上报、田野调查数据收集等，只需一部安卓手机和本地 SIM 卡就能部署一个低成本通信节点。该项目适合解决基础设施薄弱环境下的实时数据上报与信息分发问题。"
     },
     "summary": {
         "initial_stars": 1166,
-        "current_stars": 1212,
-        "star_diff": 46,
-        "growth_rate": 3.95,
+        "current_stars": 1211,
+        "star_diff": 45,
+        "growth_rate": 3.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 71
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 72
     },
     "history": [
         {
@@ -514,6 +514,13 @@
             "stars": 1212,
             "forks": 483,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1211,
+            "forks": 483,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

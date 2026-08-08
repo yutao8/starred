@@ -6,7 +6,7 @@
         "name": "PHP-MySQLi-Database-Class",
         "html_url": "https:\/\/github.com\/ThingEngineer\/PHP-MySQLi-Database-Class",
         "language": "PHP",
-        "description": "一个轻量级的PHP数据库操作类，基于MySQLi扩展，提供简洁的API接口用于执行增删改查操作，支持预处理语句防止SQL注入，适用于中小型项目快速开发，具有良好的安全性和可维护性，简化数据库交互流程。"
+        "description": "用于简化PHP访问MySQL数据库的轻量级封装类，基于mysqli扩展，通过链式方法调用构建查询，支持预处理语句和参数绑定，能有效防止SQL注入。提供增删改查、事务、多条件查询、分页等常用操作，减少重复编码。典型使用场景包括后台管理系统、REST接口开发以及任何需要稳定数据访问层的PHP项目，尤其适合中小型应用快速迭代，也可作为独立组件集成到现有框架。"
     },
     "summary": {
         "initial_stars": 3306,

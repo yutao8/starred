@@ -6,16 +6,16 @@
         "name": "rime-ice",
         "html_url": "https:\/\/github.com\/iDvel\/rime-ice",
         "language": "Lua",
-        "description": "iDvel\/rime-ice 是一个基于 Rime 输入法引擎的中文输入方案配置，主要用于优化和定制中 文输入体验，支持多种拼音模式与词库管理，适合追求高效、个性化的中文输入用户。"
+        "description": "雾凇拼音是 Rime 输入法的开源配置方案，整合了拼音、双拼、模糊音等主流输入体验，并内置词库与优化规则，开箱即可使用。它通过预设的方案文件和词典，解决 Rime 默认配置上手难、词库弱、候选排序不佳等痛点，适合追求高效打字、需要自定义输入习惯的用户。可灵活开启简繁转换、Emoji 输入、日期时间等实用功能，并支持游戏内快速切换，兼顾日常聊天与专业打字需求。"
     },
     "summary": {
         "initial_stars": 12051,
-        "current_stars": 18692,
-        "star_diff": 6641,
-        "growth_rate": 55.11,
+        "current_stars": 18713,
+        "star_diff": 6662,
+        "growth_rate": 55.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 18692,
             "forks": 1155,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18713,
+            "forks": 1158,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

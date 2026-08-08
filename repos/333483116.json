@@ -6,16 +6,16 @@
         "name": "changedetection.io",
         "html_url": "https:\/\/github.com\/dgtlmoon\/changedetection.io",
         "language": "Python",
-        "description": "用于跟踪网页内容变化并发送通知的开源工具，支持定期自动检查页面更新、高亮显示变更内容，并通过邮件、Webhook 等方式提醒用户，适合监控目标网站的动态变动而无需手动刷新查看。"
+        "description": "网页变化监控与通知工具，可以定时抓取任意网页内容并智能比对差异，一旦检测到价格、文案、库存或页面结构发生更新，立即通过邮件、Telegram、Webhook 等方式发出提醒。无需编程即可配置多个监控任务，支持 CSS 选择器指定关注区域、忽略无关内容，也适合追踪商品降价、网站公告、政府文件更新等场景。自托管部署，数据由自己掌控，常用于替代商业监控服务。"
     },
     "summary": {
         "initial_stars": 24571,
-        "current_stars": 32912,
-        "star_diff": 8341,
-        "growth_rate": 33.95,
+        "current_stars": 32986,
+        "star_diff": 8415,
+        "growth_rate": 34.25,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 32912,
             "forks": 1936,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 32986,
+            "forks": 1947,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

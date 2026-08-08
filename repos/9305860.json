@@ -6,7 +6,7 @@
         "name": "crypto-js",
         "html_url": "https:\/\/github.com\/brix\/crypto-js",
         "language": "JavaScript",
-        "description": "一个纯 JavaScript 实现的加密库，支持多种常见加密算法，如 AES、DES、SHA-1、SHA-256、MD5 等，可在浏览器和 Node.js 环境中使用，主要用于数据加密、哈希生成和安全通信，具有轻量、易用、无依赖的特点。"
+        "description": "用于在JavaScript环境中提供标准加密算法，支持对称加密、哈希函数和消息认证码等常见密码学操作。它可在浏览器和Node.js中运行，适合需要在前端完成数据加密、安全传输、密码散列或完整性校验的场景。通常用于保护用户敏感信息、实现登录凭证的加密存储、或与后端进行加密通信。该库接口简单、兼容性较好，是JavaScript生态中常用的加密工具之一。需要注意，它主要用于业务层数据保护，不适合直接作为底层安全基础设施，也不提供密钥管理功能。"
     },
     "summary": {
         "initial_stars": 16148,

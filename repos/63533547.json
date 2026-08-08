@@ -6,7 +6,7 @@
         "name": "Image-Downloader",
         "html_url": "https:\/\/github.com\/QianyanTech\/Image-Downloader",
         "language": "Python",
-        "description": "用于从网页批量下载图片的工具，支持指定关键词搜索和自动捕获目标站内图像资源，适用于快速采集公开图像数据，通常用于本地化存储或后续分析处理，依赖网络稳定性与目标站点结构。"
+        "description": "用于从网页批量抓取和下载图片资源，支持按URL列表或页面解析提取图像链接，可自定义保存路径、文件格式及并发下载数量。适合需要采集数据集、备份网页图片或整理素材的场景，通常结合requests与BeautifulSoup等Python库使用，用户可通过简单配置快速完成批量抓取任务。"
     },
     "summary": {
         "initial_stars": 2295,

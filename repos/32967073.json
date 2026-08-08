@@ -6,7 +6,7 @@
         "name": "across",
         "html_url": "https:\/\/github.com\/teddysun\/across",
         "language": "Shell",
-        "description": "一个基于Go语言的高性能跨平台代理工具，主要用于网络穿透、内网服务暴露和安全的远程访问，支持多路复用、流量压缩与加密传输，适用于开发调试、远程运维等场景。"
+        "description": "这是一个集成多种代理工具的一键安装脚本库，主要用于在 Linux 服务器上快速部署 Shadowsocks、V2Ray、Xray 等常见科学上网服务，并附带配置管理、流量统计和系统优化功能。通常适合需要快速搭建翻墙服务或自建代理节点的用户，通过简单命令即可完成安装和后续配置，免去手动编译和复杂设置的麻烦，同时支持 TCP 与 UDP 转发，满足日常加速和访问需求。"
     },
     "summary": {
         "initial_stars": 5163,

@@ -6,16 +6,16 @@
         "name": "SafeLine",
         "html_url": "https:\/\/github.com\/chaitin\/SafeLine",
         "language": "Go",
-        "description": "SafeLine是一款由长亭科技推出的免费Web应用防火墙，主要用于防御SQL注入、XSS跨站脚本、文件包含等常见Web攻击，提供反向代理模式的一体化防护，具备低资源占用、配置简单、支持HTTPS等特性，适合各类网站安全防护场景。"
+        "description": "SafeLine（雷池）是长亭科技开源的免费自建 Web 应用防火墙，用于实时防御 SQL 注入、跨站脚本、恶意爬虫等常见 Web 攻击。它采用语义分析引擎识别异常流量，误报率低，且性能开销小，易于部署，适合中小型网站、个人开发者或对数据隐私有要求的生产环境。提供可视化管理界面，可灵活配置防护策略，并具备高并发处理能力，能有效应对突发流量。"
     },
     "summary": {
         "initial_stars": 16879,
-        "current_stars": 22295,
-        "star_diff": 5416,
-        "growth_rate": 32.09,
+        "current_stars": 22315,
+        "star_diff": 5436,
+        "growth_rate": 32.21,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 22295,
             "forks": 1499,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22315,
+            "forks": 1501,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

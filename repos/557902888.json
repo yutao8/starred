@@ -6,16 +6,16 @@
         "name": "TVBOX-",
         "html_url": "https:\/\/github.com\/xianyuyimu\/TVBOX-",
         "language": "JavaScript",
-        "description": "TVBOX- 是一个基于 TVBox 的开源项目，主要用于聚合网络视频资源，支持自定义接口配置，方便用户在电视盒子或安卓设备上观看各类影视内容，通常用于搭建私人化视频平台。"
+        "description": "为安卓电视盒子、机顶盒和手机等设备提供聚合视频播放方案，通常作为TVBox类应用出现。核心功能是通过配置自定义接口或订阅源，集中管理直播频道与点播资源，支持多线路解析与播放入口，便于用户在一个界面内完成频道切换和影视搜索。适合经常折腾智能电视或不愿被平台内容限制的用户，用以整合各类网络视频源。项目本身不提供资源，具体播放效果取决于所填写的源，安装和配置有一定门槛，需要用户熟悉源格式并保持更新。"
     },
     "summary": {
         "initial_stars": 3001,
-        "current_stars": 3108,
-        "star_diff": 107,
-        "growth_rate": 3.57,
+        "current_stars": 3107,
+        "star_diff": 106,
+        "growth_rate": 3.53,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 143
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 144
     },
     "history": [
         {
@@ -1018,6 +1018,13 @@
             "stars": 3108,
             "forks": 411,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3107,
+            "forks": 411,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

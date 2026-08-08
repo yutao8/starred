@@ -6,16 +6,16 @@
         "name": "Twig",
         "html_url": "https:\/\/github.com\/twigphp\/Twig",
         "language": "PHP",
-        "description": "Twig是一个灵活、高效且安全的PHP模板引擎，提供简洁清晰的语法用于分离应用程序逻辑与视图展示，支持模板继承、自动转义、过滤器、函数和扩展机制，主要用于现代PHP应用中的HTML模板渲染。"
+        "description": "Twig 是 PHP 生态中广泛使用的模板引擎，主要用于将页面逻辑与展示层分离。它提供简洁易读的模板语法，支持模板继承、块、变量自动转义与沙箱模式等机制，使前端开发更安全、更结构化。通常与 Symfony 等 PHP 框架搭配使用，也适用于任何需要渲染视图的 PHP 项目。它解决直接使用 PHP 原生标记拼接 HTML 导致的代码混杂、维护困难和安全风险等问题，适合团队协作及大型应用开发。"
     },
     "summary": {
         "initial_stars": 8300,
-        "current_stars": 8369,
-        "star_diff": 69,
-        "growth_rate": 0.83,
+        "current_stars": 8370,
+        "star_diff": 70,
+        "growth_rate": 0.84,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 146
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 147
     },
     "history": [
         {
@@ -1039,6 +1039,13 @@
             "stars": 8369,
             "forks": 1289,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8370,
+            "forks": 1288,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

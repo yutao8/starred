@@ -6,7 +6,7 @@
         "name": "ChenPay",
         "html_url": "https:\/\/github.com\/ChenSee\/ChenPay",
         "language": "PHP",
-        "description": "ChenPay 是一个基于 Vue 3 + TypeScript 实现的前端支付组件库，主要用于集成多种支付方式（如微信支付、支付宝）到 Vue 项目中，提供简洁的 API 和可定制的 UI，方便开发者快速接入并统一管理支付流程。"
+        "description": "用于为应用快速接入支付能力，主要面向需要在线收款的开发者和个人项目，涵盖支付请求发起、回调结果验签、订单状态处理等典型环节。通常适合中小型网站、小程序或产品原型接入第三方支付渠道，帮助减少从零对接支付平台的开发成本，同时保持交易流程的稳定性。具体支持的支付方式与适配平台需参考项目文档。"
     },
     "summary": {
         "initial_stars": 442,

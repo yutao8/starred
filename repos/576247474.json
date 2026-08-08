@@ -6,16 +6,16 @@
         "name": "FileCodeBox",
         "html_url": "https:\/\/github.com\/vastsa\/FileCodeBox",
         "language": "Python",
-        "description": "一个基于Web的文件共享工具，支持临时存储和分享代码片段或文本文件，提供简单的API接口用于上传和下载，适合开发人员快速共享内容，无需数据库依赖，可自定义存储路径与过期策略。"
+        "description": "FileCodeBox 是一个轻量级的临时文件分享工具，主要用于在局域网或公网环境中快速传输文件，无需注册登录即可上传并生成提取码，接收方凭码下载。它适合需要一次性或短时效传送文件的场景，支持多种存储后端，部署简单，可方便地嵌入现有应用或作为独立服务运行。"
     },
     "summary": {
         "initial_stars": 6764,
-        "current_stars": 8449,
-        "star_diff": 1685,
-        "growth_rate": 24.91,
+        "current_stars": 8452,
+        "star_diff": 1688,
+        "growth_rate": 24.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 8449,
             "forks": 1052,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8452,
+            "forks": 1054,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

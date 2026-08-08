@@ -6,7 +6,7 @@
         "name": "sniproxy",
         "html_url": "https:\/\/github.com\/dlundquist\/sniproxy",
         "language": "C",
-        "description": "sniproxy 是一个用于代理和路由基于 SNI 的 TLS 连接的轻量级反向代理工具，主要用于透明地将加密流量按域名转发到后端服务器，支持高并发连接和简单的配置方式，适合用于构建透明 HTTPS\/SNI 代理网关。"
+        "description": "sniproxy 主要用于根据 TLS 握手时的 SNI 扩展字段转发流量，实现基于域名的代理和反向代理。它无需解密 TLS 流量，即可将不同主机名的请求分发到后端服务器，常用于复用 IP 地址、节省 IP 资源，或者为多个 HTTPS 服务提供统一入口。典型场景包括 CDN 边缘节点、虚拟主机环境以及需要按域名路由的透明代理。该工具轻量、高效，适合在高性能网络环境下使用，能够避免因证书解密带来的性能开销和安全隐患。"
     },
     "summary": {
         "initial_stars": 2628,

@@ -6,16 +6,16 @@
         "name": "ImTip",
         "html_url": "https:\/\/github.com\/aardio\/ImTip",
         "language": "Other",
-        "description": "ImTip 是 aardio 开发的一个用于实现输入法状态栏提示的轻量级库，主要用于在桌面应用程序中显示输入法切换提示，增强用户输入体验，适合需要自定义输入法交互的 aardio 项目集成。"
+        "description": "一款基于 aardio 开发的输入法状态提示工具，在鼠标光标附近实时悬浮显示当前输入法的中英文、全半角、标点符号等状态，帮助用户快速确认键盘输入模式，避免误输入。它体积小巧、占用资源低，适合经常切换输入法或需要专注写作、编程的用户使用。工具通常通过监听输入法切换事件来更新提示内容，并支持自定义显示样式与触发方式，可方便地融入日常桌面工作流。"
     },
     "summary": {
         "initial_stars": 2203,
-        "current_stars": 2599,
-        "star_diff": 396,
-        "growth_rate": 17.98,
+        "current_stars": 2600,
+        "star_diff": 397,
+        "growth_rate": 18.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 2599,
             "forks": 139,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2600,
+            "forks": 139,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

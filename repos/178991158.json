@@ -6,16 +6,16 @@
         "name": "starship",
         "html_url": "https:\/\/github.com\/starship\/starship",
         "language": "Rust",
-        "description": "Starship 是一个跨平台、可定制的命令行提示符工具，主要用于在终端中显示简洁美观的环境信息，如当前目录、Git 状态、运行时间、编程语言版本等，支持多种 Shell（如 Bash、Zsh、Fish），通过高度可配置的主题提升开发效率与终端使用体验。"
+        "description": "Starship 是一款跨 shell 的命令行提示符工具，基于 Rust 编写，启动速度极快且高度可定制。它能在终端中自动显示当前目录、Git 分支、编程语言版本、命令执行时间等关键信息，帮助开发者快速掌握工作区状态，避免频繁切换上下文。支持 Bash、Zsh、Fish、PowerShell 等常见 shell，配置简单，开箱即用。适合追求终端信息直观、高效且美观的开发环境，尤其适用于多项目切换或依赖多种语言工具链的日常开发场景。"
     },
     "summary": {
         "initial_stars": 49639,
-        "current_stars": 59282,
-        "star_diff": 9643,
-        "growth_rate": 19.43,
+        "current_stars": 59306,
+        "star_diff": 9667,
+        "growth_rate": 19.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 59282,
             "forks": 2620,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 59306,
+            "forks": 2620,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

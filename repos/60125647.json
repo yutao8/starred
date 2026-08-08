@@ -6,16 +6,16 @@
         "name": "StreamSaver.js",
         "html_url": "https:\/\/github.com\/jimmywarting\/StreamSaver.js",
         "language": "JavaScript",
-        "description": "StreamSaver.js 用于在浏览器中通过可写流将数据直接保存到用户指定的文件，避免将整个文件加载到内存，适合处理大文件下载。它结合 Service Worker 模拟后端响应，实现流式写入，提升性能和用户体验。"
+        "description": "StreamSaver.js 用于在浏览器端直接流式下载文件，无需将整份数据先存入内存，适合生成大文件或分块获取数据后实时保存的场景。它通常配合 fetch 或流式 API 使用，让用户能像普通下载一样将数据快速写入磁盘，同时避免内存占用过高，尤其适合导出大体积日志、媒体转码或后台生成报表时采用。"
     },
     "summary": {
         "initial_stars": 4208,
-        "current_stars": 4363,
-        "star_diff": 155,
-        "growth_rate": 3.68,
+        "current_stars": 4364,
+        "star_diff": 156,
+        "growth_rate": 3.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 135
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 136
     },
     "history": [
         {
@@ -962,6 +962,13 @@
             "stars": 4363,
             "forks": 443,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4364,
+            "forks": 443,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

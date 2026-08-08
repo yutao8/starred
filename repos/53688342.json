@@ -6,7 +6,7 @@
         "name": "serverspeeder",
         "html_url": "https:\/\/github.com\/91yun\/serverspeeder",
         "language": "Shell",
-        "description": "基于锐速（ServerSpeeder）的优化加速工具，主要用于提升服务器网络性能，通过 TCP 加速技术改善高延迟、高丢包环境下的传输效率，适用于海外 VPS、云服务器等场景，支持多种 Linux 系统和虚拟化环境，帮助用户优化跨境网络访问体验。"
+        "description": "serverspeeder 主要用于 Linux 服务器上的网络加速，通过优化 TCP 拥塞控制算法来提升数据传输速度和降低连接延迟。它通常部署在 VPS 或独立服务器上，适合需要改善跨境或高延迟链路质量的场景，能够有效缓解丢包和带宽利用率不足的问题。该工具以第三方补丁或内核模块的形式运行，适合有一定服务器管理经验的用户进行安装与配置，并常用于游戏加速、远程办公或科学上网等需要稳定高速连接的用途。"
     },
     "summary": {
         "initial_stars": 2906,

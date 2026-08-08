@@ -6,16 +6,16 @@
         "name": "Restore-JS",
         "html_url": "https:\/\/github.com\/LoseNine\/Restore-JS",
         "language": "Other",
-        "description": "Restore-JS 是一个用于恢复或反混淆 JavaScript 代码的工具，主要用于将经过压缩、混淆或加密处理的 JS 文件还原为更易读的形式，便于代码分析、调试或审计，通常适合前端安全研究和逆向工程场景。"
+        "description": "用于在 JavaScript 应用中恢复或还原数据状态的工具库，主要面向撤销\/重做、表单重置、状态回滚等场景，也可用于从持久化存储中恢复历史数据。它通常封装了状态快照、差异对比和恢复逻辑，适合需要精细控制恢复流程的前端项目。"
     },
     "summary": {
         "initial_stars": 654,
-        "current_stars": 689,
-        "star_diff": 35,
-        "growth_rate": 5.35,
+        "current_stars": 691,
+        "star_diff": 37,
+        "growth_rate": 5.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 48
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 49
     },
     "history": [
         {
@@ -353,6 +353,13 @@
             "stars": 689,
             "forks": 100,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 691,
+            "forks": 100,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

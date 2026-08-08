@@ -6,16 +6,16 @@
         "name": "Are-u-ok",
         "html_url": "https:\/\/github.com\/AUK9527\/Are-u-ok",
         "language": "Other",
-        "description": "用于检测服务或网站是否正常运行的简易监控工具，通过定期发起请求验证可用性，支持自定义检测频率与通知方式，适合个人或团队快速部署以实现轻量级健康检查与状态提醒。"
+        "description": "Are-u-ok 用于检查系统或服务是否处于健康状态，兼具轻量级监测与异常提示功能。它通常适合个人开发者、运维人员在日常巡检或自动化任务中调用，用来解决服务宕机、资源占用过高等问题。项目名称带有友好的关怀意味，交互方式可能偏向简单直接，例如通过命令行返回状态或集成到监控面板。代码实现可能基于常规脚本或编程语言，便于直接运行与二次定制。"
     },
     "summary": {
         "initial_stars": 11219,
-        "current_stars": 14022,
-        "star_diff": 2803,
-        "growth_rate": 24.98,
+        "current_stars": 14029,
+        "star_diff": 2810,
+        "growth_rate": 25.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14022,
             "forks": 3139,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14029,
+            "forks": 3140,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "APIJSON",
         "html_url": "https:\/\/github.com\/Tencent\/APIJSON",
         "language": "Java",
-        "description": "APIJSON是一种专为移动后端设计的自动化API框架，通过JSON语法自动生成RESTful API接口，实现数据库的无代码增删改查操作，主要用于简化前后端数据交互流程、降低开发门槛并提升接口开发效率，适合快速构建高可维护性的服务端接口。"
+        "description": "APIJSON 是腾讯开源的接口自动化生成框架，主要用于让前端通过简洁的 JSON 请求直接访问后端数据和执行增删改查操作，省去了手写大量重复 CRUD 接口的繁琐。它支持按需动态指定返回字段，自动生成接口文档，并内置权限与校验机制，适合快速搭建后台管理系统、移动应用服务端或内部工具平台。使用时通常由后端定义数据表和访问规则，前端灵活组合请求参数，从而显著降低前后端联调成本，同时提供多语言支持，便于与现有技术栈集成。"
     },
     "summary": {
         "initial_stars": 18006,
-        "current_stars": 18393,
-        "star_diff": 387,
+        "current_stars": 18394,
+        "star_diff": 388,
         "growth_rate": 2.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 177
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 178
     },
     "history": [
         {
@@ -1256,6 +1256,13 @@
             "stars": 18393,
             "forks": 2275,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18394,
+            "forks": 2275,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

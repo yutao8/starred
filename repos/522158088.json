@@ -6,16 +6,16 @@
         "name": "CowAgent",
         "html_url": "https:\/\/github.com\/zhayujie\/chatgpt-on-wechat",
         "language": "Python",
-        "description": "一个基于Python的自动化爬虫框架，主要用于简化网络数据采集流程，支持任务分发、代理池管理、数据清洗与存储功能，适用于大规模网页抓取场景，具有良好的扩展性和调度性能。"
+        "description": "CowAgent 用于构建和部署基于大语言模型的智能体系统，帮助开发者将 AI 能力集成到自动化任务中。它主要面向需要对话处理、工具调用、流程编排等场景，适合解决传统脚本难以处理的动态决策问题。项目通常提供简洁的配置与扩展方式，降低搭建智能体的门槛，便于快速原型验证和实际业务落地。"
     },
     "summary": {
         "initial_stars": 37898,
-        "current_stars": 46373,
-        "star_diff": 8475,
-        "growth_rate": 22.36,
+        "current_stars": 46413,
+        "star_diff": 8515,
+        "growth_rate": 22.47,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 46373,
             "forks": 10296,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 46413,
+            "forks": 10303,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

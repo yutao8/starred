@@ -6,16 +6,16 @@
         "name": "iScript",
         "html_url": "https:\/\/github.com\/PeterDing\/iScript",
         "language": "Python",
-        "description": "iScript 是一个用于编写和运行用户脚本的工具，主要用于浏览器端的功能增强与网页自动化操作，支持通过简洁的语法实现自定义行为，方便开发者扩展网页功能或修改页面样式，通常配合油猴等扩展使用以提升浏览体验。"
+        "description": "一款以命令行为主的实用脚本合集，其中最核心的是音乐下载工具 music-dl，支持从网易云音乐、QQ音乐、酷狗音乐、酷我音乐等主流中文音乐平台搜索并下载歌曲、专辑和歌单。通过各平台公开接口和解析接口获取高音质音频，适合需要离线收听或批量整理音乐资源的用户。通常通过命令行参数指定关键词或链接即可完成检索与下载，也可配置代理和音质偏好。整个项目采用 Python 编写，依赖 requests 等常见网络库，便于在本地或服务器部署使用。"
     },
     "summary": {
         "initial_stars": 5074,
-        "current_stars": 5114,
-        "star_diff": 40,
-        "growth_rate": 0.79,
+        "current_stars": 5115,
+        "star_diff": 41,
+        "growth_rate": 0.81,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 110
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 111
     },
     "history": [
         {
@@ -787,6 +787,13 @@
             "stars": 5114,
             "forks": 1163,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5115,
+            "forks": 1162,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

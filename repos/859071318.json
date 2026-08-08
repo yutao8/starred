@@ -6,7 +6,7 @@
         "name": "douyin-api",
         "html_url": "https:\/\/github.com\/mafqla\/douyin-api",
         "language": "Python",
-        "description": "提供抖音开放平台API的封装与调用功能，主要用于视频数据获取、用户信息查询、商品详情解析等操作，支持无需登录的接口访问，适用于数据分析、内容抓取和第三方工具开发场景。"
+        "description": "提供抖音数据接口的非官方封装，主要用于视频、用户和评论等信息的抓取与解析，适合构建下载工具、内容分析或自动化运营脚本。通常以模拟客户端HTTP请求的方式实现，支持部分需要登录的功能。使用时需注意频率控制和平台风控。"
     },
     "summary": {
         "initial_stars": 64,
@@ -14,8 +14,8 @@
         "star_diff": 34,
         "growth_rate": 53.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 44
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 45
     },
     "history": [
         {
@@ -325,6 +325,13 @@
             "stars": 98,
             "forks": 27,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 98,
+            "forks": 28,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

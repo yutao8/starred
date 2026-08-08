@@ -6,7 +6,7 @@
         "name": "push.js",
         "html_url": "https:\/\/github.com\/Nickersoft\/push.js",
         "language": "JavaScript",
-        "description": "一个轻量级 JavaScript 库，用于在网页中实现桌面通知功能，无需依赖后端服务，通过浏览器的 Notification API 在用户设备上推送消息，适合需要即时提醒功能的 Web 应用集成使用。"
+        "description": "push.js是一个专注于浏览器桌面通知功能的JavaScript库，主要用于简化网页应用中系统通知的实现。它把原生Notification API的复杂细节封装起来，让开发者只需几行代码就能发送包含标题、文字和图标的消息，同时自动处理权限申请与不同浏览器的兼容性问题。典型使用场景包括聊天消息提醒、任务完成提示或站内动态通知，适合需要快速接入桌面推送能力的Web前端项目。"
     },
     "summary": {
         "initial_stars": 8728,

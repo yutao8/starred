@@ -6,7 +6,7 @@
         "name": "aria-ng-gui",
         "html_url": "https:\/\/github.com\/Xmader\/aria-ng-gui",
         "language": "JavaScript",
-        "description": "AriaNg GUI 是一个基于 AriaNg 和 Electron 的桌面端下载管理器，主要用于简化 aria2 的配置与使用，提供图形化界面来管理下载任务，支持多平台，适合需要高效、轻量级下载工具的用户。"
+        "description": "aria-ng-gui 是一款面向 aria2 下载工具的现代 Web 图形界面，使用 Angular 技术栈构建，通过 aria2 的 RPC 接口与后台通信。它让用户能在浏览器中直观地管理下载任务，包括添加、暂停、恢复和删除，同时展示实时速度、进度、文件列表等状态信息。该工具通常部署在本地或服务器上，用于替代繁琐的命令行操作，适合需要自建下载服务或远程管理 aria2 的用户。"
     },
     "summary": {
         "initial_stars": 1864,

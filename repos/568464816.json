@@ -6,16 +6,16 @@
         "name": "epic-designer",
         "html_url": "https:\/\/github.com\/Kchengz\/epic-designer",
         "language": "TypeScript",
-        "description": "一个基于Vue和Element Plus的低代码表单设计器，支持动态表单生成、拖拽式组件编辑和表单校验配置，主要用于快速构建前端表单页面，提升开发效率。"
+        "description": "epic-designer 是一款面向低代码场景的可视化页面设计工具，主要用于通过拖拽组件、配置属性来快速搭建表单、列表或后台管理界面。它通常适合需要自定义业务表单或流程界面的团队，能够减少手工编码量，同时支持将设计结果导出为前端代码或数据模型，方便集成到现有项目中。其核心价值在于降低非技术人员参与界面设计的门槛，并保持设计稿与代码实现的一致性。"
     },
     "summary": {
         "initial_stars": 505,
-        "current_stars": 649,
-        "star_diff": 144,
-        "growth_rate": 28.51,
+        "current_stars": 651,
+        "star_diff": 146,
+        "growth_rate": 28.91,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 111
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 112
     },
     "history": [
         {
@@ -794,6 +794,13 @@
             "stars": 649,
             "forks": 112,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 651,
+            "forks": 113,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

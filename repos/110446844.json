@@ -6,16 +6,16 @@
         "name": "marktext",
         "html_url": "https:\/\/github.com\/marktext\/marktext",
         "language": "JavaScript",
-        "description": "Mark Text 是一个开源的 Markdown 编辑器，支持实时预览、多种主题和数学公式渲染，适用于写作、笔记记录和技术文档编辑，具有简洁直观的界面和跨平台兼容性。"
+        "description": "MarkText 是一款开源跨平台的 Markdown 编辑器，采用所见即所得的实时渲染方式，让写作与排版同步完成。它支持 CommonMark 规范和 GitHub 风格语法，并提供数学公式、表格、流程图等扩展功能，适合技术文档撰写、博客草稿、课堂笔记和日常工作记录。编辑器内置多种美观主题，支持专注模式、打字机模式，并能将文档导出为 HTML、PDF 或图片，帮助用户摆脱格式干扰、专注内容创作。"
     },
     "summary": {
         "initial_stars": 50184,
-        "current_stars": 59725,
-        "star_diff": 9541,
-        "growth_rate": 19.01,
+        "current_stars": 59783,
+        "star_diff": 9599,
+        "growth_rate": 19.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 59725,
             "forks": 4417,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 59783,
+            "forks": 4425,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

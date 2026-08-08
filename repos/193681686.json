@@ -6,16 +6,16 @@
         "name": "netch",
         "html_url": "https:\/\/github.com\/netchx\/netch",
         "language": "C#",
-        "description": "Netch是一款支持多协议的网络代理工具，主要用于游戏网络优化，支持SS、Trojan等协议，提供低延迟、高稳定性的网络连接，适合需要改善游戏体验的用户使用，跨平台且配置灵活。"
+        "description": "Netch 面向 Windows 平台，是一款开源网络代理工具，主要用于游戏加速和科学上网。它支持 Shadowsocks、VMess、Trojan 等常见代理协议，并能通过规则或进程级方式精确分流流量，例如只让指定的游戏或应用经过代理。内置的节点订阅和管理功能方便用户维护多个服务器配置。相比普通代理客户端，Netch 更强调改善游戏网络环境，降低延迟和丢包，适合需要为特定程序或全局网络指定代理的场景。项目由社区持续维护，适合有一定网络配置需求的用户使用。"
     },
     "summary": {
         "initial_stars": 16856,
-        "current_stars": 17672,
-        "star_diff": 816,
-        "growth_rate": 4.84,
+        "current_stars": 17675,
+        "star_diff": 819,
+        "growth_rate": 4.86,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 17672,
             "forks": 2839,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17675,
+            "forks": 2837,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

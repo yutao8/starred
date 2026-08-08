@@ -6,16 +6,16 @@
         "name": "EasySpider",
         "html_url": "https:\/\/github.com\/NaiboWang\/EasySpider",
         "language": "JavaScript",
-        "description": "EasySpider是一款可视化网页抓取工具，通过录制用户操作自动生成爬虫代码，支持动态页面数据提取与定时任务，无需编程基础即可快速获取网站数据，适用于数据采集、监控和迁移等场景。"
+        "description": "EasySpider 是一款面向非程序员的可视化网页数据采集工具，用户无需编写代码，只需在浏览器中点击目标元素即可自动生成抓取流程。它支持处理动态页面、自动翻页、滚动加载等常见抓取场景，并可将采集结果导出为 Excel、CSV 等格式。该工具适合用于电商选品、舆情监测、市场调研等需要对网页信息进行批量收集的场合，同时也能将设计好的抓取流程保存或调度执行，帮助用户低成本维护和复用。"
     },
     "summary": {
         "initial_stars": 39157,
-        "current_stars": 44348,
-        "star_diff": 5191,
-        "growth_rate": 13.26,
+        "current_stars": 44354,
+        "star_diff": 5197,
+        "growth_rate": 13.27,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 44348,
             "forks": 5379,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 44354,
+            "forks": 5380,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

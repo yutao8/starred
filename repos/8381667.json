@@ -6,7 +6,7 @@
         "name": "ipp",
         "html_url": "https:\/\/github.com\/williamkapke\/ipp",
         "language": "JavaScript",
-        "description": "一个轻量级的 IP 地址处理工具库，主要用于解析、验证和操作 IPv4 与 IPv6 地址，提供子网计算、地址范围判断及网络前缀处理等常用功能，适用于需要高效处理 IP 地址信息的 Node.js 应用程序。"
+        "description": "用于在Node.js环境中实现互联网打印协议（IPP）的客户端功能，支持提交打印任务、查询打印机能力与状态。通常适合需要开发跨平台网络打印能力的应用，例如企业办公系统或打印服务中间件，通过局域网或互联网直接与兼容IPP的打印机通信，减少对厂商驱动的依赖。同时提供结构化的请求构造与响应解析，简化开发者对打印协议的处理流程。"
     },
     "summary": {
         "initial_stars": 424,

@@ -6,7 +6,7 @@
         "name": "phpass",
         "html_url": "https:\/\/github.com\/rchouinard\/phpass",
         "language": "PHP",
-        "description": "一个基于 OpenWall 的 PHPass 库的 PHP 密码哈希框架，主要用于安全地哈希和验证用户密码，提供兼容不同 PHP 环境的密码加密方案，适合需要增强 Web 应用安全性的项目。"
+        "description": "用于PHP项目安全密码哈希与校验，重点解决用户注册、登录等场景下口令的可靠存储。它使用随机盐和可移植的哈希策略，避免开发者直接保存明文密码或使用弱哈希算法，从而降低彩虹表和暴力破解风险。该库设计轻量、兼容性好，在WordPress等主流PHP系统中被广泛采用，适合需要快速集成安全认证功能的Web应用。"
     },
     "summary": {
         "initial_stars": 246,

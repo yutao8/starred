@@ -6,16 +6,16 @@
         "name": "WeChatPlugin-MacOS",
         "html_url": "https:\/\/github.com\/TKkk-iOSer\/WeChatPlugin-MacOS",
         "language": "Objective-C",
-        "description": "用于 macOS 平台的微信插件，主要实现自定义功能增强，如消息防撤回、自动回复、聊天记录导出等，适用于个人开发者研究微信逆向技术和 macOS 应用开发实践。"
+        "description": "一款面向macOS微信的第三方功能增强插件，通过注入方式扩展客户端能力。主要功能包括微信多开、消息防撤回、自动回复等实用选项，适合需要同时登录多个微信账号、防止重要消息被撤回，或希望实现自动响应的用户。整个项目专注于补足微信官方版本在个性化和效率功能上的不足，以简单易用为目标，是日常使用中提升微信体验的常见工具。"
     },
     "summary": {
         "initial_stars": 14245,
-        "current_stars": 14276,
-        "star_diff": 31,
+        "current_stars": 14277,
+        "star_diff": 32,
         "growth_rate": 0.22,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 156
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 157
     },
     "history": [
         {
@@ -1109,6 +1109,13 @@
             "stars": 14276,
             "forks": 2448,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14277,
+            "forks": 2448,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

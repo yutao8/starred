@@ -6,16 +6,16 @@
         "name": "Folo",
         "html_url": "https:\/\/github.com\/RSSNext\/Folo",
         "language": "TypeScript",
-        "description": "Folo 是一个基于 RSS 的开源信息聚合工具，主要用于集中订阅、追踪和管理各类网站更新。它支持多源内容采集、智能去重与离线阅读，适合需要高效获取分散网络内容的用户，典型场景包括技术博客追踪、竞品动态监控和学术资讯聚合，通常部署在个人服务器或 NAS 上实现数据自主。"
+        "description": "Folo 是一款开源的信息聚合与订阅管理工具，源自 RSSNext 团队，用于将博客、新闻、社交媒体等多个信息源集中到一个界面。它适合需要高效跟踪大量内容的用户，通过订阅分组、过滤规则和智能摘要来降低信息噪音，同时注重隐私保护和跨平台使用，可替代传统 RSS 阅读器并满足日常信息浏览需求。"
     },
     "summary": {
         "initial_stars": 26949,
-        "current_stars": 38770,
-        "star_diff": 11821,
-        "growth_rate": 43.86,
+        "current_stars": 38779,
+        "star_diff": 11830,
+        "growth_rate": 43.9,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 38770,
             "forks": 2109,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 38779,
+            "forks": 2108,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

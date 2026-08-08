@@ -6,7 +6,7 @@
         "name": "doc2dash",
         "html_url": "https:\/\/github.com\/hynek\/doc2dash",
         "language": "Python",
-        "description": "用于将软件文档转换为 Dash 兼容的文档包，方便在离线文档浏览器 Dash 中使用，主要支持从 Sphinx 等文档生成工具输出的 HTML 文档生成可搜索的文档集，适用于开发者创建私有或本地 API 文档。"
+        "description": "doc2dash是一款将Sphinx或pydoctor生成的文档转换Dash文档集的命令行工具，方便在Dash、Zeal等文档浏览器中离线搜索和阅读API文档。它主要面向开发者，用于生成Python库或相关项目的本地技术文档，能自动解析文档结构、建立索引，并可直接集成到常规文档构建流程中。适合需要离线查阅文档、提升开发效率的场景。"
     },
     "summary": {
         "initial_stars": 584,

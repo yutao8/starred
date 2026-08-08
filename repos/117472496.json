@@ -6,16 +6,16 @@
         "name": "qrcp",
         "html_url": "https:\/\/github.com\/claudiodangelis\/qrcp",
         "language": "Go",
-        "description": "qrcp 是一个命令行工具，用于在局域网内通过生成二维码快速传输文件。用户只需在终端输入 qrcp，程序会生成一个二维码，移动设备扫描后即可下载文件，无需依赖第三方云服务，适用于快速、安全的跨设备文件共享。"
+        "description": "qrcp 是一个通过二维码在局域网内快速传输文件的命令行工具，基于 Go 开发。核心用法是在电脑端将要发送的文件或目录暴露为临时链接，并在终端显示对应的二维码，接收方用手机或平板扫码即可下载，无需配对、登录或依赖云端中转。反过来，它同样支持手机通过扫码将文件传回电脑。整个过程仅在本地网络完成，适合在办公室、咖啡馆等场景下快速分享图片、文档等文件，兼顾便捷与隐私，通常也无需额外安装接收端应用。"
     },
     "summary": {
         "initial_stars": 10216,
-        "current_stars": 10490,
-        "star_diff": 274,
-        "growth_rate": 2.68,
+        "current_stars": 10493,
+        "star_diff": 277,
+        "growth_rate": 2.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 153
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 154
     },
     "history": [
         {
@@ -1088,6 +1088,13 @@
             "stars": 10490,
             "forks": 544,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10493,
+            "forks": 544,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

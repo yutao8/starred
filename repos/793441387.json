@@ -6,16 +6,16 @@
         "name": "myIPTV",
         "html_url": "https:\/\/github.com\/suxuang\/myIPTV",
         "language": "Other",
-        "description": "一个基于Python的IPTV工具，主要用于解析和管理网络电视直播源，支持自定义频道和节目单，方便用户搭建个人IPTV服务，适用于学习和研究流媒体技术。"
+        "description": "用于整理和分享IPTV网络电视直播源，通常以M3U等播放列表形式提供频道地址。适合在智能电视、手机或电脑上的IPTV播放器中订阅使用，帮助用户集中获取和切换多个直播频道。项目也常涉及源地址的定期更新与分类，以应对直播源失效或杂乱带来的观看不便。如果需要自建私人直播源，也可以参考或扩展其中的配置。"
     },
     "summary": {
         "initial_stars": 2887,
-        "current_stars": 4972,
-        "star_diff": 2085,
-        "growth_rate": 72.22,
+        "current_stars": 4974,
+        "star_diff": 2087,
+        "growth_rate": 72.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 4972,
             "forks": 505,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4974,
+            "forks": 505,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

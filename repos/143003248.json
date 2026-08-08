@@ -6,16 +6,16 @@
         "name": "jetbrains-in-chinese",
         "html_url": "https:\/\/github.com\/pingfangx\/jetbrains-in-chinese",
         "language": "Other",
-        "description": "提供适用于 JetBrains 系列 IDE 的中文语言包，支持包括 IntelliJ IDEA、PyCharm、WebStorm 等在内的开发工具，实现界面汉化，便于中文用户理解和使用，降低学习门槛，提升本地化体验，通常作为插件安装以切换显示语言。"
+        "description": "用于给 JetBrains 全家桶集成开发环境（如 IntelliJ IDEA、PyCharm、WebStorm、GoLand 等）提供简体中文语言支持。通过安装插件或本土化语言包，可将主界面、菜单、设置窗口及常用对话框翻译为中文，降低英文界面带来的操作门槛。适合希望保留原生 IDE 功能但习惯中文环境的开发者，也适合团队统一汉化部署。项目随 JetBrains 版本更新同步适配，用户可通过插件市场或手动下载语言包安装使用。"
     },
     "summary": {
         "initial_stars": 3704,
-        "current_stars": 3651,
-        "star_diff": -53,
-        "growth_rate": -1.43,
+        "current_stars": 3650,
+        "star_diff": -54,
+        "growth_rate": -1.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 3651,
             "forks": 936,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3650,
+            "forks": 936,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "noMeiryoUI",
         "html_url": "https:\/\/github.com\/Tatsu-syo\/noMeiryoUI",
         "language": "C++",
-        "description": "一个专为日语用户优化的现代化 UI 字体项目，通过改进 Meiryo 字体的显示效果，提升在各类应用程序中的可读性和视觉美感，适用于需要高质量日文界面显示的场景，主要用于增强 Windows 系统下的日文排版体验。"
+        "description": "用于替换 Windows 系统默认界面字体（如 Meiryo）的实用工具，通常适合不喜欢系统预设字体、希望自定义界面外观的用户。它可分别设置标题栏、菜单、消息框等元素的字体，也支持统一更换，修改后无需重启即可看到效果。工具本身小巧便捷，兼容 Windows 8 及以后版本，能有效改善字体显示不佳或满足个性化需求。提供图形化操作，并支持备份与恢复原始设置。"
     },
     "summary": {
         "initial_stars": 5583,
-        "current_stars": 6599,
-        "star_diff": 1016,
-        "growth_rate": 18.2,
+        "current_stars": 6604,
+        "star_diff": 1021,
+        "growth_rate": 18.29,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 6599,
             "forks": 189,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6604,
+            "forks": 189,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

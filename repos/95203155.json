@@ -6,16 +6,16 @@
         "name": "WePush",
         "html_url": "https:\/\/github.com\/rememberber\/WePush",
         "language": "Java",
-        "description": "WePush 是一个基于微信公众号的批量消息推送工具，主要用于帮助运营者高效管理多公众号账号并实现消息的批量发送。它支持图文消息、文本、模板消息等形式，提供简单的 Web 界面操作，适合需要同时维护多个公众号并进行定期内容推送的用户使用，提升内容分发效率。"
+        "description": "WePush是一款专注于消息推送的桌面工具，常用于向微信、企业微信、钉钉等渠道批量发送通知或告警信息。它适合运营人员、开发者或团队内部使用，能够通过可视化界面管理联系人、配置推送模板，并支持定时发送与历史记录查询，从而解决日常消息触达效率低、手动群发繁琐的问题。该项目基于Java生态构建，通常以打包后的客户端形式运行，操作门槛较低，适合需要快速实现多平台消息推送的场景。"
     },
     "summary": {
         "initial_stars": 4511,
-        "current_stars": 4651,
-        "star_diff": 140,
-        "growth_rate": 3.1,
+        "current_stars": 4652,
+        "star_diff": 141,
+        "growth_rate": 3.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 134
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 135
     },
     "history": [
         {
@@ -955,6 +955,13 @@
             "stars": 4651,
             "forks": 1012,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4652,
+            "forks": 1012,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

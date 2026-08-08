@@ -6,16 +6,16 @@
         "name": "electron-hiprint",
         "html_url": "https:\/\/github.com\/CcSimple\/electron-hiprint",
         "language": "JavaScript",
-        "description": "一个基于 Electron 和 hiprint 的桌面打印解决方案，主要用于实现本地化、跨平台的标签和票据打印功能，支持动态模板设计与预览，适用于需要稳定打印能力的业务系统集成，如电商发货、仓储管理等场景。"
+        "description": "基于 Electron 的打印解决方案，主要用于在桌面应用或本地服务中实现网页打印、标签设计及预览功能。它结合了 Electron 与 Web 技术，帮助开发者快速把 HTML 内容转为可打印的文档，支持常见打印机调用与样式调整，适合需要票据、标签、报表等精准打印场景。通常用于提升打印排版灵活性，并降低与系统打印驱动交互的复杂度，尤其适用于跨平台桌面打印工具或嵌入式打印模块。"
     },
     "summary": {
         "initial_stars": 138,
-        "current_stars": 267,
-        "star_diff": 129,
-        "growth_rate": 93.48,
+        "current_stars": 268,
+        "star_diff": 130,
+        "growth_rate": 94.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 98
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 99
     },
     "history": [
         {
@@ -703,6 +703,13 @@
             "stars": 267,
             "forks": 93,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 268,
+            "forks": 93,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

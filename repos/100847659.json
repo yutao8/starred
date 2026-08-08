@@ -6,16 +6,16 @@
         "name": "TranslatorX",
         "html_url": "https:\/\/github.com\/pingfangx\/TranslatorX",
         "language": "HTML",
-        "description": "主要用于Android应用的多语言字符串翻译管理工具，支持批量翻译、译文校对、词汇库维护及翻译进度跟踪，帮助开发者高效管理和维护多语言资源文件，提升应用本地化效率与翻译准确性。"
+        "description": "用于汉化 JetBrains 系列 IDE 的中文语言包项目，覆盖 IntelliJ IDEA、PyCharm、WebStorm、Android Studio 等主流开发工具。通过安装对应翻译文件，可将界面菜单、对话框和提示信息转为简体中文，降低非英语用户的上手门槛，适合希望使用原生中文界面进行开发的程序员。安装通常只需将下载的 jar 包放入 IDE 的 lib 目录并重启。"
     },
     "summary": {
         "initial_stars": 4539,
-        "current_stars": 4464,
-        "star_diff": -75,
-        "growth_rate": -1.65,
+        "current_stars": 4463,
+        "star_diff": -76,
+        "growth_rate": -1.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 92
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 93
     },
     "history": [
         {
@@ -661,6 +661,13 @@
             "stars": 4464,
             "forks": 590,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4463,
+            "forks": 590,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

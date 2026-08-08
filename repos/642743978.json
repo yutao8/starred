@@ -6,7 +6,7 @@
         "name": "registry-mirror",
         "html_url": "https:\/\/github.com\/bboysoulcn\/registry-mirror",
         "language": "Other",
-        "description": "用于配置和管理 Docker registry 镜像的工具，主要用于加速容器镜像的拉取过程，通过设置代理镜像服务来优化网络访问性能，适合在国内或网络受限环境中使用。"
+        "description": "用于搭建Docker镜像仓库的镜像加速服务，解决从官方或海外Registry拉取镜像时速度慢或超时失败的问题。通常部署在具备良好外网访问能力的服务器上，通过配置或脚本将常用镜像缓存到本地区域，供企业内部或本地开发环境使用。适合自建容器云、离线机房和持续集成场景，能显著提升镜像分发效率并节省带宽成本。仓库提供了简洁的部署方式，方便快速生效，技术上通常涉及Docker Registry的镜像复制机制，具体实现细节需参考仓库内文档。"
     },
     "summary": {
         "initial_stars": 623,

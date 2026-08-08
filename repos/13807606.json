@@ -6,16 +6,16 @@
         "name": "fzf",
         "html_url": "https:\/\/github.com\/junegunn\/fzf",
         "language": "Go",
-        "description": "一个用 Go 编写的命令行模糊查找工具，支持实时搜索、精确匹配和扩展正则表达式，主要用于快速筛选文件、命令历史、进程列表等文本输入，提供交互式界面并可集成到 shell、编辑器中提升操作效率。"
+        "description": "用于终端交互的通用模糊查找工具，能在管道中快速过滤并选择文本行，支持快捷键预览、多选和自定义键位绑定。通常配合命令行使用，可搜索文件路径、命令历史、Git 分支或进程列表，适合在复杂终端工作流中替代逐层浏览或手动 grep 定位，大幅提升操作效率。"
     },
     "summary": {
         "initial_stars": 71293,
-        "current_stars": 82397,
-        "star_diff": 11104,
-        "growth_rate": 15.58,
+        "current_stars": 82446,
+        "star_diff": 11153,
+        "growth_rate": 15.64,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 82397,
             "forks": 2849,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 82446,
+            "forks": 2852,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

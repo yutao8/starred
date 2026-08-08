@@ -6,16 +6,16 @@
         "name": "chat",
         "html_url": "https:\/\/github.com\/tinode\/chat",
         "language": "Go",
-        "description": "Tinode\/chat 是一个开源的即时通讯平台，主要用于构建支持大规模用户在线的实时聊天应用。它基于 WebSocket 协议实现，提供稳定的消息传递、群组聊天、消息历史存储、用户状态管理等功能，适合用于开发移动端和 Web 端的高并发聊天系统。"
+        "description": "Tinode 是一套可自托管的开源即时通讯解决方案，包含服务端和多个平台的客户端，用于搭建私有的、不受第三方平台限制的聊天应用。它支持一对一聊天和群组讨论，适合需要数据自主可控的企业内部沟通或垂直领域社交产品使用。项目提供移动端和 Web 端接入能力，并可通过配置选择数据库存储方案，整体架构侧重部署灵活性和二次开发便利。如果希望快速构建一个功能完整且可定制的消息系统，Tinode 是较为稳妥的基础选择。"
     },
     "summary": {
         "initial_stars": 12583,
-        "current_stars": 13447,
-        "star_diff": 864,
-        "growth_rate": 6.87,
+        "current_stars": 13452,
+        "star_diff": 869,
+        "growth_rate": 6.91,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 13447,
             "forks": 2074,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13452,
+            "forks": 2074,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

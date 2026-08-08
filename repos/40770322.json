@@ -6,7 +6,7 @@
         "name": "DiDOM",
         "html_url": "https:\/\/github.com\/Imangazaliev\/DiDOM",
         "language": "PHP",
-        "description": "DiDOM 是一个用于 PHP 的简单而强大的 DOM 操作库，提供直观的 API 来解析、修改和创建 HTML 和 XML 文档，支持 CSS 选择器、XPath 以及原生 DOM 方法，适用于网页抓取、内容提取和文档操作等场景。"
+        "description": "DiDOM 是一个 PHP 的 HTML 和 XML 解析库，专注于让开发者通过类似 jQuery 的语法快速提取页面元素和数据。它使用 CSS 选择器定位节点，支持遍历、修改和删除 DOM 元素。典型应用场景涵盖爬虫开发、网页内容抓取、HTML 清洗和数据分析。相比 PHP 原生 DOM 扩展，DiDOM 提供更简洁的链式调用方式，有效降低解析逻辑编写难度，适合需要从大量 HTML 文档中提取结构化信息的 PHP 项目，尤其适用于快速实现数据采集与处理任务。"
     },
     "summary": {
         "initial_stars": 2210,

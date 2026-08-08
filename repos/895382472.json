@@ -6,16 +6,16 @@
         "name": "cursor-fake-machine",
         "html_url": "https:\/\/github.com\/bestK\/cursor-fake-machine",
         "language": "JavaScript",
-        "description": "一个用于模拟和伪造 Cursor 开发环境机器信息的工具，主要用于本地开发时伪装设备或绕过绑定限制，方便多设备协同和调试，适合需要模拟不同运行环境的开发者使用。"
+        "description": "Cursor-fake-machine 用于模拟或伪造 Cursor 编辑器的使用活动，核心功能是生成仿真的操作轨迹和活跃状态，解决需要大量真实交互却无法满足时的替代问题。典型场景包括自动化测试、演示环境搭建，以及验证依赖编辑器状态的程序逻辑。它通常适合开发者和测试人员，在无需人工操作的情况下批量制造使用记录，或为其他工具提供模拟输入。项目具体实现和接口细节需参考仓库代码，但整体定位明确。"
     },
     "summary": {
         "initial_stars": 2681,
-        "current_stars": 2712,
-        "star_diff": 31,
-        "growth_rate": 1.16,
+        "current_stars": 2710,
+        "star_diff": 29,
+        "growth_rate": 1.08,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 160
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 161
     },
     "history": [
         {
@@ -1137,6 +1137,13 @@
             "stars": 2712,
             "forks": 386,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2710,
+            "forks": 386,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

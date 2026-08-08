@@ -6,16 +6,16 @@
         "name": "HowToCook",
         "html_url": "https:\/\/github.com\/Anduin2017\/HowToCook",
         "language": "Dockerfile",
-        "description": "一个开源的烹饪指南项目，主要通过代码化食谱的方式教用户学习编程与烹饪的结合，以幽默易懂的形式帮助初学者掌握编程概念，适合对编程和生活技巧感兴趣的入门者参考与实践。"
+        "description": "面向程序员群体的做饭指南，使用 Markdown 文件系统化整理家常菜谱，强调用精确的克数、计时和步骤描述代替“适量”“少许”等模糊表述，让不擅长做饭的人也能按教程稳定复刻菜肴。内容覆盖食材准备、处理技巧、火候控制与常见失败补救，适合希望用工程化思维掌握烹饪、减少试错成本的初学者。该仓库以开源方式持续收录从简单到复杂的菜品，并附带烹饪原理说明，便于读者理解操作背后的逻辑，从而举一反三。"
     },
     "summary": {
         "initial_stars": 90177,
-        "current_stars": 101566,
-        "star_diff": 11389,
-        "growth_rate": 12.63,
+        "current_stars": 101607,
+        "star_diff": 11430,
+        "growth_rate": 12.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 101566,
             "forks": 11054,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 101607,
+            "forks": 11064,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

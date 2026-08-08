@@ -6,16 +6,16 @@
         "name": "skycaiji",
         "html_url": "https:\/\/github.com\/zorlan\/skycaiji",
         "language": "PHP",
-        "description": "SkyCaiji是一个基于Python开发的网络爬虫框架，主要用于网页数据的采集与解析，支持多种反爬机制处理，适用于分布式爬虫部署，提供可视化界面与任务管理功能，便于用户高效配置和监控采集任务。"
+        "description": "skycaiji 是一个开源的网页数据采集工具，主要用于快速抓取网站内容并转换为结构化数据，适合需要批量收集新闻、商品、文章等信息的场景。它提供可视化的规则配置界面，用户无需编写复杂代码即可定义抓取字段和页面循环逻辑，同时支持定时任务、数据发布到数据库或第三方接口。该工具通常自托管部署，适用于个人站长、数据分析人员或企业进行轻量级数据聚合，能够降低传统爬虫开发与维护的成本。"
     },
     "summary": {
         "initial_stars": 2012,
-        "current_stars": 2085,
-        "star_diff": 73,
-        "growth_rate": 3.63,
+        "current_stars": 2086,
+        "star_diff": 74,
+        "growth_rate": 3.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 108
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 109
     },
     "history": [
         {
@@ -773,6 +773,13 @@
             "stars": 2085,
             "forks": 607,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2086,
+            "forks": 607,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

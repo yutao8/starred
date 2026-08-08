@@ -6,16 +6,16 @@
         "name": "ProxyPool",
         "html_url": "https:\/\/github.com\/Python3WebSpider\/ProxyPool",
         "language": "Python",
-        "description": "ProxyPool是一个用于搭建高性能匿名代理IP池的Python工具，主要用于解决爬虫开发中IP被封禁的问题。它支持从多个免费代理网站自动抓取代理IP，验证代理可用性并提供API接口随机获取可用代理，支持Redis存储与定时检查，可轻松集成到Scrapy等爬虫框架中，提升大规模数据采集的稳定性和效率。"
+        "description": "用于构建和管理代理IP池，能够自动抓取互联网上的免费代理，定期检测其可用性并剔除失效IP，同时提供HTTP接口供爬虫随机获取或按条件筛选代理。它主要解决爬虫开发中代理获取困难、存活率低、管理混乱的问题，适合大规模爬虫或反爬对抗场景，帮助降低IP封禁风险。设计上贴近爬虫生态，代码结构清晰，部署方便，便于集成到现有采集流程中。"
     },
     "summary": {
         "initial_stars": 6024,
-        "current_stars": 6233,
-        "star_diff": 209,
-        "growth_rate": 3.47,
+        "current_stars": 6234,
+        "star_diff": 210,
+        "growth_rate": 3.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 6233,
             "forks": 2231,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6234,
+            "forks": 2230,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

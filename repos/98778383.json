@@ -6,7 +6,7 @@
         "name": "think-wechat",
         "html_url": "https:\/\/github.com\/pithyone\/think-wechat",
         "language": "PHP",
-        "description": "一个基于 ThinkPHP 框架的微信扩展库，主要用于简化微信公众号、小程序等接口的开发与管理，提供统一的 API 调用、支付、授权、消息处理等功能，便于开发者快速集成微信生态能力到 ThinkPHP 项目中。"
+        "description": "这是基于 ThinkPHP 框架的微信开发组件，主要帮助 PHP 开发者快速集成微信公众号、微信支付等常见功能，通常用于在 ThinkPHP 项目中处理微信消息收发、菜单管理、用户信息获取与素材管理等场景。通过封装微信官方接口和消息机制，它能够简化开发流程，让开发者更专注于自身业务逻辑。如果你正在使用 ThinkPHP 构建需要对接微信生态的应用，这个库往往能提供合适的入口。"
     },
     "summary": {
         "initial_stars": 49,

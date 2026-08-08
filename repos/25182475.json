@@ -6,7 +6,7 @@
         "name": "psl",
         "html_url": "https:\/\/github.com\/lupomontero\/psl",
         "language": "JavaScript",
-        "description": "psl 是一个用于判断域名是否属于公共后缀列表（Public Suffix List）的 JavaScript 库，主要用于识别电子邮件地址或域名中的注册域部分。它基于 Mozilla 维护的公共后缀列表，可帮助开发者正确解析域名层级，常用于防止跨站点用户跟踪、验证邮箱域名或实现多租户子域名路由等场景。"
+        "description": "用于解析域名和公共后缀的 JavaScript 库，基于 Mozilla 的公共后缀列表，能准确提取可注册域名。适合需要判断域名归属、设置 Cookie 作用域或实施域名安全策略的场景，简化了域名解析过程，避免手动维护后缀列表。通常与 Web 开发和安全审计配合使用。"
     },
     "summary": {
         "initial_stars": 415,

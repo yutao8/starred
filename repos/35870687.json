@@ -6,16 +6,16 @@
         "name": "Blasting_dictionary",
         "html_url": "https:\/\/github.com\/rootphantomer\/Blasting_dictionary",
         "language": "Python",
-        "description": "用于网络安全测试的爆破字典生成工具，支持常见服务和协议的弱口令生成，适用于渗透测试中的凭证猜测场景，帮助安全研究人员快速构建针对性字典，提升测试效率。"
+        "description": "用于暴力破解测试场景的字典资源集合，主要提供常见用户名、弱口令、密码组合等爆破字典，帮助安全测试人员在授权渗透测试中批量验证登录接口、Web应用或服务账号的弱口令风险。该字典库通常按用途分类整理，适合配合主流安全测试工具使用，通过低成本方式快速排查认证薄弱点，也可用于日常安全评估、漏洞验证或防护策略加固。使用者需注意遵守法律法规，仅限合法授权范围内使用。"
     },
     "summary": {
         "initial_stars": 5109,
-        "current_stars": 5280,
-        "star_diff": 171,
-        "growth_rate": 3.35,
+        "current_stars": 5281,
+        "star_diff": 172,
+        "growth_rate": 3.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 5280,
             "forks": 2839,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5281,
+            "forks": 2839,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

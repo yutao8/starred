@@ -6,16 +6,16 @@
         "name": "remotely-save",
         "html_url": "https:\/\/github.com\/remotely-save\/remotely-save",
         "language": "TypeScript",
-        "description": "用于将网页内容自动保存到远程存储服务的浏览器扩展，支持多种云存储平台，可定时备份书签、笔记和剪贴板内容，适合需要跨设备同步和备份重要信息的用户，通常与 Google Drive、Dropbox 等集成以实现无缝保存。"
+        "description": "在 Obsidian 中通过远程存储服务同步笔记的插件，主要用于将笔记库安全地备份或同步到自托管的云存储，支持 S3、OSS、WebDAV 等多种协议，适合注重隐私、希望数据掌握在自己手中的用户，在多设备间保持笔记内容一致，不依赖第三方同步服务。"
     },
     "summary": {
         "initial_stars": 5685,
-        "current_stars": 7929,
-        "star_diff": 2244,
-        "growth_rate": 39.47,
+        "current_stars": 7933,
+        "star_diff": 2248,
+        "growth_rate": 39.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 7929,
             "forks": 426,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7933,
+            "forks": 428,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

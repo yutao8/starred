@@ -6,16 +6,16 @@
         "name": "tinyfecVPN",
         "html_url": "https:\/\/github.com\/wangyu-\/tinyfecVPN",
         "language": "C++",
-        "description": "一个轻量级的VPN工具，基于FEC（前向纠错）技术优化网络传输，主要用于改善高丢包环境下的网络稳定性，适合低带宽或不稳定的网络条件下使用，具有部署简单、资源占用低的特点。"
+        "description": "tinyfecVPN 是一款基于 UDP 的轻量级 VPN 工具，核心是利用前向纠错（FEC）来对抗网络丢包，从而在不稳定链路（如跨运营商、跨国连接）上提升传输质量。它通过发送冗余数据包，让接收端能够恢复部分丢失数据，显著降低重传延迟，特别适合在线游戏、视频会议等对实时性要求高的场景。与侧重加密的常规 VPN 不同，tinyfecVPN 更关注性能优化，常被用于搭建抗丢包的私有通道，并可与加密方案组合使用以兼顾速度与安全。项目主要面向开发者和高级用户，适用于需要改善高丢包环境下连接体验的多种场景。"
     },
     "summary": {
         "initial_stars": 2407,
-        "current_stars": 2578,
-        "star_diff": 171,
-        "growth_rate": 7.1,
+        "current_stars": 2579,
+        "star_diff": 172,
+        "growth_rate": 7.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 117
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 118
     },
     "history": [
         {
@@ -836,6 +836,13 @@
             "stars": 2578,
             "forks": 474,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2579,
+            "forks": 474,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

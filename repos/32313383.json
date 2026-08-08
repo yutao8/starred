@@ -6,16 +6,16 @@
         "name": "dex2jar",
         "html_url": "https:\/\/github.com\/pxb1988\/dex2jar",
         "language": "Java",
-        "description": "用于将Android的DEX文件转换为Java的JAR文件的工具，便于反编译分析和逆向工程，支持从APK中提取可读的Java字节码，常用于安全审计和代码调试。"
+        "description": "dex2jar 用于将 Android 应用中的 DEX 字节码转换为 JAR 文件，方便使用常见 Java 反编译器直接查看源码逻辑。它主要面向 APK 逆向分析、安全审计和学习第三方应用实现等场景，可直接读取 APK 或单独的 DEX 文件并输出对应的 class 文件，常与 JD-GUI 配合完成从字节码到可读代码的完整流程。对于需要快速定位 Android 应用核心逻辑或校验代码混淆效果的开发者而言，这是一个基础且实用的命令行工具。"
     },
     "summary": {
         "initial_stars": 12797,
-        "current_stars": 13127,
-        "star_diff": 330,
-        "growth_rate": 2.58,
+        "current_stars": 13130,
+        "star_diff": 333,
+        "growth_rate": 2.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 13127,
             "forks": 2186,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13130,
+            "forks": 2186,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

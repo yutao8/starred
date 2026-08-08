@@ -6,7 +6,7 @@
         "name": "electron-as-browser",
         "html_url": "https:\/\/github.com\/hulufei\/electron-as-browser",
         "language": "JavaScript",
-        "description": "基于 Electron 构建的轻量级浏览器应用，主要用于快速启动指定网页并将其以桌面应用形式运行，适合将 Web 应用封装为独立窗口，支持自定义 URL 和基础导航功能，可跨平台部署。"
+        "description": "electron-as-browser 是一个将 Electron 运行时封装为浏览器环境的解决方案，主要用于在桌面应用中直接加载网页、管理多标签页或模拟浏览器行为，适合需要快速构建轻量级 Web 容器、简化前端调试或复用浏览器内核功能的场景，通常与 Chromium 生态和 Node.js 结合使用。"
     },
     "summary": {
         "initial_stars": 226,

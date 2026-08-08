@@ -6,7 +6,7 @@
         "name": "HPSocket.Net",
         "html_url": "https:\/\/github.com\/int2e\/HPSocket.Net",
         "language": "C#",
-        "description": "HPSocket.Net 是一个基于高性能网络通信框架 HPSocket 的 .NET 版本封装库，主要用于简化 TCP、UDP、HTTP、WebSocket 等网络通信在 .NET 环境下的开发。它提供了 C# 接口以调用原生高效 C++ 底层，适用于高并发、低延迟的通信场景，典型用于即时通讯、远程监控和物联网系统开发。"
+        "description": "为.NET平台提供高性能网络通信能力的封装库，主要基于HPSocket底层实现TCP和UDP的高效收发，支持同步与异步操作模式。通常适合需要处理大量并发连接的后端服务，例如游戏服务器、实时消息推送、物联网设备接入等场景。借助HPSocket成熟的事件驱动模型，能降低网络编程复杂度，同时保持较高的传输性能和稳定性，适用于对延迟和吞吐量有要求的C#项目。"
     },
     "summary": {
         "initial_stars": 210,

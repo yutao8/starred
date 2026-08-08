@@ -6,16 +6,16 @@
         "name": "luarocks",
         "html_url": "https:\/\/github.com\/luarocks\/luarocks",
         "language": "Lua",
-        "description": "LuaRocks 是 Lua 语言的包管理器，用于安装和管理 Lua 模块及其依赖。它支持从中央仓库或本地源码安装“rocks”（Lua 扩展包），可指定版本、依赖解析，并集成 LuaJIT 或标准 Lua 解释器，通常用于快速部署和构建 Lua 应用生态。"
+        "description": "LuaRocks 是 Lua 生态中最常用的包管理器，用于下载、安装、卸载和更新 Lua 模块及依赖。它支持从本地文件或远程仓库（如 LuaRocks 官方服务器）获取 rock 包，并自动处理模块间的版本依赖关系，极大简化了项目依赖管理流程。通常适合 Lua 开发者、游戏引擎（如 LÖVE）或嵌入 Lua 脚本的项目，帮助快速集成第三方库、部署环境以及发布自研模块。其命令行工作流清晰，配置灵活，是 Lua 社区事实上的标准工具。"
     },
     "summary": {
         "initial_stars": 3494,
-        "current_stars": 3714,
-        "star_diff": 220,
-        "growth_rate": 6.3,
+        "current_stars": 3715,
+        "star_diff": 221,
+        "growth_rate": 6.33,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 147
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 148
     },
     "history": [
         {
@@ -1046,6 +1046,13 @@
             "stars": 3714,
             "forks": 480,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3715,
+            "forks": 480,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

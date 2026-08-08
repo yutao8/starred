@@ -6,16 +6,16 @@
         "name": "windows",
         "html_url": "https:\/\/github.com\/dockur\/windows",
         "language": "Shell",
-        "description": "该项目主要用于在Windows系统上运行Docker容器，提供对Docker工具链的集成支持，使开发者能够通过容器化方式部署和管理应用，适用于本地开发、测试及CI\/CD流程中的容器化需求。"
+        "description": "在 Docker 容器中运行完整 Windows 操作系统，提供基于网页的远程桌面访问，适合需要临时或隔离的 Windows 环境用于测试软件、运行旧应用或进行自动化任务，支持自定义镜像版本和资源分配，方便通过容器化方式快速部署和管理 Windows 实例。"
     },
     "summary": {
         "initial_stars": 35995,
-        "current_stars": 52764,
-        "star_diff": 16769,
-        "growth_rate": 46.59,
+        "current_stars": 52790,
+        "star_diff": 16795,
+        "growth_rate": 46.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 52764,
             "forks": 4577,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 52790,
+            "forks": 4586,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

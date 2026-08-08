@@ -6,16 +6,16 @@
         "name": "cim",
         "html_url": "https:\/\/github.com\/crossoverJie\/cim",
         "language": "Java",
-        "description": "一个基于 Netty 实现的轻量级即时通讯系统，主要用于学习和理解 IM 系统的基本原理，支持单聊、群聊、消息广播等功能，适合 Java 后端开发者学习网络编程与高并发设计。"
+        "description": "cim 是一个面向 Java 技术栈的分布式即时通讯（IM）系统，主要解决高并发场景下的消息推送与在线聊天需求。它基于 Netty 构建网络通信层，支持私聊、群聊、消息推送等核心功能，并引入 Zookeeper 实现服务注册与发现，从而支持服务器节点横向扩展，适合需要自研聊天功能或消息推送系统的中小型项目。项目提供了完整的客户端与服务端示例，便于快速集成或二次开发，常被用于学习分布式系统设计、Netty 高性能编程以及 IM 业务逻辑的参考实现。"
     },
     "summary": {
         "initial_stars": 9418,
-        "current_stars": 9491,
-        "star_diff": 73,
-        "growth_rate": 0.78,
+        "current_stars": 9493,
+        "star_diff": 75,
+        "growth_rate": 0.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 149
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 150
     },
     "history": [
         {
@@ -1060,6 +1060,13 @@
             "stars": 9491,
             "forks": 2869,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9493,
+            "forks": 2869,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

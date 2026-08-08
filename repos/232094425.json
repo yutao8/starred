@@ -6,16 +6,16 @@
         "name": "catch-admin",
         "html_url": "https:\/\/github.com\/JaguarJack\/catch-admin",
         "language": "PHP",
-        "description": "Catch Admin 是一个基于 ThinkPHP 6 和 Ant Design Vue 开发的后台权限管理系统，主要用于快速构建具有完整权限控制的后台应用。它集成了用户管理、角色权限分配、菜单动态生成等核心功能，支持前后端分离部署，适合用于各类中后台项目的开发起点，提升开发效率并降低权限模块的重复开发成本。"
+        "description": "快速搭建中后台管理系统的开发框架，采用 Laravel 加 Vue 的前后端分离架构。内置用户、角色、权限等常见基础管理模块，支持动态菜单与界面配置，可减少重复搭建成本。提供代码生成与扩展机制，适合需要快速生成业务模块并保持一定定制能力的内部系统或管理平台开发。代码结构清晰，便于二次开发，通常用于中小型项目或团队内部工具的后台搭建。"
     },
     "summary": {
         "initial_stars": 802,
-        "current_stars": 926,
-        "star_diff": 124,
-        "growth_rate": 15.46,
+        "current_stars": 928,
+        "star_diff": 126,
+        "growth_rate": 15.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 102
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 103
     },
     "history": [
         {
@@ -731,6 +731,13 @@
             "stars": 926,
             "forks": 137,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 928,
+            "forks": 137,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

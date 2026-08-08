@@ -6,7 +6,7 @@
         "name": "tiktok-scraper",
         "html_url": "https:\/\/github.com\/drawrowfly\/tiktok-scraper",
         "language": "TypeScript",
-        "description": "用于从 TikTok 抓取公开视频数据的工具，支持获取视频详情、用户信息和评论等内容，通常适用于内容分析、数据采集等场景，依赖网络请求与解析技术实现无需登录的数据抓取。"
+        "description": "用于抓取TikTok公开数据的开源工具，以命令行和程序化接口方式运行。支持按用户名、标签或关键词提取视频信息、用户详情、评论内容，并能批量下载无水印视频。通常通过模拟网页请求和解析JSON响应来获取数据，适合需要采集短视频平台公开信息的舆情分析、市场调研或内容运营场景。需注意遵守平台使用条款，控制请求频率，避免过度抓取。"
     },
     "summary": {
         "initial_stars": 4750,
@@ -14,8 +14,8 @@
         "star_diff": 416,
         "growth_rate": 8.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 5166,
             "forks": 906,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5166,
+            "forks": 907,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "pheanstalk",
         "html_url": "https:\/\/github.com\/pheanstalk\/pheanstalk",
         "language": "PHP",
-        "description": "pheanstalk\/pheanstalk 是一个 PHP 客户端库，用于与 Beanstalkd 工作队列系统进行交互。它提供简洁的 API 来实现任务的投递、处理、延迟、重试和监控，适用于构建异步任务处理系统，常用于解耦耗时操作如发送邮件、处理队列任务等场景。"
+        "description": "Pheanstalk 是 PHP 编写的 Beanstalkd 客户端库，主要用于与 Beanstalkd 工作队列进行交互，完成后台任务的发布、消费和删除。它适合处理异步任务分发、延迟任务、优先级队列等常见场景，支持管道隔离、任务超时、延迟执行等核心功能，并常被集成到 Laravel 等框架中作为队列驱动。通过简洁的 API，该库能够帮助 PHP 项目稳定地实现轻量级消息队列和分布式任务处理，适合需要可靠后台执行机制的开发者。"
     },
     "summary": {
         "initial_stars": 1922,

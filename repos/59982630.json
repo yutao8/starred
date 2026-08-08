@@ -6,7 +6,7 @@
         "name": "ehForwarderBot",
         "html_url": "https:\/\/github.com\/ehForwarderBot\/ehForwarderBot",
         "language": "Python",
-        "description": "ehForwarderBot 是一个可扩展的聊天消息转发框架，主要用于跨平台转发消息，支持将不同聊天应用（如微信、Telegram、QQ 等）的消息互相转发。通过模块化设计，用户可自定义频道和中间件，实现多设备同步、消息过滤和自动化处理，适合需要整合多个通讯平台的场景。"
+        "description": "ehForwarderBot 是用于构建消息隧道的可扩展框架，核心作用是将不同即时通讯平台的消息互相转发。它通常在一个平台（如 Telegram）上远程收发另一个平台（如微信、QQ）的消息，解决多平台消息分散、切换麻烦的问题。项目采用插件化架构，通过加载不同平台通道实现功能扩展，支持自定义部署和配置，适合个人或团队自建消息聚合服务。基于 Python 实现，一般运行在服务器上，实际效果取决于所选用通道插件的成熟度。"
     },
     "summary": {
         "initial_stars": 2960,

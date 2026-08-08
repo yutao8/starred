@@ -6,16 +6,16 @@
         "name": "reference",
         "html_url": "https:\/\/github.com\/Fechin\/reference",
         "language": "EJS",
-        "description": "该项目主要用于提供参考实现或示例代码，帮助开发者理解特定技术、协议或框架的正确用法，通常包含标准化的接口调用、配置模板和最佳实践，适合在开发过程中作为学习或集成的辅助资源。"
+        "description": "该仓库整理并索引了多种常用技术栈的参考资料，方便开发者快速查询语法、配置和最佳实践，适合日常编码或项目启动时作为速查手册使用。内容通常按主题分类，覆盖前端、后端及工具链等常见领域，有助于减少反复搜索文档的时间。"
     },
     "summary": {
         "initial_stars": 8549,
-        "current_stars": 10747,
-        "star_diff": 2198,
-        "growth_rate": 25.71,
+        "current_stars": 10754,
+        "star_diff": 2205,
+        "growth_rate": 25.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 10747,
             "forks": 1315,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10754,
+            "forks": 1315,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

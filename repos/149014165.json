@@ -6,7 +6,7 @@
         "name": "payjs",
         "html_url": "https:\/\/github.com\/xhat\/payjs",
         "language": "PHP",
-        "description": "基于 payjs.cn 的支付接口封装，主要用于微信支付的便捷接入，提供扫码支付、订单查询、退款等功能，适用于个人开发者在小程序或网页中实现免签收款，配置简单，无需企业资质，适合小微项目快速集成。"
+        "description": "主要用于对接 PayJS 支付网关的 JavaScript 库，封装统一下单、订单查询、支付回调验签等常见操作，适合在 Node.js 服务端或前端项目中快速接入微信支付。它针对个人开发者和中小商户设计，能够简化支付流程、降低集成成本，常用于电商、工具类网站或小程序的后端支付场景。"
     },
     "summary": {
         "initial_stars": 77,

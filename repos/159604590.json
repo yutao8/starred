@@ -6,7 +6,7 @@
         "name": "openapi-sdk-php-client",
         "html_url": "https:\/\/github.com\/aliyun\/openapi-sdk-php-client",
         "language": "PHP",
-        "description": "阿里云OpenAPI PHP SDK为开发者提供了一套基于PHP的工具，用于便捷调用阿里云各产品的OpenAPI接口。通过该客户端，用户可快速实现云服务器、数据库、网络、安全等服务的管理和操作，适用于自动化运维、云资源批量管理等场景，具备良好的可扩展性和稳定性。"
+        "description": "用于在 PHP 项目中集成阿里云开放平台服务的官方客户端 SDK，提供统一的 API 调用入口，封装请求签名、身份认证、地域配置和错误处理等底层细节。开发者通过 Composer 安装后即可初始化客户端，以面向对象方式调用 ECS、OSS、RDS、SLS 等众多阿里云产品的开放接口，适合需要从后端 PHP 服务自动管理云资源的场景，比如部署自动化、数据备份、日志采集等。该库遵循阿里云 OpenAPI 规范，便于安全、稳定地接入云服务能力，避免手工构造 HTTP 请求和签名逻辑带来的繁琐与风险。"
     },
     "summary": {
         "initial_stars": 222,

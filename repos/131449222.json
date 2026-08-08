@@ -6,16 +6,16 @@
         "name": "moonlight-qt",
         "html_url": "https:\/\/github.com\/moonlight-stream\/moonlight-qt",
         "language": "C++",
-        "description": "Moonlight Stream 是一个用于串流远程设备上游戏和应用的开源工具，主要配合 NVIDIA GeForce Now 或本地 PC 使用，实现低延迟的高质量串流体验，支持跨平台远程游戏播放。"
+        "description": "Moonlight Qt 是一款开源的游戏串流客户端，主要用于将 NVIDIA GeForce Experience 中的 GameStream 功能延伸到多平台设备上，让你在局域网或互联网环境下远程流畅玩 PC 游戏。它适合用低性能设备（如笔记本、树莓派或旧电脑）访问高性能主机，兼顾低延迟与画质，并支持键盘鼠标和手柄操作。不局限于电视或安卓盒子，桌面系统也能获得跨平台的串流体验。"
     },
     "summary": {
         "initial_stars": 13586,
-        "current_stars": 18163,
-        "star_diff": 4577,
-        "growth_rate": 33.69,
+        "current_stars": 18187,
+        "star_diff": 4601,
+        "growth_rate": 33.87,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 18163,
             "forks": 1206,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18187,
+            "forks": 1212,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "ohmyzsh",
         "html_url": "https:\/\/github.com\/ohmyzsh\/ohmyzsh",
         "language": "Shell",
-        "description": "ohmyzsh 是一个社区驱动的命令行框架，用于管理 Zsh 配置，提供丰富的主题、插件和便捷工具，可简化日常终端操作，提升开发效率，适用于需要高度自定义 shell 环境的用户。"
+        "description": "一个社区驱动的 Zsh 配置管理框架，用于简化终端环境搭建和日常使用。它内置数百个插件和主题，涵盖 Git 别名、语法高亮、自动跳转等常见功能，可显著减少手动修改配置文件的工作量。用户通过简单的配置文件即可启用或组合扩展，适合频繁使用命令行的开发者、运维人员或任何想要提升终端操作效率的人。它解决了从零配置 Shell 的繁琐问题，让个性化终端体验变得快速且标准化，通常用于 macOS 和 Linux 系统的默认 Shell 增强。"
     },
     "summary": {
         "initial_stars": 179462,
-        "current_stars": 189065,
-        "star_diff": 9603,
-        "growth_rate": 5.35,
+        "current_stars": 189084,
+        "star_diff": 9622,
+        "growth_rate": 5.36,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 189065,
             "forks": 26573,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 189084,
+            "forks": 26578,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "univer",
         "html_url": "https:\/\/github.com\/dream-num\/univer",
         "language": "TypeScript",
-        "description": "一个基于 Web 的在线电子表格工具，主要用于文档协作与数据处理，支持多用户实时编辑、公式计算和表格共享，适合团队在云端高效完成数据管理与协同办公任务。"
+        "description": "开源的 Web 办公套件，整合电子表格、文档和幻灯片三大核心应用，基于 TypeScript 构建并采用插件化架构，适合嵌入网页或自建在线办公平台。核心功能涵盖实时协同编辑、丰富公式、图表、条件格式以及跨应用数据联动，并支持主流文档格式的导入导出。常用于企业级在线协作、教育平台和定制化办公场景，解决传统办公软件在 Web 环境下集成难、扩展性差的问题，提供接近原生应用的流畅操作体验。"
     },
     "summary": {
         "initial_stars": 9230,
-        "current_stars": 14059,
-        "star_diff": 4829,
-        "growth_rate": 52.32,
+        "current_stars": 14070,
+        "star_diff": 4840,
+        "growth_rate": 52.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14059,
             "forks": 1257,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14070,
+            "forks": 1261,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

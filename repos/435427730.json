@@ -6,16 +6,16 @@
         "name": "Shadowrocket-ADBlock-Rules-Forever",
         "html_url": "https:\/\/github.com\/Johnshall\/Shadowrocket-ADBlock-Rules-Forever",
         "language": "Other",
-        "description": "提供适用于 Shadowrocket 的持久化广告拦截规则，主要用于iOS设备上的网络流量过滤，通过自动更新的规则列表屏蔽广告、追踪器及恶意域名，提升浏览安全与加载速度，适合配合科学上网工具使用以优化整体网络体验。"
+        "description": "用于 Shadowrocket 的广告过滤规则集，持续维护更新，能拦截常见广告域名、追踪器及恶意链接，兼容 iOS 设备的代理环境。使用者将规则导入 Shadowrocket 后，即可在 Safari 和 App 内无感过滤广告，减少流量消耗并保护隐私，同时提升页面加载速度。适合希望摆脱广告打扰、享受干净上网体验的用户。"
     },
     "summary": {
         "initial_stars": 15907,
-        "current_stars": 28907,
-        "star_diff": 13000,
-        "growth_rate": 81.73,
+        "current_stars": 28993,
+        "star_diff": 13086,
+        "growth_rate": 82.27,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28907,
             "forks": 1918,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28993,
+            "forks": 1927,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

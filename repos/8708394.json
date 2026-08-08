@@ -6,16 +6,16 @@
         "name": "whoops",
         "html_url": "https:\/\/github.com\/filp\/whoops",
         "language": "PHP",
-        "description": "一个PHP错误处理库，用于在开发过程中捕获和展示详细的错误信息，支持彩色堆栈跟踪、代码片段高亮和完整变量内容展示，主要用于提升调试效率，适合集成在Web应用中替代原生的PHP错误提示。"
+        "description": "whoops是一个PHP错误处理库，主要用于开发环境中的错误调试。它能将PHP默认的晦涩错误信息转换成结构清晰、视觉友好的页面，完整展示堆栈跟踪、请求参数和代码上下文，让开发者快速定位问题。相比原生错误界面，whoops大大提升了排查效率。它常被集成到Laravel、Symfony等框架中，也适合作为独立组件使用。典型场景是在开发调试时替代默认错误显示，并能按需隐藏敏感信息，不过生产环境通常建议关闭。"
     },
     "summary": {
         "initial_stars": 13236,
-        "current_stars": 13237,
-        "star_diff": 1,
-        "growth_rate": 0.01,
+        "current_stars": 13236,
+        "star_diff": 0,
+        "growth_rate": 0,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 124
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 125
     },
     "history": [
         {
@@ -885,6 +885,13 @@
             "stars": 13237,
             "forks": 601,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13236,
+            "forks": 601,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

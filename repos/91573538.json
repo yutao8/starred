@@ -6,16 +6,16 @@
         "name": "12306",
         "html_url": "https:\/\/github.com\/testerSunshine\/12306",
         "language": "Python",
-        "description": "12306 是一个用于查询火车票信息和辅助购票的 Python 工具，支持余票查询、自动提交订单等功能，主要用于帮助用户更高效地在 12306 官方网站上完成抢票操作，提升购票成功率。"
+        "description": "12306购票助手，用于自动完成车票查询、余票监控、提交订单和验证码识别，通过多线程并发刷票提升抢票成功率。主要面向出行高峰期难以通过官网手动购票的用户，适合在春运等场景下提前设置抢票任务，帮助用户快速锁定剩余车票。项目通常部署在本地服务器或云主机上运行，需要用户预先登录并配置乘车人、日期和车次偏好，操作灵活但依赖网站接口稳定性，适合熟悉命令行和基本网络技术的使用者。"
     },
     "summary": {
         "initial_stars": 34051,
-        "current_stars": 34106,
-        "star_diff": 55,
+        "current_stars": 34105,
+        "star_diff": 54,
         "growth_rate": 0.16,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 34106,
             "forks": 9615,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 34105,
+            "forks": 9615,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

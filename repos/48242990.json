@@ -6,16 +6,16 @@
         "name": "snapdrop",
         "html_url": "https:\/\/github.com\/SnapDrop\/snapdrop",
         "language": "JavaScript",
-        "description": "Snapdrop 是一个基于 Web 的局域网文件共享工具，无需安装应用即可在设备间快速传输文件。它利用 WebRTC 技术实现端对端加密传输，支持跨平台使用，适用于手机、电脑等多设备间的即时文件分享，所有数据直接在客户端间传输，不经过服务器，保障隐私安全。"
+        "description": "Snapdrop 是一款基于浏览器的开源点对点文件传输工具，主要用于在手机、电脑、平板等不同设备间快速共享文件。它利用 WebRTC 技术建立设备间的直接加密连接，无需安装客户端或注册账号，只需在浏览器中打开同一网页即可互传。典型场景包括局域网内自动发现设备、代替 AirDrop 实现跨平台投送，以及适合对隐私敏感、不希望文件经过服务器中转的临时传输需求。界面简洁，操作门槛低，适合日常办公或个人多设备间快速交换文件。"
     },
     "summary": {
         "initial_stars": 19208,
-        "current_stars": 19712,
-        "star_diff": 504,
-        "growth_rate": 2.62,
+        "current_stars": 19707,
+        "star_diff": 499,
+        "growth_rate": 2.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 181
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 182
     },
     "history": [
         {
@@ -1284,6 +1284,13 @@
             "stars": 19712,
             "forks": 1867,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 19707,
+            "forks": 1867,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

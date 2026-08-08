@@ -6,16 +6,16 @@
         "name": "rdpwrap",
         "html_url": "https:\/\/github.com\/stascorp\/rdpwrap",
         "language": "Pascal",
-        "description": "用于修复和扩展 Windows 远程桌面服务功能的开源工具，支持多用户远程连接，适用于非服务器版 Windows 系统，解决官方限制导致的无法并发登录问题，提供图形界面与自动化配置脚本。"
+        "description": "RDP Wrapper 用于在微软 Windows 客户版（如家庭版、专业工作站版）上强制启用远程桌面服务，突破官方默认仅服务器版或企业版支持多会话的限制，实现多用户同时远程登录。它通过注入动态链接库的方式修改终端服务行为，无需替换系统文件，适合需要在受限系统上开展远程办公、协作测试或运维管理的场景。使用时需根据系统版本匹配对应的配置文件，并可能被安全软件误报。该工具主要面向熟悉 Windows 服务与远程连接配置的技术用户。"
     },
     "summary": {
         "initial_stars": 15571,
-        "current_stars": 16766,
-        "star_diff": 1195,
-        "growth_rate": 7.67,
+        "current_stars": 16769,
+        "star_diff": 1198,
+        "growth_rate": 7.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 16766,
             "forks": 4049,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16769,
+            "forks": 4048,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

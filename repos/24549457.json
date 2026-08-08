@@ -6,7 +6,7 @@
         "name": "SocketIoClientDotNet",
         "html_url": "https:\/\/github.com\/Quobject\/SocketIoClientDotNet",
         "language": "C#",
-        "description": "SocketIoClientDotNet 是一个用于 .NET 平台的 Socket.IO 客户端库，允许 C# 应用程序与支持 Socket.IO 协议的服务器进行实时双向通信，适用于需要实时数据交互的场景，如聊天应用、实时通知和协同系统，支持 .NET Framework 和 .NET Standard，可集成于桌面、移动和 ASP.NET Core 项目中。"
+        "description": "SocketIoClientDotNet 是面向 .NET 生态的 Socket.IO 客户端库，用于在 C# 应用中实现与 Socket.IO 服务器的实时双向通信。它支持事件驱动消息收发、命名空间和自动重连，通常适合需要即时通讯、实时推送或协作功能的桌面、移动（如 Xamarin、Unity）及服务端应用。借助该库，开发者可以在 Windows、macOS 和 Linux 等平台上复用同一套代码逻辑，简化跨平台实时功能的接入流程。"
     },
     "summary": {
         "initial_stars": 791,

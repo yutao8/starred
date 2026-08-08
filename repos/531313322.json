@@ -6,16 +6,16 @@
         "name": "tdl",
         "html_url": "https:\/\/github.com\/iyear\/tdl",
         "language": "Go",
-        "description": "一个基于 TypeScript 实现的轻量级、函数式工具库，提供无副作用的纯函数工具集，主要用于处理常见编程任务如数据操作、类型判断、字符串格式化等，适合在现代前端项目中按需导入使用，具有良好的类型推导支持。"
+        "description": "用于下载 Telegram 聊天记录中的文件与媒体，它是一款用 Go 编写的命令行下载工具，支持多线程并发、断点续传和批量下载，适合需要将 Telegram 渠道、群组或私聊中的文档、视频、图片等资源备份到本地的场景。使用时可指定消息范围或筛选条件，下载速度快且对服务器压力较小，通常配合代理和账号配置使用，尤其适合个人收藏或数据迁移。"
     },
     "summary": {
         "initial_stars": 5551,
-        "current_stars": 7900,
-        "star_diff": 2349,
-        "growth_rate": 42.32,
+        "current_stars": 7902,
+        "star_diff": 2351,
+        "growth_rate": 42.35,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 7900,
             "forks": 776,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7902,
+            "forks": 777,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

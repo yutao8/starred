@@ -6,16 +6,16 @@
         "name": "fancyss",
         "html_url": "https:\/\/github.com\/hq450\/fancyss",
         "language": "Shell",
-        "description": "基于 hq450 的 fancyss 项目主要为路由器提供科学上网插件支持，集成多种 SSR、V2Ray 等协议，便于用户在 OpenWrt 等系统上快速部署和管理网络代理服务，提升网络访问自由度与隐私保护能力。"
+        "description": "用于在基于华硕梅林固件的路由器上搭建科学上网环境，通过安装插件实现全局透明代理，让连接路由器的所有设备无需单独配置即可访问境外网络资源。它通常支持 V2Ray、ShadowSocks、Trojan 等主流代理协议，并提供节点管理、流量统计、规则分流等常见功能。适合希望从网络层统一解决访问受限问题的用户，特别适合家庭或小型办公网络中使用华硕路由器的场景。插件需要路由器具备相应固件支持，并依赖外部提供的节点信息才能正常工作。"
     },
     "summary": {
         "initial_stars": 12938,
-        "current_stars": 13695,
-        "star_diff": 757,
-        "growth_rate": 5.85,
+        "current_stars": 13694,
+        "star_diff": 756,
+        "growth_rate": 5.84,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 13695,
             "forks": 3241,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13694,
+            "forks": 3242,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

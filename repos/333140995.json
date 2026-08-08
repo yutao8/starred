@@ -6,16 +6,16 @@
         "name": "Dedicated-Seedbox",
         "html_url": "https:\/\/github.com\/jerry048\/Dedicated-Seedbox",
         "language": "Shell",
-        "description": "一个专为搭建专用种子服务器（Seedbox）而设计的配置脚本集合，主要用于自动化部署高性能的 BT 种子环境，支持 Transmission、rTorrent 等常用客户端，集成防火墙、反向代理和用户管理功能，适合需要远程做种和高带宽分享的用户，基于 Linux 系统（如 Debian\/Ubuntu）快速构建安全稳定的 Seedbox 服务。"
+        "description": "用于自动部署和配置专用种子盒（Seedbox）的脚本或工具集，帮助用户在一台独立服务器上快速搭建完整的种子下载与保种环境。其核心功能涵盖下载客户端的安装配置、Web 管理界面的启用，以及针对高速上传下载的初步系统调优，省去手工逐项设置的繁琐过程。典型场景是个人租用独立服务器后，借此快速获得一个可远程访问、全天候在线的种子下载服务，用于 PT 站保种或获取大体积资源，并能方便地将下载文件传输回本地或其他存储设备。适合不熟悉服务器运维但又需要高性能种子盒的用户。"
     },
     "summary": {
         "initial_stars": 975,
-        "current_stars": 1222,
-        "star_diff": 247,
-        "growth_rate": 25.33,
+        "current_stars": 1224,
+        "star_diff": 249,
+        "growth_rate": 25.54,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 1222,
             "forks": 272,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1224,
+            "forks": 272,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "php-memcached",
         "html_url": "https:\/\/github.com\/php-memcached-dev\/php-memcached",
         "language": "C",
-        "description": "提供 PHP 的 Memcached 扩展实现，用于连接和操作 Memcached 缓存服务器，支持高性能的分布式内存对象缓存，提升 Web 应用访问速度与负载能力，兼容 PHP 5.3+ 及更高版本。"
+        "description": "用于PHP的Memcached扩展，基于libmemcached构建，提供面向对象的缓存操作接口。核心功能包括数据存取、删除、批量操作、CAS令牌校验、过期时间设置，以及分布式部署下的服务器一致性哈希。它支持压缩和序列化，可存储字符串、数组、对象等不同数据类型。典型场景是高并发Web应用的缓存层、会话管理、数据库查询结果缓存，用来降低数据库压力并显著提升响应速度。该扩展通常搭配Memcached服务端使用，适合需要简单高效分布式缓存解决方案的PHP项目。"
     },
     "summary": {
         "initial_stars": 994,

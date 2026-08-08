@@ -6,16 +6,16 @@
         "name": "iptv-m3u-maker",
         "html_url": "https:\/\/github.com\/EvilCult\/iptv-m3u-maker",
         "language": "HTML",
-        "description": "用于自动生成 IPTV M3U 播放列表的工具，支持从不同来源收集频道并整理成标准格式的播放列表文件，方便用户在各类 IPTV 播放器中使用，适用于需要定期更新频道列表的场景，简化了手动维护播放列表的流程。"
+        "description": "用于将零散的 IPTV 直播源整理成标准 m3u 播放列表的实用工具，通常适合需要从网页、接口或文本中提取频道地址，并生成可被播放器直接识别的列表文件的场景。其核心功能包括自动抓取直播源、解析频道名称与地址、去重过滤并输出 m3u 格式文件，解决手动维护电视直播链接繁琐易错的问题。该项目以 Python 编写，支持自定义源和模板，便于批量处理与定期更新。"
     },
     "summary": {
         "initial_stars": 2828,
-        "current_stars": 2890,
-        "star_diff": 62,
-        "growth_rate": 2.19,
+        "current_stars": 2891,
+        "star_diff": 63,
+        "growth_rate": 2.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 123
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 124
     },
     "history": [
         {
@@ -878,6 +878,13 @@
             "stars": 2890,
             "forks": 472,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2891,
+            "forks": 472,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

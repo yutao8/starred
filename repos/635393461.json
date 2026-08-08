@@ -6,16 +6,16 @@
         "name": "harlequin",
         "html_url": "https:\/\/github.com\/tconbeer\/harlequin",
         "language": "Python",
-        "description": "Harlequin 是一个用于管理 PostgreSQL 数据库迁移的工具，专注于简化数据库模式变更的流程。它使用 SQL 文件按顺序记录迁移，支持版本控制和回滚操作，通常适合在开发、测试和生产环境中安全地更新数据库结构，尤其适用于需要可靠迁移策略的 Rust 项目。"
+        "description": "Harlequin 是一款运行在终端中的 SQL IDE，借助现代终端界面提供交互式查询体验。它支持多种主流数据库连接，内置查询编辑器、结果表格展示和查询历史，便于开发者在不离开终端的情况下完成数据探索与调试。典型使用场景包括日常数据查询、SQL 脚本调试以及轻量级数据分析工作流，适合习惯命令行操作、追求效率的数据工程师和分析师。"
     },
     "summary": {
         "initial_stars": 4666,
-        "current_stars": 6309,
-        "star_diff": 1643,
-        "growth_rate": 35.21,
+        "current_stars": 6314,
+        "star_diff": 1648,
+        "growth_rate": 35.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 6309,
             "forks": 165,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6314,
+            "forks": 165,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

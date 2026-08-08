@@ -6,16 +6,16 @@
         "name": "douyin",
         "html_url": "https:\/\/github.com\/zyronon\/douyin",
         "language": "Vue",
-        "description": "用于解析和下载抖音视频的工具，支持无水印视频提取，提供简单的接口实现视频内容抓取与处理，适合需要批量获取公开抖音视频内容的场景。"
+        "description": "该仓库是一个仿抖音风格的短视频Web前端项目，主要用于在浏览器中复刻抖音的沉浸式浏览体验。它重点实现上下滑动切换视频、播放进度控制、点赞评论等核心交互，模拟短视频平台的常用操作方式。项目通常适合作为前端学习范例，帮助开发者理解移动端手势处理、组件状态管理以及音视频播放的集成方案；同时也可用于快速搭建短视频类应用的原型或界面参考。具体技术栈和实现细节以仓库代码为准。"
     },
     "summary": {
         "initial_stars": 10880,
-        "current_stars": 11520,
-        "star_diff": 640,
-        "growth_rate": 5.88,
+        "current_stars": 11521,
+        "star_diff": 641,
+        "growth_rate": 5.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 11520,
             "forks": 3096,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 11521,
+            "forks": 3097,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

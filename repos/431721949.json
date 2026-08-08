@@ -6,16 +6,16 @@
         "name": "java_oci_manage",
         "html_url": "https:\/\/github.com\/semicons\/java_oci_manage",
         "language": "Java",
-        "description": "用于管理和操作Oracle Cloud Infrastructure（OCI）资源的Java工具，支持通过Java程序自动化实现OCI中计算、网络、存储等资源的创建、配置与监控，适用于需要集成OCI服务的企业级应用开发与云管理场景。"
+        "description": "用于管理 Oracle Cloud Infrastructure（OCI）云资源的 Java 工具，适合通过程序化方式操作云主机、网络等常见资源的场景。它能够帮助用户简化重复性运维任务，特别是在需要批量创建、释放或维护云端资源时使用。基于 Java 生态开发，便于集成到现有 Java 系统中，也适合个人或小型团队对 OCI 资源进行日常管理和自动化操作。"
     },
     "summary": {
         "initial_stars": 1696,
-        "current_stars": 2044,
-        "star_diff": 348,
-        "growth_rate": 20.52,
+        "current_stars": 2045,
+        "star_diff": 349,
+        "growth_rate": 20.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 2044,
             "forks": 371,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2045,
+            "forks": 371,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "hoppscotch",
         "html_url": "https:\/\/github.com\/hoppscotch\/hoppscotch",
         "language": "TypeScript",
-        "description": "一个开源的网页版 API 开发与测试工具，支持 HTTP 请求调试、WebSocket 通信、SSE 事件查看和 GraphQL 查询，提供类似 Postman 的功能但无需安装客户端，可直接在浏览器中使用，适合开发者快速测试接口、管理请求历史和共享 API 集合。"
+        "description": "Hoppscotch 是一款开源的 API 开发与测试工具，主要用于快速构建和调试 HTTP 请求，支持 REST、GraphQL、WebSocket 等常见协议。它提供简洁的 Web 界面，无需安装即可在浏览器中使用，同时也有桌面客户端和本地部署方案，适合开发者在前端开发、后端联调或接口文档验证时发送请求、查看响应、管理环境变量。该工具强调轻量与高效，界面响应迅速，并支持主题定制、历史记录、集合管理等实用功能，是 Postman 等商业工具的开源替代选择。"
     },
     "summary": {
         "initial_stars": 72509,
-        "current_stars": 79984,
-        "star_diff": 7475,
-        "growth_rate": 10.31,
+        "current_stars": 79995,
+        "star_diff": 7486,
+        "growth_rate": 10.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 79984,
             "forks": 6011,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 79995,
+            "forks": 6017,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

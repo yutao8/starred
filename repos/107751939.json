@@ -6,16 +6,16 @@
         "name": "BilibiliVideoDownload",
         "html_url": "https:\/\/github.com\/BilibiliVideoDownload\/BilibiliVideoDownload",
         "language": "TypeScript",
-        "description": "用于下载B站视频的工具，支持解析视频地址、弹幕和封面等资源，可批量下载并选择清晰度，适合保存喜欢的视频内容，通常配合浏览器插件或脚本使用以增强下载功能。"
+        "description": "为 Bilibili 视频下载提供轻量级解决方案，主要满足用户在本地保存 B 站视频的需求。支持通过粘贴视频链接或输入 BV 号解析视频信息，通常能选择不同清晰度进行下载，并处理音视频分离合并。适用于需要离线观看、剪辑素材采集或备份个人投稿的场景，尤其适合希望规避在线工具广告和速度限制的用户。作为一个开源项目，它通常以图形界面或命令行方式运行，方便跨平台使用，但具体功能以项目文档和实际代码为准。"
     },
     "summary": {
         "initial_stars": 3328,
-        "current_stars": 3495,
-        "star_diff": 167,
-        "growth_rate": 5.02,
+        "current_stars": 3498,
+        "star_diff": 170,
+        "growth_rate": 5.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 157
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 158
     },
     "history": [
         {
@@ -1116,6 +1116,13 @@
             "stars": 3495,
             "forks": 435,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3498,
+            "forks": 435,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

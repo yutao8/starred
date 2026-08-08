@@ -6,16 +6,16 @@
         "name": "privacy",
         "html_url": "https:\/\/github.com\/kallydev\/privacy",
         "language": "Other",
-        "description": "一个专注于隐私保护的开源工具集，主要用于帮助用户在数字环境中更好地管理个人数据、增强在线隐私防护能力，提供简单易用的隐私检测与安全配置功能，适合注重数据安全的个人和开发者使用。"
+        "description": "用于隐私保护和数据脱敏的开源项目，面向开发者与业务系统，主要在日志记录、测试数据生成和用户信息处理等环节中自动识别并遮蔽敏感内容，防止个人信息泄露。其核心能力通常包括敏感类型检测、掩码替换和匿名化处理，并提供规则配置以适配不同数据格式和使用场景。适合需要处理用户数据并满足合规要求的产品，如后台管理、数据分析平台等，具有接入简单、依赖轻量等特点。"
     },
     "summary": {
         "initial_stars": 1029,
-        "current_stars": 1053,
-        "star_diff": 24,
-        "growth_rate": 2.33,
+        "current_stars": 1054,
+        "star_diff": 25,
+        "growth_rate": 2.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 1053,
             "forks": 1019,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1054,
+            "forks": 1018,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

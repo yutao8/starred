@@ -6,16 +6,16 @@
         "name": "Docker-Proxy",
         "html_url": "https:\/\/github.com\/dqzboy\/Docker-Proxy",
         "language": "JavaScript",
-        "description": "Docker-Proxy 是一个用于简化 Docker 服务反向代理配置的工具，主要用于自动配置 Nginx 或 Traefik 等反向代理，实现容器化应用的自动化域名访问和负载均衡，适合多容器 Web 服务部署场景。"
+        "description": "为 Docker 与容器生态提供代理接入能力的工具，主要用于解决 Docker 镜像拉取缓慢或受限的问题，也常被部署为容器流量的转发层。通过配置代理规则，可加速来自 Docker Hub 等仓库的镜像获取，并在内网或特定网络环境下实现对容器服务的访问控制。适合开发者、运维人员在使用 Docker 搭建服务时优化拉取效率，或为多台主机统一管理对外连接。整体设计围绕轻量部署和灵活配置展开，通常与 docker run 或 docker-compose 结合使用，便于在已有基础设施中快速集成。"
     },
     "summary": {
         "initial_stars": 3302,
-        "current_stars": 4351,
-        "star_diff": 1049,
-        "growth_rate": 31.77,
+        "current_stars": 4352,
+        "star_diff": 1050,
+        "growth_rate": 31.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 4351,
             "forks": 605,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4352,
+            "forks": 605,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

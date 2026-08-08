@@ -6,16 +6,16 @@
         "name": "AriaNg-Native",
         "html_url": "https:\/\/github.com\/mayswind\/AriaNg-Native",
         "language": "JavaScript",
-        "description": "AriaNg-Native 是一个基于 AriaNg 的桌面客户端，主要用于与 Aria2 下载工具进行高效图形化交互，支持跨平台运行，提供更完整的本地功能和用户体验，适合需要频繁管理下载任务的用户使用。"
+        "description": "为下载工具 Aria2 提供原生桌面图形界面的客户端，将常用于浏览器的 AriaNg 前端封装成独立应用，支持 Windows、macOS 和 Linux 等主流平台。它免去了打开浏览器或配置 Web 服务的步骤，直接通过桌面窗口管理下载任务，适合需要高效操控 Aria2 但又不愿使用命令行或复杂网页设置的用户。界面清晰展示下载进度、速度、文件列表和任务状态，并保留 AriaNg 的关键配置能力，让日常下载管理更便捷稳定。"
     },
     "summary": {
         "initial_stars": 2497,
-        "current_stars": 2713,
-        "star_diff": 216,
-        "growth_rate": 8.65,
+        "current_stars": 2714,
+        "star_diff": 217,
+        "growth_rate": 8.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 146
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 147
     },
     "history": [
         {
@@ -1039,6 +1039,13 @@
             "stars": 2713,
             "forks": 224,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2714,
+            "forks": 225,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

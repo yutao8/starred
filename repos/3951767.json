@@ -6,16 +6,16 @@
         "name": "ReflectionDocBlock",
         "html_url": "https:\/\/github.com\/phpDocumentor\/ReflectionDocBlock",
         "language": "PHP",
-        "description": "用于解析 PHP 文档注释中的 DocBlock 标签，提取@var、@param、@return等注解信息，常用于自动化文档生成和反射分析，支持标准 PHPDoc 格式，为开发工具提供结构化文档数据。"
+        "description": "用于解析 PHPDoc 格式的文档块注释，是 phpDocumentor 生态的核心组件之一。它能够将注释中的标签、类型、描述等结构化信息提取为可操作的数据对象，供代码分析、自动生成文档、IDE 智能提示等工具调用。通常适合需要处理 PHP 源码注释的开发者，能够精准还原注释语义，支持多种常见标签和类型表达式，并兼容不同风格的注释写法。"
     },
     "summary": {
         "initial_stars": 9374,
-        "current_stars": 9366,
-        "star_diff": -8,
-        "growth_rate": -0.09,
+        "current_stars": 9363,
+        "star_diff": -11,
+        "growth_rate": -0.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 96
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 97
     },
     "history": [
         {
@@ -689,6 +689,13 @@
             "stars": 9366,
             "forks": 136,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9363,
+            "forks": 136,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

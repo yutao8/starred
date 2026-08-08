@@ -6,7 +6,7 @@
         "name": "cryptojs-aes-php",
         "html_url": "https:\/\/github.com\/brainfoolong\/cryptojs-aes-php",
         "language": "PHP",
-        "description": "用于在 PHP 环境中解密由 CryptoJS AES 加密的数据，通常用于处理前端通过 CryptoJS 加密后传输到后端的数据解密场景，支持常见的 AES 加密模式与密码学参数配置，便于前后端加密通信的对接。"
+        "description": "该仓库提供 PHP 实现与 CryptoJS AES 加密互通的工具，用于解决前端 JavaScript 使用 CryptoJS 加密后，后端 PHP 无法直接解密的问题。支持常见的 AES 模式及密钥格式处理，通常适用于前后端数据加密传输、接口安全通信等场景，帮助不同语言间对同一份密文进行一致的加解密操作。"
     },
     "summary": {
         "initial_stars": 393,

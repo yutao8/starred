@@ -6,7 +6,7 @@
         "name": "dbal",
         "html_url": "https:\/\/github.com\/doctrine\/dbal",
         "language": "PHP",
-        "description": "数据库抽象层，提供统一的API操作多种数据库，支持Schema管理、SQL生成和平台抽象，通常与Doctrine ORM配合使用，用于构建可移植的数据库交互逻辑，适合需要适配不同数据库的PHP应用。"
+        "description": "为PHP提供数据库抽象层，用于统一访问MySQL、PostgreSQL、SQLite等多种关系型数据库。它通过面向对象的查询构建器、预处理语句和模式管理工具，屏蔽不同数据库驱动的差异，让开发者以一致的方式编写数据库代码。适合需要提升数据库移植性、执行跨驱动迁移或在框架（如Symfony）中管理数据库结构的项目，可显著减少重复的SQL适配工作。"
     },
     "summary": {
         "initial_stars": 9602,

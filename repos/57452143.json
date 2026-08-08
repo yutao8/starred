@@ -6,16 +6,16 @@
         "name": "android",
         "html_url": "https:\/\/github.com\/bitwarden\/android",
         "language": "Kotlin",
-        "description": "Bitwarden Android 是一款开源密码管理应用，用于安全存储和自动填充密码、信用卡信息及其他敏感数据，支持跨设备同步、生物识别解锁和双因素认证，帮助用户在移动设备上便捷管理账户凭证并提升账户安全性，适用于注重隐私保护的个人和团队。"
+        "description": "Bitwarden 的 Android 客户端，用于在手机端安全地存储和管理各类密码、信用卡信息及安全笔记。它支持密码自动填充、指纹或主密码解锁、跨设备加密同步，并集成了密码生成器和弱密码检测功能。个人用户可通过官方云服务或自建服务器同步数据，企业团队则能借助共享集成的组织管理功能安全地协作。非常适合希望摆脱重复密码、增强账户安全性并兼顾隐私保护的人群，也是开源密码管理方案在安卓平台上的首选之一。"
     },
     "summary": {
         "initial_stars": 7472,
-        "current_stars": 9175,
-        "star_diff": 1703,
-        "growth_rate": 22.79,
+        "current_stars": 9188,
+        "star_diff": 1716,
+        "growth_rate": 22.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 9175,
             "forks": 1026,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9188,
+            "forks": 1029,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

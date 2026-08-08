@@ -6,7 +6,7 @@
         "name": "qqbot",
         "html_url": "https:\/\/github.com\/xhan\/qqbot",
         "language": "CoffeeScript",
-        "description": "QQBot 是一个基于 Go 语言开发的轻量级 QQ 机器人框架，主要用于监听和响应 QQ 消息事件，支持通过 HTTP 或 WebSocket 与 QQ 客户端通信，方便开发者快速搭建自动化回复、群管、消息推送等功能的 QQ 机器人。"
+        "description": "基于 QQ 的 Python 机器人开发框架，用于快速搭建和管理 QQ 机器人，实现消息自动回复、群聊管理、定时任务等常见功能。通常适合个人或小型团队开发社群辅助工具，通过插件机制扩展功能，可集成第三方 API 处理特定指令。早期广泛用于 QQ 群管理和自动化交互场景，因协议变动可能影响可用性，但设计思路对类似项目仍有参考价值。"
     },
     "summary": {
         "initial_stars": 1423,

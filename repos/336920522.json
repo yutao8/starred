@@ -6,16 +6,16 @@
         "name": "Atlas",
         "html_url": "https:\/\/github.com\/Atlas-OS\/Atlas",
         "language": "PowerShell",
-        "description": "一个轻量级操作系统内核，主要用于教育和研究目的，提供基础的进程管理、内存管理和设备驱动框架，支持x86架构，适合学习操作系统原理和开发实践。"
+        "description": "Atlas 是一款开源 Windows 系统优化工具，通过精简系统组件、调整默认配置和禁用非必要服务，降低资源占用与网络延迟，提升游戏性能、流畅度和隐私保护。适用于追求更高帧率、更低后台活动或希望减少系统监控的老旧电脑、游戏主机及日常办公设备，通常适合有一定系统维护经验、需要干净可控 Windows 环境的用户。"
     },
     "summary": {
         "initial_stars": 15870,
-        "current_stars": 21238,
-        "star_diff": 5368,
-        "growth_rate": 33.82,
+        "current_stars": 21247,
+        "star_diff": 5377,
+        "growth_rate": 33.88,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 21238,
             "forks": 742,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21247,
+            "forks": 741,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

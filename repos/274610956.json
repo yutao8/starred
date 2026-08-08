@@ -6,16 +6,16 @@
         "name": "genal-chat",
         "html_url": "https:\/\/github.com\/genalhuang\/genal-chat",
         "language": "TypeScript",
-        "description": "一个基于大语言模型的开源聊天应用框架，主要用于构建个性化AI对话服务，支持快速集成与扩展，适合开发者定制专属聊天机器人。"
+        "description": "用于搭建实时在线聊天系统的开源项目，主要面向需要快速部署自有即时通讯服务的开发者或团队。核心功能包括多用户注册登录、在线状态管理、一对一私聊以及群组讨论，消息通过长连接实时收发，并保留历史记录以便回溯。项目通常采用前后端分离架构，适合作为全栈通信应用的学习范本，也可在此基础上二次开发，扩展为客服系统、社区互动或内部协作工具。整体设计注重实用性，部署和配置过程相对简洁，能帮助使用者规避从零搭建底层通信的复杂性。"
     },
     "summary": {
         "initial_stars": 1982,
-        "current_stars": 1995,
-        "star_diff": 13,
-        "growth_rate": 0.66,
+        "current_stars": 1996,
+        "star_diff": 14,
+        "growth_rate": 0.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 87
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 88
     },
     "history": [
         {
@@ -626,6 +626,13 @@
             "stars": 1995,
             "forks": 388,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1996,
+            "forks": 389,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

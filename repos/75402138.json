@@ -6,16 +6,16 @@
         "name": "nonebot",
         "html_url": "https:\/\/github.com\/nonebot\/nonebot",
         "language": "Python",
-        "description": "NoneBot 是一个基于 Python 的机器人框架，主要用于构建和管理 QQ、微信、Telegram 等平台的聊天机器人，支持插件化扩展和异步操作，方便开发者通过简单代码实现消息响应、命令解析、定时任务等功能，适用于自动化运维、群组管理和服务集成场景。"
+        "description": "NoneBot 是一个基于 Python 的异步聊天机器人开发框架，主要用于快速构建运行在 QQ 等平台上的自动化对话服务。它采用插件化架构，支持事件响应、自然语言处理集成以及与常见 Python 生态工具的衔接，适合开发者用于编写指令机器人、娱乐互动工具或业务辅助应用，能够简化消息收发、权限管理和任务调度等常见流程。"
     },
     "summary": {
         "initial_stars": 2164,
-        "current_stars": 2201,
-        "star_diff": 37,
-        "growth_rate": 1.71,
+        "current_stars": 2202,
+        "star_diff": 38,
+        "growth_rate": 1.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 89
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 90
     },
     "history": [
         {
@@ -640,6 +640,13 @@
             "stars": 2201,
             "forks": 333,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2202,
+            "forks": 333,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

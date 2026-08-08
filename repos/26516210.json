@@ -6,16 +6,16 @@
         "name": "certbot",
         "html_url": "https:\/\/github.com\/certbot\/certbot",
         "language": "Python",
-        "description": "Certbot 是一个用于自动获取和续期 Let's Encrypt SSL\/TLS 证书的工具，支持通过 ACME 协议与证书颁发机构交互，可配合 Nginx、Apache 等主流 Web 服务器自动配置 HTTPS，简化证书管理流程，广泛用于提升网站安全性和实现全站加密。"
+        "description": "Certbot 是 EFF 发布的命令行工具，用于自动获取和续期 Let's Encrypt 免费 SSL\/TLS 证书，帮助网站管理员快速启用 HTTPS。它自动完成证书签发、部署和续期全流程，支持 Nginx、Apache 等主流服务器，也提供手动模式。通常适合需要为域名配置加密链接的运维人员，解决手动申请证书繁琐、容易错过续期导致安全警告的问题。其核心基于 ACME 协议，以 Python 实现，可无缝集成到服务器配置中。"
     },
     "summary": {
         "initial_stars": 32280,
-        "current_stars": 33179,
-        "star_diff": 899,
-        "growth_rate": 2.79,
+        "current_stars": 33183,
+        "star_diff": 903,
+        "growth_rate": 2.8,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 33179,
             "forks": 3508,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 33183,
+            "forks": 3508,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "googleplay-api",
         "html_url": "https:\/\/github.com\/egirault\/googleplay-api",
         "language": "Python",
-        "description": "提供无需Google账号即可访问Google Play商店的API接口，支持应用信息查询、下载等功能，适用于需要集成Play商店数据的第三方应用，通过模拟Android设备请求实现对应用详情、评论、排行榜等内容的获取。"
+        "description": "该库用于以编程方式访问 Google Play 商店数据，通常通过模拟安卓客户端请求实现。主要功能包括搜索应用、获取应用详情、权限信息、下载地址等，适合需要批量获取应用元数据、自动化应用分发或研究应用市场数据的场景。由于是非官方接口，使用时应留意 Google Play 政策限制和请求频率。"
     },
     "summary": {
         "initial_stars": 889,

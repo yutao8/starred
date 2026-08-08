@@ -6,16 +6,16 @@
         "name": "KernelSU",
         "html_url": "https:\/\/github.com\/tiann\/KernelSU",
         "language": "Kotlin",
-        "description": "KernelSU 是一个开源的 Android 内核级 Root 解决方案，旨在通过内核模块实现系统无侵入的权限管理，支持动态模块加载和多用户隔离，适用于需要深度定制与控制权限的高级用户及开发场景。"
+        "description": "为 Android 设备提供基于内核的原生 Root 方案，通过内核模块直接在核心层运行，实现更隐蔽的权限管理和系统级定制。适合需要绕过传统 system-as-root 限制、开发内核模块或深度修改系统的高级用户，通常与既有 Magisk 模块生态兼容。相比用户态方案，具备更低检测风险和更高稳定性，多用于 ROM 开发者、安全研究人员及技术爱好者。"
     },
     "summary": {
         "initial_stars": 12814,
-        "current_stars": 17661,
-        "star_diff": 4847,
-        "growth_rate": 37.83,
+        "current_stars": 17685,
+        "star_diff": 4871,
+        "growth_rate": 38.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 17661,
             "forks": 3829,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 17685,
+            "forks": 3840,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "trime",
         "html_url": "https:\/\/github.com\/osfans\/trime",
         "language": "Kotlin",
-        "description": "主要用于定制和增强 Rime 输入法的配置体验，提供完善的方案管理、主题美化及跨平台支持，适合追求高效中文输入与个性化设置的用户，尤其方便在移动与桌面端同步使用。"
+        "description": "用于在Android设备上运行Rime输入法引擎的开源输入法，提供可高度定制的键盘布局和输入方案。它支持拼音、双拼、五笔等各类Rime方案，用户可通过配置文件和主题自由调整界面与按键响应，适合追求个性化输入体验、需要离线词库和跨平台一致输入习惯的人群，在手机上还原桌面级Rime的完整功能与流畅体验。"
     },
     "summary": {
         "initial_stars": 3532,
-        "current_stars": 4529,
-        "star_diff": 997,
-        "growth_rate": 28.23,
+        "current_stars": 4532,
+        "star_diff": 1000,
+        "growth_rate": 28.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 4529,
             "forks": 502,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4532,
+            "forks": 502,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "SpyPlusPlus",
         "html_url": "https:\/\/github.com\/westoncampbell\/SpyPlusPlus",
         "language": "Other",
-        "description": "Spy++ 是一个用于 Windows 系统的系统级调试工具，主要用于监控和检查运行中的应用程序消息、窗口层级、进程与线程信息。它允许开发者查看窗口的句柄、类名、样式，并实时捕捉消息流，帮助诊断 UI 问题和分析第三方应用的行为。Spy++ 集成在 Visual Studio 中，也可作为独立工具使用，适用于 Windows 平台的高级调试场景。"
+        "description": "用于 Windows 桌面应用开发与调试的窗口信息查看和分析工具，类似微软 Spy++ 的扩展替代品。它能够枚举系统中的顶层窗口、子窗口及控件，显示窗口句柄、类名、标题、样式、位置、进程和线程信息，并支持实时查看控件消息流与父子层级关系。主要适合需要定位界面问题、理解第三方软件窗口结构、编写自动化脚本或开发 UI 自动化工具时使用。通常配合 Win32 API 和消息机制工作，便于开发者快速检查目标窗口属性。"
     },
     "summary": {
         "initial_stars": 510,
-        "current_stars": 615,
-        "star_diff": 105,
-        "growth_rate": 20.59,
+        "current_stars": 617,
+        "star_diff": 107,
+        "growth_rate": 20.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 104
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 105
     },
     "history": [
         {
@@ -745,6 +745,13 @@
             "stars": 615,
             "forks": 123,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 617,
+            "forks": 123,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

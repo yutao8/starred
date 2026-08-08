@@ -6,16 +6,16 @@
         "name": "the_silver_searcher",
         "html_url": "https:\/\/github.com\/ggreer\/the_silver_searcher",
         "language": "C",
-        "description": "一个快速的代码搜索工具，用于递归查找文件内容，支持正则表达式搜索和忽略 .gitignore 文件，通常用于在大型代码库中快速定位特定代码片段，是 ack 的更高效替代品。"
+        "description": "用于在代码库中快速检索文本，是一款比 ack 和 grep 更快的命令行搜索工具，专注于开发者日常的源码搜索场景。它默认忽略 .gitignore 中的文件与二进制文件，支持正则表达式和文件类型过滤，能在大型项目里秒级返回匹配结果。由于其高效的设计，特别适合在庞大代码库中定位函数定义、变量引用或特定模式，同时也可用于日志和普通文本文件的快速查找，是提升编码与调试效率的常用命令行利器。"
     },
     "summary": {
         "initial_stars": 26660,
-        "current_stars": 27106,
-        "star_diff": 446,
-        "growth_rate": 1.67,
+        "current_stars": 27108,
+        "star_diff": 448,
+        "growth_rate": 1.68,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 27106,
             "forks": 1440,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 27108,
+            "forks": 1440,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

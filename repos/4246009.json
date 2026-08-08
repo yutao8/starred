@@ -6,16 +6,16 @@
         "name": "MineAdmin",
         "html_url": "https:\/\/github.com\/mineadmin\/MineAdmin",
         "language": "PHP",
-        "description": "MineAdmin 是一个基于 Spring Boot 的后台管理系统开发脚手架，主要用于快速构建企业级管理后台。它集成了用户权限管理、菜单动态路由、数据字典、日志监控等常用功能，提供清晰的代码结构和丰富的开发文档，适合用于中后台项目的快速开发与二次定制。"
+        "description": "MineAdmin是一款基于PHP Hyperf框架和Vue的前后端分离后台管理系统，适合快速搭建企业级中后台应用。它内置RBAC角色权限控制、菜单管理、操作日志等常用功能，并支持通过代码生成器快速创建CRUD界面，降低重复开发成本。基于Swoole常驻内存特性，具备较好的性能和并发处理能力，适合PHP技术栈团队的快速交付场景。"
     },
     "summary": {
         "initial_stars": 982,
-        "current_stars": 1215,
-        "star_diff": 233,
-        "growth_rate": 23.73,
+        "current_stars": 1216,
+        "star_diff": 234,
+        "growth_rate": 23.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 128
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 129
     },
     "history": [
         {
@@ -913,6 +913,13 @@
             "stars": 1215,
             "forks": 232,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1216,
+            "forks": 232,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

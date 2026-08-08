@@ -6,16 +6,16 @@
         "name": "sub-web",
         "html_url": "https:\/\/github.com\/CareyWang\/sub-web",
         "language": "Vue",
-        "description": "sub-web 是一个基于 Go 语言开发的子域名收集工具，主要用于自动化搜集目标域名下的子域名信息，支持多种信息源采集，适用于渗透测试和资产测绘场景，具有高效、轻量、可扩展的特点。"
+        "description": "sub-web 是一个基于 Vue 的订阅转换前端界面，主要用于将不同格式的代理订阅链接（如 Clash、V2Ray、SS\/SSR 等）转换为目标客户端可用的配置。它通常配合后端转换服务使用，适合需要统一管理订阅、自定义规则或生成短链接的用户。界面支持多后端切换、自定义远程配置模板和用户管理，部署后可通过 Web 浏览器完成转换操作，是自建订阅转换服务的常见选择之一。"
     },
     "summary": {
         "initial_stars": 5718,
-        "current_stars": 6444,
-        "star_diff": 726,
-        "growth_rate": 12.7,
+        "current_stars": 6445,
+        "star_diff": 727,
+        "growth_rate": 12.71,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 187
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 188
     },
     "history": [
         {
@@ -1326,6 +1326,13 @@
             "stars": 6444,
             "forks": 2060,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6445,
+            "forks": 2059,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "telethon_get_media",
         "html_url": "https:\/\/github.com\/uk0\/telethon_get_media",
         "language": "Python",
-        "description": "用于从 Telegram 频道或聊天中下载媒体文件的工具，基于 Telethon 库实现，支持通过 API 操作账户、获取消息历史并提取图片、视频等附件，通常适用于自动化备份或数据抓取场景。"
+        "description": "用于通过Telethon库操作Telegram账号，批量获取并下载聊天记录中的照片、视频、文档等媒体文件，避免逐条手动保存。通常适合需要备份群组或频道历史媒体、整理个人聊天文件或迁移数据的场景。脚本可能支持按对话、时间范围或文件类型筛选，方便定向导出。由于依赖Telethon，需配置API密钥或账号会话，适合有一定Python基础的用户运行使用。"
     },
     "summary": {
         "initial_stars": 195,

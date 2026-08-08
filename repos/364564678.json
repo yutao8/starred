@@ -6,16 +6,16 @@
         "name": "aiotieba",
         "html_url": "https:\/\/github.com\/lumina37\/aiotieba",
         "language": "Python",
-        "description": "一个基于 AI 的自动化贴吧管理工具，主要用于智能识别和处理贴吧中的违规内容，支持自定义规则和关键词过滤，帮助吧务团队高效维护社区秩序，同时集成机器学习模型提升内容审核准确率。"
+        "description": "用于百度贴吧的异步Python工具库，以 asyncio 方式封装贴吧常用接口，让开发者可以用非阻塞方式浏览主题、获取回复、搜索内容以及执行发帖、签到等操作。主要用于构建贴吧机器人、自动回复工具、舆情监控和数据采集脚本，也适合个人或社区做低成本的贴吧自动化管理。相比于同步调用，它在处理大量并发请求和持续监听贴吧动态时更高效，是贴吧生态中常见的开源基础设施。"
     },
     "summary": {
         "initial_stars": 482,
-        "current_stars": 658,
-        "star_diff": 176,
-        "growth_rate": 36.51,
+        "current_stars": 659,
+        "star_diff": 177,
+        "growth_rate": 36.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 129
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 130
     },
     "history": [
         {
@@ -920,6 +920,13 @@
             "stars": 658,
             "forks": 94,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 659,
+            "forks": 94,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

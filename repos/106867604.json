@@ -6,16 +6,16 @@
         "name": "cloudflared",
         "html_url": "https:\/\/github.com\/cloudflare\/cloudflared",
         "language": "Go",
-        "description": "cloudflared 是 Cloudflare 提供的开源工具，用于建立安全隧道，将本地服务暴露到公网，无需开放防火墙端口。它通过与 Cloudflare 网络建立出站连接，实现反向代理和安全访问，通常用于部署内网穿透、远程访问开发服务或增强网络安全性。"
+        "description": "Cloudflare 的命令行隧道工具 cloudflared 主要用于建立本地服务器与 Cloudflare 边缘节点的安全连接，从而将内网服务暴露到公网，无需公网 IP 或手动开放防火墙端口。它常见于远程访问内网应用、开发调试 Web 服务、物联网设备等场景，支持 HTTP、HTTPS、TCP 和 UDP 流量转发。用户借助 Cloudflare 全球网络可获得稳定的访问入口和基础防护，适合临时搭服务或构建零信任远程访问方案。"
     },
     "summary": {
         "initial_stars": 10887,
-        "current_stars": 15111,
-        "star_diff": 4224,
-        "growth_rate": 38.8,
+        "current_stars": 15133,
+        "star_diff": 4246,
+        "growth_rate": 39,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 15111,
             "forks": 1386,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15133,
+            "forks": 1389,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

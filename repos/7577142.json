@@ -6,7 +6,7 @@
         "name": "annotations",
         "html_url": "https:\/\/github.com\/doctrine\/annotations",
         "language": "PHP",
-        "description": "用于解析和缓存PHP类、方法、属性等的注解，将注解转换为可编程对象，主要用于框架中实现元数据配置，如路由、ORM映射、验证等场景。"
+        "description": "Doctrine Annotations 是一个 PHP 注解解析库，用于将类、方法或属性上的 docblock 注释或原生 attribute 形式注解解析为元数据对象。它主要服务于框架底层，如路由注册、依赖注入、ORM 实体映射等，让开发者通过声明式注解替代繁琐的配置文件。其设计通常适合需要自定义注解机制并动态读取元数据的 PHP 项目，支持多种读取和缓存策略，能显著提升反射遍历和注解解析的性能。通过该库，可统一管理代码内的结构化元信息，降低耦合度，方便实现约定优于配置的开发模式，是构建灵活可扩展的 PHP 组件或应用时常用的基础工具。"
     },
     "summary": {
         "initial_stars": 6753,

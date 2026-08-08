@@ -6,16 +6,16 @@
         "name": "v2rayN",
         "html_url": "https:\/\/github.com\/2dust\/v2rayN",
         "language": "C#",
-        "description": "V2RayN 是一个基于 V2Ray 内核的 Windows 平台图形化代理工具，主要用于科学上网。它提供简洁的用户界面，支持 VMess、VLESS、Trojan 等协议，方便用户配置和管理代理节点，实现网络流量的加密传输与路由分流。"
+        "description": "v2rayN是Windows平台上一款广受欢迎的图形化代理客户端，主要用于管理并连接基于V2Ray、Xray等技术的代理服务。它支持VMess、VLESS、Trojan、Shadowsocks等常见协议，用户既能手动添加服务器，也能通过订阅链接批量导入配置。内置的系统代理和路由规则可帮助按需分流网络流量，适合日常科学上网、访问境外受限资源或调试网络环境，常被需要稳定管理多节点代理的用户使用。"
     },
     "summary": {
         "initial_stars": 82033,
-        "current_stars": 113242,
-        "star_diff": 31209,
-        "growth_rate": 38.04,
+        "current_stars": 113369,
+        "star_diff": 31336,
+        "growth_rate": 38.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 113242,
             "forks": 15644,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 113369,
+            "forks": 15656,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

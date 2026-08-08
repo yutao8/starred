@@ -6,7 +6,7 @@
         "name": "basic-to-sharepoint-auth-http-proxy",
         "html_url": "https:\/\/github.com\/skleeschulte\/basic-to-sharepoint-auth-http-proxy",
         "language": "JavaScript",
-        "description": "用于将经典身份验证的 HTTP 请求代理转换为支持 SharePoint 的现代身份验证（如 OAuth）的中间件，帮助开发者在不修改原有逻辑的前提下对接需要现代认证的 SharePoint Online 服务，简化迁移过程并提升安全性。"
+        "description": "用于解决仅支持基本认证的旧客户端访问现代 SharePoint 认证服务的兼容性问题，通常作为本地或云端部署的 HTTP 代理。它接收客户端传来的基本认证凭据，并自动转换为 SharePoint 所需的认证协议（如基于声明的身份验证），使原有系统无需修改即可连接 SharePoint。典型场景包括将传统脚本、报表工具或企业内部应用接入 SharePoint Online 或本地场，避免大规模代码改造。适合需要快速打通遗留系统与 SharePoint 权限体系的集成场景。使用时需注意代理需配置正确的目标 SharePoint 地址及认证模式，以保障凭据安全传递。"
     },
     "summary": {
         "initial_stars": 53,

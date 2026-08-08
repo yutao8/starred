@@ -6,16 +6,16 @@
         "name": "iptv",
         "html_url": "https:\/\/github.com\/iptv-org\/iptv",
         "language": "TypeScript",
-        "description": "提供全球范围的免费 IPTV 频道链接集合，主要用于收集和整理可通过互联网访问的电视直播流，支持多种语言和地区，适合用于媒体中心软件或流媒体设备播放。"
+        "description": "公开可用的网络电视直播频道资源集合，收录全球数千个免费 IPTV 频道的流媒体地址，覆盖新闻、体育、娱乐、儿童等多类内容。用户可直接导入支持 M3U 播放列表的播放器，或通过仓库提供的工具筛选和获取频道链接。主要用于搭建个人电视直播源、测试播放器兼容性，以及为无法使用传统电视服务的用户提供替代观看途径。适合需要快速获取全球频道列表的开发者或普通用户，但需注意部分源可能因地区或版权原因失效。"
     },
     "summary": {
         "initial_stars": 94904,
-        "current_stars": 135285,
-        "star_diff": 40381,
-        "growth_rate": 42.55,
+        "current_stars": 135388,
+        "star_diff": 40484,
+        "growth_rate": 42.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 135285,
             "forks": 7758,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 135388,
+            "forks": 7772,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

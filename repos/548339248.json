@@ -6,7 +6,7 @@
         "name": "appleid_auto",
         "html_url": "https:\/\/github.com\/pplulee\/appleid_auto",
         "language": "PHP",
-        "description": "用于自动化管理 Apple ID 相关操作的工具，支持自动登录、信息查询与设备管理，适用于需要批量处理 Apple ID 的场景，提升账户运维效率。"
+        "description": "用于自动化管理 Apple ID 的工具，主要解决批量注册、登录验证和账号维护中的重复操作问题。它通过脚本自动执行填写表单、处理验证等流程，无需人工持续介入。适合需要大量苹果账号的测试人员、开发者或工作室，用于高效创建和养护账号，同时降低人工操作带来的失误与成本。通常支持多账号信息配置与任务调度，整体设计以稳定和可配置为导向，能够适应不同网络环境下的自动化需求。"
     },
     "summary": {
         "initial_stars": 1005,
@@ -14,8 +14,8 @@
         "star_diff": 5,
         "growth_rate": 0.5,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 1010,
             "forks": 174,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1010,
+            "forks": 173,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

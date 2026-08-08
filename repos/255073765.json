@@ -6,7 +6,7 @@
         "name": "TikTok-Video-Downloader-PHP",
         "html_url": "https:\/\/github.com\/TufayelLUS\/TikTok-Video-Downloader-PHP",
         "language": "PHP",
-        "description": "用于下载 TikTok 视频的 PHP 工具，无需登录即可获取无水印视频内容，适合集成到 Web 服务或自动化脚本中处理 TikTok 视频资源。"
+        "description": "用于从TikTok下载视频的PHP工具包，通过解析视频分享链接或ID抓取文件流并保存到本地。通常支持批量下载、去除水印等功能，适合需要将TikTok内容备份到本地的开发者，或者在进行数据采集、内容迁移时作为服务端处理组件。代码以PHP编写，部署简单，可快速集成到网页或命令行脚本中使用。"
     },
     "summary": {
         "initial_stars": 327,
@@ -14,8 +14,8 @@
         "star_diff": 14,
         "growth_rate": 4.28,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 48
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 49
     },
     "history": [
         {
@@ -353,6 +353,13 @@
             "stars": 341,
             "forks": 156,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 341,
+            "forks": 155,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

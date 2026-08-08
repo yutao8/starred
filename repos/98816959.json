@@ -6,7 +6,7 @@
         "name": "NintendoSwitchRESTAPI",
         "html_url": "https:\/\/github.com\/ZekeSnider\/NintendoSwitchRESTAPI",
         "language": "Other",
-        "description": "提供一个用于与Nintendo Switch相关的RESTful API接口，主要用于查询Switch游戏信息、用户数据及系统功能，方便开发者集成Switch平台数据到第三方应用，支持游戏库管理、用户状态获取等场景。"
+        "description": "用于将任天堂 Switch 主机的控制能力抽象为 RESTful 接口，使外部程序可以通过 HTTP 请求与主机交互。此类项目通常以本地服务的形式运行，适合需要远程管理、自动化操作或与其他智能设备联动的场景，能够解决官方接口不开放、交互协议复杂的问题，为开发者提供统一的网络入口，便于构建自定义工具或集成到现有自动化体系中。一般面向有技术背景的 Switch 玩家或开发者，实际使用需注意平台合规性。"
     },
     "summary": {
         "initial_stars": 653,

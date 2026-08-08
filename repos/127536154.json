@@ -6,16 +6,16 @@
         "name": "meedu",
         "html_url": "https:\/\/github.com\/Qsnh\/meedu",
         "language": "TypeScript",
-        "description": "meedu 是一个基于 Laravel 开发的开源在线教育平台，主要用于搭建视频课程、会员订阅和知识付费系统。它支持课程管理、视频点播、用户权限控制、支付集成等功能，适合个人或机构快速构建私有化的网校系统。"
+        "description": "MeEdu 是一个基于 Laravel 开发的开源在线教育解决方案，主要用于快速搭建独立运营的视频课程销售与学习平台。它覆盖课程管理、视频上传与播放、会员套餐、订单支付、用户学习记录等核心环节，适合个人教师、培训机构或企业用于知识付费场景。系统通常支持多端适配与第三方登录，能够帮助非技术团队低成本构建完整的在线教学闭环。"
     },
     "summary": {
         "initial_stars": 3705,
-        "current_stars": 3852,
-        "star_diff": 147,
-        "growth_rate": 3.97,
+        "current_stars": 3853,
+        "star_diff": 148,
+        "growth_rate": 3.99,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 126
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 127
     },
     "history": [
         {
@@ -899,6 +899,13 @@
             "stars": 3852,
             "forks": 1032,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3853,
+            "forks": 1032,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

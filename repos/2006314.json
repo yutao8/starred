@@ -6,7 +6,7 @@
         "name": "phpRedisAdmin",
         "html_url": "https:\/\/github.com\/erikdubbelboer\/phpRedisAdmin",
         "language": "PHP",
-        "description": "一个用PHP编写的开源Web界面工具，用于管理和操作Redis数据库，支持查看、编辑、删除键值以及实时监控Redis服务器状态，适合需要可视化界面维护Redis数据的开发者或运维人员使用。"
+        "description": "用于通过Web浏览器管理Redis数据库的PHP应用，支持查看、编辑、删除各类数据类型的键，并执行Redis命令。适合开发与运维人员在本地或服务器上快速部署，替代繁琐的命令行操作，直观地浏览和修改Redis中的数据，排查与维护操作简单高效。"
     },
     "summary": {
         "initial_stars": 3159,

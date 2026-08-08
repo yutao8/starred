@@ -6,16 +6,16 @@
         "name": "ledesoft",
         "html_url": "https:\/\/github.com\/koolshare\/ledesoft",
         "language": "Classic ASP",
-        "description": "LedeSoft 是 KoolShare 开发的基于 OpenWrt 的路由器固件，主要用于网络设备的高级功能定制，支持插件扩展、流量控制、去广告、内网穿透等，适合对网络性能和功能有高要求的用户。"
+        "description": "面向LEDE\/OpenWrt路由器固件提供扩展软件包和插件管理能力，由koolshare社区维护，适合需要在路由器上安装额外功能或进行系统定制的用户。通常配合社区定制版固件使用，通过统一方式安装、更新插件，解决官方软件源覆盖不足或需要个性化配置的问题。具体支持的功能和适用版本以仓库发布内容为准，主要用于提升路由器的可玩性和实用性。"
     },
     "summary": {
         "initial_stars": 1344,
-        "current_stars": 1332,
-        "star_diff": -12,
-        "growth_rate": -0.89,
+        "current_stars": 1331,
+        "star_diff": -13,
+        "growth_rate": -0.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 45
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 46
     },
     "history": [
         {
@@ -332,6 +332,13 @@
             "stars": 1332,
             "forks": 654,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1331,
+            "forks": 654,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

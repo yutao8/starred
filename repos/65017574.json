@@ -6,7 +6,7 @@
         "name": "botman",
         "html_url": "https:\/\/github.com\/botman\/botman",
         "language": "PHP",
-        "description": "BotMan 是一个用于构建聊天机器人的 PHP 框架，支持多种消息平台（如 Facebook Messenger、Slack、Telegram 等），提供统一的 API 来处理消息收发、会话管理和中间件扩展，便于在 Laravel 或 Symfony 等 PHP 项目中集成聊天机器人功能。"
+        "description": "Botman 是一个 PHP 聊天机器人框架，用于构建跨平台对话应用。它统一了各类消息平台的 API，开发者可以用一套代码处理 Slack、Telegram、Facebook Messenger 等渠道的消息，并编写对话流程。框架还支持与自然语言理解服务集成，帮助识别用户意图，适合快速实现客服机器人、个人助手或自动化业务场景。"
     },
     "summary": {
         "initial_stars": 6152,

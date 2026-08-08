@@ -6,16 +6,16 @@
         "name": "electron-builder",
         "html_url": "https:\/\/github.com\/electron-userland\/electron-builder",
         "language": "TypeScript",
-        "description": "用于打包和发布 Electron 应用的完整解决方案，支持多平台构建、自动更新、代码签名及依赖优化，提供跨平台的一键打包功能，简化桌面应用程序的分发流程，兼容 Windows、macOS 和 Linux，适合构建生产级 Electron 项目。"
+        "description": "用于将 Electron 应用打包成各平台原生安装包的工具，支持 Windows、macOS 和 Linux，可生成 NSIS、AppImage、dmg 等格式，并内置代码签名、自动更新和多平台构建集成。通常适合需要发布桌面应用、分发测试版或搭建 CI\/CD 构件的开发团队，可大幅简化从源码到安装文件的流程，配合常见 Node.js 项目配置和命令行使用即可。"
     },
     "summary": {
         "initial_stars": 14144,
-        "current_stars": 14638,
-        "star_diff": 494,
-        "growth_rate": 3.49,
+        "current_stars": 14641,
+        "star_diff": 497,
+        "growth_rate": 3.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 184
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 185
     },
     "history": [
         {
@@ -1305,6 +1305,13 @@
             "stars": 14638,
             "forks": 1860,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14641,
+            "forks": 1861,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

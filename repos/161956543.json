@@ -6,16 +6,16 @@
         "name": "v2rayDocker",
         "html_url": "https:\/\/github.com\/pengchujin\/v2rayDocker",
         "language": "HTML",
-        "description": "V2Ray Docker 是一个基于 Docker 的网络代理工具部署方案，主要用于快速搭建和管理 V2Ray 服务。通过容器化封装，简化了配置与运行流程，支持多协议、多入口配置，适用于科学上网、流量转发等场景，便于在 Linux 服务器上快速部署和维护 V2Ray 节点。"
+        "description": "一套基于Docker的v2ray部署方案，将v2ray服务封装为容器，简化安装与配置流程。用户通过挂载或编写配置文件即可快速启动代理服务，常用于科学上网、网络加速和私密通信等场景。项目通常包含Dockerfile和若干启动脚本，允许自定义端口、传输协议及流量策略等常见参数，并方便与Docker Compose等管理工具配合使用。容器化带来的环境一致性使部署、迁移和更新均较为便捷，适合需要快速搭建或长期自维护v2ray服务的个人或小型团队。"
     },
     "summary": {
         "initial_stars": 838,
-        "current_stars": 834,
-        "star_diff": -4,
-        "growth_rate": -0.48,
+        "current_stars": 833,
+        "star_diff": -5,
+        "growth_rate": -0.6,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-06-27 00:00",
-        "data_points_count": 33
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 34
     },
     "history": [
         {
@@ -248,6 +248,13 @@
             "stars": 834,
             "forks": 351,
             "file": "dist\/2026062700\/starList.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 833,
+            "forks": 351,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

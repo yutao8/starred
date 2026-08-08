@@ -6,16 +6,16 @@
         "name": "bfg-repo-cleaner",
         "html_url": "https:\/\/github.com\/rtyley\/bfg-repo-cleaner",
         "language": "Scala",
-        "description": "BFG Repo-Cleaner 是一个用于清理 Git 仓库中不想要的历史数据的工具，可快速移除大文件、密码、敏感信息或不必要的提交记录，相比传统方法更高效简洁，适合在维护代码仓库时优化历史记录。"
+        "description": "用于快速清理 Git 仓库历史中的敏感数据和大文件，适合在密钥泄露、误提交超大文件或需要迁移仓库时使用。通常先克隆镜像仓库，再通过命令行指定要删除的内容，即可重写所有提交记录并清除痕迹。相比原生的 git filter-branch，处理速度更快，操作更简洁，是目前广泛采用的历史清洗方案。需要提醒的是，该操作会修改提交哈希，必须强制推送并同步团队成员更新本地分支。"
     },
     "summary": {
         "initial_stars": 11596,
-        "current_stars": 12164,
-        "star_diff": 568,
-        "growth_rate": 4.9,
+        "current_stars": 12166,
+        "star_diff": 570,
+        "growth_rate": 4.92,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 182
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 183
     },
     "history": [
         {
@@ -1291,6 +1291,13 @@
             "stars": 12164,
             "forks": 584,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12166,
+            "forks": 584,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

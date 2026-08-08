@@ -6,16 +6,16 @@
         "name": "down_52pojie_cn",
         "html_url": "https:\/\/github.com\/ganlvtech\/down_52pojie_cn",
         "language": "PHP",
-        "description": "该项目主要用于下载和爬取52破解论坛（52pojie.cn）的相关资源，可能包含自动化脚本以批量获取网站内容。由于涉及网站数据抓取，使用时需遵守目标网站的使用条款并注意法律风险。"
+        "description": "为吾爱破解论坛（52pojie.cn）设计的下载辅助工具，主要解决论坛附件下载流程繁琐、部分资源获取不便的问题。适合需要批量下载或频繁获取论坛资源的用户，能够自动识别页面中的附件地址并简化下载操作，可能支持多线程加速、断点续传等常见功能。需要注意的是，论坛页面结构可能变化，且不同资源权限不同，具体能力请参考仓库最新说明。"
     },
     "summary": {
         "initial_stars": 2667,
-        "current_stars": 2800,
-        "star_diff": 133,
-        "growth_rate": 4.99,
+        "current_stars": 2801,
+        "star_diff": 134,
+        "growth_rate": 5.02,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 129
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 130
     },
     "history": [
         {
@@ -920,6 +920,13 @@
             "stars": 2800,
             "forks": 583,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2801,
+            "forks": 583,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

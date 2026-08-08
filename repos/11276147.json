@@ -6,16 +6,16 @@
         "name": "cmder",
         "html_url": "https:\/\/github.com\/cmderdev\/cmder",
         "language": "C++",
-        "description": "Cmder 是一个基于 ConEmu 的 Windows 命令行增强工具，集成了 Clink、Git 等组件，提供类似 Linux 终端的使用体验。主要用于提升 Windows 下的命令行操作效率，支持多标签、自定义快捷键、Shell 命令增强等功能，适合开发者和系统管理员在日常运维和编程中使用。"
+        "description": "Cmder 是一款专为 Windows 打造的便携式命令行增强工具，基于 ConEmu 开发，旨在替代系统自带 cmd 和 PowerShell 的简陋环境。它自带多标签页、分屏布局、自定义快捷键和丰富的主题配色，并预置了 ls、grep、vim 等常用 Linux 命令，让 Windows 用户也能获得接近 Unix 终端的操作体验。通常适合需要频繁使用命令行进行开发、服务器管理或自动化脚本的开发者，尤其适合在团队中免安装、解压即用，同时支持直接调用 Git、SSH 等外部程序，有效提升日常终端操作效率。"
     },
     "summary": {
         "initial_stars": 26415,
-        "current_stars": 26982,
-        "star_diff": 567,
-        "growth_rate": 2.15,
+        "current_stars": 26981,
+        "star_diff": 566,
+        "growth_rate": 2.14,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 183
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 184
     },
     "history": [
         {
@@ -1298,6 +1298,13 @@
             "stars": 26982,
             "forks": 2072,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 26981,
+            "forks": 2072,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "easyadmin",
         "html_url": "https:\/\/github.com\/zhongshaofa\/easyadmin",
         "language": "PHP",
-        "description": "一个基于Vue.js和Element Plus开发的前端后台管理框架，主要用于快速搭建功能完善的中后台系统。内置常见业务组件和工具函数，支持动态路由、权限管理、表格表单封装，适合企业级应用开发。"
+        "description": "基于 ThinkPHP 6 的后台管理框架，用于快速搭建企业级 Web 管理后台。它提供用户管理、菜单管理、权限分配等基础功能，并通常带有代码生成工具，可自动生成数据表的增删改查页面，减少重复开发。适用于内容管理系统、数据管理平台及企业内部工具等场景，尤其适合使用 PHP 技术栈并追求快速交付的团队。通过模块化设计与 MVC 分层，便于扩展和二次开发，使开发者能将更多精力放在核心业务逻辑上。"
     },
     "summary": {
         "initial_stars": 655,
-        "current_stars": 657,
-        "star_diff": 2,
-        "growth_rate": 0.31,
+        "current_stars": 656,
+        "star_diff": 1,
+        "growth_rate": 0.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 32
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 33
     },
     "history": [
         {
@@ -241,6 +241,13 @@
             "stars": 657,
             "forks": 214,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 656,
+            "forks": 214,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

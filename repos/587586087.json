@@ -6,16 +6,16 @@
         "name": "WeChatMsg",
         "html_url": "https:\/\/github.com\/LC044\/WeChatMsg",
         "language": "Other",
-        "description": "用于解析和导出微信聊天记录的开源工具，支持将聊天记录转换为多种格式（如文本、HTML、CSV），方便用户进行数据分析与存档，适用于个人聊天记录备份与取证场景。"
+        "description": "WeChatMsg 是一款用于导出和管理微信聊天记录的开源工具，支持将手机或电脑端微信中的对话消息提取为 HTML、TXT、CSV 等常见格式，方便用户备份存档、数据迁移或进行文本分析。它通常适合个人用户处理微信聊天记录的留存与整理场景，也常被用于配合关键词统计、聊天内容检索等二次开发需求，解决微信官方不便直接导出完整聊天内容的痛点。"
     },
     "summary": {
         "initial_stars": 39712,
-        "current_stars": 41940,
-        "star_diff": 2228,
-        "growth_rate": 5.61,
+        "current_stars": 41945,
+        "star_diff": 2233,
+        "growth_rate": 5.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 41940,
             "forks": 5275,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 41945,
+            "forks": 5275,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

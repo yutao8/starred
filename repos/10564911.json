@@ -6,16 +6,16 @@
         "name": "PHP-Best-Practices-zh_CN",
         "html_url": "https:\/\/github.com\/justjavac\/PHP-Best-Practices-zh_CN",
         "language": "HTML",
-        "description": "提供PHP开发最佳实践的中文指南，涵盖编码规范、设计模式、性能优化及安全建议等内容，帮助开发者提升代码质量与项目维护性，适用于希望遵循现代PHP开发标准的团队与个人。"
+        "description": "PHP最佳实践的中文翻译译本，汇集了社区公认的PHP编码规范与实用技巧，内容涉及变量处理、安全防御、性能优化、文件操作等常见场景。以简短条目和代码示例组织，便于开发者快速查阅。适合希望在项目中减少代码错误、提升可维护性的PHP程序员，也可作为团队代码评审和内部培训的参考。原文译自英文版，翻译力求准确并贴合中文表达，读者可结合自身项目灵活采纳。"
     },
     "summary": {
         "initial_stars": 254,
-        "current_stars": 253,
-        "star_diff": -1,
-        "growth_rate": -0.39,
+        "current_stars": 252,
+        "star_diff": -2,
+        "growth_rate": -0.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 7
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 8
     },
     "history": [
         {
@@ -66,6 +66,13 @@
             "stars": 253,
             "forks": 80,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 252,
+            "forks": 80,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

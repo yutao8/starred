@@ -6,16 +6,16 @@
         "name": "wechat4j",
         "html_url": "https:\/\/github.com\/hexiangtao\/wechat4j",
         "language": "Java",
-        "description": "一个基于 Java 的微信开放平台 SDK，封装了微信公众号、小程序、企业微信等常用接口，提供消息处理、用户管理、菜单操作、支付功能等便捷调用方法，简化开发者对接微信生态的流程，适用于 Java 项目中集成微信相关功能。"
+        "description": "wechat4j 用于简化 Java 开发微信公众平台后台的流程，封装了微信消息接收与回复、凭证管理、自定义菜单、用户信息等常用接口。借助该库，开发者无需手动处理签名验证和底层 HTTP 交互，能够快速搭建支持订阅号和服务号功能的 Web 应用。典型使用场景包括消息自动回复、菜单配置、粉丝资料获取等，适合需要快速对接微信公众号能力的 Java 项目。"
     },
     "summary": {
         "initial_stars": 298,
-        "current_stars": 322,
-        "star_diff": 24,
-        "growth_rate": 8.05,
+        "current_stars": 324,
+        "star_diff": 26,
+        "growth_rate": 8.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 35
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 36
     },
     "history": [
         {
@@ -262,6 +262,13 @@
             "stars": 322,
             "forks": 109,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 324,
+            "forks": 109,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

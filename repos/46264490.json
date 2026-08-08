@@ -6,7 +6,7 @@
         "name": "mpdf.github.io",
         "html_url": "https:\/\/github.com\/mpdf\/mpdf.github.io",
         "language": "SCSS",
-        "description": "mpdf\/mpdf.github.io 是 mPDF 项目的官方文档网站，提供 mPDF 库的完整使用指南、API 参考、安装说明和示例代码，帮助开发者在 PHP 环境中生成 PDF 文件，支持 UTF-8 编码、HTML 到 PDF 转换、CSS 样式渲染及表格、页眉页脚、水印等复杂布局功能，适用于各类需要动态生成 PDF 的 Web 应用场景。"
+        "description": "为 PHP 开发者提供将 HTML 与 CSS 转换成 PDF 文件的解决方案，这个仓库是 mPDF 库的官方文档与示例站点。mPDF 本身擅长处理中文字符、复杂排版以及页眉页脚、水印、目录等细节控制，常用于动态生成报表、发票、合同或电子书。通过这个站点，你可以快速查阅安装方法、配置参数和分页规则，并参考官方示例来调试输出效果，减少在服务端生成 PDF 时反复试验的麻烦。适合需要在不引入重型浏览器渲染的情况下，直接基于原有网页模板产出高质量 PDF 的场景。"
     },
     "summary": {
         "initial_stars": 517,
@@ -14,8 +14,8 @@
         "star_diff": -5,
         "growth_rate": -0.97,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 18
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 19
     },
     "history": [
         {
@@ -143,6 +143,13 @@
             "stars": 512,
             "forks": 154,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 512,
+            "forks": 153,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

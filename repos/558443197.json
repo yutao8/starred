@@ -6,16 +6,16 @@
         "name": "LKY_OfficeTools",
         "html_url": "https:\/\/github.com\/OdysseusYuan\/LKY_OfficeTools",
         "language": "C#",
-        "description": "LKY_OfficeTools 是一个用于提升办公自动化效率的工具集，主要用于处理文档、表格和演示文稿的批量操作。它支持文件格式转换、内容提取、模板填充等常见办公任务，适用于需要频繁处理 Office 文件的场景，可显著减少手动重复工作，提高工作效率。"
+        "description": "用于一键下载、安装和激活 Microsoft Office 的图形化工具，帮助普通用户绕开官方部署工具的复杂步骤。支持选择 Office 版本、安装通道以及自定义组件，并集成激活辅助功能，适合需要快速部署正版 Office 或批量配置办公环境的场景。以开源方式提供，操作直观，无需命令行知识。"
     },
     "summary": {
         "initial_stars": 10124,
-        "current_stars": 12453,
-        "star_diff": 2329,
-        "growth_rate": 23,
+        "current_stars": 12464,
+        "star_diff": 2340,
+        "growth_rate": 23.11,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 12453,
             "forks": 1199,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12464,
+            "forks": 1201,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

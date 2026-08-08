@@ -6,16 +6,16 @@
         "name": "grpcurl",
         "html_url": "https:\/\/github.com\/fullstorydev\/grpcurl",
         "language": "Go",
-        "description": "用于调试和测试gRPC接口的命令行工具，支持通过纯文本或JSON格式发送请求并查看响应，常用于服务间通信验证和API开发调试，无需编写代码即可调用gRPC方法，提升开发效率。"
+        "description": "grpcurl 是一个专门用于调试和测试 gRPC 服务的命令行工具，可以像 curl 请求 HTTP 接口那样直接调用远程 gRPC 方法。它通过加载 protobuf 描述文件或利用服务器提供的反射服务来自动发现服务接口，无需编写客户端代码。支持 JSON 格式的请求和响应转换，方便在终端中阅读和构造数据；同时支持 TLS 连接、认证头设置、流式 RPC 调用以及超时控制等常见需求。通常适合后端开发者在本地或测试环境中快速验证接口行为、排查调用问题，也适合运维和测试人员对线上服务做健康检查或功能验证。只要目标 gRPC 服务开放了反射或能提供描述文件，就能用 grpcurl 直接高效地交互。"
     },
     "summary": {
         "initial_stars": 11719,
-        "current_stars": 12769,
-        "star_diff": 1050,
-        "growth_rate": 8.96,
+        "current_stars": 12771,
+        "star_diff": 1052,
+        "growth_rate": 8.98,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 12769,
             "forks": 575,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12771,
+            "forks": 575,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

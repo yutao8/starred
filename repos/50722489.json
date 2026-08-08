@@ -6,7 +6,7 @@
         "name": "php-inotify",
         "html_url": "https:\/\/github.com\/arnaud-lb\/php-inotify",
         "language": "C",
-        "description": "提供PHP的inotify扩展封装，用于监听文件系统事件，支持监控文件或目录的创建、修改、删除等操作，适合开发需要实时响应文件变化的应用程序。"
+        "description": "php-inotify 为 PHP 提供对 Linux 内核 inotify 机制的绑定，让脚本能够监听文件或目录的各类变动，如创建、写入、删除、属性修改等。它适用于实时日志追踪、配置文件热加载、目录内容监控和自动化同步等需要及时感知文件系统变化的场景，尤其适合在常驻进程中处理文件事件驱动逻辑，可与事件循环机制结合实现非阻塞的异步监听。"
     },
     "summary": {
         "initial_stars": 46,

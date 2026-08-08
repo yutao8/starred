@@ -6,16 +6,16 @@
         "name": "WindTerm",
         "html_url": "https:\/\/github.com\/kingToolbox\/WindTerm",
         "language": "C",
-        "description": "WindTerm是一款跨平台的终端工具，支持SSH、串口、Telnet、Shell等多种连接方式，提供语法高亮、自动补全、会话管理、宏录制回放等特性，适用于开发人员和系统管理员高效管理远程主机与嵌入式设备。"
+        "description": "WindTerm 提供跨平台的终端模拟能力，主要面向远程服务器管理和本地命令行操作。它支持 SSH、TELNET 等常见协议，并整合了多标签、分屏、会话管理和文件传输等功能，适合替代系统自带终端或传统专业终端工具。尤其适用于开发者与运维人员频繁登录多台主机、处理日常服务器维护和远程操作的场景，能够有效提升操作组织性与效率。工具本身强调流畅响应和界面美观，同时提供图形化配置和丰富的快捷键，整体轻量且易上手。"
     },
     "summary": {
         "initial_stars": 26911,
-        "current_stars": 31885,
-        "star_diff": 4974,
-        "growth_rate": 18.48,
+        "current_stars": 31892,
+        "star_diff": 4981,
+        "growth_rate": 18.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 31885,
             "forks": 2431,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 31892,
+            "forks": 2434,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

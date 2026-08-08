@@ -6,7 +6,7 @@
         "name": "JavaScript-Load-Image",
         "html_url": "https:\/\/github.com\/blueimp\/JavaScript-Load-Image",
         "language": "JavaScript",
-        "description": "JavaScript-Load-Image 是一个用于在浏览器中异步加载图片的轻量级库，支持跨域图片加载、图片缓存、错误处理以及加载进度跟踪，常用于需要动态加载大量图片或对图片加载性能有较高要求的 Web 应用，可有效提升用户体验和页面响应速度。"
+        "description": "用于在浏览器端加载并预处理图片，解决图片格式不支持或方向错误等问题。它能把本地文件或外部 URL 解析为 Canvas 或 Blob，支持自动纠正 EXIF 拍摄方向、缩放、裁剪、旋转等操作，常见于图片上传前预览、头像裁剪、以及需要统一处理图片元数据的场景。该库不依赖较重框架，适合作为文件上传组件或图片编辑工具的底层基础，可与主流前端技术栈灵活集成。"
     },
     "summary": {
         "initial_stars": 4455,

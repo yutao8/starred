@@ -6,7 +6,7 @@
         "name": "bootstrap-select",
         "html_url": "https:\/\/github.com\/snapappointments\/bootstrap-select",
         "language": "JavaScript",
-        "description": "一个基于 Bootstrap 的增强下拉选择框插件，提供搜索、分组、多选等丰富功能，优化移动端和桌面端的选择交互体验，主要用于提升表单中 select 元素的可用性和视觉效果。"
+        "description": "为Bootstrap框架打造的下拉选择增强插件，用于替换原生select元素，提供统一且美观的下拉交互。核心功能涵盖多选、搜索过滤、分组、禁用项、自定义模板以及远程数据加载等，适合需要处理长列表或复杂选项的Web表单场景。它解决了原生下拉框样式难以跨浏览器统一、交互体验单一的问题，使开发者能快速构建功能丰富的选择组件。通常与jQuery和Bootstrap配合使用，并适配不同版本的主题样式。"
     },
     "summary": {
         "initial_stars": 9878,
@@ -14,8 +14,8 @@
         "star_diff": -57,
         "growth_rate": -0.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 123
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 124
     },
     "history": [
         {
@@ -878,6 +878,13 @@
             "stars": 9821,
             "forks": 2678,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9821,
+            "forks": 2677,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

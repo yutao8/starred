@@ -6,16 +6,16 @@
         "name": "WechatExporter",
         "html_url": "https:\/\/github.com\/BlueMatthew\/WechatExporter",
         "language": "C++",
-        "description": "用于导出微信聊天记录的工具，支持将聊天记录导出为多种文件格式，便于分析和存档，适用于个人数据管理与研究场景。"
+        "description": "用于将微信聊天记录导出为HTML网页，以便长期保存、查看或打印。它主要从iOS或Android的微信本地备份中解析消息和附件，生成包含文本、图片、语音和视频的独立页面。适合需要留存证剧、整理谈话记录或迁移聊天内容的用户。操作上需先取得手机备份文件，再运行程序即可完成转换，输出结果可直接在浏览器中打开，不依赖微信客户端。"
     },
     "summary": {
         "initial_stars": 6890,
-        "current_stars": 8344,
-        "star_diff": 1454,
-        "growth_rate": 21.1,
+        "current_stars": 8351,
+        "star_diff": 1461,
+        "growth_rate": 21.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 8344,
             "forks": 944,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8351,
+            "forks": 945,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

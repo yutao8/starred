@@ -6,7 +6,7 @@
         "name": "wallpaper-box",
         "html_url": "https:\/\/github.com\/wangrongding\/wallpaper-box",
         "language": "TypeScript",
-        "description": "一个基于网页的壁纸管理工具，支持多平台壁纸下载与自动更换，提供丰富的分类和搜索功能，方便用户个性化桌面背景，适用于追求美观与效率的桌面美化爱好者。"
+        "description": "wallpaper-box 是一个用于管理和更换桌面壁纸的实用工具，主要解决用户需要频繁寻找、下载和切换壁纸的麻烦。它通常支持从多个在线壁纸源获取图片，也允许导入本地图片，并提供收藏、分类、定时自动更换等常用于个性化桌面的功能。适合追求桌面美观、希望低成本维护壁纸库的用户，也适合需要在多设备间保持统一壁纸风格的场景。该工具注重操作便捷和资源聚合，可能采用跨平台桌面技术实现，以兼容不同操作系统。"
     },
     "summary": {
         "initial_stars": 365,
@@ -14,8 +14,8 @@
         "star_diff": 62,
         "growth_rate": 16.99,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 56
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 57
     },
     "history": [
         {
@@ -409,6 +409,13 @@
             "stars": 427,
             "forks": 42,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 427,
+            "forks": 41,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

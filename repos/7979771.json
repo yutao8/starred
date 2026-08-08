@@ -6,7 +6,7 @@
         "name": "jquery-editable-select",
         "html_url": "https:\/\/github.com\/indrimuska\/jquery-editable-select",
         "language": "JavaScript",
-        "description": "一个基于 jQuery 的下拉选择框增强插件，为原生 select 元素提供输入过滤、搜索和可编辑功能，支持键盘操作和自定义数据源，适用于需要提升选择器交互体验的网页表单场景。"
+        "description": "jquery-editable-select 提供基于 jQuery 的可编辑下拉选择框功能，将原生 select 元素转换为既支持点选又支持输入的自定义组件。用户可键入文字实时过滤下拉选项，也能随意输入列表外的自定义值，并通过键盘方向键与回车快速操作。通常适合需要允许用户从给定列表中选择同时补充新条目的表单场景，如标签输入、城市选择等，引入插件后即可对现有 select 初始化，使用成本低。"
     },
     "summary": {
         "initial_stars": 369,

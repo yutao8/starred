@@ -6,7 +6,7 @@
         "name": "jsproxy",
         "html_url": "https:\/\/github.com\/EtherDream\/jsproxy",
         "language": "Shell",
-        "description": "一个基于 JavaScript 的代理工具，用于在浏览器端实现网页请求的代理转发，支持通过 WebSocket 或 HTTP 通道中继网络流量，常用于跨域访问、网络穿透或前端调试场景。"
+        "description": "一种基于浏览器的在线代理工具，利用 Service Worker 和边缘计算能力在客户端完成请求转发，无需安装插件或客户端软件。用户打开部署后的代理页面即可访问目标网站，通常用于绕过网络封锁或访问地理位置受限的资源。该方案把转发逻辑放在 JavaScript 中，便于部署到静态托管和 CDN 上，适合个人搭建轻量级代理入口，也适合作为学习浏览器代理实现原理的参考。项目本身主要解决静态环境下动态代理的可行性问题，强调低成本与易用性。"
     },
     "summary": {
         "initial_stars": 9351,
@@ -14,8 +14,8 @@
         "star_diff": -17,
         "growth_rate": -0.18,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 9334,
             "forks": 3522,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9334,
+            "forks": 3521,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

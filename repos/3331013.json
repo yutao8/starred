@@ -6,7 +6,7 @@
         "name": "canvas2image",
         "html_url": "https:\/\/github.com\/hongru\/canvas2image",
         "language": "JavaScript",
-        "description": "用于将 HTML5 Canvas 元素转换为图像文件（如 PNG、JPEG）并支持下载的轻量级 JavaScript 工具，适用于需要导出 canvas 内容为图片的前端场景，兼容主流浏览器，使用简单，可快速集成到图表、绘图或截图等功能中。"
+        "description": "用于将网页中的 Canvas 画布内容快速转换为 PNG、JPEG 等常见图片格式，方便用户直接下载或上传。通常适用于图表导出、图像编辑器、在线绘画等需要保存画布内容的场景。该库封装了画布转图片的常用流程，支持多种图片格式，并尽量处理浏览器兼容性问题，让开发者无需重复编写转换逻辑，只需传入画布元素即可得到对应的图片数据。"
     },
     "summary": {
         "initial_stars": 1307,

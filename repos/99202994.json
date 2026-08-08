@@ -6,16 +6,16 @@
         "name": "webdav",
         "html_url": "https:\/\/github.com\/hacdias\/webdav",
         "language": "Go",
-        "description": "一个轻量级、易于配置的 WebDAV 服务器实现，主要用于在不支持原生文件同步的环境中提供文件共享与远程访问功能，适合个人存储、文档同步和简单的私有云部署，支持多种后端存储并提供基础的身份验证机制。"
+        "description": "用于搭建 WebDAV 服务器的轻量级工具，基于 Go 实现，支持本地磁盘、云存储等多种存储后端，可配置多用户、读写权限、目录隔离和 HTTPS 访问。适合个人或小团队自建文件同步与远程存储，兼容 Windows 映射网络驱动器、macOS Finder、Linux davfs2 等常见 WebDAV 客户端，通常用于替代传统 FTP，提供更安全、基于 HTTP 的文件管理方案。"
     },
     "summary": {
         "initial_stars": 4480,
-        "current_stars": 5747,
-        "star_diff": 1267,
-        "growth_rate": 28.28,
+        "current_stars": 5751,
+        "star_diff": 1271,
+        "growth_rate": 28.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 5747,
             "forks": 544,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5751,
+            "forks": 545,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

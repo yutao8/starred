@@ -6,7 +6,7 @@
         "name": "pyspider",
         "html_url": "https:\/\/github.com\/binux\/pyspider",
         "language": "Python",
-        "description": "pyspider 是一个强大的爬虫框架，支持通过 Web 界面编写、调试和监控爬虫任务，提供任务调度、去重、分布式抓取等功能，主要用于高效开发和管理网络爬虫，适合需要灵活处理动态页面和复杂抓取逻辑的场景。"
+        "description": "用于快速构建和维护爬虫程序的Python开源框架，提供基于Web的可视化编辑器，让开发者通过编写Python脚本即可定义爬取逻辑，并实时调试运行。核心能力涵盖任务调度、URL去重、数据抽取、结果存储和分布式部署，适合需要抓取多个网站并管理大量任务的场景。内置监控界面可查看任务状态和抓取进度，支持断点续爬和定时抓取，降低了传统爬虫开发中的调度与维护成本。"
     },
     "summary": {
         "initial_stars": 16689,
@@ -14,8 +14,8 @@
         "star_diff": 104,
         "growth_rate": 0.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 170
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 171
     },
     "history": [
         {
@@ -1207,6 +1207,13 @@
             "stars": 16793,
             "forks": 3624,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16793,
+            "forks": 3625,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "libQtShadowsocks",
         "html_url": "https:\/\/github.com\/shadowsocks\/libQtShadowsocks",
         "language": "C++",
-        "description": "一个基于 Qt 框架的轻量级 Shadowsocks 客户端核心库，主要用于简化 Shadowsocks 代理工具在跨平台桌面应用中的集成，提供网络代理、加密传输和连接管理功能，适合需要科学上网的桌面软件开发。"
+        "description": "用于构建 Shadowsocks 代理工具的 C++ 库，基于 Qt 框架实现。它封装了 Shadowsocks 协议的核心逻辑，包括加密、解密、TCP\/UDP 代理及常见混淆方式，使开发者不必自行处理底层网络与协议细节，就能快速在自己的应用中集成代理功能。由于采用 Qt，该库可跨平台运行，常见于开发图形化代理客户端，或为网络工具添加科学上网能力。通常适合需要稳定、可定制代理模块的 Qt\/C++ 项目，尤其适合想要复用现有生态而非从零实现协议的团队。"
     },
     "summary": {
         "initial_stars": 1497,

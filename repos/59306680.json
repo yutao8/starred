@@ -6,16 +6,16 @@
         "name": "USBCopyer",
         "html_url": "https:\/\/github.com\/kenvix\/USBCopyer",
         "language": "C#",
-        "description": "USBCopyer 是一个用于自动检测和复制 USB 设备中文件的工具，主要用于监控 U 盘等移动存储设备的插拔事件，并可配置为自动复制其中的内容到指定目录，适合数据采集、日志记录等场景。"
+        "description": "用于自动监控U盘插入事件，并在设备接入后静默复制其中的文件到指定目录，支持按扩展名筛选、增量复制和重复文件处理等常见策略。它适用于需要无人值守备份USB存储内容的场景，比如公共电脑的文件留档、内部网络环境中的数据安全审查、取证采集或重要资料批量归集。使用者可以配置复制目标位置和运行方式，在后台持续运行，减少人工插拔拷贝的操作成本，也方便在临时接入设备时快速留下镜像。通常适合IT运维、安全测试或数据管理人员使用，但需要注意该工具可能涉及隐私或合规边界，仅应在合法授权范围内部署。"
     },
     "summary": {
         "initial_stars": 2781,
-        "current_stars": 2980,
-        "star_diff": 199,
-        "growth_rate": 7.16,
+        "current_stars": 2981,
+        "star_diff": 200,
+        "growth_rate": 7.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 136
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 137
     },
     "history": [
         {
@@ -969,6 +969,13 @@
             "stars": 2980,
             "forks": 494,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2981,
+            "forks": 494,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

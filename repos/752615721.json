@@ -6,16 +6,16 @@
         "name": "iptv-api",
         "html_url": "https:\/\/github.com\/Guovin\/iptv-api",
         "language": "Python",
-        "description": "提供 IPTV 频道列表的 API 接口服务，主要用于获取和管理网络电视直播源，支持频道分类和实时播放，适合集成到智能电视、流媒体盒子或第三方播放器中，方便用户自定义观看直播内容。"
+        "description": "提供IPTV直播源抓取与更新能力，自动采集公开网络上的电视频道链接并整合成可订阅的播放列表，输出m3u或txt格式供播放器直接使用。通常适合需要维护个人直播源、应对源地址失效或频繁变更的场景，也可作为二次开发的基础接口，帮助用户获取稳定可用的电视直播资源。"
     },
     "summary": {
         "initial_stars": 16278,
-        "current_stars": 24783,
-        "star_diff": 8505,
-        "growth_rate": 52.25,
+        "current_stars": 24795,
+        "star_diff": 8517,
+        "growth_rate": 52.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 24783,
             "forks": 7273,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 24795,
+            "forks": 7275,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

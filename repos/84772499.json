@@ -6,16 +6,16 @@
         "name": "thinkcmf",
         "html_url": "https:\/\/github.com\/thinkcmf\/thinkcmf",
         "language": "JavaScript",
-        "description": "ThinkCMF 是一个基于 ThinkPHP 开发的内容管理框架，主要用于快速构建具有CMS功能的网站应用。它集成了门户、用户中心、后台管理等模块，支持插件化扩展和主题切换，适用于搭建论坛、企业站、资讯站等各类中小型网站，提升开发效率并降低维护成本。"
+        "description": "基于 ThinkPHP 开发的内容管理框架，面向快速构建企业网站、门户及管理系统，提供后台权限管理、模型字段配置、模板切换、插件扩展等常见功能，适合需要定制化开发但又希望减少重复造轮子的 PHP 项目场景，通过模块化设计简化内容发布与维护流程。"
     },
     "summary": {
         "initial_stars": 2135,
-        "current_stars": 2158,
-        "star_diff": 23,
-        "growth_rate": 1.08,
+        "current_stars": 2157,
+        "star_diff": 22,
+        "growth_rate": 1.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-22 00:00",
-        "data_points_count": 49
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 50
     },
     "history": [
         {
@@ -360,6 +360,13 @@
             "stars": 2158,
             "forks": 589,
             "file": "dist\/2026072200\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2157,
+            "forks": 589,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

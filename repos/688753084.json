@@ -6,16 +6,16 @@
         "name": "QQImpl",
         "html_url": "https:\/\/github.com\/EEEEhex\/QQImpl",
         "language": "C++",
-        "description": "QQ兼容层工具，主要用于在非官方客户端或第三方应用中实现QQ功能的桥接与协议适配，方便开发者集成消息通信、用户登录等QQ相关服务，适用于需要对接QQ生态但受限于官方API场景的扩展开发。"
+        "description": "基于逆向工程实现的 QQ 协议库，主要用于提供轻量级、可嵌入的 QQ 客户端功能，方便开发者构建自定义 QQ 机器人、消息自动化处理或进行协议研究。它通常适合需要绕过官方客户端限制、实现高并发消息收发和群管理场景的技术人员，核心关注点是协议解析、数据包构造和长连接维护，而非图形界面。项目以库的形式集成，便于二次开发，但需注意其使用可能涉及账号风控风险，只适用于学习或合规场景。"
     },
     "summary": {
         "initial_stars": 335,
-        "current_stars": 379,
-        "star_diff": 44,
-        "growth_rate": 13.13,
+        "current_stars": 380,
+        "star_diff": 45,
+        "growth_rate": 13.43,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 57
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 58
     },
     "history": [
         {
@@ -416,6 +416,13 @@
             "stars": 379,
             "forks": 106,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 380,
+            "forks": 106,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

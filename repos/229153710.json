@@ -6,7 +6,7 @@
         "name": "ChinaTelecom-GuangdongIPTV-RTP-List",
         "html_url": "https:\/\/github.com\/Tzwcard\/ChinaTelecom-GuangdongIPTV-RTP-List",
         "language": "PHP",
-        "description": "提供广东电信IPTV的RTP协议直播源列表，主要用于收集和维护适用于IPTV系统的实时流媒体地址，方便用户搭建私有直播平台或在支持自定义源的设备上观看电视节目，涵盖主流频道的组播或单播流地址。"
+        "description": "用于整理和发布中国电信广东地区IPTV的RTP组播地址列表，供用户在内网环境中直接播放运营商提供的IPTV直播频道。仓库维护了多个频道的实时流地址，适合配合VLC、PotPlayer等播放器或udpxy等组播转单播工具使用，可解决默认IPTV机顶盒限制多、无法自定义播放源的问题。"
     },
     "summary": {
         "initial_stars": 886,

@@ -6,7 +6,7 @@
         "name": "php-annotations",
         "html_url": "https:\/\/github.com\/php-annotations\/php-annotations",
         "language": "PHP",
-        "description": "一个基于 PHP 的注解解析库，通过解析文档块中的注解实现元数据配置，常用于框架中实现路由、ORM 映射、权限控制等声明式功能，无需扩展即可运行，适用于 PHP 5.3+ 环境。"
+        "description": "解析并读取 PHP 源码中的注解元数据，为类、方法、属性提供结构化配置信息。通常适合在框架或组件开发中实现基于注解的路由、依赖注入、缓存控制等功能，也可用于生成文档或执行权限校验。它通过解析注释块生成可查询的注解对象，让开发者以声明式方式附加业务规则，减少散落的 XML 或 YAML 配置。该类库面向现代 PHP 项目，适合需要注解驱动的架构场景。"
     },
     "summary": {
         "initial_stars": 139,

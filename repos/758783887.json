@@ -6,16 +6,16 @@
         "name": "sorafm",
         "html_url": "https:\/\/github.com\/all-in-aigc\/sorafm",
         "language": "TypeScript",
-        "description": "SoraFM 是一个基于 AIGC 技术的多功能创作平台，集成音频生成、语音合成与音乐创作功能，支持个性化声音定制与智能作曲，适用于内容创作、播客制作及数字艺术表达，助力用户高效生成高质量音频内容。"
+        "description": "为视频生成模型Sora提供更友好的操作界面和辅助工具，主要用于通过自然语言提示词生成短视频，并支持预览、保存或分享生成结果。它适合创作者、设计师和开发者在没有复杂技术配置的情况下，快速体验和利用AI视频生成能力，有效降低视频内容制作的门槛。该项目通常作为社区驱动的前端或管理工具，与Sora生态配合使用。"
     },
     "summary": {
         "initial_stars": 1048,
-        "current_stars": 1147,
-        "star_diff": 99,
-        "growth_rate": 9.45,
+        "current_stars": 1149,
+        "star_diff": 101,
+        "growth_rate": 9.64,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 109
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 110
     },
     "history": [
         {
@@ -780,6 +780,13 @@
             "stars": 1147,
             "forks": 319,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1149,
+            "forks": 319,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

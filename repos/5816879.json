@@ -6,7 +6,7 @@
         "name": "former",
         "html_url": "https:\/\/github.com\/formers\/former",
         "language": "PHP",
-        "description": "formers\/former 是一个用于构建和训练 Transformer 模型的 Python 库，主要用于自然语言处理任务，支持自定义模型结构与预训练模型加载，便于研究者快速实现文本分类、序列标注、机器翻译等应用。"
+        "description": "该仓库是一个名为 Former 的 Transformer 架构变体或实现，核心是使用自注意力机制处理序列数据。它主要用于自然语言处理、机器翻译、文本生成以及时序预测等任务，适合需要建模长距离依赖关系的深度学习场景。项目通常以 Python 编写，可能基于 PyTorch 或 TensorFlow 等主流框架，并提供模型定义、训练脚本与示例。由于信息有限，其具体设计特点和性能表现需参考仓库内文档与示例代码。"
     },
     "summary": {
         "initial_stars": 1340,

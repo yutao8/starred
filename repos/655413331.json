@@ -6,16 +6,16 @@
         "name": "HivisionIDPhotos",
         "html_url": "https:\/\/github.com\/Zeyi-Lin\/HivisionIDPhotos",
         "language": "Python",
-        "description": "用于生成符合证件照标准的高清人像照片，支持自动裁剪、背景替换、人脸识别优化等功能，适用于签证、身份证等正式场合的证件照制作，操作简便且符合多种国际规格。"
+        "description": "用于制作标准证件照的AI工具，输入一张普通照片即可自动完成人脸检测、背景替换和尺寸裁剪，生成符合各国签证、考试或求职要求的证件照。支持一键更换红、蓝、白等背景色，调整照片尺寸和压缩规格，适合个人用户快速办理证件照，也可集成到在线拍照或自助打印系统中。项目基于深度学习模型，强调本地化部署与隐私保护，通常面向需要批量处理或定制证件照格式的开发者和服务商。"
     },
     "summary": {
         "initial_stars": 17851,
-        "current_stars": 21343,
-        "star_diff": 3492,
-        "growth_rate": 19.56,
+        "current_stars": 21348,
+        "star_diff": 3497,
+        "growth_rate": 19.59,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 21343,
             "forks": 2454,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 21348,
+            "forks": 2455,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

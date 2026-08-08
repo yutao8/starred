@@ -6,16 +6,16 @@
         "name": "MaterialFiles",
         "html_url": "https:\/\/github.com\/zhanghai\/MaterialFiles",
         "language": "Kotlin",
-        "description": "MaterialFiles 是一个基于 Material Design 设计规范的 Android 文件管理器，提供简洁直观的界面和高效稳定的文件浏览、编辑、复制、移动、压缩、解压等常用功能，支持深色模式和多种排序方式，主要用于本地文件的便捷管理。"
+        "description": "MaterialFiles 是一款基于 Material Design 规范的安卓文件管理器，主要用于本地文件浏览与管理，支持 SFTP、SMB、FTP 等远程连接协议，方便用户直接访问局域网共享或服务器文件。内置压缩包处理、Root 权限操作、多标签页切换等实用功能，适合日常整理手机存储、快速传输文件或管理远程设备。开源且界面简洁，注重流畅交互体验。"
     },
     "summary": {
         "initial_stars": 7051,
-        "current_stars": 8709,
-        "star_diff": 1658,
-        "growth_rate": 23.51,
+        "current_stars": 8719,
+        "star_diff": 1668,
+        "growth_rate": 23.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 8709,
             "forks": 689,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 8719,
+            "forks": 691,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

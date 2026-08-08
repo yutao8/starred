@@ -6,16 +6,16 @@
         "name": "flowershow",
         "html_url": "https:\/\/github.com\/flowershow\/flowershow",
         "language": "Other",
-        "description": "Flowershow 是一个基于 Obsidian 的静态网站生成器，主要用于将本地笔记库转换为可发布的静态网站，支持 Markdown 内容渲染、主题定制和插件扩展，适合构建知识库、博客或文档站点，无需编程基础即可快速部署个人网站。"
+        "description": "flowershow 用于将 Markdown 笔记转换为可部署的静态网站，尤其适合从 Obsidian 中同步知识库。它基于 Next.js 构建，支持双向链接、标签、代码高亮等常见笔记特性，能够将本地 Markdown 文件夹快速发布为带有侧边栏导航和搜索功能的 Web 页面。通常用于搭建个人数字花园、技术文档或知识分享站点，部署到 Vercel 等平台上，让笔记内容以清晰友好的方式呈现给读者。"
     },
     "summary": {
         "initial_stars": 974,
-        "current_stars": 1100,
-        "star_diff": 126,
-        "growth_rate": 12.94,
+        "current_stars": 1099,
+        "star_diff": 125,
+        "growth_rate": 12.83,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 114
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 115
     },
     "history": [
         {
@@ -815,6 +815,13 @@
             "stars": 1100,
             "forks": 120,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1099,
+            "forks": 120,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "EasyWatermark",
         "html_url": "https:\/\/github.com\/rosuH\/EasyWatermark",
         "language": "Kotlin",
-        "description": "一个轻量级的 Python 工具库，主要用于快速为图片添加文字或图片水印，支持透明度调节、位置自定义和批量处理，操作简单，适用于自动化图像处理流程中的版权保护或标识添加场景。"
+        "description": "一个用于快速给图片添加水印的桌面工具，主要支持文字水印和图片水印的批量处理。用户可以通过简单的界面操作，自定义水印内容、字体、大小、透明度、旋转角度以及在图片上的位置，适合个人博主、摄影师或电商运营批量保护图片版权或添加品牌标识。该工具通常面向需要高效处理多张图片且不愿编写代码的用户，强调易用性和操作直观性，能够减少重复性劳动并保持水印效果的一致性。"
     },
     "summary": {
         "initial_stars": 1707,
-        "current_stars": 1849,
-        "star_diff": 142,
-        "growth_rate": 8.32,
+        "current_stars": 1848,
+        "star_diff": 141,
+        "growth_rate": 8.26,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 115
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 116
     },
     "history": [
         {
@@ -822,6 +822,13 @@
             "stars": 1849,
             "forks": 150,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1848,
+            "forks": 150,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "php-wechaty",
         "html_url": "https:\/\/github.com\/wechaty\/php-wechaty",
         "language": "PHP",
-        "description": "Wechaty\/php-wechaty 是一个用于 PHP 的微信个人号自动化 SDK，通过它可以在 PHP 环境中快速开发机器人应用，实现消息收发、联系人管理、群聊交互等微信功能，适合构建自动化客服、社交分析工具等场景。"
+        "description": "用于开发聊天机器人的PHP语言实现，基于Wechaty框架的跨平台能力，让开发者能用PHP快速对接微信等即时通讯平台。它封装了登录、收发消息、管理联系人等核心操作，通过统一的接口屏蔽不同平台差异，适合需要将聊天机器人与现有PHP服务集成的场景。通常用于搭建客服助手、群管理工具或消息转发服务，也便于复用PHP生态中的已有组件。需要提醒的是，具体平台适配情况取决于Wechaty社区的支持状态。"
     },
     "summary": {
         "initial_stars": 61,

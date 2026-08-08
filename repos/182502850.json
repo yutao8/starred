@@ -6,16 +6,16 @@
         "name": "gopeed",
         "html_url": "https:\/\/github.com\/GopeedLab\/gopeed",
         "language": "Dart",
-        "description": "Gopeed 是一个现代化的下载管理器，支持 HTTP、FTP、BitTorrent 和磁力链接等多种协议，提供跨平台桌面客户端与浏览器扩展，具备简洁的用户界面、高速下载、断点续传和任务调度功能，适用于需要高效管理和加速下载任务的用户。"
+        "description": "Gopeed 是一款基于 Go 和 Flutter 开发的跨平台高速下载工具，支持 HTTP、BitTorrent 和磁力链接等主流协议。它提供了简洁的图形化界面和灵活的 API 接口，适合需要多协议下载、任务管理和自动化集成的用户。无论是日常文件获取还是批量下载场景，都能通过其高性能内核和可扩展插件机制满足需求，尤其适用于开发者和高级用户构建定制化的下载工作流。"
     },
     "summary": {
         "initial_stars": 19339,
-        "current_stars": 25668,
-        "star_diff": 6329,
-        "growth_rate": 32.73,
+        "current_stars": 25698,
+        "star_diff": 6359,
+        "growth_rate": 32.88,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 25668,
             "forks": 1679,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 25698,
+            "forks": 1680,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

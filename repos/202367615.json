@@ -6,16 +6,16 @@
         "name": "lx-music-desktop",
         "html_url": "https:\/\/github.com\/lyswhut\/lx-music-desktop",
         "language": "TypeScript",
-        "description": "LX Music Desktop 是一个基于 Electron 的桌面音乐播放器，主要用于在线收听和管理个人音乐库，支持本地播放、歌词显示和自定义源，适合追求个性化听歌体验的用户。"
+        "description": "一款基于 Electron 的跨平台桌面音乐播放器，主要用于聚合搜索和播放多个音乐平台的歌曲。它支持用户自定义音源接口，从而避开单一平台的版权限制，自由切换不同曲库来寻找想听的音乐。界面简洁，操作流畅，提供在线试听、歌曲下载、歌词显示以及播放列表管理等常用功能。适合希望在电脑端用一个应用解决多平台听歌需求、又不想反复切换界面的人群。"
     },
     "summary": {
         "initial_stars": 44745,
-        "current_stars": 52580,
-        "star_diff": 7835,
-        "growth_rate": 17.51,
+        "current_stars": 52606,
+        "star_diff": 7861,
+        "growth_rate": 17.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 52580,
             "forks": 6937,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 52606,
+            "forks": 6937,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "pushdeer",
         "html_url": "https:\/\/github.com\/easychen\/pushdeer",
         "language": "C",
-        "description": "PushDeer 是一个开源的轻量级消息推送平台，支持通过 API 向用户发送实时通知，主要用于个人开发者或小团队实现跨平台消息推送，支持多种客户端接收消息。"
+        "description": "一个开源的跨平台消息推送工具，用于将服务器告警、应用通知或自定义消息实时推送到手机、平板等设备。它通常被集成到脚本、监控系统或自动化流程中，当需要及时获取结果或异常时，通过简单的接口调用即可完成推送，解决传统邮件或轮询方式不够即时、操作繁琐的问题。支持多种客户端，适合个人开发者、运维人员以及需要轻量级通知服务的场景。整体设计注重易用性和快速接入，让用户用最少的配置获得稳定可靠的消息触达能力。"
     },
     "summary": {
         "initial_stars": 4843,
-        "current_stars": 5017,
-        "star_diff": 174,
-        "growth_rate": 3.59,
+        "current_stars": 5019,
+        "star_diff": 176,
+        "growth_rate": 3.63,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 143
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 144
     },
     "history": [
         {
@@ -1018,6 +1018,13 @@
             "stars": 5017,
             "forks": 514,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5019,
+            "forks": 513,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

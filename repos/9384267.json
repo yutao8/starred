@@ -6,16 +6,16 @@
         "name": "electron",
         "html_url": "https:\/\/github.com\/electron\/electron",
         "language": "C++",
-        "description": "用于构建跨平台桌面应用程序的框架，基于 Chromium 和 Node.js，允许使用 HTML、CSS 和 JavaScript 开发可在 Windows、macOS 和 Linux 上运行的原生应用，适用于需要系统底层访问能力的桌面软件开发场景。"
+        "description": "Electron 是一个基于 Chromium 和 Node.js 的跨平台桌面应用开发框架，让开发者用 HTML、CSS 和 JavaScript 即可构建 Windows、macOS 和 Linux 桌面程序。它内置完整渲染引擎和 Node.js 运行时，使 Web 开发者能复用现有技能和代码库快速打造原生桌面应用。常见于代码编辑器、聊天与协作工具、开发者工具等场景，尤其适合希望保持 Web 与桌面技术栈统一、需要跨平台一致体验且追求高效迭代的团队。"
     },
     "summary": {
         "initial_stars": 117258,
-        "current_stars": 122370,
-        "star_diff": 5112,
-        "growth_rate": 4.36,
+        "current_stars": 122383,
+        "star_diff": 5125,
+        "growth_rate": 4.37,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 122370,
             "forks": 17384,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 122383,
+            "forks": 17389,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

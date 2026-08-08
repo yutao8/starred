@@ -6,16 +6,16 @@
         "name": "proxypin",
         "html_url": "https:\/\/github.com\/wanghongenpin\/proxypin",
         "language": "Dart",
-        "description": "proxypin 是一个用于简化网络代理配置的工具，主要用于帮助用户快速设置和管理本地代理服务。它支持多种代理协议，可实现跨平台的代理转发、规则路由和流量监控，适合开发者在测试、调试和安全分析场景中使用。"
+        "description": "用于网络代理与抓包分析场景，通常帮助开发者和网络调试人员查看手机应用的 HTTP\/HTTPS 流量请求，并支持配置代理规则、拦截和修改请求响应，适合移动端接口调试、渗透测试及安全研究中使用，也能辅助分析恶意应用的联网行为与敏感数据泄露问题。"
     },
     "summary": {
         "initial_stars": 9052,
-        "current_stars": 13672,
-        "star_diff": 4620,
-        "growth_rate": 51.04,
+        "current_stars": 13680,
+        "star_diff": 4628,
+        "growth_rate": 51.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 13672,
             "forks": 1179,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 13680,
+            "forks": 1180,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

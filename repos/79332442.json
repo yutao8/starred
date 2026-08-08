@@ -6,7 +6,7 @@
         "name": "jquery-tagsinput-revisited",
         "html_url": "https:\/\/github.com\/underovsky\/jquery-tagsinput-revisited",
         "language": "JavaScript",
-        "description": "一个基于 jQuery 的标签输入插件，允许用户通过输入或选择添加标签，支持自动补全、动态添加删除、标签限制等功能，适用于需要标签化输入的表单场景，具有良好的自定义和扩展性。"
+        "description": "用于在网页表单中实现标签输入功能的 jQuery 插件，是对经典 jquery-tagsinput 组件的重构与维护版本。它在保留轻量、易集成特点的同时，修复了原版遗留问题并优化了交互体验，通常适合需要录入多个关键词、分类或联系人的后台管理及编辑页面。支持自定义分隔符和标签样式，可方便嵌入现有 jQuery 项目，提升批量信息输入效率。"
     },
     "summary": {
         "initial_stars": 63,

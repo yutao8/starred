@@ -6,16 +6,16 @@
         "name": "live",
         "html_url": "https:\/\/github.com\/fanmingming\/live",
         "language": "JavaScript",
-        "description": "一个基于 Vue.js 开发的实时直播互动平台，支持用户直播推流、弹幕互动、礼物系统及实时评论，主要用于低延迟直播场景，适合教育、电商直播等应用，具备良好的扩展性与可定制化能力。"
+        "description": "收集并维护多类电视直播源地址，提供央视、卫视、地方台及网络频道的 m3u8 播放链接，支持常用播放器直接导入使用，适合需要免费观看国内及海外电视直播的用户，通过持续更新频道列表来保持源可用性。"
     },
     "summary": {
         "initial_stars": 25867,
-        "current_stars": 28326,
-        "star_diff": 2459,
+        "current_stars": 28327,
+        "star_diff": 2460,
         "growth_rate": 9.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 28326,
             "forks": 4222,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 28327,
+            "forks": 4221,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

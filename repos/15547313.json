@@ -6,7 +6,7 @@
         "name": "ReRes",
         "html_url": "https:\/\/github.com\/annnhan\/ReRes",
         "language": "JavaScript",
-        "description": "ReRes 是一个用于重放和响应编辑的浏览器扩展，主要用于拦截、修改和重放 HTTP\/HTTPS 请求，方便开发者调试接口、测试安全策略或进行网页逆向分析，支持自定义规则和响应内容，提升开发与测试效率。"
+        "description": "用于前端开发和调试的浏览器扩展，可将页面发出的资源请求重定向到指定地址，常用于替换JavaScript、CSS、图片或接口响应。支持基于正则表达式的匹配规则，方便将线上资源临时指向本地文件或测试环境，适合本地联调、Mock数据、修改静态资源等场景。只需配置好映射规则，即可在真实页面中快速验证改动，无需修改代码或部署环境。"
     },
     "summary": {
         "initial_stars": 837,

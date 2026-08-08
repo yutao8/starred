@@ -6,7 +6,7 @@
         "name": "digitalgarden",
         "html_url": "https:\/\/github.com\/oleeskild\/digitalgarden",
         "language": "SCSS",
-        "description": "一个用于搭建个人知识库的数字花园项目，通过静态站点生成器实现笔记互联互通，支持双向链接与知识图谱可视化，帮助用户构建可持续生长的第二大脑。"
+        "description": "digitalgarden 是将 Obsidian 笔记发布为数字花园网站的发布工具，基于 Next.js 构建。用户通过 Obsidian 编辑内容，利用 Git 同步自动部署到托管平台，生成的静态页面支持双向链接、标签索引与知识图谱等特性。它主要面向以 Markdown 整理知识的个人，用于构建公开的、可导航的在线笔记库，在保持编辑体验的同时完成内容分享。"
     },
     "summary": {
         "initial_stars": 365,
@@ -14,8 +14,8 @@
         "star_diff": 115,
         "growth_rate": 31.51,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 142
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 143
     },
     "history": [
         {
@@ -1011,6 +1011,13 @@
             "stars": 480,
             "forks": 273,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 480,
+            "forks": 274,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

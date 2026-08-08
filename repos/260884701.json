@@ -6,16 +6,16 @@
         "name": "DockerRegisterCloud",
         "html_url": "https:\/\/github.com\/xausky\/DockerRegisterCloud",
         "language": "Dart",
-        "description": "一个基于Docker Registry的私有镜像仓库管理平台，支持多租户、权限控制与镜像分发，可集成Kubernetes与CI\/CD流程，适用于企业级容器镜像集中管理与云原生架构部署。"
+        "description": "用于搭建和管理 Docker 私有镜像仓库的云端工具，主要面向需要集中存储、分发和访问控制容器镜像的开发团队或部署环境。它通常基于 Docker Registry 构建，简化仓库的配置与使用流程，帮助解决镜像托管、版本管理和跨机器拉取效率等问题。适合在持续集成、微服务部署或内网环境下使用，提供比默认 Docker Hub 更灵活可控的镜像管理方式。如果目标是私有化部署，这个项目通常能提供较为轻量的方案。"
     },
     "summary": {
         "initial_stars": 662,
-        "current_stars": 656,
-        "star_diff": -6,
-        "growth_rate": -0.91,
+        "current_stars": 657,
+        "star_diff": -5,
+        "growth_rate": -0.76,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-16 00:00",
-        "data_points_count": 23
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 24
     },
     "history": [
         {
@@ -178,6 +178,13 @@
             "stars": 656,
             "forks": 146,
             "file": "dist\/2026071600\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 657,
+            "forks": 146,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "boxplayer",
         "html_url": "https:\/\/github.com\/gaozhangmin\/aliyunpan",
         "language": "TypeScript",
-        "description": "BoxPlayer 是一个基于 Web 的媒体播放器工具，主要用于本地视频和音频文件的离线播放，支持拖拽操作和字幕加载，界面简洁，适用于网页端轻量级多媒体播放需求，方便开发者集成或二次开发。"
+        "description": "用于播放和管理媒体文件的命令行播放器，核心功能包括本地音频\/视频播放、播放列表管理、进度控制以及常用媒体格式解析，操作直接面向终端，不依赖厚重图形界面，通常适合部署在服务器、嵌入式设备或希望节约资源的桌面场景。项目设计上可能兼顾跨平台，让用户在不同系统上获得一致的播放体验，常见用途是搭建个人媒体中心或作为脚本化播放工具。整体上主要面向习惯使用命令行的用户，强调轻量、快速，在需要将播放行为自动化的流程中也有价值。"
     },
     "summary": {
         "initial_stars": 5992,
-        "current_stars": 6803,
-        "star_diff": 811,
-        "growth_rate": 13.53,
+        "current_stars": 6805,
+        "star_diff": 813,
+        "growth_rate": 13.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 165
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 166
     },
     "history": [
         {
@@ -1172,6 +1172,13 @@
             "stars": 6803,
             "forks": 392,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6805,
+            "forks": 393,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

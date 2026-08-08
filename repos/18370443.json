@@ -6,7 +6,7 @@
         "name": "backup-manager",
         "html_url": "https:\/\/github.com\/backup-manager\/backup-manager",
         "language": "PHP",
-        "description": "backup-manager\/backup-manager 是一个用于简化数据库和文件备份管理的工具，支持多种存储驱动和通知方式，可配置定时备份、压缩与加密，适用于 Laravel 等 PHP 项目，帮助开发者高效维护数据安全。"
+        "description": "用于简化备份流程的命令行工具，可通过统一配置来管理各类备份任务，支持按计划执行文件、数据库等常见数据的归档，并能设定保留份数与过期清理策略。它特别适合服务器环境中的自动化数据保护，避免手工复制和脚本分散管理，同时提供日志与状态查询，便于运维确认备份结果，确保数据可靠恢复。"
     },
     "summary": {
         "initial_stars": 1683,

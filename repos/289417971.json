@@ -6,16 +6,16 @@
         "name": "h5-Dooring",
         "html_url": "https:\/\/github.com\/MrXujiang\/h5-Dooring",
         "language": "JavaScript",
-        "description": "一个可视化H5页面搭建工具，支持通过拖拽方式快速制作移动端页面，提供丰富的组件和模板，可导出静态页面或对接后端服务，适用于营销活动、宣传页等场景的快速开发。"
+        "description": "用于通过拖拽方式快速搭建 H5 页面，主要面向运营与设计师。它提供丰富的组件库，支持表单、图片、按钮等常见模块，用户可在画布中自由布局并实时预览。同时支持页面设置、数据存储与发布，适合低代码或零代码场景，解决活动页制作成本高、开发周期长的问题。通常基于 React 技术生态构建，并支持本地化部署。"
     },
     "summary": {
         "initial_stars": 9740,
-        "current_stars": 9960,
-        "star_diff": 220,
-        "growth_rate": 2.26,
+        "current_stars": 9957,
+        "star_diff": 217,
+        "growth_rate": 2.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 159
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 160
     },
     "history": [
         {
@@ -1130,6 +1130,13 @@
             "stars": 9960,
             "forks": 1828,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9957,
+            "forks": 1828,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

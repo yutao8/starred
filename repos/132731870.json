@@ -6,7 +6,7 @@
         "name": "react-native-update-app",
         "html_url": "https:\/\/github.com\/banli17\/react-native-update-app",
         "language": "JavaScript",
-        "description": "用于在 React Native 应用中实现热更新功能，支持动态下载和安装新版本，适用于需要绕过应用商店更新流程的场景，通常配合服务器端版本检测使用，提升用户更新体验。"
+        "description": "用于为 React Native 应用添加版本更新能力，支持从服务器获取新版本信息并下载更新包，用户确认后即可在应用内完成升级。它主要服务于需要绕过应用商店、由开发者自主控制版本分发的移动场景，适合产品迭代频繁或希望快速推送修复和功能的团队。通常集成在应用启动时或设置页面中，用于检查是否有新版本，并处理下载、安装等后续流程。该方案在 Android 平台上应用较为常见，也能覆盖 iOS 上非商店分发或企业签名的更新需求，能有效简化用户升级门槛。"
     },
     "summary": {
         "initial_stars": 36,

@@ -6,16 +6,16 @@
         "name": "letos",
         "html_url": "https:\/\/github.com\/pawelsalawa\/sqlitestudio",
         "language": "C",
-        "description": "Letos 是一个基于 Python 的轻量级模板引擎，主要用于生成动态 HTML 内容，具有简洁的语法和快速渲染能力，适合用于小型 Web 项目或静态站点生成。"
+        "description": "letos 是由 DB Browser for SQLite 开发者创建的开源命令行工具，专注于 SQLite 数据库的日常操作，如数据导入导出、格式转换与批量处理，适合在自动化脚本或终端环境中使用，帮助开发者更高效地管理轻量级数据库文件。"
     },
     "summary": {
         "initial_stars": 5999,
-        "current_stars": 6688,
-        "star_diff": 689,
-        "growth_rate": 11.49,
+        "current_stars": 6693,
+        "star_diff": 694,
+        "growth_rate": 11.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 6688,
             "forks": 657,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6693,
+            "forks": 658,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

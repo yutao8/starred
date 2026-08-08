@@ -6,16 +6,16 @@
         "name": "wechat-php-sdk",
         "html_url": "https:\/\/github.com\/dodgepudding\/wechat-php-sdk",
         "language": "PHP",
-        "description": "用于实现微信公众号与PHP后端的对接，提供消息处理、菜单管理、用户管理、素材管理及网页授权等功能，简化微信公众号开发流程，适合构建微信生态内的应用服务。"
+        "description": "为开发微信公众号（包括订阅号、服务号）和微信支付的 PHP 开发者提供集成工具，封装了消息接收与回复、菜单管理、用户管理、二维码生成、素材上传等基础接口，并简化了签名验证和请求流程。通常适合在 PHP 项目中快速接入微信公众平台，减少从零实现协议与加解密的重复工作，使开发者能更专注于业务逻辑。该 SDK 以稳定性和易用性见长，常见于中小型网站、电商系统或后台管理项目，帮助解决账号对接、消息响应及支付回调处理等典型问题。"
     },
     "summary": {
         "initial_stars": 4432,
-        "current_stars": 4410,
-        "star_diff": -22,
-        "growth_rate": -0.5,
+        "current_stars": 4409,
+        "star_diff": -23,
+        "growth_rate": -0.52,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 80
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 81
     },
     "history": [
         {
@@ -577,6 +577,13 @@
             "stars": 4410,
             "forks": 2272,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4409,
+            "forks": 2271,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

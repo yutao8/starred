@@ -6,16 +6,16 @@
         "name": "chromium-web-store",
         "html_url": "https:\/\/github.com\/NeverDecaf\/chromium-web-store",
         "language": "JavaScript",
-        "description": "一个允许在非 Chromium 内核浏览器中安装 Chrome 网上应用店扩展的工具，通过注入脚本使 Chrome 扩展安装按钮在任意浏览器中生效，方便用户绕过浏览器限制直接获取 Chrome 插件。"
+        "description": "用于解决Chromium浏览器无法直接安装Chrome网上应用店扩展的问题，通过提供类似官方商店的安装入口，让用户可以在Chromium、Edge等基于Chromium的浏览器中搜索、浏览并安装Chrome扩展。通常以用户脚本或附加组件形式运作，适合需要利用Chrome生态但不愿更换浏览器的用户。"
     },
     "summary": {
         "initial_stars": 2656,
-        "current_stars": 3219,
-        "star_diff": 563,
-        "growth_rate": 21.2,
+        "current_stars": 3220,
+        "star_diff": 564,
+        "growth_rate": 21.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 3219,
             "forks": 101,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3220,
+            "forks": 101,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "wxpage",
         "html_url": "https:\/\/github.com\/tvfe\/wxpage",
         "language": "JavaScript",
-        "description": "tvfe\/wxpage 是一个用于开发微信小程序页面的前端框架或工具集，主要用于简化页面结构搭建、组件化开发与状态管理，提升微信小程序的开发效率与维护性。"
+        "description": "用于微信小程序开发时管理页面结构与跳转逻辑的轻量框架，通常适合需要统一处理页面初始化、数据加载及生命周期事件的项目。它帮助开发者以配置方式组织页面关系，减少重复代码并规范导航流程，适合中大型小程序团队在工程化过程中提升页面维护效率。主要解决微信原生开发中页面分散、依赖混乱、回调嵌套等问题，让多页面协作更清晰，同时保留小程序原生体验。"
     },
     "summary": {
         "initial_stars": 625,
-        "current_stars": 623,
-        "star_diff": -2,
-        "growth_rate": -0.32,
+        "current_stars": 622,
+        "star_diff": -3,
+        "growth_rate": -0.48,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 6
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 7
     },
     "history": [
         {
@@ -59,6 +59,13 @@
             "stars": 623,
             "forks": 96,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 622,
+            "forks": 96,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "DeepSeek-R1",
         "html_url": "https:\/\/github.com\/deepseek-ai\/DeepSeek-R1",
         "language": "Other",
-        "description": "DeepSeek-R1 是深度求索开发的大语言模型，主要用于文本生成、推理和对话理解等任务，适用于智能客服、内容创作和代码生成等场景，支持多轮对话和复杂逻辑处理，具备较强的语言理解和生成能力。"
+        "description": "DeepSeek-R1 是 DeepSeek 团队推出的高性能推理模型，专注于复杂逻辑推理与数学、代码、科学问答等任务，通过强化学习与思维链技术提升输出的可解释性和准确性。它适合需要严谨步骤推导的智能助手、教育辅导、编程助手及科研辅助等场景，通常以开源权重形式供开发者本地部署或集成到应用中，兼顾成本与可控性，是追求深度推理能力时值得考虑的选项。"
     },
     "summary": {
         "initial_stars": 90277,
-        "current_stars": 91985,
-        "star_diff": 1708,
+        "current_stars": 91979,
+        "star_diff": 1702,
         "growth_rate": 1.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 91985,
             "forks": 11706,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 91979,
+            "forks": 11705,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

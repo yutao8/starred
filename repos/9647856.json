@@ -6,16 +6,16 @@
         "name": "ZeroTierOne",
         "html_url": "https:\/\/github.com\/zerotier\/ZeroTierOne",
         "language": "C++",
-        "description": "ZeroTierOne 是一个开源的软件定义网络（SDN）工具，用于创建虚拟局域网（VLAN），使设备无论物理位置如何都能安全互联。它通过加密和点对点传输实现跨平台设备间的直接通信，支持 Windows、macOS、Linux、嵌入式系统等，常用于远程访问、云组网和分布式网络构建，部署简单且无需复杂配置。"
+        "description": "ZeroTierOne 是一套全球组网的软件定义广域网工具，能让分布在不同网络的设备像连接在同一台交换机上一样直接互访，通过加密的 P2P 隧道实现安全通信，无需配置公网 IP 或复杂路由器。它适用于远程办公时的内网资源共享、多分支机构的私有网络互通、边缘设备集群管理等场景，也常被用于替代传统 VPN 或搭建类游戏联机、物联网设备管理环境。自建控制器或加入现有网络后，只需安装客户端并分配网络 ID 即可加入虚拟局域网，操作门槛低，同时支持自动链路切换和细粒度访问控制，适合需要跨地域低成本组网的个人用户、团队及开源社区。"
     },
     "summary": {
         "initial_stars": 15573,
-        "current_stars": 16986,
-        "star_diff": 1413,
-        "growth_rate": 9.07,
+        "current_stars": 16989,
+        "star_diff": 1416,
+        "growth_rate": 9.09,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 16986,
             "forks": 1968,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 16989,
+            "forks": 1968,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

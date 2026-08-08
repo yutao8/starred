@@ -6,16 +6,16 @@
         "name": "PikPakAutoOfflineDownloadBot",
         "html_url": "https:\/\/github.com\/CJReinforce\/PikPakAutoOfflineDownloadBot",
         "language": "Python",
-        "description": "PikPakAutoOfflineDownloadBot 是一个用于自动化离线下载的 Telegram 机器人工具，专为 PikPak 云盘用户设计。它可监听 Telegram 中的磁力链接或种子文件，自动触发 PikPak 的离线下载功能，实现远程免值守下载，并支持下载完成后自动转存和分享文件生成链接，提升大文件传输与存储效率，适用于需要频繁使用离线下载功能的用户自动化操作。"
+        "description": "用于自动化管理 PikPak 网盘离线下载任务的机器人，主要监控用户提交的下载链接并自动将任务添加到 PikPak 离线下载队列，避免手动复制链接和点击操作的繁琐。通常适合需要批量转存磁力、种子或普通文件链接的个人或小团体，可结合聊天机器人接口实现远程提交和状态查询，帮助提高资源获取效率，尤其适合经常使用离线下载功能的用户。"
     },
     "summary": {
         "initial_stars": 484,
-        "current_stars": 508,
-        "star_diff": 24,
-        "growth_rate": 4.96,
+        "current_stars": 509,
+        "star_diff": 25,
+        "growth_rate": 5.17,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-30 00:00",
-        "data_points_count": 60
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 61
     },
     "history": [
         {
@@ -437,6 +437,13 @@
             "stars": 508,
             "forks": 92,
             "file": "dist\/2026073000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 509,
+            "forks": 92,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

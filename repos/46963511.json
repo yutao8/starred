@@ -6,7 +6,7 @@
         "name": "aliyun-oss-php-sdk",
         "html_url": "https:\/\/github.com\/aliyun\/aliyun-oss-php-sdk",
         "language": "PHP",
-        "description": "用于操作阿里云对象存储（OSS）的 PHP SDK，提供文件上传、下载、管理及权限设置等功能，适用于需要与阿里云 OSS 交互的 PHP 应用，简化了对存储服务的操作，支持多种上传模式和大型文件分片处理，便于开发者在项目中集成云存储能力。"
+        "description": "用于在 PHP 项目中访问和管理阿里云对象存储 OSS，提供文件上传、下载、删除、复制以及存储空间（Bucket）的创建与配置等操作。适合需要将静态资源、用户附件或备份数据存放在云端并与现有业务代码集成的场景，通过 SDK 完成数据落盘后的后续处理。通常配合 Composer 安装使用，支持常见的 PHP 运行环境，帮助开发者在应用中快速实现云存储功能。"
     },
     "summary": {
         "initial_stars": 1006,

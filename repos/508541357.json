@@ -6,7 +6,7 @@
         "name": "create-chrome-ext",
         "html_url": "https:\/\/github.com\/guocaoyi\/create-chrome-ext",
         "language": "JavaScript",
-        "description": "用于快速创建 Chrome 浏览器扩展的脚手架工具，支持模板化生成 manifest.json 和基础文件结构，简化开发流程，适合需要快速搭建 Chrome Ext 项目的开发者使用。"
+        "description": "create-chrome-ext 是一个用于快速搭建 Chrome 浏览器扩展项目的命令行工具，通过预设的模板和构建配置，帮助开发者跳过繁琐的初始化流程，直接生成支持 Manifest V3 的扩展骨架。它适合需要频繁创建扩展原型或希望统一项目结构的开发场景，能显著减少手工配置的时间成本。"
     },
     "summary": {
         "initial_stars": 1945,

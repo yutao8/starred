@@ -6,7 +6,7 @@
         "name": "clover-builder",
         "html_url": "https:\/\/github.com\/Dids\/clover-builder",
         "language": "Other",
-        "description": "一个用于构建和管理前端项目的开发工具，主要用于配置、打包和优化 Clover 框架应用，支持快速搭建开发环境、自动化构建流程和静态资源管理，提升团队开发效率。"
+        "description": "用于在线构建和定制 Clover 引导配置，主要面向黑苹果（Hackintosh）用户。通过网页交互选择硬件、系统版本和启动参数，自动生成对应的 config.plist 配置文件，免去手动编辑 plist 的繁琐和出错。适合在安装或维护黑苹果系统时快速生成基础配置，也便于根据实际硬件调整引导选项。"
     },
     "summary": {
         "initial_stars": 1251,

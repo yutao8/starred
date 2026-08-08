@@ -6,16 +6,16 @@
         "name": "english-words",
         "html_url": "https:\/\/github.com\/dwyl\/english-words",
         "language": "Python",
-        "description": "提供一份开源的英文单词列表，主要用于拼写检查、自然语言处理、词频分析和语言学习等场景，包含常见英文单词及部分扩展词汇，支持程序化访问和批量处理，适合开发者集成到文本处理工具或应用中。"
+        "description": "提供一份庞大的英语单词列表，整理自多种公开词汇资源，包含数十万个常用与生僻词汇，以纯文本格式存储且每个单词占一行。它最适合用于拼写检查、文本分析、单词游戏、语言学习和构建自定义词典等场景，也可作为自然语言处理和数据挖掘的原始语料。由于格式简单，开发者可以轻松下载并集成到各类应用中。"
     },
     "summary": {
         "initial_stars": 11349,
-        "current_stars": 12235,
-        "star_diff": 886,
-        "growth_rate": 7.81,
+        "current_stars": 12236,
+        "star_diff": 887,
+        "growth_rate": 7.82,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 12235,
             "forks": 2017,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12236,
+            "forks": 2017,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

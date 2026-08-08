@@ -6,16 +6,16 @@
         "name": "gpt4free",
         "html_url": "https:\/\/github.com\/xtekky\/gpt4free",
         "language": "Python",
-        "description": "提供免费访问GPT-4等大语言模型的工具，支持通过不同后端接口实现无需API密钥的调用，适用于需要绕过官方限制进行文本生成的场景，主要用于测试、研究或低强度个人使用。"
+        "description": "gpt4free 用于让开发者无需付费即可接入多种大语言模型（如 GPT-4）的接口，主要通过逆向工程和聚合公开资源，将不同来源的 AI 能力统一封装。它适合个人学习、原型开发、低成本实验等场景，例如快速测试对话生成、文本理解或构建小规模应用原型，而无需绑定付费 API 密钥。通常面向 Python 生态，使用方式接近主流 AI 接口调用，易于替换。需要注意，该项目依赖第三方服务稳定性，仅供技术研究与评估使用，不适合高并发生产环境。"
     },
     "summary": {
         "initial_stars": 64515,
-        "current_stars": 66532,
-        "star_diff": 2017,
-        "growth_rate": 3.13,
+        "current_stars": 66531,
+        "star_diff": 2016,
+        "growth_rate": 3.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 66532,
             "forks": 13529,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 66531,
+            "forks": 13528,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

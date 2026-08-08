@@ -6,16 +6,16 @@
         "name": "coredns",
         "html_url": "https:\/\/github.com\/coredns\/coredns",
         "language": "Go",
-        "description": "CoreDNS 是一个灵活且可扩展的 DNS 服务器，主要用于 Kubernetes 环境中提供服务发现和 DNS 解析功能。它通过插件化架构支持多种后端存储、健康检查、自动扩缩容和自定义策略，可高效处理服务注册、反向解析、缓存和转发等场景，广泛用于容器编排和微服务架构中的域名解析需求。"
+        "description": "面向云原生场景的DNS服务器，用Go编写，以插件化架构为核心，是Kubernetes的默认DNS组件。主要用于解决集群内服务发现与域名解析，可动态识别Pod和Service的变化，并通过插件扩展转发、缓存、健康检查等功能。典型使用场景包括微服务环境下的服务间调用、内部域名解析，以及构建轻量级自定义DNS服务。简洁的配置文件与多后端支持，使其易于集成到容器编排和自动化运维流程中。"
     },
     "summary": {
         "initial_stars": 13108,
-        "current_stars": 14224,
-        "star_diff": 1116,
-        "growth_rate": 8.51,
+        "current_stars": 14229,
+        "star_diff": 1121,
+        "growth_rate": 8.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 14224,
             "forks": 2508,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14229,
+            "forks": 2510,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

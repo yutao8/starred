@@ -6,16 +6,16 @@
         "name": "JustTrustMe",
         "html_url": "https:\/\/github.com\/Fuzion24\/JustTrustMe",
         "language": "Java",
-        "description": "用于绕过安卓应用的 SSL 证书绑定，主要在安全测试中帮助抓包分析 HTTPS 流量，通常与 Frida 配合使用，适用于需要检测或调试 TLS 通信但受证书锁定限制的场景。"
+        "description": "JustTrustMe 是一款基于 Xposed 框架的 Android 安全测试工具，主要用于绕过应用内的 SSL 证书固定（SSL Pinning）机制。它通过拦截应用的网络请求，强制信任所有证书，从而方便安全研究人员对 HTTPS 流量进行抓包分析、漏洞挖掘或渗透测试。适用于评估移动应用传输层安全性时绕过证书校验的场景，常与 Burp Suite 等代理工具配合使用。需要 Root 环境并安装 Xposed 框架才能加载运行。"
     },
     "summary": {
         "initial_stars": 5066,
-        "current_stars": 5352,
-        "star_diff": 286,
-        "growth_rate": 5.65,
+        "current_stars": 5353,
+        "star_diff": 287,
+        "growth_rate": 5.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 167
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 168
     },
     "history": [
         {
@@ -1186,6 +1186,13 @@
             "stars": 5352,
             "forks": 821,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5353,
+            "forks": 821,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

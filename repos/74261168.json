@@ -6,16 +6,16 @@
         "name": "lanproxy",
         "html_url": "https:\/\/github.com\/ffay\/lanproxy",
         "language": "Java",
-        "description": "用于内网穿透的代理工具，支持多协议和多用户管理，适用于远程访问内网服务，通常用于开发调试、远程办公等场景，基于 Go 语言开发，具有高性能和易用性特点。"
+        "description": "lanproxy 是一套基于 Java 和 Netty 的内网穿透代理工具，用于将部署在内网或 NAT 环境下的服务安全地暴露到公网，支持 TCP 和 HTTP 协议的端口映射。使用时需要在有公网 IP 的服务器上部署代理端，本地运行客户端建立加密通道，即可通过公网访问内网服务。常见场景包括远程调试接口、临时分享本地网页、在无公网 IP 的环境下运行 Web 应用或数据库服务，也适合个人服务器和中小团队快速搭建反向代理隧道。整体配置简单，支持多端口映射和一键启停，适合开发者和运维人员解决内网资源外部访问的问题。"
     },
     "summary": {
         "initial_stars": 5775,
-        "current_stars": 5850,
-        "star_diff": 75,
-        "growth_rate": 1.3,
+        "current_stars": 5851,
+        "star_diff": 76,
+        "growth_rate": 1.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 132
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 133
     },
     "history": [
         {
@@ -941,6 +941,13 @@
             "stars": 5850,
             "forks": 1549,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 5851,
+            "forks": 1550,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

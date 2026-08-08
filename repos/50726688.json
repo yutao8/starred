@@ -6,16 +6,16 @@
         "name": "spaceship-prompt",
         "html_url": "https:\/\/github.com\/spaceship-prompt\/spaceship-prompt",
         "language": "Shell",
-        "description": "一个轻量、可定制的 Zsh 终端提示符主题，专为开发者设计，提供直观的视觉反馈，支持 Node.js、Docker、Git 等多种技术栈状态显示，提升命令行使用效率与体验。"
+        "description": "一款专为 Zsh 设计的现代化命令行提示主题，旨在提供清晰、美观且信息丰富的提示符界面。它能够自动显示当前目录、Git 分支与状态、编程语言版本（如 Node.js、Python 等）、命令执行时间等常用信息，适合开发者日常使用。同时支持高度自定义，可自由开关或排列各个功能模块，并兼容 Oh My Zsh、Antigen 等常见插件管理框架。其渲染速度快，能让终端操作更高效，尤其适合需要频繁使用 Git 或切换项目的开发场景。"
     },
     "summary": {
         "initial_stars": 20036,
-        "current_stars": 20548,
-        "star_diff": 512,
-        "growth_rate": 2.56,
+        "current_stars": 20553,
+        "star_diff": 517,
+        "growth_rate": 2.58,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 20548,
             "forks": 970,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 20553,
+            "forks": 971,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

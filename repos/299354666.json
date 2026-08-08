@@ -6,16 +6,16 @@
         "name": "rustdesk-server",
         "html_url": "https:\/\/github.com\/rustdesk\/rustdesk-server",
         "language": "Rust",
-        "description": "RustDesk Server 是 RustDesk 远程桌面软件的自托管服务器实现，用于替代公有云服务，支持中继连接、NAT 穿透和设备管理，适用于个人或企业搭建私有化远程桌面解决方案，保障数据隐私与通信安全。"
+        "description": "用于自建RustDesk远程桌面服务的服务器端组件，负责信令交换与数据传输中继。通过部署该服务，可以不依赖官方服务器，自主搭建远程控制基础设施。典型场景包括跨网络远程维护电脑、访问办公室机器、提供技术支持等，尤其适合对数据安全或网络穿透有要求的个人和团队。通常由信令服务与中继服务两部分组成，支持P2P直连，无法直连时自动经中继转发。部署灵活，有助于降低延迟并自主掌控数据。"
     },
     "summary": {
         "initial_stars": 8069,
-        "current_stars": 10203,
-        "star_diff": 2134,
-        "growth_rate": 26.45,
+        "current_stars": 10211,
+        "star_diff": 2142,
+        "growth_rate": 26.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 10203,
             "forks": 2514,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10211,
+            "forks": 2518,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

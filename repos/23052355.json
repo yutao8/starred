@@ -6,7 +6,7 @@
         "name": "climate",
         "html_url": "https:\/\/github.com\/thephpleague\/climate",
         "language": "PHP",
-        "description": "用于创建命令行应用程序的 PHP 库，提供清晰的输出格式、参数解析、颜色支持和交互式功能，使 CLI 脚本开发更简单高效。"
+        "description": "为 PHP 命令行应用提供美观且易用的终端输出格式化工具，支持颜色、样式、进度条、表格、输入提示等常用交互元素。通常适合开发 CLI 脚本或工具时快速增强用户体验，让输出更清晰、层次更分明，并减少直接操作 ANSI 转义码的繁琐工作。它通过简洁的链式调用集成到现有项目中，帮助开发者高效构建具有一定交互性的命令行界面。"
     },
     "summary": {
         "initial_stars": 1872,

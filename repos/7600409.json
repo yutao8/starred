@@ -6,16 +6,16 @@
         "name": "shadowsocks-windows",
         "html_url": "https:\/\/github.com\/shadowsocks\/shadowsocks-windows",
         "language": "C#",
-        "description": "Shadowsocks for Windows 是一个用于 Windows 平台的轻量级代理工具，主要用于科学上网。它通过加密的 SOCKS5 代理转发网络流量，支持多种加密方式，具备良好的性能和稳定性，适合需要绕过网络审查的用户使用。"
+        "description": "Shadowsocks 的 Windows 客户端，用于安全代理上网，帮助用户绕过网络限制，访问被屏蔽的网站和服务。支持多种加密协议和服务器配置，提供系统代理、PAC 模式、二维码分享、多服务器切换等实用功能，适合需要在 Windows 环境下稳定使用翻墙代理的个人用户。"
     },
     "summary": {
         "initial_stars": 58867,
-        "current_stars": 59580,
-        "star_diff": 713,
-        "growth_rate": 1.21,
+        "current_stars": 59576,
+        "star_diff": 709,
+        "growth_rate": 1.2,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 59580,
             "forks": 16208,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 59576,
+            "forks": 16206,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

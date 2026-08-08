@@ -6,16 +6,16 @@
         "name": "vue-plugin-hiprint",
         "html_url": "https:\/\/github.com\/CcSimple\/vue-plugin-hiprint",
         "language": "JavaScript",
-        "description": "一个基于 Vue 的轻量级插件，用于集成 hiprint 打印库，简化网页打印功能的开发，支持自定义模板设计和快速绑定数据，适用于各类需要浏览器端打印的业务场景。"
+        "description": "用于在 Vue 项目中集成浏览器打印能力，以可视化拖拽方式设计并生成打印模板，适合订单、票据、报表等需要精确排版的业务场景。它基于 hiprint 封装，简化了打印配置和调用流程，支持多种打印模式与导出格式，帮助开发者快速实现高质量的定制化打印，解决原生浏览器打印时样式错乱、分页难控等问题。"
     },
     "summary": {
         "initial_stars": 1340,
-        "current_stars": 1707,
-        "star_diff": 367,
-        "growth_rate": 27.39,
+        "current_stars": 1708,
+        "star_diff": 368,
+        "growth_rate": 27.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 1707,
             "forks": 305,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1708,
+            "forks": 305,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

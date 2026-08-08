@@ -6,16 +6,16 @@
         "name": "mtSecKill",
         "html_url": "https:\/\/github.com\/zqjzqj\/mtSecKill",
         "language": "Other",
-        "description": "用于秒杀系统的技术实现，主要基于Java与SpringBoot框架，结合Redis实现缓存优化，并使用了分布式锁等机制来保障高并发场景下的数据一致性，通常适用于电商类应用中的限时抢购功能开发参考。"
+        "description": "用于美团平台秒杀场景的自动化辅助工具，主要解决手动抢购时网络延迟和操作速度不足的问题。通过预先配置商品信息和抢购时间，在开售瞬间以高频率请求或自动操作方式提交订单，提升成功率。适用于限量商品、秒杀活动、优惠券领取等需要拼手速的场景，通常需要结合抓包获取接口参数，并支持多账号或定时任务。工具本身不保证一定成功，使用时需注意平台风控和账号安全。"
     },
     "summary": {
         "initial_stars": 2619,
-        "current_stars": 2582,
-        "star_diff": -37,
-        "growth_rate": -1.41,
+        "current_stars": 2581,
+        "star_diff": -38,
+        "growth_rate": -1.45,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 92
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 93
     },
     "history": [
         {
@@ -661,6 +661,13 @@
             "stars": 2582,
             "forks": 2142,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2581,
+            "forks": 2142,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

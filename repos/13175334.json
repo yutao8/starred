@@ -6,16 +6,16 @@
         "name": "mdwiki",
         "html_url": "https:\/\/github.com\/Dynalon\/mdwiki",
         "language": "JavaScript",
-        "description": "一个基于 Markdown 的维基引擎，允许用户使用纯文本文件构建静态网站，支持自动页面生成和简单部署，适合文档站点和个人知识管理。"
+        "description": "mdwiki 是一款纯前端实现的轻量级 wiki 系统，无需数据库和服务器，直接读取文件夹中的 Markdown 文件并生成可浏览的站点。用户只需将文档按目录组织好，用浏览器打开主页面，即可在左侧导航栏中切换页面，适合个人知识库、项目文档或离线笔记。它支持自定义主题和导航配置，生成的内容可托管到任意静态站点服务上，便于分享。由于所有内容都是 Markdown 文本，便于版本管理和协作。该工具特别适合希望以简单文件方式维护文档、又不想搭建复杂系统的用户。"
     },
     "summary": {
         "initial_stars": 3164,
-        "current_stars": 3191,
-        "star_diff": 27,
-        "growth_rate": 0.85,
+        "current_stars": 3192,
+        "star_diff": 28,
+        "growth_rate": 0.88,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 80
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 81
     },
     "history": [
         {
@@ -577,6 +577,13 @@
             "stars": 3191,
             "forks": 762,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 3192,
+            "forks": 762,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

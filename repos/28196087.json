@@ -6,16 +6,16 @@
         "name": "ChinaMobilePhoneNumberRegex",
         "html_url": "https:\/\/github.com\/VincentSit\/ChinaMobilePhoneNumberRegex",
         "language": "Other",
-        "description": "用于验证中国移动手机号码的正则表达式库，支持中国大陆各类手机号段（包括三大运营商），适用于表单验证、数据清洗等场景，提供简洁的JavaScript\/Java实现，帮助开发者快速校验手机号格式的合法性。"
+        "description": "用于校验、提取和整理中国大陆手机号码，提供基于正则表达式的匹配规则，覆盖三大运营商及虚拟运营商的主流号段。适合在表单验证、用户注册、数据清洗或日志分析中快速判断号码格式是否合法。通常支持纯数字文本或混合文本的匹配，并允许按需调整匹配边界以避免误匹配。可以根据项目需要选择宽松或严格的匹配模式，也适合作为其他编程语言实现参考。"
     },
     "summary": {
         "initial_stars": 4791,
-        "current_stars": 4770,
-        "star_diff": -21,
-        "growth_rate": -0.44,
+        "current_stars": 4769,
+        "star_diff": -22,
+        "growth_rate": -0.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 74
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 75
     },
     "history": [
         {
@@ -535,6 +535,13 @@
             "stars": 4770,
             "forks": 506,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4769,
+            "forks": 506,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

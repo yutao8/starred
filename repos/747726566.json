@@ -6,7 +6,7 @@
         "name": "mi-gpt",
         "html_url": "https:\/\/github.com\/idootop\/mi-gpt",
         "language": "TypeScript",
-        "description": "mi-gpt 是一个基于 GPT 架构的中文自然语言处理模型项目，主要用于文本生成、对话理解和语义分析等任务，适用于智能客服、内容创作和语言研究场景，支持通过 API 进行模型调用和定制化训练。"
+        "description": "将小米小爱音箱接入大语言模型（如 ChatGPT），让原有硬件成为智能语音对话终端，实现自然流畅的问答交互。通常适合家庭环境，面向想用低成本现有设备获得更强 AI 体验、或希望语音控制智能家居的开发者。项目通过中间层负责语音捕捉、模型调用和结果播报，并支持自定义系统提示词、多轮对话等能力，能显著提升小爱音箱的语义理解和回答质量。"
     },
     "summary": {
         "initial_stars": 11262,
@@ -14,8 +14,8 @@
         "star_diff": 1250,
         "growth_rate": 11.1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 12512,
             "forks": 1755,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12512,
+            "forks": 1756,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

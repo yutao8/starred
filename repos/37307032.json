@@ -6,16 +6,16 @@
         "name": "music",
         "html_url": "https:\/\/github.com\/maicong\/music",
         "language": "PHP",
-        "description": "用于解析、处理和操作音乐文件的命令行工具，支持音乐元数据提取、音频格式转换及批量管理，适用于需要自动化处理音乐库的用户，可运行在 macOS、Linux 和 Windows 系统。"
+        "description": "用于搭建个人音乐播放器，集中管理本地音乐文件并提供在线收听入口。它适合希望摆脱商业平台限制、自建音乐库的用户，常见于在家庭网络或云服务器上部署，以实现随时随地的音乐访问。项目一般包含后端数据处理与前端展示两部分，操作重点放在歌单管理和播放控制上，整体设计倾向于轻量与易定制。"
     },
     "summary": {
         "initial_stars": 2097,
-        "current_stars": 2140,
-        "star_diff": 43,
-        "growth_rate": 2.05,
+        "current_stars": 2141,
+        "star_diff": 44,
+        "growth_rate": 2.1,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 103
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 104
     },
     "history": [
         {
@@ -738,6 +738,13 @@
             "stars": 2140,
             "forks": 699,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2141,
+            "forks": 698,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

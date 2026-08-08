@@ -6,7 +6,7 @@
         "name": "php-advanced-downloader",
         "html_url": "https:\/\/github.com\/ahmad-sa3d\/php-advanced-downloader",
         "language": "PHP",
-        "description": "一个功能强大的 PHP 下载管理器，支持断点续传、多线程下载和下载进度监控，适用于需要高效处理大文件下载的场景，可灵活集成到各类 PHP 应用中。"
+        "description": "一个PHP库，用于在Web应用中实现高级文件下载功能，通常支持断点续传、下载限速、大文件流式传输等，适合文件管理、资源分发等需要向用户提供稳定下载服务的场景，通过合理设置响应头优化下载体验，解决默认PHP下载方式占用内存高、断线重下困难的问题。"
     },
     "summary": {
         "initial_stars": 41,

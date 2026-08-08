@@ -6,16 +6,16 @@
         "name": "certimate",
         "html_url": "https:\/\/github.com\/certimate-go\/certimate",
         "language": "Go",
-        "description": "Certimate-Go 是一个用于自动化申请和管理 SSL\/TLS 证书的 Go 语言工具，支持与主流证书颁发机构（如 Let's Encrypt）集成，提供证书申请、续期、验证和存储的一体化解决方案，适用于需要高可用和自动化的 HTTPS 服务部署场景。"
+        "description": "用于自动化管理SSL\/TLS证书，简化证书申请、续期和部署流程。通常支持多种域名验证方式，便于在服务器上自动配置HTTPS加密，解决人工操作繁琐、证书过期遗漏的问题。适合个人网站、小型服务或需要集中管理证书的运维场景，常与自动化运维流程结合使用。作为Go语言开发的工具，部署便捷，通常以单一命令行程序形式运行。"
     },
     "summary": {
         "initial_stars": 6930,
-        "current_stars": 9011,
-        "star_diff": 2081,
-        "growth_rate": 30.03,
+        "current_stars": 9017,
+        "star_diff": 2087,
+        "growth_rate": 30.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 9011,
             "forks": 870,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9017,
+            "forks": 872,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

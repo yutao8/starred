@@ -6,7 +6,7 @@
         "name": "iframe-tabs",
         "html_url": "https:\/\/github.com\/ichynul\/iframe-tabs",
         "language": "PHP",
-        "description": "基于 thinkphp 的 iframe-tabs 多标签页后台框架，支持权限控制、菜单管理及响应式布局，适用于快速构建后台管理系统，通过 iframe 实现多页面标签化操作，提升用户体验。"
+        "description": "用于在网页应用中实现基于iframe的多标签页切换，通常适合后台管理系统、运营平台等需要同时打开多个子页面的场景。核心思路是把不同页面嵌入到各自的iframe中，通过标签栏进行切换，从而保留每个子页面的滚动位置、表单状态等，减少重复加载和上下文丢失。常与前端路由、权限系统配合使用，提供关闭、刷新、重新打开等标签操作。具体实现可能基于Vue或React等框架，并依赖浏览器iframe特性。"
     },
     "summary": {
         "initial_stars": 85,

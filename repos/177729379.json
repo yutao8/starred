@@ -6,7 +6,7 @@
         "name": "js-xlsx-demo",
         "html_url": "https:\/\/github.com\/tianhub\/js-xlsx-demo",
         "language": "JavaScript",
-        "description": "一个基于 SheetJS js-xlsx 库的前端 Excel 文件处理示例项目，主要用于演示如何在浏览器中读取和导出 Excel 文件，支持常见的 CSV、XLSX 等格式的数据导入导出功能，适合需要实现表格数据交互的 Web 应用参考使用。"
+        "description": "一个用于演示 js-xlsx 库（SheetJS）基本用法的示例项目，重点展示如何在浏览器或 Node.js 环境中解析和生成 Excel 文件。通常适合需要在前端或服务端处理表格数据的开发者参考，覆盖从读取工作簿、提取单元格数据到将 JSON 数据导出为 xlsx 文件的常见操作。通过简洁的示例代码，帮助理解电子表格与 JavaScript 对象之间的相互转换，解决手工处理 Excel 数据效率低、易出错的问题。适用于报表导出、数据导入、表格预览等典型办公自动化场景，也可作为学习 SheetJS API 的入门参考。"
     },
     "summary": {
         "initial_stars": 25,

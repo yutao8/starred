@@ -6,16 +6,16 @@
         "name": "public-image-mirror",
         "html_url": "https:\/\/github.com\/DaoCloud\/public-image-mirror",
         "language": "Shell",
-        "description": "用于镜像同步和加速公开 Docker 镜像的公共服务，帮助用户解决海外镜像拉取慢的问题，支持常见官方镜像的快速下载，提升容器镜像分发效率，适用于国内开发者和企业构建云原生应用。"
+        "description": "为容器工具提供公共镜像加速下载的镜像仓库，由DaoCloud维护。它通过代理或缓存常见公共镜像源，解决部分地区无法直接访问Docker Hub等镜像仓库的问题，降低拉取超时和网络阻塞。典型用法是在Docker守护进程的镜像源配置中填入该服务地址，即可自动转向加速通道。主要适合开发者、CI\/CD流水线和自建Kubernetes集群，当官方镜像来源不稳定时，能显著提升镜像拉取效率。无需注册，开放使用，覆盖面以主流开源项目镜像为主。"
     },
     "summary": {
         "initial_stars": 10534,
-        "current_stars": 14781,
-        "star_diff": 4247,
-        "growth_rate": 40.32,
+        "current_stars": 14796,
+        "star_diff": 4262,
+        "growth_rate": 40.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14781,
             "forks": 1554,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14796,
+            "forks": 1554,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

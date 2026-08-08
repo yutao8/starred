@@ -6,16 +6,16 @@
         "name": "TelegramGroup",
         "html_url": "https:\/\/github.com\/AZeC4\/TelegramGroup",
         "language": "Other",
-        "description": "用于管理和监控Telegram群组的开源工具，支持自动回复、成员管理、消息过滤和数据统计等功能，适用于群组运营者和管理员提升群组管理效率，通常可部署在服务器上通过API与Telegram机器人交互实现自动化操作。"
+        "description": "用于围绕 Telegram 群组提供信息整合与访问便利，核心场景通常是将分散的公开群组链接按主题分类、筛选或汇总，方便用户快速检索并加入相关社群。也可用于群组运营数据的基础整理，适合社群运营者、内容分发者以及有跨群组交流需求的用户。由于仓库信息有限，具体功能模块和运行方式建议结合源码或说明文档进一步确认。"
     },
     "summary": {
         "initial_stars": 17947,
-        "current_stars": 22579,
-        "star_diff": 4632,
-        "growth_rate": 25.81,
+        "current_stars": 22600,
+        "star_diff": 4653,
+        "growth_rate": 25.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 22579,
             "forks": 1497,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 22600,
+            "forks": 1500,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "LumenIM",
         "html_url": "https:\/\/github.com\/gzydong\/LumenIM",
         "language": "Vue",
-        "description": "LumenIM 是一个基于 Laravel 框架设计思路简化实现的轻量级即时通讯应用框架，主要用于快速构建高性能的 IM 服务和实时消息系统，适合需要简洁架构的中小型项目开发与扩展。"
+        "description": "基于 Lumen 微框架构建的即时通讯后端项目，主要用于为社交应用、在线客服或直播互动等场景提供消息收发和实时聊天服务。它通常包含用户认证、会话管理、单聊群聊等基础能力，并通过 WebSocket 或轮询方式实现消息实时同步。由于 Lumen 轻量且部署轻便，该项目适合在现有 PHP 系统中快速补充 IM 功能，也可作为独立服务进行部署，降低即时通讯功能的开发与维护成本。"
     },
     "summary": {
         "initial_stars": 1415,
-        "current_stars": 1633,
-        "star_diff": 218,
-        "growth_rate": 15.41,
+        "current_stars": 1632,
+        "star_diff": 217,
+        "growth_rate": 15.34,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 140
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 141
     },
     "history": [
         {
@@ -997,6 +997,13 @@
             "stars": 1633,
             "forks": 352,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1632,
+            "forks": 350,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

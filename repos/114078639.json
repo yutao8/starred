@@ -6,7 +6,7 @@
         "name": "cookie-extraction",
         "html_url": "https:\/\/github.com\/gongjunhao\/cookie-extraction",
         "language": "JavaScript",
-        "description": "用于提取网页Cookie的工具，支持自动化获取和导出浏览器中的Cookie信息，便于进行会话管理、安全测试或自动化操作，通常适用于Web开发调试、爬虫研究等场景。"
+        "description": "用于从浏览器或网络请求中提取并整理 Cookie 信息，通常服务于自动化登录、接口调试或数据采集等需要维持会话状态的场景。它可以帮助开发者快速获取指定域名的 Cookie 内容，并以可读或可复用的格式输出，方便后续脚本或测试工具直接使用。适合在处理需要身份验证的爬虫任务、API 联调或本地开发环境时，替代手动从浏览器开发者工具复制 Cookie 的繁琐步骤。由于其项目名称直接指向 Cookie 提取流程，核心思路聚焦于解析存储数据或捕获请求头中的凭证，并可能支持多种浏览器或格式的兼容处理。具体功能细节需参考仓库文档，但其主要目标是简化会话凭证的获取与集成。"
     },
     "summary": {
         "initial_stars": 56,

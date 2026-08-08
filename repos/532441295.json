@@ -6,16 +6,16 @@
         "name": "btpanel-v7.7.0",
         "html_url": "https:\/\/github.com\/8838\/btpanel-v7.7.0",
         "language": "Shell",
-        "description": "主要用于快速部署和管理Linux服务器环境，集成LNMP、LAMP等应用栈，支持网站、数据库、文件及安全功能的一体化管理，适合运维人员和开发者通过可视化界面简化服务器配置与监控操作。"
+        "description": "该仓库存放的是宝塔面板7.7.0版本的代码，宝塔面板是一款面向Linux服务器的Web端管理工具，通过浏览器即可完成网站创建、数据库管理、文件操作、计划任务设置等日常运维工作，并支持一键部署Nginx、MySQL、PHP等常见运行环境。它主要服务于独立站长和运维人员，帮助不熟悉命令行操作的用户通过可视化界面管理服务器，提升部署和维护效率。该版本通常被用于搭建自用的服务器管理平台，或作为基础进行二次开发与功能定制。"
     },
     "summary": {
         "initial_stars": 732,
-        "current_stars": 748,
-        "star_diff": 16,
-        "growth_rate": 2.19,
+        "current_stars": 749,
+        "star_diff": 17,
+        "growth_rate": 2.32,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-01 00:00",
-        "data_points_count": 81
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 82
     },
     "history": [
         {
@@ -584,6 +584,13 @@
             "stars": 748,
             "forks": 558,
             "file": "dist\/2026080100\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 749,
+            "forks": 557,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

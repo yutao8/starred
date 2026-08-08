@@ -6,7 +6,7 @@
         "name": "obsidian-enveloppe",
         "html_url": "https:\/\/github.com\/Enveloppe\/obsidian-enveloppe",
         "language": "TypeScript",
-        "description": "用于 Obsidian 的卡片盒笔记与双链笔记整合工具，支持在 Markdown 中创建可交互的动态卡片，方便知识可视化与关联，提升知识管理效率。"
+        "description": "面向Obsidian用户的笔记发布工具，核心用途是将本地笔记同步到GitHub仓库，进而借助GitHub Pages等静态托管服务生成个人网站或数字花园。它通常支持自定义导出路径、自动转换Obsidian内部链接为标准Markdown链接，并根据笔记元数据控制是否发布，适合习惯本地管理知识库、希望以免费静态网页方式分享内容的用户。插件还常与GitHub Actions搭配，实现推送后自动部署，工作流程简洁高效。"
     },
     "summary": {
         "initial_stars": 806,

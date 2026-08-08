@@ -6,16 +6,16 @@
         "name": "ChatGPT-Next-Web-LangChain",
         "html_url": "https:\/\/github.com\/Hk-Gosuto\/ChatGPT-Next-Web-LangChain",
         "language": "TypeScript",
-        "description": "基于 ChatGPT-Next-Web 集成 LangChain 的开源项目，主要用于快速搭建支持大语言模型的对话式 Web 应用，提供可扩展的 AI 交互接口，适合开发者构建自定义的聊天机器人、知识库问答系统及 AI 助手应用，支持环境变量配置、API 快速接入与前端界面定制。"
+        "description": "该仓库旨在集成 ChatGPT-Next-Web 的友好聊天界面与 LangChain 的流程编排能力，使用户能通过可视化对话窗口驱动基于 LangChain 构建的智能体、工具链或知识库检索流程。典型使用场景包括搭建私有化 AI 助手、结合外部 API 或本地文档进行问答、处理多步骤自动任务，以及快速为 LangChain 后端套上一层现成前端。通常适合熟悉 LangChain 但希望省去界面开发成本的开发者，部署时需注意前后端配置联动，具体实现细节以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 1201,
-        "current_stars": 1194,
-        "star_diff": -7,
-        "growth_rate": -0.58,
+        "current_stars": 1193,
+        "star_diff": -8,
+        "growth_rate": -0.67,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 80
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 81
     },
     "history": [
         {
@@ -577,6 +577,13 @@
             "stars": 1194,
             "forks": 339,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1193,
+            "forks": 339,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "form-generator",
         "html_url": "https:\/\/github.com\/JakHuang\/form-generator",
         "language": "Vue",
-        "description": "一个基于Vue的表单生成器，通过可视化拖拽方式快速生成表单页面，支持多种表单组件和自定义配置，主要用于简化中后台系统中复杂表单的开发流程，提升开发效率。"
+        "description": "基于Vue和Element UI的可视化表单设计器，通过拖拽组件即可快速搭建表单，实时预览效果，并自动生成对应的JSON结构及Vue代码，方便直接集成到项目中。它主要面向后台管理系统中的大量表单开发场景，能够减少手写模板的重复劳动，同时支持扩展自定义组件以满足特定业务需求。作为低代码辅助工具，既适合快速构建原型，也适合作为正式功能代码的起点，有效提升表单开发效率。"
     },
     "summary": {
         "initial_stars": 9233,
@@ -14,8 +14,8 @@
         "star_diff": 86,
         "growth_rate": 0.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 149
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 150
     },
     "history": [
         {
@@ -1060,6 +1060,13 @@
             "stars": 9319,
             "forks": 2159,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 9319,
+            "forks": 2160,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

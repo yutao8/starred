@@ -6,16 +6,16 @@
         "name": "image",
         "html_url": "https:\/\/github.com\/Intervention\/image",
         "language": "PHP",
-        "description": "Intervention\/image 是一个用于处理图片的 PHP 库，主要用于图像的创建、编辑、调整大小、裁剪、添加水印、滤镜等操作，支持链式调用，适用于网页开发中动态生成和处理图像的场景。"
+        "description": "一个用于在 PHP 应用中处理和操作图像的库，支持 GD 和 Imagick 两种驱动，提供简洁统一的 API 来调整尺寸、裁剪、旋转、加水印、添加滤镜和转换格式等常见操作。适合需要批量处理用户上传图片、生成缩略图、动态修改图片样式或为图片添加特效的场景，能够在不依赖复杂图像处理代码的情况下完成大部分需求。"
     },
     "summary": {
         "initial_stars": 14171,
-        "current_stars": 14366,
-        "star_diff": 195,
+        "current_stars": 14367,
+        "star_diff": 196,
         "growth_rate": 1.38,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 168
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 169
     },
     "history": [
         {
@@ -1193,6 +1193,13 @@
             "stars": 14366,
             "forks": 1496,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14367,
+            "forks": 1495,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

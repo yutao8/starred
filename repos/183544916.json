@@ -6,7 +6,7 @@
         "name": "dnsmasq_sniproxy_install",
         "html_url": "https:\/\/github.com\/myxuchangbin\/dnsmasq_sniproxy_install",
         "language": "Shell",
-        "description": "dnsmasq_sniproxy_install 是一个自动化脚本工具，主要用于在 Linux 系统上快速部署 dnsmasq 和 sniproxy 服务。通过该脚本可实现 DNS 污染防护与 SNI 代理功能，提升网络访问体验，适合需要优化境外域名解析和分流 HTTPS 流量的场景。"
+        "description": "提供一键部署 dnsmasq 和 sniproxy 的安装脚本，用于搭建基于域名的 DNS 解析与 TLS 代理转发环境。dnsmasq 负责将目标域名解析到本机或指定 IP，sniproxy 依据客户端 TLS SNI 信息将请求转发到实际目标服务器，能够有效缓解域名被 DNS 污染或访问受限的问题。适合需要透明分流特定域名或自建代理网关的用户，常见于网络优化、跨境访问等场景，脚本通常覆盖依赖检测、配置生成与服务启动流程，便于快速部署。"
     },
     "summary": {
         "initial_stars": 1377,
@@ -14,8 +14,8 @@
         "star_diff": 65,
         "growth_rate": 4.72,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 111
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 112
     },
     "history": [
         {
@@ -794,6 +794,13 @@
             "stars": 1442,
             "forks": 580,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1442,
+            "forks": 578,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

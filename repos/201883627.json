@@ -6,7 +6,7 @@
         "name": "WechatAddGroupHelper",
         "html_url": "https:\/\/github.com\/sfyc23\/WechatAddGroupHelper",
         "language": "Python",
-        "description": "一个基于微信的自动化群组管理工具，主要用于辅助用户实现微信群的自动邀请、加入和成员管理，通过API接口或本地脚本实现批量操作，提升社群运营效率，适用于社群推广、用户增长等场景。"
+        "description": "用于微信自动通过好友请求并拉入指定群聊的辅助工具。通过监听新朋友申请，自动完成添加好友和邀请进群的操作，减少手动重复劳动。通常适合社群运营者或需要批量处理入群申请的场景，如活动运营、粉丝群管理等。基于Python微信接口实现，运行后需要保持微信登录状态。"
     },
     "summary": {
         "initial_stars": 332,

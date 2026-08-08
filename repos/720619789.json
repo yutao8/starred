@@ -6,16 +6,16 @@
         "name": "chatgpt-web-midjourney-proxy",
         "html_url": "https:\/\/github.com\/Dooy\/chatgpt-web-midjourney-proxy",
         "language": "JavaScript",
-        "description": "该项目主要用于搭建一个中间代理服务，实现将文本请求从 ChatGPT 转发至 MidJourney 并返回图像生成结果，支持在聊天应用中集成图像生成功能，方便用户通过自然语言描述触发 AI 绘图。通常适用于需要结合文本对话与图像生成的 Web 应用场景。"
+        "description": "用于将 Midjourney 绘图服务接入 ChatGPT Web 界面的代理项目，让用户能在统一聊天窗口中完成文本对话和 AI 绘图。它通常借助后端代理转发请求，实现 Midjourney 的图生图、文生图等操作，并保留 ChatGPT 风格的交互体验。适合需要自建 AI 助手并集成绘画能力的开发者或团队，可用于部署内部工具、二次开发或学习参考。项目基于常见 Web 技术栈，具体功能以仓库 README 为准。"
     },
     "summary": {
         "initial_stars": 6246,
-        "current_stars": 6781,
-        "star_diff": 535,
-        "growth_rate": 8.57,
+        "current_stars": 6779,
+        "star_diff": 533,
+        "growth_rate": 8.53,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 189
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 190
     },
     "history": [
         {
@@ -1340,6 +1340,13 @@
             "stars": 6781,
             "forks": 1610,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 6779,
+            "forks": 1611,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

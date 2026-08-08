@@ -6,16 +6,16 @@
         "name": "V2rayU",
         "html_url": "https:\/\/github.com\/yanue\/V2rayU",
         "language": "Other",
-        "description": "V2rayU 是一款基于 V2Ray 内核的 macOS 平台代理工具，主要用于科学上网和网络流量管理。它提供简洁的图形化界面，支持 VMess、VLESS、Trojan 等多种协议，便于用户配置和管理节点，实现流量的加密传输与代理。"
+        "description": "V2rayU 是 macOS 平台上一款图形化 V2Ray 客户端工具，面向需要科学上网或搭建代理服务的用户。它支持 VMess、Shadowsocks、Trojan 等常见协议，集成订阅管理、PAC 规则、系统代理切换、多服务器配置等核心功能，帮助用户在 macOS 上轻松管理代理节点并实现透明分流。典型使用场景包括日常网页浏览、开发调试、访问受限资源等，适合希望以直观界面代替命令行配置 V2Ray 的用户。该工具基于 V2Ray 内核开发，通常搭配订阅链接批量导入节点，并提供菜单栏快捷开关和开机自启选项，便于日常使用。"
     },
     "summary": {
         "initial_stars": 19417,
-        "current_stars": 20104,
-        "star_diff": 687,
-        "growth_rate": 3.54,
+        "current_stars": 20108,
+        "star_diff": 691,
+        "growth_rate": 3.56,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 20104,
             "forks": 2965,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 20108,
+            "forks": 2965,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

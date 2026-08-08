@@ -6,16 +6,16 @@
         "name": "VirtualLocation",
         "html_url": "https:\/\/github.com\/pengliangAndroid\/VirtualLocation",
         "language": "Java",
-        "description": "用于Android平台的虚拟定位工具，主要帮助开发者在调试应用时模拟地理位置，支持自定义坐标设置，适用于测试需要位置权限的功能或定位相关逻辑，无需root权限即可实现位置模拟。"
+        "description": "用于Android平台的虚拟定位工具，通过模拟设备GPS位置来改变应用获取到的定位信息，主要适用于需要伪造地理位置进行测试、打卡、社交应用签到等场景，也常被开发者用于调试基于位置的服务。其实现方式通常涉及Hook系统定位接口或利用系统服务，需配合开发者选项或Root权限使用，适合需要灵活控制定位结果的用户。"
     },
     "summary": {
         "initial_stars": 993,
-        "current_stars": 1254,
-        "star_diff": 261,
-        "growth_rate": 26.28,
+        "current_stars": 1256,
+        "star_diff": 263,
+        "growth_rate": 26.49,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 154
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 155
     },
     "history": [
         {
@@ -1095,6 +1095,13 @@
             "stars": 1254,
             "forks": 265,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1256,
+            "forks": 265,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "pipework",
         "html_url": "https:\/\/github.com\/jpetazzo\/pipework",
         "language": "Shell",
-        "description": "用于为 Docker 容器配置高级网络的命令行工具，支持 VLAN、桥接、MACVLAN、IPVLAN 等多种网络模式，可实现容器间精细化网络隔离与连接，通常用于需要复杂网络拓扑的容器化场景。"
+        "description": "用简洁的 shell 脚本为 Linux 容器（如 Docker）实现自定义网络配置。它能够将物理网卡、VLAN 或网桥直接接入容器，并支持设置固定 IP 和子网，满足多容器互联、跨主机组网或连接外部网络等需求。该工具无需常驻服务，依赖少，适合在运维或开发环境中快速调整容器网络，弥补默认网络配置的灵活度不足。"
     },
     "summary": {
         "initial_stars": 4248,
-        "current_stars": 4254,
-        "star_diff": 6,
-        "growth_rate": 0.14,
+        "current_stars": 4253,
+        "star_diff": 5,
+        "growth_rate": 0.12,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 54
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 55
     },
     "history": [
         {
@@ -395,6 +395,13 @@
             "stars": 4254,
             "forks": 721,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 4253,
+            "forks": 721,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

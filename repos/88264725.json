@@ -6,7 +6,7 @@
         "name": "qiniuClient",
         "html_url": "https:\/\/github.com\/willnewii\/qiniuClient",
         "language": "JavaScript",
-        "description": "一个基于 Go 语言开发的七牛云对象存储客户端工具，主要用于简化文件上传、下载、管理等操作，支持命令行调用和程序化接口，适用于与七牛云存储进行交互的各类场景。"
+        "description": "一款用于七牛云对象存储的桌面管理客户端，主要帮助用户便捷上传、下载和管理存储空间中的文件，支持批量操作与本地同步。它解决了通过网页控制台或命令行操作七牛存储时步骤繁琐、效率不高的问题，适合需要频繁处理云端文件的开发者或运维人员日常使用。该工具通常基于跨平台桌面技术构建，支持 Windows、macOS 和 Linux 系统，提供图形化界面，降低使用门槛。"
     },
     "summary": {
         "initial_stars": 1822,
@@ -14,8 +14,8 @@
         "star_diff": -1,
         "growth_rate": -0.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-07-16 00:00",
-        "data_points_count": 41
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 42
     },
     "history": [
         {
@@ -304,6 +304,13 @@
             "stars": 1821,
             "forks": 298,
             "file": "dist\/2026071600\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1821,
+            "forks": 297,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

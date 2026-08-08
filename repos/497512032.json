@@ -6,16 +6,16 @@
         "name": "CogVideo",
         "html_url": "https:\/\/github.com\/THUDM\/CogVideo",
         "language": "Python",
-        "description": "CogVideo 是一个开源的视频生成模型项目，主要用于生成高质量、连贯的视频内容，支持文本到视频的转换，适合研究和应用在视频创作、动画生成和多模态内容合成等领域。"
+        "description": "文本生成视频的开源模型，基于预训练语言模型与双编码器架构，支持将中文和英文文本描述转换为连贯的视频片段。该模型适合用于创意视频制作、内容辅助生成和视觉叙事实验，通常需要较高算力，可通过开源社区提供的代码和权重进行推理与微调。"
     },
     "summary": {
         "initial_stars": 11603,
-        "current_stars": 12938,
-        "star_diff": 1335,
-        "growth_rate": 11.51,
+        "current_stars": 12943,
+        "star_diff": 1340,
+        "growth_rate": 11.55,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 12938,
             "forks": 1324,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 12943,
+            "forks": 1323,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

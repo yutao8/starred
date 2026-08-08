@@ -6,16 +6,16 @@
         "name": "jszip",
         "html_url": "https:\/\/github.com\/Stuk\/jszip",
         "language": "JavaScript",
-        "description": "用于在浏览器和Node.js中创建、读取、修改ZIP文件的JavaScript库，支持压缩、解压、添加文件、字符串与二进制数据操作，常用于动态生成压缩包或处理文档文件。"
+        "description": "用于在浏览器和Node.js环境中创建、读取和修改Zip文件，是前端处理压缩包的常用工具。它能将多个文件或数据流打包成Zip格式，也能解压现有压缩包并提取内容，支持添加、删除和更新条目。典型场景包括批量下载文件、导出报表或图片集、上传前压缩文件，以及解析用户上传的压缩数据。该库完全基于JavaScript实现，无需依赖命令行工具，适合Web应用和服务端脚本整合，操作直接且兼容性良好，可以满足大多数轻量级压缩和解压需求。"
     },
     "summary": {
         "initial_stars": 10062,
-        "current_stars": 10379,
-        "star_diff": 317,
-        "growth_rate": 3.15,
+        "current_stars": 10377,
+        "star_diff": 315,
+        "growth_rate": 3.13,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 166
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 167
     },
     "history": [
         {
@@ -1179,6 +1179,13 @@
             "stars": 10379,
             "forks": 1338,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 10377,
+            "forks": 1337,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

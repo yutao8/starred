@@ -6,16 +6,16 @@
         "name": "firecrawl",
         "html_url": "https:\/\/github.com\/mendableai\/firecrawl",
         "language": "TypeScript",
-        "description": "FireCrawl 是一个用于自动化网页数据抓取与信息提取的开源工具，主要用于从网站中高效采集结构化数据，支持动态页面渲染，适用于构建训练数据集、监控网页变化及集成到 AI 应用中，提供可扩展的爬虫框架与 API 接口。"
+        "description": "Firecrawl 是一个开源的网页抓取与内容提取工具，专门用于将任意网站转换为干净的 Markdown 或结构化 JSON 数据，供大语言模型（LLM）和自动化流程直接使用。它能够处理 JavaScript 渲染的页面，自动去除导航栏、广告等无关元素，保留正文主体，适合用于构建知识库、训练语料采集、网页监控和无代码数据管道。通常作为自托管服务或 API 接入，解决传统爬虫难以获取高质量网页文本的问题，尤其适用于需要将网页内容快速转化为 AI 可读格式的场景。"
     },
     "summary": {
         "initial_stars": 40624,
-        "current_stars": 162178,
-        "star_diff": 121554,
-        "growth_rate": 299.22,
+        "current_stars": 163088,
+        "star_diff": 122464,
+        "growth_rate": 301.46,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 162178,
             "forks": 9140,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 163088,
+            "forks": 9178,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

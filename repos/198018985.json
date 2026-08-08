@@ -6,16 +6,16 @@
         "name": "WeChatRobot",
         "html_url": "https:\/\/github.com\/TonyChen56\/WeChatRobot",
         "language": "C++",
-        "description": "通过API接口实现微信机器人的自动化控制，支持消息收发、好友管理、群组管理等功能，适用于个人微信的自动化操作与消息监控，通常用于简单自动化任务或测试用途。"
+        "description": "用于搭建微信个人号机器人，基于微信网页版接口实现消息监听与自动处理。核心功能包括自动回复、关键词触发、群管理、定时发送消息等，适合需要把个人微信接入自动化工作流的场景，比如客服助手、消息转发和群维护。技术栈通常为Python，依赖网页版微信的可用性，部署简单，适合个人或小型团队做轻量级微信自动化。"
     },
     "summary": {
         "initial_stars": 6840,
-        "current_stars": 7169,
-        "star_diff": 329,
-        "growth_rate": 4.81,
+        "current_stars": 7167,
+        "star_diff": 327,
+        "growth_rate": 4.78,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-05 00:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 7169,
             "forks": 2397,
             "file": "dist\/2026080500\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 7167,
+            "forks": 2396,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "seafile-server-installer-cn",
         "html_url": "https:\/\/github.com\/haiwen\/seafile-server-installer-cn",
         "language": "Shell",
-        "description": "用于一键部署 Seafile 专业版服务器的安装程序，主要面向中国用户优化了下载源和配置流程，支持快速安装和升级，适用于企业级文件同步与共享平台的搭建，集成 WebDAV、文件版本控制、多存储后端等特性，简化了集群配置与维护工作。"
+        "description": "用于在 Linux 服务器上快速部署 Seafile 私有云存储，面向中文用户提供一键式安装和配置服务。脚本自动处理环境依赖、数据库初始化、服务启动等繁琐步骤，降低了自建网盘的技术门槛。通常适合需要搭建企业内部文件同步与共享平台、个人私有云存储，或希望快速体验 Seafile 完整功能的场景。该安装器支持主流发行版，并针对中文环境进行了优化，可减少手动配置错误，帮助用户更高效地完成部署。"
     },
     "summary": {
         "initial_stars": 372,

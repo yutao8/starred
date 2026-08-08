@@ -6,16 +6,16 @@
         "name": "apitable",
         "html_url": "https:\/\/github.com\/apitable\/apitable",
         "language": "TypeScript",
-        "description": "Apitable 是一个可扩展的协作平台，主要用于构建低代码应用和数据管理，支持自定义表单、自动化流程和多维表格，适用于团队协作、项目管理和业务系统搭建，通过可视化操作降低开发门槛，提升数据协作效率。"
+        "description": "面向团队协作的低代码平台，以类似电子表格的界面承载数据管理、数据可视化和应用搭建功能。用户无需编写代码即可创建自定义业务应用，将表格数据快速转换为可共享的数据库、表单和自动化流程。适合用于项目管理、客户管理、运营数据汇总等轻量级企业应用场景，支持通过API与现有系统集成。基于前后端分离架构，提供服务端渲染和实时协作能力，通常适合需要自托管或二次开发Airtable替代方案的技术团队。"
     },
     "summary": {
         "initial_stars": 14568,
-        "current_stars": 15445,
-        "star_diff": 877,
-        "growth_rate": 6.02,
+        "current_stars": 15446,
+        "star_diff": 878,
+        "growth_rate": 6.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 15445,
             "forks": 1413,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15446,
+            "forks": 1413,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

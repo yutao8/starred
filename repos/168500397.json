@@ -6,7 +6,7 @@
         "name": "JustAuth",
         "html_url": "https:\/\/github.com\/justauth\/JustAuth",
         "language": "Java",
-        "description": "一个Java库，用于简化第三方登录集成，支持多个平台如微信、QQ、微博等，提供统一API实现OAuth认证，便于开发者快速对接多种社交登录方式。"
+        "description": "JustAuth 主要用于为 Java 项目快速集成第三方登录授权服务，它统一了微信、QQ、GitHub、Gitee 等主流平台的 OAuth 授权流程，开发者只需简单配置和调用即可实现扫码或跳转登录。该库适合需要对接多个第三方登录渠道的 Web 应用或后台系统，能避免为每个平台单独编写对接代码，同时提供统一的扩展机制，方便添加新平台。通过策略模式封装了不同平台的授权差异，并配备详细文档和示例，常用于中小型项目或需要快速上线登录功能的产品。"
     },
     "summary": {
         "initial_stars": 17032,

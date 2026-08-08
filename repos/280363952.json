@@ -6,16 +6,16 @@
         "name": "umami",
         "html_url": "https:\/\/github.com\/umami-software\/umami",
         "language": "TypeScript",
-        "description": "Umami 是一个简单、快速、隐私友好的开源网站分析工具，用于替代 Google Analytics。它提供实时访问数据、用户行为分析、流量来源统计等功能，支持多种数据库和部署方式，无需收集个人身份信息，符合 GDPR 规范，适合个人博客、企业网站等注重数据隐私的场景。"
+        "description": "umami 是一个开源、注重隐私的网站统计分析工具，主要用于替代 Google Analytics 等传统流量监测服务。它提供页面浏览量、访客来源、设备类型、实时数据等核心指标，支持多网站管理、自定义事件跟踪以及基于 SQL 的详细查询，且不依赖第三方 Cookie，符合数据保护法规要求。部署方式简单，适合个人博客、中小型网站或对数据隐私敏感的产品团队使用，也常被集成到自托管或 Docker 环境中，帮助管理员快速了解访问趋势并优化内容策略。"
     },
     "summary": {
         "initial_stars": 26968,
-        "current_stars": 38077,
-        "star_diff": 11109,
-        "growth_rate": 41.19,
+        "current_stars": 38107,
+        "star_diff": 11139,
+        "growth_rate": 41.3,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 38077,
             "forks": 7718,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 38107,
+            "forks": 7723,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

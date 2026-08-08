@@ -6,16 +6,16 @@
         "name": "ecapture",
         "html_url": "https:\/\/github.com\/gojue\/ecapture",
         "language": "C",
-        "description": "ecapture 是一个基于 Go 语言和 eBPF 技术的网络抓包工具，无需 root 权限即可捕获 TLS\/SSL 加密流量，支持 HTTPS 明文内容解析，常用于应用层流量监控、安全分析和故障排查，适用于 Linux 环境下的透明抓包场景。"
+        "description": "ecapture 是一款基于 eBPF 技术的无侵入式网络抓包工具，主要用于捕获进程间传输的加密通信内容，如 TLS\/SSL 流量，而无需目标程序提供明文或修改其代码。它通过挂载系统调用或库函数，在数据加密前或解密后直接采集，适用于安全审计、调试加密协议、分析恶意软件网络行为等场景。支持多种协议和主流 Linux 环境，适合安全研究人员和运维人员快速定位网络层问题，尤其适合需要在不干扰业务的前提下获取加密流量明文的场合。"
     },
     "summary": {
         "initial_stars": 14420,
-        "current_stars": 15409,
-        "star_diff": 989,
-        "growth_rate": 6.86,
+        "current_stars": 15414,
+        "star_diff": 994,
+        "growth_rate": 6.89,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 186
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 187
     },
     "history": [
         {
@@ -1319,6 +1319,13 @@
             "stars": 15409,
             "forks": 1631,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 15414,
+            "forks": 1633,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

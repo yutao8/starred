@@ -6,7 +6,7 @@
         "name": "dompdf",
         "html_url": "https:\/\/github.com\/dompdf\/dompdf",
         "language": "PHP",
-        "description": "用于生成PDF文档的PHP库，支持HTML和CSS渲染，可将网页内容转换为PDF格式，适用于生成报表、发票等场景。"
+        "description": "dompdf 是一款用 PHP 编写的 HTML 转 PDF 库，可在服务端直接将 HTML 文档渲染成 PDF 文件，支持常用 CSS 样式，适合生成发票、报表、订单确认或邮件附件。它无需调用外部浏览器或命令行工具，由 PHP 进程独立完成转换，便于部署在共享主机或轻量环境中，可用于动态生成可打印或归档的 PDF 文档。"
     },
     "summary": {
         "initial_stars": 10844,

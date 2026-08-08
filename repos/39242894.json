@@ -6,16 +6,16 @@
         "name": "coturn",
         "html_url": "https:\/\/github.com\/coturn\/coturn",
         "language": "C",
-        "description": "coturn\/coturn 是一个开源的 TURN\/STUN 服务器实现，主要用于帮助在 NAT 或防火墙后的客户端进行实时通信（如 WebRTC），通过中继和打洞技术解决网络地址转换带来的连接问题，支持多种认证方式和部署场景。"
+        "description": "coturn 是一个开源的 TURN\/STUN 服务器实现，主要用于解决 WebRTC 音视频通信中的 NAT 穿透和防火墙穿越问题。它支持 TURN 与 STUN 协议，能够为中继流量提供可靠通道，帮助在严格的网络环境下建立实时连接。通常适合自建 WebRTC 基础设施、即时通讯应用或在线会议系统，提供统一的中继服务，确保客户端之间无法直接连通时仍能完成媒体或数据的传输。其部署简单，是构建实时通信服务常用的开源方案。"
     },
     "summary": {
         "initial_stars": 12566,
-        "current_stars": 14271,
-        "star_diff": 1705,
-        "growth_rate": 13.57,
+        "current_stars": 14277,
+        "star_diff": 1711,
+        "growth_rate": 13.62,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 14271,
             "forks": 2267,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 14277,
+            "forks": 2267,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

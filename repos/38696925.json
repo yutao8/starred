@@ -6,7 +6,7 @@
         "name": "python-telegram-bot",
         "html_url": "https:\/\/github.com\/python-telegram-bot\/python-telegram-bot",
         "language": "Python",
-        "description": "用于构建 Telegram 机器人的 Python 库，提供与 Telegram Bot API 交互的简洁接口，支持消息处理、命令响应、错误处理和异步操作，适合快速开发功能丰富的聊天机器人。"
+        "description": "为 Telegram 机器人开发提供纯 Python 异步接口的库，封装了 Bot API 的多数功能，包括消息收发、键盘菜单、文件上传、群组管理与内联查询。开发者可借助它快速构建客服机器人、通知推送、自动化运维或趣味互动工具，通过事件驱动方式处理用户输入与回调。库支持 Python 3.8 及以上版本，通常搭配 asyncio 使用，适合需要高并发或长连接场景的中小型项目，能显著降低直接调用 HTTPS API 的编码成本。"
     },
     "summary": {
         "initial_stars": 27737,
@@ -14,8 +14,8 @@
         "star_diff": 1648,
         "growth_rate": 5.94,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 29385,
             "forks": 6123,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 29385,
+            "forks": 6124,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "autojs-web-control",
         "html_url": "https:\/\/github.com\/zrk1993\/autojs-web-control",
         "language": "Vue",
-        "description": "基于 Auto.js 的 Web 控制工具，主要用于自动化操作移动端 Web 应用，通过 JavaScript 脚本实现页面元素识别、点击、滑动等交互行为，通常适用于微信公众号、H5 页面等场景的自动化流程控制。"
+        "description": "用于在浏览器中远程管理 AutoJS 脚本的 Web 控制工具，核心是让用户摆脱手机端操作，通过网页界面查看脚本列表、触发任务执行并监控运行状态。常见使用场景包括批量运行自动化任务、集中管理多台设备上的脚本，以及结合电脑端进行脚本调试与日志追踪。通常适合需要自动化操作 Android 应用，又不便频繁触碰手机的场景，能有效提升部署和维护效率，减少重复性工作。"
     },
     "summary": {
         "initial_stars": 445,

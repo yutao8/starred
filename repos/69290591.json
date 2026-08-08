@@ -6,16 +6,16 @@
         "name": "InstaPy",
         "html_url": "https:\/\/github.com\/InstaPy\/InstaPy",
         "language": "Python",
-        "description": "InstaPy 是一个用于自动化 Instagram 操作的开源 Python 脚本工具，主要用于自动执行关注、点赞、评论、私信和取消关注等任务，帮助用户高效管理账户互动。它支持根据标签、地理位置、粉丝列表等条件进行目标筛选，可自定义运行策略以避免触发平台限制，适合用于社群增长和社交媒体管理，需搭配 MongoDB 使用以记录操作数据。"
+        "description": "InstaPy 是一个基于 Python 的 Instagram 自动化工具，主要用于模拟人工操作完成点赞、关注、取消关注、评论和私信等互动行为。它通过 Selenium 驱动浏览器，支持按标签、地点或用户列表筛选目标，并设置每日操作频率上限以降低账号风险，适合个人品牌运营、社交媒体管理或营销人员批量维护 Instagram 账号。"
     },
     "summary": {
         "initial_stars": 17341,
-        "current_stars": 18100,
-        "star_diff": 759,
-        "growth_rate": 4.38,
+        "current_stars": 18108,
+        "star_diff": 767,
+        "growth_rate": 4.42,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 18100,
             "forks": 3876,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 18108,
+            "forks": 3876,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

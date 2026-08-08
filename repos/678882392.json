@@ -6,16 +6,16 @@
         "name": "Proxifier-Keygen",
         "html_url": "https:\/\/github.com\/y9nhjy\/Proxifier-Keygen",
         "language": "Python",
-        "description": "用于生成Proxifier软件激活密钥的工具，主要帮助用户绕过官方授权验证，实现免激活使用。此类工具存在法律和安全风险，不建议用于非法目的或生产环境。"
+        "description": "该仓库提供针对 Proxifier 代理软件的密钥生成器，用于生成注册码以激活软件的高级功能。Proxifier 通常被用于强制所有网络流量通过指定代理服务器，而这类生成工具多用于绕过付费授权限制。使用时需谨慎，因为涉及软件破解，可能违反版权协议，且从非官方渠道获取的密钥存在安全风险。该仓库通常适合对软件授权机制感兴趣的学习者研究，或用于个人临时激活，但建议通过正规渠道购买授权。"
     },
     "summary": {
         "initial_stars": 899,
-        "current_stars": 2602,
-        "star_diff": 1703,
-        "growth_rate": 189.43,
+        "current_stars": 2604,
+        "star_diff": 1705,
+        "growth_rate": 189.66,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 188
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 189
     },
     "history": [
         {
@@ -1333,6 +1333,13 @@
             "stars": 2602,
             "forks": 410,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 2604,
+            "forks": 410,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }

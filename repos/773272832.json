@@ -6,16 +6,16 @@
         "name": "CHINA-IPTV",
         "html_url": "https:\/\/github.com\/xisohi\/CHINA-IPTV",
         "language": "HTML",
-        "description": "提供实时更新的IPTV直播源，主要用于整合中国大陆地区的电视频道直播链接，支持多种播放器和设备，方便用户观看央视、卫视及地方台节目，适合需要稳定高清直播源的场景。"
+        "description": "xisohi\/CHINA-IPTV 提供了可在线播放的中国电视频道直播源，通常以 m3u 格式的播放列表形式呈现，用户可将其导入 VLC、PotPlayer 等播放器或电视盒子中直接观看。该项目适合需要免费观看国内央视、卫视及地方频道的用户，能够解决传统有线电视或网络机顶盒内容受限、费用高昂的问题。其资源定期更新，覆盖面较广，使用方式简单，只需复制播放地址即可快速接入。同时，该项目也常被用于二次开发或集成到自定义的 IPTV 应用中，便于开发者构建自己的直播聚合服务。需要注意的是，实际节目可用性和流畅度取决于网络环境及源站状态。"
     },
     "summary": {
         "initial_stars": 471,
-        "current_stars": 1674,
-        "star_diff": 1203,
-        "growth_rate": 255.41,
+        "current_stars": 1677,
+        "star_diff": 1206,
+        "growth_rate": 256.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 190
+        "last_seen": "2026-08-08 18:00",
+        "data_points_count": 191
     },
     "history": [
         {
@@ -1347,6 +1347,13 @@
             "stars": 1674,
             "forks": 351,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-08 18:00",
+            "timestamp": 1786183200,
+            "stars": 1677,
+            "forks": 351,
+            "file": "dist\/2026080818\/starList.public.json"
         }
     ]
 }
