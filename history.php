@@ -53,14 +53,19 @@ class HistoryAnalyzer
         $cachedSnapshots = $cacheData['snapshot_data'] ?? [];
         $hasNewData = false;
         $snapshotData = [];
+        $folderKeys = array_keys($snapshots);
+        $firstKey = reset($folderKeys);
+        $lastKey = end($folderKeys);
 
         foreach ($snapshots as $folder => $info) {
-            if (isset($cachedSnapshots[(string)$folder])) {
-                $snapshotData[(string)$folder] = $cachedSnapshots[(string)$folder];
+            $folderStr = (string)$folder;
+            $keepMap = ($folderStr === (string)$firstKey || $folderStr === (string)$lastKey);
+            if (isset($cachedSnapshots[$folderStr]) && (!$keepMap || !empty($cachedSnapshots[$folderStr]['repo_map']))) {
+                $snapshotData[$folderStr] = $cachedSnapshots[$folderStr];
             } else {
-                $parsed = $this->parseSnapshotFolder($info['path'], $info['timestamp'], (string)$folder);
+                $parsed = $this->parseSnapshotFolder($info['path'], $info['timestamp'], $folderStr, $keepMap);
                 if ($parsed !== null) {
-                    $snapshotData[(string)$folder] = $parsed;
+                    $snapshotData[$folderStr] = $parsed;
                     $hasNewData = true;
                 }
             }
@@ -135,11 +140,10 @@ class HistoryAnalyzer
     /**
      * 解析单个快照目录中的 starList.json
      */
-    private function parseSnapshotFolder(string $folderPath, int $timestamp, string|int $folderKey): ?array
+    private function parseSnapshotFolder(string $folderPath, int $timestamp, string|int $folderKey, bool $keepRepoMap = false): ?array
     {
         $jsonFile = $folderPath . '/starList.json';
         if (!is_file($jsonFile)) {
-            // 如果不存在 starList.json，尝试 starList.public.json
             $jsonFile = $folderPath . '/starList.public.json';
             if (!is_file($jsonFile)) {
                 return null;
@@ -152,14 +156,17 @@ class HistoryAnalyzer
         }
 
         $repos = json_decode($content, true);
+        unset($content);
+
         if (!is_array($repos)) {
             return null;
         }
 
         $totalStars = 0;
         $totalForks = 0;
+        $repoCount = 0;
         $languages = [];
-        $repoMap = []; // full_name => [stars, forks, language, desc]
+        $repoMap = [];
 
         foreach ($repos as $repo) {
             $fullName = $repo['full_name'] ?? ($repo['name'] ?? '');
@@ -176,28 +183,31 @@ class HistoryAnalyzer
 
             $totalStars += $stars;
             $totalForks += $forks;
+            $repoCount++;
 
             if (!isset($languages[$lang])) {
                 $languages[$lang] = 0;
             }
             $languages[$lang]++;
 
-            $repoMap[$fullName] = [
-                'stars' => $stars,
-                'forks' => $forks,
-                'lang' => $lang,
-            ];
+            if ($keepRepoMap) {
+                $repoMap[$fullName] = [
+                    'stars' => $stars,
+                    'forks' => $forks,
+                    'lang' => $lang,
+                ];
+            }
         }
 
-        // 按语言数量降序排列
+        unset($repos);
         arsort($languages);
 
         return [
-            'folder' => $folderKey,
+            'folder' => (string)$folderKey,
             'timestamp' => $timestamp,
             'date' => date('Y-m-d H:i', $timestamp),
             'day' => date('Y-m-d', $timestamp),
-            'repo_count' => count($repoMap),
+            'repo_count' => $repoCount,
             'total_stars' => $totalStars,
             'total_forks' => $totalForks,
             'languages' => $languages,
