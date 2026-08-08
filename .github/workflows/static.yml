@@ -26,7 +26,6 @@ jobs:
           cp index.html history.html starList.json starList.public.json artifact/
           cp -r assets artifact/
           cp -r repos artifact/
-          cp -r dist artifact/
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
