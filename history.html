@@ -644,7 +644,28 @@
             }
         } catch (e) {}
 
-        // 静态托管环境退回 (GitHub Pages)
+        // 静态托管环境退回 (GitHub Pages) - 优先使用 starList.public.json
+        try {
+            const resp = await fetch('starList.public.json');
+            if (resp.ok) {
+                const data = await resp.json();
+                if (Array.isArray(data)) {
+                    repoList = data.map(r => ({
+                        id: Number(r.id || 0),
+                        full_name: r.full_name || r.name || '',
+                        name: r.name || r.full_name || '',
+                        language: r.language || 'Other',
+                        stars: Number(r.stargazers_count || 0),
+                        forks: Number(r.forks_count || 0),
+                        description: r.desc || r.description || '',
+                        html_url: r.html_url || ('https://github.com/' + (r.full_name || r.name))
+                    }));
+                    return;
+                }
+            }
+        } catch (e) {}
+
+        // 降级到 starList.json
         try {
             const resp = await fetch('starList.json');
             if (resp.ok) {
