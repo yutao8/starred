@@ -12,7 +12,7 @@
   EasySpider是一款可视化网页抓取工具，通过录制用户操作自动生成爬虫代码，支持动态页面数据提取与定时任务，无需编程基础即可快速获取网站数据，适用于数据采集、监控和迁移等场景。
 - [markedjs/marked](https://github.com/markedjs/marked) ★37038 [`commonmark`] [`compiler`] [`gfm`] [`hacktoberfest`] [`markdown`] [`parser`]  
   用于将 Markdown 文本快速解析为 HTML，是 JavaScript 生态中轻量级、高性能的 Markdown 编译器。支持标准 Markdown 语法和 CommonMark 规范，可在浏览器和 Node.js 环境运行，常被用于博客、文档站、评论系统等需要把 Markdown 内容实时渲染成网页的场景。支持通过配置和扩展定制输出，适合对解析速度和产物体积有要求的项目。
-- [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ★36254 [`api`] [`api-gateway`] [`azure-openai-api`] [`chatgpt`] [`claude`] [`ernie-bot`] [`gemini`] [`gpt`] [`openai`] [`openai-api`] [`proxy`]  
+- [songquanpeng/one-api](https://github.com/songquanpeng/one-api) ★36255 [`api`] [`api-gateway`] [`azure-openai-api`] [`chatgpt`] [`claude`] [`ernie-bot`] [`gemini`] [`gpt`] [`openai`] [`openai-api`] [`proxy`]  
   一个用于统一管理多个 API 服务的开源工具，支持多用户、多渠道、流量统计与计费功能，可部署在私有服务器上，便于对接和管理如 OpenAI、Anthropic 等大模型 API，适用于团队或企业级 API 调度与权限控制场景。
 - [qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager) ★34608 [`redis`] [`redis-client`] [`redis-cluster`] [`redis-desktop-manager`] [`redis-gui`]  
   用于管理Redis实例的跨平台图形客户端，支持Windows、macOS和Linux。核心功能包括多连接管理、键值对的可视化浏览与编辑、常用数据类型的增删改查，并内置命令行输入框以便直接执行原生Redis命令。典型使用场景是数据库日常管理、缓存数据排查以及应用开发时的快速验证。相比纯命令行操作，它降低了Redis的使用门槛，尤其适合不熟悉命令行的开发者或需要频繁切换多个环境的运维人员。整体设计实用，主要解决查看不方便、操作效率低的问题。
@@ -40,7 +40,7 @@
   Select2 是一个增强的下拉选择框组件，通过 jQuery 实现，支持搜索、远程数据加载、无限滚动、标签选择等功能，主要用于提升传统 HTML select 元素的用户体验，适合处理大量选项或需要动态加载数据的场景。
 - [localForage/localForage](https://github.com/localForage/localForage) ★25799 [`indexeddb`] [`javascript`] [`localforage`] [`localstorage`] [`offline`] [`storage`] [`websql`]  
   localForage 是一个快速、轻量级的 JavaScript 库，用于在浏览器中异步存储大量结构化数据。它通过简单的 API 提供对 IndexedDB、WebSQL 或 localStorage 的封装，优先使用现代异步存储机制，在不支持的情况下自动降级。主要用于需要离线存储和高效读写复杂数据类型的 Web 应用，提升性能与兼容性。
-- [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) ★25772  
+- [zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes) ★25773  
   ChromeAppHeroes 收录了大量实用、有趣的 Chrome 扩展程序，以图文教程的形式逐一介绍其功能、安装方法和使用技巧，并附上开发者写的「Stories」背景。它面向普通用户和开发者，帮助大家发现能够提升工作、学习和生活效率的浏览器插件，同时提供中文评测与分类索引，适合需要挑选合适扩展或了解插件生态的人群参考。
 - [tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons) ★23724  
   提供一套简洁美观的开源 SVG 图标，专为与 Tailwind CSS 框架搭配使用而设计，适用于现代 Web 项目的界面开发，支持两种风格（Outline 和 Solid），开箱即用且可高度自定义。
@@ -60,7 +60,7 @@
   移动端网页调试工具，可直接嵌入页面在手机浏览器上运行，模拟桌面浏览器开发者工具的部分能力。主要用于真机测试时查看控制台日志、网络请求、页面结构、存储信息等，在不连接电脑的情况下快速定位前端问题。适合移动端 H5 开发、调试和性能排查场景，通常可通过扩展方式增加更多能力，整体轻量且部署简单。
 - [modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China) ★20916 [`address`] [`administrative-divisions`] [`area`] [`china`] [`city`] [`csv`] [`json`] [`nodejs`] [`province`] [`street`]  
   提供中国省、市、县三级行政区划的完整数据，涵盖名称、行政区划代码、拼音、经纬度等信息，并随民政部发布及时更新。数据通常用于网站后台的省市区选择器、物流地址管理、统计报表等场景，可导出 JSON、CSV、SQL 等常见格式，方便开发者直接导入数据库或前端使用。仓库结构清晰，支持按层级或版本获取，适合需要准确行政区划数据的应用。
-- [chokcoco/iCSS](https://github.com/chokcoco/iCSS) ★20671 [`css`] [`css3`]  
+- [chokcoco/iCSS](https://github.com/chokcoco/iCSS) ★20670 [`css`] [`css3`]  
   iCSS 是一个专注于 CSS 变量与运行时样式管理的轻量级库，通过动态控制 CSS 自定义属性实现主题切换、样式注入和运行时样式更新，简化复杂应用中的视觉层逻辑控制，适合需要高度动态化样式的前端项目集成。
 - [SortableJS/Vue.Draggable](https://github.com/SortableJS/Vue.Draggable) ★20594 [`component`] [`drag-and-drop`] [`vue`]  
   基于 SortableJS 的 Vue 组件，实现列表的拖拽排序与跨列表拖拽交互，支持 Vue 2 和 Vue 3，适用于需要可视化重新排序或元素移动的场景，如任务看板、表单排序、图层排列等。
@@ -83,13 +83,13 @@
 - [defunkt/jquery-pjax](https://github.com/defunkt/jquery-pjax) ★16648  
   jquery-pjax是一个基于jQuery的页面无刷新加载插件，主要解决传统网站整页跳转带来的加载慢、体验割裂问题。它拦截链接点击，通过Ajax请求只获取目标页面中需要更新的部分，并将页面内容平滑替换，同时利用浏览器的history.pushState接口同步地址栏URL，支持前进后退。适合用于内容型网站、后台管理界面等以导航为主的场景，能显著减少流量和渲染开销。使用前提是服务端需要返回HTML片段而非完整文档，以便插件直接插入。
 - [twitter/typeahead.js](https://github.com/twitter/typeahead.js) ★16447  
-  提供强大的自动补全功能，主要用于输入框中实现基于本地或远程数据源的实时搜索建议，支持模糊匹配、模板定制和高效事件处理，适合需要智能提示的表单和搜索场景。
+  为输入框提供即时联想与自动补全的 JavaScript 库 typeahead.js 由 Twitter 开发并开源，核心功能包括本地和远程数据源融合、模糊匹配、键盘导航以及自定义渲染。它适合构建搜索框、标签输入、地址填写等需要快速从候选列表中选择的界面，能够显著减少用户敲击次数并提升表单体验。该库在早期 Web 生态中十分流行，但官方已停止维护，新项目建议评估其他活跃维护的替代方案。
 - [brix/crypto-js](https://github.com/brix/crypto-js) ★16398  
   一个纯 JavaScript 实现的加密库，支持多种常见加密算法，如 AES、DES、SHA-1、SHA-256、MD5 等，可在浏览器和 Node.js 环境中使用，主要用于数据加密、哈希生成和安全通信，具有轻量、易用、无依赖的特点。
 - [librespeed/speedtest](https://github.com/librespeed/speedtest) ★15025 [`hacktoberfest`] [`html5-speedtest`] [`internet-speed`] [`internet-speed-checker`] [`librespeed`] [`php`] [`speedtest`] [`web-worker`] [`xhr`]  
   用于自建基于HTML5的网页版网速测试服务，通过浏览器直接测量下载速度、上传速度和网络延迟，无需安装Flash或Java插件。该工具适合个人、企业或网络服务商部署在自己的服务器上，以提供私密且可定制的测速入口，避免使用第三方测速网站导致的数据外泄或结果干扰。采用常见Web技术实现，客户端与服务器通信完成测速，通常部署在Nginx或Apache上，并支持多平台浏览器访问。核心优势在于完全掌控测试流程和数据，适合对隐私或定制化有要求的场景。
 - [electerm/electerm](https://github.com/electerm/electerm) ★14678 [`ai`] [`android`] [`electerm`] [`electron`] [`ftp`] [`harmonyos`] [`linux-app`] [`macos-app`] [`mcp`] [`open-source`] [`rdp`] [`serialport`] [`sftp`] [`spice`] [`ssh`] [`telnet`] [`terminal`] [`vnc`] [`windows-app`] [`zmodem`]  
-  electerm 是一个基于 Electron 的跨平台终端工具，主要用于 Linux、macOS 和 Windows 系统，支持 SSH 连接、SFTP 文件传输和多标签页管理，适合开发者和系统管理员远程操作服务器，界面简洁，无需依赖额外运行时即可使用。
+  electerm 是一款跨平台的终端模拟器，主要用于连接和管理远程服务器，支持 SSH、SFTP 协议，并集成了文件传输、编辑和本地终端功能。它适合开发者和运维人员在日常工作中同时处理命令行操作与远程文件管理，解决了传统终端与文件管理器分离带来的效率问题。软件界面友好，支持多标签页、快捷命令、主题定制和书签管理，能够适配 Windows、macOS 和 Linux 等主流操作系统。通常用于替代系统自带终端，或作为轻量级的服务器管理工具。
 - [myliang/x-spreadsheet](https://github.com/myliang/x-spreadsheet) ★14590 [`canvas`] [`es6`] [`excel`] [`javascript`] [`js`] [`spreadsheet`]  
   一个基于JavaScript开发的网页电子表格组件，提供类似Excel的单元格编辑、公式计算、样式调整和行列操作等核心功能。它不依赖重型框架，可灵活嵌入各类前端项目，适合需要在Web应用中快速搭建数据录入、表格展示或轻量级数据处理场景，尤其适合简化传统表格开发的复杂度，帮助开发者以较低成本实现可交互的在线表格界面。
 - [pandao/editor.md](https://github.com/pandao/editor.md) ★14318 [`codemirror`] [`commonmark`] [`documentation`] [`editor`] [`flowchart`] [`gfm`] [`javascript`] [`jquery`] [`katex`] [`markdown`] [`markdown-editor`] [`markdown-writer`] [`marked`] [`sequence-diagram`] [`toc`]  
@@ -145,7 +145,7 @@
 - [tuupola/lazyload](https://github.com/tuupola/lazyload) ★8713  
   用于实现图片懒加载的轻量级JavaScript库，主要用于提升网页性能，通过延迟加载屏幕外的图片资源减少初始加载时间，适合长页面或图片较多的网站使用，兼容性好且无需依赖其他框架。
 - [sxei/chrome-plugin-demo](https://github.com/sxei/chrome-plugin-demo) ★8671  
-  一个Chrome浏览器插件示例项目，主要用于演示如何开发和构建Chrome扩展，包含常见的插件功能实现，如内容脚本注入、背景页通信、浏览器按钮交互等，适合学习插件开发结构和快速上手。
+  用于演示Chrome浏览器插件开发的各种核心技术与常见功能，帮助开发者通过实例快速掌握扩展程序的实现思路。它通常覆盖右键菜单、页面内容注入、消息传递、数据存储等典型场景，并针对不同需求提供可运行的最小示例，适合希望系统学习Chrome扩展机制或查找代码范式的开发者参考。基于仓库展示的丰富示例，也常被当作搭建自己插件的起点。
 - [Nickersoft/push.js](https://github.com/Nickersoft/push.js) ★8661 [`javascript`] [`javascript-library`] [`notification-api`] [`notifications`] [`push`] [`push-notifications`]  
   一个轻量级 JavaScript 库，用于在网页中实现桌面通知功能，无需依赖后端服务，通过浏览器的 Notification API 在用户设备上推送消息，适合需要即时提醒功能的 Web 应用集成使用。
 - [cerebroapp/cerebro](https://github.com/cerebroapp/cerebro) ★8555 [`cerebro`] [`electron`] [`launcher`] [`search`]  
@@ -166,7 +166,7 @@
   PT-Plugin-Plus 是一个为 PT（Private Tracker）站点设计的浏览器插件增强工具，主要用于优化种子下载、自动识别链接、批量操作和站点间跳转等功能，提升用户在多个 PT 站点间浏览和管理资源的效率，支持主流 PT 站点的集成与自定义规则配置。
 - [icindy/wxParse](https://github.com/icindy/wxParse) ★7730 [`html`] [`markdown`] [`weapp`] [`weixin`] [`wxparse-html-markdown`]  
   wxParse 主要用于微信小程序中解析和渲染富文本内容，它将 HTML 字符串转换为小程序组件可用的节点树，从而在小程序内展示格式化文本、图片、链接等。适合处理后台返回的文章或页面源码，避免手动拼接视图。同时提供样式适配和自定义扩展，常用于博客、社区、电商详情页等场景。
-- [gaotianliuyun/gao](https://github.com/gaotianliuyun/gao) ★7719  
+- [gaotianliuyun/gao](https://github.com/gaotianliuyun/gao) ★7720  
   基于Vue.js的个人博客系统，主要用于技术文章发布与分享，支持文章管理、分类、标签及评论功能，适合开发者快速搭建个性化博客平台，采用前后端分离架构，前端使用Vue+Element UI，后端配合Spring Boot实现。
 - [fengyuanchen/cropper](https://github.com/fengyuanchen/cropper) ★7681 [`cropper`] [`image-cropper`] [`image-processing`] [`jquery`] [`jquery-plugin`]  
   基于浏览器端的图片裁剪工具，支持鼠标与触摸操作，可自由调整裁剪框位置、大小和比例，并实时预览裁剪结果。通常适合需要上传头像、编辑商品图或处理用户图片的前端项目，能够输出裁剪后的图像数据用于后续上传。其设计轻量，方便与主流前端框架或原生 JavaScript 项目集成，适合希望快速实现交互式裁剪功能而不想从底层开发的场景。
@@ -214,7 +214,7 @@
   Simditor是一款基于jQuery的轻量级富文本编辑器，主要用于在网页中嵌入所见即所得的内容编辑功能。它支持常用文本格式、插入图片与链接等操作，界面简洁，便于快速集成到管理后台或博客系统中，适合需要替代原生textarea、实现格式化文本输入的场景。
 - [certd/certd](https://github.com/certd/certd) ★4943 [`acme`] [`auto`] [`automation`] [`cert`] [`certbot`] [`letencrypt`] [`ssl`] [`ssl-certificate`]  
   Certd 是一个自动化证书申请与管理工具，主要用于自动从 Let's Encrypt 等 CA 机构申请、更新 SSL/TLS 证书，支持多种域名验证方式和存储后端，适合用于服务器、容器或边缘设备上的证书生命周期管理。
-- [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) ★4928 [`agent`] [`agent-skills`] [`ai-agents`] [`ai-assistant`] [`data-analysis`] [`document-processing`] [`office-automation`] [`presentation-slides`]  
+- [OpenSenseNova/SenseNova-Skills](https://github.com/OpenSenseNova/SenseNova-Skills) ★4929 [`agent`] [`agent-skills`] [`ai-agents`] [`ai-assistant`] [`data-analysis`] [`document-processing`] [`office-automation`] [`presentation-slides`]  
   SenseNova-Skills 是一个专注于开发和集成基于 SenseNova 大模型的智能技能应用的开源项目，主要用于构建具备自然语言理解与生成、多轮对话、任务编排能力的 AI 助手功能模块，支持快速扩展语音、文本、图像等多模态交互场景，适用于企业服务、智能客服、个人助理等领域的定制化开发。
 - [samyk/evercookie](https://github.com/samyk/evercookie) ★4721  
   evercookie 是一个用于演示用户追踪技术的开源项目，通过利用多种浏览器存储机制（如 Cookie、LocalStorage、Flash Storage、ETag 等）实现用户识别和持久化追踪。它主要用于研究网站如何在用户尝试清除数据的情况下依然保留追踪能力，帮助开发者和安全研究人员理解隐私泄露风险并改进防护措施。
@@ -225,7 +225,7 @@
 - [blueimp/JavaScript-Load-Image](https://github.com/blueimp/JavaScript-Load-Image) ★4458  
   JavaScript-Load-Image 是一个用于在浏览器中异步加载图片的轻量级库，支持跨域图片加载、图片缓存、错误处理以及加载进度跟踪，常用于需要动态加载大量图片或对图片加载性能有较高要求的 Web 应用，可有效提升用户体验和页面响应速度。
 - [lihongxun945/jquery-weui](https://github.com/lihongxun945/jquery-weui) ★4416 [`jquery-weui`] [`wechat`] [`weui`]  
-  基于jQuery的轻量级UI框架，为移动端Web应用提供简洁高效的界面组件，主要用于快速构建类似WeUI风格的微信小程序或H5页面，包含常用UI元素如按钮、表单、弹窗等，兼容性强，适合移动端开发场景。
+  jQuery WeUI 是基于 jQuery 和微信 WeUI 设计规范的前端界面库，用于快速开发移动端网页，尤其适合微信公众号内的 H5 页面。它复用了 WeUI 的视觉风格，提供常见组件和交互方案，帮助开发者在无需从零编写样式的情况下，构建出与微信原生体验接近的界面。通常适合需要兼容低版本手机浏览器的项目，比现代框架更轻量、简单，适合传统 jQuery 项目或快速原型交付。
 - [Ice-Hazymoon/MikuTools](https://github.com/Ice-Hazymoon/MikuTools) ★4402 [`mikutools`] [`tools`]  
   一个基于网页的多功能工具集合，主要用于文本处理、编码转换、密码学运算、网络请求测试等实用功能，适合开发者和网络技术人员日常使用。
 - [jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js) ★4364 [`filesaver`] [`html5`] [`ram`] [`service-worker`] [`stream`]  
@@ -233,7 +233,7 @@
 - [dqzboy/Docker-Proxy](https://github.com/dqzboy/Docker-Proxy) ★4352 [`docker`] [`docker-image`] [`docker-proxy`] [`docker-registry`] [`dockerhub`] [`gcr-registry`]  
   Docker-Proxy 是一个用于简化 Docker 服务反向代理配置的工具，主要用于自动配置 Nginx 或 Traefik 等反向代理，实现容器化应用的自动化域名访问和负载均衡，适合多容器 Web 服务部署场景。
 - [zhongshaofa/layuimini](https://github.com/zhongshaofa/layuimini) ★4229 [`admin`] [`layui`] [`layui-admin`] [`layuimini`]  
-  Layuimini 是一个基于 Layui 的轻量级后台前端解决方案，主要用于快速构建简洁、响应式的管理界面。它提供了菜单、表格、表单等常用组件的封装，开箱即用，适合开发中小型后台系统，具有易上手、结构清晰、可扩展性强等特点。
+  基于 layui 的轻量级后台管理模板，专注于提供简洁美观的页面框架和导航布局，适合快速搭建企业级后台系统原型。内置常见的菜单折叠、多标签页、主题切换等功能，通常配合 layui 生态使用，帮助开发者节省样式和交互开发时间，尤其适合中小型管理后台项目。
 - [nklayman/vue-cli-plugin-electron-builder](https://github.com/nklayman/vue-cli-plugin-electron-builder) ★4079 [`cli`] [`electron`] [`electron-builder`] [`hacktoberfest`] [`vue`] [`vue-cli`] [`vue-cli-plugin`] [`webpack`]  
   为 Vue CLI 项目提供 Electron 集成支持，主要用于将 Vue.js 应用打包成跨平台桌面程序，简化 Electron 开发配置，支持热重载、原生模块编译及自定义 Electron 主进程代码，适合需要构建桌面端的应用场景。
 - [ipcjs/oh-my-userscripts](https://github.com/ipcjs/oh-my-userscripts) ★4070 [`userscript`]  
@@ -253,11 +253,11 @@
 - [alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui) ★3277 [`crontab`] [`nodejs`] [`unix`]  
   提供图形化界面管理 Linux cron 定时任务，支持任务的添加、编辑、删除和执行日志查看，无需直接编辑 crontab 文件，降低使用门槛，适合需要可视化操作定时任务的用户。
 - [gongfuxiang/shopxo](https://github.com/gongfuxiang/shopxo) ★3272 [`b2c`] [`shop`] [`shopxo`] [`shopxo-b2c`] [`thinkphp`]  
-  ShopXO是一款开源免费的企业级电商平台系统，基于ThinkPHP5框架开发，支持PC、H5、微信小程序等多端对接，提供完善的前后端功能模块，适用于搭建B2C、B2B2C等电商网站，具备高扩展性和安全性，社区活跃，文档齐全，便于二次开发与部署。
+  用于快速搭建独立电商网站的开源商城系统，覆盖商品管理、订单处理、支付对接、会员体系、营销活动等常规电商功能。基于 PHP 开发，支持 PC、手机 H5、微信小程序等多种访问终端，部署简单且便于二次开发，适合中小企业或个人站长搭建自营商城平台。
 - [missuo/FreeGPT35](https://github.com/missuo/FreeGPT35) ★3228  
   通过反向代理实现免费访问GPT-3.5模型的API服务，主要用于替代官方接口以降低调用成本，适合需要大规模文本生成但预算有限的场景，支持基础对话功能但稳定性与响应速度可能受代理源质量影响。
 - [zmister2016/MrDoc](https://github.com/zmister2016/MrDoc) ★3224 [`django`] [`document-management`] [`knowledge-management`] [`markdown`] [`notes-app`] [`python`] [`wiki`]  
-  一个开源的在线文档写作与发布平台，支持 Markdown 编辑、富文本排版、文档版本管理及静态站点生成，适用于个人博客、技术文档、项目手册等场景，具有简洁的界面和灵活的部署方式，便于快速搭建专属文档网站。
+  MrDoc 是一个开源的在线文档与知识管理系统，主要面向个人或团队的知识沉淀与协作场景。它支持 Markdown 编辑、文档分类管理、全文搜索、图片/附件上传以及多用户权限控制，还能将文档导出为 PDF 或离线文档。系统部署简单，适合用来搭建私有知识库、个人笔记站或小型团队内部资料库，解决了数据自主可控和内容组织管理的问题。
 - [NeverDecaf/chromium-web-store](https://github.com/NeverDecaf/chromium-web-store) ★3219 [`chrome-extension`] [`chromium`] [`ungoogled-chromium`]  
   一个允许在非 Chromium 内核浏览器中安装 Chrome 网上应用店扩展的工具，通过注入脚本使 Chrome 扩展安装按钮在任意浏览器中生效，方便用户绕过浏览器限制直接获取 Chrome 插件。
 - [Dynalon/mdwiki](https://github.com/Dynalon/mdwiki) ★3191  
@@ -267,9 +267,9 @@
 - [uku/Unblock-Youku](https://github.com/uku/Unblock-Youku) ★3156 [`chrome-extension`]  
   用于解除优酷等中国视频网站的海外地域限制，通过浏览器扩展和代理服务器，让海外用户正常观看原本仅限中国大陆访问的内容。适合在海外留学、工作或旅行的用户，安装后在浏览器中启用即可访问优酷、土豆、爱奇艺等站点。项目包含扩展程序和服务器端配置，通常需要配合自建代理或公共节点使用，具体部署方式以官方说明为准。
 - [crossutility/Quantumult-X](https://github.com/crossutility/Quantumult-X) ★3154  
-  主要用于iOS平台的网络请求拦截与修改，支持规则配置和脚本扩展，适用于API调试、响应数据篡改及自动化处理，常用于开发测试与逆向分析场景。
+  Quantumult-X 是一款面向 iOS 设备的网络代理与流量管理工具，主要用于实现 HTTP/SOCKS 代理、规则分流、策略组切换及脚本自动化，适合需要精细化管控网络请求的用户，比如开发者调试接口、翻墙用户配置多节点规则、或通过自定义脚本增强工具行为。它强调模块化配置，支持按域名、IP、CIDR 等条件匹配流量，并可与 Surge、Clash 等配置互通，在安全性与灵活性上表现突出。由于功能深入且定位专业，通常适合有一定网络基础的进阶用户使用。
 - [helloxz/onenav](https://github.com/helloxz/onenav) ★3132 [`bookmark`] [`navigation`] [`php`]  
-  helloxz/onenav 是一个基于 Go 语言开发的简约风格导航网站程序，主要用于个人或团队构建实用的书签管理与网址导航站点，支持多用户、分类管理、响应式布局，便于自托管部署和定制化。
+  OneNav 是一款开源的网址导航管理工具，用于自建个人或团队的书签导航首页。它支持将常用链接按分类整理，提供简洁的收藏、搜索和快速访问功能，帮助解决浏览器书签杂乱、团队共享链接不便的问题。通常适合部署在服务器上作为统一入口，也支持多用户使用，并用自定义主题和数据备份。整体上是一个轻量、易部署的导航站解决方案。
 - [aui/artDialog](https://github.com/aui/artDialog) ★3127 [`dialog`] [`jquery`]  
   artDialog 是一个轻量级、可高度定制的网页对话框组件，主要用于弹出层、消息提示、确认框等交互场景，支持丰富的配置选项和动画效果，兼容主流浏览器，易于集成和扩展。
 - [xianyuyimu/TVBOX-](https://github.com/xianyuyimu/TVBOX-) ★3107  
@@ -277,13 +277,13 @@
 - [cilame/v_jstools](https://github.com/cilame/v_jstools) ★3008  
   一个前端开发工具库，提供实用的 JavaScript 工具函数，主要用于简化日常编码中的常见操作，如数据处理、类型判断、字符串操作等，提升开发效率，适合在浏览器和 Node.js 环境中使用。
 - [KOP-XIAO/QuantumultX](https://github.com/KOP-XIAO/QuantumultX) ★2981  
-  一个专为Quantumult X设计的个人配置分享项目，主要用于iOS平台上的网络请求重写、流量转发及规则管理，提供自定义策略组、去广告规则、应用分流等功能，适合高级用户优化网络体验。
+  一款面向 iOS 设备的网络代理与规则管理工具，主要帮助用户配置和运行代理服务，支持订阅导入、分流规则、脚本扩展等功能，常用于科学上网、访问控制及流量策略定制。它通过模块化的规则引擎和可自定义配置文件，满足进阶用户对网络请求精细化管理的需求，同时也适合日常使用便捷规则和保持一定匿名性的场景。
 - [facundoolano/google-play-scraper](https://github.com/facundoolano/google-play-scraper) ★2937 [`api`] [`crawler`] [`google-play`] [`nodejs`] [`scraper`]  
   用于从 Google Play 商店抓取应用信息的 Node.js 库，支持获取应用详情、评论、评分、开发者信息等数据，适用于应用市场分析、竞品监控和数据挖掘，无需 API 密钥即可通过网页爬取方式获取公开信息。
 - [iamxjb/winxin-app-watch-life.net](https://github.com/iamxjb/winxin-app-watch-life.net) ★2906  
   基于微信小程序开发的内容阅读工具，将个人博客 watch-life.net 的文章内容同步到小程序端，用户无需打开浏览器即可在微信内浏览博文、获取最新更新。项目适合个人博主或内容创作者使用，用于扩展已有网站内容的触达渠道，让读者在移动端获得更便捷的阅读体验，降低访问门槛，同时为独立博客增加微信生态内的流量入口。
 - [cskefu/cskefu](https://github.com/cskefu/cskefu) ★2888 [`chatbot`] [`contact-center`] [`customer-support`] [`java`] [`multi-channel`] [`omni-channel`] [`osgi`] [`springboot`]  
-  一个开源的客户支持与工单系统，主要用于企业级客服平台搭建，支持多渠道接入、工单管理、实时聊天、知识库管理等功能，适合需要自主可控客服系统的组织部署使用。
+  用于构建企业级在线客服系统的春松客服（cskefu），整合网页、微信、微博等渠道，提供智能机器人自动应答、人工坐席工作台、工单流转、客户管理和数据分析功能。通常适合中小型电商、SaaS 产品及服务型网站，用于统一管理多渠道咨询，提升客户满意度和客服团队效率。
 - [Ovilia/lipstick](https://github.com/Ovilia/lipstick) ★2844 [`visualization`]  
   一个用于在图片中为嘴唇添加虚拟口红效果的 Python 工具，基于图像处理技术实现唇色迁移，支持自定义颜色与平滑融合，适用于美妆类应用的原型开发或图像编辑实验。
 - [truedread/netflix-1080p](https://github.com/truedread/netflix-1080p) ★2747  
@@ -310,7 +310,7 @@
   基于 Vue 的 PDF 预览组件，利用 PDF.js 实现浏览器内直接加载和显示 PDF 文件，支持分页渲染、缩放操作与自定义样式，适用于需要在前端展示 PDF 文档的场景。
 - [xoxco/jQuery-Tags-Input](https://github.com/xoxco/jQuery-Tags-Input) ★2263  
   一个轻量级jQuery插件，用于将普通文本输入框转换为支持逗号或自定义分隔符的标签输入组件，用户可快速添加、删除标签，适用于需要多标签输入的场景，如文章标签、兴趣选择等，易于集成和定制样式。
-- [getsomecat/GetSomeCats](https://github.com/getsomecat/GetSomeCats) ★2225  
+- [getsomecat/GetSomeCats](https://github.com/getsomecat/GetSomeCats) ★2226  
   通过调用外部 API 获取随机猫咪图片，提供简单易用的接口，方便用户在网页或应用中展示可爱的猫咪图像，适合用于个人项目、测试或增添趣味性内容。
 - [PGBI/kong-dashboard](https://github.com/PGBI/kong-dashboard) ★2162 [`kong`] [`kong-dashboard`] [`kong-gateway`]  
   用于为 Kong API 网关提供可视化管理界面的工具，通常适合在微服务和 API 治理场景中部署。它通过 Web 页面替代命令行操作，帮助运维和开发人员快速查看网关配置、管理服务与路由、监控运行状态，并简化插件和消费者的配置流程。由于 Kong 本身功能丰富，这类仪表板能降低使用门槛，提升日常维护效率。使用时一般需要匹配对应的 Kong 版本，以保证功能正常。
@@ -335,9 +335,9 @@
 - [willfarrell/alfred-workflows](https://github.com/willfarrell/alfred-workflows) ★1951 [`alfred`] [`alfred-workflow`]  
   为 macOS 效率工具 Alfred 编写的一系列常用工作流集合，主要用于扩展 Alfred 的快速操作能力，涵盖开发者工具、网络查询、系统控制、文本处理等日常高频任务，适合希望通过键盘快速完成多步骤操作、提升工作流效率的用户。
 - [fastadminnet/fastadmin](https://github.com/fastadminnet/fastadmin) ★1916 [`adminlte`] [`bootstrap`] [`fastadmin`] [`thinkphp`]  
-  FastAdminNet 是一个基于 .NET 的快速开发框架，主要用于简化企业级后台管理系统和 Web 应用的构建。它集成了常用的企业开发组件，支持模块化、代码生成、权限管理和前后端分离，适用于需要快速搭建稳定、可扩展应用系统的开发团队。
+  FastAdmin.NET是面向.NET生态的开源后台管理框架，基于ASP.NET Core技术栈，主要用于快速构建企业级B/S架构的管理系统。它内置标准化权限认证、用户与角色管理、系统配置、操作日志等通用模块，并提供代码生成能力，减少重复性CRUD开发工作。该框架通常适合中小型项目团队在人力有限的情况下快速产出可直接运营的后台，也便于技术统一的团队进行二次扩展与定制。其设计理念强调开箱即用，让开发者能集中精力处理业务逻辑而非底层基础设施。
 - [acgotaku/115](https://github.com/acgotaku/115) ★1908  
-  一个基于网页的 115 网盘资源分享页面，主要用于展示和管理 115 网盘中的文件目录，支持在线浏览和下载，方便用户快速查找和分享存储在 115 网盘中的资源内容。
+  面向115网盘的下载辅助工具，通常以浏览器脚本或扩展形式运行。它能帮助用户便捷地解析文件下载地址，支持对选中文件进行批量处理，并将下载任务快速推送到本地的第三方下载工具（如Aria2）中，从而绕过网页端限制，提升传输效率与稳定性。适合需要频繁从115网盘备份或取用大体积文件、同时追求自动化和更优下载体验的用户群体。
 - [JSREI/ast-hook-for-js-RE](https://github.com/JSREI/ast-hook-for-js-RE) ★1908 [`crawler`] [`js-reverse`]  
   一个基于 JavaScript AST 分析的 Hook 框架，用于在不修改源码的情况下劫持和监控 JavaScript 函数调用，常用于安全检测、运行时行为分析和动态插桩。
 - [mumuy/browser](https://github.com/mumuy/browser) ★1878 [`browser`] [`detection`] [`useragent`]  
@@ -359,11 +359,11 @@
 - [CcSimple/vue-plugin-hiprint](https://github.com/CcSimple/vue-plugin-hiprint) ★1708 [`design`] [`print`] [`report`] [`vue`]  
   一个基于 Vue 的轻量级插件，用于集成 hiprint 打印库，简化网页打印功能的开发，支持自定义模板设计和快速绑定数据，适用于各类需要浏览器端打印的业务场景。
 - [bassjobsen/Bootstrap-3-Typeahead](https://github.com/bassjobsen/Bootstrap-3-Typeahead) ★1672  
-  基于 Bootstrap 3 的增强型搜索建议插件，用于为文本输入框添加动态自动补全功能，支持远程数据源加载与本地缓存，适用于表单搜索、地址输入等需要提示用户输入的场景，通过简洁的 API 实现与 Bootstrap 3 样式无缝集成。
+  用于为Bootstrap 3提供轻量级输入框自动补全功能，基于Bootstrap的dropdown组件实现，不依赖额外的大型库。支持本地数据源和通过AJAX获取的远程数据源，可自定义模板、匹配规则和显示效果。通常适合在Bootstrap 3项目的搜索框、标签输入或表单字段中，快速添加带键盘导航和鼠标选择的下拉建议列表。相比Twitter的typeahead.js，它更贴近Bootstrap 3的原生样式，集成成本低，适合希望以简单方式增强输入体验的前端开发者。
 - [IonicaBizau/image-to-ascii](https://github.com/IonicaBizau/image-to-ascii) ★1664 [`ascii-art`] [`hacktoberfest`] [`mad-science`]  
   将图像转换为ASCII字符画，用于在终端或纯文本环境中展示图片。支持自定义字符集、输出尺寸和对比度调节，可将常见图片格式（如PNG、JPEG）映射为光标字符或字符串。典型场景包括命令行预览图片、生成趣味文本艺术、嵌入聊天或代码注释，以及为低带宽环境提供图形替代方案。通常适合开发者或设计师快速生成基于字符的视觉作品，也适合作为学习图像处理与字符映射的示例工具。
 - [kkHAIKE/fake115](https://github.com/kkHAIKE/fake115) ★1614 [`115`]  
-  一个模拟115网盘客户端行为的开源工具，主要用于测试和学习目的，可实现文件上传、下载、目录遍历等基本操作，适用于需要与115网盘交互但不想使用官方客户端的场景，支持部分API功能模拟。项目遵循相关开源协议，请遵守法律法规合理使用。
+  该仓库模拟115网盘的通信过程和关键接口，使自建工具能够绕过官方客户端直接访问网盘内容。它通常被部署在本地，作为中转层为其他下载器或脚本提供文件列表、下载链接等数据，适合个人搭建离线下载、定时备份或跨平台文件管理。使用时需依赖开发者对官方协议的逆向分析，因此会面临封禁或失效风险，建议仅用于学习和个人用途。
 - [Achrou/goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou) ★1588 [`cloudflare`] [`cloudflare-workers`] [`drive`] [`goindex`] [`goindex-theme`] [`google-drive`]  
   为 GoIndex 这类基于 Google Drive 的网盘索引程序提供一套美观的界面主题，核心功能是替代默认的简陋页面，让访客能像浏览精美文件管理器一样查看、下载云端文件。通常部署在 Cloudflare Workers 环境中，适合个人搭建在线资源分享站或团队内部文件展示页，可以自定义网站标题、布局样式、目录展示方式等，无需修改底层后端逻辑，只需替换主题文件即可生效。该项目特别适合希望快速提升网盘页视觉体验、且不想从头编写前端样式的用户，安装和配置都较为直接，能很好地与现有 GoIndex 实例结合使用。
 - [orbitbot/chrome-extensions-examples](https://github.com/orbitbot/chrome-extensions-examples) ★1586 [`browser-extension`] [`chrome-extension`] [`extension`] [`extensions`] [`javascript`]  
@@ -405,7 +405,7 @@
 - [sindresorhus/electron-dl](https://github.com/sindresorhus/electron-dl) ★1207  
   用于 Electron 应用中简化文件下载流程的工具库，提供进度跟踪、自动保存对话框、下载取消与重试等特性，支持大文件和流式下载，可与 Electron 的主进程和渲染进程集成，提升桌面应用的文件下载体验。
 - [gdtool/cloudflare-workers-blog](https://github.com/gdtool/cloudflare-workers-blog) ★1185  
-  用于快速搭建个人博客的 Cloudflare Workers 示例项目，通过兼容 R2 对象存储实现静态资源托管与动态路由，适合无服务器架构下的轻量级内容发布，无需传统服务器即可全球低延迟访问。
+  利用 Cloudflare Workers 在边缘节点运行博客服务，无需自建服务器即可实现全球加速访问。通常采用轻量级架构，结合 KV 或 D1 存储文章内容，支持 Markdown 写作与动态渲染。适合个人博客、文档站点或低流量内容发布场景，具备部署简单、成本低、响应快等优点。通过 GitHub 集成可实现自动构建与发布，便于版本管理和持续更新。由于基于 Workers 生态，可较方便地扩展自定义路由和中间件。此项目可作为快速搭建无服务器博客的技术参考。
 - [law-chain-hot/websocket-devtools](https://github.com/law-chain-hot/websocket-devtools) ★1183 [`chrome-extensions`] [`devtools`] [`real-time`] [`real-time-chat`] [`real-time-monitoring`] [`socket-io`] [`webgame`] [`websocket`] [`websocket-chat`] [`websocket-client`]  
   一个专为区块链开发调试设计的 WebSocket 开发者工具，主要用于监控和测试区块链节点的实时通信，支持实时消息查看、连接状态追踪、请求响应分析，方便开发者在调试智能合约或链上交互时高效定位问题，通常集成于区块链本地测试环境或浏览器插件中。
 - [leo9960/wechat-app-unpack](https://github.com/leo9960/wechat-app-unpack) ★1168  
@@ -463,7 +463,7 @@
 - [works-yura/vue-chrome-extension-template](https://github.com/works-yura/vue-chrome-extension-template) ★657 [`chrome-extension`] [`hot-reloading`] [`vue`] [`wcer`]  
   基于 Vue.js 的 Chrome 扩展模板项目，集成常用开发工具与构建流程，帮助开发者快速搭建和部署浏览器插件，适用于需要前端框架支持的现代化扩展开发。
 - [tvfe/wxpage](https://github.com/tvfe/wxpage) ★622 [`miniapp`] [`wxpage`]  
-  tvfe/wxpage 是一个用于开发微信小程序页面的前端框架或工具集，主要用于简化页面结构搭建、组件化开发与状态管理，提升微信小程序的开发效率与维护性。
+  用于微信小程序开发时管理页面结构与跳转逻辑的轻量框架，通常适合需要统一处理页面初始化、数据加载及生命周期事件的项目。它帮助开发者以配置方式组织页面关系，减少重复代码并规范导航流程，适合中大型小程序团队在工程化过程中提升页面维护效率。主要解决微信原生开发中页面分散、依赖混乱、回调嵌套等问题，让多页面协作更清晰，同时保留小程序原生体验。
 - [niceue/nice-validator](https://github.com/niceue/nice-validator) ★603 [`form-validation`] [`javascript`] [`jquery-plugin`] [`nice`] [`validate`] [`validation`] [`validator`]  
   一个轻量级、可扩展的前端表单验证库，主要用于网页中表单的实时校验，支持自定义验证规则、多语言提示和常见表单控件，适合用于提升用户输入准确性和交互体验。
 - [Nihiue/open-ip-kvm](https://github.com/Nihiue/open-ip-kvm) ★553 [`arduino`] [`ip-kvm`] [`linux-board`] [`raspberry-pi`]  
@@ -471,7 +471,7 @@
 - [dobtco/jquery-resizable-columns](https://github.com/dobtco/jquery-resizable-columns) ★535  
   用于让 HTML 表格列支持鼠标拖拽调整宽度的 jQuery 插件，主要解决数据展示时列宽固定导致内容截断或空白过多的问题。它通常适合后台管理面板、报表系统、数据密集型的页面，用户可手动调整列宽以更好地查看数据。插件基于 jQuery，集成方式简单，调用后即可在表头进行拖拽操作，并保持整体布局稳定，适合快速为现有系统添加列宽调整能力。
 - [Meteor-Community-Packages/raix-push](https://github.com/Meteor-Community-Packages/raix-push) ★506  
-  raix-push 是一个为 Meteor.js 应用提供的服务器与客户端集成的推送通知包，主要用于在 Web 和移动端应用中实现跨平台推送功能，支持 APN、GCM/FCM 等推送服务，适合需要实时向用户发送消息的社交、聊天或资讯类应用。
+  用于 Meteor 框架向移动端设备发送推送通知的社区包，同时支持 iOS 的 APNs 与 Android 的 FCM/GCM 渠道。它提供设备令牌注册、按用户或设备定向分发消息、通知状态回调等核心能力，通常配合 Cordova 打包的移动应用使用，适合需要从服务端统一管理推送凭据并向指定用户推送消息的 Meteor 项目。开发者可在服务端集中配置证书和密钥，简化移动推送集成流程。
 - [DingZaiHub/ob-decrypt](https://github.com/DingZaiHub/ob-decrypt) ★506  
   一个用于解密和分析 Obfuscated JavaScript 的工具，主要用于还原被混淆的 JS 代码，帮助开发者调试或研究加密逻辑，支持常见混淆方式的反混淆处理，提升代码可读性。
 - [kakaxi-1/IPTV](https://github.com/kakaxi-1/IPTV) ★496  
@@ -481,7 +481,7 @@
 - [sml2h3/mmewmd_crack_for_wenshu](https://github.com/sml2h3/mmewmd_crack_for_wenshu) ★475  
   该仓库提供针对中国裁判文书网反爬机制的破解方案，主要处理页面中的加密参数与动态验证码识别。通常用于辅助爬虫开发者获取公开法律文书数据，解决请求过程中遇到的签名校验、数据混淆等障碍，适合需要批量采集裁判文书或开展司法数据研究的使用场景。请注意合规使用，遵守网站服务条款和相关法律法规。
 - [tvfe/txv-miniprogram-plugin](https://github.com/tvfe/txv-miniprogram-plugin) ★461  
-  用于腾讯视频在微信小程序中嵌入播放器的插件，支持视频播放、弹幕、缓存等功能，便于开发者快速集成腾讯视频内容，适用于视频类小程序的开发与优化。
+  腾讯视频官方推出的小程序插件，主要用于在微信小程序等平台中快速集成视频播放、点播等功能，帮助开发者省去自行搭建播放器的成本，适合需要在小程序内展示长视频或剧集内容的场景，通常搭配腾讯视频的授权资源使用，能较为便捷地实现播放器控制与基础交互。
 - [lupomontero/psl](https://github.com/lupomontero/psl) ★438 [`domain-name`] [`domain-parser`] [`javascript`] [`public-suffix-list`]  
   psl 是一个用于判断域名是否属于公共后缀列表（Public Suffix List）的 JavaScript 库，主要用于识别电子邮件地址或域名中的注册域部分。它基于 Mozilla 维护的公共后缀列表，可帮助开发者正确解析域名层级，常用于防止跨站点用户跟踪、验证邮箱域名或实现多租户子域名路由等场景。
 - [Sailiy/ntfsx](https://github.com/Sailiy/ntfsx) ★434  
@@ -499,13 +499,13 @@
 - [TRHX/Python3-Spider-Practice](https://github.com/TRHX/Python3-Spider-Practice) ★368 [`jsreverse`] [`python`] [`python3-spider-practice`] [`spider`] [`spiders`]  
   该项目包含多个使用 Python3 编写的网络爬虫实践案例，主要用于学习和掌握 Scrapy、Selenium、requests 等爬虫相关技术，涵盖了常见网站的数据采集、解析与存储，适合提升网页抓取与反爬应对能力。
 - [indrimuska/jquery-editable-select](https://github.com/indrimuska/jquery-editable-select) ★364  
-  一个基于 jQuery 的下拉选择框增强插件，为原生 select 元素提供输入过滤、搜索和可编辑功能，支持键盘操作和自定义数据源，适用于需要提升选择器交互体验的网页表单场景。
+  jquery-editable-select 提供基于 jQuery 的可编辑下拉选择框功能，将原生 select 元素转换为既支持点选又支持输入的自定义组件。用户可键入文字实时过滤下拉选项，也能随意输入列表外的自定义值，并通过键盘方向键与回车快速操作。通常适合需要允许用户从给定列表中选择同时补充新条目的表单场景，如标签输入、城市选择等，引入插件后即可对现有 select 初始化，使用成本低。
 - [nezhahq/nezhahq.github.io](https://github.com/nezhahq/nezhahq.github.io) ★358  
   Nezha 是一个轻量级服务器监控和反向代理面板，支持多服务器管理、实时监控、网站反向代理、TLS 证书申请等功能，主要用于简化 VPS 和网站运维操作，适合个人开发者和小型团队使用。
 - [zhangqian00/echarts3-mapFile](https://github.com/zhangqian00/echarts3-mapFile) ★356 [`echarts-map-json`] [`json`] [`map-json`]  
   这个仓库整理了适配 ECharts 3 的地图 GeoJSON 数据文件，通常用于在网页中绘制中国及各省市的可交互行政区划地图，适合需要区域分布、统计报表等地理可视化场景，可直接加载使用。
 - [Leo0216/winadmin](https://github.com/Leo0216/winadmin) ★320  
-  一个基于Vue3、TypeScript、Vite和Element-Plus构建的后台管理系统前端模板，提供基础登录、路由权限控制、面包屑导航等功能，主要用于快速搭建企业级中后台界面，适合需要高可维护性和组件化的开发场景。
+  用于 Windows 系统的集中化管理与自动化维护工具集，面向系统管理员提供日常操作支持，涵盖系统信息查看、用户与权限管理、服务及进程控制等常见任务。通常适用于批量执行命令、简化重复性配置工作，帮助提升 Windows 环境下的运维效率，也适合需要统一管理多台机器或快速完成基础设置的个人使用场景。
 - [fs185085781/webos](https://github.com/fs185085781/webos) ★320 [`123yunpan`] [`aliyundrive`] [`baiduyun`] [`kodbox`] [`tianyiyunpan`] [`webdav`] [`win11-in-web`] [`windows`]  
   一个基于 WebOS 的开源项目，主要用于探索和开发适用于智能设备的轻量级操作系统功能，支持 Web 技术构建的跨平台应用，适用于物联网和边缘计算场景。
 - [cba85/electron-webview](https://github.com/cba85/electron-webview) ★305 [`electron`] [`webview`]  
@@ -563,13 +563,13 @@
 - [underovsky/jquery-tagsinput-revisited](https://github.com/underovsky/jquery-tagsinput-revisited) ★63 [`jquery`] [`jquery-plugin`] [`jquery-tags`] [`tag-input`]  
   一个基于 jQuery 的标签输入插件，允许用户通过输入或选择添加标签，支持自动补全、动态添加删除、标签限制等功能，适用于需要标签化输入的表单场景，具有良好的自定义和扩展性。
 - [xuguoyii/wxVideoChange](https://github.com/xuguoyii/wxVideoChange) ★60  
-  用于微信视频号的视频处理工具，支持视频格式转换、压缩及元数据修改，便于优化视频上传效果和适配视频号发布要求。
+  为微信场景下的视频处理提供工具或脚本，重点解决视频在微信聊天、朋友圈等环境中的适配问题，例如修改视频编码、压缩大小、调整清晰度或转换格式。通常适合需要快速处理视频后再分享的普通用户，也可供开发者参考以集成同类能力。详细功能以仓库内代码和文档为准。
 - [gongjunhao/cookie-extraction](https://github.com/gongjunhao/cookie-extraction) ★58 [`chrome-extension`] [`clipboard`] [`contextmenus`] [`cookies-extraction`] [`easy-to-use`] [`httpsuport`]  
   用于提取网页Cookie的工具，支持自动化获取和导出浏览器中的Cookie信息，便于进行会话管理、安全测试或自动化操作，通常适用于Web开发调试、爬虫研究等场景。
 - [takayama-lily/oicq-template](https://github.com/takayama-lily/oicq-template) ★58  
   基于 OICQ 框架的 QQ 机器人模板，用于快速开发和部署具备消息收发、好友管理、群组交互等功能的 Node.js 应用，适合需要自动化 QQ 账号操作的开发者。
 - [skleeschulte/basic-to-sharepoint-auth-http-proxy](https://github.com/skleeschulte/basic-to-sharepoint-auth-http-proxy) ★52  
-  用于将经典身份验证的 HTTP 请求代理转换为支持 SharePoint 的现代身份验证（如 OAuth）的中间件，帮助开发者在不修改原有逻辑的前提下对接需要现代认证的 SharePoint Online 服务，简化迁移过程并提升安全性。
+  用于解决仅支持基本认证的旧客户端访问现代 SharePoint 认证服务的兼容性问题，通常作为本地或云端部署的 HTTP 代理。它接收客户端传来的基本认证凭据，并自动转换为 SharePoint 所需的认证协议（如基于声明的身份验证），使原有系统无需修改即可连接 SharePoint。典型场景包括将传统脚本、报表工具或企业内部应用接入 SharePoint Online 或本地场，避免大规模代码改造。适合需要快速打通遗留系统与 SharePoint 权限体系的集成场景。使用时需注意代理需配置正确的目标 SharePoint 地址及认证模式，以保障凭据安全传递。
 - [whiler/noscreen](https://github.com/whiler/noscreen) ★52 [`remotedesktop`] [`webrtc`]  
   一个轻量级的 Linux 屏幕录制工具，专注于命令行操作，适合在无图形界面环境下高效录制终端会话，支持直接输出为 GIF 或 MP4 格式，便于分享和文档制作。
 - [gaojianghua/UniApp-TMP](https://github.com/gaojianghua/UniApp-TMP) ★48  

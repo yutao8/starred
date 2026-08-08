@@ -4,7 +4,7 @@
   AppFlowy 是一个开源的生产力工具，主要用于构建个性化的工作流和应用，支持数据可视化、自动化任务处理，适合需要灵活定制业务流程的团队或个人使用。
 - [guozhigq/pilipala](https://github.com/guozhigq/pilipala) ★13860 [`bilibili`] [`dart`] [`flutter`] [`material-ui`]  
   一个轻量级的爬虫框架，主要用于网页数据抓取与解析，支持自定义请求、解析规则和数据存储，适用于快速开发中小型爬虫项目，具有良好的扩展性和易用性。
-- [wanghongenpin/proxypin](https://github.com/wanghongenpin/proxypin) ★13677 [`capture-traffic`] [`charles`] [`fiddler`] [`proxy`] [`proxypin`] [`zhuabao`]  
+- [wanghongenpin/proxypin](https://github.com/wanghongenpin/proxypin) ★13678 [`capture-traffic`] [`charles`] [`fiddler`] [`proxy`] [`proxypin`] [`zhuabao`]  
   proxypin 是一个用于简化网络代理配置的工具，主要用于帮助用户快速设置和管理本地代理服务。它支持多种代理协议，可实现跨平台的代理转发、规则路由和流量监控，适合开发者在测试、调试和安全分析场景中使用。
 - [ComicSparks/pikapika](https://github.com/ComicSparks/pikapika) ★8250 [`acg`] [`android`] [`bika`] [`comic-books`] [`cosplay`] [`cross-platform`] [`e-hentai`] [`flutter`] [`game`] [`go`] [`golang`] [`hentai`] [`ios`] [`picacg`] [`picacomic`] [`r-18`]  
   一个基于Web的漫画阅读器，主要用于浏览和管理本地或远程的漫画资源，支持多种格式和自定义源，提供流畅的阅读体验和离线缓存功能，适合个人化漫画收藏与观看。

@@ -1,12 +1,12 @@
 # NaN 仓库
 
-- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★311280 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
+- [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) ★311282 [`awesome`] [`awesome-list`] [`cloud`] [`free-software`] [`hosting`] [`privacy`] [`self-hosted`] [`selfhosted`]  
   提供一系列可在本地服务器部署的开源软件推荐列表，涵盖文件存储、媒体管理、生产力工具、通信服务等多个领域，帮助个人和组织实现数据自主可控，替代主流商业云服务，支持隐私保护和自定义部署需求。
 - [996icu/996.ICU](https://github.com/996icu/996.ICU) ★276569  
   用于汇总和传播关于互联网行业超时加班现象的信息，收录企业与开发者对“996”工作制的公开信、法律分析、媒体报道和抗议活动记录，并为愿意支持劳动权益的开发者提供参与入口。该仓库在国内外开发者社区引发广泛讨论，成为反映中国科技行业工作强度与劳工权益议题的公共样本。通常适合用来了解该事件背景、相关企业态度以及开源社区的反应，也可作为研究职场文化与劳动法规的参考资料。
 - [justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN) ★118204 [`android`] [`angular`] [`books`] [`free`] [`ios`] [`javascript`] [`kotlin`] [`pdf`] [`programming`] [`python`] [`react`] [`react-native`] [`swift`] [`vue`]  
   收录大量中文编程学习资源的仓库，涵盖多语言、前后端、算法、数据库等方向，以免费图书、教程和公开课为主。适合自学编程者按图索骥查找资料，也适合开发者作为技术书单参考。资源持续更新，由社区维护，覆盖从入门到进阶的经典内容，可配合在线电子书或代码实践使用。
-- [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ★101600 [`chinese`] [`cookbook`] [`cooking`] [`dishes`] [`recipes`]  
+- [Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook) ★101601 [`chinese`] [`cookbook`] [`cooking`] [`dishes`] [`recipes`]  
   一个开源的烹饪指南项目，主要通过代码化食谱的方式教用户学习编程与烹饪的结合，以幽默易懂的形式帮助初学者掌握编程概念，适合对编程和生活技巧感兴趣的入门者参考与实践。
 - [ruanyf/weekly](https://github.com/ruanyf/weekly) ★99553  
   用于组织和管理每周技术文章推送的开源项目，主要包含 Web 开发领域教程、工具更新和行业动态等内容，适合前端开发者学习与参考。
@@ -22,7 +22,7 @@
   用于读写电子表格的JavaScript库，支持Excel、CSV等格式，适用于浏览器和Node.js环境，提供数据导入导出、格式转换、公式计算等功能，常用于Web应用的数据处理场景。
 - [ziadoz/awesome-php](https://github.com/ziadoz/awesome-php) ★32641 [`awesome`] [`awesome-lists`] [`php`] [`php-applications`] [`php-framework`] [`php-installation`] [`php-library`]  
   这份资源清单汇总了 PHP 生态中精选的框架、库、工具与最佳实践，按功能分类整理，方便开发者快速查找适合的现成组件。主要服务于 Web 开发、命令行应用、性能优化、安全防护、测试调试等场景，能帮助避免重复造轮子，也适合用于技术选型或发现新的开源项目。无论初学者还是资深工程师，都能从中找到可参考的 PHP 解决方案与学习资源。
-- [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) ★31918 [`aria2`] [`aria2-format-tracker`] [`bittorrent`] [`bittorrent-trackers`] [`qbittorrent`] [`torrent`] [`torrent-tracker`] [`tracker`] [`trackers`] [`trackerslist`] [`utorrent`]  
+- [XIU2/TrackersListCollection](https://github.com/XIU2/TrackersListCollection) ★31917 [`aria2`] [`aria2-format-tracker`] [`bittorrent`] [`bittorrent-trackers`] [`qbittorrent`] [`torrent`] [`torrent-tracker`] [`tracker`] [`trackers`] [`trackerslist`] [`utorrent`]  
   一个收集和维护可用 BitTorrent 赘 tracker 服务器列表的开源项目，主要用于提升种子文件的下载速度和连接性能，适合需要优化 BT 下载体验的用户和工具集成。
 - [Binaryify/NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi) ★30273 [`api`] [`apis`] [`cloudmusic`] [`javascript`] [`neteasecloud`] [`nodejs`]  
   提供网易云音乐的非官方 Node.js API 接口封装，能够模拟客户端请求，实现对音乐搜索、歌单详情、歌曲播放地址获取、用户信息、评论以及排行榜等常用功能的调用。主要用于个人开发或学习场景，帮助构建自定义的音乐客户端、命令行工具或自动化脚本，适合需要在不使用官方 SDK 的情况下快速获取网易云音乐数据的技术项目。
@@ -44,7 +44,7 @@
   用于围绕 Telegram 群组提供信息整合与访问便利，核心场景通常是将分散的公开群组链接按主题分类、筛选或汇总，方便用户快速检索并加入相关社群。也可用于群组运营数据的基础整理，适合社群运营者、内容分发者以及有跨群组交流需求的用户。由于仓库信息有限，具体功能模块和运行方式建议结合源码或说明文档进一步确认。
 - [judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial) ★22077 [`android-studio`] [`clion`] [`datagrip`] [`gogland`] [`intellij`] [`intellij-idea`] [`java`] [`jetbrains`] [`phpstorm`] [`pycharm`] [`rubymine`] [`tutorial`] [`webstorm`]  
   面向中文开发者的 IntelliJ IDEA 使用教程，系统讲解这款 Java IDE 的安装、环境配置、常用快捷键、代码调试、版本控制集成以及插件生态等核心内容。通常适合刚开始使用 IDEA 的初学者，也适合希望掌握更高效开发技巧的编程人员，按专题逐步深入，能帮助解决日常编码中遇到的工具使用问题，提升开发效率。内容组织清晰，多基于实际开发场景展开。
-- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) ★21806  
+- [zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization) ★21805  
   该项目主要用于人体系统优化相关研究，结合生物力学、运动科学与数据建模，对人体动作、姿态或健康指标进行分析与优化，适用于康复训练、运动表现提升或人机交互设计等场景，通过算法与系统集成实现个性化干预方案。
 - [SocialSisterYi/bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) ★20241  
   该项目整理了B站（bilibili）的开放API接口文档，主要用于帮助开发者了解和接入B站的开放平台服务，涵盖用户、视频、直播、评论等多个模块的接口调用方式，适用于第三方应用集成B站社交与内容功能。
@@ -64,7 +64,7 @@
   一个精选的低代码相关工具和资源集合，涵盖低代码平台、可视化搭建、表单配置、流程引擎、前端框架等方向，帮助开发者快速了解低代码技术生态，适合想入门或提升低代码架构能力的技术人员参考使用。
 - [AUK9527/Are-u-ok](https://github.com/AUK9527/Are-u-ok) ★14028  
   用于检测服务或网站是否正常运行的简易监控工具，通过定期发起请求验证可用性，支持自定义检测频率与通知方式，适合个人或团队快速部署以实现轻量级健康检查与状态提醒。
-- [clearw5/Auto.js](https://github.com/clearw5/Auto.js) ★12867 [`android`] [`autojs`] [`automation`] [`javascript`] [`javascript-ide`] [`nodejs`] [`tasker`] [`uiautomator`] [`workflow`]  
+- [clearw5/Auto.js](https://github.com/clearw5/Auto.js) ★12868 [`android`] [`autojs`] [`automation`] [`javascript`] [`javascript-ide`] [`nodejs`] [`tasker`] [`uiautomator`] [`workflow`]  
   面向 Android 平台的自动化脚本工具，使用 JavaScript 编写代码来模拟点击、滑动、输入文本等操作，实现应用自动化和重复任务处理。通常适合用于辅助测试、抢购、批量操作等场景，通过无障碍服务与界面控件交互，能够根据屏幕内容执行动作。该仓库可能是 Auto.js 的社区维护版本或分支，保持类似的功能特性。
 - [mzlogin/awesome-adb](https://github.com/mzlogin/awesome-adb) ★12408 [`android`] [`android-adb`] [`android-debug-bridge`]  
   一个整理 Android 调试桥（ADB）常用命令与实用技巧的精选资源列表，涵盖设备连接、文件传输、应用管理、日志抓取、屏幕录制、模拟输入等高频操作，并附带脚本示例和进阶玩法。通常适合 Android 开发者、测试人员、自动化脚本编写者以及刷机爱好者日常调试和问题排查，能帮助快速查找和掌握高效使用 ADB 的方法。
@@ -105,7 +105,7 @@
 - [qwerty472123/wxappUnpacker](https://github.com/qwerty472123/wxappUnpacker) ★4509  
   主要用于反编译微信小程序打包文件（wxapkg），从中还原页面结构、JavaScript脚本和静态资源，适合需要分析、学习或备份小程序代码的场景，比如研究他人实现思路或恢复丢失的源码。工具基于Node.js，通常在本地运行，需具备一定开发基础。使用时应注意遵守相关法律法规，仅用于合法授权范围内的研究。
 - [ruicky/jd_sign_bot](https://github.com/ruicky/jd_sign_bot) ★4371  
-  用于自动签到京东账户的Python脚本，支持通过GitHub Actions定时运行，可实现每日自动领取京豆等任务，配置简单，适合希望自动化管理京东账号福利的用户。
+  基于 GitHub Actions 的京东自动签到工具，主要用于定时执行京东商城签到、领京豆等日常任务，减轻手工操作负担。它通过调用京东移动端接口实现自动化，用户需要获取并配置自己的京东 Cookie，再按项目说明部署到仓库中，由定时触发器驱动脚本运行。适合希望稳定获取京豆、又不想每天手动操作的京东用户。项目基于 Python 实现，通常需要用户自行 Fork 仓库并设置安全变量，属于典型的个人自动化部署方案，对有一定动手能力的人较为友好。Cookie 可能定期失效，使用中需要留意更新。
 - [AttemptD/AfuseKt-release](https://github.com/AttemptD/AfuseKt-release) ★4311  
   一个基于 Kotlin 实现的 A* 路径搜索算法库，主要用于游戏开发或地图寻路场景，提供简洁的 API 用于计算二维网格中的最短路径，支持自定义障碍物与移动成本，适用于 Android 或 JVM 平台的桌面应用。
 - [KHwang9883/MobileModels](https://github.com/KHwang9883/MobileModels) ★4272  
@@ -118,7 +118,7 @@
   StarRTC Android Demo 是一个基于 StarRTC 实时通信 SDK 的 Android 应用示例，主要用于展示语音通话、视频通话、即时消息等实时通信功能的集成与实现方式，帮助开发者快速在 Android 平台上构建音视频通话应用。
 - [pingfangx/jetbrains-in-chinese](https://github.com/pingfangx/jetbrains-in-chinese) ★3650 [`androidstudio`] [`chinese`] [`chinese-translation`] [`clion`] [`goland`] [`intellijidea`] [`jetbrains`] [`phpstorm`] [`pycharm`] [`rubymine`] [`webstorm`]  
   用于给 JetBrains 全家桶集成开发环境（如 IntelliJ IDEA、PyCharm、WebStorm、GoLand 等）提供简体中文语言支持。通过安装插件或本土化语言包，可将主界面、菜单、设置窗口及常用对话框翻译为中文，降低英文界面带来的操作门槛。适合希望保留原生 IDE 功能但习惯中文环境的开发者，也适合团队统一汉化部署。项目随 JetBrains 版本更新同步适配，用户可通过插件市场或手动下载语言包安装使用。
-- [dweinstein/awesome-frida](https://github.com/dweinstein/awesome-frida) ★3508 [`android`] [`awesome`] [`dynamic-analysis`] [`frida`] [`hooking`] [`ios`] [`r2frida`]  
+- [dweinstein/awesome-frida](https://github.com/dweinstein/awesome-frida) ★3507 [`android`] [`awesome`] [`dynamic-analysis`] [`frida`] [`hooking`] [`ios`] [`r2frida`]  
   一个精选的 Frida 工具和资源集合，主要用于动态 instrumentation 和逆向工程，包含脚本、插件、教程和实战案例，适合移动安全、二进制分析和渗透测试领域开发者使用。
 - [MZCretin/RollToolsApi](https://github.com/MZCretin/RollToolsApi) ★3477 [`api`]  
   RollToolsApi 是一个基于 .NET 5 开发的工具类 API 服务，主要用于提供日常开发中常见的公共方法封装，如随机字符串生成、时间处理、加密解密、网络请求等，便于开发者快速集成和调用，提升开发效率。
@@ -145,7 +145,7 @@
 - [aardio/ImTip](https://github.com/aardio/ImTip) ★2600 [`aardio`] [`ime`] [`imtip`] [`input-method`] [`input-method-editor`] [`win32`] [`windows`] [`windows10`]  
   ImTip 是 aardio 开发的一个用于实现输入法状态栏提示的轻量级库，主要用于在桌面应用程序中显示输入法切换提示，增强用户输入体验，适合需要自定义输入法交互的 aardio 项目集成。
 - [zqjzqj/mtSecKill](https://github.com/zqjzqj/mtSecKill) ★2581  
-  用于秒杀系统的技术实现，主要基于Java与SpringBoot框架，结合Redis实现缓存优化，并使用了分布式锁等机制来保障高并发场景下的数据一致性，通常适用于电商类应用中的限时抢购功能开发参考。
+  用于美团平台秒杀场景的自动化辅助工具，主要解决手动抢购时网络延迟和操作速度不足的问题。通过预先配置商品信息和抢购时间，在开售瞬间以高频率请求或自动操作方式提交订单，提升成功率。适用于限量商品、秒杀活动、优惠券领取等需要拼手速的场景，通常需要结合抓包获取接口参数，并支持多账号或定时任务。工具本身不保证一定成功，使用时需注意平台风控和账号安全。
 - [fython/BilibiliAPIDocs](https://github.com/fython/BilibiliAPIDocs) ★2518 [`bilibili-api`] [`documentation`]  
   整理并维护哔哩哔哩非官方 API 接口文档，涵盖视频、用户、评论、弹幕、动态等常见数据接口的请求方式与参数说明，主要供开发者快速查阅接口路径、鉴权方式和返回结构，用于开发B站相关的工具、爬虫、数据分析和自动化脚本。文档通常基于社区逆向分析成果，适合需要对接B站开放能力但缺乏官方文档支持的场景，能够帮助减少接口调试成本，但使用时需注意接口可能随平台更新而变化。
 - [yhan219/navicat_reset_mac](https://github.com/yhan219/navicat_reset_mac) ★2365 [`navicat`] [`navicat-keygen`] [`navicat-reset`]  
@@ -195,13 +195,13 @@
 - [wsldl-pg/CentWSL](https://github.com/wsldl-pg/CentWSL) ★1141 [`centos`] [`windows-10`] [`windows-subsystem-linux`] [`wsl`]  
   CentWSL 是一个基于 WSL（Windows Subsystem for Linux）的 CentOS 发行版，旨在为 Windows 用户提供一个轻量级、开箱即用的 CentOS 环境。主要用于在 Windows 上便捷运行 CentOS 命令行工具、开发环境搭建及服务器应用本地测试，适合需要与生产环境保持一致的开发者或运维人员使用。
 - [xdmjun/mp-unpack](https://github.com/xdmjun/mp-unpack) ★1080  
-  用于解包和分析微信小程序的工具，支持提取和解析小程序包（如 .wxapkg 文件），方便开发者研究小程序结构、资源文件和代码逻辑，主要用于小程序逆向分析和学习。
+  用于解包微信小程序编译生成的 wxapkg 文件，将二进制打包内容还原为接近开发时的源码结构，包括页面、组件、样式和逻辑代码。主要面向开发者对小程序做逆向分析、安全审计或学习研究，帮助定位程序实现细节，也适合分析竞品小程序的功能架构。操作对象通常为本地缓存或抓包获得的小程序包文件，使用时需遵守相关协议的授权与合规要求。
 - [fancyapps/ui](https://github.com/fancyapps/ui) ★1078 [`carousel`] [`fancybox`] [`gallery`] [`javascript`] [`lightbox`] [`panzoom`]  
   Fancybox 是一个用于展示图片、视频、iframe 内容的轻量级响应式灯箱组件，支持触摸滑动、缩放、全屏等功能，适用于现代网页开发中的多媒体内容查看场景。
 - [JaredCubilla/sublime](https://github.com/JaredCubilla/sublime) ★1070  
   一个为 Sublime Text 编辑器定制的现代化主题，提供简洁优雅的界面风格与优化的语法高亮显示，主要用于提升代码阅读与编辑的视觉体验，支持多种编程语言并可高度个性化配置，适合追求高效与美观的开发者使用。
 - [kallydev/privacy](https://github.com/kallydev/privacy) ★1054 [`privacy`]  
-  一个专注于隐私保护的开源工具集，主要用于帮助用户在数字环境中更好地管理个人数据、增强在线隐私防护能力，提供简单易用的隐私检测与安全配置功能，适合注重数据安全的个人和开发者使用。
+  用于隐私保护和数据脱敏的开源项目，面向开发者与业务系统，主要在日志记录、测试数据生成和用户信息处理等环节中自动识别并遮蔽敏感内容，防止个人信息泄露。其核心能力通常包括敏感类型检测、掩码替换和匿名化处理，并提供规则配置以适配不同数据格式和使用场景。适合需要处理用户数据并满足合规要求的产品，如后台管理、数据分析平台等，具有接入简单、依赖轻量等特点。
 - [tech-shrimp/me](https://github.com/tech-shrimp/me) ★977  
   一个专注于技术分享与个人成长的开源项目，主要用于收集整理编程技巧、开发工具和学习资源，适合开发者参考和复用常见技术解决方案。
 - [jk2024988/TV2024](https://github.com/jk2024988/TV2024) ★932  
@@ -299,7 +299,7 @@
 - [gitbenxing/anti-content](https://github.com/gitbenxing/anti-content) ★79  
   用于检测和防御网站内容篡改及恶意内容注入的工具，通过监控页面实际渲染内容与预期一致性和识别异常脚本行为，防范供应链污染、中间人攻击等导致的前端内容劫持，适用于对前端安全要求较高的业务场景。
 - [HellyW/Bark-MP-helper](https://github.com/HellyW/Bark-MP-helper) ★68  
-  用于辅助 Bark-MP 项目的工具脚本，主要提供消息推送配置优化、批量处理及调试支持，帮助用户更高效地管理和使用 Bark-MP 的消息推送服务，适用于自动化通知场景的便捷扩展。
+  用于配合 Bark 推送服务，简化媒体播放相关通知的生成和发送。主要解决在 iPhone 上及时查看播放器状态、歌曲信息或自定义控制提醒的需求，适合与快捷指令、自动化脚本或第三方播放器集成。通过轻量配置即可构造通知内容，降低手动编写请求的成本。
 - [cuikaipeng/IPTV](https://github.com/cuikaipeng/IPTV) ★67  
   提供全球多个国家和地区的IPTV频道列表，支持m3u格式导入，适用于智能电视、手机和盒子等设备，方便用户免费观看直播电视，涵盖体育、影视、新闻等多种类型频道，持续更新维护。
 - [dickmoore03/NirSoft](https://github.com/dickmoore03/NirSoft) ★66 [`dickmoore`] [`nirlauncher`] [`nirsoft`]  
@@ -321,7 +321,7 @@
 - [zqs1qiwan/laobaitv](https://github.com/zqs1qiwan/laobaitv) ★16  
   laobaitv 是一个基于 Node.js 的视频聚合爬虫项目，主要用于抓取多个视频网站的资源并整合播放，支持自定义数据源和番剧信息管理，适合搭建个人视频站或追番工具，具备定时更新和 API 接口功能。
 - [Carlos6668/TCShare-1](https://github.com/Carlos6668/TCShare-1) ★7  
-  TCShare 是一个用于分享和管理技术文档、学习笔记等内容的开源平台，支持用户协作编辑、分类管理和在线预览，主要用于提升团队知识共享效率，适合技术团队或学习小组搭建内部知识库。
+  TCShare-1 主要用于搭建基于对象存储的轻量级文件分享站点，通过 Serverless 平台把存储桶中的内容映射为在线目录，提供文件浏览与直链下载功能。它适合个人网盘、资源分发、软件镜像等场景，无需维护传统服务器，即可借助云存储的弹性带宽应对访问流量。该工具通常搭配腾讯云 COS 等对象存储服务使用，核心优势在于成本低、部署简便，能够快速构建高可用分享服务，适合技术个人或小团队自建私有存储分享方案。
 - [ckbkdj/sms-boom](https://github.com/ckbkdj/sms-boom) ★1  
   该项目主要用于模拟短信轰炸机功能，常见于压力测试或安全验证场景，通过批量发送短信验证请求来测试系统防护能力，通常适用于开发者评估接口防刷机制，但需注意不得用于非法攻击或扰民行为。
 - [doranbai/Note](https://github.com/doranbai/Note) ★1  

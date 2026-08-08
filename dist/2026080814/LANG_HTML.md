@@ -1,6 +1,6 @@
 # HTML 仓库
 
-- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★131294 [`awesome-list`] [`free-for-developers`]  
+- [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev) ★131295 [`awesome-list`] [`free-for-developers`]  
   提供一系列对开发者和小型企业完全免费的软件和服务，涵盖开发工具、监控、CI/CD、API 服务等多个领域，旨在帮助个人开发者和初创团队降低技术成本，通过精心筛选的高质量免费资源提升开发效率和项目能力。
 - [vernesong/OpenClash](https://github.com/vernesong/OpenClash) ★27015 [`clash`] [`luci`] [`mihomo`] [`openclash`] [`openwrt`] [`shadowsocks`] [`snell`] [`v2ray`] [`vmess`]  
   OpenClash 是一个基于 Clash 内核的开源代理工具，主要用于 OpenWrt 路由器系统，提供强大的广告过滤和流量管理功能，支持多种代理协议和灵活的规则配置，适合需要精细化网络控制的用户。
@@ -26,7 +26,7 @@
   用于改善中文网页排版的基础样式库，提供标题、段落、列表、引用、代码等元素的一致化设计，适合博客、文档、内容型网站快速搭建规范化的文本阅读体验。通过简洁的 CSS 类名和应用默认样式，解决不同浏览器下中文排版差异大、阅读节奏不统一的问题，通常只需引入文件或覆盖变量即可适配现有项目。
 - [pingfangx/TranslatorX](https://github.com/pingfangx/TranslatorX) ★4464 [`androidstudio`] [`chinese`] [`chinese-translation`] [`clion`] [`goland`] [`intellijidea`] [`jetbrains`] [`phpstorm`] [`pycharm`] [`rubymine`] [`webstorm`]  
   用于汉化 JetBrains 系列 IDE 的中文语言包项目，覆盖 IntelliJ IDEA、PyCharm、WebStorm、Android Studio 等主流开发工具。通过安装对应翻译文件，可将界面菜单、对话框和提示信息转为简体中文，降低非英语用户的上手门槛，适合希望使用原生中文界面进行开发的程序员。安装通常只需将下载的 jar 包放入 IDE 的 lib 目录并重启。
-- [TransparentLC/WechatMomentScreenshot](https://github.com/TransparentLC/WechatMomentScreenshot) ★4358  
+- [TransparentLC/WechatMomentScreenshot](https://github.com/TransparentLC/WechatMomentScreenshot) ★4357  
   用于生成微信朋友圈截图的工具，支持自定义头像、昵称、时间和内容，可制作文字、图片、点赞和评论等元素，适用于模拟社交场景或测试用途。
 - [xfirefly/Airplay-SDK](https://github.com/xfirefly/Airplay-SDK) ★3994 [`airplay`] [`airplay-receiver`] [`android`] [`dlna`] [`windows`]  
   该SDK为开发者提供AirPlay协议实现能力，主要用于让非苹果设备（如智能电视、机顶盒、音箱）接收并播放来自iPhone、iPad等苹果设备的音频和视频流，支持屏幕镜像与媒体推送。通常适合需要快速集成AirPlay接收端功能的硬件产品或软件方案，用于解决跨系统设备间的内容投屏与互联问题。其技术实现涉及网络发现、媒体传输和播放控制等环节，实际使用时需结合具体硬件环境进行适配与优化。
@@ -47,7 +47,7 @@
 - [thinkcmf/thinkcmf](https://github.com/thinkcmf/thinkcmf) ★2157  
   ThinkCMF 是一个基于 ThinkPHP 开发的内容管理框架，主要用于快速构建具有CMS功能的网站应用。它集成了门户、用户中心、后台管理等模块，支持插件化扩展和主题切换，适用于搭建论坛、企业站、资讯站等各类中小型网站，提升开发效率并降低维护成本。
 - [sindresorhus/devtools-detect](https://github.com/sindresorhus/devtools-detect) ★2137  
-  检测开发者工具是否打开的轻量级 JavaScript 库，主要用于防止用户通过审查元素等方式绕过前端限制，适合需要保护网页内容或实现反作弊的场景，兼容主流浏览器且使用简单。
+  用于检测浏览器开发者工具（DevTools）是否处于打开状态的轻量级JavaScript工具，通常适合需要根据调试行为调整页面逻辑、防止用户查看源代码或辅助开发调试的场景。它通过分析窗口尺寸、元素布局等特征变化来识别DevTools的开启与关闭，并允许开发者监听这一状态的实时切换，以便在页面中触发对应的响应。该库设计简洁，不依赖复杂框架，可快速集成到普通网页或前端项目中使用。
 - [xisohi/CHINA-IPTV](https://github.com/xisohi/CHINA-IPTV) ★1677  
   提供实时更新的IPTV直播源，主要用于整合中国大陆地区的电视频道直播链接，支持多种播放器和设备，方便用户观看央视、卫视及地方台节目，适合需要稳定高清直播源的场景。
 - [mzlogin/mzlogin.github.io](https://github.com/mzlogin/mzlogin.github.io) ★1660 [`beaudar`] [`blog`] [`blog-theme`] [`giscus`] [`github-pages`] [`jekyll`] [`jekyll-theme`] [`jekyll-themes`] [`template-project`] [`template-repository`] [`utterances`]  
@@ -67,7 +67,7 @@
 - [jserme/mahua](https://github.com/jserme/mahua) ★1094  
   一款开源的在线 Markdown 编辑器，用于在网页中编写和预览格式化文档。它支持实时渲染 Markdown 语法，并提供代码高亮、列表、表格等常见排版能力，通常适合博客写作、笔记记录、技术文档快速编辑等场景。整个项目以浏览器端实现为主，无需后端服务配合，部署后可通过任意现代浏览器访问，适合个人维护或轻量团队共享。该项目核心围绕 Markdown 的编辑体验，强调简洁与易用，对前端使用者较为友好，也可作为学习 Web 富交互的参考实现。
 - [MoeClub/OneList](https://github.com/MoeClub/OneList) ★1079  
-  用于快速生成网页目录列表的工具，支持多存储后端挂载，可一键部署为静态文件索引站，适合个人网盘、文件分享等场景，基于Golang开发，体积小，配置灵活。
+  用于将微软 OneDrive、SharePoint 等云存储内容映射为简约的网页目录，访客无需登录即可浏览和下载文件。通过授权账号并调用云存储 API，工具自动同步文件结构，生成带直链的在线列表，适合个人文件分享、资源发布或团队内部资料分发。该项目省去了搭建传统网盘的高成本，部署简单、界面清爽，非常适合需要轻量级文件展示的场景。通常可自托管到服务器，也能利用云端函数快速运行，是自建文件导航常见的开源方案。
 - [fate0/proxylist](https://github.com/fate0/proxylist) ★981 [`freeproxy`] [`getproxy`] [`proxy`] [`proxy-list`] [`proxylist`]  
   用于采集并验证免费代理的可用性，自动从多个公开数据源获取代理地址，并发测试其连接速度和协议支持，筛掉失效条目后生成干净列表。输出格式友好，支持定制筛选条件，便于引入爬虫或抓取工具作为代理池。通常通过命令行运行或作为Python模块使用，适合需要大量匿名IP的场景。
 - [hit9/img2txt](https://github.com/hit9/img2txt) ★957  
@@ -93,7 +93,7 @@
 - [hax0r31337/JSDec](https://github.com/hax0r31337/JSDec) ★249 [`decode`] [`js`]  
   JSDec 是一个用于 JavaScript 代码混淆保护与逆向分析的工具，主要用于解密和还原经过混淆加密的 JS 脚本，帮助开发者调试、理解和分析高度混淆的代码，适用于逆向工程、安全审计和代码恢复等场景。
 - [iiiiiii1/CTList](https://github.com/iiiiiii1/CTList) ★229  
-  CTList 是一个用于管理和展示 CT（计算机断层扫描）检查项目列表的工具，主要用于医疗影像数据的分类、检索和可视化，帮助医疗机构高效处理和跟踪患者的 CT 检查记录，适用于医院影像科、体检中心等场景。
+  CTList 主要解决云端文件展示与分享问题，能把网盘或对象存储中的目录结构映射为网页列表，访客通过浏览器即可浏览和直接下载文件。通常部署在无服务器平台或轻量服务器上，适合个人站长、资源分享者搭建免数据库的文件分享页，也常用于内部团队共享资料。它配置灵活，是替代网盘官方界面的轻量实用工具。
 - [yutao8/starred](https://github.com/yutao8/starred) ★167 [`api`] [`crawler`] [`github`] [`gpt`] [`iptv`] [`php`] [`python`] [`script`] [`sdk`] [`shell`] [`spider`] [`star`]  
   一个用于收藏和管理 GitHub 上星标项目的工具，帮助用户高效整理开源资源，支持分类、搜索和同步功能，便于发现和回顾优质代码库。
 - [JSREI/jQuery-hook](https://github.com/JSREI/jQuery-hook) ★145 [`jquery`] [`js-reverse`] [`web-security-research`]  

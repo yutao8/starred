@@ -2,11 +2,11 @@
 
 - [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) ★195006  
   claw-code 是一个用于生成和管理验证码的工具库，主要用于图像识别测试、自动化任务中的验证码处理场景，支持多种编码格式和自定义扩展，适用于需要高效处理视觉验证码的爬虫或自动化系统。
-- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★125524 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`grok`] [`grokbuild`] [`hermes`] [`hermes-agent`] [`mcp`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
+- [farion1231/cc-switch](https://github.com/farion1231/cc-switch) ★125530 [`ai-tools`] [`claude-code`] [`codex`] [`desktop-app`] [`grok`] [`grokbuild`] [`hermes`] [`hermes-agent`] [`mcp`] [`open-source`] [`openclaw`] [`openclaw-ui`] [`opencode`] [`provider-management`] [`rust`] [`skills`] [`skills-management`] [`tauri`] [`typescript`] [`wsl-support`]  
   一个轻量级的用户脚本工具，主要用于在网页中快速切换和管理不同的自定义脚本配置，支持便捷的开关控制与版本管理，适合需要频繁调试或切换脚本环境的用户使用。
-- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★119869 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
+- [rustdesk/rustdesk](https://github.com/rustdesk/rustdesk) ★119870 [`android`] [`anydesk`] [`dart`] [`flatpak`] [`flutter`] [`flutter-apps`] [`ios`] [`linux`] [`macos`] [`p2p`] [`rdp`] [`remote-control`] [`remote-desktop`] [`rust`] [`rust-lang`] [`teamviewer`] [`vnc`] [`wayland`] [`windows`]  
   RustDesk 是一个开源的远程桌面软件，用于替代 TeamViewer、AnyDesk 等商业解决方案。它支持跨平台远程访问，允许用户通过互联网安全地连接和控制其他设备，主要用于远程技术支持、设备维护和远程办公场景。
-- [openai/codex](https://github.com/openai/codex) ★104693  
+- [openai/codex](https://github.com/openai/codex) ★104694  
   Codex 是 OpenAI 开发的 AI 模型，主要用于将自然语言转换为编程代码，支持多种编程语言，可集成到开发工具中辅助编写、调试和解释代码，提升开发效率。
 - [zed-industries/zed](https://github.com/zed-industries/zed) ★88238 [`gpui`] [`rust-lang`] [`text-editor`] [`zed`]  
   Zed 是一个高性能的代码编辑器，主打低延迟和流畅的协作体验，适用于大型项目开发，支持多人实时协作编辑，具备强大的语法解析和类型感知功能，通常适合需要快速响应和高效编码的程序员使用。
@@ -20,7 +20,7 @@
   一款主打易用和交互体验的命令行 shell，用语法高亮、实时自动补全、友好的错误提示和可搜索的历史记录降低新手使用门槛，也提供脚本语法和 Web 界面配置，适合需要频繁操作终端、追求开箱即用配置而无需繁琐定制脚本的开发者与系统管理员。
 - [TabbyML/tabby](https://github.com/TabbyML/tabby) ★33822 [`ai`] [`codegen`] [`coding-assistant`] [`coding-language`] [`developer-experience`] [`developer-tools`] [`gen-ai`] [`ide`] [`llms`]  
   TabbyML/tabby 是一个开源的 AI 代码补全工具，支持在本地运行，提供类似 GitHub Copilot 的功能。它允许开发者通过自托管方式实现代码自动补全，支持多种编程语言和编辑器集成，注重隐私保护与低延迟响应，适合个人和团队在安全环境中使用。
-- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) ★30329 [`account-manager`] [`antigravity`]  
+- [lbjlaq/Antigravity-Manager](https://github.com/lbjlaq/Antigravity-Manager) ★30330 [`account-manager`] [`antigravity`]  
   用于管理和配置反重力设备的工具，提供设备监控、参数调整和故障诊断功能，通常适用于实验性物理环境或科幻场景中的反重力系统管理。
 - [oldj/SwitchHosts](https://github.com/oldj/SwitchHosts) ★27025 [`electron`] [`hosts`] [`hostseditor`] [`hostsfile`] [`switch-hosts`] [`switchhosts`]  
   SwitchHosts 是一款跨平台的 hosts 文件管理工具，主要解决开发或测试中需要频繁切换不同 hosts 配置的问题。它支持将多套 hosts 方案分组保存，并根据场景快速启用或停用，免去手动编辑系统 hosts 文件的麻烦。用户既可以维护本地规则，也能导入远程配置，适合前端开发、接口调试、本地域名映射或临时访问特定环境时使用。该工具覆盖 Windows、macOS 和 Linux 等主流操作系统，界面直观，操作简单。
@@ -49,7 +49,7 @@
 - [0x676e67/ninja](https://github.com/0x676e67/ninja) ★1677 [`ai`] [`chat`] [`chatgpt`] [`docker`] [`openai`] [`proxy`] [`rust`] [`server`]  
   一个轻量级、高效的构建系统，主要用于快速编译和管理大型C/C++项目，通过最小化解析和并行构建提升编译速度，适合与CMake等工具配合使用，降低项目构建时间。
 - [PoloDB/PoloDB](https://github.com/PoloDB/PoloDB) ★1224 [`cross-platform`] [`database`] [`document-database`] [`embedded-database`] [`localfirst`] [`nosql`] [`rust`]  
-  PoloDB 是一个轻量级的本地文档数据库，主要用于在 Go 语言项目中实现简单的数据持久化，适合小型应用或原型开发，支持基于 JSON 的文档存储和查询，具有易用、零依赖、嵌入式运行的特点。
+  PoloDB是一款用Rust编写的嵌入式文档数据库，让应用程序无需额外运行数据库服务即可直接存储和查询JSON文档。它提供类似MongoDB的灵活数据模型和查询能力，同时具备嵌入式库的轻量、高效与跨平台特性。通常适合桌面软件、移动应用或边缘设备等需要在本地保存结构化数据、并追求部署简单和离线可用的场景。由于基于Rust实现，在性能和内存安全方面也有较好保障。
 - [rust-net/remote-bind](https://github.com/rust-net/remote-bind) ★344 [`ipv4`] [`nat`] [`p2p`] [`quic`] [`relay`] [`tcp`]  
   用于Rust的远程绑定工具，主要实现跨网络的资源绑定与通信，支持在分布式环境中安全高效地管理远程对象引用，适用于需要远程过程调用或分布式内存管理的场景。
 - [djkato/m0nkrus-adobe-tracker](https://github.com/djkato/m0nkrus-adobe-tracker) ★252 [`adobe`] [`m0nkrus`] [`monkrus`] [`torrent`]  

@@ -1,20 +1,20 @@
 # Python 仓库
 
-- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★454993 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
+- [public-apis/public-apis](https://github.com/public-apis/public-apis) ★454995 [`api`] [`apis`] [`dataset`] [`development`] [`free`] [`list`] [`lists`] [`open-source`] [`public`] [`public-api`] [`public-apis`] [`resources`] [`software`]  
   整理并分类收录了大量免费开放的公共 API 接口，涵盖音频、金融、游戏、新闻、天气等多个领域，并提供检索与筛选功能。开发者可以在开发原型、构建应用或学习实践时，快速查找替代自建服务的第三方接口，避免重复造轮子，特别适合需要快速验证想法、获取示例数据或集成外部功能的场景。该列表通常按类别、认证方式等组织，帮助用户评估选项并选择合适的公共数据源。
-- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★393955 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
+- [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) ★393957 [`books`] [`education`] [`hacktoberfest`] [`list`] [`resource`]  
   整理并持续更新海量免费编程学习资源的合集，涵盖多种语言和技术栈的电子书、教程、课程与在线材料，适合自学者、学生和开发者按需检索。该仓库以社区维护的清单形式组织，通常按编程语言、框架、主题分类，方便快速定位入门或进阶资料，尤其适合希望不花钱获取优质技术内容、系统学习编程或查找特定领域参考文档的人群。
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★227165 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) ★227172 [`ai`] [`ai-agent`] [`ai-agents`] [`anthropic`] [`chatgpt`] [`claude`] [`claude-code`] [`clawdbot`] [`codex`] [`hermes`] [`hermes-agent`] [`llm`] [`moltbot`] [`nous-research`] [`openai`] [`openclaw`]  
   一个基于推理的AI代理框架，专注于通过结构化思维链和动态决策优化复杂任务执行，支持工具调用、环境交互与自主目标分解，适用于自动化推理、智能体协作和闭环任务处理场景。
-- [microsoft/markitdown](https://github.com/microsoft/markitdown) ★172268 [`autogen`] [`autogen-extension`] [`langchain`] [`markdown`] [`microsoft-office`] [`openai`] [`pdf`]  
+- [microsoft/markitdown](https://github.com/microsoft/markitdown) ★172269 [`autogen`] [`autogen-extension`] [`langchain`] [`markdown`] [`microsoft-office`] [`openai`] [`pdf`]  
   用于将 Markdown 文件转换为结构化数据的工具，支持从文档中提取标题、列表、代码块等内容并输出为 JSON 等格式，便于后续处理与分析，适用于文档解析、数据抽取和自动化工作流场景。
-- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★169730 [`awesome`] [`github`] [`hellogithub`] [`python`]  
+- [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) ★169732 [`awesome`] [`github`] [`hellogithub`] [`python`]  
   HelloGitHub 是一个分享开源项目的平台，主要推荐 GitHub 上有趣、入门级的开源项目，帮助开发者和编程爱好者发现优质资源、学习新技术。内容涵盖多种编程语言和开发领域，适合不同水平的用户参与和贡献。
-- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ★140895  
+- [ytdl-org/youtube-dl](https://github.com/ytdl-org/youtube-dl) ★140894  
   youtube-dl 是一款命令行视频下载工具，主要用于从 YouTube 及其他众多网站抓取视频和音频内容。它适合需要批量下载、离线观看或提取音频的用户，通过简单指令即可选择画质与格式，同时支持字幕和元数据获取。该工具基于 Python 开发，常被嵌入脚本或服务器流程中，解决在线媒体不便直接保存的问题。
 - [deepseek-ai/DeepSeek-V3](https://github.com/deepseek-ai/DeepSeek-V3) ★104128  
   DeepSeek-V3 是深度求索（DeepSeek）推出的第三代大语言模型，主要用于生成高质量文本，支持复杂推理、编程理解与多轮对话。该模型在数学、代码、自然语言推理等任务上表现优异，适合科研、工程应用与内容创作等场景。
-- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★102140 [`ai-video-generator`] [`content-creation`] [`ffmpeg`] [`instagram-reels`] [`llm`] [`python`] [`short-video`] [`subtitles`] [`text-to-speech`] [`tiktok`] [`video-automation`] [`video-workflow`] [`workflow-automation`] [`youtube-shorts`]  
+- [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) ★102141 [`ai-video-generator`] [`content-creation`] [`ffmpeg`] [`instagram-reels`] [`llm`] [`python`] [`short-video`] [`subtitles`] [`text-to-speech`] [`tiktok`] [`video-automation`] [`video-workflow`] [`workflow-automation`] [`youtube-shorts`]  
   一个基于大语言模型的开源视频创作工具，通过提示词自动生成视频脚本、匹配素材并合成短视频，主要用于批量制作短视频内容，支持中文场景下的自动化视频生产，适用于自媒体运营、营销推广等场景，简化视频创作流程。
 - [nvbn/thefuck](https://github.com/nvbn/thefuck) ★97619 [`python`] [`shell`]  
   thefuck 是一款命令行纠错工具，当你在终端输错命令并得到错误提示后，只需输入 fuck 即可让程序自动分析上一条命令的错误原因，并给出若干可行的修正建议供你选择执行。它内置了丰富的命令错误匹配规则，覆盖拼写错误、缺少 sudo、Git 参数写错、目录不存在等常见场景，也支持用户自定义规则扩展。该工具适合频繁在终端操作、容易打错命令的开发者和运维人员，能够显著减少重复输入正确命令的麻烦，提升日常命令行操作效率。它通常通过包管理器安装并集成到 shell 中，在 Linux、macOS 等类 Unix 环境下使用效果最佳。
@@ -22,7 +22,7 @@
   Home Core 是一个开源的智能家居中枢平台，用于本地化集成和自动化管理各类智能设备。它支持广泛的硬件和协议，实现设备联动、场景控制与远程访问，强调隐私保护与离线运行能力，适用于构建个性化、高可靠的家庭自动化系统。
 - [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) ★88432 [`cli`] [`cti`] [`cybersecurity`] [`forensics`] [`hacktoberfest`] [`information-gathering`] [`infosec`] [`linux`] [`osint`] [`pentesting`] [`python`] [`python3`] [`reconnaissance`] [`redteam`] [`sherlock`] [`tools`]  
   用于搜索并识别社交媒体平台上指定用户名的工具，支持数百个网站，通过发送请求检测账户存在情况，适用于渗透测试与信息收集，帮助用户快速发现目标在各平台的公开账号。
-- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★82334  
+- [fighting41love/funNLP](https://github.com/fighting41love/funNLP) ★82335  
   收录大量自然语言处理相关的工具、数据集、论文与开源代码，覆盖中文分词、情感分析、命名实体识别、预训练模型、文本生成等方向，适合研究者、算法工程师和学习者快速检索所需资源，也常被用作 NLP 技术选型和入门参考。
 - [Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool) ★78832 [`allinonehackingtool`] [`besthackingtool`] [`ctf-tools`] [`ddos-attack-tool`] [`hacker`] [`hacking`] [`linux`] [`password-attack`] [`steganography`] [`web-attack`] [`wireless-attack`] [`xss-attacks`] [`xss-detection`]  
   一个集合了多种渗透测试和网络安全工具的综合性 hacking 工具箱，主要用于信息收集、漏洞扫描、密码破解、网络嗅探等安全测试任务，适合网络安全研究人员和渗透测试人员在授权范围内进行评估与防御加固。
@@ -32,7 +32,7 @@
   Scrapy 是一个用于大规模网页数据抓取的 Python 框架，提供完整的爬虫生命周期管理，包括请求调度、并发下载、数据解析、管道持久化及中间件扩展机制。它自带选择器支持 CSS 和 XPath，并集成日志、去重、限速和分布式部署能力，适合构建结构化采集系统。典型场景涵盖搜索引擎数据源、价格监控、舆情分析及学术数据集构建，解决从规则编写到数据落地的工程化问题。通常与 ScrapyRT、Splash 或 Playwright 配合处理 JavaScript 渲染页面。其插件生态允许定制深度优先爬取、自定义存储格式及反封锁策略，但需注意遵守目标网站 robots 协议与访问频率限制。
 - [sansan0/TrendRadar](https://github.com/sansan0/TrendRadar) ★61264 [`ai`] [`bark`] [`data-analysis`] [`docker`] [`hot-news`] [`llm`] [`mail`] [`mcp`] [`mcp-server`] [`news`] [`ntfy`] [`python`] [`rss`] [`trending-topics`] [`wechat`] [`wework`]  
   TrendRadar 是一个用于实时追踪和分析社交媒体趋势的工具，主要用于监测社交平台上的热门话题、用户情绪和传播路径。它支持多平台数据抓取、可视化展示和趋势预警，帮助用户快速识别网络热点，适用于品牌营销、舆情监控和市场研究等场景。
-- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) ★60590 [`china`] [`indie`] [`indie-developer`]  
+- [1c7/chinese-independent-developer](https://github.com/1c7/chinese-independent-developer) ★60591 [`china`] [`indie`] [`indie-developer`]  
   一个聚焦中国独立开发者的社区项目，主要用于分享本土创业经验、产品开发实践与技术洞察，适合关注中国市场、自主开发及小型团队成长的开发者交流与协作，促进独立开发者生态发展。
 - [NanmiCoder/MediaCrawler](https://github.com/NanmiCoder/MediaCrawler) ★60270  
   用于抓取社交媒体平台内容的自动化工具，支持小红书、抖音等平台的媒体数据采集，可提取图文、视频内容及元数据，便于批量下载和分析，常用于舆情监控、内容聚合和数字营销场景。
@@ -42,9 +42,9 @@
   Umi-OCR 是一款基于 OCR 技术的图片文字识别工具，支持离线使用，可高效提取图像中的文本内容，适用于文档扫描、截图转文字等场景，具有高准确率和多语言支持特性，方便用户快速获取和编辑所需文字信息。
 - [zhayujie/CowAgent](https://github.com/zhayujie/CowAgent) ★46404 [`ai`] [`ai-agent`] [`ai-agents`] [`chatgpt-on-wechat`] [`claude`] [`claude-code`] [`codex`] [`cowagent`] [`deepseek`] [`harness`] [`llm`] [`mcp`] [`multi-agent`] [`openai`] [`openclaw`] [`skills`]  
   一个基于Python的自动化爬虫框架，主要用于简化网络数据采集流程，支持任务分发、代理池管理、数据清洗与存储功能，适用于大规模网页抓取场景，具有良好的扩展性和调度性能。
-- [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44606 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
+- [mitmproxy/mitmproxy](https://github.com/mitmproxy/mitmproxy) ★44607 [`debugging`] [`http`] [`http2`] [`man-in-the-middle`] [`mitmproxy`] [`proxy`] [`python`] [`security`] [`ssl`] [`tls`] [`websocket`]  
   用于拦截、修改和重放网络流量的开源交互式工具，支持 HTTP/HTTPS 协议，可作为代理服务器或 Web 调试代理，帮助开发者调试网络应用、分析请求响应、修改数据或自动化测试，内置图形界面与命令行工具，适合安全测试与网络协议研究。
-- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) ★39750 [`agent`] [`chat`] [`chatgpt`] [`chattts`] [`chinese`] [`chinese-language`] [`english`] [`english-language`] [`gpt`] [`llm`] [`llm-agent`] [`natural-language-inference`] [`python`] [`text-to-speech`] [`torch`] [`torchaudio`] [`tts`]  
+- [2noise/ChatTTS](https://github.com/2noise/ChatTTS) ★39751 [`agent`] [`chat`] [`chatgpt`] [`chattts`] [`chinese`] [`chinese-language`] [`english`] [`english-language`] [`gpt`] [`llm`] [`llm-agent`] [`natural-language-inference`] [`python`] [`text-to-speech`] [`torch`] [`torchaudio`] [`tts`]  
   ChatTTS 是一个专为对话场景设计的文本转语音模型，支持中英文双语，具备自然流畅的语音合成能力，适用于语音助手、有声书生成、对话系统等场景，提供高质量、高自然度的语音输出，可本地部署并支持自定义参数调节。
 - [testerSunshine/12306](https://github.com/testerSunshine/12306) ★34106  
   12306购票助手，用于自动完成车票查询、余票监控、提交订单和验证码识别，通过多线程并发刷票提升抢票成功率。主要面向出行高峰期难以通过官网手动购票的用户，适合在春运等场景下提前设置抢票任务，帮助用户快速锁定剩余车票。项目通常部署在本地服务器或云主机上运行，需要用户预先登录并配置乘车人、日期和车次偏好，操作灵活但依赖网站接口稳定性，适合熟悉命令行和基本网络技术的使用者。
@@ -86,7 +86,7 @@
   WeClone 是一个用于克隆和管理 Git 仓库的工具，主要用于简化从 GitHub 等平台批量复制仓库的过程。它支持一键克隆指定用户或组织下的所有公开仓库，适合需要快速备份或迁移多个项目时使用，通过命令行操作提升高效管理多个仓库的体验。
 - [InstaPy/InstaPy](https://github.com/InstaPy/InstaPy) ★18107 [`automation`] [`bot`] [`clarifai`] [`instagram`] [`python`] [`script`] [`selenium`]  
   InstaPy 是一个基于 Python 的 Instagram 自动化工具，主要用于模拟人工操作完成点赞、关注、取消关注、评论和私信等互动行为。它通过 Selenium 驱动浏览器，支持按标签、地点或用户列表筛选目标，并设置每日操作频率上限以降低账号风险，适合个人品牌运营、社交媒体管理或营销人员批量维护 Instagram 账号。
-- [langbot-app/LangBot](https://github.com/langbot-app/LangBot) ★17328 [`agent`] [`coze`] [`deepseek`] [`dify`] [`dingtalk`] [`discord`] [`feishu`] [`kook`] [`langbot`] [`lark`] [`line`] [`llm`] [`n8n`] [`ollama`] [`openai`] [`plugins`] [`qq`] [`rag`] [`telegram`] [`wechat`]  
+- [langbot-app/LangBot](https://github.com/langbot-app/LangBot) ★17329 [`agent`] [`coze`] [`deepseek`] [`dify`] [`dingtalk`] [`discord`] [`feishu`] [`kook`] [`langbot`] [`lark`] [`line`] [`llm`] [`n8n`] [`ollama`] [`openai`] [`plugins`] [`qq`] [`rag`] [`telegram`] [`wechat`]  
   LangBot 是一个基于大语言模型的聊天机器人应用，主要用于自然语言理解与对话交互，支持自定义技能、多轮对话管理及插件扩展，适用于客服、助手、教育等场景，帮助开发者快速构建智能化语言处理服务。
 - [binux/pyspider](https://github.com/binux/pyspider) ★16793 [`crawler`] [`python`]  
   用于快速构建和维护爬虫程序的Python开源框架，提供基于Web的可视化编辑器，让开发者通过编写Python脚本即可定义爬取逻辑，并实时调试运行。核心能力涵盖任务调度、URL去重、数据抽取、结果存储和分布式部署，适合需要抓取多个网站并管理大量任务的场景。内置监控界面可查看任务状态和抓取进度，支持断点续爬和定时抓取，降低了传统爬虫开发中的调度与维护成本。
@@ -104,7 +104,7 @@
   用于12306火车票自动抢票的工具，通过Python脚本模拟用户查询和购票操作，支持多线程并发监控余票、自动识别验证码、自动提交订单，并能在有票时第一时间通知用户。适用于春运或节假日抢票困难场景，适合需要批量刷票或定时抢票的个人用户。项目通常需要配合配置文件设置乘车日期、车次和乘客信息，通过分布式或本地多开方式来提高成功率，解决了手动刷新网页效率低、容易错过放票时间的问题。
 - [sml2h3/ddddocr](https://github.com/sml2h3/ddddocr) ★14578 [`captcha`] [`ddddocr`] [`ocr`]  
   一个基于深度学习的OCR工具，主要用于图像中文本的检测与识别，支持端到端的文本识别流程，适用于需要高精度文字提取的场景，如文档分析、票据识别等。
-- [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) ★14516 [`blind-watermark`] [`image-processing`] [`watermark`] [`watermark-image`]  
+- [guofei9987/blind_watermark](https://github.com/guofei9987/blind_watermark) ★14518 [`blind-watermark`] [`image-processing`] [`watermark`] [`watermark-image`]  
   一个基于频域变换的Python盲水印库，主要用于在图片中嵌入不可见的水印信息，支持水印的嵌入与提取，适用于版权保护和数据防泄露场景，通过DCT或DWT变换将水印信息隐藏在图像中，具备一定的抗压缩和抗裁剪能力。
 - [youfou/wxpy](https://github.com/youfou/wxpy) ★14260 [`api`] [`wechat`] [`weixin`]  
   wxpy 是一个基于 Python 的微信个人号自动化工具，主要用于编写微信机器人和消息自动化脚本。它封装了微信网页版协议，使开发者能够通过简单代码收发消息、管理好友与群聊，并实现自动回复、定时推送、关键词触发等常见功能。适合个人或小规模社群运营场景，用于辅助消息归类、自动应答、群互动统计等重复性任务。通常搭配 itchat 生态使用，支持 Python 3 与主流操作系统，但受限于网页版微信的可用性，部分账号可能无法登录。
@@ -145,7 +145,7 @@
 - [vastsa/FileCodeBox](https://github.com/vastsa/FileCodeBox) ★8450 [`anonymous`] [`fastapi`] [`filecodebox`] [`python`] [`tool`] [`vue`]  
   一个基于Web的文件共享工具，支持临时存储和分享代码片段或文本文件，提供简单的API接口用于上传和下载，适合开发人员快速共享内容，无需数据库依赖，可自定义存储路径与过期策略。
 - [kangvcar/InfoSpider](https://github.com/kangvcar/InfoSpider) ★8245 [`automation`] [`chrome`] [`crawl`] [`csdn`] [`hotmail`] [`outlook`] [`python3`] [`selenium`] [`spider`] [`tkinter`] [`wxpython`]  
-  一个基于 Python 的信息爬虫工具，主要用于收集和整合互联网上的公开信息，支持多种数据源解析与存储，适用于舆情监控、数据挖掘和信息分析等场景，具有良好的扩展性和可配置性。
+  InfoSpider是一个用于批量采集公开个人信息的爬虫工具集，集成了GitHub、QQ、微博、邮箱、淘宝、豆瓣等多个平台的数据抓取能力，支持通过关键词或账户信息自动爬取关联数据并汇总展示。通常被安全研究人员、渗透测试人员用于授权范围内的信息收集与资产梳理，也可帮助用户了解自身在互联网上的暴露面。项目采用模块化设计，搭配可视化界面，便于快速部署和扩展新的数据源，适合需要高效整合多源公开情报的场景。
 - [EstrellaXD/Auto_Bangumi](https://github.com/EstrellaXD/Auto_Bangumi) ★8184 [`anime`] [`auto-downloader`] [`docker`] [`python`] [`qbittorrent`] [`rss-parser`]  
   Auto_Bangumi 是一个自动化的追番工具，主要用于监测新发布的动画剧集并自动下载或整理到指定目录。它支持与主流媒体管理软件如 Plex 或 Jellyfin 集成，可配合 RSS 订阅、字幕下载和文件重命名功能，实现零接触的追番体验。通常用于家庭服务器或 NAS 环境，适合希望本地收藏动画番组的用户。
 - [zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) ★8056 [`custom`] [`fluent`] [`fluent-design`] [`fluentui`] [`gui`] [`modern`] [`pyqt5`] [`pyqt6`] [`pyside2`] [`pyside6`] [`python`] [`qt`] [`qt5`] [`qt6`] [`software`] [`ui`] [`widgets`] [`win11`] [`winui`] [`winui3`]  
@@ -172,9 +172,9 @@
   用于管理多用户 V2Ray 配置的开源工具，支持批量创建、修改和监控 V2Ray 节点，适用于需要高效运维多个 V2Ray 账号的场景，提供命令行界面简化配置流程，便于部署在服务器上进行集中管理。
 - [FQrabbit/SSTap-Rule](https://github.com/FQrabbit/SSTap-Rule) ★6565 [`sstap`] [`sstap-rule`]  
   基于SS-Tap的规则增强工具，主要用于优化Shadowsocks的分流规则与节点管理，支持自定义规则匹配与流量转发，适用于游戏玩家和需要低延迟网络的场景，提升特定应用的网络稳定性与访问速度。
-- [davidteather/TikTok-Api](https://github.com/davidteather/TikTok-Api) ★6545 [`api`] [`download-tiktoks`] [`hacktoberfest`] [`python`] [`tik`] [`tiktok`] [`tiktok-api`] [`tiktok-automation`] [`tiktok-compilations`] [`tiktok-downloader`] [`tiktok-python`] [`tiktok-scraper`] [`tiktok-signature`] [`tiktok-trending-page`] [`tiktokapi`] [`tok`] [`trending`]  
+- [davidteather/TikTok-Api](https://github.com/davidteather/TikTok-Api) ★6544 [`api`] [`download-tiktoks`] [`hacktoberfest`] [`python`] [`tik`] [`tiktok`] [`tiktok-api`] [`tiktok-automation`] [`tiktok-compilations`] [`tiktok-downloader`] [`tiktok-python`] [`tiktok-scraper`] [`tiktok-signature`] [`tiktok-trending-page`] [`tiktokapi`] [`tok`] [`trending`]  
   TikTok-Api 是一个非官方的 Python 库，主要用于从 TikTok 获取公开数据，支持用户信息、视频列表、评论、趋势内容等常见接口的抓取。它适合需要批量采集 TikTok 数据用于分析、研究或内容监控的场景，通常配合代理和爬虫策略使用，以绕过反爬限制。由于是非官方实现，使用时需注意平台条款和频率控制。
-- [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) ★6469 [`acl`] [`acl4ssr`] [`clash`] [`gfwlist`]  
+- [ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR) ★6470 [`acl`] [`acl4ssr`] [`clash`] [`gfwlist`]  
   ACL4SSR 是一个为 SSR（ShadowsocksR）客户端设计的规则集合，主要用于网络流量分流，支持自动代理、国内直连和全局代理等多种模式，帮助用户更高效地管理网络请求，提升科学上网体验。
 - [chyroc/WechatSogou](https://github.com/chyroc/WechatSogou) ★6365 [`crawler`] [`pypi`] [`python`] [`scrapy`] [`sogou`] [`wechat`]  
   用于通过搜狗搜索获取微信公众号内容，提供公众号文章搜索、公众号信息抓取等功能。通常适合需要批量采集公众号文章做数据分析、舆情监控或内容整理的用户。基于搜狗微信搜索的网页数据，以Python封装为主，方便集成到爬虫或数据处理流程中。具体实现细节可能随搜索页面变化，建议使用前查看最新文档。
@@ -184,7 +184,7 @@
   用于下载B站（哔哩哔哩）视频的工具，支持解析视频地址并以较高清晰度保存到本地，通常适用于希望离线观看B站内容的用户，使用时需注意遵守平台版权规定。
 - [Python3WebSpider/ProxyPool](https://github.com/Python3WebSpider/ProxyPool) ★6234 [`flask`] [`http`] [`proxy`] [`proxypool`] [`redis`] [`webspider`]  
   ProxyPool是一个用于搭建高性能匿名代理IP池的Python工具，主要用于解决爬虫开发中IP被封禁的问题。它支持从多个免费代理网站自动抓取代理IP，验证代理可用性并提供API接口随机获取可用代理，支持Redis存储与定时检查，可轻松集成到Scrapy等爬虫框架中，提升大规模数据采集的稳定性和效率。
-- [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) ★6017 [`clash`] [`clashvergerev`] [`fanqiang`] [`free`] [`geopolitics`] [`gfw`] [`mihomo`] [`shadowsocks`] [`sing-box`] [`singbox`] [`ss`] [`trojan`] [`v2ray`] [`v2rayn`] [`vless`] [`vmess`] [`xray`]  
+- [awesome-vpn/awesome-vpn](https://github.com/awesome-vpn/awesome-vpn) ★6018 [`clash`] [`clashvergerev`] [`fanqiang`] [`free`] [`geopolitics`] [`gfw`] [`mihomo`] [`shadowsocks`] [`sing-box`] [`singbox`] [`ss`] [`trojan`] [`v2ray`] [`v2rayn`] [`vless`] [`vmess`] [`xray`]  
   为网络工程师、隐私保护用户和开发者整理的一站式 VPN 资源索引库，系统收集了主流 VPN 客户端、服务端软件、代理工具、协议对比及部署教程。覆盖 WireGuard、OpenVPN、Shadowsocks 等常见技术方案，方便用户按需求筛选开源自建或商用服务，适用于搭建个人加密隧道、突破网络限制、评估隐私工具选型等场景。条目按分类组织，适合快速查阅工具特性、协议差异及适用平台，是选择或比较 VPN 解决方案时的实用参考手册。
 - [javaht/claude-desktop-zh-cn](https://github.com/javaht/claude-desktop-zh-cn) ★5872  
   该项目主要用于提供 Claude 桌面版的中文本地化支持，通过翻译界面文本、优化语言资源文件，帮助中文用户更方便地使用 Claude 桌面应用程序，提升使用体验。适用于需要中文界面交互的用户群体。
@@ -207,7 +207,7 @@
 - [googlefonts/noto-emoji](https://github.com/googlefonts/noto-emoji) ★4874  
   用于提供一整套跨平台的开源 emoji 字体资源，包含彩色、黑白、单色等多种风格，覆盖 Unicode 标准中的表情符号。通常被操作系统、浏览器、应用和开发者集成，以保证不同设备上显示一致的 emoji 视觉效果，也适合需要自定义或复用官方表情图形的设计项目。
 - [NewFuture/DDNS](https://github.com/NewFuture/DDNS) ★4685 [`alidns`] [`cdn`] [`cloudflare`] [`ddns`] [`dns`] [`dnscom`] [`dnspod`] [`dynamic-dns`] [`edge-proxy`] [`ipv4`] [`ipv6`]  
-  DDNS 是一个动态域名解析工具，主要用于将动态IP地址绑定到域名上，适用于公网IP变化时自动更新DNS记录，支持多种DNS服务商和自定义配置，常用于家庭宽带搭建服务器时保持域名可访问。
+  用于动态域名解析（DDNS）的自动更新工具，当本地公网 IP 变化时，自动将域名解析记录指向最新地址，解决家庭宽带或服务器 IP 不固定导致的访问问题。通常运行在路由器、NAS、云主机等环境中，支持定时检测和 Web 触发等方式，兼容多种主流 DNS 服务商。适合需要远程访问家中的设备、搭建私有服务或维护个人网站的场景。
 - [aaPanel/BaoTa](https://github.com/aaPanel/BaoTa) ★4559 [`baota`] [`bt-panel`] [`lamp`] [`lnmp`] [`python`] [`web-panel`]  
   用于快速搭建和管理 Linux 服务器环境的开源 Web 控制面板，又称宝塔面板。提供图形化操作界面，支持一键安装和配置 Nginx、Apache、MySQL、PHP 等常见环境组件，涵盖网站发布、数据库管理、文件备份、计划任务、SSL 证书部署、系统监控等日常功能。通过浏览器即可远程操作，极大降低服务器运维门槛，适合个人站长、开发者以及中小团队快速部署和管理多台服务器。
 - [midoks/mdserver-web](https://github.com/midoks/mdserver-web) ★4523 [`linux`] [`memcached`] [`mysql`] [`php`] [`php70`] [`php71`] [`php72`] [`php73`] [`php74`] [`php80`] [`php81`] [`php82`] [`php83`] [`php84`] [`php85`] [`python`] [`redis`]  
@@ -249,13 +249,13 @@
 - [QianyanTech/Image-Downloader](https://github.com/QianyanTech/Image-Downloader) ★2360 [`baidu`] [`bing`] [`google`] [`google-images`] [`image-downloader`] [`pyqt`] [`scrapy`] [`spider`]  
   用于从网页批量抓取和下载图片资源，支持按URL列表或页面解析提取图像链接，可自定义保存路径、文件格式及并发下载数量。适合需要采集数据集、备份网页图片或整理素材的场景，通常结合requests与BeautifulSoup等Python库使用，用户可通过简单配置快速完成批量抓取任务。
 - [Baiyuetribe/kamiFaka](https://github.com/Baiyuetribe/kamiFaka) ★2315 [`faka`] [`flask`] [`heroku`] [`jwt-authentication`] [`mysql`] [`pwd`] [`smtp`] [`stisla`] [`ui-stisla`] [`vue3`] [`vuejs`]  
-  kamiFaka 是一个用于自动化脚本录制与回放的工具，主要用于简化重复性网页操作流程。通过模拟用户行为，支持快速生成操作脚本并批量执行，适合做自动化测试、表单填写、页面检测等场景，提升工作效率。
+  kamiFaka 是一款开源的虚拟商品发卡系统，主要用于搭建自动售卖数字商品的网站，适合出售卡密、兑换码、账号、激活码等虚拟资源。它支持独立部署，集成常见支付接口，能够实现用户下单后自动发货、订单查询、库存管理等功能，通常适用于个人站长或小团队快速建立属于自己的发卡平台，替代依赖第三方发卡服务的方案。
 - [nonebot/nonebot](https://github.com/nonebot/nonebot) ★2201 [`bot`] [`cqhttp`] [`nonebot`] [`onebot`] [`qq`]  
   NoneBot 是一个基于 Python 的机器人框架，主要用于构建和管理 QQ、微信、Telegram 等平台的聊天机器人，支持插件化扩展和异步操作，方便开发者通过简单代码实现消息响应、命令解析、定时任务等功能，适用于自动化运维、群组管理和服务集成场景。
 - [MikeWang000000/Natter](https://github.com/MikeWang000000/Natter) ★2199  
   Natter 是一个基于 WebRTC 技术实现的点对点通信工具，主要用于内网穿透和实时数据传输。它通过中继服务器协助建立直连，支持 NAT 穿透，可在无公网 IP 环境下实现设备间低延迟通信，适用于远程控制、文件传输和即时通讯等场景。
 - [SystemRage/py-kms](https://github.com/SystemRage/py-kms) ★2192 [`activator`] [`client`] [`emulator`] [`gvlk`] [`kms`] [`office`] [`py-kms`] [`python`] [`server`] [`volume-license`] [`windows`]  
-  用于实现KMS（Key Management Service）激活协议的Python工具，支持模拟Windows系统激活服务器，适用于企业批量授权环境下的测试与部署，主要面向技术验证和内部网络服务搭建。
+  py-kms 是一个用 Python 实现的开源 KMS 服务器模拟器，用于在本地或局域网内激活 Windows 和 Office 等微软产品。它通过模拟微软的密钥管理服务，让用户无需连接官方服务器即可完成批量激活，适合企业测试环境、离线网络或需要管理多台设备激活的场景。项目通常以 Docker 容器或命令行方式运行，支持多种激活协议和版本，并提供日志监控与数据库存储功能。其核心价值在于作为官方 KMS 的替代方案，帮助用户灵活控制激活流程，同时规避依赖外部服务的限制。
 - [observerss/textfilter](https://github.com/observerss/textfilter) ★2109  
   用于对文本内容进行过滤和净化，主要解决敏感词、违禁词等不良信息的拦截问题。它通常基于关键词匹配或词库替换，适合在用户评论、聊天消息、文章发布等场景中自动检测违规内容，帮助开发者维护社区安全和内容合规。这类工具一般轻量易用，可以快速集成到后端服务或内容管理流程中。依据仓库名称推测，项目核心是文字过滤功能，具体语言和实现方式需查看仓库文档。
 - [TideSec/TideFinger](https://github.com/TideSec/TideFinger) ★2081  
@@ -263,7 +263,7 @@
 - [yuanzl77/IPTV](https://github.com/yuanzl77/IPTV) ★2071 [`iptv`] [`iptv-m3u`] [`ipv4`] [`m3u8`] [`playlist`] [`tv`]  
   提供全球多个国家和地区的IPTV频道列表，支持m3u格式导入，适用于各类流媒体播放器，主要用于在线观看电视直播，涵盖新闻、体育、娱乐、影视等多种节目类型，方便用户自建频道源。
 - [yzddmr6/WebCrack](https://github.com/yzddmr6/WebCrack) ★2047  
-  WebCrack 是一个用于 Web 应用指纹识别和漏洞检测的自动化工具，主要用于识别目标网站使用的技术栈（如 CMS、前端框架、服务器等）并检测常见安全漏洞。它通过分析 HTTP 响应特征、路径探测和版本比对，帮助安全研究人员快速评估 Web 应用的安全状况，适用于渗透测试和安全评估场景。
+  WebCrack 主要用于针对 Web 登录表单的密码安全测试，通过内置的常见弱口令字典和请求构造逻辑，帮助安全研究人员快速验证目标系统的口令强度。它适合在授权渗透测试中批量检测后台、管理入口等场景，也可用于评估自建系统的防暴力破解能力。工具通常采用 Python 编写，支持自定义请求参数和代理，以适配不同站点结构。如果目标是快速识别薄弱口令、验证验证码或频率限制是否有效，WebCrack 能提供简洁的自动化方案。使用时应注意仅对拥有授权的目标发起测试，避免触发法律风险。
 - [fkxxyz/rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin) ★2010 [`fcitx`] [`pinyin`] [`rime`] [`schema`]  
   用于 RIME 输入法的克隆拼音（Clover Pinyin）输入方案，提供简洁高效的中文拼音输入体验，支持自定义词库与个性化的输入习惯优化，适合追求纯净输入环境的用户。
 - [hxz393/BaiduPanFilesTransfers](https://github.com/hxz393/BaiduPanFilesTransfers) ★2002 [`baidu`] [`gui`] [`windows`]  
@@ -283,7 +283,7 @@
 - [amzxyz/RIME-LMDG](https://github.com/amzxyz/RIME-LMDG) ★1792 [`dictionary`] [`fcitx5-dict`] [`grammar`] [`language-model`] [`rime`]  
   RIME-LMDG 是一个基于 RIME 输入法引擎的开源维护项目，主要用于优化和定制中文输入体验。它整合了词库增强、输入方案定制与错误修复，适合需要高效、纯净中文输入的用户，尤其关注繁体、方言及专业用词场景的支持。
 - [ZainCheung/netease-cloud](https://github.com/ZainCheung/netease-cloud) ★1786 [`python`]  
-  用于操作网易云音乐的 Node.js 库，支持登录、歌单管理、音乐播放控制等功能，便于开发者集成网易云音乐服务到自己的应用中，实现音乐数据的获取与交互操作。
+  一个围绕网易云音乐平台开发的第三方工具，通常用于扩展或替代官方客户端的部分功能。它可能封装了网易云音乐的网络接口，实现歌曲搜索、歌单解析、歌词获取以及音源下载等常见操作，适合喜欢在命令行或轻量级脚本中管理音乐资源的用户。这类项目也常被用来完成批量下载、自定义播放体验或数据分析等任务，同时可以作为学习网页接口调用和异步编程的参考。具体功能随版本更新有所变化，建议以仓库内实际说明为准。
 - [jimmy201602/webterminal](https://github.com/jimmy201602/webterminal) ★1713 [`audit`] [`automation`] [`bastion`] [`bastion-server`] [`devops`] [`devops-tools`] [`django`] [`filemanager`] [`intersystems`] [`jumpserver`] [`monitor`] [`nla`] [`rdp`] [`realtime`] [`sftp`] [`ssh`] [`terminal`] [`terminal-emulators`] [`vnc-client`] [`webterminal`]  
   webterminal 是一个基于 Web 的终端工具，主要用于通过浏览器远程访问和操作服务器命令行。它采用前后端分离架构，前端使用 Vue.js，后端使用 Node.js 和 WebSocket 实现实时通信，支持多用户连接管理和基础权限控制，适合嵌入各类运维平台或作为轻量级终端替代方案。
 - [fire-keeper/BlindWatermark](https://github.com/fire-keeper/BlindWatermark) ★1664  
@@ -294,10 +294,10 @@
   EvilCult/Video-Downloader 是一款跨平台的视频下载工具，通过解析网页链接来抓取并保存网络视频，支持主流视频网站和较丰富的清晰度选项。它通常在桌面环境下运行，提供图形化界面，方便用户直接粘贴链接、选择下载格式与保存路径。该工具适合个人收藏视频、离线观看或素材整理等场景，能够有效解决网页视频无法直接保存的问题，尤其适合不熟悉命令行操作的用户。其底层机制往往依赖成熟的解析和下载组件，因此在应对链接失效或网站改版时可能具有一定局限，但整体上手简单，实用性强。
 - [Entromorgan/Autoticket](https://github.com/Entromorgan/Autoticket) ★1448  
   Autoticket 用于自动化完成票券抢购流程，主要解决手动抢票速度慢、易错过放票时间的问题，常见于演出、体育赛事或交通票据等限量场景。它按设定周期监控目标票务渠道，一旦检测到可购票窗口便立即提交订单，并可能支持多账号或队列管理来提升成功率。实现上通常采用 Python 编写，利用网络请求或浏览器自动化模拟用户操作，适合有一定技术基础、需要频繁抢票的个人用户。使用时务必遵守平台条款，合理控制请求频率。
-- [chenditc/investment_data](https://github.com/chenditc/investment_data) ★1395  
+- [chenditc/investment_data](https://github.com/chenditc/investment_data) ★1396  
   主要用于获取和分析投资相关数据，提供股票、基金等金融产品的历史行情与基本面数据接口，支持投资策略研究与量化分析，适合金融数据分析及投资决策场景。
 - [rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui) ★1337 [`baiducloud`] [`baiduyun`] [`lanzou`] [`lanzoucloud`] [`pyqt5`] [`pyqt5-gui`]  
-  用于蓝奏云的非官方图形化客户端，支持文件上传下载、批量操作及分享管理，界面简洁跨平台，方便用户在桌面端高效管理蓝奏云存储内容。
+  面向蓝奏云网盘的第三方图形客户端，让用户通过桌面窗口完成文件的上传、下载、重命名、移动与删除等操作。它提供批量处理和拖拽上传能力，显著提升多文件管理效率，适合经常使用蓝奏云分发小体积资源的个人或内容发布者。相比网页端，该工具能减少页面切换与手动点击，让分享流程更顺畅稳定，是替代浏览器管理网盘文件的实用选择。
 - [yym68686/uni-api](https://github.com/yym68686/uni-api) ★1249 [`aws`] [`azure`] [`claude`] [`gemini`] [`grok`] [`openai`] [`uni-api`] [`vertex`]  
   提供统一的API接口管理方案，主要用于uni-app项目中封装和管理后端接口，支持多环境配置、请求拦截、响应拦截、Token自动刷新等功能，方便前端团队标准化处理网络请求，提升开发效率与项目维护性。
 - [out0fmemory/qqwry.dat](https://github.com/out0fmemory/qqwry.dat) ★1221 [`ip`] [`location`]  
@@ -319,13 +319,13 @@
 - [public-clis/bilibili-cli](https://github.com/public-clis/bilibili-cli) ★964  
   一个基于命令行的哔哩哔哩视频下载与交互工具，支持视频信息查看、弹幕获取、音视频下载等功能，适用于快速批量操作和自动化任务，无需打开网页端即可在终端管理B站内容。
 - [digglife/cnbankcard](https://github.com/digglife/cnbankcard) ★960 [`api`] [`bank`] [`china`] [`python`]  
-  用于识别和验证中国银行卡卡号的开源工具，支持主流银行的卡号规则校验，可帮助开发者集成银行卡卡号合法性检查功能，适用于支付系统、金融应用等需要银行卡信息验证的场景。
+  cnbankcard 是一个用于识别和校验中国银行卡号的开源工具库，主要解决银行卡号归属地判断、发卡行识别以及卡号格式验证等问题。它通常适用于电商支付、金融风控、账户绑定等需要快速确认银行卡类型和所属银行的场景，开发者可以将其集成到服务端或客户端应用中，通过卡号获取对应的银行名称和卡种信息，从而简化支付流程中的卡号处理逻辑。
 - [CaoZ/JD-Coin](https://github.com/CaoZ/JD-Coin) ★921  
-  用于监控京东金融金币兑换活动的自动化脚本，支持自动签到、商品查询和限时抢购，帮助用户高效参与京东的金币优惠活动，常用于抢购高性价比商品。
+  一个专注于京东自动签到和领取京豆的辅助脚本工具，通过模拟每日签到、任务浏览等常规操作来帮助用户自动累积京东平台积分，适合日常有京东账户但希望减少手动操作的用户使用，通常需要配合定时任务或运行环境运行，能够降低因忘记签到所造成的积分损失。
 - [LogicJake/WebMonitor](https://github.com/LogicJake/WebMonitor) ★914 [`monitor`] [`rss`] [`web-monitor`]  
   WebMonitor 是一个网页监控工具，主要用于实时检测网站的可用性和响应速度，支持自定义监控频率、多种告警方式（如邮件、Webhook）以及可视化状态展示，适合用于个人或企业对关键业务网站进行稳定性监控。
 - [broken5/WebAliveScan](https://github.com/broken5/WebAliveScan) ★909  
-  WebAliveScan 是一个用于批量检测 Web 服务可用性的扫描工具，主要用于验证多个网站或 Web 应用是否正常运行，支持高并发请求、自定义超时时间和结果输出，适合在渗透测试或安全评估前期快速识别活跃目标。
+  批量探测Web站点存活状态是这款工具的用途，适合安全测试人员、运维人员或渗透测试者在资产梳理阶段使用。它通过向目标URL发送HTTP或HTTPS请求来判断站点是否正常响应，并输出存活结果，从而快速筛选可访问的Web服务。工具通常支持多线程并发扫描，以提高大批量URL的检测效率，也可用于子域或IP对应Web服务的批量验证。借助该工具，用户能减少手动检查的繁琐步骤，更高效地完成前期的信息收集和资产存活确认工作。
 - [0xAllenChen/spider_reverse](https://github.com/0xAllenChen/spider_reverse) ★903 [`crawler`] [`python`] [`requests`] [`spider`]  
   一个专注于网页爬虫与反爬虫技术研究的开源项目，主要用于分析和突破常见网站的反爬机制，涵盖动态页面渲染、请求签名、验证码识别等逆向工程技术，适合学习和实践 Web 技术对抗场景。
 - [egirault/googleplay-api](https://github.com/egirault/googleplay-api) ★896  
@@ -383,7 +383,7 @@
 - [anexplore/cnn_for_captcha](https://github.com/anexplore/cnn_for_captcha) ★335 [`captcha`] [`deep-learning`] [`imagecaptcha`] [`keras`] [`ocr`] [`tensorflow`] [`torch`]  
   基于卷积神经网络的验证码识别项目，主要用于自动识别数字或字母组成的简单验证码图像。通过构建CNN模型实现高精度分类，适用于图像预处理、字符分割及端到端识别任务，常用于自动化测试或安全验证场景的性能评估，需注意合规使用避免滥用。
 - [sfyc23/WechatAddGroupHelper](https://github.com/sfyc23/WechatAddGroupHelper) ★331 [`bot`] [`itchat`] [`wechat`] [`wechat-bot`]  
-  一个基于微信的自动化群组管理工具，主要用于辅助用户实现微信群的自动邀请、加入和成员管理，通过API接口或本地脚本实现批量操作，提升社群运营效率，适用于社群推广、用户增长等场景。
+  用于微信自动通过好友请求并拉入指定群聊的辅助工具。通过监听新朋友申请，自动完成添加好友和邀请进群的操作，减少手动重复劳动。通常适合社群运营者或需要批量处理入群申请的场景，如活动运营、粉丝群管理等。基于Python微信接口实现，运行后需要保持微信登录状态。
 - [physiclaw/PhysiClaw](https://github.com/physiclaw/PhysiClaw) ★327 [`agentic-ai`] [`ai-agent`] [`embodied-agent`] [`embodied-ai`] [`gui-agent`] [`gui-agents`] [`phone-automation`] [`phone-use-agent`] [`robot-arm`]  
   PhysiClaw 是一个结合物理信息与机器学习的开源工具库，主要用于求解偏微分方程及物理系统建模。它通过将物理定律嵌入神经网络训练过程，提升模型在数据稀缺或噪声环境下的预测准确性，适用于科学计算、工程仿真等需要高精度物理约束的场景。
 - [frankwuzp/iptv-cn](https://github.com/frankwuzp/iptv-cn) ★312 [`automation`] [`epg`] [`iptv-m3u`] [`jellyfin`] [`tv`]  
@@ -401,7 +401,7 @@
 - [kkx600/WechatBot](https://github.com/kkx600/WechatBot) ★237  
   WechatBot 是一个基于 kkx600 项目的微信机器人框架，主要用于实现微信消息的自动收发、群聊管理、关键词回复等功能，适用于个人或企业进行微信自动化运营、客服、信息监控等场景，支持扩展自定义服务模块。
 - [pig6/login_taobao](https://github.com/pig6/login_taobao) ★233  
-  用于模拟登录淘宝账号的工具，通常用于自动化操作或数据采集，支持账号密码登录及滑块验证码识别，适用于需要批量处理淘宝账户任务的场景。
+  用于自动登录淘宝的脚本工具，主要面向需要频繁访问淘宝数据的开发者。它通过程序化方式完成账号密码提交，帮助维持登录状态，以绕过手动登录的重复操作。可能支持验证码识别、二维码扫码或滑块验证等常见登录验证方式。典型使用场景包括商品信息抓取、订单状态监控、店铺数据分析等。通常适合配合爬虫框架或定时任务使用，输入淘宝账号和凭证后即可自动化运行。需要注意的是，使用时应遵守淘宝的服务条款，避免对平台造成负担。
 - [uk0/telethon_get_media](https://github.com/uk0/telethon_get_media) ★225 [`telegram`] [`telegram-api`] [`telegram-bot`]  
   用于从 Telegram 频道或聊天中下载媒体文件的工具，基于 Telethon 库实现，支持通过 API 操作账户、获取消息历史并提取图片、视频等附件，通常适用于自动化备份或数据抓取场景。
 - [Quan666/PikPakAPI](https://github.com/Quan666/PikPakAPI) ★217 [`pikpak`]  
@@ -435,7 +435,7 @@
 - [ly0/web.baidupan](https://github.com/ly0/web.baidupan) ★80  
   一个基于网页的百度网盘第三方客户端，主要用于方便用户在浏览器中管理百度网盘文件，提供比官方界面更简洁或功能增强的文件浏览、下载和管理体验，通常具备免客户端下载、加速等功能特性。
 - [AwesomeCrawler/taobao_login](https://github.com/AwesomeCrawler/taobao_login) ★78  
-  用于模拟淘宝登录过程的爬虫工具，主要解决登录验证码、参数加密等反爬问题，支持自动填充表单、Cookie管理与会话保持，适用于需要登录态的淘宝数据采集场景。
+  taobao_login 提供了模拟登录淘宝网的完整思路与代码实现，方便爬虫开发者绕开登录限制获取用户页面数据。它通常涵盖登录流程分析、密码加密算法逆向、验证码识别或人工介入等环节，适合需要采集淘宝个人订单、收藏夹或购物车信息的场景。仓库以 Python 为主要技术栈，通过模拟浏览器请求或调用接口实现会话保持，帮助解决淘宝反爬机制下的登录难题。由于淘宝登录策略频繁更新，使用时需要根据最新页面调整参数和逻辑。
 - [utkarsh9891/PackageSync](https://github.com/utkarsh9891/PackageSync) ★73 [`backup`] [`restore`] [`sublime-package`] [`sublime-settings`] [`sublime-text`] [`sublime-text-plugin`] [`sync-online`]  
   PackageSync 是一个用于同步本地项目依赖包的工具，主要用于保持不同环境或设备间 npm/yarn/pnpm 包版本一致。它通过分析项目中的锁定文件（如 package-lock.json）自动检测并安装缺失或版本不一致的依赖包，简化团队协作和部署时的依赖管理流程，提升开发效率与环境一致性。
 - [1299172402/BiliDrive-improve](https://github.com/1299172402/BiliDrive-improve) ★64 [`bilibili`] [`bt`] [`interesting`] [`pan`]  
@@ -447,7 +447,7 @@
 - [Pearsoon/quark](https://github.com/Pearsoon/quark) ★49  
   Quark 是一个轻量级的前端框架，主要用于构建高性能的单页应用，提供组件化开发、路由管理和状态管理功能，适合快速搭建现代化 Web 应用。
 - [xm9304/Taobao_spider](https://github.com/xm9304/Taobao_spider) ★45  
-  用于抓取淘宝商品数据的爬虫工具，支持关键词搜索和商品详情采集，可实现自动翻页和数据导出，通常用于电商数据分析、价格监控和市场调研等场景，依赖Python环境并使用Selenium或Requests库模拟浏览器行为。
+  用于爬取淘宝网站公开数据的工具，主要帮助用户获取商品列表、价格、销量、详情页信息等内容。它通常适合电商数据分析、市场调研、竞品监控或选品参考等场景，解决手动复制数据效率低、难以批量整理的问题。由于淘宝具备反爬机制，该爬虫一般需要处理登录验证、请求频率限制等环节，适合有一定技术基础的用户二次开发和调整。使用时应遵守相关法律法规和平台规则，合理控制抓取频率，避免对正常服务造成影响。
 - [zzmaze/iptv](https://github.com/zzmaze/iptv) ★38  
   一个用于生成和管理IPTV播放列表的开源工具，支持自动抓取频道、去重、分类及生成m3u格式播放源，适合自建私人IPTV服务，可配合本地网络或流媒体设备使用，提升电视内容观看灵活性。
 - [iiicebearrr/spiders-for-all](https://github.com/iiicebearrr/spiders-for-all) ★35 [`beautifulsoup4`] [`bilibili-download`] [`python3`] [`requests`] [`spider`] [`video-downloader`] [`webcrawler`] [`xiaohongshu`]  
@@ -457,7 +457,7 @@
 - [lokkon/multChrome_pyside2](https://github.com/lokkon/multChrome_pyside2) ★31  
   一个基于 PySide2 开发的多标签 Chrome 风格浏览器应用，支持标签页管理和基本浏览功能，适用于需要轻量级浏览器嵌入或自定义浏览界面的桌面应用程序，具有良好的可扩展性和原生 Python 实现优势。
 - [health901/mjx](https://github.com/health901/mjx) ★30  
-  该项目主要用于健康监测相关应用开发，聚焦于医疗数据处理与分析，通常适合需要对接医疗设备、管理用户健康记录或进行健康趋势预测的场景，支持高效的数据采集与可视化功能，便于开发者构建智能健康管理系统。
+  用于麻将游戏相关的开发项目，主要涉及麻将规则引擎、牌型判断或 AI 对战逻辑。通常适合需要自定义麻将玩法、实现胡牌算法或构建在线对战平台的场景，仓库可能提供基础框架供开发者扩展，具体细节需参考实际内容。
 - [csgo-adc/TencentClassDownloader](https://github.com/csgo-adc/TencentClassDownloader) ★22  
   用于自动下载腾讯课堂课程视频的工具，主要针对CS:GO相关教学内容，支持课程缓存与离线观看，方便用户高效获取和管理学习资源，适用于需要批量下载腾讯课堂视频的场景。
 - [saitomikuya/m365_batch_account_creator](https://github.com/saitomikuya/m365_batch_account_creator) ★14  

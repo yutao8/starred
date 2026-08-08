@@ -1,6 +1,6 @@
 # C++ 仓库
 
-- [electron/electron](https://github.com/electron/electron) ★122384 [`c-plus-plus`] [`chrome`] [`css`] [`electron`] [`html`] [`javascript`] [`nodejs`] [`v8`] [`works-with-codespaces`]  
+- [electron/electron](https://github.com/electron/electron) ★122383 [`c-plus-plus`] [`chrome`] [`css`] [`electron`] [`html`] [`javascript`] [`nodejs`] [`v8`] [`works-with-codespaces`]  
   Electron 是一个基于 Chromium 和 Node.js 的跨平台桌面应用开发框架，让开发者用 HTML、CSS 和 JavaScript 即可构建 Windows、macOS 和 Linux 桌面程序。它内置完整渲染引擎和 Node.js 运行时，使 Web 开发者能复用现有技能和代码库快速打造原生桌面应用。常见于代码编辑器、聊天与协作工具、开发者工具等场景，尤其适合希望保持 Web 与桌面技术栈统一、需要跨平台一致体验且追求高效迭代的团队。
 - [microsoft/terminal](https://github.com/microsoft/terminal) ★104516 [`cmd`] [`command-line`] [`console`] [`contributions-welcome`] [`good-first-issue`] [`hacktoberfest`] [`terminal`] [`windows`] [`windows-console`] [`windows-terminal`] [`wsl`]  
   Windows Terminal 是一个现代化的终端应用程序，支持多个选项卡和窗格，提供高效的命令行体验，适用于开发者和系统管理员，支持 PowerShell、CMD、WSL 及 SSH 等多种 shell 环境。
@@ -8,7 +8,7 @@
   Tesseract 是开源的光学字符识别引擎，把图片里的文字转成可编辑文本。它支持多语言文字识别，也能通过训练适应特殊字体，常被集成进文档扫描、票据识别、自动录入等流程。适合处理印刷体为主的图像，配合图像预处理可提升准确率，是 OCR 应用最常用的底层工具之一。
 - [aria2/aria2](https://github.com/aria2/aria2) ★41669 [`bittorrent`] [`cpp11`] [`download`] [`ftp`] [`http`] [`metalink`] [`rpc`] [`sftp`]  
   aria2 是一款轻量级、多协议、多源下载工具，支持 HTTP/HTTPS、FTP、SFTP、BitTorrent 和 Metalink 协议，能够从多个源地址同时下载同一文件并分段加速，适合在命令行环境或嵌入式设备中高效处理大规模下载任务。它具备断点续传、速度限制、RPC 远程控制等实用特性，常被用于服务器端批量下载任务调度、脚本集成以及构建私有下载加速方案，在 Linux 系统和高性能下载场景中尤其受欢迎。
-- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★39967 [`cpm`] [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
+- [LizardByte/Sunshine](https://github.com/LizardByte/Sunshine) ★39969 [`cpm`] [`cpp`] [`docker`] [`flathub-pkg`] [`game-stream`] [`game-streaming`] [`game-streaming-server`] [`geforce-experience`] [`homebrew-pkg`] [`maintainer-wanted`] [`moonlight`] [`pacman-pkg`] [`remote-desktop`] [`replicator-custom-issues`] [`replicator-release-notifications`] [`rtd`] [`winget-pkg`]  
   Sunshine 是一个开源的家庭流媒体服务器，主要用于将 PC 或服务器上的游戏和应用串流到其他设备，支持与 Moonlight 等客户端无缝配合，提供低延迟的远程桌面体验，适合搭建个人云游戏平台或远程访问高性能主机。
 - [qbittorrent/qBittorrent](https://github.com/qbittorrent/qBittorrent) ★39328 [`bittorrent`] [`bittorrent-client`] [`c-plus-plus`] [`crossplatform`] [`torrent`] [`torrent-client`]  
   qBittorrent 是一款开源跨平台的 BitTorrent 下载客户端，以轻量高效著称。它基于 Qt 框架，支持 Windows、macOS 和 Linux，提供完整且时尚的图形界面。核心功能包括磁力链接与种子文件下载、下载速度限制、RSS 订阅自动下载、内置搜索引擎，以及通过 Web 界面进行远程管理。它适合需要替代存在广告或臃肿的下载工具的用户，或是在服务器上部署无界面下载环境。主要解决 BT/PT 资源获取与任务管理需求，同时强调无广告、功能全面且资源占用较低。
@@ -27,11 +27,11 @@
 - [moonlight-stream/moonlight-qt](https://github.com/moonlight-stream/moonlight-qt) ★18186 [`gamestream`] [`linux-app`] [`macos-app`] [`moonlight`] [`nvidia`] [`qt`] [`sdl2`] [`steam-link`] [`windows-app`]  
   Moonlight Qt 是一款开源的游戏串流客户端，主要用于将 NVIDIA GeForce Experience 中的 GameStream 功能延伸到多平台设备上，让你在局域网或互联网环境下远程流畅玩 PC 游戏。它适合用低性能设备（如笔记本、树莓派或旧电脑）访问高性能主机，兼顾低延迟与画质，并支持键盘鼠标和手柄操作。不局限于电视或安卓盒子，桌面系统也能获得跨平台的串流体验。
 - [Tencent/mars](https://github.com/Tencent/mars) ★17655 [`cross-platform`] [`log`] [`network`] [`wechat`]  
-  Mars 是腾讯开源的一款跨平台通信组件，主要用于提升移动应用的网络通信效率与稳定性。它集成了高效的基础网络库，支持短连接与长连接管理，提供强大的日志系统和调试能力，适用于高并发、弱网络环境下的通信需求，广泛应用于微信等腾讯系 App 中。
+  mars是腾讯推出的移动端跨平台网络基础组件，主要用于解决弱网环境下的通信难题。它提供网络连接、长连接管理、数据传输优化以及日志收集等能力，支持iOS、Android和Windows等平台。典型应用场景包括即时通讯、消息推送和需要稳定网络交互的社交App，尤其适合在网络状况复杂的移动环境中改善连接质量和可靠性。
 - [zerotier/ZeroTierOne](https://github.com/zerotier/ZeroTierOne) ★16988 [`decentralization`] [`networking`] [`peer-to-peer`] [`sd-wan`] [`sdn`] [`virtual-network`] [`vpn`]  
   ZeroTierOne 是一套全球组网的软件定义广域网工具，能让分布在不同网络的设备像连接在同一台交换机上一样直接互访，通过加密的 P2P 隧道实现安全通信，无需配置公网 IP 或复杂路由器。它适用于远程办公时的内网资源共享、多分支机构的私有网络互通、边缘设备集群管理等场景，也常被用于替代传统 VPN 或搭建类游戏联机、物联网设备管理环境。自建控制器或加入现有网络后，只需安装客户端并分配网络 ID 即可加入虚拟局域网，操作门槛低，同时支持自动链路切换和细粒度访问控制，适合需要跨地域低成本组网的个人用户、团队及开源社区。
-- [tindy2013/subconverter](https://github.com/tindy2013/subconverter) ★16962 [`clash`] [`clashr`] [`emoji`] [`gist`] [`quantumult`] [`quantumultx`] [`regular-expression`] [`rename`] [`ss`] [`ssr`] [`subconverter`] [`surfboard`] [`surge`] [`v2ray`]  
-  一个基于 Python 的订阅转换工具，主要用于将网络代理的订阅链接转换为适用于不同客户端的配置格式，支持多种协议和自定义规则，方便用户在各类设备上快速部署和管理网络代理服务。
+- [tindy2013/subconverter](https://github.com/tindy2013/subconverter) ★16961 [`clash`] [`clashr`] [`emoji`] [`gist`] [`quantumult`] [`quantumultx`] [`regular-expression`] [`rename`] [`ss`] [`ssr`] [`subconverter`] [`surfboard`] [`surge`] [`v2ray`]  
+  用于将不同格式的代理订阅链接相互转换，支持 Clash、Surge、V2ray 等主流协议和客户端配置，方便用户在多种工具间迁移订阅，同时提供参数调节功能以满足自定义需求，通常适合需要频繁切换代理工具或管理多份订阅的用户。
 - [Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray) ★16932 [`aur`] [`cmake`] [`cpp`] [`cpp17`] [`debian`] [`plugin`] [`qt5`] [`qv2ray`] [`qv2ray-plugins`] [`ssr`] [`trojan`] [`trojan-go`] [`v2fly`] [`v2ray`]  
   Qv2ray是一款基于Qt开发的跨平台图形化代理客户端，主要用于连接和管理V2Ray等网络代理服务。它提供了直观的图形界面，让用户无需手动编辑复杂的JSON配置，即可添加服务器、导入订阅、切换路由规则并查看连接状态，适合需要科学上网、访问受限资源或管理多套代理节点的用户。软件支持Windows、macOS和Linux，通常结合多种代理协议使用，兼顾功能完整性与易用性。
 - [AaronFeng753/Waifu2x-Extension-GUI](https://github.com/AaronFeng753/Waifu2x-Extension-GUI) ★16860 [`anime`] [`anime4k`] [`esrgan`] [`frame-interpolation`] [`image-enlarger`] [`ncnn`] [`noise-reduction`] [`rtx-video-super-resolution`] [`rtx-vsr`] [`super-resolution`] [`upscaling`] [`video`] [`video-enlarger`] [`video-frame-interpolation`] [`video-interpolation`] [`video-processing`] [`video-super-resolution`] [`vulkan`] [`waifu2x`] [`waifu2x-ncnn-vulkan`]  
@@ -56,7 +56,7 @@
   一个专为日语用户优化的现代化 UI 字体项目，通过改进 Meiryo 字体的显示效果，提升在各类应用程序中的可读性和视觉美感，适用于需要高质量日文界面显示的场景，主要用于增强 Windows 系统下的日文排版体验。
 - [zhongyang219/MusicPlayer2](https://github.com/zhongyang219/MusicPlayer2) ★6581  
   MusicPlayer2 是一个功能丰富的音乐播放器开源项目，支持多种音频格式播放，提供均衡器、音效处理、歌词同步显示和自定义主题等特性，适合需要高自定义性和高性能音频播放功能的桌面应用开发参考。
-- [AlkaidLab/foundation-sunshine](https://github.com/AlkaidLab/foundation-sunshine) ★6388 [`amf`] [`cloudgaming`] [`game-streaming`] [`hdr`] [`hdr-vivid`] [`hdr10`] [`moonlight`] [`moonlight-streaming`] [`rdp`] [`remote`] [`remote-desktop`] [`remote-desktop-protocol`] [`self-hosted`] [`stream`] [`streaming`] [`sunshine`] [`virtual-display`]  
+- [AlkaidLab/foundation-sunshine](https://github.com/AlkaidLab/foundation-sunshine) ★6389 [`amf`] [`cloudgaming`] [`game-streaming`] [`hdr`] [`hdr-vivid`] [`hdr10`] [`moonlight`] [`moonlight-streaming`] [`rdp`] [`remote`] [`remote-desktop`] [`remote-desktop-protocol`] [`self-hosted`] [`stream`] [`streaming`] [`sunshine`] [`virtual-display`]  
   一个基于Sunshine的开源流媒体服务器基础项目，主要用于搭建低延迟的远程游戏串流和桌面共享服务，支持自定义配置和二次开发，适合家庭局域网或远程办公环境中的音视频传输需求。
 - [Lymphatus/caesium-image-compressor](https://github.com/Lymphatus/caesium-image-compressor) ★6188 [`caesium`] [`compression`] [`cross-platform`] [`image-compression`] [`libcaesium`] [`linux`] [`macos`] [`windows`]  
   基于 Electron 的跨平台图像压缩工具，主要用于通过去除元数据和优化编码来减小 PNG、JPEG、WebP 等格式图片体积，适合需要批量处理图像的桌面端用户，支持拖拽操作和图形界面实时预览压缩效果。
@@ -87,7 +87,7 @@
 - [aiselp/AutoX](https://github.com/aiselp/AutoX) ★1798  
   AutoX 是一个自动化机器学习工具，主要用于自动化特征工程、模型选择与超参数调优，支持分类和回归任务，帮助用户高效构建高性能机器学习模型，适用于数据科学竞赛和实际业务场景中的端到端建模需求。
 - [SpriteOvO/Telegram-Anti-Revoke](https://github.com/SpriteOvO/Telegram-Anti-Revoke) ★1500 [`anti`] [`anti-delete`] [`anti-recall`] [`anti-revoke`] [`delete`] [`plugin`] [`recall`] [`revoke`] [`tdesktop`] [`telegram`]  
-  用于防止 Telegram 群组中管理员撤回消息的工具，可自动备份并重新发送被撤回的消息，适用于需要保留聊天记录或监控消息撤回行为的场景，支持自定义部署和多群组管理。
+  用于阻止 Telegram 聊天中消息被撤回，让发送方无法撤销已发出的内容，从而完整保留聊天记录。通常以插件或修改版客户端的形式集成在 Telegram 桌面端，适合需要审计记录、保存证据或防止重要信息被删除的场景。通过监控撤回动作并拦截显示，确保每条消息始终可见。适用于注重信息留存和沟通安全的个人或团队用户。
 - [shadowsocks/libQtShadowsocks](https://github.com/shadowsocks/libQtShadowsocks) ★1481 [`c-plus-plus`] [`library`] [`network`] [`proxy`] [`qt5`] [`shadowsocks`]  
   用于构建 Shadowsocks 代理工具的 C++ 库，基于 Qt 框架实现。它封装了 Shadowsocks 协议的核心逻辑，包括加密、解密、TCP/UDP 代理及常见混淆方式，使开发者不必自行处理底层网络与协议细节，就能快速在自己的应用中集成代理功能。由于采用 Qt，该库可跨平台运行，常见于开发图形化代理客户端，或为网络工具添加科学上网能力。通常适合需要稳定、可定制代理模块的 Qt/C++ 项目，尤其适合想要复用现有生态而非从零实现协议的团队。
 - [microsoft/diskspd](https://github.com/microsoft/diskspd) ★1400  
@@ -107,7 +107,7 @@
 - [Frank-Friemel/Shairport4w](https://github.com/Frank-Friemel/Shairport4w) ★723  
   Shairport4w 是 Shairport 的 Windows 移植版本，主要用于将 Windows 电脑变成 Apple AirPlay 音频接收器。它能让 iPhone、iPad 或 Mac 等设备通过 AirPlay 将音乐直接推送到电脑连接的扬声器上，适用于家庭无线音频播放或桌面场景。通常适合希望把 Apple 设备音频流转到 Windows 系统播放的用户，无需额外专用硬件，即可实现跨设备的声音投送。
 - [chengciming/wechatPc](https://github.com/chengciming/wechatPc) ★669 [`hook`] [`pc-hook`] [`pcwechat`] [`wechat`] [`wechathook`]  
-  一个基于 Electron 和 Puppeteer 实现的微信 PC 端客户端，支持扫码登录、消息收发、联系人管理等核心功能，主要用于自动化消息发送、聊天机器人对接和桌面端消息监控，适合需要在 PC 端集成微信通信能力的场景。
+  用于在PC端微信上实现自动化操作与管理的辅助工具，通常适合需要处理聊天消息、好友或群管理的个人开发者和技术爱好者。它常被用于消息接收与自动回复、聊天记录导出备份，以及批量操作等场景，能够帮助提升日常沟通和运营效率。实现方式一般围绕微信PC客户端的界面交互或底层接口展开，具体功能和稳定性会随微信版本更新而变化，使用前需要评估风险并关注账号安全。
 - [exinnet/tclip](https://github.com/exinnet/tclip) ★466  
   主要用于图像智能裁剪，尤其在生成缩略图或适配不同屏幕尺寸时自动识别并保留图片中的核心主体，避免因简单裁切而丢失重要内容。典型场景包括电商商品图、社交平台头像或封面图的批量处理，适合需要统一尺寸但画面构图差异较大的图片集合。通常基于显著性检测或人脸识别等技术判断关注区域，从而提高裁剪效率与效果。
 - [binbibi/XTeamLView](https://github.com/binbibi/XTeamLView) ★427  

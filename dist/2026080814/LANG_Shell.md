@@ -1,6 +1,6 @@
 # Shell 仓库
 
-- [mattpocock/skills](https://github.com/mattpocock/skills) ★209094  
+- [mattpocock/skills](https://github.com/mattpocock/skills) ★209104  
   该项目主要用于展示和分享 TypeScript 相关技能与实战经验，通过代码示例帮助开发者提升类型体操、泛型编程及类型推导等高级 TypeScript 技术的应用能力。
 - [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) ★189084 [`cli`] [`cli-app`] [`oh-my-zsh`] [`oh-my-zsh-plugin`] [`oh-my-zsh-theme`] [`ohmyzsh`] [`plugin-framework`] [`plugins`] [`productivity`] [`shell`] [`terminal`] [`theme`] [`themes`] [`zsh`] [`zsh-configuration`]  
   一个社区驱动的 Zsh 配置管理框架，用于简化终端环境搭建和日常使用。它内置数百个插件和主题，涵盖 Git 别名、语法高亮、自动跳转等常见功能，可显著减少手动修改配置文件的工作量。用户通过简单的配置文件即可启用或组合扩展，适合频繁使用命令行的开发者、运维人员或任何想要提升终端操作效率的人。它解决了从零配置 Shell 的繁琐问题，让个性化终端体验变得快速且标准化，通常用于 macOS 和 Linux 系统的默认 Shell 增强。
@@ -8,9 +8,9 @@
   通过 Docker 部署可远程访问的 macOS 操作系统环境，主要用于在 Linux 上运行 macOS 实例进行开发测试、安全研究或应用调试，支持 Apple Silicon 和 x86_64 架构的虚拟化，适合需要 macOS 云服务或自动化测试的场景。
 - [dockur/windows](https://github.com/dockur/windows) ★52788 [`docker`] [`docker-container`] [`virtualization`] [`windows`] [`windows-virtual-desktop`] [`windows-virtual-machine`] [`windows-virtual-machines`] [`windows-vm`]  
   该项目主要用于在Windows系统上运行Docker容器，提供对Docker工具链的集成支持，使开发者能够通过容器化方式部署和管理应用，适用于本地开发、测试及CI/CD流程中的容器化需求。
-- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ★47427 [`acme`] [`acme-challenge`] [`acme-protocol`] [`acme-v2`] [`ash`] [`bash`] [`buypass`] [`certbot`] [`lets-encrypt`] [`posix`] [`posix-sh`] [`shell`] [`ssl`] [`ssl-certificate`] [`ssl-certificates`] [`tls`] [`tls-certificate`] [`zerossl`]  
+- [acmesh-official/acme.sh](https://github.com/acmesh-official/acme.sh) ★47428 [`acme`] [`acme-challenge`] [`acme-protocol`] [`acme-v2`] [`ash`] [`bash`] [`buypass`] [`certbot`] [`lets-encrypt`] [`posix`] [`posix-sh`] [`shell`] [`ssl`] [`ssl-certificate`] [`ssl-certificates`] [`tls`] [`tls-certificate`] [`zerossl`]  
   acme.sh 是一个用 Shell 编写的 ACME 协议客户端，用于自动申请、续期和管理 SSL/TLS 证书。它支持通过多种验证方式（如 HTTP、DNS）与 Let's Encrypt 等证书颁发机构交互，适用于 Nginx、Apache 等服务器，可部署在各类 Unix 系统上，轻量高效，无需额外依赖。
-- [pyenv/pyenv](https://github.com/pyenv/pyenv) ★45001 [`python`] [`shell`]  
+- [pyenv/pyenv](https://github.com/pyenv/pyenv) ★45002 [`python`] [`shell`]  
   用于管理和安装多个 Python 版本的命令行工具，允许用户在不同项目中切换 Python 版本，支持全局和局部版本设置，适用于开发和测试需要多版本 Python 共存的场景。
 - [zsh-users/zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions) ★35955 [`autocomplete`] [`autosuggest`] [`fish`] [`shell`] [`zsh`] [`zsh-autosuggestions`]  
   为Zsh命令行环境实现自动建议功能，当用户输入命令时，插件会从历史记录中推测当前输入对应的最可能完整命令，并以灰色字体在光标后显示建议。用户无需记忆复杂命令，只需按既定快捷键即可采纳补全内容。适合频繁使用终端的开发者，尤其对长命令、常用参数或重复操作能显著提升效率，减少手动输入和拼写错误。该插件可独立加载，也能与主流Zsh配置框架配合使用，并兼容Vi编辑模式，是Zsh社区广泛采用的效率工具。

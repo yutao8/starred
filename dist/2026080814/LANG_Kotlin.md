@@ -6,9 +6,9 @@
   用于Android设备上的代理客户端，基于V2Ray核心，支持VMess、VLESS等主流传输协议，通过用户自备的服务器地址实现加密通信和访问受限内容。通常适合需要隐私保护、绕过地域封锁或网络审查的场景，使用者可手动添加服务器配置或通过订阅链接批量导入，并灵活切换全局、路由等代理模式。应用内置实时连接状态显示与延迟测试，方便排查网络问题，以开源、轻量、配置灵活为特点，但实际效果取决于用户所配置的服务器可用性与稳定性。
 - [bannedbook/fanqiang](https://github.com/bannedbook/fanqiang) ★49671 [`brook`] [`daze`] [`fanqiang`] [`goflyway`] [`lightsocks`] [`proxy`] [`psiphon`] [`shadowsocks`] [`ssr`] [`trojan`] [`v2ray`]  
   用于突破网络封锁获取自由访问互联网的工具集，汇集了各类翻墙软件、客户端配置教程、免费及付费机场订阅链接，以及常见问题解决方法。通常适合在严格网络审查环境下需要访问境外网站或服务的用户，提供从入门到进阶的完整方案，涵盖电脑、手机等多平台使用方法，并持续更新可用资源。
-- [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) ★44207  
+- [MetaCubeX/ClashMetaForAndroid](https://github.com/MetaCubeX/ClashMetaForAndroid) ★44209  
   ClashMetaForAndroid 是一个基于 Clash Meta 内核的安卓平台网络代理客户端，主要用于科学上网与网络流量管理。它支持多种协议，提供分流规则、节点订阅、DNS 代理及增强的流量控制功能，适合需要精细化网络调度的用户在 Android 设备上使用。
-- [gkd-kit/gkd](https://github.com/gkd-kit/gkd) ★40737 [`accessibility`] [`android`] [`auto`] [`click`] [`compose`] [`jetpack-compose`] [`kotlin`] [`kotlin-js`] [`kotlin-multiplatform`] [`webassembly`]  
+- [gkd-kit/gkd](https://github.com/gkd-kit/gkd) ★40739 [`accessibility`] [`android`] [`auto`] [`click`] [`compose`] [`jetpack-compose`] [`kotlin`] [`kotlin-js`] [`kotlin-multiplatform`] [`webassembly`]  
   一个基于 Go 语言开发的通用知识图谱构建工具包，主要用于实体对齐、关系抽取和图谱融合，适用于多源异构数据的自动化处理与知识库构建场景，支持灵活扩展和高性能计算。
 - [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) ★28522  
   提供一种无需 root 权限即可使用系统私有 API 的方式，通过辅助服务模式授予应用系统级权限，主要用于开发调试或高级功能扩展，适合需要调用隐藏接口但不想或无法 root 设备的场景。
@@ -16,7 +16,7 @@
   SmsForwarder 是一个用于转发短信的开源工具，主要用于将接收到的短信通过网络协议（如HTTP、MQTT、Telegram等）实时转发到指定服务器或消息平台，适用于需要远程监控短信、双卡双待设备短信同步或自动化短信处理的场景，支持多种自定义规则过滤和转发。
 - [mihonapp/mihon](https://github.com/mihonapp/mihon) ★22647 [`android`] [`kotlin`] [`manga`] [`manga-downloader`] [`manga-reader`] [`mangadownloader`] [`mangareader`] [`tachiyomi`] [`tachiyomi-alternative`]  
   Mihon 是一个开源的漫画阅读器，主要用于浏览和管理本地或在线的漫画、漫画书和网络漫画，支持多种格式和源插件，提供简洁的界面和离线阅读功能，适合个人化漫画收藏与阅读。
-- [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) ★22211 [`android`] [`gfw`] [`proxy`] [`shadowsocks`] [`sing-box`] [`trojan`] [`vmess`] [`vpn`]  
+- [MatsuriDayo/NekoBoxForAndroid](https://github.com/MatsuriDayo/NekoBoxForAndroid) ★22212 [`android`] [`gfw`] [`proxy`] [`shadowsocks`] [`sing-box`] [`trojan`] [`vmess`] [`vpn`]  
   NekoBoxForAndroid 是一个专为 Android 设备设计的网络代理工具，主要用于科学上网和网络流量管理。它基于 V2Ray、Trojan 等主流代理协议，提供简洁直观的用户界面，支持配置自定义节点、SSID 识别、规则分流、伪装流量等功能，帮助用户实现安全、稳定和高效的网络访问。项目聚焦于隐私保护与网络自由，适合需要灵活网络代理方案的用户使用。
 - [open-ani/animeko](https://github.com/open-ani/animeko) ★19400 [`android`] [`ani`] [`anime`] [`bangumi`] [`bittorrent`] [`bt`] [`compose`] [`compose-multiplatform`] [`danmaku`] [`ios`] [`jetpack-compose`] [`kotlin`] [`kotlin-multiplatform`] [`linux`] [`macos`] [`player`] [`torrent`] [`video`] [`windows`]  
   Animeko 是一个基于 WebGPU 的开源 3D 动画渲染库，专注于高性能呈现高质量的动漫风格角色模型，支持实时渲染、骨骼动画与材质自定义，适用于网页端的虚拟偶像展示、互动应用与轻量级动画播放。
@@ -32,7 +32,7 @@
   MaterialFiles 是一个基于 Material Design 设计规范的 Android 文件管理器，提供简洁直观的界面和高效稳定的文件浏览、编辑、复制、移动、压缩、解压等常用功能，支持深色模式和多种排序方式，主要用于本地文件的便捷管理。
 - [ReadYouApp/ReadYou](https://github.com/ReadYouApp/ReadYou) ★7400 [`android`] [`compose`] [`f-droid`] [`kotlin`] [`material-design`] [`material-design-3`] [`material-ui`] [`material-you`] [`rss-reader`]  
   ReadYou 是一个专注于提升阅读体验的应用程序，主要用于个性化文档阅读与信息管理。它支持多种格式的电子书和文章导入，提供智能推荐、阅读进度同步、笔记标注等功能，适合需要高效处理大量文本内容的用户，如学生、研究人员和深度阅读爱好者。
-- [rikkahub/rikkahub](https://github.com/rikkahub/rikkahub) ★6720 [`agent`] [`android`] [`app`] [`chatbot-ui`] [`chatbox`] [`chatgpt`] [`deepseek`] [`gemini`] [`jetpack-compose`] [`llm-ui`] [`mcp`] [`openrouter`] [`web-ui`]  
+- [rikkahub/rikkahub](https://github.com/rikkahub/rikkahub) ★6721 [`agent`] [`android`] [`app`] [`chatbot-ui`] [`chatbox`] [`chatgpt`] [`deepseek`] [`gemini`] [`jetpack-compose`] [`llm-ui`] [`mcp`] [`openrouter`] [`web-ui`]  
   RikkaHub 是一个专注于 Android 应用模块化开发与管理的开源项目，主要用于构建和管理 Xposed 框架相关的功能模块，提供简洁的界面和高效的插件管理体系，方便用户定制化修改系统行为，适用于高级开发者和追求个性化功能的 Android 用户。
 - [fcitx5-android/fcitx5-android](https://github.com/fcitx5-android/fcitx5-android) ★5501 [`android`] [`android-ime`] [`android-keyboard`] [`fcitx`] [`fcitx5`] [`ime`] [`input-method`] [`keyboard`]  
   为 Android 平台提供 Fcitx5 框架的输入法支持，实现高效、灵活的中文输入体验，主要用于在移动设备上运行基于 Fcitx5 的输入法引擎，适配多种输入方案并优化与 Linux 桌面环境一致的输入行为。
@@ -69,4 +69,4 @@
 - [rcmiku/Payload-Dumper-Compose](https://github.com/rcmiku/Payload-Dumper-Compose) ★940  
   用于解包和分析 Android 固件中的 payload.bin 文件，支持从 OTA 更新包中提取系统镜像，方便进行固件对比、文件提取和系统定制，适合开发者和安全研究人员使用。
 - [QiYuTechOrg/QiYuTkAndroid](https://github.com/QiYuTechOrg/QiYuTkAndroid) ★86 [`android`] [`android-studio`] [`kotlin`] [`taobaoke`] [`tbk`]  
-  提供Android平台下的技术解决方案与开发工具，主要用于提升Android应用开发效率，集成常用功能模块，支持快速构建稳定、高性能的移动端应用，适合需要简化开发流程的Android工程师使用。
+  该仓库是奇遇科技组织开源的Android工具包，主要面向Android应用开发者，用于简化日常编码中的重复性工作。它通常整合了多个实用模块，覆盖界面处理、数据操作、系统交互等常见场景，适合在快速开发或维护中小型应用时作为基础工具集使用。项目以模块化和易集成为设计方向，帮助团队统一代码风格，减少造轮子成本，提升开发效率。具体功能细节需参考仓库文档，但总体定位是轻量级、实用的Android开源组件库。

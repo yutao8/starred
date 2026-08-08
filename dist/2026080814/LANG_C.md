@@ -1,8 +1,8 @@
 # C 仓库
 
-- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★147170 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
+- [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) ★147171 [`android`] [`c`] [`ffmpeg`] [`libav`] [`mirroring`] [`recording`] [`screen`] [`sdl2`]  
   用于在电脑上实时镜像和控制 Android 设备的开源工具，通过 USB 或无线 ADB 连接，无需 root 权限。它利用设备自身编码能力，以极低延迟传输屏幕画面，支持鼠标键盘操控、剪贴板共享、文件拖放和同时管理多台设备，适合应用演示、手机投屏、游戏操作、开发调试或日常远程控制。轻量命令行设计，跨平台运行于 Windows、macOS 和 Linux，技术栈基于 ADB 与视频流处理，是开发者和普通用户常用的高效投屏方案。
-- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★137560 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
+- [microsoft/PowerToys](https://github.com/microsoft/PowerToys) ★137561 [`advanced-paste`] [`color-picker`] [`command-palette`] [`desktop`] [`fancyzones`] [`keyboard-manager`] [`microsoft-powertoys`] [`powerrename`] [`powertoys`] [`windows`] [`windows-10`] [`windows-11`]  
   PowerToys 是一套面向高级用户的实用工具集，旨在增强 Windows 操作系统的生产力与自定义能力，提供诸如窗口布局管理、快捷键自定义、文件预览、颜色拾取、批量重命名等功能，帮助用户更高效地操作和定制系统体验。
 - [ventoy/Ventoy](https://github.com/ventoy/Ventoy) ★78567 [`arm64`] [`auto-install`] [`bootable-usb`] [`bsd`] [`chromeos`] [`iso-files`] [`legacy`] [`linux`] [`multiboot`] [`persistence`] [`secure-boot`] [`uefi`] [`unattended`] [`unix`] [`usb`] [`windows`] [`x86`] [`x86-64`]  
   Ventoy 是一个开源工具，用于创建可启动的U盘，支持直接拷贝ISO/WIM/IMG/VHD(x)/EFI等镜像文件到U盘并直接启动，无需反复格式化，兼容 Legacy BIOS 和 UEFI 模式，简化多系统安装和维护流程。
@@ -32,7 +32,7 @@
   coturn/coturn 是一个开源的 TURN/STUN 服务器实现，主要用于帮助在 NAT 或防火墙后的客户端进行实时通信（如 WebRTC），通过中继和打洞技术解决网络地址转换带来的连接问题，支持多种认证方式和部署场景。
 - [SoftEtherVPN/SoftEtherVPN](https://github.com/SoftEtherVPN/SoftEtherVPN) ★13447 [`etherip`] [`ike`] [`ipsec`] [`l2tp`] [`l2tpv3`] [`openvpn`] [`softether-vpn`] [`softethervpn`] [`ssl-vpn`] [`sstp`] [`tls`] [`vpn`] [`vpn-protocols`] [`vpn-server`] [`vpn-tunnel`] [`wfh`] [`wireguard`] [`work-from-home`]  
   SoftEtherVPN 是一款跨平台的开源 VPN 解决方案，主要用于搭建高性能的虚拟专用网络服务器，支持 SSL、L2TP/IPsec、OpenVPN 等多种常见协议，可在一台服务器上统一管理。它适用于远程办公、跨地域组网、突破网络限制等场景，具备出色的传输速度与稳定性，并提供图形化管理和命令行工具，适合企业及个人部署使用。
-- [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) ★12129 [`brute-force`] [`brute-force-attacks`] [`brute-force-passwords`] [`bruteforce`] [`bruteforce-attacks`] [`bruteforcer`] [`bruteforcing`] [`hydra`] [`network-security`] [`password-cracker`] [`password-cracking`] [`penetration-testing`] [`pentest`] [`pentest-tool`] [`pentesting`] [`thc`]  
+- [vanhauser-thc/thc-hydra](https://github.com/vanhauser-thc/thc-hydra) ★12130 [`brute-force`] [`brute-force-attacks`] [`brute-force-passwords`] [`bruteforce`] [`bruteforce-attacks`] [`bruteforcer`] [`bruteforcing`] [`hydra`] [`network-security`] [`password-cracker`] [`password-cracking`] [`penetration-testing`] [`pentest`] [`pentest-tool`] [`pentesting`] [`thc`]  
   用于网络登录口令的爆破与安全评估，支持HTTP、FTP、SSH、MySQL和RDP等数十种常见协议。安全工程师或系统管理员可以在授权范围内，用它测试远程服务的认证强度，检测弱口令风险，并辅助漏洞验证和渗透测试。它借助字典文件或自定义规则，批量尝试用户名和密码组合，并支持多线程并行、暂停恢复、代理切换等操作，也可通过脚本扩展协议。通常适合登录防护能力验证、账号安全审核与合规检查，但必须遵守目标授权，仅用于合法安全任务。
 - [pymumu/smartdns](https://github.com/pymumu/smartdns) ★11183 [`c`] [`dns`] [`dns-over-https`] [`dns-over-tls`] [`dns-server`] [`dns64`] [`doh`] [`doh3`] [`doq`] [`dot`] [`nftables`] [`nftables-sets`] [`openwrt`] [`openwrt-package`] [`smartdns`] [`stubby`]  
   smartdns是一个用于提供高效、稳定DNS解析的开源工具，通过多上游DNS服务器并行查询和智能选择响应最快的IP地址，有效提升网络访问速度与稳定性。它支持DNS缓存、自定义规则和域名分流，常用于科学上网、广告过滤和优化国内/国外网站访问体验。
@@ -41,7 +41,7 @@
 - [phpredis/phpredis](https://github.com/phpredis/phpredis) ★10232 [`cluster`] [`keydb`] [`php`] [`redis`] [`redis-cluster`] [`valkey`]  
   phpredis 是一个用于 PHP 的 Redis 扩展，提供与 Redis 数据库通信的接口，支持连接管理、数据操作、事务、发布订阅等功能，通常用于提升 PHP 应用对 Redis 的访问性能。
 - [xmrig/xmrig](https://github.com/xmrig/xmrig) ★10068 [`argon2`] [`cpuminer`] [`cryptocurrency`] [`cryptonight`] [`miner`] [`monero`] [`randomx`] [`xmr`] [`xmrig`]  
-  XMRig是一款开源的门罗币（Monero）挖矿软件，主要用于通过CPU或GPU进行加密货币挖矿，支持RandomHash算法，具备高效、低延迟的特点，常被用于个人矿工加入矿池挖矿或集成到其他项目中实现挖矿功能。
+  XMRig是高性能开源加密货币挖矿程序，主要用于挖掘门罗币（Monero）等基于RandomX算法的币种，能够充分利用CPU与GPU算力高效挖掘。它提供矿池挖矿、独立挖矿以及灵活的配置选项，还能实时查看算力与运行状态。该软件跨平台运行，注重性能与稳定性，适合个人电脑或矿场部署，是许多矿工提高收益的首选工具。
 - [wireshark/wireshark](https://github.com/wireshark/wireshark) ★9697 [`packet-capture`] [`stratoshark`] [`tshark`] [`wireshark`]  
   Wireshark 是一个开源的网络协议分析工具，用于捕获和交互式地查看网络流量。它支持多种协议解析，可帮助网络管理员、开发人员和安全专家诊断网络问题、分析数据包、调试通信协议以及检测潜在的安全威胁，适用于网络故障排查、性能优化和网络安全分析等场景。
 - [Wind4/vlmcsd](https://github.com/Wind4/vlmcsd) ★8850  
@@ -71,7 +71,7 @@
 - [JoeDog/siege](https://github.com/JoeDog/siege) ★6210  
   用于HTTP负载测试和基准测试的命令行工具，通过模拟多个并发用户向目标网站发送请求，评估Web服务器在高并发下的性能与稳定性。适合开发者在发布前测试站点容量，或管理员排查服务器瓶颈。支持配置并发数、请求次数等参数，并输出吞吐量、响应时间等统计信息，帮助判断应用能否承受预期流量压力。
 - [google/ios-webkit-debug-proxy](https://github.com/google/ios-webkit-debug-proxy) ★6192  
-  用于调试iOS设备上Safari浏览器的代理服务器，通过实现WebKit远程调试协议，将iOS设备的调试接口转发到本地端口，方便配合Chrome DevTools等工具进行移动网页调试，通常用于自动化测试和移动Web开发场景。
+  ios-webkit-debug-proxy 用于在非 macOS 系统（如 Linux 或 Windows）上调试 iOS 设备中的 Safari 浏览器和 WebView 页面。它作为 WebKit 远程调试协议的代理，将 iOS 设备与桌面开发者工具连接起来，让前端工程师可以使用 Chrome DevTools 等工具实时查看和调试移动端网页。该项目主要适合跨平台 Web 开发、移动端自动化测试以及需要远程检查 iOS WebView 的场景，解决真机调试时必须依赖 macOS 的问题。工具通过本地端口转发实现通信，部署简便。
 - [ldcsaa/HP-Socket](https://github.com/ldcsaa/HP-Socket) ★6142 [`android`] [`c`] [`cpp`] [`cross-platform`] [`epoll`] [`hpsocket`] [`http`] [`https`] [`iocp`] [`linux`] [`ndk`] [`netcore`] [`network`] [`networking`] [`socket`] [`ssl`] [`tcp`] [`udp`] [`websocket`] [`windows`]  
   HP-Socket 是一套面向高并发场景的跨平台网络通信中间件，主要用于快速构建 TCP、UDP、HTTP 服务端与客户端。底层基于 Windows IOCP 和 Linux epoll 事件驱动模型，提供非阻塞异步收发和连接管理能力，能在单进程内支撑大量并发连接。典型使用场景包括游戏服务器、即时通讯、物联网网关以及需要长连接推送的后端服务。该组件以 C++ 编写，接口封装简洁，并支持 SSL 加密通道，适合作为底层通信骨架嵌入各类高性能业务系统。
 - [tinyproxy/tinyproxy](https://github.com/tinyproxy/tinyproxy) ★5951  

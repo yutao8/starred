@@ -8,7 +8,7 @@
   PowerShell 是一种跨平台的任务自动化解决方案，由命令行、脚本语言和配置管理框架组成，主要用于系统管理和配置自动化，支持 Windows、Linux 和 macOS 环境下的自动化任务执行与远程管理操作。
 - [huiyadanli/RevokeMsgPatcher](https://github.com/huiyadanli/RevokeMsgPatcher) ★38393 [`hex-editor`] [`patch`] [`pc`] [`qq`] [`revoke`] [`revokemsg`] [`tim`] [`tool`] [`wechat`] [`windows`]  
   用于修改微信以支持撤回已发送消息的补丁工具，主要用于在微信客户端中实现消息撤回功能的增强或修复，适合需要更灵活消息管理的用户，通常适用于特定版本的微信客户端修改。
-- [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) ★31299 [`android`] [`app-framework`] [`avalonia`] [`avaloniaui`] [`browser`] [`c-sharp`] [`cross-platform`] [`csharp`] [`desktop`] [`dotnet`] [`gui`] [`ios`] [`linux`] [`macos`] [`mobile`] [`mvvm`] [`wasm`] [`windows`] [`xamarin`] [`xaml`]  
+- [AvaloniaUI/Avalonia](https://github.com/AvaloniaUI/Avalonia) ★31298 [`android`] [`app-framework`] [`avalonia`] [`avaloniaui`] [`browser`] [`c-sharp`] [`cross-platform`] [`csharp`] [`desktop`] [`dotnet`] [`gui`] [`ios`] [`linux`] [`macos`] [`mobile`] [`mvvm`] [`wasm`] [`windows`] [`xamarin`] [`xaml`]  
   Avalonia 是一个跨平台的 .NET UI 框架，用于构建具有原生外观的桌面应用程序，支持 Windows、macOS、Linux，并可运行在 .NET Core 和 .NET 5+ 环境中，提供类似于 WPF 的开发体验，支持 XAML、数据绑定、样式和控件模板，适用于需要现代 UI 和跨平台能力的 .NET 应用开发。
 - [dnSpy/dnSpy](https://github.com/dnSpy/dnSpy) ★29699  
   dnSpy 是一个开源的 .NET 程序反编译与调试工具，主要用于分析、修改和调试已编译的 .NET 程序集。它集成了反编译引擎（基于 ILSpy）、调试器和程序集编辑功能，支持直接编辑 IL 代码、设置断点、动态调试以及资源替换，常用于逆向工程、软件调试与安全研究。
@@ -28,7 +28,7 @@
   WinSW 是一个轻量级的 Windows 服务包装器，主要用于将任何可执行文件或脚本封装为 Windows 服务，支持 .NET 和 Java 等应用，便于在后台运行和管理应用程序，提供安装、卸载、启动、停止等命令行操作，常用于部署 Web 服务、守护进程等场景。
 - [d2phap/ImageGlass](https://github.com/d2phap/ImageGlass) ★13965 [`avalonia`] [`avif`] [`cross-platform`] [`csharp`] [`dotnet`] [`heic`] [`image-viewer`] [`imageglass`] [`jpeg-xl`] [`jxl`] [`linux`] [`linux-app`] [`macos`] [`macos-app`] [`photo-viewer`] [`picture-viewer`] [`raw-image`] [`windows-app`] [`winforms`]  
   ImageGlass 是一个轻量级的 Windows 图片查看器，支持多种图像格式，提供简洁的界面和流畅的浏览体验，主要用于快速查看本地图片文件，适合需要高效管理与浏览图像的用户，支持自定义主题和扩展功能。
-- [OdysseusYuan/LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools) ★12461 [`access`] [`email`] [`excel`] [`kms`] [`lync`] [`microsoft`] [`msoffice`] [`office`] [`office-free`] [`office365`] [`onedrive`] [`onenote`] [`outlook`] [`ppt`] [`project`] [`publisher`] [`skype`] [`teams`] [`visio`] [`word`]  
+- [OdysseusYuan/LKY_OfficeTools](https://github.com/OdysseusYuan/LKY_OfficeTools) ★12463 [`access`] [`email`] [`excel`] [`kms`] [`lync`] [`microsoft`] [`msoffice`] [`office`] [`office-free`] [`office365`] [`onedrive`] [`onenote`] [`outlook`] [`ppt`] [`project`] [`publisher`] [`skype`] [`teams`] [`visio`] [`word`]  
   LKY_OfficeTools 是一个用于提升办公自动化效率的工具集，主要用于处理文档、表格和演示文稿的批量操作。它支持文件格式转换、内容提取、模板填充等常见办公任务，适用于需要频繁处理 Office 文件的场景，可显著减少手动重复工作，提高工作效率。
 - [JamesNK/Newtonsoft.Json](https://github.com/JamesNK/Newtonsoft.Json) ★11310 [`c-sharp`] [`json`]  
   Newtonsoft.Json，即Json.NET，是.NET生态中最流行的JSON序列化与反序列化库，提供高性能的JsonSerializer、LINQ to JSON查询以及灵活的JsonConverter扩展，支持强类型对象与动态类型的双向转换，广泛应用于ASP.NET Core、Unity及各类桌面和Web服务的API数据交互与配置存储场景。

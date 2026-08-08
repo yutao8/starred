@@ -2,21 +2,21 @@
 
 - [openclaw/openclaw](https://github.com/openclaw/openclaw) ★385514 [`ai`] [`assistant`] [`crustacean`] [`molty`] [`openclaw`] [`own-your-data`] [`personal`]  
   OpenClaw 是一个开源的机器人控制框架，主要用于机械臂运动规划、视觉伺服和灵巧操作任务，支持多种硬件平台，提供模块化设计以方便算法开发与实验部署。
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★194842  
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) ★194849  
   一个开源代码协作平台，主要用于代码托管、版本控制和团队协作开发，支持仓库管理、代码审查、持续集成等常见软件开发功能，便于开发者共享和贡献开源项目。
-- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★162996 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
+- [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) ★163001 [`ai`] [`ai-agents`] [`ai-crawler`] [`ai-scraping`] [`ai-search`] [`crawler`] [`data-extraction`] [`html-to-markdown`] [`llm`] [`markdown`] [`scraper`] [`scraping`] [`web-crawler`] [`web-data`] [`web-data-extraction`] [`web-scraper`] [`web-scraping`] [`web-search`] [`webscraping`]  
   FireCrawl 是一个用于自动化网页数据抓取与信息提取的开源工具，主要用于从网站中高效采集结构化数据，支持动态页面渲染，适用于构建训练数据集、监控网页变化及集成到 AI 应用中，提供可扩展的爬虫框架与 API 接口。
-- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★136237 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
+- [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) ★136242 [`clash`] [`clash-meta`] [`clash-verge`] [`linux`] [`mac`] [`mihomo`] [`tauri-app`] [`windows`]  
   Clash Verge Rev 是一个基于 Clash Verge 的维护版本，主要用于管理 Clash 核心代理工具的图形化界面，支持规则配置、代理切换与流量控制，适合需要灵活网络代理的用户，修复了原版部分问题并持续更新维护。
 - [iptv-org/iptv](https://github.com/iptv-org/iptv) ★135371 [`iptv`] [`m3u`] [`playlist`] [`streams`] [`tv`]  
   公开可用的网络电视直播频道资源集合，收录全球数千个免费 IPTV 频道的流媒体地址，覆盖新闻、体育、娱乐、儿童等多类内容。用户可直接导入支持 M3U 播放列表的播放器，或通过仓库提供的工具筛选和获取频道链接。主要用于搭建个人电视直播源、测试播放器兼容性，以及为无法使用传统电视服务的用户提供替代观看途径。适合需要快速获取全球频道列表的开发者或普通用户，但需注意部分源可能因地区或版权原因失效。
-- [immich-app/immich](https://github.com/immich-app/immich) ★109946 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
+- [immich-app/immich](https://github.com/immich-app/immich) ★109947 [`backup-tool`] [`flutter`] [`google-photos`] [`google-photos-alternative`] [`javascript`] [`mobile-app`] [`nestjs`] [`nodejs`] [`photo-gallery`] [`photos`] [`photos-management`] [`self-hosted`] [`svelte`] [`sveltekit`] [`typescript`] [`videos`]  
   Immich 是一个自托管的照片和视频备份解决方案，主要用于在个人服务器上安全存储、管理和同步来自手机、电脑等设备的媒体文件，支持跨平台访问、人脸识别、相册共享和高画质缩略图生成，适合注重隐私和数据自主权的用户。
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★106417 [`ai`] [`ai-agents`] [`cli`] [`gemini`] [`gemini-api`] [`mcp-client`] [`mcp-server`]  
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) ★106418 [`ai`] [`ai-agents`] [`cli`] [`gemini`] [`gemini-api`] [`mcp-client`] [`mcp-server`]  
   Gemini CLI 是一个命令行工具，用于与 Google 的 Gemini 模型进行交互，支持快速调用模型生成文本、对话和代码等内容，便于开发者在终端环境中测试和集成 Gemini 的能力。
 - [ant-design/ant-design](https://github.com/ant-design/ant-design) ★98999 [`ant-design`] [`antd`] [`design-systems`] [`react`] [`typescript`] [`ui-kit`] [`ui-library`]  
   Ant Design 是一个企业级的 React UI 设计语言和组件库，提供丰富、高质量的 React 组件，用于构建统一、美观的中后台产品界面。它遵循明确的设计规范，支持灵活的主题定制，广泛应用于各类企业级前端项目，助力开发者高效构建可维护的复杂应用界面。
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ★97108 [`css`] [`css-framework`] [`functional-css`] [`postcss`] [`responsive`] [`tailwindcss`] [`utility-classes`]  
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) ★97109 [`css`] [`css-framework`] [`functional-css`] [`postcss`] [`responsive`] [`tailwindcss`] [`utility-classes`]  
   一个功能优先的 CSS 框架，通过工具类直接在 HTML 中构建自定义设计，无需编写自定义 CSS。支持响应式布局、暗黑模式和动态主题，开箱即用，灵活高效，适合快速构建现代化用户界面。
 - [mermaid-js/mermaid](https://github.com/mermaid-js/mermaid) ★89636 [`diagrams`] [`diagrams-as-code`] [`documentation`] [`flowchart`] [`javascript`] [`mindmap`] [`typescript`] [`uml-diagrams`]  
   mermaid 是一个用于通过文本代码生成图表的 JavaScript 库，支持流程图、时序图、甘特图、类图等多种图表类型，常用于文档和笔记中可视化结构和流程，可集成在 Markdown 中直接渲染。
@@ -34,15 +34,15 @@
   NoCodeDB 是一个开源的无代码数据库平台，将传统数据库转化为可视化电子表格界面，支持 MySQL、PostgreSQL、SQLite 等多种数据源，允许用户通过类 Airtable 的界面进行数据管理、表单设计、视图切换和协作共享，适用于快速构建后台管理系统、内部工具和小型应用。
 - [marktext/marktext](https://github.com/marktext/marktext) ★59782 [`dark-mode`] [`editor`] [`electron`] [`focus-mode`] [`latex`] [`linux`] [`mac`] [`macos`] [`markdown`] [`marktext`] [`source-code`] [`typewriter-mode`] [`vue`] [`windows`]  
   MarkText 是一款开源跨平台的 Markdown 编辑器，采用所见即所得的实时渲染方式，让写作与排版同步完成。它支持 CommonMark 规范和 GitHub 风格语法，并提供数学公式、表格、流程图等扩展功能，适合技术文档撰写、博客草稿、课堂笔记和日常工作记录。编辑器内置多种美观主题，支持专注模式、打字机模式，并能将文档导出为 HTML、PDF 或图片，帮助用户摆脱格式干扰、专注内容创作。
-- [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ★52605 [`electron`] [`javascript`] [`music-player`] [`vue`]  
+- [lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop) ★52604 [`electron`] [`javascript`] [`music-player`] [`vue`]  
   一款基于 Electron 的跨平台桌面音乐播放器，主要用于聚合搜索和播放多个音乐平台的歌曲。它支持用户自定义音源接口，从而避开单一平台的版权限制，自由切换不同曲库来寻找想听的音乐。界面简洁，操作流畅，提供在线试听、歌曲下载、歌词显示以及播放列表管理等常用功能。适合希望在电脑端用一个应用解决多平台听歌需求、又不想反复切换界面的人群。
-- [justjavac/wechat-miniapp-radar](https://github.com/justjavac/wechat-miniapp-radar) ★51207 [`minapp`] [`miniprogram`] [`wechat`] [`wechat-weapp`] [`wxapp`] [`wxml`]  
+- [justjavac/wechat-miniapp-radar](https://github.com/justjavac/wechat-miniapp-radar) ★51206 [`minapp`] [`miniprogram`] [`wechat`] [`wechat-weapp`] [`wxapp`] [`wxml`]  
   用于扫描和收集微信小程序生态数据，以雷达式视角汇总各类小程序及其特征，帮助开发者快速发现热门应用、分析功能设计和技术实现。通常适合产品经理、前端开发等移动端技术人员作为市场参考或学习资源，也可以用于观察小程序行业变化。项目更侧重信息聚合，实际监控范围、更新频率和数据结构请以仓库说明为准，避免对其能力做过度假设。
-- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ★50049 [`agent-skills`] [`ai-agent`] [`awesome-skills`] [`claude-code`] [`codex`] [`deepseek`] [`hermes-agent`] [`openclaw`] [`skills`] [`vibe-coding`]  
+- [CherryHQ/cherry-studio](https://github.com/CherryHQ/cherry-studio) ★50051 [`agent-skills`] [`ai-agent`] [`awesome-skills`] [`claude-code`] [`codex`] [`deepseek`] [`hermes-agent`] [`openclaw`] [`skills`] [`vibe-coding`]  
   Cherry Studio 是一个现代化的前端开发工具，主要用于构建和管理组件库，支持实时预览、文档生成和样式定制，通常适合设计系统开发与团队协作。
 - [chenglou/pretext](https://github.com/chenglou/pretext) ★49730  
   Pretext 是一个用于在 React 组件中实现拖拽排序的轻量级库，主要用于构建可交互的列表、看板或排序界面，支持触摸和鼠标拖拽，提供简洁的 API 以集成到函数式组件中，适合开发需高效响应用户操作的排序场景。
-- [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) ★48726 [`browser`] [`chrome`] [`chrome-devtools`] [`debugging`] [`devtools`] [`mcp`] [`mcp-server`] [`puppeteer`]  
+- [ChromeDevTools/chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) ★48727 [`browser`] [`chrome`] [`chrome-devtools`] [`debugging`] [`devtools`] [`mcp`] [`mcp-server`] [`puppeteer`]  
   ChromeDevTools/chrome-devtools-mcp 是一个用于探索和扩展 Chrome 开发者工具能力的项目，主要用于通过 MCP（Model-Controller-Protocol）架构实现对浏览器调试功能的模块化控制与集成，便于开发者自定义调试流程、自动化操作及构建专用开发工具链。
 - [slab/quill](https://github.com/slab/quill) ★47286 [`editor`] [`quill`] [`rich-text-editor`] [`wysiwyg`]  
   slab/quill 是一个基于 Web 的富文本编辑器，提供轻量级、模块化的设计，支持自定义格式和扩展，主要用于构建内容创作工具，适合需要富文本排版、协作编辑或 Markdown 编辑的场景。
@@ -56,7 +56,7 @@
   一个开源的团队知识库和文档协作工具，主要用于组织和管理团队的知识内容，支持实时协作编辑、文档版本控制、权限管理与知识分类，适合团队搭建内部 Wiki 或客户文档中心，提供友好的 Markdown 编辑体验和多种数据导入导出功能。
 - [RSSNext/Folo](https://github.com/RSSNext/Folo) ★38778 [`ai`] [`reader`] [`rss`] [`rss-reader`] [`rsshub`]  
   Folo 是一个基于 RSS 的开源信息聚合工具，主要用于集中订阅、追踪和管理各类网站更新。它支持多源内容采集、智能去重与离线阅读，适合需要高效获取分散网络内容的用户，典型场景包括技术博客追踪、竞品动态监控和学术资讯聚合，通常部署在个人服务器或 NAS 上实现数据自主。
-- [umami-software/umami](https://github.com/umami-software/umami) ★38104 [`analytics`] [`audience-segmentation`] [`charts`] [`cohort-analysis`] [`google-analytics`] [`product-analytics`] [`statistics`] [`user-journey`] [`web-analytics`]  
+- [umami-software/umami](https://github.com/umami-software/umami) ★38105 [`analytics`] [`audience-segmentation`] [`charts`] [`cohort-analysis`] [`google-analytics`] [`product-analytics`] [`statistics`] [`user-journey`] [`web-analytics`]  
   Umami 是一个简单、快速、隐私友好的开源网站分析工具，用于替代 Google Analytics。它提供实时访问数据、用户行为分析、流量来源统计等功能，支持多种数据库和部署方式，无需收集个人身份信息，符合 GDPR 规范，适合个人博客、企业网站等注重数据隐私的场景。
 - [ueberdosis/tiptap](https://github.com/ueberdosis/tiptap) ★37959 [`editor`] [`javascript`] [`js`] [`prosemirror`] [`react`] [`renderless-components`] [`rich-text`] [`tiptap`] [`vue`] [`wysiwyg`] [`wysiwyg-editor`]  
   一个基于 ProseMirror 的可扩展富文本编辑器框架，主要用于构建现代化 Web 应用中的内容编辑功能，支持模块化扩展、协作编辑与自定义节点，适合集成到 Vue、React 等前端框架中。
@@ -78,7 +78,7 @@
   Web 管理界面，用于简化 WireGuard VPN 服务器的配置与管理，支持用户管理、二维码分享、流量统计等功能，便于快速部署和可视化操作。
 - [maotoumao/MusicFree](https://github.com/maotoumao/MusicFree) ★25968 [`free`] [`music-player`] [`musicfree`] [`plugin`] [`react`] [`react-native`] [`typescript`]  
   MusicFree 是一款开源的音乐应用，主要提供无广告、高质量的音乐播放体验，支持多种音频源解析与自定义扩展，适合追求纯净听歌环境的用户，可用于免费收听和下载主流平台的音乐资源。
-- [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) ★25646  
+- [GoogleChromeLabs/squoosh](https://github.com/GoogleChromeLabs/squoosh) ★25647  
   Squoosh 是一个网页工具，用于以高效且直观的方式压缩和转换图片。它支持多种现代图像格式（如 WebP、AVIF、JPEG-XL），提供可视化比较功能，帮助用户在压缩前后对比画质与文件大小，从而在保持视觉质量的同时最小化文件体积，特别适合网页性能优化场景。
 - [louislam/dockge](https://github.com/louislam/dockge) ★24013 [`docker`] [`docker-compose`] [`docker-deployment`] [`docker-stack`] [`docker-stack-deploy`] [`docker-ui`] [`responsive`] [`self-hosted`] [`selfhosted`] [`single-page-app`] [`socket-io`] [`webapp`] [`websocket`]  
   Dockge 是一个用于管理 Docker 容器和 Compose 项目的 Web 界面工具，主要用于简化 Docker 的部署与操作，适合需要可视化操作 Docker 服务的用户，支持快速启动、停止、查看容器状态及管理 compose 文件。
@@ -114,7 +114,7 @@
   ag-Grid 是一个功能强大的 JavaScript 数据网格组件，主要用于在 Web 应用中展示和操作大量结构化数据。它支持复杂的数据排序、过滤、分组、拖拽、编辑、虚拟滚动等高级功能，提供丰富的自定义选项和良好的性能表现，适用于企业级前端应用开发，兼容多种框架如 React、Angular 和 Vue。
 - [apitable/apitable](https://github.com/apitable/apitable) ★15446 [`admin-dashboard`] [`airtable`] [`airtable-alternative`] [`api`] [`automatic-api`] [`embed`] [`hacktoberfest`] [`internal-tool`] [`javascript`] [`low-code`] [`nestjs`] [`nextjs`] [`no-code`] [`nocodb`] [`notion`] [`react`] [`spreadsheet`] [`spring`] [`typescript`]  
   Apitable 是一个可扩展的协作平台，主要用于构建低代码应用和数据管理，支持自定义表单、自动化流程和多维表格，适用于团队协作、项目管理和业务系统搭建，通过可视化操作降低开发门槛，提升数据协作效率。
-- [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) ★14648 [`docker`] [`file-management`] [`rdp`] [`self-hosted`] [`server-stats`] [`ssh`] [`ssh-tunnel`] [`telnet`] [`terminal`] [`termix`] [`vnc`]  
+- [Termix-SSH/Termix](https://github.com/Termix-SSH/Termix) ★14649 [`docker`] [`file-management`] [`rdp`] [`self-hosted`] [`server-stats`] [`ssh`] [`ssh-tunnel`] [`telnet`] [`terminal`] [`termix`] [`vnc`]  
   Termix-SSH 是一个基于 Web 的终端工具，主要用于通过浏览器安全地连接和管理远程服务器，支持 SSH 协议，便于用户在无需安装额外客户端的情况下进行远程运维操作。
 - [electron-userland/electron-builder](https://github.com/electron-userland/electron-builder) ★14641 [`appx`] [`auto-update`] [`builder`] [`contributions-welcome`] [`deb`] [`distribution-electron`] [`dmg`] [`electron`] [`electron-builder`] [`electron-updater`] [`help-wanted`] [`linux`] [`macos`] [`msi`] [`muon`] [`nsis`] [`pkg`] [`rpm`] [`snap`] [`squirrel`]  
   用于打包和发布 Electron 应用的完整解决方案，支持多平台构建、自动更新、代码签名及依赖优化，提供跨平台的一键打包功能，简化桌面应用程序的分发流程，兼容 Windows、macOS 和 Linux，适合构建生产级 Electron 项目。
@@ -132,7 +132,7 @@
   Bitwarden客户端是开源的密码管理工具，提供浏览器扩展、桌面和移动应用，支持跨平台同步加密的登录信息、卡片和密码，通过端到端加密保障用户数据安全，便于个人和团队安全地存储与管理敏感信息。
 - [doocs/md](https://github.com/doocs/md) ★13145 [`ai-bot`] [`doocs`] [`editor`] [`llm`] [`markdown`] [`markdown-editor`] [`tailwindcss`] [`vite`] [`vue`] [`vue3`] [`wechat`] [`weixin`]  
   doocs/md 是一个现代化的 Markdown 编辑器，支持实时预览、语法高亮、数学公式、图表渲染等功能，主要用于编写结构化文档，适合技术笔记、博客创作和知识管理，具有轻量、安全、跨平台等特点，便于集成与扩展。
-- [jackyzha0/quartz](https://github.com/jackyzha0/quartz) ★12960 [`digital-garden`] [`networked-thought`] [`obsidian`] [`obsidian-md`] [`quartz-ssg`] [`static-site-generator`]  
+- [jackyzha0/quartz](https://github.com/jackyzha0/quartz) ★12961 [`digital-garden`] [`networked-thought`] [`obsidian`] [`obsidian-md`] [`quartz-ssg`] [`static-site-generator`]  
   Quartz 是一个基于 Obsidian 的静态网站生成工具，主要用于将本地笔记转换为可发布的个人知识库网站，支持双向链接、图谱视图和高度定制化主题，适合构建个人博客或文档站点，无需编程基础即可实现知识管理与共享。
 - [taye/interact.js](https://github.com/taye/interact.js) ★12919 [`drag-and-drop`] [`drop`] [`inertia`] [`javascript`] [`javascript-drag`] [`mobile`] [`modern-browsers`] [`multi-touch`] [`snap`] [`touch`] [`typescript`] [`vanilla`]  
   interact.js 是一个用于实现拖拽、缩放和多点触控手势的 JavaScript 库，适用于网页中的交互元素。它支持现代浏览器和移动设备，提供简单 API 来处理 drag、drop、resize 和 gesture 操作，常用于构建可交互的 UI 组件，如可拖动对话框、布局调整和触控拖拽等场景。
@@ -147,7 +147,7 @@
 - [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) ★11207 [`agents`] [`ai`] [`amp`] [`claude-code`] [`codex`] [`human-in-the-loop`] [`humanlayer`] [`llm`] [`llms`] [`opencode`]  
   HumanLayer 是一个用于构建人机协作工作流的 Python SDK，主要用于在自动化代理或 AI 系统中集成人工反馈。它支持通过 Slack、电子邮件等方式进行人工审批、验证或输入干预，帮助开发者在关键节点引入人为决策，提升系统安全性和可靠性。
 - [stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget) ★10877 [`javascript-plugin`] [`live2d`]  
-  用于在网页中集成Live2D看板娘的轻量级小部件，支持角色拖拽、对话气泡、屏幕边缘吸附及多种交互事件，常用于个人博客或网站以提升趣味性和用户互动体验。
+  用于在网页中嵌入可互动的Live2D看板娘形象，通常部署在个人博客或展示类网站的角落，访客可以通过点击、拖拽或输入文本与虚拟角色互动。设计上注重轻量与易集成，支持自定义模型、对话内容及显示样式，适合希望为站点增加趣味性和视觉辨识度的个人开发者或内容创作者。
 - [Akryum/vue-virtual-scroller](https://github.com/Akryum/vue-virtual-scroller) ★10789 [`scroller`] [`virtual-scroller`] [`vuejs`] [`vuejs-components`] [`vuejs2`]  
   提供可复用的虚拟滚动组件，用于高效渲染长列表，仅渲染可见区域元素，显著提升性能，支持垂直、水平滚动及不同尺寸条目，适用于大量数据的表格、聊天记录、日志等场景。
 - [getgridea/gridea](https://github.com/getgridea/gridea) ★10266 [`blog`] [`blog-engine`] [`blog-platform`] [`cms`] [`electron`] [`electronjs`] [`gridea`] [`jamstack`] [`macos`] [`static-blog`] [`static-site`] [`static-site-cms`] [`static-site-generator`] [`typescript`] [`vue`] [`vue2`] [`windows`]  
@@ -175,10 +175,10 @@
 - [sb2nov/mac-setup](https://github.com/sb2nov/mac-setup) ★7366 [`fresh-installs`] [`gitbook`] [`guide`] [`guidebook`] [`hacktoberfest`] [`install`] [`installation`] [`mac`] [`mac-osx`] [`macos`] [`setup`]  
   用于在 macOS 上快速搭建开发环境的开源指南与脚本集合。它汇总了从基础工具到常用开发库的安装配置步骤，包括 Homebrew、Git、编程语言环境等，帮助开发者在新 Mac 上完成初始设置，避免逐项手动查找安装方法。主要通过命令行执行，适合前端、后端等各类工程师用于初始化工作环境。也可作为系统配置清单，方便团队统一环境。内容清晰，按照说明操作即可完成大部分常见工具的安装与配置。
 - [yinxin630/fiora](https://github.com/yinxin630/fiora) ★7166 [`chat`] [`chatroom`] [`fiora`] [`mongodb`] [`react`] [`socket`]  
-  一个基于 Node.js 和 Socket.IO 的实时聊天应用，支持多房间、私聊、消息持久化和用户在线状态管理，适合用于构建社交平台或团队协作工具。
+  开源实时聊天应用 fiora 主要用于搭建轻量级网页聊天服务，支持多人群聊和私聊，可发送图片、代码片段，并保留历史消息。适合小型团队、社区或个人自建聊天平台。它的技术栈以 Node.js 和前端框架为主，界面简洁，部署简单，适合用来做学习实践或快速私有化部署。
 - [galaxy-s10/billd-desk](https://github.com/galaxy-s10/billd-desk) ★7065 [`coturn`] [`electron`] [`flutter`] [`nodejs`] [`parsec`] [`remote-desktop`] [`rustdesk`] [`socket-io`] [`todesk`] [`typescript`] [`vue3`] [`webrtc`]  
   一个基于 Electron 和 Vue.js 的桌面端电子账单管理系统，主要用于本地化管理个人或企业的收支记录，支持数据持久化、分类统计与报表导出，适用于 macOS、Windows 和 Linux 平台，具有现代化用户界面和离线使用特性。
-- [xushengfeng/eSearch](https://github.com/xushengfeng/eSearch) ★6913 [`clipboard`] [`color-picker`] [`cross-platform`] [`electron`] [`image-editing`] [`image-editor`] [`linux`] [`live-text`] [`macos`] [`ocr`] [`paddleocr`] [`recorder`] [`screen-capture`] [`screen-recorder`] [`screenshot`] [`search`] [`search-photos`] [`translate`] [`translator`] [`windows`]  
+- [xushengfeng/eSearch](https://github.com/xushengfeng/eSearch) ★6914 [`clipboard`] [`color-picker`] [`cross-platform`] [`electron`] [`image-editing`] [`image-editor`] [`linux`] [`live-text`] [`macos`] [`ocr`] [`paddleocr`] [`recorder`] [`screen-capture`] [`screen-recorder`] [`screenshot`] [`search`] [`search-photos`] [`translate`] [`translator`] [`windows`]  
   eSearch 是一个基于 Elasticsearch 的搜索增强工具，主要用于简化搜索功能的集成与扩展，支持全文检索、复杂查询构造和高亮显示，适用于需要快速构建高效搜索服务的 Java 应用。
 - [gaozhangmin/boxplayer](https://github.com/gaozhangmin/boxplayer) ★6805 [`electron-app`] [`linux`] [`macos`] [`typescript`] [`vue3`] [`windows`]  
   BoxPlayer 是一个基于 Web 的媒体播放器工具，主要用于本地视频和音频文件的离线播放，支持拖拽操作和字幕加载，界面简洁，适用于网页端轻量级多媒体播放需求，方便开发者集成或二次开发。
@@ -207,7 +207,7 @@
 - [drawrowfly/tiktok-scraper](https://github.com/drawrowfly/tiktok-scraper) ★5166  
   用于抓取TikTok公开数据的开源工具，以命令行和程序化接口方式运行。支持按用户名、标签或关键词提取视频信息、用户详情、评论内容，并能批量下载无水印视频。通常通过模拟网页请求和解析JSON响应来获取数据，适合需要采集短视频平台公开信息的舆情分析、市场调研或内容运营场景。需注意遵守平台使用条款，控制请求频率，避免过度抓取。
 - [XPoet/picx](https://github.com/XPoet/picx) ★5080 [`cdn`] [`cloudflare`] [`github-api`] [`image-hosting`] [`image-toolbox`] [`jsdelivr`] [`picx`] [`staticaly`]  
-  一个基于Vue.js开发的轻量级图床工具，支持将本地图片上传至GitHub仓库并生成可访问的CDN链接，主要用于个人博客、笔记或Markdown文档中的图片托管，通过简单配置实现图片上传、管理与分享，提升写作和内容发布效率。
+  PicX 是一个基于 GitHub 的图床管理工具，通过 GitHub API 和 Pages 服务实现图片的自动上传、存储与访问，适合个人博客、静态站点或文档体系中需要稳定图床资源的场景。它无需后端服务器，配置简单，支持拖拽上传、生成外链和批量管理，并自带 Web 管理界面，方便用户直接在线操作仓库中的图片文件，解决开发者自建图床困难、付费图床不稳定等问题。
 - [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot) ★4888 [`chatbot`] [`ocr`] [`screen-capture`] [`screenshot`] [`snowshot`] [`translate`]  
   一个轻量级的网页截图工具，主要用于快速捕获网页可见区域或完整页面的截图，支持滚动截长图，通常适用于前端开发调试、内容保存或自动化测试场景，基于 Puppeteer 或类似无头浏览器技术实现，提供简洁的命令行或 API 调用方式。
 - [zh-lx/pinyin-pro](https://github.com/zh-lx/pinyin-pro) ★4673 [`hanzi`] [`hanzi-pinyin`] [`hanzi2pinyin`] [`js-pinyin`] [`pinyin`] [`pinyin-match`] [`pinyin-pro`]  
@@ -226,7 +226,7 @@
   一个基于React的可视化拖拽页面构建工具，支持动态表单和低代码场景，提供运行时动态更新和组件绑定功能，适用于快速搭建灵活的前端界面。
 - [VisActor/VTable](https://github.com/VisActor/VTable) ★3636 [`canvas-table`] [`data-analysis`] [`data-visualization`] [`database`] [`datagrid`] [`grid`] [`javascript-table`] [`javescript`] [`list-table`] [`list-tree`] [`online-excel`] [`pivot-chart`] [`pivot-grid`] [`pivot-tables`] [`react-table`] [`sparklines`] [`spreadsheet`] [`tree-table`] [`visualization`] [`vue-table`]  
   VTable 是一个由 VisActor 开发的高性能表格渲染引擎，主要用于处理大规模数据场景下的表格展示与交互。它支持复杂表头、多维数据透视、海量数据滚动、单元格自定义渲染与交互操作，适用于数据分析、BI 报表、电子表格等需要高性能表格的应用场景，兼容浏览器与移动端，提供丰富的配置选项和扩展能力。
-- [LLOneBot/LuckyLilliaBot](https://github.com/LLOneBot/LuckyLilliaBot) ★3520 [`llbot`] [`llob`] [`llonebot`] [`milky`] [`onebot`] [`onebot11`] [`qq`] [`qqbot`] [`satori`]  
+- [LLOneBot/LuckyLilliaBot](https://github.com/LLOneBot/LuckyLilliaBot) ★3521 [`llbot`] [`llob`] [`llonebot`] [`milky`] [`onebot`] [`onebot11`] [`qq`] [`qqbot`] [`satori`]  
   LuckyLilliaBot 是一个基于 OneBot 标准开发的轻量级 QQ 机器人，旨在提供便捷的群聊管理、自定义命令和自动化交互功能，适合用于游戏、娱乐和日常群运营场景。
 - [BilibiliVideoDownload/BilibiliVideoDownload](https://github.com/BilibiliVideoDownload/BilibiliVideoDownload) ★3498 [`ant-design-vue`] [`bilibili-download`] [`electron`] [`electron-builder`] [`ffmpeg-installer`] [`node-js`] [`typescript`] [`vuejs`]  
   用于下载B站视频的工具，支持解析视频地址、弹幕和封面等资源，可批量下载并选择清晰度，适合保存喜欢的视频内容，通常配合浏览器插件或脚本使用以增强下载功能。
@@ -239,7 +239,7 @@
 - [liuzi6612/nav](https://github.com/liuzi6612/nav) ★3298 [`ai-awesome`] [`angular`] [`nav`] [`navigation`] [`netlify`] [`nextjs`] [`ng-zorro-antd`] [`vercel`]  
   一个基于 Vue.js 开发的导航网站项目，主要用于收集和分类各类技术资源与工具链接，支持用户自定义添加和管理导航条目，具备简洁直观的界面设计和良好的可扩展性，适用于个人知识管理或团队协作场景。
 - [nwtgck/piping-server](https://github.com/nwtgck/piping-server) ★3154 [`data-transfer`] [`http`] [`nat-traversal`] [`stream`] [`transfer`] [`web`]  
-  Piping Server 是一个允许用户通过 HTTP 直接传输文件或消息的轻量级服务，每次传输生成唯一 URL，支持多语言客户端，常用于临时文件分享、自动化流水线数据传递等场景，部署简单且无依赖。
+  用于在设备间通过HTTP直接安全传输流式数据的开源工具，无需注册、安装客户端或依赖中间存储。它借鉴Linux管道概念，发送端将数据推送到自定义URL，接收端同时从该URL拉取，形成实时一对一传输通道。典型场景包括跨网络分享大文件、临时传输密钥或日志，以及在内网自建隐私优先的传输服务。服务端可部署在低资源设备上，协议简单，可配合HTTPS加密，适合对数据隐私和自主可控有要求的技术用户。
 - [xpf0000/FlyEnv](https://github.com/xpf0000/FlyEnv) ★3122 [`ai-agent`] [`cron-jobs`] [`development-environment`] [`docker-alternative`] [`laragon`] [`laravel-herd`] [`linux`] [`local-ai`] [`local-development`] [`macos`] [`mamp`] [`mysql`] [`nodejs`] [`php`] [`python`] [`redis`] [`windows`] [`wordpress`] [`xampp`] [`xampp-alternative`]  
   FlyEnv是一个基于Python的轻量级环境变量管理工具，主要用于分离配置与代码，支持多环境变量加载、加密存储及动态注入，适合在开发、测试和生产环境中安全地管理敏感信息和配置参数，提升项目配置的灵活性与安全性。
 - [easychen/CookieCloud](https://github.com/easychen/CookieCloud) ★3116 [`cookie`] [`cookies`]  
@@ -253,7 +253,7 @@
 - [salarcode/SmartProxy](https://github.com/salarcode/SmartProxy) ★2716 [`browser-extension`] [`chrome`] [`chrome-extension`] [`edge-extension`] [`firefox`] [`firefox-addon`] [`firefox-extension`] [`proxy`] [`proxy-list`] [`proxy-switcher`] [`webextension`] [`webextensions`]  
   SmartProxy 是一个用于管理与切换代理服务器的工具，主要用于简化开发过程中对不同代理配置的控制，支持自动化规则匹配、请求拦截与转发，适合需要频繁切换网络环境或进行接口调试的场景。
 - [reruin/sharelist](https://github.com/reruin/sharelist) ★2675  
-  ShareList 是一个基于 Node.js 的开源文件列表程序，主要用于挂载和管理多个网盘或存储服务的文件目录，支持本地文件、OneDrive、Google Drive 等多种后端存储。它可通过简单的配置实现文件的统一浏览与分享，适合作为个人网盘聚合工具或静态资源站使用。
+  ShareList 是一个网盘资源聚合与分享管理工具，主要用于将多种云存储或网盘服务挂载到统一的目录列表页面，方便集中展示、浏览和下载文件。它适合搭建个人资源导航站、团队文件共享平台或轻量级网盘门户，解决多网盘分散管理的问题。用户通过简洁的配置即可接入不同存储后端，并生成可访问的分享链接，整体使用门槛较低，适用于自部署场景。
 - [takayama-lily/oicq](https://github.com/takayama-lily/oicq) ★2642 [`coolq`] [`im`] [`nodejs`] [`onebot`] [`qqbot`] [`tcp-client`]  
   基于 QQ 协议的 Node.js SDK，提供登录、消息收发、群管理等接口，支持二维码登录和设备锁，适用于构建 QQ 机器人或自动化应用，兼容 NTQQ 与普通 QQ 协议。
 - [Pintree-io/pintree](https://github.com/Pintree-io/pintree) ★2591 [`bookmark`] [`directory`] [`directory-website`]  
@@ -285,7 +285,7 @@
 - [ipfs/public-gateway-checker](https://github.com/ipfs/public-gateway-checker) ★2098 [`ipfs`] [`ipfs-gui`]  
   用于检测和验证公共 IPFS 网关的可用性与性能，帮助用户选择稳定快速的网关服务，支持定期扫描和响应时间测试，适用于开发者和节点运营者监控公网网关状态。
 - [saltbo/zpan](https://github.com/saltbo/zpan) ★2049 [`cloud`] [`cloud-storage`] [`disk`] [`filesharing`] [`oss`] [`remote-downloader`] [`s3`] [`webdav`]  
-  一个基于 Go 语言开发的自托管网盘系统，主要用于个人或企业搭建私有云存储服务，支持文件上传下载、分享链接、权限管理等功能，具有高性能、易扩展的特点，适合对数据隐私和存储安全有较高要求的场景。
+  zpan 是一个基于 Go 与 Vue 构建的私有网盘与文件分享工具，主要用于个人或团队快速搭建轻量级的在线文件管理服务。它支持文件上传、下载、目录管理，并提供分享链接功能，适合替代公共网盘用于内网文件协作、个人备份或临时文件分发场景。部署简单，运行占用低，通常需要配合 MySQL 或 SQLite 使用，适合有一定技术背景的用户自助托管。
 - [baiy/Ctool](https://github.com/baiy/Ctool) ★2045 [`chrome-extension`] [`crx`] [`developer-tools`] [`development`] [`electron-app`] [`firefox-extension`] [`qrcode`]  
   Ctool 是一个基于 C 语言开发的工具集，主要用于简化 Linux 系统下的开发与运维任务。它包含文件操作、系统监控、日志分析等实用功能，适合需要高效处理系统底层操作的场景，通常以命令行方式运行，轻量且依赖少。
 - [zenghongtu/PPet](https://github.com/zenghongtu/PPet) ★2033 [`electron`] [`live2d`] [`live2d-model`] [`live2d-widget`] [`live2dv3`] [`react`] [`vite`]  
@@ -367,9 +367,9 @@
 - [yuque/yuque-mcp-server](https://github.com/yuque/yuque-mcp-server) ★217  
   语雀 MCP 服务端组件，主要用于支持语雀文档的解析、转换与协同管理，提供知识库内容的中间处理能力，便于集成到各类应用系统中实现文档协作功能。
 - [brucx/mp-push-nestjs](https://github.com/brucx/mp-push-nestjs) ★153  
-  用于在 NestJS 项目中集成微信公众号和小程序消息推送功能的模块，支持模板消息、订阅消息等场景，便于服务端快速对接微信消息能力。
+  基于 NestJS 打造的小程序推送服务，面向需要向微信小程序等平台推送模板消息或订阅消息的后端系统。通常用于订单状态变更、支付结果通知、活动提醒等场景，将服务端事件及时触达用户。借助 NestJS 的模块化和依赖注入设计，便于集成到现有 Node.js 项目，并支持通过配置文件管理应用凭证和多端推送逻辑。
 - [kooritea/mpush](https://github.com/kooritea/mpush) ★143  
-  mpush是一个基于Go语言开发的轻量级推送服务系统，主要用于向移动设备或客户端实时推送消息。它支持多协议接入，具备高并发、低延迟的特性，适用于需要稳定高效消息推送的场景，如即时通讯、通知提醒等业务。
+  面向移动应用和 Web 的实时消息推送服务，基于长连接机制实现高效、稳定的消息下发，通常适合需要即时通知、聊天消息、业务提醒等场景，能够帮助开发者快速搭建自有推送通道，降低对第三方推送服务的依赖，同时支持在线状态管理和消息可靠性保障。
 - [RyoJerryYu/obsidian-memos-sync](https://github.com/RyoJerryYu/obsidian-memos-sync) ★79 [`memo`] [`memos`] [`obsidian-md`] [`obsidian-plugin`]  
   用于将 Obsidian 笔记与 memos 实例双向同步，支持定期自动同步笔记内容、标签和创建时间，便于在个人知识管理和轻量级 memo 记录之间建立无缝连接，通常适合希望整合深度写作与碎片化记录场景的用户。
 - [WonderLand33/ocr-nextjs](https://github.com/WonderLand33/ocr-nextjs) ★67  

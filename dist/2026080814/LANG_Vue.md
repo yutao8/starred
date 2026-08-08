@@ -12,7 +12,7 @@
   Dashy 是一个开源的自托管仪表板工具，主要用于将常用的服务、应用和监控组件集中展示，支持多种微服务框架和静态站点集成，适合构建个性化的导航页面，提升团队协作和开发效率。
 - [ayangweb/BongoCat](https://github.com/ayangweb/BongoCat) ★22450 [`bongo-cat`] [`bongocat`] [`cross-platform`] [`desktop-app`] [`desktop-pet`] [`linux`] [`macos`] [`pet`] [`pet-project`] [`rust`] [`tauri`] [`tauri-app`] [`windows`]  
   BongoCat 是一个趣味性十足的网页小工具，将用户的键盘敲击动作实时转化为卡通猫的打字动画，每敲一个键，猫就会同步做出敲击键盘的手部动作，带来轻松愉快的交互体验。项目通常用于开发者个人网站或博客，增添个性化和幽默感元素。
-- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) ★20489 [`admin`] [`element-plus`] [`esm`] [`pinia`] [`tailwindcss`] [`typescript`] [`vite`] [`vue3`]  
+- [pure-admin/vue-pure-admin](https://github.com/pure-admin/vue-pure-admin) ★20488 [`admin`] [`element-plus`] [`esm`] [`pinia`] [`tailwindcss`] [`typescript`] [`vite`] [`vue3`]  
   基于Vue3、Vite5、TypeScript、NaiveUI和UnoCSS构建的中后台管理系统解决方案，提供多环境打包、权限控制、动态路由等开箱即用功能，主要用于快速搭建企业级前端项目，支持暗黑模式和主题定制，适合中大型管理系统开发。
 - [zxwk1998/vue-admin-better](https://github.com/zxwk1998/vue-admin-better) ★18889 [`admin`] [`admin-dashboard`] [`admin-template`] [`ant-design`] [`ant-design-vue`] [`axios`] [`element`] [`element-plus`] [`element-ui`] [`spring-boot`] [`vite`] [`vue`] [`vue-admin`] [`vue-cli`] [`vue-element-admin`] [`vue-template`] [`vue3`] [`vue3-admin`] [`vue3-composition-api`] [`vuejs`]  
   基于Vue.js的中后台前端解决方案，集成常用功能模块与组件，提供简洁高效的管理界面开发框架，适用于快速搭建企业级后台管理系统，支持权限控制、动态路由、表格表单等典型场景。
@@ -51,7 +51,7 @@
 - [TangSY/echarts-map-demo](https://github.com/TangSY/echarts-map-demo) ★2130 [`echarts-geojson`] [`geojson`] [`map-geo`] [`map-geojson`] [`polygons`] [`qgis`] [`qgis3`]  
   用于演示 ECharts 地图可视化的示例项目，通过简洁的代码展示如何加载地图数据、配置样式并实现基本交互效果。通常适合前端开发者参考学习，用来解决网页中地理数据展示、区域分布统计、自定义地图样式等问题。项目以常用地图示例为主，可帮助快速上手 ECharts 地图组件的实际应用。
 - [zwpro/coupons](https://github.com/zwpro/coupons) ★1999 [`coupons`] [`cps`]  
-  一个基于 Vue.js 和 Element UI 实现的优惠券管理前端界面，主要用于电商或营销系统中优惠券的创建、查看、编辑和状态管理，提供表格展示、表单录入和状态筛选等常见功能，便于后台运营人员对促销活动进行可视化操作。
+  用于优惠券的创建、分发与核销管理，帮助商家或运营人员高效组织促销活动，支持批量生成、自定义规则及使用统计。常见于电商、外卖、线下门店等场景，适合需要快速搭建优惠券体系或优化现有营销流程的团队。具体实现可能涉及后端服务、前端管理界面和数据库设计，可对接用户系统与订单流程。通常适合中小型项目或作为独立模块嵌入现有系统，以便降低营销成本并提升用户复购率。
 - [cfour-hi/gitstars](https://github.com/cfour-hi/gitstars) ★1774 [`github`] [`javascript`] [`language`] [`repository`] [`tailwindcss`] [`topic`] [`vue`]  
   一个用于管理 GitHub 仓库收藏的工具，通过 Git 提交记录追踪星标项目，支持自动化同步和个人知识库构建，便于开发者高效整理和分享优质开源项目。
 - [gzydong/LumenIM](https://github.com/gzydong/LumenIM) ★1633 [`golang`] [`im`] [`vue3`] [`websocket`]  
@@ -67,7 +67,7 @@
 - [mubaidr/vite-vue3-browser-extension-v3](https://github.com/mubaidr/vite-vue3-browser-extension-v3) ★787 [`chrome`] [`extension`] [`hacktoberfest`] [`nuxtui`] [`nuxtui-v3`] [`vite`] [`vue3`] [`webextension`]  
   基于 Vite 和 Vue 3 构建的现代化浏览器扩展开发模板，支持 Chrome 和主流现代浏览器，提供热重载、高效打包和模块化开发能力，适用于快速搭建 Manifest V3 版本的浏览器插件，集成常用开发规范和工程化配置，提升开发效率与项目可维护性。
 - [zwpro/redCover](https://github.com/zwpro/redCover) ★541  
-  redCover 是一个用于生成和管理红包封面的工具，主要用于自定义设计、批量生成及分发微信红包封面，适用于营销活动、节日推广等场景，支持个性化配置与快速部署。
+  这个项目是一个用于生成微信红包封面的在线工具，用户可以通过它快速定制个性化的红包封面，支持自定义背景、文字和图案，并导出符合微信平台规范的尺寸。它适合个人、品牌或营销活动在节庆时期使用，无需绘图技能即可制作封面。项目通常以网页形式部署，基于现代前端技术构建，方便直接访问和操作。具体功能以仓库说明为准。
 - [rrfruit/autojs-web-control](https://github.com/rrfruit/autojs-web-control) ★464  
   基于 Auto.js 的 Web 控制工具，主要用于自动化操作移动端 Web 应用，通过 JavaScript 脚本实现页面元素识别、点击、滑动等交互行为，通常适用于微信公众号、H5 页面等场景的自动化流程控制。
 - [unilei/image-watermark-tool](https://github.com/unilei/image-watermark-tool) ★404  

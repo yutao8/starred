@@ -2,11 +2,11 @@
 
 - [fatedier/frp](https://github.com/fatedier/frp) ★108622 [`expose`] [`firewall`] [`frp`] [`go`] [`http-proxy`] [`nat`] [`p2p`] [`proxy`] [`reverse-proxy`] [`tunnel`]  
   用于内网穿透和端口转发，可以将位于防火墙或 NAT 后面的内网服务安全地暴露到公网，支持 TCP、UDP、HTTP、HTTPS 等多种协议。它通常由部署在公网的服务端和运行在内网的客户端组成，通过反向代理建立加密通道，实现远程访问内网主机、Web 服务或 SSH 等应用。适合个人开发调试、远程办公、搭建临时演示站点或物联网设备管理，尤其适用于没有独立公网 IP 的场景。配置简单，性能稳定，是运维和开发人员常用的自托管穿透方案。
-- [syncthing/syncthing](https://github.com/syncthing/syncthing) ★87442 [`go`] [`p2p`] [`peer-to-peer`] [`synchronization`]  
+- [syncthing/syncthing](https://github.com/syncthing/syncthing) ★87444 [`go`] [`p2p`] [`peer-to-peer`] [`synchronization`]  
   SyncThing 是一个开源的分布式文件同步工具，用于在多台设备间安全地共享和同步文件。它不依赖中心服务器，所有数据直接在设备间加密传输，确保隐私与安全。用户可通过本地网络或互联网实现跨平台文件实时同步，适用于备份、协作和文件管理场景。
 - [junegunn/fzf](https://github.com/junegunn/fzf) ★82438 [`bash`] [`cli`] [`fish`] [`fzf`] [`go`] [`neovim`] [`tmux`] [`unix`] [`vim`] [`zsh`]  
   用于终端交互的通用模糊查找工具，能在管道中快速过滤并选择文本行，支持快捷键预览、多选和自定义键位绑定。通常配合命令行使用，可搜索文件路径、命令历史、Git 分支或进程列表，适合在复杂终端工作流中替代逐层浏览或手动 grep 定位，大幅提升操作效率。
-- [usememos/memos](https://github.com/usememos/memos) ★62095 [`docker`] [`foss`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`own-your-data`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
+- [usememos/memos](https://github.com/usememos/memos) ★62096 [`docker`] [`foss`] [`go`] [`markdown`] [`memo`] [`microblog`] [`note-taking`] [`notecard`] [`own-your-data`] [`react`] [`self-hosted`] [`social-network`] [`sqlite`]  
   一个开源的、轻量级的笔记与知识管理工具，支持 Markdown 编辑、标签分类和实时同步，主要用于个人知识记录、日常想法整理和技术笔记存储，适合追求简洁高效写作体验的用户。
 - [minio/minio](https://github.com/minio/minio) ★61387 [`amazon-s3`] [`cloud`] [`cloudnative`] [`cloudstorage`] [`go`] [`k8s`] [`kubernetes`] [`multi-cloud`] [`multi-cloud-kubernetes`] [`objectstorage`] [`s3`] [`storage`]  
   MinIO 是一个高性能的分布式对象存储系统，兼容 Amazon S3 API，主要用于存储大规模非结构化数据，如图片、视频、日志文件等。它支持多节点部署，提供高可用和数据冗余能力，适用于云原生、AI、大数据等场景，常用于私有云和边缘计算环境中的数据存储解决方案。
@@ -17,22 +17,22 @@
 - [go-gitea/gitea](https://github.com/go-gitea/gitea) ★57266 [`bitbucket`] [`cicd`] [`devops`] [`docker-registry-v2`] [`git`] [`git-gui`] [`git-lfs`] [`git-server`] [`gitea`] [`github`] [`github-actions`] [`gitlab`] [`go`] [`golang`] [`hacktoberfest`] [`maven-server`] [`npm-registry`] [`self-hosted`] [`typescript`] [`vue`]  
   Gitea 是一个轻量级的自托管 Git 服务，用于快速搭建代码托管平台，支持 Git 仓库管理、代码审查、问题跟踪、CI/CD 集成等功能，适合个人、团队用于私有化部署代码仓库系统，具有高性能、低资源消耗的特点，使用 Go 语言编写，易于安装和扩展。
 - [AlistGo/alist](https://github.com/AlistGo/alist) ★50008 [`file-server`] [`gin`] [`golang`] [`onedrive`] [`solidjs`] [`webdav`]  
-  AlistGo/alist 是一个支持多种存储的文件列表程序，主要用于聚合管理个人云存储账户，提供统一的文件浏览、下载和分享界面，适合自建网盘或挂载多个网盘对外提供服务。
+  用于将多种网盘、本地磁盘和对象存储聚合到一个统一 Web 界面的开源文件列表程序。通常支持文件浏览、上传下载、在线预览、目录分享以及跨存储的复制移动，适合搭建个人云盘、团队文件共享或轻量级网盘管理门户。通过一次部署即可在同一个界面中访问和管理不同来源的数据，解决多后端管理碎片化的问题。该项目由 Go 语言编写，部署简单，性能出色，常配合 Docker 等容器化方案使用。
 - [gogs/gogs](https://github.com/gogs/gogs) ★47724 [`docker`] [`git`] [`go`] [`gogs`] [`mysql`] [`postgresql`] [`raspberry-pi`] [`self-hosted`] [`source-code-management`] [`sqlite3`] [`version-control`]  
   Gogs 用 Go 编写，专门用于搭建轻量级私有 Git 托管服务。它面向个人或小团队，适合在内网部署，提供仓库管理、问题跟踪、代码审查和 Web 编辑等协作能力，安装维护成本低，对硬件要求不高，支持多平台运行，是替代公有代码托管或作为 CI/CD 后端的常见选择。
 - [coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows) ★47251 [`go`] [`management`] [`node`] [`node-version-manager`] [`nodejs`] [`nvm`] [`switch`] [`version`] [`version-manager`] [`versioning`] [`windows`]  
   用于在 Windows 系统上管理多个 Node.js 版本的命令行工具，支持快速安装、切换和卸载不同版本的 Node.js，适用于需要在不同项目中使用不同 Node.js 版本的开发场景。
 - [v2ray/v2ray-core](https://github.com/v2ray/v2ray-core) ★46945 [`golang`] [`http-proxy`] [`proxy`] [`shadowsocks`] [`socks`] [`socks5`] [`v2ray`] [`vmess`]  
   V2Ray 是一个跨平台的网络代理引擎，主要用于构建加密传输通道，实现安全访问互联网和绕过网络审查。它支持多种代理协议，如 VMess、Shadowsocks、HTTP 等，并能通过灵活的路由规则自由分流流量。典型应用场景包括保护隐私、突破地域限制、科学上网等，适合需要高度定制化代理策略的用户与开发者。
-- [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ★46502 [`antigravity`] [`claude-code`] [`cluade`] [`codex`] [`gemini`] [`openai`]  
+- [router-for-me/CLIProxyAPI](https://github.com/router-for-me/CLIProxyAPI) ★46503 [`antigravity`] [`claude-code`] [`cluade`] [`codex`] [`gemini`] [`openai`]  
   CLIProxyAPI 是一个用于简化命令行工具与 API 服务之间交互的代理接口，主要用于将 CLI 请求转发为 HTTP 调用，支持鉴权、参数映射和响应格式化，适合集成第三方服务或构建自动化工作流。
-- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) ★44641 [`ai-gateway`] [`claude`] [`deepseek`] [`gemini`] [`newapi`] [`openai`] [`rerank`]  
+- [QuantumNous/new-api](https://github.com/QuantumNous/new-api) ★44643 [`ai-gateway`] [`claude`] [`deepseek`] [`gemini`] [`newapi`] [`openai`] [`rerank`]  
   该项目主要用于构建新一代API服务，聚焦于提升系统间通信效率与数据处理能力，通常适用于需要高并发、低延迟场景的分布式系统集成，帮助开发者简化后端服务对接与业务逻辑封装。
 - [juanfont/headscale](https://github.com/juanfont/headscale) ★42613 [`tailscale`] [`tailscale-control-server`] [`tailscale-server`] [`wireguard`]  
   headscale是一个开源的、自托管的Tailscale控制服务器，主要用于创建和管理私有网络，支持Zero Trust网络架构，允许用户在没有公网IP的情况下安全地连接设备，适合个人、企业搭建内网穿透服务，提供与Tailscale兼容的API接口，便于集成到现有基础设施中。
-- [schollz/croc](https://github.com/schollz/croc) ★39489 [`data-transfer`] [`file-sharing`] [`golang`] [`pake`] [`peer-to-peer`] [`tcp`] [`transfer`]  
+- [schollz/croc](https://github.com/schollz/croc) ★39490 [`data-transfer`] [`file-sharing`] [`golang`] [`pake`] [`peer-to-peer`] [`tcp`] [`transfer`]  
   croc 实现在两台设备间安全传输文件和文件夹，是一个基于命令行的工具。它使用端到端加密保护内容，通过中继服务器协助握手，即使双方都在内网也能穿透 NAT 互联。使用时只需在两台机器上分别输入同一串随机短语，即可建立加密通道并开始传送；支持断点续传，也可发送整个目录。适合临时跨设备分享大文件，替代网盘或 U 盘，支持 Windows、macOS、Linux 等常见平台，对普通用户和开发者都很方便。
-- [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) ★36279 [`2api`] [`antigravity2api`] [`cc2api`] [`claude`] [`claude-code`] [`codex`] [`crs`] [`crs2`] [`gemini`]  
+- [Wei-Shaw/sub2api](https://github.com/Wei-Shaw/sub2api) ★36280 [`2api`] [`antigravity2api`] [`cc2api`] [`claude`] [`claude-code`] [`codex`] [`crs`] [`crs2`] [`gemini`]  
   sub2api 是一个将订阅链接转换为 API 接口的工具，主要用于将网络订阅服务中的资源列表转换为可通过 HTTP 请求访问的 API 接口，方便用户在自定义应用或脚本中动态获取和管理订阅内容，适用于需要自动化处理订阅源的场景。
 - [filebrowser/filebrowser](https://github.com/filebrowser/filebrowser) ★35800 [`file-browser`] [`file-manager`] [`file-sharing`] [`go`] [`material-design`] [`self-hosted`] [`vue`]  
   提供基于网页的文件管理功能，允许用户通过浏览器查看、上传、下载、删除和管理服务器上的文件，支持用户权限控制、多用户隔离和简单部署，通常用于轻量级文件共享或个人网盘场景。
@@ -46,7 +46,7 @@
   支持众多视频网站的视频下载工具，可通过命令行直接输入链接获取并保存视频，同时支持自定义画质、批量下载、外挂字幕和 cookies 等功能，适合需要离线观看视频或备份内容的用户。
 - [cloudreve/cloudreve](https://github.com/cloudreve/cloudreve) ★28485 [`cloud`] [`cloud-storage`] [`cloudreve`] [`file`] [`file-manager`] [`file-sharing`] [`golang`]  
   Cloudreve是一款开源的云存储网盘系统，主要用于搭建个人或团队的私有文件管理平台。它支持本地磁盘及多种主流对象存储后端，提供文件上传、下载、在线预览、目录分享、用户权限管理等功能，并具备响应式Web界面，适合部署在服务器上用于替代公有网盘，解决数据自主可控、访问速度受限和容量不足等问题，同时可通过插件机制进行功能扩展。
-- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ★28338 [`cdn`] [`cloudflare`] [`go`] [`golang`] [`speedtest`]  
+- [XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest) ★28339 [`cdn`] [`cloudflare`] [`go`] [`golang`] [`speedtest`]  
   用于测试 Cloudflare CDN 节点的延迟和下载速度，支持自动优选域名、IP 扫描与速度测试，帮助用户快速发现低延迟、高速率的 Cloudflare 节点，常用于搭建代理或加速服务时的节点筛选。
 - [Wox-launcher/Wox](https://github.com/Wox-launcher/Wox) ★27197 [`alfred`] [`launcher`] [`launchy`] [`productivity`] [`productivity-tools`] [`raycast`] [`spotlight`] [`wox`] [`wox-launcher`]  
   Wox 是 Windows 平台上的开源快速启动器，类似 macOS 的 Alfred。通过自定义快捷键唤起搜索框，输入关键词即可实时搜索本地程序、文件，并支持网页搜索与插件扩展。基于 C# 构建，运行流畅，适合习惯键盘操作、希望减少鼠标切换的桌面用户，能显著提升日常软件启动和系统操作的效率。插件机制还允许按需扩展功能，覆盖更多个性化场景。
@@ -56,7 +56,7 @@
   用于自动更新 Docker 容器的工具，可定期检查镜像仓库中的新版本，并在发现更新时自动重启对应容器，保持容器化应用始终运行最新镜像，适用于需要持续部署的 Docker 环境。
 - [inconshreveable/ngrok](https://github.com/inconshreveable/ngrok) ★24433  
   ngrok 是广受欢迎的内网穿透工具，能将本地或局域网中的服务通过加密隧道映射到公网临时域名，实现外部访问。主要用于本地开发时调试第三方支付、微信等回调接口，或向远程同伴分享本机页面，也适合在没有公网 IP 的环境下快速验证 Web 服务。支持 HTTP、HTTPS 与 TCP 协议，并提供简易状态面板查看请求记录。通常适合需要快速安全暴露本地端口的开发者与测试人员，用于缩短联调周期、简化演示流程。
-- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) ★23936 [`alist`] [`aliyunpan`] [`baidupan`] [`openlist`]  
+- [OpenListTeam/OpenList](https://github.com/OpenListTeam/OpenList) ★23938 [`alist`] [`aliyunpan`] [`baidupan`] [`openlist`]  
   一个开源的列表协作工具，支持多人实时编辑和数据同步，可用于任务管理、资源整理等场景，提供简洁的用户界面和灵活的数据组织方式，便于团队高效协作与信息共享。
 - [navidrome/navidrome](https://github.com/navidrome/navidrome) ★22748 [`airsonic`] [`madsonic`] [`media-server`] [`music`] [`music-server`] [`navidrome`] [`opensubsonic`] [`raspberry-pi`] [`self-hosted`] [`streamer`] [`streaming-api`] [`streaming-audio`] [`subsonic`] [`subsonic-server`]  
   Navidrome 是一个自托管的音乐服务器和流媒体播放器，支持 Subsonic 协议，允许用户从任何设备访问个人音乐库。它提供简洁的 Web 界面，具备歌词显示、专辑封面识别、智能播放列表和多用户支持等功能，适合个人或小型团队搭建私有化音乐服务。
@@ -95,7 +95,7 @@
 - [casdoor/casdoor](https://github.com/casdoor/casdoor) ★14140 [`agent`] [`agentic-ai`] [`agi`] [`ai-gateway`] [`auth`] [`authentication`] [`iam`] [`llm`] [`mcp`] [`mcp-gateway`] [`mfa`] [`oauth`] [`oidc`] [`openclaw`] [`radius`] [`saml`] [`scim`] [`single-sign-on`] [`sso`] [`webauthn`]  
   Casdoor是一个基于OAuth 2.0和OIDC协议的身份认证与单点登录系统，提供用户管理、权限控制、应用接入等功能，支持多种数据库和第三方登录方式，适用于多系统集成场景下的统一认证服务。
 - [tinode/chat](https://github.com/tinode/chat) ★13452 [`chat`] [`chat-application`] [`chatapp`] [`chatbots`] [`chatserver`] [`collaboration`] [`go`] [`golang`] [`instant-messaging`] [`messaging`] [`messaging-api`] [`messenger`] [`telegram`] [`video-call`] [`video-chat`] [`video-conferencing`] [`webchat-server`] [`webrtc`] [`whatsapp`] [`xmpp`]  
-  Tinode/chat 是一个开源的即时通讯平台，主要用于构建支持大规模用户在线的实时聊天应用。它基于 WebSocket 协议实现，提供稳定的消息传递、群组聊天、消息历史存储、用户状态管理等功能，适合用于开发移动端和 Web 端的高并发聊天系统。
+  Tinode 是一套可自托管的开源即时通讯解决方案，包含服务端和多个平台的客户端，用于搭建私有的、不受第三方平台限制的聊天应用。它支持一对一聊天和群组讨论，适合需要数据自主可控的企业内部沟通或垂直领域社交产品使用。项目提供移动端和 Web 端接入能力，并可通过配置选择数据库存储方案，整体架构侧重部署灵活性和二次开发便利。如果希望快速构建一个功能完整且可定制的消息系统，Tinode 是较为稳妥的基础选择。
 - [fullstorydev/grpcurl](https://github.com/fullstorydev/grpcurl) ★12771 [`golang`] [`grpc`] [`protobuf`]  
   用于调试和测试gRPC接口的命令行工具，支持通过纯文本或JSON格式发送请求并查看响应，常用于服务间通信验证和API开发调试，无需编写代码即可调用gRPC方法，提升开发效率。
 - [peterq/pan-light](https://github.com/peterq/pan-light) ★12130 [`baiduyun`] [`golang`] [`qml`] [`qt5`]  
@@ -140,14 +140,14 @@
   用于管理MySQL复制拓扑的开源工具，支持自动故障检测与恢复、手动切换主从、拓扑重构等功能，提供Web界面和命令行工具，帮助用户实现MySQL高可用与集群管理。
 - [hacdias/webdav](https://github.com/hacdias/webdav) ★5751 [`filesystem`] [`go`] [`http`] [`server`] [`webdav`]  
   一个轻量级、易于配置的 WebDAV 服务器实现，主要用于在不支持原生文件同步的环境中提供文件共享与远程访问功能，适合个人存储、文档同步和简单的私有云部署，支持多种后端存储并提供基础的身份验证机制。
-- [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) ★5433 [`baidupcs`]  
+- [qjfoidnh/BaiduPCS-Go](https://github.com/qjfoidnh/BaiduPCS-Go) ★5434 [`baidupcs`]  
   BaiduPCS-Go 是一个用 Go 语言编写的百度网盘命令行客户端，支持文件上传、下载、删除、分享等操作，提供高速、稳定的百度网盘访问能力，适用于服务器环境或自动化脚本中对百度网盘进行批量管理与操作。
 - [ngoduykhanh/wireguard-ui](https://github.com/ngoduykhanh/wireguard-ui) ★5137 [`wireguard`] [`wireguard-admin`] [`wireguard-config-gen`] [`wireguard-go`] [`wireguard-ui`] [`wireguard-vpn`] [`wireguard-web`]  
   用于管理和配置 WireGuard VPN 的 Web 界面工具，简化隧道和对等点的创建与维护，适合需要图形化操作的用户在 Linux 服务器上部署和监控 WireGuard 连接。
 - [tickstep/aliyunpan](https://github.com/tickstep/aliyunpan) ★5091 [`adrive`] [`backup`] [`linux`] [`macos`] [`sync`] [`windows`]  
   阿里云盘命令行客户端，支持文件上传、下载、同步等操作，提供自动化脚本和批量处理功能，适用于Linux、macOS和Windows系统，可通过简单命令管理云端文件，提升操作效率。
 - [wxbool/video-srt-windows](https://github.com/wxbool/video-srt-windows) ★5037 [`ffmpeg`] [`go`] [`golang`] [`srt-subtitles`] [`video`] [`windows-gui`]  
-  一个专为Windows平台设计的视频字幕处理工具，支持视频文件的字幕提取、编辑与合成，可将SRT字幕与视频同步播放或导出，方便用户在本地高效管理视频字幕内容。
+  用于在 Windows 环境下为视频自动生成 SRT 字幕，主要面向视频创作者、剪辑师以及需要快速为视频添加字幕的用户。该工具借助语音识别技术，从视频中提取语音内容并自动生成带时间轴的字幕文件，省去手动听写和逐句对齐的繁琐工作。适合处理课程录制、会议录像、自媒体视频等日常场景，能显著提高字幕制作效率，同时适合需要本地化处理视频字幕的场合。
 - [goravel/goravel](https://github.com/goravel/goravel) ★4792 [`api`] [`framework`] [`go`] [`golang`] [`grpc`] [`laravel`] [`microservice`] [`performance`] [`web`]  
   Goravel 是一个基于 Go 语言的 Web 应用框架，主要用于构建高效、可维护的后端服务。它借鉴了 Laravel 的设计理念，提供了优雅的路由、依赖注入、服务容器、ORM 和队列等特性，适合开发大型 Web 应用和微服务。
 - [kingparks/cursor-vip](https://github.com/kingparks/cursor-vip) ★4776 [`cursor`] [`cursor-pro`]  
@@ -185,7 +185,7 @@
 - [sjlleo/netflix-verify](https://github.com/sjlleo/netflix-verify) ★2527  
   用于检测 Netflix 是否支持解锁的脚本工具，主要检查网络环境是否能访问 Netflix 服务，常用于 VPS 网络质量测试及流媒体解锁验证，支持快速批量检测 IP 或代理节点的 Netflix 解锁状态。
 - [jinsi-ai/b0pass](https://github.com/jinsi-ai/b0pass) ★2348 [`bigfile`] [`file-transfer`] [`go`] [`golang`] [`webserver`] [`wifi-network`]  
-  b0pass 是一个专注于密码管理与安全存储的工具，主要用于帮助用户安全地生成、存储和管理各类账户密码。它支持多平台同步、端到端加密以及生物识别解锁，提供离线本地化存储方案，避免敏感信息上传云端，适用于注重隐私保护的个人与团队使用。
+  b0pass 用于搭建轻量级、可自托管的网盘与文件分享服务，基于 Blazor 和 .NET 构建，适合个人或小型团队部署私有云盘。它提供文件上传、下载、目录管理和分享链接等核心功能，可方便地运行在局域网或低配置服务器上，用于替代完全依赖第三方网盘的方案，解决日常文件备份、交换和协作需求。整体界面简洁，部署成本低，是快速实现文件管理的实用选择。
 - [koho/frpmgr](https://github.com/koho/frpmgr) ★2032 [`frp`] [`frpc`] [`go`] [`gui`] [`proxy`] [`reverse-proxy`] [`windows`]  
   frpmgr 是一个用于管理 frp（Fast Reverse Proxy）的图形化工具，主要用于简化 frp 客户端的配置与操作。通过友好的界面，用户可方便地添加、编辑和启动隧道，无需手动维护配置文件，适合需要快速部署和管理内网穿透服务的场景，通常与 frp 服务端配合使用以实现内网服务暴露。
 - [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) ★1962 [`axios`] [`elementplus`] [`film`] [`gin`] [`go-redis`] [`gocolly`] [`golang`] [`gorm`] [`movies`] [`robfig-cron`] [`vite`] [`vue3`]  
@@ -217,11 +217,11 @@
 - [maintell/webBenchmark](https://github.com/maintell/webBenchmark) ★1012  
   webBenchmark 是一个用于评估 Web 服务器性能的基准测试工具，主要用于测量响应时间、吞吐量和并发处理能力，帮助开发者优化服务端应用性能。
 - [mat/besticon](https://github.com/mat/besticon) ★993 [`favicon`] [`go`] [`icons`] [`microservice`] [`service`] [`website`]  
-  一个轻量级的图标提取工具，主要用于从网站的 HTML 页面中自动识别和提取高质量的 favicon 图标文件，支持多种格式和尺寸，适用于网页抓取、书签管理或浏览器扩展等场景。
+  为网页链接生成站点图标的服务工具，核心工作是根据传入的网站地址自动发现并抓取对应的 favicon，支持按指定尺寸返回图标，适合用在链接预览、书签管理、仪表盘等需要展示网站标志的场景。通常基于 Go 实现，具备多站点回退、缓存和快速响应的能力，部署形式简单，可独立运行供内部或外部调用。
 - [scaleway/scaleway-cli](https://github.com/scaleway/scaleway-cli) ★990 [`cli`] [`go`] [`scaleway`] [`scaleway-cli`]  
   用于管理 Scaleway 云基础设施的命令行工具，支持服务器、存储、数据库等资源的快速创建、配置和监控，适用于自动化部署与日常运维。
 - [boypt/simple-torrent](https://github.com/boypt/simple-torrent) ★986  
-  一个轻量级的 Torrent 下载工具，专注于简化操作流程，支持磁力链接和种子文件解析，适用于快速下载和资源分享场景，适合对 Torrent 协议有基础了解的用户。
+  简单的BitTorrent下载客户端，以自托管方式运行并提供Web控制界面，便于在服务器或NAS上远程添加和管理种子下载任务。它通常适合需要无人值守下载、通过浏览器操作而非桌面客户端的场景，支持种子文件与磁力链接，并可对接RSS订阅等自动化流程。其设计轻量，易于部署，常用于家庭媒体服务器、离线下载机或资源收集环境。
 - [lemoex/oci-help](https://github.com/lemoex/oci-help) ★909  
   oci-help 是一个用于辅助管理和操作 Oracle Cloud Infrastructure（OCI）资源的工具，主要用于简化常见运维任务，如实例管理、网络配置、资源监控等，帮助用户更高效地在 OCI 平台上自动化部署和维护云基础设施。
 - [Kenshin/gnvm](https://github.com/Kenshin/gnvm) ★679  

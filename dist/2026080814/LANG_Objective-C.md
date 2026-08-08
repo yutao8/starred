@@ -29,7 +29,7 @@
 - [zhongfenglee/IDCardRecognition](https://github.com/zhongfenglee/IDCardRecognition) ★1715  
   基于深度学习的身份证文字识别项目，主要用于自动提取身份证上的姓名、性别、民族、出生日期、地址和身份证号等信息，支持图像预处理、文字检测与识别功能，适用于需要快速录入身份证信息的场景。
 - [weidian-inc/hera](https://github.com/weidian-inc/hera) ★1501 [`android`] [`hera`] [`ios`] [`mina`] [`miniprogram`] [`sdk`] [`transfrom`] [`wechat`] [`xiaochengxu`]  
-  weidian-inc/hera 是一个前端监控与性能分析工具，主要用于捕获 Web 应用的运行时错误、API 异常、资源加载性能等数据，帮助开发者定位和解决线上问题。它支持跨页面追踪、用户行为回溯和性能指标采集，通常用于提升用户体验和前端稳定性。
+  基于 Vue 语法编写业务逻辑，用一套代码同时构建微信小程序、H5 等端应用的跨端开发框架，由微店开源。它让熟悉 Vue 的团队无需额外学习小程序原生语法即可快速上手，降低多端适配成本。通常适合已有 Vue 技术栈的团队，用于将现有网页能力迁移到小程序端，或从零搭建多端统一业务。框架注重运行时兼容与项目工程化，适合需要快速迭代、多端同步上线的场景。若有具体模块或 API 使用需求，建议查阅官方文档确认最新能力。
 - [AYJk/AYTikTokPod](https://github.com/AYJk/AYTikTokPod) ★308  
   AYTikTokPod 用于帮助用户处理 TikTok 短视频，核心功能包括视频解析、去水印下载和本地管理，通常适用于需要将短视频保存到相册或离线浏览的场景。它主要面向 iOS 平台，提供简洁的操作流程，适合普通用户和短视频收藏者使用。开源代码便于开发者了解第三方客户端对接口访问与播放处理的常见实现方式，具体功能细节可能随版本迭代有所调整。
 - [chanify/chanify-ios](https://github.com/chanify/chanify-ios) ★228 [`anonymous`] [`apns`] [`ios`] [`ios-app`] [`macos-app`] [`notifications`] [`objective-c`] [`open-source`] [`push-notifications`]  

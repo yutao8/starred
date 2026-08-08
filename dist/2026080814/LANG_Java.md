@@ -1,14 +1,14 @@
 # Java 仓库
 
-- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★129268 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
+- [krahets/hello-algo](https://github.com/krahets/hello-algo) ★129269 [`algo`] [`algorithm`] [`algorithms`] [`book`] [`data-structure`] [`data-structures`] [`data-structures-and-algorithms`] [`dsa`] [`education`] [`leetcode`] [`programming`]  
   hello-algo 是一个专为数据结构与算法学习设计的教学项目，主要用于配合《Hello 算法》在线书，提供清晰易懂的图解和代码示例。该项目以 Python 为主要实现语言，覆盖数组、链表、栈、队列到排序、递归、动态规划等核心算法内容，结构清晰，适合初学者系统学习或开发者复习巩固基础。每章包含可视化图示和可运行代码，帮助深入理解算法原理与执行过程。
-- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★89080 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
+- [Stirling-Tools/Stirling-PDF](https://github.com/Stirling-Tools/Stirling-PDF) ★89081 [`docker`] [`hacktoberfest`] [`java`] [`pdf`] [`pdf-converter`] [`pdf-editor`] [`pdf-manipulation`] [`pdf-merger`] [`pdf-ocr`] [`pdf-tools`] [`pdf-web-apps`] [`pdfmerger`] [`self-hosted`]  
   用于操作和转换PDF文件的Web应用程序，支持多文档合并、拆分、格式转换等常见处理功能，通常部署为本地或私有化服务以保障文件安全。
-- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) ★72059 [`disassembler`] [`reverse-engineering`] [`software-analysis`]  
+- [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) ★72061 [`disassembler`] [`reverse-engineering`] [`software-analysis`]  
   Ghidra 是由美国国家安全局（NSA）开发的一款开源软件逆向工程工具，主要用于分析编译后的二进制文件，支持反汇编、反编译、调试和脚本扩展，常用于漏洞挖掘、恶意软件分析和软件安全研究，具备跨平台和高度可定制的特点。
-- [termux/termux-app](https://github.com/termux/termux-app) ★58843 [`android`] [`hacktoberfest`] [`linux`] [`terminal`] [`termux`]  
+- [termux/termux-app](https://github.com/termux/termux-app) ★58844 [`android`] [`hacktoberfest`] [`linux`] [`terminal`] [`termux`]  
   提供在安卓设备上运行Linux终端环境的应用，无需root即可使用bash、zsh等shell，支持包管理安装Python、Git、SSH等开发工具，主要用于移动设备上的编程学习、脚本运行及系统管理操作。
-- [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) ★51345 [`ai`] [`database`] [`databricks`] [`db2`] [`dbeaver`] [`erd`] [`gui`] [`java`] [`jdbc`] [`mysql`] [`nosql`] [`oracle`] [`postgresql`] [`redshift`] [`snowflake`] [`sql`] [`sqlite`] [`sqlserver`]  
+- [dbeaver/dbeaver](https://github.com/dbeaver/dbeaver) ★51347 [`ai`] [`database`] [`databricks`] [`db2`] [`dbeaver`] [`erd`] [`gui`] [`java`] [`jdbc`] [`mysql`] [`nosql`] [`oracle`] [`postgresql`] [`redshift`] [`snowflake`] [`sql`] [`sqlite`] [`sqlserver`]  
   DBeaver 是一个开源的通用数据库管理工具，支持多种数据库系统，如 MySQL、PostgreSQL、Oracle、SQL Server 等，提供直观的图形界面，便于执行 SQL 查询、管理数据库结构、浏览和编辑数据，适合开发者和数据库管理员日常使用。
 - [skylot/jadx](https://github.com/skylot/jadx) ★49974 [`android`] [`decompiler`] [`dex`] [`java`]  
   一个基于Java开发的DEX反编译工具，主要用于将Android应用的DEX字节码还原为可读的Java源代码，支持APK、DEX、JAR文件的反编译，提供图形界面和命令行两种使用方式，常用于逆向分析、安全审计和学习Android应用内部逻辑。
@@ -44,7 +44,7 @@
   ZFile用于搭建个人或团队网盘，是一款开源在线文件管理系统，支持对接本地磁盘、FTP、WebDAV及各类对象存储作为存储后端，提供网页端文件上传、下载、目录管理、在线预览和分享链接等核心功能，适合替代传统FTP工具或公有云网盘，在私有服务器上实现文件统一托管与安全分享。项目基于Java Spring Boot开发，部署简单，跨平台运行稳定，常用于个人主页文件展示、团队协作文件共享及远程文件访问等场景。
 - [crossoverJie/cim](https://github.com/crossoverJie/cim) ★9493 [`heartbeat`] [`im`] [`netty`] [`tcp`]  
   一个基于 Netty 实现的轻量级即时通讯系统，主要用于学习和理解 IM 系统的基本原理，支持单聊、群聊、消息广播等功能，适合 Java 后端开发者学习网络编程与高并发设计。
-- [FongMi/TV](https://github.com/FongMi/TV) ★8972 [`ffmpeg`] [`media3`] [`mpvplayer`]  
+- [FongMi/TV](https://github.com/FongMi/TV) ★8974 [`ffmpeg`] [`media3`] [`mpvplayer`]  
   FongMi/TV 是一个开源的电视直播与影视聚合应用，支持自定义数据源，主要用于整合网络上的视频资源，实现电视节目的在线观看。它兼容多种格式的数据接口，可加载本地或远程的频道和影视列表，适合个人用户搭建私有化的视频播放平台，常用于智能电视或安卓盒子上的影视中心部署。
 - [wildfirechat/im-server](https://github.com/wildfirechat/im-server) ★8535 [`im`] [`voip`]  
   为野火IM提供即时通讯服务端，主要实现消息收发、群组管理、好友关系、用户状态维护等核心功能，支持单聊、群聊以及音视频通话等场景。通常适合需要私有化部署IM能力的企业或开发者，能够替代依赖第三方云服务的方案，将数据掌握在自己手中。服务端采用模块化设计，便于定制和扩展，并常与野火IM客户端SDK配合构建完整IM应用。
@@ -56,21 +56,21 @@
   用于微信红包自动化处理的辅助工具，通常实现自动抢红包、红包提醒或快速点击等功能。它通过模拟用户操作或借助无障碍服务识别红包消息，适合在群聊频繁或手速不足时使用，帮助减少错过红包的情况。这类工具一般面向安卓端用户，常见于社交场景中的即时响应需求。需要注意的是，其原理可能依赖界面模拟，存在账号风控或违反平台规则的风险，使用时应谨慎。
 - [648540858/wvp-GB28181-pro](https://github.com/648540858/wvp-GB28181-pro) ★7219 [`1078`] [`28181`] [`28181web`] [`808`] [`gb28181`] [`gb28181server`] [`wvp`]  
   基于GB28181标准的视频平台，支持设备接入、实时视频流转发、云台控制及录像回放功能，主要用于安防监控场景，适用于大规模视频设备统一管理与集成。
-- [SuperMonster003/AutoJs6](https://github.com/SuperMonster003/AutoJs6) ★6204 [`android`] [`autojs`] [`autojs6`] [`automated-tool`] [`automation`] [`javascript`]  
+- [SuperMonster003/AutoJs6](https://github.com/SuperMonster003/AutoJs6) ★6205 [`android`] [`autojs`] [`autojs6`] [`automated-tool`] [`automation`] [`javascript`]  
   Auto.js6 是一个基于 Auto.js 项目的自动化脚本工具，支持 JavaScript 脚本编写，主要用于 Android 平台上的自动化操作，如自动点击、滑动、文本识别、定时任务等，适合移动端自动化测试、重复性操作脚本开发及无障碍服务扩展。项目持续更新，兼容性良好，提供丰富的 API 和社区支持。
 - [meefik/linuxdeploy](https://github.com/meefik/linuxdeploy) ★5898 [`android`] [`chroot`] [`containers`] [`deployment`] [`linux`]  
   用于在 Android 设备上部署和运行 Linux 发行版的开源工具，通过 chroot 机制创建独立环境，支持 Debian、Ubuntu、Arch Linux 等多种主流发行版。通常需要 root 权限，安装后可在手机或平板上启动 Linux 命令行环境，并可配置 VNC 或 SSH 服务，实现远程访问和图形界面操作。适合开发者、极客或需要将移动设备用作便携 Linux 服务器的用户。
 - [ffay/lanproxy](https://github.com/ffay/lanproxy) ★5851 [`firewall`] [`frp`] [`java`] [`lanproxy`] [`nat`] [`ngrok`] [`proxy`] [`reverse-proxy`] [`tunnel`]  
   lanproxy 是一套基于 Java 和 Netty 的内网穿透代理工具，用于将部署在内网或 NAT 环境下的服务安全地暴露到公网，支持 TCP 和 HTTP 协议的端口映射。使用时需要在有公网 IP 的服务器上部署代理端，本地运行客户端建立加密通道，即可通过公网访问内网服务。常见场景包括远程调试接口、临时分享本地网页、在无公网 IP 的环境下运行 Web 应用或数据库服务，也适合个人服务器和中小团队快速搭建反向代理隧道。整体配置简单，支持多端口映射和一键启停，适合开发者和运维人员解决内网资源外部访问的问题。
 - [201206030/novel](https://github.com/201206030/novel) ★5781 [`book`] [`cms`] [`mybatis`] [`novel`] [`read`] [`springboot`]  
-  一个基于Go语言的轻量级Web框架，主要用于快速构建HTTP服务，提供了路由、中间件、参数解析等基础功能，适合开发简单API和Web应用。
+  名为 novel 的仓库通常指向一个小说处理工具，围绕网络小说的获取、解析和本地阅读展开。它可能提供从多个书源抓取章节、清洗文本格式、导出为常见电子书文件，以及管理书架或阅读进度等功能，适合希望在本地构建个人小说资料库、追求离线阅读或对小说文本进行分析的读者。这类项目也常被用作爬虫与网页解析技术的参考示例。由于仓库信息有限，实际能力和具体用法需结合代码确认。
 - [Fuzion24/JustTrustMe](https://github.com/Fuzion24/JustTrustMe) ★5352  
   JustTrustMe 是一款基于 Xposed 框架的 Android 安全测试工具，主要用于绕过应用内的 SSL 证书固定（SSL Pinning）机制。它通过拦截应用的网络请求，强制信任所有证书，从而方便安全研究人员对 HTTPS 流量进行抓包分析、漏洞挖掘或渗透测试。适用于评估移动应用传输层安全性时绕过证书校验的场景，常与 Burp Suite 等代理工具配合使用。需要 Root 环境并安装 Xposed 框架才能加载运行。
 - [Exrick/xpay](https://github.com/Exrick/xpay) ★5281  
   Xpay 是一个面向开发者的支付系统解决方案，主要用于集成和管理多种在线支付渠道，帮助电商平台或商户快速接入支付功能。它通常包含订单处理、支付回调、退款、对账等核心模块，支持常见的第三方支付平台，适合需要自建支付服务或统一管理支付流程的业务场景。项目基于 Java 技术栈开发，结构清晰，便于二次开发和部署，能够降低支付集成的复杂度，提升交易环节的可靠性。
 - [rememberber/WePush](https://github.com/rememberber/WePush) ★4652 [`gui`] [`java`] [`mail`] [`message`] [`push`] [`send`] [`sender`] [`sms`] [`swing`] [`wechat`] [`weixin`]  
   WePush 是一个基于微信公众号的批量消息推送工具，主要用于帮助运营者高效管理多公众号账号并实现消息的批量发送。它支持图文消息、文本、模板消息等形式，提供简单的 Web 界面操作，适合需要同时维护多个公众号并进行定期内容推送的用户使用，提升内容分发效率。
-- [emanuele-f/PCAPdroid](https://github.com/emanuele-f/PCAPdroid) ★4399 [`android`] [`capture-traffic`] [`decryption`] [`firewall`] [`network-analysis`] [`no-root`] [`pcap`] [`pcap-files`] [`sniffer`] [`sniffing`] [`traffic-monitor`] [`wireshark`]  
+- [emanuele-f/PCAPdroid](https://github.com/emanuele-f/PCAPdroid) ★4400 [`android`] [`capture-traffic`] [`decryption`] [`firewall`] [`network-analysis`] [`no-root`] [`pcap`] [`pcap-files`] [`sniffer`] [`sniffing`] [`traffic-monitor`] [`wireshark`]  
   PCAPdroid 是一个用于 Android 设备的网络流量抓包工具，能够在不 root 的情况下捕获设备的网络通信数据，支持将流量保存为 PCAP 文件或通过 mTLS 发送到远程服务器，主要用于网络调试、安全分析与教学演示。
 - [syncthing/syncthing-android](https://github.com/syncthing/syncthing-android) ★4278 [`android`] [`java`] [`p2p`] [`peer-to-peer`] [`synchronization`]  
   SyncThing for Android 是一个开源的文件同步工具，允许用户在多台设备间安全地同步数据。它不依赖第三方云服务，通过点对点加密传输，确保文件隐私与安全，适合自建私有云存储环境，实现跨平台无缝文件共享和备份。
@@ -107,7 +107,7 @@
 - [Lotus6/ThinkphpGUI](https://github.com/Lotus6/ThinkphpGUI) ★1594  
   ThinkPHPGUI 是一个为 ThinkPHP 框架设计的图形化管理界面，主要用于简化开发过程中的模块管理、数据库配置、控制器生成等操作，提升开发效率，适合需要快速搭建后台系统的开发者使用。
 - [termux/termux-tasker](https://github.com/termux/termux-tasker) ★1568 [`android`] [`termux`]  
-  提供 Termux 与 Android 系统的 Tasker 应用集成能力，允许用户通过 Tasker 触发 Termux 中的 shell 脚本，实现自动化任务执行，如定时运行程序、根据条件调用 Termux 命令、结合 Android 事件执行 Linux 脚本等，扩展了移动端自动化场景下的操作自由度。
+  用于在Tasker自动化流程中调用Termux执行Shell命令和脚本，让Android设备上的自动化任务获得完整的Linux命令行动态能力。它通常用于文件批量处理、网络请求、系统状态检查、数据脚本转换，以及借助Termux包管理器安装的工具来扩展Tasker无法直接完成的操作。适合需要运行Python、ffmpeg、curl等程序，或需要更精细控制设备内部文件的自动化场景。使用时需要先安装Termux和对应插件，并在Tasker的插件动作中配置命令参数。
 - [CYRUS-STUDIO/ApkToolPlus](https://github.com/CYRUS-STUDIO/ApkToolPlus) ★1467 [`apk-decompiler`] [`apk-protection`] [`apk-signature-protection`] [`apktool`]  
   ApkToolPlus 是一款用于反编译和重打包 Android 应用程序的工具，主要用于逆向分析 APK 文件，支持资源解码、Smali 代码查看与修改，方便开发者调试、汉化或修改应用逻辑，适用于 Android 安全研究和自定义开发。
 - [fkzhang/WechatUnrecalled](https://github.com/fkzhang/WechatUnrecalled) ★1338  
@@ -123,7 +123,7 @@
 - [GhostFlying/LocationReportEnabler](https://github.com/GhostFlying/LocationReportEnabler) ★1108 [`android`] [`xposed`]  
   用于启用设备上被隐藏或禁用位置报告功能的Android Xposed模块，主要针对系统或Google服务中因地区、版本或运营商定制而无法打开的位置报告选项。通过Hook相关设置逻辑，强制显示并允许用户开启位置历史记录，适合需要正常记录设备位置但受限制的用户使用。模块通常需要配合Xposed框架或LSPosed环境运行，并在安装后于设置界面中激活相应开关。
 - [todoroo/astrid](https://github.com/todoroo/astrid) ★1078  
-  Astrid 是一个基于 Android 的任务管理和待办事项提醒工具，主要用于帮助用户高效组织日常任务、设置截止时间、分配优先级以及同步跨设备待办清单，支持条目分类、重复提醒和共享任务列表，适合个人或团队进行轻量级时间管理和生产力提升。
+  用于Android平台的开源任务管理与待办事项应用，主要帮助用户创建待办事项、设定截止时间和提醒，并通过标签、列表和优先级对任务进行归类与排序，同时支持重复任务设置，适合日常清单整理、个人计划安排和项目步骤跟踪等场景。其整体设计注重操作效率和简洁界面，代码结构清晰，也适合用来学习和参考Android应用开发及任务管理类产品的实现思路。
 - [qzind/tray](https://github.com/qzind/tray) ★1046 [`epl`] [`epson`] [`escp`] [`escpos`] [`hidapi`] [`javascript`] [`nodejs`] [`promises`] [`star`] [`zebra`] [`zpl`]  
   一个基于 Qt 开发的系统托盘工具，主要用于在桌面环境的系统托盘区域显示应用程序图标并提供快捷操作，支持跨平台运行，常用于需要后台驻留和快速交互的桌面应用。
 - [good-life/PushTalk](https://github.com/good-life/PushTalk) ★982  
