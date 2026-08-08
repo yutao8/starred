@@ -139,7 +139,7 @@ return [
 	'CURL_PROXY' => $env('CURL_PROXY', ''),
 	'CURL_PROXY_TYPE' => $env('CURL_PROXY_TYPE', 'http'),
 	'CURL_IPRESOLVE_V4' => $envBool('CURL_IPRESOLVE_V4', true),
-	'CURL_TIMEOUT' => $envInt('CURL_TIMEOUT', 20),
+	'CURL_TIMEOUT' => $envInt('CURL_TIMEOUT', 60),
 	'CURL_CONNECT_TIMEOUT' => $envInt('CURL_CONNECT_TIMEOUT', 5),
 	'CURL_MULTI_TIMEOUT' => $envInt('CURL_MULTI_TIMEOUT', 30),
 	'REQUEST_CONCURRENCY' => $requestConcurrency, // 全局默认并发数
