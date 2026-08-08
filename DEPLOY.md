@@ -72,10 +72,28 @@ php index.php
 php -S 127.0.0.1:8099
 ```
 
-然后访问：
+然后访问主页：
 
 ```text
 http://127.0.0.1:8099/index.html
+```
+
+或访问历史趋势看板：
+
+```text
+http://127.0.0.1:8099/history.php
+```
+
+6. 命令行查看历史分析：
+
+```bash
+php history.php
+```
+
+或导出历史趋势数据为 JSON：
+
+```bash
+php history.php --export-json
 ```
 
 ## GitHub Actions 部署
