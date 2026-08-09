@@ -6,16 +6,16 @@
         "name": "bilibili-cli",
         "html_url": "https:\/\/github.com\/jackwener\/bilibili-cli",
         "language": "Python",
-        "description": "一个基于命令行的哔哩哔哩视频下载与交互工具，支持视频信息查看、弹幕获取、音视频下载等功能，适用于快速批量操作和自动化任务，无需打开网页端即可在终端管理B站内容。"
+        "description": "基于命令行的 B 站客户端，让用户无需打开浏览器或官方应用即可在终端完成视频搜索、播放、下载以及弹幕查看等常规操作，同时便于批量管理收藏夹和关注列表。通常适合开发者和重度终端用户，用于脚本化抓取资源、快速获取视频信息或在远程服务器上使用。主要解决在不具备图形界面环境下访问 Bilibili 的需求，并可通过管道与其他命令行工具组合，提升自动化处理效率。"
     },
     "summary": {
         "initial_stars": 426,
-        "current_stars": 969,
-        "star_diff": 543,
-        "growth_rate": 127.46,
+        "current_stars": 970,
+        "star_diff": 544,
+        "growth_rate": 127.7,
         "first_seen": "2026-03-14 12:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 77
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 78
     },
     "history": [
         {
@@ -556,6 +556,13 @@
             "stars": 969,
             "forks": 100,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 970,
+            "forks": 100,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

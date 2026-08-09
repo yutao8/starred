@@ -6,7 +6,7 @@
         "name": "NodeInject_Hook_example",
         "html_url": "https:\/\/github.com\/819767815\/NodeInject_Hook_example",
         "language": "JavaScript",
-        "description": "NodeInject_Hook_example 是一个用于演示如何在 Node.js 环境中实现代码注入与函数钩子（Hook）技术的示例项目，主要用于学习和理解运行时修改函数行为、拦截方法调用等动态操作，适用于调试、监控或扩展第三方模块功能等场景。"
+        "description": "示例项目演示了如何在 Node.js 应用中执行运行时注入与 Hook，通过修改函数调用行为实现拦截、篡改参数或追踪执行流程。常用于调试分析、性能监控、日志埋点及安全研究等场景。代码实例展示了挂接目标函数与自定义处理逻辑的具体方法，有助于理解 Node.js 动态执行的底层原理。需要注意此类操作可能带来稳定性风险，生产环境应谨慎使用。"
     },
     "summary": {
         "initial_stars": 4,

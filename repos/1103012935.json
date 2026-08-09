@@ -6,16 +6,16 @@
         "name": "openclaw",
         "html_url": "https:\/\/github.com\/openclaw\/openclaw",
         "language": "TypeScript",
-        "description": "OpenClaw 是一个开源的机器人控制框架，主要用于机械臂运动规划、视觉伺服和灵巧操作任务，支持多种硬件平台，提供模块化设计以方便算法开发与实验部署。"
+        "description": "经典横版动作游戏《Claw》的开源兼容引擎，主要用于读取原版游戏数据文件，在现代操作系统上重新运行这款游戏。它重现了关卡、角色动画、敌人行为和物理逻辑，支持跨平台编译，让玩家无需模拟器即可游玩。项目结构清晰，也适合开发者研究复古游戏实现或在此基础上扩展内容。典型使用场景包括怀旧游戏、引擎教学和同人创作，能可靠解决旧游戏与新版系统不兼容、原始代码不可得导致难以维护的问题。"
     },
     "summary": {
         "initial_stars": 311101,
-        "current_stars": 385674,
-        "star_diff": 74573,
+        "current_stars": 385687,
+        "star_diff": 74586,
         "growth_rate": 23.97,
         "first_seen": "2026-03-14 12:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 79
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 80
     },
     "history": [
         {
@@ -570,6 +570,13 @@
             "stars": 385674,
             "forks": 81065,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 385687,
+            "forks": 81068,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

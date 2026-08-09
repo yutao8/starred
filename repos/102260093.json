@@ -6,7 +6,7 @@
         "name": "decompile-apk",
         "html_url": "https:\/\/github.com\/venshine\/decompile-apk",
         "language": "Shell",
-        "description": "用于反编译APK文件的工具，主要功能包括解析APK的资源文件、AndroidManifest.xml、classes.dex等组件，支持将.dex文件转换为可读的Java代码，适用于Android应用逆向分析和源码恢复场景，通常配合反编译框架如Apktool、Jadx使用。"
+        "description": "用于反编译Android APK安装包，将应用中的代码、资源及配置文件还原为可阅读形式，便于理解应用实现逻辑。典型场景包括安全分析、漏洞排查、功能复现和逆向学习。解析结果通常包含Java\/Kotlin源码、XML资源及manifest信息，适合在没有原始代码的情况下研究第三方应用结构。该工具面向移动安全研究人员和Android开发者，能够辅助分析权限使用、接口调用及数据存储方式，但需在授权范围内使用。"
     },
     "summary": {
         "initial_stars": 819,

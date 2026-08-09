@@ -6,16 +6,16 @@
         "name": "proxydroid",
         "html_url": "https:\/\/github.com\/madeye\/proxydroid",
         "language": "C",
-        "description": "ProxyDroid 是一个 Android 平台上的代理客户端工具，主要用于将设备的网络流量通过 HTTP 或 SOCKS 代理服务器转发。它支持全局代理设置，可对所有应用程序的网络连接生效，适合需要通过代理访问受限网络资源的用户。该项目提供开源的本地代理配置方案，便于调试和安全审计。"
+        "description": "ProxyDroid 是一款面向 Android 系统的代理客户端，主要用于让用户灵活管理设备网络流量。它支持 HTTP、HTTPS、SOCKS4\/SOCKS5 等常见代理协议，能够将设备的全局流量或指定应用的流量转发至代理服务器，从而应对内网访问、网络调试或绕过地域限制等需求。其典型使用场景包括搭配 SSH、Shadowsocks 等后端服务，实现细粒度的应用级路由控制。该工具适合希望在手机上自定义网络代理行为的进阶用户，通过简单的规则配置即可让不同应用走不同代理或绕过代理，操作直观，是 Android 平台上常见的网络工具之一。"
     },
     "summary": {
         "initial_stars": 2419,
-        "current_stars": 2532,
-        "star_diff": 113,
-        "growth_rate": 4.67,
+        "current_stars": 2531,
+        "star_diff": 112,
+        "growth_rate": 4.63,
         "first_seen": "2026-01-14 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 82
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 83
     },
     "history": [
         {
@@ -591,6 +591,13 @@
             "stars": 2532,
             "forks": 742,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 2531,
+            "forks": 742,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

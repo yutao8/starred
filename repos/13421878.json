@@ -6,7 +6,7 @@
         "name": "pentaho-kettle",
         "html_url": "https:\/\/github.com\/pentaho\/pentaho-kettle",
         "language": "Java",
-        "description": "Pentaho Kettle 是一个开源的ETL（提取、转换、加载）工具，用于实现数据集成和数据转换任务，支持图形化设计数据流程，适用于复杂的数据清洗、迁移和整合场景，可通过 Spoon 进行可视化操作，广泛应用于大数据处理和商业智能项目中。"
+        "description": "Pentaho Kettle 是开源的数据集成平台，专注于 ETL（抽取、转换、加载）流程的设计与执行。它提供可视化的图形界面，让用户通过拖拽组件构建数据管道，支持连接多种关系型数据库、文件系统、大数据平台和云服务，适合做数据仓库建设、数据迁移、清洗和定时同步等场景。通常用于企业级批量数据处理和复杂转换逻辑的实现。"
     },
     "summary": {
         "initial_stars": 8251,

@@ -6,16 +6,16 @@
         "name": "antigravity-proxy",
         "html_url": "https:\/\/github.com\/yuaotian\/antigravity-proxy",
         "language": "C++",
-        "description": "一个基于Python的代理工具，主要用于绕过网络限制，支持HTTP和HTTPS流量转发，适用于需要隐私保护或访问受限资源的场景，具有轻量级、易部署的特点，可配合反向代理和自动化脚本使用。"
+        "description": "antigravity-proxy 提供了一套网络代理解决方案，用于绕过地域和设备层网络访问限制，让用户可以正常访问被屏蔽的网站和服务。它特别适合开发者调试海外 API、访问开源资源，以及普通用户访问 Google、GitHub 等国外站点时保持连接稳定。项目通常提供轻量级部署方式，可运行于服务器或边缘计算环境，并支持自定义转发规则与加密链路，从而在保证速度的前提下降低被检测和阻断的风险。对于需要可持续稳定代理服务的人来说，这是一种实用工具。"
     },
     "summary": {
         "initial_stars": 621,
-        "current_stars": 3555,
-        "star_diff": 2934,
-        "growth_rate": 472.46,
+        "current_stars": 3557,
+        "star_diff": 2936,
+        "growth_rate": 472.79,
         "first_seen": "2026-01-20 06:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 94
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 95
     },
     "history": [
         {
@@ -675,6 +675,13 @@
             "stars": 3555,
             "forks": 276,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 3557,
+            "forks": 276,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

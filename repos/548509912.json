@@ -6,7 +6,7 @@
         "name": "MoveCertificate",
         "html_url": "https:\/\/github.com\/ys1231\/MoveCertificate",
         "language": "Shell",
-        "description": "用于自动化迁移和管理SSL证书的工具，支持从源服务器提取证书并部署到目标服务器，简化证书在不同环境间的转移流程，适用于需要批量处理证书的运维场景。"
+        "description": "主要面向运维场景，用于在服务器或设备之间移动SSL\/TLS证书文件，简化手动复制与配置的流程。通常适合主机切换、证书更新或多节点部署时使用，通过自动化操作降低因证书遗漏或过期导致的服务风险。可能支持常用证书格式及远程传输方式，具体能力依赖于仓库中的脚本或配置。"
     },
     "summary": {
         "initial_stars": 1591,

@@ -6,7 +6,7 @@
         "name": "zh-fiddler",
         "html_url": "https:\/\/github.com\/gabrielxvx\/zh-fiddler",
         "language": "C#",
-        "description": "一个专为中文用户设计的Fiddler配置工具，主要用于简化HTTPS抓包调试过程，支持自动解密和中文界面优化，便于本地开发与测试时分析HTTP\/HTTPS流量，提升调试效率。"
+        "description": "用于汉化 HTTP 调试代理工具 Fiddler，主要解决英文界面给国内开发者带来的使用障碍。该仓库提供中文语言包或一键替换脚本，可将菜单、按钮和提示信息等界面元素转化为中文，适合需要抓包分析、接口调试和流量监控的开发者或测试人员。通常需根据 Fiddler 版本选择对应汉化文件，并遵循仓库内的安装说明操作。若遇到版本不匹配，可能需手动调整。使用前请查看 README 以确认兼容性和具体步骤。"
     },
     "summary": {
         "initial_stars": 738,

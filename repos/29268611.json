@@ -6,16 +6,16 @@
         "name": "Bento4",
         "html_url": "https:\/\/github.com\/axiomatic-systems\/Bento4",
         "language": "C++",
-        "description": "Bento4 是一个开源的 C++ 库和工具集，主要用于处理 MP4 文件格式，提供 MP4 打包、解包、加密、分割等功能，广泛应用于流媒体、DASH 和 HLS 内容生成，支持跨平台使用，适合音视频处理中的格式转换与自适应流媒体封装需求。"
+        "description": "Bento4 是一套用 C++ 实现的多媒体格式处理工具集，主要面向 MP4 文件的解析、生成、编辑与流媒体打包。它提供命令行工具和库接口，可用于读取和修改 MP4 元数据、提取或转码样本、生成 DASH 或 HLS 分片，适合开发者构建视频处理管道或分析容器格式。通常用于点播和直播内容的封装与分发场景，也能帮助解决格式兼容和流媒体适配问题。"
     },
     "summary": {
         "initial_stars": 2373,
-        "current_stars": 2486,
-        "star_diff": 113,
-        "growth_rate": 4.76,
+        "current_stars": 2484,
+        "star_diff": 111,
+        "growth_rate": 4.68,
         "first_seen": "2026-01-24 06:00",
-        "last_seen": "2026-08-09 18:00",
-        "data_points_count": 73
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 74
     },
     "history": [
         {
@@ -528,6 +528,13 @@
             "stars": 2486,
             "forks": 523,
             "file": "dist\/2026080918\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 2484,
+            "forks": 523,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

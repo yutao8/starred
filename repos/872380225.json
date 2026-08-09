@@ -6,16 +6,16 @@
         "name": "aya",
         "html_url": "https:\/\/github.com\/liriliri\/aya",
         "language": "TypeScript",
-        "description": "Aya 是一个轻量级的 JavaScript 模板引擎，专注于提供简洁的语法和高效的渲染性能，主要用于动态生成 HTML 内容，适合在前端或 Node.js 环境中快速构建视图层。"
+        "description": "Aya 是一个面向移动端网页的轻量级调试工具，通常嵌入页面后提供控制台、网络请求、元素查看、资源概览等实用面板，帮助开发者在手机浏览器中快速定位脚本错误、检查接口返回和调试布局问题。它适合需要在没有桌面开发者工具的环境下进行现场排查的场景，也可用于内测阶段的性能观测。整体设计强调即开即用和低侵入，方便集成到现有页面中。"
     },
     "summary": {
         "initial_stars": 4527,
-        "current_stars": 5331,
-        "star_diff": 804,
-        "growth_rate": 17.76,
+        "current_stars": 5334,
+        "star_diff": 807,
+        "growth_rate": 17.83,
         "first_seen": "2026-01-12 06:00",
-        "last_seen": "2026-08-09 18:00",
-        "data_points_count": 98
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 99
     },
     "history": [
         {
@@ -703,6 +703,13 @@
             "stars": 5331,
             "forks": 316,
             "file": "dist\/2026080918\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 5334,
+            "forks": 316,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

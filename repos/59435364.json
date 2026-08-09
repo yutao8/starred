@@ -6,7 +6,7 @@
         "name": "outline",
         "html_url": "https:\/\/github.com\/outline\/outline",
         "language": "TypeScript",
-        "description": "一个开源的团队知识库和文档协作工具，主要用于组织和管理团队的知识内容，支持实时协作编辑、文档版本控制、权限管理与知识分类，适合团队搭建内部 Wiki 或客户文档中心，提供友好的 Markdown 编辑体验和多种数据导入导出功能。"
+        "description": "Outline 是一款开源团队知识库与文档协作工具，主要用于搭建和沉淀团队内部 Wiki、产品文档及技术文档。它提供类似 Notion 的块状编辑体验，支持 Markdown 书写、实时多人协同，以及将文档按空间和层级组织管理。团队成员可以通过权限设置控制不同空间的访问范围，适合中小团队或企业构建集中化知识库。由于支持自托管部署，用户能完整掌控数据安全，特别适合对隐私和合规有较高要求的组织。简而言之，它解决团队知识分散、查找困难、协作低效的问题。"
     },
     "summary": {
         "initial_stars": 37591,
@@ -14,8 +14,8 @@
         "star_diff": 2457,
         "growth_rate": 6.54,
         "first_seen": "2026-03-14 12:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 79
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 80
     },
     "history": [
         {
@@ -570,6 +570,13 @@
             "stars": 40048,
             "forks": 3472,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 40048,
+            "forks": 3473,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "UniversalAdbDriver",
         "html_url": "https:\/\/github.com\/koush\/UniversalAdbDriver",
         "language": "C#",
-        "description": "Universal Adb Driver 是一个用于 Windows 系统的通用 ADB 驱动程序，旨在简化 Android 设备通过 USB 调试连接到计算机的过程。它支持多种 Android 设备而无需手动安装特定厂商驱动，自动识别并安装 ADB 接口，方便开发者和测试人员快速启用 USB 调试功能，适用于需要频繁连接不同 Android 设备的场景。"
+        "description": "用于在 Windows 系统上安装通用 Android ADB 驱动，解决电脑无法识别手机或设备显示为未知设备的问题。它通过提供一个涵盖多个厂商的驱动包，让用户免去逐个寻找官方驱动的麻烦，特别适合需要跨品牌连接 Android 设备进行调试、刷机或文件传输的开发者和刷机爱好者。通常开启 USB 调试后仍提示驱动异常，或不同品牌手机需要频繁切换驱动时使用，能够显著简化连接流程。"
     },
     "summary": {
         "initial_stars": 2265,

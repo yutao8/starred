@@ -6,7 +6,7 @@
         "name": "unlimited_trial_navicat_premium",
         "html_url": "https:\/\/github.com\/chaofan2685\/unlimited_trial_navicat_premium",
         "language": "Shell",
-        "description": "通过修改系统时间与主机文件，绕过 Navicat Premium 试用限制，实现无限试用。主要用于本地测试环境下的数据库管理，需手动重置时间并清理应用痕迹，适用于熟悉系统操作的用户。"
+        "description": "这是一个重置 Navicat Premium 试用期的工具，解决软件试用到期后无法继续使用全功能的问题。它通常通过清理或恢复系统中与试用计时相关的记录，使应用程序重新进入试用状态，从而无需付费即可反复使用。主要面向需要长期评估或临时使用该数据库管理工具的开发者，多见于 Windows 环境，能够替代手动修改注册表的繁琐操作。不过这类行为违反软件许可协议，存在授权风险，建议仅在个人学习或合规场景下谨慎使用。"
     },
     "summary": {
         "initial_stars": 62,

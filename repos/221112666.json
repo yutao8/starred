@@ -6,7 +6,7 @@
         "name": "proxydroid",
         "html_url": "https:\/\/github.com\/zzzzfeng\/proxydroid",
         "language": "C",
-        "description": "ProxyDroid 是一个 Android 平台上的代理设置工具，支持全局代理配置，允许用户通过 HTTP 或 SOCKS 代理网络流量，适用于需要通过代理访问网络的场景，方便在局域网或特定网络环境中实现全局代理。"
+        "description": "用于 Android 设备的代理网络工具，主要帮助用户管理和配置 HTTP、HTTPS、SOCKS 等协议代理，支持按应用分流或全局代理，适合需要科学上网、网络调试或让特定应用走指定代理的场景。通常需要 root 权限以实现透明代理，也可通过配置 VPN 模式替代。这类工具广泛用于保护隐私、绕过地域限制及测试网络连接。"
     },
     "summary": {
         "initial_stars": 143,

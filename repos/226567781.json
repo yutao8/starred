@@ -6,7 +6,7 @@
         "name": "Neo-Backup",
         "html_url": "https:\/\/github.com\/NeoApplications\/Neo-Backup",
         "language": "Kotlin",
-        "description": "Neo-Backup 是一个用于 Android 设备的备份与恢复工具，主要用于备份应用数据、系统设置和用户文件，支持定时任务和云存储同步，帮助用户在更换设备或系统重置时快速恢复个人内容，操作简洁且注重数据安全。"
+        "description": "Neo-Backup 是一款面向安卓设备的开源备份工具，主要用于备份和恢复应用及其数据，解决换机或刷机后数据丢失的困扰。它支持应用、应用数据的整体备份，也可以按需选择单款应用；提供定时任务实现自动备份，并可将备份文件加密后存储到本地或远程位置。在权限支持方面，除了 root 环境，也能通过 Shizuku 在非 root 情况下运行，方便不同用户使用。该工具适合注重数据隐私、需要定期备份手机应用数据的安卓用户，是替代传统备份方案的可信选择。"
     },
     "summary": {
         "initial_stars": 3374,

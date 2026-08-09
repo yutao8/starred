@@ -6,7 +6,7 @@
         "name": "Virtual-Hosts",
         "html_url": "https:\/\/github.com\/x-falcon\/Virtual-Hosts",
         "language": "Java",
-        "description": "用于配置和管理虚拟主机的工具，支持多站点托管、自定义域名绑定及本地开发环境的虚拟主机设置，简化Apache或Nginx的配置流程，适用于Web开发与测试场景。"
+        "description": "Virtual-Hosts 是一款用于管理和配置本地虚拟主机的工具，专注于简化多站点开发环境下的域名映射与目录绑定流程。它适合需要同时维护多个 Web 项目的开发者，通过可视化或命令行界面快速添加、编辑、切换虚拟主机条目，避免手动修改 hosts 文件和 Web 服务器配置带来的繁琐与错误。通常适用于 Nginx、Apache 等常见服务器环境，能提升本地开发效率，尤其适合团队协作时统一配置场景。"
     },
     "summary": {
         "initial_stars": 1572,

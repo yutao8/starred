@@ -6,7 +6,7 @@
         "name": "AntigravityQuotaWatcher",
         "html_url": "https:\/\/github.com\/wusimpl\/AntigravityQuotaWatcher",
         "language": "TypeScript",
-        "description": "用于监控和管理反重力配额的工具，主要跟踪系统中的资源使用情况，提供实时告警与数据分析，帮助用户优化资源配置，适用于需要精细化控制资源配额的场景。"
+        "description": "用于监控 Antigravity 服务或工具的使用配额，帮助用户实时掌握资源消耗情况并在接近上限时及时告警。通常适合需要管理 API 调用额度、订阅或云资源配额的开发者或团队，可有效避免因超额导致的中断或额外费用。核心价值在于提供直观的配额状态视图和自动化提醒，减少人工检查成本。具体实现方式可能涉及与 Antigravity 的接口对接或配置文件解析，准确细节需以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 1926,

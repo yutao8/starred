@@ -6,7 +6,7 @@
         "name": "pycdc",
         "html_url": "https:\/\/github.com\/zrax\/pycdc",
         "language": "C++",
-        "description": "一个C++编写的Python字节码反编译工具，能够将.pyc文件解析并还原为对应的Python源代码，适用于Python 2.7及部分早期版本，主要用于逆向分析或丢失源码时的恢复工作，对理解程序逻辑或安全审计有一定帮助。"
+        "description": "用于反编译Python字节码文件，将.pyc或.pyo还原为可读的Python源码。支持Python 2.7及3.x版本，常用于原始代码丢失时恢复程序逻辑、审查第三方模块或做安全分析。它基于C++实现，通过解析字节码生成近似源码，输出在语法和结构上接近原文件，方便阅读或进一步修改，也适合集成到自动化分析工具中。"
     },
     "summary": {
         "initial_stars": 4335,

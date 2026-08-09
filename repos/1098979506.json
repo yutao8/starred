@@ -6,7 +6,7 @@
         "name": "m365_batch_account_creator",
         "html_url": "https:\/\/github.com\/saitomikuya\/m365_batch_account_creator",
         "language": "Python",
-        "description": "用于批量创建 Microsoft 365 账户的自动化工具，支持通过脚本导入用户信息并完成账号注册与配置，适用于需要快速部署多个 M365 账号的场景，简化管理员在教育、企业环境中的账户初始化流程。"
+        "description": "用于批量创建 Microsoft 365 账户，解决管理员需逐个手动添加用户的问题，常见于企业入职新员工或机构大批量开通账号的场景。通过读取包含用户信息的列表文件，自动完成账号生成及基础配置，可能借助微软官方管理接口或命令行工具实现。通常适合 IT 管理员、教育机构或需要快速预配云账号的团队，能有效减少重复操作并降低配置失误风险。"
     },
     "summary": {
         "initial_stars": 6,

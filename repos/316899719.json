@@ -6,7 +6,7 @@
         "name": "r0capture",
         "html_url": "https:\/\/github.com\/r0ysue\/r0capture",
         "language": "Python",
-        "description": "r0capture是一款专为移动安全测试设计的Android抓包工具，无需Root权限即可捕获目标应用的HTTPS通信流量，支持主流应用的流量解密，便于安全研究人员分析应用通信行为、发现潜在安全问题，适用于渗透测试和应用安全评估场景。"
+        "description": "用于安卓应用的安全测试与逆向分析，通过 Frida 动态注入实现流量捕获。核心功能是绕过应用的证书锁定或 SSL 校验机制，抓取 HTTPS 加密通信内容，解决常规代理无法解密 App 内部请求的问题。典型场景包括分析恶意软件行为、评估接口数据泄露风险、调试自研应用的网络层。工具通常适合已 root 的环境，支持多进程与常见的 Java 层加密逻辑，操作上需要编写或复用 Frida 脚本，对移动安全研究者较为友好。"
     },
     "summary": {
         "initial_stars": 7404,

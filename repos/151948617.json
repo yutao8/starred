@@ -6,16 +6,16 @@
         "name": "Tools",
         "html_url": "https:\/\/github.com\/leitbogioro\/Tools",
         "language": "Shell",
-        "description": "一个包含多种实用脚本和工具的开源项目，主要用于自动化任务、系统管理及开发效率提升，适用于开发者和系统管理员进行日常操作简化与批量处理。"
+        "description": "个人维护的通用工具集，收录了作者在开发和系统管理中积累的脚本、配置及小型实用程序，主要用于解决重复性操作和日常自动化需求。适合开发者或运维人员直接克隆仓库，按需查看和调用其中的脚本，也适合作为个人工具库的参考。典型方向可能包括环境部署、批量处理、日志分析和网络调试等，但具体功能与用法应以仓库内实际文件为准。"
     },
     "summary": {
         "initial_stars": 3729,
-        "current_stars": 3888,
-        "star_diff": 159,
-        "growth_rate": 4.26,
+        "current_stars": 3887,
+        "star_diff": 158,
+        "growth_rate": 4.24,
         "first_seen": "2026-01-30 06:00",
-        "last_seen": "2026-08-09 18:00",
-        "data_points_count": 82
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 83
     },
     "history": [
         {
@@ -591,6 +591,13 @@
             "stars": 3888,
             "forks": 597,
             "file": "dist\/2026080918\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 3887,
+            "forks": 597,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

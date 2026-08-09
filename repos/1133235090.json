@@ -6,7 +6,7 @@
         "name": "nginxpulse",
         "html_url": "https:\/\/github.com\/likaia\/nginxpulse",
         "language": "Go",
-        "description": "NginxPulse 是一个用于实时监控 Nginx 服务器状态的轻量级工具，通过 Web 界面展示连接数、请求速率、流量统计等关键指标，帮助运维人员快速掌握 Nginx 运行状态，及时发现性能瓶颈或异常访问，通常配合 Nginx 的 stub_status 模块使用，适合中小规模服务环境的健康监控与故障排查。"
+        "description": "nginxpulse 是一款面向 Nginx 的辅助工具，主要用于实时监控 Nginx 运行状态、采集关键指标，并通过心跳或轮询机制及时发现进程异常。它常被用于运维监控、故障预警等场景，帮助管理员快速定位 Web 服务异常，适合部署于生产环境中的 Nginx 服务器旁，以提升服务可用性与可观测性。"
     },
     "summary": {
         "initial_stars": 1801,

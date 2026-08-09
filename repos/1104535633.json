@@ -6,16 +6,16 @@
         "name": "Antigravity-Manager",
         "html_url": "https:\/\/github.com\/lbjlaq\/Antigravity-Manager",
         "language": "Rust",
-        "description": "用于管理和配置反重力设备的工具，提供设备监控、参数调整和故障诊断功能，通常适用于实验性物理环境或科幻场景中的反重力系统管理。"
+        "description": "Antigravity-Manager 主要用于对 Antigravity 平台或相关服务进行配置、监控与日常管理，通过图形化界面简化原本复杂的命令行操作。它通常适合需要集中管理多个节点或设备状态的使用场景，比如游戏服务器、虚拟仿真环境或科研实验中的反重力模拟模块。借助该工具，用户可以快速查看运行状态、调整关键参数并执行启停等常规任务。具体功能会随目标系统有所差异，但大体定位是面向运维或开发者的辅助工具。"
     },
     "summary": {
         "initial_stars": 10579,
-        "current_stars": 30336,
-        "star_diff": 19757,
-        "growth_rate": 186.76,
+        "current_stars": 30332,
+        "star_diff": 19753,
+        "growth_rate": 186.72,
         "first_seen": "2026-01-10 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 102
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 103
     },
     "history": [
         {
@@ -731,6 +731,13 @@
             "stars": 30336,
             "forks": 3282,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 30332,
+            "forks": 3282,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

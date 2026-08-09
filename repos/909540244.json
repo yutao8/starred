@@ -6,7 +6,7 @@
         "name": "Auto_Si9000_Py",
         "html_url": "https:\/\/github.com\/XiaM-Admin\/Auto_Si9000_Py",
         "language": "Python",
-        "description": "用于自动控制Si9000信号完整性测试设备的Python工具，支持参数配置、数据采集与分析，适用于高速PCB通道参数调试，提升测试效率并减少人为操作失误。"
+        "description": "用于自动化Polar Si9000阻抗计算软件的Python工具，旨在解决PCB设计过程中手工填写参数、逐次计算阻抗的繁琐问题。它通常适合需要批量完成微带线、带状线阻抗验证的硬件工程师，通过脚本驱动的交互或接口调用替代重复性操作，从而提升效率并方便多组工况对照。具体实现细节和依赖，需参考仓库的说明文件。"
     },
     "summary": {
         "initial_stars": 4,

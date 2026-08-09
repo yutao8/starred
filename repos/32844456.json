@@ -6,7 +6,7 @@
         "name": "jd-gui",
         "html_url": "https:\/\/github.com\/java-decompiler\/jd-gui",
         "language": "Java",
-        "description": "用于反编译和查看Java字节码的图形化工具，支持直接浏览`.class`文件和`.jar`包，可快速还原Java源代码结构，便于调试与逆向分析，适用于开发、学习及代码审查场景。"
+        "description": "JD-GUI 是一款开源的 Java 反编译图形化工具，主要用于将 .class 文件或 .jar 包还原为可读的 Java 源代码。它提供直观的界面，支持拖拽文件、浏览类结构、导出源码等操作，适合在缺少原始工程时快速查阅第三方库的实现逻辑，也常用于代码审计、逆向分析和调试排查问题。"
     },
     "summary": {
         "initial_stars": 14990,

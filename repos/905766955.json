@@ -6,7 +6,7 @@
         "name": "Payload-Dumper-Compose",
         "html_url": "https:\/\/github.com\/rcmiku\/Payload-Dumper-Compose",
         "language": "Kotlin",
-        "description": "用于解包和分析 Android 固件中的 payload.bin 文件，支持从 OTA 更新包中提取系统镜像，方便进行固件对比、文件提取和系统定制，适合开发者和安全研究人员使用。"
+        "description": "用于解析 Android OTA 更新包中的 payload.bin 文件，通过图形界面直接提取其中各分区映像（如 boot、system、vendor 等），帮助安卓开发者、刷机爱好者高效完成固件分析、定制 ROM 或备份工作。基于 Jetpack Compose 技术构建桌面应用，提供直观的点击操作代替复杂命令行，适合需要从系统更新包中快速获取分区内容的场景，尤其适用于需要对比不同版本系统差异或恢复特定分区文件的用户。"
     },
     "summary": {
         "initial_stars": 749,

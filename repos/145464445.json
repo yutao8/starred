@@ -6,16 +6,16 @@
         "name": "tiptap",
         "html_url": "https:\/\/github.com\/ueberdosis\/tiptap",
         "language": "TypeScript",
-        "description": "一个基于 ProseMirror 的可扩展富文本编辑器框架，主要用于构建现代化 Web 应用中的内容编辑功能，支持模块化扩展、协作编辑与自定义节点，适合集成到 Vue、React 等前端框架中。"
+        "description": "用于构建现代Web富文本编辑器的无头框架，基于ProseMirror内核，通过可扩展的节点、标记和命令体系来解决传统编辑器难以深度定制的问题。不预设UI层，开发者可自由组合Vue、React等前端组件，适合博客后台、文档系统、协作工具等需要专业写作体验的场景。搭配官方和社区扩展可快速集成Markdown、协同编辑等能力，在保持稳定兼容的同时，让输出内容和界面完全由自己掌控。"
     },
     "summary": {
         "initial_stars": 35624,
-        "current_stars": 37964,
-        "star_diff": 2340,
-        "growth_rate": 6.57,
+        "current_stars": 37967,
+        "star_diff": 2343,
+        "growth_rate": 6.58,
         "first_seen": "2026-03-14 12:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 79
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 80
     },
     "history": [
         {
@@ -570,6 +570,13 @@
             "stars": 37964,
             "forks": 3075,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 37967,
+            "forks": 3075,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

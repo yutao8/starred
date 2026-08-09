@@ -6,16 +6,16 @@
         "name": "codex",
         "html_url": "https:\/\/github.com\/openai\/codex",
         "language": "Rust",
-        "description": "Codex 是 OpenAI 开发的 AI 模型，主要用于将自然语言转换为编程代码，支持多种编程语言，可集成到开发工具中辅助编写、调试和解释代码，提升开发效率。"
+        "description": "OpenAI 的 Codex 让开发者在终端中直接使用 AI 编码代理，它能够读取本地仓库，通过自然语言指令自动编写代码、修改文件、执行命令和运行测试。典型场景包括日常开发中的 Bug 修复、功能重构、代码解释，以及用对话方式驱动整个编码流程。它适配多种 OpenAI 模型，支持自定义配置，并可嵌入现有命令行工作流，适合希望在不离开终端的情况下获得智能编码辅助的开发者。"
     },
     "summary": {
         "initial_stars": 65619,
-        "current_stars": 104925,
-        "star_diff": 39306,
-        "growth_rate": 59.9,
+        "current_stars": 104943,
+        "star_diff": 39324,
+        "growth_rate": 59.93,
         "first_seen": "2026-03-17 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 78
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 79
     },
     "history": [
         {
@@ -563,6 +563,13 @@
             "stars": 104925,
             "forks": 15878,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 104943,
+            "forks": 15886,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

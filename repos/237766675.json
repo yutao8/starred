@@ -6,7 +6,7 @@
         "name": "mtproxy",
         "html_url": "https:\/\/github.com\/ellermister\/mtproxy",
         "language": "Shell",
-        "description": "一个基于 Python 的 MTProxy 代理服务器部署与管理工具，主要用于快速搭建 Telegram 专用代理，支持多端口配置、流量统计和用户管理，简化了 MTProto 协议代理的部署流程，适合个人或组织用于提升 Telegram 访问稳定性。"
+        "description": "MTProxy 是一款基于 Telegram 官方 MTProto 协议的代理服务端程序，这个仓库提供了简化部署和管理的脚本，主要用于在 Linux 服务器上快速搭建代理服务，帮助用户安全访问 Telegram。它通常支持伪装 TLS 流量，使代理流量更难以被识别和干扰，适合个人或小型团队自建代理节点使用。通过该脚本，用户无需手动配置复杂的依赖和参数，即可完成安装、启动、配置端口和获取连接参数等操作，降低使用门槛。"
     },
     "summary": {
         "initial_stars": 1469,

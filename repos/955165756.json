@@ -6,7 +6,7 @@
         "name": "ocr-nextjs",
         "html_url": "https:\/\/github.com\/WonderLand33\/ocr-nextjs",
         "language": "TypeScript",
-        "description": "一个基于 Next.js 的 OCR 文字识别应用，支持图像中的文字提取与处理，适用于证件、文档等场景的自动化识别，提供前后端一体化的部署方案。"
+        "description": "基于Next.js构建的网页版OCR文字识别工具，用户上传或粘贴图片即可从中提取文字内容。通常部署为独立在线服务，适合需要批量处理截图、扫描件、票据等场景。它把光学字符识别能力封装成简洁的交互界面，省去安装桌面软件或手动抄写的麻烦。技术上可选用常见的开源OCR引擎或后端识别接口，整体注重轻量化和响应速度。项目定位明确，方便开发者快速部署到Vercel等现代平台，作为自托管的文字识别服务使用。"
     },
     "summary": {
         "initial_stars": 63,

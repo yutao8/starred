@@ -6,7 +6,7 @@
         "name": "amWiki",
         "html_url": "https:\/\/github.com\/TevinLi\/amWiki",
         "language": "JavaScript",
-        "description": "amWiki 是一个基于 Node.js 开发的本地化 Markdown 文档管理工具，主要用于快速搭建个人或团队的本地知识库。它支持 Markdown 实时预览、目录结构管理、全文搜索等功能，无需依赖数据库，适合离线环境下使用。通过简洁的界面和静态站点生成功能，方便用户编写和发布技术文档。"
+        "description": "amWiki 是一款面向个人和小团队的轻量级 Wiki 工具，以纯文本 Markdown 作为文档格式，无需数据库即可生成可检索的静态知识库。它通常与 Git 配合，用版本管理维护文档历史，适合搭建项目文档、团队手册或个人笔记。核心场景是快速构建结构化文档站点，支持目录导航、全文搜索与标签分类，帮助用户沉淀和梳理知识，同时降低部署成本和维护难度。对于希望用简单方式保持文档长期可维护性的团队，amWiki 是一个务实的选择。"
     },
     "summary": {
         "initial_stars": 993,

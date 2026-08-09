@@ -6,7 +6,7 @@
         "name": "webman",
         "html_url": "https:\/\/github.com\/walkor\/webman",
         "language": "PHP",
-        "description": "webman 是一个基于 Workerman 开发的高性能 PHP 异步 Web 服务框架，主要用于构建长连接、高并发的 Web 应用，如实时通信、消息推送、API 服务等，支持中间件、依赖注入和灵活的路由配置。"
+        "description": "webman 是一款基于 PHP 的高性能 HTTP 服务框架，常被用来构建常驻内存的 API 接口、微服务或 Web 应用。它吸取了 Laravel 的易用性，同时依靠常驻内存和驱动化架构，显著提升 QPS 并降低资源消耗，适合对性能有较高要求、希望摆脱传统 PHP-FPM 部署模式的中小型团队或项目使用。"
     },
     "summary": {
         "initial_stars": 2550,

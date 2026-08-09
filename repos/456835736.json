@@ -6,7 +6,7 @@
         "name": "mobile_scanner",
         "html_url": "https:\/\/github.com\/juliansteenbakker\/mobile_scanner",
         "language": "Dart",
-        "description": "一个Flutter插件，提供跨平台的二维码和条形码扫描功能，支持Android和iOS设备，通过相机实时识别并返回扫描结果，适用于需要移动设备快速读取码信息的应用场景。"
+        "description": "用于在Flutter应用中集成条码和二维码扫描功能，通常适合扫码登录、移动支付、商品条码识别或活动核销等场景。该插件同时支持Android和iOS，提供实时扫描、摄像头切换、闪光灯控制以及多种条码格式识别能力，并通过简洁的回调方式获取扫描结果，方便开发者直接处理数据。相比原生扫码方案，它省去了大量平台桥接代码，让Flutter开发者能够快速完成扫码功能的集成与定制。项目维护活跃，是Flutter生态中广泛使用的扫描解决方案之一。"
     },
     "summary": {
         "initial_stars": 1104,
@@ -14,8 +14,8 @@
         "star_diff": 61,
         "growth_rate": 5.53,
         "first_seen": "2025-12-19 00:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 82
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 83
     },
     "history": [
         {
@@ -591,6 +591,13 @@
             "stars": 1165,
             "forks": 704,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 1165,
+            "forks": 705,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

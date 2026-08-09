@@ -6,16 +6,16 @@
         "name": "hello-algo",
         "html_url": "https:\/\/github.com\/krahets\/hello-algo",
         "language": "Java",
-        "description": "hello-algo 是一个专为数据结构与算法学习设计的教学项目，主要用于配合《Hello 算法》在线书，提供清晰易懂的图解和代码示例。该项目以 Python 为主要实现语言，覆盖数组、链表、栈、队列到排序、递归、动态规划等核心算法内容，结构清晰，适合初学者系统学习或开发者复习巩固基础。每章包含可视化图示和可运行代码，帮助深入理解算法原理与执行过程。"
+        "description": "面向算法学习者的开源教程，以动画图解方式讲解数据结构与算法，内容涵盖基础概念、排序搜索、动态规划等核心主题，并配有可运行的代码示例，适合准备面试或系统学习算法的读者，通常支持多种主流编程语言实现。"
     },
     "summary": {
         "initial_stars": 121054,
-        "current_stars": 129310,
-        "star_diff": 8256,
+        "current_stars": 129311,
+        "star_diff": 8257,
         "growth_rate": 6.82,
         "first_seen": "2026-01-04 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 105
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 106
     },
     "history": [
         {
@@ -752,6 +752,13 @@
             "stars": 129310,
             "forks": 15502,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 129311,
+            "forks": 15501,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

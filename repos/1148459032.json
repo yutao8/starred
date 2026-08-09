@@ -6,16 +6,16 @@
         "name": "CodexDesktop-Rebuild",
         "html_url": "https:\/\/github.com\/Haleclipse\/CodexDesktop-Rebuild",
         "language": "JavaScript",
-        "description": "一个基于 Electron 或 Web 技术构建的桌面端代码编辑器或开发工具集成环境，主要用于提供现代化的代码编写、文件管理与项目构建功能，适合开发者在本地高效管理代码项目并支持可扩展插件体系。"
+        "description": "重建桌面化 Codex 客户端，把原本依赖终端或网页的代码生成与对话能力搬进原生窗口。日常使用中，开发者可以在图形界面里输入自然语言描述需求，获取补全代码、解释片段或重构建议，适合希望绕过命令行、获得更集中编辑体验的场景。重建版本通常会更注重界面响应速度、会话管理和跨平台支持，同时保持与 Codex 后端的对接方式。如果你经常使用 Codex 辅助编程，又不习惯终端操作，这类客户端可以降低上手成本并提升交互效率。"
     },
     "summary": {
         "initial_stars": 873,
-        "current_stars": 2610,
-        "star_diff": 1737,
-        "growth_rate": 198.97,
+        "current_stars": 2611,
+        "star_diff": 1738,
+        "growth_rate": 199.08,
         "first_seen": "2026-03-17 00:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 74
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 75
     },
     "history": [
         {
@@ -535,6 +535,13 @@
             "stars": 2610,
             "forks": 216,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 2611,
+            "forks": 216,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

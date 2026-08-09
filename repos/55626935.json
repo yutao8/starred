@@ -6,16 +6,16 @@
         "name": "WSL",
         "html_url": "https:\/\/github.com\/microsoft\/WSL",
         "language": "C++",
-        "description": "允许在Windows系统上运行Linux二进制可执行文件，提供完整的Linux环境而无需传统虚拟机或双系统设置，主要用于开发、运维及需要跨平台兼容性的场景。"
+        "description": "WSL 是微软推出的 Windows 子系统 for Linux，用于在 Windows 系统内直接运行 Linux 发行版及命令行工具，无需启动虚拟机或双系统。它支持常见的 Linux 应用、脚本和开发环境，方便开发者在本机进行跨平台开发、测试和自动化运维。该仓库是 WSL 的官方源码与文档中心，主要面向希望深入理解或贡献 WSL 的开发者，普通用户通常通过商店安装或使用 wsl 命令即可快速启用。简而言之，它让 Windows 与 Linux 生态无缝共存，适合需要同时使用两套工作流的程序员和运维人员。"
     },
     "summary": {
         "initial_stars": 30971,
-        "current_stars": 33349,
-        "star_diff": 2378,
+        "current_stars": 33350,
+        "star_diff": 2379,
         "growth_rate": 7.68,
         "first_seen": "2026-01-30 06:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 91
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 92
     },
     "history": [
         {
@@ -654,6 +654,13 @@
             "stars": 33349,
             "forks": 1797,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 33350,
+            "forks": 1798,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

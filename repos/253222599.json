@@ -6,16 +6,16 @@
         "name": "it-tools",
         "html_url": "https:\/\/github.com\/CorentinTh\/it-tools",
         "language": "Vue",
-        "description": "提供一系列实用的在线工具集合，主要用于文本处理、编码转换、密码学操作、网络测试等日常开发和运维任务，支持多种常见格式的转换与分析，适合开发者快速调试和验证技术需求。"
+        "description": "it-tools 面向开发者，提供一套在线实用工具集，集成编码解码、格式转换、哈希加密、文本处理等常用功能。所有工具都在浏览器中运行，无须额外安装，适合在日常开发中快速完成临时任务，省去查找分散小工具的麻烦。界面简洁高效，也支持部署到私有环境使用。"
     },
     "summary": {
         "initial_stars": 34380,
-        "current_stars": 40145,
-        "star_diff": 5765,
-        "growth_rate": 16.77,
+        "current_stars": 40149,
+        "star_diff": 5769,
+        "growth_rate": 16.78,
         "first_seen": "2025-11-29 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 123
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 124
     },
     "history": [
         {
@@ -878,6 +878,13 @@
             "stars": 40145,
             "forks": 5308,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 40149,
+            "forks": 5308,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

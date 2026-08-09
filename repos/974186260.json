@@ -6,16 +6,16 @@
         "name": "TrendRadar",
         "html_url": "https:\/\/github.com\/sansan0\/TrendRadar",
         "language": "Python",
-        "description": "TrendRadar 是一个用于实时追踪和分析社交媒体趋势的工具，主要用于监测社交平台上的热门话题、用户情绪和传播路径。它支持多平台数据抓取、可视化展示和趋势预警，帮助用户快速识别网络热点，适用于品牌营销、舆情监控和市场研究等场景。"
+        "description": "用于捕捉和追踪网络热点趋势，通过聚合多渠道信息并加以分析，帮助用户快速识别正在上升的话题或潜在流行方向。适合需要及时了解舆论动态和行业热点的分析师、内容从业者以及普通用户使用。其名称暗示它可能提供可视化雷达图或趋势排行界面，整体属于数据监测与情报分析类工具。具体数据源与算法细节未明确，使用时以实际文档为准。"
     },
     "summary": {
         "initial_stars": 29647,
-        "current_stars": 61299,
-        "star_diff": 31652,
-        "growth_rate": 106.76,
+        "current_stars": 61301,
+        "star_diff": 31654,
+        "growth_rate": 106.77,
         "first_seen": "2025-11-27 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 124
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 125
     },
     "history": [
         {
@@ -885,6 +885,13 @@
             "stars": 61299,
             "forks": 24851,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 61301,
+            "forks": 24851,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

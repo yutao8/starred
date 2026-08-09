@@ -6,7 +6,7 @@
         "name": "nginx-proxy-manager-zh",
         "html_url": "https:\/\/github.com\/xiaoxinpro\/nginx-proxy-manager-zh",
         "language": "JavaScript",
-        "description": "提供中文汉化的 Nginx Proxy Manager 镜像，简化反向代理服务的配置，适用于需要通过 Web 界面管理 Nginx 的用户，支持容器化部署，便于快速搭建和管理网站代理、SSL 证书等。"
+        "description": "该工具是Nginx Proxy Manager的中文汉化版本，主要用于通过图形化界面管理Nginx反向代理，支持添加代理站点、自动申请和续期Let's Encrypt SSL证书、配置访问控制与HTTP认证等操作，避免手工编辑繁琐的Nginx配置文件。通常适合个人开发者或中小团队用来快速部署和管理多个Web服务，无需深入掌握Nginx语法即可完成域名转发、端口映射和HTTPS加密等常见任务。"
     },
     "summary": {
         "initial_stars": 1377,

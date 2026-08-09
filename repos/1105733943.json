@@ -6,7 +6,7 @@
         "name": "ClashMac",
         "html_url": "https:\/\/github.com\/666OS\/ClashMac",
         "language": "Other",
-        "description": "ClashMac 是一款适用于 macOS 平台的网络代理工具，基于 Clash 核心开发，支持多种代理协议配置，主要用于科学上网和网络流量管理。它提供简洁的图形界面，便于用户管理节点、切换规则、查看连接日志，并支持 YAML 配置文件自定义，适合需要精细化网络控制的用户。"
+        "description": "一个为 macOS 设计的网络代理客户端，基于 Clash 内核，提供图形界面来管理代理配置、切换节点和查看流量。它通常适合需要科学上网或访问受限网络的用户，通过订阅链接导入规则集，支持 HTTP、SOCKS5 等常见代理协议，并允许自定义规则和策略组。与命令行版本相比，它更注重易用性和可视化操作，适合不熟悉命令行的 macOS 用户快速上手。"
     },
     "summary": {
         "initial_stars": 4862,

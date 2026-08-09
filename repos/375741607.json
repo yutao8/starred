@@ -6,16 +6,16 @@
         "name": "mind-map",
         "html_url": "https:\/\/github.com\/wanglin2\/mind-map",
         "language": "JavaScript",
-        "description": "一个基于 JavaScript 的轻量级思维导图库，支持在网页中动态生成和编辑思维导图，提供简洁的 API 用于节点操作、样式自定义和交互控制，适合集成到知识管理、任务规划等 Web 应用中。"
+        "description": "用于在网页端创建和编辑思维导图的开源JavaScript库，支持多种常用布局与主题样式，具备节点拖拽、折叠展开、快捷键操作等核心交互，并允许按需定制外观与行为。典型使用场景包括知识整理、项目规划、会议记录和头脑风暴，适合需要在产品中快速集成思维导图能力的开发者使用，可有效帮助用户直观梳理复杂信息结构，提升构思与沟通效率。"
     },
     "summary": {
         "initial_stars": 11841,
-        "current_stars": 12572,
-        "star_diff": 731,
-        "growth_rate": 6.17,
+        "current_stars": 12573,
+        "star_diff": 732,
+        "growth_rate": 6.18,
         "first_seen": "2026-03-14 12:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 76
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 77
     },
     "history": [
         {
@@ -549,6 +549,13 @@
             "stars": 12572,
             "forks": 1676,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 12573,
+            "forks": 1676,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }

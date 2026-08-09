@@ -6,16 +6,16 @@
         "name": "cc-switch",
         "html_url": "https:\/\/github.com\/farion1231\/cc-switch",
         "language": "Rust",
-        "description": "一个轻量级的用户脚本工具，主要用于在网页中快速切换和管理不同的自定义脚本配置，支持便捷的开关控制与版本管理，适合需要频繁调试或切换脚本环境的用户使用。"
+        "description": "cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，主要面向 Claude Code、Codex 等终端类 AI 助手。它让开发者能够在多个账号、API 端点或服务商之间一键切换，免去手工修改环境变量或配置文件的麻烦。典型使用场景包括管理个人多个订阅账号、在不同项目中使用不同的模型服务，或在团队内共享标准配置。该工具适合频繁使用 AI 编程助手的开发者和需要维护多套配置的团队，能有效减少切换成本并避免配置错误。"
     },
     "summary": {
         "initial_stars": 10238,
-        "current_stars": 125913,
-        "star_diff": 115675,
-        "growth_rate": 1129.86,
+        "current_stars": 125930,
+        "star_diff": 115692,
+        "growth_rate": 1130.03,
         "first_seen": "2026-01-10 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 102
+        "last_seen": "2026-08-10 06:00",
+        "data_points_count": 103
     },
     "history": [
         {
@@ -731,6 +731,13 @@
             "stars": 125913,
             "forks": 8567,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 06:00",
+            "timestamp": 1786312800,
+            "stars": 125930,
+            "forks": 8568,
+            "file": "dist\/2026081006\/starList.public.json"
         }
     ]
 }
