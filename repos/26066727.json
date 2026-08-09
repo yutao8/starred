@@ -6,16 +6,16 @@
         "name": "mermaid",
         "html_url": "https:\/\/github.com\/mermaid-js\/mermaid",
         "language": "TypeScript",
-        "description": "mermaid 是一个用于通过文本代码生成图表的 JavaScript 库，支持流程图、时序图、甘特图、类图等多种图表类型，常用于文档和笔记中可视化结构和流程，可集成在 Markdown 中直接渲染。"
+        "description": "用于将文本描述自动渲染成图表和流程图的JavaScript工具，采用类似Markdown的简洁语法，仅需编写少量代码即可生成流程图、时序图、类图、甘特图、饼图等多种可视化图形。常用于技术文档、项目说明书和知识库中，使图表能够与文档代码同步更新，解决手工绘制图表难以维护和版本管理的问题。适合需要在文档中嵌入动态图表、追求图表生成效率的开发者和技术写作者使用。"
     },
     "summary": {
         "initial_stars": 80741,
-        "current_stars": 89648,
-        "star_diff": 8907,
+        "current_stars": 89649,
+        "star_diff": 8908,
         "growth_rate": 11.03,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 89648,
             "forks": 9157,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 89649,
+            "forks": 9158,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

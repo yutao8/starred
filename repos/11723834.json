@@ -6,7 +6,7 @@
         "name": "nsis",
         "html_url": "https:\/\/github.com\/NSIS-Dev\/nsis",
         "language": "C++",
-        "description": "NSIS（Nullsoft Scriptable Install System）是一个开源的脚本驱动安装系统，主要用于创建Windows平台下的软件安装程序。它支持自定义安装界面、多语言、注册表操作、文件压缩等功能，适合开发轻量级、高效的安装包，广泛应用于各类桌面软件的打包与分发。"
+        "description": "用于制作 Windows 安装程序，通过类脚本语言定义安装步骤，生成独立的可执行文件。支持自定义界面、文件操作、注册表修改、快捷方式创建等，适合桌面应用的分发与部署。安装包体积小、无需外部运行时，也常用来制作卸载程序或辅助工具。插件机制便于扩展功能，广泛适用于从简单到复杂的安装场景。"
     },
     "summary": {
         "initial_stars": 748,

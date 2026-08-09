@@ -6,7 +6,7 @@
         "name": "pydoll",
         "html_url": "https:\/\/github.com\/autoscrape-labs\/pydoll",
         "language": "Python",
-        "description": "基于 Puppeteer 的 Python 自动化网页操作工具，通过 DevTools 协议控制 Chrome 浏览器，支持动态页面抓取、自动化表单提交、截图录屏等，适用于复杂 Web 应用的爬虫与自动化测试场景。"
+        "description": "pydoll 用于 Python 生态的浏览器自动化与网页抓取，通过 Chrome DevTools 协议直接控制 Chromium 浏览器，可执行 JavaScript 操作、模拟页面交互，并支持无头模式抓取。它主要解决动态渲染网页、单页应用的数据采集问题，以及需要完整浏览器环境时的自动化流程。相比 Selenium，它通常免除 WebDriver 配置，部署更轻便，适合爬虫、自动化测试和数据采集等场景。"
     },
     "summary": {
         "initial_stars": 5854,

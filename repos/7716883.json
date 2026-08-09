@@ -6,16 +6,16 @@
         "name": "Anki-Android",
         "html_url": "https:\/\/github.com\/ankidroid\/Anki-Android",
         "language": "Kotlin",
-        "description": "AnkiDroid 是 Anki 的官方 Android 客户端，允许用户在移动设备上浏览、学习和管理 Anki 闪卡。它支持同步桌面 Anki 账户，提供离线学习功能，适用于语言学习、考试复习等场景，界面简洁，操作流畅，便于利用碎片时间进行间隔重复记忆训练。"
+        "description": "一个面向安卓平台的间隔重复记忆工具，提供与桌面端同步的卡片学习体验。它允许用户创建或导入词库，利用算法安排复习时间，帮助高效记忆外语单词、考试知识点或医学、法律等专业内容。支持自定义卡片样式、多媒体附件和多个学习扩展组件。该应用特别适合需要长期备考、语言学习或提升长期记忆效率的用户，所有数据可跨设备同步以保证学习进度连续。"
     },
     "summary": {
         "initial_stars": 9681,
-        "current_stars": 11512,
-        "star_diff": 1831,
-        "growth_rate": 18.91,
+        "current_stars": 11514,
+        "star_diff": 1833,
+        "growth_rate": 18.93,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 11512,
             "forks": 2869,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 11514,
+            "forks": 2869,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

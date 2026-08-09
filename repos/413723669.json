@@ -6,16 +6,16 @@
         "name": "EasyBangumi",
         "html_url": "https:\/\/github.com\/easybangumiorg\/EasyBangumi",
         "language": "Kotlin",
-        "description": "EasyBangumi 是一个专注于提供二次元内容聚合与追番体验的开源项目，主要用于帮助用户高效管理动漫、漫画更新，支持个性化订阅、实时推送和跨设备同步，适合喜欢追番和数字内容收藏的用户使用。"
+        "description": "主要用于帮助动漫爱好者管理追番进度和查看作品更新，围绕 Bangumi 的番剧数据提供收藏、标记和进度追踪等基础功能。通常适合日常需要同时跟进多部动画、希望快速了解新番动态的用户。通过简洁的界面和操作流程，降低使用门槛，让番剧管理变得更直接高效，避免在多个平台间反复查找的麻烦。"
     },
     "summary": {
         "initial_stars": 3377,
-        "current_stars": 3943,
-        "star_diff": 566,
-        "growth_rate": 16.76,
+        "current_stars": 3944,
+        "star_diff": 567,
+        "growth_rate": 16.79,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 3943,
             "forks": 105,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 3944,
+            "forks": 105,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

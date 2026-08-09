@@ -6,16 +6,16 @@
         "name": "notepad--",
         "html_url": "https:\/\/github.com\/cxasm\/notepad--",
         "language": "C++",
-        "description": "一个轻量级文本编辑器项目，主要用于代码查看与简单编辑，支持基础文本操作和语法高亮，适合快速修改和轻量开发任务，界面简洁，依赖少，可运行于多种操作系统。"
+        "description": "一款开源跨平台文本编辑器，定位为系统记事本的增强替代品。它保持小巧快速，同时加入多标签页、语法高亮、行号、查找替换、自动编码检测等常用功能，兼顾日常笔记与代码编辑。界面简洁，支持主题定制和功能扩展，适合低配置环境或追求轻量启动的场景，让用户在 Windows、Linux 和 macOS 上获得一致编辑体验。"
     },
     "summary": {
         "initial_stars": 8191,
-        "current_stars": 10060,
-        "star_diff": 1869,
-        "growth_rate": 22.82,
+        "current_stars": 10061,
+        "star_diff": 1870,
+        "growth_rate": 22.83,
         "first_seen": "2025-10-20 00:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 139
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 140
     },
     "history": [
         {
@@ -990,6 +990,13 @@
             "stars": 10060,
             "forks": 386,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 10061,
+            "forks": 386,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

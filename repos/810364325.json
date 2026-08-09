@@ -6,16 +6,16 @@
         "name": "drawnix",
         "html_url": "https:\/\/github.com\/plait-board\/drawnix",
         "language": "TypeScript",
-        "description": "一个用于在网页上实现手绘风格图表和白板功能的前端库，通过模拟手绘线条效果，为流程图、架构图等提供自然随意的视觉呈现，适合需要增强交互趣味性或教学演示的场景。"
+        "description": "drawnix 是一个开源在线协作白板，基于 Angular 和 NestJS 构建，提供流畅的实时绘图体验，支持多人同时编辑同一画布。它涵盖常见白板工具，如手绘风格画笔、形状、箭头和文字，并支持缩放、平移等交互，适合远程会议、在线教学、头脑风暴或设计讨论等需要同步协作的场景。用户无需安装即可在浏览器中创建和分享白板，解决线下白板难以共享和异地协作不便的问题。项目整体围绕轻量级、易部署和实时同步设计，适合团队自托管或二次开发。"
     },
     "summary": {
         "initial_stars": 8954,
-        "current_stars": 14394,
-        "star_diff": 5440,
-        "growth_rate": 60.75,
+        "current_stars": 14395,
+        "star_diff": 5441,
+        "growth_rate": 60.77,
         "first_seen": "2025-08-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 165
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 166
     },
     "history": [
         {
@@ -1172,6 +1172,13 @@
             "stars": 14394,
             "forks": 1239,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 14395,
+            "forks": 1239,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "mihon",
         "html_url": "https:\/\/github.com\/mihonapp\/mihon",
         "language": "Kotlin",
-        "description": "Mihon 是一个开源的漫画阅读器，主要用于浏览和管理本地或在线的漫画、漫画书和网络漫画，支持多种格式和源插件，提供简洁的界面和离线阅读功能，适合个人化漫画收藏与阅读。"
+        "description": "mihon 是一款开源的漫画阅读器，作为已停更的 Tachiyomi 的社区分支，主要面向安卓平台。它聚合多个漫画来源，让读者在一个应用内完成搜索、订阅和阅读，并支持自定义扩展源以适配不同网站。同时具备下载离线阅读、书库管理和阅读进度追踪等功能，适合经常在多站点看漫画、希望统一维护收藏与进度的用户。该项目延续了 Tachiyomi 的模块化设计，通常搭配第三方图源使用，帮助避免在多个应用间切换的麻烦。"
     },
     "summary": {
         "initial_stars": 14231,
-        "current_stars": 22668,
-        "star_diff": 8437,
-        "growth_rate": 59.29,
+        "current_stars": 22672,
+        "star_diff": 8441,
+        "growth_rate": 59.31,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 22668,
             "forks": 1386,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 22672,
+            "forks": 1387,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

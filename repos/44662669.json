@@ -6,16 +6,16 @@
         "name": "dbeaver",
         "html_url": "https:\/\/github.com\/dbeaver\/dbeaver",
         "language": "Java",
-        "description": "DBeaver 是一个开源的通用数据库管理工具，支持多种数据库系统，如 MySQL、PostgreSQL、Oracle、SQL Server 等，提供直观的图形界面，便于执行 SQL 查询、管理数据库结构、浏览和编辑数据，适合开发者和数据库管理员日常使用。"
+        "description": "DBeaver 是一款开源的通用数据库管理工具，支持 MySQL、PostgreSQL、Oracle、SQL Server、SQLite 等数十种数据库，通过统一图形界面完成连接、查询、数据编辑与结构管理。它面向开发人员、数据分析师和数据库管理员，适合日常开发调试、跨库数据迁移和 SQL 脚本执行等场景，同时提供 ER 图、数据导出、执行计划可视化等实用功能，是替代商业客户端的高效选择。"
     },
     "summary": {
         "initial_stars": 44286,
-        "current_stars": 51355,
-        "star_diff": 7069,
-        "growth_rate": 15.96,
+        "current_stars": 51358,
+        "star_diff": 7072,
+        "growth_rate": 15.97,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 51355,
             "forks": 4330,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 51358,
+            "forks": 4330,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

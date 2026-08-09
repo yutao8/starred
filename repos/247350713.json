@@ -6,16 +6,16 @@
         "name": "neko",
         "html_url": "https:\/\/github.com\/m1k1o\/neko",
         "language": "Go",
-        "description": "neko 是一个基于浏览器的虚拟桌面，可在 Docker 中运行，提供完整操作系统体验，支持通过 WebRTC 实现低延迟远程访问，适用于远程办公、临时开发环境或快速部署隔离桌面会话。"
+        "description": "neko 是一个自托管的虚拟浏览器工具，通过 WebRTC 实现多人实时共享和远程控制浏览器会话。它让多个用户可以同时查看并操作同一个浏览器页面，适合远程协作、在线教学、客服支持等场景。项目以 Go 语言构建，支持低延迟的音视频通信，用户无需安装额外插件即可在网页中使用，常用于搭建隐私友好的团队协作环境。"
     },
     "summary": {
         "initial_stars": 11811,
-        "current_stars": 21887,
-        "star_diff": 10076,
-        "growth_rate": 85.31,
+        "current_stars": 21890,
+        "star_diff": 10079,
+        "growth_rate": 85.34,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 21887,
             "forks": 1570,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 21890,
+            "forks": 1570,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

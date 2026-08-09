@@ -6,7 +6,7 @@
         "name": "sysbench",
         "html_url": "https:\/\/github.com\/akopytov\/sysbench",
         "language": "C",
-        "description": "是一个开源的系统性能基准测试工具，主要用于评估MySQL\/MariaDB数据库的性能，同时也支持对CPU、内存、文件I\/O、线程调度等方面的底层系统压力测试，适用于Linux、BSD等类Unix系统，广泛用于服务器性能评测和数据库优化。"
+        "description": "sysbench 是一款跨平台的模块化基准测试工具，主要用于评估数据库和系统底层组件的性能表现。它内置了 CPU、内存、文件 I\/O、线程调度以及 OLTP 数据库负载等测试场景，支持 MySQL、PostgreSQL 等多种数据库，通过可配置的线程数、请求数量和事务模式模拟真实压力，常被用于对比不同硬件配置、数据库调优参数或云主机实例的实际处理能力，也能帮助定位系统瓶颈。由于扩展接口灵活，许多性能测试框架也将其作为底层压测引擎使用。"
     },
     "summary": {
         "initial_stars": 6407,
@@ -14,8 +14,8 @@
         "star_diff": 361,
         "growth_rate": 5.63,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 169
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 170
     },
     "history": [
         {
@@ -1200,6 +1200,13 @@
             "stars": 6768,
             "forks": 1142,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 6768,
+            "forks": 1141,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

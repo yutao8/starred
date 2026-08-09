@@ -6,16 +6,16 @@
         "name": "yn",
         "html_url": "https:\/\/github.com\/purocean\/yn",
         "language": "TypeScript",
-        "description": "Yank Note 是一款专为开发者设计的开源笔记本工具，支持代码高亮、Markdown 编辑、实时预览、文件管理及插件扩展，适用于技术文档记录、笔记整理和知识管理，提供高效、灵活的本地化写作环境。"
+        "description": "Yank Note（仓库 purocean\/yn）是一款面向程序员的 Markdown 笔记应用。核心用途是在本地管理技术笔记和知识库，具备代码高亮、数学公式、流程图与思维导图等渲染能力，还能嵌入并运行 JavaScript 片段，让文档具备动态交互和自动化能力。笔记以纯文本保存，支持链接本地 Git 仓库来做版本控制，兼顾隐私和可追溯性。由于基于 Electron，可跨主流桌面平台使用，适合习惯用 Markdown 记录且需要可扩展、可编程笔记环境的开发者。"
     },
     "summary": {
         "initial_stars": 6384,
-        "current_stars": 6708,
-        "star_diff": 324,
-        "growth_rate": 5.08,
+        "current_stars": 6712,
+        "star_diff": 328,
+        "growth_rate": 5.14,
         "first_seen": "2025-10-20 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 131
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 132
     },
     "history": [
         {
@@ -934,6 +934,13 @@
             "stars": 6708,
             "forks": 926,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 6712,
+            "forks": 926,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

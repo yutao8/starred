@@ -6,7 +6,7 @@
         "name": "WeChatHook",
         "html_url": "https:\/\/github.com\/lyx102\/WeChatHook",
         "language": "Python",
-        "description": "WeChatHook 是一个用于拦截和监控微信客户端消息的工具，主要用于分析微信消息传输机制、实现自动化消息处理或开发辅助功能插件，适用于需要对微信桌面端通信进行调试或扩展的场景。"
+        "description": "用于对微信桌面客户端进行底层 Hook 操作，主要用于消息监听、自动回复、群管理、朋友圈互动等场景的自动化扩展，适合需要强化微信功能或编写个人辅助脚本的开发者。技术实现通常涉及内存注入与接口调用，通常与特定版本的微信客户端绑定使用。"
     },
     "summary": {
         "initial_stars": 115,

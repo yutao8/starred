@@ -6,7 +6,7 @@
         "name": "Geetest-AST-",
         "html_url": "https:\/\/github.com\/daisixuan\/Geetest-AST-",
         "language": "JavaScript",
-        "description": "该项目主要用于解析和处理极验（Geetest）验证码的 AST（抽象语法树）相关逻辑，通常适用于研究验证码绕过机制或逆向分析场景，涉及 JavaScript 代码解析与自动化对抗检测技术，常用于安全研究或爬虫开发领域。"
+        "description": "该仓库主要用于极验验证码相关的脚本处理，借助抽象语法树（AST）技术对JavaScript代码进行结构解析与转换，以便分析验证码动态生成逻辑或还原混淆后的参数计算过程。适合在爬虫开发、自动化测试或验证码安全性研究中使用，能够辅助定位关键加密函数、模拟签名生成，并降低手动逆向成本。项目围绕AST这一技术路径，面向常见极验验证码场景，具体实现细节以仓库代码为准。"
     },
     "summary": {
         "initial_stars": 157,

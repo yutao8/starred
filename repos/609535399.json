@@ -6,16 +6,16 @@
         "name": "NekoBoxForAndroid",
         "html_url": "https:\/\/github.com\/MatsuriDayo\/NekoBoxForAndroid",
         "language": "Kotlin",
-        "description": "NekoBoxForAndroid 是一个专为 Android 设备设计的网络代理工具，主要用于科学上网和网络流量管理。它基于 V2Ray、Trojan 等主流代理协议，提供简洁直观的用户界面，支持配置自定义节点、SSID 识别、规则分流、伪装流量等功能，帮助用户实现安全、稳定和高效的网络访问。项目聚焦于隐私保护与网络自由，适合需要灵活网络代理方案的用户使用。"
+        "description": "开源的Android端网络代理工具，基于sing-box核心，支持Shadowsocks、VMess、VLESS、Trojan等主流代理协议。用户可以自定义路由规则和代理设置，适用于科学上网、访问受限制内容等场景，提供灵活且高效的流量转发能力。适合需要可定制代理方案的用户。"
     },
     "summary": {
         "initial_stars": 14726,
-        "current_stars": 22223,
-        "star_diff": 7497,
-        "growth_rate": 50.91,
+        "current_stars": 22230,
+        "star_diff": 7504,
+        "growth_rate": 50.96,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 22223,
             "forks": 1793,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 22230,
+            "forks": 1794,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

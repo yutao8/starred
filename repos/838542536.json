@@ -6,16 +6,16 @@
         "name": "humanlayer",
         "html_url": "https:\/\/github.com\/humanlayer\/humanlayer",
         "language": "TypeScript",
-        "description": "HumanLayer 是一个用于构建人机协作工作流的 Python SDK，主要用于在自动化代理或 AI 系统中集成人工反馈。它支持通过 Slack、电子邮件等方式进行人工审批、验证或输入干预，帮助开发者在关键节点引入人为决策，提升系统安全性和可靠性。"
+        "description": "为 AI 智能体与人类之间建立结构化沟通渠道的工具包，核心用途是让 AI 代理在自主执行任务时能随时向人类请求审批、获取反馈或补充信息。开发者可将其嵌入智能体工作流，为高风险的自动化操作引入人工审核环节，防止误操作或超出权限的行为。通常支持接入 Slack 等即时通讯平台，也提供 Python 和 TypeScript 等主流语言的 SDK，适合构建需要人工介入的 AI 客服、自动化运维、代码审查等场景。"
     },
     "summary": {
         "initial_stars": 5229,
-        "current_stars": 11217,
-        "star_diff": 5988,
-        "growth_rate": 114.52,
+        "current_stars": 11222,
+        "star_diff": 5993,
+        "growth_rate": 114.61,
         "first_seen": "2025-10-01 18:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 148
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 149
     },
     "history": [
         {
@@ -1053,6 +1053,13 @@
             "stars": 11217,
             "forks": 930,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 11222,
+            "forks": 930,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

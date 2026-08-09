@@ -6,16 +6,16 @@
         "name": "Bili23-Downloader",
         "html_url": "https:\/\/github.com\/ScottSloan\/Bili23-Downloader",
         "language": "Python",
-        "description": "用于下载B站（哔哩哔哩）视频的工具，支持解析视频地址并以较高清晰度保存到本地，通常适用于希望离线观看B站内容的用户，使用时需注意遵守平台版权规定。"
+        "description": "用于下载哔哩哔哩视频的桌面工具，支持粘贴视频链接后解析并获取不同清晰度的视频流，适合需要离线观看B站视频或保存素材的用户。通常提供视频与音频合并下载、批量下载以及弹幕导出等功能，解决B站客户端不提供直接下载高清视频或网页版下载受限的问题。操作流程一般围绕链接解析、清晰度选择和任务管理展开，适合个人学习、内容备份和二次创作素材整理等场景。"
     },
     "summary": {
         "initial_stars": 1678,
-        "current_stars": 6327,
-        "star_diff": 4649,
-        "growth_rate": 277.06,
+        "current_stars": 6333,
+        "star_diff": 4655,
+        "growth_rate": 277.41,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 6327,
             "forks": 446,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 6333,
+            "forks": 446,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

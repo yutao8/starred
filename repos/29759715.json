@@ -6,16 +6,16 @@
         "name": "zstd",
         "html_url": "https:\/\/github.com\/facebook\/zstd",
         "language": "C",
-        "description": "zstd 是 Facebook 开发的高效压缩算法库，提供高压缩比与快速压缩\/解压速度，适用于数据存储与网络传输场景，支持多语言绑定，常用于需要低延迟和高吞吐的系统中。"
+        "description": "Zstandard（zstd）提供实时无损数据压缩能力，兼顾高压缩比与极快的解压速度。它通常用于文件系统备份、数据库存储、网络传输等需要高速吞吐的 I\/O 场景，也适合嵌入式环境或实时通信中对压缩延迟敏感的需求。除常规压缩级别外，还支持字典训练与长距离匹配模式，可提升小数据块和重复内容较多的数据的压缩效果。项目附带命令行工具与多语言编程接口，方便直接使用或集成到各类应用中。"
     },
     "summary": {
         "initial_stars": 25989,
-        "current_stars": 27534,
-        "star_diff": 1545,
-        "growth_rate": 5.94,
+        "current_stars": 27535,
+        "star_diff": 1546,
+        "growth_rate": 5.95,
         "first_seen": "2025-11-07 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 131
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 132
     },
     "history": [
         {
@@ -934,6 +934,13 @@
             "stars": 27534,
             "forks": 2550,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 27535,
+            "forks": 2550,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

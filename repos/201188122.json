@@ -6,16 +6,16 @@
         "name": "lively",
         "html_url": "https:\/\/github.com\/rocksdanister\/lively",
         "language": "C#",
-        "description": "Lively是一款开源的动态壁纸应用，主要为Windows系统提供支持视频、网页、动画等格式作为桌面背景的功能，用户可通过本地文件或URL设置动态壁纸，支持音频可视化效果与交互式内容，适用于打造个性化桌面环境，通常用于提升视觉体验或展示创意多媒体内容。"
+        "description": "为Windows桌面提供动态壁纸的开源工具，核心功能是把视频、GIF、网页或交互内容设置为桌面背景。用户可以从本地文件添加素材，也能从在线链接获取，通过系统托盘切换、暂停和控制播放。适合希望个性化电脑桌面、追求动态视觉效果的普通用户与创作者，同时降低了制作动态壁纸的技术门槛。通常利用系统桌面窗口机制实现，在主流Windows版本上运行，资源占用可控。"
     },
     "summary": {
         "initial_stars": 17065,
-        "current_stars": 19345,
-        "star_diff": 2280,
-        "growth_rate": 13.36,
+        "current_stars": 19346,
+        "star_diff": 2281,
+        "growth_rate": 13.37,
         "first_seen": "2025-09-06 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 161
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 162
     },
     "history": [
         {
@@ -1144,6 +1144,13 @@
             "stars": 19345,
             "forks": 1324,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 19346,
+            "forks": 1324,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

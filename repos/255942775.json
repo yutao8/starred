@@ -6,16 +6,16 @@
         "name": "tailscale-android",
         "html_url": "https:\/\/github.com\/tailscale\/tailscale-android",
         "language": "Kotlin",
-        "description": "Tailscale for Android 是 Tailscale 网络工具的安卓客户端，用于将移动设备安全地接入 Tailscale 虚拟私有网络（VPN），实现与团队、服务器或个人设备的加密连接。它基于 WireGuard 协议，支持一键组网、跨平台访问和细粒度权限控制，适合远程办公、内网服务访问和安全上网，无需复杂配置即可使用。"
+        "description": "Tailscale 的 Android 客户端，用于将 Android 设备安全接入基于 WireGuard 的私有虚拟局域网。它支持使用 Tailscale 账号登录后，在设备上建立加密隧道，实现跨地域的远程访问、设备互联和内网穿透。适合需要从手机安全连接家庭或公司网络、访问内网服务、与个人电脑或服务器组网的场景。应用提供简洁的开关界面，并能自动配置网络权限，无需复杂手工设置。通常用于解决移动设备在公网环境下无法直接访问私有网络资源的问题，同时具备端到端加密和身份验证能力。"
     },
     "summary": {
         "initial_stars": 1425,
-        "current_stars": 2382,
-        "star_diff": 957,
-        "growth_rate": 67.16,
+        "current_stars": 2384,
+        "star_diff": 959,
+        "growth_rate": 67.3,
         "first_seen": "2025-08-09 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 173
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 174
     },
     "history": [
         {
@@ -1228,6 +1228,13 @@
             "stars": 2382,
             "forks": 695,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 2384,
+            "forks": 695,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "ApkToolPlus",
         "html_url": "https:\/\/github.com\/CYRUS-STUDIO\/ApkToolPlus",
         "language": "Java",
-        "description": "ApkToolPlus 是一款用于反编译和重打包 Android 应用程序的工具，主要用于逆向分析 APK 文件，支持资源解码、Smali 代码查看与修改，方便开发者调试、汉化或修改应用逻辑，适用于 Android 安全研究和自定义开发。"
+        "description": "ApkToolPlus 是一个用于安卓应用分析和逆向的图形化增强工具，主要帮助开发者、安全研究人员或普通用户对 APK 文件进行反编译、资源解码、查看和回编译等操作。它适合在本地拆解安装包，分析应用的结构、修改资源内容后再重新打包，常见于二次开发、定制美化或安全审计等场景。相比直接使用命令行工具，它通常提供更直观的操作界面，降低上手门槛，适合需要频繁处理 APK 文件但希望提高效率的用户。"
     },
     "summary": {
         "initial_stars": 1337,

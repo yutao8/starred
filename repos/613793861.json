@@ -6,7 +6,7 @@
         "name": "JS_reverse",
         "html_url": "https:\/\/github.com\/LumingMelody\/JS_reverse",
         "language": "JavaScript",
-        "description": "该项目主要用于JavaScript逆向分析，包含常见反爬虫技术的破解方法与调试技巧，适合研究前端安全和数据采集领域，通过还原混淆代码、分析加密逻辑帮助理解JS运行机制。"
+        "description": "一个面向爬虫开发者和安全研究者的 JavaScript 逆向工程参考库，用于处理网页前端代码混淆、加密参数解析、动态调试等常见反爬对抗场景。通常包含对 JS 混淆代码的还原思路、常见加密算法识别、断点调试技巧以及接口加密参数的逆向案例，适合在编写爬虫时突破签名校验或分析客户端逻辑时查阅。内容偏实战，围绕浏览器开发者工具、抓包工具和 Node.js 环境展开，能够帮助解决登录 token 生成、请求参数加密、JS 文件定位等典型问题，也适合作为学习前端安全攻防的入门资料。"
     },
     "summary": {
         "initial_stars": 80,

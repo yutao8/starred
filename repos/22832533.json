@@ -6,7 +6,7 @@
         "name": "anyproxy",
         "html_url": "https:\/\/github.com\/alibaba\/anyproxy",
         "language": "JavaScript",
-        "description": "AnyProxy 是阿里巴巴开源的一个跨平台 Web 调试代理工具，主要用于捕获、分析和修改 HTTP\/HTTPS 请求与响应。它支持规则拦截、数据重放、自定义脚本扩展，常用于前端调试、接口测试、性能优化及移动端抓包。内置 Web UI 界面，可实时监控网络请求，结合 Node.js 生态便于二次开发，适用于开发、测试和运维人员提升调试效率。"
+        "description": "AnyProxy 是阿里巴巴开源的 HTTP\/HTTPS 抓包与调试代理工具，支持在浏览器、移动端和桌面应用环境中拦截、查看和修改网络请求。它内置规则系统，可对请求和响应进行自定义转发、篡改或模拟，常用于接口调试、线上问题定位、自动化测试和前端开发 Mock 数据。工具提供可视化控制台，并支持通过插件扩展功能，适合需要深度分析或干预网络流量的开发与测试场景。"
     },
     "summary": {
         "initial_stars": 7927,

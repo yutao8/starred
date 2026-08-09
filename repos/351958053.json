@@ -6,16 +6,16 @@
         "name": "giscus",
         "html_url": "https:\/\/github.com\/giscus\/giscus",
         "language": "TypeScript",
-        "description": "giscus 是一个基于 GitHub Discussions 的评论系统，可嵌入网站或博客，用于替代传统评论框。它通过将 GitHub 讨论绑定到页面，实现静态网站的动态评论功能，支持身份验证、评论通知和主题同步，适合使用 GitHub 托管内容的技术博客或文档站。"
+        "description": "为静态网站或博客提供评论功能，基于GitHub Discussions实现，将评论数据直接存于GitHub仓库的Discussions中，无需额外服务器或数据库。安装时只需配置仓库和Discussions入口，在页面中嵌入即可使用。适合无后端站点、个人博客和文档站，访客可直接使用GitHub账号登录后发表评论。支持多主题、国际化及现代前端特性，评论与项目Issues\/Discussions天然同步。通常利用GitHub的认证与通知机制，减少维护成本，同时让社区讨论更集中。"
     },
     "summary": {
         "initial_stars": 10235,
-        "current_stars": 12006,
-        "star_diff": 1771,
-        "growth_rate": 17.3,
+        "current_stars": 12007,
+        "star_diff": 1772,
+        "growth_rate": 17.31,
         "first_seen": "2025-08-05 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 177
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 178
     },
     "history": [
         {
@@ -1256,6 +1256,13 @@
             "stars": 12006,
             "forks": 478,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 12007,
+            "forks": 478,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "ast-hook-for-js-RE",
         "html_url": "https:\/\/github.com\/JSREI\/ast-hook-for-js-RE",
         "language": "JavaScript",
-        "description": "一个基于 JavaScript AST 分析的 Hook 框架，用于在不修改源码的情况下劫持和监控 JavaScript 函数调用，常用于安全检测、运行时行为分析和动态插桩。"
+        "description": "用于 JavaScript 逆向工程，通过抽象语法树钩子技术对目标代码进行插桩和动态监控，辅助分析混淆或加密的前端脚本。通常适合安全研究员或逆向工程师在分析网页端 JS 逻辑时，跟踪关键函数的调用、参数和返回值，定位核心算法。基于 AST 的方式能适应不同代码结构，提高分析效率，减少手动调试成本。"
     },
     "summary": {
         "initial_stars": 1765,

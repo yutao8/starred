@@ -6,7 +6,7 @@
         "name": "clash-verge",
         "html_url": "https:\/\/github.com\/zzzgydi\/clash-verge",
         "language": "TypeScript",
-        "description": "Clash Verge 是一个基于 Clash 核心的图形化代理工具，主要用于管理网络代理配置，支持多平台规则分流、混合模式切换和可视化流量监控，适合需要自定义代理策略的用户，简化了 Clash 配置文件的编辑与节点管理流程。"
+        "description": "Clash Verge 是一款面向桌面系统的 Clash 代理管理工具，基于 Tauri 和 Rust 构建，支持 Windows、macOS 和 Linux。它主要用于集中管理多个 Clash 订阅，并允许用户快速切换节点、调整代理模式、查看实时流量与连接信息。内置的配置编辑器支持直接修改 YAML 规则，适合需要精细控制代理规则的用户。此外，它还提供内核版本管理和自定义 DNS 设置等高级功能，能有效简化日常代理配置维护。无论是开发者调试网络还是个人上网加速，都能通过直观的图形界面操作，避免手写复杂命令。"
     },
     "summary": {
         "initial_stars": 21915,

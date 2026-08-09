@@ -6,16 +6,16 @@
         "name": "DockerHub",
         "html_url": "https:\/\/github.com\/dongyubin\/DockerHub",
         "language": "Other",
-        "description": "主要用于快速构建和分发容器镜像，支持自动化镜像构建、版本管理与跨平台部署，适合开发者和团队在CI\/CD流程中高效管理应用容器化过程。"
+        "description": "该仓库用于优化 Docker Hub 镜像的获取与管理，主要解决镜像拉取速度慢、连接不稳定等实际问题。它通常提供加速、代理、同步或备份的配置与脚本，帮助开发者和运维人员在受限网络下高效使用公共镜像，并降低容器部署的等待成本。同时，可能涵盖对 Docker Hub 仓库信息的查询或批量管理，适合个人及团队在 CI\/CD、本地开发等场景中使用。具体功能以仓库内文档和代码为准，但整体上是一个围绕 Docker 生态的实用工具集合。"
     },
     "summary": {
         "initial_stars": 4404,
-        "current_stars": 9424,
-        "star_diff": 5020,
-        "growth_rate": 113.99,
+        "current_stars": 9427,
+        "star_diff": 5023,
+        "growth_rate": 114.06,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 9424,
             "forks": 427,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 9427,
+            "forks": 428,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

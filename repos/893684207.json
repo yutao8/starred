@@ -6,16 +6,16 @@
         "name": "Termix",
         "html_url": "https:\/\/github.com\/Termix-SSH\/Termix",
         "language": "TypeScript",
-        "description": "Termix-SSH 是一个基于 Web 的终端工具，主要用于通过浏览器安全地连接和管理远程服务器，支持 SSH 协议，便于用户在无需安装额外客户端的情况下进行远程运维操作。"
+        "description": "Termix 主要用于管理 SSH 远程连接，为开发者和运维人员提供集中式的终端会话界面。它支持保存多台服务器配置，快速发起或切换连接，适合日常登录开发机、测试服务器或生产环境的场景。基于常见的终端工具设计思路，Termix 可能带有多标签或分屏功能，便于同时处理多个任务，并降低反复输入命令和参数的负担。对于需要频繁操作远程主机、维护多套环境的用户，Termix 是一款实用且高效的辅助工具。"
     },
     "summary": {
         "initial_stars": 5569,
-        "current_stars": 14658,
-        "star_diff": 9089,
-        "growth_rate": 163.21,
+        "current_stars": 14662,
+        "star_diff": 9093,
+        "growth_rate": 163.28,
         "first_seen": "2025-10-20 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 140
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 141
     },
     "history": [
         {
@@ -997,6 +997,13 @@
             "stars": 14658,
             "forks": 661,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 14662,
+            "forks": 661,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

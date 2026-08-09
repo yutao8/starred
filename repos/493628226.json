@@ -6,7 +6,7 @@
         "name": "portainer-cn",
         "html_url": "https:\/\/github.com\/outlovecn\/portainer-cn",
         "language": "CSS",
-        "description": "提供Portainer中文社区版，主要用于容器管理与可视化操作，适合国内用户快速部署和监控Docker环境，集成本土化支持与文档，简化容器化应用的运维流程。"
+        "description": "Portainer 的中文汉化版本，让中文用户能直接通过图形界面管理 Docker 容器、镜像、网络和数据卷。原版 Portainer 的英文菜单和提示对许多人存在使用门槛，此仓库提供替换后的中文资源，部署后即可显示本地化界面。通常适合在服务器或 NAS 上使用 Docker 的个人和团队，用来降低容器运维的操作难度，便于直观查看运行状态、创建或停止容器、管理卷和网络。使用时一般通过 Docker 直接运行，并需配合官方 Portainer 版本部署，以实现界面汉化而保留原有功能。"
     },
     "summary": {
         "initial_stars": 394,

@@ -6,7 +6,7 @@
         "name": "nas-tools",
         "html_url": "https:\/\/github.com\/NAStool\/nas-tools",
         "language": "Other",
-        "description": "NAStool\/nas-tools是一款专为NAS用户设计的综合管理工具，主要用于自动化下载、媒体库管理、文件整理和字幕处理，支持多平台资源聚合，方便用户集中管控私有云中的影音内容，提升存储与观影体验。"
+        "description": "用于NAS环境下的影音媒体库自动化管理工具，侧重PT下载与整理。它能自动监控下载任务，完成后按规则进行文件分类、硬链接迁移、规范重命名，并通过刮削补充影片海报、简介、演员等元数据，便于接入Emby、Plex或Jellyfin等媒体服务器。适合家庭影音爱好者或小型媒体库用户使用，主要解决手动整理文件、元数据缺失、多目录混乱等问题，减少日常维护成本，保持良好的媒体库浏览体验。"
     },
     "summary": {
         "initial_stars": 9034,

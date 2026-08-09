@@ -6,7 +6,7 @@
         "name": "Dolphin",
         "html_url": "https:\/\/github.com\/bytedance\/Dolphin",
         "language": "Python",
-        "description": "Dolphin 是字节跳动开源的一款高性能、轻量级的分布式消息队列系统，主要用于大规模数据处理和实时消息传递场景，支持高吞吐、低延迟的消息写入与消费，适用于日志收集、监控数据传输、实时分析等业务场景，具备良好的可扩展性和容错能力。"
+        "description": "用于为 Flutter 提供高性能的跨平台渲染引擎，由字节跳动开源，重点替代传统 Skia 以优化图形渲染管线。它采用 Rust 编写，借助 Vulkan、Metal 等底层图形接口，提升 Flutter 应用在移动和桌面端的渲染速度与流畅度，适合对绘制性能有较高要求的场景。通常与 Flutter 引擎集成，帮助减少掉帧、改善复杂界面和动画的渲染表现。"
     },
     "summary": {
         "initial_stars": 7204,

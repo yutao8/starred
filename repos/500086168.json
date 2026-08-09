@@ -6,16 +6,16 @@
         "name": "PT-depiler",
         "html_url": "https:\/\/github.com\/pt-plugins\/PT-depiler",
         "language": "TypeScript",
-        "description": "PT-depiler 是一个用于将 PT（Probably Typed）项目中的 JavaScript 代码反编译或转换为带有类型注解的 TypeScript 代码的工具，主要用于辅助开发者在未提供完整类型定义的情况下恢复类型信息，提升代码可维护性和类型安全性，适合需要从 JS 迁移到 TS 的项目或逆向分析场景。"
+        "description": "PT-depiler 是一个面向 Private Tracker（PT）站点用户的资源管理辅助工具，主要用于剥离并整理种子数据中的冗余与无效信息。它能够从杂乱的种子列表中提取关键内容，过滤重复或失效条目，帮助玩家更高效地维护多站点收藏和下载任务。由于内置智能筛选和轻量交互，它很适合经常使用 PT 并苦于资源重复、信息过载的人群，可显著减少手动清理与对比的精力。作为 pt-plugins 生态的组成项目，它延续了该组织工具链简洁实用的风格，通常以插件形式嵌入现有使用流程。"
     },
     "summary": {
         "initial_stars": 586,
-        "current_stars": 2526,
-        "star_diff": 1940,
-        "growth_rate": 331.06,
+        "current_stars": 2527,
+        "star_diff": 1941,
+        "growth_rate": 331.23,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 192
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 193
     },
     "history": [
         {
@@ -1361,6 +1361,13 @@
             "stars": 2526,
             "forks": 175,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 2527,
+            "forks": 175,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

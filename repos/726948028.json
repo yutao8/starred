@@ -6,7 +6,7 @@
         "name": "headscale-admin",
         "html_url": "https:\/\/github.com\/GoodiesHQ\/headscale-admin",
         "language": "Svelte",
-        "description": "headscope-admin 是一个用于管理 headscale 的 Web 管理界面，主要用于简化 Tailscale 自建服务器 headscale 的配置与运维操作。它提供可视化的方式来管理用户、设备、节点和 ACL 策略，适合需要更直观控制私有 Tailscale 网络的场景。"
+        "description": "headscale-admin 是一个面向 headscale 控制服务器的第三方 Web 管理界面，旨在用可视化操作替代繁琐的命令行管理。headscale 本身是自托管 Tailscale 控制器的开源实现，而这个项目通常适合需要集中管理私有网络下用户账户、机器节点和预授权密钥的场景。通过它，管理员可以在浏览器中查看节点在线状态、启用或禁用设备、生成接入认证信息，从而降低日常运维成本。它围绕 headscale 的管理接口构建，部署简单，适合托管团队或自组网用户使用。"
     },
     "summary": {
         "initial_stars": 851,

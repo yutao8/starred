@@ -6,16 +6,16 @@
         "name": "Bangumi",
         "html_url": "https:\/\/github.com\/czy0729\/Bangumi",
         "language": "TypeScript",
-        "description": "用于二次元信息管理的开源项目，主要用于追踪和管理动漫、漫画等作品的观看进度与收藏信息，支持数据同步与本地化存储，适合追求个性化与隐私保护的用户使用。"
+        "description": "用于浏览和管理 Bangumi 番剧与动画条目的第三方客户端，提供追番、评分、收藏管理、时间线动态及每日放送等功能，界面贴合原生体验，适合习惯使用 Bangumi 跟踪动画、漫画和游戏的用户，帮助快速查看条目信息与社区讨论。"
     },
     "summary": {
         "initial_stars": 4900,
-        "current_stars": 5820,
-        "star_diff": 920,
-        "growth_rate": 18.78,
+        "current_stars": 5822,
+        "star_diff": 922,
+        "growth_rate": 18.82,
         "first_seen": "2025-10-20 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 138
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 139
     },
     "history": [
         {
@@ -983,6 +983,13 @@
             "stars": 5820,
             "forks": 170,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 5822,
+            "forks": 170,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

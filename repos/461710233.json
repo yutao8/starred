@@ -6,7 +6,7 @@
         "name": "pyscript",
         "html_url": "https:\/\/github.com\/pyscript\/pyscript",
         "language": "Python",
-        "description": "PyScript 是一个允许在 HTML 中直接编写 Python 代码的框架，通过自定义标签将 Python 脚本嵌入网页，借助 Pyodide 在浏览器中运行，适用于快速构建交互式前端应用而无需 JavaScript，降低 Web 开发门槛，特别适合 Python 开发者和教学场景。"
+        "description": "PyScript 让 Python 代码直接在浏览器中运行，无需安装任何环境或后端服务。你可以在 HTML 文件中嵌入 Python 逻辑，借助 Pyodide 等运行时调用丰富的科学计算与数据处理库，实现交互式网页应用、数据可视化和教学演示。它特别适合希望复用 Python 技能构建前端页面、快速原型验证，以及向非专业用户分享可交互分析结果的场景。项目通常与 WebAssembly 技术栈配合，让网页具备接近原生的执行能力，降低了 Web 开发与 Python 生态之间的门槛。"
     },
     "summary": {
         "initial_stars": 18616,

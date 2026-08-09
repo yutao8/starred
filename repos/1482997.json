@@ -6,7 +6,7 @@
         "name": "phpredis",
         "html_url": "https:\/\/github.com\/phpredis\/phpredis",
         "language": "C",
-        "description": "phpredis 是一个用于 PHP 的 Redis 扩展，提供与 Redis 数据库通信的接口，支持连接管理、数据操作、事务、发布订阅等功能，通常用于提升 PHP 应用对 Redis 的访问性能。"
+        "description": "用 C 语言编写的 PHP 扩展 phpredis 让 PHP 应用可以直接操作 Redis 数据库，提供完整的 Redis 命令接口，覆盖字符串、哈希、列表、集合、有序集合及发布订阅等数据类型，并支持持久连接、集群、哨兵、管道和事务等高级特性。它适合在需要高性能缓存、会话共享、消息队列或实时计数等场景中使用，相比纯 PHP 客户端执行效率更高，是 PHP 生态中接入 Redis 的主流方案。"
     },
     "summary": {
         "initial_stars": 10158,

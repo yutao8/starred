@@ -6,7 +6,7 @@
         "name": "jQuery-hook",
         "html_url": "https:\/\/github.com\/JSREI\/jQuery-hook",
         "language": "HTML",
-        "description": "用于jQuery插件开发的钩子机制扩展工具，通过定义可扩展的钩子点实现插件功能的动态注入与拦截，主要用于增强jQuery方法调用过程中的可定制性，适合需要动态修改或监控jQuery行为的场景。"
+        "description": "用于在浏览器运行时拦截和修改 jQuery 方法调用，通过钩子程序在原始方法执行前后插入自定义逻辑。它适合用在调试、日志记录、AJAX 请求监控与篡改、页面行为分析等场景，帮助开发者在不改动页面原有代码的情况下注入额外功能。常见于油猴脚本或自动化测试中，也可用于模拟接口数据或动态修改 UI 行为。实现上基于 JavaScript 的动态方法覆盖，使用前需确认与目标页面 jQuery 版本的兼容性。"
     },
     "summary": {
         "initial_stars": 128,

@@ -6,7 +6,7 @@
         "name": "m0nkrus-adobe-tracker",
         "html_url": "https:\/\/github.com\/djkato\/m0nkrus-adobe-tracker",
         "language": "Rust",
-        "description": "用于跟踪 Adobe 软件的激活状态和网络请求，可阻止特定域名以禁用 Adobe 激活验证，常用于屏蔽盗版软件的版权检测机制，适用于系统 hosts 文件修改或配合 DNS 工具使用，帮助用户绕过 Adobe 产品的授权验证流程。"
+        "description": "用于追踪 m0nkrus 发布的 Adobe 软件资源更新动态，帮助用户及时获取新版软件整合包的信息。它通常监控 m0nkrus 的发布渠道，在出现新版本时提供通知或汇总，适合经常安装或升级 Adobe 全家桶、需要第一时间掌握资源更新的用户。主要解决手动反复查看发布页效率低的问题，可能的实现方式包括网页抓取或 RSS 订阅，但具体取决于仓库实际代码。整体上属于 Adobe 软件资源更新跟踪工具。"
     },
     "summary": {
         "initial_stars": 191,

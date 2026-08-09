@@ -6,7 +6,7 @@
         "name": "node-qrcode",
         "html_url": "https:\/\/github.com\/soldair\/node-qrcode",
         "language": "JavaScript",
-        "description": "一个功能强大的Node.js库，用于生成QR码，支持命令行和编程接口，可将文本、链接等数据转换为图像格式的二维码，适用于Web服务、终端应用和移动端场景。"
+        "description": "用于在 Node.js 环境中生成二维码，支持将文本、网址等数据转换为 PNG、SVG 或数据 URL 格式的图像。可以自定义尺寸、颜色、纠错级别和边距，适合服务端动态生成二维码，例如分享链接、活动跳转、产品标签或身份验证等场景。它无需依赖外部服务，通过代码即可快速集成到各类应用里。"
     },
     "summary": {
         "initial_stars": 7850,

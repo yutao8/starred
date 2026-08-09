@@ -6,7 +6,7 @@
         "name": "kinby-release",
         "html_url": "https:\/\/github.com\/kinby-official\/kinby-release",
         "language": "Other",
-        "description": "该项目主要用于发布和管理 Kinby 框架的正式版本，提供稳定、可部署的构建产物与更新日志，便于开发者快速集成和升级。通常包含编译后的文件、版本说明及部署指引，适合需要高效迭代和发布的应用场景。"
+        "description": "kinby-release 是 kinby 产品的官方发布仓库，主要用于存放各版本的构建产物与更新说明。用户可以在 GitHub Release 页面下载安装包、校验文件或查看版本变更记录，无需接触源代码。该仓库通常适合最终用户或测试人员安装、升级 kinby 软件，也便于开发团队按版本发布和维护。因仓库本身以分发成品为主，故更强调易用性与可追溯性，适合需要稳定获取软件版本或管理迭代更新的场景。"
     },
     "summary": {
         "initial_stars": 155,

@@ -6,7 +6,7 @@
         "name": "dav",
         "html_url": "https:\/\/github.com\/sabre-io\/dav",
         "language": "PHP",
-        "description": "sabre-io\/dav 是一个用 PHP 编写的开源 WebDAV 和 CalDAV 服务器实现，主要用于构建可同步日历、联系人和文件的协作服务。它提供灵活的 API，可集成到现有系统中，支持标准协议兼容的客户端访问，适合开发自托管的云同步与协作平台。"
+        "description": "用于构建基于WebDAV协议的服务端库，支持文件访问、CalDAV日历同步和CardDAV联系人同步。通常适合需要让客户端（如操作系统文件管理器、日历应用、手机通讯录）直接读写服务器数据的场景，也可作为自建网盘或PIM同步服务的后端。基于PHP开发，可以集成到现有Web应用中，通过标准协议提供跨平台访问。"
     },
     "summary": {
         "initial_stars": 1626,

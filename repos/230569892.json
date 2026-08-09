@@ -6,7 +6,7 @@
         "name": "wxappUnpacker",
         "html_url": "https:\/\/github.com\/system-cpu\/wxappUnpacker",
         "language": "JavaScript",
-        "description": "用于解包微信小程序的工具，支持从已安装的小程序中提取和解密代码包，便于逆向分析和学习小程序实现原理，适用于安全研究和代码审计场景。"
+        "description": "针对微信小程序编译产物wxapkg文件的解包工具，能够解密并还原其中的JavaScript、JSON、WXML\/WXSS及静态资源，帮助开发者查看小程序原始项目结构。常用于分析第三方小程序实现、学习前端框架应用、恢复丢失的源代码，以及辅助安全人员检查潜在风险。工具对微信不同基础库版本和分包机制有一定兼容性，适合在本地环境中快速批量处理多个小程序包。使用时需注意遵守相关协议，仅用于合法研究和学习场景。"
     },
     "summary": {
         "initial_stars": 616,

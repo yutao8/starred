@@ -6,16 +6,16 @@
         "name": "Bulk-Crap-Uninstaller",
         "html_url": "https:\/\/github.com\/Klocman\/Bulk-Crap-Uninstaller",
         "language": "C#",
-        "description": "用于批量卸载Windows系统中无用应用程序的开源工具，支持扫描残留文件和注册表项，可高效清理软件卸载后的垃圾文件，适用于需要管理多个程序的用户，操作界面直观，提供便携版无需安装。"
+        "description": "批量卸载应用程序的开源工具，支持从数百个已安装程序中快速筛选并批量移除，尤其适合需要清理大量预装软件或残留程序的场景。除基础卸载外，还提供强制卸载、清理注册表条目、检测隐藏或损坏的安装项、导出安装列表等功能，并通过多线程扫描和智能过滤提升处理效率。界面采用列表与详情面板结合的方式，支持按名称、大小、安装日期等条件排序，也允许自定义卸载命令或调用第三方卸载器。主要面向装机维护人员、系统优化爱好者以及需要定期清理办公电脑的IT管理员，可显著减少逐项操作的时间成本。"
     },
     "summary": {
         "initial_stars": 16253,
-        "current_stars": 20588,
-        "star_diff": 4335,
-        "growth_rate": 26.67,
+        "current_stars": 20594,
+        "star_diff": 4341,
+        "growth_rate": 26.71,
         "first_seen": "2025-11-05 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 132
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 133
     },
     "history": [
         {
@@ -941,6 +941,13 @@
             "stars": 20588,
             "forks": 896,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 20594,
+            "forks": 896,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

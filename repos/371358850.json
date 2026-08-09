@@ -6,16 +6,16 @@
         "name": "dnSpy",
         "html_url": "https:\/\/github.com\/dnSpyEx\/dnSpy",
         "language": "C#",
-        "description": "dnSpyEx\/dnSpy 是一个基于 dnSpy 的持续维护分支，主要用于 .NET 程序的反编译、调试与修改。它支持无缝查看和编辑托管程序集，可直接反编译 C# 代码并进行调试，常用于分析和修复第三方程序或逆向工程。"
+        "description": "dnSpy 是一款面向 .NET 程序的调试器和程序集编辑器，能在不运行目标软件的情况下直接查看和修改程序集内部的 IL 代码、资源和元数据。它支持断点调试、单步执行、变量监视等常见调试操作，并可对已编译的 DLL 或 EXE 进行反编译、编辑后重新保存。典型场景包括分析恶意软件、修复或简化程序集、研究内部实现，以及通过修改 IL 或二进制内容解决兼容性问题，适合逆向工程师、安全研究人员和需要深入维护 .NET 应用的开发者使用。"
     },
     "summary": {
         "initial_stars": 8555,
-        "current_stars": 10852,
-        "star_diff": 2297,
-        "growth_rate": 26.85,
+        "current_stars": 10854,
+        "star_diff": 2299,
+        "growth_rate": 26.87,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 10852,
             "forks": 724,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 10854,
+            "forks": 725,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

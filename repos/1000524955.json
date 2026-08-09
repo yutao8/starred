@@ -6,16 +6,16 @@
         "name": "OpenList",
         "html_url": "https:\/\/github.com\/OpenListTeam\/OpenList",
         "language": "Go",
-        "description": "一个开源的列表协作工具，支持多人实时编辑和数据同步，可用于任务管理、资源整理等场景，提供简洁的用户界面和灵活的数据组织方式，便于团队高效协作与信息共享。"
+        "description": "OpenList 是一个开源清单管理工具，主要用于创建、组织和共享各类列表内容，适合个人待办事项、购物清单或团队协作场景下的信息整理。它简化了列表的增删改查和分类管理流程，帮助用户快速维护结构化的数据记录。由于项目提供了简洁的界面和灵活的数据组织方式，通常适用于需要轻量级列表解决方案的日常使用或小型团队协作。"
     },
     "summary": {
         "initial_stars": 9399,
-        "current_stars": 23958,
-        "star_diff": 14559,
-        "growth_rate": 154.9,
+        "current_stars": 23968,
+        "star_diff": 14569,
+        "growth_rate": 155.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 23958,
             "forks": 2175,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 23968,
+            "forks": 2175,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

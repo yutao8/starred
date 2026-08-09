@@ -6,7 +6,7 @@
         "name": "toppwdhash",
         "html_url": "https:\/\/github.com\/moyuwa\/toppwdhash",
         "language": "Python",
-        "description": "该项目主要用于生成和管理密码的哈希值，提供密码安全处理功能，适合需要本地化密码校验或哈希计算的场景，支持常用哈希算法，便于用户验证密码而无需存储明文。"
+        "description": "toppwdhash 用于在安全测试中批量生成和比对常见密码哈希，以验证弱口令或恢复明文密码。通常适合渗透测试、账号安全评估、应急响应等场景，帮助快速定位使用简单密码的账户。工具名称暗示其可能内置常见弱密码列表，并支持MD5、SHA系列等主流摘要算法，以命令行运行，便于自动化集成。具体功能以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 92,

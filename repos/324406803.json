@@ -6,7 +6,7 @@
         "name": "nexusphp",
         "html_url": "https:\/\/github.com\/xiaomlove\/nexusphp",
         "language": "PHP",
-        "description": "NexusPHP 是一个基于 PHP 的私有种子网站管理系统，主要用于构建和管理 BT 种子站点，支持用户系统、种子发布、做种统计、积分体系等功能，适合用于搭建私有或封闭社区的资源共享平台，具有较好的可扩展性和活跃的社区维护。"
+        "description": "用于搭建私人种子追踪器（PT）网站的PHP后端系统，基于NexusPHP架构开发。它集成用户管理、种子发布与分类、Tracker通信、上传下载统计、积分奖励、等级权限等核心功能，通常配合Nginx和MySQL运行。适合需要构建私有资源分享社区的团队或个人，尤其适用于影视、软件等资源分发场景，可快速部署一套完整、稳定的PT站点解决方案。"
     },
     "summary": {
         "initial_stars": 1096,

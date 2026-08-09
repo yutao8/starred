@@ -6,16 +6,16 @@
         "name": "termux-app",
         "html_url": "https:\/\/github.com\/termux\/termux-app",
         "language": "Java",
-        "description": "提供在安卓设备上运行Linux终端环境的应用，无需root即可使用bash、zsh等shell，支持包管理安装Python、Git、SSH等开发工具，主要用于移动设备上的编程学习、脚本运行及系统管理操作。"
+        "description": "Termux 提供 Android 上的终端模拟器和 Linux 环境，让手机设备无需 root 权限即可运行 Linux 命令行程序和工具。它主要用于在手机上执行常见 shell 命令、编写脚本、安装并管理软件包（如 Python、Git、SSH 客户端），适合开发者进行远程开发、学习 Linux 基础或利用手机完成轻量级任务。通过自带包管理器构建类 Linux 用户环境，解决手机端缺乏有用命令行工具的问题。通常被用作便携式开发工具或网络测试工具。"
     },
     "summary": {
         "initial_stars": 42668,
-        "current_stars": 58878,
-        "star_diff": 16210,
-        "growth_rate": 37.99,
+        "current_stars": 58886,
+        "star_diff": 16218,
+        "growth_rate": 38.01,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 58878,
             "forks": 7158,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 58886,
+            "forks": 7159,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "N_m3u8DL-RE",
         "html_url": "https:\/\/github.com\/nilaoda\/N_m3u8DL-RE",
         "language": "C#",
-        "description": "用于下载和解析m3u8视频流的工具，支持多线程下载、断点续传和自动合并视频片段，适用于从网络直播或点播服务中保存加密或非加密的m3u8格式视频内容。"
+        "description": "命令行视频流下载工具，专门用于解析和下载基于 m3u8 或 HLS 协议的流媒体资源，适合从直播回放、在线课程、点播网站等场景中保存视频文件。支持多线程分段下载、自动合并、TS 与 MP4 格式转换，并内置 AES-128 解密逻辑，可处理大多数常见的加密流。无需打开浏览器，直接粘贴播放地址即可批量抓取，也提供图形界面选项减少操作门槛。主要面向需要离线观看或备份视频内容的个人用户，在日常下载 m3u8 链接时简洁高效，是同类工具中更新活跃、兼容性较好的选择。"
     },
     "summary": {
         "initial_stars": 6023,
-        "current_stars": 8523,
-        "star_diff": 2500,
-        "growth_rate": 41.51,
+        "current_stars": 8527,
+        "star_diff": 2504,
+        "growth_rate": 41.57,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 194
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 195
     },
     "history": [
         {
@@ -1375,6 +1375,13 @@
             "stars": 8523,
             "forks": 859,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 8527,
+            "forks": 859,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

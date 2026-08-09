@@ -6,7 +6,7 @@
         "name": "electron-browser-shell",
         "html_url": "https:\/\/github.com\/samuelmaddock\/electron-browser-shell",
         "language": "TypeScript",
-        "description": "基于 Electron 构建的桌面端浏览器外壳，主要用于快速搭建跨平台桌面应用，支持将网页内容封装为独立客户端，适合开发需要浏览器环境的桌面工具或自定义浏览器界面，提供基础导航、窗口控制和本地资源调用能力。"
+        "description": "基于 Electron 构建的浏览器外壳，用于快速搭建具备多标签页、地址栏和基本导航功能的桌面浏览器界面。它通过复用 Chromium 和 Node.js 能力，让开发者用 HTML\/CSS\/JavaScript 即可定制浏览体验，适合作为创建自定义浏览器、嵌入式 Web 容器或学习 Electron 主进程与渲染进程协作的起点。项目保持精简，方便在此基础上扩展功能，常见于原型验证或作为更复杂产品的底层框架。"
     },
     "summary": {
         "initial_stars": 580,

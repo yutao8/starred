@@ -6,16 +6,16 @@
         "name": "register",
         "html_url": "https:\/\/github.com\/is-a-dev\/register",
         "language": "JavaScript",
-        "description": "是一个用于注册开发者身份的项目，用户可通过填写表单提交个人信息以成为认证开发者，支持身份验证与资料管理，便于参与开源协作或接入开发者平台服务。"
+        "description": "为开发者提供免费的子域名注册服务，通过 it's-a.dev 项目，任何人可申请一个以 .is-a.dev 结尾的专属子域名，用于个人网站、项目演示、技术博客等场景，无需购买域名即可获得简洁且专业的线上标识。该仓库采用 GitHub 协作流程，申请人通过提交 JSON 格式的配置请求，经自动化检查后合并生效，适合希望避免域名成本、快速搭建个人品牌或测试环境的开发者使用。整个流程依托 GitHub Actions 实现自动化管理，确保域名解析稳定且分配公平。"
     },
     "summary": {
         "initial_stars": 6734,
-        "current_stars": 10932,
-        "star_diff": 4198,
-        "growth_rate": 62.34,
+        "current_stars": 10933,
+        "star_diff": 4199,
+        "growth_rate": 62.36,
         "first_seen": "2025-08-01 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 179
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 180
     },
     "history": [
         {
@@ -1270,6 +1270,13 @@
             "stars": 10932,
             "forks": 26435,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 10933,
+            "forks": 26443,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

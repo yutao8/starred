@@ -6,7 +6,7 @@
         "name": "termscp",
         "html_url": "https:\/\/github.com\/veeso\/termscp",
         "language": "Rust",
-        "description": "一个用 Rust 编写的轻量级命令行文件传输工具，主要用于在本地与远程服务器之间快速安全地复制文件，支持 SCP 协议，提供简洁的交互界面和密码缓存功能，适合需要频繁传输文件的开发者或系统管理员使用。"
+        "description": "termsCP是一个终端下的文件传输工具，采用TUI界面，支持SCP、SFTP、FTP、FTPS及S3等主流协议，让用户无需记忆繁琐命令即可在本地与远程服务器间浏览、上传和下载文件。它适合日常服务器运维、文件同步等场景，提供类似图形客户端的分屏操作体验，同时保持轻量和高效，常被用作传统ftp\/scp命令的现代化替代。"
     },
     "summary": {
         "initial_stars": 2379,

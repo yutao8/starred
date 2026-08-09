@@ -6,16 +6,16 @@
         "name": "linux-command",
         "html_url": "https:\/\/github.com\/jaywcjlove\/linux-command",
         "language": "Markdown",
-        "description": "Linux 命令行工具手册，涵盖常用命令的详细用法与实例，帮助开发者高效掌握 Linux 系统操作，适用于日常运维、系统管理及开发环境调试，内容持续更新，便于快速查阅与学习。"
+        "description": "该仓库整理并提供了大量 Linux 常用命令的中文说明，涵盖文件管理、系统操作、网络、磁盘等类别。每条命令都配有语法、参数含义和典型实例，便于快速查阅和学习。主要用于解决 Linux 命令记忆难、参数易混淆的问题，适合运维人员、开发者和 Linux 初学者作为日常速查手册，也适合在学习或工作时快速找到所需命令的准确用法。"
     },
     "summary": {
         "initial_stars": 34344,
-        "current_stars": 36546,
-        "star_diff": 2202,
-        "growth_rate": 6.41,
+        "current_stars": 36548,
+        "star_diff": 2204,
+        "growth_rate": 6.42,
         "first_seen": "2025-09-12 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 158
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 159
     },
     "history": [
         {
@@ -1123,6 +1123,13 @@
             "stars": 36546,
             "forks": 6598,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 36548,
+            "forks": 6598,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

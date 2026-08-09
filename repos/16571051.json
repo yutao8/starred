@@ -6,7 +6,7 @@
         "name": "php-encryption",
         "html_url": "https:\/\/github.com\/defuse\/php-encryption",
         "language": "PHP",
-        "description": "一个安全的PHP加密库，主要用于简化对称加密操作，提供易于使用的API来加密和解密数据，防止常见密码学错误。它默认使用强加密算法（如AES-256-CTR）并自动处理初始化向量（IV）和消息认证，适用于保护敏感信息如用户数据、配置文件或会话内容，是PHP开发者实现安全数据存储的推荐选择。"
+        "description": "defuse\/php-encryption 为 PHP 应用提供安全易用的对称加密库，封装了经过验证的加密与认证流程，防止密钥管理不当或算法误用。它主要用于加密数据库字段、配置文件或文件等敏感数据，支持随机密钥和密文认证，确保数据的机密性与完整性。典型场景包括用户数据脱敏、备份加密及传输前加密，适合需要快速集成可靠加密能力的 PHP 开发者。"
     },
     "summary": {
         "initial_stars": 3855,

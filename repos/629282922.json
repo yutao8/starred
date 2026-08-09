@@ -6,16 +6,16 @@
         "name": "pilipala",
         "html_url": "https:\/\/github.com\/guozhigq\/pilipala",
         "language": "Dart",
-        "description": "一个轻量级的爬虫框架，主要用于网页数据抓取与解析，支持自定义请求、解析规则和数据存储，适用于快速开发中小型爬虫项目，具有良好的扩展性和易用性。"
+        "description": "为哔哩哔哩打造的三方客户端，基于 Flutter 开发，主要解决官方应用体积大、页面复杂和广告干扰的问题。它提供更纯净的观看体验，支持账号登录、视频播放、评论查看、动态刷新和收藏管理，也能调整主题风格。通常适合日常刷视频、追番看剧，以及偏爱轻量化和可定制界面的用户。由于是独立应用，使用时需自行关注账号安全。"
     },
     "summary": {
         "initial_stars": 12654,
-        "current_stars": 13859,
-        "star_diff": 1205,
-        "growth_rate": 9.52,
+        "current_stars": 13857,
+        "star_diff": 1203,
+        "growth_rate": 9.51,
         "first_seen": "2025-10-20 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 138
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 139
     },
     "history": [
         {
@@ -983,6 +983,13 @@
             "stars": 13859,
             "forks": 1060,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 13857,
+            "forks": 1060,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

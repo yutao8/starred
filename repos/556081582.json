@@ -6,7 +6,7 @@
         "name": "teledown",
         "html_url": "https:\/\/github.com\/holll\/teledown",
         "language": "Python",
-        "description": "用于下载 Telegram 中的文件，支持断点续传和多线程下载，可从消息中提取媒体文件链接并高效保存到本地，适合批量处理和自动化下载场景。"
+        "description": "用于从 Telegram 下载媒体与文件的实用工具，通常提供命令行界面，能通过 Telegram API 从指定频道、群组或会话中批量下载视频、图片、文档等资料，便于本地备份、离线查看或后续整理。典型使用场景包括备份聊天记录、迁移 Telegram 内容、集中管理接收到的文件。项目设计简洁，配置灵活，适合有一定技术背景的用户。具体用法和限制可参考仓库中的说明文档。"
     },
     "summary": {
         "initial_stars": 118,

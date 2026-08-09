@@ -6,16 +6,16 @@
         "name": "winfsp",
         "html_url": "https:\/\/github.com\/winfsp\/winfsp",
         "language": "C",
-        "description": "WinFsp 是一个用于 Windows 的开源 FUSE（用户空间文件系统）实现，允许开发者在用户空间创建功能完整的文件系统，而无需编写内核驱动。它提供类 POSIX 的文件系统接口，支持 NTFS、ReFS 等卷，并可用于开发加密文件系统、网络文件系统、虚拟文件系统等应用，常与 SSHFS、dokan 类项目配合使用，便于跨平台文件系统移植到 Windows 平台。"
+        "description": "Winfsp 是 Windows 平台上的文件系统代理框架，用于在用户模式下实现自定义虚拟文件系统，而无需编写内核驱动程序。它允许开发者像 Unix 下的 FUSE 一样，将任意数据源（如远程存储、压缩包、数据库）挂载为 Windows 本地目录，供普通程序直接读写。通常适合开发文件浏览工具、加密盘、网络盘映射、存档文件预览等场景，解决了在 Windows 上快速、安全地构建文件系统功能的问题。"
     },
     "summary": {
         "initial_stars": 7618,
-        "current_stars": 8790,
-        "star_diff": 1172,
-        "growth_rate": 15.38,
+        "current_stars": 8791,
+        "star_diff": 1173,
+        "growth_rate": 15.4,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 193
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 194
     },
     "history": [
         {
@@ -1368,6 +1368,13 @@
             "stars": 8790,
             "forks": 615,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 8791,
+            "forks": 615,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "foundation-sunshine",
         "html_url": "https:\/\/github.com\/qiin2333\/Sunshine-Foundation",
         "language": "C++",
-        "description": "一个基于Sunshine的开源流媒体服务器基础项目，主要用于搭建低延迟的远程游戏串流和桌面共享服务，支持自定义配置和二次开发，适合家庭局域网或远程办公环境中的音视频传输需求。"
+        "description": "用于搭建自托管的游戏串流服务端，基于Sunshine开源项目，提供主机游戏画面的低延迟编码与网络转发能力，通常搭配Moonlight等客户端使用。适合将Windows或Linux主机上的游戏实时推送到手机、平板或电视等设备，实现局域网或公网环境下的远程游玩，替代NVIDIA GameStream的封闭方案。项目面向追求开源可控与灵活部署的用户，解决跨设备游戏兼容性和访问限制问题。作为foundation版本，它更侧重核心逻辑与模块化设计，方便开发者在基础之上进行二次开发或集成到自有系统中。"
     },
     "summary": {
         "initial_stars": 2385,
-        "current_stars": 6397,
-        "star_diff": 4012,
-        "growth_rate": 168.22,
+        "current_stars": 6399,
+        "star_diff": 4014,
+        "growth_rate": 168.3,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 195
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 196
     },
     "history": [
         {
@@ -1382,6 +1382,13 @@
             "stars": 6397,
             "forks": 165,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 6399,
+            "forks": 165,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

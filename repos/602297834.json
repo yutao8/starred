@@ -6,16 +6,16 @@
         "name": "AutoX",
         "html_url": "https:\/\/github.com\/aiselp\/AutoX",
         "language": "JavaScript",
-        "description": "AutoX 是一个自动化机器学习工具，主要用于自动化特征工程、模型选择与超参数调优，支持分类和回归任务，帮助用户高效构建高性能机器学习模型，适用于数据科学竞赛和实际业务场景中的端到端建模需求。"
+        "description": "AutoX 提供自动化的机器学习能力，专注于表格数据场景，覆盖数据预处理、特征工程、模型选择、超参数优化和集成学习等环节。它通常适合快速搭建基线模型或自动化建模流程，降低手动调参和编码成本。用户通过简单配置就能使用多种模型和策略，适合数据科学家、分析师或业务团队在研究和生产环境中使用。"
     },
     "summary": {
         "initial_stars": 822,
-        "current_stars": 1799,
-        "star_diff": 977,
-        "growth_rate": 118.86,
+        "current_stars": 1800,
+        "star_diff": 978,
+        "growth_rate": 118.98,
         "first_seen": "2025-07-28 06:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 178
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 179
     },
     "history": [
         {
@@ -1263,6 +1263,13 @@
             "stars": 1799,
             "forks": 640,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 1800,
+            "forks": 640,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

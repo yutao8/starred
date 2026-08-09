@@ -6,16 +6,16 @@
         "name": "new-api",
         "html_url": "https:\/\/github.com\/QuantumNous\/new-api",
         "language": "JavaScript",
-        "description": "该项目主要用于构建新一代API服务，聚焦于提升系统间通信效率与数据处理能力，通常适用于需要高并发、低延迟场景的分布式系统集成，帮助开发者简化后端服务对接与业务逻辑封装。"
+        "description": "用于搭建统一的大模型 API 网关，集中管理 OpenAI、Anthropic、Gemini 等多家服务商的接口密钥与渠道，支持令牌分发、额度控制、用量统计和计费功能。适合需要为团队或用户提供多模型中转服务，或对现有 API 调用做统一鉴权、限流与审计的场景。通常作为 one-api 的增强替代方案，可对接常见模型供应商，并兼容多数 OpenAI 格式的客户端，便于平滑迁移和二次开发。"
     },
     "summary": {
         "initial_stars": 8725,
-        "current_stars": 44688,
-        "star_diff": 35963,
-        "growth_rate": 412.18,
+        "current_stars": 44698,
+        "star_diff": 35973,
+        "growth_rate": 412.3,
         "first_seen": "2025-07-20 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 185
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 186
     },
     "history": [
         {
@@ -1312,6 +1312,13 @@
             "stars": 44688,
             "forks": 10547,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 44698,
+            "forks": 10549,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

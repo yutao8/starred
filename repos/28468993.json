@@ -6,16 +6,16 @@
         "name": "curlconverter",
         "html_url": "https:\/\/github.com\/curlconverter\/curlconverter",
         "language": "TypeScript",
-        "description": "将 curl 命令转换为其他编程语言的 HTTP 请求代码，支持 Python、JavaScript、Go、Ruby 等多种语言，方便在不同开发环境中快速生成可用的请求示例，简化 API 调试和集成过程。"
+        "description": "将 curl 命令转换为多种编程语言（如 Python、JavaScript、Go、Ruby 等）的命令行工具，可直接解析浏览器或文档中复制的 curl 请求，生成对应语言的 HTTP 客户端代码，常用于脚本复用、接口调试和快速原型开发，适合需要在不同技术栈中重现同样请求的场景。"
     },
     "summary": {
         "initial_stars": 7845,
-        "current_stars": 8162,
-        "star_diff": 317,
-        "growth_rate": 4.04,
+        "current_stars": 8163,
+        "star_diff": 318,
+        "growth_rate": 4.05,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 8162,
             "forks": 1020,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 8163,
+            "forks": 1020,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

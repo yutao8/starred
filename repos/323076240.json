@@ -6,7 +6,7 @@
         "name": "next-terminal",
         "html_url": "https:\/\/github.com\/dushixiang\/next-terminal",
         "language": "TypeScript",
-        "description": "Next Terminal 是一个基于 Web 的开源远程桌面网关，支持通过浏览器安全访问 Windows 和 Linux 桌面环境，主要用于远程办公、运维管理和云桌面场景，具有跨平台、免客户端安装、支持多种认证方式和高安全性等特点。"
+        "description": "Next Terminal 是一款基于 Web 的远程终端管理和运维审计工具，主要用于替代本地 SSH、RDP 等客户端，在浏览器中集中管理多台远程主机。它支持 SSH、RDP、VNC、Telnet 等多种协议，用户可直接建立会话进行操作，适合小团队或企业统一管理资产、凭据与访问权限。同时提供会话录像和审计功能，便于追踪操作行为，满足合规需求。项目采用前后端分离架构，后端使用 Go，前端使用 React，部署简单，适合快速搭建轻量级堡垒机。"
     },
     "summary": {
         "initial_stars": 5067,

@@ -6,16 +6,16 @@
         "name": "portainer-ce",
         "html_url": "https:\/\/github.com\/eysp\/portainer-ce",
         "language": "JavaScript",
-        "description": "用于管理和部署 Portainer CE（社区版）的容器化方案，简化 Docker 和 Kubernetes 环境下的可视化管理，适用于本地或远程容器平台的监控、容器操作及服务编排，方便用户通过 Web 界面高效管理容器应用。"
+        "description": "Portainer CE 是开源轻量级的容器管理工具，通过 Web 界面帮助用户统一操作 Docker、Kubernetes 和 Swarm 环境。它覆盖镜像、容器、网络与卷的日常管理，支持远程多节点接入、访问控制和团队协作，显著降低命令行操作复杂度，适合缺乏专职运维的小型服务器、边缘计算或混合集群场景，用于解决多容器环境难以直观监控和快速配置的问题。"
     },
     "summary": {
         "initial_stars": 774,
-        "current_stars": 939,
-        "star_diff": 165,
-        "growth_rate": 21.32,
+        "current_stars": 938,
+        "star_diff": 164,
+        "growth_rate": 21.19,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-03 00:00",
-        "data_points_count": 117
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 118
     },
     "history": [
         {
@@ -836,6 +836,13 @@
             "stars": 939,
             "forks": 114,
             "file": "dist\/2026080300\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 938,
+            "forks": 114,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

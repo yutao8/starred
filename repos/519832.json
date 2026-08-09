@@ -6,16 +6,16 @@
         "name": "mitmproxy",
         "html_url": "https:\/\/github.com\/mitmproxy\/mitmproxy",
         "language": "Python",
-        "description": "用于拦截、修改和重放网络流量的开源交互式工具，支持 HTTP\/HTTPS 协议，可作为代理服务器或 Web 调试代理，帮助开发者调试网络应用、分析请求响应、修改数据或自动化测试，内置图形界面与命令行工具，适合安全测试与网络协议研究。"
+        "description": "用于拦截、检查和修改 HTTP\/HTTPS 流量的交互式中间人代理工具，广泛服务于接口调试、移动应用抓包、安全测试和网络协议分析等场景。它允许实时查看请求与响应内容，并支持通过 Python 脚本对流量进行自动化改写、重放或注入，适合需要深度分析或篡改客户端与服务端通信的场合。提供命令行界面和基于浏览器的可视化界面，便于不同操作习惯的用户使用，是开发者和安全研究人员排查加密流量问题的常用选择。"
     },
     "summary": {
         "initial_stars": 40700,
-        "current_stars": 44614,
-        "star_diff": 3914,
+        "current_stars": 44615,
+        "star_diff": 3915,
         "growth_rate": 9.62,
         "first_seen": "2025-10-01 18:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 149
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 150
     },
     "history": [
         {
@@ -1060,6 +1060,13 @@
             "stars": 44614,
             "forks": 4671,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 44615,
+            "forks": 4671,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

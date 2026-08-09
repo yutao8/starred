@@ -6,16 +6,16 @@
         "name": "docker-wechat",
         "html_url": "https:\/\/github.com\/huan\/docker-wechat",
         "language": "Shell",
-        "description": "基于 Docker 的微信客户端解决方案，主要用于在 Linux 系统中以容器化方式运行微信应用，解决原生 Linux 客户端缺失的问题，便于快速部署和环境隔离。"
+        "description": "通过 Docker 容器运行微信桌面版，解决 Linux 系统下无法直接安装官方客户端的问题。提供隔离的微信运行环境，支持通过浏览器或 VNC 远程访问，适合在服务器或云主机上常驻微信，便于自动化管理和多账号隔离。通常使用 Wine 技术模拟 Windows 环境，并内置中文输入支持，适合个人或团队在无桌面环境时保持微信在线。"
     },
     "summary": {
         "initial_stars": 2324,
-        "current_stars": 2330,
-        "star_diff": 6,
-        "growth_rate": 0.26,
+        "current_stars": 2331,
+        "star_diff": 7,
+        "growth_rate": 0.3,
         "first_seen": "2025-10-22 00:00",
-        "last_seen": "2026-08-07 00:00",
-        "data_points_count": 64
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 65
     },
     "history": [
         {
@@ -465,6 +465,13 @@
             "stars": 2330,
             "forks": 191,
             "file": "dist\/2026080700\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 2331,
+            "forks": 191,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

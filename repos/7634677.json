@@ -6,16 +6,16 @@
         "name": "openssl",
         "html_url": "https:\/\/github.com\/openssl\/openssl",
         "language": "C",
-        "description": "OpenSSL 是一个强大的开源密码学工具库，主要用于实现 SSL 和 TLS 协议，提供安全通信。它包含丰富的加密算法、证书管理工具和网络通信接口，广泛应用于服务器、客户端和各类安全软件中，支持 HTTPS、SMTPS、FTPS 等安全传输场景，是互联网基础设施的重要组成部分。"
+        "description": "OpenSSL 是广泛使用的开源密码学库和命令行工具集，用于实现 SSL\/TLS 安全通信。它提供对称加密、非对称加密、哈希、签名、证书解析与生成等核心能力，常被服务器软件、客户端程序及网络服务用于建立 HTTPS 安全连接、验证数字证书、保护数据传输。其命令行工具可帮助管理员快速创建密钥、生成 CSR、自签证书或检查远程站点证书状态，适合部署和维护需要加密通信的基础设施。"
     },
     "summary": {
         "initial_stars": 28966,
-        "current_stars": 30595,
-        "star_diff": 1629,
+        "current_stars": 30594,
+        "star_diff": 1628,
         "growth_rate": 5.62,
         "first_seen": "2025-11-09 00:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 130
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 131
     },
     "history": [
         {
@@ -927,6 +927,13 @@
             "stars": 30595,
             "forks": 11394,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 30594,
+            "forks": 11394,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

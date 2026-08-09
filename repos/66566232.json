@@ -6,7 +6,7 @@
         "name": "windows_exporter",
         "html_url": "https:\/\/github.com\/prometheus-community\/windows_exporter",
         "language": "Go",
-        "description": "用于Windows系统的监控指标收集工具，通过Prometheus采集器暴露系统性能数据，支持CPU、内存、磁盘、网络等硬件和操作系统指标，适用于企业级监控场景。"
+        "description": "用于在 Prometheus 监控体系中收集 Windows 主机的各类性能和状态指标，包括 CPU、内存、磁盘、网络、进程、服务等常见资源的使用情况，并将这些指标转换为 Prometheus 标准的 metrics 格式以供抓取。它通常部署在 Windows 服务器或工作站上，适合需要统一监控混合环境中 Windows 节点、进行告警和趋势分析的场景，能够解决传统 Windows 性能数据难以被开源监控系统直接采集的问题。该导出器由社区维护，配置灵活，支持通过命令行参数和配置文件启用或调整特定采集器，可满足从轻量监控到详细诊断的多种需求。"
     },
     "summary": {
         "initial_stars": 3317,

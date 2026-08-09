@@ -6,7 +6,7 @@
         "name": "ticket-purchase",
         "html_url": "https:\/\/github.com\/WECENG\/ticket-purchase",
         "language": "Python",
-        "description": "一个基于Spring Boot和Vue的前后端分离火车票购票系统，实现用户注册登录、车次查询、余票统计、在线购票、订单管理等功能，支持分布式会话与缓存优化，适用于高并发场景下的票务处理，前端采用Vue + Element UI构建，后端集成Redis、RabbitMQ提升系统性能。"
+        "description": "用于构建在线票务购买系统，通常涵盖用户注册登录、场次查询、在线购票、订单管理和支付对接等核心功能。适合电影院、剧院、体育赛事或交通出行等需要售票的场景，主要帮助运营方处理余票实时更新、订单状态跟踪和交易流程简化等问题。项目一般包含前后端代码，可作为搭建完整购票平台的起点或参考实现。"
     },
     "summary": {
         "initial_stars": 4005,

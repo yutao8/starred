@@ -6,7 +6,7 @@
         "name": "api-check",
         "html_url": "https:\/\/github.com\/october-coder\/api-check",
         "language": "Vue",
-        "description": "用于验证和测试 API 接口的开源工具，支持自动化检查、响应验证及错误追踪，适用于开发和测试人员快速诊断接口问题，确保 API 稳定性和正确性。"
+        "description": "用于检查API接口的工具，通常适合开发与测试场景，可对接口的可用性、响应状态或返回数据进行自动化验证，帮助团队快速定位接口异常。其设计简洁，便于集成到现有开发或持续集成流程中，适合需要定期维护接口质量的开发者或测试人员使用。若仓库涉及具体协议或框架，则进一步针对相应技术栈优化，但核心目标仍是简化接口验证流程并提升反馈效率。"
     },
     "summary": {
         "initial_stars": 803,
@@ -14,8 +14,8 @@
         "star_diff": 134,
         "growth_rate": 16.69,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 124
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 125
     },
     "history": [
         {
@@ -885,6 +885,13 @@
             "stars": 937,
             "forks": 163,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 937,
+            "forks": 162,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

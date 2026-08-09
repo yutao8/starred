@@ -6,7 +6,7 @@
         "name": "pwcrack-framework",
         "html_url": "https:\/\/github.com\/L-codes\/pwcrack-framework",
         "language": "Ruby",
-        "description": "一个基于Python的密码破解框架，主要用于整合多种密码恢复工具和技术，支持多种哈希类型和加密算法的破解，适用于渗透测试和安全评估场景，提供模块化设计便于扩展自定义破解模块。"
+        "description": "用于自动化密码口令安全检测的框架，主要针对网络服务、应用系统及常见哈希类型进行弱口令扫描和密码爆破。支持包括 FTP、SSH、MySQL、Redis、HTTP 等在内的常用协议，并可通过插件机制扩展新服务。内置字典生成与规则调整能力，能够模拟暴力破解、字典攻击等场景，适合在授权渗透测试、安全审计或日常账号密码防护评估中使用。它采用 Ruby 编写，命令行操作简单，可灵活配置并发和重试参数，帮助安全人员快速发现弱口令风险。"
     },
     "summary": {
         "initial_stars": 520,

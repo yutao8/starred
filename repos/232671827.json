@@ -6,7 +6,7 @@
         "name": "qbittorrent-nox-static",
         "html_url": "https:\/\/github.com\/userdocs\/qbittorrent-nox-static",
         "language": "Shell",
-        "description": "用于部署和管理 qBittorrent 无头静态版本的文档集合，主要面向服务器或 NAS 等无图形界面环境，指导用户通过 qbittorrent-nox 组件实现远程控制与种子任务管理，适用于需要低资源占用、高效种存的场景。"
+        "description": "提供 qBittorrent-nox 的静态编译版本，将无头模式的 qBittorrent 及其依赖打包成单一可执行文件，用户下载后即可在任何主流 Linux 发行版上直接运行，无需配置运行时库。适用于服务器、NAS 或 VPS 等没有图形界面的环境，通过浏览器访问 Web UI 管理种子任务，实现远程下载和做种。该仓库通常提供构建脚本和自动构建产物，方便用户自行编译或获取最新版本，解决了手动安装依赖和跨发行版兼容性问题。"
     },
     "summary": {
         "initial_stars": 1382,

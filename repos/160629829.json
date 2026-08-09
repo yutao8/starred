@@ -6,7 +6,7 @@
         "name": "frida-all-in-one",
         "html_url": "https:\/\/github.com\/hookmaster\/frida-all-in-one",
         "language": "HTML",
-        "description": "一个集成 Frida 工具链的多功能逆向工程框架，主要用于安卓应用动态分析与调试，支持内存修改、函数钩取、SSL 解除等常见安全测试操作，方便研究人员快速实施应用行为监控与防护 bypass。"
+        "description": "该仓库围绕 Frida 动态插桩技术，整合了从环境搭建到实战使用的各类资源与示例，形成一套面向移动应用逆向分析的一站式工具集。其典型场景包括 Android 和 iOS 应用的安全测试、协议逆向、内存数据修改以及绕过证书校验等操作，适合安全研究者和渗透测试人员查阅参考。由于仓库名称强调 all-in-one，内容通常涵盖常见脚本、常用命令以及多平台使用技巧，能帮助使用者减少搜索成本，快速定位所需方案。整个项目定位简明，适合作为 Frida 入门与进阶的实用手册。"
     },
     "summary": {
         "initial_stars": 3065,

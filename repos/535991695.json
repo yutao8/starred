@@ -6,7 +6,7 @@
         "name": "decode-js",
         "html_url": "https:\/\/github.com\/echo094\/decode-js",
         "language": "JavaScript",
-        "description": "一个JavaScript代码解混淆工具，主要用于还原被压缩或混淆的JS代码，提升代码可读性，便于调试与分析，适合前端开发及安全研究使用。"
+        "description": "decode-js 是一款面向 JavaScript 代码的分析处理工具，主要用于还原经过压缩或混淆处理的脚本，帮助开发者阅读和理解难以直接解析的代码逻辑。它适合前端安全研究、恶意脚本分析以及调试被压缩的第三方库等场景，能够将变量名重命名、控制流扁平化等常见混淆手段进行逆向复原，输出更接近原始结构且可读性更高的代码。对于需要快速梳理混淆代码功能、定位关键逻辑的用户，decode-js 提供了一个较为直接的解决途径。"
     },
     "summary": {
         "initial_stars": 881,

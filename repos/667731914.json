@@ -6,16 +6,16 @@
         "name": "kiss-translator",
         "html_url": "https:\/\/github.com\/fishjar\/kiss-translator",
         "language": "JavaScript",
-        "description": "一个轻量级翻译工具，主要用于简化文本翻译流程，支持快速中英互译，适用于日常学习和工作中的碎片化翻译需求，通过简洁的界面提供便捷的剪贴板翻译或手动输入翻译功能。"
+        "description": "kiss-translator 是一款主打简洁高效的翻译工具，主要用于快速划词、剪贴板或快捷键翻译，帮助用户在阅读外文资讯、文档或开发资料时即时获取释义。它通常采用轻量常驻的设计，减少应用切换，并聚合主流在线翻译引擎，允许按需选择翻译结果。项目名中的 kiss 强调极简理念，因此界面和交互尽量简化，更适合拒绝臃肿、希望用最小步骤完成翻译的用户。总体而言，它面向日常外语阅读、工作学习等需要频繁查译的场景，提供清爽和低干扰的开源解决方案。"
     },
     "summary": {
         "initial_stars": 6111,
-        "current_stars": 11882,
-        "star_diff": 5771,
-        "growth_rate": 94.44,
+        "current_stars": 11894,
+        "star_diff": 5783,
+        "growth_rate": 94.63,
         "first_seen": "2025-08-11 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 174
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 175
     },
     "history": [
         {
@@ -1235,6 +1235,13 @@
             "stars": 11882,
             "forks": 553,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 11894,
+            "forks": 557,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

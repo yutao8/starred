@@ -6,16 +6,16 @@
         "name": "EasyTier",
         "html_url": "https:\/\/github.com\/EasyTier\/EasyTier",
         "language": "Rust",
-        "description": "EasyTier是一个基于WireGuard的网络拓扑管理工具，主要用于构建和维护去中心化的虚拟私有网络。它能自动发现节点、优化路由路径，并支持多平台部署，适合需要安全、高效内网互通的场景。"
+        "description": "EasyTier用于构建去中心化虚拟专用网，主要解决跨地域设备间的安全互访问题。它支持点对点直连与内网穿透，即使设备位于不同NAT之后也能建立加密隧道，实现类似本地局域网的体验。典型使用场景包括远程办公、异地组网、物联网设备集中管理以及游戏联机。因为采用去中心化架构，不依赖中心服务器，部署和运维成本低，适合个人用户或中小企业快速搭建私有网络。基于Rust实现，具备良好的性能和跨平台支持。"
     },
     "summary": {
         "initial_stars": 6176,
-        "current_stars": 13032,
-        "star_diff": 6856,
-        "growth_rate": 111.01,
+        "current_stars": 13033,
+        "star_diff": 6857,
+        "growth_rate": 111.03,
         "first_seen": "2025-08-09 06:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 175
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 176
     },
     "history": [
         {
@@ -1242,6 +1242,13 @@
             "stars": 13032,
             "forks": 1308,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 13033,
+            "forks": 1308,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

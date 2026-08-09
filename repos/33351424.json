@@ -6,7 +6,7 @@
         "name": "wallpaper",
         "html_url": "https:\/\/github.com\/sindresorhus\/wallpaper",
         "language": "JavaScript",
-        "description": "用于跨平台更换桌面壁纸的命令行工具和 Node.js 模块，支持 Windows、macOS 和 Linux 系统，可通过简单 API 设置本地或网络图片为壁纸，适合自动化脚本和个性化工具集成。"
+        "description": "一款跨平台命令行工具，用于在 macOS、Windows 和 Linux 上获取或设置桌面壁纸。它支持从图片文件或 URL 直接设置壁纸，能轻松切换指定显示器上的壁纸，同时兼容常见的图片格式。该工具适合需要自动化管理桌面背景的场景，例如编写脚本定时轮换壁纸、配合系统快捷键快速更换图片，或在多显示器环境中独立控制每个屏幕的背景。通过简洁的命令行接口即可完成操作，无需手动打开系统设置，对开发者与追求效率的用户都非常友好。"
     },
     "summary": {
         "initial_stars": 1078,

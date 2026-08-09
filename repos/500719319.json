@@ -6,16 +6,16 @@
         "name": "ClashMetaForAndroid",
         "html_url": "https:\/\/github.com\/MetaCubeX\/ClashMetaForAndroid",
         "language": "Kotlin",
-        "description": "ClashMetaForAndroid 是一个基于 Clash Meta 内核的安卓平台网络代理客户端，主要用于科学上网与网络流量管理。它支持多种协议，提供分流规则、节点订阅、DNS 代理及增强的流量控制功能，适合需要精细化网络调度的用户在 Android 设备上使用。"
+        "description": "为 Android 设备打造的 Clash Meta 图形客户端，依托 Clash Meta 内核，能在本地开启代理服务并转发流量，支持从订阅链接或配置文件导入节点，内置规则引擎可按域名或 IP 分流，界面可查看实时连接状态和流量。适用于需要科学上网、按规则切换节点或调试网络请求的场景，帮助用户避开繁琐的命令行操作，在手机上直接管理代理策略。"
     },
     "summary": {
         "initial_stars": 24241,
-        "current_stars": 44254,
-        "star_diff": 20013,
-        "growth_rate": 82.56,
+        "current_stars": 44271,
+        "star_diff": 20030,
+        "growth_rate": 82.63,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 44254,
             "forks": 2787,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 44271,
+            "forks": 2787,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

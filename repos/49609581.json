@@ -6,16 +6,16 @@
         "name": "PowerShell",
         "html_url": "https:\/\/github.com\/PowerShell\/PowerShell",
         "language": "C#",
-        "description": "PowerShell 是一种跨平台的任务自动化解决方案，由命令行、脚本语言和配置管理框架组成，主要用于系统管理和配置自动化，支持 Windows、Linux 和 macOS 环境下的自动化任务执行与远程管理操作。"
+        "description": "PowerShell 是微软开发并开源的跨平台命令行 Shell 和脚本语言，基于 .NET 技术构建。它主要用于系统管理与自动化运维，支持在 Windows、Linux 和 macOS 上执行命令、编写脚本以及调用丰富的系统接口。典型场景包括批量处理文件、管理服务与进程、配置网络环境、操作注册表或 Active Directory，并可与云平台及 REST API 无缝集成。它适合替代传统 CMD 完成更复杂的自动化任务，也常被 DevOps 工程师用于配置管理、CI\/CD 流水线及远程服务器维护，解决重复性操作效率低下和脚本兼容性差的问题。"
     },
     "summary": {
         "initial_stars": 49756,
-        "current_stars": 54762,
-        "star_diff": 5006,
+        "current_stars": 54763,
+        "star_diff": 5007,
         "growth_rate": 10.06,
         "first_seen": "2025-09-16 06:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 155
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 156
     },
     "history": [
         {
@@ -1102,6 +1102,13 @@
             "stars": 54762,
             "forks": 8418,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 54763,
+            "forks": 8418,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

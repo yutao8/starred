@@ -6,7 +6,7 @@
         "name": "wechat_spider",
         "html_url": "https:\/\/github.com\/lqqyt2423\/wechat_spider",
         "language": "JavaScript",
-        "description": "用于抓取微信公众号文章内容的工具，支持自动爬取指定公众号的推文标题、发布时间、正文等信息，通常适用于内容分析、数据采集等场景，基于 Scrapy 框架实现，可配合 Selenium 解决反爬机制。"
+        "description": "用于抓取微信公众号文章和相关信息，通过模拟客户端请求或解析网页内容实现数据采集，适合需要批量保存公众号历史文章、做内容分析或监控特定公众号更新的场景，通常搭配 Python 使用，可扩展去重、定时抓取等功能，帮助用户解决手动复制效率低和难以系统化管理微信内容的问题。"
     },
     "summary": {
         "initial_stars": 1479,

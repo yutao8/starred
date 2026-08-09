@@ -6,16 +6,16 @@
         "name": "claude-code-router",
         "html_url": "https:\/\/github.com\/musistudio\/claude-code-router",
         "language": "TypeScript",
-        "description": "一个基于 Claude 大模型的代码路由工具，用于自动分析代码结构并生成相应的路由配置，主要适用于需要根据代码上下文动态管理 API 路由的 Node.js 或前端项目，简化开发中的路由维护工作。"
+        "description": "用于为 Claude Code 增加请求路由与转发的能力，核心是把官方命令行工具的对话和工具请求接入到不同后端模型服务或自定义网关。它通常作为本地中间层运行，根据预设规则将流量分发到多个 API 端点，适合需要统一管理多套账号、按成本或延迟灵活切换模型、或通过第三方代理绕过访问限制的开发者。该方案无需修改 Claude Code 本身，即可实现更灵活的调用链配置和集中化控制，适用于团队协作或多环境部署场景。"
     },
     "summary": {
         "initial_stars": 3004,
-        "current_stars": 36512,
-        "star_diff": 33508,
-        "growth_rate": 1115.45,
+        "current_stars": 36516,
+        "star_diff": 33512,
+        "growth_rate": 1115.58,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 36512,
             "forks": 3050,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 36516,
+            "forks": 3050,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

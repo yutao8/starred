@@ -6,7 +6,7 @@
         "name": "websocket-devtools",
         "html_url": "https:\/\/github.com\/law-chain-hot\/websocket-devtools",
         "language": "JavaScript",
-        "description": "一个专为区块链开发调试设计的 WebSocket 开发者工具，主要用于监控和测试区块链节点的实时通信，支持实时消息查看、连接状态追踪、请求响应分析，方便开发者在调试智能合约或链上交互时高效定位问题，通常集成于区块链本地测试环境或浏览器插件中。"
+        "description": "面向 WebSocket 开发者的调试辅助工具，主要用于本地或远程 WebSocket 服务的连接测试与消息交互，可快速创建连接并查看实时通信内容，支持发送自定义消息和检查响应数据，帮助排查双向通信中的协议问题。它适合前后端联调、接口验证、学习 WebSocket 协议等场景，能够简化原始命令行工具的操作流程，为开发者提供更直观的交互界面，便于观察握手过程、帧结构以及消息顺序，是开发和测试 WebSocket 功能时常用的效率工具。"
     },
     "summary": {
         "initial_stars": 916,

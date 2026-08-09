@@ -6,7 +6,7 @@
         "name": "minio",
         "html_url": "https:\/\/github.com\/minio\/minio",
         "language": "Go",
-        "description": "MinIO 是一个高性能的分布式对象存储系统，兼容 Amazon S3 API，主要用于存储大规模非结构化数据，如图片、视频、日志文件等。它支持多节点部署，提供高可用和数据冗余能力，适用于云原生、AI、大数据等场景，常用于私有云和边缘计算环境中的数据存储解决方案。"
+        "description": "MinIO 是开源的高性能对象存储服务器，全面兼容 Amazon S3 API，常用于搭建私有云或混合云存储基础设施。它适合存储图片、视频、日志、备份等非结构化数据，支持单机部署与分布式集群扩展，并可通过纠删码保障数据可靠性。MinIO 轻量易运维，在 Kubernetes 环境中尤为常见，常作为云原生应用的数据后端，解决自建对象存储需求。"
     },
     "summary": {
         "initial_stars": 53881,

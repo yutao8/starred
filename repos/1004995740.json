@@ -6,16 +6,16 @@
         "name": "opcode",
         "html_url": "https:\/\/github.com\/getAsterisk\/claudia",
         "language": "TypeScript",
-        "description": "用于解析和操作 Windows 平台二进制文件中的操作码，主要支持逆向工程中的指令分析与修改，适用于安全研究和恶意软件分析场景。"
+        "description": "该仓库围绕 Windows 函数的操作码展开，主要用于生成或解析与 Windows API 调用相关的机器码指令。典型使用场景包括底层系统编程、shellcode 构造、函数挂钩与动态调用，适合需要绕过常规导入表或实现轻量级运行时调用的开发者。通常结合反汇编与内存操作技术，为研究 Windows 调用约定与指令编码提供实用参考。"
     },
     "summary": {
         "initial_stars": 7400,
-        "current_stars": 22361,
-        "star_diff": 14961,
-        "growth_rate": 202.18,
+        "current_stars": 22362,
+        "star_diff": 14962,
+        "growth_rate": 202.19,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 22361,
             "forks": 1725,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 22362,
+            "forks": 1726,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

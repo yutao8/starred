@@ -6,7 +6,7 @@
         "name": "pypy_goofish",
         "html_url": "https:\/\/github.com\/cdutyb\/pypy_goofish",
         "language": "Python",
-        "description": "该项目主要用于在 PyPy 环境下解析和操作 Fish 语言（Goofish）的语法结构，结合 PyPy 的高效执行特性与 Goofish 的 shell 解析能力，适合需要高性能处理 Unix shell 脚本语义的场景。"
+        "description": "为闲鱼（Goofish）二手交易平台设计的Python自动化工具，主要用于商品信息抓取、关键词搜索与价格监控。用户可借助它批量获取闲鱼上的商品列表，自动跟踪目标物品的价格波动，适合二手淘货、比价和轻量市场调研等场景。该仓库可能通过爬虫方式实现数据交互，具体功能以源码和项目文档为准。"
     },
     "summary": {
         "initial_stars": 32,

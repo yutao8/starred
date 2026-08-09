@@ -6,7 +6,7 @@
         "name": "ob-decrypt",
         "html_url": "https:\/\/github.com\/DingZaiHub\/ob-decrypt",
         "language": "JavaScript",
-        "description": "一个用于解密和分析 Obfuscated JavaScript 的工具，主要用于还原被混淆的 JS 代码，帮助开发者调试或研究加密逻辑，支持常见混淆方式的反混淆处理，提升代码可读性。"
+        "description": "用于解密和还原被混淆或加密处理的数据，主要面向 Web 前端安全分析与逆向工程场景。该工具能够识别常见的混淆模式，并尝试恢复原始可读内容，适合分析恶意脚本、调试受保护代码或处理加密样本。作为命令行工具，通常需要用户提供待处理文件或输入内容，再根据内置规则自动实施解密逻辑。由于仓库名中的“ob”多指向混淆器相关生态，项目很可能围绕 JavaScript 代码混淆与还原而设计，但具体支持范围和依赖环境需参考仓库说明。使用前应了解目标数据格式，以便正确调用对应功能。"
     },
     "summary": {
         "initial_stars": 487,

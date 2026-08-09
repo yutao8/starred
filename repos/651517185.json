@@ -6,16 +6,16 @@
         "name": "MediaCrawler",
         "html_url": "https:\/\/github.com\/NanmiCoder\/MediaCrawler",
         "language": "Python",
-        "description": "用于抓取社交媒体平台内容的自动化工具，支持小红书、抖音等平台的媒体数据采集，可提取图文、视频内容及元数据，便于批量下载和分析，常用于舆情监控、内容聚合和数字营销场景。"
+        "description": "用于采集主流社交媒体平台公开数据的爬虫工具，目前支持小红书、抖音、快手、B站、微博等多个平台，能够抓取帖子、评论、用户信息等数据，并保存为结构化文件。适用于市场调研、舆情分析、内容运营等需要批量获取社交数据的场景，也可为模型训练提供数据集。项目基于Python实现，便于二次开发，但使用时需关注平台反爬机制和合规要求。"
     },
     "summary": {
         "initial_stars": 28313,
-        "current_stars": 60352,
-        "star_diff": 32039,
-        "growth_rate": 113.16,
+        "current_stars": 60401,
+        "star_diff": 32088,
+        "growth_rate": 113.33,
         "first_seen": "2025-07-08 08:00",
-        "last_seen": "2026-08-09 06:00",
-        "data_points_count": 191
+        "last_seen": "2026-08-09 12:00",
+        "data_points_count": 192
     },
     "history": [
         {
@@ -1354,6 +1354,13 @@
             "stars": 60352,
             "forks": 11845,
             "file": "dist\/2026080906\/starList.public.json"
+        },
+        {
+            "date": "2026-08-09 12:00",
+            "timestamp": 1786248000,
+            "stars": 60401,
+            "forks": 11856,
+            "file": "dist\/2026080912\/starList.public.json"
         }
     ]
 }

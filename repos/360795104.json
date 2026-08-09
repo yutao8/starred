@@ -6,7 +6,7 @@
         "name": "DotNetCore.SKIT.FlurlHttpClient.Wechat",
         "html_url": "https:\/\/github.com\/fudiwei\/DotNetCore.SKIT.FlurlHttpClient.Wechat",
         "language": "C#",
-        "description": "基于 SKIT 的 Flurl.Http 封装，用于便捷调用微信各项 API，支持 .NET Core，提供强类型请求响应模型与链式语法，简化微信公众平台、开放平台、小程序等接口的对接开发。"
+        "description": "基于 Flurl 的 .NET 微信接口调用库，专为 .NET Core 应用设计。它整合了微信生态中多个平台的 REST API，包括公众号、小程序、企业微信及微信支付等，以强类型模型和异步方法封装请求与响应，自动处理签名、校验和错误解析。开发者可以通过该库快速实现用户授权、消息收发、支付订单等常见功能，免去手动拼接请求、处理加密细节的繁琐工作。适合需要集中维护微信接口调用逻辑的中小型项目，也便于结合依赖注入进行统一配置。"
     },
     "summary": {
         "initial_stars": 1670,

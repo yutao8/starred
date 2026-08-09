@@ -6,7 +6,7 @@
         "name": "PicImageSearch",
         "html_url": "https:\/\/github.com\/kitUIN\/PicImageSearch",
         "language": "Python",
-        "description": "一个基于Vue.js 3和TypeScript开发的前端项目，主要用于图片的上传、解析与搜索功能集成，支持用户通过上传图片进行内容识别或相似图检索，适用于构建以图搜图的交互界面，具备良好的可扩展性和响应式设计。"
+        "description": "用于以图搜图的Python库，通过本地图片或图片链接自动查询多个主流搜索引擎，返回相似图片及其来源页面。适合追踪图片来源、识别盗图或寻找更高分辨率版本，也能集成到爬虫和自动化脚本中。支持多个搜索引擎切换，并基于异步请求设计，便于批量检索时提升效率。使用方式简洁，通常传入图片路径或URL即可触发搜索。"
     },
     "summary": {
         "initial_stars": 611,
