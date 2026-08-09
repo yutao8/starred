@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-09 18:01:39",
+    "updated_at": "2026-08-10 00:01:00",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1587,7 +1587,8 @@
         "2026080900": true,
         "2026080906": true,
         "2026080912": true,
-        "2026080918": true
+        "2026080918": true,
+        "2026081000": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -7430,7 +7431,10 @@
         "1248769131": 1248769131,
         "chromedevtools\/chrome-devtools-mcp": 1054793726,
         "chrome-devtools-mcp": 1054793726,
-        "1054793726": 1054793726
+        "1054793726": 1054793726,
+        "debauchee\/barrier": 118970914,
+        "barrier": 118970914,
+        "118970914": 118970914
     },
     "repos_meta": {
         "7036331": {
@@ -17277,7 +17281,12 @@
             "id": 1054793726,
             "full_name": "ChromeDevTools\/chrome-devtools-mcp",
             "file": "repos\/1054793726.json"
+        },
+        "118970914": {
+            "id": 118970914,
+            "full_name": "debauchee\/barrier",
+            "file": "repos\/118970914.json"
         }
     },
-    "snapshot_count": 1586
+    "snapshot_count": 1587
 }
