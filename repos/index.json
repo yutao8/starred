@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-10 06:04:25",
+    "updated_at": "2026-08-10 12:02:06",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1589,7 +1589,8 @@
         "2026080912": true,
         "2026080918": true,
         "2026081000": true,
-        "2026081006": true
+        "2026081006": true,
+        "2026081012": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -7435,7 +7436,13 @@
         "1054793726": 1054793726,
         "debauchee\/barrier": 118970914,
         "barrier": 118970914,
-        "118970914": 118970914
+        "118970914": 118970914,
+        "chen-006\/gpt56_api_detector": 1315704673,
+        "gpt56_api_detector": 1315704673,
+        "1315704673": 1315704673,
+        "liheji\/yporaject": 676452393,
+        "yporaject": 676452393,
+        "676452393": 676452393
     },
     "repos_meta": {
         "7036331": {
@@ -17287,7 +17294,17 @@
             "id": 118970914,
             "full_name": "debauchee\/barrier",
             "file": "repos\/118970914.json"
+        },
+        "1315704673": {
+            "id": 1315704673,
+            "full_name": "chen-006\/gpt56_api_detector",
+            "file": "repos\/1315704673.json"
+        },
+        "676452393": {
+            "id": 676452393,
+            "full_name": "liheji\/Yporaject",
+            "file": "repos\/676452393.json"
         }
     },
-    "snapshot_count": 1588
+    "snapshot_count": 1589
 }
