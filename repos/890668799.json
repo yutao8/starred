@@ -6,16 +6,16 @@
         "name": "servers",
         "html_url": "https:\/\/github.com\/modelcontextprotocol\/servers",
         "language": "TypeScript",
-        "description": "提供标准化接口用于管理和操作模型上下文，支持上下文的存储、检索和同步，通常用于增强语言模型的连续对话能力和上下文感知，适用于构建需要长期记忆或跨会话状态保持的AI应用。"
+        "description": "为 Model Context Protocol 官方提供的服务器集合，主要用于扩展 AI 模型获取外部数据与工具调用的能力。该仓库汇集了多种现成的服务器实现，覆盖文件系统、数据库、Git、网页搜索、API 集成等常见场景，方便开发者直接接入或参考实现自定义服务器。通常适合需要让大语言模型安全访问本地资源或第三方服务的应用，通过统一的 MCP 协议实现标准化交互。"
     },
     "summary": {
         "initial_stars": 88307,
-        "current_stars": 89382,
-        "star_diff": 1075,
-        "growth_rate": 1.22,
+        "current_stars": 89395,
+        "star_diff": 1088,
+        "growth_rate": 1.23,
         "first_seen": "2026-07-11 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 89382,
             "forks": 11415,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 89395,
+            "forks": 11416,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "claw-code",
         "html_url": "https:\/\/github.com\/instructkr\/claw-code",
         "language": "Rust",
-        "description": "claw-code 是一个用于生成和管理验证码的工具库，主要用于图像识别测试、自动化任务中的验证码处理场景，支持多种编码格式和自定义扩展，适用于需要高效处理视觉验证码的爬虫或自动化系统。"
+        "description": "claw-code 是一个面向开发者的代码辅助工具，主要用于自动生成、补全和重构代码片段，帮助减少重复性编码工作。它通常适合集成在命令行或编辑器环境中，适用于快速搭建项目骨架、编写模板代码以及规范化代码风格等场景。该工具依托代码解析与模式匹配机制，能够理解常见编程语言的结构并给出对应输出，便于团队在统一代码规范下提升开发效率。如果你经常处理机械化的编码任务，或希望在现有项目中快速生成符合惯例的代码，claw-code 可以提供较为直接的支持。"
     },
     "summary": {
         "initial_stars": 106712,
@@ -14,8 +14,8 @@
         "star_diff": 88305,
         "growth_rate": 82.75,
         "first_seen": "2026-04-02 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 72
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 73
     },
     "history": [
         {
@@ -521,6 +521,13 @@
             "stars": 195017,
             "forks": 109231,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 195017,
+            "forks": 109226,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

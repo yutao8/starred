@@ -6,16 +6,16 @@
         "name": "tubatools",
         "html_url": "https:\/\/github.com\/luolangaga\/tubatools",
         "language": "C#",
-        "description": "一个用于处理和分析 Tubatu 网站数据的工具集，主要用于爬取、解析和管理装修类网站的信息，帮助用户批量获取商家数据、用户评价及案例详情，适用于市场调研与竞品分析。"
+        "description": "用于整合电脑硬件检测与系统维护常用功能的实用工具箱，主要面向装机用户和日常维护场景。它将多种分散的小工具集中起来，方便快速查看设备信息、监控运行状态、执行简单测试，省去在不同软件间切换的麻烦。项目通常以轻量级脚本或便携程序的形式提供，常见于Windows环境，能够解决硬件识别、性能评估、故障参考等常见问题，显著提升电脑日常维护和问题排查的效率。"
     },
     "summary": {
         "initial_stars": 2160,
-        "current_stars": 2205,
-        "star_diff": 45,
-        "growth_rate": 2.08,
+        "current_stars": 2207,
+        "star_diff": 47,
+        "growth_rate": 2.18,
         "first_seen": "2026-08-07 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 9
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 10
     },
     "history": [
         {
@@ -80,6 +80,13 @@
             "stars": 2205,
             "forks": 64,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 2207,
+            "forks": 64,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

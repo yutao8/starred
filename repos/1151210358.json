@@ -6,16 +6,16 @@
         "name": "songloft",
         "html_url": "https:\/\/github.com\/songloft-org\/songloft",
         "language": "Go",
-        "description": "Songloft 是一个专注于音乐创作与协作的开源平台，旨在为音乐人提供灵活的版本控制和实时协作工具，支持乐谱编辑、音频文件管理及创作历史追踪，适合个人创作者与团队共同开发音乐作品，改善传统音乐制作中的版本混乱与协作低效问题。"
+        "description": "songloft 面向音乐爱好者，是一款轻量级的曲目整理与分享应用。它主要帮助用户管理个人或小群体内的歌曲收藏，支持曲目分类、列表浏览和简单的播放操作，通常通过网页界面呈现，适合用来搭建私有音乐库或与朋友共享歌单。由于仓库信息有限，具体功能需以实际代码为准，但整体技术架构可能涉及前端展示与后端存储，定位简单实用。"
     },
     "summary": {
         "initial_stars": 465,
-        "current_stars": 1409,
-        "star_diff": 944,
-        "growth_rate": 203.01,
+        "current_stars": 1413,
+        "star_diff": 948,
+        "growth_rate": 203.87,
         "first_seen": "2026-06-03 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 40
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 41
     },
     "history": [
         {
@@ -297,6 +297,13 @@
             "stars": 1409,
             "forks": 104,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 1413,
+            "forks": 105,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

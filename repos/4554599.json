@@ -6,7 +6,7 @@
         "name": "database",
         "html_url": "https:\/\/github.com\/illuminate\/database",
         "language": "PHP",
-        "description": "Illuminate\/Database 是 Laravel 框架的核心组件之一，提供强大的数据库抽象层，支持多种数据库系统，包含查询构造器、Eloquent ORM、迁移系统和种子填充功能，用于便捷地进行数据库操作、模型管理及数据结构版本控制，适合构建现代化 PHP 应用中的数据持久化逻辑。"
+        "description": "illuminate\/database 是 Laravel 框架的数据库组件，提供流畅的查询构建器和 Eloquent ORM，支持 MySQL、PostgreSQL、SQLite、SQL Server 等主流数据库。它既能作为 Laravel 内部的核心数据库引擎，也可以独立安装在非 Laravel 项目中，帮助开发者用简洁的链式语法替代复杂的原生 SQL，处理数据增删改查、模型关联、分页和迁移等操作。适合需要统一且优雅的数据访问接口，或在小型应用中快速搭建数据层的场景。"
     },
     "summary": {
         "initial_stars": 2771,

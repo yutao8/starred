@@ -6,16 +6,16 @@
         "name": "codeg",
         "html_url": "https:\/\/github.com\/xintaofei\/codeg",
         "language": "TypeScript",
-        "description": "一个基于大模型的代码生成与辅助工具，主要用于通过自然语言描述生成高质量代码片段，支持多种编程语言，提升开发效率，适用于快速原型设计、自动化编码和学习场景。"
+        "description": "用于代码生成与辅助开发的工具，通常面向开发者提升编码效率，可依据简单描述或模板生成代码片段，适合在快速搭建项目骨架、编写重复性逻辑或学习参考场景中使用。具体功能以仓库实际说明为准，可能支持多种编程语言或配置定制，整体上属于程序员的效率型小工具。"
     },
     "summary": {
         "initial_stars": 2285,
-        "current_stars": 2620,
-        "star_diff": 335,
-        "growth_rate": 14.66,
+        "current_stars": 2623,
+        "star_diff": 338,
+        "growth_rate": 14.79,
         "first_seen": "2026-07-22 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 17
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 18
     },
     "history": [
         {
@@ -136,6 +136,13 @@
             "stars": 2620,
             "forks": 322,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 2623,
+            "forks": 323,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

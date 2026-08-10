@@ -6,16 +6,16 @@
         "name": "MoviePilot",
         "html_url": "https:\/\/github.com\/jxxghp\/MoviePilot",
         "language": "Python",
-        "description": "MoviePilot 是一个专为影视爱好者设计的自动化工具，主要用于电影、电视剧的自动搜索、下载、整理和媒体库管理。它支持与主流PT站点、NAS工具及播放器（如Emby、Jellyfin）集成，通过智能识别和命名规则，帮助用户搭建全自动化高清影视库，适合追求高质量影音体验的个人用户或家庭媒体中心使用。"
+        "description": "用于自动化电影和电视剧的下载与媒体库整理，是面向个人媒体服务器的管理工具。它支持订阅追新，能持续监控资源站点或链接，发现匹配内容后自动交给下载工具，完成后自动重命名、分类并刮削影视元数据，方便 Jellyfin、Emby、Plex 等播放器直接展示成优雅海报墙。适合部署在 NAS 或常开主机上，解决手动找资源、下载、整理和同步的重复劳动，提升追剧和收藏体验。通过 Web 界面可供统一配置和管理任务。"
     },
     "summary": {
         "initial_stars": 11101,
-        "current_stars": 11514,
-        "star_diff": 413,
-        "growth_rate": 3.72,
+        "current_stars": 11519,
+        "star_diff": 418,
+        "growth_rate": 3.77,
         "first_seen": "2026-05-26 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 43
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 44
     },
     "history": [
         {
@@ -318,6 +318,13 @@
             "stars": 11514,
             "forks": 1448,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 11519,
+            "forks": 1451,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

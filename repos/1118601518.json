@@ -6,16 +6,16 @@
         "name": "sub2api",
         "html_url": "https:\/\/github.com\/Wei-Shaw\/sub2api",
         "language": "Go",
-        "description": "sub2api 是一个将订阅链接转换为 API 接口的工具，主要用于将网络订阅服务中的资源列表转换为可通过 HTTP 请求访问的 API 接口，方便用户在自定义应用或脚本中动态获取和管理订阅内容，适用于需要自动化处理订阅源的场景。"
+        "description": "用于将订阅链接转换为API接口，核心功能是把各类代理订阅信息封装为可统一调用的HTTP服务，方便程序自动化获取或分发配置。典型场景包括客户端动态更新、代理池管理、自建面板集成等，解决订阅格式多样、手动维护低效的问题。使用者只需通过HTTP请求即可获取处理后的订阅数据，便于实现动态配置和二次开发。"
     },
     "summary": {
         "initial_stars": 32295,
-        "current_stars": 36426,
-        "star_diff": 4131,
-        "growth_rate": 12.79,
+        "current_stars": 36486,
+        "star_diff": 4191,
+        "growth_rate": 12.98,
         "first_seen": "2026-07-16 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 20
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 21
     },
     "history": [
         {
@@ -157,6 +157,13 @@
             "stars": 36426,
             "forks": 7522,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 36486,
+            "forks": 7535,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "EmbyX",
         "html_url": "https:\/\/github.com\/juneix\/EmbyX",
         "language": "HTML",
-        "description": "EmbyX 是一个基于 Emby 媒体服务器的第三方客户端或增强工具，主要用于优化媒体管理与播放体验，支持跨平台访问、远程流媒体传输及个性化功能扩展，适合家庭影音系统或个人媒体库的高效组织与共享。"
+        "description": "EmbyX 是一套围绕 Emby 媒体服务器打造的辅助工具集，主要用于提升影音库的管理与使用体验。它通常适合自建家庭影院或小型媒体中心的用户，帮助解决影片刮削、元数据整理、软链接入库或客户端播放增强等常见问题。作为社区项目，EmbyX 更贴近中文用户的使用习惯，能够简化配置流程并补充原生功能的不足。如果你正在使用 Emby 并希望获得更顺手的内容管理能力，这个项目值得尝试。"
     },
     "summary": {
         "initial_stars": 63,
-        "current_stars": 81,
-        "star_diff": 18,
-        "growth_rate": 28.57,
+        "current_stars": 82,
+        "star_diff": 19,
+        "growth_rate": 30.16,
         "first_seen": "2026-05-24 00:00",
-        "last_seen": "2026-08-09 12:00",
-        "data_points_count": 19
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 20
     },
     "history": [
         {
@@ -150,6 +150,13 @@
             "stars": 81,
             "forks": 17,
             "file": "dist\/2026080912\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 82,
+            "forks": 17,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

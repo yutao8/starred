@@ -6,7 +6,7 @@
         "name": "frps",
         "html_url": "https:\/\/github.com\/stilleshan\/frps",
         "language": "Shell",
-        "description": "用于内网穿透的 frps（frp 服务端）镜像，简化部署配置，支持多端口映射和流量加密，适用于远程访问家庭设备、调试微信应用等场景，配合 frpc 客户端实现 P2P 穿透。"
+        "description": "用于搭建 frp 内网穿透服务端（frps），提供快速部署和配置方案，帮助用户将内网服务安全暴露到公网。支持 TCP、UDP、HTTP\/HTTPS 等常见协议，适合远程访问家庭或公司内网设备、开发调试、临时演示等场景。项目通常包含配置文件与启动脚本，配合 frp 客户端即可建立穿透隧道，聚焦于服务端，便于自建穿透服务，减少对第三方中继的依赖，提升数据可控性。"
     },
     "summary": {
         "initial_stars": 861,

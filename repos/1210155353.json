@@ -6,16 +6,16 @@
         "name": "SenseNova-Skills",
         "html_url": "https:\/\/github.com\/OpenSenseNova\/SenseNova-Skills",
         "language": "Python",
-        "description": "SenseNova-Skills 是一个专注于开发和集成基于 SenseNova 大模型的智能技能应用的开源项目，主要用于构建具备自然语言理解与生成、多轮对话、任务编排能力的 AI 助手功能模块，支持快速扩展语音、文本、图像等多模态交互场景，适用于企业服务、智能客服、个人助理等领域的定制化开发。"
+        "description": "用于为商汤 SenseNova 大模型提供可复用的技能定义与示例，帮助开发者扩展模型的工具调用和任务执行能力。该仓库通常包含技能模板、调用流程和典型场景代码，适合需要让模型对接外部 API、执行特定指令或完成多步骤任务的开发者。通过将复杂操作封装为技能，可以提升模型在真实应用中的可控性和实用性，同时降低将通用模型适配到具体业务场景的门槛。若涉及社区贡献内容，则更侧重于实践参考与经验沉淀。"
     },
     "summary": {
         "initial_stars": 4697,
-        "current_stars": 4948,
-        "star_diff": 251,
-        "growth_rate": 5.34,
+        "current_stars": 4949,
+        "star_diff": 252,
+        "growth_rate": 5.37,
         "first_seen": "2026-07-11 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 4948,
             "forks": 348,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 4949,
+            "forks": 349,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "yuque-mcp-server",
         "html_url": "https:\/\/github.com\/yuque\/yuque-mcp-server",
         "language": "TypeScript",
-        "description": "语雀 MCP 服务端组件，主要用于支持语雀文档的解析、转换与协同管理，提供知识库内容的中间处理能力，便于集成到各类应用系统中实现文档协作功能。"
+        "description": "语雀的MCP服务器，主要用于让AI助手通过Model Context Protocol接口访问语雀知识库，实现文档搜索、读取和内容获取等常见能力。它解决的是大模型无法直接访问团队私有文档的问题，特别适合构建基于语雀内容的智能问答、内部知识检索或文档摘要系统。在支持MCP的AI客户端中接入，并按要求配置语雀访问凭据后，即可将语雀文档作为上下文提供给模型调用。整体设计遵循MCP规范，便于纳入现有AI工具链。"
     },
     "summary": {
         "initial_stars": 201,
-        "current_stars": 219,
-        "star_diff": 18,
-        "growth_rate": 8.96,
+        "current_stars": 220,
+        "star_diff": 19,
+        "growth_rate": 9.45,
         "first_seen": "2026-07-20 00:00",
-        "last_seen": "2026-08-09 18:00",
-        "data_points_count": 11
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 12
     },
     "history": [
         {
@@ -94,6 +94,13 @@
             "stars": 219,
             "forks": 26,
             "file": "dist\/2026080918\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 220,
+            "forks": 26,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

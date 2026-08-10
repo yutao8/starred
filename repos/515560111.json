@@ -6,16 +6,16 @@
         "name": "investment_data",
         "html_url": "https:\/\/github.com\/chenditc\/investment_data",
         "language": "Python",
-        "description": "主要用于获取和分析投资相关数据，提供股票、基金等金融产品的历史行情与基本面数据接口，支持投资策略研究与量化分析，适合金融数据分析及投资决策场景。"
+        "description": "一个用于收集、清洗和整理投资相关数据的工具，通常面向股票、基金、期货等金融产品的历史行情与基础信息，适合个人投资者或量化分析者构建本地数据集，辅助回测或策略研究。它可能提供数据抓取、格式转换和增量更新等功能，以减少手工维护数据的成本，方便与常见的数据分析库配合使用。"
     },
     "summary": {
         "initial_stars": 1277,
-        "current_stars": 1398,
-        "star_diff": 121,
-        "growth_rate": 9.48,
+        "current_stars": 1399,
+        "star_diff": 122,
+        "growth_rate": 9.55,
         "first_seen": "2026-06-17 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 29
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 30
     },
     "history": [
         {
@@ -220,6 +220,13 @@
             "stars": 1398,
             "forks": 182,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 1399,
+            "forks": 183,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

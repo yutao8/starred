@@ -6,16 +6,16 @@
         "name": "mindfs",
         "html_url": "https:\/\/github.com\/a9gent\/mindfs",
         "language": "TypeScript",
-        "description": "MindFS 是一个用于管理与可视化思维过程的工具，通过文件系统结构将人的思考、笔记和想法组织成可追溯、可扩展的节点网络，主要用于知识管理、创意发散和个人思维建模，适合需要结构化记录与连接想法的知识工作者。"
+        "description": "mindfs 从命名看是 mind 与 filesystem 的结合，通常服务于 AI 智能体或大模型应用，作为它们的记忆与知识存储层。它把信息组织成类似文件目录的层级结构，同时保留关联能力，以便智能体在对话、任务或长期学习中快速写入和检索相关记忆。典型使用场景包括个人助理、自动化流程的状态维持、知识问答系统以及需要跨会话记忆的代理程序。相比普通文件系统，它更关注语义关系的表达和高效查询，目的是缓解大模型在长上下文场景中的遗忘问题，并为各类 agent 提供灵活、可扩展的存储机制。"
     },
     "summary": {
         "initial_stars": 1483,
-        "current_stars": 1663,
-        "star_diff": 180,
-        "growth_rate": 12.14,
+        "current_stars": 1664,
+        "star_diff": 181,
+        "growth_rate": 12.2,
         "first_seen": "2026-07-16 00:00",
-        "last_seen": "2026-08-10 06:00",
-        "data_points_count": 18
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 19
     },
     "history": [
         {
@@ -143,6 +143,13 @@
             "stars": 1663,
             "forks": 114,
             "file": "dist\/2026081006\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 1664,
+            "forks": 114,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

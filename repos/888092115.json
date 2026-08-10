@@ -6,16 +6,16 @@
         "name": "markitdown",
         "html_url": "https:\/\/github.com\/microsoft\/markitdown",
         "language": "Python",
-        "description": "用于将 Markdown 文件转换为结构化数据的工具，支持从文档中提取标题、列表、代码块等内容并输出为 JSON 等格式，便于后续处理与分析，适用于文档解析、数据抽取和自动化工作流场景。"
+        "description": "用于将多种常见文件格式批量转换为 Markdown 文本，包括 Word、Excel、PowerPoint、PDF、图片、音频等，以便后续喂给大语言模型或进行文档检索。它特别适合需要把办公文档、扫描件或多媒体内容统一清洗成纯文本的预处理场景，能有效解决非结构化数据难以直接用于 AI 管线的痛点。工具通常通过命令行或 Python API 调用，转换流程简单，适合自动化流水线集成。对于需要从复杂文档中提取标题、表格、链接等结构信息的用户，它提供了一条轻量且高效的路径。"
     },
     "summary": {
         "initial_stars": 167897,
-        "current_stars": 172677,
-        "star_diff": 4780,
-        "growth_rate": 2.85,
+        "current_stars": 172793,
+        "star_diff": 4896,
+        "growth_rate": 2.92,
         "first_seen": "2026-07-22 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 17
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 18
     },
     "history": [
         {
@@ -136,6 +136,13 @@
             "stars": 172677,
             "forks": 12593,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 172793,
+            "forks": 12601,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "123pan",
         "html_url": "https:\/\/github.com\/123panNextGen\/123pan",
         "language": "Python",
-        "description": "123panNextGen\/123pan 是一个针对123云盘优化的下一代客户端工具，主要用于提升文件上传下载效率、管理云端资源，支持多线程传输与批量操作，适合需要高频使用123云盘进行大文件处理的用户。"
+        "description": "123panNextGen\/123pan 为 123 云盘用户提供非官方客户端与扩展功能，主要解决官方客户端功能受限或使用不便的问题。项目通常支持文件上传下载、目录管理、分享链接处理等核心操作，并可能提供命令行或图形界面，方便用户将网盘服务融入自动化脚本或本地文件管理流程。适合需要批量操作文件、灵活管理云端内容或与现有工具链对接的使用场景。"
     },
     "summary": {
         "initial_stars": 28,
-        "current_stars": 308,
-        "star_diff": 280,
-        "growth_rate": 1000,
+        "current_stars": 312,
+        "star_diff": 284,
+        "growth_rate": 1014.29,
         "first_seen": "2026-03-17 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 59
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 60
     },
     "history": [
         {
@@ -430,6 +430,13 @@
             "stars": 308,
             "forks": 14,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 312,
+            "forks": 14,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

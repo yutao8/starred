@@ -6,16 +6,16 @@
         "name": "skill",
         "html_url": "https:\/\/github.com\/anbeime\/skill",
         "language": "Python",
-        "description": "一个基于 Vue.js 的个人技能展示网页模板，主要用于前端开发者或设计师展示技术栈、项目经验和专业能力，支持自定义主题和响应式布局，开箱即用，适合快速搭建个性化简历或作品集页面。"
+        "description": "一个以技能整理为核心的知识管理仓库，主要用于沉淀个人或团队的技术能力清单，涵盖编程、运维、工具链等方向的实践要点和学习路径。通常以 Markdown 形式组织，结构清晰，适合开发者当作快速查阅的手册，也适合用来系统梳理自己的技能树、发现知识盲区。由于是个人维护的项目，内容多源于作者自身经验，会随实践不断更新，但覆盖面可能不如官方文档全面。"
     },
     "summary": {
         "initial_stars": 3439,
-        "current_stars": 5010,
-        "star_diff": 1571,
-        "growth_rate": 45.68,
+        "current_stars": 5027,
+        "star_diff": 1588,
+        "growth_rate": 46.18,
         "first_seen": "2026-07-11 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 5010,
             "forks": 482,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 5027,
+            "forks": 484,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

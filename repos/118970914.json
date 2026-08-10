@@ -6,16 +6,16 @@
         "name": "barrier",
         "html_url": "https:\/\/github.com\/debauchee\/barrier",
         "language": "C",
-        "description": "Barrier 是一个开源的跨平台 KVM 切换工具，允许用户使用一套键盘和鼠标控制多台计算机，支持 Windows、macOS 和 Linux。它通过网络连接共享输入设备，提供加密通信、剪贴板同步和屏幕边缘触发等功能，适合多机工作环境下的高效操作。"
+        "description": "Barrier 是一款跨平台的开源软件，用于在多台计算机之间共享一套鼠标和键盘，支持 Windows、macOS 和 Linux 系统。它的主要用途是让用户通过一套输入设备控制多台主机，从而免去频繁切换物理设备或额外安装 KVM 切换器的麻烦。该软件特别适合程序员、设计师或需要同时操作笔记本与台式机的办公场景，也能实现剪贴板共享和拖放文件传输。它作为已停止维护的 Synergy 1.x 的社区分支，继承了原有功能并继续修复问题，通常通过 SSL 加密连接保证局域网内通信安全。Barrier 的核心价值是提升多机协作效率，让工作流更加流畅。"
     },
     "summary": {
         "initial_stars": 2160,
-        "current_stars": 30814,
-        "star_diff": 28654,
-        "growth_rate": 1326.57,
+        "current_stars": 30815,
+        "star_diff": 28655,
+        "growth_rate": 1326.62,
         "first_seen": "2026-08-07 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 9
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 10
     },
     "history": [
         {
@@ -80,6 +80,13 @@
             "stars": 30814,
             "forks": 1623,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 30815,
+            "forks": 1623,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

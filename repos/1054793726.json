@@ -6,16 +6,16 @@
         "name": "chrome-devtools-mcp",
         "html_url": "https:\/\/github.com\/ChromeDevTools\/chrome-devtools-mcp",
         "language": "TypeScript",
-        "description": "ChromeDevTools\/chrome-devtools-mcp 是一个用于探索和扩展 Chrome 开发者工具能力的项目，主要用于通过 MCP（Model-Controller-Protocol）架构实现对浏览器调试功能的模块化控制与集成，便于开发者自定义调试流程、自动化操作及构建专用开发工具链。"
+        "description": "用于将 Chrome 开发者工具的调试能力通过 Model Context Protocol 暴露给 AI 模型，使 AI 助手可以直接操控浏览器标签页，执行 DOM 检视、网络请求监控、JavaScript 运行和性能分析等操作。通常适合构建 AI 驱动的网页自动化测试、前端调试辅助和智能错误排查工具，解决了大模型无法直接感知或操作实际浏览器环境的问题。它特别适用于需要让 AI 从实时页面中提取信息、复现场景或验证代码行为的场景。"
     },
     "summary": {
         "initial_stars": 2160,
-        "current_stars": 48826,
-        "star_diff": 46666,
-        "growth_rate": 2160.46,
+        "current_stars": 48843,
+        "star_diff": 46683,
+        "growth_rate": 2161.25,
         "first_seen": "2026-08-07 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 9
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 10
     },
     "history": [
         {
@@ -80,6 +80,13 @@
             "stars": 48826,
             "forks": 3401,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 48843,
+            "forks": 3402,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

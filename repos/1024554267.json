@@ -6,16 +6,16 @@
         "name": "hermes-agent",
         "html_url": "https:\/\/github.com\/NousResearch\/hermes-agent",
         "language": "Python",
-        "description": "一个基于推理的AI代理框架，专注于通过结构化思维链和动态决策优化复杂任务执行，支持工具调用、环境交互与自主目标分解，适用于自动化推理、智能体协作和闭环任务处理场景。"
+        "description": "Hermes Agent 是 NousResearch 推出的智能体框架，主要用于构建基于大型语言模型的自主任务执行系统。它结合了 Hermes 系列模型的指令遵循能力，帮助开发者实现工具调用、多步骤规划、记忆管理等功能，适合自动化工作流、复杂问题求解和需要与环境交互的 AI 应用场景。"
     },
     "summary": {
         "initial_stars": 209070,
-        "current_stars": 228009,
-        "star_diff": 18939,
-        "growth_rate": 9.06,
+        "current_stars": 228153,
+        "star_diff": 19083,
+        "growth_rate": 9.13,
         "first_seen": "2026-07-05 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 25
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 26
     },
     "history": [
         {
@@ -192,6 +192,13 @@
             "stars": 228009,
             "forks": 44786,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 228153,
+            "forks": 44825,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

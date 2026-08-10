@@ -6,16 +6,16 @@
         "name": "markra",
         "html_url": "https:\/\/github.com\/markrahq\/markra",
         "language": "TypeScript",
-        "description": "Markra 是一个用于将 Markdown 文件转换为语音内容的工具，主要用于帮助用户通过语音播放快速预览或消费文本内容，适合在阅读不便时使用，支持自定义语音参数与输出格式，提升内容可访问性。"
+        "description": "用于为 Markdown 文档提供检索增强生成（RAG）能力，将个人笔记、团队文档等闲置文本转化为可自然语言查询的知识库。主要解决信息分散、查找困难的问题，适合个人知识管理、内部资料问答、技术文档助手等场景。通常涉及文档解析、内容分块、向量化存储和语义检索等流程，帮助开发者把大模型与私有数据安全地结合起来。"
     },
     "summary": {
         "initial_stars": 553,
-        "current_stars": 727,
-        "star_diff": 174,
-        "growth_rate": 31.46,
+        "current_stars": 729,
+        "star_diff": 176,
+        "growth_rate": 31.83,
         "first_seen": "2026-07-03 00:00",
-        "last_seen": "2026-08-10 00:00",
-        "data_points_count": 21
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 22
     },
     "history": [
         {
@@ -164,6 +164,13 @@
             "stars": 727,
             "forks": 39,
             "file": "dist\/2026081000\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 729,
+            "forks": 39,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "uptime-kuma",
         "html_url": "https:\/\/github.com\/louislam\/uptime-kuma",
         "language": "JavaScript",
-        "description": "Uptime Kuma 是一个开源的监控工具，主要用于跟踪网站和服务器的运行状态，支持 HTTP、HTTPS 和 TCP 等多种协议的 uptime 监测，提供可视化仪表板、状态页面和多种通知方式，适合个人和团队使用。"
+        "description": "Uptime Kuma 是一款自托管的开源监控工具，提供美观易用的网页仪表盘，用于持续检测网站、服务或端口的可用性。它支持 HTTP、HTTPS、TCP、Ping 等多种监控协议，并能在服务异常时通过邮件、Telegram、钉钉等渠道发送告警通知。该项目特别适合个人开发者或中小团队替代商业监控服务，只需通过 Docker 即可快速部署，数据完全自主掌控。其界面友好，支持状态页展示和证书到期提醒，是轻量高效的服务可用性监控解决方案。"
     },
     "summary": {
         "initial_stars": 71239,
-        "current_stars": 90035,
-        "star_diff": 18796,
-        "growth_rate": 26.38,
+        "current_stars": 90043,
+        "star_diff": 18804,
+        "growth_rate": 26.4,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 200
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 201
     },
     "history": [
         {
@@ -1417,6 +1417,13 @@
             "stars": 90035,
             "forks": 8222,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 90043,
+            "forks": 8222,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

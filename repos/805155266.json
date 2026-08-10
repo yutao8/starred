@@ -6,16 +6,16 @@
         "name": "cherry-studio",
         "html_url": "https:\/\/github.com\/CherryHQ\/cherry-studio",
         "language": "TypeScript",
-        "description": "Cherry Studio 是一个现代化的前端开发工具，主要用于构建和管理组件库，支持实时预览、文档生成和样式定制，通常适合设计系统开发与团队协作。"
+        "description": "Cherry Studio 是一款面向日常使用的 AI 聊天桌面客户端，主要用于集中接入并管理多款主流大语言模型（如 OpenAI、Claude、Gemini 等）。它为需要频繁切换不同模型完成写作、问答、编程辅助等任务的用户提供统一对话界面，并内置提示词库、知识库检索与文件解析能力，方便组织个人常用指令和本地资料。适合那些希望在单一下载应用中灵活调用多家模型、管理长期对话上下文并构建个人 AI 工作区的用户使用。"
     },
     "summary": {
         "initial_stars": 45579,
-        "current_stars": 50194,
-        "star_diff": 4615,
-        "growth_rate": 10.13,
+        "current_stars": 50214,
+        "star_diff": 4635,
+        "growth_rate": 10.17,
         "first_seen": "2026-05-14 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 51
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 52
     },
     "history": [
         {
@@ -374,6 +374,13 @@
             "stars": 50194,
             "forks": 4746,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 50214,
+            "forks": 4751,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

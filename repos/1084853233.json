@@ -6,16 +6,16 @@
         "name": "awesome-agent-skills",
         "html_url": "https:\/\/github.com\/VoltAgent\/awesome-agent-skills",
         "language": "Other",
-        "description": "一个精选的智能体（Agent）技能集合库，主要用于展示和分享各类基于大模型的自动化代理能力，涵盖任务规划、工具调用、记忆管理等功能，适合开发可自主决策的AI代理系统。"
+        "description": "整理智能体（Agent）技能与工具资源的精选列表，覆盖提示词、插件、扩展能力及实际用例，方便开发者快速查找可用于构建或增强AI代理的功能模块。通常适合正在设计自定义助手、自动化工作流或研究Agent生态的人群，帮助定位现有解决方案、避免重复造轮子，也适合作为学习与选型的参考索引。列表内容随社区更新，集中呈现开源项目与实用资料，便于对比和筛选。"
     },
     "summary": {
         "initial_stars": 27753,
-        "current_stars": 29906,
-        "star_diff": 2153,
-        "growth_rate": 7.76,
+        "current_stars": 29929,
+        "star_diff": 2176,
+        "growth_rate": 7.84,
         "first_seen": "2026-07-11 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 29906,
             "forks": 3212,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 29929,
+            "forks": 3214,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

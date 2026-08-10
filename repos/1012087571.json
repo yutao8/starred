@@ -6,16 +6,16 @@
         "name": "CLIProxyAPI",
         "html_url": "https:\/\/github.com\/router-for-me\/CLIProxyAPI",
         "language": "Go",
-        "description": "CLIProxyAPI 是一个用于简化命令行工具与 API 服务之间交互的代理接口，主要用于将 CLI 请求转发为 HTTP 调用，支持鉴权、参数映射和响应格式化，适合集成第三方服务或构建自动化工作流。"
+        "description": "CLIProxyAPI 用于将命令行工具封装为 HTTP 接口，使外部程序可以通过标准网络请求执行 CLI 命令并获取结果。它适合将已有脚本或终端工具集成进 Web 系统、微服务或自动化流程中的场景，能够避免重写原有功能，实现远程调用与统一访问入口。项目通常涉及请求解析、命令路由和输出转换等能力，具体行为需参考当前版本实现，整体解决的是“让命令行工具变成可编程网络服务”的常见问题。"
     },
     "summary": {
         "initial_stars": 42141,
-        "current_stars": 46757,
-        "star_diff": 4616,
-        "growth_rate": 10.95,
+        "current_stars": 46805,
+        "star_diff": 4664,
+        "growth_rate": 11.07,
         "first_seen": "2026-07-16 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 20
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 21
     },
     "history": [
         {
@@ -157,6 +157,13 @@
             "stars": 46757,
             "forks": 7237,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 46805,
+            "forks": 7244,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

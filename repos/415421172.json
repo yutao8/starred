@@ -6,16 +6,16 @@
         "name": "MediaCreationTool.bat",
         "html_url": "https:\/\/github.com\/AveYo\/MediaCreationTool.bat",
         "language": "Batchfile",
-        "description": "用于简化Windows系统镜像创建与安装的批处理工具，支持自动下载Media Creation Tool并制作启动盘，通常用于便捷部署Windows 10\/11系统，适用于需要频繁装机的用户，操作自动化程度高，无需手动干预即可完成镜像获取与U盘启动制作。"
+        "description": "用于创建 Windows 11 安装介质并绕过 TPM、安全启动等硬件限制的批处理工具。它提供交互式菜单，可下载官方镜像或制作启动 U 盘，并在安装阶段自动跳过硬件检查，使老旧电脑也能升级到 Windows 11。通常适合需要在不支持的环境中完成系统安装的用户，尤其适合因硬件不达标而无法正常升级的机器。"
     },
     "summary": {
         "initial_stars": 10177,
-        "current_stars": 10272,
-        "star_diff": 95,
-        "growth_rate": 0.93,
+        "current_stars": 10273,
+        "star_diff": 96,
+        "growth_rate": 0.94,
         "first_seen": "2026-04-02 00:00",
-        "last_seen": "2026-08-09 00:00",
-        "data_points_count": 62
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 63
     },
     "history": [
         {
@@ -451,6 +451,13 @@
             "stars": 10272,
             "forks": 3140,
             "file": "dist\/2026080900\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 10273,
+            "forks": 3140,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

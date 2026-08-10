@@ -6,16 +6,16 @@
         "name": "claude-desktop-zh-cn",
         "html_url": "https:\/\/github.com\/javaht\/claude-desktop-zh-cn",
         "language": "PowerShell",
-        "description": "该项目主要用于提供 Claude 桌面版的中文本地化支持，通过翻译界面文本、优化语言资源文件，帮助中文用户更方便地使用 Claude 桌面应用程序，提升使用体验。适用于需要中文界面交互的用户群体。"
+        "description": "面向中文用户打造的 Claude Desktop 汉化资源，提供简体中文语言包及替换方法，将 Anthropic 官方桌面客户端界面转换为中文。适用于英语界面上手困难、希望统一中文显示的个人用户或企业环境。一般结合原版客户端使用，通过下载相应文件并按指引覆盖或导入，即可实现菜单、设置等文字的中文本地化，降低使用门槛。仓库本身不涉及 Claude 功能修改，仅关注界面翻译。"
     },
     "summary": {
         "initial_stars": 4374,
-        "current_stars": 5919,
-        "star_diff": 1545,
-        "growth_rate": 35.32,
+        "current_stars": 5939,
+        "star_diff": 1565,
+        "growth_rate": 35.78,
         "first_seen": "2026-07-03 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 26
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 27
     },
     "history": [
         {
@@ -199,6 +199,13 @@
             "stars": 5919,
             "forks": 283,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 5939,
+            "forks": 282,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

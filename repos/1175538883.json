@@ -6,16 +6,16 @@
         "name": "pretext",
         "html_url": "https:\/\/github.com\/chenglou\/pretext",
         "language": "TypeScript",
-        "description": "Pretext 是一个用于在 React 组件中实现拖拽排序的轻量级库，主要用于构建可交互的列表、看板或排序界面，支持触摸和鼠标拖拽，提供简洁的 API 以集成到函数式组件中，适合开发需高效响应用户操作的排序场景。"
+        "description": "用于文本预处理的工具集，主要提供清洗、分割和规范化原始文本的功能。它包含一组可灵活组合的接口或命令，帮助开发者在数据分析、自然语言处理或信息抽取中快速构建处理流水线，减少重复代码。该库可嵌入到脚本或应用内使用，也能作为命令行工具独立运行，适合处理日志、文档等非结构化数据。设计上侧重简单与可扩展，方便执行批量操作，是数据预处理阶段的实用选择。"
     },
     "summary": {
         "initial_stars": 18314,
-        "current_stars": 49807,
-        "star_diff": 31493,
-        "growth_rate": 171.96,
+        "current_stars": 49813,
+        "star_diff": 31499,
+        "growth_rate": 171.99,
         "first_seen": "2026-03-31 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 73
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 74
     },
     "history": [
         {
@@ -528,6 +528,13 @@
             "stars": 49807,
             "forks": 2731,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 49813,
+            "forks": 2731,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

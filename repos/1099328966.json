@@ -6,16 +6,16 @@
         "name": "claude-code-system-prompts",
         "html_url": "https:\/\/github.com\/Piebald-AI\/claude-code-system-prompts",
         "language": "JavaScript",
-        "description": "该项目提供了一套用于增强 Claude AI 在编码任务中表现的系统提示词，旨在优化模型的代码生成、理解与调试能力，适用于需要高精度编程支持的自动化开发场景。"
+        "description": "本仓库收集并整理了 Claude Code 的系统提示词，集中展示驱动 Claude Code 在终端中完成编码任务的指令集。开发者可通过查看这些提示词，深入理解 Claude Code 的任务分解、工具调用和对话交互逻辑，便于调试提示词效果、对比版本差异，或借鉴其中的设计思路来定制属于自己的 AI 编程助手。通常适合提示词工程研究者、AI 辅助编程工具二次开发人员，以及希望更精准控制 Claude 行为的进阶用户。仓库本身以文档形式呈现内容，方便直接阅读和复制使用。"
     },
     "summary": {
         "initial_stars": 7886,
-        "current_stars": 12237,
-        "star_diff": 4351,
-        "growth_rate": 55.17,
+        "current_stars": 12240,
+        "star_diff": 4354,
+        "growth_rate": 55.21,
         "first_seen": "2026-04-02 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 72
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 73
     },
     "history": [
         {
@@ -521,6 +521,13 @@
             "stars": 12237,
             "forks": 2026,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 12240,
+            "forks": 2026,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

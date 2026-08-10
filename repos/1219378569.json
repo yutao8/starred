@@ -6,16 +6,16 @@
         "name": "gpt_image_playground",
         "html_url": "https:\/\/github.com\/CookSleep\/gpt_image_playground",
         "language": "TypeScript",
-        "description": "一个基于GPT和图像生成技术的交互式实验平台，主要用于结合文本理解与图像生成模型实现创意可视化、图像编辑和多模态内容探索，适合开发者和研究人员测试AIGC在图文任务中的应用效果。"
+        "description": "用于探索GPT与图像处理能力的试验场，通常提供直观界面让用户上传图片并通过自然语言指令进行内容识别、描述、编辑或生成相关操作。适合希望在现有GPT模型基础上快速验证图像理解与对话结合效果的开发者，也适合研究多模态交互的爱好者。项目聚焦于将视觉信息与语言模型衔接，帮助解决传统文本对话无法直接利用图片的问题。具体实现可能涉及多模态API调用与前后端交互，但项目更多作为学习、原型测试与功能演示范例，而非完整生产级应用。"
     },
     "summary": {
         "initial_stars": 3042,
-        "current_stars": 3367,
-        "star_diff": 325,
-        "growth_rate": 10.68,
+        "current_stars": 3372,
+        "star_diff": 330,
+        "growth_rate": 10.85,
         "first_seen": "2026-07-16 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 19
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 20
     },
     "history": [
         {
@@ -150,6 +150,13 @@
             "stars": 3367,
             "forks": 845,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 3372,
+            "forks": 845,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

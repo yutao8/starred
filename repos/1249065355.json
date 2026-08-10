@@ -6,16 +6,16 @@
         "name": "domd",
         "html_url": "https:\/\/github.com\/do-md\/domd",
         "language": "TypeScript",
-        "description": "do-md\/domd 是一个用于将 Markdown 文本转换为 DOM 节点的 JavaScript 工具，主要用于在浏览器环境中动态渲染 Markdown 内容，支持基本的 Markdown 语法解析并直接生成对应的 HTML 元素，便于集成到 Web 应用中实现实时预览或内容展示功能。"
+        "description": "用于解析和处理 Markdown 文档的开发工具，能将 Markdown 文本转换为结构化的 DOM 树或 HTML 片段，便于在应用中渲染或提取内容。通常适合构建文档系统、静态博客、在线编辑器等场景，也可以作为命令行工具使用。其设计侧重于将 Markdown 语法映射为可操作的 DOM 节点，帮助开发者实现自定义的转换和扩展。"
     },
     "summary": {
         "initial_stars": 273,
-        "current_stars": 456,
-        "star_diff": 183,
-        "growth_rate": 67.03,
+        "current_stars": 457,
+        "star_diff": 184,
+        "growth_rate": 67.4,
         "first_seen": "2026-05-30 00:00",
-        "last_seen": "2026-08-08 18:00",
-        "data_points_count": 32
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 33
     },
     "history": [
         {
@@ -241,6 +241,13 @@
             "stars": 456,
             "forks": 18,
             "file": "dist\/2026080818\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 457,
+            "forks": 18,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

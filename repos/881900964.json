@@ -6,16 +6,16 @@
         "name": "oci-helper",
         "html_url": "https:\/\/github.com\/Yohann0617\/oci-helper",
         "language": "Java",
-        "description": "oci-helper 是一个用于简化 OCI（Oracle Cloud Infrastructure）资源管理的工具，主要用于自动化创建和配置 Oracle 云实例，支持快速部署 VM 实例、配置网络、密钥管理及资源清理，适合需要频繁测试或部署轻量级云环境的用户，通过命令行交互提升操作效率。"
+        "description": "OCI Helper 是一款面向 Oracle Cloud Infrastructure 的辅助工具，主要帮助用户简化云资源的管理与常见操作。通常以命令行或脚本形式运行，适合需要批量处理实例、存储、网络等资源的场景，能够减少在控制台上手动点击的步骤，提升运维和开发效率。对于熟悉 Oracle 云平台的开发者或管理员而言，它提供了一种更便捷的方式来执行常规任务，降低操作复杂度。"
     },
     "summary": {
         "initial_stars": 486,
-        "current_stars": 778,
-        "star_diff": 292,
-        "growth_rate": 60.08,
+        "current_stars": 779,
+        "star_diff": 293,
+        "growth_rate": 60.29,
         "first_seen": "2026-03-31 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 65
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 66
     },
     "history": [
         {
@@ -472,6 +472,13 @@
             "stars": 778,
             "forks": 109,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 779,
+            "forks": 109,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

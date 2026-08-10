@@ -6,16 +6,16 @@
         "name": "snow-apps",
         "html_url": "https:\/\/github.com\/mg-chao\/snow-shot",
         "language": "TypeScript",
-        "description": "用于管理和部署雪花算法相关应用的工具集，主要用于生成分布式环境下的唯一ID，适用于需要高并发唯一标识的业务场景，支持多种配置扩展与应用集成。"
+        "description": "用于整理多个小规模应用，通常适合开发者作为个人工具集或练习项目参考。仓库以统一的命名方式汇集若干功能独立的子应用，便于单独运行和维护，适合解决需要把多个轻量工具集中管理、统一展示的问题，也可作为前端或全栈开发中组织多项目结构的参考模板。具体功能取决于仓库中实际包含的应用，使用时建议先查看目录说明。"
     },
     "summary": {
         "initial_stars": 4772,
-        "current_stars": 4896,
-        "star_diff": 124,
-        "growth_rate": 2.6,
+        "current_stars": 4897,
+        "star_diff": 125,
+        "growth_rate": 2.62,
         "first_seen": "2026-07-09 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 4896,
             "forks": 292,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 4897,
+            "forks": 293,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

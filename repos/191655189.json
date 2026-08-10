@@ -6,16 +6,16 @@
         "name": "ent",
         "html_url": "https:\/\/github.com\/ent\/ent",
         "language": "Go",
-        "description": "一个专为Go语言设计的实体框架，用于构建和管理数据库模型，支持代码生成、强类型的查询API以及可扩展的架构，适用于构建复杂的数据访问层。"
+        "description": "ent 是用于 Go 语言的一款实体框架，核心价值在于把数据模型定义成代码，并通过代码生成机制自动产出类型安全的查询、更新和删除操作，省去手写大量样板代码的麻烦。它特别适合需要长期维护复杂数据模型的应用，比如电商、社交或企业后台系统，让开发者用 Go 语法描述表结构，编译时就能发现字段或关联错误，并在运行时免受类型转换困扰。该框架直接支持 GraphQL、gRPC 和 REST 等多种协议接入，能简化前后端数据契约的维护工作，通常与数据库迁移、缓存及事件驱动架构配合使用。"
     },
     "summary": {
         "initial_stars": 17121,
-        "current_stars": 17164,
-        "star_diff": 43,
-        "growth_rate": 0.25,
+        "current_stars": 17165,
+        "star_diff": 44,
+        "growth_rate": 0.26,
         "first_seen": "2026-06-29 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 17164,
             "forks": 1007,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 17165,
+            "forks": 1007,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

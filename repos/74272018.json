@@ -6,16 +6,16 @@
         "name": "openvpn-install",
         "html_url": "https:\/\/github.com\/angristan\/openvpn-install",
         "language": "Shell",
-        "description": "用于在 Linux 服务器上快速部署 OpenVPN 的脚本工具，支持一键安装、用户管理与配置文件生成，简化了搭建安全虚拟专用网络的过程，适合需要远程安全访问私有网络的场景。"
+        "description": "用于快速部署和管理OpenVPN服务器的自动化脚本，支持主流Linux发行版。通过交互式向导完成配置，无需手动编辑复杂的配置文件，适合个人或企业快速搭建安全的远程访问通道。脚本涵盖安装、客户端证书生成、用户增删及卸载等常见操作，典型使用场景包括保护公共Wi-Fi连接、远程访问内网资源，或为团队提供轻量级VPN服务。"
     },
     "summary": {
         "initial_stars": 15964,
-        "current_stars": 16092,
-        "star_diff": 128,
-        "growth_rate": 0.8,
+        "current_stars": 16094,
+        "star_diff": 130,
+        "growth_rate": 0.81,
         "first_seen": "2026-06-15 00:00",
-        "last_seen": "2026-08-10 06:00",
-        "data_points_count": 31
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 32
     },
     "history": [
         {
@@ -234,6 +234,13 @@
             "stars": 16092,
             "forks": 3339,
             "file": "dist\/2026081006\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 16094,
+            "forks": 3339,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

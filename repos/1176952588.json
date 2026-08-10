@@ -6,16 +6,16 @@
         "name": "relayAPI",
         "html_url": "https:\/\/github.com\/zzsting88\/relayAPI",
         "language": "TypeScript",
-        "description": "relayAPI 是一个用于简化 API 请求转发与代理的 Node.js 服务，主要用于前后端分离开发中解决跨域问题，支持请求拦截、参数修改、本地模拟数据等功能，便于调试和提升开发效率。"
+        "description": "为开发者提供 API 请求的中继与转发能力，通常用于隐藏真实请求来源、跨域代理或聚合多个接口。典型场景包括前后端分离时的接口代理、第三方服务调用时的统一入口，以及需要身份鉴权或流量控制的中转层。通过配置路由规则即可将客户端请求转发到目标服务器，适合需要简化网络策略或调试接口的场景。"
     },
     "summary": {
         "initial_stars": 3277,
-        "current_stars": 3833,
-        "star_diff": 556,
-        "growth_rate": 16.97,
+        "current_stars": 3841,
+        "star_diff": 564,
+        "growth_rate": 17.21,
         "first_seen": "2026-07-16 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 20
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 21
     },
     "history": [
         {
@@ -157,6 +157,13 @@
             "stars": 3833,
             "forks": 138,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 3841,
+            "forks": 138,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

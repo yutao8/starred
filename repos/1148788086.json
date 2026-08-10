@@ -6,16 +6,16 @@
         "name": "skills",
         "html_url": "https:\/\/github.com\/mattpocock\/skills",
         "language": "Shell",
-        "description": "该项目主要用于展示和分享 TypeScript 相关技能与实战经验，通过代码示例帮助开发者提升类型体操、泛型编程及类型推导等高级 TypeScript 技术的应用能力。"
+        "description": "面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进的挑战题或实战题形式组织，内容涵盖泛型、条件类型、类型推断等进阶主题。适合希望系统掌握复杂类型设计的开发者，用于解决实际工程中抽象类型逻辑、提升类型可维护性等问题。可以作为自学或课程配套资源，通过边做边学检验对类型机制的理解，是巩固 TypeScript 高级技能的实用工具。"
     },
     "summary": {
         "initial_stars": 164244,
-        "current_stars": 211429,
-        "star_diff": 47185,
-        "growth_rate": 28.73,
+        "current_stars": 211896,
+        "star_diff": 47652,
+        "growth_rate": 29.01,
         "first_seen": "2026-07-11 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 22
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 23
     },
     "history": [
         {
@@ -171,6 +171,13 @@
             "stars": 211429,
             "forks": 18277,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 211896,
+            "forks": 18312,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

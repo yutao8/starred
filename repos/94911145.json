@@ -6,16 +6,16 @@
         "name": "docusaurus",
         "html_url": "https:\/\/github.com\/facebook\/docusaurus",
         "language": "TypeScript",
-        "description": "用于快速构建开源项目文档的前端静态网站生成器，基于 React 和 Markdown，支持文档版本管理、国际化、搜索优化和插件扩展，适合团队协作编写技术文档、博客和落地页。"
+        "description": "Docusaurus是一款用于构建静态文档网站的开源工具，重点面向开发者与文档维护者。它借助React和MDX 支持，将 Markdown 内容渲染成响应式页面，并提供内置的文档版本管理、侧边栏导航、搜索集成及国际化能力，同时内置博客模块。通常适合为开源项目编写说明文档，也可用于搭建产品帮助中心或小型官网。只需专注写作内容，即可获得设计统一、加载迅速且易于部署到GitHub Pages或Netlify等平台的站点，解决文档组织繁琐和网站维护成本高的问题。"
     },
     "summary": {
         "initial_stars": 64728,
-        "current_stars": 65869,
-        "star_diff": 1141,
-        "growth_rate": 1.76,
+        "current_stars": 65873,
+        "star_diff": 1145,
+        "growth_rate": 1.77,
         "first_seen": "2026-04-28 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 59
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 60
     },
     "history": [
         {
@@ -430,6 +430,13 @@
             "stars": 65869,
             "forks": 9997,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 65873,
+            "forks": 9997,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

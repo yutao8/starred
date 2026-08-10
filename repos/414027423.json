@@ -6,16 +6,16 @@
         "name": "eSearch",
         "html_url": "https:\/\/github.com\/xushengfeng\/eSearch",
         "language": "TypeScript",
-        "description": "eSearch 是一个基于 Elasticsearch 的搜索增强工具，主要用于简化搜索功能的集成与扩展，支持全文检索、复杂查询构造和高亮显示，适用于需要快速构建高效搜索服务的 Java 应用。"
+        "description": "eSearch 是一款聚合多种搜索引擎的桌面搜索工具，主要用于在单一界面内快速查找网页、图片、学术资料等内容。它通常集成了主流搜索服务，支持关键词快速切换和自定义规则，适合需要频繁跨平台检索的办公学习场景。该工具以轻量、高效为设计目标，能减少在多个标签页或应用间切换的繁琐操作，提升信息获取效率。"
     },
     "summary": {
         "initial_stars": 6494,
-        "current_stars": 6927,
-        "star_diff": 433,
-        "growth_rate": 6.67,
+        "current_stars": 6930,
+        "star_diff": 436,
+        "growth_rate": 6.71,
         "first_seen": "2026-07-09 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 21
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 22
     },
     "history": [
         {
@@ -164,6 +164,13 @@
             "stars": 6927,
             "forks": 503,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 6930,
+            "forks": 503,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "caesium-image-compressor",
         "html_url": "https:\/\/github.com\/Lymphatus\/caesium-image-compressor",
         "language": "C++",
-        "description": "基于 Electron 的跨平台图像压缩工具，主要用于通过去除元数据和优化编码来减小 PNG、JPEG、WebP 等格式图片体积，适合需要批量处理图像的桌面端用户，支持拖拽操作和图形界面实时预览压缩效果。"
+        "description": "用于批量压缩图片并优化文件体积，支持 JPG、PNG 等常见格式，通过调整压缩参数在保证可接受画质的前提下显著减小存储占用。它适合网站图片优化、摄影作品归档、日常分享前快速瘦身等场景，可一次处理整个文件夹。提供了图形界面和命令行两种操作方式，方便不同用户使用。该工具注重处理速度和压缩效率，是解决图片存储空间紧张或页面加载缓慢的实用选择。"
     },
     "summary": {
         "initial_stars": 6117,

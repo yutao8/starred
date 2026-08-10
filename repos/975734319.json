@@ -6,16 +6,16 @@
         "name": "opencode",
         "html_url": "https:\/\/github.com\/anomalyco\/opencode",
         "language": "TypeScript",
-        "description": "一个开源代码协作平台，主要用于代码托管、版本控制和团队协作开发，支持仓库管理、代码审查、持续集成等常见软件开发功能，便于开发者共享和贡献开源项目。"
+        "description": "opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需离开命令行即可获得代码生成、补全和调试支持。它适合习惯 CLI 工作流的程序员，在编写脚本、重构代码或排查问题时提供类似结对编程的辅助。该项目通常能接入多种主流大语言模型，并支持交互式会话，使开发者用自然语言描述需求后直接执行命令或生成补丁。对于希望低成本集成 AI 编程能力、又不想使用重型 IDE 插件的团队或个人，opencode 提供了一个轻量且灵活的替代方案。"
     },
     "summary": {
         "initial_stars": 171597,
-        "current_stars": 195499,
-        "star_diff": 23902,
-        "growth_rate": 13.93,
+        "current_stars": 195622,
+        "star_diff": 24025,
+        "growth_rate": 14,
         "first_seen": "2026-06-09 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 38
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 39
     },
     "history": [
         {
@@ -283,6 +283,13 @@
             "stars": 195499,
             "forks": 25066,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 195622,
+            "forks": 25077,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "claude-code",
         "html_url": "https:\/\/github.com\/jarmuine\/claude-code",
         "language": "TypeScript",
-        "description": "一个基于Claude大模型的代码生成与理解工具，主要用于辅助开发者编写、审查和优化代码，支持多种编程语言，提供智能代码补全、错误检测和重构建议功能，适合集成到开发环境或用于自动化代码处理流程。"
+        "description": "面向终端开发场景的智能编码辅助工具，基于 Claude 模型为开发者提供代码生成、重构、调试与解释能力。用户可通过自然语言下达指令，工具能读取项目文件、定位问题位置、批量修改代码并执行测试，适合日常编程、代码审阅和快速原型搭建等场景。常见用法包括接入现有项目后在命令行内完成对话式开发，减少上下文切换，适用于使用终端和 Git 的开发者。"
     },
     "summary": {
         "initial_stars": 1200,
@@ -14,8 +14,8 @@
         "star_diff": 1068,
         "growth_rate": 89,
         "first_seen": "2026-04-02 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 70
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 71
     },
     "history": [
         {
@@ -507,6 +507,13 @@
             "stars": 2268,
             "forks": 5930,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 2268,
+            "forks": 5929,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

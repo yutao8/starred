@@ -6,16 +6,16 @@
         "name": "claude-code",
         "html_url": "https:\/\/github.com\/claude-code-best\/claude-code",
         "language": "TypeScript",
-        "description": "无法确定该仓库的具体内容，可能是一个与 Claude 代码相关的项目，但信息不足且仓库名称不明确，建议提供更准确的仓库链接或详细信息以便进一步了解。"
+        "description": "面向 Claude Code 用户整理的最佳实践与资源合集，主要收集了该 AI 编程工具的使用技巧、配置建议和常见工作流模式，帮助开发者更高效地完成代码生成、重构与调试等任务。内容通常适合已经入门但希望挖掘工具潜力的程序员，既包含日常操作经验，也涉及复杂场景下的自动化用法，可以直接参考或按需选用。"
     },
     "summary": {
         "initial_stars": 12863,
-        "current_stars": 21928,
-        "star_diff": 9065,
-        "growth_rate": 70.47,
+        "current_stars": 21946,
+        "star_diff": 9083,
+        "growth_rate": 70.61,
         "first_seen": "2026-04-04 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 71
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 72
     },
     "history": [
         {
@@ -514,6 +514,13 @@
             "stars": 21928,
             "forks": 16482,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 21946,
+            "forks": 16480,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

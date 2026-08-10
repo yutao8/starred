@@ -6,16 +6,16 @@
         "name": "deskflow",
         "html_url": "https:\/\/github.com\/deskflow\/deskflow",
         "language": "C++",
-        "description": "DeskFlow 是一个用于管理和自动化工作流的桌面应用程序，主要用于提升多任务处理效率。它支持跨设备同步、任务分组、快捷操作和自定义自动化规则，适合需要高效组织窗口、文件和应用的用户。"
+        "description": "Deskflow 是一款开源的跨设备键鼠共享工具，主要用于让多台计算机共用同一套键盘和鼠标，实现无缝切换操作，无需额外硬件。它支持局域网内多平台互联，用户只需将鼠标移动到屏幕边缘即可在不同电脑间流转，并支持剪贴板共享和文件拖拽传输。适合拥有多台电脑、希望统一办公环境的开发者、设计师或家庭用户，能有效减少桌面杂乱并提升工作效率。该工具强调安全连接，可配置加密，是商业软件的轻量替代方案。"
     },
     "summary": {
         "initial_stars": 27362,
-        "current_stars": 27951,
-        "star_diff": 589,
-        "growth_rate": 2.15,
+        "current_stars": 27961,
+        "star_diff": 599,
+        "growth_rate": 2.19,
         "first_seen": "2026-07-16 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 20
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 21
     },
     "history": [
         {
@@ -157,6 +157,13 @@
             "stars": 27951,
             "forks": 4769,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 27961,
+            "forks": 4769,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }

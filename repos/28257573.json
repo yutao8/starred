@@ -6,16 +6,16 @@
         "name": "framework",
         "html_url": "https:\/\/github.com\/flarum\/framework",
         "language": "PHP",
-        "description": "Flarum 是一个简约、高效的开源论坛软件，基于 PHP 构建，注重性能与用户体验。它采用现代化的技术栈，提供轻量级、模块化的社区解决方案，适合构建简洁、响应迅速的讨论社区。"
+        "description": "Flarum 是一个简洁现代的 PHP 论坛框架，这套代码是其核心组件，用于构建轻量且响应迅速的社区讨论平台。它采用模块化设计，支持扩展主题与功能，界面流畅，适合需要快速部署、体验清爽的在线交流场景，尤其吸引追求性能与简洁开发体验的技术型社区。"
     },
     "summary": {
         "initial_stars": 6706,
-        "current_stars": 6739,
-        "star_diff": 33,
-        "growth_rate": 0.49,
+        "current_stars": 6740,
+        "star_diff": 34,
+        "growth_rate": 0.51,
         "first_seen": "2026-04-28 00:00",
-        "last_seen": "2026-08-10 12:00",
-        "data_points_count": 44
+        "last_seen": "2026-08-10 18:00",
+        "data_points_count": 45
     },
     "history": [
         {
@@ -325,6 +325,13 @@
             "stars": 6739,
             "forks": 879,
             "file": "dist\/2026081012\/starList.public.json"
+        },
+        {
+            "date": "2026-08-10 18:00",
+            "timestamp": 1786356000,
+            "stars": 6740,
+            "forks": 879,
+            "file": "dist\/2026081018\/starList.public.json"
         }
     ]
 }
