@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-13 12:00:17",
+    "updated_at": "2026-08-13 18:00:39",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1602,7 +1602,8 @@
         "2026081218": true,
         "2026081300": true,
         "2026081306": true,
-        "2026081312": true
+        "2026081312": true,
+        "2026081318": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -7463,7 +7464,25 @@
         "32202165": 32202165,
         "microsoft\/playwright": 221981891,
         "playwright": 221981891,
-        "221981891": 221981891
+        "221981891": 221981891,
+        "thingsboard\/thingsboard": 75277003,
+        "thingsboard": 75277003,
+        "75277003": 75277003,
+        "snowluma\/snowluma": 1001388322,
+        "snowluma": 1001388322,
+        "1001388322": 1001388322,
+        "napneko\/napcatqq": 777721566,
+        "napcatqq": 777721566,
+        "777721566": 777721566,
+        "astrbotdevs\/astrbot": 575865240,
+        "astrbot": 575865240,
+        "575865240": 575865240,
+        "shuakami\/qq-chat-exporter": 826579501,
+        "qq-chat-exporter": 826579501,
+        "826579501": 826579501,
+        "tencent\/openclaw-weixin": 1193527047,
+        "openclaw-weixin": 1193527047,
+        "1193527047": 1193527047
     },
     "repos_meta": {
         "7036331": {
@@ -17340,7 +17359,37 @@
             "id": 221981891,
             "full_name": "microsoft\/playwright",
             "file": "repos\/221981891.json"
+        },
+        "75277003": {
+            "id": 75277003,
+            "full_name": "thingsboard\/thingsboard",
+            "file": "repos\/75277003.json"
+        },
+        "1001388322": {
+            "id": 1001388322,
+            "full_name": "SnowLuma\/SnowLuma",
+            "file": "repos\/1001388322.json"
+        },
+        "777721566": {
+            "id": 777721566,
+            "full_name": "NapNeko\/NapCatQQ",
+            "file": "repos\/777721566.json"
+        },
+        "575865240": {
+            "id": 575865240,
+            "full_name": "AstrBotDevs\/AstrBot",
+            "file": "repos\/575865240.json"
+        },
+        "826579501": {
+            "id": 826579501,
+            "full_name": "shuakami\/qq-chat-exporter",
+            "file": "repos\/826579501.json"
+        },
+        "1193527047": {
+            "id": 1193527047,
+            "full_name": "Tencent\/openclaw-weixin",
+            "file": "repos\/1193527047.json"
         }
     },
-    "snapshot_count": 1601
+    "snapshot_count": 1602
 }
