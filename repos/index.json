@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-15 06:00:19",
+    "updated_at": "2026-08-15 12:00:22",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1609,7 +1609,8 @@
         "2026081412": true,
         "2026081418": true,
         "2026081500": true,
-        "2026081506": true
+        "2026081506": true,
+        "2026081512": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -7488,7 +7489,10 @@
         "826579501": 826579501,
         "tencent\/openclaw-weixin": 1193527047,
         "openclaw-weixin": 1193527047,
-        "1193527047": 1193527047
+        "1193527047": 1193527047,
+        "localsend\/localsend": 578822531,
+        "localsend": 578822531,
+        "578822531": 578822531
     },
     "repos_meta": {
         "7036331": {
@@ -17395,7 +17399,12 @@
             "id": 1193527047,
             "full_name": "Tencent\/openclaw-weixin",
             "file": "repos\/1193527047.json"
+        },
+        "578822531": {
+            "id": 578822531,
+            "full_name": "localsend\/localsend",
+            "file": "repos\/578822531.json"
         }
     },
-    "snapshot_count": 1608
+    "snapshot_count": 1609
 }
