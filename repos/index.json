@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-21 06:00:18",
+    "updated_at": "2026-08-21 12:00:24",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1633,7 +1633,8 @@
         "2026082012": true,
         "2026082018": true,
         "2026082100": true,
-        "2026082106": true
+        "2026082106": true,
+        "2026082112": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -6008,7 +6009,7 @@
         "virb3\/wgcf": 255437195,
         "wgcf": 255437195,
         "255437195": 255437195,
-        "apernet\/hysteria": 257434373,
+        "hynetworks\/hysteria": 257434373,
         "hysteria": 257434373,
         "257434373": 257434373,
         "alibaba\/f2etest": 41773057,
@@ -14898,7 +14899,7 @@
         },
         "257434373": {
             "id": 257434373,
-            "full_name": "apernet\/hysteria",
+            "full_name": "HyNetworks\/hysteria",
             "file": "repos\/257434373.json"
         },
         "41773057": {
@@ -17477,5 +17478,5 @@
             "file": "repos\/931319043.json"
         }
     },
-    "snapshot_count": 1632
+    "snapshot_count": 1633
 }

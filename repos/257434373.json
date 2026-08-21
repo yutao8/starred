@@ -2,20 +2,20 @@
     "status": "success",
     "repo": {
         "id": 257434373,
-        "full_name": "apernet\/hysteria",
+        "full_name": "HyNetworks\/hysteria",
         "name": "hysteria",
         "html_url": "https:\/\/github.com\/apernet\/hysteria",
         "language": "Go",
-        "description": "Hysteria 是一个基于 QUIC 协议实现的代理工具，主打高性能与强抗封锁能力。它能通过自定义拥塞控制算法优化弱网环境下的传输速度，并对流量进行伪装，从而避开深度包检测。其典型用途包括科学上网、内网穿透和构建隐蔽通信通道。该仓库由 Go 语言编写，提供服务端和客户端命令行工具，支持 Windows、Linux、macOS 等主流平台。服务器只需开放单个 UDP 端口即可服务多用户，配合域名证书即可快速部署。对于有稳定高速代理需求且网络条件较复杂的用户，通常会成为优先考虑的选择。"
+        "description": "用于构建高性能、防封锁的网络代理工具，其核心基于 QUIC 协议，能够显著提升弱网环境下的传输速度和稳定性。它针对丢包和延迟做了优化，通常适合在需要翻越防火墙、避免限速或改善跨国连接质量时使用。该工具支持将流量伪装成 HTTP\/3，以此混淆特征并抵抗流量深度检测，同时提供 SOCKS5 代理能力，便于接入现有应用。它的目标是实现接近硬件的转发效率并适应复杂网络环境，是安全研究和隐私保护场景下常见的加速与穿透方案。"
     },
     "summary": {
         "initial_stars": 16669,
-        "current_stars": 22360,
-        "star_diff": 5691,
-        "growth_rate": 34.14,
+        "current_stars": 22362,
+        "star_diff": 5693,
+        "growth_rate": 34.15,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-21 06:00",
-        "data_points_count": 238
+        "last_seen": "2026-08-21 12:00",
+        "data_points_count": 239
     },
     "history": [
         {
@@ -1683,6 +1683,13 @@
             "stars": 22360,
             "forks": 2243,
             "file": "dist\/2026082106\/starList.public.json"
+        },
+        {
+            "date": "2026-08-21 12:00",
+            "timestamp": 1787284800,
+            "stars": 22362,
+            "forks": 2243,
+            "file": "dist\/2026082112\/starList.public.json"
         }
     ]
 }
