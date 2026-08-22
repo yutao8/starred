@@ -2,20 +2,20 @@
     "status": "success",
     "repo": {
         "id": 956337638,
-        "full_name": "ayangweb\/BongoCat",
+        "full_name": "BongoCatPet\/BongoCat",
         "name": "BongoCat",
         "html_url": "https:\/\/github.com\/ayangweb\/BongoCat",
         "language": "TypeScript",
-        "description": "为开发者与直播用户提供桌面互动小工具，运行时在屏幕上显示一只随着键盘敲击和鼠标点击节奏打鼓的猫咪动画，通过真实输入触发动效反馈，常用于录制编程视频、直播打字场景中提升视觉趣味性，适合需要展示键盘操作节奏的场合。"
+        "description": "在桌面上养一只邦戈猫宠物，以 Bongo Cat 为原型，让动画常驻屏幕。它能根据键盘敲击和鼠标点击做出敲击动作，并支持自定义外观和触发效果，常见于摸鱼陪伴、直播互动或桌面美化。作为轻量级桌面应用，通常以悬浮窗形式运行，不干扰正常操作，通过增加日常操作中的趣味反馈，解决屏幕闲置时缺少陪伴和小玩伴的问题。"
     },
     "summary": {
         "initial_stars": 7906,
-        "current_stars": 22720,
-        "star_diff": 14814,
-        "growth_rate": 187.38,
+        "current_stars": 22725,
+        "star_diff": 14819,
+        "growth_rate": 187.44,
         "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-22 12:00",
-        "data_points_count": 247
+        "last_seen": "2026-08-22 18:00",
+        "data_points_count": 248
     },
     "history": [
         {
@@ -1746,6 +1746,13 @@
             "stars": 22720,
             "forks": 1095,
             "file": "dist\/2026082212\/starList.public.json"
+        },
+        {
+            "date": "2026-08-22 18:00",
+            "timestamp": 1787392800,
+            "stars": 22725,
+            "forks": 1095,
+            "file": "dist\/2026082218\/starList.public.json"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-22 12:00:18",
+    "updated_at": "2026-08-22 18:01:05",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1638,7 +1638,8 @@
         "2026082118": true,
         "2026082200": true,
         "2026082206": true,
-        "2026082212": true
+        "2026082212": true,
+        "2026082218": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -2457,7 +2458,7 @@
         "houshanren\/hangzhou_house_knowledge": 122692377,
         "hangzhou_house_knowledge": 122692377,
         "122692377": 122692377,
-        "bestony\/wx-subscribe": 131499334,
+        "wpstoreapp\/wx-subscribe": 131499334,
         "wx-subscribe": 131499334,
         "131499334": 131499334,
         "huangdali\/m3u8manger": 98173038,
@@ -6344,7 +6345,7 @@
         "luckjiawei\/frpc-desktop": 723986046,
         "frpc-desktop": 723986046,
         "723986046": 723986046,
-        "ayangweb\/bongocat": 956337638,
+        "bongocatpet\/bongocat": 956337638,
         "bongocat": 956337638,
         "956337638": 956337638,
         "richasy\/bili.copilot": 666300276,
@@ -7550,7 +7551,10 @@
         "301669663": 301669663,
         "librehardwaremonitor\/librehardwaremonitor": 99942769,
         "librehardwaremonitor": 99942769,
-        "99942769": 99942769
+        "99942769": 99942769,
+        "chaitin\/pandawiki": 984133376,
+        "pandawiki": 984133376,
+        "984133376": 984133376
     },
     "repos_meta": {
         "7036331": {
@@ -8920,7 +8924,7 @@
         },
         "131499334": {
             "id": 131499334,
-            "full_name": "bestony\/wx-subscribe",
+            "full_name": "WPStoreApp\/wx-subscribe",
             "file": "repos\/131499334.json"
         },
         "98173038": {
@@ -15475,7 +15479,7 @@
         },
         "956337638": {
             "id": 956337638,
-            "full_name": "ayangweb\/BongoCat",
+            "full_name": "BongoCatPet\/BongoCat",
             "file": "repos\/956337638.json"
         },
         "666300276": {
@@ -17512,7 +17516,12 @@
             "id": 99942769,
             "full_name": "LibreHardwareMonitor\/LibreHardwareMonitor",
             "file": "repos\/99942769.json"
+        },
+        "984133376": {
+            "id": 984133376,
+            "full_name": "chaitin\/PandaWiki",
+            "file": "repos\/984133376.json"
         }
     },
-    "snapshot_count": 1637
+    "snapshot_count": 1638
 }
