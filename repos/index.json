@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-23 12:00:15",
+    "updated_at": "2026-08-23 18:00:18",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -1642,7 +1642,8 @@
         "2026082218": true,
         "2026082300": true,
         "2026082306": true,
-        "2026082312": true
+        "2026082312": true,
+        "2026082318": true
     },
     "map": {
         "sensepost\/snoopy": 7036331,
@@ -7557,7 +7558,13 @@
         "99942769": 99942769,
         "chaitin\/pandawiki": 984133376,
         "pandawiki": 984133376,
-        "984133376": 984133376
+        "984133376": 984133376,
+        "mirrorz-org\/mirrorz": 327838892,
+        "mirrorz": 327838892,
+        "327838892": 327838892,
+        "lizhipay\/acg-faka": 432476753,
+        "acg-faka": 432476753,
+        "432476753": 432476753
     },
     "repos_meta": {
         "7036331": {
@@ -17524,7 +17531,17 @@
             "id": 984133376,
             "full_name": "chaitin\/PandaWiki",
             "file": "repos\/984133376.json"
+        },
+        "327838892": {
+            "id": 327838892,
+            "full_name": "mirrorz-org\/mirrorz",
+            "file": "repos\/327838892.json"
+        },
+        "432476753": {
+            "id": 432476753,
+            "full_name": "lizhipay\/acg-faka",
+            "file": "repos\/432476753.json"
         }
     },
-    "snapshot_count": 1641
+    "snapshot_count": 1642
 }
