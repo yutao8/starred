@@ -15,13 +15,17 @@
         .index-layout {
             display: flex;
             min-height: calc(100vh - var(--nav-height));
+            transition: max-width 0.3s ease;
+        }
+        [data-layout="boxed"] .index-layout {
+            max-width: 1536px;
+            margin: 0 auto;
         }
 
         .index-sidebar {
-            position: fixed;
+            position: sticky;
             top: var(--nav-height);
-            left: 0;
-            bottom: 0;
+            height: calc(100vh - var(--nav-height));
             width: var(--sidebar-width);
             background: var(--bg-surface);
             border-right: 1px solid var(--border-color);
@@ -29,14 +33,14 @@
             z-index: 900;
             padding: 1.2rem 0.8rem;
             transition: transform 0.25s ease, background-color 0.2s ease, border-color 0.2s ease;
+            flex-shrink: 0;
         }
 
         .index-content {
             flex: 1;
-            margin-left: var(--sidebar-width);
             padding: 2rem 2.5rem 4rem;
             min-height: calc(100vh - var(--nav-height));
-            max-width: calc(100vw - var(--sidebar-width));
+            min-width: 0;
         }
 
         /* 侧边栏语言项 */
@@ -196,6 +200,8 @@
 
         @media (max-width: 992px) {
             .index-sidebar {
+                position: fixed;
+                left: 0;
                 transform: translateX(-100%);
             }
             .index-sidebar.show {
@@ -203,9 +209,7 @@
                 box-shadow: var(--shadow-lg);
             }
             .index-content {
-                margin-left: 0;
                 padding: 1.5rem 1rem 3rem;
-                max-width: 100%;
             }
         }
     </style>
@@ -248,6 +252,9 @@
                     <a href="https://github.com/yutao8/starred" target="_blank" class="app-icon-btn" title="GitHub 仓库">
                         <i class="bi bi-github"></i>
                     </a>
+                    <button class="app-icon-btn theme-toggle-btn" @click="toggleLayout" title="切换宽屏/居中模式">
+                        <i :class="isFluid ? 'bi bi-fullscreen-exit' : 'bi bi-fullscreen'"></i>
+                    </button>
                     <button class="app-icon-btn theme-toggle-btn" @click="toggleTheme" title="切换暗黑/明亮主题">
                         <i :class="isDark ? 'bi bi-sun-fill' : 'bi bi-moon-stars-fill'"></i>
                     </button>
@@ -449,6 +456,12 @@ createApp({
             isDark.value = (next === 'dark');
         };
 
+        const isFluid = ref(StarredCommon.getLayout() === 'fluid');
+        const toggleLayout = () => {
+            const next = StarredCommon.toggleLayout();
+            isFluid.value = (next === 'fluid');
+        };
+
         const loading = ref(true);
         const error = ref(null);
         const searchQuery = ref('');
@@ -636,6 +649,7 @@ createApp({
 
         return {
             isDark,
+            isFluid,
             loading,
             error,
             searchQuery,
@@ -646,6 +660,7 @@ createApp({
             sidebarGroupedProjects,
             groupedProjects,
             toggleTheme,
+            toggleLayout,
             toggleSidebar,
             getLangColor,
             scrollToLang

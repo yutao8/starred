@@ -705,3 +705,11 @@ body {
 .text-primary { color: var(--text-primary) !important; }
 .text-secondary { color: var(--text-secondary) !important; }
 .text-muted { color: var(--text-muted) !important; }
+
+/* ═══════════════════════════════════════════════
+ * 布局模式适配
+ * ═══════════════════════════════════════════════ */
+[data-layout="boxed"] .app-navbar-inner {
+    max-width: 1536px;
+    margin: 0 auto;
+}

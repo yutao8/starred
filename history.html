@@ -3,892 +3,568 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>项目历史星标与趋势 - Starred Projects</title>
+    <title>历史走势 · Starred Projects</title>
+    <meta name="description" content="单项目 GitHub Star 与 Fork 演进轨迹、历史快照点与交互式图表">
     <link href="./assets/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/vendor/bootstrap-icons.css" rel="stylesheet">
-    <!-- 引入 ECharts 图表库 -->
+    <link href="./assets/css/app.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+    <script src="./assets/js/common.js"></script>
     <style>
-        :root {
-            --vp-c-brand: #3eaf7c;
-            --vp-c-brand-light: #4abf8a;
-            --vp-c-brand-dark: #36a06d;
-            --vp-c-text-1: #2c3e50;
-            --vp-c-text-2: #476582;
-            --vp-c-text-3: #90a4b7;
-            --vp-c-bg: #ffffff;
-            --vp-c-bg-soft: #f9fafb;
-            --vp-c-bg-mute: #f1f4f8;
-            --vp-c-bg-alt: #f8fafc;
-            --vp-c-border: #e2e8f0;
-            --vp-c-divider: #e2e8f0;
-        }
-
-        [data-theme="dark"] {
-            --vp-c-bg: #1a1a1a;
-            --vp-c-bg-soft: #242424;
-            --vp-c-bg-mute: #2d2d2d;
-            --vp-c-bg-alt: #1a1a1a;
-            --vp-c-text-1: rgba(255, 255, 255, 0.87);
-            --vp-c-text-2: rgba(255, 255, 255, 0.6);
-            --vp-c-text-3: rgba(255, 255, 255, 0.38);
-            --vp-c-border: #3e3e3e;
-            --vp-c-divider: #3e3e3e;
-        }
-
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-            background-color: var(--vp-c-bg-mute);
-            color: var(--vp-c-text-1);
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            transition: background-color 0.15s, color 0.15s;
-        }
-
-        .navbar {
-            background-color: var(--vp-c-bg);
-            border-bottom: 1px solid var(--vp-c-border);
-            padding: 0.75rem 1.5rem;
-            position: sticky;
-            top: 0;
-            z-index: 100;
-            transition: background-color 0.15s, border-color 0.15s;
-        }
-
-        .navbar-brand {
-            font-weight: 700;
-            color: var(--vp-c-brand) !important;
-            font-size: 1.25rem;
-            text-decoration: none;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .nav-btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            padding: 0.45rem 0.9rem;
-            border-radius: 6px;
-            font-size: 0.92rem;
-            font-weight: 500;
-            color: var(--vp-c-text-2);
-            text-decoration: none;
-            transition: all 0.2s ease;
-            border: 1px solid transparent;
-        }
-
-        .nav-btn:hover {
-            color: var(--vp-c-brand);
-            background-color: var(--vp-c-bg-soft);
-            border-color: var(--vp-c-border);
-            text-decoration: none;
-        }
-
-        .nav-btn.active {
-            color: var(--vp-c-brand);
-            background-color: var(--vp-c-bg-soft);
-            border-color: var(--vp-c-brand);
-        }
-
-        .header-action-btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 2.6em;
-            height: 2.6em;
-            padding: 0;
-            margin: 0 0.2em;
-            background: none;
-            border: none;
-            border-radius: 50%;
-            color: var(--vp-c-text-2);
-            font-size: 1.35em;
-            transition: background 0.2s, color 0.2s;
-            cursor: pointer;
-        }
-
-        .header-action-btn:hover {
-            background: var(--vp-c-bg-soft);
-            color: var(--vp-c-brand);
-        }
-
-        .main-container {
-            max-width: 1200px;
-            width: 100%;
-            margin: 2rem auto;
-            padding: 0 1.5rem;
-            flex: 1;
-        }
-
-        /* 搜索框与内容卡片 */
-        .search-card, .repo-detail-card, .chart-box, .snapshot-table-box {
-            background-color: var(--vp-c-bg);
-            border: 1px solid var(--vp-c-border);
-            border-radius: 10px;
-            padding: 1.5rem;
-            margin-bottom: 1.5rem;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-            transition: background-color 0.15s, border-color 0.15s;
-        }
-
-        .search-bar-wrap {
-            display: flex;
-            gap: 12px;
-            position: relative;
-        }
-
-        .search-input {
-            flex: 1;
-            background-color: var(--vp-c-bg-soft);
-            border: 1px solid var(--vp-c-border);
-            color: var(--vp-c-text-1);
-            padding: 0.65rem 1rem;
-            border-radius: 6px;
-            font-size: 1rem;
-            outline: none;
-            transition: border-color 0.2s;
-        }
-
-        .search-input:focus {
-            border-color: var(--vp-c-brand);
-        }
-
-        .btn-primary-theme {
-            background-color: var(--vp-c-brand);
-            color: #ffffff;
-            border: none;
-            padding: 0.65rem 1.35rem;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.95rem;
-            cursor: pointer;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            transition: background-color 0.2s;
-        }
-
-        .btn-primary-theme:hover {
-            background-color: var(--vp-c-brand-dark);
-        }
-
         .suggestions-dropdown {
             position: absolute;
-            top: 100%;
+            top: calc(100% + 6px);
             left: 0;
-            right: 140px;
-            background-color: var(--vp-c-bg);
-            border: 1px solid var(--vp-c-border);
-            border-radius: 8px;
-            max-height: 280px;
+            right: 0;
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-md);
+            box-shadow: var(--shadow-lg);
+            z-index: 1050;
+            max-height: 320px;
             overflow-y: auto;
-            z-index: 100;
-            margin-top: 6px;
             display: none;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
         }
-
         .suggestion-item {
-            padding: 10px 16px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            padding: 0.75rem 1rem;
             cursor: pointer;
-            border-bottom: 1px solid var(--vp-c-divider);
-            transition: background-color 0.15s;
+            border-bottom: 1px solid var(--border-color-subtle);
+            transition: background-color 0.15s ease;
         }
-
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
         .suggestion-item:hover {
-            background-color: var(--vp-c-bg-soft);
+            background-color: var(--bg-surface-hover);
         }
-
-        .suggestion-item .repo-name {
+        .suggestion-title {
             font-weight: 600;
-            color: var(--vp-c-text-1);
+            font-size: 0.92rem;
+            color: var(--text-primary);
         }
-
-        .suggestion-item .repo-meta {
-            font-size: 0.85rem;
-            color: var(--vp-c-text-3);
-        }
-
-        /* 项目 Header 信息 */
-        .repo-header {
+        .suggestion-meta {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            margin-top: 0.2rem;
             display: flex;
-            justify-content: space-between;
             align-items: center;
-            flex-wrap: wrap;
-            gap: 12px;
-            margin-bottom: 0.75rem;
+            gap: 0.6rem;
         }
-
-        .repo-title {
-            font-size: 1.4rem;
-            font-weight: 700;
-            color: var(--vp-c-brand);
-            text-decoration: none;
-        }
-
-        .repo-title:hover {
-            text-decoration: underline;
-        }
-
-        .tag-lang {
-            display: inline-block;
-            background-color: var(--vp-c-bg-mute);
-            color: var(--vp-c-text-2);
-            border: 1px solid var(--vp-c-border);
-            font-size: 0.8rem;
-            padding: 2px 8px;
-            border-radius: 12px;
-            margin-left: 8px;
-            font-weight: 500;
-        }
-
-        .repo-desc {
-            font-size: 0.95rem;
-            color: var(--vp-c-text-2);
-            margin-bottom: 1.25rem;
-            line-height: 1.6;
-        }
-
-        /* KPI 指标卡片 Grid */
-        .kpi-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 1rem;
-            margin-bottom: 1.5rem;
-        }
-
-        .kpi-card {
-            background-color: var(--vp-c-bg-soft);
-            border: 1px solid var(--vp-c-border);
-            border-radius: 8px;
-            padding: 1rem 1.2rem;
-        }
-
-        .kpi-title {
-            font-size: 0.85rem;
-            color: var(--vp-c-text-2);
-            font-weight: 500;
-            margin-bottom: 0.4rem;
-        }
-
-        .kpi-value {
-            font-size: 1.6rem;
-            font-weight: 700;
-            color: var(--vp-c-text-1);
-        }
-
-        .kpi-sub {
-            font-size: 0.8rem;
-            margin-top: 0.3rem;
-        }
-
-        .kpi-sub.up { color: var(--vp-c-brand); font-weight: 600; }
-        .kpi-sub.neutral { color: var(--vp-c-text-3); }
-
         .chart-dom {
             width: 100%;
             height: 420px;
         }
-
-        .snapshot-title {
-            font-size: 1.1rem;
-            font-weight: 700;
-            color: var(--vp-c-text-1);
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-
-        .snapshot-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.9rem;
-        }
-
-        .snapshot-table th, .snapshot-table td {
-            padding: 0.75rem 1rem;
-            text-align: left;
-            border-bottom: 1px solid var(--vp-c-border);
-        }
-
-        .snapshot-table th {
-            background-color: var(--vp-c-bg-soft);
-            color: var(--vp-c-text-2);
-            font-weight: 600;
-        }
-
-        .snapshot-table tr:hover td {
-            background-color: var(--vp-c-bg-soft);
-        }
-
-        .file-link {
-            color: var(--vp-c-brand);
-            text-decoration: none;
-            font-family: SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
-            font-size: 0.85rem;
-        }
-
-        .file-link:hover {
-            text-decoration: underline;
-        }
-
-        .state-msg {
-            text-align: center;
-            padding: 60px 0;
-            font-size: 1rem;
-            color: var(--vp-c-text-2);
-        }
-
-        /* 页脚 */
-        .footer {
-            background: var(--vp-c-bg);
-            border-top: 1px solid var(--vp-c-border);
-            padding: 2rem 2rem;
-            margin-top: auto;
-            transition: background-color 0.15s, border-color 0.15s;
-            line-height: 1.6;
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 1.5rem;
-        }
-
-        .footer-section {
-            display: flex;
-            align-items: center;
-            gap: 2.5rem;
-            flex-wrap: wrap;
-        }
-
-        .footer-links {
-            display: flex;
-            align-items: center;
-            gap: 1.5rem;
-            flex-wrap: wrap;
-        }
-
-        .footer-link {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            color: var(--vp-c-text-2);
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            padding: 0.5rem 0.8rem;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-        }
-
-        .footer-link:hover {
-            color: var(--vp-c-brand);
-            background: var(--vp-c-bg-soft);
-            text-decoration: none;
-        }
-
-        .footer-sponsor {
-            display: flex;
-            align-items: center;
-            font-size: 0.9rem;
-            color: var(--vp-c-text-2);
-        }
-
-        .footer-copyright {
-            text-align: right;
-            color: var(--vp-c-text-3);
-            font-size: 0.9rem;
-        }
-
-        .footer-copyright a {
-            color: var(--vp-c-text-2);
-            text-decoration: none;
-        }
-
-        .footer-copyright a:hover {
-            color: var(--vp-c-brand);
-        }
     </style>
 </head>
 <body>
-
-<!-- 顶栏导航 (匹配 index.html 样式与体验) -->
-<nav class="navbar">
-    <div class="container-fluid d-flex justify-content-between align-items-center">
-        <a href="index.html" class="navbar-brand">
-            <i class="bi bi-star-fill text-warning"></i> Starred Projects
-        </a>
-
-        <div class="d-flex align-items-center gap-2">
-            <a href="index.html" class="nav-btn">
-                <i class="bi bi-house"></i> 首页 (项目列表)
+    <!-- 统一头部导航栏 -->
+    <header class="app-navbar">
+        <div class="app-navbar-inner">
+            <a href="index.html" class="app-brand">
+                <span class="brand-icon"><i class="bi bi-stars"></i></span>
+                <span class="brand-text">Starred <span class="brand-accent">Projects</span></span>
             </a>
-            <a href="history.html" class="nav-btn active">
-                <i class="bi bi-graph-up-arrow"></i> 历史趋势
-            </a>
-            <a href="trend.html" class="nav-btn">
-                <i class="bi bi-fire"></i> 趋势排行
-            </a>
-            <a href="repos/index.json" target="_blank" class="nav-btn">
-                <i class="bi bi-code-square"></i> API 索引
-            </a>
-            <a href="https://github.com/yutao8/starred" target="_blank" class="header-action-btn" title="GitHub 仓库">
-                <i class="bi bi-github"></i>
-            </a>
-            <button class="header-action-btn theme-toggle" id="btn-theme-toggle" onclick="toggleTheme()" title="切换主题">
-                <i id="theme-icon" class="bi bi-moon-fill"></i>
-            </button>
-        </div>
-    </div>
-</nav>
-
-<!-- 主容器 -->
-<div class="main-container">
-    <!-- 搜索栏 -->
-    <div class="search-card">
-        <div class="search-bar-wrap">
-            <input type="text" id="search-input" class="search-input" placeholder="请输入 GitHub 项目全名或名称 (例如: sensepost/Snoopy 或 ComfyUI)..." autocomplete="off">
-            <button class="btn-primary-theme" id="btn-search">
-                <i class="bi bi-search"></i> 查询趋势
-            </button>
             
-            <!-- 下拉搜索匹配菜单 -->
-            <div class="suggestions-dropdown" id="suggestions-dropdown"></div>
-        </div>
-    </div>
+            <div class="d-flex align-items-center gap-2">
+                <nav class="app-nav-menu d-none d-sm-flex">
+                    <a href="index.html" class="app-nav-item" title="浏览全部收藏项目">
+                        <i class="bi bi-grid-3x3-gap"></i> <span>仓库列表</span>
+                    </a>
+                    <a href="trend.html" class="app-nav-item" title="7天多维增长趋势排行">
+                        <i class="bi bi-fire"></i> <span>趋势排行</span>
+                    </a>
+                    <a href="history.html" class="app-nav-item active" title="单项目历史演进轨迹">
+                        <i class="bi bi-graph-up-arrow"></i> <span>历史走势</span>
+                    </a>
+                </nav>
 
-    <!-- 加载中/状态提示 -->
-    <div id="state-msg" class="state-msg">
-        💡 请在上方搜索框中输入或选择项目名称，按回车或点击“查询趋势”按钮查看该项目的历史 Star 增长轨迹。
-    </div>
-
-    <!-- 项目详情与历史趋势区域 -->
-    <div id="repo-detail-wrap" class="repo-detail-card" style="display: none;">
-        <div class="repo-header">
-            <div>
-                <a href="#" target="_blank" id="repo-full-name" class="repo-title">-</a>
-                <span id="repo-lang" class="tag-lang">-</span>
-            </div>
-            <a href="#" target="_blank" id="btn-github-link" class="nav-btn">
-                <i class="bi bi-box-arrow-up-right"></i> 在 GitHub 打开
-            </a>
-        </div>
-        <div class="repo-desc" id="repo-desc">-</div>
-
-        <!-- 核心 KPI 指标 -->
-        <div class="kpi-grid">
-            <div class="kpi-card">
-                <div class="kpi-title">当前 Stars</div>
-                <div class="kpi-value" id="val-current-stars">-</div>
-                <div class="kpi-sub up" id="val-star-diff">-</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-title">初始 Stars (首次快照)</div>
-                <div class="kpi-value" id="val-initial-stars">-</div>
-                <div class="kpi-sub neutral" id="val-first-seen">-</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-title">期间星标增长率</div>
-                <div class="kpi-value" id="val-growth-rate">-</div>
-                <div class="kpi-sub neutral">基于全快照增量计算</div>
-            </div>
-            <div class="kpi-card">
-                <div class="kpi-title">数据点覆盖数</div>
-                <div class="kpi-value" id="val-point-count">-</div>
-                <div class="kpi-sub neutral" id="val-last-seen">-</div>
+                <div class="app-nav-actions">
+                    <a href="https://github.com/yutao8/starred" target="_blank" class="app-icon-btn" title="GitHub 仓库">
+                        <i class="bi bi-github"></i>
+                    </a>
+                    <button class="app-icon-btn theme-toggle-btn" onclick="StarredCommon.toggleTheme()" title="切换暗黑/明亮主题">
+                        <i id="theme-icon" class="bi bi-moon-stars-fill"></i>
+                    </button>
+                </div>
             </div>
         </div>
+    </header>
 
-        <!-- 历史趋势 ECharts 折线图 -->
-        <div class="chart-box">
-            <div id="chart-repo-trend" class="chart-dom"></div>
-        </div>
-
-        <!-- 快照文件与履历明细表格 -->
-        <div class="snapshot-table-box">
-            <div class="snapshot-title">
-                <i class="bi bi-clock-history text-primary"></i> 历史数据快照定位与明细
+    <main class="app-main">
+        <div class="app-container">
+            <!-- 页面头部与搜索栏 -->
+            <div class="app-page-header">
+                <div>
+                    <h1 class="app-page-title">
+                        <i class="bi bi-graph-up-arrow text-success"></i> 单项目历史演进走势
+                    </h1>
+                    <p class="app-page-subtitle">
+                        查询任意收录项目的 Star & Fork 历史时间线、首末快照与真实演进轨迹
+                    </p>
+                </div>
             </div>
-            <table class="snapshot-table">
-                <thead>
-                    <tr>
-                        <th>快照时间</th>
-                        <th>Star 数量</th>
-                        <th>Fork 数量</th>
-                        <th>详细数据快照文件</th>
-                    </tr>
-                </thead>
-                <tbody id="snapshot-table-body">
-                </tbody>
-            </table>
-        </div>
-    </div>
-</div>
 
-<!-- 页脚 (匹配 index.html 布局与样式) -->
-<div class="footer">
-    <div class="footer-content">
-        <div class="footer-section">
-            <div class="footer-links">
-                <a href="index.html" class="footer-link">
-                    <i class="bi bi-house"></i>
-                    首页 (项目列表)
-                </a>
-                <a href="history.html" class="footer-link">
-                    <i class="bi bi-graph-up-arrow"></i>
-                    历史趋势分析
-                </a>
-                <a href="https://docs.github.com/zh/rest/activity/starring?apiVersion=2022-11-28#list-repositories-starred-by-the-authenticated-user" target="_blank" class="footer-link">
-                    <i class="bi bi-github"></i>
-                    GitHub REST API
-                </a>
-                <a href="https://edgeone.tencent.com/?from=github" target="_blank" class="footer-link">
-                    <i class="bi bi-shield-check"></i>
-                    Tencent EdgeOne
-                </a>
+            <!-- 项目搜索卡片 -->
+            <div class="app-card mb-4">
+                <div class="app-card-body">
+                    <div class="position-relative d-flex gap-2 flex-wrap">
+                        <div class="app-search-box flex-grow-1" style="max-width: none;">
+                            <i class="bi bi-search search-icon"></i>
+                            <input type="text" id="search-input" class="app-search-input" placeholder="输入 GitHub 项目名称进行实时检索 (例如: harry0703/MoneyPrinterTurbo, openai/codex 或 Python 项目)..." autocomplete="off">
+                        </div>
+                        <button class="app-btn primary" id="btn-search">
+                            <i class="bi bi-search"></i> 查询项目走势
+                        </button>
+
+                        <!-- 下拉自动补全菜单 -->
+                        <div class="suggestions-dropdown" id="suggestions-dropdown"></div>
+                    </div>
+                </div>
             </div>
-            <div class="footer-sponsor">
-                <span>CDN加速与安全防护由 <a href="https://edgeone.tencent.com/?from=github" target="_blank" style="color:var(--vp-c-brand);text-decoration:none;">Tencent EdgeOne</a> 赞助</span>
+
+            <!-- 状态提示 -->
+            <div id="state-msg" class="app-empty-box">
+                <i class="bi bi-search text-success"></i>
+                <div class="fs-6 fw-bold">请输入或选择项目名称</div>
+                <div class="small text-muted mt-1">支持按仓库全名、组织名或关键词模糊检索</div>
+            </div>
+
+            <!-- 项目履历走势主体展示区 -->
+            <div id="repo-detail-wrap" style="display: none;">
+                <!-- 项目基本信息卡片 -->
+                <div class="app-card mb-4">
+                    <div class="app-card-header">
+                        <div class="d-flex align-items-center gap-2 flex-wrap">
+                            <a href="#" target="_blank" id="repo-full-name" class="fw-bold fs-5 text-decoration-none" style="color: var(--text-primary);">
+                                -
+                            </a>
+                            <span id="repo-lang" class="badge-pill brand">-</span>
+                        </div>
+                        <a href="#" target="_blank" id="btn-github-link" class="app-btn">
+                            <i class="bi bi-box-arrow-up-right"></i> 在 GitHub 打开
+                        </a>
+                    </div>
+                    <div class="app-card-body">
+                        <div class="text-secondary mb-0" id="repo-desc" style="line-height: 1.6;">-</div>
+                    </div>
+                </div>
+
+                <!-- 核心四大 KPI 指标 -->
+                <div class="stat-grid">
+                    <div class="stat-card">
+                        <div class="stat-header">
+                            <span class="stat-label">当前 Stars 总量</span>
+                            <span class="stat-icon"><i class="bi bi-star-fill text-warning"></i></span>
+                        </div>
+                        <div class="stat-value" id="val-current-stars">-</div>
+                        <div class="stat-footer">
+                            <span class="badge-pill brand" id="val-star-diff">-</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card amber">
+                        <div class="stat-header">
+                            <span class="stat-label">首次收录 Stars</span>
+                            <span class="stat-icon"><i class="bi bi-flag-fill text-warning"></i></span>
+                        </div>
+                        <div class="stat-value" id="val-initial-stars">-</div>
+                        <div class="stat-footer text-muted" id="val-first-seen">-</div>
+                    </div>
+
+                    <div class="stat-card blue">
+                        <div class="stat-header">
+                            <span class="stat-label">总星标增长率</span>
+                            <span class="stat-icon"><i class="bi bi-lightning-charge-fill text-primary"></i></span>
+                        </div>
+                        <div class="stat-value" id="val-growth-rate">-</div>
+                        <div class="stat-footer text-muted">基于全历史快照增量</div>
+                    </div>
+
+                    <div class="stat-card purple">
+                        <div class="stat-header">
+                            <span class="stat-label">历史数据点覆盖</span>
+                            <span class="stat-icon"><i class="bi bi-collection text-purple"></i></span>
+                        </div>
+                        <div class="stat-value" id="val-point-count">-</div>
+                        <div class="stat-footer text-muted" id="val-last-seen">-</div>
+                    </div>
+                </div>
+
+                <!-- ECharts 趋势图卡片 -->
+                <div class="app-card mb-4">
+                    <div class="app-card-header">
+                        <h3 class="app-card-title">
+                            <i class="bi bi-graph-up text-success"></i> Star & Fork 历史演进曲线
+                        </h3>
+                    </div>
+                    <div class="app-card-body">
+                        <div id="chart-repo-trend" class="chart-dom"></div>
+                    </div>
+                </div>
+
+                <!-- 历史快照定位与明细表格 -->
+                <div class="app-card">
+                    <div class="app-card-header">
+                        <h3 class="app-card-title">
+                            <i class="bi bi-clock-history text-info"></i> 历史快照节点记录
+                        </h3>
+                    </div>
+                    <div class="app-table-wrapper" style="border: none; border-radius: 0;">
+                        <table class="app-table">
+                            <thead>
+                                <tr>
+                                    <th>快照时间</th>
+                                    <th>Star 数量</th>
+                                    <th>Fork 数量</th>
+                                    <th>数据源快照文件</th>
+                                </tr>
+                            </thead>
+                            <tbody id="snapshot-table-body">
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <p>Copyright © 2025 <a href="https://github.com/yutao8" target="_blank">yutao8</a></p>
-        </div>
-    </div>
-</div>
+    </main>
 
-<script>
-    let repoList = [];
-    let myChart = null;
-    let currentChartData = null;
-    let isDark = localStorage.getItem('starred_theme') === 'dark';
+    <!-- 统一页脚 -->
+    <footer class="app-footer">
+        <div>Starred Projects · 自动化 GitHub Star 资产管理与趋势洞察系统</div>
+        <div class="small text-muted mt-1">数据由 GitHub Actions 定时自动更新 · 深度集成大语言模型中文技术解析</div>
+    </footer>
 
-    // 初始化主题
-    function applyTheme() {
-        if (isDark) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-        } else {
-            document.documentElement.removeAttribute('data-theme');
+    <script>
+        let repoList = [];
+        let myChart = null;
+        let currentChartData = null;
+
+        function updateThemeIcon() {
+            const isDark = StarredCommon.getTheme() === 'dark';
+            const icon = document.getElementById('theme-icon');
+            if (icon) {
+                icon.className = isDark ? 'bi bi-sun-fill' : 'bi bi-moon-stars-fill';
+            }
+            if (currentChartData) {
+                renderTrendChart(currentChartData.repoName, currentChartData.history);
+            }
         }
-        const icon = document.getElementById('theme-icon');
-        if (icon) {
-            icon.className = isDark ? 'bi bi-sun-fill' : 'bi bi-moon-fill';
-        }
-        if (currentChartData && typeof renderTrendChart === 'function') {
-            renderTrendChart(currentChartData.repoName, currentChartData.history);
-        }
-    }
 
-    function toggleTheme() {
-        isDark = !isDark;
-        localStorage.setItem('starred_theme', isDark ? 'dark' : 'light');
-        applyTheme();
-    }
+        window.addEventListener('starred-theme-changed', () => {
+            updateThemeIcon();
+        });
 
-    document.addEventListener('DOMContentLoaded', async () => {
-        applyTheme();
-        await loadRepoList(); // 等待项目列表加载完成
+        document.addEventListener('DOMContentLoaded', async () => {
+            updateThemeIcon();
+            await loadRepoList();
 
-        const searchInput = document.getElementById('search-input');
-        const btnSearch = document.getElementById('btn-search');
-        const dropdown = document.getElementById('suggestions-dropdown');
+            const searchInput = document.getElementById('search-input');
+            const btnSearch = document.getElementById('btn-search');
+            const dropdown = document.getElementById('suggestions-dropdown');
 
-        searchInput.addEventListener('input', handleSearchInput);
-        searchInput.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter') {
+            searchInput.addEventListener('input', handleSearchInput);
+            searchInput.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    dropdown.style.display = 'none';
+                    doSearch(searchInput.value);
+                }
+            });
+
+            btnSearch.addEventListener('click', () => {
                 dropdown.style.display = 'none';
                 doSearch(searchInput.value);
-            }
-        });
-
-        btnSearch.addEventListener('click', () => {
-            dropdown.style.display = 'none';
-            doSearch(searchInput.value);
-        });
-
-        document.addEventListener('click', (e) => {
-            if (!e.target.closest('.search-bar-wrap')) {
-                dropdown.style.display = 'none';
-            }
-        });
-
-        // 自动提取 URL 参数触发查询（此时 repoList 已加载完成）
-        const urlParams = new URLSearchParams(window.location.search);
-        const repoParam = urlParams.get('repo') || urlParams.get('name') || urlParams.get('id');
-        if (repoParam) {
-            searchInput.value = repoParam;
-            doSearch(repoParam);
-        }
-    });
-
-    // 预加载可用项目列表 (纯静态读取 data/starList.public.json)
-    async function loadRepoList() {
-        try {
-            let resp = await fetch('data/starList.public.json');
-            if (!resp.ok) {
-                resp = await fetch('starList.public.json');
-            }
-            if (resp.ok) {
-                const data = await resp.json();
-                if (Array.isArray(data)) {
-                    repoList = data.map(r => ({
-                        id: Number(r.id || 0),
-                        full_name: r.full_name || r.name || '',
-                        name: r.name || r.full_name || '',
-                        language: r.language || 'Other',
-                        stars: Number(r.stargazers_count || 0),
-                        forks: Number(r.forks_count || 0),
-                        description: r.desc || r.description || '',
-                        html_url: r.html_url || ('https://github.com/' + (r.full_name || r.name))
-                    }));
-                }
-            }
-        } catch (e) {
-            console.warn('获取项目列表失败:', e);
-        }
-    }
-
-    function handleSearchInput(e) {
-        const query = e.target.value.trim().toLowerCase();
-        const dropdown = document.getElementById('suggestions-dropdown');
-
-        if (query === '' || repoList.length === 0) {
-            dropdown.style.display = 'none';
-            return;
-        }
-
-        const matches = repoList.filter(repo => 
-            repo.full_name.toLowerCase().includes(query) || 
-            repo.name.toLowerCase().includes(query)
-        ).slice(0, 10);
-
-        if (matches.length === 0) {
-            dropdown.style.display = 'none';
-            return;
-        }
-
-        dropdown.innerHTML = '';
-        matches.forEach(repo => {
-            const item = document.createElement('div');
-            item.className = 'suggestion-item';
-            item.innerHTML = `
-                <div class="repo-name">${escapeHtml(repo.full_name)}</div>
-                <div class="repo-meta">${escapeHtml(repo.language)} | ⭐ ${repo.stars.toLocaleString()}</div>
-            `;
-            item.addEventListener('click', () => {
-                document.getElementById('search-input').value = repo.full_name;
-                dropdown.style.display = 'none';
-                doSearch(repo.full_name);
             });
-            dropdown.appendChild(item);
+
+            document.addEventListener('click', (e) => {
+                if (!e.target.closest('.position-relative')) {
+                    dropdown.style.display = 'none';
+                }
+            });
+
+            // 自动解析 URL 参数触发查询
+            const urlParams = new URLSearchParams(window.location.search);
+            const repoParam = urlParams.get('repo') || urlParams.get('name') || urlParams.get('id');
+            if (repoParam) {
+                searchInput.value = repoParam;
+                doSearch(repoParam);
+            }
         });
 
-        dropdown.style.display = 'block';
-    }
-
-    async function doSearch(query) {
-        if (!query.trim()) return;
-
-        const stateMsg = document.getElementById('state-msg');
-        const detailWrap = document.getElementById('repo-detail-wrap');
-
-        stateMsg.style.display = 'block';
-        stateMsg.innerHTML = `⏳ 正在读取项目 '${escapeHtml(query)}' 的历史履历数据...`;
-        detailWrap.style.display = 'none';
-
-        // 纯静态模式：直接从 data/repos/{id}.json 读取独立项目履历文件
-        try {
-            const queryLower = query.trim().toLowerCase();
-            let targetRepo = repoList.find(r => 
-                r.full_name.toLowerCase() === queryLower || 
-                r.name.toLowerCase() === queryLower ||
-                String(r.id) === queryLower
-            );
-            if (!targetRepo && repoList.length > 0) {
-                targetRepo = repoList.find(r => r.full_name.toLowerCase().includes(queryLower));
-            }
-
-            if (targetRepo && targetRepo.id) {
-                let repoFile = `data/repos/${targetRepo.id}.json`;
-                let resp = await fetch(repoFile);
+        async function loadRepoList() {
+            try {
+                let resp = await fetch('data/starList.public.json?_t=' + Date.now());
                 if (!resp.ok) {
-                    repoFile = `repos/${targetRepo.id}.json`;
-                    resp = await fetch(repoFile);
+                    resp = await fetch('starList.public.json?_t=' + Date.now());
                 }
                 if (resp.ok) {
                     const data = await resp.json();
-                    if (data && data.status === 'success') {
-                        stateMsg.style.display = 'none';
-                        renderRepoHistory(data);
-                        return;
+                    if (Array.isArray(data)) {
+                        repoList = data.map(r => ({
+                            id: Number(r.id || 0),
+                            full_name: r.full_name || r.name || '',
+                            name: r.name || r.full_name || '',
+                            language: r.language || 'Other',
+                            stars: Number(r.stargazers_count || 0),
+                            forks: Number(r.forks_count || 0),
+                            description: r.desc || r.description || '',
+                            html_url: r.html_url || ('https://github.com/' + (r.full_name || r.name))
+                        }));
                     }
                 }
+            } catch (e) {
+                console.warn('获取项目列表失败:', e);
             }
-            throw new Error('未在 repos 履历库中匹配到该项目历史数据');
-        } catch (err) {
+        }
+
+        function handleSearchInput(e) {
+            const query = e.target.value.trim().toLowerCase();
+            const dropdown = document.getElementById('suggestions-dropdown');
+
+            if (query === '' || repoList.length === 0) {
+                dropdown.style.display = 'none';
+                return;
+            }
+
+            const matches = repoList.filter(repo => 
+                repo.full_name.toLowerCase().includes(query) || 
+                repo.name.toLowerCase().includes(query)
+            ).slice(0, 10);
+
+            if (matches.length === 0) {
+                dropdown.style.display = 'none';
+                return;
+            }
+
+            dropdown.innerHTML = '';
+            matches.forEach(repo => {
+                const item = document.createElement('div');
+                item.className = 'suggestion-item';
+                item.innerHTML = `
+                    <div class="suggestion-title">${escapeHtml(repo.full_name)}</div>
+                    <div class="suggestion-meta">
+                        <span style="color:${StarredCommon.getLanguageColor(repo.language)}">● ${escapeHtml(repo.language)}</span>
+                        <span>⭐ ${repo.stars.toLocaleString()}</span>
+                    </div>
+                `;
+                item.addEventListener('click', () => {
+                    document.getElementById('search-input').value = repo.full_name;
+                    dropdown.style.display = 'none';
+                    doSearch(repo.full_name);
+                });
+                dropdown.appendChild(item);
+            });
+
+            dropdown.style.display = 'block';
+        }
+
+        async function doSearch(query) {
+            if (!query.trim()) return;
+
+            const stateMsg = document.getElementById('state-msg');
+            const detailWrap = document.getElementById('repo-detail-wrap');
+
             stateMsg.style.display = 'block';
-            stateMsg.innerHTML = `⚠️ 查询失败: ${escapeHtml(err.message)}`;
-        }
-    }
+            stateMsg.innerHTML = `<div class="app-spinner"></div><div>正在加载项目 '${escapeHtml(query)}' 的历史轨迹...</div>`;
+            detailWrap.style.display = 'none';
 
-    function renderRepoHistory(data) {
-        const detailWrap = document.getElementById('repo-detail-wrap');
-        detailWrap.style.display = 'block';
-
-        const repo = data.repo || {};
-        const summary = data.summary || {};
-        const history = data.history || [];
-
-        const repoLink = document.getElementById('repo-full-name');
-        repoLink.innerText = repo.full_name;
-        repoLink.href = repo.html_url;
-
-        document.getElementById('btn-github-link').href = repo.html_url;
-        document.getElementById('repo-lang').innerText = repo.language || 'Other';
-        document.getElementById('repo-desc').innerText = repo.description || '暂无项目描述';
-
-        document.getElementById('val-current-stars').innerText = (summary.current_stars || 0).toLocaleString();
-        document.getElementById('val-star-diff').innerText = `期间增长: ${summary.star_diff >= 0 ? '+' : ''}${(summary.star_diff || 0).toLocaleString()} stars`;
-
-        document.getElementById('val-initial-stars').innerText = (summary.initial_stars || 0).toLocaleString();
-        document.getElementById('val-first-seen').innerText = `首次记录: ${summary.first_seen || '-'}`;
-
-        document.getElementById('val-growth-rate').innerText = `+${summary.growth_rate || 0}%`;
-        document.getElementById('val-point-count').innerText = `${summary.data_points_count || 0} 次快照`;
-        document.getElementById('val-last-seen').innerText = `最后记录: ${summary.last_seen || '-'}`;
-
-        currentChartData = { repoName: repo.full_name, history };
-        renderTrendChart(repo.full_name, history);
-        renderSnapshotTable(history);
-    }
-
-    function renderSnapshotTable(history) {
-        const tbody = document.getElementById('snapshot-table-body');
-        if (!tbody) return;
-
-        tbody.innerHTML = '';
-        if (!history || history.length === 0) {
-            tbody.innerHTML = '<tr><td colspan="4" style="text-align:center;color:var(--vp-c-text-3);">暂无履历快照数据</td></tr>';
-            return;
-        }
-
-        // 按时间倒序排列（最新的在前）
-        const sortedHistory = [...history].reverse();
-
-        sortedHistory.forEach(item => {
-            const tr = document.createElement('tr');
-            const fileHtml = item.file ? `<a href="${escapeHtml(item.file)}" target="_blank" class="file-link">📄 ${escapeHtml(item.file)}</a>` : '-';
-            tr.innerHTML = `
-                <td>${escapeHtml(item.date)}</td>
-                <td>⭐ ${(item.stars || 0).toLocaleString()}</td>
-                <td>🍴 ${(item.forks || 0).toLocaleString()}</td>
-                <td>${fileHtml}</td>
-            `;
-            tbody.appendChild(tr);
-        });
-    }
-
-    function renderTrendChart(repoName, history) {
-        const dom = document.getElementById('chart-repo-trend');
-        if (!dom) return;
-
-        if (myChart) {
-            myChart.dispose();
-        }
-
-        const echartsTheme = isDark ? 'dark' : null;
-        myChart = echarts.init(dom, echartsTheme);
-
-        const dates = history.map(item => item.date);
-        const stars = history.map(item => item.stars);
-        const forks = history.map(item => item.forks);
-
-        const textColor = isDark ? '#f0f6fc' : '#2c3e50';
-        const subTextColor = isDark ? '#8b949e' : '#476582';
-
-        const option = {
-            backgroundColor: 'transparent',
-            title: { 
-                text: `${repoName} - 星标与 Fork 增长轨迹`, 
-                left: 'center', 
-                textStyle: { color: textColor, fontSize: 15, fontWeight: '600' } 
-            },
-            tooltip: {
-                trigger: 'axis',
-                backgroundColor: isDark ? '#242424' : '#ffffff',
-                borderColor: isDark ? '#3e3e3e' : '#e2e8f0',
-                textStyle: { color: textColor },
-                formatter: function(params) {
-                    if (!params || params.length === 0) return '';
-                    let idx = params[0].dataIndex;
-                    let point = history[idx] || {};
-                    let res = `<div style="font-weight:600;margin-bottom:4px;color:${textColor};">${escapeHtml(params[0].name)}</div>`;
-                    params.forEach(p => {
-                        res += `<div>${p.marker} ${escapeHtml(p.seriesName)}: <b>${p.value.toLocaleString()}</b></div>`;
-                    });
-                    if (point.file) {
-                        res += `<div style="margin-top:6px;font-size:12px;color:${subTextColor};border-top:1px solid ${isDark ? '#3e3e3e' : '#e2e8f0'};padding-top:4px;">📁 数据快照: <span style="color:#3eaf7c;font-family:monospace;">${escapeHtml(point.file)}</span></div>`;
-                    }
-                    return res;
+            try {
+                const queryLower = query.trim().toLowerCase();
+                let targetRepo = repoList.find(r => 
+                    r.full_name.toLowerCase() === queryLower || 
+                    r.name.toLowerCase() === queryLower ||
+                    String(r.id) === queryLower
+                );
+                if (!targetRepo && repoList.length > 0) {
+                    targetRepo = repoList.find(r => r.full_name.toLowerCase().includes(queryLower));
                 }
-            },
-            legend: { data: ['Star 数量', 'Fork 数量'], top: 30, textStyle: { color: subTextColor } },
-            grid: { left: '3%', right: '4%', bottom: '3%', top: 70, containLabel: true },
-            xAxis: { type: 'category', boundaryGap: false, data: dates, axisLabel: { color: subTextColor } },
-            yAxis: [
-                { type: 'value', name: 'Stars', position: 'left', scale: true, axisLabel: { color: subTextColor } },
-                { type: 'value', name: 'Forks', position: 'right', scale: true, axisLabel: { color: subTextColor } }
-            ],
-            series: [
-                {
-                    name: 'Star 数量',
-                    type: 'line',
-                    smooth: true,
-                    data: stars,
-                    lineStyle: { color: '#3eaf7c', width: 3 },
-                    itemStyle: { color: '#3eaf7c' },
-                    areaStyle: {
-                        color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
-                            { offset: 0, color: 'rgba(62, 175, 124, 0.35)' },
-                            { offset: 1, color: 'rgba(62, 175, 124, 0.0)' }
-                        ])
+
+                if (targetRepo && targetRepo.id) {
+                    let repoFile = `data/repos/${targetRepo.id}.json`;
+                    let resp = await fetch(repoFile + '?_t=' + Date.now());
+                    if (!resp.ok) {
+                        repoFile = `repos/${targetRepo.id}.json`;
+                        resp = await fetch(repoFile + '?_t=' + Date.now());
+                    }
+                    if (resp.ok) {
+                        const data = await resp.json();
+                        if (data && data.status === 'success') {
+                            stateMsg.style.display = 'none';
+                            renderRepoHistory(data);
+                            return;
+                        }
+                    }
+                }
+                throw new Error('未在 repos 履历库中匹配到该项目的历史快照');
+            } catch (err) {
+                stateMsg.style.display = 'block';
+                stateMsg.innerHTML = `<i class="bi bi-exclamation-circle text-danger"></i><div class="text-danger fw-bold mt-2">查询失败: ${escapeHtml(err.message)}</div>`;
+            }
+        }
+
+        function renderRepoHistory(data) {
+            const detailWrap = document.getElementById('repo-detail-wrap');
+            detailWrap.style.display = 'block';
+
+            const repo = data.repo || {};
+            const summary = data.summary || {};
+            const history = data.history || [];
+
+            const repoLink = document.getElementById('repo-full-name');
+            repoLink.innerText = repo.full_name;
+            repoLink.href = repo.html_url;
+
+            document.getElementById('btn-github-link').href = repo.html_url;
+            document.getElementById('repo-lang').innerText = repo.language || 'Other';
+            document.getElementById('repo-desc').innerText = repo.description || '暂无项目描述';
+
+            document.getElementById('val-current-stars').innerText = (summary.current_stars || 0).toLocaleString();
+            document.getElementById('val-star-diff').innerText = `期间净增: ${summary.star_diff >= 0 ? '+' : ''}${(summary.star_diff || 0).toLocaleString()} ★`;
+
+            document.getElementById('val-initial-stars').innerText = (summary.initial_stars || 0).toLocaleString();
+            document.getElementById('val-first-seen').innerText = `首次收录: ${summary.first_seen || '-'}`;
+
+            document.getElementById('val-growth-rate').innerText = `+${summary.growth_rate || 0}%`;
+            document.getElementById('val-point-count').innerText = `${summary.data_points_count || 0} 个历史快照`;
+            document.getElementById('val-last-seen').innerText = `最新记录: ${summary.last_seen || '-'}`;
+
+            currentChartData = { repoName: repo.full_name, history };
+            renderTrendChart(repo.full_name, history);
+            renderSnapshotTable(history);
+        }
+
+        function renderSnapshotTable(history) {
+            const tbody = document.getElementById('snapshot-table-body');
+            if (!tbody) return;
+
+            tbody.innerHTML = '';
+            if (!history || history.length === 0) {
+                tbody.innerHTML = '<tr><td colspan="4" class="text-center text-muted">暂无履历快照数据</td></tr>';
+                return;
+            }
+
+            const sortedHistory = [...history].reverse();
+            sortedHistory.forEach(item => {
+                const tr = document.createElement('tr');
+                const fileHtml = item.file ? `<a href="${escapeHtml(item.file)}" target="_blank" class="badge-pill brand text-decoration-none"><i class="bi bi-file-earmark-code"></i> ${escapeHtml(item.file)}</a>` : '-';
+                tr.innerHTML = `
+                    <td class="fw-semibold">${escapeHtml(item.date)}</td>
+                    <td class="fw-bold text-warning">⭐ ${(item.stars || 0).toLocaleString()}</td>
+                    <td class="fw-bold text-info">🍴 ${(item.forks || 0).toLocaleString()}</td>
+                    <td>${fileHtml}</td>
+                `;
+                tbody.appendChild(tr);
+            });
+        }
+
+        function renderTrendChart(repoName, history) {
+            const dom = document.getElementById('chart-repo-trend');
+            if (!dom) return;
+
+            if (myChart) {
+                myChart.dispose();
+            }
+
+            const isDark = StarredCommon.getTheme() === 'dark';
+            myChart = echarts.init(dom, isDark ? 'dark' : null);
+
+            const dates = history.map(item => item.date);
+            const stars = history.map(item => item.stars);
+            const forks = history.map(item => item.forks);
+
+            const textColor = isDark ? '#f8fafc' : '#0f172a';
+            const subTextColor = isDark ? '#94a3b8' : '#64748b';
+            const splitLineColor = isDark ? '#1f293d' : '#f1f5f9';
+
+            const option = {
+                backgroundColor: 'transparent',
+                title: { 
+                    text: `${repoName} · 演进轨迹`, 
+                    left: 'center', 
+                    textStyle: { color: textColor, fontSize: 16, fontWeight: '700' } 
+                },
+                tooltip: {
+                    trigger: 'axis',
+                    backgroundColor: isDark ? '#111827' : '#ffffff',
+                    borderColor: isDark ? '#1f293d' : '#e2e8f0',
+                    textStyle: { color: textColor },
+                    formatter: function(params) {
+                        if (!params || params.length === 0) return '';
+                        let idx = params[0].dataIndex;
+                        let point = history[idx] || {};
+                        let res = `<div style="font-weight:700;margin-bottom:6px;color:${textColor};">${escapeHtml(params[0].name)}</div>`;
+                        params.forEach(p => {
+                            res += `<div style="display:flex;justify-content:space-between;gap:12px;margin:2px 0;"><span>${p.marker} ${escapeHtml(p.seriesName)}:</span> <b>${p.value.toLocaleString()}</b></div>`;
+                        });
+                        if (point.file) {
+                            res += `<div style="margin-top:6px;font-size:11px;color:${subTextColor};border-top:1px solid ${splitLineColor};padding-top:4px;">📁 快照文件: <span style="color:#10b981;font-family:monospace;">${escapeHtml(point.file)}</span></div>`;
+                        }
+                        return res;
                     }
                 },
-                {
-                    name: 'Fork 数量',
-                    type: 'line',
-                    yAxisIndex: 1,
-                    smooth: true,
-                    data: forks,
-                    lineStyle: { color: '#00b4d8', width: 2 },
-                    itemStyle: { color: '#00b4d8' }
-                }
-            ]
-        };
+                legend: { data: ['Star 数量', 'Fork 数量'], top: 32, textStyle: { color: subTextColor } },
+                grid: { left: '3%', right: '4%', bottom: '5%', top: 75, containLabel: true },
+                xAxis: { 
+                    type: 'category', 
+                    boundaryGap: false, 
+                    data: dates, 
+                    axisLabel: { color: subTextColor },
+                    axisLine: { lineStyle: { color: splitLineColor } }
+                },
+                yAxis: [
+                    { 
+                        type: 'value', 
+                        name: 'Stars', 
+                        position: 'left', 
+                        scale: true, 
+                        axisLabel: { color: subTextColor },
+                        splitLine: { lineStyle: { color: splitLineColor } }
+                    },
+                    { 
+                        type: 'value', 
+                        name: 'Forks', 
+                        position: 'right', 
+                        scale: true, 
+                        axisLabel: { color: subTextColor },
+                        splitLine: { show: false }
+                    }
+                ],
+                series: [
+                    {
+                        name: 'Star 数量',
+                        type: 'line',
+                        smooth: true,
+                        data: stars,
+                        lineStyle: { color: '#10b981', width: 3 },
+                        itemStyle: { color: '#10b981' },
+                        areaStyle: {
+                            color: new echarts.graphic.LinearGradient(0, 0, 0, 1, [
+                                { offset: 0, color: 'rgba(16, 185, 129, 0.35)' },
+                                { offset: 1, color: 'rgba(16, 185, 129, 0.0)' }
+                            ])
+                        }
+                    },
+                    {
+                        name: 'Fork 数量',
+                        type: 'line',
+                        yAxisIndex: 1,
+                        smooth: true,
+                        data: forks,
+                        lineStyle: { color: '#06b6d4', width: 2 },
+                        itemStyle: { color: '#06b6d4' }
+                    }
+                ]
+            };
 
-        myChart.setOption(option);
-    }
+            myChart.setOption(option);
+        }
 
-    function escapeHtml(str) {
-        return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
-    }
+        function escapeHtml(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
 
-    window.addEventListener('resize', () => {
-        if (myChart) myChart.resize();
-    });
-</script>
+        window.addEventListener('resize', () => {
+            if (myChart) myChart.resize();
+        });
+    </script>
 </body>
 </html>
