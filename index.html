@@ -3,1293 +3,655 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Starred Projects</title>
+    <title>Starred Projects · 收藏仓库与知识库</title>
+    <meta name="description" content="智能化 GitHub Starred 仓库库与分类检索系统，包含大模型中文深度提炼与演进走势">
     <link href="./assets/vendor/bootstrap.min.css" rel="stylesheet">
     <link href="./assets/vendor/bootstrap-icons.css" rel="stylesheet">
+    <link href="./assets/css/app.css" rel="stylesheet">
     <script src="./assets/vendor/vue.global.prod.js"></script>
+    <script src="./assets/js/common.js"></script>
     <style>
-        :root {
-            --vp-c-brand: #3eaf7c;
-            --vp-c-brand-light: #4abf8a;
-            --vp-c-brand-lighter: #5ccf99;
-            --vp-c-brand-dark: #36a06d;
-            --vp-c-brand-darker: #2d8a5c;
-            --vp-c-text-1: #2c3e50;
-            --vp-c-text-2: #476582;
-            --vp-c-text-3: #90a4b7;
-            --vp-c-bg: #ffffff;
-            --vp-c-bg-soft: #f9fafb;
-            --vp-c-bg-mute: #f1f4f8;
-            --vp-c-bg-alt: #f8fafc;
-            --vp-c-border: #e2e8f0;
-            --vp-c-divider: #e2e8f0;
-            --vp-custom-block-tip-border: var(--vp-c-brand);
-            --vp-custom-block-tip-text: var(--vp-c-brand-darker);
-            --vp-custom-block-tip-bg: var(--vp-c-brand-dimm);
-            --vp-custom-block-warning-border: #e7c000;
-            --vp-custom-block-warning-text: #b29400;
-            --vp-custom-block-warning-bg: #fffae6;
-            --vp-custom-block-danger-border: #c00;
-            --vp-custom-block-danger-text: #990000;
-            --vp-custom-block-danger-bg: #fff0f0;
-            --vp-custom-block-details-border: #e2e8f0;
-            --vp-custom-block-details-text: #476582;
-            --vp-custom-block-details-bg: #f8fafc;
-            --vp-custom-block-info-border: #e2e8f0;
-            --vp-custom-block-info-text: #476582;
-            --vp-custom-block-info-bg: #f8fafc;
-            --vp-custom-block-tip-bg: rgba(62, 175, 124, 0.1);
-            --vp-custom-block-warning-bg: rgba(255, 197, 23, 0.1);
-            --vp-custom-block-danger-bg: rgba(255, 0, 0, 0.1);
-            --vp-custom-block-details-bg: rgba(0, 0, 0, 0.05);
-            --vp-custom-block-info-bg: rgba(0, 0, 0, 0.05);
-            --vp-custom-block-tip-border: var(--vp-c-brand);
-            --vp-custom-block-tip-text: var(--vp-c-brand-darker);
-            --vp-custom-block-warning-border: #e7c000;
-            --vp-custom-block-warning-text: #b29400;
-            --vp-custom-block-danger-border: #c00;
-            --vp-custom-block-danger-text: #990000;
-            --vp-custom-block-details-border: #e2e8f0;
-            --vp-custom-block-details-text: #476582;
-            --vp-custom-block-info-border: #e2e8f0;
-            --vp-custom-block-info-text: #476582;
-            --vp-custom-block-tip-bg: rgba(62, 175, 124, 0.1);
-            --vp-custom-block-warning-bg: rgba(255, 197, 23, 0.1);
-            --vp-custom-block-danger-bg: rgba(255, 0, 0, 0.1);
-            --vp-custom-block-details-bg: rgba(0, 0, 0, 0.05);
-            --vp-custom-block-info-bg: rgba(0, 0, 0, 0.05);
-        }
-
-        [data-theme="dark"] {
-            --vp-c-bg: #1a1a1a;
-            --vp-c-bg-soft: #242424;
-            --vp-c-bg-mute: #2d2d2d;
-            --vp-c-bg-alt: #1a1a1a;
-            --vp-c-text-1: rgba(255, 255, 255, 0.87);
-            --vp-c-text-2: rgba(255, 255, 255, 0.6);
-            --vp-c-text-3: rgba(255, 255, 255, 0.38);
-            --vp-c-border: #3e3e3e;
-            --vp-c-divider: #3e3e3e;
-        }
-
-        body {
-            margin: 0;
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
-            color: var(--vp-c-text-1);
-            background: var(--vp-c-bg);
-            transition: background-color 0.15s, color 0.15s;
-            will-change: background-color, color;
-        }
-
-        .navbar {
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 4.2rem;
-            background: var(--vp-c-bg);
-            border-bottom: 1px solid var(--vp-c-border);
-            z-index: 100;
-            padding: 0 1.5rem;
-        }
-
-        .navbar-brand {
-            font-size: 1.3rem;
-            font-weight: 600;
-            color: var(--vp-c-text-1);
-            text-decoration: none;
-        }
-
-        .navbar-nav {
+        /* 侧边栏与内容区主布局 */
+        .index-layout {
             display: flex;
-            align-items: center;
-            gap: 1.5rem;
+            min-height: calc(100vh - var(--nav-height));
         }
 
-        .nav-link {
-            color: var(--vp-c-text-2);
-            text-decoration: none;
-            font-size: 0.9rem;
-            transition: color 0.3s;
-        }
-
-        .nav-link:hover {
-            color: var(--vp-c-brand);
-        }
-
-        .main-container {
-            display: flex;
-            min-height: 100vh;
-            padding-top: 3.6rem;
-        }
-
-        .sidebar {
+        .index-sidebar {
             position: fixed;
-            top: 3.6rem;
+            top: var(--nav-height);
             left: 0;
             bottom: 0;
-            width: 16rem;
-            background: var(--vp-c-bg);
-            border-right: 1px solid var(--vp-c-border);
+            width: var(--sidebar-width);
+            background: var(--bg-surface);
+            border-right: 1px solid var(--border-color);
             overflow-y: auto;
-            z-index: 99;
-            padding-top: 1rem;
-            scrollbar-width: thin;
-            scrollbar-color: var(--vp-c-border) var(--vp-c-bg);
-            will-change: background-color, color;
+            z-index: 900;
+            padding: 1.2rem 0.8rem;
+            transition: transform 0.25s ease, background-color 0.2s ease, border-color 0.2s ease;
         }
 
-        .sidebar::-webkit-scrollbar {
-            width: 7px;
-            background: var(--vp-c-bg);
-        }
-
-        .sidebar::-webkit-scrollbar-thumb {
-            background: var(--vp-c-border);
-            border-radius: 6px;
-            transition: background 0.2s;
-        }
-
-        .sidebar::-webkit-scrollbar-thumb:hover {
-            background: var(--vp-c-brand);
-        }
-
-        [data-theme="dark"] .sidebar::-webkit-scrollbar {
-            background: #23272f;
-        }
-
-        [data-theme="dark"] .sidebar::-webkit-scrollbar-thumb {
-            background: #444;
-        }
-
-        [data-theme="dark"] .sidebar::-webkit-scrollbar-thumb:hover {
-            background: #3eaf7c;
-        }
-
-        .content {
+        .index-content {
             flex: 1;
-            margin-left: 16rem;
-            padding: 2rem;
-            min-height: calc(100vh - 3.6rem);
-            background: var(--vp-c-bg);
-            scrollbar-width: thin;
-            scrollbar-color: var(--vp-c-border) var(--vp-c-bg);
-            will-change: background-color, color;
+            margin-left: var(--sidebar-width);
+            padding: 2rem 2.5rem 4rem;
+            min-height: calc(100vh - var(--nav-height));
+            max-width: calc(100vw - var(--sidebar-width));
         }
 
-        .content::-webkit-scrollbar {
-            width: 8px;
-            background: var(--vp-c-bg);
-        }
-
-        .content::-webkit-scrollbar-thumb {
-            background: var(--vp-c-border);
-            border-radius: 6px;
-            transition: background 0.2s;
-        }
-
-        .content::-webkit-scrollbar-thumb:hover {
-            background: var(--vp-c-brand);
-        }
-
-        [data-theme="dark"] .content::-webkit-scrollbar {
-            background: #23272f;
-        }
-
-        [data-theme="dark"] .content::-webkit-scrollbar-thumb {
-            background: #444;
-        }
-
-        [data-theme="dark"] .content::-webkit-scrollbar-thumb:hover {
-            background: #3eaf7c;
-        }
-
-        .language-group {
-            margin-bottom: 2rem;
-        }
-
-        .language-title {
-            padding-left: 1rem;
-            border-left: 5px solid;
-            margin-bottom: 0.7rem;
-            margin-top: 1.1rem;
-            font-size: 1.2rem;
-            scroll-margin-top: 4.2rem;
-        }
-
-        .project-list {
-            display: block;
-            width: 100%;
-        }
-
-        .lang-group {
-            margin-bottom: 2.5rem;
-        }
-
-        .lang-divider {
-            height: 3px;
-            border-radius: 2px;
-            margin-bottom: 1.1rem;
-            margin-top: -0.3rem;
-            width: 100%;
-            background: linear-gradient(90deg, #3eaf7c, #e0e0e0 80%);
-            opacity: 0.85;
-        }
-
-        .lang-projects {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 0.9rem;
-        }
-
-        @media (min-width: 1200px) {
-            .lang-projects {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-
-        .project-card {
-            background: var(--vp-c-bg-soft);
-            border: 1px solid var(--vp-c-border);
-            border-left-width: 4px;
-            border-radius: 8px;
-            padding: 0.9rem 1.1rem;
+        /* 侧边栏语言项 */
+        .sidebar-lang-item {
             display: flex;
-            flex-direction: column;
-            margin-bottom: 0;
-            min-width: 0;
-        }
-
-        .project-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
-        }
-
-        [data-theme="dark"] .project-card:hover {
-            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
-        }
-
-        .project-card-header {
-            display: flex;
+            align-items: center;
             justify-content: space-between;
-            align-items: center;
-            margin-bottom: 0.4rem;
-        }
-
-        .project-card-title a {
-            font-size: 1.15rem;
-            font-weight: 600;
-        }
-
-        .project-card-stats {
-            display: flex;
-            align-items: center;
-            gap: 0.5rem;
-            flex-wrap: wrap;
-        }
-
-        .project-card-stats .d-flex.flex-wrap.gap-1.ms-2 {
-            display: flex !important;
-            align-items: center;
-            margin-left: 0.5rem !important;
-            gap: 0.25rem !important;
-            height: 2.2em;
-        }
-
-        .project-card-stats .badge,
-        .project-card-stats .icon-link {
-            height: 2.2em;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            box-sizing: border-box;
-        }
-
-        .project-card-stats .badge.bg-light.text-dark {
-            padding: 0 0.75rem;
-            min-height: 2.2em;
-            box-sizing: border-box;
-        }
-
-        .project-card-stats .icon-link {
-            font-size: 0.9rem;
-            line-height: 1;
-            margin-left: 0;
-            width: 2.2em;
-            min-width: 2.2em;
-            padding: 0;
-        }
-
-        .project-card-stats .icon-link:first-child {
-            margin-left: 0;
-        }
-
-        .project-card-stats .icon-link i {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            height: 100%;
-            line-height: 1;
-            font-size: 1.1em;
-        }
-
-        .project-card-body {
-            font-size: 0.95em;
-            color: var(--vp-c-text-2);
-            margin-bottom: 0.5rem;
-        }
-
-        .project-card-topics {
-            margin-bottom: 0.6rem;
-        }
-
-        .project-card-topics .badge {
-            background-color: var(--vp-c-bg-mute) !important;
-            color: var(--vp-c-text-2) !important;
+            padding: 0.55rem 0.85rem;
+            margin-bottom: 0.25rem;
+            border-radius: var(--radius-md);
+            color: var(--text-secondary);
+            font-size: 0.88rem;
             font-weight: 500;
-        }
-
-        .project-card-footer {
-            border-top: 1px solid var(--vp-c-divider);
-            padding-top: 0.6rem;
-            margin-top: auto;
-        }
-
-        .theme-toggle {
-            background: none;
-            border: none;
-            color: var(--vp-c-text-2);
             cursor: pointer;
-            padding: 0.5rem;
-            border-radius: 4px;
-            transition: all 0.3s;
-            height: 2.6em;
-            min-width: 2.6em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.35em;
-            line-height: 2.6em;
-        }
-
-        .theme-toggle:hover {
-            color: var(--vp-c-brand);
-            background: var(--vp-c-bg-soft);
-        }
-
-        .sidebar-item {
-            padding: 0.5em 1.5em;
-            cursor: pointer;
-            border-left: 3px solid transparent;
-            transition: all 0.2s ease-in-out;
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-
-        .sidebar-item:hover {
-            background-color: var(--vp-c-bg-soft);
-        }
-
-        .sidebar-item.active {
-            border-left-color: var(--vp-c-brand) !important;
-            background-color: var(--vp-c-bg-soft);
-        }
-
-        .sidebar-item a {
-            flex-grow: 1;
-            color: var(--vp-c-text-2);
             text-decoration: none;
-            font-weight: 500;
+            transition: all 0.15s ease;
+            border-left: 3px solid transparent;
         }
-
-        .sidebar-item.active a {
-            color: var(--vp-c-brand-dark);
+        .sidebar-lang-item:hover {
+            color: var(--brand);
+            background: var(--bg-surface-mute);
+            text-decoration: none;
         }
-
-        [data-theme="dark"] .sidebar-item.active a {
-            color: var(--vp-c-brand-light);
+        .sidebar-lang-item.active {
+            color: var(--brand);
+            background: var(--brand-light);
+            font-weight: 700;
+            border-left-color: var(--brand);
         }
-
-        .sidebar-color-dot {
+        .sidebar-dot {
             width: 8px;
             height: 8px;
             border-radius: 50%;
-            background-color: #ccc;
-        }
-
-        @media (max-width: 768px) {
-            .sidebar {
-                transform: translateX(-100%);
-            }
-            
-            .sidebar.show {
-                transform: translateX(0);
-            }
-            
-            .content {
-                margin-left: 0;
-            }
-            
-            .navbar {
-                padding: 0 1rem;
-            }
-        }
-
-        /* --- 搜索栏样式 --- */
-        .search-bar {
-            position: relative;
-            width: 70vw;
-            max-width: 1100px;
-            min-width: 240px;
-            margin: 0 auto;
-            flex: 1 1 auto;
-            display: flex;
-            align-items: center;
-        }
-        .search-bar .form-control {
-            background-color: var(--vp-c-bg-soft);
-            border-color: var(--vp-c-border);
-            color: var(--vp-c-text-1);
-            padding-left: 2.5rem;
-            font-size: 1.18em;
-            height: 2.6em;
-        }
-        .search-bar .search-icon {
-            position: absolute;
-            top: 50%;
-            left: 1rem;
-            transform: translateY(-50%);
-            color: var(--vp-c-text-3);
-            pointer-events: none;
-            font-size: 1.2em;
-        }
-        @media (max-width: 900px) {
-            .search-bar {
-                width: 100%;
-                max-width: 100%;
-            }
-        }
-
-        .d-flex.align-items-center {
-            height: 2.6em;
-        }
-        .icon-link {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0;
-            color: var(--vp-c-text-2);
-            background: none;
-            border: none;
-            outline: none;
-            font-size: 1.35em;
-            transition: color 0.2s;
-            text-decoration: none;
-            vertical-align: middle;
-            height: 2.6em;
-            min-width: 2.6em;
-            box-sizing: border-box;
-            line-height: 2.6em;
-        }
-        .icon-link i {
-            display: block;
-            margin: auto;
-            line-height: 2.6em;
-        }
-        .icon-link:hover {
-            color: var(--vp-c-brand);
-            background: none;
-        }
-
-        .lang-topic-row {
-            display: flex;
-            align-items: center;
-            flex-wrap: wrap;
-            overflow-x: unset;
-            white-space: normal;
-            max-width: 100%;
-            min-width: 0;
-            font-size: 1.08em;
-        }
-        .lang-topic-row .badge {
-            white-space: nowrap;
+            display: inline-block;
+            margin-right: 0.6rem;
             flex-shrink: 0;
-            margin-right: 0.4em;
         }
-        .lang-topic-row .badge:last-child {
-            margin-right: 0;
-        }
-
-        .badge.rounded-pill.bg-light.text-secondary.border {
-            background-color: var(--vp-c-bg-mute) !important;
-            color: var(--vp-c-text-2) !important;
-            font-weight: 500;
-            border: 1px solid var(--vp-c-border) !important;
+        .sidebar-count {
+            font-size: 0.78rem;
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
         }
 
-        /* 项目统计标签的明暗主题适配 */
-        .project-card-stats .badge.bg-light.text-dark {
-            background-color: var(--vp-c-bg-mute) !important;
-            color: var(--vp-c-text-1) !important;
-            border: 1px solid var(--vp-c-border);
-            font-weight: 500;
-            font-size: 0.9rem;
-            transition: background-color 0.15s, border-color 0.15s, color 0.15s;
-            height: 2.2em;
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0 0.75rem;
-            line-height: 1;
-            box-sizing: border-box;
+        .project-stream {
+            display: grid;
+            gap: 1.25rem;
+            grid-template-columns: 1fr;
+        }
+        @media (min-width: 860px) {
+            .project-stream {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (min-width: 1400px) {
+            .project-stream {
+                grid-template-columns: repeat(3, 1fr);
+            }
         }
 
-        .project-card-stats .badge.bg-light.text-dark:hover {
-            background-color: var(--vp-c-bg-soft) !important;
-            border-color: var(--vp-c-brand);
+        /* 项目卡片 */
+        .project-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border-color);
+            border-radius: var(--radius-lg);
+            padding: 1rem 1.2rem;
+            box-shadow: var(--shadow-sm);
+            transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease, border-color 0.2s ease;
+            position: relative;
+            overflow: hidden;
+            content-visibility: auto;
+            contain-intrinsic-size: 240px;
+        }
+        .project-card:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+            border-color: var(--border-color-hover);
         }
 
-        /* 暗色主题下的项目统计标签 */
-        [data-theme="dark"] .project-card-stats .badge.bg-light.text-dark {
-            background-color: #23272f !important;
-            color: #e0e6ef !important;
-            border-color: #444;
-        }
-
-        [data-theme="dark"] .project-card-stats .badge.bg-light.text-dark:hover {
-            background-color: #2d2d2d !important;
-            border-color: #3eaf7c;
-        }
-
-        /* Topics标签的暗色主题适配 */
-        [data-theme="dark"] .badge.rounded-pill.bg-light.text-secondary.border {
-            background-color: #23272f !important;
-            color: #bfc8d4 !important;
-            border-color: #444 !important;
-        }
-
-        /* 暗色主题适配 */
-        [data-theme="dark"] .project-card {
-            background: #23272f;
-            border-color: #333;
-        }
-        [data-theme="dark"] .project-card-footer {
-            border-top-color: #333;
-        }
-        [data-theme="dark"] .search-bar .form-control {
-            background-color: #23272f;
-            color: #e0e6ef;
-            border-color: #444;
-        }
-        [data-theme="dark"] .search-bar .form-control::placeholder {
-            color: #888;
-        }
-        [data-theme="dark"] .lang-divider {
-            background: linear-gradient(90deg, #3eaf7c, #444 80%);
-        }
-        [data-theme="dark"] .sidebar-item.active {
-            background-color: #23272f;
-        }
-        [data-theme="dark"] .sidebar-item:hover {
-            background-color: #23272f;
-        }
-        [data-theme="dark"] .icon-link {
-            color: #bfc8d4;
-        }
-        [data-theme="dark"] .icon-link:hover {
-            color: #3eaf7c;
-        }
-
-        .header-action-btn {
+        .project-header {
             display: flex;
             align-items: center;
-            justify-content: center;
-            width: 2.6em;
-            height: 2.6em;
-            padding: 0;
-            margin: 0 0.2em;
-            background: none;
-            border: none;
-            border-radius: 50%;
-            color: var(--vp-c-text-2);
-            font-size: 1.35em;
-            transition: background 0.2s, color 0.2s;
-            cursor: pointer;
-        }
-        .header-action-btn:hover {
-            background: var(--vp-c-bg-soft);
-            color: var(--vp-c-brand);
-        }
-        [data-theme="dark"] .header-action-btn:hover {
-            background: #23272f;
-            color: #3eaf7c;
-        }
-
-        .global-loading-mask {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            background: rgba(30, 34, 40, 0.45);
-            z-index: 9999;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: opacity 0.2s;
-        }
-        .global-loading-mask .spinner-border {
-            width: 3.5rem;
-            height: 3.5rem;
-            border-width: 0.35em;
-        }
-
-        .footer {
-            background: var(--vp-c-bg);
-            border-top: 1px solid var(--vp-c-border);
-            padding: 2rem 2rem;
-            margin-top: 3rem;
-            transition: background-color 0.15s, border-color 0.15s;
-            line-height: 1.6;
-        }
-
-        .footer-content {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
             justify-content: space-between;
-            align-items: center;
             flex-wrap: wrap;
-            gap: 1.5rem;
+            gap: 0.6rem;
+            margin-bottom: 0.6rem;
+        }
+        .project-title {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin: 0;
+        }
+        .project-title a {
+            color: var(--text-primary);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        .project-title a:hover {
+            color: var(--brand);
+        }
+        .project-avatar {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 1px solid var(--border-color);
         }
 
-        .footer-section {
+        .project-desc-zh {
+            font-size: 0.9rem;
+            color: var(--text-primary);
+            line-height: 1.55;
+            margin-bottom: 0.6rem;
+            background: var(--bg-surface-soft);
+            padding: 0.5rem 0.75rem;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-color-subtle);
+        }
+        .project-desc-en {
+            font-size: 0.84rem;
+            color: var(--text-secondary);
+            line-height: 1.4;
+            margin-bottom: 0.6rem;
+        }
+
+        .project-stats-wrap {
             display: flex;
             align-items: center;
-            gap: 2.5rem;
+            gap: 0.45rem;
             flex-wrap: wrap;
         }
 
-        .footer-links {
-            display: flex;
-            align-items: center;
-            gap: 2rem;
-            flex-wrap: wrap;
+        .topic-pill {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 500;
+            padding: 0.18rem 0.55rem;
+            border-radius: 9999px;
+            background: var(--bg-surface-mute);
+            color: var(--text-secondary);
+            border: 1px solid var(--border-color);
+            margin-right: 0.35rem;
+            margin-bottom: 0.35rem;
         }
 
-        .footer-link {
+        .lang-group-title {
+            font-size: 1.35rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            padding-left: 0.8rem;
+            border-left: 4px solid var(--brand);
+            margin: 2.2rem 0 1.2rem;
             display: flex;
             align-items: center;
             gap: 0.6rem;
-            color: var(--vp-c-text-2);
-            text-decoration: none;
-            font-size: 0.95rem;
-            font-weight: 500;
-            padding: 0.6rem 0.9rem;
-            border-radius: 6px;
-            transition: all 0.2s ease;
-            border: 1px solid transparent;
-            line-height: 1.5;
+            scroll-margin-top: calc(var(--nav-height) + 1rem);
         }
 
-        .footer-link:hover {
-            color: var(--vp-c-brand);
-            background: var(--vp-c-bg-soft);
-            border-color: var(--vp-c-border);
-            text-decoration: none;
-        }
-
-        .footer-link i {
-            font-size: 1.15rem;
-        }
-
-        .footer-sponsor {
-            display: flex;
-            align-items: center;
-            padding: 0.6rem 1.2rem;
-            border-radius: 8px;
-            background: transparent;
-        }
-
-        .sponsor-info {
-            display: flex;
-            align-items: center;
-            gap: 0.3rem;
-            flex-wrap: wrap;
-            line-height: 1.6;
-        }
-
-        .sponsor-text {
-            font-size: 0.9rem;
-            color: var(--vp-c-text-2);
-            font-weight: 500;
-        }
-
-        .sponsor-logo {
-            width: 65px;
-            height: 65px;
-            object-fit: contain;
-            border-radius: 4px;
-            background: transparent;
-        }
-
-        .footer-copyright {
-            text-align: right;
-            color: var(--vp-c-text-3);
-            font-size: 0.9rem;
-            line-height: 1.6;
-        }
-
-        .footer-copyright a {
-            color: var(--vp-c-text-2);
-            text-decoration: none;
-            font-weight: 500;
-            transition: color 0.2s ease;
-        }
-
-        .footer-copyright a:hover {
-            color: var(--vp-c-brand);
-        }
-
-        /* 暗色主题适配 */
-        [data-theme="dark"] .footer {
-            background: var(--vp-c-bg);
-            border-top-color: var(--vp-c-border);
-        }
-
-        [data-theme="dark"] .footer-link {
-            color: var(--vp-c-text-2);
-        }
-
-        [data-theme="dark"] .footer-link:hover {
-            color: var(--vp-c-brand);
-            background: var(--vp-c-bg-soft);
-            border-color: var(--vp-c-border);
-        }
-
-        [data-theme="dark"] .footer-sponsor {
-            background: transparent;
-        }
-
-        [data-theme="dark"] .sponsor-text {
-            color: var(--vp-c-text-2);
-        }
-
-        [data-theme="dark"] .sponsor-logo {
-            background: transparent;
-        }
-
-        [data-theme="dark"] .footer-copyright {
-            color: var(--vp-c-text-3);
-        }
-
-        [data-theme="dark"] .footer-copyright a {
-            color: var(--vp-c-text-2);
-        }
-
-        [data-theme="dark"] .footer-copyright a:hover {
-            color: var(--vp-c-brand);
-        }
-
-        /* 响应式设计 */
-        @media (max-width: 768px) {
-            .footer {
-                padding: 1.5rem 1rem;
+        @media (max-width: 992px) {
+            .index-sidebar {
+                transform: translateX(-100%);
             }
-            
-            .footer-content {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 2rem;
+            .index-sidebar.show {
+                transform: translateX(0);
+                box-shadow: var(--shadow-lg);
             }
-            
-            .footer-section {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 1.5rem;
-                width: 100%;
-            }
-            
-            .footer-links {
-                gap: 1.2rem;
-                width: 100%;
-            }
-            
-            .footer-link {
-                font-size: 0.9rem;
-                padding: 0.5rem 0.8rem;
-            }
-            
-            .footer-sponsor {
-                width: 100%;
-                justify-content: center;
-            }
-            
-            .sponsor-info {
-                justify-content: center;
-                text-align: center;
-            }
-            
-            .sponsor-logo {
-                width: 55px;
-                height: 55px;
-            }
-            
-            .footer-copyright {
-                text-align: center;
-                width: 100%;
-            }
-        }
-
-        @media (max-width: 480px) {
-            .footer-links {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 0.8rem;
-            }
-            
-            .footer-link {
-                width: 100%;
-                justify-content: flex-start;
+            .index-content {
+                margin-left: 0;
+                padding: 1.5rem 1rem 3rem;
+                max-width: 100%;
             }
         }
     </style>
 </head>
 <body>
-    <div id="app">
-        <div v-if="globalLoading" class="global-loading-mask">
-            <div class="spinner-border text-primary" role="status">
-                <span class="visually-hidden">Loading...</span>
-            </div>
-        </div>
-        <nav class="navbar">
-            <div class="container-fluid d-flex justify-content-between align-items-center">
-                <!-- 汉堡菜单按钮 (用于小屏幕) -->
-                <button class="d-md-none btn btn-light me-2" @click="toggleSidebar">
+<div id="app">
+    <!-- 统一头部导航栏 -->
+    <header class="app-navbar">
+        <div class="app-navbar-inner">
+            <div class="d-flex align-items-center gap-3">
+                <button class="d-lg-none app-icon-btn" @click="toggleSidebar" title="展开/收起分类">
                     <i class="bi bi-list"></i>
                 </button>
-                
-                <a href="#" class="navbar-brand">Starred Projects</a>
+                <a href="index.html" class="app-brand">
+                    <span class="brand-icon"><i class="bi bi-stars"></i></span>
+                    <span class="brand-text">Starred <span class="brand-accent">Projects</span></span>
+                </a>
+            </div>
 
-                <!-- 搜索栏 -->
-                <div class="search-bar mx-auto">
-                    <i class="bi bi-search search-icon"></i>
-                    <input type="text" class="form-control" placeholder="搜索名称、描述、Topics..." v-model="searchQuery">
-                </div>
+            <!-- 顶栏全局快捷搜索 -->
+            <div class="app-search-box d-none d-md-flex mx-3" style="max-width: 420px;">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" class="app-search-input" placeholder="输入名称、描述或 Topics 进行即时搜索..." v-model="searchQuery">
+            </div>
 
-                <div class="d-flex align-items-center">
-                    <a href="history.html" class="header-action-btn" title="查看项目历史 Star 趋势" style="width:auto;padding:0 0.8rem;border-radius:6px;font-size:0.95rem;font-weight:500;gap:0.4rem;display:inline-flex;">
-                        <i class="bi bi-graph-up-arrow"></i> 历史趋势
+            <div class="d-flex align-items-center gap-2">
+                <nav class="app-nav-menu d-none d-sm-flex">
+                    <a href="index.html" class="app-nav-item active" title="仓库列表">
+                        <i class="bi bi-grid-3x3-gap"></i> <span>仓库列表</span>
                     </a>
-                    <a href="trend.html" class="header-action-btn" title="趋势排行榜" style="width:auto;padding:0 0.8rem;border-radius:6px;font-size:0.95rem;font-weight:500;gap:0.4rem;display:inline-flex;">
-                        <i class="bi bi-fire"></i> 趋势排行
+                    <a href="trend.html" class="app-nav-item" title="7天多维增长趋势排行">
+                        <i class="bi bi-fire"></i> <span>趋势排行</span>
                     </a>
-                    <a href="https://github.com/yutao8/starred" target="_blank" class="header-action-btn" title="GitHub 仓库">
+                    <a href="history.html" class="app-nav-item" title="单项目历史演进轨迹">
+                        <i class="bi bi-graph-up-arrow"></i> <span>历史走势</span>
+                    </a>
+                </nav>
+
+                <div class="app-nav-actions">
+                    <a href="https://github.com/yutao8/starred" target="_blank" class="app-icon-btn" title="GitHub 仓库">
                         <i class="bi bi-github"></i>
                     </a>
-                    <button class="header-action-btn theme-toggle" @click="toggleTheme" title="切换主题">
-                        <i :class="isDark ? 'bi bi-sun-fill' : 'bi bi-moon-fill'"></i>
+                    <button class="app-icon-btn theme-toggle-btn" @click="toggleTheme" title="切换暗黑/明亮主题">
+                        <i :class="isDark ? 'bi bi-sun-fill' : 'bi bi-moon-stars-fill'"></i>
                     </button>
                 </div>
             </div>
-        </nav>
+        </div>
+    </header>
 
-        <div class="main-container">
-            <div class="sidebar" id="sidebar">
-                <div v-for="(projects, lang) in sidebarGroupedProjects" :key="lang"
-                     class="sidebar-item" :class="{ 'active': activeLang === lang }"
-                     :style="{ 'border-left-color': activeLang === lang ? stringToHslColor(lang) : 'transparent' }">
-                    <span class="sidebar-color-dot" :style="{ backgroundColor: stringToHslColor(lang) }"></span>
-                    <a :href="'#lang-' + lang" @click="scrollToLang(lang)">
-                        {{ lang }} <span style="font-size: 0.9em; opacity: 0.7;">({{ projects.length }})</span>
-                    </a>
-                </div>
+    <!-- 主体布局（侧边栏分类 + 主列表） -->
+    <main class="app-main">
+        <!-- 移动端搜索栏 -->
+        <div class="p-3 d-md-none bg-surface border-bottom border-color">
+            <div class="app-search-box w-100">
+                <i class="bi bi-search search-icon"></i>
+                <input type="text" class="app-search-input" placeholder="搜索名称、中文解析、标签..." v-model="searchQuery">
             </div>
-            <div class="content">
-                <div v-if="error" class="error">
-                    {{ error }}
+        </div>
+
+        <div class="index-layout">
+            <!-- 左侧语言与分类导航 -->
+            <aside class="index-sidebar" id="sidebar" :class="{ show: sidebarOpen }">
+                <div class="d-flex align-items-center justify-content-between px-2 mb-3 pb-2 border-bottom border-color">
+                    <span class="fw-bold text-primary small text-uppercase" style="letter-spacing: 0.05em;">
+                        <i class="bi bi-funnel text-success"></i> 语言分类索引
+                    </span>
+                    <span class="badge-pill brand">{{ Object.keys(sidebarGroupedProjects).length }} 种</span>
                 </div>
-                
+
+                <div v-for="(projects, lang) in sidebarGroupedProjects" :key="lang"
+                     class="sidebar-lang-item" :class="{ active: activeLang === lang }"
+                     @click="scrollToLang(lang)">
+                    <div class="d-flex align-items-center text-truncate">
+                        <span class="sidebar-dot" :style="{ backgroundColor: getLangColor(lang) }"></span>
+                        <span class="text-truncate">{{ lang }}</span>
+                    </div>
+                    <span class="sidebar-count">{{ projects.length }}</span>
+                </div>
+            </aside>
+
+            <!-- 右侧主项目内容区 -->
+            <section class="index-content">
+                <!-- 加载状态 -->
+                <div v-if="loading" class="app-loading-box">
+                    <div class="app-spinner"></div>
+                    <div>正在读取并解析 Starred 知识库...</div>
+                </div>
+
+                <!-- 错误状态 -->
+                <div v-else-if="error" class="app-empty-box">
+                    <i class="bi bi-exclamation-circle text-danger"></i>
+                    <div class="text-danger fw-bold mt-2">{{ error }}</div>
+                </div>
+
+                <!-- 项目列表 -->
                 <template v-else>
-                    <div class="project-list">
-                        <div v-for="(projects, lang) in groupedProjects" :key="lang + '-group'" class="lang-group">
-                            <h2 class="language-title" :id="'lang-' + lang" :style="{ 'border-left-color': stringToHslColor(lang) }">
-                                {{ lang }}
+                    <!-- 统计概览横幅 -->
+                    <div class="app-page-header">
+                        <div>
+                            <h1 class="app-page-title">
+                                <i class="bi bi-collection-fill text-success"></i> GitHub Starred 知识库
+                            </h1>
+                            <p class="app-page-subtitle">
+                                共收录 <strong>{{ rawTotalCount }}</strong> 个高质量项目 · 已加载 <strong>{{ filteredProjects.length }}</strong> 个匹配结果
+                            </p>
+                        </div>
+                        <div class="d-flex gap-2">
+                            <a href="trend.html" class="app-btn primary">
+                                <i class="bi bi-fire"></i> 查看趋势榜单
+                            </a>
+                            <a href="history.html" class="app-btn">
+                                <i class="bi bi-graph-up-arrow"></i> 历史走势查询
+                            </a>
+                        </div>
+                    </div>
+
+                    <div v-if="filteredProjects.length === 0" class="app-empty-box">
+                        <i class="bi bi-search"></i>
+                        <div class="fs-6 fw-bold">未找到与 "{{ searchQuery }}" 匹配的仓库</div>
+                        <div class="small text-muted mt-1">请尝试更换搜索关键词或查看其他语言分类</div>
+                    </div>
+
+                    <div v-else>
+                        <div v-for="(projects, lang) in groupedProjects" :key="lang + '-group'" class="mb-5">
+                            <!-- 分组标题 -->
+                            <h2 class="lang-group-title" :id="'lang-' + lang" :style="{ borderLeftColor: getLangColor(lang) }">
+                                <span :style="{ color: getLangColor(lang) }">●</span> {{ lang }}
+                                <span class="badge-pill brand ms-2">{{ projects.length }} 库</span>
                             </h2>
-                            <div class="lang-divider" :style="{ background: `linear-gradient(90deg, ${stringToHslColor(lang, 70, 55)}, #e0e0e0 80%)` }"></div>
-                            <div class="lang-projects">
-                                <div v-for="project in projects" :key="project.id || project.full_name" class="project-card" :style="{ 'border-left-color': stringToHslColor(lang, 60, 65) }">
-                                    <div>
-                                        <div class="project-card-header d-flex justify-content-between align-items-center mb-2">
-                                            <div class="d-flex align-items-center gap-2">
-                                                <img v-if="project.owner && project.owner.avatar_url" :src="project.owner.avatar_url" :alt="project.owner.login" class="rounded-circle me-2" style="width:28px;height:28px;object-fit:cover;" width="28" height="28" loading="lazy" decoding="async" referrerpolicy="no-referrer" :title="project.owner.login" onerror="this.style.visibility='hidden'">
-                                                <div class="project-card-title fw-semibold">
-                                                    <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
-                                                </div>
-                                            </div>
-                                            <div class="project-card-stats d-flex gap-2 align-items-center flex-wrap">
-                                                <span class="badge bg-light text-dark"><i class="bi bi-star-fill text-warning"></i> {{ project.stargazers_count }}</span>
-                                                <span class="badge bg-light text-dark"><i class="bi bi-git text-info"></i> {{ project.forks_count }}</span>
-                                                <span class="badge bg-light text-dark"><i class="bi bi-eye"></i> {{ project.watchers_count }}</span>
-                                                <span class="badge bg-light text-dark"><i class="bi bi-exclamation-circle"></i> {{ project.open_issues_count }}</span>
-                                                <span class="d-flex flex-wrap gap-1 ms-2">
-                                                    <a :href="'history.html?repo=' + encodeURIComponent(project.full_name || project.name)" target="_blank" class="icon-link text-success" title="查看历史 Star 增长趋势"><i class="bi bi-graph-up-arrow"></i></a>
-                                                    <a v-if="project.html_url" :href="project.html_url + '/issues'" target="_blank" class="icon-link" title="Issues"><i class="bi bi-exclamation-circle"></i></a>
-                                                    <a v-if="project.html_url" :href="project.html_url + '/pulls'" target="_blank" class="icon-link" title="Pull Requests"><i class="bi bi-git"></i></a>
-                                                    <a v-if="project.html_url" :href="project.html_url + '/actions'" target="_blank" class="icon-link" title="Actions"><i class="bi bi-lightning-charge"></i></a>
-                                                    <a v-if="project.html_url" :href="project.html_url + '/releases'" target="_blank" class="icon-link" title="Releases"><i class="bi bi-box-arrow-down"></i></a>
-                                                    <a v-if="project.homepage" :href="project.homepage" target="_blank" class="icon-link" title="Homepage"><i class="bi bi-house"></i></a>
-                                                    <a v-if="project.html_url && project.has_wiki" :href="project.html_url + '/wiki'" target="_blank" class="icon-link" title="Wiki"><i class="bi bi-journal-bookmark"></i></a>
-                                                </span>
-                                            </div>
-                                        </div>
-                                        <div class="lang-topic-row mb-1">
-                                            <span v-for="t in project.topics" :key="t" class="badge rounded-pill bg-light text-secondary border">{{ t }}</span>
-                                        </div>
-                                    </div>
-                                    <div class="project-card-body text-secondary mb-3">{{ project.desc || project.description || '暂无描述。' }}</div>
-                                    <div class="project-card-footer d-flex justify-content-between align-items-center text-muted small pt-2 flex-wrap" style="gap:0.8em;">
-                                        <div class="d-flex flex-wrap align-items-center" style="gap:0.8em;">
-                                            <span v-if="project.license" :title="project.license.name"><i class="bi bi-shield-check"></i> {{ project.license.spdx_id }}</span>
-                                            <span v-if="project.size"><i class="bi bi-hdd"></i> {{ (project.size / 1024).toFixed(1) }} MB</span>
-                                            <span v-if="project.default_branch"><i class="bi bi-git"></i> {{ project.default_branch }}</span>
-                                            <span v-if="project.language"><i class="bi bi-code-slash"></i> {{ project.language }}</span>
-                                            <span v-if="project.owner && project.owner.login"><i class="bi bi-person-circle"></i> {{ project.owner.login }}</span>
-                                            <span v-if="project.visibility === 'public'" title="公开"><i class="bi bi-globe"></i> 公开</span>
-                                            <span v-if="project.visibility === 'private'" title="私有"><i class="bi bi-lock"></i> 私有</span>
-                                            <span v-if="project.visibility === 'internal'" title="内部"><i class="bi bi-people"></i> 内部</span>
-                                            <span v-if="project.is_template" title="模板仓库"><i class="bi bi-file-earmark-plus"></i> 模板</span>
-                                            <span v-if="project.allow_forking" title="允许 Fork"><i class="bi bi-diagram-3"></i> 可Fork</span>
-                                            <span v-if="project.permissions && (project.permissions.admin || project.permissions.maintain || project.permissions.push || project.permissions.triage)">
-                                                <i class="bi bi-shield-lock"></i>
-                                                <template v-if="project.permissions.admin">管理员</template>
-                                                <template v-else-if="project.permissions.maintain">维护者</template>
-                                                <template v-else-if="project.permissions.push">推送</template>
-                                                <template v-else-if="project.permissions.triage">分拣</template>
+
+                            <!-- 仓库卡片流 -->
+                            <div class="project-stream">
+                                <article v-for="project in projects" :key="project.id || project.full_name"
+                                         class="project-card">
+                                    <!-- 头部：标题、作者、基础指标 -->
+                                    <div class="project-header">
+                                        <div class="d-flex align-items-center gap-2 flex-wrap">
+                                            <img v-if="project.owner && project.owner.avatar_url"
+                                                 :src="project.owner.avatar_url"
+                                                 :alt="project.owner.login"
+                                                 class="project-avatar"
+                                                 loading="lazy"
+                                                 decoding="async"
+                                                 referrerpolicy="no-referrer"
+                                                 onerror="this.style.visibility='hidden'">
+                                            <h3 class="project-title">
+                                                <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
+                                            </h3>
+                                            <span class="badge-pill">
+                                                <span :style="{ color: getLangColor(project.language) }">●</span> {{ project.language || 'Other' }}
                                             </span>
                                         </div>
-                                        <div class="d-flex flex-wrap align-items-center justify-content-end" style="gap:0.8em;min-width:120px;">
-                                            <span v-if="project.updated_at"><i class="bi bi-clock-history"></i> 活跃: {{ project.updated_at.slice(0, 10) }}</span>
-                                            <span v-if="project.pushed_at"><i class="bi bi-upload"></i> 提交: {{ project.pushed_at.slice(0, 10) }}</span>
-                                            <span v-if="project.created_at"><i class="bi bi-calendar-event"></i> 创建: {{ project.created_at.slice(0, 10) }}</span>
-                                            <span v-if="project.fork" title="Fork"><i class="bi bi-git"></i> Fork</span>
-                                            <span v-if="project.archived" title="已归档"><i class="bi bi-archive"></i> Archived</span>
+
+                                        <div class="project-stats-wrap">
+                                            <span class="badge-pill amber" title="Star 总数">
+                                                <i class="bi bi-star-fill text-warning"></i> {{ (project.stargazers_count || 0).toLocaleString() }}
+                                            </span>
+                                            <span class="badge-pill blue" title="Fork 总数">
+                                                <i class="bi bi-git text-primary"></i> {{ (project.forks_count || 0).toLocaleString() }}
+                                            </span>
+                                            <span v-if="project.open_issues_count > 0" class="badge-pill" title="未关闭 Issues">
+                                                <i class="bi bi-exclamation-circle"></i> {{ project.open_issues_count }}
+                                            </span>
+                                            <a :href="'history.html?repo=' + encodeURIComponent(project.full_name || project.name)"
+                                               target="_blank"
+                                               class="badge-pill brand text-decoration-none"
+                                               title="查看该项目的历史 Star 增长走势折线图">
+                                                <i class="bi bi-graph-up"></i> 历史走势
+                                            </a>
+                                            <a v-if="project.homepage" :href="project.homepage" target="_blank" class="app-icon-btn" style="width:1.8rem;height:1.8rem;font-size:0.85rem" title="官网/主页">
+                                                <i class="bi bi-house"></i>
+                                            </a>
+                                            <a :href="project.html_url" target="_blank" class="app-icon-btn" style="width:1.8rem;height:1.8rem;font-size:0.85rem" title="GitHub 源码">
+                                                <i class="bi bi-github"></i>
+                                            </a>
                                         </div>
                                     </div>
-                                </div>
+
+                                    <!-- 中文 AI 深度技术解析 -->
+                                    <div v-if="project.desc" class="project-desc-zh">
+                                        <i class="bi bi-robot text-success me-1"></i> {{ project.desc }}
+                                    </div>
+
+                                    <!-- 原生描述 -->
+                                    <div v-if="project.description && project.description !== project.desc" class="project-desc-en">
+                                        <i class="bi bi-quote text-muted me-1"></i> {{ project.description }}
+                                    </div>
+
+                                    <!-- Topics 标签 -->
+                                    <div v-if="project.topics && project.topics.length" class="mb-3">
+                                        <span v-for="topic in project.topics" :key="topic" class="topic-pill">
+                                            #{{ topic }}
+                                        </span>
+                                    </div>
+
+                                    <!-- 底部元数据信息 -->
+                                    <div class="d-flex align-items-center justify-content-between flex-wrap gap-2 text-muted small pt-2 border-top border-color-subtle">
+                                        <div class="d-flex align-items-center gap-3 flex-wrap">
+                                            <span v-if="project.license"><i class="bi bi-shield-check"></i> {{ project.license.spdx_id || project.license.name }}</span>
+                                            <span v-if="project.size"><i class="bi bi-hdd"></i> {{ (project.size / 1024).toFixed(1) }} MB</span>
+                                            <span v-if="project.default_branch"><i class="bi bi-git"></i> {{ project.default_branch }}</span>
+                                        </div>
+                                        <div class="d-flex align-items-center gap-3 flex-wrap">
+                                            <span v-if="project.pushed_at"><i class="bi bi-upload"></i> 活跃: {{ project.pushed_at.slice(0, 10) }}</span>
+                                            <span v-if="project.created_at"><i class="bi bi-calendar-event"></i> 创建: {{ project.created_at.slice(0, 10) }}</span>
+                                        </div>
+                                    </div>
+                                </article>
                             </div>
                         </div>
                     </div>
                 </template>
-            </div>
+            </section>
         </div>
-        <div class="footer">
-            <div class="footer-content">
-                <div class="footer-section">
-                    <div class="footer-links">
-                        <a href="history.html" class="footer-link">
-                            <i class="bi bi-graph-up-arrow"></i>
-                            历史趋势分析
-                        </a>
-                        <a href="https://docs.github.com/zh/rest/activity/starring?apiVersion=2022-11-28#list-repositories-starred-by-the-authenticated-user" target="_blank" class="footer-link">
-                            <i class="bi bi-github"></i>
-                            GitHub REST API
-                        </a>
-                        <a href="https://edgeone.tencent.com/?from=github" target="_blank" class="footer-link">
-                            <i class="bi bi-shield-check"></i>
-                            Tencent EdgeOne
-                        </a>
-                        <a href="https://github.com/yutao8" target="_blank" class="footer-link">
-                            <i class="bi bi-person-circle"></i>
-                            yutao8
-                        </a>
-                    </div>
-                    <div class="footer-sponsor">
-                        <div class="sponsor-info">
-                            <span class="sponsor-text">CDN加速与安全防护由</span>
-                            <a href="https://edgeone.tencent.com/?from=github" target="_blank" class="sponsor-link">Tencent EdgeOne</a>
-                            <span class="sponsor-text">赞助</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="footer-copyright">
-                    <p>Copyright © 2025 <a href="https://github.com/yutao8" target="_blank">yutao8</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
+    </main>
 
-    <script>
-        const { createApp, ref, computed, onMounted, onBeforeUnmount, watch } = Vue;
+    <!-- 统一页脚 -->
+    <footer class="app-footer">
+        <div>Starred Projects · 自动化 GitHub Star 资产管理与趋势洞察系统</div>
+        <div class="small text-muted mt-1">数据由 GitHub Actions 定时自动更新 · 深度集成大语言模型中文技术解析</div>
+    </footer>
+</div>
 
-        // 防抖函数
-        function debounce(fn, delay = 300) {
-            let timer = null;
-            return function(...args) {
-                clearTimeout(timer);
-                timer = setTimeout(() => fn.apply(this, args), delay);
-            };
-        }
+<script>
+const { createApp, ref, computed, onMounted, onBeforeUnmount, watch } = Vue;
 
-        createApp({
-            setup() {
-                const isDark = ref(false);
-                const loading = ref(true);
-                const globalLoading = ref(false);
-                const error = ref(null);
-                const searchQuery = ref('');
-                const sidebarOpen = ref(false);
-                const activeLang = ref('');
-                const filteredProjects = ref([]); // 当前搜索命中的完整项目
-                const renderLimit = ref(0); // 当前内容区已渲染数量
-                let rawProjects = [];     // 原始所有项目（非响应式）
-                let sortedLanguages = []; // 原始语言排序，搜索时复用
-                let renderFrame = null;
-                let languageObserver = null;
-                let observeTimer = null;
-                const initialRenderCount = 20;
-                const renderChunkSize = 30;
+function debounce(fn, delay = 250) {
+    let timer = null;
+    return function(...args) {
+        clearTimeout(timer);
+        timer = setTimeout(() => fn.apply(this, args), delay);
+    };
+}
 
-                const normalizeText = (value) => String(value || '').toLowerCase();
+createApp({
+    setup() {
+        const isDark = ref(StarredCommon.getTheme() === 'dark');
+        const toggleTheme = () => {
+            const next = StarredCommon.toggleTheme();
+            isDark.value = (next === 'dark');
+        };
 
-                const buildSearchText = (project) => {
-                    return [
-                        project.full_name,
-                        project.name,
-                        project.desc,
-                        project.description,
-                        project.language,
-                        project.owner && project.owner.login,
-                        ...(project.topics || [])
-                    ].map(normalizeText).join(' ');
-                };
+        const loading = ref(true);
+        const error = ref(null);
+        const searchQuery = ref('');
+        const sidebarOpen = ref(false);
+        const activeLang = ref('');
+        const rawTotalCount = ref(0);
 
-                const groupProjects = (list) => {
-                    const groups = {};
-                    list.forEach(project => {
-                        const lang = project.language || 'Other';
-                        if (!groups[lang]) groups[lang] = [];
-                        groups[lang].push(project);
-                    });
-                    const result = {};
-                    sortedLanguages.forEach(lang => {
-                        if (groups[lang]) {
-                            result[lang] = groups[lang];
-                        }
-                    });
-                    return result;
-                };
+        const filteredProjects = ref([]);
+        const renderLimit = ref(0);
+        let rawProjects = [];
+        let sortedLanguages = [];
+        let renderFrame = null;
+        let languageObserver = null;
+        let observeTimer = null;
+        const initialRenderCount = 20;
+        const renderChunkSize = 30;
 
-                const renderedProjects = computed(() => filteredProjects.value.slice(0, renderLimit.value));
+        const normalizeText = (value) => String(value || '').toLowerCase();
 
-                const sidebarGroupedProjects = computed(() => groupProjects(filteredProjects.value));
+        const buildSearchText = (project) => {
+            return [
+                project.full_name,
+                project.name,
+                project.desc,
+                project.description,
+                project.language,
+                project.owner && project.owner.login,
+                ...(project.topics || [])
+            ].map(normalizeText).join(' ');
+        };
 
-                // 分组。仓库列表在加载时已按语言和星数排序，这里避免搜索时重复排序。
-                const groupedProjects = computed(() => {
-                    return groupProjects(renderedProjects.value);
-                });
+        const groupProjects = (list) => {
+            const groups = {};
+            list.forEach(project => {
+                const lang = project.language || 'Other';
+                if (!groups[lang]) groups[lang] = [];
+                groups[lang].push(project);
+            });
+            const result = {};
+            sortedLanguages.forEach(lang => {
+                if (groups[lang]) {
+                    result[lang] = groups[lang];
+                }
+            });
+            return result;
+        };
 
-                const updateRenderedProjects = (list) => {
-                    if (renderFrame) {
-                        cancelAnimationFrame(renderFrame);
-                        renderFrame = null;
-                    }
+        const renderedProjects = computed(() => filteredProjects.value.slice(0, renderLimit.value));
+        const sidebarGroupedProjects = computed(() => groupProjects(filteredProjects.value));
+        const groupedProjects = computed(() => groupProjects(renderedProjects.value));
 
-                    filteredProjects.value = list;
-                    renderLimit.value = Math.min(initialRenderCount, list.length);
-
-                    const appendChunk = () => {
-                        if (renderLimit.value >= filteredProjects.value.length) {
-                            renderFrame = null;
-                            return;
-                        }
-
-                        renderLimit.value = Math.min(
-                            renderLimit.value + renderChunkSize,
-                            filteredProjects.value.length
-                        );
-                        scheduleObserveLanguageTitles();
-                        renderFrame = requestAnimationFrame(appendChunk);
-                    };
-
-                    if (renderLimit.value < list.length) {
-                        renderFrame = requestAnimationFrame(appendChunk);
-                    }
-                    scheduleObserveLanguageTitles();
-                };
-
-                // 主题切换
-                const toggleTheme = () => {
-                    globalLoading.value = true;
-                    isDark.value = !isDark.value;
-                    document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
-                    localStorage.setItem('theme', isDark.value ? 'dark' : 'light');
-                    setTimeout(() => {
-                        globalLoading.value = false;
-                    }, 400);
-                };
-
-                // 初始化主题
-                const initTheme = () => {
-                    const savedTheme = localStorage.getItem('theme');
-                    if (savedTheme) {
-                        isDark.value = savedTheme === 'dark';
-                    } else {
-                        isDark.value = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                    }
-                    document.documentElement.setAttribute('data-theme', isDark.value ? 'dark' : 'light');
-                };
-
-                // 颜色生成
-                const stringToHslColor = (str, s = 70, l = 50) => {
-                    let hash = 0;
-                    for (let i = 0; i < str.length; i++) {
-                        hash = str.charCodeAt(i) + ((hash << 5) - hash);
-                    }
-                    const h = hash % 360;
-                    return `hsl(${h}, ${s}%, ${l}%)`;
-                };
-
-                // 平滑滚动到指定语言
-                const scrollToLang = (lang) => {
-                    // 关闭移动端侧边栏
-                    const sidebar = document.getElementById('sidebar');
-                    if (window.innerWidth <= 768 && sidebar && sidebar.classList.contains('show')) {
-                        sidebar.classList.remove('show');
-                    }
-                    // 滚动到分组标题
-                    const id = 'lang-' + lang;
-                    const element = document.getElementById(id);
-                    if (!element && renderLimit.value < filteredProjects.value.length) {
-                        if (renderFrame) {
-                            cancelAnimationFrame(renderFrame);
-                            renderFrame = null;
-                        }
-                        renderLimit.value = filteredProjects.value.length;
-                        scheduleObserveLanguageTitles();
-                        setTimeout(() => scrollToLang(lang), 0);
-                        return;
-                    }
-                    if (element) {
-                        // 优先用scrollIntoView，兼容性好
-                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                        // 再用window.scrollTo补偿navbar高度
-                        const navbar = document.querySelector('.navbar');
-                        const navHeight = navbar ? navbar.offsetHeight : 67;
-                        // 延迟一点点再修正
-                        setTimeout(() => {
-                            const rect = element.getBoundingClientRect();
-                            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-                            const top = rect.top + scrollTop - navHeight;
-                            window.scrollTo({ top, behavior: 'smooth' });
-                        }, 200);
-                    }
-                };
-
-                // 侧边栏
-                const toggleSidebar = () => {
-                    sidebarOpen.value = !sidebarOpen.value;
-                    document.getElementById('sidebar').classList.toggle('show');
-                };
-
-                const scheduleObserveLanguageTitles = () => {
-                    clearTimeout(observeTimer);
-                    observeTimer = setTimeout(() => {
-                        if (!languageObserver) return;
-                        languageObserver.disconnect();
-                        document.querySelectorAll('.language-title').forEach(el => languageObserver.observe(el));
-                    }, 80);
-                };
-
-                // 搜索过滤逻辑（防抖）
-                const doFilter = debounce(() => {
-                    const query = normalizeText(searchQuery.value).trim();
-                    if (!query) {
-                        updateRenderedProjects(rawProjects);
-                        return;
-                    }
-
-                    const keywords = query.split(/\s+/).filter(Boolean);
-                    const matchedProjects = rawProjects.filter(project => {
-                        return keywords.every(keyword => project._searchText.includes(keyword));
-                    });
-                    updateRenderedProjects(matchedProjects);
-                }, 300);
-
-                // 监听 searchQuery
-                watch(searchQuery, doFilter);
-
-                onMounted(async () => {
-                    globalLoading.value = true;
-                    initTheme();
-                    try {
-                        let res = await fetch('./data/starList.public.json');
-                        if (!res.ok) {
-                            res = await fetch('./starList.public.json');
-                        }
-                        if (!res.ok) throw new Error('无法加载 starList 数据');
-                        rawProjects = await res.json();
-                        rawProjects.forEach(project => {
-                            project.language = project.language || 'Other';
-                            project._searchText = buildSearchText(project);
-                        });
-                        rawProjects.sort((a, b) => {
-                            const langCompare = a.language.localeCompare(b.language, 'zh-CN');
-                            if (langCompare !== 0) return langCompare;
-                            return (b.stargazers_count || 0) - (a.stargazers_count || 0);
-                        });
-                        sortedLanguages = Array.from(new Set(rawProjects.map(project => project.language)));
-                        updateRenderedProjects(rawProjects);
-                    } catch (e) {
-                        error.value = e.message;
-                    } finally {
-                        loading.value = false;
-                        globalLoading.value = false;
-                    }
-
-                    // 滚动监听高亮
-                    languageObserver = new IntersectionObserver((entries) => {
-                        entries.forEach(entry => {
-                            if (entry.isIntersecting) {
-                                activeLang.value = entry.target.id.replace(/^lang-/, '');
-                            }
-                        });
-                    }, { rootMargin: "-50% 0px -50% 0px" });
-                    scheduleObserveLanguageTitles();
-                });
-
-                onBeforeUnmount(() => {
-                    if (renderFrame) {
-                        cancelAnimationFrame(renderFrame);
-                    }
-                    clearTimeout(observeTimer);
-                    if (languageObserver) {
-                        languageObserver.disconnect();
-                    }
-                });
-
-                return {
-                    isDark,
-                    loading,
-                    globalLoading,
-                    error,
-                    searchQuery,
-                    sidebarOpen,
-                    activeLang,
-                    sidebarGroupedProjects,
-                    groupedProjects,
-                    toggleTheme,
-                    toggleSidebar,
-                    stringToHslColor,
-                    scrollToLang
-                };
+        const updateRenderedProjects = (list) => {
+            if (renderFrame) {
+                cancelAnimationFrame(renderFrame);
+                renderFrame = null;
             }
-        }).mount('#app');
-    </script>
+
+            filteredProjects.value = list;
+            renderLimit.value = Math.min(initialRenderCount, list.length);
+
+            const appendChunk = () => {
+                if (renderLimit.value >= filteredProjects.value.length) {
+                    renderFrame = null;
+                    return;
+                }
+
+                renderLimit.value = Math.min(
+                    renderLimit.value + renderChunkSize,
+                    filteredProjects.value.length
+                );
+                scheduleObserveLanguageTitles();
+                renderFrame = requestAnimationFrame(appendChunk);
+            };
+
+            if (renderLimit.value < list.length) {
+                renderFrame = requestAnimationFrame(appendChunk);
+            }
+            scheduleObserveLanguageTitles();
+        };
+
+        const getLangColor = (lang) => {
+            return StarredCommon.getLanguageColor(lang);
+        };
+
+        const scrollToLang = (lang) => {
+            if (window.innerWidth <= 992) {
+                sidebarOpen.value = false;
+            }
+            const id = 'lang-' + lang;
+            const element = document.getElementById(id);
+            if (!element && renderLimit.value < filteredProjects.value.length) {
+                if (renderFrame) {
+                    cancelAnimationFrame(renderFrame);
+                    renderFrame = null;
+                }
+                renderLimit.value = filteredProjects.value.length;
+                scheduleObserveLanguageTitles();
+                setTimeout(() => scrollToLang(lang), 0);
+                return;
+            }
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        };
+
+        const toggleSidebar = () => {
+            sidebarOpen.value = !sidebarOpen.value;
+        };
+
+        const scheduleObserveLanguageTitles = () => {
+            clearTimeout(observeTimer);
+            observeTimer = setTimeout(() => {
+                if (!languageObserver) return;
+                languageObserver.disconnect();
+                document.querySelectorAll('.lang-group-title').forEach(el => languageObserver.observe(el));
+            }, 80);
+        };
+
+        const doFilter = debounce(() => {
+            const query = normalizeText(searchQuery.value).trim();
+            if (!query) {
+                updateRenderedProjects(rawProjects);
+                return;
+            }
+
+            const keywords = query.split(/\s+/).filter(Boolean);
+            const matchedProjects = rawProjects.filter(project => {
+                return keywords.every(keyword => project._searchText.includes(keyword));
+            });
+            updateRenderedProjects(matchedProjects);
+        }, 250);
+
+        watch(searchQuery, doFilter);
+
+        onMounted(async () => {
+            try {
+                let res = await fetch('./data/starList.public.json?_t=' + Date.now());
+                if (!res.ok) {
+                    res = await fetch('./starList.public.json?_t=' + Date.now());
+                }
+                if (!res.ok) throw new Error('无法加载 starList 数据');
+                rawProjects = await res.json();
+                rawTotalCount.value = rawProjects.length;
+
+                rawProjects.forEach(project => {
+                    project.language = project.language || 'Other';
+                    project._searchText = buildSearchText(project);
+                });
+                rawProjects.sort((a, b) => {
+                    const langCompare = a.language.localeCompare(b.language, 'zh-CN');
+                    if (langCompare !== 0) return langCompare;
+                    return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                });
+                sortedLanguages = Array.from(new Set(rawProjects.map(project => project.language)));
+                updateRenderedProjects(rawProjects);
+            } catch (e) {
+                error.value = e.message;
+            } finally {
+                loading.value = false;
+            }
+
+            window.addEventListener('starred-theme-changed', (e) => {
+                isDark.value = (e.detail.theme === 'dark');
+            });
+
+            languageObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        activeLang.value = entry.target.id.replace(/^lang-/, '');
+                    }
+                });
+            }, { rootMargin: "-30% 0px -60% 0px" });
+            scheduleObserveLanguageTitles();
+        });
+
+        onBeforeUnmount(() => {
+            if (renderFrame) {
+                cancelAnimationFrame(renderFrame);
+            }
+            clearTimeout(observeTimer);
+            if (languageObserver) {
+                languageObserver.disconnect();
+            }
+        });
+
+        return {
+            isDark,
+            loading,
+            error,
+            searchQuery,
+            sidebarOpen,
+            activeLang,
+            rawTotalCount,
+            filteredProjects,
+            sidebarGroupedProjects,
+            groupedProjects,
+            toggleTheme,
+            toggleSidebar,
+            getLangColor,
+            scrollToLang
+        };
+    }
+}).mount('#app');
+</script>
 </body>
 </html>
-
