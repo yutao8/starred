@@ -634,20 +634,8 @@
         }
     });
 
-    // 预加载可用项目列表
+    // 预加载可用项目列表 (纯静态读取 starList.public.json)
     async function loadRepoList() {
-        try {
-            const resp = await fetch('history.php');
-            if (resp.ok) {
-                const data = await resp.json();
-                if (data && data.repos) {
-                    repoList = data.repos;
-                    return;
-                }
-            }
-        } catch (e) {}
-
-        // 静态托管环境退回 (GitHub Pages) - 直接使用 starList.public.json
         try {
             const resp = await fetch('starList.public.json');
             if (resp.ok) {
@@ -718,21 +706,7 @@
         stateMsg.innerHTML = `⏳ 正在读取项目 '${escapeHtml(query)}' 的历史履历数据...`;
         detailWrap.style.display = 'none';
 
-        // 1. 优先尝试调用 history.php 动态接口
-        try {
-            const url = `history.php?repo=${encodeURIComponent(query)}`;
-            const resp = await fetch(url);
-            if (resp.ok) {
-                const data = await resp.json();
-                if (data && data.status === 'success') {
-                    stateMsg.style.display = 'none';
-                    renderRepoHistory(data);
-                    return;
-                }
-            }
-        } catch (err) {}
-
-        // 2. 静态 GitHub Pages 模式退回：直接从 repos/{id}.json 读取项目履历
+        // 纯静态模式：直接从 repos/{id}.json 读取独立项目履历文件
         try {
             const queryLower = query.trim().toLowerCase();
             let targetRepo = repoList.find(r => 
@@ -756,7 +730,7 @@
                     }
                 }
             }
-            throw new Error('未在 repos 履历库中匹配到该项目');
+            throw new Error('未在 repos 履历库中匹配到该项目历史数据');
         } catch (err) {
             stateMsg.style.display = 'block';
             stateMsg.innerHTML = `⚠️ 查询失败: ${escapeHtml(err.message)}`;

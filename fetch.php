@@ -261,17 +261,20 @@ class GitHubStarred
 			} while (true);
 			
 			// 处理当前批次的描述
+			$missingCount = 0;
 			foreach ($batchRepoNames as $repoIndex => $repoName) {
 				$description = $descriptionResults[$repoIndex]['answer'] ?? '';
 				$description = $this->sanitizeDescription($description);
 				if ($description === '') {
-					echo sprintf("\t警告: 仓库 %s 未获取到描述\n", $repoName);
+					$missingCount++;
 					continue;
 				}
 				$repos[$repoIndex]['desc'] = $description;
 				$hasValidDesc = true;
 			}
-			
+			if ($missingCount > 0) {
+				echo sprintf("\t提示: 本批有 %d 个仓库未获取到描述\n", $missingCount);
+			}
 		}
 		$cacheData = ['expire' => time() + 3600, 'data' => $repos];
 		$cacheFile = $this->cachePath . 'repo_desc_list.json';

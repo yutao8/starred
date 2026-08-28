@@ -466,14 +466,15 @@ class FastRepoHistoryAnalyzer
     }
 }
 
-// 执行入口
-$analyzer = new FastRepoHistoryAnalyzer();
-$isCli = (PHP_SAPI === 'cli');
-$force = isset($_GET['force']) || (isset($argv) && in_array('--force', $argv, true));
+// 仅在直接通过命令行运行 history.php 时执行（避免被 fetch.php require 引入时重复执行）
+if (PHP_SAPI === 'cli' && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === realpath(__FILE__)) {
+    $analyzer = new FastRepoHistoryAnalyzer();
+    $force = in_array('--force', $argv ?? [], true);
+    $isSync = in_array('--sync', $argv ?? [], true) || in_array('-s', $argv ?? [], true);
+    $outputJson = in_array('--json', $argv ?? [], true);
 
-$query = $_GET['repo'] ?? ($_GET['name'] ?? ($_GET['id'] ?? ''));
-if ($isCli) {
-    foreach ($argv as $arg) {
+    $query = '';
+    foreach ($argv ?? [] as $arg) {
         if (str_starts_with($arg, '--repo=')) {
             $query = trim(substr($arg, 7));
         } elseif (str_starts_with($arg, '--id=')) {
@@ -482,21 +483,57 @@ if ($isCli) {
             $query = trim(substr($arg, 7));
         }
     }
-}
 
-if ($query !== '') {
-    // 指定了项目时，读取 repos/{id}.json 独立项目履历文件
-    $result = $analyzer->getRepoHistory($query, $force);
-} else {
-    // 没有指定项目时，读取 startList.json / starList.json 来展示列表
-    $result = $analyzer->getRepoListFromRoot();
-}
+    // 1. 同步快照
+    if ($isSync) {
+        echo "📊 开始同步 dist/ 快照到 repos/ 独立履历库...\n";
+        $analyzer->syncDistToReposDir();
+        echo "✅ 同步完成！\n";
+        exit(0);
+    }
 
-if ($isCli) {
-    echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . PHP_EOL;
-} else {
-    header('Access-Control-Allow-Origin: *');
-    header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-    exit;
+    // 2. 查询指定项目履历
+    if ($query !== '') {
+        $result = $analyzer->getRepoHistory($query, $force);
+        if ($outputJson) {
+            echo json_encode($result, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT) . PHP_EOL;
+            exit(0);
+        }
+        if (($result['status'] ?? '') !== 'success') {
+            echo "❌ 未找到项目: {$query} (" . ($result['message'] ?? '无记录') . ")\n";
+            exit(1);
+        }
+        $r = $result['repo'] ?? [];
+        $kpi = $result['kpi'] ?? [];
+        echo "========================================\n";
+        echo "📦 项目: " . ($r['full_name'] ?? $query) . " (" . ($r['language'] ?? 'Other') . ")\n";
+        echo "🔗 链接: " . ($r['html_url'] ?? '') . "\n";
+        echo "📝 描述: " . ($r['description'] ?? '') . "\n";
+        echo "----------------------------------------\n";
+        echo "⭐ 当前 Stars: " . number_format((int)($kpi['current_stars'] ?? 0));
+        echo " (总增量: +" . number_format((int)($kpi['star_diff'] ?? 0)) . " ★, 增长率: " . ($kpi['growth_rate'] ?? '0') . "%)\n";
+        echo "🍴 当前 Forks: " . number_format((int)($kpi['current_forks'] ?? 0)) . "\n";
+        echo "📅 首次记录: " . ($kpi['first_seen'] ?? '-') . " (初始 " . ($kpi['initial_stars'] ?? 0) . " ★)\n";
+        echo "🕒 最近记录: " . ($kpi['latest_seen'] ?? '-') . "\n";
+        echo "📊 历史快照: 共 " . count($result['history'] ?? []) . " 个点\n";
+        echo "========================================\n";
+        exit(0);
+    }
+
+    // 3. 默认输出状态与帮助
+    $index = $analyzer->loadMasterIndex();
+    $repoCount = count($index['repos_meta'] ?? []);
+    $snapshotCount = count($index['processed_snapshots'] ?? []);
+    echo "====================================================\n";
+    echo "📜 GitHub Starred 项目历史履历管理工具 (history.php)\n";
+    echo "====================================================\n";
+    echo "  📦 履历库仓库总数: " . number_format($repoCount) . " 个\n";
+    echo "  📸 已同步快照批次: " . number_format($snapshotCount) . " 个\n";
+    echo "  🕒 索引更新时间:   " . ($index['updated_at'] ?? '未知') . "\n";
+    echo "----------------------------------------------------\n";
+    echo "💡 常用命令用法：\n";
+    echo "  1. 查询单项目履历:  php history.php --repo=仓库名或ID\n";
+    echo "  2. 同步 dist/ 快照: php history.php --sync\n";
+    echo "====================================================\n";
+    exit(0);
 }

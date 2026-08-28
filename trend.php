@@ -24,44 +24,36 @@ ini_set('memory_limit', '512M');
 set_time_limit(600);
 date_default_timezone_set('Asia/Shanghai');
 
-$isCli = (PHP_SAPI === 'cli');
-
 // ═══════════════════════════════════════════════
-// 参数解析
+// CLI 参数解析
 // ═══════════════════════════════════════════════
-function getParam(string $key, mixed $default, bool $isCli): mixed
+function getCliOption(string $key, mixed $default): mixed
 {
-    $cliKey = str_replace('_', '-', $key); // --min-stars 和 --min_stars 都兼容
-    if ($isCli) {
-        global $argv;
-        foreach ($argv as $arg) {
-            foreach ([$key, $cliKey] as $k) {
-                if (str_starts_with($arg, "--{$k}=")) {
-                    return substr($arg, strlen("--{$k}="));
-                }
+    global $argv;
+    $cliKey = str_replace('_', '-', $key);
+    foreach ($argv ?? [] as $arg) {
+        foreach ([$key, $cliKey] as $k) {
+            if (str_starts_with($arg, "--{$k}=")) {
+                return substr($arg, strlen("--{$k}="));
             }
         }
-        return $default;
     }
-    return $_GET[$key] ?? $_GET[$cliKey] ?? $default;
+    return $default;
 }
 
-function hasFlagParam(string $key, bool $isCli): bool
+function hasCliFlag(string $key): bool
 {
-    if ($isCli) {
-        global $argv;
-        return in_array("--{$key}", $argv, true);
-    }
-    return isset($_GET[$key]) && $_GET[$key] !== '0';
+    global $argv;
+    return in_array("--{$key}", $argv ?? [], true);
 }
 
-$days     = max(1,  (int)getParam('days',      7,    $isCli));
-$top      = max(1,  (int)getParam('top',       20,   $isCli));
-$minStars = max(0,  (int)getParam('min_stars', 500,  $isCli));
-$langFilter = trim((string)getParam('lang', '', $isCli));
-$outDir   = rtrim((string)getParam('out_dir', __DIR__, $isCli), '/\\');
-$doSync   = hasFlagParam('sync',  $isCli);
-$force    = hasFlagParam('force', $isCli);
+$days       = max(1,  (int)getCliOption('days',      7));
+$top        = max(1,  (int)getCliOption('top',       20));
+$minStars   = max(0,  (int)getCliOption('min_stars', 500));
+$langFilter = trim((string)getCliOption('lang', ''));
+$outDir     = rtrim((string)getCliOption('out_dir', __DIR__), '/\\');
+$doSync     = hasCliFlag('sync');
+$force      = hasCliFlag('force');
 
 $reposDir  = __DIR__ . '/repos';
 $indexFile = $reposDir . '/index.json';
@@ -71,21 +63,12 @@ $cacheFile = $outDir . '/trend.cache.json';
 // 可选：先同步 dist/ -> repos/
 // ═══════════════════════════════════════════════
 if ($doSync) {
-    if ($isCli) echo "⏳ 正在同步 dist/ 快照到 repos/ ...\n";
-    // 只引入类定义，不执行入口逻辑
-    $historyCode = file_get_contents(__DIR__ . '/history.php');
-    // 截取到执行入口之前（// 执行入口 那行）
-    $classEnd = strpos($historyCode, "\n// 执行入口");
-    if ($classEnd === false) $classEnd = strpos($historyCode, "\n$"."analyzer");
-    if ($classEnd !== false) {
-        eval('?>' . substr($historyCode, 0, $classEnd));
-    }
+    echo "⏳ 正在同步 dist/ 快照到 repos/ ...\n";
+    require_once __DIR__ . '/history.php';
     if (class_exists('FastRepoHistoryAnalyzer')) {
         $syncAnalyzer = new FastRepoHistoryAnalyzer(__DIR__);
         $syncResult   = $syncAnalyzer->syncDistToReposDir(false);
-        if ($isCli) echo "✅ 同步完成，快照数：" . ($syncResult['snapshot_count'] ?? '?') . "\n\n";
-    } else {
-        if ($isCli) echo "⚠️  无法加载 FastRepoHistoryAnalyzer，跳过同步。\n\n";
+        echo "✅ 同步完成，快照数：" . ($syncResult['snapshot_count'] ?? '?') . "\n\n";
     }
 }
 
@@ -93,11 +76,8 @@ if ($doSync) {
 // 加载主索引
 // ═══════════════════════════════════════════════
 if (!is_file($indexFile)) {
-    $msg = "错误：未找到 {$indexFile}，请先运行 history.php 或加 --sync 参数。";
-    if ($isCli) { fwrite(STDERR, $msg . PHP_EOL); exit(1); }
-    header('Content-Type: application/json; charset=utf-8');
-    echo json_encode(['status' => 'error', 'message' => $msg], JSON_UNESCAPED_UNICODE);
-    exit;
+    fwrite(STDERR, "错误：未找到 {$indexFile}，请先运行 php history.php --sync 或在命令中添加 --sync 参数。\n");
+    exit(1);
 }
 
 $indexMtime = filemtime($indexFile);
@@ -676,38 +656,21 @@ file_put_contents($histIndexFile, json_encode(array_values($histIndex), JSON_UNE
 // ═══════════════════════════════════════════════
 // 输出
 // ═══════════════════════════════════════════════
-if ($isCli) {
-    echo "✅ 分析完成！\n";
-    echo "   处理仓库数：{$processed} / {$total}\n";
-    echo "   数据最新：{$latestDate}\n";
-    echo "   分析窗口：{$cutoffDate} ～ {$latestDate}\n";
-    echo "   JSON 报告：{$jsonFile}\n";
-    echo "   Markdown 报告：{$mdFile}\n";
-    echo "   缓存文件：{$cacheFile}\n";
-    echo "   历史存档：{$histJsonFile}\n";
-    echo "             {$histMdFile}\n";
-    $histCount = count($histIndex);
-    echo "   历史索引：{$histIndexFile}（共 {$histCount} 条记录）\n";
-    if (!empty($topLangs)) {
-        echo "\n   最热语言 Top 5：\n";
-        foreach (array_slice($topLangs, 0, 5) as $i => $ls) {
-            $diff = $ls['star_diff'] >= 0 ? '+' . number_format($ls['star_diff']) : number_format($ls['star_diff']);
-            echo "   " . ($i+1) . ". {$ls['language']} ({$ls['repo_count']} 库, {$diff} ★)\n";
-        }
+echo "✅ 分析完成！\n";
+echo "   处理仓库数：{$processed} / {$total}\n";
+echo "   数据最新：{$latestDate}\n";
+echo "   分析窗口：{$cutoffDate} ～ {$latestDate}\n";
+echo "   JSON 报告：{$jsonFile}\n";
+echo "   Markdown 报告：{$mdFile}\n";
+echo "   缓存文件：{$cacheFile}\n";
+echo "   历史存档：{$histJsonFile}\n";
+echo "             {$histMdFile}\n";
+$histCount = count($histIndex);
+echo "   历史索引：{$histIndexFile}（共 {$histCount} 条记录）\n";
+if (!empty($topLangs)) {
+    echo "\n   最热语言 Top 5：\n";
+    foreach (array_slice($topLangs, 0, 5) as $i => $ls) {
+        $diff = $ls['star_diff'] >= 0 ? '+' . number_format($ls['star_diff']) : number_format($ls['star_diff']);
+        echo "   " . ($i+1) . ". {$ls['language']} ({$ls['repo_count']} 库, {$diff} ★)\n";
     }
-} else {
-    $output = $jsonData;
-    $output['output_files']     = [
-        'json'          => 'trend.json',
-        'markdown'      => 'trend.md',
-        'history_json'  => 'trend_history/' . $historySlot . '/trend.json',
-        'history_md'    => 'trend_history/' . $historySlot . '/trend.md',
-        'history_index' => 'trend_history/index.json',
-    ];
-    $output['history_slot']     = $historySlot;
-    $output['history_count']    = count($histIndex);
-    $output['markdown_preview'] = mb_substr($md, 0, 3000) . (mb_strlen($md) > 3000 ? "\n\n...(截断，完整内容见 trend.md)" : '');
-    header('Access-Control-Allow-Origin: *');
-    header('Content-Type: application/json; charset=utf-8');
-    echo json_encode($output, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
 }
