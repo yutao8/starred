@@ -703,6 +703,7 @@ createApp({
                 tags.push(tagStr);
             }
             searchQuery.value = tags.join(' ');
+            doFilter();
         };
 
         const toggleSidebar = () => {
