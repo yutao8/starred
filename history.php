@@ -173,7 +173,7 @@ class FastRepoHistoryAnalyzer
     /**
      * 加载 repos/index.json 主索引
      */
-    private function loadMasterIndex(): array
+    public function loadMasterIndex(): array
     {
         if (is_file($this->indexFile)) {
             $content = file_get_contents($this->indexFile);

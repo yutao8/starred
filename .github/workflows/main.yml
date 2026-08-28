@@ -23,7 +23,7 @@ jobs:
         with:
           php-version: '8.2'
 
-      - name: Run PHP script
+      - name: Run PHP scripts
         env:
           GITHUB_ACTOR: ${{ vars.STARRED_GITHUB_ACTOR || github.repository_owner }}
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
@@ -34,16 +34,19 @@ jobs:
           CURL_PROXY: ''
           CURL_PROXY_TYPE: http
           CURL_IPRESOLVE_V4: true
-        run: php fetch.php
+        run: |
+          php fetch.php
+          php history.php --sync
+          php trend.php --force
 
       - name: Commit generated files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md starList.json starList.public.json dist repos trend.json trend.md trend_history 2>/dev/null || git add README.md starList.json starList.public.json dist repos
+          git add README.md starList.json starList.public.json dist repos trend.json trend.md trend_history
           if git diff --cached --quiet; then
             echo "No generated changes."
             exit 0
           fi
-          git commit -m "update starred data"
+          git commit -m "update starred data & trend analysis"
           git push
