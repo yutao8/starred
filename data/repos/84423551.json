@@ -9,413 +9,112 @@
         "description": "身份证识别工具，主要用于从身份证图片中自动提取姓名、身份证号、住址、签发机关等关键信息，减少手动录入成本。通常基于OCR技术，结合图像预处理和字段解析，适用于移动端或服务器端的人证核验、实名认证、前台登记等场景。整体设计偏轻量，便于集成到现有业务系统中，适合需要快速完成身份证信息采集的开发需求。"
     },
     "summary": {
-        "initial_stars": 1713,
+        "initial_stars": 1712,
         "current_stars": 1717,
-        "star_diff": 4,
-        "growth_rate": 0.23,
-        "first_seen": "2025-06-27 06:00",
+        "star_diff": 5,
+        "growth_rate": 0.29,
+        "first_seen": "2025-06-24 15:00",
         "last_seen": "2026-08-28 20:00",
-        "data_points_count": 58
+        "data_points_count": 15
     },
     "history": [
         {
-            "date": "2025-06-27 06:00",
-            "timestamp": 1750975200,
+            "date": "2025-06-24 15:00",
+            "timestamp": 1750748400,
+            "stars": 1712,
+            "forks": 388,
+            "file": "data\/dist\/2025062415\/starList.json"
+        },
+        {
+            "date": "2025-06-26 18:00",
+            "timestamp": 1750932000,
             "stars": 1713,
             "forks": 388,
-            "file": "dist\/2025062706\/starList.json"
+            "file": "data\/dist\/2025062618\/starList.json"
         },
         {
-            "date": "2025-07-12 06:00",
-            "timestamp": 1752271200,
+            "date": "2025-07-11 00:00",
+            "timestamp": 1752163200,
             "stars": 1713,
             "forks": 387,
-            "file": "dist\/2025071206\/starList.json"
+            "file": "data\/dist\/2025071100\/starList.json"
         },
         {
-            "date": "2025-07-18 06:00",
-            "timestamp": 1752789600,
+            "date": "2025-07-16 18:00",
+            "timestamp": 1752660000,
             "stars": 1714,
             "forks": 387,
-            "file": "dist\/2025071806\/starList.json"
+            "file": "data\/dist\/2025071618\/starList.json"
         },
         {
-            "date": "2025-08-03 06:00",
-            "timestamp": 1754172000,
+            "date": "2025-08-03 00:00",
+            "timestamp": 1754150400,
             "stars": 1715,
             "forks": 387,
-            "file": "dist\/2025080306\/starList.json"
+            "file": "data\/dist\/2025080300\/starList.json"
         },
         {
-            "date": "2025-08-15 06:00",
-            "timestamp": 1755208800,
+            "date": "2025-08-13 12:00",
+            "timestamp": 1755057600,
             "stars": 1716,
             "forks": 387,
-            "file": "dist\/2025081506\/starList.json"
+            "file": "data\/dist\/2025081312\/starList.json"
         },
         {
             "date": "2025-09-12 06:00",
             "timestamp": 1757628000,
             "stars": 1714,
             "forks": 387,
-            "file": "dist\/2025091206\/starList.json"
+            "file": "data\/dist\/2025091206\/starList.json"
         },
         {
-            "date": "2025-10-01 18:00",
-            "timestamp": 1759312800,
-            "stars": 1713,
-            "forks": 387,
-            "file": "dist\/2025100118\/starList.json"
-        },
-        {
-            "date": "2025-10-11 18:00",
-            "timestamp": 1760176800,
-            "stars": 1714,
-            "forks": 387,
-            "file": "dist\/2025101118\/starList.json"
-        },
-        {
-            "date": "2025-10-22 00:00",
-            "timestamp": 1761062400,
-            "stars": 1715,
-            "forks": 387,
-            "file": "dist\/2025102200\/starList.json"
-        },
-        {
-            "date": "2025-11-17 00:00",
-            "timestamp": 1763308800,
-            "stars": 1716,
-            "forks": 387,
-            "file": "dist\/2025111700\/starList.json"
-        },
-        {
-            "date": "2025-11-19 00:00",
-            "timestamp": 1763481600,
-            "stars": 1717,
-            "forks": 387,
-            "file": "dist\/2025111900\/starList.json"
-        },
-        {
-            "date": "2025-11-21 00:00",
-            "timestamp": 1763654400,
-            "stars": 1717,
-            "forks": 386,
-            "file": "dist\/2025112100\/starList.json"
-        },
-        {
-            "date": "2025-11-29 00:00",
-            "timestamp": 1764345600,
-            "stars": 1716,
-            "forks": 386,
-            "file": "dist\/2025112900\/starList.json"
-        },
-        {
-            "date": "2025-12-01 00:00",
-            "timestamp": 1764518400,
-            "stars": 1715,
-            "forks": 385,
-            "file": "dist\/2025120100\/starList.json"
-        },
-        {
-            "date": "2025-12-05 00:00",
-            "timestamp": 1764864000,
+            "date": "2025-12-19 06:00",
+            "timestamp": 1766095200,
             "stars": 1714,
             "forks": 385,
-            "file": "dist\/2025120500\/starList.json"
-        },
-        {
-            "date": "2025-12-07 00:00",
-            "timestamp": 1765036800,
-            "stars": 1715,
-            "forks": 385,
-            "file": "dist\/2025120700\/starList.json"
-        },
-        {
-            "date": "2025-12-15 00:00",
-            "timestamp": 1765728000,
-            "stars": 1714,
-            "forks": 385,
-            "file": "dist\/2025121500\/starList.json"
-        },
-        {
-            "date": "2025-12-17 00:00",
-            "timestamp": 1765900800,
-            "stars": 1713,
-            "forks": 385,
-            "file": "dist\/2025121700\/starList.json"
-        },
-        {
-            "date": "2025-12-19 00:00",
-            "timestamp": 1766073600,
-            "stars": 1714,
-            "forks": 385,
-            "file": "dist\/2025121900\/starList.json"
-        },
-        {
-            "date": "2026-01-08 00:00",
-            "timestamp": 1767801600,
-            "stars": 1715,
-            "forks": 385,
-            "file": "dist\/2026010800\/starList.json"
-        },
-        {
-            "date": "2026-01-12 06:00",
-            "timestamp": 1768168800,
-            "stars": 1716,
-            "forks": 385,
-            "file": "dist\/2026011206\/starList.json"
-        },
-        {
-            "date": "2026-01-14 06:00",
-            "timestamp": 1768341600,
-            "stars": 1715,
-            "forks": 385,
-            "file": "dist\/2026011406\/starList.json"
-        },
-        {
-            "date": "2026-01-18 06:00",
-            "timestamp": 1768687200,
-            "stars": 1715,
-            "forks": 386,
-            "file": "dist\/2026011806\/starList.json"
-        },
-        {
-            "date": "2026-01-22 06:00",
-            "timestamp": 1769032800,
-            "stars": 1716,
-            "forks": 386,
-            "file": "dist\/2026012206\/starList.json"
-        },
-        {
-            "date": "2026-01-24 06:00",
-            "timestamp": 1769205600,
-            "stars": 1717,
-            "forks": 386,
-            "file": "dist\/2026012406\/starList.json"
-        },
-        {
-            "date": "2026-01-28 06:00",
-            "timestamp": 1769551200,
-            "stars": 1718,
-            "forks": 386,
-            "file": "dist\/2026012806\/starList.json"
-        },
-        {
-            "date": "2026-02-13 06:00",
-            "timestamp": 1770933600,
-            "stars": 1717,
-            "forks": 386,
-            "file": "dist\/2026021306\/starList.json"
-        },
-        {
-            "date": "2026-03-14 12:00",
-            "timestamp": 1773460800,
-            "stars": 1717,
-            "forks": 385,
-            "file": "dist\/2026031412\/starList.json"
-        },
-        {
-            "date": "2026-03-19 00:00",
-            "timestamp": 1773849600,
-            "stars": 1718,
-            "forks": 385,
-            "file": "dist\/2026031900\/starList.json"
-        },
-        {
-            "date": "2026-03-25 00:00",
-            "timestamp": 1774368000,
-            "stars": 1719,
-            "forks": 386,
-            "file": "dist\/2026032500\/starList.json"
-        },
-        {
-            "date": "2026-03-27 00:00",
-            "timestamp": 1774540800,
-            "stars": 1719,
-            "forks": 387,
-            "file": "dist\/2026032700\/starList.json"
-        },
-        {
-            "date": "2026-03-31 00:00",
-            "timestamp": 1774886400,
-            "stars": 1718,
-            "forks": 387,
-            "file": "dist\/2026033100\/starList.json"
-        },
-        {
-            "date": "2026-04-02 00:00",
-            "timestamp": 1775059200,
-            "stars": 1719,
-            "forks": 387,
-            "file": "dist\/2026040200\/starList.json"
-        },
-        {
-            "date": "2026-04-10 00:00",
-            "timestamp": 1775750400,
-            "stars": 1718,
-            "forks": 387,
-            "file": "dist\/2026041000\/starList.json"
-        },
-        {
-            "date": "2026-04-18 00:00",
-            "timestamp": 1776441600,
-            "stars": 1717,
-            "forks": 387,
-            "file": "dist\/2026041800\/starList.json"
+            "file": "data\/dist\/2025121906\/starList.json"
         },
         {
             "date": "2026-04-26 00:00",
             "timestamp": 1777132800,
             "stars": 1718,
             "forks": 387,
-            "file": "dist\/2026042600\/starList.json"
+            "file": "data\/dist\/2026042600\/starList.json"
         },
         {
-            "date": "2026-05-16 00:00",
-            "timestamp": 1778860800,
-            "stars": 1717,
-            "forks": 387,
-            "file": "dist\/2026051600\/starList.json"
-        },
-        {
-            "date": "2026-05-22 00:00",
-            "timestamp": 1779379200,
-            "stars": 1716,
-            "forks": 387,
-            "file": "dist\/2026052200\/starList.json"
-        },
-        {
-            "date": "2026-06-11 00:00",
-            "timestamp": 1781107200,
-            "stars": 1715,
-            "forks": 387,
-            "file": "dist\/2026061100\/starList.json"
-        },
-        {
-            "date": "2026-06-13 00:00",
-            "timestamp": 1781280000,
+            "date": "2026-06-12 18:00",
+            "timestamp": 1781258400,
             "stars": 1714,
             "forks": 387,
-            "file": "dist\/2026061300\/starList.json"
+            "file": "data\/dist\/2026061218\/starList.json"
         },
         {
-            "date": "2026-06-19 00:00",
-            "timestamp": 1781798400,
+            "date": "2026-06-19 06:00",
+            "timestamp": 1781820000,
             "stars": 1713,
             "forks": 387,
-            "file": "dist\/2026061900\/starList.json"
+            "file": "data\/dist\/2026061906\/starList.json"
         },
         {
             "date": "2026-06-21 00:00",
             "timestamp": 1781971200,
             "stars": 1713,
             "forks": 386,
-            "file": "dist\/2026062100\/starList.json"
+            "file": "data\/dist\/2026062100\/starList.json"
         },
         {
-            "date": "2026-06-27 00:00",
-            "timestamp": 1782489600,
-            "stars": 1712,
-            "forks": 385,
-            "file": "dist\/2026062700\/starList.json"
-        },
-        {
-            "date": "2026-06-29 00:00",
-            "timestamp": 1782662400,
-            "stars": 1711,
-            "forks": 385,
-            "file": "dist\/2026062900\/starList.json"
-        },
-        {
-            "date": "2026-07-03 00:00",
-            "timestamp": 1783008000,
-            "stars": 1712,
-            "forks": 384,
-            "file": "dist\/2026070300\/starList.json"
-        },
-        {
-            "date": "2026-07-16 00:00",
-            "timestamp": 1784131200,
-            "stars": 1713,
-            "forks": 383,
-            "file": "dist\/2026071600\/starList.public.json"
-        },
-        {
-            "date": "2026-07-20 00:00",
-            "timestamp": 1784476800,
+            "date": "2026-07-20 06:00",
+            "timestamp": 1784498400,
             "stars": 1714,
             "forks": 383,
-            "file": "dist\/2026072000\/starList.public.json"
+            "file": "data\/dist\/2026072006\/starList.json"
         },
         {
-            "date": "2026-07-24 00:00",
-            "timestamp": 1784822400,
+            "date": "2026-08-16 00:00",
+            "timestamp": 1786809600,
             "stars": 1715,
             "forks": 383,
-            "file": "dist\/2026072400\/starList.public.json"
-        },
-        {
-            "date": "2026-08-18 00:00",
-            "timestamp": 1786982400,
-            "stars": 1716,
-            "forks": 383,
-            "file": "dist\/2026081800\/starList.public.json"
-        },
-        {
-            "date": "2026-08-27 00:00",
-            "timestamp": 1787760000,
-            "stars": 1717,
-            "forks": 383,
-            "file": "dist\/2026082700\/starList.public.json"
-        },
-        {
-            "date": "2025-06-27 12:00",
-            "timestamp": 1750996800,
-            "stars": 1713,
-            "forks": 388,
-            "file": "dist\/2025062712\/starList.json"
-        },
-        {
-            "date": "2025-07-11 18:00",
-            "timestamp": 1752228000,
-            "stars": 1713,
-            "forks": 387,
-            "file": "dist\/2025071118\/starList.json"
-        },
-        {
-            "date": "2025-07-18 12:00",
-            "timestamp": 1752811200,
-            "stars": 1714,
-            "forks": 387,
-            "file": "dist\/2025071812\/starList.json"
-        },
-        {
-            "date": "2025-08-03 06:00",
-            "timestamp": 1754172000,
-            "stars": 1715,
-            "forks": 387,
-            "file": "dist\/2025080306\/starList.json"
-        },
-        {
-            "date": "2025-08-14 12:00",
-            "timestamp": 1755144000,
-            "stars": 1716,
-            "forks": 387,
-            "file": "dist\/2025081412\/starList.json"
-        },
-        {
-            "date": "2025-09-12 18:00",
-            "timestamp": 1757671200,
-            "stars": 1714,
-            "forks": 387,
-            "file": "dist\/2025091218\/starList.json"
-        },
-        {
-            "date": "2026-06-22 18:00",
-            "timestamp": 1782122400,
-            "stars": 1713,
-            "forks": 386,
-            "file": "dist\/2026062218\/starList.json"
+            "file": "data\/dist\/2026081600\/starList.json"
         },
         {
             "date": "2026-08-28 20:00",

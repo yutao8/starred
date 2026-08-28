@@ -117,7 +117,30 @@ class GitHubStarred
 		$repos = $this->fetchStarredRepos(); // 获取仓库列表
 		$repos = $this->getReposDescription($repos); // 获取仓库描述
 		$this->saveResult($repos); // 保存结果
-		$this->generateMarkdown($repos); // 生成markdown文件
+		$this->syncHistoryAndTrends(); // 自动同步历史履历并重新计算最新趋势数据
+		$this->generateMarkdown($repos); // 生成markdown文件 (此时可完美读取最新的 trend.json)
+	}
+
+	private function syncHistoryAndTrends(): void
+	{
+		try {
+			if (is_file($this->rootPath . '/history.php')) {
+				require_once $this->rootPath . '/history.php';
+				if (class_exists('FastRepoHistoryAnalyzer')) {
+					$analyzer = new FastRepoHistoryAnalyzer();
+					$analyzer->syncDistToReposDir(false);
+					echo "项目履历文件 (data/repos/) 增量同步完成\n";
+				}
+			}
+
+			if (is_file($this->rootPath . '/trend.php')) {
+				$phpBin = PHP_BINARY ?: 'php';
+				@exec(escapeshellcmd($phpBin) . ' ' . escapeshellarg($this->rootPath . '/trend.php') . ' --force 2>&1');
+				echo "趋势分析数据 (data/trend.json / data/trend.md) 自动更新完成\n";
+			}
+		} catch (Throwable $e) {
+			echo "提示: 同步历史与趋势时发生非致命错误: " . $e->getMessage() . "\n";
+		}
 	}
 
 	private function fetchStarredRepos(): array

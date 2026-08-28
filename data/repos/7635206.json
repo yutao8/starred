@@ -9,147 +9,77 @@
         "description": "Filterus 是一个 PHP 数据过滤与验证库，主要用于对数组、对象和标量值进行统一的清洗与校验。它允许开发者以声明式规则描述数据类型和约束，从而过滤不安全或不规范的输入，适合表单提交、API 参数处理、配置文件校验等场景。该库强调轻量和灵活，能够将过滤逻辑从业务代码中解耦，减少重复的条件判断，提升代码的可维护性与安全性。对于需要快速处理用户输入并保证数据完整的 PHP 项目，Filterus 通常是一个实用的选择。"
     },
     "summary": {
-        "initial_stars": 451,
+        "initial_stars": 453,
         "current_stars": 442,
-        "star_diff": -9,
-        "growth_rate": -2,
-        "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-08-28 20:00",
-        "data_points_count": 19
+        "star_diff": -11,
+        "growth_rate": -2.43,
+        "first_seen": "2025-06-24 15:00",
+        "last_seen": "2026-08-16 00:00",
+        "data_points_count": 9
     },
     "history": [
         {
-            "date": "2025-06-27 06:00",
-            "timestamp": 1750975200,
+            "date": "2025-06-24 15:00",
+            "timestamp": 1750748400,
+            "stars": 453,
+            "forks": 54,
+            "file": "data\/dist\/2025062415\/starList.json"
+        },
+        {
+            "date": "2025-06-25 19:00",
+            "timestamp": 1750849200,
+            "stars": 452,
+            "forks": 54,
+            "file": "data\/dist\/2025062519\/starList.json"
+        },
+        {
+            "date": "2025-06-26 06:00",
+            "timestamp": 1750888800,
             "stars": 451,
             "forks": 54,
-            "file": "dist\/2025062706\/starList.json"
+            "file": "data\/dist\/2025062606\/starList.json"
         },
         {
-            "date": "2025-07-02 12:00",
-            "timestamp": 1751428800,
+            "date": "2025-07-02 00:00",
+            "timestamp": 1751385600,
             "stars": 450,
             "forks": 54,
-            "file": "dist\/2025070212\/starList.json"
+            "file": "data\/dist\/2025070200\/starList.json"
         },
         {
-            "date": "2025-08-21 06:00",
-            "timestamp": 1755727200,
+            "date": "2025-08-21 00:00",
+            "timestamp": 1755705600,
             "stars": 450,
             "forks": 53,
-            "file": "dist\/2025082106\/starList.json"
+            "file": "data\/dist\/2025082100\/starList.json"
         },
         {
-            "date": "2025-11-03 00:00",
-            "timestamp": 1762099200,
-            "stars": 449,
-            "forks": 53,
-            "file": "dist\/2025110300\/starList.json"
-        },
-        {
-            "date": "2025-11-11 00:00",
-            "timestamp": 1762790400,
+            "date": "2025-12-19 06:00",
+            "timestamp": 1766095200,
             "stars": 449,
             "forks": 52,
-            "file": "dist\/2025111100\/starList.json"
+            "file": "data\/dist\/2025121906\/starList.json"
         },
         {
-            "date": "2025-12-17 00:00",
-            "timestamp": 1765900800,
-            "stars": 448,
-            "forks": 52,
-            "file": "dist\/2025121700\/starList.json"
-        },
-        {
-            "date": "2025-12-19 00:00",
-            "timestamp": 1766073600,
-            "stars": 449,
-            "forks": 52,
-            "file": "dist\/2025121900\/starList.json"
-        },
-        {
-            "date": "2026-02-13 06:00",
-            "timestamp": 1770933600,
-            "stars": 448,
-            "forks": 52,
-            "file": "dist\/2026021306\/starList.json"
-        },
-        {
-            "date": "2026-04-10 00:00",
-            "timestamp": 1775750400,
+            "date": "2026-04-26 00:00",
+            "timestamp": 1777132800,
             "stars": 447,
             "forks": 52,
-            "file": "dist\/2026041000\/starList.json"
+            "file": "data\/dist\/2026042600\/starList.json"
         },
         {
-            "date": "2026-05-12 00:00",
-            "timestamp": 1778515200,
+            "date": "2026-06-12 18:00",
+            "timestamp": 1781258400,
             "stars": 446,
             "forks": 52,
-            "file": "dist\/2026051200\/starList.json"
+            "file": "data\/dist\/2026061218\/starList.json"
         },
         {
-            "date": "2026-07-26 00:00",
-            "timestamp": 1784995200,
-            "stars": 445,
-            "forks": 52,
-            "file": "dist\/2026072600\/starList.public.json"
-        },
-        {
-            "date": "2026-08-08 18:00",
-            "timestamp": 1786183200,
-            "stars": 444,
-            "forks": 52,
-            "file": "dist\/2026080818\/starList.public.json"
-        },
-        {
-            "date": "2026-08-13 18:00",
-            "timestamp": 1786615200,
-            "stars": 443,
-            "forks": 52,
-            "file": "dist\/2026081318\/starList.public.json"
-        },
-        {
-            "date": "2026-08-14 06:00",
-            "timestamp": 1786658400,
+            "date": "2026-08-16 00:00",
+            "timestamp": 1786809600,
             "stars": 442,
             "forks": 52,
-            "file": "dist\/2026081406\/starList.public.json"
-        },
-        {
-            "date": "2025-06-27 12:00",
-            "timestamp": 1750996800,
-            "stars": 451,
-            "forks": 54,
-            "file": "dist\/2025062712\/starList.json"
-        },
-        {
-            "date": "2025-07-03 12:00",
-            "timestamp": 1751515200,
-            "stars": 450,
-            "forks": 54,
-            "file": "dist\/2025070312\/starList.json"
-        },
-        {
-            "date": "2025-08-21 06:00",
-            "timestamp": 1755727200,
-            "stars": 450,
-            "forks": 53,
-            "file": "dist\/2025082106\/starList.json"
-        },
-        {
-            "date": "2026-06-22 18:00",
-            "timestamp": 1782122400,
-            "stars": 446,
-            "forks": 52,
-            "file": "dist\/2026062218\/starList.json"
-        },
-        {
-            "date": "2026-08-28 20:00",
-            "timestamp": 1787918400,
-            "stars": 442,
-            "forks": 52,
-            "file": "data\/dist\/2026082820\/starList.public.json"
+            "file": "data\/dist\/2026081600\/starList.json"
         }
     ]
 }

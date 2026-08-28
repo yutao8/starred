@@ -249,8 +249,10 @@ class FastRepoHistoryAnalyzer
 
         $allSnapshots = $this->scanDistSnapshots();
         $processed = $masterIndex['processed_snapshots'] ?? [];
-        if (empty($masterIndex['repos_meta']) || empty($masterIndex['map'])) {
+        if (empty($masterIndex['repos_meta']) || empty($masterIndex['map']) || $force) {
             $unprocessed = $allSnapshots;
+            $processed = [];
+            $masterIndex['processed_snapshots'] = [];
         } else {
             $unprocessed = array_diff_key($allSnapshots, $processed);
         }
@@ -261,21 +263,39 @@ class FastRepoHistoryAnalyzer
 
         $snapList = array_values($unprocessed);
         $totalSnapCount = count($snapList);
-        $step = ($totalSnapCount > 200) ? (int)ceil($totalSnapCount / 200) : 1;
 
-        $map = $masterIndex['map'] ?? [];
-        $reposMeta = $masterIndex['repos_meta'] ?? [];
+        $map = $force ? [] : ($masterIndex['map'] ?? []);
+        $reposMeta = $force ? [] : ($masterIndex['repos_meta'] ?? []);
         $repoStores = [];
+
+        // force 模式下彻底清空 repos/ 目录，确保 100% 纯净全量重建
+        if ($force && is_dir($this->reposDir)) {
+            $files = glob($this->reposDir . '/*.json');
+            foreach ($files as $rf) {
+                @unlink($rf);
+            }
+        }
+
+        // 预加载已有的全部 repoStores（非 force 模式增量时）
+        if (!$force && is_dir($this->reposDir)) {
+            $files = glob($this->reposDir . '/*.json');
+            foreach ($files as $rf) {
+                if (basename($rf) === 'index.json') continue;
+                $id = (int)pathinfo($rf, PATHINFO_FILENAME);
+                if ($id > 0) {
+                    $c = file_get_contents($rf);
+                    if ($c !== false) {
+                        $d = json_decode($c, true);
+                        if (is_array($d) && isset($d['history'])) {
+                            $repoStores[$id] = $d;
+                        }
+                    }
+                }
+            }
+        }
 
         for ($i = 0; $i < $totalSnapCount; $i++) {
             $folder = $snapList[$i]['folder'];
-            $processed[$folder] = true;
-
-            // 智能采样：首次生成时保证处理首节点、末节点与采样步长节点
-            if ($i !== 0 && $i !== ($totalSnapCount - 1) && ($i % $step !== 0)) {
-                continue;
-            }
-
             $snap = $snapList[$i];
             $jsonFile = null;
             foreach (['/starList.public.json', '/starList.json', '/startList.json'] as $fname) {
@@ -286,11 +306,13 @@ class FastRepoHistoryAnalyzer
             }
 
             if ($jsonFile === null) {
+                $processed[$folder] = true;
                 continue;
             }
 
             $content = file_get_contents($jsonFile);
             if ($content === false) {
+                $processed[$folder] = true;
                 continue;
             }
 
@@ -302,12 +324,27 @@ class FastRepoHistoryAnalyzer
                 continue;
             }
 
+            // 兼容按语言分组的历史快照格式（如 {"Python": [...], "Go": [...]}）
+            if (!array_is_list($repos)) {
+                $flat = [];
+                foreach ($repos as $group) {
+                    if (is_array($group)) {
+                        foreach ($group as $item) {
+                            if (is_array($item)) {
+                                $flat[] = $item;
+                            }
+                        }
+                    }
+                }
+                $repos = $flat;
+            }
+
             $ts = $snap['timestamp'];
             $date = $snap['formatted'];
             $relFile = 'data/dist/' . $folder . '/' . basename($jsonFile);
 
             foreach ($repos as $r) {
-                $fullName = $r['full_name'] ?? ($r['name'] ?? '');
+                $fullName = trim((string)($r['full_name'] ?? ($r['name'] ?? '')));
                 if ($fullName === '') {
                     continue;
                 }
@@ -331,49 +368,38 @@ class FastRepoHistoryAnalyzer
                 $map[$nameLower] = $id;
                 $map[(string)$id] = $id;
 
-                // 如果尚未在内存中加载该 repo 履历，尝试读取已有文件或新建
                 if (!isset($repoStores[$id])) {
-                    $repoFile = $this->reposDir . '/' . $id . '.json';
-                    $existingData = null;
-                    if (is_file($repoFile)) {
-                        $c = file_get_contents($repoFile);
-                        if ($c !== false) {
-                            $existingData = json_decode($c, true);
-                        }
-                    }
-
-                    if (is_array($existingData) && isset($existingData['history'])) {
-                        $repoStores[$id] = $existingData;
-                    } else {
-                        $repoStores[$id] = [
-                            'status' => 'success',
-                            'repo' => [
-                                'id' => $id,
-                                'full_name' => $fullName,
-                                'name' => $r['name'] ?? $fullName,
-                                'html_url' => $r['html_url'] ?? ('https://github.com/' . $fullName),
-                                'language' => $lang,
-                                'description' => $r['desc'] ?? ($r['description'] ?? ''),
-                            ],
-                            'summary' => [],
-                            'history' => [],
-                        ];
-                    }
+                    $repoStores[$id] = [
+                        'status' => 'success',
+                        'repo' => [
+                            'id' => $id,
+                            'full_name' => $fullName,
+                            'name' => $r['name'] ?? $fullName,
+                            'html_url' => $r['html_url'] ?? ('https://github.com/' . $fullName),
+                            'language' => $lang,
+                            'description' => $r['desc'] ?? ($r['description'] ?? ''),
+                        ],
+                        'summary' => [],
+                        'history' => [],
+                    ];
                 }
 
-                // 更新 repo 基本信息
+                // 更新 repo 最新元数据
                 $repoStores[$id]['repo']['full_name'] = $fullName;
                 $repoStores[$id]['repo']['name'] = $r['name'] ?? $fullName;
+                $repoStores[$id]['repo']['language'] = $lang;
                 if (!empty($r['desc'])) {
                     $repoStores[$id]['repo']['description'] = $r['desc'];
+                } elseif (!empty($r['description']) && empty($repoStores[$id]['repo']['description'])) {
+                    $repoStores[$id]['repo']['description'] = $r['description'];
                 }
 
                 // 追加履历节点（稀疏记录：仅在 Stars/Forks 改变或首节点插入）
-                $history = &$repoStores[$id]['history'];
-                $lastPoint = !empty($history) ? end($history) : null;
+                $historyCount = count($repoStores[$id]['history']);
+                $lastPoint = $historyCount > 0 ? $repoStores[$id]['history'][$historyCount - 1] : null;
 
                 if ($lastPoint === null || $lastPoint['stars'] !== $stars || $lastPoint['forks'] !== $forks) {
-                    $history[] = [
+                    $repoStores[$id]['history'][] = [
                         'date' => $date,
                         'timestamp' => $ts,
                         'stars' => $stars,
@@ -433,7 +459,7 @@ class FastRepoHistoryAnalyzer
     }
 
     /**
-     * 扫描 dist 目录下所有的 YYYYMMDDHH 快照目录 (支持 data/dist/ 与 dist/)
+     * 扫描 dist 目录下所有的 YYYYMMDDHH 快照目录 (支持 data/dist/ 与 dist/，自动过滤空目录)
      */
     private function scanDistSnapshots(): array
     {
@@ -461,6 +487,18 @@ class FastRepoHistoryAnalyzer
 
                 $fullPath = $dir . '/' . $item;
                 if (!is_dir($fullPath)) {
+                    continue;
+                }
+
+                // 仅收录包含实际 JSON 数据文件的有效快照目录
+                $hasJson = false;
+                foreach (['/starList.public.json', '/starList.json', '/startList.json'] as $fname) {
+                    if (is_file($fullPath . $fname)) {
+                        $hasJson = true;
+                        break;
+                    }
+                }
+                if (!$hasJson) {
                     continue;
                 }
 
@@ -509,7 +547,7 @@ if (PHP_SAPI === 'cli' && realpath($_SERVER['SCRIPT_FILENAME'] ?? '') === realpa
     // 1. 同步快照
     if ($isSync) {
         echo "📊 开始同步 dist/ 快照到 repos/ 独立履历库...\n";
-        $analyzer->syncDistToReposDir();
+        $analyzer->syncDistToReposDir($force);
         echo "✅ 同步完成！\n";
         exit(0);
     }

@@ -9,98 +9,42 @@
         "description": "用于批量创建 Microsoft 365 账户，解决管理员需逐个手动添加用户的问题，常见于企业入职新员工或机构大批量开通账号的场景。通过读取包含用户信息的列表文件，自动完成账号生成及基础配置，可能借助微软官方管理接口或命令行工具实现。通常适合 IT 管理员、教育机构或需要快速预配云账号的团队，能有效减少重复操作并降低配置失误风险。"
     },
     "summary": {
-        "initial_stars": 6,
+        "initial_stars": 10,
         "current_stars": 14,
-        "star_diff": 8,
-        "growth_rate": 133.33,
-        "first_seen": "2025-11-21 00:00",
-        "last_seen": "2026-08-28 20:00",
-        "data_points_count": 12
+        "star_diff": 4,
+        "growth_rate": 40,
+        "first_seen": "2025-12-19 06:00",
+        "last_seen": "2026-07-20 06:00",
+        "data_points_count": 4
     },
     "history": [
         {
-            "date": "2025-11-21 00:00",
-            "timestamp": 1763654400,
-            "stars": 6,
-            "forks": 4,
-            "file": "dist\/2025112100\/starList.json"
-        },
-        {
-            "date": "2025-11-23 00:00",
-            "timestamp": 1763827200,
-            "stars": 7,
-            "forks": 4,
-            "file": "dist\/2025112300\/starList.json"
-        },
-        {
-            "date": "2025-11-27 00:00",
-            "timestamp": 1764172800,
-            "stars": 8,
-            "forks": 4,
-            "file": "dist\/2025112700\/starList.json"
-        },
-        {
-            "date": "2025-12-03 00:00",
-            "timestamp": 1764691200,
-            "stars": 9,
-            "forks": 5,
-            "file": "dist\/2025120300\/starList.json"
-        },
-        {
-            "date": "2025-12-15 00:00",
-            "timestamp": 1765728000,
+            "date": "2025-12-19 06:00",
+            "timestamp": 1766095200,
             "stars": 10,
             "forks": 5,
-            "file": "dist\/2025121500\/starList.json"
+            "file": "data\/dist\/2025121906\/starList.json"
         },
         {
-            "date": "2026-02-15 06:00",
-            "timestamp": 1771106400,
+            "date": "2026-04-26 00:00",
+            "timestamp": 1777132800,
             "stars": 10,
             "forks": 4,
-            "file": "dist\/2026021506\/starList.json"
+            "file": "data\/dist\/2026042600\/starList.json"
         },
         {
-            "date": "2026-05-02 00:00",
-            "timestamp": 1777651200,
-            "stars": 11,
-            "forks": 4,
-            "file": "dist\/2026050200\/starList.json"
-        },
-        {
-            "date": "2026-06-11 00:00",
-            "timestamp": 1781107200,
+            "date": "2026-06-12 18:00",
+            "timestamp": 1781258400,
             "stars": 12,
             "forks": 4,
-            "file": "dist\/2026061100\/starList.json"
+            "file": "data\/dist\/2026061218\/starList.json"
         },
         {
-            "date": "2026-06-27 00:00",
-            "timestamp": 1782489600,
-            "stars": 13,
-            "forks": 4,
-            "file": "dist\/2026062700\/starList.json"
-        },
-        {
-            "date": "2026-07-09 00:00",
-            "timestamp": 1783526400,
+            "date": "2026-07-20 06:00",
+            "timestamp": 1784498400,
             "stars": 14,
             "forks": 4,
-            "file": "dist\/2026070900\/starList.json"
-        },
-        {
-            "date": "2026-06-22 18:00",
-            "timestamp": 1782122400,
-            "stars": 12,
-            "forks": 4,
-            "file": "dist\/2026062218\/starList.json"
-        },
-        {
-            "date": "2026-08-28 20:00",
-            "timestamp": 1787918400,
-            "stars": 14,
-            "forks": 4,
-            "file": "data\/dist\/2026082820\/starList.public.json"
+            "file": "data\/dist\/2026072006\/starList.json"
         }
     ]
 }

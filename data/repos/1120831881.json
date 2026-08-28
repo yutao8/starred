@@ -9,56 +9,35 @@
         "description": "该仓库主要解决微信账号多开的问题，通过应用分身或进程隔离方式让同一设备同时运行两个独立微信实例，并保持聊天记录与缓存数据相互隔离。这类方案通常适合在个人账号与工作账号间切换的普通用户，也适用于社群运营或多账号管理场景，核心价值在于提供轻量、便捷的双开体验，而不改变微信原有功能。"
     },
     "summary": {
-        "initial_stars": 17,
+        "initial_stars": 20,
         "current_stars": 22,
-        "star_diff": 5,
-        "growth_rate": 29.41,
-        "first_seen": "2026-03-14 12:00",
-        "last_seen": "2026-06-17 00:00",
-        "data_points_count": 6
+        "star_diff": 2,
+        "growth_rate": 10,
+        "first_seen": "2026-04-26 00:00",
+        "last_seen": "2026-06-17 12:00",
+        "data_points_count": 3
     },
     "history": [
         {
-            "date": "2026-03-14 12:00",
-            "timestamp": 1773460800,
-            "stars": 17,
-            "forks": 2,
-            "file": "dist\/2026031412\/starList.json"
-        },
-        {
-            "date": "2026-04-02 00:00",
-            "timestamp": 1775059200,
-            "stars": 18,
-            "forks": 2,
-            "file": "dist\/2026040200\/starList.json"
-        },
-        {
-            "date": "2026-04-14 00:00",
-            "timestamp": 1776096000,
-            "stars": 19,
-            "forks": 2,
-            "file": "dist\/2026041400\/starList.json"
-        },
-        {
-            "date": "2026-04-24 00:00",
-            "timestamp": 1776960000,
+            "date": "2026-04-26 00:00",
+            "timestamp": 1777132800,
             "stars": 20,
             "forks": 2,
-            "file": "dist\/2026042400\/starList.json"
+            "file": "data\/dist\/2026042600\/starList.json"
         },
         {
-            "date": "2026-06-07 00:00",
-            "timestamp": 1780761600,
+            "date": "2026-06-12 18:00",
+            "timestamp": 1781258400,
             "stars": 21,
             "forks": 3,
-            "file": "dist\/2026060700\/starList.json"
+            "file": "data\/dist\/2026061218\/starList.json"
         },
         {
-            "date": "2026-06-17 00:00",
-            "timestamp": 1781625600,
+            "date": "2026-06-17 12:00",
+            "timestamp": 1781668800,
             "stars": 22,
             "forks": 3,
-            "file": "dist\/2026061700\/starList.json"
+            "file": "data\/dist\/2026061712\/starList.json"
         }
     ]
 }

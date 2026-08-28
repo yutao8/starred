@@ -9,112 +9,63 @@
         "description": "根据 IP 地址查询地理位置信息的工具，通常适合用于网站访问日志分析、用户地域统计、网络攻击溯源等场景。这类项目一般会集成 IP 地址库或在线查询接口，将 IP 转换为对应的国家、地区、城市等经纬度信息。通过简单的调用即可获得位置数据，适合需要快速判断访客来源或增强安全监测的开发者。具体实现方式可能包含本地数据库查询或在线 API 请求，具体取决于仓库内部设计。"
     },
     "summary": {
-        "initial_stars": 73,
+        "initial_stars": 74,
         "current_stars": 72,
-        "star_diff": -1,
-        "growth_rate": -1.37,
-        "first_seen": "2025-06-27 06:00",
-        "last_seen": "2026-06-22 18:00",
-        "data_points_count": 14
+        "star_diff": -2,
+        "growth_rate": -2.7,
+        "first_seen": "2025-06-24 15:00",
+        "last_seen": "2026-04-26 00:00",
+        "data_points_count": 7
     },
     "history": [
         {
-            "date": "2025-06-27 06:00",
-            "timestamp": 1750975200,
+            "date": "2025-06-24 15:00",
+            "timestamp": 1750748400,
+            "stars": 74,
+            "forks": 16,
+            "file": "data\/dist\/2025062415\/starList.json"
+        },
+        {
+            "date": "2025-06-25 19:00",
+            "timestamp": 1750849200,
             "stars": 73,
             "forks": 16,
-            "file": "dist\/2025062706\/starList.json"
+            "file": "data\/dist\/2025062519\/starList.json"
         },
         {
             "date": "2025-08-01 06:00",
             "timestamp": 1753999200,
             "stars": 74,
             "forks": 16,
-            "file": "dist\/2025080106\/starList.json"
+            "file": "data\/dist\/2025080106\/starList.json"
         },
         {
-            "date": "2025-09-12 06:00",
-            "timestamp": 1757628000,
+            "date": "2025-09-11 12:00",
+            "timestamp": 1757563200,
             "stars": 73,
             "forks": 16,
-            "file": "dist\/2025091206\/starList.json"
+            "file": "data\/dist\/2025091112\/starList.json"
         },
         {
             "date": "2025-09-25 00:00",
             "timestamp": 1758729600,
             "stars": 72,
             "forks": 16,
-            "file": "dist\/2025092500\/starList.json"
+            "file": "data\/dist\/2025092500\/starList.json"
         },
         {
-            "date": "2025-11-07 00:00",
-            "timestamp": 1762444800,
-            "stars": 71,
-            "forks": 16,
-            "file": "dist\/2025110700\/starList.json"
-        },
-        {
-            "date": "2025-11-23 00:00",
-            "timestamp": 1763827200,
+            "date": "2025-12-19 06:00",
+            "timestamp": 1766095200,
             "stars": 71,
             "forks": 17,
-            "file": "dist\/2025112300\/starList.json"
+            "file": "data\/dist\/2025121906\/starList.json"
         },
         {
-            "date": "2025-12-09 00:00",
-            "timestamp": 1765209600,
+            "date": "2026-04-26 00:00",
+            "timestamp": 1777132800,
             "stars": 72,
             "forks": 17,
-            "file": "dist\/2025120900\/starList.json"
-        },
-        {
-            "date": "2025-12-11 00:00",
-            "timestamp": 1765382400,
-            "stars": 71,
-            "forks": 17,
-            "file": "dist\/2025121100\/starList.json"
-        },
-        {
-            "date": "2026-01-08 00:00",
-            "timestamp": 1767801600,
-            "stars": 72,
-            "forks": 17,
-            "file": "dist\/2026010800\/starList.json"
-        },
-        {
-            "date": "2025-06-27 12:00",
-            "timestamp": 1750996800,
-            "stars": 73,
-            "forks": 16,
-            "file": "dist\/2025062712\/starList.json"
-        },
-        {
-            "date": "2025-08-03 06:00",
-            "timestamp": 1754172000,
-            "stars": 74,
-            "forks": 16,
-            "file": "dist\/2025080306\/starList.json"
-        },
-        {
-            "date": "2025-09-12 18:00",
-            "timestamp": 1757671200,
-            "stars": 73,
-            "forks": 16,
-            "file": "dist\/2025091218\/starList.json"
-        },
-        {
-            "date": "2025-09-27 18:00",
-            "timestamp": 1758967200,
-            "stars": 72,
-            "forks": 16,
-            "file": "dist\/2025092718\/starList.json"
-        },
-        {
-            "date": "2026-06-22 18:00",
-            "timestamp": 1782122400,
-            "stars": 72,
-            "forks": 17,
-            "file": "dist\/2026062218\/starList.json"
+            "file": "data\/dist\/2026042600\/starList.json"
         }
     ]
 }

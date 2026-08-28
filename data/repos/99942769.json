@@ -9,175 +9,21 @@
         "description": "开源的硬件状态监控工具，可实时读取CPU、显卡、主板、硬盘等组件的温度、电压、风扇转速和功耗数据，并提供图表记录与导出功能。支持多种常见传感器芯片和硬件平台，适合用于性能测试、超频调校、故障排查以及DIY装机后的散热验证。通常作为个人电脑监控软件使用，也能为第三方工具提供数据源，替代已停止维护的OpenHardwareMonitor。用户可通过直观的界面查看传感器状态，或配置托盘图标和日志文件，方便长期跟踪硬件健康趋势。"
     },
     "summary": {
-        "initial_stars": 1069,
-        "current_stars": 8965,
-        "star_diff": 7896,
-        "growth_rate": 738.63,
-        "first_seen": "2026-08-21 18:00",
-        "last_seen": "2026-08-28 21:00",
-        "data_points_count": 23
+        "initial_stars": 8966,
+        "current_stars": 8966,
+        "star_diff": 0,
+        "growth_rate": 0,
+        "first_seen": "2026-08-28 20:00",
+        "last_seen": "2026-08-28 20:00",
+        "data_points_count": 1
     },
     "history": [
         {
-            "date": "2026-08-21 18:00",
-            "timestamp": 1787306400,
-            "stars": 1069,
-            "forks": 80,
-            "file": "dist\/2026082118\/starList.public.json"
-        },
-        {
-            "date": "2026-08-22 18:00",
-            "timestamp": 1787392800,
-            "stars": 8924,
-            "forks": 993,
-            "file": "dist\/2026082218\/starList.public.json"
-        },
-        {
-            "date": "2026-08-23 00:00",
-            "timestamp": 1787414400,
-            "stars": 8927,
-            "forks": 993,
-            "file": "dist\/2026082300\/starList.public.json"
-        },
-        {
-            "date": "2026-08-23 06:00",
-            "timestamp": 1787436000,
-            "stars": 8928,
-            "forks": 993,
-            "file": "dist\/2026082306\/starList.public.json"
-        },
-        {
-            "date": "2026-08-23 12:00",
-            "timestamp": 1787457600,
-            "stars": 8929,
-            "forks": 993,
-            "file": "dist\/2026082312\/starList.public.json"
-        },
-        {
-            "date": "2026-08-23 18:00",
-            "timestamp": 1787479200,
-            "stars": 8933,
-            "forks": 993,
-            "file": "dist\/2026082318\/starList.public.json"
-        },
-        {
-            "date": "2026-08-24 06:00",
-            "timestamp": 1787522400,
-            "stars": 8935,
-            "forks": 994,
-            "file": "dist\/2026082406\/starList.public.json"
-        },
-        {
-            "date": "2026-08-24 12:00",
-            "timestamp": 1787544000,
-            "stars": 8939,
-            "forks": 994,
-            "file": "dist\/2026082412\/starList.public.json"
-        },
-        {
-            "date": "2026-08-24 18:00",
-            "timestamp": 1787565600,
-            "stars": 8943,
-            "forks": 994,
-            "file": "dist\/2026082418\/starList.public.json"
-        },
-        {
-            "date": "2026-08-25 12:00",
-            "timestamp": 1787630400,
-            "stars": 8944,
-            "forks": 994,
-            "file": "dist\/2026082512\/starList.public.json"
-        },
-        {
-            "date": "2026-08-25 18:00",
-            "timestamp": 1787652000,
-            "stars": 8947,
-            "forks": 994,
-            "file": "dist\/2026082518\/starList.public.json"
-        },
-        {
-            "date": "2026-08-26 00:00",
-            "timestamp": 1787673600,
-            "stars": 8948,
-            "forks": 994,
-            "file": "dist\/2026082600\/starList.public.json"
-        },
-        {
-            "date": "2026-08-26 12:00",
-            "timestamp": 1787716800,
-            "stars": 8950,
-            "forks": 994,
-            "file": "dist\/2026082612\/starList.public.json"
-        },
-        {
-            "date": "2026-08-26 18:00",
-            "timestamp": 1787738400,
-            "stars": 8952,
-            "forks": 994,
-            "file": "dist\/2026082618\/starList.public.json"
-        },
-        {
-            "date": "2026-08-27 00:00",
-            "timestamp": 1787760000,
-            "stars": 8954,
-            "forks": 995,
-            "file": "dist\/2026082700\/starList.public.json"
-        },
-        {
-            "date": "2026-08-27 06:00",
-            "timestamp": 1787781600,
-            "stars": 8956,
-            "forks": 995,
-            "file": "dist\/2026082706\/starList.public.json"
-        },
-        {
-            "date": "2026-08-27 12:00",
-            "timestamp": 1787803200,
-            "stars": 8958,
-            "forks": 995,
-            "file": "dist\/2026082712\/starList.public.json"
-        },
-        {
-            "date": "2026-08-27 18:00",
-            "timestamp": 1787824800,
-            "stars": 8958,
-            "forks": 996,
-            "file": "dist\/2026082718\/starList.public.json"
-        },
-        {
-            "date": "2026-08-28 00:00",
-            "timestamp": 1787846400,
-            "stars": 8959,
-            "forks": 997,
-            "file": "dist\/2026082800\/starList.public.json"
-        },
-        {
-            "date": "2026-08-28 06:00",
-            "timestamp": 1787868000,
-            "stars": 8962,
-            "forks": 996,
-            "file": "dist\/2026082806\/starList.public.json"
-        },
-        {
-            "date": "2026-08-28 12:00",
-            "timestamp": 1787889600,
-            "stars": 8963,
-            "forks": 996,
-            "file": "dist\/2026082812\/starList.public.json"
-        },
-        {
-            "date": "2026-08-28 18:00",
-            "timestamp": 1787911200,
+            "date": "2026-08-28 20:00",
+            "timestamp": 1787918400,
             "stars": 8966,
             "forks": 996,
-            "file": "dist\/2026082818\/starList.public.json"
-        },
-        {
-            "date": "2026-08-28 21:00",
-            "timestamp": 1787922000,
-            "stars": 8965,
-            "forks": 996,
-            "file": "data\/dist\/2026082821\/starList.public.json"
+            "file": "data\/dist\/2026082820\/starList.public.json"
         }
     ]
 }

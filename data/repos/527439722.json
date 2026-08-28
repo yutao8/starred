@@ -9,112 +9,35 @@
         "description": "用于搭建解锁服务的服务器端程序，主要解决网络访问受限的问题。通常部署在海外或特定区域的机器上，配合代理工具将请求流量转发至目标服务，从而访问流媒体、网站或其他地域受限内容。典型使用场景包括个人自建代理、家庭路由器配置、服务器中转等。适合需要稳定解锁能力且不想依赖第三方服务的用户。该仓库主要提供服务端的部署与运行逻辑，具体功能需结合前端或代理配置文件使用。"
     },
     "summary": {
-        "initial_stars": 71,
+        "initial_stars": 73,
         "current_stars": 79,
-        "star_diff": 8,
-        "growth_rate": 11.27,
-        "first_seen": "2026-04-16 00:00",
-        "last_seen": "2026-08-28 20:00",
-        "data_points_count": 14
+        "star_diff": 6,
+        "growth_rate": 8.22,
+        "first_seen": "2026-04-26 00:00",
+        "last_seen": "2026-08-16 00:00",
+        "data_points_count": 3
     },
     "history": [
-        {
-            "date": "2026-04-16 00:00",
-            "timestamp": 1776268800,
-            "stars": 71,
-            "forks": 12,
-            "file": "dist\/2026041600\/starList.json"
-        },
-        {
-            "date": "2026-04-22 00:00",
-            "timestamp": 1776787200,
-            "stars": 72,
-            "forks": 12,
-            "file": "dist\/2026042200\/starList.json"
-        },
         {
             "date": "2026-04-26 00:00",
             "timestamp": 1777132800,
             "stars": 73,
             "forks": 12,
-            "file": "dist\/2026042600\/starList.json"
+            "file": "data\/dist\/2026042600\/starList.json"
         },
         {
-            "date": "2026-04-30 00:00",
-            "timestamp": 1777478400,
+            "date": "2026-06-19 06:00",
+            "timestamp": 1781820000,
             "stars": 74,
             "forks": 12,
-            "file": "dist\/2026043000\/starList.json"
+            "file": "data\/dist\/2026061906\/starList.json"
         },
         {
-            "date": "2026-05-30 00:00",
-            "timestamp": 1780070400,
-            "stars": 73,
-            "forks": 12,
-            "file": "dist\/2026053000\/starList.json"
-        },
-        {
-            "date": "2026-06-05 00:00",
-            "timestamp": 1780588800,
-            "stars": 72,
-            "forks": 12,
-            "file": "dist\/2026060500\/starList.json"
-        },
-        {
-            "date": "2026-06-09 00:00",
-            "timestamp": 1780934400,
-            "stars": 73,
-            "forks": 12,
-            "file": "dist\/2026060900\/starList.json"
-        },
-        {
-            "date": "2026-06-19 00:00",
-            "timestamp": 1781798400,
-            "stars": 74,
-            "forks": 12,
-            "file": "dist\/2026061900\/starList.json"
-        },
-        {
-            "date": "2026-07-28 00:00",
-            "timestamp": 1785168000,
-            "stars": 75,
-            "forks": 12,
-            "file": "dist\/2026072800\/starList.public.json"
-        },
-        {
-            "date": "2026-08-07 00:00",
-            "timestamp": 1786032000,
-            "stars": 75,
-            "forks": 13,
-            "file": "dist\/2026080700\/starList.public.json"
-        },
-        {
-            "date": "2026-08-11 18:00",
-            "timestamp": 1786442400,
-            "stars": 80,
-            "forks": 13,
-            "file": "dist\/2026081118\/starList.public.json"
-        },
-        {
-            "date": "2026-08-14 18:00",
-            "timestamp": 1786701600,
+            "date": "2026-08-16 00:00",
+            "timestamp": 1786809600,
             "stars": 79,
             "forks": 13,
-            "file": "dist\/2026081418\/starList.public.json"
-        },
-        {
-            "date": "2026-06-22 18:00",
-            "timestamp": 1782122400,
-            "stars": 74,
-            "forks": 12,
-            "file": "dist\/2026062218\/starList.json"
-        },
-        {
-            "date": "2026-08-28 20:00",
-            "timestamp": 1787918400,
-            "stars": 79,
-            "forks": 13,
-            "file": "data\/dist\/2026082820\/starList.public.json"
+            "file": "data\/dist\/2026081600\/starList.json"
         }
     ]
 }
