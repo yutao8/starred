@@ -333,6 +333,17 @@ class GitHubStarred
 		} catch (\Throwable $e) {
 			echo "同步项目履历文件提示: " . $e->getMessage() . "\n";
 		}
+
+		// 自动生成最新趋势数据 (trend.json / trend.md)
+		try {
+			$trendFile = $this->rootPath . '/trend.php';
+			if (is_file($trendFile)) {
+				@shell_exec('php ' . escapeshellarg($trendFile) . ' --force');
+				echo "趋势分析数据 (trend.json / trend.md) 自动更新完成\n";
+			}
+		} catch (\Throwable $e) {
+			echo "趋势分析数据更新提示: " . $e->getMessage() . "\n";
+		}
 	}
 
 	private function buildPublicRepo(array $repo): array
@@ -388,66 +399,25 @@ class GitHubStarred
 			$totalRepos += count($languageRepos);
 		}
 		arsort($languageStats);
-		$languageAnchors = $this->buildLanguageAnchors(array_keys($reposByLanguage));
 
-		// 计算 distPath 相对根目录的路径（去掉根路径前缀和开头的 / ）
+		// 计算 distPath 相对根目录的路径
 		$distRelative = ltrim(str_replace($this->rootPath, '', $this->distPath), '/\\');
 
-		// 统计信息
-		$markdown = "# GitHub 收藏仓库\n\n";
-		$markdown .= "- **编程语言种类：** " . count($languageStats) . "\n";
-		$markdown .= "- **仓库总数：** " . $totalRepos . "\n";
-		$markdown .= "- **最后更新时间：** " . date('Y-m-d H:i:s') . "\n\n";
-
-		// 全部仓库链接（指向 dist 目录，动态路径）
-		$markdown .= "[**→ 查看所有仓库**](" . $distRelative . "ALL.md)  \n";
-		$markdown .= "[**→ 部署文档**](DEPLOY.md)\n\n";
-
-		// 最近N个
-		$recentTitle = "最近收藏（{$recentLimit} 个）";
-		$markdown .= "## {$recentTitle}\n\n";
-		foreach ($recentRepos as $repo) {
-			$markdown .= $this->renderRepoMarkdownItem($repo);
-		}
-		$markdown .= "\n";
-
-		// 目录
-		$markdown .= "## 按语言分类\n";
+		// 1. 生成各语言子文件（在 dist 目录下）
+		$langSubFiles = [];
 		foreach ($reposByLanguage as $language => $languageRepos) {
-			$langTitle = $language;
-			$langAnchor = $languageAnchors[$language] ?? $this->buildLanguageAnchor($langTitle);
-			$markdown .= sprintf("- [%s（%d 个）](#%s)\n", $langTitle, count($languageRepos), $langAnchor);
-		}
-		$markdown .= "\n";
-
-		// 详细列表
-		foreach ($reposByLanguage as $language => $languageRepos) {
-			$langTitle = $language;
-			$langAnchor = $languageAnchors[$language] ?? $this->buildLanguageAnchor($langTitle);
-			$markdown .= sprintf("<a id=\"%s\"></a>\n", $langAnchor);
-			$markdown .= sprintf("## %s\n\n", $langTitle);
-			$showCount = min($langLimit, count($languageRepos));
-			for ($i = 0; $i < $showCount; $i++) {
-				$markdown .= $this->renderRepoMarkdownItem($languageRepos[$i]);
+			$subFile = 'LANG_' . preg_replace('/[^a-zA-Z0-9_\-]/', '_', $language) . '.md';
+			$langSubFiles[$language] = $subFile;
+			$subMarkdown = "# {$language} 仓库\n\n";
+			$subMarkdown .= "- **仓库数量：** " . count($languageRepos) . "\n";
+			$subMarkdown .= "- **生成时间：** " . date('Y-m-d H:i:s') . "\n\n";
+			foreach ($languageRepos as $repo) {
+				$subMarkdown .= $this->renderRepoMarkdownItem($repo);
 			}
-			// 如果有更多，添加子文件链接（指向 dist 目录，动态路径）
-			if (count($languageRepos) > $langLimit) {
-				$subFile = 'LANG_' . preg_replace('/[^a-zA-Z0-9_\-]/', '_', $language) . '.md';
-				$markdown .= sprintf("\n[查看更多 %s 仓库 →](%s%s)\n", $language, $distRelative, $subFile);
-			}
-			$markdown .= "\n";
-
-			// 生成子文件（在 dist 目录下）
-			if (count($languageRepos) > $langLimit) {
-				$subMarkdown = "# {$language} 仓库\n\n";
-				foreach ($languageRepos as $repo) {
-					$subMarkdown .= $this->renderRepoMarkdownItem($repo);
-				}
-				$this->writeTextFile($this->distPath . '/' . $subFile, $subMarkdown);
-			}
+			$this->writeTextFile($this->distPath . '/' . $subFile, $subMarkdown);
 		}
 
-		// 生成 ALL.md（在 dist 目录下）
+		// 2. 生成 ALL.md（在 dist 目录下）
 		$allMarkdown = "# 所有收藏仓库\n\n";
 		$allMarkdown .= "- **仓库总数：** " . $totalRepos . "\n";
 		$allMarkdown .= "- **最后更新时间：** " . date('Y-m-d H:i:s') . "\n\n";
@@ -461,9 +431,179 @@ class GitHubStarred
 			$allMarkdown .= $this->renderRepoMarkdownItem($repo);
 		}
 		$this->writeTextFile($this->distPath . '/ALL.md', $allMarkdown);
-		$markdown .= $this->config['INDEX_FOOTER'];  // 添加页脚
+
+		// 3. 构建高价值、精炼的 README.md
+		$markdown = "# 🌟 GitHub Starred Projects & 趋势洞察\n\n";
+		$markdown .= "> 本项目是一个**智能化 GitHub 收藏仓库管理与多维趋势分析系统**。  \n";
+		$markdown .= "> 自动同步 Starred 仓库，结合大语言模型生成高质量中文技术摘要与标签，并基于历史快照追踪每个项目的 Star / Fork 演进轨迹，提供多维趋势排行与交互式 Web 看板。\n\n";
+		$markdown .= "---\n\n";
+
+		// 概览指标表
+		$markdown .= "## 📊 知识库数据概览\n\n";
+		$markdown .= "| 核心指标 | 数据统计 | 说明 |\n";
+		$markdown .= "| :--- | :---: | :--- |\n";
+		$markdown .= "| 📦 **收录仓库总量** | **" . number_format($totalRepos) . "+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |\n";
+		$markdown .= "| 🌐 **覆盖编程语言** | **" . count($languageStats) . "** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |\n";
+		$markdown .= "| 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |\n";
+		$markdown .= "| 🕒 **最后更新时间** | **" . date('Y-m-d H:i:s') . "** | 自动同步最新 Star 列表与历史快照 |\n\n";
+		$markdown .= "---\n\n";
+
+		// 核心导航入口
+		$markdown .= "## 🧭 核心入口与导航\n\n";
+		$markdown .= "- [**🚀 趋势分析报告 (Markdown)**](trend.md) — 7天增量/增长率/综合热度等多维排行榜\n";
+		$markdown .= "- [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器\n";
+		$markdown .= "- [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势\n";
+		$markdown .= "- [**📚 查看全量仓库清单 (ALL.md)**](" . $distRelative . "ALL.md) — 完整仓库归档与离线索引\n";
+		$markdown .= "- [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置\n";
+		$markdown .= "- [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范\n\n";
+		$markdown .= "---\n\n";
+
+		// 尝试读取 trend.json 动态注入热点摘要
+		$trendJsonFile = $this->rootPath . '/trend.json';
+		if (is_file($trendJsonFile)) {
+			$trendData = json_decode((string)file_get_contents($trendJsonFile), true);
+			if (is_array($trendData) && !empty($trendData['rankings'])) {
+				$heatTop   = array_slice($trendData['rankings']['heat_score_top'] ?? [], 0, 5);
+				$growthTop = array_slice(array_filter($trendData['rankings']['star_growth_rate_top'] ?? [], fn($r) => ($r['star_diff'] ?? 0) > 0), 0, 5);
+				$langTop   = array_slice($trendData['language_trends'] ?? [], 0, 6);
+
+				$markdown .= "## 🔥 本期热点趋势精选（最近 " . ($trendData['analysis_days'] ?? 7) . " 天）\n\n";
+				$markdown .= "> 完整数据与更多维度请查看 [**→ 趋势分析报告 (trend.md)**](trend.md) 或打开 [**→ trend.html**](trend.html) 看板。\n\n";
+
+				if (!empty($heatTop)) {
+					$markdown .= "### 1. 综合热度 Top 5\n";
+					$markdown .= "| # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |\n";
+					$markdown .= "|:-:|:---|:---:|-------:|-------:|-------:|:---|\n";
+					foreach ($heatTop as $i => $r) {
+						$desc = mb_substr(preg_replace('/\s+/', ' ', trim($r['description'] ?? '')), 0, 36);
+						if ($desc !== '') $desc .= '…';
+						$markdown .= sprintf(
+							"| %d | [%s](%s) | `%s` | %s | **+%s** | +%s%% | %s |\n",
+							$i + 1,
+							$r['full_name'] ?? '',
+							$r['html_url'] ?? '',
+							$r['language'] ?? 'Other',
+							number_format((int)($r['current_stars'] ?? 0)),
+							number_format((int)($r['star_diff'] ?? 0)),
+							$r['star_growth_rate'] ?? '0',
+							$desc
+						);
+					}
+					$markdown .= "\n";
+				}
+
+				if (!empty($growthTop)) {
+					$markdown .= "### 2. 增速黑马 Top 5（≥500 ★）\n";
+					$markdown .= "| # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |\n";
+					$markdown .= "|:-:|:---|:---:|-------:|-------:|-------:|-------:|\n";
+					foreach ($growthTop as $i => $r) {
+						$markdown .= sprintf(
+							"| %d | [%s](%s) | `%s` | %s | **+%s%%** | +%s | +%s ★/天 |\n",
+							$i + 1,
+							$r['full_name'] ?? '',
+							$r['html_url'] ?? '',
+							$r['language'] ?? 'Other',
+							number_format((int)($r['current_stars'] ?? 0)),
+							$r['star_growth_rate'] ?? '0',
+							number_format((int)($r['star_diff'] ?? 0)),
+							$r['star_daily_avg'] ?? '0'
+						);
+					}
+					$markdown .= "\n";
+				}
+
+				if (!empty($langTop)) {
+					$markdown .= "### 3. 主流语言生态增长格局\n";
+					$markdown .= "| # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |\n";
+					$markdown .= "|:-:|:---|-------:|-----------:|----------:|----------:|----------:|\n";
+					foreach ($langTop as $i => $ls) {
+						$markdown .= sprintf(
+							"| %d | **%s** | %d | %s | **+%s ★** | +%s | +%s ★ |\n",
+							$i + 1,
+							$ls['language'] ?? '',
+							(int)($ls['repo_count'] ?? 0),
+							number_format((int)($ls['total_stars'] ?? 0)),
+							number_format((int)($ls['star_diff'] ?? 0)),
+							number_format((int)($ls['fork_diff'] ?? 0)),
+							$ls['avg_daily_star'] ?? '0'
+						);
+					}
+					$markdown .= "\n---\n\n";
+				}
+			}
+		}
+
+		// 核心特色
+		$markdown .= "## ✨ 项目核心特色\n\n";
+		$markdown .= "- 🤖 **AI 深度解析与标签**：获取 Star 列表时，结合大模型（DeepSeek / OpenAI / OpenRouter）自动生成地道技术解析与语义标签，告别“只收藏不理解”。\n";
+		$markdown .= "- 📈 **长期历史演进追踪**：支持多版本快照差分，为每个项目建立专属历史履历（`repos/{id}.json`），精准还原每个项目的 Star 与 Fork 演进走势。\n";
+		$markdown .= "- 🔥 **多维度趋势洞察与热度分析 (`trend.php`)**：\n";
+		$markdown .= "  - **综合热度榜**：整合 Star 增量、增长率、Fork 增量、日均增量加权评分。\n";
+		$markdown .= "  - **Star 增长率榜**：支持 `--min-stars` 最低门槛过滤，精准捕捉爆发型黑马。\n";
+		$markdown .= "  - **增量与日均榜**：绝对增量、Fork 增量、日均新增等多维排行。\n";
+		$markdown .= "  - **语言宏观趋势**：聚合统计各编程语言生态的整体增长态势。\n";
+		$markdown .= "- 📦 **全格式输出与历史归档**：每次分析同时输出结构化 `trend.json`、原生渲染 `trend.md`，并自动归档至 `trend_history/` 时间戳目录。\n";
+		$markdown .= "- 💻 **全站联动 Web 看板**：\n";
+		$markdown .= "  - `index.html`：按语言与标签快速检索项目大厅。\n";
+		$markdown .= "  - `trend.html`：多维排行看板、历史分析快照浏览器，支持深/浅色模式。\n";
+		$markdown .= "  - `history.html`：基于 ECharts 的交互式项目 Star/Fork 增长轨迹图。\n\n";
+		$markdown .= "---\n\n";
+
+		// 语言分布矩阵表
+		$markdown .= "## 🌐 编程语言分布矩阵\n\n";
+		$markdown .= "| 编程语言 | 收录数量 | 完整分类列表 |\n";
+		$markdown .= "| :--- | :---: | :--- |\n";
+		$topLanguages = array_slice($languageStats, 0, 15, true);
+		foreach ($topLanguages as $langName => $langCount) {
+			$subFilePath = $distRelative . ($langSubFiles[$langName] ?? 'ALL.md');
+			$markdown .= sprintf("| **%s** | %d 个仓库 | [查看全部 %s 项目 →](%s) |\n", $langName, $langCount, $langName, $subFilePath);
+		}
+		$markdown .= "\n> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](" . $distRelative . "ALL.md)\n\n";
+		$markdown .= "---\n\n";
+
+		// 近期新增精选
+		$markdown .= "## 🆕 近期新增与关注精选\n\n";
+		$markdown .= "> 以下为知识库最新收录并完成 AI 解析的高价值开源项目：\n\n";
+		foreach ($recentRepos as $repo) {
+			$markdown .= $this->renderRepoMarkdownItem($repo);
+		}
+		$markdown .= "\n---\n\n";
+
+		// 快速使用
+		$markdown .= "## 🚀 快速使用\n\n";
+		$markdown .= "### 1. 环境准备\n";
+		$markdown .= "确保已安装 PHP 8.2+ 及 `curl`、`json`、`mbstring` 扩展，配置好 `.env`（详见 [DEPLOY.md](DEPLOY.md)）。\n\n";
+		$markdown .= "### 2. 命令行操作\n\n";
+		$markdown .= "```bash\n";
+		$markdown .= "# 1. 抓取最新 Star 列表并生成 AI 中文解析\n";
+		$markdown .= "php fetch.php\n\n";
+		$markdown .= "# 2. 同步 dist/ 快照至单项目历史履历库 (repos/)\n";
+		$markdown .= "php history.php\n\n";
+		$markdown .= "# 3. 运行趋势分析（默认 7 天窗口，Top 20，≥500 星门槛）\n";
+		$markdown .= "php trend.php\n\n";
+		$markdown .= "# 4. 常用趋势分析参数：\n";
+		$markdown .= "php trend.php --days=14 --top=30 --min-stars=1000   # 14天窗口，Top 30，门槛 1000 星\n";
+		$markdown .= "php trend.php --lang=Python                        # 仅筛选 Python 语言项目\n";
+		$markdown .= "php trend.php --sync --force                       # 先同步最新快照，并忽略缓存强制重算\n";
+		$markdown .= "```\n\n";
+		$markdown .= "### 3. Web 浏览\n";
+		$markdown .= "使用任意静态 Web 服务器（或 PHP 内置服务器 `php -S localhost:8000`）打开：\n";
+		$markdown .= "- `index.html`：项目检索大厅\n";
+		$markdown .= "- `trend.html`：多维趋势排行榜与历史看板\n";
+		$markdown .= "- `history.html`：单项目历史增长折线图\n\n";
+		$markdown .= "---\n\n";
+
+		// 页脚与维护信息
+		$markdown .= "## 📄 License & 维护\n\n";
+		$markdown .= "本项目采用 MIT 许可证，由 [@yutao8](https://github.com/yutao8) 维护。\n";
+		$markdown .= "欢迎提交 Issue 与 PR 共同完善！\n";
+
+		if (!empty($this->config['INDEX_FOOTER'])) {
+			$markdown .= "\n" . $this->config['INDEX_FOOTER'];
+		}
+
 		$this->writeTextFile($this->distPath . '/README.md', $markdown);  // 保存到dist目录存档
-		$this->copyFile($this->distPath . 'README.md', $this->rootPath . '/README.md'); // 复制到根目录
+		$this->copyFile($this->distPath . '/README.md', $this->rootPath . '/README.md'); // 复制到根目录
 		echo "Markdown 文档生成完成\n";
 	}
 

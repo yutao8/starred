@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>趋势分析 · Starred Projects</title>
+    <meta name="description" content="GitHub Star 趋势分析 — 最近 7 天增长率、绝对增量、Fork 增量、语言热度等多维排行">
+    <link href="./assets/vendor/bootstrap.min.css" rel="stylesheet">
+    <link href="./assets/vendor/bootstrap-icons.css" rel="stylesheet">
+    <script src="./assets/vendor/vue.global.prod.js"></script>
+    <style>
+        :root{--vp-c-brand:#3eaf7c;--vp-c-brand-dark:#36a06d;--vp-c-text-1:#2c3e50;--vp-c-text-2:#476582;--vp-c-text-3:#90a4b7;--vp-c-bg:#fff;--vp-c-bg-soft:#f9fafb;--vp-c-bg-mute:#f1f4f8;--vp-c-border:#e2e8f0}
+        [data-theme="dark"]{--vp-c-bg:#1a1a1a;--vp-c-bg-soft:#242424;--vp-c-bg-mute:#2d2d2d;--vp-c-text-1:rgba(255,255,255,.87);--vp-c-text-2:rgba(255,255,255,.6);--vp-c-text-3:rgba(255,255,255,.38);--vp-c-border:#3e3e3e}
+        *{box-sizing:border-box}
+        body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",sans-serif;-webkit-font-smoothing:antialiased;color:var(--vp-c-text-1);background:var(--vp-c-bg);transition:background-color .15s,color .15s}
+        .navbar{position:fixed;top:0;left:0;right:0;height:4.2rem;background:var(--vp-c-bg);border-bottom:1px solid var(--vp-c-border);z-index:100;padding:0 1.5rem;transition:background-color .15s,border-color .15s}
+        .navbar-brand{font-size:1.3rem;font-weight:600;color:var(--vp-c-text-1);text-decoration:none}
+        .navbar-brand span{color:var(--vp-c-brand)}
+        .hbtn{display:inline-flex;align-items:center;justify-content:center;width:2.6em;height:2.6em;background:none;border:none;border-radius:50%;color:var(--vp-c-text-2);font-size:1.35em;cursor:pointer;text-decoration:none;transition:background .2s,color .2s}
+        .hbtn:hover{background:var(--vp-c-bg-mute);color:var(--vp-c-brand)}
+        .hbtn.text{width:auto;padding:0 .8rem;border-radius:6px;font-size:.95rem;font-weight:500;gap:.4rem}
+        .hbtn.cur{color:var(--vp-c-brand);background:rgba(62,175,124,.1)}
+        .page-wrap{max-width:1300px;margin:0 auto;padding:5.5rem 1.5rem 3rem}
+        .meta-bar{display:flex;align-items:center;flex-wrap:wrap;gap:.6rem;padding:.65rem 1rem;background:var(--vp-c-bg-soft);border:1px solid var(--vp-c-border);border-radius:8px;margin-bottom:1.5rem;font-size:.88rem;color:var(--vp-c-text-2)}
+        .mtag{display:inline-flex;align-items:center;gap:.3rem;background:var(--vp-c-bg-mute);border:1px solid var(--vp-c-border);border-radius:20px;padding:.2rem .7rem;font-size:.82rem;color:var(--vp-c-text-2);cursor:pointer;transition:all .2s}
+        .mtag:hover{background:var(--vp-c-brand);color:#fff;border-color:var(--vp-c-brand)}
+        .sep{color:var(--vp-c-border)}
+        .sum-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-bottom:1.5rem}
+        .sum-card{background:var(--vp-c-bg-soft);border:1px solid var(--vp-c-border);border-left:4px solid var(--vp-c-brand);border-radius:8px;padding:1rem 1.2rem;cursor:pointer;transition:transform .2s,box-shadow .2s}
+        .sum-card:hover{transform:translateY(-3px);box-shadow:0 6px 20px rgba(0,0,0,.08)}
+        .sum-card.or{border-left-color:#f59e0b}.sum-card.bl{border-left-color:#3b82f6}.sum-card.pu{border-left-color:#8b5cf6}
+        .sum-title{font-size:.8rem;color:var(--vp-c-text-3);margin-bottom:.3rem}
+        .sum-val{font-size:1rem;font-weight:700;color:var(--vp-c-text-1)}
+        .sum-sub{font-size:.78rem;color:var(--vp-c-text-3);margin-top:.2rem}
+        .sbadge{display:inline-block;margin-top:.3rem;padding:.1rem .5rem;border-radius:20px;font-size:.75rem;font-weight:600;background:rgba(62,175,124,.12);color:var(--vp-c-brand)}
+        .sbadge.or{background:rgba(245,158,11,.12);color:#f59e0b}.sbadge.bl{background:rgba(59,130,246,.12);color:#3b82f6}.sbadge.pu{background:rgba(139,92,246,.12);color:#8b5cf6}
+        .tabs{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.5rem;border-bottom:2px solid var(--vp-c-border);padding-bottom:0}
+        .tbtn{display:inline-flex;align-items:center;gap:.4rem;padding:.55rem 1rem;border:none;border-bottom:2px solid transparent;margin-bottom:-2px;background:none;color:var(--vp-c-text-2);font-size:.9rem;font-weight:500;cursor:pointer;border-radius:6px 6px 0 0;transition:color .2s,border-color .2s,background .2s}
+        .tbtn:hover{color:var(--vp-c-brand);background:var(--vp-c-bg-soft)}.tbtn.active{color:var(--vp-c-brand);border-bottom-color:var(--vp-c-brand)}
+        .rtw{background:var(--vp-c-bg-soft);border:1px solid var(--vp-c-border);border-radius:10px;overflow:hidden}
+        .rt{width:100%;border-collapse:collapse;font-size:.88rem}
+        .rt thead th{background:var(--vp-c-bg-mute);padding:.7rem .9rem;text-align:left;font-weight:600;color:var(--vp-c-text-2);font-size:.8rem;border-bottom:1px solid var(--vp-c-border);white-space:nowrap}
+        .rt thead th.num{text-align:right}
+        .rt tbody tr{border-bottom:1px solid var(--vp-c-border);transition:background .15s}
+        .rt tbody tr:last-child{border-bottom:none}.rt tbody tr:hover{background:var(--vp-c-bg-mute)}
+        .rt td{padding:.7rem .9rem;vertical-align:middle}.rt td.num{text-align:right;white-space:nowrap;font-variant-numeric:tabular-nums}
+        .rn{display:inline-flex;align-items:center;justify-content:center;width:1.6rem;height:1.6rem;border-radius:50%;font-size:.8rem;font-weight:700;background:var(--vp-c-bg-mute);color:var(--vp-c-text-3)}
+        .rn.g{background:#fef3c7;color:#b45309}.rn.s{background:#f1f5f9;color:#64748b}.rn.b{background:#fef2f2;color:#b91c1c}
+        [data-theme=dark] .rn.g{background:rgba(251,191,36,.15);color:#fbbf24}[data-theme=dark] .rn.s{background:rgba(148,163,184,.15);color:#94a3b8}[data-theme=dark] .rn.b{background:rgba(248,113,113,.15);color:#f87171}
+        .rlink{font-weight:600;font-size:.9rem;color:var(--vp-c-text-1);text-decoration:none;transition:color .2s}
+        .rlink:hover{color:var(--vp-c-brand)}
+        .rdesc{display:block;margin-top:.15rem;font-size:.78rem;color:var(--vp-c-text-3);overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:340px}
+        .lbadge{display:inline-flex;align-items:center;gap:.25rem;padding:.15rem .55rem;border-radius:20px;font-size:.76rem;background:var(--vp-c-bg-mute);color:var(--vp-c-text-2);white-space:nowrap;border:1px solid var(--vp-c-border)}
+        .dp{color:#16a34a;font-weight:600}.dn{color:#dc2626;font-weight:600}.dz{color:var(--vp-c-text-3)}
+        .hbar{display:flex;align-items:center;gap:.5rem}
+        .hfill{height:6px;border-radius:3px;background:linear-gradient(90deg,#f59e0b,#ef4444);transition:width .4s;min-width:2px}
+        .hscore{font-weight:700;font-size:.9rem;color:#f59e0b}
+        .sec-hd{display:flex;align-items:center;justify-content:space-between;margin-bottom:.8rem}
+        .sec-title{font-size:1.1rem;font-weight:700;color:var(--vp-c-text-1);display:flex;align-items:center;gap:.5rem}
+        .sec-cnt{font-size:.8rem;color:var(--vp-c-text-3);font-weight:400}
+        .hist-list{display:flex;flex-direction:column;gap:.6rem}
+        .hist-item{display:flex;align-items:center;justify-content:space-between;padding:.7rem 1rem;background:var(--vp-c-bg-soft);border:1px solid var(--vp-c-border);border-radius:8px;transition:border-color .2s,background .2s}
+        .hist-item:hover,.hist-item.act{border-color:var(--vp-c-brand);background:rgba(62,175,124,.05)}
+        .hist-info{display:flex;flex-direction:column;gap:.2rem}
+        .hist-title{font-weight:600;font-size:.92rem}.hist-meta{font-size:.78rem;color:var(--vp-c-text-3)}
+        .hist-acts{display:flex;gap:.5rem}
+        .osm{display:inline-flex;align-items:center;gap:.3rem;padding:.25rem .7rem;border:1px solid var(--vp-c-border);border-radius:5px;background:none;color:var(--vp-c-text-2);font-size:.78rem;cursor:pointer;text-decoration:none;transition:all .2s}
+        .osm:hover{border-color:var(--vp-c-brand);color:var(--vp-c-brand)}
+        .lbox{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:4rem 1rem;color:var(--vp-c-text-3)}
+        .spin{width:2.5rem;height:2.5rem;border:3px solid var(--vp-c-border);border-top-color:var(--vp-c-brand);border-radius:50%;animation:sp .8s linear infinite;margin-bottom:1rem}
+        @keyframes sp{to{transform:rotate(360deg)}}
+        .ebox{text-align:center;padding:3rem 1rem;color:var(--vp-c-text-3);font-size:.9rem}
+        [data-theme=dark] .rt thead th{background:#23272f}
+        [data-theme=dark] .sum-card,[data-theme=dark] .hist-item{background:#23272f;border-color:#333}
+        @media(max-width:768px){.page-wrap{padding:5rem .8rem 2rem}.rdesc{display:none}.hide-sm{display:none !important}.sum-grid{grid-template-columns:1fr 1fr}}
+    </style>
+</head>
+<body>
+<div id="app">    <nav class="navbar">
+        <div class="container-fluid d-flex justify-content-between align-items-center">
+            <a href="index.html" class="navbar-brand">Starred <span>Projects</span></a>
+            <div class="d-flex align-items-center gap-2">
+                <a href="index.html"   class="hbtn text" title="仓库列表"><i class="bi bi-grid-3x3-gap"></i> 仓库列表</a>
+                <a href="history.html" class="hbtn text" title="历史趋势"><i class="bi bi-graph-up-arrow"></i> 历史趋势</a>
+                <a href="trend.html"   class="hbtn text cur" title="趋势排行"><i class="bi bi-fire"></i> 趋势排行</a>
+                <a href="https://github.com/yutao8/starred" target="_blank" class="hbtn" title="GitHub"><i class="bi bi-github"></i></a>
+                <button class="hbtn" @click="toggleTheme" title="切换主题"><i :class="isDark?'bi bi-sun-fill':'bi bi-moon-fill'"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="page-wrap">
+        <div v-if="loading" class="lbox"><div class="spin"></div><div>正在加载趋势数据...</div></div>
+        <div v-else-if="error" class="ebox">
+            <i class="bi bi-exclamation-triangle" style="font-size:2rem;color:#ef4444;display:block;margin-bottom:.8rem"></i>
+            {{ error }}<br><small style="color:var(--vp-c-text-3)">请确保已运行 <code>php trend.php</code> 生成数据</small>
+        </div>
+        <template v-else>
+            <!-- 元信息条 -->
+            <div class="meta-bar">
+                <i class="bi bi-clock"></i>
+                生成于 <strong>{{ data.generated_at }}</strong>
+                <span class="sep">·</span>
+                分析 <strong>{{ data.analysis_days }} 天</strong>
+                <span class="sep">·</span>
+                {{ data.cutoff_date?.slice(0,10) }} ～ {{ data.data_latest_date?.slice(0,10) }}
+                <span class="sep">·</span>
+                <strong>{{ data.total_repos }}</strong> 个仓库<span v-if="data.min_stars>0">（≥ {{ (data.min_stars||0).toLocaleString() }} ★）</span>
+                <span v-if="currentSlot" style="color:var(--vp-c-brand);font-weight:600">
+                    <i class="bi bi-clock-history"></i> 历史：{{ currentSlot }}
+                    <a href="#" @click.prevent="reloadLatest" style="color:var(--vp-c-brand);font-size:.8rem;margin-left:.4rem">返回最新</a>
+                </span>
+                <span @click="activeTab='history'" class="mtag" style="margin-left:auto">
+                    <i class="bi bi-clock-history"></i> 历史记录 ({{ historyList.length }})
+                </span>
+            </div>
+
+            <!-- 摘要卡片 -->
+            <div class="sum-grid">
+                <div class="sum-card" @click="activeTab='heat'">
+                    <div class="sum-title">🔥 综合热度榜首</div>
+                    <div class="sum-val">{{ topHeatRepo?.full_name?.split('/')[1]||'-' }}</div>
+                    <div class="sum-sub">{{ topHeatRepo?.full_name?.split('/')[0] }}</div>
+                    <span class="sbadge">热度 {{ topHeatRepo?.heat_score }}</span>
+                </div>
+                <div class="sum-card or" @click="activeTab='star_diff'">
+                    <div class="sum-title">⭐ Star 增量榜首</div>
+                    <div class="sum-val">{{ topStarDiffRepo?.full_name?.split('/')[1]||'-' }}</div>
+                    <div class="sum-sub">{{ topStarDiffRepo?.full_name?.split('/')[0] }}</div>
+                    <span class="sbadge or">+{{ (topStarDiffRepo?.star_diff||0).toLocaleString() }} ★</span>
+                </div>
+                <div class="sum-card bl" @click="activeTab='growth'">
+                    <div class="sum-title">🚀 增长率榜首</div>
+                    <div class="sum-val">{{ topGrowthRepo?.full_name?.split('/')[1]||'-' }}</div>
+                    <div class="sum-sub">{{ topGrowthRepo?.full_name?.split('/')[0] }}</div>
+                    <span class="sbadge bl">+{{ topGrowthRepo?.star_growth_rate }}%</span>
+                </div>
+                <div class="sum-card pu" @click="activeTab='lang'">
+                    <div class="sum-title">🌐 最热语言</div>
+                    <div class="sum-val">{{ topLang?.language||'-' }}</div>
+                    <div class="sum-sub">{{ topLang?.repo_count }} 个仓库</div>
+                    <span class="sbadge pu">+{{ (topLang?.star_diff||0).toLocaleString() }} ★</span>
+                </div>
+            </div>
+
+            <!-- Tab -->
+            <div class="tabs">
+                <button v-for="t in tabs" :key="t.key" class="tbtn" :class="{active:activeTab===t.key}" @click="activeTab=t.key">
+                    {{ t.icon }} {{ t.label }}
+                </button>
+            </div>
+
+            <!-- 历史记录 -->
+            <div v-if="activeTab==='history'">
+                <div v-if="historyLoading" class="lbox" style="padding:2rem"><div class="spin"></div></div>
+                <div v-else-if="historyList.length===0" class="ebox">暂无历史记录，请运行 php trend.php 后刷新</div>
+                <div v-else class="hist-list">
+                    <div v-for="item in historyList" :key="item.slot" class="hist-item" :class="{act:currentSlot===item.slot}">
+                        <div class="hist-info">
+                            <div class="hist-title"><i class="bi bi-clock-history" style="color:var(--vp-c-brand)"></i> {{ item.generated_at }}</div>
+                            <div class="hist-meta">
+                                {{ item.analysis_days }}天窗口 · Top {{ item.top_n }} · min_stars={{ item.min_stars }} ·
+                                {{ item.cutoff_date?.slice(0,10) }} ～ {{ item.data_latest_date?.slice(0,10) }} ·
+                                {{ item.total_repos }} 仓库
+                            </div>
+                        </div>
+                        <div class="hist-acts">
+                            <button class="osm" @click="loadSlot(item)"><i class="bi bi-eye"></i> 查看</button>
+                            <a :href="item.markdown" target="_blank" class="osm"><i class="bi bi-markdown"></i> MD</a>
+                            <a :href="item.json" target="_blank" class="osm"><i class="bi bi-braces"></i> JSON</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 语言趋势 -->
+            <div v-else-if="activeTab==='lang'">
+                <div class="sec-hd"><div class="sec-title">🌐 语言趋势 <span class="sec-cnt">（{{ langRows.length }} 种）</span></div></div>
+                <div v-if="langRows.length===0" class="ebox">暂无数据</div>
+                <div v-else class="rtw">
+                    <table class="rt">
+                        <thead><tr>
+                            <th style="width:2.5rem">#</th><th>语言</th>
+                            <th class="num">仓库数</th><th class="num hide-sm">Star 总量</th>
+                            <th class="num">Star 增量</th><th class="num hide-sm">Fork 增量</th>
+                            <th class="num hide-sm">日均增/库</th>
+                        </tr></thead>
+                        <tbody>
+                            <tr v-for="(r,i) in langRows" :key="r.language">
+                                <td><span class="rn" :class="i===0?'g':i===1?'s':i===2?'b':''">{{ i+1 }}</span></td>
+                                <td><span :style="{color:langColor(r.language),fontSize:'1.1rem',marginRight:'6px'}">●</span><strong>{{ r.language }}</strong></td>
+                                <td class="num">{{ r.repo_count }}</td>
+                                <td class="num hide-sm">{{ (r.total_stars||0).toLocaleString() }}</td>
+                                <td class="num"><span :class="r.star_diff>0?'dp':r.star_diff<0?'dn':'dz'">{{ r.star_diff>=0?'+':'' }}{{ (r.star_diff||0).toLocaleString() }}</span></td>
+                                <td class="num hide-sm"><span :class="r.fork_diff>0?'dp':'dz'">{{ r.fork_diff>=0?'+':'' }}{{ (r.fork_diff||0).toLocaleString() }}</span></td>
+                                <td class="num hide-sm"><span class="dp">+{{ r.avg_daily_star }}</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- 通用排行表 -->
+            <template v-else>
+                <div class="sec-hd">
+                    <div class="sec-title">{{ currentTabMeta?.icon }} {{ currentTabMeta?.label }} <span class="sec-cnt">（{{ currentRows.length }} 条）</span></div>
+                </div>
+                <div v-if="currentRows.length===0" class="ebox">暂无数据</div>
+                <div v-else class="rtw">
+                    <table class="rt">
+                        <thead><tr>
+                            <th style="width:2.5rem">#</th><th>仓库</th><th class="hide-sm">语言</th>
+                            <th class="num" v-if="activeTab==='heat'">热度</th>
+                            <th class="num">当前 ★</th>
+                            <th class="num" v-if="activeTab!=='total'">Star 增量</th>
+                            <th class="num hide-sm" v-if="activeTab!=='total'">增长率</th>
+                            <th class="num hide-sm" v-if="activeTab==='fork'">Fork 增量</th>
+                            <th class="num hide-sm" v-if="activeTab==='fork'">当前 🍴</th>
+                            <th class="num hide-sm" v-if="activeTab==='total'">近期增量</th>
+                            <th class="num hide-sm" v-if="activeTab==='total'">增长率</th>
+                            <th class="num hide-sm" v-if="activeTab==='daily'">日均增</th>
+                        </tr></thead>
+                        <tbody>
+                            <tr v-for="(r,i) in currentRows" :key="r.id">
+                                <td><span class="rn" :class="i===0?'g':i===1?'s':i===2?'b':''">{{ i+1 }}</span></td>
+                                <td>
+                                    <div style="display:flex;align-items:center;gap:0.4rem;flex-wrap:wrap">
+                                        <a class="rlink" :href="r.html_url" target="_blank">{{ r.full_name }}</a>
+                                        <a :href="'history.html?repo=' + encodeURIComponent(r.full_name)" class="osm" style="padding:0.1rem 0.4rem;font-size:0.72rem" title="查看历史 Star 增长折线图">
+                                            <i class="bi bi-graph-up"></i> 履历
+                                        </a>
+                                    </div>
+                                    <span class="rdesc" :title="r.description">{{ r.description }}</span>
+                                </td>
+                                <td class="hide-sm"><span class="lbadge"><span :style="{color:langColor(r.language)}">●</span>{{ r.language||'-' }}</span></td>
+                                <td class="num" v-if="activeTab==='heat'">
+                                    <div class="hbar"><div class="hfill" :style="{width:r.heat_score+'%'}"></div><span class="hscore">{{ r.heat_score }}</span></div>
+                                </td>
+                                <td class="num">{{ (r.current_stars||0).toLocaleString() }}</td>
+                                <td class="num" v-if="activeTab!=='total'"><span :class="r.star_diff>0?'dp':r.star_diff<0?'dn':'dz'">{{ r.star_diff>=0?'+':'' }}{{ (r.star_diff||0).toLocaleString() }}</span></td>
+                                <td class="num hide-sm" v-if="activeTab!=='total'"><span :class="r.star_growth_rate>0?'dp':r.star_growth_rate<0?'dn':'dz'">{{ r.star_growth_rate>=0?'+':'' }}{{ r.star_growth_rate }}%</span></td>
+                                <td class="num hide-sm" v-if="activeTab==='fork'"><span class="dp">+{{ (r.fork_diff||0).toLocaleString() }}</span></td>
+                                <td class="num hide-sm" v-if="activeTab==='fork'">{{ (r.current_forks||0).toLocaleString() }}</td>
+                                <td class="num hide-sm" v-if="activeTab==='total'"><span :class="r.star_diff>0?'dp':r.star_diff<0?'dn':'dz'">{{ r.star_diff>=0?'+':'' }}{{ (r.star_diff||0).toLocaleString() }}</span></td>
+                                <td class="num hide-sm" v-if="activeTab==='total'"><span :class="r.star_growth_rate>0?'dp':r.star_growth_rate<0?'dn':'dz'">{{ r.star_growth_rate>=0?'+':'' }}{{ r.star_growth_rate }}%</span></td>
+                                <td class="num hide-sm" v-if="activeTab==='daily'"><span class="dp">+{{ r.star_daily_avg }}</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </template>
+        </template>
+    </div>
+</div><script>
+const {createApp,ref,computed,onMounted,watch}=Vue;
+createApp({setup(){
+    const isDark=ref(false);
+    const toggleTheme=()=>{isDark.value=!isDark.value;document.documentElement.setAttribute('data-theme',isDark.value?'dark':'');localStorage.setItem('theme',isDark.value?'dark':'light')};
+    const initTheme=()=>{const s=localStorage.getItem('theme'),p=window.matchMedia('(prefers-color-scheme:dark)').matches;if(s==='dark'||(!s&&p)){isDark.value=true;document.documentElement.setAttribute('data-theme','dark')}};
+
+    const loading=ref(true),error=ref(''),data=ref({});
+    const activeTab=ref('heat');
+    const historyList=ref([]),historyLoading=ref(false),currentSlot=ref('');
+
+    const tabs=[
+        {key:'heat',icon:'🔥',label:'综合热度'},
+        {key:'new',icon:'🆕',label:'新收录'},
+        {key:'growth',icon:'🚀',label:'Star增长率'},
+        {key:'star_diff',icon:'⭐',label:'Star增量'},
+        {key:'fork',icon:'🍴',label:'Fork增量'},
+        {key:'daily',icon:'📈',label:'日均增长'},
+        {key:'total',icon:'🏆',label:'Star总量'},
+        {key:'decline',icon:'📉',label:'负增长'},
+        {key:'lang',icon:'🌐',label:'语言趋势'},
+        {key:'history',icon:'🕐',label:'历史记录'},
+    ];
+    const currentTabMeta=computed(()=>tabs.find(t=>t.key===activeTab.value));
+    const rankings=computed(()=>data.value.rankings||{});
+    const topHeatRepo=computed(()=>(rankings.value.heat_score_top||[])[0]);
+    const topStarDiffRepo=computed(()=>(rankings.value.star_diff_top||[])[0]);
+    const topGrowthRepo=computed(()=>(rankings.value.star_growth_rate_top||[]).filter(r=>r.star_diff>0)[0]);
+    const topLang=computed(()=>(data.value.language_trends||[])[0]);
+    const langRows=computed(()=>data.value.language_trends||[]);
+    const currentRows=computed(()=>{
+        const m={
+            heat:(rankings.value.heat_score_top||[]),
+            new:(rankings.value.new_repos_top||[]),
+            growth:(rankings.value.star_growth_rate_top||[]).filter(r=>r.star_diff>0),
+            star_diff:(rankings.value.star_diff_top||[]).filter(r=>r.star_diff>0),
+            fork:(rankings.value.fork_diff_top||[]).filter(r=>r.fork_diff>0),
+            daily:(rankings.value.star_daily_avg_top||[]).filter(r=>r.star_daily_avg>0),
+            total:(rankings.value.star_total_top||[]),
+            decline:(rankings.value.star_growth_rate_bottom||[]).filter(r=>r.star_diff<0),
+        };
+        return m[activeTab.value]||[];
+    });
+
+    function langColor(lang){
+        const m={Python:'#3572A5',JavaScript:'#f1e05a',TypeScript:'#3178c6',Go:'#00ADD8',Rust:'#dea584',PHP:'#4F5D95',Java:'#b07219','C#':'#178600','C++':'#f34b7d',C:'#555',Ruby:'#701516',Swift:'#ffac45',Kotlin:'#A97BFF',Shell:'#89e051',HTML:'#e34c26',CSS:'#563d7c',Vue:'#41b883',Dart:'#00B4AB',Lua:'#000080',Markdown:'#083fa1',Other:'#8a8a8a'};
+        if(m[lang])return m[lang];
+        let h=0;for(let c of(lang||''))h=(h*31+c.charCodeAt(0))&0xffffffff;
+        return`hsl(${Math.abs(h)%360},60%,50%)`;
+    }
+
+    async function loadData(url='trend.json'){
+        loading.value=true;error.value='';
+        try{
+            const r=await fetch(url+'?_t='+Date.now());
+            if(!r.ok)throw new Error('HTTP '+r.status);
+            data.value=await r.json();
+            if(data.value.status!=='success')throw new Error(data.value.message||'数据格式错误');
+        }catch(e){error.value='加载失败：'+e.message;}
+        loading.value=false;
+    }
+
+    async function loadHistory(){
+        historyLoading.value=true;
+        try{const r=await fetch('trend_history/index.json?_t='+Date.now());if(r.ok)historyList.value=await r.json();}
+        catch{}
+        historyLoading.value=false;
+    }
+
+    async function loadSlot(item){
+        currentSlot.value=item.slot;activeTab.value='heat';loading.value=true;error.value='';
+        try{const r=await fetch(item.json+'?_t='+Date.now());if(!r.ok)throw new Error('HTTP '+r.status);data.value=await r.json();}
+        catch(e){error.value='加载失败：'+e.message;}
+        loading.value=false;
+    }
+
+    async function reloadLatest(){currentSlot.value='';await loadData();}
+
+    watch(activeTab,v=>{if(v==='history'&&historyList.value.length===0)loadHistory();});
+
+    onMounted(()=>{initTheme();loadData();loadHistory();});
+
+    return{isDark,toggleTheme,loading,error,data,activeTab,tabs,currentTabMeta,
+        topHeatRepo,topStarDiffRepo,topGrowthRepo,topLang,currentRows,langRows,
+        historyList,historyLoading,currentSlot,loadSlot,reloadLatest,langColor};
+}}).mount('#app');
+</script>
+</body>
+</html>

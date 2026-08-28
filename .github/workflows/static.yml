@@ -33,9 +33,10 @@ jobs:
       - name: Prepare artifact folder
         run: |
           mkdir artifact
-          cp index.html history.html starList.json starList.public.json artifact/
+          cp index.html history.html trend.html trend.json trend.md starList.json starList.public.json artifact/ 2>/dev/null || cp index.html history.html starList.json starList.public.json artifact/
           cp -r assets artifact/
           cp -r repos artifact/
+          cp -r trend_history artifact/ 2>/dev/null || true
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v4
