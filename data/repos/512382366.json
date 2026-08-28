@@ -1,0 +1,50 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 512382366,
+        "full_name": "traceless\/sendsms",
+        "name": "sendsms",
+        "html_url": "https:\/\/github.com\/traceless\/sendsms",
+        "language": "Java",
+        "description": "用于发送短信的简洁库，帮助开发者通过代码快速完成短信发送。它一般封装了主流短信服务商的接口，提供统一调用方式，使得切换或同时使用多个短信网关变得简单。典型应用场景包括用户验证码、订单通知、系统报警等。这个库适合需要快速集成短信功能的项目，能够减少重复的对接工作，并让代码更清晰。如果项目要求稳定可靠的短信发送能力，并且希望简化服务商管理，可以考虑使用。"
+    },
+    "summary": {
+        "initial_stars": 14,
+        "current_stars": 15,
+        "star_diff": 1,
+        "growth_rate": 7.14,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-06-22 18:00",
+        "data_points_count": 4
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 14,
+            "forks": 7,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2026-01-08 00:00",
+            "timestamp": 1767801600,
+            "stars": 15,
+            "forks": 7,
+            "file": "dist\/2026010800\/starList.json"
+        },
+        {
+            "date": "2025-06-27 12:00",
+            "timestamp": 1750996800,
+            "stars": 14,
+            "forks": 7,
+            "file": "dist\/2025062712\/starList.json"
+        },
+        {
+            "date": "2026-06-22 18:00",
+            "timestamp": 1782122400,
+            "stars": 15,
+            "forks": 7,
+            "file": "dist\/2026062218\/starList.json"
+        }
+    ]
+}

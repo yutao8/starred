@@ -1,0 +1,64 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 114078639,
+        "full_name": "gongjunhao\/cookie-extraction",
+        "name": "cookie-extraction",
+        "html_url": "https:\/\/github.com\/gongjunhao\/cookie-extraction",
+        "language": "JavaScript",
+        "description": "用于从浏览器或网络请求中提取并整理 Cookie 信息，通常服务于自动化登录、接口调试或数据采集等需要维持会话状态的场景。它可以帮助开发者快速获取指定域名的 Cookie 内容，并以可读或可复用的格式输出，方便后续脚本或测试工具直接使用。适合在处理需要身份验证的爬虫任务、API 联调或本地开发环境时，替代手动从浏览器开发者工具复制 Cookie 的繁琐步骤。由于其项目名称直接指向 Cookie 提取流程，核心思路聚焦于解析存储数据或捕获请求头中的凭证，并可能支持多种浏览器或格式的兼容处理。具体功能细节需参考仓库文档，但其主要目标是简化会话凭证的获取与集成。"
+    },
+    "summary": {
+        "initial_stars": 56,
+        "current_stars": 58,
+        "star_diff": 2,
+        "growth_rate": 3.57,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-06-22 18:00",
+        "data_points_count": 6
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 56,
+            "forks": 15,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2025-10-09 18:00",
+            "timestamp": 1760004000,
+            "stars": 57,
+            "forks": 15,
+            "file": "dist\/2025100918\/starList.json"
+        },
+        {
+            "date": "2025-12-05 00:00",
+            "timestamp": 1764864000,
+            "stars": 57,
+            "forks": 16,
+            "file": "dist\/2025120500\/starList.json"
+        },
+        {
+            "date": "2026-02-09 06:00",
+            "timestamp": 1770588000,
+            "stars": 58,
+            "forks": 16,
+            "file": "dist\/2026020906\/starList.json"
+        },
+        {
+            "date": "2025-06-27 12:00",
+            "timestamp": 1750996800,
+            "stars": 56,
+            "forks": 15,
+            "file": "dist\/2025062712\/starList.json"
+        },
+        {
+            "date": "2026-06-22 18:00",
+            "timestamp": 1782122400,
+            "stars": 58,
+            "forks": 16,
+            "file": "dist\/2026062218\/starList.json"
+        }
+    ]
+}

@@ -634,10 +634,13 @@
         }
     });
 
-    // 预加载可用项目列表 (纯静态读取 starList.public.json)
+    // 预加载可用项目列表 (纯静态读取 data/starList.public.json)
     async function loadRepoList() {
         try {
-            const resp = await fetch('starList.public.json');
+            let resp = await fetch('data/starList.public.json');
+            if (!resp.ok) {
+                resp = await fetch('starList.public.json');
+            }
             if (resp.ok) {
                 const data = await resp.json();
                 if (Array.isArray(data)) {
@@ -706,7 +709,7 @@
         stateMsg.innerHTML = `⏳ 正在读取项目 '${escapeHtml(query)}' 的历史履历数据...`;
         detailWrap.style.display = 'none';
 
-        // 纯静态模式：直接从 repos/{id}.json 读取独立项目履历文件
+        // 纯静态模式：直接从 data/repos/{id}.json 读取独立项目履历文件
         try {
             const queryLower = query.trim().toLowerCase();
             let targetRepo = repoList.find(r => 
@@ -719,8 +722,12 @@
             }
 
             if (targetRepo && targetRepo.id) {
-                const repoFile = `repos/${targetRepo.id}.json`;
-                const resp = await fetch(repoFile);
+                let repoFile = `data/repos/${targetRepo.id}.json`;
+                let resp = await fetch(repoFile);
+                if (!resp.ok) {
+                    repoFile = `repos/${targetRepo.id}.json`;
+                    resp = await fetch(repoFile);
+                }
                 if (resp.ok) {
                     const data = await resp.json();
                     if (data && data.status === 'success') {

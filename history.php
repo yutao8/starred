@@ -18,6 +18,7 @@ date_default_timezone_set('Asia/Shanghai');
 class FastRepoHistoryAnalyzer
 {
     private string $rootPath;
+    private string $dataPath;
     private string $distPath;
     private string $reposDir;
     private string $indexFile;
@@ -25,25 +26,30 @@ class FastRepoHistoryAnalyzer
     public function __construct(?string $rootPath = null)
     {
         $this->rootPath = $rootPath ?? __DIR__;
-        $this->distPath = rtrim($this->rootPath, '/\\') . '/dist';
-        $this->reposDir = rtrim($this->rootPath, '/\\') . '/repos';
+        $this->dataPath = rtrim($this->rootPath, '/\\') . '/data';
+        $this->distPath = is_dir($this->dataPath . '/dist') ? ($this->dataPath . '/dist') : (rtrim($this->rootPath, '/\\') . '/dist');
+        $this->reposDir = $this->dataPath . '/repos';
         $this->indexFile = $this->reposDir . '/index.json';
 
+        if (!is_dir($this->dataPath)) {
+            @mkdir($this->dataPath, 0777, true);
+        }
         if (!is_dir($this->reposDir)) {
             @mkdir($this->reposDir, 0777, true);
         }
     }
 
     /**
-     * 从根目录获取可用项目清单 (不扫描 dist 目录，毫秒级响应)
-     * 支持 startList.json, starList.json, starList.public.json
+     * 从数据目录获取可用项目清单 (不扫描 dist 目录，毫秒级响应)
+     * 支持 data/starList.public.json, data/starList.json
      */
     public function getRepoListFromRoot(): array
     {
         $candidates = [
-            $this->rootPath . '/startList.json',
-            $this->rootPath . '/starList.json',
+            $this->dataPath . '/starList.public.json',
+            $this->dataPath . '/starList.json',
             $this->rootPath . '/starList.public.json',
+            $this->rootPath . '/starList.json',
         ];
 
         $targetFile = null;
@@ -243,15 +249,23 @@ class FastRepoHistoryAnalyzer
 
         $allSnapshots = $this->scanDistSnapshots();
         $processed = $masterIndex['processed_snapshots'] ?? [];
-        $unprocessed = array_diff_key($allSnapshots, $processed);
+        if (empty($masterIndex['repos_meta']) || empty($masterIndex['map'])) {
+            $unprocessed = $allSnapshots;
+        } else {
+            $unprocessed = array_diff_key($allSnapshots, $processed);
+        }
 
-        if (empty($unprocessed) && !empty($masterIndex['map']) && !$force) {
+        if (empty($unprocessed) && !empty($masterIndex['map']) && !empty($masterIndex['repos_meta']) && !$force) {
             return $masterIndex;
         }
 
         $snapList = array_values($unprocessed);
         $totalSnapCount = count($snapList);
         $step = ($totalSnapCount > 200) ? (int)ceil($totalSnapCount / 200) : 1;
+
+        $map = $masterIndex['map'] ?? [];
+        $reposMeta = $masterIndex['repos_meta'] ?? [];
+        $repoStores = [];
 
         for ($i = 0; $i < $totalSnapCount; $i++) {
             $folder = $snapList[$i]['folder'];
@@ -290,7 +304,7 @@ class FastRepoHistoryAnalyzer
 
             $ts = $snap['timestamp'];
             $date = $snap['formatted'];
-            $relFile = 'dist/' . $folder . '/' . basename($jsonFile);
+            $relFile = 'data/dist/' . $folder . '/' . basename($jsonFile);
 
             foreach ($repos as $r) {
                 $fullName = $r['full_name'] ?? ($r['name'] ?? '');
@@ -371,7 +385,7 @@ class FastRepoHistoryAnalyzer
                 $reposMeta[$id] = [
                     'id' => $id,
                     'full_name' => $fullName,
-                    'file' => 'repos/' . $id . '.json',
+                    'file' => 'data/repos/' . $id . '.json',
                 ];
             }
 
@@ -419,44 +433,52 @@ class FastRepoHistoryAnalyzer
     }
 
     /**
-     * 扫描 dist 目录下所有的 YYYYMMDDHH 快照目录
+     * 扫描 dist 目录下所有的 YYYYMMDDHH 快照目录 (支持 data/dist/ 与 dist/)
      */
     private function scanDistSnapshots(): array
     {
-        if (!is_dir($this->distPath)) {
-            return [];
-        }
+        $distDirs = array_unique(array_filter([
+            $this->distPath,
+            $this->dataPath . '/dist',
+            $this->rootPath . '/dist',
+        ], 'is_dir'));
 
-        $items = scandir($this->distPath);
-        if ($items === false) {
+        if (empty($distDirs)) {
             return [];
         }
 
         $snapshots = [];
-        foreach ($items as $item) {
-            if ($item === '.' || $item === '..') {
+        foreach ($distDirs as $dir) {
+            $items = scandir($dir);
+            if ($items === false) {
                 continue;
             }
 
-            $fullPath = $this->distPath . '/' . $item;
-            if (!is_dir($fullPath)) {
-                continue;
-            }
+            foreach ($items as $item) {
+                if ($item === '.' || $item === '..') {
+                    continue;
+                }
 
-            if (preg_match('/^(\d{4})(\d{2})(\d{2})(\d{2})$/', $item, $matches)) {
-                $year = (int)$matches[1];
-                $month = (int)$matches[2];
-                $day = (int)$matches[3];
-                $hour = (int)$matches[4];
-                $ts = mktime($hour, 0, 0, $month, $day, $year);
+                $fullPath = $dir . '/' . $item;
+                if (!is_dir($fullPath)) {
+                    continue;
+                }
 
-                if ($ts !== false) {
-                    $snapshots[$item] = [
-                        'folder' => $item,
-                        'path' => $fullPath,
-                        'timestamp' => $ts,
-                        'formatted' => sprintf('%04d-%02d-%02d %02d:00', $year, $month, $day, $hour),
-                    ];
+                if (preg_match('/^(\d{4})(\d{2})(\d{2})(\d{2})$/', $item, $matches)) {
+                    $year = (int)$matches[1];
+                    $month = (int)$matches[2];
+                    $day = (int)$matches[3];
+                    $hour = (int)$matches[4];
+                    $ts = mktime($hour, 0, 0, $month, $day, $year);
+
+                    if ($ts !== false) {
+                        $snapshots[$item] = [
+                            'folder' => $item,
+                            'path' => $fullPath,
+                            'timestamp' => $ts,
+                            'formatted' => sprintf('%04d-%02d-%02d %02d:00', $year, $month, $day, $hour),
+                        ];
+                    }
                 }
             }
         }

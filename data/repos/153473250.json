@@ -1,0 +1,134 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 153473250,
+        "full_name": "chenlinzhong\/php-delayqueue",
+        "name": "php-delayqueue",
+        "html_url": "https:\/\/github.com\/chenlinzhong\/php-delayqueue",
+        "language": "PHP",
+        "description": "用于在 PHP 应用中实现延迟任务调度，将需要延后执行的任务存储起来，到达指定时间后自动触发处理。典型场景包括订单超时关闭、支付超时提醒、定时消息推送、失败重试等，适合解决依赖轮询或手动调度而产生的资源浪费和准时性问题。作为 PHP 组件，通常集成到现有 PHP 项目中使用，支持灵活设定延迟时间和任务负载，能够方便地与业务逻辑对接。若结合队列或缓存存储驱动，可支撑中等规模的异步任务处理需求。"
+    },
+    "summary": {
+        "initial_stars": 520,
+        "current_stars": 520,
+        "star_diff": 0,
+        "growth_rate": 0,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-08-28 20:00",
+        "data_points_count": 16
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 520,
+            "forks": 121,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2025-07-14 06:00",
+            "timestamp": 1752444000,
+            "stars": 521,
+            "forks": 121,
+            "file": "dist\/2025071406\/starList.json"
+        },
+        {
+            "date": "2025-09-04 06:00",
+            "timestamp": 1756936800,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2025090406\/starList.json"
+        },
+        {
+            "date": "2025-09-18 06:00",
+            "timestamp": 1758146400,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025091806\/starList.json"
+        },
+        {
+            "date": "2025-09-27 18:00",
+            "timestamp": 1758967200,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2025092718\/starList.json"
+        },
+        {
+            "date": "2025-10-11 18:00",
+            "timestamp": 1760176800,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025101118\/starList.json"
+        },
+        {
+            "date": "2025-10-17 18:00",
+            "timestamp": 1760695200,
+            "stars": 523,
+            "forks": 120,
+            "file": "dist\/2025101718\/starList.json"
+        },
+        {
+            "date": "2025-12-15 00:00",
+            "timestamp": 1765728000,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025121500\/starList.json"
+        },
+        {
+            "date": "2026-02-11 06:00",
+            "timestamp": 1770760800,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2026021106\/starList.json"
+        },
+        {
+            "date": "2026-07-16 00:00",
+            "timestamp": 1784131200,
+            "stars": 520,
+            "forks": 120,
+            "file": "dist\/2026071600\/starList.public.json"
+        },
+        {
+            "date": "2025-06-27 12:00",
+            "timestamp": 1750996800,
+            "stars": 520,
+            "forks": 121,
+            "file": "dist\/2025062712\/starList.json"
+        },
+        {
+            "date": "2025-07-14 00:00",
+            "timestamp": 1752422400,
+            "stars": 521,
+            "forks": 121,
+            "file": "dist\/2025071400\/starList.json"
+        },
+        {
+            "date": "2025-09-06 00:00",
+            "timestamp": 1757088000,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2025090600\/starList.json"
+        },
+        {
+            "date": "2025-09-19 12:00",
+            "timestamp": 1758254400,
+            "stars": 522,
+            "forks": 120,
+            "file": "dist\/2025091912\/starList.json"
+        },
+        {
+            "date": "2025-09-27 18:00",
+            "timestamp": 1758967200,
+            "stars": 521,
+            "forks": 120,
+            "file": "dist\/2025092718\/starList.json"
+        },
+        {
+            "date": "2026-08-28 20:00",
+            "timestamp": 1787918400,
+            "stars": 520,
+            "forks": 120,
+            "file": "data\/dist\/2026082820\/starList.public.json"
+        }
+    ]
+}

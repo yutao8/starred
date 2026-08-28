@@ -25,20 +25,25 @@ history.html?repo=Genymobile/scrcpy
 ### 目录结构
 
 ```
-repos/
-├── {repo_id}.json     # 各仓库的历史数据文件
-└── index.json         # 仓库索引（暂未实现）
+data/
+├── repos/
+│   ├── {repo_id}.json     # 各仓库的历史数据文件
+│   └── index.json         # 仓库全局索引与映射
+├── starList.json          # 全量仓库数据
+├── starList.public.json   # 公共精简仓库数据
+├── trend.json             # 最新多维趋势数据
+└── trend_history/         # 趋势历史快照
 ```
 
 ### 数据文件命名规则
 
 每个仓库的历史数据文件以其 GitHub ID 命名，例如：
 
-- `repos/111583593.json` - Genymobile/scrcpy 的历史数据
+- `data/repos/111583593.json` - Genymobile/scrcpy 的历史数据
 
 ### JSON 数据结构
 
-#### 仓库历史数据文件（`repos/{id}.json`）
+#### 仓库历史数据文件（`data/repos/{id}.json`）
 
 ```json
 {
@@ -111,7 +116,7 @@ repos/
 ```javascript
 // 通过仓库 ID 获取历史数据
 async function getRepoHistory(repoId) {
-    const response = await fetch(`repos/${repoId}.json`);
+    const response = await fetch(`data/repos/${repoId}.json`);
     const data = await response.json();
     return data;
 }
@@ -132,7 +137,7 @@ import json
 
 def get_repo_history(repo_id):
     """获取仓库历史数据"""
-    url = f'https://your-domain.github.io/repos/{repo_id}.json'
+    url = f'https://your-domain.github.io/data/repos/{repo_id}.json'
     response = requests.get(url)
     return response.json()
 
@@ -151,10 +156,10 @@ stars = [point['stars'] for point in data['history']]
 
 ```bash
 # 获取 Genymobile/scrcpy 的历史数据
-curl https://your-domain.github.io/repos/111583593.json
+curl https://your-domain.github.io/data/repos/111583593.json
 
 # 格式化输出
-curl https://your-domain.github.io/repos/111583593.json | jq .
+curl https://your-domain.github.io/data/repos/111583593.json | jq .
 ```
 
 ## 数据特点

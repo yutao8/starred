@@ -134,8 +134,9 @@ return [
 5. 如无法可靠判断细节，应使用稳妥表述，例如“主要用于...”“通常适合...”；
 6. 语言简洁准确，控制在 120-220 个中文字符。",
 	'ROOT_PATH' => $rootPath,
+	'DATA_PATH' => $rootPath . '/data',
 	'CACHE_PATH' => $rootPath . '/.cache/',
-	'DIST_PATH' => $rootPath . '/dist/' . date('YmdH') . '/',
+	'DIST_PATH' => $rootPath . '/data/dist/' . date('YmdH') . '/',
 	'CURL_PROXY' => $env('CURL_PROXY', ''),
 	'CURL_PROXY_TYPE' => $env('CURL_PROXY_TYPE', 'http'),
 	'CURL_IPRESOLVE_V4' => $envBool('CURL_IPRESOLVE_V4', true),

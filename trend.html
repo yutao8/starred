@@ -302,10 +302,13 @@ createApp({setup(){
         return`hsl(${Math.abs(h)%360},60%,50%)`;
     }
 
-    async function loadData(url='trend.json'){
+    async function loadData(url='data/trend.json'){
         loading.value=true;error.value='';
         try{
-            const r=await fetch(url+'?_t='+Date.now());
+            let r=await fetch(url+'?_t='+Date.now());
+            if(!r.ok && url==='data/trend.json'){
+                r=await fetch('trend.json?_t='+Date.now());
+            }
             if(!r.ok)throw new Error('HTTP '+r.status);
             data.value=await r.json();
             if(data.value.status!=='success')throw new Error(data.value.message||'数据格式错误');
@@ -315,14 +318,28 @@ createApp({setup(){
 
     async function loadHistory(){
         historyLoading.value=true;
-        try{const r=await fetch('trend_history/index.json?_t='+Date.now());if(r.ok)historyList.value=await r.json();}
+        try{
+            let r=await fetch('data/trend_history/index.json?_t='+Date.now());
+            if(!r.ok){
+                r=await fetch('trend_history/index.json?_t='+Date.now());
+            }
+            if(r.ok)historyList.value=await r.json();
+        }
         catch{}
         historyLoading.value=false;
     }
 
     async function loadSlot(item){
         currentSlot.value=item.slot;activeTab.value='heat';loading.value=true;error.value='';
-        try{const r=await fetch(item.json+'?_t='+Date.now());if(!r.ok)throw new Error('HTTP '+r.status);data.value=await r.json();}
+        try{
+            let url = item.json;
+            let r = await fetch(url+'?_t='+Date.now());
+            if (!r.ok && !url.startsWith('data/')) {
+                r = await fetch('data/' + url + '?_t=' + Date.now());
+            }
+            if(!r.ok)throw new Error('HTTP '+r.status);
+            data.value=await r.json();
+        }
         catch(e){error.value='加载失败：'+e.message;}
         loading.value=false;
     }

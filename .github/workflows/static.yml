@@ -33,9 +33,12 @@ jobs:
       - name: Prepare artifact folder
         run: |
           mkdir artifact
-          cp index.html history.html trend.html trend.json trend.md starList.json starList.public.json artifact/
-          cp -r assets repos artifact/
-          cp -r trend_history artifact/ 2>/dev/null || true
+          cp index.html history.html trend.html artifact/
+          cp -r assets artifact/
+          cp -r data artifact/ 2>/dev/null || true
+          # 兼容过渡（如果根目录有遗留历史数据也一并带上）
+          cp starList.json starList.public.json trend.json trend.md artifact/ 2>/dev/null || true
+          cp -r repos dist trend_history artifact/ 2>/dev/null || true
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v4

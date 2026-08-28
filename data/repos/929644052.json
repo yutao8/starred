@@ -1,0 +1,50 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 929644052,
+        "full_name": "Aijiaobin\/drive_checkin",
+        "name": "drive_checkin",
+        "html_url": "https:\/\/github.com\/Aijiaobin\/drive_checkin",
+        "language": "JavaScript",
+        "description": "该工具主要用于网盘账户的每日自动签到，通过脚本模拟登录并完成签到操作，帮助用户自动获取免费容量、积分或会员权益。通常适合需要长期管理多个网盘账号、不愿手动打开页面逐一点击签到的场景，例如经常使用各类网盘存放资料或希望累积签到奖励的用户。其技术方向大概率基于 Python 编写，可能支持主流网盘服务，并可通过定时任务或托管平台实现无人值守运行。由于未提供具体附加信息，无法确认支持的网盘列表与配置细节，但整体定位明确，属于面向个人效率提升的轻量级自动化工具，尤其适合将签到视为日常繁琐重复操作的用户。"
+    },
+    "summary": {
+        "initial_stars": 6,
+        "current_stars": 7,
+        "star_diff": 1,
+        "growth_rate": 16.67,
+        "first_seen": "2025-06-27 06:00",
+        "last_seen": "2026-06-22 18:00",
+        "data_points_count": 4
+    },
+    "history": [
+        {
+            "date": "2025-06-27 06:00",
+            "timestamp": 1750975200,
+            "stars": 6,
+            "forks": 19,
+            "file": "dist\/2025062706\/starList.json"
+        },
+        {
+            "date": "2026-03-14 12:00",
+            "timestamp": 1773460800,
+            "stars": 7,
+            "forks": 19,
+            "file": "dist\/2026031412\/starList.json"
+        },
+        {
+            "date": "2025-06-27 12:00",
+            "timestamp": 1750996800,
+            "stars": 6,
+            "forks": 19,
+            "file": "dist\/2025062712\/starList.json"
+        },
+        {
+            "date": "2026-06-22 18:00",
+            "timestamp": 1782122400,
+            "stars": 7,
+            "forks": 19,
+            "file": "dist\/2026062218\/starList.json"
+        }
+    ]
+}

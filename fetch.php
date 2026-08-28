@@ -11,6 +11,7 @@ class GitHubStarred
 {
 	private array $config;
 	private string $rootPath;
+	private string $dataPath;
 	private string $cachePath;
 	private string $distPath;
 
@@ -25,6 +26,7 @@ class GitHubStarred
 	private function initConfig(): void
 	{
 		$this->rootPath = $this->config['ROOT_PATH'];
+		$this->dataPath = $this->config['DATA_PATH'] ?? ($this->rootPath . '/data');
 		$this->cachePath = $this->config['CACHE_PATH'];
 		$this->distPath = $this->config['DIST_PATH'];
 		$this->isDebug = $this->config['DEBUG_MODE'] ?? false;
@@ -33,7 +35,7 @@ class GitHubStarred
 			die('GH_TOKEN is required!');
 		}
 
-		foreach ([$this->cachePath, $this->distPath] as $directory) {
+		foreach ([$this->dataPath, $this->cachePath, $this->distPath] as $directory) {
 			if (!is_dir($directory)) {
 				mkdir($directory, 0777, true);
 			}
@@ -219,23 +221,63 @@ class GitHubStarred
 			$repos = array_slice($repos, 0, 10, true);
 		}
 
-		// 分批处理
-		$repoNames = array_column($repos, 'full_name');
-		$totalRepos = count($repoNames);
+		// 1. 先从现有的 data/starList.json / data/starList.public.json / 缓存中预加载已有中文描述
+		$existingDescs = $this->loadExistingDescriptions();
+		$pendingIndices = [];
+		$reusedCount = 0;
+
+		foreach ($repos as $index => &$repo) {
+			$fullName = $repo['full_name'] ?? '';
+			$id = (string)($repo['id'] ?? '');
+
+			if (!empty($existingDescs[$fullName])) {
+				$repo['desc'] = $existingDescs[$fullName];
+				$reusedCount++;
+			} elseif ($id !== '' && !empty($existingDescs[$id])) {
+				$repo['desc'] = $existingDescs[$id];
+				$reusedCount++;
+			} else {
+				$pendingIndices[] = $index;
+			}
+		}
+		unset($repo);
+
+		if ($reusedCount > 0) {
+			echo sprintf("✅ 成功从已有数据与缓存中复用 %d 个仓库的中文摘要（耗时 0 毫秒，0 Token 消耗）\n", $reusedCount);
+		}
+
+		// 如果所有仓库都已有描述，直接返回
+		if (empty($pendingIndices)) {
+			echo "✨ 所有收录仓库均已包含有效中文摘要，跳过大模型 API 请求\n";
+			$cacheData = ['expire' => time() + 3600, 'data' => $repos];
+			$cacheFile = rtrim($this->cachePath, '/\\') . '/repo_desc_list.json';
+			$this->writeJsonFile($cacheFile, $cacheData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
+			return $repos;
+		}
+
+		echo sprintf("🔍 发现 %d 个新增/待解析仓库，准备调用大模型获取中文摘要...\n", count($pendingIndices));
+
+		// 分批处理需要请求的仓库
+		$pendingRepos = [];
+		foreach ($pendingIndices as $index) {
+			$pendingRepos[$index] = $repos[$index]['full_name'];
+		}
+
+		$totalPending = count($pendingRepos);
 		$batchSize = $this->isDebug ? 10 : 100;
-		$repoNameBatches = array_chunk($repoNames, $batchSize, true);
+		$repoNameBatches = array_chunk($pendingRepos, $batchSize, true);
 		
 		$providers = $this->getGptProviders();
 		$maxProviderAttempts = count($providers); // 每批最多尝试的 provider/model 数
 		$lastSuccessfulProviderIndex = 0; // 本次运行内记住最近可用的 provider/model
-		$hasValidDesc = false; // 是否有有效描述
+		$hasValidDesc = $reusedCount > 0; // 是否有有效描述
 		
 		foreach ($repoNameBatches as $batchIndex => $batchRepoNames) {
 			$currentProviderIndex = $lastSuccessfulProviderIndex; // 优先使用上次成功的 provider/model
 			$providerAttemptCount = 0; // 每批独立统计尝试次数
 			$startIndex = $batchIndex * $batchSize;
-			$endIndex = min($startIndex + $batchSize, $totalRepos);
-			echo sprintf("处理第 %d 批仓库 (%d-%d)...\n", 
+			$endIndex = min($startIndex + $batchSize, $totalPending);
+			echo sprintf("处理第 %d 批新仓库 (%d-%d)...\n", 
 				$batchIndex + 1, 
 				$startIndex + 1, 
 				$endIndex
@@ -277,7 +319,7 @@ class GitHubStarred
 			}
 		}
 		$cacheData = ['expire' => time() + 3600, 'data' => $repos];
-		$cacheFile = $this->cachePath . 'repo_desc_list.json';
+		$cacheFile = rtrim($this->cachePath, '/\\') . '/repo_desc_list.json';
 		$this->writeJsonFile($cacheFile, $cacheData, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
 		if ($hasValidDesc) {
 			echo "所有批次处理完成\n";
@@ -285,6 +327,56 @@ class GitHubStarred
 			echo "警告：未能获取到任何有效的描述\n";
 		}
 		return $repos;
+	}
+
+	/**
+	 * 从已有的 starList / repos 履历文件中快速预加载所有项目的中文描述 (毫秒级)
+	 */
+	private function loadExistingDescriptions(): array
+	{
+		$candidates = [
+			$this->dataPath . '/starList.json',
+			$this->dataPath . '/starList.public.json',
+			$this->rootPath . '/starList.json',
+			$this->rootPath . '/starList.public.json',
+			$this->rootPath . '/startList.json',
+		];
+
+		$descs = [];
+		foreach ($candidates as $file) {
+			if (!is_file($file)) {
+				continue;
+			}
+
+			$content = file_get_contents($file);
+			if ($content === false) {
+				continue;
+			}
+
+			$data = json_decode($content, true);
+			if (!is_array($data)) {
+				continue;
+			}
+
+			foreach ($data as $item) {
+				$desc = trim((string)($item['desc'] ?? ''));
+				if ($desc === '') {
+					continue;
+				}
+
+				$fullName = trim((string)($item['full_name'] ?? ($item['name'] ?? '')));
+				if ($fullName !== '' && !isset($descs[$fullName])) {
+					$descs[$fullName] = $desc;
+				}
+
+				$id = (int)($item['id'] ?? 0);
+				if ($id > 0 && !isset($descs[(string)$id])) {
+					$descs[(string)$id] = $desc;
+				}
+			}
+		}
+
+		return $descs;
 	}
 
 	private function sortReposByLanguage(array $repos): array
@@ -312,17 +404,17 @@ class GitHubStarred
 			$repos,
 			JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE
 		);
-		$this->copyFile($this->distPath . 'starList.json', $this->rootPath . '/starList.json');
+		$this->copyFile($this->distPath . 'starList.json', $this->dataPath . '/starList.json');
 		$publicRepos = array_map([$this, 'buildPublicRepo'], $repos);
 		$this->writeJsonFile(
 			$this->distPath . 'starList.public.json',
 			$publicRepos,
 			JSON_UNESCAPED_UNICODE
 		);
-		$this->copyFile($this->distPath . 'starList.public.json', $this->rootPath . '/starList.public.json');
+		$this->copyFile($this->distPath . 'starList.public.json', $this->dataPath . '/starList.public.json');
 		echo "JSON 文件保存完成\n";
 
-		// 自动增量更新 repos/ 独立项目履历文件目录
+		// 自动增量更新 data/repos/ 独立项目履历文件目录
 		try {
 			$historyFile = $this->rootPath . '/history.php';
 			if (is_file($historyFile)) {
@@ -330,19 +422,19 @@ class GitHubStarred
 				if (class_exists('FastRepoHistoryAnalyzer')) {
 					$analyzer = new FastRepoHistoryAnalyzer($this->rootPath);
 					$analyzer->syncDistToReposDir();
-					echo "项目履历文件 (repos/) 增量同步完成\n";
+					echo "项目履历文件 (data/repos/) 增量同步完成\n";
 				}
 			}
 		} catch (\Throwable $e) {
 			echo "同步项目履历文件提示: " . $e->getMessage() . "\n";
 		}
 
-		// 自动生成最新趋势数据 (trend.json / trend.md)
+		// 自动生成最新趋势数据 (data/trend.json / data/trend.md)
 		try {
 			$trendFile = $this->rootPath . '/trend.php';
 			if (is_file($trendFile)) {
 				@shell_exec('php ' . escapeshellarg($trendFile) . ' --force');
-				echo "趋势分析数据 (trend.json / trend.md) 自动更新完成\n";
+				echo "趋势分析数据 (data/trend.json / data/trend.md) 自动更新完成\n";
 			}
 		} catch (\Throwable $e) {
 			echo "趋势分析数据更新提示: " . $e->getMessage() . "\n";
@@ -403,8 +495,13 @@ class GitHubStarred
 		}
 		arsort($languageStats);
 
-		// 计算 distPath 相对根目录的路径
-		$distRelative = ltrim(str_replace($this->rootPath, '', $this->distPath), '/\\');
+		// 计算 distPath 相对根目录的路径（统一为正斜杠）
+		$normalizedRoot = str_replace('\\', '/', rtrim($this->rootPath, '/\\'));
+		$normalizedDist = str_replace('\\', '/', rtrim($this->distPath, '/\\'));
+		$distRelative = ltrim(str_replace($normalizedRoot, '', $normalizedDist), '/');
+		if ($distRelative !== '') {
+			$distRelative .= '/';
+		}
 
 		// 1. 生成各语言子文件（在 dist 目录下）
 		$langSubFiles = [];
@@ -453,7 +550,7 @@ class GitHubStarred
 
 		// 核心导航入口
 		$markdown .= "## 🧭 核心入口与导航\n\n";
-		$markdown .= "- [**🚀 趋势分析报告 (Markdown)**](trend.md) — 7天增量/增长率/综合热度等多维排行榜\n";
+		$markdown .= "- [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜\n";
 		$markdown .= "- [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器\n";
 		$markdown .= "- [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势\n";
 		$markdown .= "- [**📚 查看全量仓库清单 (ALL.md)**](" . $distRelative . "ALL.md) — 完整仓库归档与离线索引\n";
@@ -462,7 +559,7 @@ class GitHubStarred
 		$markdown .= "---\n\n";
 
 		// 尝试读取 trend.json 动态注入热点摘要
-		$trendJsonFile = $this->rootPath . '/trend.json';
+		$trendJsonFile = is_file($this->dataPath . '/trend.json') ? ($this->dataPath . '/trend.json') : ($this->rootPath . '/trend.json');
 		if (is_file($trendJsonFile)) {
 			$trendData = json_decode((string)file_get_contents($trendJsonFile), true);
 			if (is_array($trendData) && !empty($trendData['rankings'])) {
@@ -471,7 +568,7 @@ class GitHubStarred
 				$langTop   = array_slice($trendData['language_trends'] ?? [], 0, 6);
 
 				$markdown .= "## 🔥 本期热点趋势精选（最近 " . ($trendData['analysis_days'] ?? 7) . " 天）\n\n";
-				$markdown .= "> 完整数据与更多维度请查看 [**→ 趋势分析报告 (trend.md)**](trend.md) 或打开 [**→ trend.html**](trend.html) 看板。\n\n";
+				$markdown .= "> 完整数据与更多维度请查看 [**→ 趋势分析报告 (data/trend.md)**](data/trend.md) 或打开 [**→ trend.html**](trend.html) 看板。\n\n";
 
 				if (!empty($heatTop)) {
 					$markdown .= "### 1. 综合热度 Top 5\n";
@@ -770,9 +867,9 @@ class GitHubStarred
 		$providerConcurrency = (int)($provider['concurrency'] ?? 0);
 		$requestConcurrency = $providerConcurrency > 0 ? $providerConcurrency : max(1, (int)($this->config['REQUEST_CONCURRENCY'] ?? 10));
 
-		$cacheDir = $this->cachePath . 'api'; // 单独缓存
+		$cacheDir = rtrim($this->cachePath, '/\\') . '/api'; // 单独缓存
 		if (!is_dir($cacheDir)) {
-			mkdir($cacheDir, 0777, true);
+			@mkdir($cacheDir, 0777, true);
 		}
 
 		$totalRequests = count($repoNames); // 总请求数

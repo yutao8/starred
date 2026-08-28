@@ -56,15 +56,26 @@ CURL_IPRESOLVE_V4=true
 4. 执行生成：
 
 ```bash
+# 1. 抓取最新 Star 并生成 AI 摘要
 php fetch.php
+
+# 2. 同步历史履历快照
+php history.php --sync
+
+# 3. 执行多维趋势分析
+php trend.php --force
 ```
 
-执行完成后会更新：
+执行完成后会更新 `data/` 目录：
 
 - `README.md`
-- `starList.json`
-- `starList.public.json`
-- `dist/YYYYMMDDHH/`
+- `data/starList.json`
+- `data/starList.public.json`
+- `data/trend.json`
+- `data/trend.md`
+- `data/dist/YYYYMMDDHH/`
+- `data/repos/{id}.json`
+- `data/trend_history/`
 
 5. 查看前端页面：
 
@@ -78,47 +89,50 @@ php -S 127.0.0.1:8099
 http://127.0.0.1:8099/index.html
 ```
 
-访问独立的历史趋势 HTML 展示页面：
+访问多维趋势排行看板：
+
+```text
+http://127.0.0.1:8099/trend.html
+```
+
+访问单项目历史趋势折线图：
 
 ```text
 http://127.0.0.1:8099/history.html
 ```
 
-访问历史趋势 JSON 数据 API 接口：
-
-```text
-http://127.0.0.1:8099/history.php
-```
-
-6. 命令行查看历史分析与查询 API 数据：
+6. 命令行查看历史分析与趋势数据：
 
 ```bash
-# 获取所有项目列表 (读取根目录 startList.json，响应时间 < 20ms)
-php history.php
+# 同步并构建历史履历库 (data/repos/ 独立文件)
+php history.php --sync
 
-# 查询指定项目的历史履历 (读取 repos/{id}.json 独立履历文件，响应时间 < 2ms)
+# 查询指定项目的历史履历
 php history.php --repo=sensepost/Snoopy
+
+# 运行多维趋势分析并生成 Markdown 报告
+php trend.php --force
 ```
 
 ## 独立项目履历目录架构 (`repos/`)
 
 系统维护一个独立的 `repos/` 数据目录，为每个项目生成并自动同步独立的 JSON 履历文件（例如 `repos/7036331.json`）：
 
-### 1. 履历文件结构 (`repos/{id}.json`)
+### 1. 履历文件结构 (`data/repos/{id}.json`)
 - **`repo`**：项目基本信息（ID、全名、名称、链接、语言、描述）。
 - **`summary`**：历史 KPI 统计（初始 Stars、当前 Stars、增量变化、增长率、首次记录时间、最后记录时间、数据点覆盖数）。
-- **`history`**：时间序列履历列表。每个节点记录该时间点的 `date`、`timestamp`、`stars`、`forks`，以及对应的数据快照源文件相对路径 `file`（例如 `dist/2025062706/starList.json`）。
+- **`history`**：时间序列履历列表。每个节点记录该时间点的 `date`、`timestamp`、`stars`、`forks`，以及对应的数据快照源文件相对路径 `file`（例如 `data/dist/2025062706/starList.json`）。
 
 ### 2. 毫秒级查询机制 (`history.php`)
-- **未指定项目**：直接读取根目录的 `startList.json` / `starList.json` / `starList.public.json` 返回项目列表，耗时 < 20ms。
-- **指定了项目**：查找 `repos/index.json` 主索引并定位读取对应的 `repos/{id}.json` 独立履历文件，响应时间 < 2ms。
+- **未指定项目**：直接读取 `data/starList.public.json` 返回项目列表，耗时 < 20ms。
+- **指定了项目**：查找 `data/repos/index.json` 主索引并定位读取对应的 `data/repos/{id}.json` 独立履历文件，响应时间 < 2ms。
 
 ### 3. 可视化交互 (`history.html`)
 - **折线图 Hover 提示框**：ECharts Tooltip 鼠标悬停实时展示当前数据点对应的详细数据快照相对路径 `file`。
 - **快照定位与明细表格**：折线图下方提供“📅 历史数据快照定位与明细”表格，列出历次快照的日期与数值，并支持直接点击链接跳转至对应的原始快照 JSON 文件。
 
 ### 4. 自动化管道同步 (`fetch.php`)
-- 每次运行 `php fetch.php` 抓取并保存新快照 (`dist/YYYYMMDDHH`) 后，管道会自动触发 `syncDistToReposDir()` 对 `repos/` 目录下的项目履历文件进行增量更新，避免重复扫描历史全量文件。
+- 每次运行 `php fetch.php` 抓取并保存新快照 (`data/dist/YYYYMMDDHH`) 后，管道会自动触发 `syncDistToReposDir()` 对 `data/repos/` 目录下的项目履历文件进行增量更新，避免重复扫描历史全量文件。
 
 ## GitHub Actions 部署
 
@@ -160,12 +174,10 @@ gh variable set STARRED_GITHUB_ACTOR --body yutao8
 
 仓库 Actions -> PHP Workflow -> Run workflow。
 
-工作流会执行 `php fetch.php`，并自动提交生成文件：
+工作流会依次执行 `fetch.php`、`history.php --sync`、`trend.php --force`，并自动提交生成文件：
 
 - `README.md`
-- `starList.json`
-- `starList.public.json`
-- `dist`
+- `data/` 目录（全量数据、履历库、趋势报告与历史归档）
 
 ## 配置说明
 

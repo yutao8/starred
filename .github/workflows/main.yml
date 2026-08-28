@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md starList.json starList.public.json dist repos trend.json trend.md trend_history
+          git add README.md data dist repos starList.json starList.public.json trend.json trend.md trend_history 2>/dev/null || git add README.md data
           if git diff --cached --quiet; then
             echo "No generated changes."
             exit 0

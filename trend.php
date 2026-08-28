@@ -47,17 +47,22 @@ function hasCliFlag(string $key): bool
     return in_array("--{$key}", $argv ?? [], true);
 }
 
+$dataPath   = __DIR__ . '/data';
+if (!is_dir($dataPath)) {
+    @mkdir($dataPath, 0777, true);
+}
+
 $days       = max(1,  (int)getCliOption('days',      7));
 $top        = max(1,  (int)getCliOption('top',       20));
 $minStars   = max(0,  (int)getCliOption('min_stars', 500));
 $langFilter = trim((string)getCliOption('lang', ''));
-$outDir     = rtrim((string)getCliOption('out_dir', __DIR__), '/\\');
+$outDir     = rtrim((string)getCliOption('out_dir', $dataPath), '/\\');
 $doSync     = hasCliFlag('sync');
 $force      = hasCliFlag('force');
 
-$reposDir  = __DIR__ . '/repos';
-$indexFile = $reposDir . '/index.json';
-$cacheFile = $outDir . '/trend.cache.json';
+$reposDir   = is_dir($dataPath . '/repos') ? ($dataPath . '/repos') : (is_dir(__DIR__ . '/repos') ? (__DIR__ . '/repos') : ($dataPath . '/repos'));
+$indexFile  = $reposDir . '/index.json';
+$cacheFile  = $outDir . '/trend.cache.json';
 
 // ═══════════════════════════════════════════════
 // 可选：先同步 dist/ -> repos/
@@ -89,16 +94,9 @@ $cacheKey = md5("{$days}:{$top}:{$minStars}:{$langFilter}:{$indexMtime}");
 if (!$force && is_file($cacheFile)) {
     $cached = json_decode(file_get_contents($cacheFile), true);
     if (is_array($cached) && ($cached['cache_key'] ?? '') === $cacheKey) {
-        if ($isCli) {
-            echo "✅ 命中缓存（{$cached['generated_at']}），直接输出报告。\n";
-            echo "   使用 --force 强制重新计算。\n";
-        } else {
-            $cached['from_cache'] = true;
-            header('Access-Control-Allow-Origin: *');
-            header('Content-Type: application/json; charset=utf-8');
-            echo json_encode($cached, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
-        }
-        exit;
+        echo "✅ 命中缓存（{$cached['generated_at']}），直接输出报告。\n";
+        echo "   使用 --force 强制重新计算。\n";
+        exit(0);
     }
 }
 
@@ -107,11 +105,15 @@ $index        = json_decode($indexContent ?: '', true);
 unset($indexContent);
 
 if (!is_array($index) || empty($index['repos_meta'])) {
-    $msg = "错误：index.json 格式不正确或 repos_meta 为空。";
-    if ($isCli) { fwrite(STDERR, $msg . PHP_EOL); exit(1); }
-    header('Content-Type: application/json; charset=utf-8');
-    echo json_encode(['status' => 'error', 'message' => $msg], JSON_UNESCAPED_UNICODE);
-    exit;
+    fwrite(STDERR, "错误：index.json 格式不正确或 repos_meta 为空，正在尝试自动同步...\n");
+    require_once __DIR__ . '/history.php';
+    $syncAnalyzer = new FastRepoHistoryAnalyzer(__DIR__);
+    $syncResult   = $syncAnalyzer->syncDistToReposDir(true);
+    $index        = $syncResult;
+    if (empty($index['repos_meta'])) {
+        fwrite(STDERR, "错误：未能成功构建 repos_meta 索引。\n");
+        exit(1);
+    }
 }
 
 $reposMeta = $index['repos_meta'];
@@ -120,7 +122,7 @@ $total     = count($reposMeta);
 // ═══════════════════════════════════════════════
 // 第一轮扫描：找全局最新时间戳
 // ═══════════════════════════════════════════════
-if ($isCli) echo "📊 扫描数据中（共 {$total} 个仓库）...\n";
+echo "📊 扫描数据中（共 {$total} 个仓库）...\n";
 
 $globalLatestTs = 0;
 $allHistories   = []; // 缓存到内存，避免第二次 IO
@@ -149,13 +151,11 @@ $cutoffTs   = $globalLatestTs - $days * 86400;
 $latestDate = date('Y-m-d H:i:s', $globalLatestTs);
 $cutoffDate = date('Y-m-d H:i:s', $cutoffTs);
 
-if ($isCli) {
-    echo "   数据最新时间：{$latestDate}\n";
-    echo "   分析窗口：{$cutoffDate} ～ {$latestDate}\n";
-    if ($minStars > 0) echo "   最低 star 门槛：{$minStars}\n";
-    if ($langFilter !== '') echo "   语言过滤：{$langFilter}\n";
-    echo "\n";
-}
+echo "   数据最新时间：{$latestDate}\n";
+echo "   分析窗口：{$cutoffDate} ～ {$latestDate}\n";
+if ($minStars > 0) echo "   最低 star 门槛：{$minStars}\n";
+if ($langFilter !== '') echo "   语言过滤：{$langFilter}\n";
+echo "\n";
 
 // ═══════════════════════════════════════════════
 // 第二轮：分析每个仓库
@@ -646,8 +646,8 @@ $histIndex[$historySlot] = [
     'data_latest_date' => $latestDate,
     'cutoff_date'      => $cutoffDate,
     'total_repos'      => $processed,
-    'json'             => 'trend_history/' . $historySlot . '/trend.json',
-    'markdown'         => 'trend_history/' . $historySlot . '/trend.md',
+    'json'             => 'data/trend_history/' . $historySlot . '/trend.json',
+    'markdown'         => 'data/trend_history/' . $historySlot . '/trend.md',
 ];
 // 按时间槽倒序保留（最新在前）
 krsort($histIndex);
