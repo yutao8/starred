@@ -573,9 +573,20 @@ body {
     font-size: 1.05rem;
     pointer-events: none;
 }
+.app-search-box .clear-icon {
+    position: absolute;
+    right: 0.95rem;
+    color: var(--text-muted);
+    font-size: 1.05rem;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+.app-search-box .clear-icon:hover {
+    color: var(--text-primary);
+}
 .app-search-input {
     width: 100%;
-    padding: 0.6rem 1rem 0.6rem 2.6rem;
+    padding: 0.6rem 2.6rem 0.6rem 2.6rem;
     border: 1px solid var(--border-color);
     border-radius: var(--radius-md);
     background: var(--bg-surface);

@@ -240,6 +240,7 @@
             <div class="app-search-box d-none d-md-flex mx-3" style="max-width: 420px;">
                 <i class="bi bi-search search-icon"></i>
                 <input type="text" class="app-search-input" placeholder="输入名称、描述或 Topics 进行即时搜索..." v-model="searchQuery">
+                <i v-if="searchQuery" class="bi bi-x-circle-fill clear-icon" @click="searchQuery = ''" title="清除搜索"></i>
             </div>
 
             <div class="d-flex align-items-center gap-2">
@@ -277,6 +278,7 @@
             <div class="app-search-box w-100">
                 <i class="bi bi-search search-icon"></i>
                 <input type="text" class="app-search-input" placeholder="搜索名称、中文解析、标签..." v-model="searchQuery">
+                <i v-if="searchQuery" class="bi bi-x-circle-fill clear-icon" @click="searchQuery = ''" title="清除搜索"></i>
             </div>
         </div>
 
@@ -293,20 +295,30 @@
                 <div class="group-mode-tabs mb-3 px-2">
                     <div class="d-flex bg-surface-mute rounded p-1">
                         <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'language' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('language')">语言</button>
+                        <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'topic' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('topic')">标签</button>
                         <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'year' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('year')">年份</button>
                         <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'stars' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('stars')">Stars</button>
                     </div>
                 </div>
 
-                <div v-for="(projects, group) in sidebarGroupedProjects" :key="group"
-                     class="sidebar-lang-item" :class="{ active: activeGroup === group }"
-                     @click="scrollToGroup(group)">
+                <div v-if="totalActiveFiltersCount > 0" class="px-2 mb-3">
+                    <button class="btn btn-sm btn-outline-danger w-100 fw-bold" @click="clearSidebarGroups">
+                        <i class="bi bi-trash3-fill"></i> 清除筛选 ({{ totalActiveFiltersCount }})
+                    </button>
+                </div>
+
+                <div v-for="item in sidebarGroupedProjects" :key="item.groupName"
+                     class="sidebar-lang-item" :class="{ active: activeFilters[groupMode].has(item.groupName) }"
+                     @click="toggleSidebarGroup(item.groupName)">
                     <div class="d-flex align-items-center text-truncate">
-                        <span v-if="groupMode === 'language'" class="sidebar-dot" :style="{ backgroundColor: getLangColor(group) }"></span>
+                        <span v-if="groupMode === 'language'" class="sidebar-dot" :style="{ backgroundColor: getLangColor(item.groupName) }"></span>
                         <span v-else class="sidebar-dot" style="background-color: var(--text-muted)"></span>
-                        <span class="text-truncate">{{ group }}</span>
+                        <span class="text-truncate">{{ item.groupName }}</span>
                     </div>
-                    <span class="sidebar-count">{{ projects.length }}</span>
+                    <span class="sidebar-count">
+                        <i v-if="activeFilters[groupMode].has(item.groupName)" class="bi bi-check-circle-fill text-primary me-1"></i>
+                        {{ item.projects.length }}
+                    </span>
                 </div>
             </aside>
 
@@ -316,6 +328,23 @@
                 <div v-if="loading" class="app-loading-box">
                     <div class="app-spinner"></div>
                     <div>正在读取并解析 Starred 知识库...</div>
+                </div>
+
+                <!-- 标签词云 -->
+                <div v-if="groupMode === 'topic' && topicCloud.length > 0" class="mb-4 p-4 bg-surface border border-color rounded shadow-sm">
+                    <h5 class="fw-bold mb-3 text-center"><i class="bi bi-cloud-haze2 text-primary me-2"></i>全景标签词云</h5>
+                    <div class="d-flex flex-wrap gap-2 align-items-center justify-content-center">
+                        <span v-for="tag in topicCloud" :key="tag.name" 
+                              class="badge rounded-pill text-secondary bg-surface-mute border border-color"
+                              style="cursor: pointer; transition: all 0.2s; font-weight: 500;"
+                              :style="{ fontSize: tag.size + 'rem', opacity: 0.6 + (tag.size/1.8)*0.4 }"
+                              @mouseover="$event.target.classList.replace('text-secondary', 'text-primary'); $event.target.classList.replace('bg-surface-mute', 'bg-surface-soft')"
+                              @mouseout="$event.target.classList.replace('text-primary', 'text-secondary'); $event.target.classList.replace('bg-surface-soft', 'bg-surface-mute')"
+                              @click="toggleTag(tag.name)"
+                              :title="'点击追加过滤: #' + tag.name">
+                            #{{ tag.name }}
+                        </span>
+                    </div>
                 </div>
 
                 <!-- 错误状态 -->
@@ -353,18 +382,18 @@
                     </div>
 
                     <div v-else>
-                        <div v-for="(projects, group) in groupedProjects" :key="group + '-group'" class="mb-5">
+                        <div v-for="item in groupedProjects" :key="item.groupName + '-group'" class="mb-5">
                             <!-- 分组标题 -->
-                            <h2 class="lang-group-title" :id="'group-' + group" :style="groupMode === 'language' ? { borderLeftColor: getLangColor(group) } : {}">
-                                <span v-if="groupMode === 'language'" :style="{ color: getLangColor(group) }">●</span>
+                            <h2 class="lang-group-title" :id="'group-' + item.groupName" :style="groupMode === 'language' ? { borderLeftColor: getLangColor(item.groupName) } : {}">
+                                <span v-if="groupMode === 'language'" :style="{ color: getLangColor(item.groupName) }">●</span>
                                 <span v-else class="text-secondary"><i class="bi bi-collection"></i></span> 
-                                {{ group }}
-                                <span class="badge-pill brand ms-2">{{ projects.length }} 库</span>
+                                {{ item.groupName }}
+                                <span class="badge-pill brand ms-2">{{ item.projects.length }} 库</span>
                             </h2>
 
                             <!-- 仓库卡片流 -->
                             <div class="project-stream">
-                                <article v-for="project in projects" :key="project.id || project.full_name"
+                                <article v-for="project in item.projects" :key="project.id || project.full_name"
                                          class="project-card">
                                     <!-- 头部：标题、作者、基础指标 -->
                                     <div class="project-header">
@@ -426,7 +455,7 @@
 
                                     <!-- Topics 标签 -->
                                     <div class="mb-3 topics-fixed-2lines">
-                                        <span v-for="topic in (project.topics || [])" :key="topic" class="topic-pill">
+                                        <span v-for="topic in (project.topics || [])" :key="topic" class="topic-pill" style="cursor: pointer;" @click.prevent="toggleTag(topic)" title="点击追加过滤该标签">
                                             #{{ topic }}
                                         </span>
                                     </div>
@@ -460,7 +489,7 @@
 </div>
 
 <script>
-const { createApp, ref, computed, onMounted, onBeforeUnmount, watch } = Vue;
+const { createApp, ref, reactive, computed, onMounted, onBeforeUnmount, watch } = Vue;
 
 function debounce(fn, delay = 250) {
     let timer = null;
@@ -488,16 +517,26 @@ createApp({
         const error = ref(null);
         const searchQuery = ref('');
         const sidebarOpen = ref(false);
-        const activeGroup = ref('');
-        const groupMode = ref('language'); // 'language', 'year', 'stars'
+        const groupMode = ref('language'); // 'language', 'year', 'stars', 'topic'
+        
+        // 分维度多重过滤
+        const activeFilters = reactive({
+            language: new Set(),
+            year: new Set(),
+            stars: new Set(),
+            topic: new Set()
+        });
+        const totalActiveFiltersCount = computed(() => {
+            return activeFilters.language.size + activeFilters.year.size + activeFilters.stars.size + activeFilters.topic.size;
+        });
+        
         const rawTotalCount = ref(0);
 
         const filteredProjects = ref([]);
+        const sidebarBaseProjects = ref([]);
         const renderLimit = ref(0);
         let rawProjects = [];
         let renderFrame = null;
-        let languageObserver = null;
-        let observeTimer = null;
         const initialRenderCount = 20;
         const renderChunkSize = 30;
 
@@ -511,37 +550,58 @@ createApp({
                 project.description,
                 project.language,
                 project.owner && project.owner.login,
-                ...(project.topics || [])
+                ...(project.topics || []).map(t => '#' + t)
             ].map(normalizeText).join(' ');
         };
 
         const getStarRange = (stars) => {
-            if (stars >= 10000) return '10k+';
+            if (stars >= 100000) return '100k+';
+            if (stars >= 50000) return '50k - 100k';
+            if (stars >= 20000) return '20k - 50k';
+            if (stars >= 10000) return '10k - 20k';
             if (stars >= 5000) return '5k - 10k';
-            if (stars >= 1000) return '1k - 5k';
+            if (stars >= 2000) return '2k - 5k';
+            if (stars >= 1000) return '1k - 2k';
             if (stars >= 500) return '500 - 1k';
-            return '< 500';
+            if (stars >= 100) return '100 - 500';
+            return '< 100';
         };
 
         const groupProjects = (list) => {
             const groups = {};
             list.forEach(project => {
-                let groupKey = 'Other';
-                if (groupMode.value === 'language') {
-                    groupKey = project.language || 'Other';
-                } else if (groupMode.value === 'year') {
-                    groupKey = project.created_at ? project.created_at.slice(0, 4) + ' 年' : '未知年份';
-                } else if (groupMode.value === 'stars') {
-                    groupKey = getStarRange(project.stargazers_count || 0);
+                if (groupMode.value === 'topic') {
+                    if (project.topics && project.topics.length > 0) {
+                        project.topics.forEach(topic => {
+                            if (!groups[topic]) groups[topic] = [];
+                            groups[topic].push(project);
+                        });
+                    } else {
+                        if (!groups['未分类']) groups['未分类'] = [];
+                        groups['未分类'].push(project);
+                    }
+                } else {
+                    let groupKey = 'Other';
+                    if (groupMode.value === 'language') {
+                        groupKey = project.language || 'Other';
+                    } else if (groupMode.value === 'year') {
+                        groupKey = project.created_at ? project.created_at.slice(0, 4) + ' 年' : '未知年份';
+                    } else if (groupMode.value === 'stars') {
+                        groupKey = getStarRange(project.stargazers_count || 0);
+                    }
+                    if (!groups[groupKey]) groups[groupKey] = [];
+                    groups[groupKey].push(project);
                 }
-
-                if (!groups[groupKey]) groups[groupKey] = [];
-                groups[groupKey].push(project);
             });
             
             let sortedKeys = [];
-            if (groupMode.value === 'language') {
+            if (groupMode.value === 'language' || groupMode.value === 'topic') {
                 sortedKeys = Object.keys(groups).sort((a, b) => {
+                    const isOtherA = a === 'Other' || a === '未分类';
+                    const isOtherB = b === 'Other' || b === '未分类';
+                    if (isOtherA && !isOtherB) return 1;
+                    if (!isOtherA && isOtherB) return -1;
+
                     const cntDiff = groups[b].length - groups[a].length;
                     if (cntDiff !== 0) return cntDiff;
                     return a.localeCompare(b, 'zh-CN');
@@ -549,20 +609,38 @@ createApp({
             } else if (groupMode.value === 'year') {
                 sortedKeys = Object.keys(groups).sort((a, b) => b.localeCompare(a));
             } else if (groupMode.value === 'stars') {
-                const order = ['10k+', '5k - 10k', '1k - 5k', '500 - 1k', '< 500'];
+                const order = ['100k+', '50k - 100k', '20k - 50k', '10k - 20k', '5k - 10k', '2k - 5k', '1k - 2k', '500 - 1k', '100 - 500', '< 100'];
                 sortedKeys = Object.keys(groups).sort((a, b) => order.indexOf(a) - order.indexOf(b));
             }
 
-            const result = {};
+            const result = [];
             sortedKeys.forEach(k => {
-                result[k] = groups[k];
+                result.push({ groupName: k, projects: groups[k] });
             });
             return result;
         };
 
         const renderedProjects = computed(() => filteredProjects.value.slice(0, renderLimit.value));
-        const sidebarGroupedProjects = computed(() => groupProjects(filteredProjects.value));
+        const sidebarGroupedProjects = computed(() => groupProjects(sidebarBaseProjects.value));
         const groupedProjects = computed(() => groupProjects(renderedProjects.value));
+
+        const topicCloud = computed(() => {
+            const counts = {};
+            filteredProjects.value.forEach(p => {
+                (p.topics || []).forEach(t => {
+                    counts[t] = (counts[t] || 0) + 1;
+                });
+            });
+            const entries = Object.entries(counts).map(([name, count]) => ({name, count})).sort((a,b) => b.count - a.count);
+            if (entries.length === 0) return [];
+            const max = entries[0].count;
+            const min = entries[entries.length - 1].count;
+            return entries.map(e => {
+                const ratio = max === min ? 0.5 : (e.count - min) / (max - min);
+                const size = 0.75 + ratio * 1.05; // 0.75rem to 1.8rem
+                return { ...e, size };
+            });
+        });
 
         const updateRenderedProjects = (list) => {
             if (renderFrame) {
@@ -583,52 +661,52 @@ createApp({
                     renderLimit.value + renderChunkSize,
                     filteredProjects.value.length
                 );
-                scheduleObserveLanguageTitles();
                 renderFrame = requestAnimationFrame(appendChunk);
             };
 
             if (renderLimit.value < list.length) {
                 renderFrame = requestAnimationFrame(appendChunk);
             }
-            scheduleObserveLanguageTitles();
         };
 
         const getLangColor = (lang) => {
             return StarredCommon.getLanguageColor(lang);
         };
 
-        const scrollToGroup = (group) => {
+        const clearSidebarGroups = () => {
+            activeFilters.language.clear();
+            activeFilters.year.clear();
+            activeFilters.stars.clear();
+            activeFilters.topic.clear();
+            doFilter();
+        };
+
+        const toggleSidebarGroup = (group) => {
             if (window.innerWidth <= 992) {
                 sidebarOpen.value = false;
             }
-            const id = 'group-' + group;
-            const element = document.getElementById(id);
-            if (!element && renderLimit.value < filteredProjects.value.length) {
-                if (renderFrame) {
-                    cancelAnimationFrame(renderFrame);
-                    renderFrame = null;
-                }
-                renderLimit.value = filteredProjects.value.length;
-                scheduleObserveGroupTitles();
-                setTimeout(() => scrollToGroup(group), 0);
-                return;
+            const currentSet = activeFilters[groupMode.value];
+            if (currentSet.has(group)) {
+                currentSet.delete(group);
+            } else {
+                currentSet.add(group);
             }
-            if (element) {
-                element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            doFilter();
+        };
+
+        const toggleTag = (tag) => {
+            const tagStr = '#' + tag;
+            let tags = (searchQuery.value || '').split(/\s+/).filter(Boolean);
+            if (tags.includes(tagStr)) {
+                tags = tags.filter(t => t !== tagStr);
+            } else {
+                tags.push(tagStr);
             }
+            searchQuery.value = tags.join(' ');
         };
 
         const toggleSidebar = () => {
             sidebarOpen.value = !sidebarOpen.value;
-        };
-
-        const scheduleObserveGroupTitles = () => {
-            clearTimeout(observeTimer);
-            observeTimer = setTimeout(() => {
-                if (!languageObserver) return;
-                languageObserver.disconnect();
-                document.querySelectorAll('.lang-group-title').forEach(el => languageObserver.observe(el));
-            }, 80);
         };
 
         const setGroupMode = (mode) => {
@@ -638,6 +716,12 @@ createApp({
                     const langCompare = (a.language||'Other').localeCompare(b.language||'Other', 'zh-CN');
                     if (langCompare !== 0) return langCompare;
                     return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                });
+            } else if (mode === 'topic') {
+                rawProjects.sort((a, b) => {
+                    const starDiff = (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                    if (starDiff !== 0) return starDiff;
+                    return (a.full_name || '').localeCompare(b.full_name || '');
                 });
             } else if (mode === 'year') {
                 rawProjects.sort((a, b) => {
@@ -660,15 +744,56 @@ createApp({
 
         const doFilter = debounce(() => {
             const query = normalizeText(searchQuery.value).trim();
-            if (!query) {
-                updateRenderedProjects(rawProjects);
-                return;
-            }
-
-            const keywords = query.split(/\s+/).filter(Boolean);
+            const keywords = query ? query.split(/\s+/).filter(Boolean) : [];
+            
+            const sidebarMatchedProjects = [];
             const matchedProjects = rawProjects.filter(project => {
-                return keywords.every(keyword => project._searchText.includes(keyword));
+                if (keywords.length > 0) {
+                    const matchesSearch = keywords.every(keyword => project._searchText.includes(keyword));
+                    if (!matchesSearch) return false;
+                }
+                
+                let matchesOtherDimensions = true;
+                
+                if (groupMode.value !== 'language' && activeFilters.language.size > 0) {
+                    if (!activeFilters.language.has(project.language || 'Other')) matchesOtherDimensions = false;
+                }
+                if (groupMode.value !== 'year' && activeFilters.year.size > 0) {
+                    const y = project.created_at ? project.created_at.slice(0, 4) + ' 年' : '未知年份';
+                    if (!activeFilters.year.has(y)) matchesOtherDimensions = false;
+                }
+                if (groupMode.value !== 'stars' && activeFilters.stars.size > 0) {
+                    if (!activeFilters.stars.has(getStarRange(project.stargazers_count || 0))) matchesOtherDimensions = false;
+                }
+                if (groupMode.value !== 'topic' && activeFilters.topic.size > 0) {
+                    const topics = (project.topics && project.topics.length > 0) ? project.topics : ['未分类'];
+                    if (!topics.some(t => activeFilters.topic.has(t))) matchesOtherDimensions = false;
+                }
+                
+                if (matchesOtherDimensions) {
+                    sidebarMatchedProjects.push(project);
+                }
+                
+                if (!matchesOtherDimensions) return false;
+                
+                if (activeFilters[groupMode.value].size > 0) {
+                    if (groupMode.value === 'language') {
+                        if (!activeFilters.language.has(project.language || 'Other')) return false;
+                    } else if (groupMode.value === 'year') {
+                        const y = project.created_at ? project.created_at.slice(0, 4) + ' 年' : '未知年份';
+                        if (!activeFilters.year.has(y)) return false;
+                    } else if (groupMode.value === 'stars') {
+                        if (!activeFilters.stars.has(getStarRange(project.stargazers_count || 0))) return false;
+                    } else if (groupMode.value === 'topic') {
+                        const topics = (project.topics && project.topics.length > 0) ? project.topics : ['未分类'];
+                        if (!topics.some(t => activeFilters.topic.has(t))) return false;
+                    }
+                }
+                
+                return true;
             });
+            
+            sidebarBaseProjects.value = sidebarMatchedProjects;
             updateRenderedProjects(matchedProjects);
         }, 250);
 
@@ -699,24 +824,11 @@ createApp({
             window.addEventListener('starred-theme-changed', (e) => {
                 isDark.value = (e.detail.theme === 'dark');
             });
-
-            languageObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        activeGroup.value = entry.target.id.replace(/^group-/, '');
-                    }
-                });
-            }, { rootMargin: "-30% 0px -60% 0px" });
-            scheduleObserveGroupTitles();
         });
 
         onBeforeUnmount(() => {
             if (renderFrame) {
                 cancelAnimationFrame(renderFrame);
-            }
-            clearTimeout(observeTimer);
-            if (languageObserver) {
-                languageObserver.disconnect();
             }
         });
 
@@ -727,18 +839,23 @@ createApp({
             error,
             searchQuery,
             sidebarOpen,
-            activeGroup,
             groupMode,
+            activeFilters,
+            totalActiveFiltersCount,
             rawTotalCount,
             filteredProjects,
+            renderedProjects,
             sidebarGroupedProjects,
             groupedProjects,
+            topicCloud,
             toggleTheme,
             toggleLayout,
             toggleSidebar,
-            getLangColor,
-            scrollToGroup,
-            setGroupMode
+            setGroupMode,
+            clearSidebarGroups,
+            toggleSidebarGroup,
+            toggleTag,
+            getLangColor
         };
     }
 }).mount('#app');
