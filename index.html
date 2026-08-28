@@ -38,7 +38,7 @@
 
         .index-content {
             flex: 1;
-            padding: 2rem 2.5rem 4rem;
+            padding: 1.5rem 1.25rem 4rem;
             min-height: calc(100vh - var(--nav-height));
             min-width: 0;
         }
@@ -86,8 +86,9 @@
 
         .project-stream {
             display: grid;
-            gap: 1.25rem;
+            gap: 0.6rem;
             grid-template-columns: 1fr;
+            align-items: start;
         }
         @media (min-width: 860px) {
             .project-stream {
@@ -105,7 +106,7 @@
             background: var(--bg-surface);
             border: 1px solid var(--border-color);
             border-radius: var(--radius-lg);
-            padding: 1rem 1.2rem;
+            padding: 0.65rem 0.85rem;
             box-shadow: var(--shadow-sm);
             transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.2s ease, border-color 0.2s ease;
             position: relative;
@@ -120,12 +121,7 @@
         }
 
         .project-header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 0.6rem;
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.5rem;
         }
         .project-title {
             font-size: 1.05rem;
@@ -152,18 +148,13 @@
             font-size: 0.9rem;
             color: var(--text-primary);
             line-height: 1.55;
-            margin-bottom: 0.6rem;
+            margin-bottom: 0.5rem;
             background: var(--bg-surface-soft);
-            padding: 0.5rem 0.75rem;
+            padding: 0.4rem 0.6rem;
             border-radius: var(--radius-md);
             border: 1px solid var(--border-color-subtle);
         }
-        .project-desc-en {
-            font-size: 0.84rem;
-            color: var(--text-secondary);
-            line-height: 1.4;
-            margin-bottom: 0.6rem;
-        }
+
 
         .project-stats-wrap {
             display: flex;
@@ -174,15 +165,31 @@
 
         .topic-pill {
             display: inline-block;
-            font-size: 0.75rem;
+            font-size: 0.7rem;
             font-weight: 500;
-            padding: 0.18rem 0.55rem;
+            padding: 0.15rem 0.4rem;
             border-radius: 9999px;
             background: var(--bg-surface-mute);
             color: var(--text-secondary);
             border: 1px solid var(--border-color);
-            margin-right: 0.35rem;
-            margin-bottom: 0.35rem;
+            margin-right: 0.25rem;
+            margin-bottom: 0.25rem;
+            line-height: 1.2;
+        }
+        
+        .topics-fixed-2lines {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            height: 2.8rem;
+        }
+        
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
         }
 
         .lang-group-title {
@@ -278,17 +285,26 @@
             <aside class="index-sidebar" id="sidebar" :class="{ show: sidebarOpen }">
                 <div class="d-flex align-items-center justify-content-between px-2 mb-3 pb-2 border-bottom border-color">
                     <span class="fw-bold text-primary small text-uppercase" style="letter-spacing: 0.05em;">
-                        <i class="bi bi-funnel text-success"></i> 语言分类索引
+                        <i class="bi bi-funnel text-success"></i> 智能分类索引
                     </span>
-                    <span class="badge-pill brand">{{ Object.keys(sidebarGroupedProjects).length }} 种</span>
+                    <span class="badge-pill brand">{{ Object.keys(sidebarGroupedProjects).length }} 组</span>
                 </div>
 
-                <div v-for="(projects, lang) in sidebarGroupedProjects" :key="lang"
-                     class="sidebar-lang-item" :class="{ active: activeLang === lang }"
-                     @click="scrollToLang(lang)">
+                <div class="group-mode-tabs mb-3 px-2">
+                    <div class="d-flex bg-surface-mute rounded p-1">
+                        <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'language' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('language')">语言</button>
+                        <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'year' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('year')">年份</button>
+                        <button class="flex-fill btn btn-sm border-0 fw-bold" :class="groupMode === 'stars' ? 'bg-surface shadow-sm text-primary' : 'text-muted'" @click="setGroupMode('stars')">Stars</button>
+                    </div>
+                </div>
+
+                <div v-for="(projects, group) in sidebarGroupedProjects" :key="group"
+                     class="sidebar-lang-item" :class="{ active: activeGroup === group }"
+                     @click="scrollToGroup(group)">
                     <div class="d-flex align-items-center text-truncate">
-                        <span class="sidebar-dot" :style="{ backgroundColor: getLangColor(lang) }"></span>
-                        <span class="text-truncate">{{ lang }}</span>
+                        <span v-if="groupMode === 'language'" class="sidebar-dot" :style="{ backgroundColor: getLangColor(group) }"></span>
+                        <span v-else class="sidebar-dot" style="background-color: var(--text-muted)"></span>
+                        <span class="text-truncate">{{ group }}</span>
                     </div>
                     <span class="sidebar-count">{{ projects.length }}</span>
                 </div>
@@ -337,10 +353,12 @@
                     </div>
 
                     <div v-else>
-                        <div v-for="(projects, lang) in groupedProjects" :key="lang + '-group'" class="mb-5">
+                        <div v-for="(projects, group) in groupedProjects" :key="group + '-group'" class="mb-5">
                             <!-- 分组标题 -->
-                            <h2 class="lang-group-title" :id="'lang-' + lang" :style="{ borderLeftColor: getLangColor(lang) }">
-                                <span :style="{ color: getLangColor(lang) }">●</span> {{ lang }}
+                            <h2 class="lang-group-title" :id="'group-' + group" :style="groupMode === 'language' ? { borderLeftColor: getLangColor(group) } : {}">
+                                <span v-if="groupMode === 'language'" :style="{ color: getLangColor(group) }">●</span>
+                                <span v-else class="text-secondary"><i class="bi bi-collection"></i></span> 
+                                {{ group }}
                                 <span class="badge-pill brand ms-2">{{ projects.length }} 库</span>
                             </h2>
 
@@ -350,24 +368,35 @@
                                          class="project-card">
                                     <!-- 头部：标题、作者、基础指标 -->
                                     <div class="project-header">
-                                        <div class="d-flex align-items-center gap-2 flex-wrap">
-                                            <img v-if="project.owner && project.owner.avatar_url"
-                                                 :src="project.owner.avatar_url"
-                                                 :alt="project.owner.login"
-                                                 class="project-avatar"
-                                                 loading="lazy"
-                                                 decoding="async"
-                                                 referrerpolicy="no-referrer"
-                                                 onerror="this.style.visibility='hidden'">
-                                            <h3 class="project-title">
-                                                <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
-                                            </h3>
-                                            <span class="badge-pill">
-                                                <span :style="{ color: getLangColor(project.language) }">●</span> {{ project.language || 'Other' }}
-                                            </span>
+                                        <div class="d-flex align-items-center justify-content-between gap-2 mb-2">
+                                            <div class="d-flex align-items-center gap-2 flex-wrap">
+                                                <img v-if="project.owner && project.owner.avatar_url"
+                                                     :src="project.owner.avatar_url"
+                                                     :alt="project.owner.login"
+                                                     class="project-avatar"
+                                                     loading="lazy"
+                                                     decoding="async"
+                                                     referrerpolicy="no-referrer"
+                                                     onerror="this.style.visibility='hidden'">
+                                                <h3 class="project-title">
+                                                    <a :href="project.html_url" target="_blank">{{ project.full_name || project.name }}</a>
+                                                </h3>
+                                                <span class="badge-pill">
+                                                    <span :style="{ color: getLangColor(project.language) }">●</span> {{ project.language || 'Other' }}
+                                                </span>
+                                            </div>
+                                            
+                                            <div class="d-flex align-items-center gap-1 shrink-0">
+                                                <a v-if="project.homepage" :href="project.homepage" target="_blank" class="app-icon-btn" style="width:1.8rem;height:1.8rem;font-size:0.85rem" title="官网/主页">
+                                                    <i class="bi bi-house"></i>
+                                                </a>
+                                                <a :href="project.html_url" target="_blank" class="app-icon-btn" style="width:1.8rem;height:1.8rem;font-size:0.85rem" title="GitHub 源码">
+                                                    <i class="bi bi-github"></i>
+                                                </a>
+                                            </div>
                                         </div>
 
-                                        <div class="project-stats-wrap">
+                                        <div class="project-stats-wrap d-flex align-items-center justify-content-between gap-1 flex-wrap">
                                             <span class="badge-pill amber" title="Star 总数">
                                                 <i class="bi bi-star-fill text-warning"></i> {{ (project.stargazers_count || 0).toLocaleString() }}
                                             </span>
@@ -381,30 +410,23 @@
                                                target="_blank"
                                                class="badge-pill brand text-decoration-none"
                                                title="查看该项目的历史 Star 增长走势折线图">
-                                                <i class="bi bi-graph-up"></i> 历史走势
-                                            </a>
-                                            <a v-if="project.homepage" :href="project.homepage" target="_blank" class="app-icon-btn" style="width:1.8rem;height:1.8rem;font-size:0.85rem" title="官网/主页">
-                                                <i class="bi bi-house"></i>
-                                            </a>
-                                            <a :href="project.html_url" target="_blank" class="app-icon-btn" style="width:1.8rem;height:1.8rem;font-size:0.85rem" title="GitHub 源码">
-                                                <i class="bi bi-github"></i>
+                                                <i class="bi bi-graph-up"></i> 趋势
                                             </a>
                                         </div>
                                     </div>
 
                                     <!-- 中文 AI 深度技术解析 -->
                                     <div v-if="project.desc" class="project-desc-zh">
-                                        <i class="bi bi-robot text-success me-1"></i> {{ project.desc }}
+                                        <div class="line-clamp-3">
+                                            <i class="bi bi-robot text-success me-1"></i> {{ project.desc }}
+                                        </div>
                                     </div>
 
-                                    <!-- 原生描述 -->
-                                    <div v-if="project.description && project.description !== project.desc" class="project-desc-en">
-                                        <i class="bi bi-quote text-muted me-1"></i> {{ project.description }}
-                                    </div>
+
 
                                     <!-- Topics 标签 -->
-                                    <div v-if="project.topics && project.topics.length" class="mb-3">
-                                        <span v-for="topic in project.topics" :key="topic" class="topic-pill">
+                                    <div class="mb-3 topics-fixed-2lines">
+                                        <span v-for="topic in (project.topics || [])" :key="topic" class="topic-pill">
                                             #{{ topic }}
                                         </span>
                                     </div>
@@ -466,13 +488,13 @@ createApp({
         const error = ref(null);
         const searchQuery = ref('');
         const sidebarOpen = ref(false);
-        const activeLang = ref('');
+        const activeGroup = ref('');
+        const groupMode = ref('language'); // 'language', 'year', 'stars'
         const rawTotalCount = ref(0);
 
         const filteredProjects = ref([]);
         const renderLimit = ref(0);
         let rawProjects = [];
-        let sortedLanguages = [];
         let renderFrame = null;
         let languageObserver = null;
         let observeTimer = null;
@@ -493,18 +515,47 @@ createApp({
             ].map(normalizeText).join(' ');
         };
 
+        const getStarRange = (stars) => {
+            if (stars >= 10000) return '10k+';
+            if (stars >= 5000) return '5k - 10k';
+            if (stars >= 1000) return '1k - 5k';
+            if (stars >= 500) return '500 - 1k';
+            return '< 500';
+        };
+
         const groupProjects = (list) => {
             const groups = {};
             list.forEach(project => {
-                const lang = project.language || 'Other';
-                if (!groups[lang]) groups[lang] = [];
-                groups[lang].push(project);
-            });
-            const result = {};
-            sortedLanguages.forEach(lang => {
-                if (groups[lang]) {
-                    result[lang] = groups[lang];
+                let groupKey = 'Other';
+                if (groupMode.value === 'language') {
+                    groupKey = project.language || 'Other';
+                } else if (groupMode.value === 'year') {
+                    groupKey = project.created_at ? project.created_at.slice(0, 4) + ' 年' : '未知年份';
+                } else if (groupMode.value === 'stars') {
+                    groupKey = getStarRange(project.stargazers_count || 0);
                 }
+
+                if (!groups[groupKey]) groups[groupKey] = [];
+                groups[groupKey].push(project);
+            });
+            
+            let sortedKeys = [];
+            if (groupMode.value === 'language') {
+                sortedKeys = Object.keys(groups).sort((a, b) => {
+                    const cntDiff = groups[b].length - groups[a].length;
+                    if (cntDiff !== 0) return cntDiff;
+                    return a.localeCompare(b, 'zh-CN');
+                });
+            } else if (groupMode.value === 'year') {
+                sortedKeys = Object.keys(groups).sort((a, b) => b.localeCompare(a));
+            } else if (groupMode.value === 'stars') {
+                const order = ['10k+', '5k - 10k', '1k - 5k', '500 - 1k', '< 500'];
+                sortedKeys = Object.keys(groups).sort((a, b) => order.indexOf(a) - order.indexOf(b));
+            }
+
+            const result = {};
+            sortedKeys.forEach(k => {
+                result[k] = groups[k];
             });
             return result;
         };
@@ -546,11 +597,11 @@ createApp({
             return StarredCommon.getLanguageColor(lang);
         };
 
-        const scrollToLang = (lang) => {
+        const scrollToGroup = (group) => {
             if (window.innerWidth <= 992) {
                 sidebarOpen.value = false;
             }
-            const id = 'lang-' + lang;
+            const id = 'group-' + group;
             const element = document.getElementById(id);
             if (!element && renderLimit.value < filteredProjects.value.length) {
                 if (renderFrame) {
@@ -558,8 +609,8 @@ createApp({
                     renderFrame = null;
                 }
                 renderLimit.value = filteredProjects.value.length;
-                scheduleObserveLanguageTitles();
-                setTimeout(() => scrollToLang(lang), 0);
+                scheduleObserveGroupTitles();
+                setTimeout(() => scrollToGroup(group), 0);
                 return;
             }
             if (element) {
@@ -571,13 +622,40 @@ createApp({
             sidebarOpen.value = !sidebarOpen.value;
         };
 
-        const scheduleObserveLanguageTitles = () => {
+        const scheduleObserveGroupTitles = () => {
             clearTimeout(observeTimer);
             observeTimer = setTimeout(() => {
                 if (!languageObserver) return;
                 languageObserver.disconnect();
                 document.querySelectorAll('.lang-group-title').forEach(el => languageObserver.observe(el));
             }, 80);
+        };
+
+        const setGroupMode = (mode) => {
+            groupMode.value = mode;
+            if (mode === 'language') {
+                rawProjects.sort((a, b) => {
+                    const langCompare = (a.language||'Other').localeCompare(b.language||'Other', 'zh-CN');
+                    if (langCompare !== 0) return langCompare;
+                    return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                });
+            } else if (mode === 'year') {
+                rawProjects.sort((a, b) => {
+                    const yearA = a.created_at ? a.created_at.slice(0,4) : '0000';
+                    const yearB = b.created_at ? b.created_at.slice(0,4) : '0000';
+                    const yearCompare = yearB.localeCompare(yearA);
+                    if (yearCompare !== 0) return yearCompare;
+                    return (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                });
+            } else if (mode === 'stars') {
+                rawProjects.sort((a, b) => {
+                    const starDiff = (b.stargazers_count || 0) - (a.stargazers_count || 0);
+                    if (starDiff !== 0) return starDiff;
+                    return (a.full_name || '').localeCompare(b.full_name || '');
+                });
+            }
+            doFilter();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
         };
 
         const doFilter = debounce(() => {
@@ -610,13 +688,8 @@ createApp({
                     project.language = project.language || 'Other';
                     project._searchText = buildSearchText(project);
                 });
-                rawProjects.sort((a, b) => {
-                    const langCompare = a.language.localeCompare(b.language, 'zh-CN');
-                    if (langCompare !== 0) return langCompare;
-                    return (b.stargazers_count || 0) - (a.stargazers_count || 0);
-                });
-                sortedLanguages = Array.from(new Set(rawProjects.map(project => project.language)));
-                updateRenderedProjects(rawProjects);
+                // 默认初始化为 language 排序
+                setGroupMode('language');
             } catch (e) {
                 error.value = e.message;
             } finally {
@@ -630,11 +703,11 @@ createApp({
             languageObserver = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        activeLang.value = entry.target.id.replace(/^lang-/, '');
+                        activeGroup.value = entry.target.id.replace(/^group-/, '');
                     }
                 });
             }, { rootMargin: "-30% 0px -60% 0px" });
-            scheduleObserveLanguageTitles();
+            scheduleObserveGroupTitles();
         });
 
         onBeforeUnmount(() => {
@@ -654,7 +727,8 @@ createApp({
             error,
             searchQuery,
             sidebarOpen,
-            activeLang,
+            activeGroup,
+            groupMode,
             rawTotalCount,
             filteredProjects,
             sidebarGroupedProjects,
@@ -663,7 +737,8 @@ createApp({
             toggleLayout,
             toggleSidebar,
             getLangColor,
-            scrollToLang
+            scrollToGroup,
+            setGroupMode
         };
     }
 }).mount('#app');
