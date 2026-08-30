@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-31 00:00:14",
+    "updated_at": "2026-08-31 06:00:17",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -392,7 +392,8 @@
         "2026083006": true,
         "2026083012": true,
         "2026083018": true,
-        "2026083100": true
+        "2026083100": true,
+        "2026083106": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6465,7 +6466,10 @@
         "292065578": 292065578,
         "hnbigvolibear\/wps_airscript2.0_online_tool": 1155413399,
         "wps_airscript2.0_online_tool": 1155413399,
-        "1155413399": 1155413399
+        "1155413399": 1155413399,
+        "guyungy\/damaihelper": 639727792,
+        "damaihelper": 639727792,
+        "639727792": 639727792
     },
     "repos_meta": {
         "13491895": {
@@ -16587,7 +16591,12 @@
             "id": 1155413399,
             "full_name": "HnBigVolibear\/wps_airscript2.0_online_tool",
             "file": "data\/repos\/1155413399.json"
+        },
+        "639727792": {
+            "id": 639727792,
+            "full_name": "Guyungy\/damaihelper",
+            "file": "data\/repos\/639727792.json"
         }
     },
-    "snapshot_count": 391
+    "snapshot_count": 392
 }
