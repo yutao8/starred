@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-31 18:00:14",
+    "updated_at": "2026-09-01 00:00:52",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -395,7 +395,8 @@
         "2026083100": true,
         "2026083106": true,
         "2026083112": true,
-        "2026083118": true
+        "2026083118": true,
+        "2026090100": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -3629,7 +3630,7 @@
         "goravel": 421401204,
         "421401204": 421401204,
         "truthhun\/bookstack": 122812881,
-        "bookstack": 122812881,
+        "bookstack": 41589337,
         "122812881": 122812881,
         "greycodee\/wechat-backup": 503408858,
         "wechat-backup": 503408858,
@@ -6479,7 +6480,9 @@
         "imgo": 91899067,
         "zettlr\/zettlr": 115446081,
         "zettlr": 115446081,
-        "115446081": 115446081
+        "115446081": 115446081,
+        "bookstackapp\/bookstack": 41589337,
+        "41589337": 41589337
     },
     "repos_meta": {
         "13491895": {
@@ -16616,7 +16619,12 @@
             "id": 115446081,
             "full_name": "Zettlr\/Zettlr",
             "file": "data\/repos\/115446081.json"
+        },
+        "41589337": {
+            "id": 41589337,
+            "full_name": "BookStackApp\/BookStack",
+            "file": "data\/repos\/41589337.json"
         }
     },
-    "snapshot_count": 394
+    "snapshot_count": 395
 }

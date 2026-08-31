@@ -5,17 +5,17 @@
         "full_name": "shuakami\/qq-chat-exporter",
         "name": "qq-chat-exporter",
         "html_url": "https:\/\/github.com\/shuakami\/qq-chat-exporter",
-        "language": "TypeScript",
+        "language": "Rust",
         "description": "用于导出和备份QQ聊天记录，解析本地消息数据库后生成可读的文本或HTML文件，方便用户保存历史对话、进行内容检索或迁移到其他平台。通常适合需要长期留存聊天记录的个人用户，也可用于数据分析场景。工具以命令行或图形界面方式运行，支持常见QQ版本的数据格式，输出结构化文件以兼容其他程序。"
     },
     "summary": {
         "initial_stars": 4676,
-        "current_stars": 4938,
-        "star_diff": 262,
-        "growth_rate": 5.6,
+        "current_stars": 4941,
+        "star_diff": 265,
+        "growth_rate": 5.67,
         "first_seen": "2026-08-16 00:00",
-        "last_seen": "2026-08-31 18:00",
-        "data_points_count": 14
+        "last_seen": "2026-09-01 00:00",
+        "data_points_count": 15
     },
     "history": [
         {
@@ -115,6 +115,13 @@
             "stars": 4938,
             "forks": 287,
             "file": "data\/dist\/2026083118\/starList.public.json"
+        },
+        {
+            "date": "2026-09-01 00:00",
+            "timestamp": 1788192000,
+            "stars": 4941,
+            "forks": 288,
+            "file": "data\/dist\/2026090100\/starList.public.json"
         }
     ]
 }
