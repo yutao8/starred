@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-31 06:00:17",
+    "updated_at": "2026-08-31 12:00:21",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -393,7 +393,8 @@
         "2026083012": true,
         "2026083018": true,
         "2026083100": true,
-        "2026083106": true
+        "2026083106": true,
+        "2026083112": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6469,7 +6470,10 @@
         "1155413399": 1155413399,
         "guyungy\/damaihelper": 639727792,
         "damaihelper": 639727792,
-        "639727792": 639727792
+        "639727792": 639727792,
+        "md-reader\/md-reader": 175244499,
+        "md-reader": 175244499,
+        "175244499": 175244499
     },
     "repos_meta": {
         "13491895": {
@@ -16596,7 +16600,12 @@
             "id": 639727792,
             "full_name": "Guyungy\/damaihelper",
             "file": "data\/repos\/639727792.json"
+        },
+        "175244499": {
+            "id": 175244499,
+            "full_name": "md-reader\/md-reader",
+            "file": "data\/repos\/175244499.json"
         }
     },
-    "snapshot_count": 392
+    "snapshot_count": 393
 }
