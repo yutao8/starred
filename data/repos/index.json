@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-08-31 12:00:21",
+    "updated_at": "2026-08-31 18:00:14",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -394,7 +394,8 @@
         "2026083018": true,
         "2026083100": true,
         "2026083106": true,
-        "2026083112": true
+        "2026083112": true,
+        "2026083118": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6473,7 +6474,12 @@
         "639727792": 639727792,
         "md-reader\/md-reader": 175244499,
         "md-reader": 175244499,
-        "175244499": 175244499
+        "175244499": 175244499,
+        "meowtec\/imgo": 91899067,
+        "imgo": 91899067,
+        "zettlr\/zettlr": 115446081,
+        "zettlr": 115446081,
+        "115446081": 115446081
     },
     "repos_meta": {
         "13491895": {
@@ -13973,7 +13979,7 @@
         },
         "91899067": {
             "id": 91899067,
-            "full_name": "meowtec\/Imagine",
+            "full_name": "meowtec\/imgo",
             "file": "data\/repos\/91899067.json"
         },
         "237560248": {
@@ -16605,7 +16611,12 @@
             "id": 175244499,
             "full_name": "md-reader\/md-reader",
             "file": "data\/repos\/175244499.json"
+        },
+        "115446081": {
+            "id": 115446081,
+            "full_name": "Zettlr\/Zettlr",
+            "file": "data\/repos\/115446081.json"
         }
     },
-    "snapshot_count": 393
+    "snapshot_count": 394
 }
