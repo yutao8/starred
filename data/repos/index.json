@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-09-05 18:00:14",
+    "updated_at": "2026-09-06 00:00:14",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -415,7 +415,8 @@
         "2026090500": true,
         "2026090506": true,
         "2026090512": true,
-        "2026090518": true
+        "2026090518": true,
+        "2026090600": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6501,7 +6502,9 @@
         "zettlr": 115446081,
         "115446081": 115446081,
         "bookstackapp\/bookstack": 41589337,
-        "41589337": 41589337
+        "41589337": 41589337,
+        "chen-006\/meow-llm-detector": 1315704673,
+        "meow-llm-detector": 1315704673
     },
     "repos_meta": {
         "13491895": {
@@ -16486,7 +16489,7 @@
         },
         "1315704673": {
             "id": 1315704673,
-            "full_name": "chen-006\/gpt56_api_detector",
+            "full_name": "chen-006\/meow-llm-detector",
             "file": "data\/repos\/1315704673.json"
         },
         "676452393": {
@@ -16645,5 +16648,5 @@
             "file": "data\/repos\/41589337.json"
         }
     },
-    "snapshot_count": 414
+    "snapshot_count": 415
 }
