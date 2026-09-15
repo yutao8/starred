@@ -5,17 +5,17 @@
         "full_name": "Stirling-Tools\/Stirling-PDF",
         "name": "Stirling-PDF",
         "html_url": "https:\/\/github.com\/Stirling-Tools\/Stirling-PDF",
-        "language": "Java",
+        "language": "TypeScript",
         "description": "Stirling-PDF 是一个基于 Web 的 PDF 工具箱，旨在提供本地化、隐私安全的文件处理方案。它支持合并、拆分、压缩、转换、加密、解密以及 OCR 文字识别等常见操作，所有处理均在浏览器或自托管环境中完成，无需上传文件至第三方服务器，适合对数据敏感的个人或企业用户。通常通过 Docker 部署，界面简洁，可替代部分付费在线 PDF 服务。"
     },
     "summary": {
         "initial_stars": 62453,
-        "current_stars": 92176,
-        "star_diff": 29723,
-        "growth_rate": 47.59,
+        "current_stars": 92216,
+        "star_diff": 29763,
+        "growth_rate": 47.66,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-09-16 00:00",
-        "data_points_count": 454
+        "last_seen": "2026-09-16 06:00",
+        "data_points_count": 455
     },
     "history": [
         {
@@ -3195,6 +3195,13 @@
             "stars": 92176,
             "forks": 8376,
             "file": "data\/dist\/2026091600\/starList.public.json"
+        },
+        {
+            "date": "2026-09-16 06:00",
+            "timestamp": 1789509600,
+            "stars": 92216,
+            "forks": 8454,
+            "file": "data\/dist\/2026091606\/starList.public.json"
         }
     ]
 }
