@@ -5,17 +5,17 @@
         "full_name": "metowolf\/vCards",
         "name": "vCards",
         "html_url": "https:\/\/github.com\/metowolf\/vCards",
-        "language": "JavaScript",
+        "language": "TypeScript",
         "description": "用于将 Android 手机通讯录导出为标准 vCard 格式，方便跨平台备份、迁移或导入其他通讯软件。它通过读取系统数据库生成联系人文件，适合需要批量整理、合并或转换通讯录数据的场景，尤其适合熟悉命令行与自动化脚本的用户使用。"
     },
     "summary": {
         "initial_stars": 5893,
-        "current_stars": 6397,
-        "star_diff": 504,
-        "growth_rate": 8.55,
+        "current_stars": 6396,
+        "star_diff": 503,
+        "growth_rate": 8.54,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-09-15 18:00",
-        "data_points_count": 151
+        "last_seen": "2026-09-16 00:00",
+        "data_points_count": 152
     },
     "history": [
         {
@@ -1074,6 +1074,13 @@
             "stars": 6397,
             "forks": 312,
             "file": "data\/dist\/2026091518\/starList.public.json"
+        },
+        {
+            "date": "2026-09-16 00:00",
+            "timestamp": 1789488000,
+            "stars": 6396,
+            "forks": 312,
+            "file": "data\/dist\/2026091600\/starList.public.json"
         }
     ]
 }
