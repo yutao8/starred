@@ -5,17 +5,17 @@
         "full_name": "evi0s\/WMPFDebugger",
         "name": "WMPFDebugger",
         "html_url": "https:\/\/github.com\/evi0s\/WMPFDebugger",
-        "language": "TypeScript",
+        "language": "JavaScript",
         "description": "用于调试微信小程序框架（WMPF）运行环境的工具，主要面向在 Android 应用中集成小程序能力的开发场景。这类项目通常帮助开发者定位小程序页面加载、渲染和交互过程中出现的异常，辅助检查框架初始化状态、运行时日志以及原生与小程序通信是否正常，适合作为 WMPF 二次开发或接入时的排错辅助。"
     },
     "summary": {
         "initial_stars": 2555,
-        "current_stars": 2711,
-        "star_diff": 156,
-        "growth_rate": 6.11,
+        "current_stars": 2712,
+        "star_diff": 157,
+        "growth_rate": 6.14,
         "first_seen": "2026-08-28 20:00",
-        "last_seen": "2026-09-18 18:00",
-        "data_points_count": 67
+        "last_seen": "2026-09-19 12:00",
+        "data_points_count": 68
     },
     "history": [
         {
@@ -486,6 +486,13 @@
             "stars": 2711,
             "forks": 601,
             "file": "data\/dist\/2026091818\/starList.public.json"
+        },
+        {
+            "date": "2026-09-19 12:00",
+            "timestamp": 1789790400,
+            "stars": 2712,
+            "forks": 602,
+            "file": "data\/dist\/2026091912\/starList.public.json"
         }
     ]
 }
