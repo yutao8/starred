@@ -5,17 +5,17 @@
         "full_name": "floccusaddon\/floccus",
         "name": "floccus",
         "html_url": "https:\/\/github.com\/floccusaddon\/floccus",
-        "language": "JavaScript",
+        "language": "TypeScript",
         "description": "开源的跨浏览器书签同步工具，用于在 Chrome、Firefox 等主流浏览器之间通过 WebDAV、Nextcloud 或本地文件同步书签，解决不同浏览器之间书签无法互通、以及依赖浏览器厂商云同步带来的隐私和锁定问题。配置灵活，通常适合希望自托管数据、注重隐私或需要在多浏览器间保持书签一致的用户，也可配合各类支持 WebDAV 的网盘使用。"
     },
     "summary": {
         "initial_stars": 6737,
-        "current_stars": 8474,
-        "star_diff": 1737,
-        "growth_rate": 25.78,
+        "current_stars": 8475,
+        "star_diff": 1738,
+        "growth_rate": 25.8,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-09-20 12:00",
-        "data_points_count": 315
+        "last_seen": "2026-09-21 00:00",
+        "data_points_count": 316
     },
     "history": [
         {
@@ -2222,6 +2222,13 @@
             "stars": 8474,
             "forks": 327,
             "file": "data\/dist\/2026092012\/starList.public.json"
+        },
+        {
+            "date": "2026-09-21 00:00",
+            "timestamp": 1789920000,
+            "stars": 8475,
+            "forks": 327,
+            "file": "data\/dist\/2026092100\/starList.public.json"
         }
     ]
 }
