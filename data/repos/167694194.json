@@ -5,17 +5,17 @@
         "full_name": "blakeblackshear\/frigate",
         "name": "frigate",
         "html_url": "https:\/\/github.com\/blakeblackshear\/frigate",
-        "language": "TypeScript",
+        "language": "Python",
         "description": "Frigate 是一款专为实时监控视频流设计的智能网络录像机（NVR）系统，核心用途是借助本地 AI 物体检测技术，对摄像头画面中的人员、车辆等目标进行快速识别与跟踪，并在此基础上提供事件记录和剪辑。它优先采用边缘计算和硬件加速，力求降低资源占用，还能与 Home 智能家居平台无缝整合，适用于需要本地化、低延迟且注重隐私的监控场景，帮助用户在海量录像中快速定位关键活动。"
     },
     "summary": {
         "initial_stars": 23474,
-        "current_stars": 36028,
-        "star_diff": 12554,
-        "growth_rate": 53.48,
+        "current_stars": 36033,
+        "star_diff": 12559,
+        "growth_rate": 53.5,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-09-21 18:00",
-        "data_points_count": 473
+        "last_seen": "2026-09-22 00:00",
+        "data_points_count": 474
     },
     "history": [
         {
@@ -3328,6 +3328,13 @@
             "stars": 36028,
             "forks": 3615,
             "file": "data\/dist\/2026092118\/starList.public.json"
+        },
+        {
+            "date": "2026-09-22 00:00",
+            "timestamp": 1790006400,
+            "stars": 36033,
+            "forks": 3617,
+            "file": "data\/dist\/2026092200\/starList.public.json"
         }
     ]
 }
