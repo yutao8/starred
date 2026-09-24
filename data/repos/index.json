@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-09-25 00:00:15",
+    "updated_at": "2026-09-25 06:00:14",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -492,7 +492,8 @@
         "2026092406": true,
         "2026092412": true,
         "2026092418": true,
-        "2026092500": true
+        "2026092500": true,
+        "2026092506": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6589,7 +6590,8 @@
         "nearthink\/b0pass": 217194084,
         "bush2021\/chrome_installer": 737470640,
         "chrome_installer": 737470640,
-        "737470640": 737470640
+        "737470640": 737470640,
+        "rooktwo\/rectg": 654801980
     },
     "repos_meta": {
         "13491895": {
@@ -6894,7 +6896,7 @@
         },
         "654801980": {
             "id": 654801980,
-            "full_name": "jackvale\/rectg",
+            "full_name": "rooktwo\/rectg",
             "file": "data\/repos\/654801980.json"
         },
         "244024353": {
@@ -16743,5 +16745,5 @@
             "file": "data\/repos\/737470640.json"
         }
     },
-    "snapshot_count": 491
+    "snapshot_count": 492
 }
