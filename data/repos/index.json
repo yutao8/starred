@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-09-28 06:00:14",
+    "updated_at": "2026-09-28 12:00:14",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -505,7 +505,8 @@
         "2026092712": true,
         "2026092718": true,
         "2026092800": true,
-        "2026092806": true
+        "2026092806": true,
+        "2026092812": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6612,7 +6613,10 @@
         "1156326745": 1156326745,
         "strongswan\/strongswan": 1031235,
         "strongswan": 1031235,
-        "1031235": 1031235
+        "1031235": 1031235,
+        "adobe-fonts\/source-han-serif": 84254035,
+        "source-han-serif": 84254035,
+        "84254035": 84254035
     },
     "repos_meta": {
         "13491895": {
@@ -16779,7 +16783,12 @@
             "id": 1031235,
             "full_name": "strongswan\/strongswan",
             "file": "data\/repos\/1031235.json"
+        },
+        "84254035": {
+            "id": 84254035,
+            "full_name": "adobe-fonts\/source-han-serif",
+            "file": "data\/repos\/84254035.json"
         }
     },
-    "snapshot_count": 504
+    "snapshot_count": 505
 }
