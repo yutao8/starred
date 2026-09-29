@@ -6,16 +6,16 @@
         "name": "claude-code-skills-zh",
         "html_url": "https:\/\/github.com\/laolaoshiren\/claude-code-skills-zh",
         "language": "Python",
-        "description": "这是一个面向中文用户的 Claude Code 实用技能与配置整理，主要帮助开发者更高效地使用 Anthropic 的 CLI 编程工具 Claude Code。内容通常涵盖常用命令、工作流、自定义指令、权限设置以及结合外部工具的场景，适合希望把 Claude Code 更好地嵌入日常编码或项目维护的团队和个人。仓库以中文组织，适合中文用户快速查阅和落地，减少摸索成本。"
+        "description": "面向 Claude Code 的中文技能资源集合，帮助中文开发者理解其技能机制与使用方式。内容通常涵盖技能说明、提示词或工作流模板、实践案例，可用于代码生成、重构、审查、测试和文档编写等场景，也方便按需改造成自己的技能配置。适合希望借助 Claude Code 提升日常开发效率、但受限于英文资料或缺少中文范例的用户参考。"
     },
     "summary": {
         "initial_stars": 651,
-        "current_stars": 868,
-        "star_diff": 217,
-        "growth_rate": 33.33,
+        "current_stars": 869,
+        "star_diff": 218,
+        "growth_rate": 33.49,
         "first_seen": "2026-07-20 06:00",
-        "last_seen": "2026-09-25 00:00",
-        "data_points_count": 64
+        "last_seen": "2026-09-30 06:00",
+        "data_points_count": 65
     },
     "history": [
         {
@@ -465,6 +465,13 @@
             "stars": 868,
             "forks": 95,
             "file": "data\/dist\/2026092500\/starList.public.json"
+        },
+        {
+            "date": "2026-09-30 06:00",
+            "timestamp": 1790719200,
+            "stars": 869,
+            "forks": 95,
+            "file": "data\/dist\/2026093006\/starList.public.json"
         }
     ]
 }
