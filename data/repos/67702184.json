@@ -5,17 +5,17 @@
         "full_name": "topjohnwu\/Magisk",
         "name": "Magisk",
         "html_url": "https:\/\/github.com\/topjohnwu\/Magisk",
-        "language": "Other",
+        "language": "Kotlin",
         "description": "Magisk 是一款 Android 系统less root 工具，通过修改 boot 镜像实现 root 权限，不改变系统分区，从而通过 SafetyNet 等完整性检测。它提供模块化机制，用户可安装各类模块调整系统功能或外观，搭配 Magisk Manager 应用管理 root 授权与模块。典型场景包括为应用授予 root 权限、隐藏 root 状态以运行银行或支付应用，以及实现通话录音、去广告等高级定制。适合希望保留系统更新与安全性的 Android 用户。"
     },
     "summary": {
         "initial_stars": 53868,
-        "current_stars": 63138,
-        "star_diff": 9270,
-        "growth_rate": 17.21,
+        "current_stars": 63144,
+        "star_diff": 9276,
+        "growth_rate": 17.22,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-10-08 12:00",
-        "data_points_count": 542
+        "last_seen": "2026-10-08 18:00",
+        "data_points_count": 543
     },
     "history": [
         {
@@ -3811,6 +3811,13 @@
             "stars": 63138,
             "forks": 18806,
             "file": "data\/dist\/2026100812\/starList.public.json"
+        },
+        {
+            "date": "2026-10-08 18:00",
+            "timestamp": 1791453600,
+            "stars": 63144,
+            "forks": 18806,
+            "file": "data\/dist\/2026100818\/starList.public.json"
         }
     ]
 }
