@@ -5,7 +5,7 @@
         "full_name": "vbenjs\/vue-vben-admin",
         "name": "vue-vben-admin",
         "html_url": "https:\/\/github.com\/vbenjs\/vue-vben-admin",
-        "language": "Vue",
+        "language": "TypeScript",
         "description": "基于 Vue3、Vite 和 TypeScript 打造的中后台前端解决方案，常被用于快速搭建企业级管理后台和内部数据看板。它内置了权限认证、路由守卫、动态菜单、多主题切换和国际化支持，并编排了大量常用业务页面，省去从零搭建工程的时间。项目组件化程度较高，代码结构清晰，适合需要统一规范、频繁迭代并兼顾视觉定制的团队使用，也常被学习和改造为自定义后台基础框架。"
     },
     "summary": {
@@ -14,8 +14,8 @@
         "star_diff": 4810,
         "growth_rate": 16.71,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-10-12 18:00",
-        "data_points_count": 496
+        "last_seen": "2026-10-13 00:00",
+        "data_points_count": 497
     },
     "history": [
         {
@@ -3489,6 +3489,13 @@
             "stars": 33587,
             "forks": 8972,
             "file": "data\/dist\/2026101218\/starList.public.json"
+        },
+        {
+            "date": "2026-10-13 00:00",
+            "timestamp": 1791820800,
+            "stars": 33587,
+            "forks": 8973,
+            "file": "data\/dist\/2026101300\/starList.public.json"
         }
     ]
 }
