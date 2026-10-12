@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-10-12 12:00:17** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-10-12 18:00:15** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101212/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101218/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 286,501 | **+10,205** | +3.6935% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 83,632 | **+2,998** | +3.718% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
-| 3 | [vbskycn/iptv](https://github.com/vbskycn/iptv) | `HTML` | 9,457 | **+605** | +6.8346% | 聚合了众多电视频道直播源，提供可直接使用的播放列表文件，方便用户在手机、… |
-| 4 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | `Rust` | 142,931 | **+2,883** | +2.0586% | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，… |
-| 5 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `Python` | 252,855 | **+1,595** | +0.6348% | Hermes Agent 是 NousResearch 推出的智能体框架… |
+| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 287,053 | **+10,532** | +3.8088% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 84,102 | **+3,414** | +4.2311% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
+| 3 | [vbskycn/iptv](https://github.com/vbskycn/iptv) | `HTML` | 9,466 | **+607** | +6.8518% | 聚合了众多电视频道直播源，提供可直接使用的播放列表文件，方便用户在手机、… |
+| 4 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | `Rust` | 143,132 | **+2,983** | +2.1284% | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，… |
+| 5 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `Python` | 252,949 | **+1,659** | +0.6602% | Hermes Agent 是 NousResearch 推出的智能体框架… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,568 | **+9.1922%** | +132 | +18.86 ★/天 |
-| 2 | [luolangaga/tubatools](https://github.com/luolangaga/tubatools) | `C#` | 5,356 | **+7.0558%** | +353 | +50.43 ★/天 |
-| 3 | [vbskycn/iptv](https://github.com/vbskycn/iptv) | `HTML` | 9,457 | **+6.8346%** | +605 | +86.43 ★/天 |
-| 4 | [mg-chao/snow-apps](https://github.com/mg-chao/snow-shot) | `C++` | 5,753 | **+6.1439%** | +333 | +47.57 ★/天 |
-| 5 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,379 | **+5.0795%** | +115 | +13.14 ★/天 |
+| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,575 | **+8.6957%** | +126 | +18 ★/天 |
+| 2 | [vbskycn/iptv](https://github.com/vbskycn/iptv) | `HTML` | 9,466 | **+6.8518%** | +607 | +86.71 ★/天 |
+| 3 | [luolangaga/tubatools](https://github.com/luolangaga/tubatools) | `C#` | 5,368 | **+6.7621%** | +340 | +48.57 ★/天 |
+| 4 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,408 | **+6.4074%** | +145 | +20.71 ★/天 |
+| 5 | [mg-chao/snow-apps](https://github.com/mg-chao/snow-shot) | `C++` | 5,766 | **+6.3249%** | +343 | +49 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **Python** | 136 | 3,946,426 | **+12,844 ★** | +2,290 | +13.45 ★ |
-| 2 | **Shell** | 49 | 1,122,978 | **+10,774 ★** | +1,646 | +31.38 ★ |
-| 3 | **TypeScript** | 148 | 3,935,296 | **+9,857 ★** | +3,264 | +9.51 ★ |
-| 4 | **Rust** | 30 | 1,298,779 | **+7,060 ★** | +726 | +33.6 ★ |
-| 5 | **Go** | 92 | 1,915,998 | **+4,660 ★** | +1,475 | +7.16 ★ |
-| 6 | **Java** | 47 | 814,898 | **+4,066 ★** | +584 | +12.32 ★ |
+| 1 | **Python** | 134 | 3,945,985 | **+13,432 ★** | +2,341 | +14.29 ★ |
+| 2 | **Shell** | 59 | 1,163,730 | **+11,138 ★** | +1,625 | +26.96 ★ |
+| 3 | **TypeScript** | 150 | 3,935,608 | **+10,197 ★** | +3,183 | +9.71 ★ |
+| 4 | **Rust** | 30 | 1,299,270 | **+7,321 ★** | +752 | +34.84 ★ |
+| 5 | **Go** | 94 | 1,900,703 | **+4,892 ★** | +1,476 | +7.41 ★ |
+| 6 | **Java** | 51 | 831,360 | **+4,518 ★** | +626 | +12.61 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 301 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101212/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101212/LANG_PHP.md) |
-| **Python** | 239 个仓库 | [查看全部 Python 项目 →](data/dist/2026101212/LANG_Python.md) |
-| **TypeScript** | 199 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101212/LANG_TypeScript.md) |
-| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101212/LANG_NaN.md) |
-| **Go** | 134 个仓库 | [查看全部 Go 项目 →](data/dist/2026101212/LANG_Go.md) |
-| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101212/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101212/LANG_Java.md) |
-| **C** | 72 个仓库 | [查看全部 C 项目 →](data/dist/2026101212/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101212/LANG_C_.md) |
-| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101212/LANG_C__.md) |
-| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101212/LANG_HTML.md) |
-| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101212/LANG_Vue.md) |
-| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101212/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101212/LANG_Rust.md) |
+| **JavaScript** | 301 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101218/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101218/LANG_PHP.md) |
+| **Python** | 239 个仓库 | [查看全部 Python 项目 →](data/dist/2026101218/LANG_Python.md) |
+| **TypeScript** | 199 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101218/LANG_TypeScript.md) |
+| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101218/LANG_NaN.md) |
+| **Go** | 134 个仓库 | [查看全部 Go 项目 →](data/dist/2026101218/LANG_Go.md) |
+| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101218/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101218/LANG_Java.md) |
+| **C** | 72 个仓库 | [查看全部 C 项目 →](data/dist/2026101218/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101218/LANG_C_.md) |
+| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101218/LANG_C__.md) |
+| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101218/LANG_HTML.md) |
+| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101218/LANG_Vue.md) |
+| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101218/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101218/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101212/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101218/ALL.md)
 
 ---
 
@@ -110,21 +110,21 @@
   为 Antify 生态提供反馈收集与展示能力，主要用于在网站或应用中嵌入反馈入口，接收用户意见、问题或建议，方便开发者集中查看与处理。通常适合需要快速搭建反馈渠道、降低沟通成本的小型项目或内部系统，也可作为 Antify 相关项目的配套模块使用。具体实现和集成方式请以仓库实际文档为准。
 - [Bush2021/chrome_plus](https://github.com/Bush2021/chrome_plus) ★2189  
   围绕 Chrome 浏览器做功能增强的辅助项目，通常以扩展、用户脚本或配置集合的形式，为默认浏览器补上一些原生未提供的便捷能力，例如标签页与窗口管理、快捷操作、页面元素控制或浏览习惯定制。它更适合希望在不更换浏览器、不安装大量插件的前提下，用轻量方案改善日常上网、资料搜集与开发调试体验的用户，也便于按需挑选其中的单项功能自行组合使用。具体支持范围与安装方式，建议以仓库内的说明文档为准。
-- [Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer) ★1680 [`github-actions`] [`google-chrome`] [`offline-installer`] [`windows`]  
+- [Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer) ★1683 [`github-actions`] [`google-chrome`] [`offline-installer`] [`windows`]  
   chrome_installer 为需要在自动化环境中快速获得 Google Chrome 浏览器提供安装辅助，通常通过脚本完成下载、解压、路径配置或注册等步骤，减少手动操作。它适合 CI/CD、自动化测试、爬虫和 Selenium/Playwright 等依赖浏览器运行时的场景，也可在受限系统中作为简化部署的参考。具体支持平台与版本以仓库说明为准，使用时应确认系统架构、依赖和许可要求。
-- [zzp198/Google-Chrome-Portable](https://github.com/zzp198/Google-Chrome-Portable) ★459  
+- [zzp198/Google-Chrome-Portable](https://github.com/zzp198/Google-Chrome-Portable) ★460  
   用于让 Google Chrome 以便携模式运行，无需安装即可直接启动，并将书签、扩展、设置等用户数据保存到指定目录而非系统盘中，便于复制、迁移或随 U 盘携带使用。通常适合在多台 Windows 电脑间切换、公共计算机或受限环境中建立个人浏览器空间，避免在主机上留下使用痕迹或系统残留，也可作为绿色软件集成进日常工具箱。具体操作方式以仓库内说明为准。
-- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19079 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19081 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
   BookStack 是一个基于 Web 的知识管理与文档分享平台，旨在通过简洁的界面组织和存储书籍、文档与笔记。它支持层级结构的内容分类，适用于团队协作、个人知识管理或构建文档中心，便于创建、编辑和共享结构化内容。
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13748 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13750 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
   Zettlr 是一款面向学术写作与知识管理的开源 Markdown 编辑器，内置引文管理、PDF 导出、Zotero 集成和双向链接笔记功能，支持 Pandoc 转换文档格式。它适合需要处理长文写作的研究人员、学生和博主，能帮助组织文献资料并构建个人知识库，同时保持纯文本的简洁和跨平台可用性。
-- [md-reader/md-reader](https://github.com/md-reader/md-reader) ★482 [`chrome-extension`] [`extension`] [`markdown`] [`markdown-reader`] [`md-reader`] [`webextension`]  
+- [md-reader/md-reader](https://github.com/md-reader/md-reader) ★483 [`chrome-extension`] [`extension`] [`markdown`] [`markdown-reader`] [`md-reader`] [`webextension`]  
   用于阅读和渲染 Markdown 格式文档，将纯文本转换为清晰易读的排版页面。通常适合写作场景、代码仓库中 README 文件的查看，以及本地 .md 文件的快速预览。可能具备语法高亮、目录导航、主题切换等辅助功能，帮助用户更高效地浏览技术文档与个人笔记。
-- [Guyungy/damaihelper](https://github.com/Guyungy/damaihelper) ★4229 [`python`] [`rust`] [`vue`]  
+- [Guyungy/damaihelper](https://github.com/Guyungy/damaihelper) ★4228 [`python`] [`rust`] [`vue`]  
   大麦网抢票辅助工具，主要用于演唱会、音乐节等热门演出票务的自动监控与快速抢购。它针对大麦网放票时手速不足、页面卡顿等问题，提供票档选择、自动提交订单和余票提醒等实用功能，适合需要抢购热门演出门票但经常错过的用户。通过简化手动操作流程，在一定程度上提升抢票成功概率。
 - [HnBigVolibear/wps_airscript2.0_online_tool](https://github.com/HnBigVolibear/wps_airscript2.0_online_tool) ★21  
   面向 WPS Office AirScript 2.0 的在线辅助工具，主要帮助用户编写、调试和生成脚本代码，以简化办公文档自动化的流程。通常适合需要批量处理表格、文字或演示文件的场景，让不熟悉脚本语法的用户也能快速上手，提升日常办公效率。
-- [qarmin/czkawka](https://github.com/qarmin/czkawka) ★34204 [`cleaner`] [`duplicates`] [`multiplatform`] [`optimization`] [`optimizer`] [`rust`] [`similar-images`] [`similar-music`] [`similar-videos`]  
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) ★34207 [`cleaner`] [`duplicates`] [`multiplatform`] [`optimization`] [`optimizer`] [`rust`] [`similar-images`] [`similar-music`] [`similar-videos`]  
   czkawka是一款用Rust编写的跨平台重复文件查找与清理工具，同时提供图形界面和命令行模式，主要用于查找重复文件、相似图片、空目录以及过期临时文件，帮助用户释放磁盘空间。它支持使用多种筛选方式预览和移除冗余内容，适合个人用户或系统管理员在维护大量存储数据时使用，注重运行效率与隐私保护，整体占用资源较低。
 
 ---
