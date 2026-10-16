@@ -2,20 +2,20 @@
     "status": "success",
     "repo": {
         "id": 880034560,
-        "full_name": "amzxyz\/RIME-LMDG",
-        "name": "RIME-LMDG",
+        "full_name": "amzxyz\/rime-wanxiang-data",
+        "name": "rime-wanxiang-data",
         "html_url": "https:\/\/github.com\/amzxyz\/RIME-LMDG",
         "language": "Python",
         "description": "为 RIME 输入法生成语言模型词典的工具，通常通过分析大规模语料来提取词频和上下文关联，产出适合 RIME 引擎使用的自定义词库与排序模型，从而提升候选词准确率和长句输入体验。适合需要为特定领域、方言或个人偏好定制输入法词库的用户，也可用于优化默认词表无法覆盖的专业术语和网络新词。若配合 RIME 特有语法，还能调整分词和组词策略，兼顾轻量部署与可离线使用。"
     },
     "summary": {
         "initial_stars": 1541,
-        "current_stars": 1958,
-        "star_diff": 417,
-        "growth_rate": 27.06,
+        "current_stars": 1959,
+        "star_diff": 418,
+        "growth_rate": 27.13,
         "first_seen": "2026-04-26 00:00",
-        "last_seen": "2026-10-16 00:00",
-        "data_points_count": 113
+        "last_seen": "2026-10-16 12:00",
+        "data_points_count": 114
     },
     "history": [
         {
@@ -808,6 +808,13 @@
             "stars": 1958,
             "forks": 47,
             "file": "data\/dist\/2026101600\/starList.public.json"
+        },
+        {
+            "date": "2026-10-16 12:00",
+            "timestamp": 1792123200,
+            "stars": 1959,
+            "forks": 47,
+            "file": "data\/dist\/2026101612\/starList.public.json"
         }
     ]
 }

@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-10-16 06:00:15",
+    "updated_at": "2026-10-16 12:00:18",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -577,7 +577,8 @@
         "2026101512": true,
         "2026101518": true,
         "2026101600": true,
-        "2026101606": true
+        "2026101606": true,
+        "2026101612": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6689,7 +6690,9 @@
         "source-han-serif": 84254035,
         "84254035": 84254035,
         "lively-community\/lively": 201188122,
-        "spacering-net\/codeg": 1153416852
+        "spacering-net\/codeg": 1153416852,
+        "amzxyz\/rime-wanxiang-data": 880034560,
+        "rime-wanxiang-data": 880034560
     },
     "repos_meta": {
         "13491895": {
@@ -16224,7 +16227,7 @@
         },
         "880034560": {
             "id": 880034560,
-            "full_name": "amzxyz\/RIME-LMDG",
+            "full_name": "amzxyz\/rime-wanxiang-data",
             "file": "data\/repos\/880034560.json"
         },
         "59435364": {
@@ -16863,5 +16866,5 @@
             "file": "data\/repos\/84254035.json"
         }
     },
-    "snapshot_count": 576
+    "snapshot_count": 577
 }
