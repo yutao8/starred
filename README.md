@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-10-17 00:00:15** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-10-17 06:00:17** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101700/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101706/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 89,419 | **+7,469** | +9.1141% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 293,748 | **+11,497** | +4.0733% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 23,475 | **+2,076** | +9.7014% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
-| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 132,040 | **+2,734** | +2.1144% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
-| 5 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | `Rust` | 145,161 | **+3,286** | +2.3161% | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，… |
+| 1 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 89,573 | **+7,477** | +9.1076% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 293,999 | **+11,470** | +4.0598% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 23,615 | **+2,214** | +10.3453% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
+| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 132,108 | **+2,780** | +2.1496% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
+| 5 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | `Rust` | 145,195 | **+3,298** | +2.3242% | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,679 | **+11.1185%** | +168 | +24 ★/天 |
-| 2 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 23,475 | **+9.7014%** | +2,076 | +296.57 ★/天 |
-| 3 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 89,419 | **+9.1141%** | +7,469 | +1067 ★/天 |
+| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,683 | **+11.0891%** | +168 | +24 ★/天 |
+| 2 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 23,615 | **+10.3453%** | +2,214 | +316.29 ★/天 |
+| 3 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 89,573 | **+9.1076%** | +7,477 | +1068.14 ★/天 |
 | 4 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,441 | **+6.8271%** | +156 | +23.11 ★/天 |
-| 5 | [anbeime/skill](https://github.com/anbeime/skill) | `Python` | 8,165 | **+5.6274%** | +435 | +62.14 ★/天 |
+| 5 | [anbeime/skill](https://github.com/anbeime/skill) | `Python` | 8,171 | **+5.6504%** | +437 | +62.43 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **Python** | 140 | 3,893,040 | **+16,501 ★** | +2,693 | +16.83 ★ |
-| 2 | **TypeScript** | 148 | 4,030,489 | **+13,151 ★** | +4,043 | +12.7 ★ |
-| 3 | **Shell** | 53 | 1,166,187 | **+12,253 ★** | +1,858 | +33.01 ★ |
-| 4 | **Java** | 53 | 843,206 | **+9,153 ★** | +1,160 | +24.67 ★ |
-| 5 | **Rust** | 28 | 1,303,581 | **+8,863 ★** | +856 | +45.23 ★ |
-| 6 | **Go** | 85 | 1,862,015 | **+5,553 ★** | +1,748 | +9.36 ★ |
+| 1 | **Python** | 136 | 3,868,515 | **+16,705 ★** | +2,744 | +17.56 ★ |
+| 2 | **TypeScript** | 145 | 4,016,049 | **+13,444 ★** | +4,158 | +13.25 ★ |
+| 3 | **Shell** | 52 | 1,151,700 | **+12,250 ★** | +1,853 | +33.63 ★ |
+| 4 | **Java** | 50 | 840,029 | **+9,214 ★** | +1,175 | +26.33 ★ |
+| 5 | **Rust** | 28 | 1,303,712 | **+8,959 ★** | +874 | +45.73 ★ |
+| 6 | **Go** | 86 | 1,867,943 | **+5,613 ★** | +1,784 | +9.36 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 300 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101700/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101700/LANG_PHP.md) |
-| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026101700/LANG_Python.md) |
-| **TypeScript** | 202 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101700/LANG_TypeScript.md) |
-| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101700/LANG_NaN.md) |
-| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026101700/LANG_Go.md) |
-| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101700/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101700/LANG_Java.md) |
-| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026101700/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101700/LANG_C_.md) |
-| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101700/LANG_C__.md) |
-| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101700/LANG_HTML.md) |
-| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101700/LANG_Vue.md) |
-| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101700/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101700/LANG_Rust.md) |
+| **JavaScript** | 300 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101706/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101706/LANG_PHP.md) |
+| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026101706/LANG_Python.md) |
+| **TypeScript** | 202 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101706/LANG_TypeScript.md) |
+| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101706/LANG_NaN.md) |
+| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026101706/LANG_Go.md) |
+| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101706/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101706/LANG_Java.md) |
+| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026101706/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101706/LANG_C_.md) |
+| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101706/LANG_C__.md) |
+| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101706/LANG_HTML.md) |
+| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101706/LANG_Vue.md) |
+| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101706/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101706/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101700/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101706/ALL.md)
 
 ---
 
@@ -116,7 +116,7 @@
   chrome_installer 为需要在自动化环境中快速获得 Google Chrome 浏览器提供安装辅助，通常通过脚本完成下载、解压、路径配置或注册等步骤，减少手动操作。它适合 CI/CD、自动化测试、爬虫和 Selenium/Playwright 等依赖浏览器运行时的场景，也可在受限系统中作为简化部署的参考。具体支持平台与版本以仓库说明为准，使用时应确认系统架构、依赖和许可要求。
 - [zzp198/Google-Chrome-Portable](https://github.com/zzp198/Google-Chrome-Portable) ★461  
   用于让 Google Chrome 以便携模式运行，无需安装即可直接启动，并将书签、扩展、设置等用户数据保存到指定目录而非系统盘中，便于复制、迁移或随 U 盘携带使用。通常适合在多台 Windows 电脑间切换、公共计算机或受限环境中建立个人浏览器空间，避免在主机上留下使用痕迹或系统残留，也可作为绿色软件集成进日常工具箱。具体操作方式以仓库内说明为准。
-- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19083 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19084 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
   BookStack 是一个基于 Web 的知识管理与文档分享平台，旨在通过简洁的界面组织和存储书籍、文档与笔记。它支持层级结构的内容分类，适用于团队协作、个人知识管理或构建文档中心，便于创建、编辑和共享结构化内容。
 - [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13777 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
   Zettlr 是一款面向学术写作与知识管理的开源 Markdown 编辑器，内置引文管理、PDF 导出、Zotero 集成和双向链接笔记功能，支持 Pandoc 转换文档格式。它适合需要处理长文写作的研究人员、学生和博主，能帮助组织文献资料并构建个人知识库，同时保持纯文本的简洁和跨平台可用性。
