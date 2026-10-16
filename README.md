@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-10-16 12:00:19** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-10-16 18:00:18** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101612/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101618/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 88,936 | **+7,153** | +8.7463% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 293,064 | **+11,751** | +4.1772% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 22,976 | **+1,606** | +7.5152% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
-| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 131,738 | **+2,509** | +1.9415% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
-| 5 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | `Rust` | 144,873 | **+3,336** | +2.357% | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，… |
+| 1 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 89,212 | **+7,360** | +8.9918% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 293,415 | **+11,593** | +4.1136% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 23,147 | **+1,766** | +8.2597% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
+| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 131,910 | **+2,645** | +2.0462% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
+| 5 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | `Rust` | 145,047 | **+3,285** | +2.3173% | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,658 | **+10.1661%** | +153 | +21.86 ★/天 |
-| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 88,936 | **+8.7463%** | +7,153 | +1021.86 ★/天 |
-| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 22,976 | **+7.5152%** | +1,606 | +229.43 ★/天 |
-| 4 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,440 | **+6.8769%** | +157 | +22.43 ★/天 |
-| 5 | [anbeime/skill](https://github.com/anbeime/skill) | `Python` | 8,131 | **+5.6935%** | +438 | +62.57 ★/天 |
+| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,667 | **+10.5438%** | +159 | +22.71 ★/天 |
+| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 89,212 | **+8.9918%** | +7,360 | +1051.43 ★/天 |
+| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 23,147 | **+8.2597%** | +1,766 | +252.29 ★/天 |
+| 4 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,441 | **+6.8739%** | +157 | +22.43 ★/天 |
+| 5 | [anbeime/skill](https://github.com/anbeime/skill) | `Python` | 8,154 | **+5.6218%** | +434 | +62 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **Python** | 140 | 3,988,350 | **+16,746 ★** | +2,637 | +17.16 ★ |
-| 2 | **TypeScript** | 149 | 4,037,525 | **+12,974 ★** | +4,029 | +12.43 ★ |
-| 3 | **Shell** | 52 | 1,147,168 | **+12,498 ★** | +1,831 | +34.32 ★ |
-| 4 | **Rust** | 29 | 1,304,708 | **+9,028 ★** | +848 | +44.45 ★ |
-| 5 | **Java** | 53 | 829,114 | **+8,824 ★** | +1,121 | +23.8 ★ |
-| 6 | **Go** | 87 | 1,882,679 | **+5,618 ★** | +1,733 | +9.24 ★ |
+| 1 | **Python** | 141 | 3,978,316 | **+16,889 ★** | +2,657 | +17.2 ★ |
+| 2 | **TypeScript** | 155 | 4,057,500 | **+13,063 ★** | +3,978 | +12.04 ★ |
+| 3 | **Shell** | 49 | 1,122,851 | **+12,331 ★** | +1,841 | +35.95 ★ |
+| 4 | **Java** | 51 | 812,529 | **+9,020 ★** | +1,142 | +25.28 ★ |
+| 5 | **Rust** | 30 | 1,306,813 | **+8,895 ★** | +858 | +42.37 ★ |
+| 6 | **Go** | 87 | 1,865,037 | **+5,602 ★** | +1,709 | +9.22 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 300 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101612/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101612/LANG_PHP.md) |
-| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026101612/LANG_Python.md) |
-| **TypeScript** | 202 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101612/LANG_TypeScript.md) |
-| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101612/LANG_NaN.md) |
-| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026101612/LANG_Go.md) |
-| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101612/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101612/LANG_Java.md) |
-| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026101612/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101612/LANG_C_.md) |
-| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101612/LANG_C__.md) |
-| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101612/LANG_HTML.md) |
-| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101612/LANG_Vue.md) |
-| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101612/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101612/LANG_Rust.md) |
+| **JavaScript** | 300 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101618/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101618/LANG_PHP.md) |
+| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026101618/LANG_Python.md) |
+| **TypeScript** | 202 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101618/LANG_TypeScript.md) |
+| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101618/LANG_NaN.md) |
+| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026101618/LANG_Go.md) |
+| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101618/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101618/LANG_Java.md) |
+| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026101618/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101618/LANG_C_.md) |
+| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101618/LANG_C__.md) |
+| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101618/LANG_HTML.md) |
+| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101618/LANG_Vue.md) |
+| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101618/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101618/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101612/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101618/ALL.md)
 
 ---
 
@@ -106,23 +106,23 @@
 
 > 以下为知识库最新收录并完成 AI 解析的高价值开源项目：
 
-- [strongswan/strongswan](https://github.com/strongswan/strongswan) ★3005 [`ikev2`] [`ipsec`] [`strongswan`] [`vpn`] [`vpn-client`] [`vpn-server`]  
+- [strongswan/strongswan](https://github.com/strongswan/strongswan) ★3004 [`ikev2`] [`ipsec`] [`strongswan`] [`vpn`] [`vpn-client`] [`vpn-server`]  
   strongSwan 是开源的 IPsec VPN 实现，主要用于在 Linux、Unix 及移动平台上建立站点到站点、远程接入等加密网络连接。它支持 IKEv1 与 IKEv2 密钥交换协议，可作为 VPN 网关或客户端使用，常被用于企业分支机构互联、移动办公安全接入、主机间加密通信以及需要强身份认证与流量保护的场景。项目通常配合内核 IPsec 栈、证书和多种认证方式工作，适合自建 VPN 基础设施、替代商业 VPN 方案，也可作为学习与研究 IPsec/IKE 协议实现的基础代码库。
 - [cyberlesterr/antify-feedback](https://github.com/cyberlesterr/antify-feedback) ★91  
   为 Antify 生态提供反馈收集与展示能力，主要用于在网站或应用中嵌入反馈入口，接收用户意见、问题或建议，方便开发者集中查看与处理。通常适合需要快速搭建反馈渠道、降低沟通成本的小型项目或内部系统，也可作为 Antify 相关项目的配套模块使用。具体实现和集成方式请以仓库实际文档为准。
-- [Bush2021/chrome_plus](https://github.com/Bush2021/chrome_plus) ★2190  
+- [Bush2021/chrome_plus](https://github.com/Bush2021/chrome_plus) ★2191  
   围绕 Chrome 浏览器做功能增强的辅助项目，通常以扩展、用户脚本或配置集合的形式，为默认浏览器补上一些原生未提供的便捷能力，例如标签页与窗口管理、快捷操作、页面元素控制或浏览习惯定制。它更适合希望在不更换浏览器、不安装大量插件的前提下，用轻量方案改善日常上网、资料搜集与开发调试体验的用户，也便于按需挑选其中的单项功能自行组合使用。具体支持范围与安装方式，建议以仓库内的说明文档为准。
 - [Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer) ★1689 [`github-actions`] [`google-chrome`] [`offline-installer`] [`windows`]  
   chrome_installer 为需要在自动化环境中快速获得 Google Chrome 浏览器提供安装辅助，通常通过脚本完成下载、解压、路径配置或注册等步骤，减少手动操作。它适合 CI/CD、自动化测试、爬虫和 Selenium/Playwright 等依赖浏览器运行时的场景，也可在受限系统中作为简化部署的参考。具体支持平台与版本以仓库说明为准，使用时应确认系统架构、依赖和许可要求。
-- [zzp198/Google-Chrome-Portable](https://github.com/zzp198/Google-Chrome-Portable) ★460  
+- [zzp198/Google-Chrome-Portable](https://github.com/zzp198/Google-Chrome-Portable) ★461  
   用于让 Google Chrome 以便携模式运行，无需安装即可直接启动，并将书签、扩展、设置等用户数据保存到指定目录而非系统盘中，便于复制、迁移或随 U 盘携带使用。通常适合在多台 Windows 电脑间切换、公共计算机或受限环境中建立个人浏览器空间，避免在主机上留下使用痕迹或系统残留，也可作为绿色软件集成进日常工具箱。具体操作方式以仓库内说明为准。
-- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19082 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
+- [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19083 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
   BookStack 是一个基于 Web 的知识管理与文档分享平台，旨在通过简洁的界面组织和存储书籍、文档与笔记。它支持层级结构的内容分类，适用于团队协作、个人知识管理或构建文档中心，便于创建、编辑和共享结构化内容。
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13775 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13777 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
   Zettlr 是一款面向学术写作与知识管理的开源 Markdown 编辑器，内置引文管理、PDF 导出、Zotero 集成和双向链接笔记功能，支持 Pandoc 转换文档格式。它适合需要处理长文写作的研究人员、学生和博主，能帮助组织文献资料并构建个人知识库，同时保持纯文本的简洁和跨平台可用性。
 - [md-reader/md-reader](https://github.com/md-reader/md-reader) ★489 [`chrome-extension`] [`extension`] [`markdown`] [`markdown-reader`] [`md-reader`] [`webextension`]  
   用于阅读和渲染 Markdown 格式文档，将纯文本转换为清晰易读的排版页面。通常适合写作场景、代码仓库中 README 文件的查看，以及本地 .md 文件的快速预览。可能具备语法高亮、目录导航、主题切换等辅助功能，帮助用户更高效地浏览技术文档与个人笔记。
-- [Guyungy/damaihelper](https://github.com/Guyungy/damaihelper) ★4258 [`python`] [`rust`] [`vue`]  
+- [Guyungy/damaihelper](https://github.com/Guyungy/damaihelper) ★4261 [`python`] [`rust`] [`vue`]  
   大麦网抢票辅助工具，主要用于演唱会、音乐节等热门演出票务的自动监控与快速抢购。它针对大麦网放票时手速不足、页面卡顿等问题，提供票档选择、自动提交订单和余票提醒等实用功能，适合需要抢购热门演出门票但经常错过的用户。通过简化手动操作流程，在一定程度上提升抢票成功概率。
 - [HnBigVolibear/wps_airscript2.0_online_tool](https://github.com/HnBigVolibear/wps_airscript2.0_online_tool) ★21  
   面向 WPS Office AirScript 2.0 的在线辅助工具，主要帮助用户编写、调试和生成脚本代码，以简化办公文档自动化的流程。通常适合需要批量处理表格、文字或演示文件的场景，让不熟悉脚本语法的用户也能快速上手，提升日常办公效率。
