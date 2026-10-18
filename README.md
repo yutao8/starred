@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-10-18 18:00:18** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-10-19 00:00:15** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101818/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026101900/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 90,487 | **+7,493** | +9.0284% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
-| 2 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 24,515 | **+3,056** | +14.2411% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 295,524 | **+10,357** | +3.6319% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 132,537 | **+2,976** | +2.297% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
-| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | `TypeScript` | 215,847 | **+3,217** | +1.513% | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需… |
+| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 24,734 | **+3,265** | +15.208% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
+| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 90,640 | **+7,468** | +8.979% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 295,871 | **+10,130** | +3.5452% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 132,634 | **+2,987** | +2.3039% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
+| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | `TypeScript` | 216,171 | **+3,486** | +1.639% | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 24,515 | **+14.2411%** | +3,056 | +436.57 ★/天 |
-| 2 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,727 | **+11.2041%** | +174 | +24.86 ★/天 |
-| 3 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 90,487 | **+9.0284%** | +7,493 | +1070.43 ★/天 |
-| 4 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,444 | **+6.8649%** | +157 | +22.43 ★/天 |
-| 5 | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | `Vue` | 6,791 | **+5.6472%** | +363 | +51.86 ★/天 |
+| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 24,734 | **+15.208%** | +3,265 | +466.43 ★/天 |
+| 2 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,739 | **+11.4744%** | +179 | +25.57 ★/天 |
+| 3 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 90,640 | **+8.979%** | +7,468 | +1066.86 ★/天 |
+| 4 | [ProudMuBai/GoFilm](https://github.com/ProudMuBai/GoFilm) | `Go` | 2,445 | **+6.1198%** | +141 | +20.14 ★/天 |
+| 5 | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | `Vue` | 6,803 | **+5.8339%** | +375 | +51.72 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **Python** | 130 | 3,878,470 | **+16,738 ★** | +2,900 | +18.38 ★ |
-| 2 | **TypeScript** | 139 | 3,955,613 | **+14,503 ★** | +3,804 | +14.89 ★ |
-| 3 | **Shell** | 51 | 1,141,668 | **+11,105 ★** | +1,626 | +31.1 ★ |
-| 4 | **Java** | 56 | 841,419 | **+9,224 ★** | +1,183 | +23.53 ★ |
-| 5 | **Rust** | 28 | 1,305,131 | **+8,452 ★** | +803 | +43.12 ★ |
-| 6 | **JavaScript** | 127 | 1,702,284 | **+5,379 ★** | +917 | +6.05 ★ |
+| 1 | **Python** | 131 | 3,864,486 | **+16,470 ★** | +2,937 | +17.94 ★ |
+| 2 | **TypeScript** | 137 | 3,915,925 | **+14,720 ★** | +3,843 | +15.33 ★ |
+| 3 | **Shell** | 44 | 1,099,053 | **+10,839 ★** | +1,601 | +35.2 ★ |
+| 4 | **Java** | 45 | 796,416 | **+9,152 ★** | +1,175 | +29.06 ★ |
+| 5 | **Rust** | 28 | 1,305,435 | **+8,405 ★** | +816 | +42.88 ★ |
+| 6 | **JavaScript** | 127 | 1,701,710 | **+5,602 ★** | +974 | +6.3 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 301 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101818/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101818/LANG_PHP.md) |
-| **Python** | 238 个仓库 | [查看全部 Python 项目 →](data/dist/2026101818/LANG_Python.md) |
-| **TypeScript** | 201 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101818/LANG_TypeScript.md) |
-| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101818/LANG_NaN.md) |
-| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026101818/LANG_Go.md) |
-| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101818/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101818/LANG_Java.md) |
-| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026101818/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101818/LANG_C_.md) |
-| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101818/LANG_C__.md) |
-| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101818/LANG_HTML.md) |
-| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101818/LANG_Vue.md) |
-| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101818/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101818/LANG_Rust.md) |
+| **JavaScript** | 301 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026101900/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026101900/LANG_PHP.md) |
+| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026101900/LANG_Python.md) |
+| **TypeScript** | 201 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026101900/LANG_TypeScript.md) |
+| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026101900/LANG_NaN.md) |
+| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026101900/LANG_Go.md) |
+| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026101900/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026101900/LANG_Java.md) |
+| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026101900/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026101900/LANG_C_.md) |
+| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026101900/LANG_C__.md) |
+| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026101900/LANG_HTML.md) |
+| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026101900/LANG_Vue.md) |
+| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026101900/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026101900/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101818/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026101900/ALL.md)
 
 ---
 
@@ -110,9 +110,9 @@
   strongSwan 是开源的 IPsec VPN 实现，主要用于在 Linux、Unix 及移动平台上建立站点到站点、远程接入等加密网络连接。它支持 IKEv1 与 IKEv2 密钥交换协议，可作为 VPN 网关或客户端使用，常被用于企业分支机构互联、移动办公安全接入、主机间加密通信以及需要强身份认证与流量保护的场景。项目通常配合内核 IPsec 栈、证书和多种认证方式工作，适合自建 VPN 基础设施、替代商业 VPN 方案，也可作为学习与研究 IPsec/IKE 协议实现的基础代码库。
 - [cyberlesterr/antify-feedback](https://github.com/cyberlesterr/antify-feedback) ★91  
   为 Antify 生态提供反馈收集与展示能力，主要用于在网站或应用中嵌入反馈入口，接收用户意见、问题或建议，方便开发者集中查看与处理。通常适合需要快速搭建反馈渠道、降低沟通成本的小型项目或内部系统，也可作为 Antify 相关项目的配套模块使用。具体实现和集成方式请以仓库实际文档为准。
-- [Bush2021/chrome_plus](https://github.com/Bush2021/chrome_plus) ★2194  
+- [Bush2021/chrome_plus](https://github.com/Bush2021/chrome_plus) ★2195  
   围绕 Chrome 浏览器做功能增强的辅助项目，通常以扩展、用户脚本或配置集合的形式，为默认浏览器补上一些原生未提供的便捷能力，例如标签页与窗口管理、快捷操作、页面元素控制或浏览习惯定制。它更适合希望在不更换浏览器、不安装大量插件的前提下，用轻量方案改善日常上网、资料搜集与开发调试体验的用户，也便于按需挑选其中的单项功能自行组合使用。具体支持范围与安装方式，建议以仓库内的说明文档为准。
-- [Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer) ★1690 [`github-actions`] [`google-chrome`] [`offline-installer`] [`windows`]  
+- [Bush2021/chrome_installer](https://github.com/Bush2021/chrome_installer) ★1692 [`github-actions`] [`google-chrome`] [`offline-installer`] [`windows`]  
   chrome_installer 为需要在自动化环境中快速获得 Google Chrome 浏览器提供安装辅助，通常通过脚本完成下载、解压、路径配置或注册等步骤，减少手动操作。它适合 CI/CD、自动化测试、爬虫和 Selenium/Playwright 等依赖浏览器运行时的场景，也可在受限系统中作为简化部署的参考。具体支持平台与版本以仓库说明为准，使用时应确认系统架构、依赖和许可要求。
 - [zzp198/Google-Chrome-Portable](https://github.com/zzp198/Google-Chrome-Portable) ★462  
   用于让 Google Chrome 以便携模式运行，无需安装即可直接启动，并将书签、扩展、设置等用户数据保存到指定目录而非系统盘中，便于复制、迁移或随 U 盘携带使用。通常适合在多台 Windows 电脑间切换、公共计算机或受限环境中建立个人浏览器空间，避免在主机上留下使用痕迹或系统残留，也可作为绿色软件集成进日常工具箱。具体操作方式以仓库内说明为准。
