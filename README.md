@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-10-21 00:00:25** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-10-21 06:00:17** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026102100/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026102106/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 26,465 | **+4,823** | +22.2854% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
-| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 91,979 | **+5,960** | +6.9287% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 298,335 | **+9,193** | +3.1794% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 4 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | `TypeScript` | 218,603 | **+5,444** | +2.554% | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需… |
-| 5 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 133,362 | **+2,884** | +2.2103% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
+| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 26,498 | **+4,817** | +22.2176% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
+| 2 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 92,093 | **+5,837** | +6.7671% | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析… |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 298,575 | **+9,048** | +3.1251% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 4 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | `TypeScript` | 218,825 | **+5,594** | +2.6234% | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需… |
+| 5 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 133,418 | **+2,894** | +2.2172% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 26,465 | **+22.2854%** | +4,823 | +689 ★/天 |
-| 2 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,871 | **+17.0106%** | +272 | +38.86 ★/天 |
-| 3 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 91,979 | **+6.9287%** | +5,960 | +851.43 ★/天 |
-| 4 | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | `Vue` | 6,865 | **+5.8107%** | +377 | +53.86 ★/天 |
-| 5 | [anbeime/skill](https://github.com/anbeime/skill) | `Python` | 8,403 | **+5.4593%** | +435 | +62.14 ★/天 |
+| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 26,498 | **+22.2176%** | +4,817 | +688.14 ★/天 |
+| 2 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 1,874 | **+16.8329%** | +270 | +38.57 ★/天 |
+| 3 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | `Java` | 92,093 | **+6.7671%** | +5,837 | +833.86 ★/天 |
+| 4 | [anbeime/skill](https://github.com/anbeime/skill) | `Python` | 8,414 | **+5.5444%** | +442 | +63.14 ★/天 |
+| 5 | [MoeKoeMusic/MoeKoeMusic](https://github.com/MoeKoeMusic/MoeKoeMusic) | `Vue` | 6,869 | **+5.466%** | +356 | +50.86 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **TypeScript** | 153 | 4,145,826 | **+17,526 ★** | +3,775 | +16.35 ★ |
-| 2 | **Python** | 148 | 3,981,573 | **+16,629 ★** | +3,111 | +16.04 ★ |
-| 3 | **Shell** | 52 | 1,153,859 | **+10,013 ★** | +1,429 | +27.49 ★ |
-| 4 | **Rust** | 29 | 1,310,611 | **+8,663 ★** | +809 | +42.7 ★ |
-| 5 | **Java** | 54 | 808,426 | **+7,685 ★** | +1,011 | +20.33 ★ |
-| 6 | **JavaScript** | 160 | 1,817,836 | **+7,033 ★** | +1,113 | +6.27 ★ |
+| 1 | **TypeScript** | 148 | 4,137,908 | **+17,276 ★** | +1,802 | +16.68 ★ |
+| 2 | **Python** | 142 | 3,958,951 | **+16,372 ★** | +2,518 | +16.48 ★ |
+| 3 | **Shell** | 49 | 1,132,057 | **+9,810 ★** | +855 | +28.61 ★ |
+| 4 | **Rust** | 28 | 1,309,321 | **+8,447 ★** | +812 | +43.09 ★ |
+| 5 | **Java** | 55 | 838,090 | **+7,527 ★** | +915 | +19.56 ★ |
+| 6 | **JavaScript** | 155 | 1,788,895 | **+6,965 ★** | +1,063 | +6.41 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 299 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026102100/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026102100/LANG_PHP.md) |
-| **Python** | 238 个仓库 | [查看全部 Python 项目 →](data/dist/2026102100/LANG_Python.md) |
-| **TypeScript** | 202 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026102100/LANG_TypeScript.md) |
-| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026102100/LANG_NaN.md) |
-| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026102100/LANG_Go.md) |
-| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026102100/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026102100/LANG_Java.md) |
-| **C** | 72 个仓库 | [查看全部 C 项目 →](data/dist/2026102100/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026102100/LANG_C_.md) |
-| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026102100/LANG_C__.md) |
-| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026102100/LANG_HTML.md) |
-| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026102100/LANG_Vue.md) |
-| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026102100/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026102100/LANG_Rust.md) |
+| **JavaScript** | 299 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026102106/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026102106/LANG_PHP.md) |
+| **Python** | 238 个仓库 | [查看全部 Python 项目 →](data/dist/2026102106/LANG_Python.md) |
+| **TypeScript** | 202 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026102106/LANG_TypeScript.md) |
+| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026102106/LANG_NaN.md) |
+| **Go** | 133 个仓库 | [查看全部 Go 项目 →](data/dist/2026102106/LANG_Go.md) |
+| **Shell** | 86 个仓库 | [查看全部 Shell 项目 →](data/dist/2026102106/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026102106/LANG_Java.md) |
+| **C** | 72 个仓库 | [查看全部 C 项目 →](data/dist/2026102106/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026102106/LANG_C_.md) |
+| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026102106/LANG_C__.md) |
+| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026102106/LANG_HTML.md) |
+| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026102106/LANG_Vue.md) |
+| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026102106/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026102106/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026102100/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026102106/ALL.md)
 
 ---
 
@@ -124,7 +124,7 @@
   大麦网抢票辅助工具，主要用于演唱会、音乐节等热门演出票务的自动监控与快速抢购。它针对大麦网放票时手速不足、页面卡顿等问题，提供票档选择、自动提交订单和余票提醒等实用功能，适合需要抢购热门演出门票但经常错过的用户。通过简化手动操作流程，在一定程度上提升抢票成功概率。
 - [HnBigVolibear/wps_airscript2.0_online_tool](https://github.com/HnBigVolibear/wps_airscript2.0_online_tool) ★21  
   面向 WPS Office AirScript 2.0 的在线辅助工具，主要帮助用户编写、调试和生成脚本代码，以简化办公文档自动化的流程。通常适合需要批量处理表格、文字或演示文件的场景，让不熟悉脚本语法的用户也能快速上手，提升日常办公效率。
-- [qarmin/czkawka](https://github.com/qarmin/czkawka) ★34392 [`cleaner`] [`duplicates`] [`multiplatform`] [`optimization`] [`optimizer`] [`rust`] [`similar-images`] [`similar-music`] [`similar-videos`]  
+- [qarmin/czkawka](https://github.com/qarmin/czkawka) ★34398 [`cleaner`] [`duplicates`] [`multiplatform`] [`optimization`] [`optimizer`] [`rust`] [`similar-images`] [`similar-music`] [`similar-videos`]  
   czkawka是一款用Rust编写的跨平台重复文件查找与清理工具，同时提供图形界面和命令行模式，主要用于查找重复文件、相似图片、空目录以及过期临时文件，帮助用户释放磁盘空间。它支持使用多种筛选方式预览和移除冗余内容，适合个人用户或系统管理员在维护大量存储数据时使用，注重运行效率与隐私保护，整体占用资源较低。
 
 ---
