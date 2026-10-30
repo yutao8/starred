@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-10-31 00:00:18** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-10-31 06:00:19** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026103100/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026103106/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 36,577 | **+9,262** | +33.9081% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
-| 2 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,250 | **+1,109** | +51.7982% | SnowLuma 是一个聚焦于冰雪与光照效果的开源项目，主要用于生成或增… |
-| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 307,185 | **+5,606** | +1.8589% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 4 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `Python` | 258,777 | **+2,320** | +0.9046% | Hermes Agent 是 NousResearch 推出的智能体框架… |
-| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | `TypeScript` | 223,225 | **+2,724** | +1.2354% | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需… |
+| 1 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 36,624 | **+9,284** | +33.9576% | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口… |
+| 2 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,260 | **+1,104** | +51.2059% | SnowLuma 是一个聚焦于冰雪与光照效果的开源项目，主要用于生成或增… |
+| 3 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 307,412 | **+5,647** | +1.8713% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 4 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `Python` | 258,865 | **+2,346** | +0.9146% | Hermes Agent 是 NousResearch 推出的智能体框架… |
+| 5 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | `TypeScript` | 223,306 | **+2,714** | +1.2303% | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,250 | **+51.7982%** | +1,109 | +158.43 ★/天 |
-| 2 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 36,577 | **+33.9081%** | +9,262 | +1323.14 ★/天 |
-| 3 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | `TypeScript` | 12,715 | **+8.4805%** | +994 | +142 ★/天 |
-| 4 | [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ) | `TypeScript` | 12,026 | **+6.0962%** | +691 | +98.71 ★/天 |
-| 5 | [mg-chao/snow-apps](https://github.com/mg-chao/snow-shot) | `C++` | 6,482 | **+4.9037%** | +303 | +43.29 ★/天 |
+| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,260 | **+51.2059%** | +1,104 | +157.71 ★/天 |
+| 2 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 36,624 | **+33.9576%** | +9,284 | +1326.29 ★/天 |
+| 3 | [humanlayer/humanlayer](https://github.com/humanlayer/humanlayer) | `TypeScript` | 12,721 | **+8.4762%** | +994 | +142 ★/天 |
+| 4 | [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ) | `TypeScript` | 12,029 | **+5.9824%** | +679 | +97 ★/天 |
+| 5 | [AstrBotDevs/AstrBot](https://github.com/AstrBotDevs/AstrBot) | `Python` | 45,075 | **+4.8353%** | +2,079 | +297 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **TypeScript** | 154 | 4,192,860 | **+18,541 ★** | +-259 | +17.42 ★ |
-| 2 | **Python** | 137 | 3,990,006 | **+17,874 ★** | +2,928 | +18.62 ★ |
-| 3 | **JavaScript** | 156 | 1,848,220 | **+11,820 ★** | +1,480 | +10.81 ★ |
-| 4 | **Rust** | 28 | 1,318,755 | **+8,546 ★** | +1,156 | +43.61 ★ |
-| 5 | **Shell** | 61 | 1,208,520 | **+6,750 ★** | +-164 | +15.79 ★ |
-| 6 | **Go** | 92 | 1,917,960 | **+5,925 ★** | +353 | +9.21 ★ |
+| 1 | **TypeScript** | 153 | 4,169,306 | **+18,613 ★** | +-9 | +17.55 ★ |
+| 2 | **Python** | 146 | 4,028,636 | **+18,002 ★** | +2,993 | +17.59 ★ |
+| 3 | **JavaScript** | 161 | 1,890,606 | **+11,845 ★** | +1,516 | +10.5 ★ |
+| 4 | **Rust** | 28 | 1,319,108 | **+8,737 ★** | +1,198 | +44.53 ★ |
+| 5 | **Shell** | 62 | 1,201,789 | **+6,861 ★** | +-81 | +15.8 ★ |
+| 6 | **Go** | 95 | 1,941,791 | **+6,002 ★** | +445 | +9.01 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 298 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026103100/LANG_JavaScript.md) |
-| **PHP** | 285 个仓库 | [查看全部 PHP 项目 →](data/dist/2026103100/LANG_PHP.md) |
-| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026103100/LANG_Python.md) |
-| **TypeScript** | 204 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026103100/LANG_TypeScript.md) |
-| **NaN** | 166 个仓库 | [查看全部 NaN 项目 →](data/dist/2026103100/LANG_NaN.md) |
-| **Go** | 134 个仓库 | [查看全部 Go 项目 →](data/dist/2026103100/LANG_Go.md) |
-| **Shell** | 87 个仓库 | [查看全部 Shell 项目 →](data/dist/2026103100/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026103100/LANG_Java.md) |
-| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026103100/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026103100/LANG_C_.md) |
-| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026103100/LANG_C__.md) |
-| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026103100/LANG_HTML.md) |
-| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026103100/LANG_Vue.md) |
-| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026103100/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026103100/LANG_Rust.md) |
+| **JavaScript** | 298 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026103106/LANG_JavaScript.md) |
+| **PHP** | 285 个仓库 | [查看全部 PHP 项目 →](data/dist/2026103106/LANG_PHP.md) |
+| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026103106/LANG_Python.md) |
+| **TypeScript** | 204 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026103106/LANG_TypeScript.md) |
+| **NaN** | 166 个仓库 | [查看全部 NaN 项目 →](data/dist/2026103106/LANG_NaN.md) |
+| **Go** | 134 个仓库 | [查看全部 Go 项目 →](data/dist/2026103106/LANG_Go.md) |
+| **Shell** | 87 个仓库 | [查看全部 Shell 项目 →](data/dist/2026103106/LANG_Shell.md) |
+| **Java** | 77 个仓库 | [查看全部 Java 项目 →](data/dist/2026103106/LANG_Java.md) |
+| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026103106/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026103106/LANG_C_.md) |
+| **C++** | 62 个仓库 | [查看全部 C++ 项目 →](data/dist/2026103106/LANG_C__.md) |
+| **HTML** | 59 个仓库 | [查看全部 HTML 项目 →](data/dist/2026103106/LANG_HTML.md) |
+| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026103106/LANG_Vue.md) |
+| **Kotlin** | 36 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026103106/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026103106/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026103100/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026103106/ALL.md)
 
 ---
 
@@ -106,9 +106,9 @@
 
 > 以下为知识库最新收录并完成 AI 解析的高价值开源项目：
 
-- [getpaseo/paseo](https://github.com/getpaseo/paseo) ★22518 [`ade`] [`agents`] [`android`] [`claude-code`] [`codex`] [`copilot`] [`developer-tools`] [`hermes`] [`ios`] [`linux`] [`mobile`] [`opencode`] [`orchestration`] [`pi`] [`windows`]  
+- [getpaseo/paseo](https://github.com/getpaseo/paseo) ★22535 [`ade`] [`agents`] [`android`] [`claude-code`] [`codex`] [`copilot`] [`developer-tools`] [`hermes`] [`ios`] [`linux`] [`mobile`] [`opencode`] [`orchestration`] [`pi`] [`windows`]  
   paseo 一名取自西班牙语“散步、漫步”，该仓库据此命名，公开信息对其具体功能着墨不多，因此更稳妥的理解是面向步行、出行或移动场景的实验性开源项目，也可能用于相关工具与示例的整理。它适合想了解该命名下项目定位、评估能否用于导航或出行类应用的开发者参考，实际功能、技术栈与接入方式需以仓库 README、源码和发布记录为准。
-- [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) ★9806 [`cff`] [`cff2`] [`cjk`] [`font`] [`opentype`] [`otc`] [`otf`] [`source-han`] [`variable-fonts`]  
+- [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) ★9807 [`cff`] [`cff2`] [`cjk`] [`font`] [`opentype`] [`otc`] [`otf`] [`source-han`] [`variable-fonts`]  
   Adobe 主导开发的开源泛中日韩衬线字体家族，覆盖简体中文、繁体中文、日文、韩文等多种字形标准，并提供 ExtraLight 到 Heavy 等多个字重，主要用于网页、电子书、印刷出版及应用程序中的正文排版。它适合需要统一多语言字体风格、可自由嵌入与再分发、并追求较高可读性的项目，常被用于替代商业字体或作为开源排版方案的基础字体。
 - [strongswan/strongswan](https://github.com/strongswan/strongswan) ★3013 [`ikev2`] [`ipsec`] [`strongswan`] [`vpn`] [`vpn-client`] [`vpn-server`]  
   strongSwan 是开源的 IPsec VPN 实现，主要用于在 Linux、Unix 及移动平台上建立站点到站点、远程接入等加密网络连接。它支持 IKEv1 与 IKEv2 密钥交换协议，可作为 VPN 网关或客户端使用，常被用于企业分支机构互联、移动办公安全接入、主机间加密通信以及需要强身份认证与流量保护的场景。项目通常配合内核 IPsec 栈、证书和多种认证方式工作，适合自建 VPN 基础设施、替代商业 VPN 方案，也可作为学习与研究 IPsec/IKE 协议实现的基础代码库。
@@ -122,7 +122,7 @@
   用于让 Google Chrome 以便携模式运行，无需安装即可直接启动，并将书签、扩展、设置等用户数据保存到指定目录而非系统盘中，便于复制、迁移或随 U 盘携带使用。通常适合在多台 Windows 电脑间切换、公共计算机或受限环境中建立个人浏览器空间，避免在主机上留下使用痕迹或系统残留，也可作为绿色软件集成进日常工具箱。具体操作方式以仓库内说明为准。
 - [BookStackApp/BookStack](https://github.com/BookStackApp/BookStack) ★19117 [`bookstack`] [`documentation`] [`laravel`] [`php`] [`selfhosted`] [`wiki`]  
   BookStack 是一个基于 Web 的知识管理与文档分享平台，旨在通过简洁的界面组织和存储书籍、文档与笔记。它支持层级结构的内容分类，适用于团队协作、个人知识管理或构建文档中心，便于创建、编辑和共享结构化内容。
-- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13838 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
+- [Zettlr/Zettlr](https://github.com/Zettlr/Zettlr) ★13840 [`desktop`] [`docx`] [`electron`] [`html`] [`languages`] [`libreoffice`] [`linux`] [`macos`] [`markdown`] [`nodejs`] [`office`] [`offline`] [`pandoc`] [`pdf`] [`productivity`] [`windows`] [`zettlr`]  
   Zettlr 是一款面向学术写作与知识管理的开源 Markdown 编辑器，内置引文管理、PDF 导出、Zotero 集成和双向链接笔记功能，支持 Pandoc 转换文档格式。它适合需要处理长文写作的研究人员、学生和博主，能帮助组织文献资料并构建个人知识库，同时保持纯文本的简洁和跨平台可用性。
 - [md-reader/md-reader](https://github.com/md-reader/md-reader) ★500 [`chrome-extension`] [`extension`] [`markdown`] [`markdown-reader`] [`md-reader`] [`webextension`]  
   用于阅读和渲染 Markdown 格式文档，将纯文本转换为清晰易读的排版页面。通常适合写作场景、代码仓库中 README 文件的查看，以及本地 .md 文件的快速预览。可能具备语法高亮、目录导航、主题切换等辅助功能，帮助用户更高效地浏览技术文档与个人笔记。
