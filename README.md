@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,000+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-11-07 00:00:21** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-11-07 06:00:17** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026110700/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026110706/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 316,312 | **+9,127** | +2.9712% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 2 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 140,134 | **+3,644** | +2.6698% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
-| 3 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,735 | **+485** | +14.9231% | SnowLuma 是一个聚焦于冰雪与光照效果的开源项目，主要用于生成或增… |
-| 4 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 98,042 | **+2,800** | +2.9399% | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询… |
-| 5 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `Python` | 261,097 | **+2,320** | +0.8965% | Hermes Agent 是 NousResearch 推出的智能体框架… |
+| 1 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 316,619 | **+9,207** | +2.995% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 2 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 140,234 | **+3,648** | +2.6708% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
+| 3 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 98,343 | **+3,078** | +3.231% | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询… |
+| 4 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,744 | **+484** | +14.8466% | SnowLuma 是一个聚焦于冰雪与光照效果的开源项目，主要用于生成或增… |
+| 5 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | `Python` | 261,185 | **+2,320** | +0.8962% | Hermes Agent 是 NousResearch 推出的智能体框架… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,735 | **+14.9231%** | +485 | +69.29 ★/天 |
-| 2 | [AlkaidLab/foundation-sunshine](https://github.com/qiin2333/Sunshine-Foundation) | `C++` | 7,799 | **+5.6346%** | +416 | +59.43 ★/天 |
-| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 38,208 | **+4.4591%** | +1,631 | +233 ★/天 |
-| 4 | [songloft-org/songloft](https://github.com/songloft-org/songloft) | `Go` | 2,155 | **+4.207%** | +87 | +12.43 ★/天 |
-| 5 | [spacering-net/codeg](https://github.com/xintaofei/codeg) | `Rust` | 4,373 | **+3.5275%** | +149 | +21.29 ★/天 |
+| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,744 | **+14.8466%** | +484 | +69.14 ★/天 |
+| 2 | [AlkaidLab/foundation-sunshine](https://github.com/qiin2333/Sunshine-Foundation) | `C++` | 7,802 | **+5.6323%** | +416 | +59.43 ★/天 |
+| 3 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 38,247 | **+4.4315%** | +1,623 | +231.86 ★/天 |
+| 4 | [songloft-org/songloft](https://github.com/songloft-org/songloft) | `Go` | 2,156 | **+4.2553%** | +88 | +12.14 ★/天 |
+| 5 | [mg-chao/snow-apps](https://github.com/mg-chao/snow-shot) | `C++` | 6,710 | **+3.4695%** | +225 | +32.14 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **Python** | 159 | 4,079,549 | **+21,378 ★** | +3,370 | +19.22 ★ |
-| 2 | **TypeScript** | 160 | 4,194,500 | **+14,220 ★** | +-261 | +12.7 ★ |
-| 3 | **Shell** | 67 | 1,233,187 | **+10,032 ★** | +-40 | +21.4 ★ |
-| 4 | **Rust** | 30 | 1,331,437 | **+8,703 ★** | +1,117 | +41.44 ★ |
-| 5 | **Go** | 107 | 1,984,745 | **+5,298 ★** | +259 | +7.06 ★ |
-| 6 | **Other** | 96 | 2,132,437 | **+4,667 ★** | +310 | +6.95 ★ |
+| 1 | **Python** | 153 | 4,188,747 | **+21,843 ★** | +3,415 | +20.41 ★ |
+| 2 | **TypeScript** | 157 | 4,170,885 | **+14,127 ★** | +-323 | +12.87 ★ |
+| 3 | **Shell** | 65 | 1,231,109 | **+10,039 ★** | +-49 | +22.11 ★ |
+| 4 | **Rust** | 30 | 1,331,868 | **+8,781 ★** | +1,073 | +41.83 ★ |
+| 5 | **Go** | 107 | 1,981,176 | **+5,232 ★** | +224 | +7 ★ |
+| 6 | **Other** | 95 | 2,123,240 | **+4,618 ★** | +293 | +6.98 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 297 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026110700/LANG_JavaScript.md) |
-| **PHP** | 285 个仓库 | [查看全部 PHP 项目 →](data/dist/2026110700/LANG_PHP.md) |
-| **Python** | 237 个仓库 | [查看全部 Python 项目 →](data/dist/2026110700/LANG_Python.md) |
-| **TypeScript** | 205 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026110700/LANG_TypeScript.md) |
-| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026110700/LANG_NaN.md) |
-| **Go** | 134 个仓库 | [查看全部 Go 项目 →](data/dist/2026110700/LANG_Go.md) |
-| **Shell** | 88 个仓库 | [查看全部 Shell 项目 →](data/dist/2026110700/LANG_Shell.md) |
-| **Java** | 76 个仓库 | [查看全部 Java 项目 →](data/dist/2026110700/LANG_Java.md) |
-| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026110700/LANG_C.md) |
-| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026110700/LANG_C_.md) |
-| **C++** | 63 个仓库 | [查看全部 C++ 项目 →](data/dist/2026110700/LANG_C__.md) |
-| **HTML** | 58 个仓库 | [查看全部 HTML 项目 →](data/dist/2026110700/LANG_HTML.md) |
-| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026110700/LANG_Vue.md) |
-| **Kotlin** | 37 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026110700/LANG_Kotlin.md) |
-| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026110700/LANG_Rust.md) |
+| **JavaScript** | 297 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026110706/LANG_JavaScript.md) |
+| **PHP** | 285 个仓库 | [查看全部 PHP 项目 →](data/dist/2026110706/LANG_PHP.md) |
+| **Python** | 238 个仓库 | [查看全部 Python 项目 →](data/dist/2026110706/LANG_Python.md) |
+| **TypeScript** | 205 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026110706/LANG_TypeScript.md) |
+| **NaN** | 165 个仓库 | [查看全部 NaN 项目 →](data/dist/2026110706/LANG_NaN.md) |
+| **Go** | 134 个仓库 | [查看全部 Go 项目 →](data/dist/2026110706/LANG_Go.md) |
+| **Shell** | 88 个仓库 | [查看全部 Shell 项目 →](data/dist/2026110706/LANG_Shell.md) |
+| **Java** | 76 个仓库 | [查看全部 Java 项目 →](data/dist/2026110706/LANG_Java.md) |
+| **C** | 73 个仓库 | [查看全部 C 项目 →](data/dist/2026110706/LANG_C.md) |
+| **C#** | 64 个仓库 | [查看全部 C# 项目 →](data/dist/2026110706/LANG_C_.md) |
+| **C++** | 63 个仓库 | [查看全部 C++ 项目 →](data/dist/2026110706/LANG_C__.md) |
+| **HTML** | 58 个仓库 | [查看全部 HTML 项目 →](data/dist/2026110706/LANG_HTML.md) |
+| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026110706/LANG_Vue.md) |
+| **Kotlin** | 37 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026110706/LANG_Kotlin.md) |
+| **Rust** | 35 个仓库 | [查看全部 Rust 项目 →](data/dist/2026110706/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026110700/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026110706/ALL.md)
 
 ---
 
@@ -106,13 +106,13 @@
 
 > 以下为知识库最新收录并完成 AI 解析的高价值开源项目：
 
-- [mayukh4/linux-android](https://github.com/mayukh4/linux-android) ★3848 [`adreno`] [`android`] [`bash-script`] [`desktop-environment`] [`gpu-acceleration`] [`home-assistant`] [`kde-plasma`] [`linux`] [`linux-on-android`] [`lxqt`] [`mesa`] [`no-root`] [`proot-distro`] [`self-hosted`] [`smart-home`] [`termux`] [`termux-x11`] [`turnip`] [`vulkan`] [`xfce`]  
+- [mayukh4/linux-android](https://github.com/mayukh4/linux-android) ★3850 [`adreno`] [`android`] [`bash-script`] [`desktop-environment`] [`gpu-acceleration`] [`home-assistant`] [`kde-plasma`] [`linux`] [`linux-on-android`] [`lxqt`] [`mesa`] [`no-root`] [`proot-distro`] [`self-hosted`] [`smart-home`] [`termux`] [`termux-x11`] [`turnip`] [`vulkan`] [`xfce`]  
   linux-android 主要面向在 Android 设备上搭建、运行或试验 Linux 环境的需求，仓库名表明其内容围绕 Linux 与 Android 的结合，可能包含配置说明、脚本或辅助资源，适合想探索移动设备上 Linux 使用方式、进行跨系统实验或学习相关配置的用户参考，具体支持范围需以仓库实际文件为准。
 - [star-history/star-history](https://github.com/star-history/star-history) ★9699 [`github`] [`github-star`] [`github-star-history`] [`github-trending`] [`graph`] [`history`] [`star`] [`star-history`]  
   用于查看和对比 GitHub 仓库 Star 增长趋势，通过仓库地址生成时间序列曲线，帮助开发者观察项目热度变化、比较同类项目的受欢迎程度，并便于在文章、演示或社交分享中展示。通常适合开源项目维护者、技术选型者和关注社区趋势的人使用，也可作为项目介绍与传播的辅助素材。
-- [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) ★46826  
+- [zhongyang219/TrafficMonitor](https://github.com/zhongyang219/TrafficMonitor) ★46830  
   TrafficMonitor 是面向 Windows 的轻量系统监控工具，主要用于在任务栏或桌面悬浮窗中实时查看网络上下行速度、CPU 与内存占用等状态信息，并提供历史流量统计、外观皮肤和显示项自定义等常用功能。它适合需要长期监控电脑资源与网络状况、排查卡顿或带宽异常的用户，也方便在游戏、下载、远程办公等场景中随时掌握运行状态。
-- [getpaseo/paseo](https://github.com/getpaseo/paseo) ★23288 [`ade`] [`agents`] [`android`] [`claude-code`] [`codex`] [`copilot`] [`developer-tools`] [`hermes`] [`ios`] [`linux`] [`mobile`] [`opencode`] [`orchestration`] [`pi`] [`windows`]  
+- [getpaseo/paseo](https://github.com/getpaseo/paseo) ★23313 [`ade`] [`agents`] [`android`] [`claude-code`] [`codex`] [`copilot`] [`developer-tools`] [`hermes`] [`ios`] [`linux`] [`mobile`] [`opencode`] [`orchestration`] [`pi`] [`windows`]  
   paseo 一名取自西班牙语“散步、漫步”，该仓库据此命名，公开信息对其具体功能着墨不多，因此更稳妥的理解是面向步行、出行或移动场景的实验性开源项目，也可能用于相关工具与示例的整理。它适合想了解该命名下项目定位、评估能否用于导航或出行类应用的开发者参考，实际功能、技术栈与接入方式需以仓库 README、源码和发布记录为准。
 - [adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif) ★9824 [`cff`] [`cff2`] [`cjk`] [`font`] [`opentype`] [`otc`] [`otf`] [`source-han`] [`variable-fonts`]  
   Adobe 主导开发的开源泛中日韩衬线字体家族，覆盖简体中文、繁体中文、日文、韩文等多种字形标准，并提供 ExtraLight 到 Heavy 等多个字重，主要用于网页、电子书、印刷出版及应用程序中的正文排版。它适合需要统一多语言字体风格、可自由嵌入与再分发、并追求较高可读性的项目，常被用于替代商业字体或作为开源排版方案的基础字体。
