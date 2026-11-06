@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-06 18:00:14",
+    "updated_at": "2026-11-07 00:00:18",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -664,7 +664,8 @@
         "2026110600": true,
         "2026110606": true,
         "2026110612": true,
-        "2026110618": true
+        "2026110618": true,
+        "2026110700": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -6787,7 +6788,13 @@
         "meta\/docusaurus": 94911145,
         "zhongyang219\/trafficmonitor": 98771110,
         "trafficmonitor": 98771110,
-        "98771110": 98771110
+        "98771110": 98771110,
+        "star-history\/star-history": 42976210,
+        "star-history": 42976210,
+        "42976210": 42976210,
+        "mayukh4\/linux-android": 1170184328,
+        "linux-android": 1170184328,
+        "1170184328": 1170184328
     },
     "repos_meta": {
         "13491895": {
@@ -16969,7 +16976,17 @@
             "id": 98771110,
             "full_name": "zhongyang219\/TrafficMonitor",
             "file": "data\/repos\/98771110.json"
+        },
+        "42976210": {
+            "id": 42976210,
+            "full_name": "star-history\/star-history",
+            "file": "data\/repos\/42976210.json"
+        },
+        "1170184328": {
+            "id": 1170184328,
+            "full_name": "mayukh4\/linux-android",
+            "file": "data\/repos\/1170184328.json"
         }
     },
-    "snapshot_count": 663
+    "snapshot_count": 664
 }
