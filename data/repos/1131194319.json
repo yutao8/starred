@@ -6,16 +6,16 @@
         "name": "rebased",
         "html_url": "https:\/\/github.com\/DetachHead\/rebased",
         "language": "Java",
-        "description": "面向 Python 的数据结构增强库，提供可变与不可变两种版本的对象及容器封装，用来替代或补充内置的 dataclass、dict、list 等，使模型对象在赋值、比较、哈希和打印时表现更符合直觉。它强调递归不可变与显式可变两种语义的区分，适合配置、领域模型、跨模块传递参数等需要防止意外修改、减少防御性拷贝的场景，并尽量与静态类型检查配合使用。通常适合希望以更严格方式组织 Python 数据结构、又不想引入重量级框架的项目。"
+        "description": "DetachHead\/rebased 通常适合围绕 Git 变基与分支维护场景使用，仓库名暗示其可能涉及将本地改动迁移到新基线、整理提交历史或维护基于上游的衍生版本。典型用途包括在多人协作中减少手工 rebase 冲突、保持长期分支与上游同步，以及规范代码历史整理流程。由于具体实现需以仓库文档为准，使用前建议查看 README 和示例，确认它提供的是命令行工具、脚本还是库，并了解其支持的工作流与限制。适合希望降低变基操作成本、提升分支管理效率的开发者参考。"
     },
     "summary": {
         "initial_stars": 6440,
-        "current_stars": 6440,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 6442,
+        "star_diff": 2,
+        "growth_rate": 0.03,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 6440,
             "forks": 260,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 6442,
+            "forks": 261,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

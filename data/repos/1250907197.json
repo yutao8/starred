@@ -6,16 +6,16 @@
         "name": "PaperTodo",
         "html_url": "https:\/\/github.com\/snownico0722\/PaperTodo",
         "language": "C#",
-        "description": "PaperTodo 面向轻量级待办事项管理，从仓库命名看，它倾向于用纸张般的简洁界面记录和整理每日任务，帮助用户把零散事项汇总成可勾选、可回顾的清单。它通常适合个人日常安排、学习计划或临时任务记录，重点在于快速添加和低干扰的查看体验，而不是复杂的项目协作与流程管理。若需了解具体技术栈、数据存储方式和已实现的功能范围，应以仓库中的源码与说明为准。"
+        "description": "PaperTodo 主要用于待办事项的记录与整理，帮助用户以简洁的清单形式管理日常任务、跟踪完成进度，适合个人规划、学习安排和轻量级任务管理等场景。从项目命名看，它可能强调接近纸笔清单的直观使用体验；具体功能、交互方式和技术栈需以仓库文档与源码为准。"
     },
     "summary": {
         "initial_stars": 2699,
-        "current_stars": 2699,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 2705,
+        "star_diff": 6,
+        "growth_rate": 0.22,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 2699,
             "forks": 142,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 2705,
+            "forks": 142,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

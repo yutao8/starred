@@ -6,7 +6,7 @@
         "name": "web-dashboard",
         "html_url": "https:\/\/github.com\/android-sms-gateway\/web-dashboard",
         "language": "Go",
-        "description": "android-sms-gateway\/web-dashboard 提供面向 Android 短信网关的网页管理界面，主要用于在浏览器中连接并管理短信网关服务，查看设备与短信发送状态，执行发送短信、查看消息记录等日常操作。它通常适合自建短信通道、通知推送、验证码或业务消息发送等场景，帮助用户以可视化方式完成网关配置与运行监控，减少命令行操作成本。具体功能与部署方式以仓库文档为准。"
+        "description": "android-sms-gateway\/web-dashboard 为 Android SMS Gateway 提供基于浏览器的管理界面，用于配合把安卓手机当作短信发送通道的自建服务。通常可在网页端发送短信、查看消息记录与发送状态、管理接入设备及访问凭据，从而省去直接调用 HTTP 接口的麻烦。适合需要在自有服务器上搭建短信通知或验证码通道、又希望有可视化操作与监控能力的团队和个人开发者，使用时一般与网关后端服务一同部署。"
     },
     "summary": {
         "initial_stars": 4,

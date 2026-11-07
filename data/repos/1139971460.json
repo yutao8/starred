@@ -6,16 +6,16 @@
         "name": "rtk",
         "html_url": "https:\/\/github.com\/rtk-ai\/rtk",
         "language": "Rust",
-        "description": "rtk-ai\/rtk 是 rtk-ai 组织下的 RTK 项目，从命名看面向 AI 相关开发场景，通常用于提供可复用的工具、组件或集成能力，帮助开发者在应用中接入和实验 AI 功能。它更适合作为 AI 项目的基础依赖或辅助工具，而不是完整的终端产品；具体支持范围、接口和使用方式应以仓库文档与示例为准。若你正在评估 AI 工具链选型，可将其列入候选，并结合实际需求验证兼容性与维护活跃度。"
+        "description": "围绕 RTK（实时动态差分定位）的开源项目，主要用于高精度 GNSS 定位数据的处理与实验，探索将 AI 方法引入定位解算、质量评估与异常数据剔除等环节。通常适合无人机、农机导航、测量测绘等需要厘米级定位的场景，也可供研究 RTK 算法与定位数据流程时参考。具体功能范围与使用方式建议以仓库文档和示例为准。"
     },
     "summary": {
         "initial_stars": 85775,
-        "current_stars": 85775,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 85787,
+        "star_diff": 12,
+        "growth_rate": 0.01,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 85775,
             "forks": 5492,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 85787,
+            "forks": 5493,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "wxapkg",
         "html_url": "https:\/\/github.com\/wux1an\/wxapkg",
         "language": "Vue",
-        "description": "用于解包和还原微信小程序 wxapkg 包，可以把小程序的编译产物还原成接近源码的目录结构，便于阅读、学习和安全审计。它通常支持扫描本机微信缓存中遗留的 wxapkg 文件，也支持指定文件或目录进行批量解包，并对还原出的 WXML、WXSS、JSON 等文件做格式化、分包合并等整理工作。适合小程序开发者分析运行机制、排查兼容问题，也适合安全研究人员在获得授权的前提下检查小程序的资源与逻辑。使用时应遵守相关法律法规和平台协议，仅处理自己有权分析的内容。"
+        "description": "用于扫描、解密并解包微信小程序 .wxapkg 包的命令行工具，可在 Windows 与 macOS 上定位微信客户端缓存的小程序包，将其还原为包含配置、页面结构与样式资源的目录树，并支持对部分产物做进一步反编译处理。典型场景是安全研究、竞品分析与学习小程序实现方式，也适合排查包体积与资源构成问题；使用时应遵守相关法律法规与平台协议，仅处理自己有权分析的包。"
     },
     "summary": {
         "initial_stars": 4357,
-        "current_stars": 4357,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 4359,
+        "star_diff": 2,
+        "growth_rate": 0.05,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 4357,
             "forks": 890,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 4359,
+            "forks": 890,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

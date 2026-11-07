@@ -6,16 +6,16 @@
         "name": "FuckClaude",
         "html_url": "https:\/\/github.com\/LinXiaoTao\/FuckClaude",
         "language": "TypeScript",
-        "description": "LinXiaoTao\/FuckClaude 围绕 Anthropic Claude 展开，从仓库命名看带有明显的戏谑色彩，主要面向 Claude 使用过程中的限制或体验问题，可能涉及调用方式、提示词处理或客户端封装等方向，通常适合开发者做小范围尝试与技术验证。由于公开信息有限，其具体能力、实现方式和适用边界需以仓库 README 与代码为准，不建议在未经验证的情况下直接用于生产环境。"
+        "description": "围绕 Claude 大模型的实验性仓库，从命名推测主要用于记录提示词对抗、使用限制测试或非官方调用方式的尝试，适合关注提示词工程与模型边界探索的开发者参考。由于缺少公开的项目说明，具体功能、实现细节与适用范围需以仓库源码为准，不建议在生产环境中直接依赖。"
     },
     "summary": {
         "initial_stars": 1151,
-        "current_stars": 1151,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 1152,
+        "star_diff": 1,
+        "growth_rate": 0.09,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 1151,
             "forks": 106,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 1152,
+            "forks": 106,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

@@ -6,7 +6,7 @@
         "name": "agent-client-protocol",
         "html_url": "https:\/\/github.com\/agentclientprotocol\/agent-client-protocol",
         "language": "Rust",
-        "description": "Agent Client Protocol 定义 AI 编码代理与编辑器、IDE 等客户端之间的通用通信协议，使不同代理能够以统一方式接入各类开发工具，而不必为每个客户端单独适配。其典型场景包括在编辑器中调用代理完成代码生成、重构、问答与多轮任务协作，并把代理的运行状态和结果回传给客户端。该协议通常适合需要跨工具复用代理能力、降低集成成本的开发者和工具厂商参考实现。"
+        "description": "Agent Client Protocol 定义 AI 智能体与客户端应用之间的标准化交互方式，重点解决不同编辑器、IDE 或其他宿主工具接入智能体时接口不统一、重复适配的问题。它通常通过明确的消息与能力约定，让客户端以一致方式发起会话、传递上下文并接收智能体响应，同时让智能体实现可被多个前端复用。适合需要把编码助手或自动化智能体集成到多种客户端、并希望保持协议层解耦的开发者参考和采用。"
     },
     "summary": {
         "initial_stars": 4591,

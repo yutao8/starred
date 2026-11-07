@@ -6,7 +6,7 @@
         "name": "frp-panel",
         "html_url": "https:\/\/github.com\/VaalaCat\/frp-panel",
         "language": "TypeScript",
-        "description": "frp-panel 是面向 frp 内网穿透工具的 Web 管理面板，通过可视化界面替代手动编辑 frp 配置文件，主要用于集中管理 frp 服务端与客户端。它通常提供节点管理、代理配置和状态查看等功能，降低搭建与维护内网穿透服务的门槛，适合个人或小团队在多台服务器上部署 frp 后，需要统一操作并快速新增或调整穿透规则的场景。使用前一般需要自行准备 frp 运行环境和服务器资源。"
+        "description": "frp-panel 为 frp 内网穿透提供 Web 可视化管理界面，主要用于集中管理多个 frps 服务端和 frpc 客户端节点，通过浏览器完成配置下发、隧道规则维护与运行状态查看，减少手动编辑配置文件的负担。适合自建穿透服务、多台服务器与内网设备需要统一纳管的场景，通常配合 frp 生态部署，帮助运维人员更直观地掌握节点连接和流量情况。"
     },
     "summary": {
         "initial_stars": 1872,
@@ -14,8 +14,8 @@
         "star_diff": 0,
         "growth_rate": 0,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 1872,
             "forks": 176,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 1872,
+            "forks": 177,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

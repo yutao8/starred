@@ -6,16 +6,16 @@
         "name": "wechat-acp",
         "html_url": "https:\/\/github.com\/formulahendry\/wechat-acp",
         "language": "TypeScript",
-        "description": "围绕微信与 ACP（Agent Communication Protocol）构建的集成项目，主要用于把微信侧的消息收发接入 AI Agent 或自动化工作流。通常适合需要让智能体通过微信与用户交互、或为微信生态补充标准协议适配的场景，帮助开发者验证微信消息通道与 Agent 服务之间的连接方式。具体接口、配置与部署方式以仓库文档为准。"
+        "description": "把微信接入 ACP（Agent Client Protocol）生态的桥接工具，用于在微信聊天中与支持 ACP 的 AI 代理交互，将微信消息转换为代理可处理的请求并回传结果，从而以微信作为轻量入口远程触发和跟进 AI 编码或自动化任务，例如在手机上查看进度、补充指令，省去守在电脑前操作客户端的麻烦。适合希望把本地或远程 agent 接到微信里的开发者，具体支持范围、连接方式和配置步骤需以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 850,
-        "current_stars": 850,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 851,
+        "star_diff": 1,
+        "growth_rate": 0.12,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 850,
             "forks": 109,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 851,
+            "forks": 109,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

@@ -6,16 +6,16 @@
         "name": "aerial-tv",
         "html_url": "https:\/\/github.com\/pengchujin\/aerial-tv",
         "language": "Kotlin",
-        "description": "面向电视大屏场景的开源项目，核心围绕 Aerial 航拍视频资源展开，通常用于在本地或非 Apple TV 设备上浏览、整理和播放 Apple TV 风格的航拍屏保素材，适合希望复用这些高清视频作为屏保、展示背景或家庭影院视觉内容的用户；具体功能范围、支持平台与使用方式以仓库文档为准。"
+        "description": "面电视大屏的视频播放类项目，主要用于在电视盒子或 Android TV 等设备上观看网络视频流或直播频道，解决在客厅大屏上集中配置、管理和播放视频源的需求。从仓库命名中可以推测，其重点在于电视端的播放体验，通常涉及源地址配置、频道列表展示与播放界面等内容。具体支持的协议、源格式和使用方式，建议以仓库文档为准，适合希望在电视上自建播放入口、整合自有直播或点播资源的用户参考。"
     },
     "summary": {
         "initial_stars": 10441,
-        "current_stars": 10441,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 10479,
+        "star_diff": 38,
+        "growth_rate": 0.36,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 10441,
             "forks": 886,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 10479,
+            "forks": 890,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

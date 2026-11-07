@@ -6,16 +6,16 @@
         "name": "awesome-dsh-plugin",
         "html_url": "https:\/\/github.com\/awesome-dsh-plugin\/awesome-dsh-plugin",
         "language": "JavaScript",
-        "description": "围绕 dsh 插件生态整理资源的 Awesome 清单，汇总相关插件、工具与学习资料，方便开发者按主题检索、了解可用扩展，并在选型或集成时快速筛选适合自己项目的插件；通常适合作为入门索引和参考资料，也支持社区通过提交补充条目持续更新。"
+        "description": "汇总 dsh 相关插件与扩展资源的精选清单，按照 awesome 系列仓库的常见惯例，通常用于集中收录插件、工具、示例和学习资料，帮助开发者快速了解可用生态并找到上手入口。它适合在选型调研、规划插件体系或扩充功能时作为索引用；具体收录范围、分类方式与维护状态需以仓库内 README 和贡献说明为准，使用前建议先确认 dsh 所指的具体技术方向与兼容性。"
     },
     "summary": {
         "initial_stars": 23416,
-        "current_stars": 23416,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 23463,
+        "star_diff": 47,
+        "growth_rate": 0.2,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 23416,
             "forks": 7157,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 23463,
+            "forks": 7180,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

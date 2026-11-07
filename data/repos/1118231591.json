@@ -6,7 +6,7 @@
         "name": "registry",
         "html_url": "https:\/\/github.com\/agentclientprotocol\/registry",
         "language": "Other",
-        "description": "Agent Client Protocol 生态的注册表，用于集中登记遵循该协议的智能体与客户端实现，帮助开发者查找可互操作的工具、核对协议兼容性，并为编辑器、IDE 或自动化平台接入智能体提供参考。通常适合在选型、集成测试和生态协作时使用，便于维护协议实现的统一索引与发现入口。"
+        "description": "Agent Client Protocol 的组件注册表，用于集中收录并索引兼容该协议的 AI 编码代理、客户端及相关实现，为编辑器、IDE 和工具链提供统一的发现与查询入口。仓库通常以结构化配置或清单文件维护条目元数据，方便生态中的客户端按需检索、展示和接入不同代理，适合解决协议实现分散、缺少统一目录的问题，也便于开发者提交和维护自己的实现。"
     },
     "summary": {
         "initial_stars": 449,

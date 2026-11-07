@@ -6,16 +6,16 @@
         "name": "cleanyourtv",
         "html_url": "https:\/\/github.com\/Gathin23\/cleanyourtv",
         "language": "Python",
-        "description": "CleanYourTV 面向电视端设备的清理与优化场景，通常适合用于整理智能电视或电视盒子上的多余应用、缓存及干扰内容，帮助减少系统臃肿、让界面和日常使用更清爽。从仓库命名看，它主要解决电视设备内容杂乱和冗余清理的问题，具体支持平台与功能范围应以仓库说明为准，可作为相关清理脚本或工具的参考。"
+        "description": "CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设备因空间不足或长期使用导致的卡顿。通常适合在电视存储告急、需要定期整理系统垃圾时使用，也可作为电视端轻量清理工具的参考实现。具体支持平台和功能范围以仓库说明为准。"
     },
     "summary": {
         "initial_stars": 53445,
-        "current_stars": 53445,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 53525,
+        "star_diff": 80,
+        "growth_rate": 0.15,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 53445,
             "forks": 6844,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 53525,
+            "forks": 6858,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

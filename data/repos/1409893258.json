@@ -6,16 +6,16 @@
         "name": "dsh-ops",
         "html_url": "https:\/\/github.com\/T-Auto\/dsh-ops",
         "language": "JavaScript",
-        "description": "dsh-ops 以运维（ops）为定位，主要用于承载与 dsh 相关系统或平台的日常运维操作，通常适合把重复性的检查、部署、配置维护等任务整理成可复用的脚本或流程，减少手工执行带来的不一致。仓库名未暴露更多技术细节，具体覆盖范围需结合目录结构和文档确认；作为团队内部运维工具集使用时，建议重点关注执行入口、参数约定与权限边界。整体更偏向轻量级运维辅助，而非完整的运维平台。"
+        "description": "T-Auto\/dsh-ops 面向 dsh 相关环境的运维操作，主要汇集日常维护所需的脚本、配置和操作说明，用于简化部署、巡检、批量执行及故障处理等重复性工作。通常适合需要统一管理运维流程、减少手工操作并提升执行一致性的场景，具体支持范围与使用方式以仓库文档和实际代码为准。"
     },
     "summary": {
         "initial_stars": 5463,
-        "current_stars": 5463,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 5479,
+        "star_diff": 16,
+        "growth_rate": 0.29,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 5463,
             "forks": 193,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 5479,
+            "forks": 193,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

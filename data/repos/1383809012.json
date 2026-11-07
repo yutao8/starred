@@ -6,16 +6,16 @@
         "name": "magpie",
         "html_url": "https:\/\/github.com\/yetone\/magpie",
         "language": "Go",
-        "description": "magpie 是 yetone 维护的开源项目，从作者在 AI 编程辅助和开发效率工具上的积累推测，它更可能面向信息收集、内容汇聚或开发辅助类场景，适合需要把分散资料集中处理、减少重复操作的使用者。仓库名称本身未透出具体功能，实际能力、支持的数据源和运行方式应以 README 与提交记录为准；采用前建议先确认依赖、维护活跃度和许可证。"
+        "description": "yetone\/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更可能偏向开发者日常效率或本地实用工具方向，而不是大型框架。由于公开资料有限，具体功能、支持平台和安装方式应以仓库 README 与发布说明为准；适合想尝试轻量级个人工具、或关注该作者其他开源项目的用户参考和试用。"
     },
     "summary": {
         "initial_stars": 31423,
-        "current_stars": 31423,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 31524,
+        "star_diff": 101,
+        "growth_rate": 0.32,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 31423,
             "forks": 2748,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 31524,
+            "forks": 2762,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

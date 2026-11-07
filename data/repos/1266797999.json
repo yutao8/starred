@@ -6,16 +6,16 @@
         "name": "ponytail",
         "html_url": "https:\/\/github.com\/DietrichGebert\/ponytail",
         "language": "JavaScript",
-        "description": "ponytail 面向轻量、精简的工具型需求，仓库名本身传达出削减冗余、保留核心的设计取向，通常适合在现有技术栈中引入更简单方案、避免过度工程化的开发场景，可用于整理和简化日常代码流程。由于项目具体功能以仓库文档为准，适用范围和边界建议结合 README 与示例确认，整体定位偏向小而专注的开源实现。"
+        "description": "ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构、依赖配置和发布记录，确认它属于工具库、示例项目还是其他类型。若按常见命名习惯推测，它可能是一个轻量级脚本或前端相关项目，但这种推断并不可靠。建议使用者先查看仓库说明、提交历史和许可证，了解其核心功能、典型使用场景与维护状态，再决定是否引入或参考。"
     },
     "summary": {
         "initial_stars": 185977,
-        "current_stars": 185977,
-        "star_diff": 0,
-        "growth_rate": 0,
+        "current_stars": 186052,
+        "star_diff": 75,
+        "growth_rate": 0.04,
         "first_seen": "2026-11-07 14:00",
-        "last_seen": "2026-11-07 14:00",
-        "data_points_count": 1
+        "last_seen": "2026-11-07 18:00",
+        "data_points_count": 2
     },
     "history": [
         {
@@ -24,6 +24,13 @@
             "stars": 185977,
             "forks": 10291,
             "file": "data\/dist\/2026110714\/starList.public.json"
+        },
+        {
+            "date": "2026-11-07 18:00",
+            "timestamp": 1794045600,
+            "stars": 186052,
+            "forks": 10291,
+            "file": "data\/dist\/2026110718\/starList.public.json"
         }
     ]
 }

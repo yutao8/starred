@@ -6,7 +6,7 @@
         "name": "antigravity-acp",
         "html_url": "https:\/\/github.com\/shubzkothekar\/antigravity-acp",
         "language": "TypeScript",
-        "description": "antigravity-acp 是 Antigravity 代理与 ACP（Agent Client Protocol）生态之间的衔接层，通常用来让支持 ACP 的编辑器或客户端接入 Antigravity 的编码代理，统一处理会话、工具调用和文件操作等交互。它适合希望在现有 ACP 工作流中复用 Antigravity 能力，并降低不同编辑器与代理之间集成成本的场景；具体支持范围和用法以仓库文档为准。"
+        "description": "面向 antigravity 与 ACP 的集成适配项目，主要用于在支持 ACP 的客户端或工具链中接入 antigravity 相关能力，减少手工配置和接口对接成本。它通常适合探索代理式开发工作流、统一不同工具的调用方式，以及在编辑器或自动化环境中串联相关服务。具体支持范围、安装方式和使用示例应以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 85,

@@ -6,7 +6,7 @@
         "name": "acpx",
         "html_url": "https:\/\/github.com\/openclaw\/acpx",
         "language": "TypeScript",
-        "description": "openclaw 组织下的 acpx 项目，从命名看通常与 ACP（Agent Client Protocol）生态相关，主要用于在编辑器、IDE 或客户端与 AI 编码代理之间建立统一的通信与集成层。典型场景是让不同代理实现以一致协议接入开发工具，减少为每个客户端或代理单独适配的成本，适合希望把编码代理能力嵌入自有工具链、或构建代理与编辑器互操作方案的开发者参考使用。具体支持范围与实现细节建议以仓库说明和源码为准。"
+        "description": "openclaw\/acpx 是 OpenClaw 项目下围绕 ACP 协议提供的配套工具，主要用于在编辑器、客户端与 AI 代理之间建立标准化通信，简化代理能力的接入与调用流程。它通常适合需要将代码助手或自动化代理集成到现有开发环境中的场景，帮助开发者以较少配置完成协议适配和日常交互。具体功能边界与使用方式建议以仓库文档为准。"
     },
     "summary": {
         "initial_stars": 3421,

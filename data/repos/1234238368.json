@@ -6,7 +6,7 @@
         "name": "hydra-acp",
         "html_url": "https:\/\/github.com\/smagnuso\/hydra-acp",
         "language": "TypeScript",
-        "description": "hydra-acp 围绕 Hydra 与 ACP 的组合展开，主要用于探索多配置管理或编排框架与 ACP 相关协议、策略机制的衔接，适合需要模块化组织、环境切换或协议适配的原型与实验场景。由于仓库公开描述有限，ACP 具体指代代理通信协议还是访问控制策略尚需结合源码确认，实际能力应以代码和文档为准。"
+        "description": "hydra-acp 从命名看是围绕 Hydra 配置框架的扩展或配套工程，主要用于以分层组合的方式管理 Python 项目的配置，把实验参数、运行环境与命令行覆盖项分开组织，减少重复配置。通常适合机器学习、数据科学等需要频繁切换参数组合的实验场景，也便于在多个任务间复用同一套配置结构。仓库体量可能较小，具体能力与用法建议结合源码和说明文档确认。"
     },
     "summary": {
         "initial_stars": 45,
