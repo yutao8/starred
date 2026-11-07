@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 1087106485,
+        "full_name": "shinpr\/mcp-local-rag",
+        "name": "mcp-local-rag",
+        "html_url": "https:\/\/github.com\/shinpr\/mcp-local-rag",
+        "language": "TypeScript",
+        "description": "为兼容 Model Context Protocol 的 AI 客户端提供本地检索增强生成能力，让助手直接检索并引用本地文档内容来回答问题。项目侧重在本地完成文档索引与语义搜索，通常适合搭建私有知识库、让编程助手查阅本地资料，或在不上传敏感文件的前提下增强问答准确度。使用时可通过支持 MCP 的客户端把本地资料作为上下文来源，减少模型凭空回答；具体支持格式与配置方式需以仓库文档为准。"
+    },
+    "summary": {
+        "initial_stars": 428,
+        "current_stars": 428,
+        "star_diff": 0,
+        "growth_rate": 0,
+        "first_seen": "2026-11-07 14:00",
+        "last_seen": "2026-11-07 14:00",
+        "data_points_count": 1
+    },
+    "history": [
+        {
+            "date": "2026-11-07 14:00",
+            "timestamp": 1794031200,
+            "stars": 428,
+            "forks": 84,
+            "file": "data\/dist\/2026110714\/starList.public.json"
+        }
+    ]
+}

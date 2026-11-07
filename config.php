@@ -147,7 +147,7 @@ return [
 	'DESC_TIME' => $envInt('DESC_TIME', 0), // 描述缓存时间(0:永久缓存)
 	'DEBUG_MODE' => $envBool('DEBUG_MODE', false), // 是否开启调试模式
 	'PAGE_START' => $envInt('PAGE_START', 1), // 开始页数
-	'PAGE_END' => $envInt('PAGE_END', 20), // 结束页数
+	'PAGE_END' => $envInt('PAGE_END', 100), // 结束页数（安全上限100页/10,000个仓库，到达最后一页会自动提前退出）
 	'PAGE_LIMIT' => $envInt('PAGE_LIMIT', 100), // 每页数量
 	'PAGE_CHUNK' => $envInt('PAGE_CHUNK', $requestConcurrency), // GitHub 分页并发数
 	'RECENT_LIMIT' => $envInt('RECENT_LIMIT', 10), // 最近N条

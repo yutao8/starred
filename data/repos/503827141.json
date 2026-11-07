@@ -1,0 +1,29 @@
+{
+    "status": "success",
+    "repo": {
+        "id": 503827141,
+        "full_name": "capcom6\/android-sms-gateway",
+        "name": "android-sms-gateway",
+        "html_url": "https:\/\/github.com\/capcom6\/android-sms-gateway",
+        "language": "Kotlin",
+        "description": "Android SMS Gateway 用于把普通 Android 手机变成可编程的短信发送与接收网关，让应用或服务器能够通过它对外收发短信。项目通常提供本地 HTTP 接口和命令行\/服务方式运行，支持消息队列、发送状态回调、短信转发与 Webhook 等典型能力，适合做验证码下发、通知提醒、设备告警、自动化流程触发，以及在无运营商 API 或成本敏感场景下搭建自建短信通道。部署时一般需要一台常开手机、网络可达的监听端口和相应权限配置，并应遵守当地短信合规与频控要求。"
+    },
+    "summary": {
+        "initial_stars": 5989,
+        "current_stars": 5989,
+        "star_diff": 0,
+        "growth_rate": 0,
+        "first_seen": "2026-11-07 14:00",
+        "last_seen": "2026-11-07 14:00",
+        "data_points_count": 1
+    },
+    "history": [
+        {
+            "date": "2026-11-07 14:00",
+            "timestamp": 1794031200,
+            "stars": 5989,
+            "forks": 1080,
+            "file": "data\/dist\/2026110714\/starList.public.json"
+        }
+    ]
+}

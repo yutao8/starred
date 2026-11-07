@@ -160,11 +160,13 @@ class GitHubStarred
 		$repos = [];
 		while ($pageStart <= $pageEnd) {
 			$chunkPageEnd = min($pageStart + ($pageChunk - 1), $pageEnd);
-			$pageRepos = $this->getStarListMulti($pageStart, $chunkPageEnd, $pageLimit);
-			if (empty($pageRepos)) {
+			[$pageRepos, $hasMore] = $this->getStarListMulti($pageStart, $chunkPageEnd, $pageLimit);
+			if (!empty($pageRepos)) {
+				$repos = array_merge($repos, $pageRepos);
+			}
+			if (!$hasMore || empty($pageRepos)) {
 				break;
 			}
-			$repos = array_merge($repos, $pageRepos);
 			$pageStart = $chunkPageEnd + 1;
 		}
 
@@ -172,6 +174,11 @@ class GitHubStarred
 		return $repos;
 	}
 
+	/**
+	 * 批量获取指定范围的 Starred 仓库分页
+	 *
+	 * @return array{0: array, 1: bool} 返回 [仓库列表, 是否还有更多分页]
+	 */
 	private function getStarListMulti(int $pageStart, int $pageEnd, int $pageLimit): array
 	{
 		$multiHandle = curl_multi_init();
@@ -194,7 +201,8 @@ class GitHubStarred
 
 		$resultCodes = $this->executeCurlMulti($multiHandle, 'GitHub 批量请求执行失败');
 
-		$pageRepos = [];
+		// 先完整读取各 handle 的结果与状态并及时释放 handle，避免资源泄漏
+		$responses = [];
 		foreach ($handles as $page => $curlHandle) {
 			$response = curl_multi_getcontent($curlHandle);
 			$httpCode = curl_getinfo($curlHandle, CURLINFO_HTTP_CODE);
@@ -203,23 +211,45 @@ class GitHubStarred
 			$resultCode = $resultCodes[spl_object_id($curlHandle)] ?? CURLE_OK;
 			$errorMessage = $this->buildCurlErrorMessage($curlHandle, sprintf('第 %d 页请求失败', $page), $response, $resultCode);
 			curl_multi_remove_handle($multiHandle, $curlHandle);
-			curl_close($curlHandle);
+			@curl_close($curlHandle);
 
-			if ($resultCode !== CURLE_OK || $errno !== 0 || $error !== '') {
-				throw new Exception($errorMessage);
+			$responses[$page] = [
+				'response'     => $response,
+				'httpCode'     => $httpCode,
+				'error'        => $error,
+				'errno'        => $errno,
+				'resultCode'   => $resultCode,
+				'errorMessage' => $errorMessage,
+			];
+		}
+		curl_multi_close($multiHandle);
+
+		// 确保按页码升序顺序解析
+		ksort($responses);
+
+		$pageRepos = [];
+		$hasMore = true;
+
+		foreach ($responses as $page => $res) {
+			if ($res['resultCode'] !== CURLE_OK || $res['errno'] !== 0 || $res['error'] !== '') {
+				throw new Exception($res['errorMessage']);
 			}
-			if ($httpCode !== 200) {
-				throw new Exception($errorMessage);
+			if ($res['httpCode'] !== 200) {
+				throw new Exception($res['errorMessage']);
 			}
 
-			$repos = json_decode($response, true) ?: [];
+			$repos = json_decode($res['response'], true) ?: [];
 			if (!array_is_list($repos)) {
-				throw new Exception('列表获取失败:' . $response);
+				throw new Exception('列表获取失败:' . $res['response']);
 			}
-			if (empty($repos)) {
-				echo sprintf("\t\t第 %d 页没有数据\n", $page);
-				continue;
+
+			$count = count($repos);
+			if ($count === 0) {
+				echo sprintf("\t\t第 %d 页没有数据（已达末尾）\n", $page);
+				$hasMore = false;
+				break;
 			}
+
 			foreach ($repos as &$repo) {
 				$repo['language'] = $repo['language'] ?? 'NaN';
 				$repo['_page'] = $page;
@@ -230,10 +260,15 @@ class GitHubStarred
 
 			$pageRepos = array_merge($pageRepos, $repos);
 			$this->writeJsonFile($this->cachePath . '/repo_' . $page . '.json', $repos, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
-		}
-		curl_multi_close($multiHandle);
 
-		return $pageRepos;
+			if ($count < $pageLimit) {
+				echo sprintf("\t\t第 %d 页共 %d 条数据，不足单页限制（已达最后一页）\n", $page, $count);
+				$hasMore = false;
+				break;
+			}
+		}
+
+		return [$pageRepos, $hasMore];
 	}
 
 	private function getReposDescription(array $repos): array
@@ -964,7 +999,7 @@ class GitHubStarred
 					$resultCode = $resultCodes[spl_object_id($curlHandle)] ?? CURLE_OK;
 					$errorMessage = $this->buildCurlErrorMessage($curlHandle, sprintf('GPT 请求失败: %s/%s', $providerName, $model), $response, $resultCode);
 					curl_multi_remove_handle($multiHandle, $curlHandle);
-					curl_close($curlHandle);
+					@curl_close($curlHandle);
 					
 					if ($resultCode !== CURLE_OK || $errno !== 0 || $error !== '') {
 						$lastError = $errorMessage;
