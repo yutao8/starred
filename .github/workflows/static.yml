@@ -32,13 +32,25 @@ jobs:
 
       - name: Prepare artifact folder
         run: |
-          mkdir artifact
+          mkdir -p artifact/data
+          # 1. 复制前端静态网页与样式脚本
           cp index.html history.html trend.html artifact/
           cp -r assets artifact/
-          cp -r data artifact/ 2>/dev/null || true
-          # 兼容过渡（如果根目录有遗留历史数据也一并带上）
-          cp starList.json starList.public.json trend.json trend.md artifact/ 2>/dev/null || true
-          cp -r repos dist trend_history artifact/ 2>/dev/null || true
+
+          # 2. 复制前端运行所需核心数据 (排除体积庞大的 data/dist 历史全量快照)
+          cp data/starList.public.json data/trend.json data/trend.md artifact/data/ 2>/dev/null || true
+          cp -r data/repos artifact/data/ 2>/dev/null || true
+          cp -r data/trend_history artifact/data/ 2>/dev/null || true
+
+          # 3. 根目录兼容 (供旧版相对路径访问)
+          cp data/starList.public.json data/trend.json data/trend.md artifact/ 2>/dev/null || true
+
+          # 4. 仅附带最新 1 期 dist 快照供离线查阅 (避免千余个历史快照累积突破 Pages 体积限制)
+          mkdir -p artifact/data/dist
+          latest_dist=$(ls -1d data/dist/* 2>/dev/null | sort | tail -n 1)
+          if [ -n "$latest_dist" ]; then
+            cp -r "$latest_dist" artifact/data/dist/
+          fi
 
       - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v4
