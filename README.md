@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,104+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-11-09 00:00:20** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-11-09 06:00:21** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026110900/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026110906/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 102,477 | **+7,112** | +7.4577% | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询… |
-| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 318,267 | **+9,265** | +2.9984% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
-| 3 | [morluto/rea](https://github.com/morluto/rea) | `TypeScript` | 442,825 | **+4,084** | +0.9308% | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人… |
-| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 140,942 | **+3,837** | +2.7986% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
-| 5 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,824 | **+424** | +12.4706% | SnowLuma 是一个聚焦于冰雪与光照效果的开源项目，主要用于生成或增… |
+| 1 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 103,224 | **+7,842** | +8.2217% | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询… |
+| 2 | [mattpocock/skills](https://github.com/mattpocock/skills) | `Shell` | 318,449 | **+9,265** | +2.9966% | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进… |
+| 3 | [morluto/rea](https://github.com/morluto/rea) | `TypeScript` | 443,529 | **+4,788** | +1.0913% | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人… |
+| 4 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | `Python` | 141,023 | **+3,865** | +2.8179% | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，… |
+| 5 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,828 | **+421** | +12.3569% | SnowLuma 是一个聚焦于冰雪与光照效果的开源项目，主要用于生成或增… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,824 | **+12.4706%** | +424 | +60.57 ★/天 |
-| 2 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) | `Python` | 2,187 | **+7.6809%** | +156 | +110.12 ★/天 |
-| 3 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 102,477 | **+7.4577%** | +7,112 | +1016 ★/天 |
-| 4 | [songloft-org/songloft](https://github.com/songloft-org/songloft) | `Go` | 2,179 | **+4.659%** | +97 | +13.86 ★/天 |
-| 5 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 38,822 | **+4.4979%** | +1,671 | +238.71 ★/天 |
+| 1 | [SnowLuma/SnowLuma](https://github.com/SnowLuma/SnowLuma) | `TypeScript` | 3,828 | **+12.3569%** | +421 | +60.14 ★/天 |
+| 2 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 103,224 | **+8.2217%** | +7,842 | +1120.29 ★/天 |
+| 3 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) | `Python` | 2,190 | **+7.8287%** | +159 | +95.4 ★/天 |
+| 4 | [songloft-org/songloft](https://github.com/songloft-org/songloft) | `Go` | 2,179 | **+4.6087%** | +96 | +14.22 ★/天 |
+| 5 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | `JavaScript` | 38,852 | **+4.5083%** | +1,676 | +239.43 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **Python** | 149 | 4,377,618 | **+26,811 ★** | +4,186 | +31.82 ★ |
-| 2 | **TypeScript** | 166 | 5,063,236 | **+20,162 ★** | +2,550 | +37.57 ★ |
-| 3 | **Shell** | 57 | 1,203,471 | **+10,041 ★** | +547 | +25.41 ★ |
-| 4 | **Rust** | 31 | 1,442,989 | **+9,213 ★** | +926 | +45.37 ★ |
-| 5 | **JavaScript** | 150 | 2,115,787 | **+6,964 ★** | +1,325 | +19.96 ★ |
-| 6 | **Go** | 95 | 2,001,368 | **+5,994 ★** | +833 | +14.2 ★ |
+| 1 | **Python** | 144 | 4,384,646 | **+27,621 ★** | +4,328 | +33.5 ★ |
+| 2 | **TypeScript** | 162 | 5,058,979 | **+21,108 ★** | +2,722 | +38 ★ |
+| 3 | **Shell** | 53 | 1,193,286 | **+10,042 ★** | +558 | +27.34 ★ |
+| 4 | **Rust** | 30 | 1,440,091 | **+9,294 ★** | +917 | +47.07 ★ |
+| 5 | **JavaScript** | 146 | 2,101,516 | **+7,285 ★** | +1,385 | +19.32 ★ |
+| 6 | **Go** | 94 | 1,985,408 | **+6,123 ★** | +844 | +14.27 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 309 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026110900/LANG_JavaScript.md) |
-| **PHP** | 285 个仓库 | [查看全部 PHP 项目 →](data/dist/2026110900/LANG_PHP.md) |
-| **Python** | 254 个仓库 | [查看全部 Python 项目 →](data/dist/2026110900/LANG_Python.md) |
-| **TypeScript** | 233 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026110900/LANG_TypeScript.md) |
-| **NaN** | 176 个仓库 | [查看全部 NaN 项目 →](data/dist/2026110900/LANG_NaN.md) |
-| **Go** | 141 个仓库 | [查看全部 Go 项目 →](data/dist/2026110900/LANG_Go.md) |
-| **Shell** | 92 个仓库 | [查看全部 Shell 项目 →](data/dist/2026110900/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026110900/LANG_Java.md) |
-| **C** | 74 个仓库 | [查看全部 C 项目 →](data/dist/2026110900/LANG_C.md) |
-| **C#** | 68 个仓库 | [查看全部 C# 项目 →](data/dist/2026110900/LANG_C_.md) |
-| **C++** | 65 个仓库 | [查看全部 C++ 项目 →](data/dist/2026110900/LANG_C__.md) |
-| **HTML** | 60 个仓库 | [查看全部 HTML 项目 →](data/dist/2026110900/LANG_HTML.md) |
-| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026110900/LANG_Vue.md) |
-| **Kotlin** | 42 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026110900/LANG_Kotlin.md) |
-| **Rust** | 39 个仓库 | [查看全部 Rust 项目 →](data/dist/2026110900/LANG_Rust.md) |
+| **JavaScript** | 309 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026110906/LANG_JavaScript.md) |
+| **PHP** | 285 个仓库 | [查看全部 PHP 项目 →](data/dist/2026110906/LANG_PHP.md) |
+| **Python** | 254 个仓库 | [查看全部 Python 项目 →](data/dist/2026110906/LANG_Python.md) |
+| **TypeScript** | 233 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026110906/LANG_TypeScript.md) |
+| **NaN** | 176 个仓库 | [查看全部 NaN 项目 →](data/dist/2026110906/LANG_NaN.md) |
+| **Go** | 141 个仓库 | [查看全部 Go 项目 →](data/dist/2026110906/LANG_Go.md) |
+| **Shell** | 92 个仓库 | [查看全部 Shell 项目 →](data/dist/2026110906/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026110906/LANG_Java.md) |
+| **C** | 74 个仓库 | [查看全部 C 项目 →](data/dist/2026110906/LANG_C.md) |
+| **C#** | 68 个仓库 | [查看全部 C# 项目 →](data/dist/2026110906/LANG_C_.md) |
+| **C++** | 65 个仓库 | [查看全部 C++ 项目 →](data/dist/2026110906/LANG_C__.md) |
+| **HTML** | 60 个仓库 | [查看全部 HTML 项目 →](data/dist/2026110906/LANG_HTML.md) |
+| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026110906/LANG_Vue.md) |
+| **Kotlin** | 42 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026110906/LANG_Kotlin.md) |
+| **Rust** | 39 个仓库 | [查看全部 Rust 项目 →](data/dist/2026110906/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026110900/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026110906/ALL.md)
 
 ---
 
@@ -106,15 +106,15 @@
 
 > 以下为知识库最新收录并完成 AI 解析的高价值开源项目：
 
-- [DetachHead/rebased](https://github.com/DetachHead/rebased) ★6456  
+- [DetachHead/rebased](https://github.com/DetachHead/rebased) ★6458  
   DetachHead/rebased 通常适合围绕 Git 变基与分支维护场景使用，仓库名暗示其可能涉及将本地改动迁移到新基线、整理提交历史或维护基于上游的衍生版本。典型用途包括在多人协作中减少手工 rebase 冲突、保持长期分支与上游同步，以及规范代码历史整理流程。由于具体实现需以仓库文档为准，使用前建议查看 README 和示例，确认它提供的是命令行工具、脚本还是库，并了解其支持的工作流与限制。适合希望降低变基操作成本、提升分支管理效率的开发者参考。
-- [snownico0722/PaperTodo](https://github.com/snownico0722/PaperTodo) ★2728 [`avalonedit`] [`csharp`] [`desktop`] [`markdown`] [`minimalist`] [`note-taking`] [`notes`] [`productivity`] [`sticky-notes`] [`todo`] [`windows`] [`wpf`]  
+- [snownico0722/PaperTodo](https://github.com/snownico0722/PaperTodo) ★2729 [`avalonedit`] [`csharp`] [`desktop`] [`markdown`] [`minimalist`] [`note-taking`] [`notes`] [`productivity`] [`sticky-notes`] [`todo`] [`windows`] [`wpf`]  
   PaperTodo 主要用于待办事项的记录与整理，帮助用户以简洁的清单形式管理日常任务、跟踪完成进度，适合个人规划、学习安排和轻量级任务管理等场景。从项目命名看，它可能强调接近纸笔清单的直观使用体验；具体功能、交互方式和技术栈需以仓库文档与源码为准。
 - [CommandCodeAI/desktop](https://github.com/CommandCodeAI/desktop) ★110  
   面向 AI 辅助编码场景的桌面客户端，通常以本地应用形式提供命令式交互入口，让开发者在桌面环境中直接向模型提问、生成或改写代码片段，并与本地文件、项目目录配合使用，减少在编辑器与网页之间来回切换的成本。适合希望把 AI 编码助手纳入日常开发流程、偏好本地安装与快捷命令操作的用户。具体支持的模型来源、命令语法和系统集成方式，以仓库文档说明为准。
 - [AsyrafHussin/agent-skills](https://github.com/AsyrafHussin/agent-skills) ★102 [`agent-rules`] [`agent-skills`] [`ai-agents`] [`ai-slop`] [`claude-code`] [`code-quality`] [`code-review`] [`codex`] [`cursor`] [`laravel`] [`nodejs`] [`react`] [`technical-debt`] [`typescript`]  
   面向 AI 代理的可复用技能定义集合，用来把特定领域知识、操作流程和提示规范整理成按需加载的技能条目，让编码助手或自动化代理在处理不同任务时获得更明确的行为指引。通常适合需要统一代理工作方式、沉淀团队经验或快速扩展代理能力的场景，例如让代理按既定步骤完成代码审查、文档整理、项目分析等常见任务，减少每次重复描述背景和约束的成本。使用时可结合自身代理框架挑选或改造其中的技能内容，逐步形成适配项目需求的技能库。
-- [fosrl/pangolin](https://github.com/fosrl/pangolin) ★23351 [`ai-gateway`] [`gateway`] [`nat-traversal`] [`oidc`] [`pam`] [`pangolin`] [`remote-access`] [`reverse-proxy`] [`sase`] [`self-hosted`] [`single-sign-on`] [`ssh`] [`sso`] [`tunneling`] [`vpn`] [`wireguard`] [`wireguard-vpn`] [`zero-trust`] [`zero-trust-network-access`] [`ztna`]  
+- [fosrl/pangolin](https://github.com/fosrl/pangolin) ★23368 [`ai-gateway`] [`gateway`] [`nat-traversal`] [`oidc`] [`pam`] [`pangolin`] [`remote-access`] [`reverse-proxy`] [`sase`] [`self-hosted`] [`single-sign-on`] [`ssh`] [`sso`] [`tunneling`] [`vpn`] [`wireguard`] [`wireguard-vpn`] [`zero-trust`] [`zero-trust-network-access`] [`ztna`]  
   自托管的隧道式反向代理管理平台，用于把内网服务安全发布到公网而无需开放入站端口。它通常借助 WireGuard 隧道将远程站点接入中心节点，并通过 Web 控制台集中管理站点、资源、域名和访问策略，同时提供基于身份的用户、角色与单点登录控制，适合在家庭实验室或中小团队自建环境中替代托管隧道服务，发布 Web 应用、API 和内部工具。
 - [VaalaCat/frp-panel](https://github.com/VaalaCat/frp-panel) ★1872  
   frp-panel 为 frp 内网穿透提供 Web 可视化管理界面，主要用于集中管理多个 frps 服务端和 frpc 客户端节点，通过浏览器完成配置下发、隧道规则维护与运行状态查看，减少手动编辑配置文件的负担。适合自建穿透服务、多台服务器与内网设备需要统一纳管的场景，通常配合 frp 生态部署，帮助运维人员更直观地掌握节点连接和流量情况。
@@ -122,9 +122,9 @@
   gosuki 是一个用 Go 语言编写的轻量级项目，名称中的 suki 取自日语“喜欢”，通常指向收藏或喜好列表管理方向。它主要用于以简单方式记录、整理和检索个人兴趣条目，通常适合在命令行或小型工具场景中快速维护自己的收藏清单。由于公开描述有限，具体能力和使用方式建议以仓库 README 为准。
 - [canarybyte/veridrop](https://github.com/canarybyte/veridrop) ★730 [`ai-tools`] [`anthropic`] [`api-relay`] [`api-security`] [`api-verification`] [`claude`] [`claude-api`] [`developer-tools`] [`fastapi`] [`gemini`] [`long-context`] [`needle-in-haystack`] [`openai`] [`openai-api`] [`proxy-detector`] [`python`] [`relay-detector`] [`self-hostable`] [`thinking-signature`]  
   Veridrop 的公开信息有限，仅从仓库命名推测，它可能是一款围绕可验证数据投放、分发或校验的工具，面向需要确认内容来源与完整性的使用场景。由于缺少可核实的描述，其具体功能、技术栈与接入方式应以仓库 README 和源码为准；采用前建议先查看文档、许可证和维护活跃度。
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) ★85900 [`agentic-coding`] [`ai-coding`] [`anthropic`] [`claude-code`] [`cli`] [`command-line-tool`] [`cost-reduction`] [`developer-tools`] [`llm`] [`open-source`] [`productivity`] [`rust`] [`token-optimization`]  
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) ★85923 [`agentic-coding`] [`ai-coding`] [`anthropic`] [`claude-code`] [`cli`] [`command-line-tool`] [`cost-reduction`] [`developer-tools`] [`llm`] [`open-source`] [`productivity`] [`rust`] [`token-optimization`]  
   围绕 RTK（实时动态差分定位）的开源项目，主要用于高精度 GNSS 定位数据的处理与实验，探索将 AI 方法引入定位解算、质量评估与异常数据剔除等环节。通常适合无人机、农机导航、测量测绘等需要厘米级定位的场景，也可供研究 RTK 算法与定位数据流程时参考。具体功能范围与使用方式建议以仓库文档和示例为准。
-- [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) ★906 [`ai-agents`] [`ai-audit`] [`ai-security`] [`anthropic`] [`api-gateway`] [`claude`] [`dsh-plugin`] [`llm-audit`] [`llm-proxy`] [`llm-security`] [`model-substitution`] [`openai-api`] [`prompt-injection`] [`python`] [`security-audit`] [`security-scanner`] [`supply-chain-security`] [`tool-call-rewriting`] [`web3-security`] [`web3-wallet`]  
+- [toby-bridges/api-relay-audit](https://github.com/toby-bridges/api-relay-audit) ★907 [`ai-agents`] [`ai-audit`] [`ai-security`] [`anthropic`] [`api-gateway`] [`claude`] [`dsh-plugin`] [`llm-audit`] [`llm-proxy`] [`llm-security`] [`model-substitution`] [`openai-api`] [`prompt-injection`] [`python`] [`security-audit`] [`security-scanner`] [`supply-chain-security`] [`tool-call-rewriting`] [`web3-security`] [`web3-wallet`]  
   面向 API 中继或代理链路的审计工具，主要用于记录和检查请求转发过程中的关键信息，帮助定位调用异常、排查配置问题并提升接口使用的可观测性。适合在需要审查第三方 API 接入、代理转发或网关流量时使用，通常可配合日志与监控流程，对请求去向、转发结果和异常行为进行核对。具体能力和部署方式需结合仓库文档确认。
 
 ---
