@@ -2,20 +2,20 @@
     "status": "success",
     "repo": {
         "id": 939207877,
-        "full_name": "mg-chao\/snow-apps",
-        "name": "snow-apps",
+        "full_name": "mg-chao\/snow-shot",
+        "name": "snow-shot",
         "html_url": "https:\/\/github.com\/mg-chao\/snow-shot",
         "language": "C++",
         "description": "用于整理多个小规模应用，通常适合开发者作为个人工具集或练习项目参考。仓库以统一的命名方式汇集若干功能独立的子应用，便于单独运行和维护，适合解决需要把多个轻量工具集中管理、统一展示的问题，也可作为前端或全栈开发中组织多项目结构的参考模板。具体功能取决于仓库中实际包含的应用，使用时建议先查看目录说明。"
     },
     "summary": {
         "initial_stars": 4821,
-        "current_stars": 6830,
-        "star_diff": 2009,
-        "growth_rate": 41.67,
+        "current_stars": 6841,
+        "star_diff": 2020,
+        "growth_rate": 41.9,
         "first_seen": "2026-07-20 06:00",
-        "last_seen": "2026-11-09 18:00",
-        "data_points_count": 252
+        "last_seen": "2026-11-10 00:00",
+        "data_points_count": 253
     },
     "history": [
         {
@@ -1781,6 +1781,13 @@
             "stars": 6830,
             "forks": 440,
             "file": "data\/dist\/2026110918\/starList.public.json"
+        },
+        {
+            "date": "2026-11-10 00:00",
+            "timestamp": 1794240000,
+            "stars": 6841,
+            "forks": 439,
+            "file": "data\/dist\/2026111000\/starList.public.json"
         }
     ]
 }
