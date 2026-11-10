@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-10 18:00:22",
+    "updated_at": "2026-11-11 00:00:27",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -681,7 +681,8 @@
         "2026111000": true,
         "2026111006": true,
         "2026111012": true,
-        "2026111018": true
+        "2026111018": true,
+        "2026111100": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7125,7 +7126,19 @@
         "hijoebon\/excalidraw-cn": 641709442,
         "xiufengsun\/tokentracker": 1201960789,
         "tokentracker": 1201960789,
-        "1201960789": 1201960789
+        "1201960789": 1201960789,
+        "adongwanai\/agentguide": 1088705108,
+        "agentguide": 1088705108,
+        "1088705108": 1088705108,
+        "datawhalechina\/hello-agents": 1052050442,
+        "hello-agents": 1052050442,
+        "1052050442": 1052050442,
+        "lili-luo\/dsh-plugin-bundle": 1448247951,
+        "dsh-plugin-bundle": 1448247951,
+        "1448247951": 1448247951,
+        "jub0t\/concat": 1346499044,
+        "concat": 1346499044,
+        "1346499044": 1346499044
     },
     "repos_meta": {
         "13491895": {
@@ -17842,7 +17855,27 @@
             "id": 1201960789,
             "full_name": "xiufengsun\/TokenTracker",
             "file": "data\/repos\/1201960789.json"
+        },
+        "1088705108": {
+            "id": 1088705108,
+            "full_name": "adongwanai\/AgentGuide",
+            "file": "data\/repos\/1088705108.json"
+        },
+        "1052050442": {
+            "id": 1052050442,
+            "full_name": "datawhalechina\/hello-agents",
+            "file": "data\/repos\/1052050442.json"
+        },
+        "1448247951": {
+            "id": 1448247951,
+            "full_name": "lili-luo\/dsh-plugin-bundle",
+            "file": "data\/repos\/1448247951.json"
+        },
+        "1346499044": {
+            "id": 1346499044,
+            "full_name": "jub0t\/Concat",
+            "file": "data\/repos\/1346499044.json"
         }
     },
-    "snapshot_count": 680
+    "snapshot_count": 681
 }
