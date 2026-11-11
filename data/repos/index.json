@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-11 12:00:18",
+    "updated_at": "2026-11-11 18:00:21",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -684,7 +684,8 @@
         "2026111018": true,
         "2026111100": true,
         "2026111106": true,
-        "2026111112": true
+        "2026111112": true,
+        "2026111118": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7141,7 +7142,11 @@
         "jub0t\/concat": 1346499044,
         "concat": 1346499044,
         "1346499044": 1346499044,
-        "sunshinestream\/sunshine": 438803890
+        "sunshinestream\/sunshine": 438803890,
+        "luckylilliadev\/luckylilliabot": 709730860,
+        "magpie-community\/plugins": 1397444133,
+        "plugins": 1397444133,
+        "1397444133": 1397444133
     },
     "repos_meta": {
         "13491895": {
@@ -14691,7 +14696,7 @@
         },
         "709730860": {
             "id": 709730860,
-            "full_name": "LLOneBot\/LuckyLilliaBot",
+            "full_name": "LuckyLilliaDev\/LuckyLilliaBot",
             "file": "data\/repos\/709730860.json"
         },
         "732374797": {
@@ -17878,7 +17883,12 @@
             "id": 1346499044,
             "full_name": "jub0t\/Concat",
             "file": "data\/repos\/1346499044.json"
+        },
+        "1397444133": {
+            "id": 1397444133,
+            "full_name": "magpie-community\/plugins",
+            "file": "data\/repos\/1397444133.json"
         }
     },
-    "snapshot_count": 683
+    "snapshot_count": 684
 }
