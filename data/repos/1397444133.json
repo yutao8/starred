@@ -14,8 +14,8 @@
         "star_diff": 3,
         "growth_rate": 1.29,
         "first_seen": "2026-11-11 18:00",
-        "last_seen": "2026-11-12 00:00",
-        "data_points_count": 2
+        "last_seen": "2026-11-12 06:00",
+        "data_points_count": 3
     },
     "history": [
         {
@@ -31,6 +31,13 @@
             "stars": 236,
             "forks": 350,
             "file": "data\/dist\/2026111200\/starList.public.json"
+        },
+        {
+            "date": "2026-11-12 06:00",
+            "timestamp": 1794434400,
+            "stars": 236,
+            "forks": 351,
+            "file": "data\/dist\/2026111206\/starList.public.json"
         }
     ]
 }
