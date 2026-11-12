@@ -5,17 +5,17 @@
         "full_name": "NapNeko\/NapCatQQ",
         "name": "NapCatQQ",
         "html_url": "https:\/\/github.com\/NapNeko\/NapCatQQ",
-        "language": "TypeScript",
+        "language": "Other",
         "description": "NapCatQQ 主要用于运行基于新版 QQ 的机器人服务，将 NTQQ 封装为可在服务端无头运行的框架，并通过 OneBot 协议与外部程序通信，使开发者能够用任意语言或现成框架编写聊天机器人、群管理工具或自动化脚本。它适合需要长期稳定挂机、对接标准机器人生态的应用场景，通常用来替代旧版协议实现，降低 QQ 机器人的部署复杂度。"
     },
     "summary": {
         "initial_stars": 10265,
-        "current_stars": 12689,
-        "star_diff": 2424,
-        "growth_rate": 23.61,
+        "current_stars": 12712,
+        "star_diff": 2447,
+        "growth_rate": 23.84,
         "first_seen": "2026-08-16 00:00",
-        "last_seen": "2026-11-12 06:00",
-        "data_points_count": 288
+        "last_seen": "2026-11-12 12:00",
+        "data_points_count": 289
     },
     "history": [
         {
@@ -2033,6 +2033,13 @@
             "stars": 12689,
             "forks": 1723,
             "file": "data\/dist\/2026111206\/starList.public.json"
+        },
+        {
+            "date": "2026-11-12 12:00",
+            "timestamp": 1794456000,
+            "stars": 12712,
+            "forks": 1764,
+            "file": "data\/dist\/2026111212\/starList.public.json"
         }
     ]
 }
