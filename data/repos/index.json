@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-13 18:00:27",
+    "updated_at": "2026-11-14 00:00:20",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -693,7 +693,8 @@
         "2026111300": true,
         "2026111306": true,
         "2026111312": true,
-        "2026111318": true
+        "2026111318": true,
+        "2026111400": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7166,7 +7167,10 @@
         "1212822116": 1212822116,
         "pingdotgg\/t3code": 1153130349,
         "t3code": 1153130349,
-        "1153130349": 1153130349
+        "1153130349": 1153130349,
+        "dylanliiii\/opencode-antigravity-bridge": 1431240923,
+        "opencode-antigravity-bridge": 1431240923,
+        "1431240923": 1431240923
     },
     "repos_meta": {
         "13491895": {
@@ -17928,7 +17932,12 @@
             "id": 1153130349,
             "full_name": "pingdotgg\/t3code",
             "file": "data\/repos\/1153130349.json"
+        },
+        "1431240923": {
+            "id": 1431240923,
+            "full_name": "DylanLIiii\/opencode-antigravity-bridge",
+            "file": "data\/repos\/1431240923.json"
         }
     },
-    "snapshot_count": 692
+    "snapshot_count": 693
 }
