@@ -1,0 +1,262 @@
+# 🔥 GitHub Star 趋势分析报告
+
+> 生成时间：**2026-11-14 12:00:24** · 分析窗口：**7 天**（2026-11-07 12:00:00 ～ 2026-11-14 12:00:00）  
+> 统计仓库：**1178** 个（≥ 500 ★ 仓库） · 总索引：**2153** 个
+
+## 📋 本期摘要
+
+| 指标 | 榜首 |
+|:-----|:-----|
+| 🔥 综合热度最高 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) |
+| ⭐ Star 增量最多 | [morluto/rea](https://github.com/morluto/rea) |
+| 🚀 增长率最快 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) |
+| 🌐 最热语言 | TypeScript（+45,150 ★） |
+
+---
+
+## 🔥 综合热度 Top 20（≥ 500 ★ 仓库）
+
+> 综合 **Star 增量（35%）+ 增长率（25%）+ Fork 增量（20%）+ 日均增长（20%）** 加权评分，满分 100。
+
+| # | 仓库 | 语言 | 描述 | 热度 🔥 | ★ 增量 | 增长率 | Fork 增 |
+|:-:|:-----|:----:|:-----|-------:|------:|-------:|--------:|
+| 1 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 🐍 Python | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询其在数百个网站上的注册情况，帮助安全研究人员、记… | **88.8** | +12,596 | +12.7695% | +1,160 |
+| 2 | [yetone/magpie](https://github.com/yetone/magpie) | 🐹 Go | yetone/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更… | **84.4** | +4,756 | +15.1354% | +484 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 🟨 JavaScript | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成本试用模型能力、了解相关配置流程的开发者用于学习… | **84.1** | +8,644 | +13.4219% | +282 |
+| 4 | [morluto/rea](https://github.com/morluto/rea) | 🔷 TypeScript | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人项目或实验性代码仓库，主要用于沉淀特定技术方向的… | **81.6** | +19,180 | +4.3716% | +3,639 |
+| 5 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 🐍 Python | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设… | **72.4** | +4,027 | +7.5348% | +591 |
+| 6 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 🎯 Kotlin | 面电视大屏的视频播放类项目，主要用于在电视盒子或 Android TV 等设备上观看网络视频流或直播频道，解决在客厅大屏… | **68.3** | +1,256 | +12.0295% | +124 |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 🐚 Shell | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进的挑战题或实战题形式组织，内容涵盖泛型、条件类型… | **68.1** | +7,047 | +2.2241% | +676 |
+| 8 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 🔷 TypeScript | deepseek-ai/deepseek-harness 面向 DeepSeek 模型的评测与实验流程，通常用于组织基准… | **67.1** | +5,426 | +1.9718% | +976 |
+| 9 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 🟨 JavaScript | ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构… | **64.0** | +4,442 | +2.3885% | +344 |
+| 10 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) | 🐍 Python | workbuddy-auto-signin 面向 WorkBuddy 提供自动签到能力，主要用于减少每日手动打卡或签到带… | **63.7** | +338 | +16.642% | +27 |
+| 11 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 🟨 JavaScript | 汇总 dsh 相关插件与扩展资源的精选清单，按照 awesome 系列仓库的常见惯例，通常用于集中收录插件、工具、示例和… | **62.8** | +1,175 | +5.0179% | +1,130 |
+| 12 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 🐍 Python | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，通常适合自媒体创作者、内容运营者或需要批量产出视… | **62.5** | +3,040 | +2.1668% | +568 |
+| 13 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 🔷 TypeScript | dsh-market 从命名看是围绕“市场”场景构建的仓库，主要用于集中展示、分类浏览和检索商品、服务或数字资源，通常适… | **62.0** | +1,121 | +10.0009% | +43 |
+| 14 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 🟨 JavaScript | openGym 面向健身房和健身工作室的日常运营管理，主要用于集中维护会员信息、课程安排与预约等业务数据，帮助场馆减少手… | **60.7** | +1,247 | +6.2288% | +195 |
+| 15 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 🐍 Python | Hermes Agent 是 NousResearch 推出的智能体框架，主要用于构建基于大型语言模型的自主任务执行系统… | **60.2** | +2,004 | +0.7671% | +1,452 |
+| 16 | [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) | 🔷 TypeScript | LibreTV 是一个开源的轻量级在线影视聚合搜索与播放前端，主要用于自建影视资源站或家庭影音入口。它通常通过配置多个影… | **58.9** | +1,050 | +4.4216% | +443 |
+| 17 | [jub0t/Concat](https://github.com/jub0t/Concat) | 🦀 Rust | Concat 面向 Discord 社区的自建机器人场景，主要用于在服务器中提供命令响应、成员与消息管理以及日常互动等自… | **57.8** | +920 | +5.5829% | +93 |
+| 18 | [ardeyouxipianyi/workbuddy2api-hub](https://github.com/ardeyouxipianyi/workbuddy2api-hub) | 🐍 Python | 面向需要把 WorkBuddy 能力接入自有系统的开发者，提供 API 中转与聚合层，将原本依赖客户端或网页的操作转换为… | **57.1** | +373 | +10.2416% | +67 |
+| 19 | [dream-num/univer](https://github.com/dream-num/univer) | 🔷 TypeScript | 开源的 Web 办公套件，整合电子表格、文档和幻灯片三大核心应用，基于 TypeScript 构建并采用插件化架构，适合… | **57.0** | +1,072 | +4.6796% | +164 |
+| 20 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | 🟨 JavaScript | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口请求、数据解析与缓存管理的集成流程，减少重复样板… | **56.4** | +1,442 | +3.7647% | +107 |
+
+## 🚀 Star 增长率 Top 20（最近 7 天）（≥ 500 ★ 仓库）
+
+> 以 **增长率（%）** 排行——增速最快的仓库。
+
+| # | 仓库 | 语言 | 描述 | 当前 ★ | Star 增量 | 增长率 | 日均 |
+|:-:|:-----|:----:|:-----|-------:|-------:|-------:|-----:|
+| 1 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) | 🐍 Python | workbuddy-auto-signin 面向 WorkBuddy 提供自动签到能力，主要用于减少每日手动打卡或签到带… | 2,369 | +338 | +16.642% | +48.87 |
+| 2 | [yetone/magpie](https://github.com/yetone/magpie) | 🐹 Go | yetone/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更… | 36,179 | +4,756 | +15.1354% | +687.61 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 🟨 JavaScript | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成本试用模型能力、了解相关配置流程的开发者用于学习… | 73,046 | +8,644 | +13.4219% | +1249.73 |
+| 4 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 🐍 Python | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询其在数百个网站上的注册情况，帮助安全研究人员、记… | 111,237 | +12,596 | +12.7695% | +1799.43 |
+| 5 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | 🎯 Kotlin | 面电视大屏的视频播放类项目，主要用于在电视盒子或 Android TV 等设备上观看网络视频流或直播频道，解决在客厅大屏… | 11,697 | +1,256 | +12.0295% | +181.59 |
+| 6 | [Domainsun/awesome-chinese-secondhand-slang](https://github.com/Domainsun/awesome-chinese-secondhand-slang) | 📦 Other | 收集并解释中文二手交易中常见的行话、黑话、缩写与委婉说法，帮助读者看懂商品描述、砍价对话和卖家潜台词，降低因术语不熟造成… | 783 | +81 | +11.5385% | +11.71 |
+| 7 | [ardeyouxipianyi/workbuddy2api-hub](https://github.com/ardeyouxipianyi/workbuddy2api-hub) | 🐍 Python | 面向需要把 WorkBuddy 能力接入自有系统的开发者，提供 API 中转与聚合层，将原本依赖客户端或网页的操作转换为… | 4,015 | +373 | +10.2416% | +60.49 |
+| 8 | [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market) | 🔷 TypeScript | dsh-market 从命名看是围绕“市场”场景构建的仓库，主要用于集中展示、分类浏览和检索商品、服务或数字资源，通常适… | 12,330 | +1,121 | +10.0009% | +162.07 |
+| 9 | [ithtelab/workbuddy-manager](https://github.com/ithtelab/workbuddy-manager) | 🐍 Python | workbuddy-manager 围绕“工作伙伴”或工作助手场景提供管理能力，主要用于集中管理、配置和调度多个工作助手… | 2,696 | +205 | +8.2296% | +29.64 |
+| 10 | [PC2005-cloud/dsh-pet](https://github.com/PC2005-cloud/dsh-pet) | 🔷 TypeScript | PC2005-cloud/dsh-pet 面向宠物主题的轻量级开源仓库，从命名看可能聚焦宠物信息展示、日常记录或简单互动… | 6,237 | +449 | +7.7574% | +64.92 |
+| 11 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 🐍 Python | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设… | 57,472 | +4,027 | +7.5348% | +582.22 |
+| 12 | [DuarteSantos8/openGym](https://github.com/DuarteSantos8/openGym) | 🟨 JavaScript | openGym 面向健身房和健身工作室的日常运营管理，主要用于集中维护会员信息、课程安排与预约等业务数据，帮助场馆减少手… | 21,267 | +1,247 | +6.2288% | +180.29 |
+| 13 | [cv-cat/catbus](https://github.com/cv-cat/catbus) | 🔷 TypeScript | catbus 定位为轻量级消息总线/事件总线，主要用于应用内部模块之间的消息传递、事件通知与发布订阅，帮助解耦生产者和消… | 615 | +36 | +6.2176% | +5.61 |
+| 14 | [T-Auto/dsh-ops](https://github.com/T-Auto/dsh-ops) | 🟨 JavaScript | T-Auto/dsh-ops 面向 dsh 相关环境的运维操作，主要汇集日常维护所需的脚本、配置和操作说明，用于简化部署… | 5,798 | +335 | +6.1322% | +48.43 |
+| 15 | [jub0t/Concat](https://github.com/jub0t/Concat) | 🦀 Rust | Concat 面向 Discord 社区的自建机器人场景，主要用于在服务器中提供命令响应、成员与消息管理以及日常互动等自… | 17,399 | +920 | +5.5829% | +262.86 |
+| 16 | [dipa-studio/ios-sweet](https://github.com/dipa-studio/ios-sweet) | 🐍 Python | dipa-studio/ios-sweet 面向 iOS 客户端开发，定位为可集成到现有工程中的轻量级辅助项目，通常服务… | 1,365 | +72 | +5.5684% | +10.41 |
+| 17 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 🟨 JavaScript | 汇总 dsh 相关插件与扩展资源的精选清单，按照 awesome 系列仓库的常见惯例，通常用于集中收录插件、工具、示例和… | 24,591 | +1,175 | +5.0179% | +169.88 |
+| 18 | [mg-chao/snow-shot](https://github.com/mg-chao/snow-shot) | ⚙️ C++ | 用于整理多个小规模应用，通常适合开发者作为个人工具集或练习项目参考。仓库以统一的命名方式汇集若干功能独立的子应用，便于单… | 7,042 | +321 | +4.7761% | +45.86 |
+| 19 | [dream-num/univer](https://github.com/dream-num/univer) | 🔷 TypeScript | 开源的 Web 办公套件，整合电子表格、文档和幻灯片三大核心应用，基于 TypeScript 构建并采用插件化架构，适合… | 23,980 | +1,072 | +4.6796% | +153.14 |
+| 20 | [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) | 🔷 TypeScript | LibreTV 是一个开源的轻量级在线影视聚合搜索与播放前端，主要用于自建影视资源站或家庭影音入口。它通常通过配置多个影… | 24,797 | +1,050 | +4.4216% | +151.81 |
+
+## ⭐ Star 绝对增量 Top 20（最近 7 天）
+
+> 以 **star 绝对增加数** 排行——影响力最广的仓库。
+
+| # | 仓库 | 语言 | 描述 | 当前 ★ | Star 增量 | 增长率 | 日均 |
+|:-:|:-----|:----:|:-----|-------:|-------:|-------:|-----:|
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 🔷 TypeScript | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人项目或实验性代码仓库，主要用于沉淀特定技术方向的… | 457,921 | +19,180 | +4.3716% | +2773.01 |
+| 2 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 🐍 Python | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询其在数百个网站上的注册情况，帮助安全研究人员、记… | 111,237 | +12,596 | +12.7695% | +1799.43 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 🟨 JavaScript | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成本试用模型能力、了解相关配置流程的开发者用于学习… | 73,046 | +8,644 | +13.4219% | +1249.73 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 🐚 Shell | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进的挑战题或实战题形式组织，内容涵盖泛型、条件类型… | 323,895 | +7,047 | +2.2241% | +1006.71 |
+| 5 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 🔷 TypeScript | deepseek-ai/deepseek-harness 面向 DeepSeek 模型的评测与实验流程，通常用于组织基准… | 280,606 | +5,426 | +1.9718% | +784.48 |
+| 6 | [yetone/magpie](https://github.com/yetone/magpie) | 🐹 Go | yetone/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更… | 36,179 | +4,756 | +15.1354% | +687.61 |
+| 7 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 🟨 JavaScript | ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构… | 190,419 | +4,442 | +2.3885% | +642.22 |
+| 8 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 🐍 Python | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设… | 57,472 | +4,027 | +7.5348% | +582.22 |
+| 9 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 🐍 Python | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，通常适合自媒体创作者、内容运营者或需要批量产出视… | 143,338 | +3,040 | +2.1668% | +434.29 |
+| 10 | [firecrawl/firecrawl](https://github.com/mendableai/firecrawl) | 🔷 TypeScript | Firecrawl 是一个开源的网页抓取与内容提取工具，专门用于将任意网站转换为干净的 Markdown 或结构化 JS… | 201,599 | +2,299 | +1.1535% | +328.43 |
+| 11 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 📦 Other | 用于汇总和推荐各类可自行部署的网络服务、软件与工具的精选清单，涵盖文件管理、媒体流、协作办公、密码管理、监控分析等数十个… | 336,812 | +2,248 | +0.6719% | +321.14 |
+| 12 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 🐍 Python | 整理并分类收录了大量免费开放的公共 API 接口，涵盖音频、金融、游戏、新闻、天气等多个领域，并提供检索与筛选功能。开发… | 498,819 | +2,034 | +0.4094% | +290.57 |
+| 13 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 🐍 Python | Hermes Agent 是 NousResearch 推出的智能体框架，主要用于构建基于大型语言模型的自主任务执行系统… | 263,247 | +2,004 | +0.7671% | +286.29 |
+| 14 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 🦀 Rust | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，主要面向 Claude Code、Codex 等… | 154,260 | +1,855 | +1.2172% | +265 |
+| 15 | [openai/codex](https://github.com/openai/codex) | 🦀 Rust | OpenAI 的 Codex 让开发者在终端中直接使用 AI 编码代理，它能够读取本地仓库，通过自然语言指令自动编写代码… | 135,205 | +1,703 | +1.2756% | +243.29 |
+| 16 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 🔷 TypeScript | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需离开命令行即可获得代码生成、补全和调试支持。它适… | 226,703 | +1,612 | +0.7162% | +230.29 |
+| 17 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ☕ Java | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析编译后的二进制程序，提供反汇编、反编译、调试和脚… | 99,974 | +1,561 | +1.5862% | +223 |
+| 18 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | 🦀 Rust | Clash Verge Rev 是一款跨平台的 Clash 图形化客户端，基于 Tauri 开发，支持 Windows、… | 158,269 | +1,465 | +0.9343% | +209.29 |
+| 19 | [hmjz100/LinkSwift](https://github.com/hmjz100/LinkSwift) | 🟨 JavaScript | 用于构建高效网络链接处理的轻量级 Swift 工具库，核心目标是简化接口请求、数据解析与缓存管理的集成流程，减少重复样板… | 39,745 | +1,442 | +3.7647% | +206 |
+| 20 | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 🐍 Python | HelloGitHub 是一个面向编程爱好者的开源项目分享平台，每月定期整理并推荐 GitHub 上有趣、易上手的新鲜项… | 188,696 | +1,350 | +0.7206% | +192.86 |
+
+## 🍴 Fork 增量 Top 20（最近 7 天）
+
+> 以 **fork 绝对增加数** 排行——被动手实践最多的仓库。
+
+| # | 仓库 | 语言 | 描述 | 当前 🍴 | Fork 增量 | Fork 增长率 |
+|:-:|:-----|:----:|:-----|-------:|----------:|------------:|
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 🔷 TypeScript | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人项目或实验性代码仓库，主要用于沉淀特定技术方向的… | 112,346 | +3,639 | +3.3475% |
+| 2 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 🐍 Python | Hermes Agent 是 NousResearch 推出的智能体框架，主要用于构建基于大型语言模型的自主任务执行系统… | 59,296 | +1,452 | +2.5102% |
+| 3 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 🐍 Python | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询其在数百个网站上的注册情况，帮助安全研究人员、记… | 12,871 | +1,160 | +9.9052% |
+| 4 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 🟨 JavaScript | 汇总 dsh 相关插件与扩展资源的精选清单，按照 awesome 系列仓库的常见惯例，通常用于集中收录插件、工具、示例和… | 8,287 | +1,130 | +15.7887% |
+| 5 | [NapNeko/NapCatQQ](https://github.com/NapNeko/NapCatQQ) | 📦 Other | NapCatQQ 主要用于运行基于新版 QQ 的机器人服务，将 NTQQ 封装为可在服务端无头运行的框架，并通过 One… | 1,948 | +1,068 | +121.3636% |
+| 6 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 🔷 TypeScript | deepseek-ai/deepseek-harness 面向 DeepSeek 模型的评测与实验流程，通常用于组织基准… | 34,616 | +976 | +2.9013% |
+| 7 | [mattpocock/skills](https://github.com/mattpocock/skills) | 🐚 Shell | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进的挑战题或实战题形式组织，内容涵盖泛型、条件类型… | 27,186 | +676 | +2.55% |
+| 8 | [is-a-dev/register](https://github.com/is-a-dev/register) | 🟨 JavaScript | 为开发者提供免费的子域名注册服务，通过 it's-a.dev 项目，任何人可申请一个以 .is-a.dev 结尾的专属子… | 35,145 | +642 | +1.8607% |
+| 9 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 📦 MDX | Bootstrap 是用于快速构建响应式、移动优先的 Web 界面的主流前端框架，提供了一整套预设的 CSS 样式、栅格… | 79,282 | +632 | +0.8036% |
+| 10 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 🐍 Python | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设… | 7,435 | +591 | +8.6353% |
+| 11 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 🐍 Python | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，通常适合自媒体创作者、内容运营者或需要批量产出视… | 22,947 | +568 | +2.5381% |
+| 12 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 🐍 Python | 整理并持续更新海量免费编程学习资源的合集，涵盖多种语言和技术栈的电子书、教程、课程与在线材料，适合自学者、学生和开发者按… | 67,812 | +549 | +0.8162% |
+| 13 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 📦 Other | 汇总整理 Model Context Protocol（MCP）服务器实现的资源清单，面向希望为 AI 助手、IDE 或… | 19,909 | +521 | +2.6872% |
+| 14 | [yetone/magpie](https://github.com/yetone/magpie) | 🐹 Go | yetone/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更… | 3,232 | +484 | +17.6128% |
+| 15 | [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) | 🔷 TypeScript | LibreTV 是一个开源的轻量级在线影视聚合搜索与播放前端，主要用于自建影视资源站或家庭影音入口。它通常通过配置多个影… | 31,269 | +443 | +1.4371% |
+| 16 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 🐍 Python | 整理并分类收录了大量免费开放的公共 API 接口，涵盖音频、金融、游戏、新闻、天气等多个领域，并提供检索与筛选功能。开发… | 55,871 | +359 | +0.6467% |
+| 17 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 🟨 JavaScript | ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构… | 10,635 | +344 | +3.3427% |
+| 18 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 🔷 TypeScript | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需离开命令行即可获得代码生成、补全和调试支持。它适… | 30,696 | +323 | +1.0634% |
+| 19 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 🟨 JavaScript | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成本试用模型能力、了解相关配置流程的开发者用于学习… | 2,021 | +282 | +16.2162% |
+| 20 | [openai/codex](https://github.com/openai/codex) | 🦀 Rust | OpenAI 的 Codex 让开发者在终端中直接使用 AI 编码代理，它能够读取本地仓库，通过自然语言指令自动编写代码… | 21,442 | +281 | +1.3279% |
+
+## 📈 日均 Star 增长 Top 20（最近 7 天）
+
+> 每天平均新增 star 数量——持续热度最高的仓库。
+
+| # | 仓库 | 语言 | 描述 | 当前 ★ | Star 增量 | 增长率 | 日均 |
+|:-:|:-----|:----:|:-----|-------:|-------:|-------:|-----:|
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 🔷 TypeScript | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人项目或实验性代码仓库，主要用于沉淀特定技术方向的… | 457,921 | +19,180 | +4.3716% | +2773.01 |
+| 2 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | 🐍 Python | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询其在数百个网站上的注册情况，帮助安全研究人员、记… | 111,237 | +12,596 | +12.7695% | +1799.43 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 🟨 JavaScript | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成本试用模型能力、了解相关配置流程的开发者用于学习… | 73,046 | +8,644 | +13.4219% | +1249.73 |
+| 4 | [mattpocock/skills](https://github.com/mattpocock/skills) | 🐚 Shell | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进的挑战题或实战题形式组织，内容涵盖泛型、条件类型… | 323,895 | +7,047 | +2.2241% | +1006.71 |
+| 5 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 🔷 TypeScript | pingdotgg/t3code 是 T3 Code 的源码仓库，面向希望在现代 Web 技术栈中获得更轻量编码体验的开… | 59,712 | +820 | +1.3924% | +820 |
+| 6 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 🔷 TypeScript | deepseek-ai/deepseek-harness 面向 DeepSeek 模型的评测与实验流程，通常用于组织基准… | 280,606 | +5,426 | +1.9718% | +784.48 |
+| 7 | [yetone/magpie](https://github.com/yetone/magpie) | 🐹 Go | yetone/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更… | 36,179 | +4,756 | +15.1354% | +687.61 |
+| 8 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 🟨 JavaScript | ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构… | 190,419 | +4,442 | +2.3885% | +642.22 |
+| 9 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 🐍 Python | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设… | 57,472 | +4,027 | +7.5348% | +582.22 |
+| 10 | [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | 🐍 Python | MoneyPrinterTurbo 是一款用于快速生成短视频的开源工具，通常适合自媒体创作者、内容运营者或需要批量产出视… | 143,338 | +3,040 | +2.1668% | +434.29 |
+| 11 | [firecrawl/firecrawl](https://github.com/mendableai/firecrawl) | 🔷 TypeScript | Firecrawl 是一个开源的网页抓取与内容提取工具，专门用于将任意网站转换为干净的 Markdown 或结构化 JS… | 201,599 | +2,299 | +1.1535% | +328.43 |
+| 12 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 📦 Other | 用于汇总和推荐各类可自行部署的网络服务、软件与工具的精选清单，涵盖文件管理、媒体流、协作办公、密码管理、监控分析等数十个… | 336,812 | +2,248 | +0.6719% | +321.14 |
+| 13 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 🐍 Python | 整理并分类收录了大量免费开放的公共 API 接口，涵盖音频、金融、游戏、新闻、天气等多个领域，并提供检索与筛选功能。开发… | 498,819 | +2,034 | +0.4094% | +290.57 |
+| 14 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 🐍 Python | Hermes Agent 是 NousResearch 推出的智能体框架，主要用于构建基于大型语言模型的自主任务执行系统… | 263,247 | +2,004 | +0.7671% | +286.29 |
+| 15 | [farion1231/cc-switch](https://github.com/farion1231/cc-switch) | 🦀 Rust | cc-switch 是一款用于快速切换 AI 编程工具配置的命令行工具，主要面向 Claude Code、Codex 等… | 154,260 | +1,855 | +1.2172% | +265 |
+| 16 | [jub0t/Concat](https://github.com/jub0t/Concat) | 🦀 Rust | Concat 面向 Discord 社区的自建机器人场景，主要用于在服务器中提供命令响应、成员与消息管理以及日常互动等自… | 17,399 | +920 | +5.5829% | +262.86 |
+| 17 | [openai/codex](https://github.com/openai/codex) | 🦀 Rust | OpenAI 的 Codex 让开发者在终端中直接使用 AI 编码代理，它能够读取本地仓库，通过自然语言指令自动编写代码… | 135,205 | +1,703 | +1.2756% | +243.29 |
+| 18 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 🔷 TypeScript | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需离开命令行即可获得代码生成、补全和调试支持。它适… | 226,703 | +1,612 | +0.7162% | +230.29 |
+| 19 | [NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra) | ☕ Java | Ghidra 是由美国国家安全局开源的软件逆向工程框架，主要用于静态分析编译后的二进制程序，提供反汇编、反编译、调试和脚… | 99,974 | +1,561 | +1.5862% | +223 |
+| 20 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | 🦀 Rust | Clash Verge Rev 是一款跨平台的 Clash 图形化客户端，基于 Tauri 开发，支持 Windows、… | 158,269 | +1,465 | +0.9343% | +209.29 |
+
+## 🆕 新收录项目 Top 20（最近 7 天）
+
+> 在最近 7 天内首次被收录到知识库的优质项目。
+
+| # | 仓库 | 语言 | 描述 | 当前 ★ | Star 增量 | 增长率 | 日均 |
+|:-:|:-----|:----:|:-----|-------:|-------:|-------:|-----:|
+| 1 | [morluto/rea](https://github.com/morluto/rea) | 🔷 TypeScript | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人项目或实验性代码仓库，主要用于沉淀特定技术方向的… | 457,921 | +19,180 | +4.3716% | +2773.01 |
+| 2 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 🔷 TypeScript | deepseek-ai/deepseek-harness 面向 DeepSeek 模型的评测与实验流程，通常用于组织基准… | 280,606 | +5,426 | +1.9718% | +784.48 |
+| 3 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 🟨 JavaScript | ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构… | 190,419 | +4,442 | +2.3885% | +642.22 |
+| 4 | [browser-use/browser-use](https://github.com/browser-use/browser-use) | 🐍 Python | browser-use 面向让大语言模型直接操作网页的场景，提供连接 AI 智能体与浏览器的开源能力。它通常用于自动点击… | 120,965 | +735 | +0.6113% | +106.27 |
+| 5 | [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) | 📦 Other | 汇总整理 Model Context Protocol（MCP）服务器实现的资源清单，面向希望为 AI 助手、IDE 或… | 97,686 | +285 | +0.2926% | +41.2 |
+| 6 | [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) | 🐍 Python | Datawhale China 出品的智能体入门学习教程，围绕大语言模型驱动的 AI Agent 展开，帮助学习者从零理… | 86,954 | +338 | +0.3902% | +96.57 |
+| 7 | [rtk-ai/rtk](https://github.com/rtk-ai/rtk) | 🦀 Rust | 围绕 RTK（实时动态差分定位）的开源项目，主要用于高精度 GNSS 定位数据的处理与实验，探索将 AI 方法引入定位解… | 86,516 | +741 | +0.8639% | +107.13 |
+| 8 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | 🟨 JavaScript | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成本试用模型能力、了解相关配置流程的开发者用于学习… | 73,046 | +8,644 | +13.4219% | +1249.73 |
+| 9 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | 🔷 TypeScript | pingdotgg/t3code 是 T3 Code 的源码仓库，面向希望在现代 Web 技术栈中获得更轻量编码体验的开… | 59,712 | +820 | +1.3924% | +820 |
+| 10 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | 🐍 Python | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于释放存储空间、清除应用缓存和冗余文件，帮助改善设… | 57,472 | +4,027 | +7.5348% | +582.22 |
+| 11 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 🔷 TypeScript | Playwright MCP 是微软开源的模型上下文协议服务器，把 Playwright 的浏览器自动化能力封装成可供 … | 39,612 | +326 | +0.8298% | +47.13 |
+| 12 | [yetone/magpie](https://github.com/yetone/magpie) | 🐹 Go | yetone/magpie 是独立开发者 yetone 名下的一个开源仓库，从作者以往的桌面端与编辑器插件类项目看，它更… | 36,179 | +4,756 | +15.1354% | +687.61 |
+| 13 | [freestylefly/awesome-gpt-image-2](https://github.com/freestylefly/awesome-gpt-image-2) | 🟨 JavaScript | 面向使用 GPT 图像生成能力（gpt-image-2）的开发者与创作者，汇总提示词范例、使用技巧、工具与相关资料，便于… | 35,792 | +255 | +0.7176% | +36.87 |
+| 14 | [vxcontrol/pentagi](https://github.com/vxcontrol/pentagi) | 🐹 Go | Pentagi 是面向安全测试场景的自主 AI 渗透测试代理系统，通过多个协作的 AI 代理自动规划并执行渗透测试任务，… | 34,118 | +556 | +1.6566% | +80.39 |
+| 15 | [tobi/qmd](https://github.com/tobi/qmd) | 🔷 TypeScript | 仓库名中的 qmd 通常对应对 Quarto Markdown 文档格式的简称，因此 tobi/qmd 大概率是一个围绕… | 31,108 | +171 | +0.5527% | +24.72 |
+| 16 | [xiaojieonly/Ehviewer_CN_SXJ](https://github.com/xiaojieonly/Ehviewer_CN_SXJ) | ⚙️ C | EhViewer_CN_SXJ 是面向 Android 的 E-Hentai 第三方客户端中文分支，主要用于在手机上浏览… | 29,071 | +300 | +1.0427% | +43.37 |
+| 17 | [youhunwl/TVAPP](https://github.com/youhunwl/TVAPP) | 🟨 JavaScript | youhunwl/TVAPP 主要围绕智能电视与电视盒子端的应用资源整理与分享，面向需要在 Android TV、投影仪… | 28,422 | +993 | +3.6203% | +143.57 |
+| 18 | [forthespada/CS-Books](https://github.com/forthespada/CS-Books) | 📦 Other | 汇集计算机与编程领域大量电子书资源的整理型仓库，内容覆盖 C/C++、Java、Python、Linux、算法与数据结构… | 28,049 | +67 | +0.2394% | +10.44 |
+| 19 | [LibreSpark/LibreTV](https://github.com/LibreSpark/LibreTV) | 🔷 TypeScript | LibreTV 是一个开源的轻量级在线影视聚合搜索与播放前端，主要用于自建影视资源站或家庭影音入口。它通常通过配置多个影… | 24,797 | +1,050 | +4.4216% | +151.81 |
+| 20 | [awesome-dsh-plugin/awesome-dsh-plugin](https://github.com/awesome-dsh-plugin/awesome-dsh-plugin) | 🟨 JavaScript | 汇总 dsh 相关插件与扩展资源的精选清单，按照 awesome 系列仓库的常见惯例，通常用于集中收录插件、工具、示例和… | 24,591 | +1,175 | +5.0179% | +169.88 |
+
+## 🌐 语言趋势 Top 20（最近 7 天）
+
+> 按编程语言汇总所有仓库的 star 增量，看哪门语言整体最热。
+
+| # | 语言 | 仓库数 | Star 总量 | Star 增量 | Fork 增量 | 日均增/库 |
+|:-:|:-----|------:|---------:|----------:|----------:|----------:|
+| 1 | 🔷 TypeScript | 168 | 5,142,505 | +45,150 | +5,111 | +42.87 |
+| 2 | 🐍 Python | 163 | 4,553,606 | +35,142 | +5,976 | +31.22 |
+| 3 | 🟨 JavaScript | 161 | 2,190,817 | +21,992 | +3,145 | +19.81 |
+| 4 | 🦀 Rust | 32 | 1,470,321 | +11,067 | +1,177 | +53.56 |
+| 5 | 🐹 Go | 91 | 1,993,939 | +10,469 | +652 | +16.54 |
+| 6 | 🐚 Shell | 57 | 1,209,678 | +8,168 | +8 | +20.55 |
+| 7 | 🎯 Kotlin | 38 | 590,183 | +5,584 | +838 | +21.07 |
+| 8 | 📦 Other | 98 | 2,224,436 | +5,175 | +1,848 | +7.55 |
+| 9 | ☕ Java | 45 | 688,561 | +3,103 | +485 | +9.86 |
+| 10 | ⚙️ C++ | 51 | 896,674 | +2,435 | +283 | +6.82 |
+| 11 | ⚙️ C | 58 | 1,037,488 | +2,409 | -464 | +5.97 |
+| 12 | 🎯 Dart | 10 | 248,800 | +2,060 | +202 | +29.46 |
+| 13 | 💜 C# | 43 | 645,711 | +1,658 | +141 | +5.48 |
+| 14 | 🌐 HTML | 21 | 251,326 | +1,050 | +105 | +7.17 |
+| 15 | 📦 Batchfile | 3 | 209,379 | +981 | +77 | +46.72 |
+| 16 | 💚 Vue | 21 | 311,744 | +473 | +44 | +3.25 |
+| 17 | 🐘 PHP | 104 | 807,024 | +351 | -6 | +0.48 |
+| 18 | 📦 Svelte | 2 | 47,348 | +345 | +57 | +24.64 |
+| 19 | 📦 PowerShell | 4 | 82,470 | +336 | +8 | +11.98 |
+| 20 | 📦 Fluent | 1 | 35,150 | +249 | +9 | +35.57 |
+
+## 🏆 Star 总量 Top 20
+
+> 当前 star 数最多的仓库——长期积累的影响力排行。
+
+| # | 仓库 | 语言 | 描述 | 当前 ★ | 近期增量 | 近期增长率 |
+|:-:|:-----|:----:|:-----|-------:|--------:|----------:|
+| 1 | [public-apis/public-apis](https://github.com/public-apis/public-apis) | 🐍 Python | 整理并分类收录了大量免费开放的公共 API 接口，涵盖音频、金融、游戏、新闻、天气等多个领域，并提供检索与筛选功能。开发… | 498,819 | +2,034 | +0.4094% |
+| 2 | [morluto/rea](https://github.com/morluto/rea) | 🔷 TypeScript | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人项目或实验性代码仓库，主要用于沉淀特定技术方向的… | 457,921 | +19,180 | +4.3716% |
+| 3 | [EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books) | 🐍 Python | 整理并持续更新海量免费编程学习资源的合集，涵盖多种语言和技术栈的电子书、教程、课程与在线材料，适合自学者、学生和开发者按… | 401,561 | +408 | +0.1017% |
+| 4 | [openclaw/openclaw](https://github.com/openclaw/openclaw) | 🔷 TypeScript | 经典横版动作游戏《Claw》的开源兼容引擎，主要用于读取原版游戏数据文件，在现代操作系统上重新运行这款游戏。它重现了关卡… | 394,405 | +319 | +0.0809% |
+| 5 | [awesome-selfhosted/awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) | 📦 Other | 用于汇总和推荐各类可自行部署的网络服务、软件与工具的精选清单，涵盖文件管理、媒体流、协作办公、密码管理、监控分析等数十个… | 336,812 | +2,248 | +0.6719% |
+| 6 | [mattpocock/skills](https://github.com/mattpocock/skills) | 🐚 Shell | 面向 TypeScript 类型系统的技能练习项目，通常以一系列循序渐进的挑战题或实战题形式组织，内容涵盖泛型、条件类型… | 323,895 | +7,047 | +2.2241% |
+| 7 | [deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness) | 🔷 TypeScript | deepseek-ai/deepseek-harness 面向 DeepSeek 模型的评测与实验流程，通常用于组织基准… | 280,606 | +5,426 | +1.9718% |
+| 8 | [996icu/996.ICU](https://github.com/996icu/996.ICU) | 📦 Other | 用于汇总和传播关于互联网行业超时加班现象的信息，收录企业与开发者对“996”工作制的公开信、法律分析、媒体报道和抗议活动… | 277,223 | +13 | +0.0047% |
+| 9 | [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 🐍 Python | Hermes Agent 是 NousResearch 推出的智能体框架，主要用于构建基于大型语言模型的自主任务执行系统… | 263,247 | +2,004 | +0.7671% |
+| 10 | [anomalyco/opencode](https://github.com/anomalyco/opencode) | 🔷 TypeScript | opencode 是一个面向终端环境的 AI 编码助手，旨在让开发者无需离开命令行即可获得代码生成、补全和调试支持。它适… | 226,703 | +1,612 | +0.7162% |
+| 11 | [firecrawl/firecrawl](https://github.com/mendableai/firecrawl) | 🔷 TypeScript | Firecrawl 是一个开源的网页抓取与内容提取工具，专门用于将任意网站转换为干净的 Markdown 或结构化 JS… | 201,599 | +2,299 | +1.1535% |
+| 12 | [massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts) | 📦 Batchfile | 用于激活 Microsoft Windows 和 Office 的脚本集合，提供 HWID 数字许可证、KMS 等多种激… | 198,906 | +980 | +0.4951% |
+| 13 | [microsoft/markitdown](https://github.com/microsoft/markitdown) | 🐍 Python | 用于将多种常见文件格式批量转换为 Markdown 文本，包括 Word、Excel、PowerPoint、PDF、图片… | 195,269 | +1,054 | +0.5427% |
+| 14 | [ultraworkers/claw-code](https://github.com/ultraworkers/claw-code) | 🦀 Rust | claw-code 是一个面向开发者的代码辅助工具，主要用于自动生成、补全和重构代码片段，帮助减少重复性编码工作。它通常… | 194,781 | -171 | -0.0877% |
+| 15 | [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh) | 🐚 Shell | 一个社区驱动的 Zsh 配置管理框架，用于简化终端环境搭建和日常使用。它内置数百个插件和主题，涵盖 Git 别名、语法高… | 190,607 | +274 | +0.144% |
+| 16 | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 🟨 JavaScript | ponytail 的具体用途仅凭仓库名称难以可靠判断，目前缺少可验证的项目描述信息；通常需要结合 README、源码结构… | 190,419 | +4,442 | +2.3885% |
+| 17 | [521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub) | 🐍 Python | HelloGitHub 是一个面向编程爱好者的开源项目分享平台，每月定期整理并推荐 GitHub 上有趣、易上手的新鲜项… | 188,696 | +1,350 | +0.7206% |
+| 18 | [twbs/bootstrap](https://github.com/twbs/bootstrap) | 📦 MDX | Bootstrap 是用于快速构建响应式、移动优先的 Web 界面的主流前端框架，提供了一整套预设的 CSS 样式、栅格… | 175,057 | +43 | +0.0246% |
+| 19 | [clash-verge-rev/clash-verge-rev](https://github.com/clash-verge-rev/clash-verge-rev) | 🦀 Rust | Clash Verge Rev 是一款跨平台的 Clash 图形化客户端，基于 Tauri 开发，支持 Windows、… | 158,269 | +1,465 | +0.9343% |
+| 20 | [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | ⚙️ C | 用于在电脑上实时镜像和控制 Android 设备的开源工具，通过 USB 或无线 ADB 连接，无需 root 权限。它… | 154,763 | +573 | +0.3716% |
+
+## 📉 Star 负增长 Top 20（最近 7 天）
+
+> star **跌幅最大**的仓库。
+
+| # | 仓库 | 语言 | 描述 | 当前 ★ | Star 变化 | 增长率 | 日均 |
+|:-:|:-----|:----:|:-----|-------:|-------:|-------:|-----:|
+| 1 | [kitUIN/PicImageSearch](https://github.com/kitUIN/PicImageSearch) | 🐍 Python | 用于以图搜图的Python库，通过本地图片或图片链接自动查询多个主流搜索引擎，返回相似图片及其来源页面。适合追踪图片来源… | 737 | -3 | -0.4054% | -0.46 |
+| 2 | [zhihulite/Hydrogen](https://github.com/zhihulite/Hydrogen) | 🌙 Lua | Hydrogen 是开发者 zhihulite 发布的一个轻量级项目，从其命名和所属空间看，很可能与知乎的极简访问或辅助… | 1,806 | -6 | -0.3311% | -0.75 |
+| 3 | [Adpro-Team/GKD_subscription](https://github.com/Adpro-Team/GKD_subscription) | 🔷 TypeScript | GKD订阅规则合集，服务于基于无障碍权限的安卓广告跳过工具，集中提供应用内广告自动检测与跳过规则。用户将此订阅导入GKD… | 1,867 | -4 | -0.2138% | -0.55 |
+| 4 | [Tencent/nohost](https://github.com/Tencent/nohost) | 🟨 JavaScript | 基于 Node.js 的本地代理与抓包调试工具，常用于前端开发环境中的接口 Mock、请求转发和跨域处理。它支持多规则配… | 1,471 | -3 | -0.2035% | -0.46 |
+| 5 | [Yiyiyimu/QQ-History-Backup](https://github.com/Yiyiyimu/QQ-History-Backup) | 🐍 Python | 这款工具主要用于备份和导出QQ聊天记录，解决聊天记录易丢失、不便迁移或难以长期保存的问题。它通常能解析QQ本地存储的数据… | 1,068 | -2 | -0.1869% | -0.25 |
+| 6 | [Imangazaliev/DiDOM](https://github.com/Imangazaliev/DiDOM) | 🐘 PHP | DiDOM 是一个 PHP 的 HTML 和 XML 解析库，专注于让开发者通过类似 jQuery 的语法快速提取页面元… | 2,191 | -4 | -0.1822% | -0.31 |
+| 7 | [fkxxyz/rime-cloverpinyin](https://github.com/fkxxyz/rime-cloverpinyin) | 🐍 Python | 为 RIME 输入法打造的拼音输入方案，整合常用词库与优化配置，支持简拼、全拼、模糊音及中英混输等特性，适合需高效中文输… | 2,002 | -3 | -0.1496% | -0.43 |
+| 8 | [Kenshin/gnvm](https://github.com/Kenshin/gnvm) | 🐹 Go | 用于在Windows系统上管理多个Node.js版本，支持通过命令行安装、切换和卸载不同版本的Node.js，并可配置镜… | 677 | -1 | -0.1475% | -0.05 |
+| 9 | [nickbnf/glogg](https://github.com/nickbnf/glogg) | ⚙️ C++ | glogg 是一款跨平台图形化日志查看工具，专为浏览和搜索大型日志文件而设计。它利用索引机制提升加载速度，并支持正则表达… | 1,359 | -2 | -0.147% | -0.23 |
+| 10 | [overtrue/socialite](https://github.com/overtrue/socialite) | 🐘 PHP | 为 PHP 应用提供统一的社交账号登录接入方案，核心功能是封装 GitHub、微信、QQ、微博等数十个平台的 OAuth… | 1,376 | -2 | -0.1451% | -0.24 |
+| 11 | [Entromorgan/Autoticket](https://github.com/Entromorgan/Autoticket) | 🐍 Python | Autoticket 用于自动化完成票券抢购流程，主要解决手动抢票速度慢、易错过放票时间的问题，常见于演出、体育赛事或交… | 1,448 | -2 | -0.1379% | -0.17 |
+| 12 | [Achrou/goindex-theme-acrou](https://github.com/Achrou/goindex-theme-acrou) | 🟨 JavaScript | 为 GoIndex 这类基于 Google Drive 的网盘索引程序提供一套美观的界面主题，核心功能是替代默认的简陋页… | 1,577 | -2 | -0.1267% | -0.29 |
+| 13 | [EhsanTang/ApiManager](https://github.com/EhsanTang/ApiManager) | ☕ Java | ApiManager 是一套面向开发团队的接口管理与文档协作工具，主要用于集中维护 API 定义、调试请求和生成接口文档… | 2,410 | -3 | -0.1243% | -0.44 |
+| 14 | [zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API) | 🐍 Python | 用于操作蓝奏云网盘的第三方 Python API 库，封装了文件上传、下载、删除、目录管理等核心功能，解决蓝奏云缺少官方… | 808 | -1 | -0.1236% | -0.15 |
+| 15 | [kkHAIKE/fake115](https://github.com/kkHAIKE/fake115) | 🟨 JavaScript | 该仓库模拟115网盘的通信过程和关键接口，使自建工具能够绕过官方客户端直接访问网盘内容。它通常被部署在本地，作为中转层为… | 1,623 | -2 | -0.1231% | -0.3 |
+| 16 | [qingshuisiyuan/electron-ssr-backup](https://github.com/qingshuisiyuan/electron-ssr-backup) | 📦 Other | 基于 Electron 的 ShadowsocksR 客户端备份仓库，主要用于提供可用的客户端版本下载与源码存档，方便用… | 5,783 | -7 | -0.1209% | -1.08 |
+| 17 | [CCmahua/ChatTTS-Enhanced](https://github.com/CCmahua/ChatTTS-Enhanced) | 🐍 Python | ChatTTS-Enhanced 是针对 ChatTTS 文本转语音模型的增强版本，主要用于生成自然流畅的对话式语音。它… | 838 | -1 | -0.1192% | -0.08 |
+| 18 | [crazy-max/docker-jetbrains-license-server](https://github.com/crazy-max/docker-jetbrains-license-server) | 📦 Dockerfile | 该仓库提供用于在 Docker 环境中部署 JetBrains 许可证服务器的镜像，适合企业或团队在内网集中管理 Jet… | 1,711 | -2 | -0.1168% | -0.27 |
+| 19 | [PicGo/Awesome-PicGo](https://github.com/PicGo/Awesome-PicGo) | 📦 Other | 维护 PicGo 生态的精选资源列表，汇总了图床工具 PicGo 的插件、主题、教程、命令行工具等相关项目。适合在使用 … | 1,732 | -2 | -0.1153% | -0.29 |
+| 20 | [codehub666/94list](https://github.com/codehub666/94list) | 🐘 PHP | 94list 以列表形式聚合和展示网络资源，核心功能是把常用链接、工具或内容按类别整理成清单，方便快速访问和分享。它常被… | 1,781 | -2 | -0.1122% | -0.29 |
+
+---
+
+_由 [trend.php](trend.php) 自动生成 · 参数：days=7, top=20, min_stars=500_
