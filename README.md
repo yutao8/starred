@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,113+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-11-14 12:00:23** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-11-14 18:00:21** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026111412/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026111418/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 111,237 | **+12,596** | +12.7695% | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询… |
-| 2 | [yetone/magpie](https://github.com/yetone/magpie) | `Go` | 36,179 | **+4,756** | +15.1354% | yetone/magpie 是独立开发者 yetone 名下的一个开源仓… |
-| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 73,046 | **+8,644** | +13.4219% | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成… |
-| 4 | [morluto/rea](https://github.com/morluto/rea) | `TypeScript` | 457,921 | **+19,180** | +4.3716% | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人… |
-| 5 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | `Python` | 57,472 | **+4,027** | +7.5348% | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于… |
+| 1 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 111,411 | **+12,275** | +12.382% | 一个用于跨社交平台批量搜索用户名的命令行工具，输入目标用户名后会自动查询… |
+| 2 | [yetone/magpie](https://github.com/yetone/magpie) | `Go` | 36,326 | **+4,802** | +15.2328% | yetone/magpie 是独立开发者 yetone 名下的一个开源仓… |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 73,444 | **+8,765** | +13.5515% | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成… |
+| 4 | [morluto/rea](https://github.com/morluto/rea) | `TypeScript` | 458,470 | **+19,310** | +4.397% | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人… |
+| 5 | [Gathin23/cleanyourtv](https://github.com/Gathin23/cleanyourtv) | `Python` | 57,579 | **+4,054** | +7.574% | CleanYourTV 面向智能电视和电视盒子的清理与维护场景，主要用于… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) | `Python` | 2,369 | **+16.642%** | +338 | +48.87 ★/天 |
-| 2 | [yetone/magpie](https://github.com/yetone/magpie) | `Go` | 36,179 | **+15.1354%** | +4,756 | +687.61 ★/天 |
-| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 73,046 | **+13.4219%** | +8,644 | +1249.73 ★/天 |
-| 4 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 111,237 | **+12.7695%** | +12,596 | +1799.43 ★/天 |
-| 5 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | `Kotlin` | 11,697 | **+12.0295%** | +1,256 | +181.59 ★/天 |
+| 1 | [88lin/workbuddy-auto-signin](https://github.com/88lin/workbuddy-auto-signin) | `Python` | 2,381 | **+16.8876%** | +344 | +49.14 ★/天 |
+| 2 | [yetone/magpie](https://github.com/yetone/magpie) | `Go` | 36,326 | **+15.2328%** | +4,802 | +686 ★/天 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 73,444 | **+13.5515%** | +8,765 | +1252.14 ★/天 |
+| 4 | [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock) | `Python` | 111,411 | **+12.382%** | +12,275 | +1753.57 ★/天 |
+| 5 | [pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv) | `Kotlin` | 11,740 | **+12.0336%** | +1,261 | +180.14 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **TypeScript** | 168 | 5,142,505 | **+45,150 ★** | +5,111 | +42.87 ★ |
-| 2 | **Python** | 163 | 4,553,606 | **+35,142 ★** | +5,976 | +31.22 ★ |
-| 3 | **JavaScript** | 161 | 2,190,817 | **+21,992 ★** | +3,145 | +19.81 ★ |
-| 4 | **Rust** | 32 | 1,470,321 | **+11,067 ★** | +1,177 | +53.56 ★ |
-| 5 | **Go** | 91 | 1,993,939 | **+10,469 ★** | +652 | +16.54 ★ |
-| 6 | **Shell** | 57 | 1,209,678 | **+8,168 ★** | +8 | +20.55 ★ |
+| 1 | **TypeScript** | 160 | 5,127,415 | **+46,165 ★** | +5,182 | +46.9 ★ |
+| 2 | **Python** | 158 | 4,535,255 | **+34,703 ★** | +5,964 | +31.71 ★ |
+| 3 | **JavaScript** | 156 | 2,156,374 | **+22,193 ★** | +3,187 | +20.42 ★ |
+| 4 | **Rust** | 31 | 1,459,621 | **+10,931 ★** | +1,159 | +54.28 ★ |
+| 5 | **Go** | 90 | 1,997,433 | **+10,541 ★** | +642 | +16.73 ★ |
+| 6 | **Shell** | 52 | 1,190,848 | **+8,089 ★** | +5 | +22.32 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 313 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026111412/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026111412/LANG_PHP.md) |
-| **Python** | 256 个仓库 | [查看全部 Python 项目 →](data/dist/2026111412/LANG_Python.md) |
-| **TypeScript** | 232 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026111412/LANG_TypeScript.md) |
-| **NaN** | 177 个仓库 | [查看全部 NaN 项目 →](data/dist/2026111412/LANG_NaN.md) |
-| **Go** | 141 个仓库 | [查看全部 Go 项目 →](data/dist/2026111412/LANG_Go.md) |
-| **Shell** | 93 个仓库 | [查看全部 Shell 项目 →](data/dist/2026111412/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026111412/LANG_Java.md) |
-| **C** | 74 个仓库 | [查看全部 C 项目 →](data/dist/2026111412/LANG_C.md) |
-| **C#** | 68 个仓库 | [查看全部 C# 项目 →](data/dist/2026111412/LANG_C_.md) |
-| **C++** | 65 个仓库 | [查看全部 C++ 项目 →](data/dist/2026111412/LANG_C__.md) |
-| **HTML** | 60 个仓库 | [查看全部 HTML 项目 →](data/dist/2026111412/LANG_HTML.md) |
-| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026111412/LANG_Vue.md) |
-| **Kotlin** | 42 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026111412/LANG_Kotlin.md) |
-| **Rust** | 40 个仓库 | [查看全部 Rust 项目 →](data/dist/2026111412/LANG_Rust.md) |
+| **JavaScript** | 313 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026111418/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026111418/LANG_PHP.md) |
+| **Python** | 256 个仓库 | [查看全部 Python 项目 →](data/dist/2026111418/LANG_Python.md) |
+| **TypeScript** | 232 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026111418/LANG_TypeScript.md) |
+| **NaN** | 177 个仓库 | [查看全部 NaN 项目 →](data/dist/2026111418/LANG_NaN.md) |
+| **Go** | 141 个仓库 | [查看全部 Go 项目 →](data/dist/2026111418/LANG_Go.md) |
+| **Shell** | 93 个仓库 | [查看全部 Shell 项目 →](data/dist/2026111418/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026111418/LANG_Java.md) |
+| **C** | 74 个仓库 | [查看全部 C 项目 →](data/dist/2026111418/LANG_C.md) |
+| **C#** | 68 个仓库 | [查看全部 C# 项目 →](data/dist/2026111418/LANG_C_.md) |
+| **C++** | 65 个仓库 | [查看全部 C++ 项目 →](data/dist/2026111418/LANG_C__.md) |
+| **HTML** | 60 个仓库 | [查看全部 HTML 项目 →](data/dist/2026111418/LANG_HTML.md) |
+| **Vue** | 45 个仓库 | [查看全部 Vue 项目 →](data/dist/2026111418/LANG_Vue.md) |
+| **Kotlin** | 42 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026111418/LANG_Kotlin.md) |
+| **Rust** | 40 个仓库 | [查看全部 Rust 项目 →](data/dist/2026111418/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026111412/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026111418/ALL.md)
 
 ---
 
@@ -106,25 +106,25 @@
 
 > 以下为知识库最新收录并完成 AI 解析的高价值开源项目：
 
-- [DylanLIiii/opencode-antigravity-bridge](https://github.com/DylanLIiii/opencode-antigravity-bridge) ★50 [`magpie-plugin`]  
+- [DylanLIiii/opencode-antigravity-bridge](https://github.com/DylanLIiii/opencode-antigravity-bridge) ★52 [`magpie-plugin`]  
   面向 opencode 与 Antigravity 之间的集成需求，提供桥接与适配层，帮助两个工具或环境交换请求、结果与能力，减少直接对接所需的改造工作。通常适合希望在 Antigravity 工作流中调用 opencode 能力，或将 opencode 的编码辅助能力接入现有开发环境的场景；具体功能边界、配置方式与支持范围应以仓库文档为准。
-- [pingdotgg/t3code](https://github.com/pingdotgg/t3code) ★59712 [`agent-orchestration`] [`agents`] [`ai`] [`chatgpt`] [`claude`] [`claude-code`] [`code`] [`vibe-coding`]  
+- [pingdotgg/t3code](https://github.com/pingdotgg/t3code) ★59954 [`agent-orchestration`] [`agents`] [`ai`] [`chatgpt`] [`claude`] [`claude-code`] [`code`] [`vibe-coding`]  
   pingdotgg/t3code 是 T3 Code 的源码仓库，面向希望在现代 Web 技术栈中获得更轻量编码体验的开发者，核心围绕代码编辑、项目浏览与 AI 辅助开发工作流展开；适合体验 T3 生态下的编码工具、研究其前端与工程实现，或在此基础上进行二次开发。具体功能和可用范围以仓库文档与代码为准。
-- [salitronic/eda-agent](https://github.com/salitronic/eda-agent) ★358 [`ai`] [`ai-agent`] [`altium`] [`altium-designer`] [`claude`] [`claude-code`] [`delphiscript`] [`design-review`] [`drc`] [`easyeda`] [`eda`] [`electronic-design-automation`] [`hardware-design`] [`kicad`] [`kicad-pcb`] [`mcp`] [`model-context-protocol`] [`pcb`] [`pcb-design`] [`schematic`]  
+- [salitronic/eda-agent](https://github.com/salitronic/eda-agent) ★359 [`ai`] [`ai-agent`] [`altium`] [`altium-designer`] [`claude`] [`claude-code`] [`delphiscript`] [`design-review`] [`drc`] [`easyeda`] [`eda`] [`electronic-design-automation`] [`hardware-design`] [`kicad`] [`kicad-pcb`] [`mcp`] [`model-context-protocol`] [`pcb`] [`pcb-design`] [`schematic`]  
   面向电子设计自动化（EDA）领域的智能体项目，主要探索用 AI 代理辅助电路、芯片或 PCB 设计流程中的重复性任务，例如设计流程编排、工具调用与脚本生成。从命名来看，它更偏向把大模型驱动的 agent 能力接入 EDA 工具链，适合希望用自动化方式减少手工操作、加速设计迭代的工程师尝试；具体支持的场景和工具范围需以仓库文档与实际代码为准。
-- [Wangnov/codex-app-mirror](https://github.com/Wangnov/codex-app-mirror) ★4205 [`codex-app`] [`github-actions`] [`installer-mirror`] [`macos`] [`microsoft-store`] [`msix`] [`openai-codex`] [`windows`]  
+- [Wangnov/codex-app-mirror](https://github.com/Wangnov/codex-app-mirror) ★4208 [`codex-app`] [`github-actions`] [`installer-mirror`] [`macos`] [`microsoft-store`] [`msix`] [`openai-codex`] [`windows`]  
   面向 Codex 应用及其相关编程助手工具的镜像分发仓库，主要用于在网络受限或官方源访问不稳定的环境中获取安装包、更新文件与配套资源，帮助用户更顺利地完成下载、安装和版本同步。仓库名中的 mirror 表明其核心定位是提供替代下载入口或中转服务，通常适合在国内网络下使用 Codex 的开发者，也可为希望搭建内部镜像、减少外部源依赖的团队提供参考。具体支持范围、同步方式与使用说明以仓库文档为准。
 - [L0NE-6/Raccoon-Daily](https://github.com/L0NE-6/Raccoon-Daily) ★3 [`automation`] [`checkin`] [`daily-checkin`] [`github-actions`] [`python`] [`qinglong`] [`raccoon`] [`token-refresh`]  
   Raccoon-Daily 从仓库命名看，面向日常记录、每日打卡或例行任务管理这类轻量场景，可能用于个人整理每日事项、留存日常数据或简化重复性的日常操作。由于公开信息有限，具体功能和技术栈需结合仓库中的 README、脚本入口与依赖说明确认；使用前建议先了解其运行方式、所需环境及数据存储位置，再判断是否适合纳入自己的日常工作流。
-- [magpie-community/plugins](https://github.com/magpie-community/plugins) ★253  
+- [magpie-community/plugins](https://github.com/magpie-community/plugins) ★254  
   magpie-community/plugins 面向 Magpie 窗口缩放工具，集中维护社区贡献的扩展插件，主要用于补充额外缩放算法、图像处理效果或功能增强，让用户按需扩展 Magpie 的放大与画质调节能力。它适合想尝试不同缩放方案、改善低分辨率游戏或窗口显示效果的用户，也便于开发者提交和维护插件。具体插件列表、兼容版本与安装方式请以仓库说明为准。
-- [jub0t/Concat](https://github.com/jub0t/Concat) ★17399 [`ffmpeg`] [`free-video-editor`] [`model-context-protocol`] [`non-linear-editor`] [`offline-first`] [`open-source-video-editor`] [`self-hosted`] [`video-editing`] [`video-editing-automation`] [`video-editing-software`] [`video-editing-tools`] [`video-editor`] [`voice-cloning`] [`youtube-automation`] [`youtube-shorts`]  
+- [jub0t/Concat](https://github.com/jub0t/Concat) ★17461 [`ffmpeg`] [`free-video-editor`] [`model-context-protocol`] [`non-linear-editor`] [`offline-first`] [`open-source-video-editor`] [`self-hosted`] [`video-editing`] [`video-editing-automation`] [`video-editing-software`] [`video-editing-tools`] [`video-editor`] [`voice-cloning`] [`youtube-automation`] [`youtube-shorts`]  
   Concat 面向 Discord 社区的自建机器人场景，主要用于在服务器中提供命令响应、成员与消息管理以及日常互动等自动化能力。它适合希望自行部署并可按需扩展机器人功能的社区管理员或开发者，用于减少重复管理操作，并为群组提供统一的工具入口。具体命令集、权限配置和部署步骤需以仓库文档为准，使用前应确认运行环境与依赖要求。
-- [lili-luo/dsh-plugin-bundle](https://github.com/lili-luo/dsh-plugin-bundle) ★311  
+- [lili-luo/dsh-plugin-bundle](https://github.com/lili-luo/dsh-plugin-bundle) ★312  
   面向 dsh 相关工具或框架的插件打包仓库，用于集中组织、分发和加载一组插件，通常适合把多个功能插件按统一结构整合为可复用、可安装的插件集合，减少逐个安装与维护的成本。仓库名中的 bundle 暗示其重点在打包与聚合，而非单个插件的具体实现；实际包含的插件清单、依赖关系和安装方式，需以仓库内的说明文件为准。
-- [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) ★86954 [`agent`] [`llm`] [`rag`] [`tutorial`]  
+- [datawhalechina/hello-agents](https://github.com/datawhalechina/hello-agents) ★86966 [`agent`] [`llm`] [`rag`] [`tutorial`]  
   Datawhale China 出品的智能体入门学习教程，围绕大语言模型驱动的 AI Agent 展开，帮助学习者从零理解智能体的基本概念、常见组成方式与典型应用。内容通常涵盖提示词与工具调用、任务规划、记忆、检索增强、多智能体协作等主题，并配有循序渐进的讲解与动手实践，适合希望系统入门智能体开发的学生、开发者以及想了解 AI Agent 工作原理的读者作为自学或组队学习材料。
-- [adongwanai/AgentGuide](https://github.com/adongwanai/AgentGuide) ★11958 [`agentic-rl`] [`agenticrag`] [`ai-agent`] [`claude-code`] [`crewai`] [`graphrag`] [`grpo`] [`harness`] [`interview`] [`job-hunting`] [`llm`] [`rag`] [`sft`] [`tutorial`]  
+- [adongwanai/AgentGuide](https://github.com/adongwanai/AgentGuide) ★11962 [`agentic-rl`] [`agenticrag`] [`ai-agent`] [`claude-code`] [`crewai`] [`graphrag`] [`grpo`] [`harness`] [`interview`] [`job-hunting`] [`llm`] [`rag`] [`sft`] [`tutorial`]  
   面向 AI Agent（智能体）学习与实践的资料汇总型仓库，通常围绕大模型智能体的基础概念、常见架构模式、工具调用与任务编排思路等内容进行整理，帮助开发者建立从原理到落地的整体认识。适合刚接触智能体开发的学习者按图索骥，也可作为团队内部培训、技术分享或方案选型时的参考材料。具体覆盖范围与更新情况以仓库实际文档为准。
 
 ---
