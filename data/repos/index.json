@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-17 00:00:17",
+    "updated_at": "2026-11-17 06:00:20",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -706,7 +706,8 @@
         "2026111606": true,
         "2026111612": true,
         "2026111618": true,
-        "2026111700": true
+        "2026111700": true,
+        "2026111706": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7183,7 +7184,9 @@
         "dylanliiii\/opencode-antigravity-bridge": 1431240923,
         "opencode-antigravity-bridge": 1431240923,
         "1431240923": 1431240923,
-        "telegrammessenger\/telegram": 13862381
+        "telegrammessenger\/telegram": 13862381,
+        "telegrammessenger\/telegram-android": 13862381,
+        "telegram-android": 13862381
     },
     "repos_meta": {
         "13491895": {
@@ -12963,7 +12966,7 @@
         },
         "13862381": {
             "id": 13862381,
-            "full_name": "TelegramMessenger\/Telegram",
+            "full_name": "TelegramMessenger\/Telegram-Android",
             "file": "data\/repos\/13862381.json"
         },
         "108252892": {
@@ -17952,5 +17955,5 @@
             "file": "data\/repos\/1431240923.json"
         }
     },
-    "snapshot_count": 705
+    "snapshot_count": 706
 }

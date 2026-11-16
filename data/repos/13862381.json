@@ -2,20 +2,20 @@
     "status": "success",
     "repo": {
         "id": 13862381,
-        "full_name": "TelegramMessenger\/Telegram",
-        "name": "Telegram",
+        "full_name": "TelegramMessenger\/Telegram-Android",
+        "name": "Telegram-Android",
         "html_url": "https:\/\/github.com\/DrKLO\/Telegram",
         "language": "Java",
         "description": "Telegram 官方 Android 客户端的开源版本，提供端到端加密聊天、群组、频道、文件传输和语音通话等即时通讯功能，注重隐私保护与同步速度。适合需要高安全性、跨设备同步以及希望深入定制或自行编译客户端的技术用户，也可作为研究高性能 Android 网络应用和加密通信的参考实现。"
     },
     "summary": {
         "initial_stars": 26552,
-        "current_stars": 30302,
-        "star_diff": 3750,
-        "growth_rate": 14.12,
+        "current_stars": 30304,
+        "star_diff": 3752,
+        "growth_rate": 14.13,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-11-17 00:00",
-        "data_points_count": 661
+        "last_seen": "2026-11-17 06:00",
+        "data_points_count": 662
     },
     "history": [
         {
@@ -4644,6 +4644,13 @@
             "stars": 30302,
             "forks": 10580,
             "file": "data\/dist\/2026111700\/starList.public.json"
+        },
+        {
+            "date": "2026-11-17 06:00",
+            "timestamp": 1794866400,
+            "stars": 30304,
+            "forks": 10581,
+            "file": "data\/dist\/2026111706\/starList.public.json"
         }
     ]
 }
