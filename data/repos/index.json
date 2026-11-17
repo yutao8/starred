@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-17 06:00:20",
+    "updated_at": "2026-11-17 12:00:21",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -707,7 +707,8 @@
         "2026111612": true,
         "2026111618": true,
         "2026111700": true,
-        "2026111706": true
+        "2026111706": true,
+        "2026111712": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7186,7 +7187,10 @@
         "1431240923": 1431240923,
         "telegrammessenger\/telegram": 13862381,
         "telegrammessenger\/telegram-android": 13862381,
-        "telegram-android": 13862381
+        "telegram-android": 13862381,
+        "anywhere-labs\/agents-anywhere": 1246211773,
+        "agents-anywhere": 1246211773,
+        "1246211773": 1246211773
     },
     "repos_meta": {
         "13491895": {
@@ -17953,7 +17957,12 @@
             "id": 1431240923,
             "full_name": "DylanLIiii\/opencode-antigravity-bridge",
             "file": "data\/repos\/1431240923.json"
+        },
+        "1246211773": {
+            "id": 1246211773,
+            "full_name": "anywhere-labs\/Agents-Anywhere",
+            "file": "data\/repos\/1246211773.json"
         }
     },
-    "snapshot_count": 706
+    "snapshot_count": 707
 }
