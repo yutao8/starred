@@ -5,17 +5,17 @@
         "full_name": "clash-verge-rev\/clash-verge-rev",
         "name": "clash-verge-rev",
         "html_url": "https:\/\/github.com\/clash-verge-rev\/clash-verge-rev",
-        "language": "TypeScript",
+        "language": "Rust",
         "description": "Clash Verge Rev 是一款跨平台的 Clash 图形化客户端，基于 Tauri 开发，支持 Windows、macOS 和 Linux 系统。它主要用来管理和配置代理规则、订阅节点与内核参数，提供简洁直观的图形界面，替代繁琐的命令行操作。内置多种内核切换、订阅自动更新、流量统计、规则编辑等功能，适合需要科学上网且希望灵活掌控代理行为的普通用户和进阶用户，解决原版 Clash 缺少易用界面以及旧版项目停止维护的问题。"
     },
     "summary": {
         "initial_stars": 62755,
-        "current_stars": 159197,
-        "star_diff": 96442,
-        "growth_rate": 153.68,
+        "current_stars": 159215,
+        "star_diff": 96460,
+        "growth_rate": 153.71,
         "first_seen": "2025-06-24 15:00",
-        "last_seen": "2026-11-19 00:00",
-        "data_points_count": 713
+        "last_seen": "2026-11-19 06:00",
+        "data_points_count": 714
     },
     "history": [
         {
@@ -5008,6 +5008,13 @@
             "stars": 159197,
             "forks": 11461,
             "file": "data\/dist\/2026111900\/starList.public.json"
+        },
+        {
+            "date": "2026-11-19 06:00",
+            "timestamp": 1795039200,
+            "stars": 159215,
+            "forks": 11462,
+            "file": "data\/dist\/2026111906\/starList.public.json"
         }
     ]
 }
