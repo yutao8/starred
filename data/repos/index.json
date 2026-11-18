@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-18 12:00:18",
+    "updated_at": "2026-11-18 18:00:22",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -712,7 +712,8 @@
         "2026111718": true,
         "2026111800": true,
         "2026111806": true,
-        "2026111812": true
+        "2026111812": true,
+        "2026111818": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7197,7 +7198,10 @@
         "1246211773": 1246211773,
         "gylive\/google-ultra": 1461244802,
         "google-ultra": 1461244802,
-        "1461244802": 1461244802
+        "1461244802": 1461244802,
+        "raccoon-office\/box-agent": 1189460274,
+        "box-agent": 1189460274,
+        "1189460274": 1189460274
     },
     "repos_meta": {
         "13491895": {
@@ -17974,7 +17978,12 @@
             "id": 1461244802,
             "full_name": "gylive\/google-ultra",
             "file": "data\/repos\/1461244802.json"
+        },
+        "1189460274": {
+            "id": 1189460274,
+            "full_name": "Raccoon-Office\/Box-Agent",
+            "file": "data\/repos\/1189460274.json"
         }
     },
-    "snapshot_count": 711
+    "snapshot_count": 712
 }
