@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-19 12:00:17",
+    "updated_at": "2026-11-19 18:00:25",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -716,7 +716,8 @@
         "2026111818": true,
         "2026111900": true,
         "2026111906": true,
-        "2026111912": true
+        "2026111912": true,
+        "2026111918": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7204,7 +7205,13 @@
         "1461244802": 1461244802,
         "raccoon-office\/box-agent": 1189460274,
         "box-agent": 1189460274,
-        "1189460274": 1189460274
+        "1189460274": 1189460274,
+        "sqlpxc\/airhand": 1440888502,
+        "airhand": 1440888502,
+        "1440888502": 1440888502,
+        "qqxpee\/antigravity2-cn": 1253114461,
+        "antigravity2-cn": 1253114461,
+        "1253114461": 1253114461
     },
     "repos_meta": {
         "13491895": {
@@ -17986,7 +17993,17 @@
             "id": 1189460274,
             "full_name": "Raccoon-Office\/Box-Agent",
             "file": "data\/repos\/1189460274.json"
+        },
+        "1440888502": {
+            "id": 1440888502,
+            "full_name": "sqlpxc\/airhand",
+            "file": "data\/repos\/1440888502.json"
+        },
+        "1253114461": {
+            "id": 1253114461,
+            "full_name": "qqxpee\/antigravity2-cn",
+            "file": "data\/repos\/1253114461.json"
         }
     },
-    "snapshot_count": 715
+    "snapshot_count": 716
 }
