@@ -12,7 +12,7 @@
 | 📦 **收录仓库总量** | **2,117+** 个 | 涵盖 AI/LLM、后端开发、系统工具、前端框架等多领域 |
 | 🌐 **覆盖编程语言** | **57** 种 | Python、TypeScript、Go、Rust、JavaScript、PHP 等 |
 | 🤖 **AI 中文解析** | **100%** 覆盖 | 大模型深度提炼核心定位、功能亮点与实战应用场景 |
-| 🕒 **最后更新时间** | **2026-11-20 00:00:21** | 自动同步最新 Star 列表与历史快照 |
+| 🕒 **最后更新时间** | **2026-11-20 06:00:22** | 自动同步最新 Star 列表与历史快照 |
 
 ---
 
@@ -21,7 +21,7 @@
 - [**🚀 趋势分析报告 (Markdown)**](data/trend.md) — 7天增量/增长率/综合热度等多维排行榜
 - [**📊 趋势排行可视化看板 (trend.html)**](trend.html) — 交互式趋势看板与历史快照浏览器
 - [**📈 单项目历史折线图 (history.html)**](history.html) — 基于 ECharts 的项目 Star & Fork 增长轨迹走势
-- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026112000/ALL.md) — 完整仓库归档与离线索引
+- [**📚 查看全量仓库清单 (ALL.md)**](data/dist/2026112006/ALL.md) — 完整仓库归档与离线索引
 - [**📖 部署与配置文档 (DEPLOY.md)**](DEPLOY.md) — 本地运行与 GitHub Actions 自动化配置
 - [**🔌 History API 接口文档 (HISTORY_API.md)**](HISTORY_API.md) — 开放 JSON API 格式规范
 
@@ -34,30 +34,30 @@
 ### 1. 综合热度 Top 5
 | # | 仓库 | 语言 | 当前 ★ | 7天增量 | 增长率 | 核心简介 |
 |:-:|:---|:---:|-------:|-------:|-------:|:---|
-| 1 | [dream-num/univer](https://github.com/dream-num/univer) | `TypeScript` | 30,404 | **+7,052** | +30.1987% | 开源的 Web 办公套件，整合电子表格、文档和幻灯片三大核心应用，基于 … |
-| 2 | [morluto/rea](https://github.com/morluto/rea) | `TypeScript` | 469,510 | **+14,913** | +3.2805% | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人… |
-| 3 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | `TypeScript` | 66,083 | **+7,191** | +12.2105% | pingdotgg/t3code 是 T3 Code 的源码仓库，面向希… |
-| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 80,816 | **+9,680** | +13.6077% | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成… |
-| 5 | [gylive/google-ultra](https://github.com/gylive/google-ultra) | `Python` | 2,418 | **+1,034** | +74.711% | google-ultra 主要围绕 Google 相关服务的使用体验做辅… |
+| 1 | [dream-num/univer](https://github.com/dream-num/univer) | `TypeScript` | 30,425 | **+7,069** | +30.2663% | 开源的 Web 办公套件，整合电子表格、文档和幻灯片三大核心应用，基于 … |
+| 2 | [morluto/rea](https://github.com/morluto/rea) | `TypeScript` | 469,888 | **+14,786** | +3.2489% | morluto/rea 目前可查的公开说明较为有限，从现有信息看更像个人… |
+| 3 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | `TypeScript` | 66,323 | **+7,431** | +12.618% | pingdotgg/t3code 是 T3 Code 的源码仓库，面向希… |
+| 4 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 80,958 | **+9,676** | +13.5743% | 围绕免费模型的使用与接入，整理可参考的部署、调用或体验方案，适合希望低成… |
+| 5 | [gylive/google-ultra](https://github.com/gylive/google-ultra) | `Python` | 2,440 | **+1,056** | +76.3006% | google-ultra 主要围绕 Google 相关服务的使用体验做辅… |
 
 ### 2. 增速黑马 Top 5（≥500 ★）
 | # | 仓库 | 语言 | 当前 ★ | 增长率 | 7天增量 | 日均新增 |
 |:-:|:---|:---:|-------:|-------:|-------:|-------:|
-| 1 | [gylive/google-ultra](https://github.com/gylive/google-ultra) | `Python` | 2,418 | **+74.711%** | +1,034 | +590.86 ★/天 |
-| 2 | [dream-num/univer](https://github.com/dream-num/univer) | `TypeScript` | 30,404 | **+30.1987%** | +7,052 | +1007.43 ★/天 |
-| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 80,816 | **+13.6077%** | +9,680 | +1382.86 ★/天 |
-| 4 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | `TypeScript` | 66,083 | **+12.2105%** | +7,191 | +1150.56 ★/天 |
-| 5 | [jub0t/Concat](https://github.com/jub0t/Concat) | `Rust` | 18,908 | **+10.7545%** | +1,836 | +262.29 ★/天 |
+| 1 | [gylive/google-ultra](https://github.com/gylive/google-ultra) | `Python` | 2,440 | **+76.3006%** | +1,056 | +528 ★/天 |
+| 2 | [dream-num/univer](https://github.com/dream-num/univer) | `TypeScript` | 30,425 | **+30.2663%** | +7,069 | +1009.86 ★/天 |
+| 3 | [Ebony-Vinyl/dsh-our-free-model](https://github.com/Ebony-Vinyl/dsh-our-free-model) | `JavaScript` | 80,958 | **+13.5743%** | +9,676 | +1382.29 ★/天 |
+| 4 | [pingdotgg/t3code](https://github.com/pingdotgg/t3code) | `TypeScript` | 66,323 | **+12.618%** | +7,431 | +1143.23 ★/天 |
+| 5 | [sqlpxc/airhand](https://github.com/sqlpxc/airhand) | `Rust` | 1,777 | **+12.6109%** | +199 | +199 ★/天 |
 
 ### 3. 主流语言生态增长格局
 | # | 编程语言 | 收录仓库数 | Star 资产总量 | 7天总增量 | Fork 总增量 | 日均增/库 |
 |:-:|:---|-------:|-----------:|----------:|----------:|----------:|
-| 1 | **TypeScript** | 168 | 5,215,992 | **+53,321 ★** | +7,811 | +46.08 ★ |
-| 2 | **Python** | 146 | 4,531,778 | **+24,383 ★** | +3,044 | +27.07 ★ |
-| 3 | **JavaScript** | 157 | 2,200,111 | **+23,666 ★** | +3,132 | +21.64 ★ |
-| 4 | **Rust** | 36 | 1,473,756 | **+10,711 ★** | +1,363 | +46.26 ★ |
-| 5 | **Go** | 91 | 1,969,872 | **+9,190 ★** | +1,450 | +14.44 ★ |
-| 6 | **Kotlin** | 37 | 595,413 | **+6,414 ★** | +1,021 | +24.75 ★ |
+| 1 | **TypeScript** | 176 | 5,269,847 | **+53,467 ★** | +7,861 | +43.86 ★ |
+| 2 | **Python** | 171 | 4,612,824 | **+24,421 ★** | +2,986 | +22.75 ★ |
+| 3 | **JavaScript** | 194 | 2,534,393 | **+23,626 ★** | +3,568 | +17.5 ★ |
+| 4 | **Rust** | 36 | 1,489,021 | **+10,714 ★** | +1,371 | +47.25 ★ |
+| 5 | **Go** | 103 | 1,997,460 | **+9,062 ★** | +1,445 | +12.57 ★ |
+| 6 | **Kotlin** | 38 | 598,499 | **+6,406 ★** | +1,020 | +24.09 ★ |
 
 ---
 
@@ -82,23 +82,23 @@
 
 | 编程语言 | 收录数量 | 完整分类列表 |
 | :--- | :---: | :--- |
-| **JavaScript** | 314 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026112000/LANG_JavaScript.md) |
-| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026112000/LANG_PHP.md) |
-| **Python** | 259 个仓库 | [查看全部 Python 项目 →](data/dist/2026112000/LANG_Python.md) |
-| **TypeScript** | 232 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026112000/LANG_TypeScript.md) |
-| **NaN** | 176 个仓库 | [查看全部 NaN 项目 →](data/dist/2026112000/LANG_NaN.md) |
-| **Go** | 142 个仓库 | [查看全部 Go 项目 →](data/dist/2026112000/LANG_Go.md) |
-| **Shell** | 93 个仓库 | [查看全部 Shell 项目 →](data/dist/2026112000/LANG_Shell.md) |
-| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026112000/LANG_Java.md) |
-| **C** | 74 个仓库 | [查看全部 C 项目 →](data/dist/2026112000/LANG_C.md) |
-| **C#** | 68 个仓库 | [查看全部 C# 项目 →](data/dist/2026112000/LANG_C_.md) |
-| **C++** | 65 个仓库 | [查看全部 C++ 项目 →](data/dist/2026112000/LANG_C__.md) |
-| **HTML** | 60 个仓库 | [查看全部 HTML 项目 →](data/dist/2026112000/LANG_HTML.md) |
-| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026112000/LANG_Vue.md) |
-| **Kotlin** | 42 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026112000/LANG_Kotlin.md) |
-| **Rust** | 42 个仓库 | [查看全部 Rust 项目 →](data/dist/2026112000/LANG_Rust.md) |
+| **JavaScript** | 315 个仓库 | [查看全部 JavaScript 项目 →](data/dist/2026112006/LANG_JavaScript.md) |
+| **PHP** | 286 个仓库 | [查看全部 PHP 项目 →](data/dist/2026112006/LANG_PHP.md) |
+| **Python** | 260 个仓库 | [查看全部 Python 项目 →](data/dist/2026112006/LANG_Python.md) |
+| **TypeScript** | 232 个仓库 | [查看全部 TypeScript 项目 →](data/dist/2026112006/LANG_TypeScript.md) |
+| **NaN** | 176 个仓库 | [查看全部 NaN 项目 →](data/dist/2026112006/LANG_NaN.md) |
+| **Go** | 142 个仓库 | [查看全部 Go 项目 →](data/dist/2026112006/LANG_Go.md) |
+| **Shell** | 92 个仓库 | [查看全部 Shell 项目 →](data/dist/2026112006/LANG_Shell.md) |
+| **Java** | 78 个仓库 | [查看全部 Java 项目 →](data/dist/2026112006/LANG_Java.md) |
+| **C** | 74 个仓库 | [查看全部 C 项目 →](data/dist/2026112006/LANG_C.md) |
+| **C#** | 68 个仓库 | [查看全部 C# 项目 →](data/dist/2026112006/LANG_C_.md) |
+| **C++** | 65 个仓库 | [查看全部 C++ 项目 →](data/dist/2026112006/LANG_C__.md) |
+| **HTML** | 60 个仓库 | [查看全部 HTML 项目 →](data/dist/2026112006/LANG_HTML.md) |
+| **Vue** | 44 个仓库 | [查看全部 Vue 项目 →](data/dist/2026112006/LANG_Vue.md) |
+| **Kotlin** | 42 个仓库 | [查看全部 Kotlin 项目 →](data/dist/2026112006/LANG_Kotlin.md) |
+| **Rust** | 42 个仓库 | [查看全部 Rust 项目 →](data/dist/2026112006/LANG_Rust.md) |
 
-> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026112000/ALL.md)
+> 更多语言请查看 [**→ 所有仓库归档 (ALL.md)**](data/dist/2026112006/ALL.md)
 
 ---
 
@@ -106,23 +106,23 @@
 
 > 以下为知识库最新收录并完成 AI 解析的高价值开源项目：
 
-- [qqxpee/antigravity2-cn](https://github.com/qqxpee/antigravity2-cn) ★1537  
+- [qqxpee/antigravity2-cn](https://github.com/qqxpee/antigravity2-cn) ★1541  
   面向 Antigravity2 的中文本地化项目，主要用于整理并提供中文翻译、汉化补丁或相关说明，帮助中文用户降低使用该工具时的语言门槛。通常适合希望以中文界面或中文文档了解和使用 Antigravity2 的开发者与普通用户，也可作为社区协作维护翻译资源的参考；具体支持范围与安装方式需以仓库说明为准。
-- [sqlpxc/airhand](https://github.com/sqlpxc/airhand) ★1736  
+- [sqlpxc/airhand](https://github.com/sqlpxc/airhand) ★1777  
   airhand 从命名看面向隔空手势交互，主要用于通过摄像头或传感器捕捉手部动作并转换为控制指令，适合无接触操作、互动展示等场景。由于缺少可核实的仓库说明，具体功能边界、技术栈与运行方式建议以项目文档和示例代码为准，采用前先确认依赖环境与许可协议。
 - [Raccoon-Office/Box-Agent](https://github.com/Raccoon-Office/Box-Agent) ★19  
   Box-Agent 是 Raccoon-Office 组织下的一个智能体项目，名称中的“Raccoon”和“Office”暗示它面向办公自动化场景，通常适合用来探索或搭建基于大模型的办公助手流程。由于仓库公开信息有限，无法可靠确认它的具体技术栈和模块划分，但可以判断它属于 Agent 方向的项目，可能涉及任务编排、工具调用或对话式交互等常见能力，主要用于把办公场景中的重复操作交给自动化智能体处理，帮助开发者快速试验和集成自己的 AI 办公助手。适合希望基于现有骨架扩展企业或个人办公自动化能力的开发者参考，具体能力需要结合仓库文档进一步确认。
-- [gylive/google-ultra](https://github.com/gylive/google-ultra) ★2418  
+- [gylive/google-ultra](https://github.com/gylive/google-ultra) ★2440  
   google-ultra 主要围绕 Google 相关服务的使用体验做辅助增强，常见场景包括搜索入口优化、页面访问辅助或界面功能扩展，适合希望更顺畅使用 Google 生态工具的用户。仓库名称指向较宽，具体能力、部署方式和配置项需以项目文档为准，建议结合自身浏览器与网络环境进行配置。
-- [anywhere-labs/Agents-Anywhere](https://github.com/anywhere-labs/Agents-Anywhere) ★3582 [`acp`] [`agentclientprotocol`] [`agents`] [`claudecode`] [`codex`] [`codex-app`] [`dsh`] [`dsh-plugin`] [`dsh-plugins`] [`llm`] [`opencode`] [`remote`] [`remote-control`]  
+- [anywhere-labs/Agents-Anywhere](https://github.com/anywhere-labs/Agents-Anywhere) ★3585 [`acp`] [`agentclientprotocol`] [`agents`] [`claudecode`] [`codex`] [`codex-app`] [`dsh`] [`dsh-plugin`] [`dsh-plugins`] [`llm`] [`opencode`] [`remote`] [`remote-control`]  
   Agents-Anywhere 面向 AI 智能体的跨环境运行与集成场景，试图让 Agent 能力不被单一平台或入口限制，便于在不同应用与运行环境中复用和落地。它通常适合需要把智能体接入现有工作流、构建多场景助手或验证 Agent 原型的开发者，重点关注部署、连接与使用体验。具体能力与支持范围应以仓库文档和示例为准。
-- [DylanLIiii/opencode-antigravity-bridge](https://github.com/DylanLIiii/opencode-antigravity-bridge) ★69 [`magpie-plugin`]  
+- [DylanLIiii/opencode-antigravity-bridge](https://github.com/DylanLIiii/opencode-antigravity-bridge) ★71 [`magpie-plugin`]  
   面向 opencode 与 Antigravity 之间的集成需求，提供桥接与适配层，帮助两个工具或环境交换请求、结果与能力，减少直接对接所需的改造工作。通常适合希望在 Antigravity 工作流中调用 opencode 能力，或将 opencode 的编码辅助能力接入现有开发环境的场景；具体功能边界、配置方式与支持范围应以仓库文档为准。
-- [pingdotgg/t3code](https://github.com/pingdotgg/t3code) ★66083 [`agent-orchestration`] [`agents`] [`ai`] [`chatgpt`] [`claude`] [`claude-code`] [`code`] [`vibe-coding`]  
+- [pingdotgg/t3code](https://github.com/pingdotgg/t3code) ★66323 [`agent-orchestration`] [`agents`] [`ai`] [`chatgpt`] [`claude`] [`claude-code`] [`code`] [`vibe-coding`]  
   pingdotgg/t3code 是 T3 Code 的源码仓库，面向希望在现代 Web 技术栈中获得更轻量编码体验的开发者，核心围绕代码编辑、项目浏览与 AI 辅助开发工作流展开；适合体验 T3 生态下的编码工具、研究其前端与工程实现，或在此基础上进行二次开发。具体功能和可用范围以仓库文档与代码为准。
 - [salitronic/eda-agent](https://github.com/salitronic/eda-agent) ★382 [`ai`] [`ai-agent`] [`altium`] [`altium-designer`] [`claude`] [`claude-code`] [`delphiscript`] [`design-review`] [`drc`] [`easyeda`] [`eda`] [`electronic-design-automation`] [`hardware-design`] [`kicad`] [`kicad-pcb`] [`mcp`] [`model-context-protocol`] [`pcb`] [`pcb-design`] [`schematic`]  
   面向电子设计自动化（EDA）领域的智能体项目，主要探索用 AI 代理辅助电路、芯片或 PCB 设计流程中的重复性任务，例如设计流程编排、工具调用与脚本生成。从命名来看，它更偏向把大模型驱动的 agent 能力接入 EDA 工具链，适合希望用自动化方式减少手工操作、加速设计迭代的工程师尝试；具体支持的场景和工具范围需以仓库文档与实际代码为准。
-- [Wangnov/codex-app-mirror](https://github.com/Wangnov/codex-app-mirror) ★4259 [`codex-app`] [`github-actions`] [`installer-mirror`] [`macos`] [`microsoft-store`] [`msix`] [`openai-codex`] [`windows`]  
+- [Wangnov/codex-app-mirror](https://github.com/Wangnov/codex-app-mirror) ★4262 [`codex-app`] [`github-actions`] [`installer-mirror`] [`macos`] [`microsoft-store`] [`msix`] [`openai-codex`] [`windows`]  
   面向 Codex 应用及其相关编程助手工具的镜像分发仓库，主要用于在网络受限或官方源访问不稳定的环境中获取安装包、更新文件与配套资源，帮助用户更顺利地完成下载、安装和版本同步。仓库名中的 mirror 表明其核心定位是提供替代下载入口或中转服务，通常适合在国内网络下使用 Codex 的开发者，也可为希望搭建内部镜像、减少外部源依赖的团队提供参考。具体支持范围、同步方式与使用说明以仓库文档为准。
 - [L0NE-6/Raccoon-Daily](https://github.com/L0NE-6/Raccoon-Daily) ★3 [`automation`] [`checkin`] [`daily-checkin`] [`github-actions`] [`python`] [`qinglong`] [`raccoon`] [`token-refresh`]  
   Raccoon-Daily 从仓库命名看，面向日常记录、每日打卡或例行任务管理这类轻量场景，可能用于个人整理每日事项、留存日常数据或简化重复性的日常操作。由于公开信息有限，具体功能和技术栈需结合仓库中的 README、脚本入口与依赖说明确认；使用前建议先了解其运行方式、所需环境及数据存储位置，再判断是否适合纳入自己的日常工作流。
