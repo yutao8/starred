@@ -1,6 +1,6 @@
 {
     "status": "success",
-    "updated_at": "2026-11-21 18:00:19",
+    "updated_at": "2026-11-22 00:00:22",
     "processed_snapshots": {
         "2025062415": true,
         "2025062416": true,
@@ -725,7 +725,8 @@
         "2026112100": true,
         "2026112106": true,
         "2026112112": true,
-        "2026112118": true
+        "2026112118": true,
+        "2026112200": true
     },
     "map": {
         "ebookfoundation\/free-programming-books": 13491895,
@@ -7225,7 +7226,10 @@
         "158043961": 158043961,
         "11273\/qzonephoto": 998226115,
         "qzonephoto": 998226115,
-        "998226115": 998226115
+        "998226115": 998226115,
+        "oschwartz10612\/poppler-windows": 275646372,
+        "poppler-windows": 275646372,
+        "275646372": 275646372
     },
     "repos_meta": {
         "13491895": {
@@ -18027,7 +18031,12 @@
             "id": 998226115,
             "full_name": "11273\/QzonePhoto",
             "file": "data\/repos\/998226115.json"
+        },
+        "275646372": {
+            "id": 275646372,
+            "full_name": "oschwartz10612\/poppler-windows",
+            "file": "data\/repos\/275646372.json"
         }
     },
-    "snapshot_count": 724
+    "snapshot_count": 725
 }
