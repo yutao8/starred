@@ -5,17 +5,17 @@
         "full_name": "anywhere-labs\/Agents-Anywhere",
         "name": "Agents-Anywhere",
         "html_url": "https:\/\/github.com\/anywhere-labs\/Agents-Anywhere",
-        "language": "TypeScript",
+        "language": "Python",
         "description": "Agents-Anywhere 面向 AI 智能体的跨环境运行与集成场景，试图让 Agent 能力不被单一平台或入口限制，便于在不同应用与运行环境中复用和落地。它通常适合需要把智能体接入现有工作流、构建多场景助手或验证 Agent 原型的开发者，重点关注部署、连接与使用体验。具体能力与支持范围应以仓库文档和示例为准。"
     },
     "summary": {
         "initial_stars": 3485,
-        "current_stars": 3653,
-        "star_diff": 168,
-        "growth_rate": 4.82,
+        "current_stars": 3663,
+        "star_diff": 178,
+        "growth_rate": 5.11,
         "first_seen": "2026-11-17 12:00",
-        "last_seen": "2026-11-22 12:00",
-        "data_points_count": 21
+        "last_seen": "2026-11-22 18:00",
+        "data_points_count": 22
     },
     "history": [
         {
@@ -164,6 +164,13 @@
             "stars": 3653,
             "forks": 304,
             "file": "data\/dist\/2026112212\/starList.public.json"
+        },
+        {
+            "date": "2026-11-22 18:00",
+            "timestamp": 1795341600,
+            "stars": 3663,
+            "forks": 304,
+            "file": "data\/dist\/2026112218\/starList.public.json"
         }
     ]
 }
