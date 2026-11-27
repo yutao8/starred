@@ -6,6 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
+  actions: read
   contents: read
   pages: write
   id-token: write
@@ -56,6 +57,22 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: artifact
+
+      - name: Wait for Pages artifact metadata
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          for i in $(seq 1 15); do
+            count=$(gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts?name=github-pages" --jq '.total_count' 2>/dev/null || echo "err")
+            echo "Attempt $i: artifact count=$count"
+            if [ "$count" != "err" ] && [ "$count" -ge 1 ] 2>/dev/null; then
+              sleep 3
+              exit 0
+            fi
+            sleep 2
+          done
+          echo "Artifact metadata polling timed out, waiting 5s before deploy..."
+          sleep 5
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
